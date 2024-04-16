@@ -4,6 +4,8 @@ using static Iskra.Reactivity.ReactivityApi;
 
 Ref<int> counter = new(0);
 IComputedRef<int> computedCounter = Computed(() => counter.Value);
+IComputedRef<int> computedOfComputedCounter = Computed(() => computedCounter.Value);
+
 
 EffectsScope counterScope = new();
 counterScope.Run(() =>
@@ -18,6 +20,12 @@ counterScope.Run(() =>
     {
         Console.WriteLine("Effect for computed called.");
         Console.WriteLine($"Tracking computed counter: {computedCounter.Value}");
+    });
+
+    WatchEffect(() =>
+    {
+        Console.WriteLine("Effect for computed of computed called.");
+        Console.WriteLine($"Tracking computed of computed counter: {computedOfComputedCounter.Value}");
     });
 });
 
