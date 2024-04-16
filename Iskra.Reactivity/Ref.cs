@@ -1,4 +1,4 @@
-namespace IskraSample;
+namespace Iskra.Reactivity;
 
 public class Ref<TValue>(TValue value)
 {
@@ -13,6 +13,11 @@ public class Ref<TValue>(TValue value)
         }
         set
         {
+            if (value?.Equals(_value) == true)
+            {
+                return;
+            }
+
             _value = value;
             DepsTracking.Trigger(this, nameof(Value));
         }

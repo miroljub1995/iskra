@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IskraSample", "IskraSample\IskraSample.csproj", "{B4B13060-E383-4B9F-8693-7B06B972C16B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Reactivity", "Iskra.Reactivity\Iskra.Reactivity.csproj", "{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B4B13060-E383-4B9F-8693-7B06B972C16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4B13060-E383-4B9F-8693-7B06B972C16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4B13060-E383-4B9F-8693-7B06B972C16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

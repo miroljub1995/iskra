@@ -1,10 +1,12 @@
-namespace IskraSample;
+using Iskra.Reactivity.Effects;
+
+namespace Iskra.Reactivity;
 
 public class EffectsScope : IDisposable
 {
     public static EffectsScope? Active;
 
-    private readonly List<Effect> _effects = [];
+    private readonly List<IEffect> _effects = [];
 
     public void Run(Action action)
     {
@@ -22,14 +24,19 @@ public class EffectsScope : IDisposable
 
     public void Dispose()
     {
-        foreach (Effect effect in _effects)
+        foreach (IEffect effect in _effects.ToList())
         {
             effect.Dispose();
         }
     }
 
-    public void AttachEffect(Effect effect)
+    public void AttachEffect(IEffect effect)
     {
         _effects.Add(effect);
+    }
+
+    public void DetachEffect(IEffect effect)
+    {
+        _effects.Remove(effect);
     }
 }

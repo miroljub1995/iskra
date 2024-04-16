@@ -1,8 +1,10 @@
-namespace IskraSample;
+using Iskra.Reactivity.Effects;
+
+namespace Iskra.Reactivity;
 
 public static class DepsTracking
 {
-    private static readonly Dictionary<object, Dictionary<string, HashSet<Effect>>> DepsMap = new();
+    private static readonly Dictionary<object, Dictionary<string, List<IEffect>>> DepsMap = new();
 
     public static void Track(object obj, string prop)
     {
@@ -30,19 +32,19 @@ public static class DepsTracking
     {
         if (DepsMap.TryGetValue(obj, out var valByObj) && valByObj.TryGetValue(prop, out var effects))
         {
-            foreach (Effect effect in effects.ToList())
+            foreach (IEffect effect in effects.ToList())
             {
                 effect.Trigger();
             }
         }
     }
 
-    public static void RemoveEffect(Effect effect)
+    public static void RemoveEffect(IEffect effect)
     {
         List<(object, string)> foundInKeys = [];
-        foreach (KeyValuePair<object, Dictionary<string, HashSet<Effect>>> objectKeyValue in DepsMap)
+        foreach (KeyValuePair<object, Dictionary<string, List<IEffect>>> objectKeyValue in DepsMap)
         {
-            foreach (KeyValuePair<string, HashSet<Effect>> propKeyValue in objectKeyValue.Value)
+            foreach (KeyValuePair<string, List<IEffect>> propKeyValue in objectKeyValue.Value)
             {
                 if (propKeyValue.Value.Contains(effect))
                 {

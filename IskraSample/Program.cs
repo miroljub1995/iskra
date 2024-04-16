@@ -1,14 +1,23 @@
-﻿using IskraSample;
+﻿using Iskra.Reactivity;
+using IskraSample;
+using static Iskra.Reactivity.ReactivityApi;
 
-Ref<int> counter = new Ref<int>(0);
+Ref<int> counter = new(0);
+IComputedRef<int> computedCounter = Computed(() => counter.Value);
 
 EffectsScope counterScope = new();
 counterScope.Run(() =>
 {
-    WatchEffectHelper.WatchEffect(() =>
+    WatchEffect(() =>
     {
         Console.WriteLine("Effect called.");
         Console.WriteLine($"Tracking counter: {counter.Value}");
+    });
+
+    WatchEffect(() =>
+    {
+        Console.WriteLine("Effect for computed called.");
+        Console.WriteLine($"Tracking computed counter: {computedCounter.Value}");
     });
 });
 
@@ -37,7 +46,7 @@ Ref<HelloWorld> testRef = new HelloWorld()
 EffectsScope scope = new();
 scope.Run(() =>
 {
-    WatchEffectHelper.WatchEffect(() =>
+    ReactivityApi.WatchEffect(() =>
     {
         Console.WriteLine("Effect called.");
         Console.WriteLine($"Tracking TestProp: {testRef.Value.TestProp}");
