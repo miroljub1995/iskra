@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script type="module">
+        import {dotnet} from "/_framework/dotnet.js";
+
+        const run = async () => {
+            const {getAssemblyExports, getConfig} = await dotnet.create();
+
+            const exports = await getAssemblyExports(getConfig().mainAssemblyName);
+            console.log("dotnet exports", exports)
+
+            await dotnet.run();
+        }
+
+        run();
+    </script>
+    <script type='module' src="/_framework/dotnet.js"></script>
+</head>
+<body>
+test
+</body>
+</html>

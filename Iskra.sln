@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IskraSample", "IskraSample\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Reactivity", "Iskra.Reactivity\Iskra.Reactivity.csproj", "{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.MinimalWasmExample", "Iskra.MinimalWasmExample\Iskra.MinimalWasmExample.csproj", "{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
