@@ -4,27 +4,46 @@ using System.Runtime.Versioning;
 namespace Iskra.JSFunction;
 
 [SupportedOSPlatform("browser")]
-public partial class JSFunction(JSObject func)
+public partial class JSFunction(JSObject? thisObj, JSObject func)
 {
     private const string ProxyMethodName = "iskra_callFunction";
     private static bool _hasProxyMethod;
 
-    public object Call(params object[] args)
+    public object? Call(params object[] args)
+    {
+        EnsureMethodProxyExists();
+
+        return CallFunction(thisObj, func, args);
+    }
+
+    public TRes Call<TRes>(params object[] args)
+    {
+        object? anyRes = Call(args);
+        Console.WriteLine($"res is null: {anyRes is null}");
+        if (anyRes is TRes res)
+        {
+            return res;
+        }
+
+        throw new Exception($"Result type '{anyRes?.GetType()}' is not {typeof(TRes)}");
+    }
+
+    private static void EnsureMethodProxyExists()
     {
         if (!_hasProxyMethod)
         {
             JSHost.GlobalThis.SetProperty(ProxyMethodName,
-                Function("arguments[0](...arguments[1])"));
+                Function("thisObj", "func", "args", "return func.apply(thisObj, args);"));
             _hasProxyMethod = true;
         }
-
-        return CallFunction(func, args);
     }
 
     [JSImport($"globalThis.{ProxyMethodName}")]
     [return: JSMarshalAs<JSType.Any>]
-    private static partial object CallFunction(JSObject func, [JSMarshalAs<JSType.Array<JSType.Any>>] object[] args);
+    private static partial object? CallFunction(JSObject? thisObj, JSObject? func,
+        [JSMarshalAs<JSType.Array<JSType.Any>>]
+        object[] args);
 
     [JSImport("globalThis.Function")]
-    private static partial JSObject Function(string code);
+    private static partial JSObject Function(string thisObjArg, string funcArg, string argsArg, string code);
 }
