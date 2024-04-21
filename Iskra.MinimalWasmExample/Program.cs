@@ -23,12 +23,13 @@ public static class Program
 
         // JSHost.GlobalThis.GetPropertyAsJSObject("console").GetPropertyAsJSFunction("log").Call("some testtttt");
 
-        HtmlInputElement? element = new Window(JSHost.GlobalThis)
-            .Document
-            .GetElementById<HtmlInputElement>("test-input");
-        
-        Console.WriteLine($"Element is null {element is null}");
-        
+        HtmlInputElement element = new Window(JSHost.GlobalThis)
+                                       .Document
+                                       .GetElementById<HtmlInputElement>("test-input")
+                                   ?? throw new("Element not found.");
+
+        Console.WriteLine($"Element value {element.Value}");
+
         // JSHost.GlobalThis
         //     .GetPropertyAsJSObject("console")
         //     .GetPropertyAsJSFunction("log")
