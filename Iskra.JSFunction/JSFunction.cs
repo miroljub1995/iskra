@@ -7,11 +7,11 @@ namespace Iskra.JSFunction;
 public partial class JSFunction(JSObject? thisObj, JSObject func)
 {
     private const string ProxyMethodName = "iskra_callFunction";
-    private static bool _hasProxyMethod;
+    private static bool _isProxyInitialized;
 
     public object? Call(params object[] args)
     {
-        EnsureMethodProxyExists();
+        EnsureMethodProxyInitialized();
 
         return CallFunction(thisObj, func, args);
     }
@@ -28,13 +28,13 @@ public partial class JSFunction(JSObject? thisObj, JSObject func)
         throw new Exception($"Result type '{anyRes?.GetType()}' is not {typeof(TRes)}");
     }
 
-    private static void EnsureMethodProxyExists()
+    private static void EnsureMethodProxyInitialized()
     {
-        if (!_hasProxyMethod)
+        if (!_isProxyInitialized)
         {
             JSHost.GlobalThis.SetProperty(ProxyMethodName,
                 Function("thisObj", "func", "args", "return func.apply(thisObj, args);"));
-            _hasProxyMethod = true;
+            _isProxyInitialized = true;
         }
     }
 
