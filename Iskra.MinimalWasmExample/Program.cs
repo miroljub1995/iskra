@@ -14,7 +14,7 @@ public static class Program
 
         Console.WriteLine($"Element value {element.Value}");
 
-        element.AddEventListener("input", (ev) =>
+        element.AddEventListener("input", ev =>
         {
             if (ev.Target?.JSObject.InstanceOf(out HtmlInputElement? input) == true)
             {
