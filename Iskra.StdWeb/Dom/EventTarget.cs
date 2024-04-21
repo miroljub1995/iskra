@@ -3,8 +3,6 @@ using Iskra.Utils;
 
 namespace Iskra.StdWeb.Dom;
 
-public delegate void EventListener(Event e);
-
 public class EventTarget(JSObject obj) : JSObjectWrapper(obj)
 {
     public void AddEventListener(string type, EventListener listener, bool? options = null)
