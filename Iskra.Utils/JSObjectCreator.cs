@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 
-namespace Iskra.JSFunction;
+namespace Iskra.Utils;
 
 public static partial class JSObjectCreator
 {

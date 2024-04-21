@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Iskra.JSFunction\Iskra.JSFunction.csproj" />
+      <ProjectReference Include="..\Iskra.Utils\Iskra.Utils.csproj" />
       <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
     </ItemGroup>
 

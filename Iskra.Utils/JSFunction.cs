@@ -1,7 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
 using System.Runtime.Versioning;
 
-namespace Iskra.JSFunction;
+namespace Iskra.Utils;
 
 [SupportedOSPlatform("browser")]
 public partial class JSFunction(JSObject? thisObj, JSObject func)

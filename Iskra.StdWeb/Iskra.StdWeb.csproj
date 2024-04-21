@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\Iskra.JSFunction\Iskra.JSFunction.csproj" />
+    <ProjectReference Include="..\Iskra.Utils\Iskra.Utils.csproj" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,5 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
 using System.Runtime.Versioning;
-using Iskra.JSFunction;
 using Iskra.StdWeb;
 using Iskra.StdWeb.Dom;
 

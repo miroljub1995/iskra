@@ -1,5 +1,5 @@
 using System.Runtime.InteropServices.JavaScript;
-using Iskra.JSFunction;
+using Iskra.Utils;
 
 namespace Iskra.StdWeb.Dom;
 
@@ -12,8 +12,8 @@ public class Document(JSObject obj) : Node(obj)
 
     public Element CreateElement(HtmlElementTagNames tagName, ElementCreationOptions? options)
     {
-        JSFunction.JSFunction func = JSObject.GetPropertyAsJSFunction("createElement")
-                                     ?? throw new("Create element is null");
+        Utils.JSFunction func = JSObject.GetPropertyAsJSFunction("createElement")
+                                ?? throw new("Create element is null");
 
         JSObject element = func.Call<JSObject>(Enum.GetName(tagName), options?.JsObject);
 
@@ -22,8 +22,8 @@ public class Document(JSObject obj) : Node(obj)
 
     public Element? GetElementById(string elementId)
     {
-        JSFunction.JSFunction func = JSObject.GetPropertyAsJSFunction("getElementById")
-                                     ?? throw new("getElementById not found");
+        Utils.JSFunction func = JSObject.GetPropertyAsJSFunction("getElementById")
+                                ?? throw new("getElementById not found");
 
         object? resObj = func.Call(elementId);
 
