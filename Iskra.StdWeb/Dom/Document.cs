@@ -15,7 +15,7 @@ public class Document(JSObject obj) : Node(obj)
         Utils.JSFunction func = JSObject.GetPropertyAsJSFunction("createElement")
                                 ?? throw new("Create element is null");
 
-        JSObject element = func.Call<JSObject>(Enum.GetName(tagName), options?.JsObject);
+        JSObject element = func.Call<JSObject>(Enum.GetName(tagName), options?.JSObject);
 
         return From(element, tagName);
     }

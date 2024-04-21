@@ -1,22 +1,18 @@
 using System.Runtime.InteropServices.JavaScript;
+using Iskra.StdWeb.Dom;
 using Iskra.Utils;
 
 namespace Iskra.StdWeb;
 
-public class ElementCreationOptions : IJSObject
+public class ElementCreationOptions(JSObject obj) : JSObjectWrapper(obj)
 {
-    private readonly JSObject _obj;
-
-    private ElementCreationOptions()
+    public ElementCreationOptions() : this(JSObjectCreator.Create())
     {
-        _obj = JSObjectCreator.Create();
     }
-
-    public JSObject JsObject => _obj;
 
     public string? Is
     {
-        get => _obj.GetPropertyAsString("is");
-        set => _obj.SetProperty("is", value);
+        get => JSObject.GetPropertyAsString("is");
+        set => JSObject.SetProperty("is", value);
     }
 }

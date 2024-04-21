@@ -18,4 +18,12 @@ public static class JSObjectExtensions
 
         throw new ArgumentException("Object is not a function.");
     }
+
+
+    private static Lazy<JSFunction> _instanceOfFunction = new(() => JSFunctionConstructor
+        .Function("object", "constructor", "return object instanceof constructor;")
+        .AsJSFunction());
+
+    public static bool InstanceOf(this object? obj, JSObject constructor) =>
+        _instanceOfFunction.Value.Call<bool>(obj, constructor);
 }

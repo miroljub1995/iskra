@@ -1,11 +1,8 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
-using System.Runtime.Versioning;
-using Iskra.StdWeb;
 using Iskra.StdWeb.Dom;
 
 namespace Iskra.MinimalWasmExample;
 
-[SupportedOSPlatform("browser")]
 public static class Program
 {
     static async Task Main(string[] args)
@@ -23,12 +20,24 @@ public static class Program
 
         // JSHost.GlobalThis.GetPropertyAsJSObject("console").GetPropertyAsJSFunction("log").Call("some testtttt");
 
+
+        Console.WriteLine("Is good contructor ");
+
+
         HtmlInputElement element = new Window(JSHost.GlobalThis)
                                        .Document
                                        .GetElementById<HtmlInputElement>("test-input")
                                    ?? throw new("Element not found.");
 
         Console.WriteLine($"Element value {element.Value}");
+
+        element.AddEventListener("input", (ev) =>
+        {
+            if (ev.Target?.JSObject.InstanceOf(out HtmlInputElement? input) == true)
+            {
+                Console.WriteLine($"Got event from input with value '{input.Value}'");
+            }
+        });
 
         // JSHost.GlobalThis
         //     .GetPropertyAsJSObject("console")

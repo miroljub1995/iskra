@@ -1,9 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
-using System.Runtime.Versioning;
 
 namespace Iskra.Utils;
 
-[SupportedOSPlatform("browser")]
 public partial class JSFunction(JSObject? thisObj, JSObject func)
 {
     private const string ProxyMethodName = "iskra_callFunction";
@@ -19,7 +17,6 @@ public partial class JSFunction(JSObject? thisObj, JSObject func)
     public TRes Call<TRes>(params object?[] args)
     {
         object? anyRes = Call(args);
-        Console.WriteLine($"res is null: {anyRes is null}");
         if (anyRes is TRes res)
         {
             return res;
