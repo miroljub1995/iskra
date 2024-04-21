@@ -9,14 +9,14 @@ public partial class JSFunction(JSObject? thisObj, JSObject func)
     private const string ProxyMethodName = "iskra_callFunction";
     private static bool _isProxyInitialized;
 
-    public object? Call(params object[] args)
+    public object? Call(params object?[] args)
     {
         EnsureMethodProxyInitialized();
 
         return CallFunction(thisObj, func, args);
     }
 
-    public TRes Call<TRes>(params object[] args)
+    public TRes Call<TRes>(params object?[] args)
     {
         object? anyRes = Call(args);
         Console.WriteLine($"res is null: {anyRes is null}");
@@ -42,7 +42,7 @@ public partial class JSFunction(JSObject? thisObj, JSObject func)
     [return: JSMarshalAs<JSType.Any>]
     private static partial object? CallFunction(JSObject? thisObj, JSObject? func,
         [JSMarshalAs<JSType.Array<JSType.Any>>]
-        object[] args);
+        object?[] args);
 
     [JSImport("globalThis.Function")]
     private static partial JSObject Function(string thisObjArg, string funcArg, string argsArg, string code);

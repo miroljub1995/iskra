@@ -1,6 +1,8 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
 using System.Runtime.Versioning;
 using Iskra.JSFunction;
+using Iskra.StdWeb;
+using Iskra.StdWeb.Dom;
 
 namespace Iskra.MinimalWasmExample;
 
@@ -22,27 +24,28 @@ public static class Program
 
         // JSHost.GlobalThis.GetPropertyAsJSObject("console").GetPropertyAsJSFunction("log").Call("some testtttt");
 
-        JSObject input = JSHost.GlobalThis
-            .GetPropertyAsJSObject("document")
-            .GetPropertyAsJSFunction("getElementById")
-            .Call<JSObject>("test-input");
-
-        JSHost.GlobalThis
-            .GetPropertyAsJSObject("console")
-            .GetPropertyAsJSFunction("log")
-            .Call("found input", input);
-
-        Action<object?> cb = (e) =>
-            Console.WriteLine(
-                $"Got event in c#: {((JSObject)e)
-                    .GetPropertyAsJSObject("target")
-                    .GetPropertyAsString("value")}");
-
-        JSObject jsCb = cb.ToJSObject();
-
-        input
-            .GetPropertyAsJSFunction("addEventListener")
-            .Call("input", jsCb);
+        HtmlInputElement? element = new Window(JSHost.GlobalThis)
+            .Document
+            .GetElementById<HtmlInputElement>("test-input");
+        
+        Console.WriteLine($"Element is null {element is null}");
+        
+        // JSHost.GlobalThis
+        //     .GetPropertyAsJSObject("console")
+        //     .GetPropertyAsJSFunction("log")
+        //     .Call("found input", input);
+        //
+        // Action<object?> cb = (e) =>
+        //     Console.WriteLine(
+        //         $"Got event in c#: {((JSObject)e)
+        //             .GetPropertyAsJSObject("target")
+        //             .GetPropertyAsString("value")}");
+        //
+        // JSObject jsCb = cb.ToJSObject();
+        //
+        // input
+        //     .GetPropertyAsJSFunction("addEventListener")
+        //     .Call("input", jsCb);
 
         Console.WriteLine("Hello, World!");
     }
