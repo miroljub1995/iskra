@@ -44,9 +44,6 @@ public static class Program
             .GetPropertyAsJSFunction("addEventListener")
             .Call("input", jsCb);
 
-        // object[] a = [1, "", () => false];
-        // object[] b = [1, "", JSObject];
-
         Console.WriteLine("Hello, World!");
     }
 }
