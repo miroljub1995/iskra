@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.Utils;
 
@@ -5,28 +6,48 @@ namespace Iskra.StdWeb.Dom;
 
 public class EventTarget(JSObject obj) : JSObjectWrapper(obj)
 {
-    public void AddEventListener(string type, EventListener listener, bool? options = null)
+    private static readonly ConditionalWeakTable<EventListener, JSObject> ListenerToJSListener = new();
+
+    public void AddEventListener(string type, EventListener listener, bool? useCapture = null)
     {
+        JSObject jsCb = ListenerToJSListener.GetValue(listener, (l) =>
+        {
+            Action<object?> genericAction = obj =>
+            {
+                if (obj is not JSObject jsObject)
+                {
+                    throw new("e is not JSObject.");
+                }
+
+                if (!jsObject.InstanceOf(out Event? ev))
+                {
+                    throw new("e is not Event.");
+                }
+
+                l(ev);
+            };
+
+            return genericAction.ToJSObject();
+        });
+
         JSFunction func = JSObject.GetPropertyAsJSFunction("addEventListener")
                           ?? throw new("addEventListener not defined.");
 
-        Action<object?> genericAction = obj =>
+        object?[] args = [type, jsCb, useCapture];
+
+        func.Call(args);
+    }
+
+    public void RemoveEventListener(string type, EventListener listener, bool? useCapture = null)
+    {
+        if (ListenerToJSListener.TryGetValue(listener, out JSObject? jsListener))
         {
-            if (obj is not JSObject jsObject)
-            {
-                throw new("e is not JSObject.");
-            }
+            JSFunction func = JSObject.GetPropertyAsJSFunction("removeEventListener")
+                              ?? throw new("removeEventListener not defined.");
 
-            if (!jsObject.InstanceOf(out Event? ev))
-            {
-                throw new("e is not Event.");
-            }
+            object?[] args = [type, jsListener, useCapture];
 
-            listener(ev);
-        };
-
-        JSObject jsCb = genericAction.ToJSObject();
-
-        func.Call(type, jsCb, options);
+            func.Call(args);
+        }
     }
 }
