@@ -14,21 +14,19 @@ public static class Program
 
         Console.WriteLine($"Element value {element.Value}");
 
-        EventListener? listener = null;
-        listener = ev =>
+        EventSubscription? subscription = null;
+        subscription = element.AddEventListener("input", ev =>
         {
             if (ev.Target?.JSObject.InstanceOf(out HtmlInputElement? input) == true)
             {
                 Console.WriteLine($"Got event from input with value '{input.Value}'");
 
-                if (listener is not null && input.Value.EndsWith("5"))
+                if (input.Value.EndsWith("5"))
                 {
-                    element.RemoveEventListener("input", listener);
+                    subscription?.Dispose();
                 }
             }
-        };
-
-        element.AddEventListener("input", listener);
+        });
 
         Console.WriteLine("Hello, World!");
     }

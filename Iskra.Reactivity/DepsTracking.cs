@@ -4,6 +4,7 @@ namespace Iskra.Reactivity;
 
 public static class DepsTracking
 {
+    // TODO: replace with ConditionalWeakTable
     private static readonly Dictionary<object, Dictionary<string, List<IEffect>>> DepsMap = new();
 
     public static void Track(object obj, string prop)
