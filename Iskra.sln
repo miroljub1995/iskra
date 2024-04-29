@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Utils", "Iskra.Utils\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.StdWeb", "Iskra.StdWeb\Iskra.StdWeb.csproj", "{01E8BD47-514F-429F-BF69-B4844C0C7674}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.App", "Iskra.App\Iskra.App.csproj", "{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.AppExample", "Iskra.AppExample\Iskra.AppExample.csproj", "{F5238AA6-F539-4F48-B3D7-01107E30F654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{01E8BD47-514F-429F-BF69-B4844C0C7674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E8BD47-514F-429F-BF69-B4844C0C7674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E8BD47-514F-429F-BF69-B4844C0C7674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5238AA6-F539-4F48-B3D7-01107E30F654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5238AA6-F539-4F48-B3D7-01107E30F654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5238AA6-F539-4F48-B3D7-01107E30F654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5238AA6-F539-4F48-B3D7-01107E30F654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

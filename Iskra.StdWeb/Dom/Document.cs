@@ -5,12 +5,13 @@ namespace Iskra.StdWeb.Dom;
 
 public class Document(JSObject obj) : Node(obj)
 {
-    public TElement CreateElement<TElement>(ElementCreationOptions? options) where TElement : Element
+    public TElement CreateElement<TElement>(ElementCreationOptions? options = null)
+        where TElement : Element
     {
         return (TElement)CreateElement(GetHtmlElementTagName<TElement>(), options);
     }
 
-    public Element CreateElement(HtmlElementTagNames tagName, ElementCreationOptions? options)
+    public Element CreateElement(HtmlElementTagNames tagName, ElementCreationOptions? options = null)
     {
         Utils.JSFunction func = JSObject.GetPropertyAsJSFunction("createElement")
                                 ?? throw new("Create element is null");
@@ -18,6 +19,15 @@ public class Document(JSObject obj) : Node(obj)
         JSObject element = func.Call<JSObject>(Enum.GetName(tagName), options?.JSObject);
 
         return From(element, tagName);
+    }
+
+    public Text CreateTextNode(string data)
+    {
+        JSFunction func = JSObject.GetPropertyAsJSFunction("createTextNode")
+                          ?? throw new("createTextNode is not defined");
+
+        JSObject jsObj = func.Call<JSObject>(data);
+        return new(jsObj);
     }
 
     public Element? GetElementById(string elementId)
