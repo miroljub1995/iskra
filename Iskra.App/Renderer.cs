@@ -55,7 +55,6 @@ public class Renderer
             SequenceEqualList<RenderNode> propsChildNodes = renderNodeDivElement.Props.ChildNodes ?? [];
             List<VirtualNode> childNodes = new(propsChildNodes.Count);
 
-
             foreach (RenderNode propsChildNode in propsChildNodes)
             {
                 VirtualNode childRoot = Mount(divElement, propsChildNode);
