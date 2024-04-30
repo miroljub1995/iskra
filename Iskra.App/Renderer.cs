@@ -12,7 +12,7 @@ public class Renderer
     {
         if (_root is null)
         {
-            Mount(out _root, container, node);
+            _root = Mount(container, node);
         }
         // else if (_root.RenderNode.Key != node.Key || _root.RenderNode.GetType() != node.GetType())
         // {
@@ -25,7 +25,7 @@ public class Renderer
         // }
     }
 
-    private void Mount(out VirtualNode vnode, Element container, RenderNode node)
+    private VirtualNode Mount(Element container, RenderNode node)
     {
         if (node is RenderNodeText renderNodeText)
         {
@@ -33,13 +33,13 @@ public class Renderer
                 .Document
                 .CreateTextNode(renderNodeText.Text);
 
-            vnode = new VirtualNodeText()
+            container.AppendChild(textNode);
+
+            return new VirtualNodeText()
             {
                 ContainerNode = container,
                 RenderNode = renderNodeText,
             };
-
-            container.AppendChild(textNode);
         }
         else if (node is RenderNodeElement<HtmlDivElement, HtmlDivElementProps> renderNodeDivElement)
         {
@@ -55,20 +55,21 @@ public class Renderer
             SequenceEqualList<RenderNode> propsChildNodes = renderNodeDivElement.Props.ChildNodes ?? [];
             List<VirtualNode> childNodes = new(propsChildNodes.Count);
 
-            vnode = new VirtualNodeElement<HtmlDivElement, HtmlDivElementProps>()
+
+            foreach (RenderNode propsChildNode in propsChildNodes)
+            {
+                VirtualNode childRoot = Mount(divElement, propsChildNode);
+                childNodes.Add(childRoot);
+            }
+
+            container.AppendChild(divElement);
+
+            return new VirtualNodeElement<HtmlDivElement, HtmlDivElementProps>()
             {
                 ContainerNode = container,
                 RenderNode = renderNodeDivElement,
                 ChildNodes = childNodes,
             };
-
-            foreach (RenderNode propsChildNode in propsChildNodes)
-            {
-                Mount(out VirtualNode childRoot, divElement, propsChildNode);
-                childNodes.Add(childRoot);
-            }
-
-            container.AppendChild(divElement);
         }
         else
         {
