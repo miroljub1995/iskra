@@ -1,10 +1,13 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.App.Elements;
 using Iskra.StdWeb.Dom;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.App;
 
-public class Renderer
+public class Renderer(
+    IServiceProvider provider
+)
 {
     private VirtualNode? _root;
 
@@ -70,7 +73,20 @@ public class Renderer
                 ChildNodes = childNodes,
             };
         }
+        else if (node is RenderNodeComponent nodeComponent)
+        {
+            IIskraComponentLife componentLife = nodeComponent.GetIskraComponentLife(provider);
+            componentLife.Start(container, nodeComponent.PropsObject);
+
+            return new VirtualNodeComponent
+            {
+                ContainerNode = container,
+                RenderNode = nodeComponent,
+                ComponentLife = componentLife,
+            };
+        }
         else
+
         {
             throw new("Not supported.");
         }

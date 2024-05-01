@@ -14,6 +14,7 @@ public class IskraApp
     public IskraApp()
     {
         _services.AddTransient<Renderer>();
+        _services.AddTransient(typeof(IskraComponentLife<,>));
     }
 
     public IskraApp WithRootContainer(string elementId)
