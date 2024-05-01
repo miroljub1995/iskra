@@ -1,11 +1,11 @@
+using System.Runtime.CompilerServices;
 using Iskra.Reactivity.Effects;
 
 namespace Iskra.Reactivity;
 
 public static class DepsTracking
 {
-    // TODO: replace with ConditionalWeakTable
-    private static readonly Dictionary<object, Dictionary<string, List<IEffect>>> DepsMap = new();
+    private static readonly ConditionalWeakTable<object, Dictionary<string, List<IEffect>>> DepsMap = new();
 
     public static void Track(object obj, string prop)
     {
@@ -14,11 +14,8 @@ public static class DepsTracking
             return;
         }
 
-        if (!DepsMap.TryGetValue(obj, out var valByObj))
-        {
-            valByObj = new();
-            DepsMap[obj] = valByObj;
-        }
+        Dictionary<string, List<IEffect>> valByObj =
+            DepsMap.GetValue(obj, (_) => new Dictionary<string, List<IEffect>>());
 
         if (!valByObj.TryGetValue(prop, out var effects))
         {
@@ -26,7 +23,10 @@ public static class DepsTracking
             valByObj[prop] = effects;
         }
 
-        effects.Add(activeEffect);
+        if (!effects.Contains(activeEffect))
+        {
+            effects.Add(activeEffect);
+        }
     }
 
     public static void Trigger(object obj, string prop)
@@ -56,7 +56,10 @@ public static class DepsTracking
 
         foreach ((object obj, string prop) in foundInKeys)
         {
-            DepsMap[obj][prop].Remove(effect);
+            if (DepsMap.TryGetValue(obj, out var valByObj))
+            {
+                valByObj[prop].Remove(effect);
+            }
         }
     }
 }

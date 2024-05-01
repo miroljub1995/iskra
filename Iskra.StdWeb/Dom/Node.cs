@@ -18,4 +18,15 @@ public class Node(JSObject obj) : EventTarget(obj)
 
         return node;
     }
+
+    public TNode ReplaceChild<TNode>(TNode newChild, Node oldChild)
+        where TNode : Node
+    {
+        JSFunction func = JSObject.GetPropertyAsJSFunction("replaceChild")
+                          ?? throw new("replaceChild not defined.");
+
+        func.Call(newChild.JSObject, oldChild.JSObject);
+
+        return newChild;
+    }
 }

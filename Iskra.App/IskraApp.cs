@@ -72,6 +72,6 @@ public class IskraApp
         }
 
         Renderer renderer = provider.GetRequiredService<Renderer>();
-        renderer.Render(_rootContainer, _rootRenderNode);
+        renderer.Render(null, _rootContainer, _rootRenderNode);
     }
 }

@@ -4,7 +4,7 @@ public class SequenceEqualList<T> : List<T>
 {
     public override bool Equals(object? obj)
     {
-        if (base.Equals(obj))
+        if (ReferenceEquals(this, obj))
         {
             return true;
         }
@@ -17,14 +17,20 @@ public class SequenceEqualList<T> : List<T>
         return false;
     }
 
-    // public override int GetHashCode()
-    // {
-    //     HashCode hash = new();
-    //     foreach (T item in this)
-    //     {
-    //         hash.Add(item);
-    //     }
-    //
-    //     return hash.ToHashCode();
-    // }
+    public override int GetHashCode()
+    {
+        HashCode hash = new();
+        foreach (T item in this)
+        {
+            hash.Add(item);
+        }
+
+        return hash.ToHashCode();
+    }
+
+    public static bool operator ==(SequenceEqualList<T>? obj1, SequenceEqualList<T>? obj2)
+        => obj1?.Equals(obj2) == true;
+
+    public static bool operator !=(SequenceEqualList<T>? obj1, SequenceEqualList<T>? obj2)
+        => !(obj1 == obj2);
 }

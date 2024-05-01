@@ -3,7 +3,7 @@ using Iskra.App.Elements;
 using Iskra.AppExample;
 using Iskra.StdWeb.Dom;
 
-Console.WriteLine("asd");
+Console.WriteLine("12");
 
 new IskraApp()
     .WithRootContainer("root")

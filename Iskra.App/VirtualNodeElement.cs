@@ -7,6 +7,7 @@ public class VirtualNodeElement<TElement, TElementProps> : VirtualNode
     where TElement : Element
     where TElementProps : IElementProps<TElement>
 {
+    public required TElement Element { get; set; }
     public required RenderNodeElement<TElement, TElementProps> RenderNode { get; set; }
     public List<VirtualNode> ChildNodes { get; set; } = [];
 }

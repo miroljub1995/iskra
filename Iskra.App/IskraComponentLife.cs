@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices.JavaScript;
+using Iskra.App.Elements;
 using Iskra.Reactivity;
 using Iskra.Reactivity.Effects;
 using Iskra.StdWeb.Dom;
@@ -10,8 +11,12 @@ public class IskraComponentLife<TComponent, TComponentProps>(
     Renderer renderer
 ) : IIskraComponentLife, IEffect
     where TComponent : IIskraComponent<TComponentProps>
+    where TComponentProps : notnull
 {
     private double? _updateTimer;
+    private VirtualNode? _virtualNode;
+    private RenderCallback? _renderCallback;
+    private Element? _container;
 
     public void Start(Element container, object props)
     {
@@ -20,15 +25,30 @@ public class IskraComponentLife<TComponent, TComponentProps>(
             throw new($"Props are not {typeof(TComponent)}.");
         }
 
-        RenderCallback render = component.Setup(componentProps);
+        _renderCallback = component.Setup(componentProps);
+        _container = container;
+        Render();
+    }
+
+    private void Render()
+    {
+        if (_renderCallback is null)
+        {
+            throw new("Render callback is null.");
+        }
+
+        if (_container is null)
+        {
+            throw new("Container is null.");
+        }
 
         IEffect? oldActive = Effect.Active;
         Effect.Active = this;
         try
         {
             DepsTracking.RemoveEffect(this);
-            RenderNode renderNode = render();
-            renderer.Render(container, renderNode);
+            RenderNode renderNode = _renderCallback();
+            _virtualNode = renderer.Render(_virtualNode, _container, renderNode);
         }
         finally
         {
@@ -48,12 +68,14 @@ public class IskraComponentLife<TComponent, TComponentProps>(
 
     public void Trigger()
     {
+        Console.WriteLine("ComponentLife trigger");
         if (_updateTimer is null)
         {
-            new Window(JSHost.GlobalThis)
+            _updateTimer = new Window(JSHost.GlobalThis)
                 .SetTimeout(() =>
                 {
                     Console.WriteLine("Component app updated.");
+                    Render();
                     _updateTimer = null;
                 }, 0);
         }

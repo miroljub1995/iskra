@@ -9,23 +9,79 @@ public class Renderer(
     IServiceProvider provider
 )
 {
-    private VirtualNode? _root;
-
-    public void Render(Element container, RenderNode node)
+    public VirtualNode Render(VirtualNode? current, Element container, RenderNode node)
     {
-        if (_root is null)
+        if (current is null)
         {
-            _root = Mount(container, node);
+            return Mount(container, node);
+        }
+        else if (current is VirtualNodeComponent currentVirtualNodeComponent &&
+                 node is RenderNodeComponent renderNodeComponent &&
+                 currentVirtualNodeComponent.RenderNode.Key == renderNodeComponent.Key &&
+                 currentVirtualNodeComponent.RenderNode != renderNodeComponent)
+        {
+            throw new("Props update on component still not supported.");
+        }
+        else if (current is VirtualNodeElement<HtmlDivElement, HtmlDivElementProps> currentVirtualNodeDivElement &&
+                 node is RenderNodeElement<HtmlDivElement, HtmlDivElementProps> renderNodeDivElement &&
+                 currentVirtualNodeDivElement.RenderNode.Key == renderNodeDivElement.Key &&
+                 currentVirtualNodeDivElement.RenderNode != renderNodeDivElement)
+        {
+            if (renderNodeDivElement.Props.Class is { } className)
+            {
+                currentVirtualNodeDivElement.Element.ClassList.Value = className;
+            }
+
+            if (currentVirtualNodeDivElement.RenderNode.Props.ChildNodes != renderNodeDivElement.Props.ChildNodes)
+            {
+                if (currentVirtualNodeDivElement.RenderNode.Props.ChildNodes is not null &&
+                    renderNodeDivElement.Props.ChildNodes is not null &&
+                    currentVirtualNodeDivElement.RenderNode.Props.ChildNodes.Count ==
+                    renderNodeDivElement.Props.ChildNodes.Count)
+                {
+                    for (int i = 0; i < currentVirtualNodeDivElement.ChildNodes.Count; i++)
+                    {
+                        currentVirtualNodeDivElement.ChildNodes[i] = Render(
+                            currentVirtualNodeDivElement.ChildNodes[i],
+                            currentVirtualNodeDivElement.Element,
+                            renderNodeDivElement.Props.ChildNodes[i]
+                        );
+                    }
+                }
+                else
+                {
+                    throw new("Not supported.");
+                }
+            }
+
+            currentVirtualNodeDivElement.RenderNode = renderNodeDivElement;
+            return current;
+        }
+        else if (current is VirtualNodeText currentVirtualNodeText && node is RenderNodeText renderNodeText &&
+                 currentVirtualNodeText.RenderNode != renderNodeText)
+        {
+            Text textNode = new Window(JSHost.GlobalThis)
+                .Document
+                .CreateTextNode(renderNodeText.Text);
+
+            container.ReplaceChild(textNode, currentVirtualNodeText.Text);
+            currentVirtualNodeText.Text = textNode;
+            currentVirtualNodeText.RenderNode = renderNodeText;
+
+            return currentVirtualNodeText;
         }
         // else if (_root.RenderNode.Key != node.Key || _root.RenderNode.GetType() != node.GetType())
         // {
-        //     Unmount(ref _root);
-        //     Mount(out _root, container, node);
+        //     Replace(out _root, container, node);
         // }
         // else if (_root.RenderNode != node)
         // {
-        //     Patch(_root, node);
+        //     Update(_root, node);
         // }
+        else
+        {
+            return current;
+        }
     }
 
     private VirtualNode Mount(Element container, RenderNode node)
@@ -40,6 +96,7 @@ public class Renderer(
 
             return new VirtualNodeText()
             {
+                Text = textNode,
                 ContainerNode = container,
                 RenderNode = renderNodeText,
             };
@@ -68,6 +125,7 @@ public class Renderer(
 
             return new VirtualNodeElement<HtmlDivElement, HtmlDivElementProps>()
             {
+                Element = divElement,
                 ContainerNode = container,
                 RenderNode = renderNodeDivElement,
                 ChildNodes = childNodes,
