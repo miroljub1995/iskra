@@ -8,6 +8,8 @@ public class Node(JSObject obj) : EventTarget(obj)
     public NodeList ChildNodes => new(JSObject.GetPropertyAsJSObject("childNodes")
                                       ?? throw new("childNodes not defined."));
 
+    public Node? PreviousSibling => JSObject.GetPropertyAsJSObject("previousSibling") is { } obj ? new(obj) : null;
+
     public TNode AppendChild<TNode>(TNode node)
         where TNode : Node
     {

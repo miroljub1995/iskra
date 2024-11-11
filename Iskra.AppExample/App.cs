@@ -14,15 +14,15 @@ public class App : IIskraComponent<AppProps>
     {
         Ref<int> counter = 0.ToRef();
 
-        new Window(JSHost.GlobalThis)
-            .SetInterval(() =>
-            {
-                // if (counter.Value < 3)
-                {
-                    Console.WriteLine("Incrementing counter...");
-                    counter.Value++;
-                }
-            }, 1_000);
+        // new Window(JSHost.GlobalThis)
+        //     .SetInterval(() =>
+        //     {
+        //         // if (counter.Value < 3)
+        //         {
+        //             Console.WriteLine("Incrementing counter...");
+        //             counter.Value++;
+        //         }
+        //     }, 1_000);
 
         return () => new RenderNodeElement<HtmlDivElement, HtmlDivElementProps>(
             Key: null,

@@ -1,5 +1,4 @@
 using System.Runtime.InteropServices.JavaScript;
-using Iskra.App.Elements;
 using Iskra.Reactivity;
 using Iskra.Reactivity.Effects;
 using Iskra.StdWeb.Dom;
@@ -17,6 +16,8 @@ public class IskraComponentLife<TComponent, TComponentProps>(
     private VirtualNode? _virtualNode;
     private RenderCallback? _renderCallback;
     private Element? _container;
+
+    public VirtualNode CurrentVirtualNode => _virtualNode ?? throw new("Virtual node is null.");
 
     public void Start(Element container, object props)
     {

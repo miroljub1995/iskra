@@ -6,4 +6,5 @@ public interface IIskraComponentLife
 {
     void Start(Element container, object props);
     void End();
+    VirtualNode CurrentVirtualNode { get; }
 }
