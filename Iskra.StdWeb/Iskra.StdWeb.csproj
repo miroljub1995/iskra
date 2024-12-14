@@ -1,5 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
-    <ProjectReference Include="..\Iskra.Utils\Iskra.Utils.csproj" />
-  </ItemGroup>
+    <Target Name="GenerateBindings" BeforeTargets="BeforeBuild">
+        <!-- DotnetPath -->
+        <PropertyGroup Condition="'$(DOTNET_HOST_PATH)' == ''">
+            <DotnetPath>$(NetCoreRoot)/dotnet</DotnetPath>
+            <DotnetPath Condition="'$(OS)' == 'Windows_NT'">$(NetCoreRoot)/dotnet.exe</DotnetPath>
+        </PropertyGroup>
+        <PropertyGroup Condition="'$(DOTNET_HOST_PATH)' != ''">
+            <DotnetPath>$(DOTNET_HOST_PATH)</DotnetPath>
+        </PropertyGroup>
+
+        <!-- Generator project -->
+        <PropertyGroup>
+            <IskraGeneratorProject>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine($(MSBuildProjectDirectory), "../Iskra.StdWebGenerator"))))</IskraGeneratorProject>
+        </PropertyGroup>
+
+        <Exec Command="$(DotnetPath) run --project '$(IskraGeneratorProject)'"/>
+    </Target>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Iskra.Utils\Iskra.Utils.csproj"/>
+    </ItemGroup>
 </Project>
