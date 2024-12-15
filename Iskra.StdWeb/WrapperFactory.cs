@@ -23,6 +23,7 @@ public static partial class WrapperFactory
         // AddFactory(GetGlobalConstructor("EventTarget"), obj => new EventTarget(obj));
         // AddFactory(GetGlobalConstructor("Window"), obj => new Window(obj));
 
+        AddGlobalFactory("Event", obj => new Event(obj));
         AddGlobalFactory("EventTarget", obj => new EventTarget(obj));
         AddGlobalFactory("Window", obj => new Window(obj));
 

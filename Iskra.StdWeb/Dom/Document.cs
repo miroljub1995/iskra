@@ -13,8 +13,8 @@ public class Document(JSObject obj) : Node(obj)
 
     public Element CreateElement(HtmlElementTagNames tagName, ElementCreationOptions? options = null)
     {
-        Utils.JSFunction func = JSObject.GetPropertyAsJSFunction("createElement")
-                                ?? throw new("Create element is null");
+        JSFunction func = JSObject.GetPropertyAsJSFunction("createElement")
+                          ?? throw new("Create element is null");
 
         JSObject element = func.Call<JSObject>(Enum.GetName(tagName), options?.JSObject);
 
@@ -32,8 +32,8 @@ public class Document(JSObject obj) : Node(obj)
 
     public Element? GetElementById(string elementId)
     {
-        Utils.JSFunction func = JSObject.GetPropertyAsJSFunction("getElementById")
-                                ?? throw new("getElementById not found");
+        JSFunction func = JSObject.GetPropertyAsJSFunction("getElementById")
+                          ?? throw new("getElementById not found");
 
         object? resObj = func.Call(elementId);
 
