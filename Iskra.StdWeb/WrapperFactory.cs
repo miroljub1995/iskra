@@ -3,12 +3,6 @@ using Iskra.Utils;
 
 namespace Iskra.StdWeb;
 
-public enum JSObjectType
-{
-    Instance,
-    Constructor
-}
-
 public static partial class WrapperFactory
 {
     private static readonly Dictionary<JSObject, Func<JSObject, JSObjectWrapper>> Factories = new();
