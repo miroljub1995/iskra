@@ -11,6 +11,7 @@ public static class PropertyGenerator
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
         var returnType = TypeNameGenerator.Execute(propertyInfo.PropertyType, propertyInfo);
         var isNullable = propertyInfo.PropertyType.IsNullable(propertyInfo);
+        var isJSObjectWrapper = propertyInfo.PropertyType.IsJSObjectWrapper();
 
         var builder = new StringBuilder();
         builder.AppendLine($$"""
@@ -72,12 +73,16 @@ public static class PropertyGenerator
                 return null;
             }
 
-            throw new NotImplementedException();
+            var value = isJSObjectWrapper
+                ? isNullable
+                    ? "value?.JSObject"
+                    : "value.JSObject"
+                : "value";
 
             return $$"""
                      set
                      {
-                        
+                        JSObject.SetProperty("{{jsName}}", {{value}});
                      }
                      """;
         }

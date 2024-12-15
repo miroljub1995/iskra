@@ -22,4 +22,7 @@ public static class TypeExtensions
 
         return isNullable;
     }
+
+    public static bool IsJSObjectWrapper(this Type type)
+        => type.IsDefined(typeof(NullableAttribute), false);
 }
