@@ -21,6 +21,8 @@ public static class JSTypeGenerator
 
                         namespace Iskra.StdWeb;
 
+                        #nullable enable
+
                         public{{staticKeyword}} partial class {{type.Name}}{{defaultConstructor}}{{baseType}}
                         {
                         {{body.IndentLines(4)}}

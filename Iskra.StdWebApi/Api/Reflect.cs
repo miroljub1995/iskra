@@ -7,5 +7,8 @@ namespace Iskra.StdWebApi.Api;
 public static class Reflect
 {
     [ManualBinding]
-    public static TRes Apply<TRes>(JSObject target, JSObject thisArgument, object?[] argumentList) => throw new();
+    public static void Apply(JSObject target, JSObject? thisArgument, object?[] argumentList) => throw new();
+
+    [ManualBinding]
+    public static object Apply<TRes>(JSObject target, JSObject? thisArgument, object?[] argumentList) => throw new();
 }

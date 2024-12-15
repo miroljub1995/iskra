@@ -1,24 +1,39 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Attributes;
 
 namespace Iskra.StdWebGenerator;
 
 public static class TypeNameGenerator
 {
-    private static readonly HashSet<Type> SameNameTypes =
-    [
-        typeof(int),
-    ];
+    private static readonly Dictionary<Type, string> TypeMapping = new()
+    {
+        { typeof(void), "void" },
+        { typeof(int), "int" },
+        { typeof(object), "object" },
+        { typeof(JSObject), "JSObject" },
+    };
 
-    public static string Execute(Type? type, ICustomAttributeProvider? attrs = null)
+    public static string Execute(Type? type, ICustomAttributeProvider? attrs = null, int nullableStateIndex = 0)
     {
         if (type is null)
         {
             return "null";
         }
 
-        var isNullable = attrs?.IsDefined(typeof(NullableAttribute), inherit: false) ?? false;
+        if (type.IsGenericParameter)
+        {
+            return type.Name;
+        }
+
+        var nullableAttribute =
+            attrs?.GetCustomAttributes(typeof(NullableAttribute), false).SingleOrDefault() as NullableAttribute;
+
+        var isNullable =
+            nullableAttribute?.NullableFlags.Length > nullableStateIndex &&
+            nullableAttribute?.NullableFlags[nullableStateIndex] == 2;
+
         var nullableIndicator = isNullable ? "?" : "";
 
         if (type.IsDefined(typeof(GenerateBindingsAttribute)))
@@ -26,9 +41,18 @@ public static class TypeNameGenerator
             return type.Name + nullableIndicator;
         }
 
-        if (SameNameTypes.Contains(type))
+        if (TypeMapping.TryGetValue(type, out var typeMappingName))
         {
-            return type.Name + nullableIndicator;
+            return typeMappingName + nullableIndicator;
+        }
+
+        if (type.IsArray && type.GetElementType() is { } arrayElementType)
+        {
+            var asParams = attrs?.IsDefined(typeof(AsParamsAttribute), false) ?? false;
+            var asParamsPrefix = asParams ? "params " : "";
+
+            var elementName = Execute(arrayElementType, attrs, nullableStateIndex + 1);
+            return $"{asParamsPrefix}{elementName}[]" + nullableIndicator;
         }
 
         throw new NotSupportedException($"Type {type} is not supported.");
