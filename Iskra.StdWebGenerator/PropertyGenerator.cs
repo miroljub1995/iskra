@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Text;
 using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
@@ -11,38 +12,74 @@ public static class PropertyGenerator
         var returnType = TypeNameGenerator.Execute(propertyInfo.PropertyType, propertyInfo);
         var isNullable = propertyInfo.PropertyType.IsNullable(propertyInfo);
 
-        var nullableCheck = isNullable
-            ? """
-              if(prop is null)
-              {
-                  return null;
-              }
-              """
-            : $$"""
-                if (prop is null)
-                {
-                    throw new Exception("The property {{jsName}} is not defined.");
-                }
-                """;
+        var builder = new StringBuilder();
+        builder.AppendLine($$"""
+                             public {{returnType}} {{propertyInfo.Name}}
+                             {
+                             """);
 
-        var res = $$"""
-                    public {{returnType}} {{propertyInfo.Name}}
+        if (DefineGetter() is { } getter)
+        {
+            builder.AppendLine(getter.IndentLines(4));
+        }
+
+        if (DefineSetter() is { } setter)
+        {
+            builder.AppendLine(setter.IndentLines(4));
+        }
+
+        builder.AppendLine("}");
+
+        return builder.ToString();
+
+        string? DefineGetter()
+        {
+            if (!propertyInfo.CanRead)
+            {
+                return null;
+            }
+
+            var nullableCheck = isNullable
+                ? """
+                  if(prop is null)
+                  {
+                      return null;
+                  }
+                  """
+                : $$"""
+                    if (prop is null)
                     {
-                        get
-                        {
-                            var prop = JSObject.GetPropertyAsJSObject("{{jsName}}");
-
-                    {{nullableCheck.IndentLines(8)}}
-                    
-                            return new {{returnType}}(prop);
-                        }
-                    
-                        set
-                        {
-                        }
-                    } 
+                        throw new Exception("The property {{jsName}} is not defined.");
+                    }
                     """;
 
-        return res;
+            return $$"""
+                     get
+                     {
+                         var prop = JSObject.GetPropertyAsJSObject("{{jsName}}");
+
+                     {{nullableCheck.IndentLines(4)}}
+                     
+                         return new {{returnType}}(prop);
+                     }
+                     """;
+        }
+
+        string? DefineSetter()
+        {
+            if (!propertyInfo.CanWrite)
+            {
+                return null;
+            }
+
+            throw new NotImplementedException();
+
+            return $$"""
+                     set
+                     {
+                        
+                     }
+                     """;
+        }
     }
 }
