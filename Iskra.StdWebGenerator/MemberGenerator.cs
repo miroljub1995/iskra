@@ -10,6 +10,7 @@ public static class MemberGenerator
         {
             ConstructorInfo constructorInfo => ConstructorGenerator.Execute(constructorInfo),
             MethodInfo methodInfo => MethodGenerator.Execute(methodInfo),
+            PropertyInfo propertyInfo => PropertyGenerator.Execute(propertyInfo),
             _ => throw new NotSupportedException($"Member type {memberInfo.GetType()} is not supported.")
         };
 

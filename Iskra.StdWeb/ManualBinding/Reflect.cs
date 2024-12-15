@@ -37,8 +37,18 @@ public static partial class Reflect
     }
 
     [JSImport("globalThis.Reflect.apply")]
-    private static partial void _ApplyAsVoid(JSObject target, JSObject? thisArgument, object?[] argumentList);
+    private static partial void _ApplyAsVoid(
+        JSObject target,
+        JSObject? thisArgument,
+        [JSMarshalAs<JSType.Array<JSType.Any>>]
+        object?[] argumentList
+    );
 
     [JSImport("globalThis.Reflect.apply")]
-    private static partial JSObject _ApplyAsJSObject(JSObject target, JSObject? thisArgument, object?[] argumentList);
+    private static partial JSObject _ApplyAsJSObject(
+        JSObject target,
+        JSObject? thisArgument,
+        [JSMarshalAs<JSType.Array<JSType.Any>>]
+        object?[] argumentList
+    );
 }

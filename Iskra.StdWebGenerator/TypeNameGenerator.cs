@@ -2,6 +2,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Attributes;
+using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
@@ -27,12 +28,7 @@ public static class TypeNameGenerator
             return type.Name;
         }
 
-        var nullableAttribute =
-            attrs?.GetCustomAttributes(typeof(NullableAttribute), false).SingleOrDefault() as NullableAttribute;
-
-        var isNullable =
-            nullableAttribute?.NullableFlags.Length > nullableStateIndex &&
-            nullableAttribute?.NullableFlags[nullableStateIndex] == 2;
+        var isNullable = type.IsNullable(attrs, nullableStateIndex);
 
         var nullableIndicator = isNullable ? "?" : "";
 

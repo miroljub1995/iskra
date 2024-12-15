@@ -24,7 +24,7 @@ public static class MethodGenerator
         }
         else
         {
-            var methodName = char.ToLower(methodInfo.Name[0]) + methodInfo.Name[1..];
+            var methodName = JSPropertyNameGenerator.Execute(methodInfo);
 
             var res = $$"""
                         public{{staticKeyword}} {{returnType}} {{name}}{{genericDef}}({{parameters.Content}})
