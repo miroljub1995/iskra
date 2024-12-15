@@ -9,6 +9,7 @@ public static class MemberGenerator
         var content = memberInfo switch
         {
             ConstructorInfo constructorInfo => ConstructorGenerator.Execute(constructorInfo),
+            MethodInfo methodInfo => MethodGenerator.Execute(methodInfo),
             _ => throw new NotSupportedException($"Member type {memberInfo.GetType()} is not supported.")
         };
 

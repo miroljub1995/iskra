@@ -19,6 +19,11 @@ public static class MembersGenerator
 
         foreach (var memberInfo in type.GetMembers())
         {
+            if (memberInfo is MethodBase { IsPublic: false })
+            {
+                continue;
+            }
+
             if (memberInfo is MethodInfo { IsSpecialName: true })
             {
                 continue;

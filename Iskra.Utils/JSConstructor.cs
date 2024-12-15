@@ -10,8 +10,6 @@ public static partial class JSConstructor
     public static JSObject New(string constructorProperty, object?[] args)
     {
         var constructor = JSHost.GlobalThis.GetPropertyAsJSObject(constructorProperty);
-        JSLogger.Log(["New", constructor]);
-        return JSHost.GlobalThis;
         if (constructor is null)
         {
             throw new Exception($"Can't get constructor for property {constructorProperty}.");

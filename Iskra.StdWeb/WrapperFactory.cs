@@ -9,22 +9,30 @@ public enum JSObjectType
     Constructor
 }
 
-public static class WrapperFactory
+public static partial class WrapperFactory
 {
     private static readonly Dictionary<JSObject, Func<JSObject, JSObjectWrapper>> Factories = new();
-    private static bool _isInitialized;
+    private static readonly Dictionary<string, Func<JSObject, JSObjectWrapper>> GlobalFactories = new();
+
+    private static bool _areDefaultsInitialized;
+
+    private const string ProxyMethodName = "iskra_isOfGlobalConstructor";
+    private static bool _isProxyInitialized;
 
     private static void EnsureInitializedDefaults()
     {
-        if (_isInitialized)
+        if (_areDefaultsInitialized)
         {
             return;
         }
 
-        AddFactory(GetGlobalConstructor("EventTarget"), obj => new EventTarget(obj));
-        AddFactory(GetGlobalConstructor("Window"), obj => new Window(obj));
+        // AddFactory(GetGlobalConstructor("EventTarget"), obj => new EventTarget(obj));
+        // AddFactory(GetGlobalConstructor("Window"), obj => new Window(obj));
 
-        _isInitialized = true;
+        AddGlobalFactory("EventTarget", obj => new EventTarget(obj));
+        AddGlobalFactory("Window", obj => new Window(obj));
+
+        _areDefaultsInitialized = true;
     }
 
     public static void AddFactory(JSObject constructor, Func<JSObject, JSObjectWrapper> factory)
@@ -32,36 +40,40 @@ public static class WrapperFactory
         Factories.Add(constructor, factory);
     }
 
-    public static JSObjectWrapper GetWrapper(JSObject obj, JSObjectType objType)
+    public static void AddGlobalFactory(string constructorName, Func<JSObject, JSObjectWrapper> factory)
     {
-        if (objType == JSObjectType.Constructor)
-        {
-            EnsureInitializedDefaults();
-
-            if (Factories.TryGetValue(obj, out var factory))
-            {
-                return factory(obj);
-            }
-
-            throw new Exception("Failed to find wrapper.");
-        }
-
-        if (objType == JSObjectType.Instance)
-        {
-            var constructor = obj.GetPropertyAsJSObject("constructor")
-                              ?? throw new Exception($"No constructor found for {obj}");
-
-            return GetWrapper(constructor, JSObjectType.Constructor);
-        }
-
-        throw new Exception($"Unknown object type {objType}.");
+        GlobalFactories.Add(constructorName, factory);
     }
 
-    public static TWrapper GetWrapper<TWrapper>(JSObject obj, JSObjectType objType)
+    public static JSObjectWrapper GetWrapper(JSObject obj)
+    {
+        EnsureInitializedDefaults();
+        EnsureMethodProxyInitialized();
+
+        foreach (var keyValue in GlobalFactories)
+        {
+            if (IsOfGlobalConstructor(keyValue.Key, obj))
+            {
+                return keyValue.Value(obj);
+            }
+        }
+
+        var constructor = obj.GetPropertyAsJSObject("constructor")
+                          ?? throw new Exception($"No constructor found for {obj}");
+
+
+        if (Factories.TryGetValue(constructor, out var factory))
+        {
+            return factory(obj);
+        }
+
+        throw new Exception("Failed to find wrapper.");
+    }
+
+    public static TWrapper GetWrapper<TWrapper>(JSObject obj)
         where TWrapper : JSObjectWrapper
     {
-        JSLogger.Log(["from main WindowConstructor", JSHost.GlobalThis.GetPropertyAsJSObject("Window")]);
-        var wrapper = GetWrapper(obj, objType);
+        var wrapper = GetWrapper(obj);
         if (wrapper is TWrapper specificWrapper)
         {
             return specificWrapper;
@@ -87,4 +99,19 @@ public static class WrapperFactory
 
         return constructor;
     }
+
+
+    private static void EnsureMethodProxyInitialized()
+    {
+        if (!_isProxyInitialized)
+        {
+            JSHost.GlobalThis.SetProperty(ProxyMethodName,
+                JSFunctionConstructor.Function("constructorName", "target",
+                    "return globalThis[constructorName] === target.constructor;"));
+            _isProxyInitialized = true;
+        }
+    }
+
+    [JSImport($"globalThis.{ProxyMethodName}")]
+    private static partial bool IsOfGlobalConstructor(string constructorName, JSObject target);
 }
