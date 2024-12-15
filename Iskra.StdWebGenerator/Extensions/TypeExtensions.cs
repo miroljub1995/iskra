@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using Iskra.StdWebApi.Attributes;
 
 namespace Iskra.StdWebGenerator.Extensions;
 
@@ -24,5 +25,5 @@ public static class TypeExtensions
     }
 
     public static bool IsJSObjectWrapper(this Type type)
-        => type.IsDefined(typeof(NullableAttribute), false);
+        => type.IsDefined(typeof(GenerateBindingsAttribute), false);
 }

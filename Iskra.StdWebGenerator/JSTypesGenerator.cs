@@ -1,5 +1,6 @@
 using System.Reflection;
 using Iskra.StdWebApi.Attributes;
+using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
@@ -14,7 +15,7 @@ public static class TypesGenerator
 
         Directory.CreateDirectory(targetDir);
 
-        var allTypesToGenerate = assembly.GetTypes().Where(x => x.IsDefined(typeof(GenerateBindingsAttribute)));
+        var allTypesToGenerate = assembly.GetTypes().Where(x => x.IsJSObjectWrapper());
 
         foreach (var type in allTypesToGenerate)
         {
