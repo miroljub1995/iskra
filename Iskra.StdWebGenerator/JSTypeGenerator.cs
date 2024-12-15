@@ -2,9 +2,9 @@ using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
-public static class TypeGenerator
+public static class JSTypeGenerator
 {
-    public static (string Content, string Name) Execute(Type type)
+    public static string Execute(Type type)
     {
         var body = MembersGenerator.Execute(type);
 
@@ -21,6 +21,6 @@ public static class TypeGenerator
                         {{body.IndentLines(4)}}
                         }
                         """;
-        return (content, type.Name);
+        return content;
     }
 }

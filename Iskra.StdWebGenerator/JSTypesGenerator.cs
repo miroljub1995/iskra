@@ -18,9 +18,9 @@ public static class TypesGenerator
 
         foreach (var type in allTypesToGenerate)
         {
-            var (typeContent, name) = TypeGenerator.Execute(type);
+            var typeContent = JSTypeGenerator.Execute(type);
 
-            var outputFilePath = Path.Join(targetDir, $"{name}.cs");
+            var outputFilePath = Path.Join(targetDir, $"{TypeNameGenerator.Execute(type)}.cs");
             await File.WriteAllTextAsync(outputFilePath, typeContent);
         }
     }

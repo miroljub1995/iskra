@@ -10,7 +10,7 @@ public static class MembersGenerator
         "GetType",
         "ToString",
         "Equals",
-        "GetHashCode"
+        "GetHashCode",
     ];
 
     public static string Execute(Type type)
