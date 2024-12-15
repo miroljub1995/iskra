@@ -3,7 +3,7 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-public class Node : EventTarget
+public class Document : Node
 {
-    protected Node() => throw new();
+    protected Document() => throw new();
 }
