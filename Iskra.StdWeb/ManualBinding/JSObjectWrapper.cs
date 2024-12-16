@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 
-namespace Iskra.Utils;
+namespace Iskra.StdWeb;
 
 public class JSObjectWrapper(JSObject obj)
 {

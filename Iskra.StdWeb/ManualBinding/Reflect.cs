@@ -1,5 +1,4 @@
 using System.Runtime.InteropServices.JavaScript;
-using Iskra.Utils;
 
 namespace Iskra.StdWeb;
 
@@ -64,5 +63,38 @@ public static partial class Reflect
         JSObject? thisArgument,
         [JSMarshalAs<JSType.Array<JSType.Any>>]
         object?[] argumentList
+    );
+
+    public static partial JSObject Construct(JSObject constructor, object?[] args)
+    {
+        var argsWithExtractedObjects = args
+            .Select(x => x is JSObjectWrapper wrapper ? wrapper.JSObject : x)
+            .ToArray();
+
+        return _Construct(constructor, argsWithExtractedObjects);
+    }
+
+    public static partial JSObject Construct(JSObject constructor, object?[] args, JSObject newTarget)
+    {
+        var argsWithExtractedObjects = args
+            .Select(x => x is JSObjectWrapper wrapper ? wrapper.JSObject : x)
+            .ToArray();
+
+        return _Construct(constructor, argsWithExtractedObjects);
+    }
+
+    [JSImport("globalThis.Reflect.construct")]
+    private static partial JSObject _Construct(
+        JSObject constructor,
+        [JSMarshalAs<JSType.Array<JSType.Any>>]
+        object?[] args
+    );
+
+    [JSImport("globalThis.Reflect.construct")]
+    private static partial JSObject _Construct(
+        JSObject constructor,
+        [JSMarshalAs<JSType.Array<JSType.Any>>]
+        object?[] args,
+        JSObject newTarget
     );
 }
