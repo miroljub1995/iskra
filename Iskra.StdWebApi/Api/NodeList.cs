@@ -3,11 +3,11 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-public class Event
+public class NodeList
 {
-    public Event(string type, EventOptions? options = null) => throw new();
+    protected NodeList() => throw new();
 
-    public EventTarget? Target
+    public int Length
     {
         get => throw new();
     }

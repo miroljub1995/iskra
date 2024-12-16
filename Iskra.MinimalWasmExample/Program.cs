@@ -1,5 +1,5 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
-using Iskra.StdWeb.Dom;
+using Iskra.StdWeb;
 
 namespace Iskra.MinimalWasmExample;
 
@@ -7,27 +7,32 @@ public static class Program
 {
     static async Task Main(string[] args)
     {
-        HtmlInputElement element = new Window(JSHost.GlobalThis)
-                                       .Document
-                                       .GetElementById<HtmlInputElement>("test-input")
-                                   ?? throw new("Element not found.");
+        var w = WrapperFactory.GetWrapper<Window>(JSHost.GlobalThis);
+        w.Console.Log("this is from console", w, w.Document);
 
-        Console.WriteLine($"Element value {element.Value}");
+        w.Document.AddEventListener("test", SomeListener, false);
+        w.Document.DispatchEvent(new Event("test"));
+        w.Document.DispatchEvent(new Event("test"));
+        w.Document.DispatchEvent(new Event("test"));
 
-        EventSubscription? subscription = null;
-        subscription = element.AddEventListener("input", ev =>
-        {
-            if (ev.Target?.JSObject.InstanceOf(out HtmlInputElement? input) == true)
-            {
-                Console.WriteLine($"Got event from input with value '{input.Value}'");
+        w.Document.RemoveEventListener("test", SomeListener, false);
+        w.Document.DispatchEvent(new Event("test"));
+        w.Document.DispatchEvent(new Event("test"));
+        w.Document.DispatchEvent(new Event("test"));
+        w.Document.DispatchEvent(new Event("test"));
 
-                if (input.Value.EndsWith("5"))
-                {
-                    subscription?.Dispose();
-                }
-            }
-        });
+        var newDiv = w.Document.CreateElement("div");
+        w.Document.Body.AppendChild(newDiv);
+        w.Console.Log("Appended child", newDiv);
+        newDiv.InnerHTML = "<p>Hello World!</p>";
+        newDiv.InnerHTML += "<p>Adding new p</p>";
 
-        Console.WriteLine("Hello, World!");
+        await Task.Delay(Timeout.Infinite);
+    }
+
+    static void SomeListener(Event e)
+    {
+        var w = WrapperFactory.GetWrapper<Window>(JSHost.GlobalThis);
+        w.Console.Log("this is from listener", e);
     }
 }

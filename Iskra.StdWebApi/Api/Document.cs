@@ -14,4 +14,6 @@ public class Document : Node
     }
 
     public Element CreateElement(string tagName, ElementCreationOptions? options = null) => throw new();
+
+    public Text CreateTextNode(string data) => throw new();
 }

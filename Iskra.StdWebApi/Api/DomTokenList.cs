@@ -3,12 +3,13 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-public class Event
+public class DomTokenList
 {
-    public Event(string type, EventOptions? options = null) => throw new();
+    protected DomTokenList() => throw new();
 
-    public EventTarget? Target
+    public string Value
     {
         get => throw new();
+        set => throw new();
     }
 }

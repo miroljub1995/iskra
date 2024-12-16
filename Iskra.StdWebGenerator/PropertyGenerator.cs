@@ -72,12 +72,14 @@ public static class PropertyGenerator
                       return null;
                   }
                   """
-                : $$"""
-                    if (prop is null)
-                    {
-                        throw new Exception("The property {{jsName}} is not defined.");
-                    }
-                    """;
+                : propertyInfo.PropertyType.IsValueType
+                    ? ""
+                    : $$"""
+                        if (prop is null)
+                        {
+                            throw new Exception("The property {{jsName}} is not defined.");
+                        }
+                        """;
 
             return $$"""
                      get
