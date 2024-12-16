@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Runtime.InteropServices.JavaScript;
 using System.Text;
 using Iskra.StdWebGenerator.Extensions;
 
@@ -40,6 +41,30 @@ public static class PropertyGenerator
                 return null;
             }
 
+            var jsObjectMethod = propertyInfo.PropertyType switch
+            {
+                _ when propertyInfo.PropertyType == typeof(bool) => "GetPropertyAsBoolean",
+                _ when propertyInfo.PropertyType == typeof(int) => "GetPropertyAsInt32",
+                _ when propertyInfo.PropertyType == typeof(long) => "GetPropertyAsInt64",
+                _ when propertyInfo.PropertyType == typeof(double) => "GetPropertyAsDouble",
+                _ when propertyInfo.PropertyType == typeof(string) => "GetPropertyAsString",
+                _ when propertyInfo.PropertyType == typeof(JSObject) => "GetPropertyAsJSObject",
+                _ when isJSObjectWrapper => "GetPropertyAsJSObject",
+                _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
+            };
+
+            var returnValue = propertyInfo.PropertyType switch
+            {
+                _ when propertyInfo.PropertyType == typeof(bool) => "prop",
+                _ when propertyInfo.PropertyType == typeof(int) => "prop",
+                _ when propertyInfo.PropertyType == typeof(long) => "prop",
+                _ when propertyInfo.PropertyType == typeof(double) => "prop",
+                _ when propertyInfo.PropertyType == typeof(string) => "prop",
+                _ when propertyInfo.PropertyType == typeof(JSObject) => "prop",
+                _ when isJSObjectWrapper => $"new {returnType}(prop)",
+                _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
+            };
+
             var nullableCheck = isNullable
                 ? """
                   if(prop is null)
@@ -57,11 +82,11 @@ public static class PropertyGenerator
             return $$"""
                      get
                      {
-                         var prop = JSObject.GetPropertyAsJSObject("{{jsName}}");
+                         var prop = JSObject.{{jsObjectMethod}}("{{jsName}}");
 
                      {{nullableCheck.IndentLines(4)}}
                      
-                         return new {{returnType}}(prop);
+                         return {{returnValue}};
                      }
                      """;
         }
