@@ -6,4 +6,12 @@ namespace Iskra.StdWebApi.Api;
 public class Document : Node
 {
     protected Document() => throw new();
+
+    public HTMLBodyElement? Body
+    {
+        get => throw new();
+        set => throw new();
+    }
+
+    public Element CreateElement(string tagName, ElementCreationOptions? options = null) => throw new();
 }

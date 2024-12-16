@@ -26,7 +26,7 @@ public static partial class Reflect
             return res;
         }
 
-        if (typeof(TRes) == typeof(JSObjectWrapper))
+        if (typeof(TRes) == typeof(JSObjectWrapper) || typeof(TRes).IsSubclassOf(typeof(JSObjectWrapper)))
         {
             var obj = _ApplyAsJSObject(target, thisArgument, unwrappedArgs);
             var res = WrapperFactory.GetWrapper(obj);

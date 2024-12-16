@@ -3,6 +3,6 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-public class Element : Node
+public class ElementCreationOptions
 {
 }

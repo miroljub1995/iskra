@@ -6,4 +6,6 @@ namespace Iskra.StdWebApi.Api;
 public class Node : EventTarget
 {
     protected Node() => throw new();
+
+    public Node AppendChild(Node aChild) => throw new();
 }

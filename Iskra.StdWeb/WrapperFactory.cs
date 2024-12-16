@@ -23,8 +23,14 @@ public static partial class WrapperFactory
         // AddFactory(GetGlobalConstructor("EventTarget"), obj => new EventTarget(obj));
         // AddFactory(GetGlobalConstructor("Window"), obj => new Window(obj));
 
+        AddGlobalFactory("Document", obj => new Document(obj));
+        AddGlobalFactory("Element", obj => new Element(obj));
         AddGlobalFactory("Event", obj => new Event(obj));
         AddGlobalFactory("EventTarget", obj => new EventTarget(obj));
+        AddGlobalFactory("HTMLBodyElement", obj => new HTMLBodyElement(obj));
+        AddGlobalFactory("HTMLDivElement", obj => new HTMLDivElement(obj));
+        AddGlobalFactory("HTMLElement", obj => new HTMLElement(obj));
+        AddGlobalFactory("Node", obj => new Node(obj));
         AddGlobalFactory("Window", obj => new Window(obj));
 
         _areDefaultsInitialized = true;
