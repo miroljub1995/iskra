@@ -1,7 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
 using System.Runtime.Versioning;
 
-namespace Iskra.Utils;
+namespace Iskra.StdWeb.Utils;
 
 [SupportedOSPlatform("browser")]
 public static partial class ManagedToJSFunctionExtensions
@@ -61,14 +61,12 @@ public static partial class ManagedToJSFunctionExtensions
     {
         if (!_isProxyInitialized)
         {
-            JSHost.GlobalThis.SetProperty(ProxyFunctionName,
-                Function("cb", "return ((...args) => cb(...args));"));
+            var proxyMethod = new Function("cb", "return ((...args) => cb(...args));");
+
+            JSHost.GlobalThis.SetProperty(ProxyFunctionName, proxyMethod.JSObject);
             _isProxyInitialized = true;
         }
     }
-
-    [JSImport("globalThis.Function")]
-    private static partial JSObject Function(string cb, string code);
 
     public static JSObject ToJSObject(this Action action)
     {

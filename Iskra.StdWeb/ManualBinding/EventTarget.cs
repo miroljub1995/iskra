@@ -1,6 +1,5 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWeb.Utils;
-using Iskra.Utils;
 
 namespace Iskra.StdWeb;
 

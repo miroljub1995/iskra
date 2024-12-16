@@ -20,8 +20,4 @@
 
         <Exec Command="$(DotnetPath) run --project '$(IskraGeneratorProject)'"/>
     </Target>
-
-    <ItemGroup>
-        <ProjectReference Include="..\Iskra.Utils\Iskra.Utils.csproj"/>
-    </ItemGroup>
 </Project>

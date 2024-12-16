@@ -1,5 +1,4 @@
 using System.Runtime.InteropServices.JavaScript;
-using Iskra.Utils;
 
 namespace Iskra.StdWeb;
 
@@ -106,9 +105,11 @@ public static partial class WrapperFactory
     {
         if (!_isProxyInitialized)
         {
-            JSHost.GlobalThis.SetProperty(ProxyMethodName,
-                JSFunctionConstructor.Function("constructorName", "target",
-                    "return globalThis[constructorName] === target.constructor;"));
+            var proxyMethod = new Function("constructorName", "target",
+                "return globalThis[constructorName] === target.constructor;");
+
+            JSHost.GlobalThis.SetProperty(ProxyMethodName, proxyMethod.JSObject);
+
             _isProxyInitialized = true;
         }
     }
