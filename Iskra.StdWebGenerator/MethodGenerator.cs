@@ -26,6 +26,10 @@ public static class MethodGenerator
         {
             var methodName = JSPropertyNameGenerator.Execute(methodInfo);
 
+            var returnKeyword = methodInfo.ReturnType == typeof(void) ? "" : "return ";
+            var applyGenericParams = methodInfo.ReturnType == typeof(void) ? "" : $"<{returnType}>";
+            var cast = methodInfo.ReturnType == typeof(void) ? "" : $"({returnType})";
+
             var res = $$"""
                         public{{staticKeyword}} {{returnType}} {{name}}{{genericDef}}({{parameters.Content}})
                         {
@@ -42,7 +46,7 @@ public static class MethodGenerator
                             var method = JSObject.GetPropertyAsJSObject("{{methodName}}")
                                          ?? throw new Exception("Should be handled before.");
                         
-                            Reflect.Apply(method, JSObject, args);
+                            {{returnKeyword}}{{cast}}Reflect.Apply{{applyGenericParams}}(method, JSObject, [{{string.Join(", ", parameters.ParamNamesWithDestructuredIfParams)}}]);
                         }
                         """;
 

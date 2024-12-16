@@ -5,5 +5,5 @@ namespace Iskra.StdWebApi.Api;
 [GenerateBindings]
 public class Event
 {
-    public Event() => throw new();
+    public Event(string type, EventOptions? options = null) => throw new();
 }

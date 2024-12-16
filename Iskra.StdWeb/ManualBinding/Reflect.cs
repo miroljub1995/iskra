@@ -33,11 +33,25 @@ public static partial class Reflect
             return res;
         }
 
+        if (typeof(TRes) == typeof(bool))
+        {
+            var res = _ApplyAsBool(target, thisArgument, unwrappedArgs);
+            return res;
+        }
+
         throw new NotSupportedException($"Return type {typeof(TRes)} not supported.");
     }
 
     [JSImport("globalThis.Reflect.apply")]
     private static partial void _ApplyAsVoid(
+        JSObject target,
+        JSObject? thisArgument,
+        [JSMarshalAs<JSType.Array<JSType.Any>>]
+        object?[] argumentList
+    );
+
+    [JSImport("globalThis.Reflect.apply")]
+    private static partial bool _ApplyAsBool(
         JSObject target,
         JSObject? thisArgument,
         [JSMarshalAs<JSType.Array<JSType.Any>>]

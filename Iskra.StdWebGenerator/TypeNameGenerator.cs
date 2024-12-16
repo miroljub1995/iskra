@@ -12,6 +12,8 @@ public static class TypeNameGenerator
     {
         { typeof(void), "void" },
         { typeof(int), "int" },
+        { typeof(bool), "bool" },
+        { typeof(string), "string" },
         { typeof(object), "object" },
         { typeof(JSObject), "JSObject" },
     };
@@ -44,7 +46,7 @@ public static class TypeNameGenerator
 
         if (type.IsArray && type.GetElementType() is { } arrayElementType)
         {
-            var asParams = attrs?.IsDefined(typeof(AsParamsAttribute), false) ?? false;
+            var asParams = attrs.IsDefinedAsParams();
             var asParamsPrefix = asParams ? "params " : "";
 
             var elementName = Execute(arrayElementType, attrs, nullableStateIndex + 1);

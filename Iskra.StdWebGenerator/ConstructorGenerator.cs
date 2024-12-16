@@ -13,11 +13,11 @@ public static class ConstructorGenerator
         }
 
         var typeName = TypeNameGenerator.Execute(constructorInfo.DeclaringType);
-        var (paramsContent, parameters) = MethodParametersGenerator.Execute(constructorInfo);
+        var (paramsContent, _, paramNamesWithDestructuredIfParams) = MethodParametersGenerator.Execute(constructorInfo);
 
         var content = $$"""
                         public {{typeName}}({{paramsContent}})
-                            : this(JSConstructor.New("{{typeName}}", [{{string.Join(", ", parameters)}}]))
+                            : this(JSConstructor.New("{{typeName}}", [{{string.Join(", ", paramNamesWithDestructuredIfParams)}}]))
                         {
                         }
                         """;

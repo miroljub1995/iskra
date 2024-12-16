@@ -6,4 +6,6 @@ namespace Iskra.StdWebApi.Api;
 public class EventTarget
 {
     public EventTarget() => throw new();
+
+    public bool DispatchEvent(Event e) => throw new();
 }
