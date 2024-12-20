@@ -1,5 +1,6 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWeb;
+using Iskra.StdWeb.Utils;
 
 namespace Iskra.MinimalWasmExample;
 
@@ -16,7 +17,6 @@ public static class Program
         w.Document.DispatchEvent(new Event("test"));
 
         w.Document.RemoveEventListener("test", SomeListener, false);
-        w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));

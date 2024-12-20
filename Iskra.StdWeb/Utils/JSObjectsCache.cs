@@ -9,12 +9,12 @@ public static class JSObjectsCache
 
     public static JSObject GetOrAdd(object managedObject, Func<JSObject> factory)
     {
-        // TODO: Remove all keys that do not have target
-
         if (TryGetValue(managedObject, out var jsObject))
         {
             return jsObject;
         }
+
+        RemoveCollectedObjects();
 
         var newJSObject = factory();
         Cache[managedObject] = new WeakReference<JSObject>(newJSObject);
@@ -32,5 +32,18 @@ public static class JSObjectsCache
 
         value = null;
         return false;
+    }
+
+    private static void RemoveCollectedObjects()
+    {
+        var keysToRemove = Cache
+            .Where(kvp => !kvp.Value.TryGetTarget(out _))
+            .Select(kvp => kvp.Key)
+            .ToArray();
+
+        foreach (var key in keysToRemove)
+        {
+            Cache.Remove(key);
+        }
     }
 }
