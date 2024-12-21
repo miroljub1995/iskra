@@ -16,6 +16,7 @@ public static class Program
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
 
+        System.Console.WriteLine("Removing event listener...");
         w.Document.RemoveEventListener("test", SomeListener, false);
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));

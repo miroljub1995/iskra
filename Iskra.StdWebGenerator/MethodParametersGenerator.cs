@@ -3,7 +3,10 @@ using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
-public record MethodParametersGeneratorResult(string Content, string?[] ParamNames, string?[] ParamNamesWithDestructuredIfParams);
+public record MethodParametersGeneratorResult(
+    string Content,
+    string?[] ParamNamesWithDestructuredIfParams
+);
 
 public static class MethodParametersGenerator
 {
@@ -16,8 +19,7 @@ public static class MethodParametersGenerator
 
         return new MethodParametersGeneratorResult(
             Content: content,
-            ParamNames: parameters.Select(x => x.Name).ToArray(),
-            ParamNamesWithDestructuredIfParams: parameters.Select(x => x.IsDefinedAsParams() ? $"..{x.Name}" : x.Name).ToArray()
+            ParamNamesWithDestructuredIfParams: parameters.Select(GetParameterUsage).ToArray()
         );
     }
 
@@ -35,5 +37,22 @@ public static class MethodParametersGenerator
         }
 
         return "";
+    }
+
+    private static string GetParameterUsage(ParameterInfo parameter)
+    {
+        var isDelegate = parameter.ParameterType.IsJSObjectWrapper() &&
+                         parameter.ParameterType.IsSubclassOf(typeof(Delegate));
+
+        if (parameter.IsDefinedAsParams())
+        {
+            return isDelegate
+                ? $"..{parameter.Name}.Select(x => x.ToJSObject())"
+                : $"..{parameter.Name}";
+        }
+
+        return isDelegate
+            ? $"{parameter.Name}.ToJSObject()"
+            : $"{parameter.Name}";
     }
 }

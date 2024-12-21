@@ -61,7 +61,6 @@ public static partial class WrapperFactory
         var constructor = obj.GetPropertyAsJSObject("constructor")
                           ?? throw new Exception($"No constructor found for {obj}");
 
-
         if (Factories.TryGetValue(constructor, out var factory))
         {
             return factory(obj);

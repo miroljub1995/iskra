@@ -13,7 +13,7 @@ public static class ConstructorGenerator
         }
 
         var typeName = TypeNameGenerator.Execute(constructorInfo.DeclaringType);
-        var (paramsContent, _, paramNamesWithDestructuredIfParams) = MethodParametersGenerator.Execute(constructorInfo);
+        var (paramsContent, paramNamesWithDestructuredIfParams) = MethodParametersGenerator.Execute(constructorInfo);
 
         var content = $$"""
                         public {{typeName}}({{paramsContent}})
