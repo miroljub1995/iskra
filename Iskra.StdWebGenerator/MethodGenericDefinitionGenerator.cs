@@ -12,7 +12,7 @@ public static class MethodGenericDefinitionGenerator
         }
 
         var args = methodInfo.GetGenericArguments();
-        var argsList = string.Join(", ", args.Select(x => TypeNameGenerator.Execute(x)));
+        var argsList = string.Join(", ", args.Select(x => x.Name));
         var res = $"<{argsList}>";
 
         return res;

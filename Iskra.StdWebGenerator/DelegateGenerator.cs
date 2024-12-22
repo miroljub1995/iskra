@@ -14,8 +14,7 @@ public static class DelegateGenerator
             throw new Exception($"The type {type.FullName} is not a delegate");
         }
 
-        var returnType = TypeNameGenerator.Execute(invokeMethod.ReturnType, invokeMethod.ReturnTypeCustomAttributes);
-        var isReturnNullable = invokeMethod.ReturnType.IsNullable(invokeMethod.ReturnType);
+        var returnType = TypeNameGenerator.Execute(invokeMethod.ReturnParameter);
         var parameters = MethodParametersGenerator.Execute(invokeMethod);
 
         return $$"""
@@ -89,21 +88,26 @@ public static class DelegateGenerator
             var proxyParamType =
                 parameter.ParameterType.IsJSObjectWrapper() ? typeof(JSObject) : parameter.ParameterType;
 
-            var isNullable = proxyParamType.IsNullable(parameter);
+            var paramTypeName = TypeNameGenerator.Execute(
+                proxyParamType,
+                new NullabilityInfoContext().Create(method.ReturnParameter),
+                true
+            );
 
-            var paramTypeName = TypeNameGenerator.Execute(proxyParamType, parameter.ParameterType);
-
-            parameterDefs.Add($"{paramTypeName}{(isNullable ? "?" : "")}");
+            parameterDefs.Add(paramTypeName);
         }
 
         if (!method.IsVoid())
         {
             var proxyReturnType = method.ReturnType.IsJSObjectWrapper() ? typeof(JSObject) : method.ReturnType;
-            var isNullable = proxyReturnType.IsNullable(method.ReturnTypeCustomAttributes);
 
-            var paramTypeName = TypeNameGenerator.Execute(proxyReturnType, method.ReturnType);
+            var paramTypeName = TypeNameGenerator.Execute(
+                proxyReturnType,
+                new NullabilityInfoContext().Create(method.ReturnParameter),
+                true
+            );
 
-            parameterDefs.Add($"{paramTypeName}{(isNullable ? "?" : "")}");
+            parameterDefs.Add($"{paramTypeName}");
 
             return $"Func<{string.Join(", ", parameterDefs)}>";
         }
@@ -136,7 +140,7 @@ public static class DelegateGenerator
                 if (parameters[i].ParameterType.IsJSObjectWrapper())
                 {
                     blocks.Add($$"""
-                                 var p{{i}}Marshaled = WrapperFactory.GetWrapper<{{TypeNameGenerator.Execute(parameters[i].ParameterType, parameters[i])}}>(p{{i}});
+                                 var p{{i}}Marshaled = WrapperFactory.GetWrapper<{{TypeNameGenerator.Execute(parameters[i])}}>(p{{i}});
                                  """
                     );
                 }
@@ -150,7 +154,7 @@ public static class DelegateGenerator
             if (method.ReturnType.IsJSObjectWrapper())
             {
                 return $$"""
-                         var retMarshaled = WrapperFactory.GetWrapper<{{TypeNameGenerator.Execute(method.ReturnType, method.ReturnTypeCustomAttributes)}}>(ret);
+                         var retMarshaled = WrapperFactory.GetWrapper<{{TypeNameGenerator.Execute(method.ReturnParameter)}}>(ret);
                          return retMarshaled;
                          """;
             }

@@ -8,7 +8,7 @@ public static class MethodGenerator
     public static string Execute(MethodInfo methodInfo)
     {
         var isManualBinding = methodInfo.IsDefined(typeof(ManualBindingAttribute));
-        var returnType = TypeNameGenerator.Execute(methodInfo.ReturnType, methodInfo.ReturnTypeCustomAttributes);
+        var returnType = TypeNameGenerator.Execute(methodInfo.ReturnParameter);
         var staticKeyword = methodInfo.IsStatic ? " static" : "";
         var name = methodInfo.Name;
         var genericDef = MethodGenericDefinitionGenerator.Execute(methodInfo);

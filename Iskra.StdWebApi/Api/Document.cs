@@ -7,6 +7,11 @@ public class Document : Node
 {
     protected Document() => throw new();
 
+    /// <summary>
+    /// https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement
+    /// </summary>
+    public Element? activeElement => throw new();
+
     public HTMLBodyElement? Body
     {
         get => throw new();

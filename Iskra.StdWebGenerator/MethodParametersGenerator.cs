@@ -15,7 +15,7 @@ public static class MethodParametersGenerator
         var parameters = method.GetParameters();
 
         var content = string.Join(", ",
-            parameters.Select(x => $"{TypeNameGenerator.Execute(x.ParameterType, x)} {x.Name}{DefaultValue(x)}"));
+            parameters.Select(x => $"{TypeNameGenerator.Execute(x)} {x.Name}{DefaultValue(x)}"));
 
         return new MethodParametersGeneratorResult(
             Content: content,

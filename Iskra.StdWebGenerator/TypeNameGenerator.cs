@@ -1,5 +1,4 @@
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
@@ -18,21 +17,24 @@ public static class TypeNameGenerator
         { typeof(JSObject), "JSObject" },
     };
 
-    public static string Execute(Type? type, ICustomAttributeProvider? attrs = null, int nullableStateIndex = 0)
+    public static string Execute(ParameterInfo parameterInfo)
     {
-        if (type is null)
-        {
-            return "null";
-        }
+        var nullabilityInfo = new NullabilityInfoContext().Create(parameterInfo);
+        var asParams = parameterInfo.IsDefinedAsParams();
+        return (asParams ? "params " : "") + Execute(parameterInfo.ParameterType, nullabilityInfo, true);
+    }
 
-        if (type.IsGenericParameter)
-        {
-            return type.Name;
-        }
+    public static string Execute(PropertyInfo propertyInfo)
+    {
+        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
+        return Execute(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
+    }
 
-        var isNullable = type.IsNullable(attrs, nullableStateIndex);
+    public static string Execute(Type type, NullabilityInfo? nullabilityInfo, bool fromRead = false)
+    {
+        var nullabilityState = fromRead ? nullabilityInfo?.ReadState : nullabilityInfo?.WriteState;
 
-        var nullableIndicator = isNullable ? "?" : "";
+        var nullableIndicator = nullabilityState == NullabilityState.Nullable ? "?" : "";
 
         if (type.IsDefined(typeof(GenerateBindingsAttribute)))
         {
@@ -44,13 +46,25 @@ public static class TypeNameGenerator
             return typeMappingName + nullableIndicator;
         }
 
-        if (type.IsArray && type.GetElementType() is { } arrayElementType)
+        if (type.IsArray)
         {
-            var asParams = attrs.IsDefinedAsParams();
-            var asParamsPrefix = asParams ? "params " : "";
+            if (type.GetElementType() is not { } arrayElementType)
+            {
+                throw new Exception($"Array {type} has not element type.");
+            }
 
-            var elementName = Execute(arrayElementType, attrs, nullableStateIndex + 1);
-            return $"{asParamsPrefix}{elementName}[]" + nullableIndicator;
+            return Execute(arrayElementType, nullabilityInfo?.ElementType, true) + "[]" + nullableIndicator;
+        }
+
+        if (type.IsGenericType)
+        {
+            var genericDef = type.GetGenericTypeDefinition();
+            var genericArgs = type.GetGenericArguments();
+
+            if (genericDef == typeof(Nullable<>))
+            {
+                return Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true) + nullableIndicator;
+            }
         }
 
         throw new NotSupportedException($"Type {type} is not supported.");

@@ -70,7 +70,7 @@ public static partial class WrapperFactory
     }
 
     public static TWrapper GetWrapper<TWrapper>(JSObject obj)
-        where TWrapper : JSObjectWrapper
+        where TWrapper : JSObjectWrapper?
     {
         var wrapper = GetWrapper(obj);
         if (wrapper is TWrapper specificWrapper)

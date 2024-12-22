@@ -3,7 +3,7 @@ using Iskra.StdWebApi.Attributes;
 
 namespace Iskra.StdWebGenerator.Extensions;
 
-public static class ICustomAttributeProviderExtensions
+public static class CustomAttributeProviderExtensions
 {
     public static bool IsDefinedAsParams(this ICustomAttributeProvider? attrs)
     {

@@ -9,9 +9,13 @@ public static class PropertyGenerator
 {
     public static string Execute(PropertyInfo propertyInfo)
     {
+        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
+        var isNullable = (propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState) ==
+                         NullabilityState.Nullable;
+
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
-        var returnType = TypeNameGenerator.Execute(propertyInfo.PropertyType, propertyInfo);
-        var isNullable = propertyInfo.PropertyType.IsNullable(propertyInfo);
+        var returnType = TypeNameGenerator.Execute(propertyInfo);
+        var state = new NullabilityInfoContext().Create(propertyInfo);
         var isJSObjectWrapper = propertyInfo.PropertyType.IsJSObjectWrapper();
 
         var builder = new StringBuilder();
@@ -61,32 +65,34 @@ public static class PropertyGenerator
                 _ when propertyInfo.PropertyType == typeof(double) => "prop",
                 _ when propertyInfo.PropertyType == typeof(string) => "prop",
                 _ when propertyInfo.PropertyType == typeof(JSObject) => "prop",
-                _ when isJSObjectWrapper => $"new {returnType}(prop)",
+                _ when isJSObjectWrapper => $"WrapperFactory.GetWrapper<{returnType}>(prop)",
                 _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
             };
 
-            var nullableCheck = isNullable
-                ? """
-                  if(prop is null)
-                  {
-                      return null;
-                  }
-                  """
-                : propertyInfo.PropertyType.IsValueType
-                    ? ""
-                    : $$"""
-                        if (prop is null)
-                        {
-                            throw new Exception("The property {{jsName}} is not defined.");
-                        }
-                        """;
+            var postNullableCheck = propertyInfo.PropertyType.IsValueType
+                ? ""
+                : $$"""
+                    {{"\n"}}if (prop is null)
+                    {
+                        throw new Exception("This should not happen. It is handled before.");
+                    }
+                    """;
+
+            var actionOnNull = state.ReadState == NullabilityState.Nullable
+                ? "return null;"
+                : $"throw new Exception(\"The property {jsName} is null or not defined.\");";
 
             return $$"""
                      get
                      {
+                         bool isNullOrUndefined = JSObject.IsNullOrUndefined("{{jsName}}");
+                         if(isNullOrUndefined)
+                         {
+                            {{actionOnNull}}
+                         }
+                     
                          var prop = JSObject.{{jsObjectMethod}}("{{jsName}}");
-
-                     {{nullableCheck.IndentLines(4)}}
+                     {{postNullableCheck.IndentLines(4)}}
                      
                          return {{returnValue}};
                      }

@@ -12,7 +12,12 @@ public static class ConstructorGenerator
             return null;
         }
 
-        var typeName = TypeNameGenerator.Execute(constructorInfo.DeclaringType);
+        if (constructorInfo.DeclaringType is null)
+        {
+            throw new Exception($"Declaring type {constructorInfo.DeclaringType} is not defined.");
+        }
+
+        var typeName = TypeNameGenerator.Execute(constructorInfo.DeclaringType, null);
         var (paramsContent, paramNamesWithDestructuredIfParams) = MethodParametersGenerator.Execute(constructorInfo);
 
         var content = $$"""

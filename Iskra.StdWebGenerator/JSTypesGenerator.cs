@@ -25,7 +25,7 @@ public static class JSTypesGenerator
                 _ => JSTypeGenerator.Execute(type),
             };
 
-            var outputFilePath = Path.Join(targetDir, $"{TypeNameGenerator.Execute(type)}.cs");
+            var outputFilePath = Path.Join(targetDir, $"{TypeNameGenerator.Execute(type, null)}.cs");
             await File.WriteAllTextAsync(outputFilePath, typeContent);
         }
     }

@@ -10,8 +10,10 @@ public static class JSTypeGenerator
 
         var isStatic = type is { IsAbstract: true, IsSealed: true };
         var baseType = type.BaseType;
-        var isBaseTypeObject = baseType is null || baseType == typeof(object);
-        var baseTypeName = isBaseTypeObject ? "JSObjectWrapper" : TypeNameGenerator.Execute(baseType, baseType);
+
+        var baseTypeName = baseType is null || baseType == typeof(object)
+            ? "JSObjectWrapper"
+            : TypeNameGenerator.Execute(baseType, null);
 
         var staticKeyword = isStatic ? " static" : "";
         var defaultConstructor = isStatic ? null : "(JSObject obj)";
