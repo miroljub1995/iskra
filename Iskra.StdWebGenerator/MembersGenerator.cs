@@ -1,5 +1,6 @@
 using System.Reflection;
-using System.Text;
+using Iskra.StdWebApi.Attributes;
+using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
@@ -14,6 +15,29 @@ public static class MembersGenerator
             .ToList();
 
         List<string> membersBody = [];
+
+        if (type.GetCustomAttribute<AddToGlobalFactoryAttribute>() is { } addToFactoryAttr)
+        {
+            var body =
+                $"WrapperFactory.AddGlobalFactory(\"{addToFactoryAttr.ConstructorName ?? type.Name}\", obj => new {type.Name}(obj));";
+
+            var deps = AddToGlobalFactoryAttribute.GetDeps(type);
+            if (deps.Length > 0)
+            {
+                body += "\n\n";
+                body += string.Join("\n",
+                    deps.Select(t =>
+                        $"System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof({t.Name}).TypeHandle);"));
+            }
+
+            membersBody.Add($$"""
+                              static {{type.Name}}()
+                              {
+                              {{body.IndentLines(4)}}
+                              }
+                              """);
+        }
+
         foreach (var memberInfo in members)
         {
             var content = MemberGenerator.Execute(memberInfo);

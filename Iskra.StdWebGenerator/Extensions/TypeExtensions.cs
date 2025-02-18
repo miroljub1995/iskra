@@ -8,6 +8,9 @@ namespace Iskra.StdWebGenerator.Extensions;
 
 public static class TypeExtensions
 {
+    public static bool IsStatic(this Type type)
+        => type is { IsAbstract: true, IsSealed: true };
+
     public static bool IsJSObjectWrapper(this Type type)
         => type.IsDefined(typeof(GenerateBindingsAttribute), false);
 

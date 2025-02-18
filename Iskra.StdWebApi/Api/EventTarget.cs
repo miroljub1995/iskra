@@ -3,6 +3,7 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
+[AddToGlobalFactory]
 public class EventTarget
 {
     public EventTarget() => throw new();

@@ -1,3 +1,5 @@
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.JavaScript;
 
 namespace Iskra.StdWeb;
@@ -7,34 +9,10 @@ public static partial class WrapperFactory
     private static readonly Dictionary<JSObject, Func<JSObject, JSObjectWrapper>> Factories = new();
     private static readonly Dictionary<string, Func<JSObject, JSObjectWrapper>> GlobalFactories = new();
 
-    private static bool _areDefaultsInitialized;
-
     private const string ProxyMethodName = "iskra_isOfGlobalConstructor";
     private static bool _isProxyInitialized;
 
-    private static void EnsureInitializedDefaults()
-    {
-        if (_areDefaultsInitialized)
-        {
-            return;
-        }
-
-        // AddFactory(GetGlobalConstructor("EventTarget"), obj => new EventTarget(obj));
-        // AddFactory(GetGlobalConstructor("Window"), obj => new Window(obj));
-
-        AddGlobalFactory("Document", obj => new Document(obj));
-        AddGlobalFactory("Element", obj => new Element(obj));
-        AddGlobalFactory("Event", obj => new Event(obj));
-        AddGlobalFactory("EventTarget", obj => new EventTarget(obj));
-        AddGlobalFactory("HTMLBodyElement", obj => new HTMLBodyElement(obj));
-        AddGlobalFactory("HTMLDivElement", obj => new HTMLDivElement(obj));
-        AddGlobalFactory("HTMLElement", obj => new HTMLElement(obj));
-        AddGlobalFactory("Node", obj => new Node(obj));
-        AddGlobalFactory("Window", obj => new Window(obj));
-
-        _areDefaultsInitialized = true;
-    }
-
+    [Obsolete("Obsolete until https://github.com/dotnet/runtime/issues/110716 is fixed.")]
     public static void AddFactory(JSObject constructor, Func<JSObject, JSObjectWrapper> factory)
     {
         Factories.Add(constructor, factory);
@@ -45,16 +23,17 @@ public static partial class WrapperFactory
         GlobalFactories.Add(constructorName, factory);
     }
 
-    public static JSObjectWrapper GetWrapper(JSObject obj)
+    public static bool TryGetWrapper(JSObject obj, [NotNullWhen(true)] out JSObjectWrapper? wrapper)
     {
-        EnsureInitializedDefaults();
         EnsureMethodProxyInitialized();
 
         foreach (var keyValue in GlobalFactories)
         {
+            System.Console.WriteLine($"Checking {keyValue.Key}.");
             if (IsOfGlobalConstructor(keyValue.Key, obj))
             {
-                return keyValue.Value(obj);
+                wrapper = keyValue.Value(obj);
+                return true;
             }
         }
 
@@ -63,22 +42,28 @@ public static partial class WrapperFactory
 
         if (Factories.TryGetValue(constructor, out var factory))
         {
-            return factory(obj);
+            wrapper = factory(obj);
+            return true;
         }
 
         throw new Exception("Failed to find wrapper.");
     }
 
     public static TWrapper GetWrapper<TWrapper>(JSObject obj)
-        where TWrapper : JSObjectWrapper?
     {
-        var wrapper = GetWrapper(obj);
-        if (wrapper is TWrapper specificWrapper)
+        RuntimeHelpers.RunClassConstructor(typeof(TWrapper).TypeHandle);
+
+        if (!TryGetWrapper(obj, out var wrapper))
         {
-            return specificWrapper;
+            throw new Exception($"Failed to find wrapper for {typeof(TWrapper).Name}.");
         }
 
-        throw new Exception($"Wrapper {wrapper} is not of type {typeof(TWrapper).Name}.");
+        if (wrapper is not TWrapper specificWrapper)
+        {
+            throw new Exception($"Wrapper {wrapper} is not of type {typeof(TWrapper).Name}.");
+        }
+
+        return specificWrapper;
     }
 
     public static JSObject GetGlobalConstructor(string name)

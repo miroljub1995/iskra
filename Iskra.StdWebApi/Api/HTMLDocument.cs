@@ -3,9 +3,10 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-public class Document : Node
+[AddToGlobalFactory]
+public class HTMLDocument : Node
 {
-    protected Document() => throw new();
+    protected HTMLDocument() => throw new();
 
     /// <summary>
     /// https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement

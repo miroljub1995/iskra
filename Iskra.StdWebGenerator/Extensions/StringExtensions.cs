@@ -10,7 +10,8 @@ public static class StringExtensions
         }
 
         var lines = s.Split("\n");
-        var res = string.Join("\n", lines.Select(x => new string([..new string(' ', level), ..x])));
+        var res = string.Join("\n",
+            lines.Select(x => new string([..new string(' ', x == string.Empty ? 0 : level), ..x])));
 
         return res;
     }

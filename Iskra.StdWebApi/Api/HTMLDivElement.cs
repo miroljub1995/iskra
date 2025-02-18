@@ -3,7 +3,8 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-public class HTMLDivElement : HTMLBodyElement
+[AddToGlobalFactory]
+public class HTMLDivElement : HTMLElement
 {
     protected HTMLDivElement() => throw new();
 }
