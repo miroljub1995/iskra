@@ -10,5 +10,5 @@ public class Window
 
     public Console Console => throw new();
 
-    public HTMLDocument Document => throw new();
+    public Document Document => throw new();
 }
