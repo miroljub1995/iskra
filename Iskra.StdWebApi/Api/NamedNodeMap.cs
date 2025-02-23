@@ -16,7 +16,9 @@ public class NamedNodeMap
 
     public Attr? GetNamedItem(string name) => throw new();
 
-    [IndexerName("Indexer")] public Attr? this[string name] => throw new();
+    [IndexerName("Indexer")]
+    [IndexerAliasMethods(Get = nameof(GetNamedItem))]
+    public Attr? this[string name] => throw new();
 
     public Attr? SetNamedItem(Attr attribute) => throw new();
 
@@ -24,7 +26,9 @@ public class NamedNodeMap
 
     public Attr? Item(int index) => throw new();
 
-    [IndexerName("Indexer")] public Attr? this[int index] => throw new();
+    [IndexerName("Indexer")]
+    [IndexerAliasMethods(Get = nameof(Item))]
+    public Attr? this[int index] => throw new();
 
     public Attr? GetNamedItemNS(string namespaceURI, string localName) => throw new();
 

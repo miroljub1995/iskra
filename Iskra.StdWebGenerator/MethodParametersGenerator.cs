@@ -11,9 +11,10 @@ public record MethodParametersGeneratorResult(
 public static class MethodParametersGenerator
 {
     public static MethodParametersGeneratorResult Execute(MethodBase method)
-    {
-        var parameters = method.GetParameters();
+        => Execute(method.GetParameters());
 
+    public static MethodParametersGeneratorResult Execute(ParameterInfo[] parameters)
+    {
         var content = string.Join(", ",
             parameters.Select(x => $"{TypeNameGenerator.Execute(x)} {x.Name}{DefaultValue(x)}"));
 

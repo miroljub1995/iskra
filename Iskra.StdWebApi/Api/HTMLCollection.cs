@@ -16,9 +16,13 @@ public class HTMLCollection
 
     public Element? Item(int index) => throw new();
 
-    [IndexerName("Indexer")] public Element? this[int index] => throw new();
+    [IndexerName("Indexer")]
+    [IndexerAliasMethods(Get = nameof(Item))]
+    public Element? this[int index] => throw new();
 
     public Element? NamedItem(string name) => throw new();
 
-    [IndexerName("Indexer")] public Element? this[string name] => throw new();
+    [IndexerName("Indexer")]
+    [IndexerAliasMethods(Get = nameof(NamedItem))]
+    public Element? this[string name] => throw new();
 }

@@ -1,6 +1,7 @@
 using System.Reflection;
 using System.Runtime.InteropServices.JavaScript;
 using System.Text;
+using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
@@ -15,14 +16,29 @@ public static class PropertyGenerator
 
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
         var returnType = TypeNameGenerator.Execute(propertyInfo);
-        var state = new NullabilityInfoContext().Create(propertyInfo);
+        var state = new NullabilityInfoContext().Create(propertyInfo); // TODO: remove, use nullabilityInfo
         var isJSObjectWrapper = propertyInfo.PropertyType.IsJSObjectWrapper();
 
+        var indexParameters = propertyInfo.GetIndexParameters();
+        MethodParametersGeneratorResult indexParametersRes = MethodParametersGenerator.Execute(indexParameters);
+
         var builder = new StringBuilder();
-        builder.AppendLine($$"""
-                             public {{returnType}} {{propertyInfo.Name}}
-                             {
-                             """);
+
+        if (indexParameters.Length > 0)
+        {
+            builder.AppendLine($$"""
+                                 [System.Runtime.CompilerServices.IndexerName("Indexer")]
+                                 public {{returnType}} this[{{indexParametersRes.Content}}]
+                                 {
+                                 """);
+        }
+        else
+        {
+            builder.AppendLine($$"""
+                                 public {{returnType}} {{propertyInfo.Name}}
+                                 {
+                                 """);
+        }
 
         if (DefineGetter() is { } getter)
         {
@@ -43,6 +59,17 @@ public static class PropertyGenerator
             if (!propertyInfo.CanRead)
             {
                 return null;
+            }
+
+            if (indexParameters.Length > 0)
+            {
+                var indexerAliasMethods = propertyInfo.GetCustomAttribute<IndexerAliasMethods>();
+                if (indexerAliasMethods is null)
+                {
+                    throw new($"Currently only indexer alias methods are supported in property {propertyInfo}.");
+                }
+
+                return $"get => {indexerAliasMethods.Get}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
 
             var jsObjectMethod = propertyInfo.PropertyType switch
@@ -104,6 +131,17 @@ public static class PropertyGenerator
             if (!propertyInfo.CanWrite)
             {
                 return null;
+            }
+
+            if (indexParameters.Length > 0)
+            {
+                var indexerAliasMethods = propertyInfo.GetCustomAttribute<IndexerAliasMethods>();
+                if (indexerAliasMethods is null)
+                {
+                    throw new($"Currently only indexer alias methods are supported in property {propertyInfo}.");
+                }
+
+                return $"set => {indexerAliasMethods.Set}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
 
             var value = isJSObjectWrapper
