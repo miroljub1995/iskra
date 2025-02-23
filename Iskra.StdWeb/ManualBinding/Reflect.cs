@@ -7,6 +7,7 @@ public static partial class Reflect
     public static partial void Apply(JSObject target, JSObject? thisArgument, object?[] argumentList)
     {
         var unwrappedArgs = argumentList
+            .Select(x => x is OneOf oneOf ? oneOf.Value : x)
             .Select(x => x is JSObjectWrapper wrapper ? wrapper.JSObject : x)
             .ToArray();
 
@@ -16,6 +17,7 @@ public static partial class Reflect
     public static partial object Apply<TRes>(JSObject target, JSObject? thisArgument, object?[] argumentList)
     {
         var unwrappedArgs = argumentList
+            .Select(x => x is OneOf oneOf ? oneOf.Value : x)
             .Select(x => x is JSObjectWrapper wrapper ? wrapper.JSObject : x)
             .ToArray();
 

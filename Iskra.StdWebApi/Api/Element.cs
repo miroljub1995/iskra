@@ -411,4 +411,117 @@ public class Element : Node
         get => throw new();
         set => throw new();
     }
+
+    public void After([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void Animate(string el) => throw new();
+
+    // public void Animate() => throw new();
+
+    public void Append([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+
+    public ShadowRoot AttachShadow(ElementAttachShadowOptions options) => throw new();
+
+    public void Before([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+
+    public bool CheckVisibility(ElementCheckVisibilityOptions? options) => throw new();
+
+    public Element? Closest(string selectors) => throw new();
+
+    public StylePropertyMapReadOnly ComputedStyleMap() => throw new();
+
+    public Animation[] GetAnimations(ElementGetAnimationsOptions? options) => throw new();
+
+    public string? GetAttribute(string attributeName) => throw new();
+
+    public string[] GetAttributeNames() => throw new();
+
+    public Attr GetAttributeNode(string attrName) => throw new();
+
+    public Attr GetAttributeNodeNS(string namespaceValue, string nodeName) => throw new();
+
+    public Attr GetAttributeNS(string namespaceValue, string name) => throw new();
+
+    public DOMRect GetBoundingClientRect() => throw new();
+
+    public DOMRectList GetClientRects() => throw new();
+
+    public HTMLCollection GetElementsByClassName(string names) => throw new();
+
+    public HTMLCollection GetElementsByTagName(string tagName) => throw new();
+
+    public HTMLCollection GetElementsByTagNameNS(string namespaceURI, string localName) => throw new();
+
+    public string GetHTML(ElementGetHTMLOptions? options) => throw new();
+
+    public bool HasAttribute(string name) => throw new();
+
+    public bool HasAttributeNS(string namespaceValue, string localName) => throw new();
+
+    public bool HasAttributes() => throw new();
+
+    public bool HasPointerCapture(int pointerId) => throw new();
+
+    public Element? InsertAdjacentElement(string position, Element element) => throw new();
+
+    public void InsertAdjacentHTML(string position, string text) => throw new();
+
+    public void InsertAdjacentText(string where, string data) => throw new();
+
+    public bool Matches(string selectors) => throw new();
+
+    public void Prepend([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+
+    public Element? QuerySelector(string selectors) => throw new();
+
+    public NodeList QuerySelectorAll(string selectors) => throw new();
+
+    public void ReleasePointerCapture(int pointerId) => throw new();
+
+    public void Remove() => throw new();
+
+    public void RemoveAttribute(string attrName) => throw new();
+
+    public Attr RemoveAttributeNode(Attr attributeNode) => throw new();
+
+    public void RemoveAttributeNS(string namespaceValue, string attrName) => throw new();
+
+    public void ReplaceChildren([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+
+    public void ReplaceWith([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+
+    public Task RequestFullscreen(ElementRequestFullscreenOptions? options) => throw new();
+
+    // requestPointerLock
+
+    public void Scroll(double xCoord, double yCoord) => throw new();
+
+    public void Scroll(ElementScrollOptions? options) => throw new();
+
+    public void ScrollBy(double xCoord, double yCoord) => throw new();
+
+    public void ScrollBy(ElementScrollOptions? options) => throw new();
+
+    public void ScrollIntoView(bool? alignToTop) => throw new();
+
+    public void ScrollIntoView(ElementScrollIntoViewOptions? options) => throw new();
+
+    public void ScrollTo(double xCoord, double yCoord) => throw new();
+
+    public void ScrollTo(ElementScrollOptions? options) => throw new();
+
+    public void SetAttribute(string name, string value) => throw new();
+
+    public Attr? SetAttributeNode(Attr attribute) => throw new();
+
+    public Attr? SetAttributeNodeNS(Attr attributeNode) => throw new();
+
+    public void SetAttributeNS(string namespaceValue, string name, string value) => throw new();
+
+    public void SetHTMLUnsafe(string html) => throw new();
+
+    public void SetPointerCapture(int pointerId) => throw new();
+
+    public bool ToggleAttribute(string name) => throw new();
+
+    public bool ToggleAttribute(string name, bool force) => throw new();
 }

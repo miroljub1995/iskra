@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Runtime.InteropServices.JavaScript;
+using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
 
@@ -64,7 +65,45 @@ public static class TypeNameGenerator
 
             if (genericDef == typeof(Nullable<>))
             {
-                return Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true) + nullableIndicator;
+                return Execute(genericArgs[0], null, true) + nullableIndicator;
+            }
+
+            if (genericDef == typeof(OneOf<,>))
+            {
+                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
+                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
+
+                return $"OneOf<{t1},{t2}>";
+            }
+
+            if (genericDef == typeof(OneOf<,,>))
+            {
+                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
+                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
+                var t3 = Execute(genericArgs[2], nullabilityInfo?.GenericTypeArguments[2], true);
+
+                return $"OneOf<{t1}, {t2}, {t3}>";
+            }
+
+            if (genericDef == typeof(OneOf<,,,>))
+            {
+                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
+                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
+                var t3 = Execute(genericArgs[2], nullabilityInfo?.GenericTypeArguments[2], true);
+                var t4 = Execute(genericArgs[3], nullabilityInfo?.GenericTypeArguments[3], true);
+
+                return $"OneOf<{t1}, {t2}, {t3}, {t4}>";
+            }
+
+            if (genericDef == typeof(OneOf<,,,,>))
+            {
+                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
+                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
+                var t3 = Execute(genericArgs[2], nullabilityInfo?.GenericTypeArguments[2], true);
+                var t4 = Execute(genericArgs[3], nullabilityInfo?.GenericTypeArguments[3], true);
+                var t5 = Execute(genericArgs[4], nullabilityInfo?.GenericTypeArguments[4], true);
+
+                return $"OneOf<{t1}, {t2}, {t3}, {t4}, {t5}>";
             }
         }
 

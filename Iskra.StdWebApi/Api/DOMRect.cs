@@ -3,7 +3,7 @@ using Iskra.StdWebApi.Attributes;
 namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
-[IsPlainJSObject]
-public class EventOptions
+[AddToGlobalFactory]
+public class DOMRect : DOMRectReadOnly
 {
 }
