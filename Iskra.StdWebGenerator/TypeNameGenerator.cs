@@ -12,6 +12,7 @@ public static class TypeNameGenerator
         { typeof(void), "void" },
         { typeof(int), "int" },
         { typeof(bool), "bool" },
+        { typeof(double), "double" },
         { typeof(string), "string" },
         { typeof(object), "object" },
         { typeof(JSObject), "JSObject" },

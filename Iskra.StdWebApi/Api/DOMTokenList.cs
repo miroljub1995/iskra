@@ -4,9 +4,9 @@ namespace Iskra.StdWebApi.Api;
 
 [GenerateBindings]
 [AddToGlobalFactory]
-public class DomTokenList
+public class DOMTokenList
 {
-    protected DomTokenList() => throw new();
+    protected DOMTokenList() => throw new();
 
     public string Value
     {

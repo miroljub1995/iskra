@@ -17,3 +17,11 @@ public class TestClass
     public static int TestStaticMethod(int arg) => throw new();
 }
 ```
+Generator missing features:
+- Indexer operator
+
+Api completion:
+
+- [x] Node
+- [x] NamedNodeMap
+- [x] HTMLCollection
