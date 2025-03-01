@@ -12,6 +12,7 @@ public static class TypeNameGenerator
     {
         { typeof(void), "void" },
         { typeof(int), "int" },
+        { typeof(long), "long" },
         { typeof(bool), "bool" },
         { typeof(double), "double" },
         { typeof(string), "string" },
@@ -105,6 +106,19 @@ public static class TypeNameGenerator
 
                 return $"OneOf<{t1}, {t2}, {t3}, {t4}, {t5}>";
             }
+
+            if (genericDef == typeof(Task<>))
+            {
+                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
+                return $"Task<{t1}>";
+            }
+
+            throw new NotSupportedException($"Type {type} is not supported.");
+        }
+
+        if (type == typeof(Task))
+        {
+            return "Task";
         }
 
         throw new NotSupportedException($"Type {type} is not supported.");

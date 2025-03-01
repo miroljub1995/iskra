@@ -1,6 +1,7 @@
 using System.Reflection;
 using System.Runtime.InteropServices.JavaScript;
 using System.Text;
+using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
 
@@ -85,6 +86,8 @@ public static class PropertyGenerator
                 _ when propertyInfo.PropertyType == typeof(string) => "GetPropertyAsString",
                 _ when propertyInfo.PropertyType == typeof(JSObject) => "GetPropertyAsJSObject",
                 _ when isJSObjectWrapper => "GetPropertyAsJSObject",
+                _ when propertyInfo.PropertyType.IsGenericType &&
+                       propertyInfo.PropertyType.GetGenericTypeDefinition() == typeof(OneOf<,>) => "GetPropertyAsOneOf",
                 _ when isArray => "GetPropertyAsJSObject",
                 _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
             };
@@ -102,6 +105,8 @@ public static class PropertyGenerator
                 _ when propertyInfo.PropertyType == typeof(string) => "prop",
                 _ when propertyInfo.PropertyType == typeof(JSObject) => "prop",
                 _ when isJSObjectWrapper => $"WrapperFactory.GetWrapper<{returnType}>(prop)",
+                _ when propertyInfo.PropertyType.IsGenericType &&
+                       propertyInfo.PropertyType.GetGenericTypeDefinition() == typeof(OneOf<,>) => "GetOneOf(prop)",
                 _ when isArray => "GetDotnetArray(prop)",
                 _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
             };
