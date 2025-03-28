@@ -15,6 +15,8 @@ public static class JSTypesGenerator
 
         Directory.CreateDirectory(targetDir);
 
+        GeneratorContext context = new();
+
         var allTypesToGenerate = assembly.GetTypes().Where(x => x.IsJSObjectWrapper());
 
         foreach (var type in allTypesToGenerate)
@@ -22,11 +24,14 @@ public static class JSTypesGenerator
             var typeContent = type switch
             {
                 _ when type.IsSubclassOf(typeof(Delegate)) => DelegateGenerator.Execute(type),
-                _ => JSTypeGenerator.Execute(type),
+                _ => JSTypeGenerator.Execute(type, context),
             };
 
             var outputFilePath = Path.Join(targetDir, $"{TypeNameGenerator.Execute(type, null)}.cs");
             await File.WriteAllTextAsync(outputFilePath, typeContent);
         }
+
+        // var jsObjectMethodExtensions = JSObjectMethodsGenerator.Execute(context);
+        // await File.WriteAllTextAsync(Path.Join(targetDir, "JSObjectMethodExtensions.cs"), jsObjectMethodExtensions);
     }
 }

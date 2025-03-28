@@ -9,11 +9,11 @@ namespace Iskra.StdWebGenerator;
 
 public static class PropertyGenerator
 {
-    public static string Execute(PropertyInfo propertyInfo)
+    public static string Execute(PropertyInfo propertyInfo, GeneratorContext context)
     {
         var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
-        var isNullable = (propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState) ==
-                         NullabilityState.Nullable;
+        var nullabilityState = propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState;
+        var isNullable = nullabilityState == NullabilityState.Nullable;
 
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
         var returnType = TypeNameGenerator.Execute(propertyInfo);
@@ -72,6 +72,78 @@ public static class PropertyGenerator
 
                 return $"get => {indexerAliasMethods.Get}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
+
+            var res = PropertyGetGenerator.Execute(
+                new(
+                    Type: propertyInfo.PropertyType,
+                    NullabilityInfo: nullabilityInfo,
+                    IsFromReadState: propertyInfo.CanRead
+                ),
+                "JSObject",
+                jsName,
+                context
+            );
+
+            return $$"""
+                     get
+                     {
+                     {{res.Output.IndentLines(4)}}
+                     
+                        return {{res.OutputVar}};
+                     }
+                     """;
+
+            var marshallerOutRes = MarshallerOutGenerator.Execute(
+                new(
+                    Type: propertyInfo.PropertyType,
+                    NullabilityInfo: nullabilityInfo,
+                    IsFromReadState: propertyInfo.CanRead
+                ),
+                "prop"
+            );
+
+            var propertyMethodName = context.ObjectMethods.GetterPropertyMethodName(
+                marshallerOutRes.InputType.Type,
+                marshallerOutRes.InputType.NullabilityInfo,
+                marshallerOutRes.InputType.IsFromReadState
+            );
+
+            return $$"""
+                     get
+                     {
+                        var prop = JSObject.{{propertyMethodName}}("{{jsName}}");
+                        return {{marshallerOutRes.Output}};
+                     }
+                     """;
+
+
+            // var typeForPropertyName = isJSObjectWrapper
+            //     ? typeof(JSObject)
+            //     : propertyInfo.PropertyType;
+
+            // var typeForPropertyName = propertyInfo.PropertyType switch
+            // {
+            //     _ when isJSObjectWrapper => typeof(JSObject),
+            //     _ when isArray && propertyInfo.PropertyType.GetElementType()?.IsJSObjectWrapper() == true =>
+            //         typeof(JSObject),
+            //     _ => propertyInfo.PropertyType,
+            // };
+
+            // var propertyMethodName =
+            //     context.ObjectMethods.GetterPropertyMethodName(typeForPropertyName, nullabilityInfo,
+            //         propertyInfo.CanRead);
+
+            var propConversion = isJSObjectWrapper
+                ? $"WrapperFactory.GetWrapper<{returnType}>(prop)"
+                : "prop";
+
+            return $$"""
+                     get
+                     {
+                        var prop = JSObject.{{propertyMethodName}}("{{jsName}}");
+                        return {{propConversion}};
+                     }
+                     """;
 
             var jsObjectMethod = propertyInfo.PropertyType switch
             {

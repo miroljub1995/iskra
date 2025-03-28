@@ -2,6 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.JavaScript;
+using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 
 namespace Iskra.StdWebGenerator.Extensions;
@@ -12,7 +13,26 @@ public static class TypeExtensions
         => type is { IsAbstract: true, IsSealed: true };
 
     public static bool IsJSObjectWrapper(this Type type)
-        => type.IsDefined(typeof(GenerateBindingsAttribute), false);
+    {
+        // if (type.IsArray && type.GetElementType() is { } elementType)
+        // {
+        //     return IsJSObjectWrapper(elementType);
+        // }
+
+        return type.IsDefined(typeof(GenerateBindingsAttribute), false);
+    }
+
+    public static bool IsOneOf(this Type type)
+    {
+        return type.IsGenericType
+               && type.GetGenericTypeDefinition() is { } def
+               && (
+                   def == typeof(OneOf<,>)
+                   || def == typeof(OneOf<,,>)
+                   || def == typeof(OneOf<,,,>)
+                   || def == typeof(OneOf<,,,,>)
+               );
+    }
 
     public static Type ToMarshalAsJSType(this Type type)
     {
