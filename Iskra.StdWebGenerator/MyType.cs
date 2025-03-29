@@ -9,6 +9,12 @@ public record MyType(
     MyType[] GenericTypeArguments
 )
 {
+    public static MyType From(PropertyInfo propertyInfo)
+    {
+        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
+        return From(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
+    }
+
     public static MyType From(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
     {
         var nullabilityState = isFromReadState ? nullabilityInfo.ReadState : nullabilityInfo.WriteState;

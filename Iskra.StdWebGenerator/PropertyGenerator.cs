@@ -16,10 +16,10 @@ public static class PropertyGenerator
         var nullabilityState = propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState;
         var isNullable = nullabilityState == NullabilityState.Nullable;
 
-        MyType propertyType = MyType.From(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
+        MyType propertyType = MyType.From(propertyInfo);
 
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
-        var returnType = TypeNameGenerator.Execute(propertyInfo);
+        var returnType = TypeNameGenerator.Execute(propertyType);
         var isJSObjectWrapper = propertyInfo.PropertyType.IsJSObjectWrapper();
         var isArray = propertyInfo.PropertyType.IsArray;
 

@@ -8,15 +8,16 @@ public class Marshallers
 
     private static readonly Lazy<Marshallers> LazyInstance = new(() =>
     {
-        var graph = new Marshallers();
+        var list = new Marshallers();
 
-        graph.Add(new MarshallerJSObjectToArray());
-        graph.Add(new MarshallerJSObjectToOneOf());
-        graph.Add(new MarshallerToWrapperObject());
-        graph.Add(new MarshallerNoOp());
-        graph.Add(new MarshallerNullable());
+        list.Add(new MarshallerJSObjectToArray());
+        list.Add(new MarshallerJSObjectToIReadOnlyList());
+        list.Add(new MarshallerJSObjectToOneOf());
+        list.Add(new MarshallerToWrapperObject());
+        list.Add(new MarshallerNoOp());
+        list.Add(new MarshallerNullable());
 
-        return graph;
+        return list;
     });
 
     public static Marshallers Instance => LazyInstance.Value;

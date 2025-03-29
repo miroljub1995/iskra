@@ -25,6 +25,24 @@ public static class JSObjectGetPropertyGenerator
                     GenericTypeArguments: []
                 )
             ),
+            _ when type.Type.IsIList() => new(
+                Name: $"GetPropertyAsJSObjectV2{asNullableSuffix}",
+                ReturnType: new MyType(
+                    Type: typeof(JSObject),
+                    IsNullable: type.IsNullable,
+                    ElementType: null,
+                    GenericTypeArguments: []
+                )
+            ),
+            _ when type.Type.IsIReadOnlyList() => new(
+                Name: $"GetPropertyAsJSObjectV2{asNullableSuffix}",
+                ReturnType: new MyType(
+                    Type: typeof(JSObject),
+                    IsNullable: type.IsNullable,
+                    ElementType: null,
+                    GenericTypeArguments: []
+                )
+            ),
             _ when type.Type == typeof(bool) => new(
                 Name: $"GetPropertyAsBoolean{asNullableSuffix}",
                 ReturnType: type

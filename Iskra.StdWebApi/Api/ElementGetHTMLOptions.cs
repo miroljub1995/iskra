@@ -12,7 +12,7 @@ public class ElementGetHTMLOptions
         set => throw new();
     }
 
-    public ShadowRoot[]? ShadowRoots
+    public IReadOnlyList<ShadowRoot>? ShadowRoots
     {
         get => throw new();
         set => throw new();

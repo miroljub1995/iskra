@@ -16,7 +16,6 @@ public class MarshallerNullable : Marshaller
         var notNullOutputType = outputType with { IsNullable = false };
 
         var notNullInputVar = inputType.Type.IsValueType ? $"{inputVar}.Value" : inputVar;
-        // var notNullOutputVar = context.GetNextVariableName();
 
         var nextRes = Marshallers.Instance
             .GetNext(notNullInputType, notNullOutputType)

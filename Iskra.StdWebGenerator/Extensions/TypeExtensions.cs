@@ -34,6 +34,20 @@ public static class TypeExtensions
                );
     }
 
+    public static bool IsIList(this Type type)
+    {
+        return type.IsGenericType
+               && type.GetGenericTypeDefinition() is { } def
+               && def == typeof(IList<>);
+    }
+
+    public static bool IsIReadOnlyList(this Type type)
+    {
+        return type.IsGenericType
+               && type.GetGenericTypeDefinition() is { } def
+               && def == typeof(IReadOnlyList<>);
+    }
+
     public static Type ToMarshalAsJSType(this Type type)
     {
         return type switch
