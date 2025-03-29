@@ -17,7 +17,7 @@ public static class JSObjectGetPropertyGenerator
         return type switch
         {
             _ when type.Type.IsArray => new(
-                Name: $"GetPropertyAsAsJSObjectV2{asNullableSuffix}",
+                Name: $"GetPropertyAsJSObjectV2{asNullableSuffix}",
                 ReturnType: new MyType(
                     Type: typeof(JSObject),
                     IsNullable: type.IsNullable,
