@@ -16,8 +16,52 @@ public class MarshallerJSObjectToOneOf : Marshaller
     {
         EnsureCanMarshall(inputType, outputType);
 
+        var propTypeVar = context.GetNextVariableName();
+
+        List<string> genericArgs = [];
+        foreach (MyType argType in outputType.GenericTypeArguments)
+        {
+            genericArgs.Add($$"""
+                              {{(genericArgs.Count == 0 ? "if" : "else if")}}({{GetCondition(argType, propTypeVar)}})
+                              {
+                              {{PropertyGetGenerator.Execute(argType, inputVar, outputVar, "value", context).IndentLines(4)}}
+                              }
+                              """);
+        }
+
+        genericArgs.Add($$"""
+                          else
+                          {
+                              throw new Exception($"Can not convert value type {{{propTypeVar}}} to OneOf.");
+                          }
+                          """);
+
         return $$"""
-                 {{outputVar}} = ToOneOf({{inputVar}});
+                 string {{propTypeVar}} = {{inputVar}}.GetTypeOfProperty("value");
+                 {{string.Join("\n", genericArgs)}}
                  """;
+    }
+
+    private string GetCondition(MyType type, string propTypeVar)
+    {
+        return type switch
+        {
+            _ when type.Type == typeof(bool) => $$"""
+                                                  {{propTypeVar}} == "boolean" 
+                                                  """,
+            _ when type.Type == typeof(int) => $$"""
+                                                 {{propTypeVar}} == "number" 
+                                                 """,
+            _ when type.Type == typeof(long) => $$"""
+                                                  {{propTypeVar}} == "number" 
+                                                  """,
+            _ when type.Type == typeof(double) => $$"""
+                                                    {{propTypeVar}} == "number" 
+                                                    """,
+            _ when type.Type == typeof(string) => $$"""
+                                                    {{propTypeVar}} == "string" 
+                                                    """,
+            _ => throw new($"Type {type} is not supported.")
+        };
     }
 }
