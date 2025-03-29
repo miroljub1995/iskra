@@ -24,12 +24,12 @@ public static class MethodCallGenerator
     )
     {
         string functionChecks = $$"""
-                                  if (!JSObject.HasProperty("{{functionName}}"))
+                                  if (!{{objVar}}.HasProperty("{{functionName}}"))
                                   {
                                       throw new Exception($"Method {{functionName}} is not defined.");
                                   }
 
-                                  if (JSObject.GetTypeOfProperty("{{functionName}}") != "function")
+                                  if ({{objVar}}.GetTypeOfProperty("{{functionName}}") != "function")
                                   {
                                       throw new Exception($"Property {{functionName}} is not a function.");
                                   }
@@ -81,7 +81,7 @@ public static class MethodCallGenerator
         return (options.SkipFunctionChecks ? "" : functionChecks) +
                $$"""
                  {{string.Join("\n\n", marshalledParameters)}}
-                 {{returnAssignment}}{{methodCallInfo.Name}}({{callParameters}});{{marshalledReturn}}
+                 {{returnAssignment}}{{objVar}}.{{methodCallInfo.Name}}({{callParameters}});{{marshalledReturn}}
                  """;
     }
 }
