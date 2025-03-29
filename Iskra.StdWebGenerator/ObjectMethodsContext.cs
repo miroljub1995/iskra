@@ -6,108 +6,80 @@ namespace Iskra.StdWebGenerator;
 
 public class ObjectMethodsContext
 {
-    private readonly Dictionary<string, TypeWithNullabilityInfo> _propertyMethods1 = new();
+    private readonly List<JSObjectMethodCallInfo> _methods = [];
 
-    public void AddMethod(string name, TypeWithNullabilityInfo type)
+    public IReadOnlyList<JSObjectMethodCallInfo> PropertyMethods => _methods;
+
+    public JSObjectMethodCallInfo GetMethodCallInfo(
+        IReadOnlyList<MyType> parameters,
+        MyType? returnParam
+    )
     {
-        _propertyMethods1[name] = type;
-    }
+        JSObjectMethodCallInfo? info =
+            _methods.SingleOrDefault(x => x.Parameters.SequenceEqual(parameters) && x.ReturnParam == returnParam);
 
-    public IReadOnlyDictionary<string, TypeWithNullabilityInfo> PropertyMethods => _propertyMethods1.AsReadOnly();
-
-    private static readonly HashSet<string> ExistingGetMethods =
-    [
-        "GetPropertyAsBoolean",
-        "GetPropertyAsInt32",
-        "GetPropertyAsDouble",
-        "GetPropertyAsString",
-        "GetPropertyAsJSObject",
-        "GetPropertyAsByteArray",
-    ];
-
-    private static readonly HashSet<Type> ExistingSetMethodTypes =
-    [
-        typeof(bool),
-        typeof(int),
-        typeof(double),
-        typeof(string),
-        typeof(JSObject),
-        typeof(byte[]),
-    ];
-
-    private readonly Dictionary<string, (Type, NullabilityInfo, bool)> _propertyMethods = [];
-
-    public IReadOnlyDictionary<string, (Type, NullabilityInfo, bool)> PropertyMethods1 => _propertyMethods.AsReadOnly();
-
-    public string GetterPropertyMethodName(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
-    {
-        var propertyMethodName = GeneratePropertyMethodName(type, nullabilityInfo, isFromReadState);
-        _propertyMethods[propertyMethodName] = (type, nullabilityInfo, isFromReadState);
-        return propertyMethodName;
-    }
-
-    private static string GeneratePropertyMethodName(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
-    {
-        return "GetProperty" + GetReturnTypeSuffix(type, nullabilityInfo, isFromReadState);
-    }
-
-    private static string GetReturnTypeSuffix(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
-    {
-        var nullabilityState = isFromReadState ? nullabilityInfo.ReadState : nullabilityInfo.WriteState;
-        var isNullable = nullabilityState == NullabilityState.Nullable;
-
-        var asNullableSuffix = isNullable ? "AsNullable" : "";
-        var asArraySuffix = type.IsArray ? "AsArray" : "";
-
-        var asType = type switch
+        if (info is null)
         {
-            _ when type == typeof(bool) => "AsBoolean",
-            _ when type == typeof(bool?) => "AsBoolean",
-            _ when type == typeof(int) => "AsInt32",
-            _ when type == typeof(int?) => "AsInt32",
-            _ when type == typeof(long) => "AsInt64",
-            _ when type == typeof(long?) => "AsInt64",
-            _ when type == typeof(double) => "AsDouble",
-            _ when type == typeof(double?) => "AsDouble",
-            _ when type == typeof(string) => "AsStringV2",
-            _ when type == typeof(JSObject) => "AsJSObjectV2",
-            // _ when IsOneOf(type) => HandleOneOf(type, nullabilityInfo, isFromReadState),
-            _ when type.IsGenericType => GetReturnGenericTypeSuffix(type, nullabilityInfo),
-            _ => throw new($"Property of type {type} is not supported."),
-        };
-
-        return $"{asType}{asNullableSuffix}{asArraySuffix}";
-    }
-
-    private static bool IsOneOf(Type type)
-    {
-        var genericTypeDefinition = type.GetGenericTypeDefinition();
-
-        return genericTypeDefinition == typeof(OneOf<,>)
-               || genericTypeDefinition == typeof(OneOf<,,>)
-               || genericTypeDefinition == typeof(OneOf<,,,>)
-               || genericTypeDefinition == typeof(OneOf<,,,,>);
-    }
-
-    // private static string HandleOneOf(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
-    // {
-    //     var genericTypeArguments = type.GetGenericArguments();
-    // }
-
-    private static string GetReturnGenericTypeSuffix(Type type, NullabilityInfo nullabilityInfo)
-    {
-        var genericTypeDefinition = type.GetGenericTypeDefinition();
-        var genericTypeArguments = type.GetGenericArguments();
-
-        var genericTypeArgumentNames = string.Join("_and_", genericTypeArguments.Select((t, i) =>
-            GetReturnTypeSuffix(t, nullabilityInfo.GenericTypeArguments[i], true)));
-
-        if (genericTypeDefinition == typeof(OneOf<,>) || genericTypeDefinition == typeof(OneOf<,,>))
-        {
-            return
-                $"AsOneOf_lt_{genericTypeArgumentNames}_gt_";
+            info = new(
+                Name: $"CustomMethodCall_{_methods.Count}",
+                Parameters: parameters,
+                ReturnParam: returnParam
+            );
+            _methods.Add(info);
         }
 
-        throw new($"Property of type {type} is not supported.");
+        return info;
     }
+
+    // private static string GetReturnTypeSuffix(MyType type)
+    // {
+    //     var asNullableSuffix = type.IsNullable ? "AsNullable" : "";
+    //
+    //     var asType = type switch
+    //     {
+    //         _ when type.Type.IsArray => "AsJSObjectV2",
+    //         _ when type.Type == typeof(bool) => "AsBoolean",
+    //         _ when type.Type == typeof(int) => "AsInt32",
+    //         _ when type.Type == typeof(long) => "AsInt64",
+    //         _ when type.Type == typeof(double) => "AsDouble",
+    //         _ when type.Type == typeof(string) => "AsStringV2",
+    //         _ when type.Type == typeof(JSObject) => "AsJSObjectV2",
+    //         // _ when IsOneOf(type) => HandleOneOf(type, nullabilityInfo, isFromReadState),
+    //         _ when type.Type.IsGenericType => GetReturnGenericTypeSuffix(type),
+    //         _ => throw new($"Property of type {type} is not supported."),
+    //     };
+    //
+    //     return $"{asType}{asNullableSuffix}";
+    // }
+    //
+    // private static bool IsOneOf(Type type)
+    // {
+    //     var genericTypeDefinition = type.GetGenericTypeDefinition();
+    //
+    //     return genericTypeDefinition == typeof(OneOf<,>)
+    //            || genericTypeDefinition == typeof(OneOf<,,>)
+    //            || genericTypeDefinition == typeof(OneOf<,,,>)
+    //            || genericTypeDefinition == typeof(OneOf<,,,,>);
+    // }
+    //
+    // // private static string HandleOneOf(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
+    // // {
+    // //     var genericTypeArguments = type.GetGenericArguments();
+    // // }
+    //
+    // private static string GetReturnGenericTypeSuffix(MyType type)
+    // {
+    //     var genericTypeDefinition = type.Type.GetGenericTypeDefinition();
+    //     var genericTypeArguments = type.Type.GetGenericArguments();
+    //
+    //     var genericTypeArgumentNames = string.Join("_and_", genericTypeArguments.Select((t, i) =>
+    //         GetReturnTypeSuffix(type.GenericTypeArguments[i])));
+    //
+    //     if (genericTypeDefinition == typeof(OneOf<,>) || genericTypeDefinition == typeof(OneOf<,,>))
+    //     {
+    //         return $"AsOneOf_lt_{genericTypeArgumentNames}_gt_";
+    //     }
+    //
+    //     throw new($"Property of type {type} is not supported.");
+    // }
 }

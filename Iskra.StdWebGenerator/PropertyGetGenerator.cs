@@ -24,7 +24,6 @@ public static class PropertyGetGenerator
 
         var marshallingOutRes = MarshallingOut.Execute(type, propertyResName, context);
         var propertyMethodName = GeneratePropertyMethodName(marshallingOutRes.FromType);
-        context.ObjectMethods.AddMethod(propertyMethodName, type);
 
         var propertyMethodType = TypeNameGenerator.Execute(
             marshallingOutRes.FromType.Type,

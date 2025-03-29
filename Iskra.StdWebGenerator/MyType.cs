@@ -73,15 +73,17 @@ public record MyType(
             return true;
         }
 
-        bool isElementTypeEqual = ElementType is null && other.ElementType is null ||
-                                  ElementType?.Equals(other.ElementType) == true;
+        // bool isElementTypeEqual = ElementType is null && other.ElementType is null ||
+        //                           ElementType?.Equals(other.ElementType) == true;
+        //
+        // bool isGenericTypeArgumentsEqual = GenericTypeArguments.Length == other.GenericTypeArguments.Length &&
+        //                                    GenericTypeArguments.Select(
+        //                                            (x, i) => x.Equals(other.GenericTypeArguments[i]))
+        //                                        .All(x => x);
 
-        bool isGenericTypeArgumentsEqual = GenericTypeArguments.Length == other.GenericTypeArguments.Length &&
-                                           GenericTypeArguments.Select(
-                                                   (x, i) => x.Equals(other.GenericTypeArguments[i]))
-                                               .All(x => x);
-
-        return Type == other.Type && IsNullable == other.IsNullable && isElementTypeEqual &&
-               isGenericTypeArgumentsEqual;
+        return Type == other.Type
+               && IsNullable == other.IsNullable
+               && ElementType == other.ElementType
+               && GenericTypeArguments.SequenceEqual(other.GenericTypeArguments);
     }
 }

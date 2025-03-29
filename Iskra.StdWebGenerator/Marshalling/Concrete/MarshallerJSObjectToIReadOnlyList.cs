@@ -18,9 +18,34 @@ public class MarshallerJSObjectToIReadOnlyList : Marshaller
 
         var lengthVar = context.GetNextVariableName();
 
+        var elementType = outputType.GenericTypeArguments[0];
+        var elementTypeName = TypeNameGenerator.Execute(elementType);
+
+        var outputArrayTypeName = TypeNameGenerator.Execute(new MyType(
+            Type: elementType.Type.MakeArrayType(),
+            IsNullable: outputType.IsNullable,
+            ElementType: elementType,
+            GenericTypeArguments: []
+        ));
+        var outputArrayVar = context.GetNextVariableName();
+
+        var loopVar = context.GetNextVariableName();
+
         return $$"""
                  int {{lengthVar}} = {{inputVar}}.GetPropertyAsInt32("length");
-                 {{outputVar}} = ToList({{inputVar}});
+                 {{outputArrayTypeName}} {{outputArrayVar}} = new {{elementTypeName}}[{{lengthVar}}];
+                 for(int {{loopVar}} = 0; {{loopVar}} < {{lengthVar}}; {{loopVar}}++)
+                 {
+                 {{MethodCallGenerator.Execute(
+                     objVar: inputVar,
+                     functionName: "at",
+                     parameters: [new(new(typeof(int), false, null, []), loopVar)],
+                     returnParam: new(Type: elementType, $"{outputArrayVar}[{loopVar}]"),
+                     options: new(SkipFunctionChecks: true),
+                     context: context
+                 ).IndentLines(4)}}
+                 }
+                 {{outputVar}} = {{outputArrayVar}};
                  """;
     }
 }

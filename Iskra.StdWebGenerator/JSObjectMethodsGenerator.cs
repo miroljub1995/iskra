@@ -34,11 +34,11 @@ public class JSObjectMethodsGenerator
             return;
         }
 
-        foreach (KeyValuePair<string, TypeWithNullabilityInfo> keyValuePair in methods)
+        foreach (var method in methods)
         {
             outputMembers.Add(
                 $$"""
-                  public static void {{keyValuePair.Key}}(this JSObject obj, string propertyName){} 
+                  public static void {{method.Name}}(this JSObject obj, string propertyName){} 
                   """
             );
         }
