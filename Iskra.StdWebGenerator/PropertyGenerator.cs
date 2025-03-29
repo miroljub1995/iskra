@@ -4,6 +4,7 @@ using System.Text;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
 
@@ -14,6 +15,8 @@ public static class PropertyGenerator
         var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
         var nullabilityState = propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState;
         var isNullable = nullabilityState == NullabilityState.Nullable;
+
+        MyType propertyType = MyType.From(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
 
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
         var returnType = TypeNameGenerator.Execute(propertyInfo);
@@ -72,6 +75,28 @@ public static class PropertyGenerator
 
                 return $"get => {indexerAliasMethods.Get}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
+
+            var getPropertyMethodRes = JSObjectGetPropertyGenerator.Execute(propertyType);
+            var p = $$"""
+                      var prop = JSObject.{{getPropertyMethodRes.Name}}("{{jsName}}");
+                      """;
+
+
+            var resVar = context.GetNextVariableName();
+
+            var marshall = Marshallers.Instance
+                .GetNext(getPropertyMethodRes.ReturnType, propertyType)
+                .Marshall(getPropertyMethodRes.ReturnType, "prop", propertyType, resVar, context);
+
+            return $$"""
+                     get
+                     {
+                        var prop = JSObject.{{getPropertyMethodRes.Name}}("{{jsName}}");
+                        {{returnType}} {{resVar}};
+                     {{marshall.IndentLines(4)}}
+                        return {{resVar}};
+                     }
+                     """;
 
             var res = PropertyGetGenerator.Execute(
                 new(
