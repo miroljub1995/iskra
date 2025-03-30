@@ -76,7 +76,6 @@ public static class PropertyGenerator
                 return $"get => {indexerAliasMethods.Get}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
 
-
             var resVar = context.GetNextVariableName();
 
             return $$"""
@@ -106,6 +105,13 @@ public static class PropertyGenerator
 
                 return $"set => {indexerAliasMethods.Set}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
+
+            return $$"""
+                     set
+                     {
+                     {{PropertySetGenerator.Execute(propertyType, "JSObject", "value", jsName, context).IndentLines(4)}}
+                     }
+                     """;
 
             var builder = new StringBuilder("""
                                             set

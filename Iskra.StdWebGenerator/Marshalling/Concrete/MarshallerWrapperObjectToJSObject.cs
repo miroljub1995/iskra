@@ -3,13 +3,13 @@ using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 
-public class MarshallerJSObjectToWrapperObject : Marshaller
+public class MarshallerWrapperObjectToJSObject : Marshaller
 {
     public override bool CanMarshall(MyType type, MyType destination)
         => !type.IsNullable
            && !destination.IsNullable
-           && type.Type == typeof(JSObject)
-           && destination.Type.IsJSObjectWrapper();
+           && type.Type.IsJSObjectWrapper()
+           && destination.Type == typeof(JSObject);
 
     public override string Marshall(
         MyType inputType,
@@ -22,7 +22,7 @@ public class MarshallerJSObjectToWrapperObject : Marshaller
         EnsureCanMarshall(inputType, outputType);
 
         return $$"""
-                 {{outputVar}} = WrapperFactory.GetWrapper<{{TypeNameGenerator.Execute(outputType)}}>({{inputVar}});
+                 {{outputVar}} = {{inputVar}}.JSObject;
                  """;
     }
 }
