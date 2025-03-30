@@ -12,34 +12,16 @@ public static class PropertySetGenerator
         GeneratorContext context
     )
     {
-        var notNullableType = type with { IsNullable = false };
-        var setPropertyMethodRes = JSObjectSetPropertyGenerator.Execute(notNullableType);
-        var notNullInputVar = type is { IsNullable: true, Type.IsValueType: true } ? $"{inputVar}.Value" : inputVar;
+        var setPropertyMethodRes = JSObjectSetPropertyGenerator.Execute(type);
 
         var propVar = context.GetNextVariableName();
 
         var marshall = Marshallers.Instance
-            .GetNext(notNullableType, setPropertyMethodRes.ReturnType)
-            .Marshall(notNullableType, notNullInputVar, setPropertyMethodRes.ReturnType, propVar, context);
-
-        if (type.IsNullable)
-        {
-            return $$"""
-                     if ({{inputVar}} is null)
-                     {
-                         {{objVar}}.SetProperty("{{propertyName}}", null as JSObject);
-                     }
-                     else
-                     {
-                         {{TypeNameGenerator.Execute(setPropertyMethodRes.ReturnType)}} {{propVar}};
-                         {{marshall}}
-                         {{objVar}}.{{setPropertyMethodRes.Name}}("{{propertyName}}", {{propVar}});
-                     }
-                     """;
-        }
+            .GetNext(type, setPropertyMethodRes.InputType)
+            .Marshall(type, inputVar, setPropertyMethodRes.InputType, propVar, context);
 
         return $$"""
-                 {{TypeNameGenerator.Execute(setPropertyMethodRes.ReturnType)}} {{propVar}};
+                 {{TypeNameGenerator.Execute(setPropertyMethodRes.InputType)}} {{propVar}};
                  {{marshall}}
                  {{objVar}}.{{setPropertyMethodRes.Name}}("{{propertyName}}", {{propVar}});
                  """;

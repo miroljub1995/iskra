@@ -5,7 +5,9 @@ namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 public class MarshallerNullable : Marshaller
 {
     public override bool CanMarshall(MyType type, MyType destination)
-        => type.IsNullable && destination.IsNullable;
+        => !type.Equals(destination)
+           && type.IsNullable
+           && destination.IsNullable;
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
         GeneratorContext context)

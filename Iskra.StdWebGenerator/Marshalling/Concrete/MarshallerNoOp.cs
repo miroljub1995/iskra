@@ -22,7 +22,7 @@ public class MarshallerNoOp : Marshaller
     //         _ => true,
     //     };
 
-    public override bool CanMarshall(MyType type, MyType destination) => !type.IsNullable && type.Equals(destination);
+    public override bool CanMarshall(MyType type, MyType destination) => type.Equals(destination);
 
     public override string Marshall(
         MyType inputType,

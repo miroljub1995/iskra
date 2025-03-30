@@ -76,4 +76,86 @@ public static class JSObjectPropertyExtensions
     public static JSObject GetPropertyAsOneOf(this JSObject obj, string propertyName)
     {
     }
+
+    public static void SetPropertyAsBooleanNullable(this JSObject obj, string propertyName, bool? value)
+    {
+        if (value is null)
+        {
+            obj.SetProperty(propertyName, null as JSObject);
+        }
+        else
+        {
+            obj.SetProperty(propertyName, value.Value);
+        }
+    }
+
+    public static void SetPropertyAsInt32Nullable(this JSObject obj, string propertyName, int? value)
+    {
+        if (value is null)
+        {
+            obj.SetProperty(propertyName, null as JSObject);
+        }
+        else
+        {
+            obj.SetProperty(propertyName, value.Value);
+        }
+    }
+
+    public static void SetPropertyAsInt64Nullable(this JSObject obj, string propertyName, long? value)
+    {
+        if (value is null)
+        {
+            obj.SetProperty(propertyName, null as JSObject);
+        }
+        else
+        {
+            obj.SetProperty(propertyName, value.Value);
+        }
+    }
+
+    public static void SetPropertyAsDoubleNullable(this JSObject obj, string propertyName, double? value)
+    {
+        if (value is null)
+        {
+            obj.SetProperty(propertyName, null as JSObject);
+        }
+        else
+        {
+            obj.SetProperty(propertyName, value.Value);
+        }
+    }
+
+    public static void SetPropertyAsOneOf(this JSObject obj, string propertyName, OneOf? value)
+    {
+        if (value is null)
+        {
+            obj.SetProperty(propertyName, null as JSObject);
+        }
+        else
+        {
+            switch (value.Value)
+            {
+                case bool boolValue:
+                    obj.SetProperty(propertyName, boolValue);
+                    break;
+                case int intValue:
+                    obj.SetProperty(propertyName, intValue);
+                    break;
+                case long longValue:
+                    obj.SetProperty(propertyName, longValue);
+                    break;
+                case double doubleValue:
+                    obj.SetProperty(propertyName, doubleValue);
+                    break;
+                case string stringValue:
+                    obj.SetProperty(propertyName, stringValue);
+                    break;
+                case JSObject jsObjectValue:
+                    obj.SetProperty(propertyName, jsObjectValue);
+                    break;
+                default:
+                    throw new($"Can not set value of type {value.Value.GetType()}.");
+            }
+        }
+    }
 }
