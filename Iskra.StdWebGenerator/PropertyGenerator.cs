@@ -12,16 +12,10 @@ public static class PropertyGenerator
 {
     public static string Execute(PropertyInfo propertyInfo, GeneratorContext context)
     {
-        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
-        var nullabilityState = propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState;
-        var isNullable = nullabilityState == NullabilityState.Nullable;
-
         MyType propertyType = MyType.From(propertyInfo);
 
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
         var returnType = TypeNameGenerator.Execute(propertyType);
-        var isJSObjectWrapper = propertyInfo.PropertyType.IsJSObjectWrapper();
-        var isArray = propertyInfo.PropertyType.IsArray;
 
         var indexParameters = propertyInfo.GetIndexParameters();
         MethodParametersGeneratorResult indexParametersRes = MethodParametersGenerator.Execute(indexParameters);
@@ -110,68 +104,6 @@ public static class PropertyGenerator
                      set
                      {
                      {{PropertySetGenerator.Execute(propertyType, "JSObject", "value", jsName, context).IndentLines(4)}}
-                     }
-                     """;
-
-            var builder = new StringBuilder("""
-                                            set
-                                            {
-
-                                            """
-            );
-
-            if (isNullable)
-            {
-                builder.Append($$"""
-                      if (value is null)
-                      {
-                          JSObject.SetProperty("{{jsName}}", null as JSObject);
-                          return;
-                      }
-
-
-                      """.IndentLines(4)
-                );
-            }
-
-            if (isJSObjectWrapper)
-            {
-                builder.Append($$"""
-                      JSObject.SetProperty("{{jsName}}", value{{(isNullable ? "?" : "")}}.JSObject);
-                      """.IndentLines(4)
-                );
-            }
-            else if (propertyInfo.PropertyType.IsGenericType &&
-                     propertyInfo.PropertyType.GetGenericTypeDefinition() == typeof(Nullable<>))
-            {
-                builder.Append($$"""
-                      JSObject.SetProperty("{{jsName}}", value.Value);
-
-                      """.IndentLines(4)
-                );
-            }
-            else
-            {
-                builder.Append($$"""
-                      JSObject.SetProperty("{{jsName}}", value);
-
-                      """.IndentLines(4)
-                );
-            }
-
-            builder.AppendLine("}");
-            return builder.ToString();
-
-            var value = isJSObjectWrapper
-                ? isNullable
-                    ? "value?.JSObject"
-                    : "value.JSObject"
-                : "value";
-
-            return $$"""
-                     set
-                     {
-                        JSObject.SetProperty("{{jsName}}", {{value}});
                      }
                      """;
         }
