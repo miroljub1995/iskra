@@ -46,7 +46,7 @@ public class JSObjectCustomMethodsGenerator
 
         return
             $$"""
-              [JSImport("Function.prototype.call.call")]
+              [JSImport("globalThis.Function.prototype.call.call")]
               private static partial {{returnTypeName}} _{{method.Name}}({{jsImportParametersList}});
 
               public static {{returnTypeName}} {{method.Name}}({{parametersList}})

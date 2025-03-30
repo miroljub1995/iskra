@@ -14,13 +14,13 @@ public static class Program
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
-        
+
         System.Console.WriteLine("Removing event listener...");
         w.Document.RemoveEventListener("test", SomeListener, false);
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
-        
+
         var newDiv = w.Document.CreateElement("div");
         w.Document.Body?.AppendChild(newDiv);
         w.Console.Log("Appended child", newDiv);
