@@ -14,12 +14,8 @@ public static class TypeExtensions
 
     public static bool IsJSObjectWrapper(this Type type)
     {
-        // if (type.IsArray && type.GetElementType() is { } elementType)
-        // {
-        //     return IsJSObjectWrapper(elementType);
-        // }
-
-        return type.IsDefined(typeof(GenerateBindingsAttribute), false);
+        return !type.IsSubclassOf(typeof(Delegate)) &&
+               type.IsDefined(typeof(GenerateBindingsAttribute), false);
     }
 
     public static bool IsOneOf(this Type type)

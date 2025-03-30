@@ -429,11 +429,11 @@ public class Element : Node
 
     public StylePropertyMapReadOnly ComputedStyleMap() => throw new();
 
-    public Animation[] GetAnimations(ElementGetAnimationsOptions? options) => throw new();
+    public IReadOnlyList<Animation> GetAnimations(ElementGetAnimationsOptions? options) => throw new();
 
     public string? GetAttribute(string attributeName) => throw new();
 
-    public string[] GetAttributeNames() => throw new();
+    public IReadOnlyList<string> GetAttributeNames() => throw new();
 
     public Attr GetAttributeNode(string attrName) => throw new();
 

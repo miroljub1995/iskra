@@ -28,12 +28,6 @@ public static class TypeNameGenerator
         return (asParams ? "params " : "") + Execute(parameterInfo.ParameterType, nullabilityInfo, true);
     }
 
-    public static string Execute(PropertyInfo propertyInfo)
-    {
-        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
-        return Execute(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
-    }
-
     [Obsolete("Use Execute(MyType type)")] public static bool NotNullProp { get; set; }
 
     [Obsolete("Use Execute(MyType type)")]

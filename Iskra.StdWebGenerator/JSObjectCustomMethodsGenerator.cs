@@ -19,6 +19,8 @@ public class JSObjectCustomMethodsGenerator
 
                  namespace Iskra.StdWeb;
 
+                 #nullable enable
+
                  public static partial class JSObjectCustomMethodsExtensions
                  {
                  {{members.IndentLines(4)}}

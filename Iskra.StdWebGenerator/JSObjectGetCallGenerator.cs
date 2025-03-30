@@ -13,7 +13,7 @@ public static class JSObjectGetCallGenerator
     {
         var jsLevelParams = parameters.Select(ToJSLevelType).ToList();
         var jsLevelReturnParam = returnParam is null ? null : ToJSLevelType(returnParam);
-
+        
         return context.ObjectMethods.GetMethodCallInfo(jsLevelParams, jsLevelReturnParam);
     }
 
@@ -27,6 +27,10 @@ public static class JSObjectGetCallGenerator
             _ when type.Type == typeof(double) => type,
             _ when type.Type == typeof(string) => type,
             _ when type.Type == typeof(JSObject) => type,
+            _ when type.Type.IsIReadOnlyList() => new MyType(typeof(JSObject), type.IsNullable, null, []),
+            _ when type.Type == typeof(Task) => type,
+            _ when type.Type.IsSubclassOf(typeof(Delegate)) => new MyType(typeof(JSObject), type.IsNullable,
+                null, []),
             _ => throw new Exception($"Unsupported type {type}")
         };
 }

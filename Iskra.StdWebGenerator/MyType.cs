@@ -1,4 +1,5 @@
 using System.Reflection;
+using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
@@ -13,6 +14,12 @@ public record MyType(
     {
         var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
         return From(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
+    }
+
+    public static MyType From(ParameterInfo parameterInfo)
+    {
+        var nullabilityInfo = new NullabilityInfoContext().Create(parameterInfo);
+        return From(parameterInfo.ParameterType, nullabilityInfo, true);
     }
 
     public static MyType From(Type type, NullabilityInfo nullabilityInfo, bool isFromReadState)
@@ -72,14 +79,6 @@ public record MyType(
         {
             return true;
         }
-
-        // bool isElementTypeEqual = ElementType is null && other.ElementType is null ||
-        //                           ElementType?.Equals(other.ElementType) == true;
-        //
-        // bool isGenericTypeArgumentsEqual = GenericTypeArguments.Length == other.GenericTypeArguments.Length &&
-        //                                    GenericTypeArguments.Select(
-        //                                            (x, i) => x.Equals(other.GenericTypeArguments[i]))
-        //                                        .All(x => x);
 
         return Type == other.Type
                && IsNullable == other.IsNullable

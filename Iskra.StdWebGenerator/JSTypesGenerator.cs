@@ -17,7 +17,9 @@ public static class JSTypesGenerator
 
         GeneratorContext context = new();
 
-        var allTypesToGenerate = assembly.GetTypes().Where(x => x.IsJSObjectWrapper());
+        var allTypesToGenerate = assembly
+            .GetTypes()
+            .Where(x => x.IsJSObjectWrapper() || x.IsSubclassOf(typeof(Delegate)));
 
         foreach (var type in allTypesToGenerate)
         {

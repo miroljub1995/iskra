@@ -34,6 +34,7 @@ public static class MethodCallGenerator
                                       throw new Exception($"Property {{functionName}} is not a function.");
                                   }
 
+
                                   """;
 
         var methodCallInfo = JSObjectGetCallGenerator.Execute(
