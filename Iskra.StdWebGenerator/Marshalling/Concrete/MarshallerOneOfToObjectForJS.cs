@@ -15,9 +15,36 @@ public class MarshallerOneOfToObjectForJS : Marshaller
     {
         EnsureCanMarshall(inputType, outputType);
 
+        var marshalledArgs = inputType.GenericTypeArguments
+            .Select((x, i) =>
+            {
+                var argTypeName = TypeNameGenerator.Execute(x);
+                var valueVar = context.GetNextVariableName();
+
+                var marshalledValue = Marshallers.Instance
+                    .GetNext(x, outputType)
+                    .Marshall(x, valueVar, outputType, outputVar, context);
+
+                var isElse = i == 0 ? "" : "else ";
+
+                return $$"""
+                         {{isElse}}if ({{inputVar}}.Value is {{argTypeName}} {{valueVar}})
+                         {
+                         {{marshalledValue.IndentLines(4)}}
+                         } 
+                         """;
+            })
+            .ToList();
+
+        marshalledArgs.Add($$"""
+                             else
+                             {
+                                 throw new Exception("Value has invalid type.");
+                             }
+                             """);
+
         return $$"""
-                 convertOneOf();
-                 {{outputVar}} = {{inputVar}}.Value;
+                 {{string.Join("\n", marshalledArgs)}}
                  """;
     }
 }

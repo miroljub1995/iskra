@@ -13,9 +13,22 @@ public class MarshallerObjectToObjectForJS : Marshaller
     {
         EnsureCanMarshall(inputType, outputType);
 
+        var oneOfVar = context.GetNextVariableName();
+        var jsObjectWrapperVar = context.GetNextVariableName();
+
         return $$"""
-                 convert();
-                 {{outputVar}} = {{inputVar}};
+                 if ({{inputVar}} is OneOf {{oneOfVar}})
+                 {
+                     {{outputVar}} = {{oneOfVar}}.Value;
+                 }
+                 else if ({{inputVar}} is JSObjectWrapper {{jsObjectWrapperVar}})
+                 {
+                     {{outputVar}} = {{jsObjectWrapperVar}}.JSObject;
+                 }
+                 else
+                 {
+                     {{outputVar}} = {{inputVar}};
+                 }
                  """;
     }
 }

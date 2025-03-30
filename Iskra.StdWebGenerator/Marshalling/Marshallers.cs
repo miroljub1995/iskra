@@ -10,6 +10,7 @@ public class Marshallers
     {
         var list = new Marshallers();
 
+        list.Add(new JSObjectWrapperToObjectForJS());
         list.Add(new MarshallerDelegateToJSObject());
         list.Add(new MarshallerIReadOnlyListItemToItem());
         list.Add(new MarshallerIReadOnlyListToJSObject());
