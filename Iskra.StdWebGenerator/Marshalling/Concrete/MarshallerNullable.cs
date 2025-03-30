@@ -24,7 +24,7 @@ public class MarshallerNullable : Marshaller
             .Marshall(notNullInputType, notNullInputVar, notNullOutputType, outputVar, context);
 
         return $$"""
-                 if({{inputVar}} is not null)
+                 if ({{inputVar}} is not null)
                  {
                  {{nextRes.IndentLines(4)}}
                  }

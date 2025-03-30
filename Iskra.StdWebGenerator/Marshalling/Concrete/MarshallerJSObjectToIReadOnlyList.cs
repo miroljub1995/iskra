@@ -34,7 +34,7 @@ public class MarshallerJSObjectToIReadOnlyList : Marshaller
         return $$"""
                  int {{lengthVar}} = {{inputVar}}.GetPropertyAsInt32("length");
                  {{outputArrayTypeName}} {{outputArrayVar}} = new {{elementTypeName}}[{{lengthVar}}];
-                 for(int {{loopVar}} = 0; {{loopVar}} < {{lengthVar}}; {{loopVar}}++)
+                 for (int {{loopVar}} = 0; {{loopVar}} < {{lengthVar}}; {{loopVar}}++)
                  {
                  {{MethodCallGenerator.Execute(
                      objVar: inputVar,

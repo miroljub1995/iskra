@@ -26,6 +26,7 @@ public static class JSObjectGetCallGenerator
             _ when type.Type == typeof(long) => type,
             _ when type.Type == typeof(double) => type,
             _ when type.Type == typeof(string) => type,
+            _ when type.Type == typeof(JSObject) => type,
             _ => throw new Exception($"Unsupported type {type}")
         };
 }
