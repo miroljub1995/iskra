@@ -37,7 +37,7 @@ public class JSObjectCustomMethodsGenerator
 
         var parameters = method.Parameters.Select((x, i) => $"{TypeNameGenerator.Execute(x)} arg{i}");
         var parametersForCall = method.Parameters.Select((x, i) => $"arg{i}");
-        var parametersList = string.Join(", ", ["JSObject obj", "string methodName", ..parameters]);
+        var parametersList = string.Join(", ", ["this JSObject obj", "string methodName", ..parameters]);
 
         var jsImportParameters = method.Parameters.Select((x, i) => $"{TypeNameGenerator.Execute(x)} arg{i}");
         var jsImportParametersList = string.Join(", ", ["JSObject func", "JSObject obj", ..jsImportParameters]);
@@ -51,9 +51,8 @@ public class JSObjectCustomMethodsGenerator
 
               public static {{returnTypeName}} {{method.Name}}({{parametersList}})
               {
-              
                   var method = obj.GetPropertyAsJSObject(methodName)
-                               ?? throw new Exception("Should be handled before.");
+                               ?? throw new Exception($"Method {methodName} not found.");
                                
                   return _{{method.Name}}({{jsImportCallParametersList}});
               } 
