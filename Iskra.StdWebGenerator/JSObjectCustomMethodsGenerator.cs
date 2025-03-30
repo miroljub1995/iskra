@@ -8,7 +8,7 @@ public class JSObjectCustomMethodsGenerator
     {
         var membersList = new List<string>();
 
-        GenerateCustomMethods(context, membersList);
+        GenerateCustomMethodCalls(context, membersList);
 
         var members = string.Join("\n\n", membersList);
 
@@ -28,12 +28,12 @@ public class JSObjectCustomMethodsGenerator
                  """;
     }
 
-    private static void GenerateCustomMethods(GeneratorContext context, List<string> outputMembers)
+    private static void GenerateCustomMethodCalls(GeneratorContext context, List<string> outputMembers)
     {
-        outputMembers.AddRange(context.ObjectMethods.Methods.Select(GenerateCustomMethod));
+        outputMembers.AddRange(context.ObjectMethods.MethodCalls.Select(GenerateCustomMethodCall));
     }
 
-    private static string GenerateCustomMethod(JSObjectMethodCallInfo method)
+    private static string GenerateCustomMethodCall(JSObjectMethodCallInfo method)
     {
         var returnTypeName = method.ReturnParam is null ? "void" : TypeNameGenerator.Execute(method.ReturnParam);
 

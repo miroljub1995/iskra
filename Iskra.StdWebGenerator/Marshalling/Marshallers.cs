@@ -11,14 +11,17 @@ public class Marshallers
         var list = new Marshallers();
 
         list.Add(new MarshallerDelegateToJSObject());
+        list.Add(new MarshallerIReadOnlyListItemToItem());
         list.Add(new MarshallerIReadOnlyListToJSObject());
         list.Add(new MarshallerJSObjectToArray());
         list.Add(new MarshallerJSObjectToIReadOnlyList());
         list.Add(new MarshallerJSObjectToWrapperObject());
         list.Add(new MarshallerNoOp());
         list.Add(new MarshallerNullable());
+        list.Add(new MarshallerObjectToObjectForJS());
         list.Add(new MarshallerObjectToOneOf());
         list.Add(new MarshallerOneOfJSObject());
+        list.Add(new MarshallerOneOfToObjectForJS());
         list.Add(new MarshallerWrapperObjectToJSObject());
 
         return list;

@@ -412,16 +412,16 @@ public class Element : Node
         set => throw new();
     }
 
-    public void After([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void After([AsParams] params IReadOnlyList<OneOf<Node, string>> nodes) => throw new();
     public void Animate(string el) => throw new();
 
     // public void Animate() => throw new();
 
-    public void Append([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void Append([AsParams] params IReadOnlyList<OneOf<Node, string>> nodes) => throw new();
 
     public ShadowRoot AttachShadow(ElementAttachShadowOptions options) => throw new();
 
-    public void Before([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void Before([AsParams] params IReadOnlyList<OneOf<Node, string>> nodes) => throw new();
 
     public bool CheckVisibility(ElementCheckVisibilityOptions? options) => throw new();
 
@@ -469,7 +469,7 @@ public class Element : Node
 
     public bool Matches(string selectors) => throw new();
 
-    public void Prepend([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void Prepend([AsParams] params IReadOnlyList<OneOf<Node, string>> nodes) => throw new();
 
     public Element? QuerySelector(string selectors) => throw new();
 
@@ -485,9 +485,9 @@ public class Element : Node
 
     public void RemoveAttributeNS(string namespaceValue, string attrName) => throw new();
 
-    public void ReplaceChildren([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void ReplaceChildren([AsParams] params IReadOnlyList<OneOf<Node, string>> nodes) => throw new();
 
-    public void ReplaceWith([AsParams] params OneOf<Node, string>[] nodes) => throw new();
+    public void ReplaceWith([AsParams] params IReadOnlyList<OneOf<Node, string>> nodes) => throw new();
 
     public Task RequestFullscreen(ElementRequestFullscreenOptions? options) => throw new();
 

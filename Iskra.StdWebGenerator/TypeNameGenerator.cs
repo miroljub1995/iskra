@@ -19,6 +19,7 @@ public static class TypeNameGenerator
         { typeof(string), "string" },
         { typeof(object), "object" },
         { typeof(JSObject), "JSObject" },
+        { typeof(ObjectForJS), "object" },
     };
 
     public static string Execute(ParameterInfo parameterInfo)

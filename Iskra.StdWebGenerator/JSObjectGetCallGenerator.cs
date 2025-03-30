@@ -13,11 +13,11 @@ public static class JSObjectGetCallGenerator
     {
         var jsLevelParams = parameters.Select(ToJSLevelType).ToList();
         var jsLevelReturnParam = returnParam is null ? null : ToJSLevelType(returnParam);
-        
+
         return context.ObjectMethods.GetMethodCallInfo(jsLevelParams, jsLevelReturnParam);
     }
 
-    private static MyType ToJSLevelType(MyType type)
+    public static MyType ToJSLevelType(MyType type)
         => type switch
         {
             _ when type.Type.IsJSObjectWrapper() => new MyType(typeof(JSObject), type.IsNullable, null, []),
@@ -31,6 +31,8 @@ public static class JSObjectGetCallGenerator
             _ when type.Type == typeof(Task) => type,
             _ when type.Type.IsSubclassOf(typeof(Delegate)) => new MyType(typeof(JSObject), type.IsNullable,
                 null, []),
+            _ when type.Type == typeof(object) => type with { Type = typeof(ObjectForJS) },
+            _ when type.Type.IsOneOf() => type with { Type = typeof(ObjectForJS) },
             _ => throw new Exception($"Unsupported type {type}")
         };
 }

@@ -34,15 +34,34 @@ public static class MethodGenerator
 
             var returnVar = context.GetNextVariableName();
 
-            var returnParam = methodInfo.ReturnType == typeof(void)
-                ? null
-                : new MethodCallParam(
-                    Type: returnType,
-                    returnVar
-                );
-
             if (isLastAsParams)
             {
+                var returnApplyParam = methodInfo.ReturnType == typeof(void)
+                    ? null
+                    : new MethodApplyParam(
+                        Type: returnType,
+                        returnVar
+                    );
+
+                var methodApplyParameters = parameterTypes
+                    .Select((x, i) =>
+                        new MethodApplyParam(x, parameterInfos[i].Name ?? throw new("Parameter name is null.")))
+                    .ToArray();
+
+                return $$"""
+                         public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
+                         {{{(returnApplyParam is null ? "" : $"\n    {TypeNameGenerator.Execute(returnType)} {returnVar};\n")}}
+                         {{MethodApplyGenerator.Execute(
+                             objVar: "JSObject",
+                             functionName: methodName,
+                             parameters: methodApplyParameters,
+                             lastAsParamsList: true,
+                             returnParam: returnApplyParam,
+                             context: context
+                         ).IndentLines(4)}}{{(returnApplyParam is null ? "" : $"\n    return {returnVar};\n")}}
+                         }
+                         """;
+
                 return $$"""
                          public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
                          {
@@ -51,6 +70,13 @@ public static class MethodGenerator
                          """;
             }
 
+            var returnCallParam = methodInfo.ReturnType == typeof(void)
+                ? null
+                : new MethodCallParam(
+                    Type: returnType,
+                    returnVar
+                );
+
             var methodCallParameters = parameterTypes
                 .Select((x, i) =>
                     new MethodCallParam(x, parameterInfos[i].Name ?? throw new("Parameter name is null.")))
@@ -58,15 +84,15 @@ public static class MethodGenerator
 
             return $$"""
                      public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
-                     {{{(returnParam is null ? "" : $"\n    {TypeNameGenerator.Execute(returnType)} {returnVar};\n")}}
+                     {{{(returnCallParam is null ? "" : $"\n    {TypeNameGenerator.Execute(returnType)} {returnVar};\n")}}
                      {{MethodCallGenerator.Execute(
                          objVar: "JSObject",
                          functionName: methodName,
                          parameters: methodCallParameters,
-                         returnParam: returnParam,
+                         returnParam: returnCallParam,
                          options: new(SkipFunctionChecks: false),
                          context: context
-                     ).IndentLines(4)}}{{(returnParam is null ? "" : $"\n    return {returnVar};\n")}}
+                     ).IndentLines(4)}}{{(returnCallParam is null ? "" : $"\n    return {returnVar};\n")}}
                      }
                      """;
 

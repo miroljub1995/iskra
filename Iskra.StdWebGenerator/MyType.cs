@@ -65,7 +65,17 @@ public record MyType(
 
     public override int GetHashCode()
     {
-        throw new NotSupportedException();
+        var hash = new HashCode();
+        hash.Add(Type);
+        hash.Add(IsNullable);
+        hash.Add(ElementType);
+
+        foreach (var arg in GenericTypeArguments)
+        {
+            hash.Add(arg);
+        }
+
+        return hash.ToHashCode();
     }
 
     public virtual bool Equals(MyType? other)

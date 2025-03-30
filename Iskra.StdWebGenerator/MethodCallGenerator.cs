@@ -69,7 +69,6 @@ public static class MethodCallGenerator
                 {{TypeNameGenerator.Execute(methodCallInfo.ReturnParam)}} {{returnVar}} = 
                 """;
 
-
         string marshalledReturn = methodCallInfo.ReturnParam is null || returnParam is null
             ? ""
             : $$"""
