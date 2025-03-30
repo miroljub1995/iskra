@@ -54,7 +54,7 @@ public class JSObjectCustomMethodsGenerator
                   var method = obj.GetPropertyAsJSObject(methodName)
                                ?? throw new Exception($"Method {methodName} not found.");
                                
-                  return _{{method.Name}}({{jsImportCallParametersList}});
+                  {{(method.ReturnParam is null ? "" : "return ")}}_{{method.Name}}({{jsImportCallParametersList}});
               } 
               """;
     }
