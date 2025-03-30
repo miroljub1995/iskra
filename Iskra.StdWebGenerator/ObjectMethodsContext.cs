@@ -8,7 +8,7 @@ public class ObjectMethodsContext
 {
     private readonly List<JSObjectMethodCallInfo> _methods = [];
 
-    public IReadOnlyList<JSObjectMethodCallInfo> PropertyMethods => _methods;
+    public IReadOnlyList<JSObjectMethodCallInfo> Methods => _methods;
 
     public JSObjectMethodCallInfo GetMethodCallInfo(
         IReadOnlyList<MyType> parameters,
