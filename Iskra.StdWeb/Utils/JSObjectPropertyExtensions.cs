@@ -73,8 +73,31 @@ public static class JSObjectPropertyExtensions
         return obj.GetPropertyAsJSObject(propertyName);
     }
 
-    public static JSObject GetPropertyAsOneOf(this JSObject obj, string propertyName)
+    public static object GetPropertyAsOneOf(this JSObject obj, string propertyName)
     {
+        var propertyType = obj.GetTypeOfProperty(propertyName);
+        return propertyType switch
+        {
+            "boolean" => obj.GetPropertyAsBoolean(propertyName),
+            "number" => obj.GetPropertyAsDouble(propertyName),
+            "string" => obj.GetPropertyAsStringV2(propertyName),
+            "object" => obj.GetPropertyAsJSObjectV2(propertyName),
+            _ => throw new($"Property {propertyName} is not supported.")
+        };
+    }
+
+    public static object? GetPropertyAsOneOfAsNullable(this JSObject obj, string propertyName)
+    {
+        var propertyType = obj.GetTypeOfProperty(propertyName);
+        return propertyType switch
+        {
+            "undefined" => null,
+            "boolean" => obj.GetPropertyAsBoolean(propertyName),
+            "number" => obj.GetPropertyAsDouble(propertyName),
+            "string" => obj.GetPropertyAsStringV2(propertyName),
+            "object" => obj.GetPropertyAsJSObjectV2AsNullable(propertyName),
+            _ => throw new($"Property {propertyName} is not supported.")
+        };
     }
 
     public static void SetPropertyAsBooleanNullable(this JSObject obj, string propertyName, bool? value)

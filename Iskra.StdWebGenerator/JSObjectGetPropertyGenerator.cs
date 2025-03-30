@@ -70,7 +70,7 @@ public static class JSObjectGetPropertyGenerator
             _ when type.Type.IsOneOf() => new(
                 Name: $"GetPropertyAsOneOf{asNullableSuffix}",
                 ReturnType: new MyType(
-                    Type: typeof(JSObject),
+                    Type: typeof(object),
                     IsNullable: type.IsNullable,
                     ElementType: null,
                     GenericTypeArguments: []
