@@ -91,7 +91,9 @@ public class MethodApplyGenerator
             }).ToList();
 
         var targetMethodApplyParameters = lastAsParamsList
-            ? $"[{string.Join(", ", [..marshalledParametersVar[..^1], $"..{marshalledParametersVar.Last()}"])}]"
+            ? marshalledParametersVar.Count == 1
+                ? marshalledParametersVar[0]
+                : $"[{string.Join(", ", [..marshalledParametersVar[..^1], $"..{marshalledParametersVar.Last()}"])}]"
             : $"[{string.Join(", ", marshalledParametersVar)}]";
 
         string applyParameters = string.Join(", ", [$"\"{functionName}\"", targetMethodApplyParameters]);
