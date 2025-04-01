@@ -14,7 +14,7 @@ public static class MethodGenerator
         var parameterTypes = parameterInfos.Select(MyType.From).ToArray();
         var isLastAsParams = parameterInfos.LastOrDefault()?.IsDefinedAsParams() == true;
         var returnType = MyType.From(methodInfo.ReturnParameter);
-        var returnTypeName = TypeNameGenerator.Execute(methodInfo.ReturnParameter);
+        var returnTypeName = TypeNameGenerator.Execute(returnType);
         var staticKeyword = methodInfo.IsStatic ? " static" : "";
         var name = methodInfo.Name;
         var genericDef = MethodGenericDefinitionGenerator.Execute(methodInfo);
