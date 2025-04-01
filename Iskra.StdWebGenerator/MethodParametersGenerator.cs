@@ -3,25 +3,28 @@ using Iskra.StdWebGenerator.Extensions;
 
 namespace Iskra.StdWebGenerator;
 
-public record MethodParametersGeneratorResult(
-    string Content,
-    string?[] ParamNamesWithDestructuredIfParams
-);
-
 public static class MethodParametersGenerator
 {
-    public static MethodParametersGeneratorResult Execute(MethodBase method)
+    public static string Execute(MethodBase method)
         => Execute(method.GetParameters());
 
-    public static MethodParametersGeneratorResult Execute(ParameterInfo[] parameters)
+    public static string Execute(ParameterInfo[] parameters)
     {
         var content = string.Join(", ",
-            parameters.Select(x => $"{TypeNameGenerator.Execute(x)} {x.Name}{DefaultValue(x)}"));
+            parameters.Select((x, i) =>
+                $"{AsParams(parameters, i)}{TypeNameGenerator.Execute(MyType.From(x))} {x.Name}{DefaultValue(x)}"));
 
-        return new MethodParametersGeneratorResult(
-            Content: content,
-            ParamNamesWithDestructuredIfParams: parameters.Select(GetParameterUsage).ToArray()
-        );
+        return content;
+    }
+
+    private static string AsParams(ParameterInfo[] parameters, int index)
+    {
+        if (index == parameters.Length - 1 && parameters[index].IsDefinedAsParams())
+        {
+            return "params ";
+        }
+
+        return string.Empty;
     }
 
     private static string DefaultValue(ParameterInfo parameter)
@@ -38,22 +41,5 @@ public static class MethodParametersGenerator
         }
 
         return "";
-    }
-
-    private static string GetParameterUsage(ParameterInfo parameter)
-    {
-        var isDelegate = parameter.ParameterType.IsJSObjectWrapper() &&
-                         parameter.ParameterType.IsSubclassOf(typeof(Delegate));
-
-        if (parameter.IsDefinedAsParams())
-        {
-            return isDelegate
-                ? $"..{parameter.Name}.Select(x => x.ToJSObject())"
-                : $"..{parameter.Name}";
-        }
-
-        return isDelegate
-            ? $"{parameter.Name}.ToJSObject()"
-            : $"{parameter.Name}";
     }
 }

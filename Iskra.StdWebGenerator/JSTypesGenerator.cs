@@ -23,13 +23,15 @@ public static class JSTypesGenerator
 
         foreach (var type in allTypesToGenerate)
         {
+            var typeName = TypeNameGenerator.Execute(new MyType(type, false, null, []));
+
             var typeContent = type switch
             {
                 _ when type.IsSubclassOf(typeof(Delegate)) => DelegateGenerator.Execute(type),
                 _ => JSTypeGenerator.Execute(type, context),
             };
 
-            var outputFilePath = Path.Join(targetDir, $"{TypeNameGenerator.Execute(type, null)}.cs");
+            var outputFilePath = Path.Join(targetDir, $"{typeName}.cs");
             await File.WriteAllTextAsync(outputFilePath, typeContent);
         }
 

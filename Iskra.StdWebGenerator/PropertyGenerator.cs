@@ -18,7 +18,7 @@ public static class PropertyGenerator
         var returnType = TypeNameGenerator.Execute(propertyType);
 
         var indexParameters = propertyInfo.GetIndexParameters();
-        MethodParametersGeneratorResult indexParametersRes = MethodParametersGenerator.Execute(indexParameters);
+        var indexParametersRes = MethodParametersGenerator.Execute(indexParameters);
 
         var builder = new StringBuilder();
 
@@ -26,7 +26,7 @@ public static class PropertyGenerator
         {
             builder.AppendLine($$"""
                                  [System.Runtime.CompilerServices.IndexerName("Indexer")]
-                                 public {{returnType}} this[{{indexParametersRes.Content}}]
+                                 public {{returnType}} this[{{indexParametersRes}}]
                                  {
                                  """);
         }

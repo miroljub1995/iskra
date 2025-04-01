@@ -29,7 +29,7 @@ public static class DelegateGenerator
 
                  #nullable enable
 
-                 public delegate {{returnTypeName}} {{type.Name}}({{parameters.Content}});
+                 public delegate {{returnTypeName}} {{type.Name}}({{parameters}});
 
                  internal static partial class {{type.Name}}Extensions
                  {

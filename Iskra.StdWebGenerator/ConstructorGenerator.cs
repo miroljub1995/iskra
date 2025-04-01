@@ -33,7 +33,7 @@ public static class ConstructorGenerator
             ? "Object"
             : typeName;
 
-        var (paramsContent, _) = MethodParametersGenerator.Execute(constructorInfo);
+        var paramsContent = MethodParametersGenerator.Execute(constructorInfo);
 
         MethodCallParam[] functionCallParams =
         [

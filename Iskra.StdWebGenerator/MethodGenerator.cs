@@ -18,12 +18,12 @@ public static class MethodGenerator
         var staticKeyword = methodInfo.IsStatic ? " static" : "";
         var name = methodInfo.Name;
         var genericDef = MethodGenericDefinitionGenerator.Execute(methodInfo);
-        var parameters = MethodParametersGenerator.Execute(methodInfo);
+        var parametersDeclaration = MethodParametersGenerator.Execute(methodInfo);
 
         if (isManualBinding)
         {
             var res = $$"""
-                        public{{staticKeyword}} partial {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}});
+                        public{{staticKeyword}} partial {{returnTypeName}} {{name}}{{genericDef}}({{parametersDeclaration}});
                         """;
 
             return res;
@@ -49,7 +49,7 @@ public static class MethodGenerator
                     .ToArray();
 
                 return $$"""
-                         public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
+                         public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parametersDeclaration}})
                          {{{(returnApplyParam is null ? "" : $"\n    {TypeNameGenerator.Execute(returnType)} {returnVar};\n")}}
                          {{MethodApplyGenerator.Execute(
                              objVar: "JSObject",
@@ -76,7 +76,7 @@ public static class MethodGenerator
                 .ToArray();
 
             return $$"""
-                     public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
+                     public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parametersDeclaration}})
                      {{{(returnCallParam is null ? "" : $"\n    {TypeNameGenerator.Execute(returnType)} {returnVar};\n")}}
                      {{MethodCallGenerator.Execute(
                          objVar: "JSObject",
