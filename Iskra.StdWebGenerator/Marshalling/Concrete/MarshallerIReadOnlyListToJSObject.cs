@@ -26,28 +26,24 @@ public class MarshallerIReadOnlyListToJSObject : Marshaller
 
         IReadOnlyList<MethodCallParam> setElementParameters =
         [
+            new(outputType, outputVar),
             new(new(typeof(int), false, null, []), loopVar),
-            new(new(typeof(int), false, null, []), "1"),
             new(inputType.GenericTypeArguments[0], $"{inputVar}[{loopVar}]")
         ];
 
         return $$"""
-                 {{MethodCallGenerator.Execute(
-                     objVar: "JSHost.GlobalThis",
+                 {{GlobalFunctionCallGenerator.Execute(
                      functionName: "Array",
                      parameters: [new(new(typeof(int), false, null, []), lengthVar)],
                      returnParam: new(Type: new(typeof(JSObject), false, null, []), outputVar),
-                     options: new(SkipFunctionChecks: true),
                      context: context
                  )}}
                  for (int {{loopVar}} = 0; {{loopVar}} < {{lengthVar}}; {{loopVar}}++)
                  {
-                 {{MethodCallGenerator.Execute(
-                     objVar: outputVar,
-                     functionName: "splice",
+                 {{GlobalFunctionCallGenerator.Execute(
+                     functionName: "Reflect.set",
                      parameters: setElementParameters,
                      returnParam: null,
-                     options: new(SkipFunctionChecks: true),
                      context: context
                  ).IndentLines(4)}}
                  }

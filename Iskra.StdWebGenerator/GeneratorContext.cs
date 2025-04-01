@@ -6,6 +6,8 @@ public class GeneratorContext
 
     public ObjectMethodsContext ObjectMethods { get; } = new();
 
+    public GlobalFunctionsContext GlobalFunctions { get; } = new();
+
     public string GetNextVariableName()
         => $"__tmp_var{_varsCount++}";
 }

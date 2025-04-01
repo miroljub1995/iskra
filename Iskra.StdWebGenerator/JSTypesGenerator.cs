@@ -36,5 +36,10 @@ public static class JSTypesGenerator
         var jsObjectMethodExtensions = JSObjectCustomMethodsGenerator.Execute(context);
         await File.WriteAllTextAsync(Path.Join(targetDir, "JSObjectCustomMethodsExtensions.cs"),
             jsObjectMethodExtensions);
+
+        await File.WriteAllTextAsync(
+            Path.Join(targetDir, $"{context.GlobalFunctions.ClassName}.cs"),
+            context.GlobalFunctions.ClassCode
+        );
     }
 }

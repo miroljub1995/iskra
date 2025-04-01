@@ -1,7 +1,8 @@
 namespace Iskra.StdWebGenerator;
 
-public record JSObjectMethodCallInfo(
+public record GlobalFunctionCallInfo(
     string Name,
+    string FunctionName,
     IReadOnlyList<MyType> Parameters,
     MyType? ReturnParam
 );
