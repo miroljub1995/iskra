@@ -40,6 +40,7 @@ public class GlobalFunctionsContext
 
     public GlobalFunctionCallInfo GetGlobalFunctionCallInfo(
         string functionName,
+        string? module,
         IReadOnlyList<MyType> parameters,
         MyType? returnParam
     )
@@ -48,6 +49,7 @@ public class GlobalFunctionsContext
             .Select(x => x.Info)
             .SingleOrDefault(x =>
                 x.FunctionName == functionName &&
+                x.Module == module &&
                 x.Parameters.SequenceEqual(parameters) &&
                 x.ReturnParam == returnParam
             );
@@ -57,6 +59,7 @@ public class GlobalFunctionsContext
             info = new(
                 Name: $"{CleanupName(functionName)}_{_functions.Count}",
                 FunctionName: functionName,
+                Module: module,
                 Parameters: parameters,
                 ReturnParam: returnParam
             );
@@ -87,7 +90,7 @@ public class GlobalFunctionsContext
 
         var code =
             $$"""
-              [JSImport("globalThis.{{func.Info.FunctionName}}")]
+              [JSImport("{{func.Info.FunctionName}}"{{(func.Info.Module is { } module ? $", \"{module}\"" : string.Empty)}})]
               public static partial {{returnTypeName}} {{func.Info.Name}}({{jsImportParametersList}});
               """;
 

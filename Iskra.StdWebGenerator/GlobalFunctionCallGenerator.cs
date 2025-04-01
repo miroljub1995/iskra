@@ -6,6 +6,7 @@ public class GlobalFunctionCallGenerator
 {
     public static string Execute(
         string functionName,
+        string? module,
         IReadOnlyList<MethodCallParam> parameters,
         MethodCallParam? returnParam,
         GeneratorContext context
@@ -13,6 +14,7 @@ public class GlobalFunctionCallGenerator
     {
         var methodCallInfo = GetGlobalFunctionCallGenerator.Execute(
             functionName,
+            module,
             parameters.Select(x => x.Type).ToList(),
             returnParam?.Type,
             context

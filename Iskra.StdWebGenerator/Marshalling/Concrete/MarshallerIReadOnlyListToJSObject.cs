@@ -33,7 +33,8 @@ public class MarshallerIReadOnlyListToJSObject : Marshaller
 
         return $$"""
                  {{GlobalFunctionCallGenerator.Execute(
-                     functionName: "Array",
+                     functionName: "globalThis.Array",
+                     module: null,
                      parameters: [new(new(typeof(int), false, null, []), lengthVar)],
                      returnParam: new(Type: new(typeof(JSObject), false, null, []), outputVar),
                      context: context
@@ -41,7 +42,8 @@ public class MarshallerIReadOnlyListToJSObject : Marshaller
                  for (int {{loopVar}} = 0; {{loopVar}} < {{lengthVar}}; {{loopVar}}++)
                  {
                  {{GlobalFunctionCallGenerator.Execute(
-                     functionName: "Reflect.set",
+                     functionName: "globalThis.Reflect.set",
+                     module: null,
                      parameters: setElementParameters,
                      returnParam: null,
                      context: context
