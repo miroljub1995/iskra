@@ -61,13 +61,6 @@ public static class MethodGenerator
                          ).IndentLines(4)}}{{(returnApplyParam is null ? "" : $"\n    return {returnVar};\n")}}
                          }
                          """;
-
-                return $$"""
-                         public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
-                         {
-                             applyFunction();
-                         }
-                         """;
             }
 
             var returnCallParam = methodInfo.ReturnType == typeof(void)
@@ -95,32 +88,6 @@ public static class MethodGenerator
                      ).IndentLines(4)}}{{(returnCallParam is null ? "" : $"\n    return {returnVar};\n")}}
                      }
                      """;
-
-            var returnKeyword = methodInfo.ReturnType == typeof(void) ? "" : "return ";
-            var applyGenericParams = methodInfo.ReturnType == typeof(void) ? "" : $"<{returnTypeName}>";
-            var cast = methodInfo.ReturnType == typeof(void) ? "" : $"({returnTypeName})";
-
-            var res = $$"""
-                        public{{staticKeyword}} {{returnTypeName}} {{name}}{{genericDef}}({{parameters.Content}})
-                        {
-                            if (!JSObject.HasProperty("{{methodName}}"))
-                            {
-                                throw new Exception($"Method {{methodName}} is not defined.");
-                            }
-                        
-                            if (JSObject.GetTypeOfProperty("{{methodName}}") != "function")
-                            {
-                                throw new Exception($"Property {{methodName}} is not a function.");
-                            }
-                        
-                            var method = JSObject.GetPropertyAsJSObject("{{methodName}}")
-                                         ?? throw new Exception("Should be handled before.");
-                        
-                            {{returnKeyword}}{{cast}}Reflect.Apply{{applyGenericParams}}(method, JSObject, [{{string.Join(", ", parameters.ParamNamesWithDestructuredIfParams)}}]);
-                        }
-                        """;
-
-            return res;
         }
     }
 }
