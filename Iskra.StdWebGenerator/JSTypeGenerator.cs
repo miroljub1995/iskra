@@ -13,7 +13,12 @@ public static class JSTypeGenerator
 
         var baseTypeName = baseType is null || baseType == typeof(object)
             ? "JSObjectWrapper"
-            : TypeNameGenerator.Execute(baseType, null);
+            : TypeNameGenerator.Execute(new MyType(
+                Type: baseType,
+                IsNullable: false,
+                ElementType: null,
+                GenericTypeArguments: []
+            ));
 
         var staticKeyword = isStatic ? " static" : "";
         var defaultConstructor = isStatic ? null : "(JSObject obj)";
