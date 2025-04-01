@@ -4,21 +4,18 @@ using System.Text;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
 
 public static class PropertyGenerator
 {
-    public static string Execute(PropertyInfo propertyInfo)
+    public static string Execute(PropertyInfo propertyInfo, GeneratorContext context)
     {
-        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
-        var isNullable = (propertyInfo.CanRead ? nullabilityInfo.ReadState : nullabilityInfo.WriteState) ==
-                         NullabilityState.Nullable;
+        MyType propertyType = MyType.From(propertyInfo);
 
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
-        var returnType = TypeNameGenerator.Execute(propertyInfo);
-        var isJSObjectWrapper = propertyInfo.PropertyType.IsJSObjectWrapper();
-        var isArray = propertyInfo.PropertyType.IsArray;
+        var returnType = TypeNameGenerator.Execute(propertyType);
 
         var indexParameters = propertyInfo.GetIndexParameters();
         MethodParametersGeneratorResult indexParametersRes = MethodParametersGenerator.Execute(indexParameters);
@@ -73,70 +70,14 @@ public static class PropertyGenerator
                 return $"get => {indexerAliasMethods.Get}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
 
-            var jsObjectMethod = propertyInfo.PropertyType switch
-            {
-                _ when propertyInfo.PropertyType == typeof(bool) => "GetPropertyAsBoolean",
-                _ when propertyInfo.PropertyType == typeof(bool?) => "GetPropertyAsBoolean",
-                _ when propertyInfo.PropertyType == typeof(int) => "GetPropertyAsInt32",
-                _ when propertyInfo.PropertyType == typeof(int?) => "GetPropertyAsInt32",
-                _ when propertyInfo.PropertyType == typeof(long) => "GetPropertyAsInt64",
-                _ when propertyInfo.PropertyType == typeof(long?) => "GetPropertyAsInt64",
-                _ when propertyInfo.PropertyType == typeof(double) => "GetPropertyAsDouble",
-                _ when propertyInfo.PropertyType == typeof(double?) => "GetPropertyAsDouble",
-                _ when propertyInfo.PropertyType == typeof(string) => "GetPropertyAsString",
-                _ when propertyInfo.PropertyType == typeof(JSObject) => "GetPropertyAsJSObject",
-                _ when isJSObjectWrapper => "GetPropertyAsJSObject",
-                _ when propertyInfo.PropertyType.IsGenericType &&
-                       propertyInfo.PropertyType.GetGenericTypeDefinition() == typeof(OneOf<,>) => "GetPropertyAsOneOf",
-                _ when isArray => "GetPropertyAsJSObject",
-                _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
-            };
-
-            var returnValue = propertyInfo.PropertyType switch
-            {
-                _ when propertyInfo.PropertyType == typeof(bool) => "prop",
-                _ when propertyInfo.PropertyType == typeof(bool?) => "prop",
-                _ when propertyInfo.PropertyType == typeof(int) => "prop",
-                _ when propertyInfo.PropertyType == typeof(int?) => "prop",
-                _ when propertyInfo.PropertyType == typeof(long) => "prop",
-                _ when propertyInfo.PropertyType == typeof(long?) => "prop",
-                _ when propertyInfo.PropertyType == typeof(double) => "prop",
-                _ when propertyInfo.PropertyType == typeof(double?) => "prop",
-                _ when propertyInfo.PropertyType == typeof(string) => "prop",
-                _ when propertyInfo.PropertyType == typeof(JSObject) => "prop",
-                _ when isJSObjectWrapper => $"WrapperFactory.GetWrapper<{returnType}>(prop)",
-                _ when propertyInfo.PropertyType.IsGenericType &&
-                       propertyInfo.PropertyType.GetGenericTypeDefinition() == typeof(OneOf<,>) => "GetOneOf(prop)",
-                _ when isArray => "GetDotnetArray(prop)",
-                _ => throw new NotSupportedException($"Property type {propertyInfo.PropertyType} is not supported.")
-            };
-
-            var postNullableCheck = propertyInfo.PropertyType.IsValueType
-                ? ""
-                : $$"""
-                    {{"\n"}}if (prop is null)
-                    {
-                        throw new Exception("This should not happen. It is handled before.");
-                    }
-                    """;
-
-            var actionOnNull = nullabilityInfo.ReadState == NullabilityState.Nullable
-                ? "return null;"
-                : $"throw new Exception(\"The property {jsName} is null or not defined.\");";
+            var resVar = context.GetNextVariableName();
 
             return $$"""
                      get
                      {
-                         bool isNullOrUndefined = JSObject.IsNullOrUndefined("{{jsName}}");
-                         if(isNullOrUndefined)
-                         {
-                            {{actionOnNull}}
-                         }
-                     
-                         var prop = JSObject.{{jsObjectMethod}}("{{jsName}}");
-                     {{postNullableCheck.IndentLines(4)}}
-                     
-                         return {{returnValue}};
+                         {{returnType}} {{resVar}};
+                     {{PropertyGetGenerator.Execute(propertyType, "JSObject", resVar, jsName, context).IndentLines(4)}}
+                         return {{resVar}};
                      }
                      """;
         }
@@ -159,65 +100,10 @@ public static class PropertyGenerator
                 return $"set => {indexerAliasMethods.Set}({string.Join(", ", indexParameters.Select(x => x.Name))});";
             }
 
-            var builder = new StringBuilder("""
-                                            set
-                                            {
-
-                                            """
-            );
-
-            if (isNullable)
-            {
-                builder.Append($$"""
-                      if (value is null)
-                      {
-                          JSObject.SetProperty("{{jsName}}", null as JSObject);
-                          return;
-                      }
-
-
-                      """.IndentLines(4)
-                );
-            }
-
-            if (isJSObjectWrapper)
-            {
-                builder.Append($$"""
-                      JSObject.SetProperty("{{jsName}}", value{{(isNullable ? "?" : "")}}.JSObject);
-                      """.IndentLines(4)
-                );
-            }
-            else if (propertyInfo.PropertyType.IsGenericType &&
-                     propertyInfo.PropertyType.GetGenericTypeDefinition() == typeof(Nullable<>))
-            {
-                builder.Append($$"""
-                      JSObject.SetProperty("{{jsName}}", value.Value);
-
-                      """.IndentLines(4)
-                );
-            }
-            else
-            {
-                builder.Append($$"""
-                      JSObject.SetProperty("{{jsName}}", value);
-
-                      """.IndentLines(4)
-                );
-            }
-
-            builder.AppendLine("}");
-            return builder.ToString();
-
-            var value = isJSObjectWrapper
-                ? isNullable
-                    ? "value?.JSObject"
-                    : "value.JSObject"
-                : "value";
-
             return $$"""
                      set
                      {
-                        JSObject.SetProperty("{{jsName}}", {{value}});
+                     {{PropertySetGenerator.Execute(propertyType, "JSObject", "value", jsName, context).IndentLines(4)}}
                      }
                      """;
         }

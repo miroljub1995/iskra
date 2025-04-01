@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Reflection.Metadata;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
@@ -18,6 +19,7 @@ public static class TypeNameGenerator
         { typeof(string), "string" },
         { typeof(object), "object" },
         { typeof(JSObject), "JSObject" },
+        { typeof(ObjectForJS), "object" },
     };
 
     public static string Execute(ParameterInfo parameterInfo)
@@ -27,98 +29,107 @@ public static class TypeNameGenerator
         return (asParams ? "params " : "") + Execute(parameterInfo.ParameterType, nullabilityInfo, true);
     }
 
-    public static string Execute(PropertyInfo propertyInfo)
-    {
-        var nullabilityInfo = new NullabilityInfoContext().Create(propertyInfo);
-        return Execute(propertyInfo.PropertyType, nullabilityInfo, propertyInfo.CanRead);
-    }
+    [Obsolete("Use Execute(MyType type)")] public static bool NotNullProp { get; set; }
 
+    [Obsolete("Use Execute(MyType type)")]
     public static string Execute(Type type, NullabilityInfo? nullabilityInfo, bool fromRead = false)
     {
-        var nullabilityState = fromRead ? nullabilityInfo?.ReadState : nullabilityInfo?.WriteState;
+        var fallbackNullability =
+            new NullabilityInfoContext().Create(typeof(TypeNameGenerator).GetProperty(nameof(NotNullProp)));
 
-        var nullableIndicator = nullabilityState == NullabilityState.Nullable ? "?" : "";
+        return Execute(MyType.From(type, nullabilityInfo ?? fallbackNullability, fromRead));
+    }
 
-        if (type.IsDefined(typeof(GenerateBindingsAttribute)))
+    public static string Execute(MyType type)
+    {
+        var nullableIndicator = type.IsNullable ? "?" : "";
+
+        if (type.Type.IsDefined(typeof(GenerateBindingsAttribute)))
         {
-            return type.Name + nullableIndicator;
+            return type.Type.Name + nullableIndicator;
         }
 
-        if (TypeMapping.TryGetValue(type, out var typeMappingName))
+        if (TypeMapping.TryGetValue(type.Type, out var typeMappingName))
         {
             return typeMappingName + nullableIndicator;
         }
 
-        if (type.IsArray)
+        if (type.Type.IsArray && type.ElementType is not null)
         {
-            if (type.GetElementType() is not { } arrayElementType)
+            if (type.Type.GetElementType() is not { } arrayElementType)
             {
                 throw new Exception($"Array {type} has not element type.");
             }
 
-            return Execute(arrayElementType, nullabilityInfo?.ElementType, true) + "[]" + nullableIndicator;
+            return Execute(type.ElementType) + "[]" + nullableIndicator;
         }
 
-        if (type.IsGenericType)
+        if (type.Type.IsGenericType)
         {
-            var genericDef = type.GetGenericTypeDefinition();
-            var genericArgs = type.GetGenericArguments();
-
-            if (genericDef == typeof(Nullable<>))
-            {
-                return Execute(genericArgs[0], null, true) + nullableIndicator;
-            }
+            var genericDef = type.Type.GetGenericTypeDefinition();
 
             if (genericDef == typeof(OneOf<,>))
             {
-                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
-                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                var t2 = Execute(type.GenericTypeArguments[1]);
 
-                return $"OneOf<{t1},{t2}>";
+                return $"OneOf<{t1},{t2}>" + nullableIndicator;
             }
 
             if (genericDef == typeof(OneOf<,,>))
             {
-                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
-                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
-                var t3 = Execute(genericArgs[2], nullabilityInfo?.GenericTypeArguments[2], true);
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                var t2 = Execute(type.GenericTypeArguments[1]);
+                var t3 = Execute(type.GenericTypeArguments[2]);
 
-                return $"OneOf<{t1}, {t2}, {t3}>";
+                return $"OneOf<{t1}, {t2}, {t3}>" + nullableIndicator;
             }
 
             if (genericDef == typeof(OneOf<,,,>))
             {
-                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
-                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
-                var t3 = Execute(genericArgs[2], nullabilityInfo?.GenericTypeArguments[2], true);
-                var t4 = Execute(genericArgs[3], nullabilityInfo?.GenericTypeArguments[3], true);
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                var t2 = Execute(type.GenericTypeArguments[1]);
+                var t3 = Execute(type.GenericTypeArguments[2]);
+                var t4 = Execute(type.GenericTypeArguments[3]);
 
-                return $"OneOf<{t1}, {t2}, {t3}, {t4}>";
+                return $"OneOf<{t1}, {t2}, {t3}, {t4}>" + nullableIndicator;
             }
 
             if (genericDef == typeof(OneOf<,,,,>))
             {
-                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
-                var t2 = Execute(genericArgs[1], nullabilityInfo?.GenericTypeArguments[1], true);
-                var t3 = Execute(genericArgs[2], nullabilityInfo?.GenericTypeArguments[2], true);
-                var t4 = Execute(genericArgs[3], nullabilityInfo?.GenericTypeArguments[3], true);
-                var t5 = Execute(genericArgs[4], nullabilityInfo?.GenericTypeArguments[4], true);
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                var t2 = Execute(type.GenericTypeArguments[1]);
+                var t3 = Execute(type.GenericTypeArguments[2]);
+                var t4 = Execute(type.GenericTypeArguments[3]);
+                var t5 = Execute(type.GenericTypeArguments[4]);
 
-                return $"OneOf<{t1}, {t2}, {t3}, {t4}, {t5}>";
+                return $"OneOf<{t1}, {t2}, {t3}, {t4}, {t5}>" + nullableIndicator;
             }
 
             if (genericDef == typeof(Task<>))
             {
-                var t1 = Execute(genericArgs[0], nullabilityInfo?.GenericTypeArguments[0], true);
-                return $"Task<{t1}>";
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                return $"Task<{t1}>" + nullableIndicator;
+            }
+
+            if (genericDef == typeof(IList<>))
+            {
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                return $"IList<{t1}>" + nullableIndicator;
+            }
+
+            if (genericDef == typeof(IReadOnlyList<>))
+            {
+                var t1 = Execute(type.GenericTypeArguments[0]);
+                return $"IReadOnlyList<{t1}>" + nullableIndicator;
             }
 
             throw new NotSupportedException($"Type {type} is not supported.");
         }
 
-        if (type == typeof(Task))
+        if (type.Type == typeof(Task))
         {
-            return "Task";
+            return "Task" + nullableIndicator;
         }
 
         throw new NotSupportedException($"Type {type} is not supported.");

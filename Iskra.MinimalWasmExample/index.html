@@ -2,13 +2,15 @@
 <head>
     <script type="module">
         import {dotnet} from "/_framework/dotnet.js";
-        const run = async () => {
-            const {getAssemblyExports, getConfig} = await dotnet.create();
 
-            const exports = await getAssemblyExports(getConfig().mainAssemblyName);
+        const run = async () => {
+            const {getAssemblyExports, getConfig, runMain} = await dotnet.create();
+
+            const config = getConfig();
+            const exports = await getAssemblyExports(config.mainAssemblyName);
             console.log("dotnet exports", exports)
 
-            await dotnet.run();
+            await runMain();
         }
 
         run();
@@ -16,6 +18,6 @@
     <script type='module' src="/_framework/dotnet.js"></script>
 </head>
 <body>
-    <input id="test-input" type="text" value="123"/>
+<input id="test-input" type="text" value="123"/>
 </body>
 </html>

@@ -2,7 +2,7 @@ namespace Iskra.StdWeb;
 
 public abstract class OneOf
 {
-    public required object Value { get; set; }
+    public required object Value { get; init; }
 }
 
 public class OneOf<T1, T2> : OneOf

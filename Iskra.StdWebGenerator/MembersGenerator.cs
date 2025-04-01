@@ -6,7 +6,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class MembersGenerator
 {
-    public static string Execute(Type type)
+    public static string Execute(Type type, GeneratorContext context)
     {
         var members = type.GetMembers()
             .Where(x => x.DeclaringType == type)
@@ -40,7 +40,7 @@ public static class MembersGenerator
 
         foreach (var memberInfo in members)
         {
-            var content = MemberGenerator.Execute(memberInfo);
+            var content = MemberGenerator.Execute(memberInfo, context);
             if (content is not null)
             {
                 membersBody.Add(content);

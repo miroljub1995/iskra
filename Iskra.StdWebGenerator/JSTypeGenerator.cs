@@ -4,16 +4,21 @@ namespace Iskra.StdWebGenerator;
 
 public static class JSTypeGenerator
 {
-    public static string Execute(Type type)
+    public static string Execute(Type type, GeneratorContext context)
     {
-        var body = MembersGenerator.Execute(type);
+        var body = MembersGenerator.Execute(type, context);
 
         var isStatic = type.IsStatic();
         var baseType = type.BaseType;
 
         var baseTypeName = baseType is null || baseType == typeof(object)
             ? "JSObjectWrapper"
-            : TypeNameGenerator.Execute(baseType, null);
+            : TypeNameGenerator.Execute(new MyType(
+                Type: baseType,
+                IsNullable: false,
+                ElementType: null,
+                GenericTypeArguments: []
+            ));
 
         var staticKeyword = isStatic ? " static" : "";
         var defaultConstructor = isStatic ? null : "(JSObject obj)";
