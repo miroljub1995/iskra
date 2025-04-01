@@ -8,7 +8,7 @@ public class GlobalFunctionsContext
     {
         public required GlobalFunctionCallInfo Info { get; init; }
 
-        public string Code { get; set; } = "";
+        public string Code { get; set; } = string.Empty;
     }
 
     private readonly List<Function> _functions = [];
@@ -44,14 +44,13 @@ public class GlobalFunctionsContext
         MyType? returnParam
     )
     {
-        GlobalFunctionCallInfo? info =
-            _functions
-                .Select(x => x.Info)
-                .SingleOrDefault(x =>
-                    x.FunctionName == functionName &&
-                    x.Parameters.SequenceEqual(parameters) &&
-                    x.ReturnParam == returnParam
-                );
+        GlobalFunctionCallInfo? info = _functions
+            .Select(x => x.Info)
+            .SingleOrDefault(x =>
+                x.FunctionName == functionName &&
+                x.Parameters.SequenceEqual(parameters) &&
+                x.ReturnParam == returnParam
+            );
 
         if (info is null)
         {

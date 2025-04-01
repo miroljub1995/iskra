@@ -33,9 +33,10 @@ public static class JSTypesGenerator
             await File.WriteAllTextAsync(outputFilePath, typeContent);
         }
 
-        var jsObjectMethodExtensions = JSObjectCustomMethodsGenerator.Execute(context);
-        await File.WriteAllTextAsync(Path.Join(targetDir, "JSObjectCustomMethodsExtensions.cs"),
-            jsObjectMethodExtensions);
+        await File.WriteAllTextAsync(
+            Path.Join(targetDir, $"{context.ObjectMethods.ClassName}.cs"),
+            context.ObjectMethods.ClassCode
+        );
 
         await File.WriteAllTextAsync(
             Path.Join(targetDir, $"{context.GlobalFunctions.ClassName}.cs"),

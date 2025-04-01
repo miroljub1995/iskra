@@ -4,7 +4,12 @@ public class GeneratorContext
 {
     private long _varsCount = 0;
 
-    public ObjectMethodsContext ObjectMethods { get; } = new();
+    public GeneratorContext()
+    {
+        ObjectMethods = new ObjectMethodsContext(this);
+    }
+
+    public ObjectMethodsContext ObjectMethods { get; }
 
     public GlobalFunctionsContext GlobalFunctions { get; } = new();
 
