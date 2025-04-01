@@ -8,5 +8,5 @@ public class Console
 {
     protected Console() => throw new();
 
-    public void Log([AsParams] params IReadOnlyList<object> args) => throw new();
+    public void Log(params IReadOnlyList<object> args) => throw new();
 }
