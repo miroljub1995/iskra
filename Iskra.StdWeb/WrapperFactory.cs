@@ -29,7 +29,6 @@ public static partial class WrapperFactory
 
         foreach (var keyValue in GlobalFactories)
         {
-            System.Console.WriteLine($"Checking {keyValue.Key}.");
             if (IsOfGlobalConstructor(keyValue.Key, obj))
             {
                 wrapper = keyValue.Value(obj);

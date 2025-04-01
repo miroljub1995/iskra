@@ -33,7 +33,7 @@ public class MarshallerIReadOnlyListItemToItem : Marshaller
             );
 
         return $$"""
-                 List<{{TypeNameGenerator.Execute(outputElementType)}}> {{tmpListVar}} = new List<{{TypeNameGenerator.Execute(outputElementType)}}>({{inputVar}}.Count);
+                 {{TypeNameGenerator.Execute(outputElementType)}}[] {{tmpListVar}} = new {{TypeNameGenerator.Execute(outputElementType)}}[{{inputVar}}.Count];
                  for (int {{loopVar}} = 0; {{loopVar}} < {{inputVar}}.Count; {{loopVar}}++)
                  {
                  {{marshallElement.IndentLines(4)}}

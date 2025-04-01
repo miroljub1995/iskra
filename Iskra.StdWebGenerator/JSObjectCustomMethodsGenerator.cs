@@ -1,4 +1,6 @@
+using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
 
@@ -8,7 +10,15 @@ public class JSObjectCustomMethodsGenerator
     {
         var membersList = new List<string>();
 
-        GenerateCustomMethodCalls(context, membersList);
+        int processedMethodCalls = 0;
+        int processedMethodApplys = 0;
+
+        while (processedMethodCalls < context.ObjectMethods.MethodCalls.Count ||
+               processedMethodApplys < context.ObjectMethods.MethodApplys.Count)
+        {
+            processedMethodCalls += GenerateCustomMethodCalls(processedMethodCalls, context, membersList);
+            processedMethodApplys += GenerateCustomMethodApplys(processedMethodApplys, context, membersList);
+        }
 
         var members = string.Join("\n\n", membersList);
 
@@ -28,9 +38,16 @@ public class JSObjectCustomMethodsGenerator
                  """;
     }
 
-    private static void GenerateCustomMethodCalls(GeneratorContext context, List<string> outputMembers)
+    private static int GenerateCustomMethodCalls(int offset, GeneratorContext context, List<string> outputMembers)
     {
-        outputMembers.AddRange(context.ObjectMethods.MethodCalls.Select(GenerateCustomMethodCall));
+        // Store copy since maybe GenerateCustomMethodCall needs additional methods
+        var methodCalls = context.ObjectMethods.MethodCalls
+            .Skip(offset)
+            .ToList();
+
+        outputMembers.AddRange(methodCalls.Select(GenerateCustomMethodCall));
+
+        return methodCalls.Count;
     }
 
     private static string GenerateCustomMethodCall(JSObjectMethodCallInfo method)
@@ -41,10 +58,10 @@ public class JSObjectCustomMethodsGenerator
         var parametersForCall = method.Parameters.Select((x, i) => $"arg{i}");
         var parametersList = string.Join(", ", ["this JSObject obj", "string methodName", ..parameters]);
 
-        var jsImportParameters = method.Parameters.Select((x, i) => $"{TypeNameGenerator.Execute(x)} arg{i}");
+        var jsImportParameters = method.Parameters.Select((x, i) =>
+            $"{GetMarshallAttributeIfNeeded(x)}{TypeNameGenerator.Execute(x)} arg{i}");
         var jsImportParametersList = string.Join(", ", ["JSObject func", "JSObject obj", ..jsImportParameters]);
         var jsImportCallParametersList = string.Join(", ", ["method", "obj", ..parametersForCall]);
-
 
         return
             $$"""
@@ -59,5 +76,75 @@ public class JSObjectCustomMethodsGenerator
                   {{(method.ReturnParam is null ? "" : "return ")}}_{{method.Name}}({{jsImportCallParametersList}});
               } 
               """;
+    }
+
+    private static int GenerateCustomMethodApplys(int offset, GeneratorContext context, List<string> outputMembers)
+    {
+        // Store copy since maybe GenerateCustomMethodApply needs additional methods
+        var methodApplys = context.ObjectMethods.MethodApplys
+            .Skip(offset)
+            .ToList();
+
+        outputMembers.AddRange(methodApplys.Select(x => GenerateCustomMethodApply(x, context)));
+
+        return methodApplys.Count;
+    }
+
+    private static string GenerateCustomMethodApply(JSObjectMethodApplyInfo method, GeneratorContext context)
+    {
+        var returnTypeName = method.ReturnParam is null ? "void" : TypeNameGenerator.Execute(method.ReturnParam);
+
+        var parametersType = new MyType(
+            Type: typeof(IReadOnlyList<>).MakeGenericType(method.ParamsElement.Type),
+            IsNullable: false,
+            ElementType: null,
+            GenericTypeArguments: [method.ParamsElement]
+        );
+        var parameters = $"{TypeNameGenerator.Execute(parametersType)} args";
+        var parametersList = string.Join(", ", "this JSObject obj", "string methodName", parameters);
+
+        var marshalledParametersVar = context.GetNextVariableName();
+
+        var jsImportParametersType = new MyType(
+            Type: typeof(JSObject),
+            IsNullable: false,
+            ElementType: null,
+            GenericTypeArguments: []
+        );
+        var jsImportParameters = $"{TypeNameGenerator.Execute(jsImportParametersType)} args";
+        var jsImportParametersList = string.Join(", ", "JSObject func", "JSObject obj", jsImportParameters);
+        var jsImportCallParametersList = string.Join(", ", "method", "obj", marshalledParametersVar);
+
+        var marshalledParameters = $$"""
+                                     {{TypeNameGenerator.Execute(jsImportParametersType)}} {{marshalledParametersVar}};
+                                     {{Marshallers.Instance
+                                         .GetNext(parametersType, jsImportParametersType)
+                                         .Marshall(parametersType, "args", jsImportParametersType, marshalledParametersVar, context)}}
+                                     """;
+
+        return
+            $$"""
+              [JSImport("globalThis.Reflect.apply")]
+              private static partial {{returnTypeName}} _{{method.Name}}({{jsImportParametersList}});
+
+              public static {{returnTypeName}} {{method.Name}}({{parametersList}})
+              {
+                  var method = obj.GetPropertyAsJSObject(methodName)
+                               ?? throw new Exception($"Method {methodName} not found.");
+
+              {{marshalledParameters.IndentLines(4)}}
+                  {{(method.ReturnParam is null ? "" : "return ")}}_{{method.Name}}({{jsImportCallParametersList}});
+              }
+              """;
+    }
+
+    private static string GetMarshallAttributeIfNeeded(MyType type)
+    {
+        if (type.Type == typeof(ObjectForJS))
+        {
+            return "[JSMarshalAs<JSType.Any>] ";
+        }
+
+        return "";
     }
 }
