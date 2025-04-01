@@ -27,7 +27,7 @@ public class MarshallerIReadOnlyListToJSObject : Marshaller
         IReadOnlyList<MethodCallParam> setElementParameters =
         [
             new(new(typeof(int), false, null, []), loopVar),
-            new(new(typeof(int), false, null, []), "0"),
+            new(new(typeof(int), false, null, []), "1"),
             new(inputType.GenericTypeArguments[0], $"{inputVar}[{loopVar}]")
         ];
 
