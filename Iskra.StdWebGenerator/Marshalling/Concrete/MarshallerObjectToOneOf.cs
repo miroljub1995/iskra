@@ -12,7 +12,7 @@ public class MarshallerObjectToOneOf : Marshaller
            && destination.Type.IsOneOf();
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext context)
+        GeneratorContext.GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 
@@ -51,7 +51,7 @@ public class MarshallerObjectToOneOf : Marshaller
     }
 
     private static (string condition, MyType valueType, string conditionVar) GetConditionV2(MyType type,
-        string inputVar, GeneratorContext context)
+        string inputVar, GeneratorContext.GeneratorContext context)
     {
         if (type.Type == typeof(bool))
         {

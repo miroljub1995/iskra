@@ -10,7 +10,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class PropertyGenerator
 {
-    public static string Execute(PropertyInfo propertyInfo, GeneratorContext context)
+    public static string Execute(PropertyInfo propertyInfo, GeneratorContext.GeneratorContext context)
     {
         MyType propertyType = MyType.From(propertyInfo);
 

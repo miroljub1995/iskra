@@ -1,7 +1,7 @@
 using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 
-namespace Iskra.StdWebGenerator;
+namespace Iskra.StdWebGenerator.GeneratorContext;
 
 public class GlobalFunctionsContext
 {

@@ -8,7 +8,7 @@ public class JSObjectGetMethodApplyGenerator
     public static JSObjectMethodApplyInfo Execute(
         IReadOnlyList<MyType> parameters,
         MyType? returnParam,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         if (parameters.Count == 0)

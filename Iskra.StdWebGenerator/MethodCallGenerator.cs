@@ -20,7 +20,7 @@ public static class MethodCallGenerator
         IReadOnlyList<MethodCallParam> parameters,
         MethodCallParam? returnParam,
         MethodCallOptions options,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         string functionChecks = $$"""

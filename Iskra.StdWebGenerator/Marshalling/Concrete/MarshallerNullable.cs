@@ -10,7 +10,7 @@ public class MarshallerNullable : Marshaller
            && destination.IsNullable;
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext context)
+        GeneratorContext.GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 

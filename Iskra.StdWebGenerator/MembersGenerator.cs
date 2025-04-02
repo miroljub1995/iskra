@@ -6,7 +6,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class MembersGenerator
 {
-    public static string Execute(Type type, GeneratorContext context)
+    public static string Execute(Type type, GeneratorContext.GeneratorContext context)
     {
         var members = type.GetMembers()
             .Where(x => x.DeclaringType == type)

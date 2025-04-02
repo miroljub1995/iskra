@@ -9,7 +9,7 @@ public class GlobalFunctionCallGenerator
         string? module,
         IReadOnlyList<MethodCallParam> parameters,
         MethodCallParam? returnParam,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         var methodCallInfo = GetGlobalFunctionCallGenerator.Execute(

@@ -14,7 +14,6 @@ public static class DelegateGenerator
             throw new Exception($"The type {type.FullName} is not a delegate");
         }
 
-
         var returnType = MyType.From(invokeMethod.ReturnParameter);
         var returnTypeName = TypeNameGenerator.Execute(returnType);
         var parameters = MethodParametersGenerator.Execute(invokeMethod);

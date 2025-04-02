@@ -12,7 +12,7 @@ public class MarshallerOneOfToObjectForJS : Marshaller
            && destination.Type == typeof(ObjectForJS);
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext context)
+        GeneratorContext.GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 

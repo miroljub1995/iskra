@@ -7,7 +7,7 @@ public class GetGlobalFunctionCallGenerator
         string? module,
         IReadOnlyList<MyType> parameters,
         MyType? returnParam,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         var jsLevelParams = parameters.Select(JSObjectGetCallGenerator.ToJSLevelType).ToList();

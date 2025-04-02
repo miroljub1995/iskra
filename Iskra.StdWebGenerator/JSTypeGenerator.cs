@@ -4,7 +4,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class JSTypeGenerator
 {
-    public static string Execute(Type type, GeneratorContext context)
+    public static string Execute(Type type, GeneratorContext.GeneratorContext context)
     {
         var body = MembersGenerator.Execute(type, context);
 

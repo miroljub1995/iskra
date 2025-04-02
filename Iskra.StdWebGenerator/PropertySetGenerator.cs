@@ -9,7 +9,7 @@ public static class PropertySetGenerator
         string objVar,
         string inputVar,
         string propertyName,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         var setPropertyMethodRes = JSObjectSetPropertyGenerator.Execute(type);

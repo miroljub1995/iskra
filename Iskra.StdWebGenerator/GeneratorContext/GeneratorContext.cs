@@ -1,4 +1,4 @@
-namespace Iskra.StdWebGenerator;
+namespace Iskra.StdWebGenerator.GeneratorContext;
 
 public class GeneratorContext
 {

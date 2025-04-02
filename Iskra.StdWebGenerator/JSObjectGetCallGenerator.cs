@@ -9,7 +9,7 @@ public static class JSObjectGetCallGenerator
     public static JSObjectMethodCallInfo Execute(
         IReadOnlyList<MyType> parameters,
         MyType? returnParam,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         var jsLevelParams = parameters.Select(ToJSLevelType).ToList();

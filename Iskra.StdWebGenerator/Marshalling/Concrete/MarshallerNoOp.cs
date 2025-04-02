@@ -18,7 +18,7 @@ public class MarshallerNoOp : Marshaller
         string inputVar,
         MyType outputType,
         string outputVar,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         EnsureCanMarshall(inputType, outputType);

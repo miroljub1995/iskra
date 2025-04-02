@@ -1,9 +1,8 @@
-using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 using Iskra.StdWebGenerator.Marshalling;
 
-namespace Iskra.StdWebGenerator;
+namespace Iskra.StdWebGenerator.GeneratorContext;
 
 public class ObjectMethodsContext(
     GeneratorContext context

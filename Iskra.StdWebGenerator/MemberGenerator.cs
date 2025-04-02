@@ -4,7 +4,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class MemberGenerator
 {
-    public static string? Execute(MemberInfo memberInfo, GeneratorContext context)
+    public static string? Execute(MemberInfo memberInfo, GeneratorContext.GeneratorContext context)
     {
         var content = memberInfo switch
         {

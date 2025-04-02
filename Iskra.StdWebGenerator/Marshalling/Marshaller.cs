@@ -9,7 +9,7 @@ public abstract class Marshaller
         string inputVar,
         MyType outputType,
         string outputVar,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     );
 
     protected void EnsureCanMarshall(MyType inputType, MyType outputType)

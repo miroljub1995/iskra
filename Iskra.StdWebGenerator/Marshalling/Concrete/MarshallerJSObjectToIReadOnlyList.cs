@@ -13,7 +13,7 @@ public class MarshallerJSObjectToIReadOnlyList : Marshaller
            && destination.Type.IsIReadOnlyList();
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext context)
+        GeneratorContext.GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 

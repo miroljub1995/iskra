@@ -16,7 +16,7 @@ public class MethodApplyGenerator
         IReadOnlyList<MethodApplyParam> parameters,
         bool lastAsParamsList,
         MethodApplyParam? returnParam,
-        GeneratorContext context
+        GeneratorContext.GeneratorContext context
     )
     {
         if (lastAsParamsList)

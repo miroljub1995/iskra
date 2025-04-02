@@ -6,7 +6,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class MethodGenerator
 {
-    public static string Execute(MethodInfo methodInfo, GeneratorContext context)
+    public static string Execute(MethodInfo methodInfo, GeneratorContext.GeneratorContext context)
     {
         var parameterInfos = methodInfo.GetParameters();
 

@@ -7,7 +7,7 @@ namespace Iskra.StdWebGenerator;
 
 public static class ConstructorGenerator
 {
-    public static string? Execute(ConstructorInfo constructorInfo, GeneratorContext context)
+    public static string? Execute(ConstructorInfo constructorInfo, GeneratorContext.GeneratorContext context)
     {
         if (constructorInfo.IsDefined(typeof(ManualBindingAttribute)))
         {

@@ -15,7 +15,7 @@ public static class JSTypesGenerator
 
         Directory.CreateDirectory(targetDir);
 
-        GeneratorContext context = new();
+        GeneratorContext.GeneratorContext context = new();
 
         var allTypesToGenerate = assembly
             .GetTypes()
