@@ -18,13 +18,22 @@ public static class PropertyGenerator
         var jsName = JSPropertyNameGenerator.Execute(propertyInfo);
         var returnType = TypeNameGenerator.Execute(propertyType);
 
+        var getParameters = propertyInfo.GetMethod?.GetParameters();
+        var setParameters = propertyInfo.SetMethod?.GetParameters();
+
+        if (setParameters is not null && setParameters.Length > 1)
+        {
+            throw new Exception("Currently set indexer is not supported.");
+        }
+
         var indexParameters = propertyInfo.GetIndexParameters();
-        var indexParametersRes = MethodParametersGenerator.Execute(indexParameters);
 
         var builder = new StringBuilder();
 
-        if (indexParameters.Length > 0)
+        if (getParameters is not null && getParameters.Length > 0)
         {
+            var indexParametersRes = MethodParametersGenerator.Execute(getParameters);
+
             builder.AppendLine($$"""
                                  [System.Runtime.CompilerServices.IndexerName("Indexer")]
                                  public {{returnType}} this[{{indexParametersRes}}]

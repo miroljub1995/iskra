@@ -8,6 +8,7 @@
 
             setModuleImports('iskra', {
                 constructGlobalObject: (constructorName, ...args) => new globalThis[constructorName](...args),
+                isGlobalConstructor: (constructorName, target) => globalThis[constructorName] === target.constructor,
                 arrowFunctionProxy: (fun) => (...args) => fun(...args),
             });
 

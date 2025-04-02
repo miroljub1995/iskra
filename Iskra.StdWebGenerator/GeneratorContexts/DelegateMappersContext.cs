@@ -5,7 +5,7 @@ using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator.GeneratorContexts;
 
-public class DelegateMappersContext(GeneratorContext context)
+public class DelegateMappersContext
 {
     private class Function
     {

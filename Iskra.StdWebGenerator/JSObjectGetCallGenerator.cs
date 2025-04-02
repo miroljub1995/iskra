@@ -14,7 +14,7 @@ public static class JSObjectGetCallGenerator
         GeneratorContext context
     )
     {
-        var jsLevelParams = parameters.Select(ToJSLevelType).ToList();
+        var jsLevelParams = parameters.Select(x => ToJSLevelType(x)).ToList();
         var jsLevelReturnParam = returnParam is null ? null : ToJSLevelType(returnParam);
 
         return context.ObjectMethods.GetMethodCallInfo(jsLevelParams, jsLevelReturnParam);

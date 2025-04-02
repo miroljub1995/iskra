@@ -8,7 +8,7 @@ public class GeneratorContext
     {
         ObjectMethods = new(this);
         GlobalFunctions = new();
-        DelegateMappers = new(this);
+        DelegateMappers = new();
     }
 
     public ObjectMethodsContext ObjectMethods { get; }

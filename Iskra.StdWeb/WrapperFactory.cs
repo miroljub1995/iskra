@@ -9,9 +9,6 @@ public static partial class WrapperFactory
     private static readonly Dictionary<JSObject, Func<JSObject, JSObjectWrapper>> Factories = new();
     private static readonly Dictionary<string, Func<JSObject, JSObjectWrapper>> GlobalFactories = new();
 
-    private const string ProxyMethodName = "iskra_isOfGlobalConstructor";
-    private static bool _isProxyInitialized;
-
     [Obsolete("Obsolete until https://github.com/dotnet/runtime/issues/110716 is fixed.")]
     public static void AddFactory(JSObject constructor, Func<JSObject, JSObjectWrapper> factory)
     {
@@ -25,8 +22,6 @@ public static partial class WrapperFactory
 
     public static bool TryGetWrapper(JSObject obj, [NotNullWhen(true)] out JSObjectWrapper? wrapper)
     {
-        EnsureMethodProxyInitialized();
-
         foreach (var keyValue in GlobalFactories)
         {
             if (IsOfGlobalConstructor(keyValue.Key, obj))
@@ -83,20 +78,6 @@ public static partial class WrapperFactory
         return constructor;
     }
 
-
-    private static void EnsureMethodProxyInitialized()
-    {
-        if (!_isProxyInitialized)
-        {
-            var proxyMethod = new Function("constructorName", "target",
-                "return globalThis[constructorName] === target.constructor;");
-
-            JSHost.GlobalThis.SetProperty(ProxyMethodName, proxyMethod.JSObject);
-
-            _isProxyInitialized = true;
-        }
-    }
-
-    [JSImport($"globalThis.{ProxyMethodName}")]
+    [JSImport("isGlobalConstructor", "iskra")]
     private static partial bool IsOfGlobalConstructor(string constructorName, JSObject target);
 }
