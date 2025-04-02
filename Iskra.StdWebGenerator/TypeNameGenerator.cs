@@ -4,6 +4,7 @@ using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 
@@ -19,6 +20,8 @@ public static class TypeNameGenerator
         { typeof(string), "string" },
         { typeof(object), "object" },
         { typeof(JSObject), "JSObject" },
+        { typeof(JSObjectArray), "JSObject" },
+        { typeof(JSObjectFunction), "JSObject" },
         { typeof(ObjectForJS), "object" },
     };
 

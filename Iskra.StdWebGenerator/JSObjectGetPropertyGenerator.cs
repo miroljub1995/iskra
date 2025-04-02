@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 
@@ -16,28 +17,10 @@ public static class JSObjectGetPropertyGenerator
 
         return type switch
         {
-            _ when type.Type.IsArray => new(
-                Name: $"GetPropertyAsJSObjectV2{asNullableSuffix}",
-                ReturnType: new MyType(
-                    Type: typeof(JSObject),
-                    IsNullable: type.IsNullable,
-                    ElementType: null,
-                    GenericTypeArguments: []
-                )
-            ),
-            _ when type.Type.IsIList() => new(
-                Name: $"GetPropertyAsJSObjectV2{asNullableSuffix}",
-                ReturnType: new MyType(
-                    Type: typeof(JSObject),
-                    IsNullable: type.IsNullable,
-                    ElementType: null,
-                    GenericTypeArguments: []
-                )
-            ),
             _ when type.Type.IsIReadOnlyList() => new(
                 Name: $"GetPropertyAsJSObjectV2{asNullableSuffix}",
                 ReturnType: new MyType(
-                    Type: typeof(JSObject),
+                    Type: typeof(JSObjectArray),
                     IsNullable: type.IsNullable,
                     ElementType: null,
                     GenericTypeArguments: []

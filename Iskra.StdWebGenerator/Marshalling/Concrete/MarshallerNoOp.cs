@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 

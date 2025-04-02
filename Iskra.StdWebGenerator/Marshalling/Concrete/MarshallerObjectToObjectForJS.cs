@@ -1,3 +1,5 @@
+using Iskra.StdWebGenerator.JSObjectMarkers;
+
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 
 public class MarshallerObjectToObjectForJS : Marshaller

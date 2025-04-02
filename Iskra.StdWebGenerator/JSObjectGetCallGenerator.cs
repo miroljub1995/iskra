@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 
@@ -27,10 +28,11 @@ public static class JSObjectGetCallGenerator
             _ when type.Type == typeof(double) => type,
             _ when type.Type == typeof(string) => type,
             _ when type.Type == typeof(JSObject) => type,
+            _ when type.Type == typeof(JSObjectArray) => type,
             _ when type.Type == typeof(ObjectForJS) => type,
-            _ when type.Type.IsIReadOnlyList() => new MyType(typeof(JSObject), type.IsNullable, null, []),
+            _ when type.Type.IsIReadOnlyList() => new MyType(typeof(JSObjectArray), type.IsNullable, null, []),
             _ when type.Type == typeof(Task) => type,
-            _ when type.Type.IsSubclassOf(typeof(Delegate)) => new MyType(typeof(JSObject), type.IsNullable,
+            _ when type.Type.IsSubclassOf(typeof(Delegate)) => new MyType(typeof(JSObjectFunction), type.IsNullable,
                 null, []),
             _ when type.Type == typeof(object) => type with { Type = typeof(ObjectForJS) },
             _ when type.Type.IsOneOf() => type with { Type = typeof(ObjectForJS) },

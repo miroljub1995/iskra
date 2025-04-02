@@ -1,4 +1,5 @@
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 

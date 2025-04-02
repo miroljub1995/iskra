@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
@@ -149,7 +150,7 @@ public class ObjectMethodsContext(
         var marshalledParametersVar = context.GetNextVariableName();
 
         var jsImportParametersType = new MyType(
-            Type: typeof(JSObject),
+            Type: typeof(JSObjectArray),
             IsNullable: false,
             ElementType: null,
             GenericTypeArguments: []

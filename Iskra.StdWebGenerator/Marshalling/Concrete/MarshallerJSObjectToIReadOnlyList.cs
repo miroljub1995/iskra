@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 
@@ -8,7 +9,7 @@ public class MarshallerJSObjectToIReadOnlyList : Marshaller
     public override bool CanMarshall(MyType type, MyType destination)
         => !type.IsNullable
            && !destination.IsNullable
-           && type.Type == typeof(JSObject)
+           && type.Type == typeof(JSObjectArray)
            && destination.Type.IsIReadOnlyList();
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,

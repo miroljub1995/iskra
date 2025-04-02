@@ -1,6 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 
@@ -18,7 +19,7 @@ public class JSObjectSetPropertyGenerator
             _ when type.Type.IsIReadOnlyList() => new(
                 Name: "SetProperty",
                 InputType: new MyType(
-                    Type: typeof(JSObject),
+                    Type: typeof(JSObjectArray),
                     IsNullable: type.IsNullable,
                     ElementType: null,
                     GenericTypeArguments: []

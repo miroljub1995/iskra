@@ -14,7 +14,6 @@ public class Marshallers
         list.Add(new MarshallerDelegateToJSObject());
         list.Add(new MarshallerIReadOnlyListItemToItem());
         list.Add(new MarshallerIReadOnlyListToJSObject());
-        list.Add(new MarshallerJSObjectToArray());
         list.Add(new MarshallerJSObjectToIReadOnlyList());
         list.Add(new MarshallerJSObjectToWrapperObject());
         list.Add(new MarshallerNoOp());
