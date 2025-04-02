@@ -1,4 +1,5 @@
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
@@ -16,7 +17,7 @@ public class MethodApplyGenerator
         IReadOnlyList<MethodApplyParam> parameters,
         bool lastAsParamsList,
         MethodApplyParam? returnParam,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     )
     {
         if (lastAsParamsList)

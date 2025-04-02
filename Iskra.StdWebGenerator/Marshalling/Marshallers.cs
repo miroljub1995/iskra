@@ -10,12 +10,13 @@ public class Marshallers
     {
         var list = new Marshallers();
 
-        list.Add(new JSObjectWrapperToObjectForJS());
+        list.Add(new MarshallerDelegateToDelegate());
         list.Add(new MarshallerDelegateToJSObject());
         list.Add(new MarshallerIReadOnlyListItemToItem());
         list.Add(new MarshallerIReadOnlyListToJSObject());
         list.Add(new MarshallerJSObjectToIReadOnlyList());
         list.Add(new MarshallerJSObjectToWrapperObject());
+        list.Add(new MarshallerJSObjectWrapperToObjectForJS());
         list.Add(new MarshallerNoOp());
         list.Add(new MarshallerNullable());
         list.Add(new MarshallerObjectToObjectForJS());

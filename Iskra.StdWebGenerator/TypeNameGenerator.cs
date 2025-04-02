@@ -1,9 +1,7 @@
 using System.Reflection;
-using System.Reflection.Metadata;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
-using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
@@ -24,24 +22,6 @@ public static class TypeNameGenerator
         { typeof(JSObjectFunction), "JSObject" },
         { typeof(ObjectForJS), "object" },
     };
-
-    public static string Execute(ParameterInfo parameterInfo)
-    {
-        var nullabilityInfo = new NullabilityInfoContext().Create(parameterInfo);
-        var asParams = parameterInfo.IsDefinedAsParams();
-        return (asParams ? "params " : "") + Execute(parameterInfo.ParameterType, nullabilityInfo, true);
-    }
-
-    [Obsolete("Use Execute(MyType type)")] public static bool NotNullProp { get; set; }
-
-    [Obsolete("Use Execute(MyType type)")]
-    public static string Execute(Type type, NullabilityInfo? nullabilityInfo, bool fromRead = false)
-    {
-        var fallbackNullability =
-            new NullabilityInfoContext().Create(typeof(TypeNameGenerator).GetProperty(nameof(NotNullProp)));
-
-        return Execute(MyType.From(type, nullabilityInfo ?? fallbackNullability, fromRead));
-    }
 
     public static string Execute(MyType type)
     {
@@ -70,6 +50,9 @@ public static class TypeNameGenerator
         if (type.Type.IsGenericType)
         {
             var genericDef = type.Type.GetGenericTypeDefinition();
+
+            // TODO: replace this to all cases
+            var genericArgs = string.Join(", ", type.GenericTypeArguments.Select(x => Execute(x)));
 
             if (genericDef == typeof(OneOf<,>))
             {
@@ -125,6 +108,16 @@ public static class TypeNameGenerator
             {
                 var t1 = Execute(type.GenericTypeArguments[0]);
                 return $"IReadOnlyList<{t1}>" + nullableIndicator;
+            }
+
+            if (genericDef == typeof(Action<>))
+            {
+                return $"Action<{genericArgs}>" + nullableIndicator;
+            }
+
+            if (genericDef == typeof(Action<,>))
+            {
+                return $"Action<{genericArgs}>" + nullableIndicator;
             }
 
             throw new NotSupportedException($"Type {type} is not supported.");

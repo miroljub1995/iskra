@@ -1,10 +1,11 @@
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator;
 
 public static class JSTypeGenerator
 {
-    public static string Execute(Type type, GeneratorContext.GeneratorContext context)
+    public static string Execute(Type type, GeneratorContext context)
     {
         var body = MembersGenerator.Execute(type, context);
 

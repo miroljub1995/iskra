@@ -1,4 +1,5 @@
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 
@@ -12,7 +13,7 @@ public class MarshallerIReadOnlyListItemToItem : Marshaller
            && type != destination;
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext.GeneratorContext context)
+        GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 

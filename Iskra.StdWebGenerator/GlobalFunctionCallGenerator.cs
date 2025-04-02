@@ -1,3 +1,4 @@
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
@@ -9,7 +10,7 @@ public class GlobalFunctionCallGenerator
         string? module,
         IReadOnlyList<MethodCallParam> parameters,
         MethodCallParam? returnParam,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     )
     {
         var methodCallInfo = GetGlobalFunctionCallGenerator.Execute(

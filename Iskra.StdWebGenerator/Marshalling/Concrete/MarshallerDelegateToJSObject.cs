@@ -1,4 +1,4 @@
-using System.Runtime.InteropServices.JavaScript;
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
@@ -12,12 +12,14 @@ public class MarshallerDelegateToJSObject : Marshaller
            && destination.Type == typeof(JSObjectFunction);
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext.GeneratorContext context)
+        GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 
+        var delegateMapper = context.DelegateMappers.GetDelegateMapper(inputType, context);
+
         return $$"""
-                 {{outputVar}} = {{inputVar}}.ToJSObject();
+                 {{outputVar}} = {{delegateMapper.Name}}({{inputVar}});
                  """;
     }
 }

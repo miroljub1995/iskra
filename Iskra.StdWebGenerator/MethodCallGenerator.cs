@@ -1,4 +1,5 @@
 using System.Reflection.Metadata;
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
@@ -20,7 +21,7 @@ public static class MethodCallGenerator
         IReadOnlyList<MethodCallParam> parameters,
         MethodCallParam? returnParam,
         MethodCallOptions options,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     )
     {
         string functionChecks = $$"""

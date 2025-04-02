@@ -1,3 +1,4 @@
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
@@ -9,7 +10,7 @@ public static class PropertySetGenerator
         string objVar,
         string inputVar,
         string propertyName,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     )
     {
         var setPropertyMethodRes = JSObjectSetPropertyGenerator.Execute(type);

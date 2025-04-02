@@ -30,13 +30,6 @@ public static class TypeExtensions
                );
     }
 
-    public static bool IsIList(this Type type)
-    {
-        return type.IsGenericType
-               && type.GetGenericTypeDefinition() is { } def
-               && def == typeof(IList<>);
-    }
-
     public static bool IsIReadOnlyList(this Type type)
     {
         return type.IsGenericType
@@ -44,18 +37,14 @@ public static class TypeExtensions
                && def == typeof(IReadOnlyList<>);
     }
 
-    public static Type ToMarshalAsJSType(this Type type)
+    public static MethodInfo GetDelegateMethodInfo(this Type type)
     {
-        return type switch
+        var invokeMethod = type.GetMethod("Invoke");
+        if (invokeMethod is null)
         {
-            _ when type == typeof(int) => typeof(JSType.Number),
-            _ when type == typeof(float) => typeof(JSType.Number),
+            throw new Exception($"The type {type.FullName} is not a delegate");
+        }
 
-            _ when type == typeof(string) => typeof(JSType.String),
-
-            _ when type.IsJSObjectWrapper() => typeof(JSType.Object),
-            _ when type == typeof(JSObject) => typeof(JSType.Object),
-            _ => throw new Exception($"Type {type} is not supported."),
-        };
+        return invokeMethod;
     }
 }

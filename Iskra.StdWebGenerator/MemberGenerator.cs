@@ -1,10 +1,11 @@
 using System.Reflection;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator;
 
 public static class MemberGenerator
 {
-    public static string? Execute(MemberInfo memberInfo, GeneratorContext.GeneratorContext context)
+    public static string? Execute(MemberInfo memberInfo, GeneratorContext context)
     {
         var content = memberInfo switch
         {

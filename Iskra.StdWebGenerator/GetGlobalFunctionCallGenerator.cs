@@ -1,3 +1,5 @@
+using Iskra.StdWebGenerator.GeneratorContexts;
+
 namespace Iskra.StdWebGenerator;
 
 public class GetGlobalFunctionCallGenerator
@@ -7,10 +9,10 @@ public class GetGlobalFunctionCallGenerator
         string? module,
         IReadOnlyList<MyType> parameters,
         MyType? returnParam,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     )
     {
-        var jsLevelParams = parameters.Select(JSObjectGetCallGenerator.ToJSLevelType).ToList();
+        var jsLevelParams = parameters.Select(x => JSObjectGetCallGenerator.ToJSLevelType(x)).ToList();
         var jsLevelReturnParam = returnParam is null ? null : JSObjectGetCallGenerator.ToJSLevelType(returnParam);
 
         return context.GlobalFunctions.GetGlobalFunctionCallInfo(

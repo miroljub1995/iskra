@@ -4,13 +4,14 @@ using System.Text;
 using Iskra.StdWebApi.Api;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
 
 public static class PropertyGenerator
 {
-    public static string Execute(PropertyInfo propertyInfo, GeneratorContext.GeneratorContext context)
+    public static string Execute(PropertyInfo propertyInfo, GeneratorContext context)
     {
         MyType propertyType = MyType.From(propertyInfo);
 

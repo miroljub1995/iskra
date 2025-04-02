@@ -1,7 +1,8 @@
 using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.JSObjectMarkers;
+using Iskra.StdWebGenerator.Marshalling;
 
-namespace Iskra.StdWebGenerator.GeneratorContext;
+namespace Iskra.StdWebGenerator.GeneratorContexts;
 
 public class GlobalFunctionsContext
 {
@@ -100,11 +101,7 @@ public class GlobalFunctionsContext
 
     private static string GetMarshallAttributeIfNeeded(MyType type)
     {
-        if (type.Type == typeof(ObjectForJS))
-        {
-            return "[JSMarshalAs<JSType.Any>] ";
-        }
-
-        return "";
+        var attr = MarshallAsAttributeGenerator.Execute(type);
+        return attr is null ? string.Empty : $"[{attr}] ";
     }
 }

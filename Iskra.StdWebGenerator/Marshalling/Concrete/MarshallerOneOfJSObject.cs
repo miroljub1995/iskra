@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
 
@@ -12,7 +13,7 @@ public class MarshallerOneOfJSObject : Marshaller
            && destination.Type == typeof(JSObject);
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext.GeneratorContext context)
+        GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 

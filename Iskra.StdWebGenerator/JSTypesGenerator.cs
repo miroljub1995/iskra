@@ -1,6 +1,7 @@
 using System.Reflection;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator;
 
@@ -15,7 +16,7 @@ public static class JSTypesGenerator
 
         Directory.CreateDirectory(targetDir);
 
-        GeneratorContext.GeneratorContext context = new();
+        GeneratorContext context = new();
 
         var allTypesToGenerate = assembly
             .GetTypes()
@@ -43,6 +44,11 @@ public static class JSTypesGenerator
         await File.WriteAllTextAsync(
             Path.Join(targetDir, $"{context.GlobalFunctions.ClassName}.cs"),
             context.GlobalFunctions.ClassCode
+        );
+
+        await File.WriteAllTextAsync(
+            Path.Join(targetDir, $"{context.DelegateMappers.ClassName}.cs"),
+            context.DelegateMappers.ClassCode
         );
     }
 }

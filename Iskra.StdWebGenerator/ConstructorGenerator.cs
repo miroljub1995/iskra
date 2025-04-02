@@ -2,12 +2,13 @@ using System.Reflection;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator;
 
 public static class ConstructorGenerator
 {
-    public static string? Execute(ConstructorInfo constructorInfo, GeneratorContext.GeneratorContext context)
+    public static string? Execute(ConstructorInfo constructorInfo, GeneratorContext context)
     {
         if (constructorInfo.IsDefined(typeof(ManualBindingAttribute)))
         {

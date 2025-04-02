@@ -1,3 +1,5 @@
+using Iskra.StdWebGenerator.GeneratorContexts;
+
 namespace Iskra.StdWebGenerator.Marshalling;
 
 public abstract class Marshaller
@@ -9,7 +11,7 @@ public abstract class Marshaller
         string inputVar,
         MyType outputType,
         string outputVar,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     );
 
     protected void EnsureCanMarshall(MyType inputType, MyType outputType)

@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator.Marshalling.Concrete;
@@ -13,7 +14,7 @@ public class MarshallerJSObjectToIReadOnlyList : Marshaller
            && destination.Type.IsIReadOnlyList();
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
-        GeneratorContext.GeneratorContext context)
+        GeneratorContext context)
     {
         EnsureCanMarshall(inputType, outputType);
 

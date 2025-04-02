@@ -1,12 +1,13 @@
 using System.Reflection;
 using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator;
 
 public static class MethodGenerator
 {
-    public static string Execute(MethodInfo methodInfo, GeneratorContext.GeneratorContext context)
+    public static string Execute(MethodInfo methodInfo, GeneratorContext context)
     {
         var parameterInfos = methodInfo.GetParameters();
 

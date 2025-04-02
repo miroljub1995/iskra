@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
+using Iskra.StdWebGenerator.GeneratorContexts;
 
 namespace Iskra.StdWebGenerator;
 
@@ -8,7 +9,7 @@ public class JSObjectGetMethodApplyGenerator
     public static JSObjectMethodApplyInfo Execute(
         IReadOnlyList<MyType> parameters,
         MyType? returnParam,
-        GeneratorContext.GeneratorContext context
+        GeneratorContext context
     )
     {
         if (parameters.Count == 0)

@@ -2,7 +2,7 @@ using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 using Iskra.StdWebGenerator.Marshalling;
 
-namespace Iskra.StdWebGenerator.GeneratorContext;
+namespace Iskra.StdWebGenerator.GeneratorContexts;
 
 public class ObjectMethodsContext(
     GeneratorContext context
