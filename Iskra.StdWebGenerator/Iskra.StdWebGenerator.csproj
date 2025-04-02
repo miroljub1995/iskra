@@ -25,7 +25,7 @@ namespace Iskra.StdWebGenerator%3B
 $(Newline)
 public static class ProjectDir
 {
-    public static string ProjectDirPath => "$(MSBuildProjectDirectory)"%3B
+    public static string ProjectDirPath => @"$(MSBuildProjectDirectory)"%3B
 }
 ]]>
             </ProjectPathCs>

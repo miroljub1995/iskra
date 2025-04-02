@@ -18,6 +18,6 @@
             <IskraGeneratorProject>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine($(MSBuildProjectDirectory), "../Iskra.StdWebGenerator"))))</IskraGeneratorProject>
         </PropertyGroup>
 
-        <Exec Command="$(DotnetPath) run --project '$(IskraGeneratorProject)'"/>
+        <Exec Command="&quot;$(DotnetPath)&quot; run --project &quot;$(IskraGeneratorProject)&quot;"/>
     </Target>
 </Project>
