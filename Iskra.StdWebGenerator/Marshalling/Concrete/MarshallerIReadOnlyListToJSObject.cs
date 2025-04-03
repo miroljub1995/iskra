@@ -35,10 +35,14 @@ public class MarshallerIReadOnlyListToJSObject : Marshaller
 
         return $$"""
                  {{GlobalFunctionCallGenerator.Execute(
-                     functionName: "globalThis.Array",
-                     module: null,
-                     parameters: [new(new(typeof(int), false, null, []), lengthVar)],
-                     returnParam: new(Type: new(typeof(JSObject), false, null, []), outputVar),
+                     functionName: "constructGlobalObject",
+                     module: "iskra",
+                     parameters:
+                     [
+                         new(new MyType(typeof(string), false, null, []), "\"Array\""),
+                         new(new(typeof(int), false, null, []), lengthVar)
+                     ],
+                     returnParam: new(new MyType(typeof(JSObject), false, null, []), outputVar),
                      context: context
                  )}}
                  for (int {{loopVar}} = 0; {{loopVar}} < {{lengthVar}}; {{loopVar}}++)

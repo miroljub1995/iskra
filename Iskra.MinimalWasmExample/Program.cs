@@ -10,6 +10,12 @@ public static class Program
         var w = WrapperFactory.GetWrapper<Window>(JSHost.GlobalThis);
         w.Console.Log("this is from console", w, w.Document);
 
+        var opt = new ElementGetHTMLOptions()
+        {
+            ShadowRoots = []
+        };
+        w.Console.Log("ElementGetHTMLOptions opt", opt);
+
         w.Document.AddEventListener("test", SomeListener, false);
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
