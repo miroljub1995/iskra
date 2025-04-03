@@ -1,27 +1,14 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 
-public static class JSObjectGetCallGenerator
+public static class MyTypeToJSLevelExtensions
 {
-    public static JSObjectMethodCallInfo Execute(
-        IReadOnlyList<MyType> parameters,
-        MyType? returnParam,
-        GeneratorContext context
-    )
-    {
-        var jsLevelParams = parameters.Select(x => ToJSLevelType(x)).ToList();
-        var jsLevelReturnParam = returnParam is null ? null : ToJSLevelType(returnParam);
-
-        return context.ObjectMethods.GetMethodCallInfo(jsLevelParams, jsLevelReturnParam);
-    }
-
     [return: NotNullIfNotNull("type")]
-    public static MyType? ToJSLevelType(MyType? type)
+    public static MyType? ToJSLevelType(this MyType? type)
         => type switch
         {
             null => null,

@@ -149,7 +149,7 @@ public class DelegateMappersContext
         var methodInfo = type.Type.GetDelegateMethodInfo();
 
         var parameterTypes = methodInfo.GetParameters().Select(MyType.From).ToArray();
-        var jsLevelParameterTypes = parameterTypes.Select(x => JSObjectGetCallGenerator.ToJSLevelType(x)).ToArray();
+        var jsLevelParameterTypes = parameterTypes.Select(x => MyTypeToJSLevelExtensions.ToJSLevelType(x)).ToArray();
         var jsLevelParameterDotnetTypes = jsLevelParameterTypes.Select(x => x.Type).ToArray();
 
         var returnType = methodInfo.IsVoid() ? null : MyType.From(methodInfo.ReturnParameter);

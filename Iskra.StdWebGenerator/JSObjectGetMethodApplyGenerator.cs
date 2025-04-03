@@ -20,8 +20,8 @@ public class JSObjectGetMethodApplyGenerator
 
         if (parameters.All(AsIs) && parameters.Distinct().Count() == 1)
         {
-            var element = JSObjectGetCallGenerator.ToJSLevelType(parameters[0]);
-            var returnParamType = returnParam is null ? null : JSObjectGetCallGenerator.ToJSLevelType(returnParam);
+            var element = MyTypeToJSLevelExtensions.ToJSLevelType(parameters[0]);
+            var returnParamType = returnParam is null ? null : MyTypeToJSLevelExtensions.ToJSLevelType(returnParam);
 
             var info = context.GlobalFunctions.GetGlobalFunctionCallInfo(
                 functionName: "globalThis.Reflect.apply",

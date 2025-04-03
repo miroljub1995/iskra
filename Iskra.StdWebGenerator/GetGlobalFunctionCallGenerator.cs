@@ -12,8 +12,8 @@ public class GetGlobalFunctionCallGenerator
         GeneratorContext context
     )
     {
-        var jsLevelParams = parameters.Select(x => JSObjectGetCallGenerator.ToJSLevelType(x)).ToList();
-        var jsLevelReturnParam = returnParam is null ? null : JSObjectGetCallGenerator.ToJSLevelType(returnParam);
+        var jsLevelParams = parameters.Select(x => MyTypeToJSLevelExtensions.ToJSLevelType(x)).ToList();
+        var jsLevelReturnParam = returnParam is null ? null : MyTypeToJSLevelExtensions.ToJSLevelType(returnParam);
 
         return context.GlobalFunctions.GetGlobalFunctionCallInfo(
             functionName,

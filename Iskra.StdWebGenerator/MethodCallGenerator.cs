@@ -1,4 +1,6 @@
+using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.GeneratorContexts;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 using Iskra.StdWebGenerator.Marshalling;
 
 namespace Iskra.StdWebGenerator;
@@ -37,17 +39,28 @@ public static class MethodCallGenerator
 
                                   """;
 
-        var methodCallInfo = JSObjectGetCallGenerator.Execute(
-            parameters.Select(x => x.Type).ToList(),
-            returnParam?.Type,
-            context
+        var methodType = new MyType(typeof(JSObjectFunction), false, null, []);
+        var methodVar = context.GetNextVariableName();
+        var getFunctionProp = $$"""
+                                JSObject {{methodVar}} = {{objVar}}.GetPropertyAsJSObjectV2("{{functionName}}");
+
+                                """;
+
+        var jsLevelParams = parameters.Select(x => x.Type.ToJSLevelType()).ToArray();
+        var jsLevelReturnParam = returnParam?.Type.ToJSLevelType();
+
+        var methodCallInfo = context.GlobalFunctions.GetGlobalFunctionCallInfo(
+            functionName: "globalThis.Function.prototype.call.call",
+            module: null,
+            parameters: [methodType, new MyType(typeof(JSObject), false, null, []), ..jsLevelParams],
+            returnParam: jsLevelReturnParam
         );
 
-        var marshalledParametersVar = methodCallInfo.Parameters
+        var marshalledParametersVar = jsLevelParams
             .Select(_ => context.GetNextVariableName())
             .ToList();
 
-        var marshalledParameters = methodCallInfo.Parameters
+        var marshalledParameters = jsLevelParams
             .Select((param, i) =>
             {
                 var marshallRes = Marshallers.Instance
@@ -60,7 +73,7 @@ public static class MethodCallGenerator
                          """;
             }).ToList();
 
-        string callParameters = string.Join(", ", [$"\"{functionName}\"", ..marshalledParametersVar]);
+        string callParameters = string.Join(", ", [methodVar, objVar, ..marshalledParametersVar]);
 
         var returnVar = context.GetNextVariableName();
         string returnAssignment = methodCallInfo.ReturnParam is null
@@ -80,8 +93,9 @@ public static class MethodCallGenerator
 
         return (options.SkipFunctionChecks ? "" : functionChecks) +
                $$"""
+                 {{getFunctionProp}}
                  {{string.Join("\n\n", marshalledParameters)}}
-                 {{returnAssignment}}{{objVar}}.{{methodCallInfo.Name}}({{callParameters}});{{marshalledReturn}}
+                 {{returnAssignment}}{{methodCallInfo.Name}}({{callParameters}});{{marshalledReturn}}
                  """;
     }
 }

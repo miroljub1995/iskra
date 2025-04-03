@@ -124,7 +124,7 @@ public class MethodApplyGenerator
         {
             var parameter = parameters[i];
             var jsLevelParamVar = context.GetNextVariableName();
-            var jsLevelParamType = JSObjectGetCallGenerator.ToJSLevelType(parameter.Type);
+            var jsLevelParamType = MyTypeToJSLevelExtensions.ToJSLevelType(parameter.Type);
 
             var marshalledToJSLevelParam = Marshallers.Instance
                 .GetNext(parameter.Type, jsLevelParamType)
@@ -160,7 +160,7 @@ public class MethodApplyGenerator
         {
             var parameter = parameters[i];
             var jsLevelParamVar = context.GetNextVariableName();
-            var jsLevelParamType = JSObjectGetCallGenerator.ToJSLevelType(parameter.Type);
+            var jsLevelParamType = MyTypeToJSLevelExtensions.ToJSLevelType(parameter.Type);
 
             var marshalledToJSLevelParam = Marshallers.Instance
                 .GetNext(parameter.Type, jsLevelParamType)
@@ -182,7 +182,7 @@ public class MethodApplyGenerator
         var lastParams = parameters[^1];
         var lastParamsItemVar = context.GetNextVariableName();
         var lastParamsItemType = lastParams.Type.GenericTypeArguments[0];
-        var lastParamsItemJSType = JSObjectGetCallGenerator.ToJSLevelType(lastParamsItemType);
+        var lastParamsItemJSType = MyTypeToJSLevelExtensions.ToJSLevelType(lastParamsItemType);
 
         var indexVar = context.GetNextVariableName();
         var jsArrayIndexVar = context.GetNextVariableName();

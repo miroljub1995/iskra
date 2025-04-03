@@ -18,6 +18,7 @@ public static class MarshallAsAttributeGenerator
             _ when type.Type == typeof(object) => $"JSMarshalAs<{GetJSType(type)}>",
             _ when type.Type == typeof(JSObject) => null,
             _ when type.Type == typeof(JSObjectArray) => null,
+            _ when type.Type == typeof(JSObjectFunction) => null,
             _ when type.Type == typeof(ObjectForJS) => $"JSMarshalAs<{GetJSType(type)}>",
             _ when type.Type.IsArray && type.ElementType is not null =>
                 $"JSMarshalAs<JSType.Array<{GetJSType(type.ElementType)}>>",

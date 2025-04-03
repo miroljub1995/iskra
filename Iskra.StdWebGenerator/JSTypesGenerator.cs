@@ -1,5 +1,4 @@
 using System.Reflection;
-using Iskra.StdWebApi.Attributes;
 using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.GeneratorContexts;
 
@@ -35,11 +34,6 @@ public static class JSTypesGenerator
             var outputFilePath = Path.Join(targetDir, $"{typeName}.cs");
             await File.WriteAllTextAsync(outputFilePath, typeContent);
         }
-
-        await File.WriteAllTextAsync(
-            Path.Join(targetDir, $"{context.ObjectMethods.ClassName}.cs"),
-            context.ObjectMethods.ClassCode
-        );
 
         await File.WriteAllTextAsync(
             Path.Join(targetDir, $"{context.GlobalFunctions.ClassName}.cs"),
