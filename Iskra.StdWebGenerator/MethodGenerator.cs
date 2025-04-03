@@ -39,14 +39,14 @@ public static class MethodGenerator
             {
                 var returnApplyParam = methodInfo.ReturnType == typeof(void)
                     ? null
-                    : new MethodApplyParam(
+                    : new MethodCallParam(
                         Type: returnType,
                         returnVar
                     );
 
                 var methodApplyParameters = parameterTypes
                     .Select((x, i) =>
-                        new MethodApplyParam(x, parameterInfos[i].Name ?? throw new("Parameter name is null.")))
+                        new MethodCallParam(x, parameterInfos[i].Name ?? throw new("Parameter name is null.")))
                     .ToArray();
 
                 return $$"""

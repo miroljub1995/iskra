@@ -1,4 +1,3 @@
-using System.Reflection.Metadata;
 using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.StdWebGenerator.Marshalling;
 

@@ -7,10 +7,10 @@ public class MarshallerIReadOnlyListItemToItem : Marshaller
 {
     public override bool CanMarshall(MyType type, MyType destination)
         => !type.IsNullable
-           && !destination.IsNullable
-           && type.Type.IsIReadOnlyList()
-           && destination.Type.IsIReadOnlyList()
-           && type != destination;
+            && !destination.IsNullable
+            && type.Type.IsIReadOnlyList()
+            && destination.Type.IsIReadOnlyList() || destination.Type.IsArray
+            && type != destination;
 
     public override string Marshall(MyType inputType, string inputVar, MyType outputType, string outputVar,
         GeneratorContext context)
@@ -21,7 +21,9 @@ public class MarshallerIReadOnlyListItemToItem : Marshaller
         var tmpListVar = context.GetNextVariableName();
 
         var inputElementType = inputType.GenericTypeArguments[0];
-        var outputElementType = outputType.GenericTypeArguments[0];
+        var outputElementType = outputType.Type.IsArray && outputType.ElementType is not null
+            ? outputType.ElementType
+            : outputType.GenericTypeArguments[0];
 
         var marshallElement = Marshallers.Instance
             .GetNext(inputElementType, outputElementType)

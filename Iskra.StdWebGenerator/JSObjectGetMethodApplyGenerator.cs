@@ -1,6 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.StdWebGenerator.Extensions;
 using Iskra.StdWebGenerator.GeneratorContexts;
+using Iskra.StdWebGenerator.JSObjectMarkers;
 
 namespace Iskra.StdWebGenerator;
 
@@ -22,7 +23,32 @@ public class JSObjectGetMethodApplyGenerator
             var element = JSObjectGetCallGenerator.ToJSLevelType(parameters[0]);
             var returnParamType = returnParam is null ? null : JSObjectGetCallGenerator.ToJSLevelType(returnParam);
 
-            var info = context.ObjectMethods.GetMethodApplyInfo(element, returnParamType);
+            var info = context.GlobalFunctions.GetGlobalFunctionCallInfo(
+                functionName: "globalThis.Reflect.apply",
+                module: null,
+                parameters:
+                [
+                    new MyType(
+                        Type: typeof(JSObject),
+                        IsNullable: false,
+                        ElementType: null,
+                        GenericTypeArguments: []
+                    ),
+                    new MyType(
+                        Type: typeof(JSObject),
+                        IsNullable: false,
+                        ElementType: null,
+                        GenericTypeArguments: []
+                    ),
+                    new MyType(
+                        Type: typeof(JSObjectArray),
+                        IsNullable: false,
+                        ElementType: null,
+                        GenericTypeArguments: []
+                    )
+                ],
+                returnParam: returnParamType
+            );
 
             return new(
                 Name: info.Name,
