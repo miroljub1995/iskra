@@ -33,7 +33,26 @@ public static class Program
         newDiv.InnerHTML = "<p>Hello World!</p>";
         newDiv.InnerHTML += "<p>Adding new p</p>";
 
+        var inputContent = w.Document.CreateElement("div");
+        w.Document.Body?.AppendChild(inputContent);
+
+        var newInput = (HTMLTextAreaElement)w.Document.CreateElement("textarea");
+        w.Document.Body?.AppendChild(newInput);
+        newInput.AddEventListener("input", OnClick, false);
+
         await Task.Delay(Timeout.Infinite);
+        return;
+
+        void OnClick(Event e)
+        {
+            // if (e.Target is HTMLTextAreaElement target)
+            // {
+            //     inputContent.TextContent = target.Value;
+            // }
+            var someNewDiv = w.Document.CreateElement("div");
+            someNewDiv.TextContent = "this is some div";
+            w.Document.Body?.Append(someNewDiv);
+        }
     }
 
     static void SomeListener(Event e)
