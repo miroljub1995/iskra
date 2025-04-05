@@ -40,6 +40,16 @@ public static class Program
         w.Document.Body?.AppendChild(newInput);
         newInput.AddEventListener("input", OnClick, false);
 
+        var button = w.Document.CreateElement("button");
+        button.TextContent = "Enter fullscreen mode";
+        w.Document.Body?.AppendChild(button);
+        button.AddEventListener("click", async (e) =>
+        {
+            w.Console.Log("before full screen", e);
+            await newInput.RequestFullscreen(null);
+            w.Console.Log("after full screen");
+        }, false);
+
         await Task.Delay(Timeout.Infinite);
         return;
 
