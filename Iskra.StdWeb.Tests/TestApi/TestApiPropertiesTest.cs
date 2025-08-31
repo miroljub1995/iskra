@@ -35,6 +35,38 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
     }
 
     [Test]
+    public async Task TestDoublePropertyGet()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.DoubleProperty).IsEqualTo(1.2);
+    }
+
+    [Test]
+    public async Task TestDoublePropertySet()
+    {
+        var sut = GetSut();
+
+        sut.DoubleProperty = 3.4;
+
+        await Assert.That(sut.DoubleProperty).IsEqualTo(3.4);
+    }
+
+    [Test]
+    public async Task TestReadOnlyDoublePropertyGet()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.DoublePropertyReadOnly).IsEqualTo(2.3);
+    }
+
+    [Test]
+    public async Task TestReadOnlyDoublePropertyIsReadOnly()
+    {
+        await Assert.That(PropertyIsReadOnly(nameof(TestApiProperties.DoublePropertyReadOnly))).IsTrue();
+    }
+
+    [Test]
     public async Task TestStringPropertyGet()
     {
         var sut = GetSut();

@@ -5,6 +5,12 @@ export class TestApiProperties {
         return 2;
     }
 
+    doubleProperty = 1.2;
+
+    get doublePropertyReadOnly() {
+        return 2.3
+    }
+
     stringProperty = "string property";
 
     get stringPropertyReadOnly() {
