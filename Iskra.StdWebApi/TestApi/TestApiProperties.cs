@@ -16,6 +16,7 @@ public class TestApiProperties
     {
         get => throw new();
     }
+
     public double DoubleProperty
     {
         get => throw new();
@@ -23,6 +24,17 @@ public class TestApiProperties
     }
 
     public double DoublePropertyReadOnly
+    {
+        get => throw new();
+    }
+
+    public bool BoolProperty
+    {
+        get => throw new();
+        set => throw new();
+    }
+
+    public bool BoolPropertyReadOnly
     {
         get => throw new();
     }

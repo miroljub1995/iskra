@@ -67,6 +67,39 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
     }
 
     [Test]
+    public async Task TestBoolPropertyGet()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BoolProperty).IsEqualTo(true);
+    }
+
+    [Test]
+    public async Task TestBoolPropertySet()
+    {
+        var sut = GetSut();
+
+        sut.BoolProperty = false;
+
+        await Assert.That(sut.BoolProperty).IsEqualTo(false);
+    }
+
+    [Test]
+    public async Task TestReadOnlyBoolPropertyGet()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BoolPropertyReadOnly).IsEqualTo(true);
+    }
+
+    [Test]
+    public async Task TestReadOnlyBoolPropertyIsReadOnly()
+    {
+        await Assert.That(PropertyIsReadOnly(nameof(TestApiProperties.BoolPropertyReadOnly))).IsTrue();
+    }
+
+
+    [Test]
     public async Task TestStringPropertyGet()
     {
         var sut = GetSut();

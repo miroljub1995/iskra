@@ -11,6 +11,12 @@ export class TestApiProperties {
         return 2.3
     }
 
+    boolProperty = true;
+
+    get boolPropertyReadOnly() {
+        return true;
+    }
+
     stringProperty = "string property";
 
     get stringPropertyReadOnly() {
