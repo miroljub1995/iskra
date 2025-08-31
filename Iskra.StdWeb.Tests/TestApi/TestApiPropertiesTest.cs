@@ -29,7 +29,7 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
     }
 
     [Test]
-    public async Task TestReadOnlyStringPropertySetNotExists()
+    public async Task TestReadOnlyStringPropertyIsReadOnly()
     {
         await Assert.That(PropertyIsReadOnly(nameof(TestApiProperties.ReadOnlyStringProperty))).IsTrue();
     }
