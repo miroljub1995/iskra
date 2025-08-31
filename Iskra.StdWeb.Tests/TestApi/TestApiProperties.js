@@ -5,6 +5,16 @@ export class TestApiProperties {
         return 2;
     }
 
+    intPropertyNullable = null;
+
+    get intPropertyReadOnlyNullableAsNull() {
+        return null;
+    }
+
+    get intPropertyReadOnlyNullableAsNotNull() {
+        return 2;
+    }
+
     doubleProperty = 1.2;
 
     get doublePropertyReadOnly() {

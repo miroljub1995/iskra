@@ -16,6 +16,22 @@ public class TestApiProperties
     {
         get => throw new();
     }
+    
+    public int? IntPropertyNullable
+    {
+        get => throw new();
+        set => throw new();
+    }
+
+    public int? IntPropertyReadOnlyNullableAsNull
+    {
+        get => throw new();
+    }
+
+    public int? IntPropertyReadOnlyNullableAsNotNull
+    {
+        get => throw new();
+    }
 
     public double DoubleProperty
     {

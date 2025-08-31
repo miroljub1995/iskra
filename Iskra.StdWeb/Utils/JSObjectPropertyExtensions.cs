@@ -24,6 +24,23 @@ public static class JSObjectPropertyExtensions
         return obj.GetPropertyAsDouble(propertyName);
     }
 
+    public static int GetPropertyAsInt32(this JSObject obj, string propertyName)
+    {
+        double doubleValue = obj.GetPropertyAsDouble(propertyName);
+        return Convert.ToInt32(doubleValue);
+    }
+
+    public static int? GetPropertyAsInt32AsNullable(this JSObject obj, string propertyName)
+    {
+        double? doubleValue = obj.GetPropertyAsDoubleAsNullable(propertyName);
+        if (doubleValue is null)
+        {
+            return null;
+        }
+
+        return Convert.ToInt32(doubleValue);
+    }
+
     public static long GetPropertyAsInt64(this JSObject obj, string propertyName)
     {
         double doubleValue = obj.GetPropertyAsDouble(propertyName);
