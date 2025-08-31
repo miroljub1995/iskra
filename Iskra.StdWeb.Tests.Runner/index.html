@@ -4,6 +4,19 @@
         import {dotnet} from "/_framework/dotnet.js";
 
         const run = async () => {
+            let testInitModule = null;
+            try {
+                const r = await fetch("/test-extension-init.js");
+                console.log(r.ok);
+                testInitModule = await import("/test-extension-init.js");
+            } catch (e) {
+                // Ignore errors, it's optional
+            }
+
+            if (testInitModule) {
+                await testInitModule.init();
+            }
+
             const {runMain, getConfig, setModuleImports} = await dotnet.create();
 
             setModuleImports('iskra', {

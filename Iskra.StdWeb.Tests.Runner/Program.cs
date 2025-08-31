@@ -25,6 +25,9 @@ await appStarted.Task;
 
 var url = new Uri(app.Urls.Single());
 
+var isDebug = app.Environment.IsDevelopment();
+// var isDebug = true;
+
 LaunchOptions options = new()
 {
     ExecutablePath = ChromeForTestingInstance.ChromePath,
@@ -42,9 +45,9 @@ LaunchOptions options = new()
         // "--disable-web-security",
     ],
     DumpIO = true,
-    Headless = !app.Environment.IsDevelopment(),
-    Devtools = app.Environment.IsDevelopment(),
-    DefaultViewport = app.Environment.IsDevelopment() ? null : ViewPortOptions.Default,
+    Headless = !isDebug,
+    Devtools = isDebug,
+    DefaultViewport = isDebug ? null : ViewPortOptions.Default,
     AcceptInsecureCerts = true,
 };
 
@@ -72,6 +75,13 @@ page.Console += (_, args) =>
 await page.GoToAsync($"https://127.0.0.1:{url.Port}/index.html");
 await page.WaitForExpressionAsync("!!globalThis.run");
 var exitCode = await page.EvaluateExpressionAsync<int>("run();");
+
+if (isDebug)
+{
+    var closeTaskSource = new TaskCompletionSource();
+    page.Close += (_, _) => { closeTaskSource.SetResult(); };
+    await closeTaskSource.Task;
+}
 
 await app.StopAsync();
 await appRunTask;

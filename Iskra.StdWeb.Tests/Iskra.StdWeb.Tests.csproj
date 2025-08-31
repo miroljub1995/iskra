@@ -9,6 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <WasmExtraFilesToDeploy Include="test-extension-init.js"/>
+        <WasmExtraFilesToDeploy Include="TestApi\**\*.js" TargetPath="TestApi\%(RecursiveDir)%(FileName)%(Extension)"/>
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="TUnit" Version="0.57.1"/>
     </ItemGroup>
 
