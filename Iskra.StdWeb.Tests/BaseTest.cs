@@ -15,7 +15,7 @@ public class BaseTest<[DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes
 
     protected bool PropertyIsReadOnly(string propertyName)
     {
-        var property = typeof(T).GetProperty(nameof(TestApiProperties.ReadOnlyStringProperty)) ??
+        var property = typeof(T).GetProperty(propertyName) ??
                        throw new Exception($"Property {propertyName} not found.");
 
         return property is { CanRead: true, CanWrite: false };

@@ -6,13 +6,24 @@ namespace Iskra.StdWebApi.TestApi;
 [AddToGlobalFactory]
 public class TestApiProperties
 {
+    public int IntProperty
+    {
+        get => throw new();
+        set => throw new();
+    }
+
+    public int IntPropertyReadOnly
+    {
+        get => throw new();
+    }
+
     public string StringProperty
     {
         get => throw new();
         set => throw new();
     }
 
-    public string ReadOnlyStringProperty
+    public string StringPropertyReadOnly
     {
         get => throw new();
     }
