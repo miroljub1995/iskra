@@ -6,6 +6,7 @@ namespace Iskra.StdWebApi.TestApi;
 [AddToGlobalFactory]
 public class TestApiProperties
 {
+    // Int
     public int IntProperty
     {
         get => throw new();
@@ -33,6 +34,7 @@ public class TestApiProperties
         get => throw new();
     }
 
+    // Double
     public double DoubleProperty
     {
         get => throw new();
@@ -43,7 +45,24 @@ public class TestApiProperties
     {
         get => throw new();
     }
+    
+    public double? DoublePropertyNullable
+    {
+        get => throw new();
+        set => throw new();
+    }
 
+    public double? DoublePropertyReadOnlyNullableAsNull
+    {
+        get => throw new();
+    }
+
+    public double? DoublePropertyReadOnlyNullableAsNotNull
+    {
+        get => throw new();
+    }
+
+    // Bool
     public bool BoolProperty
     {
         get => throw new();
@@ -54,7 +73,29 @@ public class TestApiProperties
     {
         get => throw new();
     }
+    
+    public bool? BoolPropertyNullable
+    {
+        get => throw new();
+        set => throw new();
+    }
 
+    public bool? BoolPropertyReadOnlyNullableAsNull
+    {
+        get => throw new();
+    }
+
+    public bool? BoolPropertyReadOnlyNullableAsTrue
+    {
+        get => throw new();
+    }
+
+    public bool? BoolPropertyReadOnlyNullableAsFalse
+    {
+        get => throw new();
+    }
+
+    // String
     public string StringProperty
     {
         get => throw new();
@@ -62,6 +103,27 @@ public class TestApiProperties
     }
 
     public string StringPropertyReadOnly
+    {
+        get => throw new();
+    }
+    
+    public string? StringPropertyNullable
+    {
+        get => throw new();
+        set => throw new();
+    }
+
+    public string? StringPropertyReadOnlyNullableAsNull
+    {
+        get => throw new();
+    }
+
+    public string? StringPropertyReadOnlyNullableAsNotNull
+    {
+        get => throw new();
+    }
+
+    public string? StringPropertyReadOnlyNullableAsEmpty
     {
         get => throw new();
     }

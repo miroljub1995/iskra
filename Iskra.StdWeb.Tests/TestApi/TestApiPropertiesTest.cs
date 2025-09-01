@@ -38,7 +38,7 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
         var sut = GetSut();
 
         await Assert.That(sut.IntPropertyReadOnlyNullableAsNull).IsEqualTo(null);
-        await Assert.That(sut.IntPropertyReadOnlyNullableAsNotNull).IsEqualTo(2);
+        await Assert.That(sut.IntPropertyReadOnlyNullableAsNotNull).IsEqualTo(3);
     }
 
     // Double
@@ -61,6 +61,25 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
         await Assert.That(PropertyIsReadOnly(nameof(TestApiProperties.DoublePropertyReadOnly))).IsTrue();
     }
 
+    [Test]
+    public async Task TestDoublePropertyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.DoublePropertyNullable).IsEqualTo(null);
+        sut.DoublePropertyNullable = 1.2;
+        await Assert.That(sut.DoublePropertyNullable).IsEqualTo(1.2);
+    }
+
+    [Test]
+    public async Task TestDoublePropertyReadOnlyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.DoublePropertyReadOnlyNullableAsNull).IsEqualTo(null);
+        await Assert.That(sut.DoublePropertyReadOnlyNullableAsNotNull).IsEqualTo(2.4);
+    }
+
     // Bool
     [Test]
     public async Task TestBoolPropertyGet()
@@ -81,6 +100,28 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
         await Assert.That(PropertyIsReadOnly(nameof(TestApiProperties.BoolPropertyReadOnly))).IsTrue();
     }
 
+    [Test]
+    public async Task BoolPropertyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BoolPropertyNullable).IsEqualTo(null);
+        sut.BoolPropertyNullable = true;
+        await Assert.That(sut.BoolPropertyNullable).IsEqualTo(true);
+        sut.BoolPropertyNullable = false;
+        await Assert.That(sut.BoolPropertyNullable).IsEqualTo(false);
+    }
+
+    [Test]
+    public async Task BoolPropertyReadOnlyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BoolPropertyReadOnlyNullableAsNull).IsEqualTo(null);
+        await Assert.That(sut.BoolPropertyReadOnlyNullableAsTrue).IsEqualTo(true);
+        await Assert.That(sut.BoolPropertyReadOnlyNullableAsFalse).IsEqualTo(false);
+    }
+
     // String
     [Test]
     public async Task TestStringPropertyGet()
@@ -99,5 +140,27 @@ public class TestApiPropertiesTest() : BaseTest<TestApiProperties>("testApiPrope
 
         await Assert.That(sut.StringPropertyReadOnly).IsEqualTo("string property read only");
         await Assert.That(PropertyIsReadOnly(nameof(TestApiProperties.StringPropertyReadOnly))).IsTrue();
+    }
+
+    [Test]
+    public async Task TestStringPropertyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.StringPropertyNullable).IsEqualTo(null);
+        sut.StringPropertyNullable = "some new string";
+        await Assert.That(sut.StringPropertyNullable).IsEqualTo("some new string");
+        sut.StringPropertyNullable = "";
+        await Assert.That(sut.StringPropertyNullable).IsEqualTo("");
+    }
+
+    [Test]
+    public async Task TestStringPropertyReadOnlyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.StringPropertyReadOnlyNullableAsNull).IsEqualTo(null);
+        await Assert.That(sut.StringPropertyReadOnlyNullableAsNotNull).IsEqualTo("this is not null string");
+        await Assert.That(sut.StringPropertyReadOnlyNullableAsEmpty).IsEqualTo("");
     }
 }
