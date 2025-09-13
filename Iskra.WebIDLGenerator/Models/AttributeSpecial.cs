@@ -1,12 +1,8 @@
-using System.Text.Json.Serialization;
-
 namespace Iskra.WebIDLGenerator.Models;
 
-[JsonConverter(typeof(JsonStringEnumConverter<AttributeSpecial>))]
-public enum AttributeSpecial
+public static class AttributeSpecial
 {
-    [JsonStringEnumMemberName("static")] Static,
-
-    [JsonStringEnumMemberName("stringifier")]
-    Stringifier
+    public static string Empty => string.Empty;
+    public static string Static => "static";
+    public static string Stringifier => "stringifier";
 }

@@ -12,6 +12,7 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(ExtendedAttributeRightHandSideDecimalList), "decimal-list")]
 [JsonDerivedType(typeof(ExtendedAttributeRightHandSideInteger), "integer")]
 [JsonDerivedType(typeof(ExtendedAttributeRightHandSideIntegerList), "integer-list")]
+[JsonDerivedType(typeof(ExtendedAttributeRightHandSideWildCard), "*")]
 public abstract class ExtendedAttributeRightHandSide
 {
 }

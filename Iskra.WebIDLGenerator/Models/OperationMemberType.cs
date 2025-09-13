@@ -2,9 +2,9 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class OperationMemberType : AbstractBase
+public class OperationMemberType : IDLInterfaceMemberType
 {
-    [JsonPropertyName("special")] public required OperationSpecial? Special { get; set; }
+    [JsonPropertyName("special")] public required string? Special { get; set; }
 
     [JsonPropertyName("idlType")] public required IDLTypeDescription? IdlType { get; set; }
 

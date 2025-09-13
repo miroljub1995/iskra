@@ -2,13 +2,11 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class AttributeMemberType : AbstractBase
+public class AttributeMemberType : IDLInterfaceMemberType
 {
     [JsonPropertyName("name")] public required string Name { get; set; }
 
-    [JsonPropertyName("special")] public required AttributeSpecial? Special { get; set; }
-
-    [JsonPropertyName("inherit")] public required bool Inherit { get; set; }
+    [JsonPropertyName("special")] public required string? Special { get; set; }
 
     [JsonPropertyName("readonly")] public required bool Readonly { get; set; }
 

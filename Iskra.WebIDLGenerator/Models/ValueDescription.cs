@@ -11,6 +11,6 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(ValueDescriptionNaN), "NaN")]
 [JsonDerivedType(typeof(ValueDescriptionSequence), "sequence")]
 [JsonDerivedType(typeof(ValueDescriptionDictionary), "dictionary")]
-public abstract class ValueDescription : AbstractBase
+public abstract class ValueDescription
 {
 }

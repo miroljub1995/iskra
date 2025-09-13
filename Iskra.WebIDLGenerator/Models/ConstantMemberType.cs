@@ -2,10 +2,8 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class ConstantMemberType : AbstractBase
+public class ConstantMemberType : IDLInterfaceMemberType
 {
-    [JsonPropertyName("nullable")] public required bool Nullable { get; set; }
-
     [JsonPropertyName("idlType")] public required IDLTypeDescription IdlType { get; set; }
 
     [JsonPropertyName("name")] public required string Name { get; set; }

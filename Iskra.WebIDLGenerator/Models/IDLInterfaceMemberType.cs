@@ -10,6 +10,6 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(MaplikeDeclarationMemberType), "maplike")]
 [JsonDerivedType(typeof(SetlikeDeclarationMemberType), "setlike")]
 [JsonDerivedType(typeof(OperationMemberType), "operation")]
-public abstract class IDLInterfaceMemberType : AbstractBase
+public abstract class IDLInterfaceMemberType : IDLInterfaceMixinMemberType
 {
 }

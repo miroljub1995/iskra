@@ -1,18 +1,11 @@
-using System.Text.Json.Serialization;
-
 namespace Iskra.WebIDLGenerator.Models;
 
-[JsonConverter(typeof(JsonStringEnumConverter<OperationSpecial>))]
-public enum OperationSpecial
+public static class OperationSpecial
 {
-    [JsonStringEnumMemberName("getter")] Getter,
-
-    [JsonStringEnumMemberName("setter")] Setter,
-
-    [JsonStringEnumMemberName("deleter")] Deleter,
-
-    [JsonStringEnumMemberName("static")] Static,
-
-    [JsonStringEnumMemberName("stringifier")]
-    Stringifier
+    public static string Empty => string.Empty;
+    public static string Getter => "getter";
+    public static string Setter => "setter";
+    public static string Deleter => "deleter";
+    public static string Static => "static";
+    public static string Stringifier => "stringifier";
 }
