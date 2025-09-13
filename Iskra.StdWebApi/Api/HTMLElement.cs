@@ -164,7 +164,7 @@ public class HTMLElement : Element
         set => throw new();
     }
 
-    public long TabIndex
+    public int TabIndex
     {
         get => throw new();
         set => throw new();

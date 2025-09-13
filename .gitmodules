@@ -1,0 +1,4 @@
+[submodule "submodules/webref/curated"]
+	path = submodules/webref/curated
+	url = https://github.com/w3c/webref.git
+	branch = curated
