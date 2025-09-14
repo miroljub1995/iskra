@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class WindowControlsOverlayGeometryChangeEvent(JSObject obj): Event(obj)
 {
+    public object TitlebarAreaRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Visible
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

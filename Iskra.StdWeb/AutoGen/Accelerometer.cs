@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class Accelerometer(JSObject obj): Sensor(obj)
 {
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Z
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

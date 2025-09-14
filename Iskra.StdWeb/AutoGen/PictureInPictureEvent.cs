@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PictureInPictureEvent(JSObject obj): Event(obj)
 {
-
+    public object PictureInPictureWindow
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

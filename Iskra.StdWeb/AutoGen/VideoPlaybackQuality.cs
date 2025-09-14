@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
 {
+    public object CreationTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DroppedVideoFrames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TotalVideoFrames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CorruptedVideoFrames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

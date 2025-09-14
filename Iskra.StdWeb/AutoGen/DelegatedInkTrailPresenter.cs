@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class DelegatedInkTrailPresenter(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object PresentationArea
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
 {
+    public object SharedContext
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Format
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ExpectedInputLanguages
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ExpectedContextLanguages
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OutputLanguage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InputQuota
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

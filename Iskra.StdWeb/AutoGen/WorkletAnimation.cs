@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletAnimation(JSObject obj): Animation(obj)
 {
-
+    public object AnimatorName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

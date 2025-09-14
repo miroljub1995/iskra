@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class Performance(JSObject obj): EventTarget(obj)
 {
-
+    public object TimeOrigin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

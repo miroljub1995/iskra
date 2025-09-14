@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class ErrorEvent(JSObject obj): Event(obj)
 {
+    public object Message
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Filename
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Lineno
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Colno
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

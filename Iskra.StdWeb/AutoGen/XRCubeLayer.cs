@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
 {
+    public object Space
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Orientation
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onredraw
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

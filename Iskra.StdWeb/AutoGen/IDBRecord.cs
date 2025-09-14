@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
 {
+    public object Key
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PrimaryKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

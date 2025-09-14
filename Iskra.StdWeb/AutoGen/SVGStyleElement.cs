@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Media
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Title
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

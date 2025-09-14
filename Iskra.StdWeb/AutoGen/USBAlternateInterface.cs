@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
 {
+    public object AlternateSetting
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object InterfaceClass
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InterfaceSubclass
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InterfaceProtocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InterfaceName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Endpoints
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

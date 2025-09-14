@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrackProcessor(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Readable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

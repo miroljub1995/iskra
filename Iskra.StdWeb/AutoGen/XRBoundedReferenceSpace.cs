@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRBoundedReferenceSpace(JSObject obj): XRReferenceSpace(obj)
 {
-
+    public object BoundsGeometry
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

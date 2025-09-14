@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Operator
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RadiusX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RadiusY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

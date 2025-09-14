@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceChangeEvent(JSObject obj): Event(obj)
 {
+    public object Devices
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UserInsertedDevices
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
 {
+    public object EndpointNumber
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Direction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PacketSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
 {
+    public object OwnerRule
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CssRules
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

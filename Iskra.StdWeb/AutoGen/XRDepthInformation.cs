@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
 {
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NormDepthBufferFromNormView
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RawValueToMeters
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardEvent(JSObject obj): Event(obj)
 {
-
+    public object ClipboardData
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

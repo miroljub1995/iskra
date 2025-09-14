@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CSSLayerStatementRule(JSObject obj): CSSRule(obj)
 {
-
+    public object NameList
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

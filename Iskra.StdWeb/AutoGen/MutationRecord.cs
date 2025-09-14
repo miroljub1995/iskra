@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AddedNodes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RemovedNodes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PreviousSibling
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NextSibling
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AttributeName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AttributeNamespace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OldValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(obj)
 {
+    public object NewSubscription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OldSubscription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

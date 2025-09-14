@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
 {
+    public object NavigationType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object From
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

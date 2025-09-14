@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class AudioProcessingEvent(JSObject obj): Event(obj)
 {
+    public object PlaybackTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object InputBuffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OutputBuffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

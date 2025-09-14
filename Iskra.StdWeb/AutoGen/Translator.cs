@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class Translator(JSObject obj): JSObjectProxy(obj)
 {
+    public object SourceLanguage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TargetLanguage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InputQuota
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

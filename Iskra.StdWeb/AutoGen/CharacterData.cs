@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class CharacterData(JSObject obj): Node(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

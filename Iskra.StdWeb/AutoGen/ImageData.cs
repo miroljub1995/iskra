@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class ImageData(JSObject obj): JSObjectProxy(obj)
 {
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PixelFormat
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ColorSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

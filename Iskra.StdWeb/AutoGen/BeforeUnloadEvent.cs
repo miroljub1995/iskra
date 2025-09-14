@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class BeforeUnloadEvent(JSObject obj): Event(obj)
 {
-
+    public object ReturnValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

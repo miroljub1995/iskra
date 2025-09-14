@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
 {
+    public object OffsetNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Offset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

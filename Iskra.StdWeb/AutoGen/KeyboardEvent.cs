@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
 {
+    public object Key
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Code
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Location
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CtrlKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShiftKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AltKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MetaKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Repeat
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsComposing
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

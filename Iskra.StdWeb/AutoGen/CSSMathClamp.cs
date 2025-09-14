@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
 {
+    public object Lower
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Upper
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

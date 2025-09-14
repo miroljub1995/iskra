@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
 {
+    public object Open
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ReturnValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClosedBy
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,89 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(obj)
 {
+    public object Clients
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Registration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ServiceWorker
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oninstall
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onactivate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onfetch
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmessageerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

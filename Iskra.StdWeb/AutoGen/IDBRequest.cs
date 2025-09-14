@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRequest(JSObject obj): EventTarget(obj)
 {
+    public object Result
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Transaction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsuccess
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

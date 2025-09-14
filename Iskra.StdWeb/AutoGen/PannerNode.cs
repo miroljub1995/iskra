@@ -9,7 +9,149 @@ namespace Iskra.StdWeb;
 
 public partial class PannerNode(JSObject obj): AudioNode(obj)
 {
+    public object PanningModel
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PositionX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PositionY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PositionZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OrientationX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OrientationY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OrientationZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DistanceModel
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RefDistance
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxDistance
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RolloffFactor
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConeInnerAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConeOuterAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConeOuterGain
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

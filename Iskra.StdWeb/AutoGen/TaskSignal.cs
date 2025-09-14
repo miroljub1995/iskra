@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class TaskSignal(JSObject obj): AbortSignal(obj)
 {
+    public object Priority
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onprioritychange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

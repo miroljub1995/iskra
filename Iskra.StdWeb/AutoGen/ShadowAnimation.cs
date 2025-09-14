@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowAnimation(JSObject obj): Animation(obj)
 {
-
+    public object SourceAnimation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

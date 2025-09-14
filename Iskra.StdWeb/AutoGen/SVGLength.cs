@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
 {
+    public object UnitType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ValueInSpecifiedUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ValueAsString
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

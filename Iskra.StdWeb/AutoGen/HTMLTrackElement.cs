@@ -9,7 +9,81 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
 {
+    public object Kind
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Src
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Srclang
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Default
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Track
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

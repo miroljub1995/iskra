@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
 {
+    public object Cx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Cy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Rx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ry
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

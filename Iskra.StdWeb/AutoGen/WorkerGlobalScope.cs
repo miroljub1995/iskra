@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
 {
+    public object Self
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Location
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Navigator
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onlanguagechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onoffline
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ononline
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onrejectionhandled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onunhandledrejection
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

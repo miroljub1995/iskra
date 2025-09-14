@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class ConvolverNode(JSObject obj): AudioNode(obj)
 {
+    public object Buffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Normalize
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

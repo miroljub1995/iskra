@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
 {
+    public object RangeStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RangeEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UnderlineStyle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UnderlineThickness
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

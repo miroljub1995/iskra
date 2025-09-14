@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
 {
+    public object HighWaterMark
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Size
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

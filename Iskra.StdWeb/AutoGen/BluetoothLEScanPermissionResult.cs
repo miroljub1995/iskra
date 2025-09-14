@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScanPermissionResult(JSObject obj): PermissionStatus(obj)
 {
-
+    public object Scans
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

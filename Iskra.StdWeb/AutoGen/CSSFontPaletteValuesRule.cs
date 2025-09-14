@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FontFamily
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BasePalette
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OverrideColors
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

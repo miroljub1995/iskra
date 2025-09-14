@@ -9,7 +9,93 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
 {
+    public object Disabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Form
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultSelected
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Selected
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Index
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

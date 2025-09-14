@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFReader(JSObject obj): EventTarget(obj)
 {
+    public object Onreading
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onreadingerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

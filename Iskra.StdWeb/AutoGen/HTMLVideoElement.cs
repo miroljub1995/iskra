@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
 {
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VideoWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VideoHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Poster
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PlaysInline
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

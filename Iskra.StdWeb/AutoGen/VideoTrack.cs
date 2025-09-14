@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Kind
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Language
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Selected
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

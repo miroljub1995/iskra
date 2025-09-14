@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class HIDInputReportEvent(JSObject obj): Event(obj)
 {
+    public object Device
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ReportId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

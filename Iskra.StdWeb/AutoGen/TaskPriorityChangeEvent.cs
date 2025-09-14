@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class TaskPriorityChangeEvent(JSObject obj): Event(obj)
 {
-
+    public object PreviousPriority
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

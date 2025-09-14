@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PushManager(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object SupportedContentEncodings
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

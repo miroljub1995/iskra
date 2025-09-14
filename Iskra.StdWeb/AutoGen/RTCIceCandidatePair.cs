@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
 {
+    public object Local
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Remote
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

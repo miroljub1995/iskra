@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
 {
+    public object Brands
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Mobile
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Platform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

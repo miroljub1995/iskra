@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object KeyPath
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IndexNames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Transaction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AutoIncrement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

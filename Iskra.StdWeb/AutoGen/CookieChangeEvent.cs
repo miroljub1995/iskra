@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CookieChangeEvent(JSObject obj): Event(obj)
 {
+    public object Changed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Deleted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

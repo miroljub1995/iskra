@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class DOMTokenList(JSObject obj): JSObjectProxy(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

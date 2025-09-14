@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class IntrinsicSizes(JSObject obj): JSObjectProxy(obj)
 {
+    public object MinContentSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MaxContentSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

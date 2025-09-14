@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Extractable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Algorithm
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Usages
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

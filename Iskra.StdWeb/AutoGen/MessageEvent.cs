@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class MessageEvent(JSObject obj): Event(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Origin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LastEventId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ports
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
 {
+    public object InitDataType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object InitData
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

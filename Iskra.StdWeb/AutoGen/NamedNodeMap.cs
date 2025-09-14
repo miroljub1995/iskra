@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class NamedNodeMap(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

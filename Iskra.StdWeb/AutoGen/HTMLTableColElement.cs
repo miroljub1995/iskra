@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableColElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Span
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

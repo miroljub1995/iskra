@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
 {
+    public object Size
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

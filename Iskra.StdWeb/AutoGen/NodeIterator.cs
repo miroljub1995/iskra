@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
 {
+    public object Root
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ReferenceNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PointerBeforeReferenceNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WhatToShow
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Filter
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

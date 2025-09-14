@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
 {
+    public object SelectorText
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Style
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

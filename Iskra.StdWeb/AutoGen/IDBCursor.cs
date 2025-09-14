@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
 {
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Direction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Key
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PrimaryKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Request
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
 {
+    public object Window
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onenter
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

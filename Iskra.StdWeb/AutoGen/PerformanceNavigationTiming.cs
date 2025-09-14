@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResourceTiming(obj)
 {
+    public object UnloadEventStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UnloadEventEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomInteractive
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomContentLoadedEventStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomContentLoadedEventEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomComplete
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LoadEventStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LoadEventEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RedirectCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CriticalCHRestart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NotRestoredReasons
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

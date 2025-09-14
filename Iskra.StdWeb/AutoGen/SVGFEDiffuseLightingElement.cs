@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SurfaceScale
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DiffuseConstant
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KernelUnitLengthX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KernelUnitLengthY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

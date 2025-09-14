@@ -9,7 +9,57 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
 {
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Key
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Index
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SameDocument
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ondispose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

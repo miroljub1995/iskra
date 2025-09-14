@@ -9,7 +9,57 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
 {
+    public object Caption
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object THead
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TFoot
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TBodies
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Rows
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

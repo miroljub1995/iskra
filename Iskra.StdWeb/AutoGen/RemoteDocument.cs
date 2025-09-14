@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
 {
+    public object ContentType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ContextUrl
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Document
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DocumentUrl
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Profile
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

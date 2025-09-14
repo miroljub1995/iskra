@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class RemotePlayback(JSObject obj): EventTarget(obj)
 {
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onconnecting
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onconnect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ondisconnect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

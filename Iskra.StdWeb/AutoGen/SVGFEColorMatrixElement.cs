@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Values
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

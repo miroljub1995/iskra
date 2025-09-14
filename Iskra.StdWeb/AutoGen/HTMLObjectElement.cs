@@ -9,7 +9,113 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Form
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContentDocument
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContentWindow
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WillValidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Validity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ValidationMessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

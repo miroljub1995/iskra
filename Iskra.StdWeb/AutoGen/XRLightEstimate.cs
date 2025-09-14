@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
 {
+    public object SphericalHarmonicsCoefficients
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PrimaryLightDirection
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PrimaryLightIntensity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

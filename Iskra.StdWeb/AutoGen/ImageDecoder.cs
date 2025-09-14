@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Complete
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Completed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Tracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

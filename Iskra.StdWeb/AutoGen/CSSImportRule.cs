@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class CSSImportRule(JSObject obj): CSSRule(obj)
 {
+    public object Href
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Media
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StyleSheet
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LayerName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SupportsText
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

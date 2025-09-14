@@ -41,10 +41,12 @@ public class GenerateCommand : Command
                 config.SetMinimumLevel(LogLevel.Information);
             });
 
-            services.AddTransient<ModuleGenerator>();
-            services.AddTransient<InterfaceGenerator>();
+            services.AddSingleton<AttributeMemberTypeGenerator>();
+            services.AddSingleton<IDLInterfaceMemberTypeGenerator>();
+            services.AddSingleton<InterfaceGenerator>();
+            services.AddSingleton<ModuleGenerator>();
 
-            var provider = services.BuildServiceProvider();
+            await using var provider = services.BuildServiceProvider();
 
             ILogger logger = provider.GetRequiredService<ILogger<GenerateCommand>>();
 

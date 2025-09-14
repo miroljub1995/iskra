@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
 {
+    public object Media
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Matches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
 {
+    public object Lower
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Upper
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LowerOpen
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UpperOpen
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

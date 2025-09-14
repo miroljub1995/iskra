@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class ValueEvent(JSObject obj): Event(obj)
 {
-
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

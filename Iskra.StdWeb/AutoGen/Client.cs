@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class Client(JSObject obj): JSObjectProxy(obj)
 {
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FrameType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

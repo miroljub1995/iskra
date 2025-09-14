@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class WheelEvent(JSObject obj): MouseEvent(obj)
 {
+    public object DeltaX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DeltaY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeltaZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeltaMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

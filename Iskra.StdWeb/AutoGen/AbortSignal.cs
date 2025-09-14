@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class AbortSignal(JSObject obj): EventTarget(obj)
 {
+    public object Aborted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Reason
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onabort
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

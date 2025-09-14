@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
 {
+    public object PatternUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PatternContentUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PatternTransform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

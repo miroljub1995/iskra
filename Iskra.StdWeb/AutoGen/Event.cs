@@ -9,7 +9,117 @@ namespace Iskra.StdWeb;
 
 public partial class Event(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SrcElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentTarget
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EventPhase
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CancelBubble
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Bubbles
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Cancelable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReturnValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultPrevented
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Composed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsTrusted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TimeStamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

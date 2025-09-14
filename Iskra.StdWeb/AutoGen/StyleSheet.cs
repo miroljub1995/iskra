@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Href
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OwnerNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ParentStyleSheet
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Title
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Media
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Disabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

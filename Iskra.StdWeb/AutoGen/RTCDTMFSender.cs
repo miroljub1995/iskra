@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
 {
+    public object Ontonechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CanInsertDTMF
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ToneBuffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

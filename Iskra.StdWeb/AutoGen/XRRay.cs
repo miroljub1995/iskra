@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class XRRay(JSObject obj): JSObjectProxy(obj)
 {
+    public object Origin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Direction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Matrix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

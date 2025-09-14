@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIAccess(JSObject obj): EventTarget(obj)
 {
+    public object Inputs
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Outputs
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SysexEnabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

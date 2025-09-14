@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class Response(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Redirected
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Status
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ok
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StatusText
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Headers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

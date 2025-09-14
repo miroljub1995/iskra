@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
 {
+    public object UserVisibleOnly
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ApplicationServerKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

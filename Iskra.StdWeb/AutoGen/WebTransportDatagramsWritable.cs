@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream(obj)
 {
+    public object SendGroup
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SendOrder
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

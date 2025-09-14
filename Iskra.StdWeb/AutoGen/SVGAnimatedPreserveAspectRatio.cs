@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
 {
+    public object BaseVal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AnimVal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

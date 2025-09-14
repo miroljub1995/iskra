@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
 {
+    public object SessionStorage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object LocalStorage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IndexedDB
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Locks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Caches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class PublicKeyCredential(JSObject obj): Credential(obj)
 {
+    public object RawId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Response
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AuthenticatorAttachment
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

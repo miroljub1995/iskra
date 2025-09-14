@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class HIDConnectionEvent(JSObject obj): Event(obj)
 {
-
+    public object Device
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

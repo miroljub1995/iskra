@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class DevicePosture(JSObject obj): EventTarget(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
 {
+    public object Root
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RootMargin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ScrollMargin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Thresholds
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Delay
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TrackVisibility
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

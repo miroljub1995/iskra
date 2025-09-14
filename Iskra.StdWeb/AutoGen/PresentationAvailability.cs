@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

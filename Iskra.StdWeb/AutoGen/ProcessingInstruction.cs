@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class ProcessingInstruction(JSObject obj): CharacterData(obj)
 {
-
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRSessionEvent(JSObject obj): Event(obj)
 {
-
+    public object Session
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

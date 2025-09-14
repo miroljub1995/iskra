@@ -9,7 +9,93 @@ namespace Iskra.StdWeb;
 
 public partial class NavigateEvent(JSObject obj): Event(obj)
 {
+    public object NavigationType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Destination
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CanIntercept
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UserInitiated
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object HashChange
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Signal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FormData
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DownloadRequest
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Info
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object HasUAVisualTransition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SourceElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

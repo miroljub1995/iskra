@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
 {
+    public object Connections
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onconnectionavailable
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

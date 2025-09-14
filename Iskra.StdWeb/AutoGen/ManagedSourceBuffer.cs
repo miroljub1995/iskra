@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class ManagedSourceBuffer(JSObject obj): SourceBuffer(obj)
 {
-
+    public object Onbufferedchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGElement(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TableValues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Slope
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Intercept
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Amplitude
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Exponent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Offset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class FederatedCredential(JSObject obj): Credential(obj)
 {
+    public object Provider
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

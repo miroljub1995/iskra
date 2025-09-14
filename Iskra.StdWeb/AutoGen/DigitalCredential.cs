@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class DigitalCredential(JSObject obj): Credential(obj)
 {
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

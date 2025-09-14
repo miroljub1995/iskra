@@ -9,7 +9,105 @@ namespace Iskra.StdWeb;
 
 public partial class Element(JSObject obj): Node(obj)
 {
+    public object NamespaceURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Prefix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LocalName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TagName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClassName
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClassList
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Slot
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Attributes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShadowRoot
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CustomElementRegistry
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

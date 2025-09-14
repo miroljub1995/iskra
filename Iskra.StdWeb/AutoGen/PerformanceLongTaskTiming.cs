@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(obj)
 {
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EntryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Attribution
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

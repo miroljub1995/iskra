@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLObject(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

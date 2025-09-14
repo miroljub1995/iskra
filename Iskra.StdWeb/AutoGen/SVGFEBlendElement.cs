@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object In2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

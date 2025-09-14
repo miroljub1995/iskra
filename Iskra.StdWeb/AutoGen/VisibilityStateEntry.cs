@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object EntryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

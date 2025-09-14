@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OrderX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OrderY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KernelMatrix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Divisor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Bias
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TargetX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TargetY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EdgeMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KernelUnitLengthX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KernelUnitLengthY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PreserveAlpha
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

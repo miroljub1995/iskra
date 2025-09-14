@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
 {
+    public object Track
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Transport
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

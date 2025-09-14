@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
 {
+    public object AvailableInlineSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AvailableBlockSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FixedInlineSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FixedBlockSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PercentageInlineSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PercentageBlockSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockFragmentationOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockFragmentationType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

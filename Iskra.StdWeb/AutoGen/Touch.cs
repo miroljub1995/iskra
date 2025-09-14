@@ -9,7 +9,125 @@ namespace Iskra.StdWeb;
 
 public partial class Touch(JSObject obj): JSObjectProxy(obj)
 {
+    public object Identifier
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ScreenX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ScreenY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClientX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClientY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PageX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PageY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RadiusX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RadiusY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RotationAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Force
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AltitudeAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AzimuthAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TouchType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

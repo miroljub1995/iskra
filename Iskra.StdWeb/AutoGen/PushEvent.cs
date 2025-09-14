@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Notification
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SelectedIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

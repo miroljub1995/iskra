@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
 {
+    public object Features
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Limits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Info
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

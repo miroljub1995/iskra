@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
 {
+    public object ColSpan
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RowSpan
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Headers
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CellIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Scope
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Abbr
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

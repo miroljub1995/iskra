@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class BarProp(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Visible
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

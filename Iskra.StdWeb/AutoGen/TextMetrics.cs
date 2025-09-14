@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
 {
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ActualBoundingBoxLeft
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ActualBoundingBoxRight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FontBoundingBoxAscent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FontBoundingBoxDescent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ActualBoundingBoxAscent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ActualBoundingBoxDescent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EmHeightAscent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EmHeightDescent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object HangingBaseline
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AlphabeticBaseline
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IdeographicBaseline
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

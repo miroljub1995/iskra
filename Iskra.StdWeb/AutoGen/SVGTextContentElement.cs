@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj)
 {
+    public object TextLength
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object LengthAdjust
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

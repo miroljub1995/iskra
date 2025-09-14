@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
 {
+    public object RefX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RefY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MarkerUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MarkerWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MarkerHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OrientType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OrientAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Orient
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

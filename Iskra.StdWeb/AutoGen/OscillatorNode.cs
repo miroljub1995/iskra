@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Frequency
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Detune
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

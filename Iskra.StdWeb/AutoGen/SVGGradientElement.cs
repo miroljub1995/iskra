@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
 {
+    public object GradientUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object GradientTransform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SpreadMethod
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

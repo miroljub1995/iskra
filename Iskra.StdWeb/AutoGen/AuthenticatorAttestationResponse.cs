@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorAttestationResponse(JSObject obj): AuthenticatorResponse(obj)
 {
-
+    public object AttestationObject
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

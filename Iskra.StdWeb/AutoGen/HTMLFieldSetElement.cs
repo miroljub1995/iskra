@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
 {
+    public object Disabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Form
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Elements
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WillValidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Validity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ValidationMessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

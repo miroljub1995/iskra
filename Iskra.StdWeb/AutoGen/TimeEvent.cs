@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class TimeEvent(JSObject obj): Event(obj)
 {
+    public object View
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Detail
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

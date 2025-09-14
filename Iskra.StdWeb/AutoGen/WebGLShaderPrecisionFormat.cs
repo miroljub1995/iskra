@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj)
 {
+    public object RangeMin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RangeMax
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Precision
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

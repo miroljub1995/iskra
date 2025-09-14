@@ -9,7 +9,81 @@ namespace Iskra.StdWeb;
 
 public partial class IDBTransaction(JSObject obj): EventTarget(obj)
 {
+    public object ObjectStoreNames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Durability
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Db
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onabort
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncomplete
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

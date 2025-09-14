@@ -9,7 +9,57 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
 {
+    public object Antialias
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IgnoreDepthValues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FixedFoveation
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Framebuffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FramebufferWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FramebufferHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

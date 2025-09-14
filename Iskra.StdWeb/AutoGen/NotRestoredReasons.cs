@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
 {
+    public object Src
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Reasons
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Children
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

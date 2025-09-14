@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
 {
+    public object DeviceId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Kind
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object GroupId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

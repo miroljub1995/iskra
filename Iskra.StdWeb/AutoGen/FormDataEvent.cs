@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class FormDataEvent(JSObject obj): Event(obj)
 {
-
+    public object FormData
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

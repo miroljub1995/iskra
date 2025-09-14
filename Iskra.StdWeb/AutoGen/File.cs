@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class File(JSObject obj): Blob(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object LastModified
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

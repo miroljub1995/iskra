@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
 {
+    public object Ready
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SelectedIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SelectedTrack
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

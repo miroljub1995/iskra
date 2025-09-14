@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
 {
+    public object Writable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Muted
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Track
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

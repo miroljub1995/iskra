@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class TouchEvent(JSObject obj): UIEvent(obj)
 {
+    public object Touches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TargetTouches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ChangedTouches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AltKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MetaKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CtrlKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShiftKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

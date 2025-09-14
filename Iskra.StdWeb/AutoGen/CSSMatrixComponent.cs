@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMatrixComponent(JSObject obj): CSSTransformComponent(obj)
 {
-
+    public object Matrix
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

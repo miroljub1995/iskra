@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class USBIsochronousInTransferPacket(JSObject obj): JSObjectProxy(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Status
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

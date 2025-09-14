@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCompilationInfo(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Messages
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

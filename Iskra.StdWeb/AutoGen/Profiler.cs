@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class Profiler(JSObject obj): EventTarget(obj)
 {
+    public object SampleInterval
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Stopped
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

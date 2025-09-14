@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathMax(JSObject obj): CSSMathValue(obj)
 {
-
+    public object Values
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class OrientationSensor(JSObject obj): Sensor(obj)
 {
-
+    public object Quaternion
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PopStateEvent(JSObject obj): Event(obj)
 {
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object HasUAVisualTransition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
 {
+    public object Metadata
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PlaybackState
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

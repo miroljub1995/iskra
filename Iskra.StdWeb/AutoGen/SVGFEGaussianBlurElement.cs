@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object StdDeviationX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StdDeviationY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EdgeMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Matrix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Angle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

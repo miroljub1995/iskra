@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Root
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

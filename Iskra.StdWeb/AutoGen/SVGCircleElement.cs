@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
 {
+    public object Cx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Cy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object R
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

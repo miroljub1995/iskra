@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
 {
+    public object ExpectedInputLanguages
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object InputQuota
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

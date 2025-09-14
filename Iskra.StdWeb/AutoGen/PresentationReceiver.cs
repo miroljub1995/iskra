@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationReceiver(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object ConnectionList
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

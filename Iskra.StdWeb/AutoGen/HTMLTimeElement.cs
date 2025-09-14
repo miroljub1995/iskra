@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTimeElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object DateTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

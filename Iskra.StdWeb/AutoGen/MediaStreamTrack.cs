@@ -9,7 +9,93 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
 {
+    public object Kind
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Enabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Muted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmute
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onunmute
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onended
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

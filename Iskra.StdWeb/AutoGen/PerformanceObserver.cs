@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceObserver(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object SupportedEntryTypes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

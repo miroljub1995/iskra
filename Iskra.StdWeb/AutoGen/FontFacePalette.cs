@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UsableWithLightBackground
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UsableWithDarkBackground
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

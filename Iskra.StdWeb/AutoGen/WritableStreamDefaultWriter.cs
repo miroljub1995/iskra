@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(obj)
 {
+    public object Closed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DesiredSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ready
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

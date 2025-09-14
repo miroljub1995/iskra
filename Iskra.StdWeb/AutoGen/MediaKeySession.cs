@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeySession(JSObject obj): EventTarget(obj)
 {
+    public object SessionId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Expiration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Closed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KeyStatuses
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onkeystatuseschange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

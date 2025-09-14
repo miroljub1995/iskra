@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
 {
+    public object DataType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Shape
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Readable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Writable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Constant
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

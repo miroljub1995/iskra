@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
 {
+    public object Curve
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Oversample
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

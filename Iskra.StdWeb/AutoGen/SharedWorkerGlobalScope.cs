@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onconnect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

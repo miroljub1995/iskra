@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
 {
+    public object Primaries
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Transfer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Matrix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FullRange
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

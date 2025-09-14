@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
 {
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Top
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Right
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Bottom
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Left
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

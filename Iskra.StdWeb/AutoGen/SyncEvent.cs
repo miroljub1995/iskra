@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SyncEvent(JSObject obj): ExtendableEvent(obj)
 {
+    public object Tag
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object LastChance
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

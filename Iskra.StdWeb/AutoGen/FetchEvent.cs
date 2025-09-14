@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
 {
+    public object Request
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PreloadResponse
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClientId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResultingClientId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReplacesClientId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Handled
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

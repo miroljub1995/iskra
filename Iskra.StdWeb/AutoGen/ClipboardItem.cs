@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
 {
+    public object PresentationStyle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Types
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

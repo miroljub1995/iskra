@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGraphicsElement(JSObject obj): SVGElement(obj)
 {
-
+    public object Transform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

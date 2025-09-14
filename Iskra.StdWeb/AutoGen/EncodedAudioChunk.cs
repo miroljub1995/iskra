@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Timestamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ByteLength
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

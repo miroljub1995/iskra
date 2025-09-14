@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGElement(JSObject obj): Element(obj)
 {
+    public object ClassName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OwnerSVGElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ViewportElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

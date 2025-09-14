@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class ProgressEvent(JSObject obj): Event(obj)
 {
+    public object LengthComputable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Loaded
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Total
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

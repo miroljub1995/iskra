@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
 {
+    public object Src
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Weight
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

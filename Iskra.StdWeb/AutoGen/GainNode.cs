@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class GainNode(JSObject obj): AudioNode(obj)
 {
-
+    public object Gain
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

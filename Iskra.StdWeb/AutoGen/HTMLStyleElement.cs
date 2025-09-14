@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
 {
+    public object Disabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Media
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Blocking
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

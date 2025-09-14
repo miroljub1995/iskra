@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
 {
+    public object Filters
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object KeepRepeatedDevices
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AcceptAllAdvertisements
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Active
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

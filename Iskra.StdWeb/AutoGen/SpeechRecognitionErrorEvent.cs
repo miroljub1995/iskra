@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
 {
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Message
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

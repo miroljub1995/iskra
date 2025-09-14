@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Syntax
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Inherits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InitialValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

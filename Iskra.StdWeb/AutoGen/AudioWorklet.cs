@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorklet(JSObject obj): Worklet(obj)
 {
-
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

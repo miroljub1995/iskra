@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class IDBCursorWithValue(JSObject obj): IDBCursor(obj)
 {
-
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class AudioEncoder(JSObject obj): EventTarget(obj)
 {
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object EncodeQueueSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ondequeue
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

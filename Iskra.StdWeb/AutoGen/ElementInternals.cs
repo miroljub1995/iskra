@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
 {
+    public object ShadowRoot
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Form
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WillValidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Validity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ValidationMessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Labels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object States
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

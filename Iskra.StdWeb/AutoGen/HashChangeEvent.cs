@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class HashChangeEvent(JSObject obj): Event(obj)
 {
+    public object OldURL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object NewURL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

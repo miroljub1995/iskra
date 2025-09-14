@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
 {
+    public object Animated
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FrameCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RepetitionCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Selected
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadHapticActuator(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Effects
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

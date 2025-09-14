@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
 {
+    public object Title
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Artist
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Album
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Artwork
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ChapterInfo
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

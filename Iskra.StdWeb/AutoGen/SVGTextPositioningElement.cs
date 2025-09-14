@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElement(obj)
 {
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Dx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Dy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Rotate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

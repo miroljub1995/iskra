@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class RdfDataset(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object DefaultGraph
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

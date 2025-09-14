@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorker(JSObject obj): EventTarget(obj)
 {
-
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

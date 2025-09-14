@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
 {
+    public object ColorScheme
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Contrast
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReducedMotion
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReducedTransparency
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReducedData
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

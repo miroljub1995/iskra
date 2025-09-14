@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
 {
+    public object DataType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Shape
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

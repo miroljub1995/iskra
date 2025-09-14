@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
 {
+    public object Href
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

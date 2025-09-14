@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class SerialPort(JSObject obj): EventTarget(obj)
 {
+    public object Onconnect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Ondisconnect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Connected
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Readable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Writable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

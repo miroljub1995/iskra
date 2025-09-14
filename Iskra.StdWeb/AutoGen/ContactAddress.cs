@@ -9,7 +9,85 @@ namespace Iskra.StdWeb;
 
 public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
 {
+    public object City
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Country
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DependentLocality
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Organization
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Phone
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PostalCode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Recipient
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Region
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SortingCode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AddressLine
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

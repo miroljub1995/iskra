@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
 {
+    public object FontFamily
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Annotation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ornaments
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Stylistic
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Swash
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CharacterVariant
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Styleset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object HistoricalForms
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

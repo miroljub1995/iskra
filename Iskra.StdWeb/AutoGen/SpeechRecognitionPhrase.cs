@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionPhrase(JSObject obj): JSObjectProxy(obj)
 {
+    public object Phrase
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Boost
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

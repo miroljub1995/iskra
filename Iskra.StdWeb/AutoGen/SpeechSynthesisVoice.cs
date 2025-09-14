@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
 {
+    public object VoiceURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Lang
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LocalService
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Default
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

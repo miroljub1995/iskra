@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
 {
+    public object LoadTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RenderTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Size
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Element
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

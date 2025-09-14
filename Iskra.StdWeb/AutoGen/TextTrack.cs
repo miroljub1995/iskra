@@ -9,7 +9,85 @@ namespace Iskra.StdWeb;
 
 public partial class TextTrack(JSObject obj): EventTarget(obj)
 {
+    public object Kind
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Language
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InBandMetadataTrackDispatchType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Cues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ActiveCues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncuechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

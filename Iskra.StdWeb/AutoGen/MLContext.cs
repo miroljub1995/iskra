@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class MLContext(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Lost
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

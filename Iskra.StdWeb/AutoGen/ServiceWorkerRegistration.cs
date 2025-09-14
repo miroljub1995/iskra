@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
 {
+    public object Installing
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Waiting
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Active
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NavigationPreload
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Scope
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UpdateViaCache
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onupdatefound
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

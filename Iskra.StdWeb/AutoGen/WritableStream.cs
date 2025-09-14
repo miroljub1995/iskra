@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class WritableStream(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Locked
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

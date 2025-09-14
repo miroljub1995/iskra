@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSupportsRule(JSObject obj): CSSConditionRule(obj)
 {
-
+    public object Matches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

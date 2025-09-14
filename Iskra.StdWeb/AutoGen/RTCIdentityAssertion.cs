@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
 {
+    public object Idp
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamDefaultController(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object DesiredSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

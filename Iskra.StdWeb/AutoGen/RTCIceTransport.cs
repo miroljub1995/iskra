@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
 {
+    public object Role
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Component
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object GatheringState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ongatheringstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onselectedcandidatepairchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

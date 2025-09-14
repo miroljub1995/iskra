@@ -9,7 +9,85 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
 {
+    public object ColorTexture
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DepthStencilTexture
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MotionVectorTexture
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ImageIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ColorTextureWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ColorTextureHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DepthStencilTextureWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DepthStencilTextureHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MotionVectorTextureWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MotionVectorTextureHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
 {
+    public object Form
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object HtmlFor
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Control
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

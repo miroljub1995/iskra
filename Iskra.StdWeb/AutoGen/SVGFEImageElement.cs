@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
 {
+    public object PreserveAspectRatio
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CrossOrigin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

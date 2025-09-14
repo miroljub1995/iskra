@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
 {
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Time
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

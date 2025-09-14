@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AxisTag
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MinimumValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaximumValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

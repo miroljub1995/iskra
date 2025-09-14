@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class Lock(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

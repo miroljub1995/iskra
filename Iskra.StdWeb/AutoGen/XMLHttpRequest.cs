@@ -9,7 +9,117 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj)
 {
+    public object Onreadystatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Timeout
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WithCredentials
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Upload
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseURL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Status
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StatusText
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseType
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Response
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseText
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseXML
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

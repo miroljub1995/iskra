@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Datatype
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Language
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

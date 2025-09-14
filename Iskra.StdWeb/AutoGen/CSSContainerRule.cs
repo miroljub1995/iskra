@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
 {
+    public object ContainerName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ContainerQuery
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

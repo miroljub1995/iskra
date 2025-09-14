@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenDetailed(JSObject obj): Screen(obj)
 {
+    public object AvailLeft
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AvailTop
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Left
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Top
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsPrimary
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsInternal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DevicePixelRatio
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

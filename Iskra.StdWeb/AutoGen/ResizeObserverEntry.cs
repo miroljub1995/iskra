@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
 {
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ContentRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BorderBoxSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContentBoxSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DevicePixelContentBoxSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

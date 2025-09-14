@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class InputEvent(JSObject obj): UIEvent(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IsComposing
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InputType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

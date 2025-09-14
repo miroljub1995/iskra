@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpace(JSObject obj): XRSpace(obj)
 {
-
+    public object Onreset
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionResult(JSObject obj): JSObjectProxy(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IsFinal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
 {
+    public object Threshold
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Knee
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ratio
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Reduction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Attack
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Release
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

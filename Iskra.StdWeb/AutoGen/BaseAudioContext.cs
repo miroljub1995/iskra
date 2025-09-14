@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
 {
+    public object Destination
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SampleRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Listener
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RenderQuantumSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AudioWorklet
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
 {
+    public object DepthNear
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DepthFar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PassthroughFullyObscured
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InlineVerticalFieldOfView
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BaseLayer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

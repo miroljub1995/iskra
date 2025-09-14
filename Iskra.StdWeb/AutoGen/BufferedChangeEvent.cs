@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class BufferedChangeEvent(JSObject obj): Event(obj)
 {
+    public object AddedRanges
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RemovedRanges
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

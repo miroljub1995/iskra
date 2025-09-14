@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectProxy(obj)
 {
+    public object Broadcast
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Read
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WriteWithoutResponse
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Write
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Notify
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Indicate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AuthenticatedSignedWrites
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReliableWrite
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WritableAuxiliaries
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
 {
+    public object Title
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Artwork
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

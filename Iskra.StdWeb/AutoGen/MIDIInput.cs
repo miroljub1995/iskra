@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIInput(JSObject obj): MIDIPort(obj)
 {
-
+    public object Onmidimessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
 {
+    public object NavigationType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object From
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Committed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Finished
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

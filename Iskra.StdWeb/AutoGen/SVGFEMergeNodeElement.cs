@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEMergeNodeElement(JSObject obj): SVGElement(obj)
 {
-
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

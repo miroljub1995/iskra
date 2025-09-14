@@ -9,7 +9,57 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSet(JSObject obj): EventTarget(obj)
 {
+    public object Onloading
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onloadingdone
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onloadingerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ready
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Status
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

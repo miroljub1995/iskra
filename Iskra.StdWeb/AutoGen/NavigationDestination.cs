@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
 {
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Key
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Index
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SameDocument
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EntryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NavigationId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

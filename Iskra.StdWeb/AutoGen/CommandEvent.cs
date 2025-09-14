@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CommandEvent(JSObject obj): Event(obj)
 {
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Command
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

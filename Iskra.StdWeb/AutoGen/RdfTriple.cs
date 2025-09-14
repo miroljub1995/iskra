@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
 {
+    public object Subject
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Predicate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Object
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

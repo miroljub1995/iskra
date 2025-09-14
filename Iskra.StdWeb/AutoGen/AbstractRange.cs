@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
 {
+    public object StartContainer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object StartOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EndContainer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EndOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Collapsed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

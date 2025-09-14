@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSkewX(JSObject obj): CSSTransformComponent(obj)
 {
-
+    public object Ax
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

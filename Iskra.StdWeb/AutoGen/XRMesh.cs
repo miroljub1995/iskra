@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
 {
+    public object MeshSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Vertices
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Indices
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LastChangedTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SemanticLabel
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

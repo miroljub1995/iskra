@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutChild(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object StyleMap
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,57 @@ namespace Iskra.StdWeb;
 
 public partial class NetworkInformation(JSObject obj): EventTarget(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object EffectiveType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DownlinkMax
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Downlink
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Rtt
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNode(obj)
 {
+    public object Buffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PlaybackRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Detune
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Loop
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LoopStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LoopEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

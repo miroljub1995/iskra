@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDataListElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Options
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

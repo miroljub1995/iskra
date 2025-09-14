@@ -9,7 +9,217 @@ namespace Iskra.StdWeb;
 
 public partial class Window(JSObject obj): EventTarget(obj)
 {
+    public object Window
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Self
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Document
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Location
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object History
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Navigation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CustomElements
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Locationbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Menubar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Personalbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Scrollbars
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Statusbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Toolbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Status
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Closed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Frames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Top
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Opener
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Parent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FrameElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Navigator
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClientInformation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OriginAgentCluster
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

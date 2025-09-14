@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class XRPermissionStatus(JSObject obj): PermissionStatus(obj)
 {
-
+    public object Granted
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

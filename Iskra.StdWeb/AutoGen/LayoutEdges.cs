@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
 {
+    public object InlineStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object InlineEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Inline
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Block
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

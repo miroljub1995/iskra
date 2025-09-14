@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
 {
+    public object Candidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

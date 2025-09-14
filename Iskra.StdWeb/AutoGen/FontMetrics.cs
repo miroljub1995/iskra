@@ -9,7 +9,117 @@ namespace Iskra.StdWeb;
 
 public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
 {
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Advances
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BoundingBoxLeft
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BoundingBoxRight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EmHeightAscent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EmHeightDescent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BoundingBoxAscent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BoundingBoxDescent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FontBoundingBoxAscent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FontBoundingBoxDescent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DominantBaseline
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Baselines
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Fonts
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

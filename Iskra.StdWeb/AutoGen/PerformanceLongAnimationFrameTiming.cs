@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceLongAnimationFrameTiming(JSObject obj): PerformanceEntry(obj)
 {
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EntryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RenderStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StyleAndLayoutStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockingDuration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FirstUIEventTimestamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Scripts
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

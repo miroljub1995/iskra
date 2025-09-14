@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ObjectStore
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object KeyPath
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MultiEntry
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Unique
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

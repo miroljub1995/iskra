@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class Baseline(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

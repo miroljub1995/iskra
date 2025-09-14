@@ -9,7 +9,57 @@ namespace Iskra.StdWeb;
 
 public partial class HIDDevice(JSObject obj): EventTarget(obj)
 {
+    public object Oninputreport
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Opened
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VendorId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ProductId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ProductName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Collections
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

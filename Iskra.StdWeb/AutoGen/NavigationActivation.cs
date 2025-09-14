@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
 {
+    public object From
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Entry
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NavigationType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTitleElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

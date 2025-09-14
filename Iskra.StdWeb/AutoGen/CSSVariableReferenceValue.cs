@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
 {
+    public object Variable
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Fallback
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

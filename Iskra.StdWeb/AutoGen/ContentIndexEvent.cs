@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class ContentIndexEvent(JSObject obj): ExtendableEvent(obj)
 {
-
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

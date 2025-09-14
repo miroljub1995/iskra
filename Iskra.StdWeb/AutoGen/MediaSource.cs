@@ -9,7 +9,93 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSource(JSObject obj): EventTarget(obj)
 {
+    public object Handle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SourceBuffers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ActiveSourceBuffers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsourceopen
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsourceended
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsourceclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CanConstructInDedicatedWorker
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

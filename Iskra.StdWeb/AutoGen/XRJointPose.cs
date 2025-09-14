@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointPose(JSObject obj): XRPose(obj)
 {
-
+    public object Radius
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

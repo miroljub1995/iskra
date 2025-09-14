@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
 {
+    public object HasOrientation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object HasPosition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Position
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LinearVelocity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LinearAcceleration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Orientation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AngularVelocity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AngularAcceleration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

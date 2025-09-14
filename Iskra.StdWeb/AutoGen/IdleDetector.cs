@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class IdleDetector(JSObject obj): EventTarget(obj)
 {
+    public object UserState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ScreenState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

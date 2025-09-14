@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenDetails(JSObject obj): EventTarget(obj)
 {
+    public object Screens
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CurrentScreen
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onscreenschange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncurrentscreenchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

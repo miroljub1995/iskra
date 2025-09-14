@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
 {
+    public object DropEffect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object EffectAllowed
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Items
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Types
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Files
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

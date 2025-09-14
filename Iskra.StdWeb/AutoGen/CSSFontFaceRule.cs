@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFaceRule(JSObject obj): CSSRule(obj)
 {
-
+    public object Style
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

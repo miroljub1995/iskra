@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class MimeType(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Description
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Suffixes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EnabledPlugin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,109 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
 {
+    public object Ready
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Reliability
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CongestionControl
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AnticipatedConcurrentIncomingUnidirectionalStreams
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AnticipatedConcurrentIncomingBidirectionalStreams
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Closed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Draining
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Datagrams
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IncomingBidirectionalStreams
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IncomingUnidirectionalStreams
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SupportsReliableOnly
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

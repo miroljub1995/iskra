@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Description
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

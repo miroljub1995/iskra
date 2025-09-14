@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
 {
+    public object CssText
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ParentRule
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

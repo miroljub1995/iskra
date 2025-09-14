@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
 {
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DelegatesFocus
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SlotAssignment
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Clonable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Serializable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Host
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onslotchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(obj)
 {
+    public object CurrentFrame
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CurrentTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SampleRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RenderQuantumSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

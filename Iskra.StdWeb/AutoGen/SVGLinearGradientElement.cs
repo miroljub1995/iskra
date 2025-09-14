@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(obj)
 {
+    public object X1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object X2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Y2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

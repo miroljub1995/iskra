@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
 {
+    public object Session
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PredictedDisplayTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

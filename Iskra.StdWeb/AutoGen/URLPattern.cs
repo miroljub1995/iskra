@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
 {
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Username
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Password
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Hostname
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Pathname
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Search
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Hash
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object HasRegExpGroups
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

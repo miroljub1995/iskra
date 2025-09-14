@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourceEvent(JSObject obj): Event(obj)
 {
+    public object Frame
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object InputSource
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

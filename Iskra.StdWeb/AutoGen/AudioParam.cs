@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AutomationRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MinValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

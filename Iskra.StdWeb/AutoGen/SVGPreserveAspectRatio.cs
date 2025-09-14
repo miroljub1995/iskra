@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
 {
+    public object Align
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MeetOrSlice
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointSpace(JSObject obj): XRSpace(obj)
 {
-
+    public object JointName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

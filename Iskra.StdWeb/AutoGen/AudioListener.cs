@@ -9,7 +9,77 @@ namespace Iskra.StdWeb;
 
 public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
 {
+    public object PositionX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PositionY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PositionZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ForwardX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ForwardY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ForwardZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UpX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UpY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UpZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

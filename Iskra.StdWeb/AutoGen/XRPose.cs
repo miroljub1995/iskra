@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class XRPose(JSObject obj): JSObjectProxy(obj)
 {
+    public object Transform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object LinearVelocity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AngularVelocity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EmulatedPosition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

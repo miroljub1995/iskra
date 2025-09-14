@@ -9,7 +9,97 @@ namespace Iskra.StdWeb;
 
 public partial class VisualViewport(JSObject obj): EventTarget(obj)
 {
+    public object OffsetLeft
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OffsetTop
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PageLeft
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PageTop
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Scale
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onresize
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onscroll
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onscrollend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

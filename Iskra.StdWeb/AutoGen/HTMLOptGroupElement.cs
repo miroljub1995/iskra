@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
 {
+    public object Disabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

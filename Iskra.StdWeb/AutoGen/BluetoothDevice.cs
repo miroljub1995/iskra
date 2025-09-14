@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Gatt
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WatchingAdvertisements
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

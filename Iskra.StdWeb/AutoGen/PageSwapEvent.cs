@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PageSwapEvent(JSObject obj): Event(obj)
 {
+    public object Activation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ViewTransition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

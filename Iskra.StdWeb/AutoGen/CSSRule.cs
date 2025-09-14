@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
 {
+    public object CssText
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ParentRule
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ParentStyleSheet
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

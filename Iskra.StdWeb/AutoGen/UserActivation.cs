@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
 {
+    public object HasBeenActive
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IsActive
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class TextUpdateEvent(JSObject obj): Event(obj)
 {
+    public object UpdateRangeStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UpdateRangeEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SelectionStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SelectionEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

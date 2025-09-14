@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
 {
-
+    public object Onended
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

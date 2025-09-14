@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
 {
+    public object P1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object P2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object P3
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object P4
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

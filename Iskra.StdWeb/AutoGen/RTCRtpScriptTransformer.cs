@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
 {
+    public object Readable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Writable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onkeyframerequest
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Options
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

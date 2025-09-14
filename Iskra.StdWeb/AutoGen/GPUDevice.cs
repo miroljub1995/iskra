@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class GPUDevice(JSObject obj): EventTarget(obj)
 {
+    public object Features
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Limits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AdapterInfo
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Queue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

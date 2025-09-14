@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PressureObserver(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object KnownSources
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

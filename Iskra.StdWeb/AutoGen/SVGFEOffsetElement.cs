@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Dx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Dy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

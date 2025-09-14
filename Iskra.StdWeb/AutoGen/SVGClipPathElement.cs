@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
 {
+    public object ClipPathUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Transform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class History(JSObject obj): JSObjectProxy(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ScrollRestoration
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

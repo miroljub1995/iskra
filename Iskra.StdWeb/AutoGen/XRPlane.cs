@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
 {
+    public object PlaneSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Polygon
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Orientation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LastChangedTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SemanticLabel
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(obj)
 {
+    public object Cx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Cy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object R
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Fx
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Fy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Fr
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

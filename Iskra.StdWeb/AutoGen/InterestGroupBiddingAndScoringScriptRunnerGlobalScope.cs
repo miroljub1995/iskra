@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObject obj): InterestGroupScriptRunnerGlobalScope(obj)
 {
+    public object ForDebuggingOnly
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RealTimeReporting
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

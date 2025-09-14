@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
 {
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PseudoElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Composite
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

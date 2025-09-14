@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class Credential(JSObject obj): JSObjectProxy(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLBinding(JSObject obj): JSObjectProxy(obj)
 {
+    public object NativeProjectionScaleFactor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UsesDepthValues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

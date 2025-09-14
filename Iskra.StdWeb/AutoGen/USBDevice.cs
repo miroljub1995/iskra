@@ -9,7 +9,141 @@ namespace Iskra.StdWeb;
 
 public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
 {
+    public object UsbVersionMajor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UsbVersionMinor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UsbVersionSubminor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeviceClass
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeviceSubclass
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeviceProtocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VendorId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ProductId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeviceVersionMajor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeviceVersionMinor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeviceVersionSubminor
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ManufacturerName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ProductName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SerialNumber
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Configuration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Configurations
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Opened
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

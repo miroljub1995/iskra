@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
 {
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EntryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContainerType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContainerSrc
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContainerId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContainerName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

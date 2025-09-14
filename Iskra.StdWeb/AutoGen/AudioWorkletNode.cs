@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
 {
+    public object Parameters
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onprocessorerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

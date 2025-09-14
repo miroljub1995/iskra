@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTrackEvent(JSObject obj): Event(obj)
 {
+    public object Receiver
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Track
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Streams
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Transceiver
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

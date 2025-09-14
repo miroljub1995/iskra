@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
 {
+    public object RecordType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MediaType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Encoding
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Lang
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,85 @@ namespace Iskra.StdWeb;
 
 public partial class Document(JSObject obj): Node(obj)
 {
+    public object Implementation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object URL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DocumentURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CompatMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CharacterSet
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Charset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InputEncoding
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContentType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Doctype
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DocumentElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

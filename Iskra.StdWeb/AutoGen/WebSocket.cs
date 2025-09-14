@@ -9,7 +9,105 @@ namespace Iskra.StdWeb;
 
 public partial class WebSocket(JSObject obj): EventTarget(obj)
 {
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BufferedAmount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onopen
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Extensions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BinaryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,85 @@ namespace Iskra.StdWeb;
 
 public partial class BatteryManager(JSObject obj): EventTarget(obj)
 {
+    public object Charging
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ChargingTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DischargingTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Level
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onchargingchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onchargingtimechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ondischargingtimechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onlevelchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

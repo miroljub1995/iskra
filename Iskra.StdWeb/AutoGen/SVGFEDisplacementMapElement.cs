@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object In2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Scale
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object XChannelSelector
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object YChannelSelector
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

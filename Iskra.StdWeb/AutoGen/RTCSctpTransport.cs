@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
 {
+    public object Transport
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxMessageSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxChannels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

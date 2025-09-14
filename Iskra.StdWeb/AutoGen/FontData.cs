@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class FontData(JSObject obj): JSObjectProxy(obj)
 {
+    public object PostscriptName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FullName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Family
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Style
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

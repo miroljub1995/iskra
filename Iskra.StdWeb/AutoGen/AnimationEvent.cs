@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationEvent(JSObject obj): Event(obj)
 {
+    public object AnimationName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ElapsedTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PseudoElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

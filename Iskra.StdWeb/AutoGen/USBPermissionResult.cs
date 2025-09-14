@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class USBPermissionResult(JSObject obj): PermissionStatus(obj)
 {
-
+    public object Devices
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

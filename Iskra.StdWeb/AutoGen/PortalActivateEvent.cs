@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PortalActivateEvent(JSObject obj): Event(obj)
 {
-
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

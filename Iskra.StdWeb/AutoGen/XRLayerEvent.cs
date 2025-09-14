@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRLayerEvent(JSObject obj): Event(obj)
 {
-
+    public object Layer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

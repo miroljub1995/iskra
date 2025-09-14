@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
 {
+    public object In1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object In2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Operator
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object K1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object K2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object K3
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object K4
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

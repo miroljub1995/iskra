@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class XRLightProbe(JSObject obj): EventTarget(obj)
 {
+    public object ProbeSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onreflectionchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

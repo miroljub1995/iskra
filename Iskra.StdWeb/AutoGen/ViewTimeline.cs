@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
 {
+    public object Subject
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object StartOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EndOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

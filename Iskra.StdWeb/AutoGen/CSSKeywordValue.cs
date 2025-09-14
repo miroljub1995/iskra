@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class CSSKeywordValue(JSObject obj): CSSStyleValue(obj)
 {
-
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

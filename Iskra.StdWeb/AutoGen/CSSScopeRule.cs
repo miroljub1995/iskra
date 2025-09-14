@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
 {
+    public object Start
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object End
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableSectionElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Rows
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

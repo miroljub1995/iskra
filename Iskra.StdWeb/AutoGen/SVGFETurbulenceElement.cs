@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
 {
+    public object BaseFrequencyX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object BaseFrequencyY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NumOctaves
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Seed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StitchTiles
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

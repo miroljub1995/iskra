@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
 {
+    public object IsFile
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IsDirectory
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FullPath
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Filesystem
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceMeasure(JSObject obj): PerformanceEntry(obj)
 {
-
+    public object Detail
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

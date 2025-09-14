@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
 {
+    public object Pending
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Speaking
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Paused
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onvoiceschanged
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

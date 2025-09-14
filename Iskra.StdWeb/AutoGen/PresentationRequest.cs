@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationRequest(JSObject obj): EventTarget(obj)
 {
-
+    public object Onconnectionavailable
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

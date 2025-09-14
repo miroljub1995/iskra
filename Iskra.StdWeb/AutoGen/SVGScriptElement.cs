@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CrossOrigin
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

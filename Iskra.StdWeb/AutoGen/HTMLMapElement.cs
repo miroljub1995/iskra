@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Areas
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

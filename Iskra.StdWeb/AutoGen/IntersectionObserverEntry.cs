@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
 {
+    public object Time
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RootBounds
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BoundingClientRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IntersectionRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsIntersecting
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsVisible
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IntersectionRatio
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

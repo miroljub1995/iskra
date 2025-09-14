@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
 {
+    public object ErrorType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object KeyID
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Frame
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

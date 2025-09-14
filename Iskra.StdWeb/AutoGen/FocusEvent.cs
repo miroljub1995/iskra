@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class FocusEvent(JSObject obj): UIEvent(obj)
 {
-
+    public object RelatedTarget
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

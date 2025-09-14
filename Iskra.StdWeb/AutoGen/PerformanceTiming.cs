@@ -9,7 +9,173 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
 {
+    public object NavigationStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UnloadEventStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UnloadEventEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RedirectStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RedirectEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FetchStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomainLookupStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomainLookupEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConnectStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConnectEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SecureConnectionStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RequestStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomLoading
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomInteractive
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomContentLoadedEventStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomContentLoadedEventEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomComplete
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LoadEventStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LoadEventEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

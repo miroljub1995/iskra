@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
 {
+    public object Handedness
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TargetRayMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TargetRaySpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object GripSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Profiles
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SkipRendering
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

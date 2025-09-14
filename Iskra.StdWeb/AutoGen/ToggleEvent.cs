@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class ToggleEvent(JSObject obj): Event(obj)
 {
+    public object OldState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object NewState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

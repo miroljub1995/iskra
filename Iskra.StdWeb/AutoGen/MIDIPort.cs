@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIPort(JSObject obj): EventTarget(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Manufacturer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Version
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Connection
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

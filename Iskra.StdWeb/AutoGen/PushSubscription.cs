@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
 {
+    public object Endpoint
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ExpirationTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Options
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

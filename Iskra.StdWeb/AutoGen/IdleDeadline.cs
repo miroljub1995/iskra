@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class IdleDeadline(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object DidTimeout
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

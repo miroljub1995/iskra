@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
 {
+    public object ProcessingStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ProcessingEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Cancelable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Target
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InteractionId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

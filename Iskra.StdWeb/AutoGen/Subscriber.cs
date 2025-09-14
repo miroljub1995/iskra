@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
 {
+    public object Active
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Signal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

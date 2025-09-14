@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class MediaDevices(JSObject obj): EventTarget(obj)
 {
-
+    public object Ondevicechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

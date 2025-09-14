@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class ProximitySensor(JSObject obj): Sensor(obj)
 {
+    public object Distance
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Max
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Near
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

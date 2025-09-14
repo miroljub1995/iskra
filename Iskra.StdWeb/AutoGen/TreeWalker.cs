@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
 {
+    public object Root
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object WhatToShow
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Filter
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

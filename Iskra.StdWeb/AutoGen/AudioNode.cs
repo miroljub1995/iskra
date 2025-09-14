@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class AudioNode(JSObject obj): EventTarget(obj)
 {
+    public object Context
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object NumberOfInputs
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NumberOfOutputs
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ChannelCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ChannelCountMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ChannelInterpretation
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

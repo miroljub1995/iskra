@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
 {
+    public object Position
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Orientation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Matrix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Inverse
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

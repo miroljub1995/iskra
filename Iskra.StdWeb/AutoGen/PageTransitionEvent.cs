@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PageTransitionEvent(JSObject obj): Event(obj)
 {
-
+    public object Persisted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

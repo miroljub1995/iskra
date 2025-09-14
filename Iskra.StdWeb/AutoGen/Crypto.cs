@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class Crypto(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Subtle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

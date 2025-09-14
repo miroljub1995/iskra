@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class CloseWatcher(JSObject obj): EventTarget(obj)
 {
+    public object Oncancel
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

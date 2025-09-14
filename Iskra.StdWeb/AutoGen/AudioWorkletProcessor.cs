@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletProcessor(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

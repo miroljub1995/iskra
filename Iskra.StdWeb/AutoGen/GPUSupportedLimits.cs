@@ -9,7 +9,253 @@ namespace Iskra.StdWeb;
 
 public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
 {
+    public object MaxTextureDimension1D
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MaxTextureDimension2D
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxTextureDimension3D
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxTextureArrayLayers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxBindGroups
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxBindGroupsPlusVertexBuffers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxBindingsPerBindGroup
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxDynamicUniformBuffersPerPipelineLayout
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxDynamicStorageBuffersPerPipelineLayout
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxSampledTexturesPerShaderStage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxSamplersPerShaderStage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxStorageBuffersPerShaderStage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxStorageTexturesPerShaderStage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxUniformBuffersPerShaderStage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxUniformBufferBindingSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxStorageBufferBindingSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MinUniformBufferOffsetAlignment
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MinStorageBufferOffsetAlignment
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxVertexBuffers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxBufferSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxVertexAttributes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxVertexBufferArrayStride
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxInterStageShaderVariables
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxColorAttachments
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxColorAttachmentBytesPerSample
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxComputeWorkgroupStorageSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxComputeInvocationsPerWorkgroup
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxComputeWorkgroupSizeX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxComputeWorkgroupSizeY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxComputeWorkgroupSizeZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxComputeWorkgroupsPerDimension
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

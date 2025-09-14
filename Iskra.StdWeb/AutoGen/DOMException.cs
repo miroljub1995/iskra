@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class DOMException(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Message
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Code
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProxy(obj)
 {
+    public object Readable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Writable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

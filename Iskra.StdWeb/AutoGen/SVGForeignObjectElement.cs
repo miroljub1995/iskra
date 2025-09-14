@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(obj)
 {
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

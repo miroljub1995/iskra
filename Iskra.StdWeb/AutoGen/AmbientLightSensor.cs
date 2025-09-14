@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class AmbientLightSensor(JSObject obj): Sensor(obj)
 {
-
+    public object Illuminance
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

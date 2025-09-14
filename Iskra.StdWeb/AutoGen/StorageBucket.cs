@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IndexedDB
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Caches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

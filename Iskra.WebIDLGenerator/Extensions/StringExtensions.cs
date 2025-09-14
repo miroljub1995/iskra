@@ -17,4 +17,19 @@ public static class StringExtensions
 
         return res;
     }
+
+    public static string CapitalizeFirstLetter(this string input)
+    {
+        if (string.IsNullOrEmpty(input))
+        {
+            return input;
+        }
+
+        if (input.Length == 1)
+        {
+            return char.ToUpper(input[0]).ToString();
+        }
+
+        return char.ToUpper(input[0]) + input[1..];
+    }
 }

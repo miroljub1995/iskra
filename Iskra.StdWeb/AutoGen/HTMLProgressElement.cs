@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Max
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Position
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Labels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

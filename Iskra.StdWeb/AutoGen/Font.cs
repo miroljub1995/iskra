@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class Font(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object GlyphsRendered
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

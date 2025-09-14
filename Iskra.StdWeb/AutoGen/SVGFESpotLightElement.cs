@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
 {
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Z
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PointsAtX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PointsAtY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PointsAtZ
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SpecularExponent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LimitingConeAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

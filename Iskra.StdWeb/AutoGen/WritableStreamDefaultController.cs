@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class WritableStreamDefaultController(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Signal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

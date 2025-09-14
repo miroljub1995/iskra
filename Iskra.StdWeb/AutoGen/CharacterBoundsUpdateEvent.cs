@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CharacterBoundsUpdateEvent(JSObject obj): Event(obj)
 {
+    public object RangeStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RangeEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

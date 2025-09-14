@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class StereoPannerNode(JSObject obj): AudioNode(obj)
 {
-
+    public object Pan
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

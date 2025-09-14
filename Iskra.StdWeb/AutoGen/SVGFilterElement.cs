@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
 {
+    public object FilterUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PrimitiveUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

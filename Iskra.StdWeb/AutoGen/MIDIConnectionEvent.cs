@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIConnectionEvent(JSObject obj): Event(obj)
 {
-
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class DataCue(JSObject obj): TextTrackCue(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

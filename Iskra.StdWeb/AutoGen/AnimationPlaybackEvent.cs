@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationPlaybackEvent(JSObject obj): Event(obj)
 {
+    public object CurrentTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TimelineTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
 {
+    public object Config
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Sandbox
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Allow
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
 {
+    public object Children
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FirstChild
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LastChild
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

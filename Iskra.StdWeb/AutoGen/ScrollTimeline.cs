@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
 {
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Axis
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
 {
+    public object Device
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Uuid
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsPrimary
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

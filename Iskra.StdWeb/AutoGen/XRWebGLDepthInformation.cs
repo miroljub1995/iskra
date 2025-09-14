@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(obj)
 {
+    public object Texture
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TextureType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ImageIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
 {
+    public object TopOrigin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PaymentRequestOrigin
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PaymentRequestId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MethodData
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Total
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Modifiers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PaymentOptions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShippingOptions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

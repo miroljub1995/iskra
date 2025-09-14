@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
 {
+    public object Format
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CodedWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CodedHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CodedRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VisibleRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Rotation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Flip
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DisplayWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DisplayHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Timestamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ColorSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

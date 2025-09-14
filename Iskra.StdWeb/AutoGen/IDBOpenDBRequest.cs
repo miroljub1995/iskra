@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
 {
+    public object Onblocked
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onupgradeneeded
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

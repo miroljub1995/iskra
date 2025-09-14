@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class FetchLaterResult(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Activated
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

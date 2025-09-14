@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
 {
+    public object BreakType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Child
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

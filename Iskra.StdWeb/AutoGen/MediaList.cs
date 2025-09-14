@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class MediaList(JSObject obj): JSObjectProxy(obj)
 {
+    public object MediaText
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

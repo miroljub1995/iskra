@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisErrorEvent(JSObject obj): SpeechSynthesisEvent(obj)
 {
-
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

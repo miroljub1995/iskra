@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class CSSUnitValue(JSObject obj): CSSNumericValue(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Unit
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

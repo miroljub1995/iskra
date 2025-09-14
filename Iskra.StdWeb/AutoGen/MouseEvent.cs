@@ -9,7 +9,109 @@ namespace Iskra.StdWeb;
 
 public partial class MouseEvent(JSObject obj): UIEvent(obj)
 {
+    public object ScreenX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ScreenY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClientX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ClientY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LayerX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LayerY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CtrlKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShiftKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AltKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MetaKey
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Button
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Buttons
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RelatedTarget
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

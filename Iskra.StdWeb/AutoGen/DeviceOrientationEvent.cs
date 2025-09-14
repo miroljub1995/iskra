@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
 {
+    public object Alpha
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Beta
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Gamma
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Absolute
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

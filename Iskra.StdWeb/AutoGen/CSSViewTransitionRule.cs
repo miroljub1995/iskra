@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSViewTransitionRule(JSObject obj): CSSRule(obj)
 {
+    public object Navigation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Types
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class Sensor(JSObject obj): EventTarget(obj)
 {
+    public object Activated
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object HasReading
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Timestamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onreading
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onactivate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

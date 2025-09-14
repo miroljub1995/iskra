@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class Instance(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Exports
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

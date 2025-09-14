@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Style
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

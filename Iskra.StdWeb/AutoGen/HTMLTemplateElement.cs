@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
 {
+    public object Content
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ShadowRootMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShadowRootDelegatesFocus
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShadowRootClonable
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShadowRootSerializable
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShadowRootCustomElementRegistry
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
 {
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object HadRecentInput
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LastInputTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Sources
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

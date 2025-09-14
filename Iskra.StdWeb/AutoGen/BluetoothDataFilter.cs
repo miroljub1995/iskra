@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
 {
+    public object DataPrefix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Mask
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

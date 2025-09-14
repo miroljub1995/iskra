@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class BlobEvent(JSObject obj): Event(obj)
 {
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Timecode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

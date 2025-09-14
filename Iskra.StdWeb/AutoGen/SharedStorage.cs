@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorage(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Worklet
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

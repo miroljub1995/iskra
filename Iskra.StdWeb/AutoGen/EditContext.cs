@@ -9,7 +9,97 @@ namespace Iskra.StdWeb;
 
 public partial class EditContext(JSObject obj): EventTarget(obj)
 {
+    public object Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SelectionStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SelectionEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CharacterBoundsRangeStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ontextupdate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ontextformatupdate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncharacterboundsupdate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncompositionstart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncompositionend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

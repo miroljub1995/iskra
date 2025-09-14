@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorManagedData(JSObject obj): EventTarget(obj)
 {
-
+    public object Onmanagedconfigurationchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

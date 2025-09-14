@@ -9,7 +9,133 @@ namespace Iskra.StdWeb;
 
 public partial class Request(JSObject obj): JSObjectProxy(obj)
 {
+    public object Method
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Headers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Destination
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Referrer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReferrerPolicy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Credentials
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Cache
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Redirect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Integrity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Keepalive
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsReloadNavigation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsHistoryNavigation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Signal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duplex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

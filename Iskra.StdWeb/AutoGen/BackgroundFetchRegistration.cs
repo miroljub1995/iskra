@@ -9,7 +9,81 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object UploadTotal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Uploaded
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DownloadTotal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Downloaded
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Result
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FailureReason
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RecordsAvailable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onprogress
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

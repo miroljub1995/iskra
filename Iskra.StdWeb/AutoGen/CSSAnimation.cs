@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CSSAnimation(JSObject obj): Animation(obj)
 {
-
+    public object AnimationName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

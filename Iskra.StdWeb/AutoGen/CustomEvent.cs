@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CustomEvent(JSObject obj): Event(obj)
 {
-
+    public object Detail
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

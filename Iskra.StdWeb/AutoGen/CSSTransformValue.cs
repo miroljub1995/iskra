@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransformValue(JSObject obj): CSSStyleValue(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Is2D
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

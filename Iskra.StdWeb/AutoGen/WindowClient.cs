@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class WindowClient(JSObject obj): Client(obj)
 {
+    public object VisibilityState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Focused
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AncestorOrigins
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

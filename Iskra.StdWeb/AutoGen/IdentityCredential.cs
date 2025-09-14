@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredential(JSObject obj): Credential(obj)
 {
+    public object Token
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object IsAutoSelected
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConfigURL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

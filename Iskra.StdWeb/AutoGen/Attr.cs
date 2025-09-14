@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class Attr(JSObject obj): Node(obj)
 {
+    public object NamespaceURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Prefix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LocalName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OwnerElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Specified
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

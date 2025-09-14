@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceMotionEvent(JSObject obj): Event(obj)
 {
+    public object Acceleration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AccelerationIncludingGravity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RotationRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Interval
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

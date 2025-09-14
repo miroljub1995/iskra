@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
 {
+    public object KeyText
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Style
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentManager(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object UserHint
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

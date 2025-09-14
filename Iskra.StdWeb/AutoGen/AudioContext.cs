@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
 {
+    public object BaseLatency
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OutputLatency
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SinkId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsinkchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

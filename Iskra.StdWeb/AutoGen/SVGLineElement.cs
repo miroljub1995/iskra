@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
 {
+    public object X1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object X2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Y2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

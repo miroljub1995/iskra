@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class NamedFlow(JSObject obj): EventTarget(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Overset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FirstEmptyRegionIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
 {
+    public object SampleRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NumberOfChannels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

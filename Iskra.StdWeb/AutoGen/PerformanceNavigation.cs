@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RedirectCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

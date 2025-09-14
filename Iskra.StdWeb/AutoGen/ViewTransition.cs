@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
 {
+    public object UpdateCallbackDone
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Ready
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Finished
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Types
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

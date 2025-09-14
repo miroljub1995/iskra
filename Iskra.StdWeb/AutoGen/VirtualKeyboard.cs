@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
 {
+    public object BoundingRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OverlaysContent
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ongeometrychange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

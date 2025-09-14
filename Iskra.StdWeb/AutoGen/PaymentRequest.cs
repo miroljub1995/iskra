@@ -9,7 +9,73 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequest(JSObject obj): EventTarget(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ShippingAddress
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShippingOption
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ShippingType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onshippingaddresschange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onshippingoptionchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onpaymentmethodchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

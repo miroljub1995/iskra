@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSlotElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

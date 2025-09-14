@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class TrackEvent(JSObject obj): Event(obj)
 {
-
+    public object Track
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

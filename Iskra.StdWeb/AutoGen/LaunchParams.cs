@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
 {
+    public object TargetURL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Files
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

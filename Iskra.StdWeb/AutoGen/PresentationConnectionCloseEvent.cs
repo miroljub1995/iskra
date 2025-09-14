@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
 {
+    public object Reason
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Message
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

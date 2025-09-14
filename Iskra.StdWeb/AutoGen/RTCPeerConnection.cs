@@ -9,7 +9,177 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
 {
+    public object LocalDescription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object CurrentLocalDescription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PendingLocalDescription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RemoteDescription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentRemoteDescription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PendingRemoteDescription
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SignalingState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IceGatheringState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IceConnectionState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConnectionState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CanTrickleIceCandidates
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onnegotiationneeded
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onicecandidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onicecandidateerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsignalingstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oniceconnectionstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onicegatheringstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onconnectionstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

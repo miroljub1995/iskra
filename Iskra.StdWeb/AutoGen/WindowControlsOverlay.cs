@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class WindowControlsOverlay(JSObject obj): EventTarget(obj)
 {
+    public object Visible
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Ongeometrychange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

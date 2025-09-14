@@ -9,7 +9,125 @@ namespace Iskra.StdWeb;
 
 public partial class Node(JSObject obj): EventTarget(obj)
 {
+    public object NodeType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object NodeName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BaseURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsConnected
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OwnerDocument
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ParentNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ParentElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ChildNodes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FirstChild
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LastChild
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PreviousSibling
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NextSibling
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NodeValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TextContent
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

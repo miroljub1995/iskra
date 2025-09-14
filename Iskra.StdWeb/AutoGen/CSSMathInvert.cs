@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathInvert(JSObject obj): CSSMathValue(obj)
 {
-
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

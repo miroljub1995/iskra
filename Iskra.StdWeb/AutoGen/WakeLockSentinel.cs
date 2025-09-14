@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
 {
+    public object Released
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onrelease
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

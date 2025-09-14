@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
 {
+    public object TargetElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onbegin
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onrepeat
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

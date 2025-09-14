@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
 {
+    public object ConfigurationValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ConfigurationName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Interfaces
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

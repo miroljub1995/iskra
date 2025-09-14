@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class AnalyserNode(JSObject obj): AudioNode(obj)
 {
+    public object FftSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FrequencyBinCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MinDecibels
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxDecibels
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SmoothingTimeConstant
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

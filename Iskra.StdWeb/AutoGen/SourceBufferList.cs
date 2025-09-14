@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBufferList(JSObject obj): EventTarget(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onaddsourcebuffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onremovesourcebuffer
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

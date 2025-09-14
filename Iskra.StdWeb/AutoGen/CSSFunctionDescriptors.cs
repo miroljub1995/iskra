@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionDescriptors(JSObject obj): CSSStyleDeclaration(obj)
 {
-
+    public object Result
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

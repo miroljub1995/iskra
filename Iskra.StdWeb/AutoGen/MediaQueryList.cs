@@ -9,7 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class MediaQueryList(JSObject obj): EventTarget(obj)
 {
+    public object Media
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Matches
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

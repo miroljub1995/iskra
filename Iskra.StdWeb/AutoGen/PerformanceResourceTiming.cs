@@ -9,7 +9,197 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(obj)
 {
+    public object InitiatorType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DeliveryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NextHopProtocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WorkerStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RedirectStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RedirectEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FetchStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomainLookupStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DomainLookupEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConnectStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ConnectEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SecureConnectionStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RequestStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FinalResponseHeadersStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FirstInterimResponseStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TransferSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EncodedBodySize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DecodedBodySize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ResponseStatus
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RenderBlockingStatus
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContentType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ContentEncoding
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

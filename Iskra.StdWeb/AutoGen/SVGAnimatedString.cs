@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedString(JSObject obj): JSObjectProxy(obj)
 {
+    public object BaseVal
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AnimVal
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

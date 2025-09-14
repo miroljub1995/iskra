@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
 {
+    public object Azimuth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Elevation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

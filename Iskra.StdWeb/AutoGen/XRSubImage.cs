@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRSubImage(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Viewport
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

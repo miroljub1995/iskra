@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class SnapEvent(JSObject obj): Event(obj)
 {
+    public object SnapTargetBlock
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SnapTargetInline
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

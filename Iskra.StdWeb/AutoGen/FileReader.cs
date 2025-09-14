@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class FileReader(JSObject obj): EventTarget(obj)
 {
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Result
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onloadstart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onprogress
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onload
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onabort
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onloadend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

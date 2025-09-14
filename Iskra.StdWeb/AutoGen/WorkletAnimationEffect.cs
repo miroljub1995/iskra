@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletAnimationEffect(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object LocalTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

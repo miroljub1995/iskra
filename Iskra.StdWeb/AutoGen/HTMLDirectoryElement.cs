@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDirectoryElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Compact
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

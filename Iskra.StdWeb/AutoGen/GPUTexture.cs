@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
 {
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DepthOrArrayLayers
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MipLevelCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SampleCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Dimension
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Format
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Usage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

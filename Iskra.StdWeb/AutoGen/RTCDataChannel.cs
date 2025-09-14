@@ -9,7 +9,173 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
 {
+    public object Label
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Ordered
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxPacketLifeTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MaxRetransmits
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Negotiated
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BufferedAmount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BufferedAmountLowThreshold
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onopen
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onbufferedamountlow
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onclosing
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BinaryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

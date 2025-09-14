@@ -9,7 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class PreferenceObject(JSObject obj): EventTarget(obj)
 {
+    public object Override
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ValidValues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

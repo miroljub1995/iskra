@@ -9,7 +9,69 @@ namespace Iskra.StdWeb;
 
 public partial class Selection(JSObject obj): JSObjectProxy(obj)
 {
+    public object AnchorNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AnchorOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FocusNode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FocusOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsCollapsed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RangeCount
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Direction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

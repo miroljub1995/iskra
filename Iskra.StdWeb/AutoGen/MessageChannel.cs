@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
 {
+    public object Port1
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Port2
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

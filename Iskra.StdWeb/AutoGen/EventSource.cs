@@ -9,7 +9,65 @@ namespace Iskra.StdWeb;
 
 public partial class EventSource(JSObject obj): EventTarget(obj)
 {
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object WithCredentials
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onopen
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

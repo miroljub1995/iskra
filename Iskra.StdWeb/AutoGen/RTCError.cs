@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class RTCError(JSObject obj): DOMException(obj)
 {
+    public object ErrorDetail
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SdpLineNumber
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SctpCauseCode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReceivedAlert
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SentAlert
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

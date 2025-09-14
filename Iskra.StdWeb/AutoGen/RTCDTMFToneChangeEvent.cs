@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDTMFToneChangeEvent(JSObject obj): Event(obj)
 {
-
+    public object Tone
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

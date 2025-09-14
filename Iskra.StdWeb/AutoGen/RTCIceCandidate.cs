@@ -9,7 +9,133 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
 {
+    public object Candidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SdpMid
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SdpMLineIndex
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Foundation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Component
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Priority
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Address
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Port
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TcpType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RelatedAddress
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RelatedPort
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object UsernameFragment
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RelayProtocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

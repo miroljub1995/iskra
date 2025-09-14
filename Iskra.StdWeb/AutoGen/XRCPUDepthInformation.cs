@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRCPUDepthInformation(JSObject obj): XRDepthInformation(obj)
 {
-
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

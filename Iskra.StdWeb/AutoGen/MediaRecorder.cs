@@ -9,7 +9,125 @@ namespace Iskra.StdWeb;
 
 public partial class MediaRecorder(JSObject obj): EventTarget(obj)
 {
+    public object Stream
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MimeType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object State
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onstop
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ondataavailable
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onpause
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onresume
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VideoBitsPerSecond
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AudioBitsPerSecond
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AudioBitrateMode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

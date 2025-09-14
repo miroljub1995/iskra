@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SubmitEvent(JSObject obj): Event(obj)
 {
-
+    public object Submitter
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

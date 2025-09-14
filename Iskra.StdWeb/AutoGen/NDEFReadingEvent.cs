@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFReadingEvent(JSObject obj): Event(obj)
 {
+    public object SerialNumber
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Message
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

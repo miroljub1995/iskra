@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
 {
+    public object TextureWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TextureHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TextureArrayLength
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IgnoreDepthValues
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object FixedFoveation
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DeltaPose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

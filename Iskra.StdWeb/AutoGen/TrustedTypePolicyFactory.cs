@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
 {
+    public object EmptyHTML
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object EmptyScript
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultPolicy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class CloseEvent(JSObject obj): Event(obj)
 {
+    public object WasClean
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Code
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Reason
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,93 @@ namespace Iskra.StdWeb;
 
 public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
 {
+    public object ValueMissing
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object TypeMismatch
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PatternMismatch
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TooLong
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TooShort
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RangeUnderflow
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RangeOverflow
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StepMismatch
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BadInput
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CustomError
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Valid
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,197 @@ namespace Iskra.StdWeb;
 
 public partial class Notification(JSObject obj): EventTarget(obj)
 {
+    public object Permission
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MaxActions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onclick
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onshow
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Title
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Dir
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Lang
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Body
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Navigate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Tag
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Image
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Icon
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Badge
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Vibrate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Timestamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Renotify
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Silent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RequireInteraction
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Actions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

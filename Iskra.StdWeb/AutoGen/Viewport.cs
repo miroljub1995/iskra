@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class Viewport(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object Segments
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

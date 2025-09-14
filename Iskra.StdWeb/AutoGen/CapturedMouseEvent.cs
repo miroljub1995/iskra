@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CapturedMouseEvent(JSObject obj): Event(obj)
 {
+    public object SurfaceX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SurfaceY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

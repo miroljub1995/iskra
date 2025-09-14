@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class Plugin(JSObject obj): JSObjectProxy(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Description
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Filename
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

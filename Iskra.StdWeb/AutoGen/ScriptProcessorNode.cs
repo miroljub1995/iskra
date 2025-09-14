@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
 {
+    public object Onaudioprocess
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object BufferSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

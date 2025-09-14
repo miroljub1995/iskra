@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
 {
+    public object OldVersion
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object NewVersion
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

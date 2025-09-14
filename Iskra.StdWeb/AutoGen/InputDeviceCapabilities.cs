@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
 {
+    public object FiresTouchEvents
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PointerMovementScrolls
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

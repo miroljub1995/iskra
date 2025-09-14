@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class XRViewerPose(JSObject obj): XRPose(obj)
 {
-
+    public object Views
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadEvent(JSObject obj): Event(obj)
 {
-
+    public object Gamepad
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

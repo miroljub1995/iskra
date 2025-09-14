@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class MediaElementAudioSourceNode(JSObject obj): AudioNode(obj)
 {
-
+    public object MediaElement
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class XRView(JSObject obj): JSObjectProxy(obj)
 {
+    public object Eye
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RecommendedViewportScale
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

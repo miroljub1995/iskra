@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
 {
+    public object Mid
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Sender
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Receiver
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Direction
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentDirection
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

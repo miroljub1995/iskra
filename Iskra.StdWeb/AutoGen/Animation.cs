@@ -9,7 +9,129 @@ namespace Iskra.StdWeb;
 
 public partial class Animation(JSObject obj): EventTarget(obj)
 {
+    public object Id
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Effect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Timeline
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PlaybackRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PlayState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReplaceState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Pending
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ready
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Finished
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onfinish
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oncancel
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onremove
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

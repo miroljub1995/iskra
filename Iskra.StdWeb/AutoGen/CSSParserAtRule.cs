@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Prelude
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Body
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
 {
+    public object Streaming
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Onstartstreaming
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onendstreaming
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

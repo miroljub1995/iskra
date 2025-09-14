@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportError(JSObject obj): DOMException(obj)
 {
+    public object Source
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object StreamErrorCode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

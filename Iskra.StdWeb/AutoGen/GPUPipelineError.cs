@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class GPUPipelineError(JSObject obj): DOMException(obj)
 {
-
+    public object Reason
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

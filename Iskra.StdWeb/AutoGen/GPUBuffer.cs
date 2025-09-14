@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
 {
+    public object Size
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Usage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object MapState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

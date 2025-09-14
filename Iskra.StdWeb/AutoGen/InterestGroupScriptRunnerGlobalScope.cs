@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjectProxy(obj)
 {
+    public object PrivateAggregation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object ProtectedAudience
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

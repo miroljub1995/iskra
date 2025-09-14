@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
 {
+    public object ReferenceSpace
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Transform
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

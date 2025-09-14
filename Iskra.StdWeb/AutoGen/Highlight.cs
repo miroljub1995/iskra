@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class Highlight(JSObject obj): JSObjectProxy(obj)
 {
+    public object Priority
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

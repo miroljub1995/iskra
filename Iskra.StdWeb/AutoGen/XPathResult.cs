@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
 {
+    public object ResultType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object NumberValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StringValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BooleanValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SingleNodeValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InvalidIteratorState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SnapshotLength
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

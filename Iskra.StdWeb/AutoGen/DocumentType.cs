@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentType(JSObject obj): Node(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PublicId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SystemId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

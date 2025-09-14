@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdateEvent(obj)
 {
+    public object MethodName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object MethodDetails
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

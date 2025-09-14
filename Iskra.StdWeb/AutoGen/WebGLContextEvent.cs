@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLContextEvent(JSObject obj): Event(obj)
 {
-
+    public object StatusMessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

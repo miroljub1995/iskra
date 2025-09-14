@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeySystemAccess(JSObject obj): JSObjectProxy(obj)
 {
-
+    public object KeySystem
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

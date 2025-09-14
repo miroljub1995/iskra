@@ -9,7 +9,49 @@ namespace Iskra.StdWeb;
 
 public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
 {
+    public object Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Frequency
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Detune
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Q
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Gain
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

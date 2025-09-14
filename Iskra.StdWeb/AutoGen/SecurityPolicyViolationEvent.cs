@@ -9,7 +9,101 @@ namespace Iskra.StdWeb;
 
 public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
 {
+    public object DocumentURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Referrer
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockedURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EffectiveDirective
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ViolatedDirective
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object OriginalPolicy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SourceFile
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Sample
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Disposition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StatusCode
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object LineNumber
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ColumnNumber
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

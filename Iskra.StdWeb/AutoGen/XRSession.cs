@@ -9,7 +9,189 @@ namespace Iskra.StdWeb;
 
 public partial class XRSession(JSObject obj): EventTarget(obj)
 {
+    public object VisibilityState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object FrameRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SupportedFrameRates
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RenderState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InputSources
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TrackedSources
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EnabledFeatures
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsSystemKeyboardSupported
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Oninputsourceschange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onselect
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onselectstart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onselectend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsqueeze
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsqueezestart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onsqueezeend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onvisibilitychange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onframeratechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGlobalScope(obj)
 {
+    public object SharedStorage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PrivateAggregation
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Navigator
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

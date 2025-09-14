@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
 {
+    public object Device
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Connected
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

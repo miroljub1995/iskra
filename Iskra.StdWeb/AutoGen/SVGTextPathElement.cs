@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj)
 {
+    public object StartOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Method
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Spacing
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

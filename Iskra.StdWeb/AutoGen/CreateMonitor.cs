@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class CreateMonitor(JSObject obj): EventTarget(obj)
 {
-
+    public object Ondownloadprogress
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

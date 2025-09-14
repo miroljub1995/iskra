@@ -9,7 +9,117 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj)
 {
+    public object StartTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object EntryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InvokerType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Invoker
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ExecutionStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SourceURL
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SourceFunctionName
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SourceCharPosition
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PauseDuration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ForcedStyleAndLayoutDuration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Window
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object WindowAttribution
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

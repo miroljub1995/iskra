@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSetLoadEvent(JSObject obj): Event(obj)
 {
-
+    public object Fontfaces
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

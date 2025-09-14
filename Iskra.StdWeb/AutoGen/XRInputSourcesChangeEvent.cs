@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
 {
+    public object Session
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Added
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Removed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

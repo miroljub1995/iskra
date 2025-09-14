@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class Screen(JSObject obj): JSObjectProxy(obj)
 {
+    public object AvailWidth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object AvailHeight
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ColorDepth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PixelDepth
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

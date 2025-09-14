@@ -9,7 +9,109 @@ namespace Iskra.StdWeb;
 
 public partial class PointerEvent(JSObject obj): MouseEvent(obj)
 {
+    public object PointerId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Width
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Pressure
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TangentialPressure
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TiltX
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TiltY
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Twist
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AltitudeAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AzimuthAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PointerType
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object IsPrimary
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PersistentDeviceId
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

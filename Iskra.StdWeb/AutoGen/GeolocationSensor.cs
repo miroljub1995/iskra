@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationSensor(JSObject obj): Sensor(obj)
 {
+    public object Latitude
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Longitude
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Altitude
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Accuracy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AltitudeAccuracy
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Heading
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Speed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

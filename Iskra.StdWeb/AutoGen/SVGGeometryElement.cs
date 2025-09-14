@@ -9,7 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGeometryElement(JSObject obj): SVGGraphicsElement(obj)
 {
-
+    public object PathLength
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
 {
+    public object Node
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object PreviousRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentRect
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

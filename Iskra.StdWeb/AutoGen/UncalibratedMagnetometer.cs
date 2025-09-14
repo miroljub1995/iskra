@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
 {
+    public object X
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Y
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Z
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object XBias
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object YBias
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ZBias
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

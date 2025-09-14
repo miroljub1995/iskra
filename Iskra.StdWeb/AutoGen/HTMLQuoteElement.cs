@@ -9,7 +9,17 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLQuoteElement(JSObject obj): HTMLElement(obj)
 {
-
+    public object Cite
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

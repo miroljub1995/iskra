@@ -9,7 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
 {
+    public object Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Oncomplete
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

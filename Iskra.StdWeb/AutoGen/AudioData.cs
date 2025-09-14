@@ -9,7 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class AudioData(JSObject obj): JSObjectProxy(obj)
 {
+    public object Format
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object SampleRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NumberOfFrames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NumberOfChannels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Timestamp
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

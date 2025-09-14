@@ -9,7 +9,45 @@ namespace Iskra.StdWeb;
 
 public partial class StorageEvent(JSObject obj): Event(obj)
 {
+    public object Key
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object OldValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NewValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Url
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object StorageArea
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

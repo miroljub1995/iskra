@@ -9,7 +9,153 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBuffer(JSObject obj): EventTarget(obj)
 {
+    public object Mode
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Updating
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Buffered
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TimestampOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AudioTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VideoTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TextTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AppendWindowStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AppendWindowEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onupdatestart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onupdate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onupdateend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Onabort
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

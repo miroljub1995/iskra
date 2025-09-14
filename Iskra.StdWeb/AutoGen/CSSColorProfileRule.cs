@@ -9,7 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class CSSColorProfileRule(JSObject obj): CSSRule(obj)
 {
+    public object Name
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Src
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object RenderingIntent
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Components
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

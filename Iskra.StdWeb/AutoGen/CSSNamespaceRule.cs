@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSNamespaceRule(JSObject obj): CSSRule(obj)
 {
+    public object NamespaceURI
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Prefix
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

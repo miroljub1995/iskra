@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
 {
+    public object Pressed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Touched
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

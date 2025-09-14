@@ -9,7 +9,61 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
 {
+    public object InlineSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object BlockSize
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object InlineOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BlockOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Data
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object BreakToken
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

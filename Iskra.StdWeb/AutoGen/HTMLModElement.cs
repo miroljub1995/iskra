@@ -9,7 +9,29 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
 {
+    public object Cite
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 
+    public object DateTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

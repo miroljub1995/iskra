@@ -9,7 +9,285 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
 {
+    public object Error
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Src
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object SrcObject
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentSrc
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CrossOrigin
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object NetworkState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Preload
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Buffered
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Seeking
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object CurrentTime
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Paused
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultPlaybackRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PlaybackRate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object PreservesPitch
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Played
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Seekable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Ended
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Autoplay
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Loop
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Controls
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Volume
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Muted
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object DefaultMuted
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object AudioTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object VideoTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public object TextTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

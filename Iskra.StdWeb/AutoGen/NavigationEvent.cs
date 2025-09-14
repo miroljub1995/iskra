@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationEvent(JSObject obj): UIEvent(obj)
 {
+    public object Dir
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object RelatedTarget
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable

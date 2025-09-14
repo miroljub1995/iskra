@@ -9,7 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
 {
+    public object Promise
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 
+    public object Reason
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
 }
 
 #nullable disable
