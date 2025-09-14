@@ -66,6 +66,8 @@ public class GenerateCommand : Command
                 var files = Directory.GetFiles(inputFullPath, "*.json", SearchOption.AllDirectories);
                 inputFiles.AddRange(files);
             }
+            
+            Directory.Delete(outputFullPath, true);
 
             foreach (var inputFile in inputFiles)
             {
