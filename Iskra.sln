@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.StdWeb.Tests.Runner",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.WebIDLGenerator", "Iskra.WebIDLGenerator\Iskra.WebIDLGenerator.csproj", "{AE70742E-395A-40A4-8796-445C8D7D39A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.JSCore", "Iskra.JSCore\Iskra.JSCore.csproj", "{23D00F9C-AA6E-4286-89E7-8B706877B29A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{AE70742E-395A-40A4-8796-445C8D7D39A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE70742E-395A-40A4-8796-445C8D7D39A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE70742E-395A-40A4-8796-445C8D7D39A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D00F9C-AA6E-4286-89E7-8B706877B29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D00F9C-AA6E-4286-89E7-8B706877B29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D00F9C-AA6E-4286-89E7-8B706877B29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D00F9C-AA6E-4286-89E7-8B706877B29A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

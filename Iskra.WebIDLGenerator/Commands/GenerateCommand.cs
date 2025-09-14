@@ -1,5 +1,7 @@
 using System.CommandLine;
+using System.Reflection;
 using System.Text.Json;
+using Iskra.WebIDLGenerator.Generators;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -39,6 +41,9 @@ public class GenerateCommand : Command
                 config.SetMinimumLevel(LogLevel.Information);
             });
 
+            services.AddTransient<ModuleGenerator>();
+            services.AddTransient<InterfaceGenerator>();
+
             var provider = services.BuildServiceProvider();
 
             ILogger logger = provider.GetRequiredService<ILogger<GenerateCommand>>();
@@ -66,17 +71,20 @@ public class GenerateCommand : Command
                 var files = Directory.GetFiles(inputFullPath, "*.json", SearchOption.AllDirectories);
                 inputFiles.AddRange(files);
             }
-            
-            Directory.Delete(outputFullPath, true);
 
+            if (Directory.Exists(outputFullPath))
+            {
+                Directory.Delete(outputFullPath, true);
+            }
+
+            Directory.CreateDirectory(outputFullPath);
+
+            var moduleGenerator = provider.GetRequiredService<ModuleGenerator>();
             foreach (var inputFile in inputFiles)
             {
                 logger.LogInformation("Processing {inputFile}", inputFile);
 
-                var htmlModuleContent = await File.ReadAllTextAsync(inputFile);
-                var htmlModule =
-                    JsonSerializer.Deserialize(htmlModuleContent, typeof(IDLModule),
-                        WebIdlJsonContext.Default) as IDLModule;
+                await moduleGenerator.GenerateAsync(inputFile, outputFullPath, namespaceOptionValue, cancellationToken);
             }
 
 

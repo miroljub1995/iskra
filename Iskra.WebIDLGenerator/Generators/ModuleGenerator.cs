@@ -9,9 +9,10 @@ public class ModuleGenerator(
     InterfaceGenerator interfaceGenerator
 )
 {
-    public async Task GenerateAsync(string path, string outputDir, string ns)
+    public async Task GenerateAsync(string path, string outputDir, string ns,
+        CancellationToken cancellationToken = default)
     {
-        var moduleContent = await File.ReadAllTextAsync(path);
+        var moduleContent = await File.ReadAllTextAsync(path, cancellationToken);
 
         if (JsonSerializer.Deserialize(moduleContent, typeof(IDLModule), WebIdlJsonContext.Default) is not IDLModule
             module)
@@ -23,7 +24,14 @@ public class ModuleGenerator(
         {
             if (idlRootType is InterfaceType interfaceType)
             {
-                var interafce = interfaceGenerator.Generate(interfaceType, ns);
+                var outputFile = Path.GetFullPath(Path.Combine(outputDir, interfaceType.Name + ".cs"));
+                if (File.Exists(outputFile))
+                {
+                    throw new Exception($"Output file {outputFile} already exists.");
+                }
+
+                var interfaceContent = interfaceGenerator.Generate(interfaceType, ns);
+                await File.WriteAllTextAsync(outputFile, interfaceContent, cancellationToken);
             }
             else
             {

@@ -2,6 +2,9 @@
     <PropertyGroup>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Iskra.JSCore\Iskra.JSCore.csproj" />
+    </ItemGroup>
 
     <Target Name="GenerateBindings" BeforeTargets="BeforeBuild">
         <!-- DotnetPath -->
