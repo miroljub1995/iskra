@@ -6,7 +6,7 @@ public class OperationMemberType : IDLInterfaceMemberType
 {
     [JsonPropertyName("special")] public required string? Special { get; set; }
 
-    [JsonPropertyName("idlType")] public required IDLTypeDescription? IdlType { get; set; }
+    [JsonPropertyName("idlType")] public IDLTypeDescription? IdlType { get; set; } = null;
 
     [JsonPropertyName("name")] public required string? Name { get; set; }
 

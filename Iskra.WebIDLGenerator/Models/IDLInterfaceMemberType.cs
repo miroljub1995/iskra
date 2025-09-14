@@ -7,6 +7,7 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(ConstantMemberType), "const")]
 [JsonDerivedType(typeof(ConstructorMemberType), "constructor")]
 [JsonDerivedType(typeof(IterableDeclarationMemberType), "iterable")]
+[JsonDerivedType(typeof(AsyncIterableMemberType), "async_iterable")]
 [JsonDerivedType(typeof(MaplikeDeclarationMemberType), "maplike")]
 [JsonDerivedType(typeof(SetlikeDeclarationMemberType), "setlike")]
 [JsonDerivedType(typeof(OperationMemberType), "operation")]

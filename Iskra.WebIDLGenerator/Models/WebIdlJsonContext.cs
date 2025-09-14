@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
-using Iskra.WebIDLGenerator.Models;
+
+namespace Iskra.WebIDLGenerator.Models;
 
 [JsonSourceGenerationOptions(AllowOutOfOrderMetadataProperties = true)]
 [JsonSerializable(typeof(IDLModule))]

@@ -3,8 +3,9 @@ using System.Text.Json.Serialization;
 namespace Iskra.WebIDLGenerator.Models;
 
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
+[JsonDerivedType(typeof(ConstantMemberType), "const")]
 [JsonDerivedType(typeof(AttributeMemberType), "attribute")]
 [JsonDerivedType(typeof(OperationMemberType), "operation")]
-public abstract class IDLNamespaceMemberType : AbstractBase
+public abstract class IDLNamespaceMemberType : IDLCallbackInterfaceMemberType
 {
 }

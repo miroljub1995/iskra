@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Generate Std.Web": {
+      "commandName": "Project",
+      "commandLineArgs": "generate --input \"../submodules/webref/curated/ed/idlparsed\" --output=\"../Iskra.StdWeb/AutoGen\" --namespace=\"Iskra.StdWeb\""
+    }
+  }
+}
