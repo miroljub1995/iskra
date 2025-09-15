@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Notification(JSObject obj): EventTarget(obj)
 {
-    public object Permission
+    public static object Permission
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MaxActions
+    public static object MaxActions
     {
         get
         {

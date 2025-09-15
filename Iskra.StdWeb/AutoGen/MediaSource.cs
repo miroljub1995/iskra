@@ -89,7 +89,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CanConstructInDedicatedWorker
+    public static object CanConstructInDedicatedWorker
     {
         get
         {

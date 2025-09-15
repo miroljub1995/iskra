@@ -9,6 +9,9 @@ public class AttributeMemberTypeGenerator
     {
         List<string> bodyParts = [];
 
+        var isStatic = input.Special == AttributeSpecial.Static;
+        var staticKeyword = isStatic ? " static" : "";
+
         var getter = $$"""
                        get
                        {
@@ -33,7 +36,7 @@ public class AttributeMemberTypeGenerator
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
-                        public object {{input.Name.Replace('-', '_').CapitalizeFirstLetter()}}
+                        public{{staticKeyword}} object {{input.Name.Replace('-', '_').CapitalizeFirstLetter()}}
                         {
                         {{body.IndentLines(4)}}
                         }

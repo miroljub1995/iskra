@@ -105,7 +105,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SupportsReliableOnly
+    public static object SupportsReliableOnly
     {
         get
         {
