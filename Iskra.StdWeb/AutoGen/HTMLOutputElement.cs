@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
 {
-    public object HtmlFor
+    public DOMTokenList HtmlFor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -25,27 +25,7 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Type
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object DefaultValue
+    public string Name
     {
         get
         {
@@ -57,7 +37,15 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public string Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string DefaultValue
     {
         get
         {
@@ -69,7 +57,19 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object WillValidate
+    public string Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool WillValidate
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Validity
+    public ValidityState Validity
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLOutputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Labels
+    public NodeList Labels
     {
         get
         {

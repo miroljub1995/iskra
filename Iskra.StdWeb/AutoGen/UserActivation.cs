@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
 {
-    public object HasBeenActive
+    public bool HasBeenActive
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsActive
+    public bool IsActive
     {
         get
         {

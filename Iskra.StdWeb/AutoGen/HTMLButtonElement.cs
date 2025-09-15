@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
 {
-    public object Command
+    public string Command
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CommandForElement
+    public Element? CommandForElement
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -53,19 +53,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormAction
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object FormEnctype
+    public string FormAction
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormMethod
+    public string FormEnctype
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormNoValidate
+    public string FormMethod
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormTarget
+    public bool FormNoValidate
     {
         get
         {
@@ -113,7 +101,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public string FormTarget
     {
         get
         {
@@ -125,7 +113,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Name
     {
         get
         {
@@ -137,7 +125,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public string Type
     {
         get
         {
@@ -149,7 +137,19 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object WillValidate
+    public string Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool WillValidate
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Validity
+    public ValidityState Validity
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -173,7 +173,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Labels
+    public NodeList Labels
     {
         get
         {

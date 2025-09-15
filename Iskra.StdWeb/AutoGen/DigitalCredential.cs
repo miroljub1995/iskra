@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DigitalCredential(JSObject obj): Credential(obj)
 {
-    public object Protocol
+    public string Protocol
     {
         get
         {

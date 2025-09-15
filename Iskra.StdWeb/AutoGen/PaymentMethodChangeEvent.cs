@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdateEvent(obj)
 {
-    public object MethodName
+    public string MethodName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdat
         }
     }
 
-    public object MethodDetails
+    public object? MethodDetails
     {
         get
         {

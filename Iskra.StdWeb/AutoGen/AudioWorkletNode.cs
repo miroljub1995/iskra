@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
 {
-    public object Parameters
+    public AudioParamMap Parameters
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object Port
+    public MessagePort Port
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object Onprocessorerror
+    public EventHandler Onprocessorerror
     {
         get
         {

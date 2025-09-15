@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Range(JSObject obj): AbstractRange(obj)
 {
-    public object CommonAncestorContainer
+    public Node CommonAncestorContainer
     {
         get
         {

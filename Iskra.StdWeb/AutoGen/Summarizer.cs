@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
 {
-    public object SharedContext
+    public string SharedContext
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public SummarizerType Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Format
+    public SummarizerFormat Format
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public SummarizerLength Length
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object OutputLanguage
+    public string? OutputLanguage
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InputQuota
+    public double InputQuota
     {
         get
         {

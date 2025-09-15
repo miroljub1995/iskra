@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
 {
-    public object Animated
+    public bool Animated
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FrameCount
+    public uint FrameCount
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RepetitionCount
+    public float RepetitionCount
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Selected
+    public bool Selected
     {
         get
         {

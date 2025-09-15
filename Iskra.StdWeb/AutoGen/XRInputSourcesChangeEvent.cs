@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
 {
-    public object Session
+    public XRSession Session
     {
         get
         {

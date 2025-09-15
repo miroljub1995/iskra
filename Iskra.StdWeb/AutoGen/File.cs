@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class File(JSObject obj): Blob(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class File(JSObject obj): Blob(obj)
         }
     }
 
-    public object LastModified
+    public long LastModified
     {
         get
         {

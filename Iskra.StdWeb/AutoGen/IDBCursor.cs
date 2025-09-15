@@ -17,7 +17,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Direction
+    public IDBCursorDirection Direction
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Request
+    public IDBRequest Request
     {
         get
         {

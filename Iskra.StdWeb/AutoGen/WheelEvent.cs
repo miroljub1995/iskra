@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WheelEvent(JSObject obj): MouseEvent(obj)
 {
-    public object DeltaX
+    public double DeltaX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object DeltaY
+    public double DeltaY
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object DeltaZ
+    public double DeltaZ
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object DeltaMode
+    public uint DeltaMode
     {
         get
         {

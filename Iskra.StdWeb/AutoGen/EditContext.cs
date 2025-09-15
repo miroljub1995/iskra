@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class EditContext(JSObject obj): EventTarget(obj)
 {
-    public object Text
+    public string Text
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SelectionStart
+    public uint SelectionStart
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SelectionEnd
+    public uint SelectionEnd
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CharacterBoundsRangeStart
+    public uint CharacterBoundsRangeStart
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ontextupdate
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Ontextformatupdate
+    public EventHandler Ontextupdate
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncharacterboundsupdate
+    public EventHandler Ontextformatupdate
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncompositionstart
+    public EventHandler Oncharacterboundsupdate
     {
         get
         {
@@ -89,7 +77,19 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncompositionend
+    public EventHandler Oncompositionstart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Oncompositionend
     {
         get
         {

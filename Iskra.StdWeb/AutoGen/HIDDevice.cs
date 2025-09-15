@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HIDDevice(JSObject obj): EventTarget(obj)
 {
-    public object Oninputreport
+    public EventHandler Oninputreport
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Opened
+    public bool Opened
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object VendorId
+    public ushort VendorId
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ProductId
+    public ushort ProductId
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ProductName
+    public string ProductName
     {
         get
         {

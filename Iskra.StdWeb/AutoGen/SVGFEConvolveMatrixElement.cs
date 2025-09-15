@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object OrderX
+    public SVGAnimatedInteger OrderX
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object OrderY
+    public SVGAnimatedInteger OrderY
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelMatrix
+    public SVGAnimatedNumberList KernelMatrix
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Divisor
+    public SVGAnimatedNumber Divisor
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Bias
+    public SVGAnimatedNumber Bias
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object TargetX
+    public SVGAnimatedInteger TargetX
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object TargetY
+    public SVGAnimatedInteger TargetY
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object EdgeMode
+    public SVGAnimatedEnumeration EdgeMode
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelUnitLengthX
+    public SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelUnitLengthY
+    public SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object PreserveAlpha
+    public SVGAnimatedBoolean PreserveAlpha
     {
         get
         {

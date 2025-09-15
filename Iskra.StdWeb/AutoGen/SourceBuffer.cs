@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBuffer(JSObject obj): EventTarget(obj)
 {
-    public object Mode
+    public AppendMode Mode
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Updating
+    public bool Updating
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Buffered
+    public TimeRanges Buffered
     {
         get
         {
@@ -37,43 +37,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object TimestampOffset
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object AudioTracks
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object VideoTracks
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object TextTracks
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object AppendWindowStart
+    public double TimestampOffset
     {
         get
         {
@@ -85,7 +49,31 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object AppendWindowEnd
+    public AudioTrackList AudioTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public VideoTrackList VideoTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public TextTrackList TextTracks
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public double AppendWindowStart
     {
         get
         {
@@ -97,7 +85,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onupdatestart
+    public double AppendWindowEnd
     {
         get
         {
@@ -109,7 +97,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onupdate
+    public EventHandler Onupdatestart
     {
         get
         {
@@ -121,7 +109,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onupdateend
+    public EventHandler Onupdate
     {
         get
         {
@@ -133,7 +121,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onupdateend
     {
         get
         {
@@ -145,7 +133,19 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onabort
+    public EventHandler Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onabort
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
 {
-    public object ColorScheme
+    public PreferenceObject ColorScheme
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Contrast
+    public PreferenceObject Contrast
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ReducedMotion
+    public PreferenceObject ReducedMotion
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ReducedTransparency
+    public PreferenceObject ReducedTransparency
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ReducedData
+    public PreferenceObject ReducedData
     {
         get
         {

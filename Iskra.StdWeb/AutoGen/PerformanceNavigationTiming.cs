@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResourceTiming(obj)
 {
-    public object UnloadEventStart
+    public DOMHighResTimeStamp UnloadEventStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object UnloadEventEnd
+    public DOMHighResTimeStamp UnloadEventEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object DomInteractive
+    public DOMHighResTimeStamp DomInteractive
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object DomContentLoadedEventStart
+    public DOMHighResTimeStamp DomContentLoadedEventStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object DomContentLoadedEventEnd
+    public DOMHighResTimeStamp DomContentLoadedEventEnd
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object DomComplete
+    public DOMHighResTimeStamp DomComplete
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object LoadEventStart
+    public DOMHighResTimeStamp LoadEventStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object LoadEventEnd
+    public DOMHighResTimeStamp LoadEventEnd
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object Type
+    public NavigationTimingType Type
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object RedirectCount
+    public ushort RedirectCount
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object CriticalCHRestart
+    public DOMHighResTimeStamp CriticalCHRestart
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public object NotRestoredReasons
+    public NotRestoredReasons? NotRestoredReasons
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public object DeviceId
+    public string DeviceId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Kind
+    public MediaDeviceKind Kind
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Label
+    public string Label
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object GroupId
+    public string GroupId
     {
         get
         {

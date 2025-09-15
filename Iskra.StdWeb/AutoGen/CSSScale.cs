@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
 {
-    public object X
+    public CSSNumberish X
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Y
+    public CSSNumberish Y
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Z
+    public CSSNumberish Z
     {
         get
         {

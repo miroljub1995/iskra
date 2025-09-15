@@ -17,7 +17,7 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object Origin
+    public string Origin
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object LastEventId
+    public string LastEventId
     {
         get
         {

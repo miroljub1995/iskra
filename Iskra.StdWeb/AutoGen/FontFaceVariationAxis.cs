@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AxisTag
+    public string AxisTag
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MinimumValue
+    public double MinimumValue
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaximumValue
+    public double MaximumValue
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DefaultValue
+    public double DefaultValue
     {
         get
         {

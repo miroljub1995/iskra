@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object NewSubscription
+    public PushSubscription? NewSubscription
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
         }
     }
 
-    public object OldSubscription
+    public PushSubscription? OldSubscription
     {
         get
         {

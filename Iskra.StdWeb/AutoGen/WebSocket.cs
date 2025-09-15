@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebSocket(JSObject obj): EventTarget(obj)
 {
-    public object Url
+    public string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReadyState
+    public ushort ReadyState
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BufferedAmount
+    public ulong BufferedAmount
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onopen
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onerror
+    public EventHandler Onopen
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onclose
+    public EventHandler Onerror
     {
         get
         {
@@ -69,23 +57,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Extensions
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Protocol
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onmessage
+    public EventHandler Onclose
     {
         get
         {
@@ -97,7 +69,35 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BinaryType
+    public string Extensions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Protocol
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public BinaryType BinaryType
     {
         get
         {

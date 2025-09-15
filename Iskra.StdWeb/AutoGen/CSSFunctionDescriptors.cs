@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionDescriptors(JSObject obj): CSSStyleDeclaration(obj)
 {
-    public object Result
+    public string Result
     {
         get
         {

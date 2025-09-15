@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
 {
-    public object MaxTextureDimension1D
+    public uint MaxTextureDimension1D
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxTextureDimension2D
+    public uint MaxTextureDimension2D
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxTextureDimension3D
+    public uint MaxTextureDimension3D
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxTextureArrayLayers
+    public uint MaxTextureArrayLayers
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxBindGroups
+    public uint MaxBindGroups
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxBindGroupsPlusVertexBuffers
+    public uint MaxBindGroupsPlusVertexBuffers
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxBindingsPerBindGroup
+    public uint MaxBindingsPerBindGroup
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxDynamicUniformBuffersPerPipelineLayout
+    public uint MaxDynamicUniformBuffersPerPipelineLayout
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxDynamicStorageBuffersPerPipelineLayout
+    public uint MaxDynamicStorageBuffersPerPipelineLayout
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxSampledTexturesPerShaderStage
+    public uint MaxSampledTexturesPerShaderStage
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxSamplersPerShaderStage
+    public uint MaxSamplersPerShaderStage
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxStorageBuffersPerShaderStage
+    public uint MaxStorageBuffersPerShaderStage
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxStorageTexturesPerShaderStage
+    public uint MaxStorageTexturesPerShaderStage
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxUniformBuffersPerShaderStage
+    public uint MaxUniformBuffersPerShaderStage
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxUniformBufferBindingSize
+    public ulong MaxUniformBufferBindingSize
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxStorageBufferBindingSize
+    public ulong MaxStorageBufferBindingSize
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MinUniformBufferOffsetAlignment
+    public uint MinUniformBufferOffsetAlignment
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MinStorageBufferOffsetAlignment
+    public uint MinStorageBufferOffsetAlignment
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxVertexBuffers
+    public uint MaxVertexBuffers
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxBufferSize
+    public ulong MaxBufferSize
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxVertexAttributes
+    public uint MaxVertexAttributes
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxVertexBufferArrayStride
+    public uint MaxVertexBufferArrayStride
     {
         get
         {
@@ -185,7 +185,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxInterStageShaderVariables
+    public uint MaxInterStageShaderVariables
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxColorAttachments
+    public uint MaxColorAttachments
     {
         get
         {
@@ -201,7 +201,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxColorAttachmentBytesPerSample
+    public uint MaxColorAttachmentBytesPerSample
     {
         get
         {
@@ -209,7 +209,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxComputeWorkgroupStorageSize
+    public uint MaxComputeWorkgroupStorageSize
     {
         get
         {
@@ -217,7 +217,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxComputeInvocationsPerWorkgroup
+    public uint MaxComputeInvocationsPerWorkgroup
     {
         get
         {
@@ -225,7 +225,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxComputeWorkgroupSizeX
+    public uint MaxComputeWorkgroupSizeX
     {
         get
         {
@@ -233,7 +233,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxComputeWorkgroupSizeY
+    public uint MaxComputeWorkgroupSizeY
     {
         get
         {
@@ -241,7 +241,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxComputeWorkgroupSizeZ
+    public uint MaxComputeWorkgroupSizeZ
     {
         get
         {
@@ -249,7 +249,7 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxComputeWorkgroupsPerDimension
+    public uint MaxComputeWorkgroupsPerDimension
     {
         get
         {

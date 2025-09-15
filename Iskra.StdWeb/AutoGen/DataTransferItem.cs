@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransferItem(JSObject obj): JSObjectProxy(obj)
 {
-    public object Kind
+    public string Kind
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DataTransferItem(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {

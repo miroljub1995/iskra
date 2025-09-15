@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUDevice(JSObject obj): EventTarget(obj)
 {
-    public object Features
+    public GPUSupportedFeatures Features
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Limits
+    public GPUSupportedLimits Limits
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object AdapterInfo
+    public GPUAdapterInfo AdapterInfo
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Queue
+    public GPUQueue Queue
     {
         get
         {

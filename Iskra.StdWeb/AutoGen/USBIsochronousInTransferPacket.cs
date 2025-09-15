@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBIsochronousInTransferPacket(JSObject obj): JSObjectProxy(obj)
 {
-    public object Data
+    public DataView? Data
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBIsochronousInTransferPacket(JSObject obj): JSObjectProxy
         }
     }
 
-    public object Status
+    public USBTransferStatus Status
     {
         get
         {

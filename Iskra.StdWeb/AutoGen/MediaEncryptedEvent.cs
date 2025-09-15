@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
 {
-    public object InitDataType
+    public string InitDataType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object InitData
+    public ArrayBuffer? InitData
     {
         get
         {

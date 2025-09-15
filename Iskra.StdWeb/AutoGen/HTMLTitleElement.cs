@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTitleElement(JSObject obj): HTMLElement(obj)
 {
-    public object Text
+    public string Text
     {
         get
         {

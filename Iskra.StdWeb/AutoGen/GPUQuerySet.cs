@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public GPUQueryType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Count
+    public GPUSize32Out Count
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ContentIndexEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {

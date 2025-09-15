@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SensorErrorEvent(JSObject obj): Event(obj)
 {
-    public object Error
+    public DOMException Error
     {
         get
         {

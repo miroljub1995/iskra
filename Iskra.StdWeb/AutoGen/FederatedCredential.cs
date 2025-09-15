@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FederatedCredential(JSObject obj): Credential(obj)
 {
-    public object Provider
+    public string Provider
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FederatedCredential(JSObject obj): Credential(obj)
         }
     }
 
-    public object Protocol
+    public string? Protocol
     {
         get
         {

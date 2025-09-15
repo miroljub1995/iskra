@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object System
+    public string System
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Symbols
+    public string Symbols
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object AdditiveSymbols
+    public string AdditiveSymbols
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Negative
+    public string Negative
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Prefix
+    public string Prefix
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Suffix
+    public string Suffix
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Range
+    public string Range
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Pad
+    public string Pad
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object SpeakAs
+    public string SpeakAs
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Fallback
+    public string Fallback
     {
         get
         {

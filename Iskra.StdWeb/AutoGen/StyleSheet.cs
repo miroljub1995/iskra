@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Href
+    public string? Href
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ParentStyleSheet
+    public CSSStyleSheet? ParentStyleSheet
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Title
+    public string? Title
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Media
+    public MediaList Media
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Disabled
+    public bool Disabled
     {
         get
         {

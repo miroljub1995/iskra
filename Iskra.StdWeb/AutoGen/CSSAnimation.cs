@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSAnimation(JSObject obj): Animation(obj)
 {
-    public object AnimationName
+    public string AnimationName
     {
         get
         {

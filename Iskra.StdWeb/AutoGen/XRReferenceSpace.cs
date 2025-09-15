@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpace(JSObject obj): XRSpace(obj)
 {
-    public object Onreset
+    public EventHandler Onreset
     {
         get
         {

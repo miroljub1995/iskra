@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Syntax
+    public string Syntax
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Inherits
+    public bool Inherits
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object InitialValue
+    public string? InitialValue
     {
         get
         {

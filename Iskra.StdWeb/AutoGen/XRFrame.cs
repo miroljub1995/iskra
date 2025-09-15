@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public object Session
+    public XRSession Session
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PredictedDisplayTime
+    public DOMHighResTimeStamp PredictedDisplayTime
     {
         get
         {

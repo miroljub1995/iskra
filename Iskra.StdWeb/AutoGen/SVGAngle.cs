@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
 {
-    public object UnitType
+    public ushort UnitType
     {
         get
         {
@@ -17,19 +17,7 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Value
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ValueInSpecifiedUnits
+    public float Value
     {
         get
         {
@@ -41,7 +29,19 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ValueAsString
+    public float ValueInSpecifiedUnits
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string ValueAsString
     {
         get
         {

@@ -21,7 +21,7 @@ public partial class DataCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {

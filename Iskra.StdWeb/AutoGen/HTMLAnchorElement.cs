@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
 {
-    public object Target
+    public string Target
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Download
+    public string Download
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Ping
+    public string Ping
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rel
+    public string Rel
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object RelList
+    public DOMTokenList RelList
     {
         get
         {
@@ -65,19 +65,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Hreflang
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Type
+    public string Hreflang
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Text
+    public string Type
     {
         get
         {
@@ -101,7 +89,19 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public string Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string ReferrerPolicy
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
 {
-    public object Width
+    public double Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ActualBoundingBoxLeft
+    public double ActualBoundingBoxLeft
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ActualBoundingBoxRight
+    public double ActualBoundingBoxRight
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FontBoundingBoxAscent
+    public double FontBoundingBoxAscent
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FontBoundingBoxDescent
+    public double FontBoundingBoxDescent
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ActualBoundingBoxAscent
+    public double ActualBoundingBoxAscent
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ActualBoundingBoxDescent
+    public double ActualBoundingBoxDescent
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EmHeightAscent
+    public double EmHeightAscent
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EmHeightDescent
+    public double EmHeightDescent
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object HangingBaseline
+    public double HangingBaseline
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AlphabeticBaseline
+    public double AlphabeticBaseline
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IdeographicBaseline
+    public double IdeographicBaseline
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
 {
-    public object Href
+    public string Href
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CrossOrigin
+    public string? CrossOrigin
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rel
+    public string Rel
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object As
+    public string As
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object RelList
+    public DOMTokenList RelList
     {
         get
         {
@@ -65,19 +65,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Media
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Integrity
+    public string Media
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Hreflang
+    public string Integrity
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Hreflang
     {
         get
         {
@@ -113,15 +101,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Sizes
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ImageSrcset
+    public string Type
     {
         get
         {
@@ -133,7 +113,15 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ImageSizes
+    public DOMTokenList Sizes
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string ImageSrcset
     {
         get
         {
@@ -145,7 +133,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public string ImageSizes
     {
         get
         {
@@ -157,15 +145,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Blocking
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Disabled
+    public string ReferrerPolicy
     {
         get
         {
@@ -177,7 +157,27 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FetchPriority
+    public DOMTokenList Blocking
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool Disabled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string FetchPriority
     {
         get
         {

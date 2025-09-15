@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TransformStreamDefaultController(JSObject obj): JSObjectProxy(obj)
 {
-    public object DesiredSize
+    public double? DesiredSize
     {
         get
         {

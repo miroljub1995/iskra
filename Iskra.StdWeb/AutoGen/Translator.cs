@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Translator(JSObject obj): JSObjectProxy(obj)
 {
-    public object SourceLanguage
+    public string SourceLanguage
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TargetLanguage
+    public string TargetLanguage
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InputQuota
+    public double InputQuota
     {
         get
         {

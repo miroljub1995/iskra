@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGElement(JSObject obj): Element(obj)
 {
-    public object ClassName
+    public SVGAnimatedString ClassName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGElement(JSObject obj): Element(obj)
         }
     }
 
-    public object OwnerSVGElement
+    public SVGSVGElement? OwnerSVGElement
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGElement(JSObject obj): Element(obj)
         }
     }
 
-    public object ViewportElement
+    public SVGElement? ViewportElement
     {
         get
         {

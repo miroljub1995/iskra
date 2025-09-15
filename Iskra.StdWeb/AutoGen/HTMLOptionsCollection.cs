@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
         }
     }
 
-    public object SelectedIndex
+    public int SelectedIndex
     {
         get
         {

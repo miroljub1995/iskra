@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Element
+    public Element Element
     {
         get
         {

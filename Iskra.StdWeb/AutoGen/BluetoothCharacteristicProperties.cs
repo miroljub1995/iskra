@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectProxy(obj)
 {
-    public object Broadcast
+    public bool Broadcast
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object Read
+    public bool Read
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object WriteWithoutResponse
+    public bool WriteWithoutResponse
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object Write
+    public bool Write
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object Notify
+    public bool Notify
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object Indicate
+    public bool Indicate
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object AuthenticatedSignedWrites
+    public bool AuthenticatedSignedWrites
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object ReliableWrite
+    public bool ReliableWrite
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class BluetoothCharacteristicProperties(JSObject obj): JSObjectPr
         }
     }
 
-    public object WritableAuxiliaries
+    public bool WritableAuxiliaries
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
 {
-    public object UserVisibleOnly
+    public bool UserVisibleOnly
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ApplicationServerKey
+    public ArrayBuffer? ApplicationServerKey
     {
         get
         {

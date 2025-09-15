@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
 {
-    public object Title
+    public string Title
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object StartTime
+    public double StartTime
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class EventSource(JSObject obj): EventTarget(obj)
 {
-    public object Url
+    public string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object WithCredentials
+    public bool WithCredentials
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReadyState
+    public ushort ReadyState
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onopen
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onmessage
+    public EventHandler Onopen
     {
         get
         {
@@ -57,7 +45,19 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onerror
     {
         get
         {

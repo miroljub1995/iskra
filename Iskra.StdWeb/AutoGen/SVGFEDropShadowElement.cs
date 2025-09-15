@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Dx
+    public SVGAnimatedNumber Dx
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Dy
+    public SVGAnimatedNumber Dy
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object StdDeviationX
+    public SVGAnimatedNumber StdDeviationX
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object StdDeviationY
+    public SVGAnimatedNumber StdDeviationY
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
 {
-    public object Label
+    public string Label
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ordered
+    public bool Ordered
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MaxPacketLifeTime
+    public ushort? MaxPacketLifeTime
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MaxRetransmits
+    public ushort? MaxRetransmits
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Protocol
+    public string Protocol
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Negotiated
+    public bool Negotiated
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Id
+    public ushort? Id
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReadyState
+    public RTCDataChannelState ReadyState
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BufferedAmount
+    public uint BufferedAmount
     {
         get
         {
@@ -81,19 +81,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BufferedAmountLowThreshold
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onopen
+    public uint BufferedAmountLowThreshold
     {
         get
         {
@@ -105,7 +93,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onbufferedamountlow
+    public EventHandler Onopen
     {
         get
         {
@@ -117,7 +105,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onbufferedamountlow
     {
         get
         {
@@ -129,7 +117,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onclosing
+    public EventHandler Onerror
     {
         get
         {
@@ -141,7 +129,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onclose
+    public EventHandler Onclosing
     {
         get
         {
@@ -153,7 +141,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessage
+    public EventHandler Onclose
     {
         get
         {
@@ -165,7 +153,19 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BinaryType
+    public EventHandler Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public BinaryType BinaryType
     {
         get
         {

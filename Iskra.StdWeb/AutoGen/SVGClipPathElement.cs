@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
 {
-    public object ClipPathUnits
+    public SVGAnimatedEnumeration ClipPathUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Transform
+    public SVGAnimatedTransformList Transform
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGeometryElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public object PathLength
+    public SVGAnimatedNumber PathLength
     {
         get
         {

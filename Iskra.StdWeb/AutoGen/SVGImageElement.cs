@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public object X
+    public SVGAnimatedLength X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Y
+    public SVGAnimatedLength Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Width
+    public SVGAnimatedLength Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Height
+    public SVGAnimatedLength Height
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object PreserveAspectRatio
+    public SVGAnimatedPreserveAspectRatio PreserveAspectRatio
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object CrossOrigin
+    public string? CrossOrigin
     {
         get
         {

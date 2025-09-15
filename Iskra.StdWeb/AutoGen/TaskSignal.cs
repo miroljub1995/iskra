@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskSignal(JSObject obj): AbortSignal(obj)
 {
-    public object Priority
+    public TaskPriority Priority
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
         }
     }
 
-    public object Onprioritychange
+    public EventHandler Onprioritychange
     {
         get
         {

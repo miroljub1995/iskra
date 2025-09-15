@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
 {
-    public object Subject
+    public string Subject
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Predicate
+    public string Predicate
     {
         get
         {

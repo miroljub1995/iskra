@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object Registration
+    public BackgroundFetchRegistration Registration
     {
         get
         {

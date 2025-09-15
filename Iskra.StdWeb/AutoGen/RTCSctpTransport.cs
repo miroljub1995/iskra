@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
 {
-    public object Transport
+    public RTCDtlsTransport Transport
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public RTCSctpTransportState State
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MaxMessageSize
+    public double MaxMessageSize
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MaxChannels
+    public ushort? MaxChannels
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstatechange
+    public EventHandler Onstatechange
     {
         get
         {

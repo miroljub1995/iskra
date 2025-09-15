@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
 {
-    public object Grammars
+    public SpeechGrammarList Grammars
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Lang
+    public string Lang
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Continuous
+    public bool Continuous
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object InterimResults
+    public bool InterimResults
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MaxAlternatives
+    public uint MaxAlternatives
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ProcessLocally
+    public bool ProcessLocally
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onaudiostart
+    public EventHandler Onaudiostart
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsoundstart
+    public EventHandler Onsoundstart
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onspeechstart
+    public EventHandler Onspeechstart
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onspeechend
+    public EventHandler Onspeechend
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsoundend
+    public EventHandler Onsoundend
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onaudioend
+    public EventHandler Onaudioend
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onresult
+    public EventHandler Onresult
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onnomatch
+    public EventHandler Onnomatch
     {
         get
         {
@@ -189,7 +189,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onerror
     {
         get
         {
@@ -201,7 +201,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstart
+    public EventHandler Onstart
     {
         get
         {
@@ -213,7 +213,7 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onend
+    public EventHandler Onend
     {
         get
         {

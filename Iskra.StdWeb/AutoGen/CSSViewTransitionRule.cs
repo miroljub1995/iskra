@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSViewTransitionRule(JSObject obj): CSSRule(obj)
 {
-    public object Navigation
+    public string Navigation
     {
         get
         {

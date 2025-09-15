@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object CssRules
+    public CSSRuleList CssRules
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {

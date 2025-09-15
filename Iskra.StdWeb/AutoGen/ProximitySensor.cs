@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ProximitySensor(JSObject obj): Sensor(obj)
 {
-    public object Distance
+    public double? Distance
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Max
+    public double? Max
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Near
+    public bool? Near
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
 {
-    public object Address
+    public string? Address
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Port
+    public ushort? Port
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ErrorCode
+    public ushort ErrorCode
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ErrorText
+    public string ErrorText
     {
         get
         {

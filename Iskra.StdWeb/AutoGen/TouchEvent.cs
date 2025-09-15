@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TouchEvent(JSObject obj): UIEvent(obj)
 {
-    public object Touches
+    public TouchList Touches
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object TargetTouches
+    public TouchList TargetTouches
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ChangedTouches
+    public TouchList ChangedTouches
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object AltKey
+    public bool AltKey
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object MetaKey
+    public bool MetaKey
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object CtrlKey
+    public bool CtrlKey
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ShiftKey
+    public bool ShiftKey
     {
         get
         {

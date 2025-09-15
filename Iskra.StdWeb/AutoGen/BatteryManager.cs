@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BatteryManager(JSObject obj): EventTarget(obj)
 {
-    public object Charging
+    public bool Charging
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ChargingTime
+    public double ChargingTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object DischargingTime
+    public double DischargingTime
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Level
+    public double Level
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchargingchange
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onchargingtimechange
+    public EventHandler Onchargingchange
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ondischargingtimechange
+    public EventHandler Onchargingtimechange
     {
         get
         {
@@ -77,7 +65,19 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onlevelchange
+    public EventHandler Ondischargingtimechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onlevelchange
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object TopOrigin
+    public string TopOrigin
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object PaymentRequestOrigin
+    public string PaymentRequestOrigin
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object PaymentRequestId
+    public string PaymentRequestId
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object PaymentOptions
+    public object? PaymentOptions
     {
         get
         {

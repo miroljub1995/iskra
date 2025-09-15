@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
 {
-    public object AvailableInlineSize
+    public double AvailableInlineSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AvailableBlockSize
+    public double AvailableBlockSize
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FixedInlineSize
+    public double? FixedInlineSize
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FixedBlockSize
+    public double? FixedBlockSize
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PercentageInlineSize
+    public double PercentageInlineSize
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PercentageBlockSize
+    public double PercentageBlockSize
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockFragmentationOffset
+    public double? BlockFragmentationOffset
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockFragmentationType
+    public BlockFragmentationType BlockFragmentationType
     {
         get
         {

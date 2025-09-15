@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Request(JSObject obj): JSObjectProxy(obj)
 {
-    public object Method
+    public string Method
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Headers
+    public Headers Headers
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Destination
+    public RequestDestination Destination
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Referrer
+    public string Referrer
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public ReferrerPolicy ReferrerPolicy
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Mode
+    public RequestMode Mode
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Credentials
+    public RequestCredentials Credentials
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Cache
+    public RequestCache Cache
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Redirect
+    public RequestRedirect Redirect
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Integrity
+    public string Integrity
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Keepalive
+    public bool Keepalive
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsReloadNavigation
+    public bool IsReloadNavigation
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsHistoryNavigation
+    public bool IsHistoryNavigation
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Signal
+    public AbortSignal Signal
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Duplex
+    public RequestDuplex Duplex
     {
         get
         {

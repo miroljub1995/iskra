@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
 {
-    public object Root
+    public Node Root
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object WhatToShow
+    public uint WhatToShow
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Filter
+    public NodeFilter? Filter
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CurrentNode
+    public Node CurrentNode
     {
         get
         {

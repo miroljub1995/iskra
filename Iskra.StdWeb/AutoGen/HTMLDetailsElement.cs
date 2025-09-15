@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Open
+    public bool Open
     {
         get
         {

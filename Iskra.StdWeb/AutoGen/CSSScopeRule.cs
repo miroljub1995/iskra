@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
 {
-    public object Start
+    public string? Start
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
         }
     }
 
-    public object End
+    public string? End
     {
         get
         {

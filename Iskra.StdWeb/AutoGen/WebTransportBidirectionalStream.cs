@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProxy(obj)
 {
-    public object Readable
+    public WebTransportReceiveStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
         }
     }
 
-    public object Writable
+    public WebTransportSendStream Writable
     {
         get
         {

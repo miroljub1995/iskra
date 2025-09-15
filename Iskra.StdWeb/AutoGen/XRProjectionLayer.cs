@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
 {
-    public object TextureWidth
+    public uint TextureWidth
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object TextureHeight
+    public uint TextureHeight
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object TextureArrayLength
+    public uint TextureArrayLength
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object IgnoreDepthValues
+    public bool IgnoreDepthValues
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object FixedFoveation
+    public float? FixedFoveation
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object DeltaPose
+    public XRRigidTransform? DeltaPose
     {
         get
         {

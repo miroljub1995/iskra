@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CapturedMouseEvent(JSObject obj): Event(obj)
 {
-    public object SurfaceX
+    public int SurfaceX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CapturedMouseEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object SurfaceY
+    public int SurfaceY
     {
         get
         {

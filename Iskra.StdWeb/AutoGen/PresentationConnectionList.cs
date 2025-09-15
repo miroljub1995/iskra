@@ -17,7 +17,7 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onconnectionavailable
+    public EventHandler Onconnectionavailable
     {
         get
         {

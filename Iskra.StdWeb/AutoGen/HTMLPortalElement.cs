@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
 {
-    public object Src
+    public string Src
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public string ReferrerPolicy
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Onmessage
+    public EventHandler Onmessage
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Onmessageerror
+    public EventHandler Onmessageerror
     {
         get
         {

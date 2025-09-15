@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
 {
-    public object Coords
+    public GeolocationCoordinates Coords
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Timestamp
+    public EpochTimeStamp Timestamp
     {
         get
         {

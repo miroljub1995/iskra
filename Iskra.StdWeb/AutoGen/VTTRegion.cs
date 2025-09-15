@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Width
+    public double Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Lines
+    public uint Lines
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RegionAnchorX
+    public double RegionAnchorX
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RegionAnchorY
+    public double RegionAnchorY
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ViewportAnchorX
+    public double ViewportAnchorX
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ViewportAnchorY
+    public double ViewportAnchorY
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Scroll
+    public ScrollSetting Scroll
     {
         get
         {

@@ -4,6 +4,9 @@
   "namespace": "Iskra.StdWeb",
   "typeRewrite": {
     "DOMString": "string",
+    "CSSOMString": "string",
+    "USVString": "string",
+    "ByteString": "string",
     "WindowProxy": "Window"
   }
 }

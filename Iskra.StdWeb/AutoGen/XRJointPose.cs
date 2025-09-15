@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointPose(JSObject obj): XRPose(obj)
 {
-    public object Radius
+    public float Radius
     {
         get
         {

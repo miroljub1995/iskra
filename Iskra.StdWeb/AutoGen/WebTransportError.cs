@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportError(JSObject obj): DOMException(obj)
 {
-    public object Source
+    public WebTransportErrorSource Source
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object StreamErrorCode
+    public uint? StreamErrorCode
     {
         get
         {

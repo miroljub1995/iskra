@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Navigation(JSObject obj): EventTarget(obj)
 {
-    public object CurrentEntry
+    public NavigationHistoryEntry? CurrentEntry
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Transition
+    public NavigationTransition? Transition
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Activation
+    public NavigationActivation? Activation
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CanGoBack
+    public bool CanGoBack
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CanGoForward
+    public bool CanGoForward
     {
         get
         {
@@ -49,19 +49,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onnavigate
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onnavigatesuccess
+    public EventHandler Onnavigate
     {
         get
         {
@@ -73,7 +61,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onnavigateerror
+    public EventHandler Onnavigatesuccess
     {
         get
         {
@@ -85,7 +73,19 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncurrententrychange
+    public EventHandler Onnavigateerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Oncurrententrychange
     {
         get
         {

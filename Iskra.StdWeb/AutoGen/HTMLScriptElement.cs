@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Src
+    public string Src
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object NoModule
+    public bool NoModule
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Async
+    public bool Async
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Defer
+    public bool Defer
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Blocking
+    public DOMTokenList Blocking
     {
         get
         {
@@ -77,19 +77,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CrossOrigin
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ReferrerPolicy
+    public string? CrossOrigin
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Integrity
+    public string ReferrerPolicy
     {
         get
         {
@@ -113,7 +101,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FetchPriority
+    public string Integrity
     {
         get
         {
@@ -125,7 +113,19 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Text
+    public string FetchPriority
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Text
     {
         get
         {

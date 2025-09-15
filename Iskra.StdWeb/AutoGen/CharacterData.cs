@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CharacterData(JSObject obj): Node(obj)
 {
-    public object Data
+    public string Data
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CharacterData(JSObject obj): Node(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
 {
-    public object HasOrientation
+    public bool HasOrientation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object HasPosition
+    public bool HasPosition
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Position
+    public Float32Array? Position
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LinearVelocity
+    public Float32Array? LinearVelocity
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LinearAcceleration
+    public Float32Array? LinearAcceleration
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Orientation
+    public Float32Array? Orientation
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AngularVelocity
+    public Float32Array? AngularVelocity
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AngularAcceleration
+    public Float32Array? AngularAcceleration
     {
         get
         {

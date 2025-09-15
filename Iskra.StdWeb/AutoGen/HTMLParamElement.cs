@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public string Value
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValueType
+    public string ValueType
     {
         get
         {

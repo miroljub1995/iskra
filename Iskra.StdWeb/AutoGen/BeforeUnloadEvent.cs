@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BeforeUnloadEvent(JSObject obj): Event(obj)
 {
-    public object ReturnValue
+    public string ReturnValue
     {
         get
         {

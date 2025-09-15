@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionResult(JSObject obj): JSObjectProxy(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsFinal
+    public bool IsFinal
     {
         get
         {

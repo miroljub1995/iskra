@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLQuoteElement(JSObject obj): HTMLElement(obj)
 {
-    public object Cite
+    public string Cite
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Origin
+    public string Origin
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object LastEventId
+    public string LastEventId
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Source
+    public MessageEventSource? Source
     {
         get
         {

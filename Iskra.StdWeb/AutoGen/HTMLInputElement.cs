@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
 {
-    public object Accept
+    public string Accept
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Alpha
+    public bool Alpha
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Alt
+    public string Alt
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object DefaultChecked
+    public bool DefaultChecked
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Checked
+    public bool Checked
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ColorSpace
+    public string ColorSpace
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object DirName
+    public string DirName
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -125,19 +125,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Files
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object FormAction
+    public FileList? Files
     {
         get
         {
@@ -149,7 +137,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormEnctype
+    public string FormAction
     {
         get
         {
@@ -161,7 +149,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormMethod
+    public string FormEnctype
     {
         get
         {
@@ -173,7 +161,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormNoValidate
+    public string FormMethod
     {
         get
         {
@@ -185,7 +173,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FormTarget
+    public bool FormNoValidate
     {
         get
         {
@@ -197,7 +185,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public string FormTarget
     {
         get
         {
@@ -209,7 +197,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Indeterminate
+    public uint Height
     {
         get
         {
@@ -221,15 +209,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object List
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Max
+    public bool Indeterminate
     {
         get
         {
@@ -241,7 +221,15 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object MaxLength
+    public HTMLDataListElement? List
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Max
     {
         get
         {
@@ -253,7 +241,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Min
+    public int MaxLength
     {
         get
         {
@@ -265,7 +253,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object MinLength
+    public string Min
     {
         get
         {
@@ -277,7 +265,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Multiple
+    public int MinLength
     {
         get
         {
@@ -289,7 +277,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public bool Multiple
     {
         get
         {
@@ -301,7 +289,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Pattern
+    public string Name
     {
         get
         {
@@ -313,7 +301,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Placeholder
+    public string Pattern
     {
         get
         {
@@ -325,7 +313,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReadOnly
+    public string Placeholder
     {
         get
         {
@@ -337,7 +325,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Required
+    public bool ReadOnly
     {
         get
         {
@@ -349,7 +337,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Size
+    public bool Required
     {
         get
         {
@@ -361,7 +349,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Src
+    public uint Size
     {
         get
         {
@@ -373,7 +361,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Step
+    public string Src
     {
         get
         {
@@ -385,7 +373,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Step
     {
         get
         {
@@ -397,7 +385,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object DefaultValue
+    public string Type
     {
         get
         {
@@ -409,7 +397,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public string DefaultValue
     {
         get
         {
@@ -421,7 +409,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValueAsDate
+    public string Value
     {
         get
         {
@@ -433,7 +421,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValueAsNumber
+    public object? ValueAsDate
     {
         get
         {
@@ -445,7 +433,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
+    public double ValueAsNumber
     {
         get
         {
@@ -457,39 +445,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object WillValidate
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Validity
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ValidationMessage
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Labels
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object SelectionStart
+    public uint Width
     {
         get
         {
@@ -501,7 +457,39 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SelectionEnd
+    public bool WillValidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public ValidityState Validity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string ValidationMessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public NodeList? Labels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public uint? SelectionStart
     {
         get
         {
@@ -513,7 +501,19 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SelectionDirection
+    public uint? SelectionEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string? SelectionDirection
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
 {
-    public object Primaries
+    public VideoColorPrimaries? Primaries
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Transfer
+    public VideoTransferCharacteristics? Transfer
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Matrix
+    public VideoMatrixCoefficients? Matrix
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FullRange
+    public bool? FullRange
     {
         get
         {

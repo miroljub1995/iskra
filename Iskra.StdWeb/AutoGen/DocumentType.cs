@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentType(JSObject obj): Node(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DocumentType(JSObject obj): Node(obj)
         }
     }
 
-    public object PublicId
+    public string PublicId
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DocumentType(JSObject obj): Node(obj)
         }
     }
 
-    public object SystemId
+    public string SystemId
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
 {
-    public object Config
+    public FencedFrameConfig? Config
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
+    public string Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public string Height
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Sandbox
+    public DOMTokenList Sandbox
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Allow
+    public string Allow
     {
         get
         {

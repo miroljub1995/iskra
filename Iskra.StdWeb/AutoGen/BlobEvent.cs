@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BlobEvent(JSObject obj): Event(obj)
 {
-    public object Data
+    public Blob Data
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BlobEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Timecode
+    public DOMHighResTimeStamp Timecode
     {
         get
         {

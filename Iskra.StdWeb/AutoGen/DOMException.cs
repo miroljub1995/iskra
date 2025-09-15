@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMException(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Message
+    public string Message
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Code
+    public ushort Code
     {
         get
         {

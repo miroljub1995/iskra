@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
 {
-    public object Node
+    public Node? Node
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PreviousRect
+    public DOMRectReadOnly PreviousRect
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CurrentRect
+    public DOMRectReadOnly CurrentRect
     {
         get
         {

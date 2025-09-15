@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Location(JSObject obj): JSObjectProxy(obj)
 {
-    public object Href
+    public string Href
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Origin
+    public string Origin
     {
         get
         {
@@ -29,19 +29,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Protocol
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Host
+    public string Protocol
     {
         get
         {
@@ -53,7 +41,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hostname
+    public string Host
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Port
+    public string Hostname
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Pathname
+    public string Port
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Search
+    public string Pathname
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hash
+    public string Search
     {
         get
         {
@@ -113,7 +101,19 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AncestorOrigins
+    public string Hash
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public DOMStringList AncestorOrigins
     {
         get
         {

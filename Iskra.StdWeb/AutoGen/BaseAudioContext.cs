@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
 {
-    public object Destination
+    public AudioDestinationNode Destination
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SampleRate
+    public float SampleRate
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CurrentTime
+    public double CurrentTime
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Listener
+    public AudioListener Listener
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public AudioContextState State
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object RenderQuantumSize
+    public uint RenderQuantumSize
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object AudioWorklet
+    public AudioWorklet AudioWorklet
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstatechange
+    public EventHandler Onstatechange
     {
         get
         {

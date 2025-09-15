@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
 {
-    public object X
+    public SVGAnimatedNumber X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Y
+    public SVGAnimatedNumber Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Z
+    public SVGAnimatedNumber Z
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object PointsAtX
+    public SVGAnimatedNumber PointsAtX
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object PointsAtY
+    public SVGAnimatedNumber PointsAtY
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object PointsAtZ
+    public SVGAnimatedNumber PointsAtZ
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object SpecularExponent
+    public SVGAnimatedNumber SpecularExponent
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object LimitingConeAngle
+    public SVGAnimatedNumber LimitingConeAngle
     {
         get
         {

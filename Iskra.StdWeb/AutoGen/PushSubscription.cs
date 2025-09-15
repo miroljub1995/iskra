@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
 {
-    public object Endpoint
+    public string Endpoint
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ExpirationTime
+    public EpochTimeStamp? ExpirationTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Options
+    public PushSubscriptionOptions Options
     {
         get
         {

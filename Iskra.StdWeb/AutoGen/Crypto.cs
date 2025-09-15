@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Crypto(JSObject obj): JSObjectProxy(obj)
 {
-    public object Subtle
+    public SubtleCrypto Subtle
     {
         get
         {

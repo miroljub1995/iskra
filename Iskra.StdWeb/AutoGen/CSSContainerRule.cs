@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
 {
-    public object ContainerName
+    public string ContainerName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
         }
     }
 
-    public object ContainerQuery
+    public string ContainerQuery
     {
         get
         {

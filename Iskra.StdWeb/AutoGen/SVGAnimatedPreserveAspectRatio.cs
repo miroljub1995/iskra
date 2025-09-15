@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
 {
-    public object BaseVal
+    public SVGPreserveAspectRatio BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
         }
     }
 
-    public object AnimVal
+    public SVGPreserveAspectRatio AnimVal
     {
         get
         {

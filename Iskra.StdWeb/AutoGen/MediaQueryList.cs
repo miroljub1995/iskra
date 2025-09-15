@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaQueryList(JSObject obj): EventTarget(obj)
 {
-    public object Media
+    public string Media
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaQueryList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Matches
+    public bool Matches
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaQueryList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchange
+    public EventHandler Onchange
     {
         get
         {

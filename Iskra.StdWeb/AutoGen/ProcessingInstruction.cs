@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ProcessingInstruction(JSObject obj): CharacterData(obj)
 {
-    public object Target
+    public string Target
     {
         get
         {

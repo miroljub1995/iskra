@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(obj)
 {
-    public object Clients
+    public Clients Clients
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public object Registration
+    public ServiceWorkerRegistration Registration
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public object ServiceWorker
+    public ServiceWorker ServiceWorker
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public object Oninstall
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onactivate
+    public EventHandler Oninstall
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public object Onfetch
+    public EventHandler Onactivate
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public object Onmessage
+    public EventHandler Onfetch
     {
         get
         {
@@ -81,7 +69,19 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public object Onmessageerror
+    public EventHandler Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onmessageerror
     {
         get
         {

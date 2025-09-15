@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Selection(JSObject obj): JSObjectProxy(obj)
 {
-    public object AnchorNode
+    public Node? AnchorNode
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AnchorOffset
+    public uint AnchorOffset
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FocusNode
+    public Node? FocusNode
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FocusOffset
+    public uint FocusOffset
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsCollapsed
+    public bool IsCollapsed
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RangeCount
+    public uint RangeCount
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Direction
+    public string Direction
     {
         get
         {

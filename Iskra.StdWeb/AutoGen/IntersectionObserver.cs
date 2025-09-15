@@ -17,7 +17,7 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RootMargin
+    public string RootMargin
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ScrollMargin
+    public string ScrollMargin
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Delay
+    public int Delay
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TrackVisibility
+    public bool TrackVisibility
     {
         get
         {

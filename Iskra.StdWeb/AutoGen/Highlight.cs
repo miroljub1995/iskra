@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Highlight(JSObject obj): JSObjectProxy(obj)
 {
-    public object Priority
+    public int Priority
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public HighlightType Type
     {
         get
         {

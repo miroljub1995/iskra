@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Element(JSObject obj): Node(obj)
 {
-    public object NamespaceURI
+    public string? NamespaceURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object Prefix
+    public string? Prefix
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object LocalName
+    public string LocalName
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object TagName
+    public string TagName
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object Id
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ClassName
+    public string Id
     {
         get
         {
@@ -65,15 +53,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object ClassList
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Slot
+    public string ClassName
     {
         get
         {
@@ -85,7 +65,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object Attributes
+    public DOMTokenList ClassList
     {
         get
         {
@@ -93,7 +73,19 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object ShadowRoot
+    public string Slot
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public NamedNodeMap Attributes
     {
         get
         {
@@ -101,7 +93,15 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public object CustomElementRegistry
+    public ShadowRoot? ShadowRoot
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public CustomElementRegistry? CustomElementRegistry
     {
         get
         {

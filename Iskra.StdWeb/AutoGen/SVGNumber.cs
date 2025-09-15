@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGNumber(JSObject obj): JSObjectProxy(obj)
 {
-    public object Value
+    public float Value
     {
         get
         {

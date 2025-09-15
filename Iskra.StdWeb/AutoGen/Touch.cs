@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Touch(JSObject obj): JSObjectProxy(obj)
 {
-    public object Identifier
+    public int Identifier
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Target
+    public EventTarget Target
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ScreenX
+    public double ScreenX
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ScreenY
+    public double ScreenY
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ClientX
+    public double ClientX
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ClientY
+    public double ClientY
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PageX
+    public double PageX
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PageY
+    public double PageY
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RadiusX
+    public float RadiusX
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RadiusY
+    public float RadiusY
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RotationAngle
+    public float RotationAngle
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Force
+    public float Force
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AltitudeAngle
+    public float AltitudeAngle
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AzimuthAngle
+    public float AzimuthAngle
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TouchType
+    public TouchType TouchType
     {
         get
         {

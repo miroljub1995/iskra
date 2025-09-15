@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public EncodedVideoChunkType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Timestamp
+    public long Timestamp
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Duration
+    public ulong? Duration
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ByteLength
+    public uint ByteLength
     {
         get
         {

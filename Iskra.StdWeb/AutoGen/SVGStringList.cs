@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGStringList(JSObject obj): JSObjectProxy(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGStringList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object NumberOfItems
+    public uint NumberOfItems
     {
         get
         {

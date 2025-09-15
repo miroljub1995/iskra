@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGElement(obj)
 {
-    public object Type
+    public SVGAnimatedEnumeration Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
         }
     }
 
-    public object TableValues
+    public SVGAnimatedNumberList TableValues
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
         }
     }
 
-    public object Slope
+    public SVGAnimatedNumber Slope
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
         }
     }
 
-    public object Intercept
+    public SVGAnimatedNumber Intercept
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
         }
     }
 
-    public object Amplitude
+    public SVGAnimatedNumber Amplitude
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
         }
     }
 
-    public object Exponent
+    public SVGAnimatedNumber Exponent
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
         }
     }
 
-    public object Offset
+    public SVGAnimatedNumber Offset
     {
         get
         {

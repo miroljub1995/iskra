@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
 {
-    public object Caption
+    public HTMLTableCaptionElement? Caption
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object THead
+    public HTMLTableSectionElement? THead
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object TFoot
+    public HTMLTableSectionElement? TFoot
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object TBodies
+    public HTMLCollection TBodies
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rows
+    public HTMLCollection Rows
     {
         get
         {

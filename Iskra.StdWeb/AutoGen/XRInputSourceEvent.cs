@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourceEvent(JSObject obj): Event(obj)
 {
-    public object Frame
+    public XRFrame Frame
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object InputSource
+    public XRInputSource InputSource
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SerialPort(JSObject obj): EventTarget(obj)
 {
-    public object Onconnect
+    public EventHandler Onconnect
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ondisconnect
+    public EventHandler Ondisconnect
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Connected
+    public bool Connected
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Readable
+    public ReadableStream Readable
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Writable
+    public WritableStream Writable
     {
         get
         {

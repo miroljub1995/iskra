@@ -17,7 +17,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Error
+    public DOMException? Error
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Transaction
+    public IDBTransaction? Transaction
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReadyState
+    public IDBRequestReadyState ReadyState
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsuccess
+    public EventHandler Onsuccess
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onerror
     {
         get
         {

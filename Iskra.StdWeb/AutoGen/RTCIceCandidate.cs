@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
 {
-    public object Candidate
+    public string Candidate
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SdpMid
+    public string? SdpMid
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SdpMLineIndex
+    public ushort? SdpMLineIndex
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Foundation
+    public string? Foundation
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Component
+    public RTCIceComponent? Component
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Priority
+    public uint? Priority
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Address
+    public string? Address
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Protocol
+    public RTCIceProtocol? Protocol
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Port
+    public ushort? Port
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public RTCIceCandidateType? Type
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TcpType
+    public RTCIceTcpCandidateType? TcpType
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RelatedAddress
+    public string? RelatedAddress
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RelatedPort
+    public ushort? RelatedPort
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UsernameFragment
+    public string? UsernameFragment
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RelayProtocol
+    public RTCIceServerTransportProtocol? RelayProtocol
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Url
+    public string? Url
     {
         get
         {

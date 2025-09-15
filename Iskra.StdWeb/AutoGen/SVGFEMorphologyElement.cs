@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Operator
+    public SVGAnimatedEnumeration Operator
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object RadiusX
+    public SVGAnimatedNumber RadiusX
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object RadiusY
+    public SVGAnimatedNumber RadiusY
     {
         get
         {

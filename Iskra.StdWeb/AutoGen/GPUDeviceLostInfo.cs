@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public object Reason
+    public GPUDeviceLostReason Reason
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Message
+    public string Message
     {
         get
         {

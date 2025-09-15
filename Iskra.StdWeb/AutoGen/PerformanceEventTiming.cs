@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public object ProcessingStart
+    public DOMHighResTimeStamp ProcessingStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object ProcessingEnd
+    public DOMHighResTimeStamp ProcessingEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Cancelable
+    public bool Cancelable
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Target
+    public Node? Target
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object InteractionId
+    public ulong InteractionId
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorker(JSObject obj): EventTarget(obj)
 {
-    public object ScriptURL
+    public string ScriptURL
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public ServiceWorkerState State
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstatechange
+    public EventHandler Onstatechange
     {
         get
         {

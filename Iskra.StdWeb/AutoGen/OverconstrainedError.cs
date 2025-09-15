@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class OverconstrainedError(JSObject obj): DOMException(obj)
 {
-    public object Constraint
+    public string Constraint
     {
         get
         {

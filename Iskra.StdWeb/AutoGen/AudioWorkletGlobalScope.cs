@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(obj)
 {
-    public object CurrentFrame
+    public ulong CurrentFrame
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
         }
     }
 
-    public object CurrentTime
+    public double CurrentTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
         }
     }
 
-    public object SampleRate
+    public float SampleRate
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
         }
     }
 
-    public object RenderQuantumSize
+    public uint RenderQuantumSize
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
         }
     }
 
-    public object Port
+    public MessagePort Port
     {
         get
         {

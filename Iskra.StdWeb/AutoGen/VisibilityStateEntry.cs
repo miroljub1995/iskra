@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object EntryType
+    public string EntryType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object StartTime
+    public DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Duration
+    public uint Duration
     {
         get
         {

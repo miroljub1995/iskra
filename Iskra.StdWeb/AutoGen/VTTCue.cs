@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VTTCue(JSObject obj): TextTrackCue(obj)
 {
-    public object Region
+    public VTTRegion? Region
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Vertical
+    public DirectionSetting Vertical
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object SnapToLines
+    public bool SnapToLines
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Line
+    public LineAndPositionSetting Line
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object LineAlign
+    public LineAlignSetting LineAlign
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Position
+    public LineAndPositionSetting Position
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object PositionAlign
+    public PositionAlignSetting PositionAlign
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Size
+    public double Size
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Align
+    public AlignSetting Align
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Text
+    public string Text
     {
         get
         {

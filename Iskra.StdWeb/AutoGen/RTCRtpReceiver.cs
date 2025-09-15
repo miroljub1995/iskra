@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
 {
-    public object Track
+    public MediaStreamTrack Track
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Transport
+    public RTCDtlsTransport? Transport
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object JitterBufferTarget
+    public DOMHighResTimeStamp? JitterBufferTarget
     {
         get
         {

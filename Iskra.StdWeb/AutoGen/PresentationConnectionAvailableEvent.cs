@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionAvailableEvent(JSObject obj): Event(obj)
 {
-    public object Connection
+    public PresentationConnection Connection
     {
         get
         {

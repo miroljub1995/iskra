@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Kind
+    public string Kind
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Label
+    public string Label
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Language
+    public string Language
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Enabled
+    public bool Enabled
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Node(JSObject obj): EventTarget(obj)
 {
-    public object NodeType
+    public ushort NodeType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object NodeName
+    public string NodeName
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BaseURI
+    public string BaseURI
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object IsConnected
+    public bool IsConnected
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object OwnerDocument
+    public Document? OwnerDocument
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ParentNode
+    public Node? ParentNode
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ParentElement
+    public Element? ParentElement
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ChildNodes
+    public NodeList ChildNodes
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object FirstChild
+    public Node? FirstChild
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object LastChild
+    public Node? LastChild
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PreviousSibling
+    public Node? PreviousSibling
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object NextSibling
+    public Node? NextSibling
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object NodeValue
+    public string? NodeValue
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object TextContent
+    public string? TextContent
     {
         get
         {

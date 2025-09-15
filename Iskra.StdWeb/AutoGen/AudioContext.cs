@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
 {
-    public object BaseLatency
+    public double BaseLatency
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public object OutputLatency
+    public double OutputLatency
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public object Onsinkchange
+    public EventHandler Onsinkchange
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onerror
     {
         get
         {

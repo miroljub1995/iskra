@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionRule(JSObject obj): CSSGroupingRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSFunctionRule(JSObject obj): CSSGroupingRule(obj)
         }
     }
 
-    public object ReturnType
+    public string ReturnType
     {
         get
         {

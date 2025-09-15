@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
 {
-    public object Target
+    public Element Target
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ContentRect
+    public DOMRectReadOnly ContentRect
     {
         get
         {

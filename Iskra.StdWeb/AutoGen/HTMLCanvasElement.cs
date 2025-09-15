@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
 {
-    public object Width
+    public uint Width
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public uint Height
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(obj)
 {
-    public object X
+    public double? X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
         }
     }
 
-    public object Y
+    public double? Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
         }
     }
 
-    public object Z
+    public double? Z
     {
         get
         {

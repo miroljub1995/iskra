@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUError(JSObject obj): JSObjectProxy(obj)
 {
-    public object Message
+    public string Message
     {
         get
         {

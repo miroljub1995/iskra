@@ -6,6 +6,7 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class ModuleGenerator(
     ILogger<ModuleGenerator> logger,
+    EnumTypeGenerator enumTypeGenerator,
     InterfaceGenerator interfaceGenerator
 )
 {
@@ -32,6 +33,18 @@ public class ModuleGenerator(
 
                 var interfaceContent = interfaceGenerator.Generate(interfaceType);
                 await File.WriteAllTextAsync(outputFile, interfaceContent, cancellationToken);
+            }
+            else if (idlRootType is EnumType enumType)
+            {
+                
+                var outputFile = Path.GetFullPath(Path.Combine(outputDir, enumType.Name + ".cs"));
+                if (File.Exists(outputFile))
+                {
+                    throw new Exception($"Output file {outputFile} already exists.");
+                }
+
+                var enumTypeContent = enumTypeGenerator.Generate(enumType);
+                await File.WriteAllTextAsync(outputFile, enumTypeContent, cancellationToken);
             }
             else
             {

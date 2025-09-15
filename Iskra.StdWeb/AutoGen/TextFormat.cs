@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
 {
-    public object RangeStart
+    public uint RangeStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RangeEnd
+    public uint RangeEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UnderlineStyle
+    public UnderlineStyle UnderlineStyle
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UnderlineThickness
+    public UnderlineThickness UnderlineThickness
     {
         get
         {

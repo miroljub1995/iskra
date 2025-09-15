@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdleDetector(JSObject obj): EventTarget(obj)
 {
-    public object UserState
+    public UserIdleState? UserState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ScreenState
+    public ScreenIdleState? ScreenState
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchange
+    public EventHandler Onchange
     {
         get
         {

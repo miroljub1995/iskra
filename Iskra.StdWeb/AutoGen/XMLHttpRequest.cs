@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj)
 {
-    public object Onreadystatechange
+    public EventHandler Onreadystatechange
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object ReadyState
+    public ushort ReadyState
     {
         get
         {
@@ -29,19 +29,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object Timeout
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object WithCredentials
+    public uint Timeout
     {
         get
         {
@@ -53,7 +41,19 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object Upload
+    public bool WithCredentials
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public XMLHttpRequestUpload Upload
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object ResponseURL
+    public string ResponseURL
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object Status
+    public ushort Status
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object StatusText
+    public string StatusText
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object ResponseType
+    public XMLHttpRequestResponseType ResponseType
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object ResponseText
+    public string ResponseText
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object ResponseXML
+    public Document? ResponseXML
     {
         get
         {

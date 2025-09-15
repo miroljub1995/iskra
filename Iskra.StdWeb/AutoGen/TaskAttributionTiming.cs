@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public object StartTime
+    public DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Duration
+    public DOMHighResTimeStamp Duration
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object EntryType
+    public string EntryType
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object ContainerType
+    public string ContainerType
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object ContainerSrc
+    public string ContainerSrc
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object ContainerId
+    public string ContainerId
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object ContainerName
+    public string ContainerName
     {
         get
         {

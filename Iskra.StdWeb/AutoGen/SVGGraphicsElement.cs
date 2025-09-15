@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGraphicsElement(JSObject obj): SVGElement(obj)
 {
-    public object Transform
+    public SVGAnimatedTransformList Transform
     {
         get
         {

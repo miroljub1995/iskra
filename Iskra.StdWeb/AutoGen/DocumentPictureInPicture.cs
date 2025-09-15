@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
 {
-    public object Window
+    public Window Window
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onenter
+    public EventHandler Onenter
     {
         get
         {

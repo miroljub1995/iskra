@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletAnimationEffect(JSObject obj): JSObjectProxy(obj)
 {
-    public object LocalTime
+    public double? LocalTime
     {
         get
         {

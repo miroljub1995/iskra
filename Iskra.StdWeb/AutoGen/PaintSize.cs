@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaintSize(JSObject obj): JSObjectProxy(obj)
 {
-    public object Width
+    public double Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaintSize(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public double Height
     {
         get
         {

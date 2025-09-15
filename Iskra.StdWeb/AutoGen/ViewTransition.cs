@@ -33,7 +33,7 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Types
+    public ViewTransitionTypeSet Types
     {
         get
         {

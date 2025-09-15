@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TrustedTypePolicy(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {

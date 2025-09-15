@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
 {
-    public object StartContainer
+    public Node StartContainer
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object StartOffset
+    public uint StartOffset
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EndContainer
+    public Node EndContainer
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EndOffset
+    public uint EndOffset
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Collapsed
+    public bool Collapsed
     {
         get
         {

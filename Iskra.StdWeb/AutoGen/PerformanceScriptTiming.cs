@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public object StartTime
+    public DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object Duration
+    public DOMHighResTimeStamp Duration
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object EntryType
+    public string EntryType
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object InvokerType
+    public ScriptInvokerType InvokerType
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object Invoker
+    public string Invoker
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object ExecutionStart
+    public DOMHighResTimeStamp ExecutionStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object SourceURL
+    public string SourceURL
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object SourceFunctionName
+    public string SourceFunctionName
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object SourceCharPosition
+    public long SourceCharPosition
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object PauseDuration
+    public DOMHighResTimeStamp PauseDuration
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object ForcedStyleAndLayoutDuration
+    public DOMHighResTimeStamp ForcedStyleAndLayoutDuration
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object Window
+    public Window? Window
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public object WindowAttribution
+    public ScriptWindowAttribution WindowAttribution
     {
         get
         {

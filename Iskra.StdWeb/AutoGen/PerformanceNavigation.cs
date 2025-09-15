@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public ushort Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RedirectCount
+    public ushort RedirectCount
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Baseline(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Baseline(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Value
+    public double Value
     {
         get
         {

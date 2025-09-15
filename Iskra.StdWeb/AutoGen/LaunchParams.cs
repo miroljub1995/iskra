@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
 {
-    public object TargetURL
+    public string? TargetURL
     {
         get
         {

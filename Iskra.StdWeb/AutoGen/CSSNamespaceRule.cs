@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSNamespaceRule(JSObject obj): CSSRule(obj)
 {
-    public object NamespaceURI
+    public string NamespaceURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSNamespaceRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Prefix
+    public string Prefix
     {
         get
         {

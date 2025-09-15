@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSConditionRule(JSObject obj): CSSGroupingRule(obj)
 {
-    public object ConditionText
+    public string ConditionText
     {
         get
         {

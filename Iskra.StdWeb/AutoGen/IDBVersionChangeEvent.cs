@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
 {
-    public object OldVersion
+    public ulong OldVersion
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object NewVersion
+    public ulong? NewVersion
     {
         get
         {

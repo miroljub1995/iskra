@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrackProcessor(JSObject obj): JSObjectProxy(obj)
 {
-    public object Readable
+    public ReadableStream Readable
     {
         get
         {

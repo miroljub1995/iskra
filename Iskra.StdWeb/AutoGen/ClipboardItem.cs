@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
 {
-    public object PresentationStyle
+    public PresentationStyle PresentationStyle
     {
         get
         {

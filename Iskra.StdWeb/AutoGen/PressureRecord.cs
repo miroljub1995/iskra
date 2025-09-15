@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public object Source
+    public PressureSource Source
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object State
+    public PressureState State
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Time
+    public DOMHighResTimeStamp Time
     {
         get
         {

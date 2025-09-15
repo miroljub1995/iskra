@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaration(obj)
 {
-    public object Margin
+    public string Margin
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginTop
+    public string MarginTop
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginRight
+    public string MarginRight
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginBottom
+    public string MarginBottom
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginLeft
+    public string MarginLeft
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginBlock
+    public string MarginBlock
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginBlockStart
+    public string MarginBlockStart
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginBlockEnd
+    public string MarginBlockEnd
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginInline
+    public string MarginInline
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginInlineStart
+    public string MarginInlineStart
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MarginInlineEnd
+    public string MarginInlineEnd
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_top
+    public string Margin_top
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_right
+    public string Margin_right
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_bottom
+    public string Margin_bottom
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_left
+    public string Margin_left
     {
         get
         {
@@ -189,7 +189,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_block
+    public string Margin_block
     {
         get
         {
@@ -201,7 +201,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_block_start
+    public string Margin_block_start
     {
         get
         {
@@ -213,7 +213,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_block_end
+    public string Margin_block_end
     {
         get
         {
@@ -225,7 +225,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_inline
+    public string Margin_inline
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_inline_start
+    public string Margin_inline_start
     {
         get
         {
@@ -249,7 +249,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Margin_inline_end
+    public string Margin_inline_end
     {
         get
         {
@@ -261,7 +261,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset
+    public string Inset
     {
         get
         {
@@ -273,7 +273,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InsetBlock
+    public string InsetBlock
     {
         get
         {
@@ -285,7 +285,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InsetBlockStart
+    public string InsetBlockStart
     {
         get
         {
@@ -297,7 +297,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InsetBlockEnd
+    public string InsetBlockEnd
     {
         get
         {
@@ -309,7 +309,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InsetInline
+    public string InsetInline
     {
         get
         {
@@ -321,7 +321,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InsetInlineStart
+    public string InsetInlineStart
     {
         get
         {
@@ -333,7 +333,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InsetInlineEnd
+    public string InsetInlineEnd
     {
         get
         {
@@ -345,7 +345,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Top
+    public string Top
     {
         get
         {
@@ -357,7 +357,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Left
+    public string Left
     {
         get
         {
@@ -369,7 +369,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Right
+    public string Right
     {
         get
         {
@@ -381,7 +381,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Bottom
+    public string Bottom
     {
         get
         {
@@ -393,7 +393,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset_block
+    public string Inset_block
     {
         get
         {
@@ -405,7 +405,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset_block_start
+    public string Inset_block_start
     {
         get
         {
@@ -417,7 +417,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset_block_end
+    public string Inset_block_end
     {
         get
         {
@@ -429,7 +429,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset_inline
+    public string Inset_inline
     {
         get
         {
@@ -441,7 +441,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset_inline_start
+    public string Inset_inline_start
     {
         get
         {
@@ -453,7 +453,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inset_inline_end
+    public string Inset_inline_end
     {
         get
         {
@@ -465,7 +465,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Width
+    public string Width
     {
         get
         {
@@ -477,7 +477,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MinWidth
+    public string MinWidth
     {
         get
         {
@@ -489,7 +489,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MaxWidth
+    public string MaxWidth
     {
         get
         {
@@ -501,7 +501,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Height
+    public string Height
     {
         get
         {
@@ -513,7 +513,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MinHeight
+    public string MinHeight
     {
         get
         {
@@ -525,7 +525,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MaxHeight
+    public string MaxHeight
     {
         get
         {
@@ -537,7 +537,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object BlockSize
+    public string BlockSize
     {
         get
         {
@@ -549,7 +549,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MinBlockSize
+    public string MinBlockSize
     {
         get
         {
@@ -561,7 +561,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MaxBlockSize
+    public string MaxBlockSize
     {
         get
         {
@@ -573,7 +573,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object InlineSize
+    public string InlineSize
     {
         get
         {
@@ -585,7 +585,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MinInlineSize
+    public string MinInlineSize
     {
         get
         {
@@ -597,7 +597,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object MaxInlineSize
+    public string MaxInlineSize
     {
         get
         {
@@ -609,7 +609,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Min_width
+    public string Min_width
     {
         get
         {
@@ -621,7 +621,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Max_width
+    public string Max_width
     {
         get
         {
@@ -633,7 +633,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Min_height
+    public string Min_height
     {
         get
         {
@@ -645,7 +645,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Max_height
+    public string Max_height
     {
         get
         {
@@ -657,7 +657,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Block_size
+    public string Block_size
     {
         get
         {
@@ -669,7 +669,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Min_block_size
+    public string Min_block_size
     {
         get
         {
@@ -681,7 +681,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Max_block_size
+    public string Max_block_size
     {
         get
         {
@@ -693,7 +693,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Inline_size
+    public string Inline_size
     {
         get
         {
@@ -705,7 +705,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Min_inline_size
+    public string Min_inline_size
     {
         get
         {
@@ -717,7 +717,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Max_inline_size
+    public string Max_inline_size
     {
         get
         {
@@ -729,7 +729,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object PlaceSelf
+    public string PlaceSelf
     {
         get
         {
@@ -741,7 +741,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object AlignSelf
+    public string AlignSelf
     {
         get
         {
@@ -753,7 +753,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object JustifySelf
+    public string JustifySelf
     {
         get
         {
@@ -765,7 +765,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Place_self
+    public string Place_self
     {
         get
         {
@@ -777,7 +777,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Align_self
+    public string Align_self
     {
         get
         {
@@ -789,7 +789,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Justify_self
+    public string Justify_self
     {
         get
         {
@@ -801,7 +801,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object PositionAnchor
+    public string PositionAnchor
     {
         get
         {
@@ -813,7 +813,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Position_anchor
+    public string Position_anchor
     {
         get
         {
@@ -825,7 +825,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object PositionArea
+    public string PositionArea
     {
         get
         {
@@ -837,7 +837,7 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
         }
     }
 
-    public object Position_area
+    public string Position_area
     {
         get
         {

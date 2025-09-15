@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object UploadTotal
+    public ulong UploadTotal
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Uploaded
+    public ulong Uploaded
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object DownloadTotal
+    public ulong DownloadTotal
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Downloaded
+    public ulong Downloaded
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Result
+    public BackgroundFetchResult Result
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object FailureReason
+    public BackgroundFetchFailureReason FailureReason
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object RecordsAvailable
+    public bool RecordsAvailable
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onprogress
+    public EventHandler Onprogress
     {
         get
         {

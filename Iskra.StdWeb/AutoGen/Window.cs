@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Window(JSObject obj): EventTarget(obj)
 {
-    public object Window
+    public Window Window
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Self
+    public Window Self
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Document
+    public Document Document
     {
         get
         {
@@ -33,99 +33,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Name
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Location
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object History
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Navigation
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object CustomElements
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Locationbar
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Menubar
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Personalbar
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Scrollbars
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Statusbar
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Toolbar
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Status
+    public string Name
     {
         get
         {
@@ -137,7 +45,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Closed
+    public Location Location
     {
         get
         {
@@ -145,7 +53,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Frames
+    public History History
     {
         get
         {
@@ -153,7 +61,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Length
+    public Navigation Navigation
     {
         get
         {
@@ -161,7 +69,99 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Top
+    public CustomElementRegistry CustomElements
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public BarProp Locationbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public BarProp Menubar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public BarProp Personalbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public BarProp Scrollbars
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public BarProp Statusbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public BarProp Toolbar
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Status
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool Closed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public Window Frames
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public uint Length
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public Window? Top
     {
         get
         {
@@ -181,7 +181,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Parent
+    public Window? Parent
     {
         get
         {
@@ -189,7 +189,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object FrameElement
+    public Element? FrameElement
     {
         get
         {
@@ -197,7 +197,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Navigator
+    public Navigator Navigator
     {
         get
         {
@@ -205,7 +205,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ClientInformation
+    public Navigator ClientInformation
     {
         get
         {
@@ -213,7 +213,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object OriginAgentCluster
+    public bool OriginAgentCluster
     {
         get
         {

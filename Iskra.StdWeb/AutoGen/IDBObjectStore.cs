@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IndexNames
+    public DOMStringList IndexNames
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Transaction
+    public IDBTransaction Transaction
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AutoIncrement
+    public bool AutoIncrement
     {
         get
         {

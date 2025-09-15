@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NodeList(JSObject obj): JSObjectProxy(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {

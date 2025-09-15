@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Scrolling
+    public string Scrolling
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Src
+    public string Src
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FrameBorder
+    public string FrameBorder
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object LongDesc
+    public string LongDesc
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object NoResize
+    public bool NoResize
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ContentDocument
+    public Document? ContentDocument
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ContentWindow
+    public Window? ContentWindow
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object MarginHeight
+    public string MarginHeight
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object MarginWidth
+    public string MarginWidth
     {
         get
         {

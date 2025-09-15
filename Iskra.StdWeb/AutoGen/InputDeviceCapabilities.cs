@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
 {
-    public object FiresTouchEvents
+    public bool FiresTouchEvents
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PointerMovementScrolls
+    public bool PointerMovementScrolls
     {
         get
         {

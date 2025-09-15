@@ -17,7 +17,7 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object KeepRepeatedDevices
+    public bool KeepRepeatedDevices
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AcceptAllAdvertisements
+    public bool AcceptAllAdvertisements
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Active
+    public bool Active
     {
         get
         {

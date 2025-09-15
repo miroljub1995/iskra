@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object Data
+    public PushMessageData? Data
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object Notification
+    public Notification? Notification
     {
         get
         {

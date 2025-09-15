@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
 {
-    public object X
+    public double X
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
         }
     }
 
-    public object Y
+    public double Y
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
         }
     }
 
-    public object Z
+    public double Z
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
         }
     }
 
-    public object W
+    public double W
     {
         get
         {

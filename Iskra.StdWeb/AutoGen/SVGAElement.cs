@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public object Target
+    public SVGAnimatedString Target
     {
         get
         {
@@ -17,19 +17,7 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Download
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Ping
+    public string Download
     {
         get
         {
@@ -41,7 +29,7 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Rel
+    public string Ping
     {
         get
         {
@@ -53,15 +41,7 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object RelList
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Hreflang
+    public string Rel
     {
         get
         {
@@ -73,7 +53,15 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Type
+    public DOMTokenList RelList
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Hreflang
     {
         get
         {
@@ -85,7 +73,7 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object Text
+    public string Type
     {
         get
         {
@@ -97,7 +85,19 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public string Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string ReferrerPolicy
     {
         get
         {

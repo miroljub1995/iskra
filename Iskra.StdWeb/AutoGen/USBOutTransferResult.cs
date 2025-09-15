@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
 {
-    public object BytesWritten
+    public uint BytesWritten
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Status
+    public USBTransferStatus Status
     {
         get
         {

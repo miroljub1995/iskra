@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRRay(JSObject obj): JSObjectProxy(obj)
 {
-    public object Origin
+    public DOMPointReadOnly Origin
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Direction
+    public DOMPointReadOnly Direction
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Matrix
+    public Float32Array Matrix
     {
         get
         {

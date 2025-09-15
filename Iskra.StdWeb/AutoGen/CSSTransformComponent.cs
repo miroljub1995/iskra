@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransformComponent(JSObject obj): JSObjectProxy(obj)
 {
-    public object Is2D
+    public bool Is2D
     {
         get
         {

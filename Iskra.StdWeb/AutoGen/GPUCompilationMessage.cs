@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
 {
-    public object Message
+    public string Message
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public GPUCompilationMessageType Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LineNum
+    public ulong LineNum
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LinePos
+    public ulong LinePos
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Offset
+    public ulong Offset
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public ulong Length
     {
         get
         {

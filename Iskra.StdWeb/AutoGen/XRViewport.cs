@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
 {
-    public object X
+    public int X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Y
+    public int Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Width
+    public int Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public int Height
     {
         get
         {

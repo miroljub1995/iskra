@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Response(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public ResponseType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Redirected
+    public bool Redirected
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Status
+    public ushort Status
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Ok
+    public bool Ok
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object StatusText
+    public string StatusText
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Headers
+    public Headers Headers
     {
         get
         {

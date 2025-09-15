@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
 {
-    public object Protocol
+    public string Protocol
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Username
+    public string Username
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Password
+    public string Password
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hostname
+    public string Hostname
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Port
+    public string Port
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Pathname
+    public string Pathname
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Search
+    public string Search
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hash
+    public string Hash
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object HasRegExpGroups
+    public bool HasRegExpGroups
     {
         get
         {

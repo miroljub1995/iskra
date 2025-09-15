@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
 {
-    public object Candidate
+    public RTCIceCandidate? Candidate
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Url
+    public string? Url
     {
         get
         {

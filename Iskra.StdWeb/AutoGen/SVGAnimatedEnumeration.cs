@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
 {
-    public object BaseVal
+    public ushort BaseVal
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AnimVal
+    public ushort AnimVal
     {
         get
         {

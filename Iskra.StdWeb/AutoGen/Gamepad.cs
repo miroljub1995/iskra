@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Index
+    public int Index
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Connected
+    public bool Connected
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Timestamp
+    public DOMHighResTimeStamp Timestamp
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Mapping
+    public GamepadMappingType Mapping
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object VibrationActuator
+    public GamepadHapticActuator VibrationActuator
     {
         get
         {

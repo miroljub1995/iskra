@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public object Vendor
+    public string Vendor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Architecture
+    public string Architecture
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Device
+    public string Device
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Description
+    public string Description
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SubgroupMinSize
+    public uint SubgroupMinSize
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SubgroupMaxSize
+    public uint SubgroupMaxSize
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsFallbackAdapter
+    public bool IsFallbackAdapter
     {
         get
         {

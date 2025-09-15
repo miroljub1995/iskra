@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
 {
-    public object Src
+    public string Src
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Sandbox
+    public DOMTokenList Sandbox
     {
         get
         {
@@ -53,19 +53,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Allow
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object AllowFullscreen
+    public string Allow
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
+    public bool AllowFullscreen
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public string Width
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public string Height
     {
         get
         {
@@ -113,7 +101,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Loading
+    public string ReferrerPolicy
     {
         get
         {
@@ -125,7 +113,19 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ContentDocument
+    public string Loading
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Document? ContentDocument
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ContentWindow
+    public Window? ContentWindow
     {
         get
         {

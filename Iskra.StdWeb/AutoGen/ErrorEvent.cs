@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ErrorEvent(JSObject obj): Event(obj)
 {
-    public object Message
+    public string Message
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Filename
+    public string Filename
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Lineno
+    public uint Lineno
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Colno
+    public uint Colno
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
 {
-    public object Pressed
+    public bool Pressed
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Touched
+    public bool Touched
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Value
+    public double Value
     {
         get
         {

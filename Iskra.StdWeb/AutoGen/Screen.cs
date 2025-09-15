@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Screen(JSObject obj): JSObjectProxy(obj)
 {
-    public object AvailWidth
+    public int AvailWidth
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AvailHeight
+    public int AvailHeight
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Width
+    public int Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public int Height
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ColorDepth
+    public uint ColorDepth
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PixelDepth
+    public uint PixelDepth
     {
         get
         {

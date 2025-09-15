@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
 {
-    public object Value
+    public double Value
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Min
+    public double Min
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Max
+    public double Max
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Low
+    public double Low
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object High
+    public double High
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Optimum
+    public double Optimum
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Labels
+    public NodeList Labels
     {
         get
         {

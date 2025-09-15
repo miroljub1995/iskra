@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PointerEvent(JSObject obj): MouseEvent(obj)
 {
-    public object PointerId
+    public int PointerId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object Width
+    public double Width
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object Height
+    public double Height
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object Pressure
+    public float Pressure
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object TangentialPressure
+    public float TangentialPressure
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object TiltX
+    public int TiltX
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object TiltY
+    public int TiltY
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object Twist
+    public int Twist
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object AltitudeAngle
+    public double AltitudeAngle
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object AzimuthAngle
+    public double AzimuthAngle
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object PointerType
+    public string PointerType
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object IsPrimary
+    public bool IsPrimary
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
         }
     }
 
-    public object PersistentDeviceId
+    public int PersistentDeviceId
     {
         get
         {

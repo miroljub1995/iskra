@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
 {
-    public object PatternUnits
+    public SVGAnimatedEnumeration PatternUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object PatternContentUnits
+    public SVGAnimatedEnumeration PatternContentUnits
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object PatternTransform
+    public SVGAnimatedTransformList PatternTransform
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object X
+    public SVGAnimatedLength X
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Y
+    public SVGAnimatedLength Y
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Width
+    public SVGAnimatedLength Width
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGPatternElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Height
+    public SVGAnimatedLength Height
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
 {
-    public object Value
+    public double Value
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object HadRecentInput
+    public bool HadRecentInput
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object LastInputTime
+    public DOMHighResTimeStamp LastInputTime
     {
         get
         {

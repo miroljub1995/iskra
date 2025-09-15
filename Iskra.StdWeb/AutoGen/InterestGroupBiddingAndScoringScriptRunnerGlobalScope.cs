@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObject obj): InterestGroupScriptRunnerGlobalScope(obj)
 {
-    public object ForDebuggingOnly
+    public ForDebuggingOnly ForDebuggingOnly
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
         }
     }
 
-    public object RealTimeReporting
+    public RealTimeReporting RealTimeReporting
     {
         get
         {

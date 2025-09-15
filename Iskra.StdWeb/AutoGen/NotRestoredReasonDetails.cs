@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NotRestoredReasonDetails(JSObject obj): JSObjectProxy(obj)
 {
-    public object Reason
+    public string Reason
     {
         get
         {

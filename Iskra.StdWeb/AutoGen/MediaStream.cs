@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStream(JSObject obj): EventTarget(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Active
+    public bool Active
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onaddtrack
+    public EventHandler Onaddtrack
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onremovetrack
+    public EventHandler Onremovetrack
     {
         get
         {

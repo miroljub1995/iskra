@@ -25,7 +25,7 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LowerOpen
+    public bool LowerOpen
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UpperOpen
+    public bool UpperOpen
     {
         get
         {

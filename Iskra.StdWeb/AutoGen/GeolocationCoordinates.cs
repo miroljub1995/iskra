@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
 {
-    public object Accuracy
+    public double Accuracy
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Latitude
+    public double Latitude
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Longitude
+    public double Longitude
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Altitude
+    public double? Altitude
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AltitudeAccuracy
+    public double? AltitudeAccuracy
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Heading
+    public double? Heading
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Speed
+    public double? Speed
     {
         get
         {

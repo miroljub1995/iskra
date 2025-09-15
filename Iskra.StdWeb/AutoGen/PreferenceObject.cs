@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PreferenceObject(JSObject obj): EventTarget(obj)
 {
-    public object Override
+    public string? Override
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Value
+    public string Value
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchange
+    public EventHandler Onchange
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
 {
-    public object Src
+    public string Src
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
+    public string Width
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public string Height
     {
         get
         {

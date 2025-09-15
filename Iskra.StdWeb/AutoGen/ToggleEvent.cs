@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ToggleEvent(JSObject obj): Event(obj)
 {
-    public object OldState
+    public string OldState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object NewState
+    public string NewState
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Source
+    public Element? Source
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
 {
-    public object Code
+    public ushort Code
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Message
+    public string Message
     {
         get
         {

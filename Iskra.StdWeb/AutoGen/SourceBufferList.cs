@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBufferList(JSObject obj): EventTarget(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onaddsourcebuffer
+    public EventHandler Onaddsourcebuffer
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onremovesourcebuffer
+    public EventHandler Onremovesourcebuffer
     {
         get
         {

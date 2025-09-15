@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Style
+    public CSSPositionTryDescriptors Style
     {
         get
         {

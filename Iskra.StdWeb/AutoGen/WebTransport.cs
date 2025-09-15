@@ -17,7 +17,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Reliability
+    public WebTransportReliabilityMode Reliability
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CongestionControl
+    public WebTransportCongestionControl CongestionControl
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AnticipatedConcurrentIncomingUnidirectionalStreams
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object AnticipatedConcurrentIncomingBidirectionalStreams
+    public ushort? AnticipatedConcurrentIncomingUnidirectionalStreams
     {
         get
         {
@@ -57,7 +45,19 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Protocol
+    public ushort? AnticipatedConcurrentIncomingBidirectionalStreams
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Protocol
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Datagrams
+    public WebTransportDatagramDuplexStream Datagrams
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IncomingBidirectionalStreams
+    public ReadableStream IncomingBidirectionalStreams
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IncomingUnidirectionalStreams
+    public ReadableStream IncomingUnidirectionalStreams
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public static object SupportsReliableOnly
+    public static bool SupportsReliableOnly
     {
         get
         {

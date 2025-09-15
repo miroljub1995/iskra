@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
 {
-    public object X
+    public double X
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
         }
     }
 
-    public object Y
+    public double Y
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
         }
     }
 
-    public object Width
+    public double Width
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
         }
     }
 
-    public object Height
+    public double Height
     {
         get
         {

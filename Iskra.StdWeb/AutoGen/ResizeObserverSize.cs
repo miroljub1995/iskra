@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ResizeObserverSize(JSObject obj): JSObjectProxy(obj)
 {
-    public object InlineSize
+    public double InlineSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ResizeObserverSize(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockSize
+    public double BlockSize
     {
         get
         {

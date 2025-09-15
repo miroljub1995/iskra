@@ -17,7 +17,7 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
         }
     }
 
-    public object DesiredSize
+    public double? DesiredSize
     {
         get
         {

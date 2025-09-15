@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
 {
-    public object ResultIndex
+    public uint ResultIndex
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Results
+    public SpeechRecognitionResultList Results
     {
         get
         {

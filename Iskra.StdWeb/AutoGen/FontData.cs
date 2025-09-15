@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontData(JSObject obj): JSObjectProxy(obj)
 {
-    public object PostscriptName
+    public string PostscriptName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FullName
+    public string FullName
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Family
+    public string Family
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Style
+    public string Style
     {
         get
         {

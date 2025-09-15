@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
 {
-    public object Width
+    public double Width
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BoundingBoxLeft
+    public double BoundingBoxLeft
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BoundingBoxRight
+    public double BoundingBoxRight
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public double Height
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EmHeightAscent
+    public double EmHeightAscent
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EmHeightDescent
+    public double EmHeightDescent
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BoundingBoxAscent
+    public double BoundingBoxAscent
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BoundingBoxDescent
+    public double BoundingBoxDescent
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FontBoundingBoxAscent
+    public double FontBoundingBoxAscent
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FontBoundingBoxDescent
+    public double FontBoundingBoxDescent
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DominantBaseline
+    public Baseline DominantBaseline
     {
         get
         {

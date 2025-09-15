@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSlotElement(JSObject obj): HTMLElement(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TransitionEvent(JSObject obj): Event(obj)
 {
-    public object PropertyName
+    public string PropertyName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ElapsedTime
+    public double ElapsedTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object PseudoElement
+    public string PseudoElement
     {
         get
         {

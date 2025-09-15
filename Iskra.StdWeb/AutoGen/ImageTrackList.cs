@@ -17,7 +17,7 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SelectedIndex
+    public int SelectedIndex
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SelectedTrack
+    public ImageTrack? SelectedTrack
     {
         get
         {

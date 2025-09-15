@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioDecoder(JSObject obj): EventTarget(obj)
 {
-    public object State
+    public CodecState State
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioDecoder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object DecodeQueueSize
+    public uint DecodeQueueSize
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioDecoder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ondequeue
+    public EventHandler Ondequeue
     {
         get
         {

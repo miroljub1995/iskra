@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Profiler(JSObject obj): EventTarget(obj)
 {
-    public object SampleInterval
+    public DOMHighResTimeStamp SampleInterval
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Profiler(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Stopped
+    public bool Stopped
     {
         get
         {

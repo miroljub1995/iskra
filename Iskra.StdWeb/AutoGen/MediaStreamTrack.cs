@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
 {
-    public object Kind
+    public string Kind
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Id
+    public string Id
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Label
+    public string Label
     {
         get
         {
@@ -33,27 +33,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Enabled
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Muted
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onmute
+    public bool Enabled
     {
         get
         {
@@ -65,7 +45,15 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onunmute
+    public bool Muted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onmute
     {
         get
         {
@@ -77,7 +65,19 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReadyState
+    public EventHandler Onunmute
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public MediaStreamTrackState ReadyState
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onended
+    public EventHandler Onended
     {
         get
         {

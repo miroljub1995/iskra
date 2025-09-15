@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNode(obj)
 {
-    public object Buffer
+    public AudioBuffer? Buffer
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         }
     }
 
-    public object PlaybackRate
+    public AudioParam PlaybackRate
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         }
     }
 
-    public object Detune
+    public AudioParam Detune
     {
         get
         {
@@ -37,19 +37,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         }
     }
 
-    public object Loop
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object LoopStart
+    public bool Loop
     {
         get
         {
@@ -61,7 +49,19 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         }
     }
 
-    public object LoopEnd
+    public double LoopStart
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public double LoopEnd
     {
         get
         {

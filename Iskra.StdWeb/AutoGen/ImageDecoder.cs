@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Complete
+    public bool Complete
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Tracks
+    public ImageTrackList Tracks
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
 {
-    public object InlineSize
+    public double InlineSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockSize
+    public double BlockSize
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InlineOffset
+    public double InlineOffset
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockOffset
+    public double BlockOffset
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BreakToken
+    public ChildBreakToken? BreakToken
     {
         get
         {

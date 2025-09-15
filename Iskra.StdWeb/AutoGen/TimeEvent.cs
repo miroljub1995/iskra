@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TimeEvent(JSObject obj): Event(obj)
 {
-    public object View
+    public Window? View
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TimeEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Detail
+    public int Detail
     {
         get
         {

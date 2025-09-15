@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class InputEvent(JSObject obj): UIEvent(obj)
 {
-    public object Data
+    public string? Data
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object IsComposing
+    public bool IsComposing
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object InputType
+    public string InputType
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object SurfaceScale
+    public SVGAnimatedNumber SurfaceScale
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object SpecularConstant
+    public SVGAnimatedNumber SpecularConstant
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object SpecularExponent
+    public SVGAnimatedNumber SpecularExponent
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelUnitLengthX
+    public SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelUnitLengthY
+    public SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {

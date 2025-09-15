@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object HttpEquiv
+    public string HttpEquiv
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Content
+    public string Content
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Media
+    public string Media
     {
         get
         {

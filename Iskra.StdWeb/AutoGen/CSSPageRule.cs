@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
 {
-    public object SelectorText
+    public string SelectorText
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
         }
     }
 
-    public object Style
+    public CSSPageDescriptors Style
     {
         get
         {

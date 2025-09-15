@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentManager(JSObject obj): JSObjectProxy(obj)
 {
-    public object UserHint
+    public string UserHint
     {
         get
         {

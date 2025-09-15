@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
 {
-    public object Text
+    public string Text
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Lang
+    public string Lang
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Voice
+    public SpeechSynthesisVoice? Voice
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Volume
+    public float Volume
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Rate
+    public float Rate
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Pitch
+    public float Pitch
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstart
+    public EventHandler Onstart
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onend
+    public EventHandler Onend
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onerror
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onpause
+    public EventHandler Onpause
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onresume
+    public EventHandler Onresume
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmark
+    public EventHandler Onmark
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onboundary
+    public EventHandler Onboundary
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
 {
-    public object Time
+    public DOMHighResTimeStamp Time
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RootBounds
+    public DOMRectReadOnly? RootBounds
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BoundingClientRect
+    public DOMRectReadOnly BoundingClientRect
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IntersectionRect
+    public DOMRectReadOnly IntersectionRect
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsIntersecting
+    public bool IsIntersecting
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsVisible
+    public bool IsVisible
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IntersectionRatio
+    public double IntersectionRatio
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Target
+    public Element Target
     {
         get
         {

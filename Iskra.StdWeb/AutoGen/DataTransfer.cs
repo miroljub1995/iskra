@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
 {
-    public object DropEffect
+    public string DropEffect
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EffectAllowed
+    public string EffectAllowed
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Items
+    public DataTransferItemList Items
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Files
+    public FileList Files
     {
         get
         {

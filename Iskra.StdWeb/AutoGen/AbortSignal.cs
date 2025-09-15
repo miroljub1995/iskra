@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AbortSignal(JSObject obj): EventTarget(obj)
 {
-    public object Aborted
+    public bool Aborted
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onabort
+    public EventHandler Onabort
     {
         get
         {

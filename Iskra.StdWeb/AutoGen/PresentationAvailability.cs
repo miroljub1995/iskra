@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
 {
-    public object Value
+    public bool Value
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchange
+    public EventHandler Onchange
     {
         get
         {

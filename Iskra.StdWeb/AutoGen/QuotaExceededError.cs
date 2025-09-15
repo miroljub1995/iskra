@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class QuotaExceededError(JSObject obj): DOMException(obj)
 {
-    public object Quota
+    public double? Quota
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class QuotaExceededError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object Requested
+    public double? Requested
     {
         get
         {

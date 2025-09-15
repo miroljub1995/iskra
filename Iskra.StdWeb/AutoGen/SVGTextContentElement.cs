@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public object TextLength
+    public SVGAnimatedLength TextLength
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
         }
     }
 
-    public object LengthAdjust
+    public SVGAnimatedEnumeration LengthAdjust
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageData(JSObject obj): JSObjectProxy(obj)
 {
-    public object Width
+    public uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public uint Height
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Data
+    public ImageDataArray Data
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PixelFormat
+    public ImageDataPixelFormat PixelFormat
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ColorSpace
+    public PredefinedColorSpace ColorSpace
     {
         get
         {

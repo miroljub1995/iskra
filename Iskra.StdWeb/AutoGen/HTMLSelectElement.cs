@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
 {
-    public object Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Multiple
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Name
+    public bool Multiple
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Required
+    public string Name
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Size
+    public bool Required
     {
         get
         {
@@ -89,23 +77,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Options
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Length
+    public uint Size
     {
         get
         {
@@ -117,7 +89,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SelectedOptions
+    public string Type
     {
         get
         {
@@ -125,7 +97,15 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SelectedIndex
+    public HTMLOptionsCollection Options
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public uint Length
     {
         get
         {
@@ -137,7 +117,15 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public HTMLCollection SelectedOptions
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public int SelectedIndex
     {
         get
         {
@@ -149,7 +137,19 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object WillValidate
+    public string Value
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool WillValidate
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Validity
+    public ValidityState Validity
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -173,7 +173,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Labels
+    public NodeList Labels
     {
         get
         {

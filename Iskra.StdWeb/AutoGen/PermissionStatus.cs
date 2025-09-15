@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PermissionStatus(JSObject obj): EventTarget(obj)
 {
-    public object State
+    public PermissionState State
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchange
+    public EventHandler Onchange
     {
         get
         {

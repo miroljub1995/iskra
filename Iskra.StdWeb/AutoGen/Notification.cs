@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Notification(JSObject obj): EventTarget(obj)
 {
-    public static object Permission
+    public static NotificationPermission Permission
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public static object MaxActions
+    public static uint MaxActions
     {
         get
         {
@@ -25,19 +25,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onclick
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onshow
+    public EventHandler Onclick
     {
         get
         {
@@ -49,7 +37,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onshow
     {
         get
         {
@@ -61,7 +49,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onclose
+    public EventHandler Onerror
     {
         get
         {
@@ -73,7 +61,19 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Title
+    public EventHandler Onclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string Title
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Dir
+    public NotificationDirection Dir
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Lang
+    public string Lang
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Body
+    public string Body
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Navigate
+    public string Navigate
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Tag
+    public string Tag
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Image
+    public string Image
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Icon
+    public string Icon
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Badge
+    public string Badge
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Timestamp
+    public EpochTimeStamp Timestamp
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Renotify
+    public bool Renotify
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Silent
+    public bool? Silent
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object RequireInteraction
+    public bool RequireInteraction
     {
         get
         {

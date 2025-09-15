@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaintWorkletGlobalScope(JSObject obj): WorkletGlobalScope(obj)
 {
-    public object DevicePixelRatio
+    public double DevicePixelRatio
     {
         get
         {

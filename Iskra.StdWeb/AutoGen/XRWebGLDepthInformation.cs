@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(obj)
 {
-    public object Texture
+    public WebGLTexture Texture
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
         }
     }
 
-    public object TextureType
+    public XRTextureType TextureType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
         }
     }
 
-    public object ImageIndex
+    public uint? ImageIndex
     {
         get
         {

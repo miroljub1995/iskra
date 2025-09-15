@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSUnparsedValue(JSObject obj): CSSStyleValue(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {

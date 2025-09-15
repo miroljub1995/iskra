@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
 {
-    public object Alt
+    public string Alt
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Src
+    public string Src
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Srcset
+    public string Srcset
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Sizes
+    public string Sizes
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CrossOrigin
+    public string? CrossOrigin
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object UseMap
+    public string UseMap
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object IsMap
+    public bool IsMap
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
+    public uint Width
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public uint Height
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object NaturalWidth
+    public uint NaturalWidth
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object NaturalHeight
+    public uint NaturalHeight
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Complete
+    public bool Complete
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CurrentSrc
+    public string CurrentSrc
     {
         get
         {
@@ -149,19 +149,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReferrerPolicy
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Decoding
+    public string ReferrerPolicy
     {
         get
         {
@@ -173,7 +161,7 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Loading
+    public string Decoding
     {
         get
         {
@@ -185,7 +173,19 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object FetchPriority
+    public string Loading
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string FetchPriority
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
 {
-    public object NavigationStart
+    public ulong NavigationStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UnloadEventStart
+    public ulong UnloadEventStart
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UnloadEventEnd
+    public ulong UnloadEventEnd
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RedirectStart
+    public ulong RedirectStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RedirectEnd
+    public ulong RedirectEnd
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FetchStart
+    public ulong FetchStart
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomainLookupStart
+    public ulong DomainLookupStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomainLookupEnd
+    public ulong DomainLookupEnd
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ConnectStart
+    public ulong ConnectStart
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ConnectEnd
+    public ulong ConnectEnd
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SecureConnectionStart
+    public ulong SecureConnectionStart
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RequestStart
+    public ulong RequestStart
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ResponseStart
+    public ulong ResponseStart
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ResponseEnd
+    public ulong ResponseEnd
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomLoading
+    public ulong DomLoading
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomInteractive
+    public ulong DomInteractive
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomContentLoadedEventStart
+    public ulong DomContentLoadedEventStart
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomContentLoadedEventEnd
+    public ulong DomContentLoadedEventEnd
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DomComplete
+    public ulong DomComplete
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LoadEventStart
+    public ulong LoadEventStart
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LoadEventEnd
+    public ulong LoadEventEnd
     {
         get
         {

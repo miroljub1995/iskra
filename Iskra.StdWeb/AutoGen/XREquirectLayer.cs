@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
 {
-    public object Space
+    public XRSpace Space
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object Transform
+    public XRRigidTransform Transform
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object Radius
+    public float Radius
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object CentralHorizontalAngle
+    public float CentralHorizontalAngle
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object UpperVerticalAngle
+    public float UpperVerticalAngle
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object LowerVerticalAngle
+    public float LowerVerticalAngle
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public object Onredraw
+    public EventHandler Onredraw
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
 {
-    public object Error
+    public MediaError? Error
     {
         get
         {
@@ -17,19 +17,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Src
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object SrcObject
+    public string Src
     {
         get
         {
@@ -41,15 +29,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CurrentSrc
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object CrossOrigin
+    public MediaProvider? SrcObject
     {
         get
         {
@@ -61,7 +41,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object NetworkState
+    public string CurrentSrc
     {
         get
         {
@@ -69,43 +49,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Preload
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Buffered
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ReadyState
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Seeking
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object CurrentTime
+    public string? CrossOrigin
     {
         get
         {
@@ -117,7 +61,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Duration
+    public ushort NetworkState
     {
         get
         {
@@ -125,15 +69,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Paused
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object DefaultPlaybackRate
+    public string Preload
     {
         get
         {
@@ -145,7 +81,31 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object PlaybackRate
+    public TimeRanges Buffered
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public ushort ReadyState
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool Seeking
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public double CurrentTime
     {
         get
         {
@@ -157,7 +117,23 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object PreservesPitch
+    public double Duration
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool Paused
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public double DefaultPlaybackRate
     {
         get
         {
@@ -169,31 +145,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Played
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Seekable
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Ended
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Autoplay
+    public double PlaybackRate
     {
         get
         {
@@ -205,7 +157,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Loop
+    public bool PreservesPitch
     {
         get
         {
@@ -217,7 +169,31 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Controls
+    public TimeRanges Played
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public TimeRanges Seekable
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool Ended
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool Autoplay
     {
         get
         {
@@ -229,7 +205,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Volume
+    public bool Loop
     {
         get
         {
@@ -241,7 +217,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Muted
+    public bool Controls
     {
         get
         {
@@ -253,7 +229,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object DefaultMuted
+    public double Volume
     {
         get
         {
@@ -265,7 +241,31 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object AudioTracks
+    public bool Muted
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool DefaultMuted
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public AudioTrackList AudioTracks
     {
         get
         {
@@ -273,7 +273,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object VideoTracks
+    public VideoTrackList VideoTracks
     {
         get
         {
@@ -281,7 +281,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object TextTracks
+    public TextTrackList TextTracks
     {
         get
         {

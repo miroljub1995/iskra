@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableColElement(JSObject obj): HTMLElement(obj)
 {
-    public object Span
+    public uint Span
     {
         get
         {

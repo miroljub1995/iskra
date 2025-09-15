@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FormDataEvent(JSObject obj): Event(obj)
 {
-    public object FormData
+    public FormData FormData
     {
         get
         {

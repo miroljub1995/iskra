@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSupportsRule(JSObject obj): CSSConditionRule(obj)
 {
-    public object Matches
+    public bool Matches
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public object InitiatorType
+    public string InitiatorType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object DeliveryType
+    public string DeliveryType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object NextHopProtocol
+    public string NextHopProtocol
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object WorkerStart
+    public DOMHighResTimeStamp WorkerStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object RedirectStart
+    public DOMHighResTimeStamp RedirectStart
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object RedirectEnd
+    public DOMHighResTimeStamp RedirectEnd
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object FetchStart
+    public DOMHighResTimeStamp FetchStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object DomainLookupStart
+    public DOMHighResTimeStamp DomainLookupStart
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object DomainLookupEnd
+    public DOMHighResTimeStamp DomainLookupEnd
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ConnectStart
+    public DOMHighResTimeStamp ConnectStart
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ConnectEnd
+    public DOMHighResTimeStamp ConnectEnd
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object SecureConnectionStart
+    public DOMHighResTimeStamp SecureConnectionStart
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object RequestStart
+    public DOMHighResTimeStamp RequestStart
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object FinalResponseHeadersStart
+    public DOMHighResTimeStamp FinalResponseHeadersStart
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object FirstInterimResponseStart
+    public DOMHighResTimeStamp FirstInterimResponseStart
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ResponseStart
+    public DOMHighResTimeStamp ResponseStart
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ResponseEnd
+    public DOMHighResTimeStamp ResponseEnd
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object TransferSize
+    public ulong TransferSize
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object EncodedBodySize
+    public ulong EncodedBodySize
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object DecodedBodySize
+    public ulong DecodedBodySize
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ResponseStatus
+    public ushort ResponseStatus
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object RenderBlockingStatus
+    public RenderBlockingStatusType RenderBlockingStatus
     {
         get
         {
@@ -185,7 +185,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ContentType
+    public string ContentType
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public object ContentEncoding
+    public string ContentEncoding
     {
         get
         {

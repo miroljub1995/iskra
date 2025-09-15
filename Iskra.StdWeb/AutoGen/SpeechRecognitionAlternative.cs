@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionAlternative(JSObject obj): JSObjectProxy(obj)
 {
-    public object Transcript
+    public string Transcript
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionAlternative(JSObject obj): JSObjectProxy(o
         }
     }
 
-    public object Confidence
+    public float Confidence
     {
         get
         {

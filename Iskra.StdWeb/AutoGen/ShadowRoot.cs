@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
 {
-    public object Mode
+    public ShadowRootMode Mode
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public object DelegatesFocus
+    public bool DelegatesFocus
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public object SlotAssignment
+    public SlotAssignmentMode SlotAssignment
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public object Clonable
+    public bool Clonable
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public object Serializable
+    public bool Serializable
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public object Host
+    public Element Host
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public object Onslotchange
+    public EventHandler Onslotchange
     {
         get
         {

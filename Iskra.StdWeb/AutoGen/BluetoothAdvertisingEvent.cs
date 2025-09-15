@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
 {
-    public object Device
+    public BluetoothDevice Device
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Name
+    public string? Name
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Appearance
+    public ushort? Appearance
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object TxPower
+    public byte? TxPower
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Rssi
+    public byte? Rssi
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ManufacturerData
+    public BluetoothManufacturerDataMap ManufacturerData
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ServiceData
+    public BluetoothServiceDataMap ServiceData
     {
         get
         {

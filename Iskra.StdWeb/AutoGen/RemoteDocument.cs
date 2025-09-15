@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
 {
-    public object ContentType
+    public string ContentType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ContextUrl
+    public string ContextUrl
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DocumentUrl
+    public string DocumentUrl
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Profile
+    public string Profile
     {
         get
         {

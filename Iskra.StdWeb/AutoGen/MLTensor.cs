@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
 {
-    public object DataType
+    public MLOperandDataType DataType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Readable
+    public bool Readable
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Writable
+    public bool Writable
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Constant
+    public bool Constant
     {
         get
         {

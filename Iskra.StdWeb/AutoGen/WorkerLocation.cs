@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
 {
-    public object Href
+    public string Href
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Origin
+    public string Origin
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Protocol
+    public string Protocol
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Host
+    public string Host
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hostname
+    public string Hostname
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Port
+    public string Port
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Pathname
+    public string Pathname
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Search
+    public string Search
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hash
+    public string Hash
     {
         get
         {

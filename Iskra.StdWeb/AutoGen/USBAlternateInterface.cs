@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
 {
-    public object AlternateSetting
+    public byte AlternateSetting
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InterfaceClass
+    public byte InterfaceClass
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InterfaceSubclass
+    public byte InterfaceSubclass
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InterfaceProtocol
+    public byte InterfaceProtocol
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InterfaceName
+    public string? InterfaceName
     {
         get
         {

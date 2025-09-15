@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeyStatusMap(JSObject obj): JSObjectProxy(obj)
 {
-    public object Size
+    public uint Size
     {
         get
         {

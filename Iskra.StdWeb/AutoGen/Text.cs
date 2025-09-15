@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Text(JSObject obj): CharacterData(obj)
 {
-    public object WholeText
+    public string WholeText
     {
         get
         {

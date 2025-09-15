@@ -17,7 +17,7 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
         }
     }
 
-    public object IsAutoSelected
+    public bool IsAutoSelected
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
         }
     }
 
-    public object ConfigURL
+    public string ConfigURL
     {
         get
         {

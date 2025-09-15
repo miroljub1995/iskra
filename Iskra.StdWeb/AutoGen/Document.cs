@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Document(JSObject obj): Node(obj)
 {
-    public object Implementation
+    public DOMImplementation Implementation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object URL
+    public string URL
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object DocumentURI
+    public string DocumentURI
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object CompatMode
+    public string CompatMode
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object CharacterSet
+    public string CharacterSet
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object Charset
+    public string Charset
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object InputEncoding
+    public string InputEncoding
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object ContentType
+    public string ContentType
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object Doctype
+    public DocumentType? Doctype
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public object DocumentElement
+    public Element? DocumentElement
     {
         get
         {

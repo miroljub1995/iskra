@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
 {
-    public object X
+    public SVGAnimatedLength X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public object Y
+    public SVGAnimatedLength Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public object Width
+    public SVGAnimatedLength Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public object Height
+    public SVGAnimatedLength Height
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public object Rx
+    public SVGAnimatedLength Rx
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public object Ry
+    public SVGAnimatedLength Ry
     {
         get
         {

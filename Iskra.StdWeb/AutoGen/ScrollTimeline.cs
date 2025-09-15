@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
 {
-    public object Source
+    public Element? Source
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
         }
     }
 
-    public object Axis
+    public ScrollAxis Axis
     {
         get
         {

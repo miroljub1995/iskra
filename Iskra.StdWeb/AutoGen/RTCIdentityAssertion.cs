@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
 {
-    public object Idp
+    public string Idp
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {

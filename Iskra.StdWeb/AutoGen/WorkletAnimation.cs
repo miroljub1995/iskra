@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletAnimation(JSObject obj): Animation(obj)
 {
-    public object AnimatorName
+    public string AnimatorName
     {
         get
         {

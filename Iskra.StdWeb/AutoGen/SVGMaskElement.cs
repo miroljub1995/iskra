@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
 {
-    public object MaskUnits
+    public SVGAnimatedEnumeration MaskUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object MaskContentUnits
+    public SVGAnimatedEnumeration MaskContentUnits
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object X
+    public SVGAnimatedLength X
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Y
+    public SVGAnimatedLength Y
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Width
+    public SVGAnimatedLength Width
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Height
+    public SVGAnimatedLength Height
     {
         get
         {

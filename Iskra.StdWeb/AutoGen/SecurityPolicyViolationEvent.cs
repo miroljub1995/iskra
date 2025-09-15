@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
 {
-    public object DocumentURI
+    public string DocumentURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Referrer
+    public string Referrer
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object BlockedURI
+    public string BlockedURI
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object EffectiveDirective
+    public string EffectiveDirective
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ViolatedDirective
+    public string ViolatedDirective
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object OriginalPolicy
+    public string OriginalPolicy
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object SourceFile
+    public string SourceFile
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Sample
+    public string Sample
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Disposition
+    public SecurityPolicyViolationEventDisposition Disposition
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object StatusCode
+    public ushort StatusCode
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object LineNumber
+    public uint LineNumber
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ColumnNumber
+    public uint ColumnNumber
     {
         get
         {

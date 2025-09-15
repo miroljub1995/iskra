@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
 {
-    public object Width
+    public GPUIntegerCoordinateOut Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public GPUIntegerCoordinateOut Height
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DepthOrArrayLayers
+    public GPUIntegerCoordinateOut DepthOrArrayLayers
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MipLevelCount
+    public GPUIntegerCoordinateOut MipLevelCount
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SampleCount
+    public GPUSize32Out SampleCount
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Dimension
+    public GPUTextureDimension Dimension
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Format
+    public GPUTextureFormat Format
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Usage
+    public GPUFlagsConstant Usage
     {
         get
         {

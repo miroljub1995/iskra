@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaList(JSObject obj): JSObjectProxy(obj)
 {
-    public object MediaText
+    public string MediaText
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class MediaList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SFrameTransform(JSObject obj): EventTarget(obj)
 {
-    public object Onerror
+    public EventHandler Onerror
     {
         get
         {

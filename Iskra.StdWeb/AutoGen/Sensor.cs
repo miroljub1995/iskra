@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Sensor(JSObject obj): EventTarget(obj)
 {
-    public object Activated
+    public bool Activated
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object HasReading
+    public bool HasReading
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Timestamp
+    public DOMHighResTimeStamp? Timestamp
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onreading
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onactivate
+    public EventHandler Onreading
     {
         get
         {
@@ -57,7 +45,19 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onactivate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onerror
     {
         get
         {

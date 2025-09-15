@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Table(JSObject obj): JSObjectProxy(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {

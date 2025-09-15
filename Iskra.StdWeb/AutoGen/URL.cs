@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class URL(JSObject obj): JSObjectProxy(obj)
 {
-    public object Href
+    public string Href
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Origin
+    public string Origin
     {
         get
         {
@@ -29,19 +29,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Protocol
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Username
+    public string Protocol
     {
         get
         {
@@ -53,7 +41,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Password
+    public string Username
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Host
+    public string Password
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hostname
+    public string Host
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Port
+    public string Hostname
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Pathname
+    public string Port
     {
         get
         {
@@ -113,7 +101,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Search
+    public string Pathname
     {
         get
         {
@@ -125,7 +113,19 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SearchParams
+    public string Search
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public URLSearchParams SearchParams
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Hash
+    public string Hash
     {
         get
         {

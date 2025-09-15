@@ -17,7 +17,7 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object HasUAVisualTransition
+    public bool HasUAVisualTransition
     {
         get
         {

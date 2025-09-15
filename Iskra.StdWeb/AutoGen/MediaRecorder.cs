@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaRecorder(JSObject obj): EventTarget(obj)
 {
-    public object Stream
+    public MediaStream Stream
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MimeType
+    public string MimeType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public RecordingState State
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstart
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onstop
+    public EventHandler Onstart
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ondataavailable
+    public EventHandler Onstop
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onpause
+    public EventHandler Ondataavailable
     {
         get
         {
@@ -81,7 +69,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onresume
+    public EventHandler Onpause
     {
         get
         {
@@ -93,7 +81,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onresume
     {
         get
         {
@@ -105,7 +93,19 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object VideoBitsPerSecond
+    public EventHandler Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public uint VideoBitsPerSecond
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object AudioBitsPerSecond
+    public uint AudioBitsPerSecond
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object AudioBitrateMode
+    public BitrateMode AudioBitrateMode
     {
         get
         {

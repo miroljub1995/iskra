@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UsableWithLightBackground
+    public bool UsableWithLightBackground
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UsableWithDarkBackground
+    public bool UsableWithDarkBackground
     {
         get
         {

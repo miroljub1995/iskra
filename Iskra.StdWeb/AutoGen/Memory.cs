@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Memory(JSObject obj): JSObjectProxy(obj)
 {
-    public object Buffer
+    public ArrayBuffer Buffer
     {
         get
         {

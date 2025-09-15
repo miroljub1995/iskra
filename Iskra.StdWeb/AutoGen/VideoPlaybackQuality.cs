@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
 {
-    public object CreationTime
+    public DOMHighResTimeStamp CreationTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DroppedVideoFrames
+    public uint DroppedVideoFrames
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TotalVideoFrames
+    public uint TotalVideoFrames
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CorruptedVideoFrames
+    public uint CorruptedVideoFrames
     {
         get
         {

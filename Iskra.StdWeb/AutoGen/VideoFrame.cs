@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public object Format
+    public VideoPixelFormat? Format
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CodedWidth
+    public uint CodedWidth
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CodedHeight
+    public uint CodedHeight
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CodedRect
+    public DOMRectReadOnly? CodedRect
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object VisibleRect
+    public DOMRectReadOnly? VisibleRect
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Rotation
+    public double Rotation
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Flip
+    public bool Flip
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DisplayWidth
+    public uint DisplayWidth
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DisplayHeight
+    public uint DisplayHeight
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Duration
+    public ulong? Duration
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Timestamp
+    public long Timestamp
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ColorSpace
+    public VideoColorSpace ColorSpace
     {
         get
         {

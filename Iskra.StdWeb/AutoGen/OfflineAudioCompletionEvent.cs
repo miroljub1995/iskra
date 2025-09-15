@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class OfflineAudioCompletionEvent(JSObject obj): Event(obj)
 {
-    public object RenderedBuffer
+    public AudioBuffer RenderedBuffer
     {
         get
         {

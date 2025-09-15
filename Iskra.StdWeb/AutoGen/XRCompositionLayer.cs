@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
 {
-    public object Layout
+    public XRLayerLayout Layout
     {
         get
         {
@@ -17,19 +17,7 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         }
     }
 
-    public object BlendTextureSourceAlpha
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ForceMonoPresentation
+    public bool BlendTextureSourceAlpha
     {
         get
         {
@@ -41,7 +29,7 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         }
     }
 
-    public object Opacity
+    public bool ForceMonoPresentation
     {
         get
         {
@@ -53,15 +41,7 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         }
     }
 
-    public object MipLevels
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Quality
+    public float Opacity
     {
         get
         {
@@ -73,7 +53,27 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         }
     }
 
-    public object NeedsRedraw
+    public uint MipLevels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public XRLayerQuality Quality
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool NeedsRedraw
     {
         get
         {

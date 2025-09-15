@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CanvasRenderingContext2D(JSObject obj): JSObjectProxy(obj)
 {
-    public object Canvas
+    public HTMLCanvasElement Canvas
     {
         get
         {

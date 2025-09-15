@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredentialError(JSObject obj): DOMException(obj)
 {
-    public object Error
+    public string Error
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IdentityCredentialError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {

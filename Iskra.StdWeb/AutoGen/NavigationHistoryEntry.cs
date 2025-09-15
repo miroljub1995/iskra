@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
 {
-    public object Url
+    public string? Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Key
+    public string Key
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Id
+    public string Id
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Index
+    public long Index
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SameDocument
+    public bool SameDocument
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ondispose
+    public EventHandler Ondispose
     {
         get
         {

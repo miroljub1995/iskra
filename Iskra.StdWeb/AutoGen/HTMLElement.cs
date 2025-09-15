@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLElement(JSObject obj): Element(obj)
 {
-    public object Title
+    public string Title
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Lang
+    public string Lang
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Translate
+    public bool Translate
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Dir
+    public string Dir
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Inert
+    public bool Inert
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object AccessKey
+    public string AccessKey
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object AccessKeyLabel
+    public string AccessKeyLabel
     {
         get
         {
@@ -101,19 +101,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Draggable
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Spellcheck
+    public bool Draggable
     {
         get
         {
@@ -125,7 +113,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object WritingSuggestions
+    public bool Spellcheck
     {
         get
         {
@@ -137,7 +125,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Autocapitalize
+    public string WritingSuggestions
     {
         get
         {
@@ -149,7 +137,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Autocorrect
+    public string Autocapitalize
     {
         get
         {
@@ -161,7 +149,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object InnerText
+    public bool Autocorrect
     {
         get
         {
@@ -173,7 +161,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object OuterText
+    public string InnerText
     {
         get
         {
@@ -185,7 +173,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Popover
+    public string OuterText
     {
         get
         {
@@ -197,7 +185,7 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object HeadingOffset
+    public string? Popover
     {
         get
         {
@@ -209,7 +197,19 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object HeadingReset
+    public uint HeadingOffset
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool HeadingReset
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Plugin(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Description
+    public string Description
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Filename
+    public string Filename
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {

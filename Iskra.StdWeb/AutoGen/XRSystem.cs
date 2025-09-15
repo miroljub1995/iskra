@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSystem(JSObject obj): EventTarget(obj)
 {
-    public object Ondevicechange
+    public EventHandler Ondevicechange
     {
         get
         {

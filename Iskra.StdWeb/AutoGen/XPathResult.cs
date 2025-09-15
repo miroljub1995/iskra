@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
 {
-    public object ResultType
+    public ushort ResultType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object NumberValue
+    public double NumberValue
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object StringValue
+    public string StringValue
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BooleanValue
+    public bool BooleanValue
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SingleNodeValue
+    public Node? SingleNodeValue
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InvalidIteratorState
+    public bool InvalidIteratorState
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SnapshotLength
+    public uint SnapshotLength
     {
         get
         {

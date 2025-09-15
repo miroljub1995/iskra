@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
 {
-    public object Azimuth
+    public SVGAnimatedNumber Azimuth
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Elevation
+    public SVGAnimatedNumber Elevation
     {
         get
         {

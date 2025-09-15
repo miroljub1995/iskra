@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
 {
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object HtmlFor
+    public string HtmlFor
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Control
+    public HTMLElement? Control
     {
         get
         {

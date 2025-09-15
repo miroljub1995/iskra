@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
 {
-    public object Key
+    public string Key
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object Code
+    public string Code
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object Location
+    public uint Location
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object CtrlKey
+    public bool CtrlKey
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ShiftKey
+    public bool ShiftKey
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object AltKey
+    public bool AltKey
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object MetaKey
+    public bool MetaKey
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object Repeat
+    public bool Repeat
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object IsComposing
+    public bool IsComposing
     {
         get
         {

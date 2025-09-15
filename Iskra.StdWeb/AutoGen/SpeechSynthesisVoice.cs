@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
 {
-    public object VoiceURI
+    public string VoiceURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Lang
+    public string Lang
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LocalService
+    public bool LocalService
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Default
+    public bool Default
     {
         get
         {

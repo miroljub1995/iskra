@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
 {
-    public object Active
+    public bool Active
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Signal
+    public AbortSignal Signal
     {
         get
         {

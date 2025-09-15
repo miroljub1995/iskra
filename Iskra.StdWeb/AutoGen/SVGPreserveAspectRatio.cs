@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
 {
-    public object Align
+    public ushort Align
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MeetOrSlice
+    public ushort MeetOrSlice
     {
         get
         {

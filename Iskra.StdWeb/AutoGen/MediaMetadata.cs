@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
 {
-    public object Title
+    public string Title
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Artist
+    public string Artist
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Album
+    public string Album
     {
         get
         {

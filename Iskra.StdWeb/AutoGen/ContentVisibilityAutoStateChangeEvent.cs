@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ContentVisibilityAutoStateChangeEvent(JSObject obj): Event(obj)
 {
-    public object Skipped
+    public bool Skipped
     {
         get
         {

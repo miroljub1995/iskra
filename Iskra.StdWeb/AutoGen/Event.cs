@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Event(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Target
+    public EventTarget? Target
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SrcElement
+    public EventTarget? SrcElement
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CurrentTarget
+    public EventTarget? CurrentTarget
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EventPhase
+    public ushort EventPhase
     {
         get
         {
@@ -49,35 +49,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CancelBubble
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Bubbles
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Cancelable
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ReturnValue
+    public bool CancelBubble
     {
         get
         {
@@ -89,7 +61,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DefaultPrevented
+    public bool Bubbles
     {
         get
         {
@@ -97,7 +69,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Composed
+    public bool Cancelable
     {
         get
         {
@@ -105,7 +77,19 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsTrusted
+    public bool ReturnValue
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool DefaultPrevented
     {
         get
         {
@@ -113,7 +97,23 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TimeStamp
+    public bool Composed
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool IsTrusted
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public DOMHighResTimeStamp TimeStamp
     {
         get
         {

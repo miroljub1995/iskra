@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
 {
-    public object ColorTexture
+    public WebGLTexture ColorTexture
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object DepthStencilTexture
+    public WebGLTexture? DepthStencilTexture
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object MotionVectorTexture
+    public WebGLTexture? MotionVectorTexture
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object ImageIndex
+    public uint? ImageIndex
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object ColorTextureWidth
+    public uint ColorTextureWidth
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object ColorTextureHeight
+    public uint ColorTextureHeight
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object DepthStencilTextureWidth
+    public uint? DepthStencilTextureWidth
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object DepthStencilTextureHeight
+    public uint? DepthStencilTextureHeight
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object MotionVectorTextureWidth
+    public uint? MotionVectorTextureWidth
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public object MotionVectorTextureHeight
+    public uint? MotionVectorTextureHeight
     {
         get
         {

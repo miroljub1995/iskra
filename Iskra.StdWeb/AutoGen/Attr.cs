@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Attr(JSObject obj): Node(obj)
 {
-    public object NamespaceURI
+    public string? NamespaceURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public object Prefix
+    public string? Prefix
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public object LocalName
+    public string LocalName
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public object Value
+    public string Value
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public object OwnerElement
+    public Element? OwnerElement
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public object Specified
+    public bool Specified
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
 {
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -29,19 +29,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Label
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object DefaultSelected
+    public string Label
     {
         get
         {
@@ -53,7 +41,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Selected
+    public bool DefaultSelected
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public bool Selected
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Text
+    public string Value
     {
         get
         {
@@ -89,7 +77,19 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Index
+    public string Text
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public int Index
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
         }
     }
 
-    public object Onconnect
+    public EventHandler Onconnect
     {
         get
         {

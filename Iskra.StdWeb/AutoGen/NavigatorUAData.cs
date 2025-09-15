@@ -17,7 +17,7 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Mobile
+    public bool Mobile
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Platform
+    public string Platform
     {
         get
         {

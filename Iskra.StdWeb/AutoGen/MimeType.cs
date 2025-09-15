@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MimeType(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Description
+    public string Description
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Suffixes
+    public string Suffixes
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EnabledPlugin
+    public Plugin EnabledPlugin
     {
         get
         {

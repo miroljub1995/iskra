@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VisualViewport(JSObject obj): EventTarget(obj)
 {
-    public object OffsetLeft
+    public double OffsetLeft
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object OffsetTop
+    public double OffsetTop
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PageLeft
+    public double PageLeft
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PageTop
+    public double PageTop
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Width
+    public double Width
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Height
+    public double Height
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Scale
+    public double Scale
     {
         get
         {
@@ -65,19 +65,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onresize
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onscroll
+    public EventHandler Onresize
     {
         get
         {
@@ -89,7 +77,19 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onscrollend
+    public EventHandler Onscroll
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onscrollend
     {
         get
         {

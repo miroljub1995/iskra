@@ -17,7 +17,7 @@ public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InputQuota
+    public double InputQuota
     {
         get
         {

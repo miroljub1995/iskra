@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
 {
-    public object Value
+    public string Value
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Datatype
+    public string Datatype
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Language
+    public string? Language
     {
         get
         {

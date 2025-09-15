@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
 {
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Elements
+    public HTMLCollection Elements
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Validity
+    public ValidityState Validity
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValidationMessage
+    public string ValidationMessage
     {
         get
         {

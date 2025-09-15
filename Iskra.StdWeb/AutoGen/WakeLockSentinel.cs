@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
 {
-    public object Released
+    public bool Released
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Type
+    public WakeLockType Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onrelease
+    public EventHandler Onrelease
     {
         get
         {

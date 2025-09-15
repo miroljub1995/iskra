@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Animation(JSObject obj): EventTarget(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Effect
+    public AnimationEffect? Effect
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Timeline
+    public AnimationTimeline? Timeline
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PlaybackRate
+    public double PlaybackRate
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PlayState
+    public AnimationPlayState PlayState
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReplaceState
+    public AnimationReplaceState ReplaceState
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Pending
+    public bool Pending
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onfinish
+    public EventHandler Onfinish
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncancel
+    public EventHandler Oncancel
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onremove
+    public EventHandler Onremove
     {
         get
         {

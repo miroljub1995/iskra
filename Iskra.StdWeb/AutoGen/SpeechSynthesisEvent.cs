@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
 {
-    public object Utterance
+    public SpeechSynthesisUtterance Utterance
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object CharIndex
+    public uint CharIndex
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object CharLength
+    public uint CharLength
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ElapsedTime
+    public float ElapsedTime
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {

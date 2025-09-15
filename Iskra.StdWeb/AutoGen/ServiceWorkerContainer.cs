@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
 {
-    public object Controller
+    public ServiceWorker? Controller
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncontrollerchange
+    public EventHandler Oncontrollerchange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessage
+    public EventHandler Onmessage
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessageerror
+    public EventHandler Onmessageerror
     {
         get
         {

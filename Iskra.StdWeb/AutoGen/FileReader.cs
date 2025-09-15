@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileReader(JSObject obj): EventTarget(obj)
 {
-    public object ReadyState
+    public ushort ReadyState
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Error
+    public DOMException? Error
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onloadstart
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onprogress
+    public EventHandler Onloadstart
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onload
+    public EventHandler Onprogress
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onabort
+    public EventHandler Onload
     {
         get
         {
@@ -81,7 +69,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Onabort
     {
         get
         {
@@ -93,7 +81,19 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onloadend
+    public EventHandler Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onloadend
     {
         get
         {

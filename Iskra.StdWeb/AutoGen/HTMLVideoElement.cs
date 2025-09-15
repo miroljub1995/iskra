@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
 {
-    public object Width
+    public uint Width
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
         }
     }
 
-    public object Height
+    public uint Height
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
         }
     }
 
-    public object VideoWidth
+    public uint VideoWidth
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
         }
     }
 
-    public object VideoHeight
+    public uint VideoHeight
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
         }
     }
 
-    public object Poster
+    public string Poster
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
         }
     }
 
-    public object PlaysInline
+    public bool PlaysInline
     {
         get
         {

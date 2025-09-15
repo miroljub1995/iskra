@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFaceRule(JSObject obj): CSSRule(obj)
 {
-    public object Style
+    public CSSFontFaceDescriptors Style
     {
         get
         {

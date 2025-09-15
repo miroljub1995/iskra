@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
 {
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Media
+    public string Media
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Blocking
+    public DOMTokenList Blocking
     {
         get
         {

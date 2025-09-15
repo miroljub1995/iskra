@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
 {
-    public object Width
+    public int Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Height
+    public int Height
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onresize
+    public EventHandler Onresize
     {
         get
         {

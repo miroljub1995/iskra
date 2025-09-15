@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public RTCSdpType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Sdp
+    public string Sdp
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Dx
+    public SVGAnimatedNumber Dx
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Dy
+    public SVGAnimatedNumber Dy
     {
         get
         {

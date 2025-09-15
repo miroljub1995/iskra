@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSession(JSObject obj): EventTarget(obj)
 {
-    public object VisibilityState
+    public XRVisibilityState VisibilityState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object FrameRate
+    public float? FrameRate
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SupportedFrameRates
+    public Float32Array? SupportedFrameRates
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object RenderState
+    public XRRenderState RenderState
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object InputSources
+    public XRInputSourceArray InputSources
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object TrackedSources
+    public XRInputSourceArray TrackedSources
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object IsSystemKeyboardSupported
+    public bool IsSystemKeyboardSupported
     {
         get
         {
@@ -73,19 +73,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onend
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Oninputsourceschange
+    public EventHandler Onend
     {
         get
         {
@@ -97,7 +85,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onselect
+    public EventHandler Oninputsourceschange
     {
         get
         {
@@ -109,7 +97,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onselectstart
+    public EventHandler Onselect
     {
         get
         {
@@ -121,7 +109,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onselectend
+    public EventHandler Onselectstart
     {
         get
         {
@@ -133,7 +121,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsqueeze
+    public EventHandler Onselectend
     {
         get
         {
@@ -145,7 +133,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsqueezestart
+    public EventHandler Onsqueeze
     {
         get
         {
@@ -157,7 +145,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsqueezeend
+    public EventHandler Onsqueezestart
     {
         get
         {
@@ -169,7 +157,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onvisibilitychange
+    public EventHandler Onsqueezeend
     {
         get
         {
@@ -181,7 +169,19 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onframeratechange
+    public EventHandler Onvisibilitychange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onframeratechange
     {
         get
         {

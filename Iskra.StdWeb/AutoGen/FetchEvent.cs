@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object Request
+    public Request Request
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object ClientId
+    public string ClientId
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object ResultingClientId
+    public string ResultingClientId
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object ReplacesClientId
+    public string ReplacesClientId
     {
         get
         {

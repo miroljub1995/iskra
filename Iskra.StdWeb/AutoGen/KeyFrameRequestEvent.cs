@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class KeyFrameRequestEvent(JSObject obj): Event(obj)
 {
-    public object Rid
+    public string? Rid
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public ushort Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Matrix
+    public DOMMatrix Matrix
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Angle
+    public float Angle
     {
         get
         {

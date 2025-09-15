@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
 {
-    public object PositionX
+    public AudioParam PositionX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PositionY
+    public AudioParam PositionY
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PositionZ
+    public AudioParam PositionZ
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ForwardX
+    public AudioParam ForwardX
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ForwardY
+    public AudioParam ForwardY
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ForwardZ
+    public AudioParam ForwardZ
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UpX
+    public AudioParam UpX
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UpY
+    public AudioParam UpY
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UpZ
+    public AudioParam UpZ
     {
         get
         {

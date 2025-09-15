@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextUpdateEvent(JSObject obj): Event(obj)
 {
-    public object UpdateRangeStart
+    public uint UpdateRangeStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object UpdateRangeEnd
+    public uint UpdateRangeEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Text
+    public string Text
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object SelectionStart
+    public uint SelectionStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object SelectionEnd
+    public uint SelectionEnd
     {
         get
         {

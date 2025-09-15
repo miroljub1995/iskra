@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
 {
-    public object Data
+    public string Data
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -53,19 +53,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Height
+    public string Width
     {
         get
         {
@@ -77,7 +65,19 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ContentDocument
+    public string Height
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Document? ContentDocument
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ContentWindow
+    public Window? ContentWindow
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Validity
+    public ValidityState Validity
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ValidationMessage
+    public string ValidationMessage
     {
         get
         {

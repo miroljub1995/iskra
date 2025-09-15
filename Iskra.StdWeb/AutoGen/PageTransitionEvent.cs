@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PageTransitionEvent(JSObject obj): Event(obj)
 {
-    public object Persisted
+    public bool Persisted
     {
         get
         {

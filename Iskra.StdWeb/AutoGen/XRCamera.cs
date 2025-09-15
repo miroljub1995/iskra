@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCamera(JSObject obj): JSObjectProxy(obj)
 {
-    public object Width
+    public uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRCamera(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public uint Height
     {
         get
         {

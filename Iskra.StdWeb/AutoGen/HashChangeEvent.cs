@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HashChangeEvent(JSObject obj): Event(obj)
 {
-    public object OldURL
+    public string OldURL
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HashChangeEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object NewURL
+    public string NewURL
     {
         get
         {

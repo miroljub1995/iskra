@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleProperties(JSObject obj): CSSStyleDeclaration(obj)
 {
-    public object CssFloat
+    public string CssFloat
     {
         get
         {

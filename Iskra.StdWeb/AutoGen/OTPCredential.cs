@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class OTPCredential(JSObject obj): Credential(obj)
 {
-    public object Code
+    public string Code
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
 {
-    public object A
+    public double A
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object B
+    public double B
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object C
+    public double C
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object D
+    public double D
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object E
+    public double E
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object F
+    public double F
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M11
+    public double M11
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M12
+    public double M12
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M13
+    public double M13
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M14
+    public double M14
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M21
+    public double M21
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M22
+    public double M22
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M23
+    public double M23
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M24
+    public double M24
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M31
+    public double M31
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M32
+    public double M32
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M33
+    public double M33
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M34
+    public double M34
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M41
+    public double M41
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M42
+    public double M42
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M43
+    public double M43
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object M44
+    public double M44
     {
         get
         {
@@ -185,7 +185,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Is2D
+    public bool Is2D
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsIdentity
+    public bool IsIdentity
     {
         get
         {

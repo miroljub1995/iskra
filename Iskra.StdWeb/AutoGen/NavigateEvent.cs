@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigateEvent(JSObject obj): Event(obj)
 {
-    public object NavigationType
+    public NavigationType NavigationType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Destination
+    public NavigationDestination Destination
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object CanIntercept
+    public bool CanIntercept
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object UserInitiated
+    public bool UserInitiated
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object HashChange
+    public bool HashChange
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Signal
+    public AbortSignal Signal
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object FormData
+    public FormData? FormData
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object DownloadRequest
+    public string? DownloadRequest
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object HasUAVisualTransition
+    public bool HasUAVisualTransition
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object SourceElement
+    public Element? SourceElement
     {
         get
         {

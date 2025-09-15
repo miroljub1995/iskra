@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTimeElement(JSObject obj): HTMLElement(obj)
 {
-    public object DateTime
+    public string DateTime
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPU(JSObject obj): JSObjectProxy(obj)
 {
-    public object WgslLanguageFeatures
+    public WGSLLanguageFeatures WgslLanguageFeatures
     {
         get
         {

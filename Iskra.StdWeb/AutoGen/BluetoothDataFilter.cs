@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
 {
-    public object DataPrefix
+    public ArrayBuffer DataPrefix
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Mask
+    public ArrayBuffer Mask
     {
         get
         {

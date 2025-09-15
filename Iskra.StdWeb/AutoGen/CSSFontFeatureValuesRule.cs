@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
 {
-    public object FontFamily
+    public string FontFamily
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Annotation
+    public CSSFontFeatureValuesMap Annotation
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Ornaments
+    public CSSFontFeatureValuesMap Ornaments
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Stylistic
+    public CSSFontFeatureValuesMap Stylistic
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Swash
+    public CSSFontFeatureValuesMap Swash
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object CharacterVariant
+    public CSSFontFeatureValuesMap CharacterVariant
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Styleset
+    public CSSFontFeatureValuesMap Styleset
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object HistoricalForms
+    public CSSFontFeatureValuesMap HistoricalForms
     {
         get
         {

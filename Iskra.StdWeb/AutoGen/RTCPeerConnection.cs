@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
 {
-    public object LocalDescription
+    public RTCSessionDescription? LocalDescription
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CurrentLocalDescription
+    public RTCSessionDescription? CurrentLocalDescription
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PendingLocalDescription
+    public RTCSessionDescription? PendingLocalDescription
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object RemoteDescription
+    public RTCSessionDescription? RemoteDescription
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CurrentRemoteDescription
+    public RTCSessionDescription? CurrentRemoteDescription
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PendingRemoteDescription
+    public RTCSessionDescription? PendingRemoteDescription
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SignalingState
+    public RTCSignalingState SignalingState
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object IceGatheringState
+    public RTCIceGatheringState IceGatheringState
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object IceConnectionState
+    public RTCIceConnectionState IceConnectionState
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ConnectionState
+    public RTCPeerConnectionState ConnectionState
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CanTrickleIceCandidates
+    public bool? CanTrickleIceCandidates
     {
         get
         {
@@ -97,19 +97,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onnegotiationneeded
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onicecandidate
+    public EventHandler Onnegotiationneeded
     {
         get
         {
@@ -121,7 +109,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onicecandidateerror
+    public EventHandler Onicecandidate
     {
         get
         {
@@ -133,7 +121,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsignalingstatechange
+    public EventHandler Onicecandidateerror
     {
         get
         {
@@ -145,7 +133,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oniceconnectionstatechange
+    public EventHandler Onsignalingstatechange
     {
         get
         {
@@ -157,7 +145,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onicegatheringstatechange
+    public EventHandler Oniceconnectionstatechange
     {
         get
         {
@@ -169,7 +157,19 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onconnectionstatechange
+    public EventHandler Onicegatheringstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onconnectionstatechange
     {
         get
         {

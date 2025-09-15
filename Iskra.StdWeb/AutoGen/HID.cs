@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HID(JSObject obj): EventTarget(obj)
 {
-    public object Onconnect
+    public EventHandler Onconnect
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HID(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ondisconnect
+    public EventHandler Ondisconnect
     {
         get
         {

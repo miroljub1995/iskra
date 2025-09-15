@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
 {
-    public object LoadTime
+    public DOMHighResTimeStamp LoadTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object RenderTime
+    public DOMHighResTimeStamp RenderTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Size
+    public uint Size
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Id
+    public string Id
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public object Element
+    public Element? Element
     {
         get
         {

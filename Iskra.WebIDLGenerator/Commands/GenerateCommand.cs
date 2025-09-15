@@ -48,7 +48,7 @@ public class GenerateCommand : Command
             };
 
             ServiceCollection services = [];
-            
+
             services.AddSingleton(genSettings);
 
             services.AddLogging(config =>
@@ -58,11 +58,13 @@ public class GenerateCommand : Command
                 config.SetMinimumLevel(LogLevel.Information);
             });
 
-            services.AddSingleton<AttributeMemberTypeGenerator>();
-            services.AddSingleton<IDLInterfaceMemberTypeGenerator>();
-            services.AddSingleton<IDLTypeDescriptionToTypeGenerator>();
-            services.AddSingleton<InterfaceGenerator>();
-            services.AddSingleton<ModuleGenerator>();
+            services
+                .AddSingleton<AttributeMemberTypeGenerator>()
+                .AddSingleton<EnumTypeGenerator>()
+                .AddSingleton<IDLInterfaceMemberTypeGenerator>()
+                .AddSingleton<IDLTypeDescriptionToTypeGenerator>()
+                .AddSingleton<InterfaceGenerator>()
+                .AddSingleton<ModuleGenerator>();
 
             await using var provider = services.BuildServiceProvider();
 

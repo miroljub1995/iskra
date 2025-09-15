@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamBYOBRequest(JSObject obj): JSObjectProxy(obj)
 {
-    public object View
+    public ArrayBufferView? View
     {
         get
         {

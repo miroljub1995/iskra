@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationSensor(JSObject obj): Sensor(obj)
 {
-    public object Latitude
+    public double? Latitude
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Longitude
+    public double? Longitude
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Altitude
+    public double? Altitude
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Accuracy
+    public double? Accuracy
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object AltitudeAccuracy
+    public double? AltitudeAccuracy
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Heading
+    public double? Heading
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
         }
     }
 
-    public object Speed
+    public double? Speed
     {
         get
         {

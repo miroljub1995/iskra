@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
 {
-    public object Variable
+    public string Variable
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Fallback
+    public CSSUnparsedValue? Fallback
     {
         get
         {

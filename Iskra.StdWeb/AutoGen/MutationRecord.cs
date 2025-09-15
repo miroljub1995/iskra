@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Target
+    public Node Target
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AddedNodes
+    public NodeList AddedNodes
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RemovedNodes
+    public NodeList RemovedNodes
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PreviousSibling
+    public Node? PreviousSibling
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object NextSibling
+    public Node? NextSibling
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AttributeName
+    public string? AttributeName
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AttributeNamespace
+    public string? AttributeNamespace
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object OldValue
+    public string? OldValue
     {
         get
         {

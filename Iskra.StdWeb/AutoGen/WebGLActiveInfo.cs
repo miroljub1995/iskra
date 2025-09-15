@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public object Size
+    public GLint Size
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public GLenum Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {

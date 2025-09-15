@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class StorageEvent(JSObject obj): Event(obj)
 {
-    public object Key
+    public string? Key
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class StorageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object OldValue
+    public string? OldValue
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class StorageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object NewValue
+    public string? NewValue
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class StorageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class StorageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object StorageArea
+    public Storage? StorageArea
     {
         get
         {

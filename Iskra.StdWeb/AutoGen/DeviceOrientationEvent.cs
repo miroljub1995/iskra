@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
 {
-    public object Alpha
+    public double? Alpha
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Beta
+    public double? Beta
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Gamma
+    public double? Gamma
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Absolute
+    public bool Absolute
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Credential(JSObject obj): JSObjectProxy(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Credential(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {

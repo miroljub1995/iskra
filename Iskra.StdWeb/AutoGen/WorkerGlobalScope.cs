@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
 {
-    public object Self
+    public WorkerGlobalScope Self
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Location
+    public WorkerLocation Location
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Navigator
+    public WorkerNavigator Navigator
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onlanguagechange
+    public OnErrorEventHandler Onerror
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onoffline
+    public EventHandler Onlanguagechange
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ononline
+    public EventHandler Onoffline
     {
         get
         {
@@ -81,7 +69,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onrejectionhandled
+    public EventHandler Ononline
     {
         get
         {
@@ -93,7 +81,19 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onunhandledrejection
+    public EventHandler Onrejectionhandled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onunhandledrejection
     {
         get
         {

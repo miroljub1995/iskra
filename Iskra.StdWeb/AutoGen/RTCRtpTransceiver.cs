@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
 {
-    public object Mid
+    public string? Mid
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Sender
+    public RTCRtpSender Sender
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Receiver
+    public RTCRtpReceiver Receiver
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Direction
+    public RTCRtpTransceiverDirection Direction
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CurrentDirection
+    public RTCRtpTransceiverDirection? CurrentDirection
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSLayerBlockRule(JSObject obj): CSSGroupingRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {

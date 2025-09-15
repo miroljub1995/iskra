@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRHand(JSObject obj): JSObjectProxy(obj)
 {
-    public object Size
+    public uint Size
     {
         get
         {

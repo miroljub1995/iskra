@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Style
+    public CSSStyleDeclaration Style
     {
         get
         {

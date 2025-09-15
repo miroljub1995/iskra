@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
 {
-    public object ColSpan
+    public uint ColSpan
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object RowSpan
+    public uint RowSpan
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Headers
+    public string Headers
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object CellIndex
+    public int CellIndex
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Scope
+    public string Scope
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Abbr
+    public string Abbr
     {
         get
         {

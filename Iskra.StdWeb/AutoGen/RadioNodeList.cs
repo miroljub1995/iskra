@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RadioNodeList(JSObject obj): NodeList(obj)
 {
-    public object Value
+    public string Value
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ObjectStore
+    public IDBObjectStore ObjectStore
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MultiEntry
+    public bool MultiEntry
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Unique
+    public bool Unique
     {
         get
         {

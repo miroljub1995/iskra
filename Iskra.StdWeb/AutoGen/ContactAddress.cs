@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
 {
-    public object City
+    public string City
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Country
+    public string Country
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DependentLocality
+    public string DependentLocality
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Organization
+    public string Organization
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Phone
+    public string Phone
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PostalCode
+    public string PostalCode
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Recipient
+    public string Recipient
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Region
+    public string Region
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SortingCode
+    public string SortingCode
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCError(JSObject obj): DOMException(obj)
 {
-    public object ErrorDetail
+    public RTCErrorDetailType ErrorDetail
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object SdpLineNumber
+    public int? SdpLineNumber
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object SctpCauseCode
+    public int? SctpCauseCode
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object ReceivedAlert
+    public uint? ReceivedAlert
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCError(JSObject obj): DOMException(obj)
         }
     }
 
-    public object SentAlert
+    public uint? SentAlert
     {
         get
         {

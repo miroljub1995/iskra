@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSource(JSObject obj): EventTarget(obj)
 {
-    public object Handle
+    public MediaSourceHandle Handle
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SourceBuffers
+    public SourceBufferList SourceBuffers
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ActiveSourceBuffers
+    public SourceBufferList ActiveSourceBuffers
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ReadyState
+    public ReadyState ReadyState
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Duration
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onsourceopen
+    public double Duration
     {
         get
         {
@@ -65,7 +53,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsourceended
+    public EventHandler Onsourceopen
     {
         get
         {
@@ -77,7 +65,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onsourceclose
+    public EventHandler Onsourceended
     {
         get
         {
@@ -89,7 +77,19 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public static object CanConstructInDedicatedWorker
+    public EventHandler Onsourceclose
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public static bool CanConstructInDedicatedWorker
     {
         get
         {

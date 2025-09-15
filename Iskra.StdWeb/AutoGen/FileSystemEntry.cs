@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
 {
-    public object IsFile
+    public bool IsFile
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object IsDirectory
+    public bool IsDirectory
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FullPath
+    public string FullPath
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Filesystem
+    public FileSystem Filesystem
     {
         get
         {

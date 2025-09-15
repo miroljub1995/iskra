@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTransformEvent(JSObject obj): Event(obj)
 {
-    public object Transformer
+    public RTCRtpScriptTransformer Transformer
     {
         get
         {

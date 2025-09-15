@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
 {
-    public object ConfigurationValue
+    public byte ConfigurationValue
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ConfigurationName
+    public string? ConfigurationName
     {
         get
         {

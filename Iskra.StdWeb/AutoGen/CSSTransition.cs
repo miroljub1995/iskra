@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransition(JSObject obj): Animation(obj)
 {
-    public object TransitionProperty
+    public string TransitionProperty
     {
         get
         {

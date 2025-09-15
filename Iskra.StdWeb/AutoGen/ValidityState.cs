@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
 {
-    public object ValueMissing
+    public bool ValueMissing
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TypeMismatch
+    public bool TypeMismatch
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PatternMismatch
+    public bool PatternMismatch
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TooLong
+    public bool TooLong
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TooShort
+    public bool TooShort
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RangeUnderflow
+    public bool RangeUnderflow
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RangeOverflow
+    public bool RangeOverflow
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object StepMismatch
+    public bool StepMismatch
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BadInput
+    public bool BadInput
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object CustomError
+    public bool CustomError
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Valid
+    public bool Valid
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFace(JSObject obj): JSObjectProxy(obj)
 {
-    public object Family
+    public string Family
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Style
+    public string Style
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Weight
+    public string Weight
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Stretch
+    public string Stretch
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UnicodeRange
+    public string UnicodeRange
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FeatureSettings
+    public string FeatureSettings
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object VariationSettings
+    public string VariationSettings
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Display
+    public string Display
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AscentOverride
+    public string AscentOverride
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DescentOverride
+    public string DescentOverride
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object LineGapOverride
+    public string LineGapOverride
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Status
+    public FontFaceLoadStatus Status
     {
         get
         {

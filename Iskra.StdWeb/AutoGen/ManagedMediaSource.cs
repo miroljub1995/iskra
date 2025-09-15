@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
 {
-    public object Streaming
+    public bool Streaming
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
         }
     }
 
-    public object Onstartstreaming
+    public EventHandler Onstartstreaming
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
         }
     }
 
-    public object Onendstreaming
+    public EventHandler Onendstreaming
     {
         get
         {

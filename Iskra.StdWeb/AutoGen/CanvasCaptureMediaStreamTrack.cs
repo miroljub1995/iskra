@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CanvasCaptureMediaStreamTrack(JSObject obj): MediaStreamTrack(obj)
 {
-    public object Canvas
+    public HTMLCanvasElement Canvas
     {
         get
         {

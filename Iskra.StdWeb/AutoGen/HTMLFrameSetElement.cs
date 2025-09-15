@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
 {
-    public object Cols
+    public string Cols
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rows
+    public string Rows
     {
         get
         {

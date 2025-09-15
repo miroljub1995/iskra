@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MimeTypeArray(JSObject obj): JSObjectProxy(obj)
 {
-    public object Length
+    public uint Length
     {
         get
         {

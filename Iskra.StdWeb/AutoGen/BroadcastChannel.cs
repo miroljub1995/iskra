@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessage
+    public EventHandler Onmessage
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessageerror
+    public EventHandler Onmessageerror
     {
         get
         {

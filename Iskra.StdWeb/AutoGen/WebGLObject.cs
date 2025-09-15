@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLObject(JSObject obj): JSObjectProxy(obj)
 {
-    public object Label
+    public string Label
     {
         get
         {

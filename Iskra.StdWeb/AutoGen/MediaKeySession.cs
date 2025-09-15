@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeySession(JSObject obj): EventTarget(obj)
 {
-    public object SessionId
+    public string SessionId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Expiration
+    public double Expiration
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object KeyStatuses
+    public MediaKeyStatusMap KeyStatuses
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onkeystatuseschange
+    public EventHandler Onkeystatuseschange
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessage
+    public EventHandler Onmessage
     {
         get
         {

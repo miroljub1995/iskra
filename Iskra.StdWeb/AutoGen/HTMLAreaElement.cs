@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
 {
-    public object Alt
+    public string Alt
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Coords
+    public string Coords
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Shape
+    public string Shape
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Target
+    public string Target
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Download
+    public string Download
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Ping
+    public string Ping
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rel
+    public string Rel
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object RelList
+    public DOMTokenList RelList
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReferrerPolicy
+    public string ReferrerPolicy
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
 {
-    public object UsbVersionMajor
+    public byte UsbVersionMajor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UsbVersionMinor
+    public byte UsbVersionMinor
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object UsbVersionSubminor
+    public byte UsbVersionSubminor
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DeviceClass
+    public byte DeviceClass
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DeviceSubclass
+    public byte DeviceSubclass
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DeviceProtocol
+    public byte DeviceProtocol
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object VendorId
+    public ushort VendorId
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ProductId
+    public ushort ProductId
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DeviceVersionMajor
+    public byte DeviceVersionMajor
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DeviceVersionMinor
+    public byte DeviceVersionMinor
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DeviceVersionSubminor
+    public byte DeviceVersionSubminor
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ManufacturerName
+    public string? ManufacturerName
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ProductName
+    public string? ProductName
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SerialNumber
+    public string? SerialNumber
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Configuration
+    public USBConfiguration? Configuration
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Opened
+    public bool Opened
     {
         get
         {

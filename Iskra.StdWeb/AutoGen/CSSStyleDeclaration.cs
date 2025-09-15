@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
 {
-    public object CssText
+    public string CssText
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ParentRule
+    public CSSRule? ParentRule
     {
         get
         {

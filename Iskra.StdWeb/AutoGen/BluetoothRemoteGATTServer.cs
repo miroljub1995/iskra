@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
 {
-    public object Device
+    public BluetoothDevice Device
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Connected
+    public bool Connected
     {
         get
         {

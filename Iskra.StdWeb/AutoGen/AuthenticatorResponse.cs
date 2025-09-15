@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorResponse(JSObject obj): JSObjectProxy(obj)
 {
-    public object ClientDataJSON
+    public ArrayBuffer ClientDataJSON
     {
         get
         {

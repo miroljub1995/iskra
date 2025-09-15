@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIAccess(JSObject obj): EventTarget(obj)
 {
-    public object Inputs
+    public MIDIInputMap Inputs
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Outputs
+    public MIDIOutputMap Outputs
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstatechange
+    public EventHandler Onstatechange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object SysexEnabled
+    public bool SysexEnabled
     {
         get
         {

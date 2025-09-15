@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
 {
-    public object Writable
+    public WritableStream Writable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Muted
+    public bool Muted
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Track
+    public MediaStreamTrack Track
     {
         get
         {

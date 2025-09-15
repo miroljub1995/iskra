@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
 {
-    public object Type
+    public OrientationType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Angle
+    public ushort Angle
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onchange
+    public EventHandler Onchange
     {
         get
         {

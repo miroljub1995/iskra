@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
 {
-    public object BaseVal
+    public DOMRect BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AnimVal
+    public DOMRectReadOnly AnimVal
     {
         get
         {

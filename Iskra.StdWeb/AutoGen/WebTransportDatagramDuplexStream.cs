@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectProxy(obj)
 {
-    public object Readable
+    public ReadableStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
         }
     }
 
-    public object MaxDatagramSize
+    public uint MaxDatagramSize
     {
         get
         {
@@ -25,19 +25,7 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
         }
     }
 
-    public object IncomingMaxAge
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object OutgoingMaxAge
+    public double? IncomingMaxAge
     {
         get
         {
@@ -49,7 +37,7 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
         }
     }
 
-    public object IncomingHighWaterMark
+    public double? OutgoingMaxAge
     {
         get
         {
@@ -61,7 +49,19 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
         }
     }
 
-    public object OutgoingHighWaterMark
+    public double IncomingHighWaterMark
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public double OutgoingHighWaterMark
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBTransaction(JSObject obj): EventTarget(obj)
 {
-    public object ObjectStoreNames
+    public DOMStringList ObjectStoreNames
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Mode
+    public IDBTransactionMode Mode
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Durability
+    public IDBTransactionDurability Durability
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Db
+    public IDBDatabase Db
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Error
+    public DOMException? Error
     {
         get
         {
@@ -49,19 +49,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onabort
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Oncomplete
+    public EventHandler Onabort
     {
         get
         {
@@ -73,7 +61,19 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onerror
+    public EventHandler Oncomplete
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onerror
     {
         get
         {

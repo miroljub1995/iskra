@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PasswordCredential(JSObject obj): Credential(obj)
 {
-    public object Password
+    public string Password
     {
         get
         {

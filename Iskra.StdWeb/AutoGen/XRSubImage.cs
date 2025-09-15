@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSubImage(JSObject obj): JSObjectProxy(obj)
 {
-    public object Viewport
+    public XRViewport Viewport
     {
         get
         {

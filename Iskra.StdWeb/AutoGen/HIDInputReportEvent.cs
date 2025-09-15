@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HIDInputReportEvent(JSObject obj): Event(obj)
 {
-    public object Device
+    public HIDDevice Device
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ReportId
+    public byte ReportId
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Data
+    public DataView Data
     {
         get
         {

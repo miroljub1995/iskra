@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PictureInPictureEvent(JSObject obj): Event(obj)
 {
-    public object PictureInPictureWindow
+    public PictureInPictureWindow PictureInPictureWindow
     {
         get
         {

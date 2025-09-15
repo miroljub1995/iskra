@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDirectoryElement(JSObject obj): HTMLElement(obj)
 {
-    public object Compact
+    public bool Compact
     {
         get
         {

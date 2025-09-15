@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnection(JSObject obj): EventTarget(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Url
+    public string Url
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public PresentationConnectionState State
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onconnect
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Onclose
+    public EventHandler Onconnect
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onterminate
+    public EventHandler Onclose
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object BinaryType
+    public EventHandler Onterminate
     {
         get
         {
@@ -81,7 +69,19 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onmessage
+    public BinaryType BinaryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onmessage
     {
         get
         {

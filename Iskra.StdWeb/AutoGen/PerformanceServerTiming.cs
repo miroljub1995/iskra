@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Duration
+    public DOMHighResTimeStamp Duration
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Description
+    public string Description
     {
         get
         {

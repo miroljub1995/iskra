@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class URLSearchParams(JSObject obj): JSObjectProxy(obj)
 {
-    public object Size
+    public uint Size
     {
         get
         {

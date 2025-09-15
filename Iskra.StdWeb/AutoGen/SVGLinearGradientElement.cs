@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(obj)
 {
-    public object X1
+    public SVGAnimatedLength X1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         }
     }
 
-    public object Y1
+    public SVGAnimatedLength Y1
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         }
     }
 
-    public object X2
+    public SVGAnimatedLength X2
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         }
     }
 
-    public object Y2
+    public SVGAnimatedLength Y2
     {
         get
         {

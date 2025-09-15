@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
 {
-    public object Name
+    public string? Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object NamePrefix
+    public string? NamePrefix
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ManufacturerData
+    public BluetoothManufacturerDataFilter ManufacturerData
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ServiceData
+    public BluetoothServiceDataFilter ServiceData
     {
         get
         {

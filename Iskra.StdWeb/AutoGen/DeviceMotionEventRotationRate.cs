@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(obj)
 {
-    public object Alpha
+    public double? Alpha
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
         }
     }
 
-    public object Beta
+    public double? Beta
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
         }
     }
 
-    public object Gamma
+    public double? Gamma
     {
         get
         {

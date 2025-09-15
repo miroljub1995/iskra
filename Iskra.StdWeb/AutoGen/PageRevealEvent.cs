@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PageRevealEvent(JSObject obj): Event(obj)
 {
-    public object ViewTransition
+    public ViewTransition? ViewTransition
     {
         get
         {

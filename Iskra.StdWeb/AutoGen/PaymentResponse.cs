@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentResponse(JSObject obj): EventTarget(obj)
 {
-    public object RequestId
+    public string RequestId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object MethodName
+    public string MethodName
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ShippingAddress
+    public ContactAddress? ShippingAddress
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object ShippingOption
+    public string? ShippingOption
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PayerName
+    public string? PayerName
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PayerEmail
+    public string? PayerEmail
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object PayerPhone
+    public string? PayerPhone
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onpayerdetailchange
+    public EventHandler Onpayerdetailchange
     {
         get
         {

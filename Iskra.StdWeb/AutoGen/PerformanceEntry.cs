@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
 {
-    public object Id
+    public ulong Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object EntryType
+    public string EntryType
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object StartTime
+    public DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Duration
+    public DOMHighResTimeStamp Duration
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object NavigationId
+    public ulong NavigationId
     {
         get
         {

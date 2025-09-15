@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSImportRule(JSObject obj): CSSRule(obj)
 {
-    public object Href
+    public string Href
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Media
+    public MediaList Media
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object StyleSheet
+    public CSSStyleSheet? StyleSheet
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object LayerName
+    public string? LayerName
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object SupportsText
+    public string? SupportsText
     {
         get
         {

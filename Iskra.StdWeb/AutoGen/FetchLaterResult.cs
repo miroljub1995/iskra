@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FetchLaterResult(JSObject obj): JSObjectProxy(obj)
 {
-    public object Activated
+    public bool Activated
     {
         get
         {

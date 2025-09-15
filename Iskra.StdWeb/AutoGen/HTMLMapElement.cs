@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Areas
+    public HTMLCollection Areas
     {
         get
         {

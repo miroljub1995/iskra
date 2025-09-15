@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Name
+    public string? Name
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Gatt
+    public BluetoothRemoteGATTServer? Gatt
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object WatchingAdvertisements
+    public bool WatchingAdvertisements
     {
         get
         {

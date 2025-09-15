@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
 {
-    public object InlineStart
+    public double InlineStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InlineEnd
+    public double InlineEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockStart
+    public double BlockStart
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BlockEnd
+    public double BlockEnd
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Inline
+    public double Inline
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Block
+    public double Block
     {
         get
         {

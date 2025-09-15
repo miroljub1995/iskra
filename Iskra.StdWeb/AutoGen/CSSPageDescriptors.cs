@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
 {
-    public object Margin
+    public string Margin
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object MarginTop
+    public string MarginTop
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object MarginRight
+    public string MarginRight
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object MarginBottom
+    public string MarginBottom
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object MarginLeft
+    public string MarginLeft
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Margin_top
+    public string Margin_top
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Margin_right
+    public string Margin_right
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Margin_bottom
+    public string Margin_bottom
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Margin_left
+    public string Margin_left
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Size
+    public string Size
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object PageOrientation
+    public string PageOrientation
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Page_orientation
+    public string Page_orientation
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Marks
+    public string Marks
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
         }
     }
 
-    public object Bleed
+    public string Bleed
     {
         get
         {

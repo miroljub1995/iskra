@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Blob(JSObject obj): JSObjectProxy(obj)
 {
-    public object Size
+    public ulong Size
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Blob(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public string Type
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
 {
-    public object Color
+    public string Color
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Face
+    public string Face
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Size
+    public string Size
     {
         get
         {

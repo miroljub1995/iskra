@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MouseEvent(JSObject obj): UIEvent(obj)
 {
-    public object ScreenX
+    public int ScreenX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ScreenY
+    public int ScreenY
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ClientX
+    public int ClientX
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ClientY
+    public int ClientY
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object LayerX
+    public int LayerX
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object LayerY
+    public int LayerY
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object CtrlKey
+    public bool CtrlKey
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object ShiftKey
+    public bool ShiftKey
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object AltKey
+    public bool AltKey
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object MetaKey
+    public bool MetaKey
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object Button
+    public short Button
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object Buttons
+    public ushort Buttons
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public object RelatedTarget
+    public EventTarget? RelatedTarget
     {
         get
         {

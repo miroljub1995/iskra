@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
 {
-    public object HighWaterMark
+    public double HighWaterMark
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Size
+    public Function Size
     {
         get
         {

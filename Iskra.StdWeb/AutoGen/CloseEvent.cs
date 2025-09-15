@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CloseEvent(JSObject obj): Event(obj)
 {
-    public object WasClean
+    public bool WasClean
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CloseEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Code
+    public ushort Code
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CloseEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Reason
+    public string Reason
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
 {
-    public object Value
+    public float Value
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AutomationRate
+    public AutomationRate AutomationRate
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DefaultValue
+    public float DefaultValue
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MinValue
+    public float MinValue
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MaxValue
+    public float MaxValue
     {
         get
         {

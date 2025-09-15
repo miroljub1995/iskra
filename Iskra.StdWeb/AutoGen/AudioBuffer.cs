@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
 {
-    public object SampleRate
+    public float SampleRate
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Duration
+    public double Duration
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object NumberOfChannels
+    public uint NumberOfChannels
     {
         get
         {

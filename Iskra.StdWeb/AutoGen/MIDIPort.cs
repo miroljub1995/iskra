@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIPort(JSObject obj): EventTarget(obj)
 {
-    public object Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Manufacturer
+    public string? Manufacturer
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Name
+    public string? Name
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Type
+    public MIDIPortType Type
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Version
+    public string? Version
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public MIDIPortDeviceState State
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Connection
+    public MIDIPortConnectionState Connection
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstatechange
+    public EventHandler Onstatechange
     {
         get
         {

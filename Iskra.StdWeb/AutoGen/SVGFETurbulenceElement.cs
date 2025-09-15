@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
 {
-    public object BaseFrequencyX
+    public SVGAnimatedNumber BaseFrequencyX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object BaseFrequencyY
+    public SVGAnimatedNumber BaseFrequencyY
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object NumOctaves
+    public SVGAnimatedInteger NumOctaves
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Seed
+    public SVGAnimatedNumber Seed
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object StitchTiles
+    public SVGAnimatedEnumeration StitchTiles
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Type
+    public SVGAnimatedEnumeration Type
     {
         get
         {

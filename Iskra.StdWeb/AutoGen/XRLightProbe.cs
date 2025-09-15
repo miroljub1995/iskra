@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRLightProbe(JSObject obj): EventTarget(obj)
 {
-    public object ProbeSpace
+    public XRSpace ProbeSpace
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onreflectionchange
+    public EventHandler Onreflectionchange
     {
         get
         {

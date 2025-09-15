@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PeriodicSyncEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object Tag
+    public string Tag
     {
         get
         {

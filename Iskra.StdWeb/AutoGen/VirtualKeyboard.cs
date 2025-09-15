@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
 {
-    public object BoundingRect
+    public DOMRect BoundingRect
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object OverlaysContent
+    public bool OverlaysContent
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Ongeometrychange
+    public EventHandler Ongeometrychange
     {
         get
         {

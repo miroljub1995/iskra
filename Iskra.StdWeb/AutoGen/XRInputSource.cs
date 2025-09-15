@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
 {
-    public object Handedness
+    public XRHandedness Handedness
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TargetRayMode
+    public XRTargetRayMode TargetRayMode
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object TargetRaySpace
+    public XRSpace TargetRaySpace
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object GripSpace
+    public XRSpace? GripSpace
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object SkipRendering
+    public bool SkipRendering
     {
         get
         {

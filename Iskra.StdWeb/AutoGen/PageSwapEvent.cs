@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PageSwapEvent(JSObject obj): Event(obj)
 {
-    public object Activation
+    public NavigationActivation? Activation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object ViewTransition
+    public ViewTransition? ViewTransition
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object SurfaceScale
+    public SVGAnimatedNumber SurfaceScale
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object DiffuseConstant
+    public SVGAnimatedNumber DiffuseConstant
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelUnitLengthX
+    public SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object KernelUnitLengthY
+    public SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {

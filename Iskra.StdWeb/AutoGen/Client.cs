@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Client(JSObject obj): JSObjectProxy(obj)
 {
-    public object Url
+    public string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object FrameType
+    public FrameType FrameType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Id
+    public string Id
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Type
+    public ClientType Type
     {
         get
         {

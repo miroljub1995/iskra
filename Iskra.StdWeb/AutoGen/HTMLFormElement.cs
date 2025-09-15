@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
 {
-    public object AcceptCharset
+    public string AcceptCharset
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Action
+    public string Action
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Enctype
+    public string Enctype
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Encoding
+    public string Encoding
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Method
+    public string Method
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public string Name
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object NoValidate
+    public bool NoValidate
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Target
+    public string Target
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rel
+    public string Rel
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object RelList
+    public DOMTokenList RelList
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Elements
+    public HTMLFormControlsCollection Elements
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Length
+    public uint Length
     {
         get
         {

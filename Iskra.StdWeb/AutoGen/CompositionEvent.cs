@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CompositionEvent(JSObject obj): UIEvent(obj)
 {
-    public object Data
+    public string Data
     {
         get
         {

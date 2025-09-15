@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
 {
-    public object Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Cols
+    public uint Cols
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object DirName
+    public string DirName
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Disabled
+    public bool Disabled
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -65,19 +65,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object MaxLength
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object MinLength
+    public int MaxLength
     {
         get
         {
@@ -89,7 +77,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Name
+    public int MinLength
     {
         get
         {
@@ -101,7 +89,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Placeholder
+    public string Name
     {
         get
         {
@@ -113,7 +101,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ReadOnly
+    public string Placeholder
     {
         get
         {
@@ -125,7 +113,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Required
+    public bool ReadOnly
     {
         get
         {
@@ -137,7 +125,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Rows
+    public bool Required
     {
         get
         {
@@ -149,7 +137,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Wrap
+    public uint Rows
     {
         get
         {
@@ -161,15 +149,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Type
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object DefaultValue
+    public string Wrap
     {
         get
         {
@@ -181,7 +161,15 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Value
+    public string Type
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string DefaultValue
     {
         get
         {
@@ -193,47 +181,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object TextLength
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object WillValidate
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Validity
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object ValidationMessage
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Labels
-    {
-        get
-        {
-            throw new Exception();
-        }
-    }
-
-    public object SelectionStart
+    public string Value
     {
         get
         {
@@ -245,7 +193,47 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SelectionEnd
+    public uint TextLength
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public bool WillValidate
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public ValidityState Validity
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public string ValidationMessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public NodeList Labels
+    {
+        get
+        {
+            throw new Exception();
+        }
+    }
+
+    public uint SelectionStart
     {
         get
         {
@@ -257,7 +245,19 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SelectionDirection
+    public uint SelectionEnd
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public string SelectionDirection
     {
         get
         {

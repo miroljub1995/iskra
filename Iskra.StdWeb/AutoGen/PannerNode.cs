@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PannerNode(JSObject obj): AudioNode(obj)
 {
-    public object PanningModel
+    public PanningModelType PanningModel
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object PositionX
+    public AudioParam PositionX
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object PositionY
+    public AudioParam PositionY
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object PositionZ
+    public AudioParam PositionZ
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object OrientationX
+    public AudioParam OrientationX
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object OrientationY
+    public AudioParam OrientationY
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object OrientationZ
+    public AudioParam OrientationZ
     {
         get
         {
@@ -69,19 +69,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object DistanceModel
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object RefDistance
+    public DistanceModelType DistanceModel
     {
         get
         {
@@ -93,7 +81,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object MaxDistance
+    public double RefDistance
     {
         get
         {
@@ -105,7 +93,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object RolloffFactor
+    public double MaxDistance
     {
         get
         {
@@ -117,7 +105,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object ConeInnerAngle
+    public double RolloffFactor
     {
         get
         {
@@ -129,7 +117,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object ConeOuterAngle
+    public double ConeInnerAngle
     {
         get
         {
@@ -141,7 +129,19 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public object ConeOuterGain
+    public double ConeOuterAngle
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public double ConeOuterGain
     {
         get
         {

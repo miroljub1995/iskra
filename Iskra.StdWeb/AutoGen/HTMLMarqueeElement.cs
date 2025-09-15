@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
 {
-    public object Behavior
+    public string Behavior
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object BgColor
+    public string BgColor
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Direction
+    public string Direction
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Height
+    public string Height
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Hspace
+    public uint Hspace
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Loop
+    public int Loop
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ScrollAmount
+    public uint ScrollAmount
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object ScrollDelay
+    public uint ScrollDelay
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object TrueSpeed
+    public bool TrueSpeed
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Vspace
+    public uint Vspace
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Width
+    public string Width
     {
         get
         {

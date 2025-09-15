@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedInteger(JSObject obj): JSObjectProxy(obj)
 {
-    public object BaseVal
+    public int BaseVal
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SVGAnimatedInteger(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AnimVal
+    public int AnimVal
     {
         get
         {

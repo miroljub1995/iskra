@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
 {
-    public object In1
+    public SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object In2
+    public SVGAnimatedString In2
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object Operator
+    public SVGAnimatedEnumeration Operator
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object K1
+    public SVGAnimatedNumber K1
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object K2
+    public SVGAnimatedNumber K2
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object K3
+    public SVGAnimatedNumber K3
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object K4
+    public SVGAnimatedNumber K4
     {
         get
         {

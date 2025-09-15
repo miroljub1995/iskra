@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIdentityProviderGlobalScope(JSObject obj): WorkerGlobalScope(obj)
 {
-    public object RtcIdentityProvider
+    public RTCIdentityProviderRegistrar RtcIdentityProvider
     {
         get
         {

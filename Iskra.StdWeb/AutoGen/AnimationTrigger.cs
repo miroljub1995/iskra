@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
 {
-    public object Timeline
+    public AnimationTimeline Timeline
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Behavior
+    public AnimationTriggerBehavior Behavior
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
 {
-    public object Role
+    public RTCIceRole Role
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Component
+    public RTCIceComponent Component
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object State
+    public RTCIceTransportState State
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object GatheringState
+    public RTCIceGathererState GatheringState
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onstatechange
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Ongatheringstatechange
+    public EventHandler Onstatechange
     {
         get
         {
@@ -65,7 +53,19 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onselectedcandidatepairchange
+    public EventHandler Ongatheringstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public EventHandler Onselectedcandidatepairchange
     {
         get
         {

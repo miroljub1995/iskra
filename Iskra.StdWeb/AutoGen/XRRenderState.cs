@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
 {
-    public object DepthNear
+    public double DepthNear
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object DepthFar
+    public double DepthFar
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PassthroughFullyObscured
+    public bool? PassthroughFullyObscured
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object InlineVerticalFieldOfView
+    public double? InlineVerticalFieldOfView
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object BaseLayer
+    public XRWebGLLayer? BaseLayer
     {
         get
         {

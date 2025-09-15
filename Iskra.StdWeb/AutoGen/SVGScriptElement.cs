@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
 {
-    public object Type
+    public string Type
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public object CrossOrigin
+    public string? CrossOrigin
     {
         get
         {

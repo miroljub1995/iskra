@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
 {
-    public object ShadowRoot
+    public ShadowRoot? ShadowRoot
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Form
+    public HTMLFormElement? Form
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Validity
+    public ValidityState Validity
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Labels
+    public NodeList Labels
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object States
+    public CustomStateSet States
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(obj)
 {
-    public object Src
+    public string Src
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontFamily
+    public string FontFamily
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_family
+    public string Font_family
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontStyle
+    public string FontStyle
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_style
+    public string Font_style
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontWeight
+    public string FontWeight
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_weight
+    public string Font_weight
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontStretch
+    public string FontStretch
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_stretch
+    public string Font_stretch
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontWidth
+    public string FontWidth
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_width
+    public string Font_width
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontSize
+    public string FontSize
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_size
+    public string Font_size
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object SizeAdjust
+    public string SizeAdjust
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Size_adjust
+    public string Size_adjust
     {
         get
         {
@@ -189,7 +189,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object UnicodeRange
+    public string UnicodeRange
     {
         get
         {
@@ -201,7 +201,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Unicode_range
+    public string Unicode_range
     {
         get
         {
@@ -213,7 +213,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontFeatureSettings
+    public string FontFeatureSettings
     {
         get
         {
@@ -225,7 +225,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_feature_settings
+    public string Font_feature_settings
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontVariationSettings
+    public string FontVariationSettings
     {
         get
         {
@@ -249,7 +249,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_variation_settings
+    public string Font_variation_settings
     {
         get
         {
@@ -261,7 +261,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontNamedInstance
+    public string FontNamedInstance
     {
         get
         {
@@ -273,7 +273,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_named_instance
+    public string Font_named_instance
     {
         get
         {
@@ -285,7 +285,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontDisplay
+    public string FontDisplay
     {
         get
         {
@@ -297,7 +297,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_display
+    public string Font_display
     {
         get
         {
@@ -309,7 +309,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object FontLanguageOverride
+    public string FontLanguageOverride
     {
         get
         {
@@ -321,7 +321,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Font_language_override
+    public string Font_language_override
     {
         get
         {
@@ -333,7 +333,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object AscentOverride
+    public string AscentOverride
     {
         get
         {
@@ -345,7 +345,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Ascent_override
+    public string Ascent_override
     {
         get
         {
@@ -357,7 +357,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object DescentOverride
+    public string DescentOverride
     {
         get
         {
@@ -369,7 +369,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Descent_override
+    public string Descent_override
     {
         get
         {
@@ -381,7 +381,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object LineGapOverride
+    public string LineGapOverride
     {
         get
         {
@@ -393,7 +393,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Line_gap_override
+    public string Line_gap_override
     {
         get
         {
@@ -405,7 +405,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object SuperscriptPositionOverride
+    public string SuperscriptPositionOverride
     {
         get
         {
@@ -417,7 +417,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Superscript_position_override
+    public string Superscript_position_override
     {
         get
         {
@@ -429,7 +429,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object SubscriptPositionOverride
+    public string SubscriptPositionOverride
     {
         get
         {
@@ -441,7 +441,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Subscript_position_override
+    public string Subscript_position_override
     {
         get
         {
@@ -453,7 +453,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object SuperscriptSizeOverride
+    public string SuperscriptSizeOverride
     {
         get
         {
@@ -465,7 +465,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Superscript_size_override
+    public string Superscript_size_override
     {
         get
         {
@@ -477,7 +477,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object SubscriptSizeOverride
+    public string SubscriptSizeOverride
     {
         get
         {
@@ -489,7 +489,7 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
     }
 
-    public object Subscript_size_override
+    public string Subscript_size_override
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object CurrentScreen
+    public ScreenDetailed CurrentScreen
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Onscreenschange
+    public EventHandler Onscreenschange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Oncurrentscreenchange
+    public EventHandler Oncurrentscreenchange
     {
         get
         {

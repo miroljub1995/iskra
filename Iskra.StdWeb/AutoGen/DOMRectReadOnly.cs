@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
 {
-    public object X
+    public double X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Y
+    public double Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Width
+    public double Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Height
+    public double Height
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Top
+    public double Top
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Right
+    public double Right
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Bottom
+    public double Bottom
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Left
+    public double Left
     {
         get
         {

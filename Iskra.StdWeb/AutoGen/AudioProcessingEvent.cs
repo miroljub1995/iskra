@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioProcessingEvent(JSObject obj): Event(obj)
 {
-    public object PlaybackTime
+    public double PlaybackTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object InputBuffer
+    public AudioBuffer InputBuffer
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object OutputBuffer
+    public AudioBuffer OutputBuffer
     {
         get
         {

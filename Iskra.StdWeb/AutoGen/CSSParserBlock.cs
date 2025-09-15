@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserBlock(JSObject obj): CSSParserValue(obj)
 {
-    public object Name
+    public string Name
     {
         get
         {

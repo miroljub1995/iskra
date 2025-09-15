@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedBoolean(JSObject obj): JSObjectProxy(obj)
 {
-    public object BaseVal
+    public bool BaseVal
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class SVGAnimatedBoolean(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object AnimVal
+    public bool AnimVal
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathMin(JSObject obj): CSSMathValue(obj)
 {
-    public object Values
+    public CSSNumericArray Values
     {
         get
         {

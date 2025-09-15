@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public object RecordType
+    public string RecordType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object MediaType
+    public string? MediaType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Id
+    public string? Id
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Data
+    public DataView? Data
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Encoding
+    public string? Encoding
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Lang
+    public string? Lang
     {
         get
         {
