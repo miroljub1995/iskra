@@ -3,9 +3,6 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-// [JsonPolymorphic(TypeDiscriminatorPropertyName = "union")]
-// [JsonDerivedType(typeof(UnionTypeDescription), "true")]
-// [JsonDerivedType(typeof(NonUnionTypeDescription), "false")]
 [JsonConverter(typeof(IDLTypeDescriptionConverter))]
 public abstract class IDLTypeDescription : AbstractBase
 {

@@ -6,6 +6,7 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonSerializable(typeof(IDLModule))]
 [JsonSerializable(typeof(UnionTypeDescription))]
 [JsonSerializable(typeof(NonUnionTypeDescription))]
+[JsonSerializable(typeof(GenSettings))]
 public partial class WebIdlJsonContext : JsonSerializerContext
 {
 }

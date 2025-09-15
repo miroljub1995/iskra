@@ -9,7 +9,7 @@ public class ModuleGenerator(
     InterfaceGenerator interfaceGenerator
 )
 {
-    public async Task GenerateAsync(string path, string outputDir, string ns,
+    public async Task GenerateAsync(string path, string outputDir,
         CancellationToken cancellationToken = default)
     {
         var moduleContent = await File.ReadAllTextAsync(path, cancellationToken);
@@ -30,7 +30,7 @@ public class ModuleGenerator(
                     throw new Exception($"Output file {outputFile} already exists.");
                 }
 
-                var interfaceContent = interfaceGenerator.Generate(interfaceType, ns);
+                var interfaceContent = interfaceGenerator.Generate(interfaceType);
                 await File.WriteAllTextAsync(outputFile, interfaceContent, cancellationToken);
             }
             else

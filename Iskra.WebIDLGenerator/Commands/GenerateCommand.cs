@@ -1,5 +1,4 @@
 using System.CommandLine;
-using System.Reflection;
 using System.Text.Json;
 using Iskra.WebIDLGenerator.Generators;
 using Iskra.WebIDLGenerator.Models;
@@ -12,28 +11,46 @@ public class GenerateCommand : Command
 {
     public GenerateCommand() : base("generate", "Generate C# implementation.")
     {
-        Option<string> inputOption = new("--input")
+        Argument<string> pathArgument = new("path")
         {
-            Description = "File or Directory to idlparsed json."
+            Description = "A path to the gensettings.json"
         };
 
-        Option<string> outputOption = new("--output")
-        {
-            Description = "Directory where C# types should be generated."
-        };
-
-        Option<string> namespaceOption = new("--namespace")
-        {
-            Description = "Namespace of generated C# types."
-        };
-
-        Add(inputOption);
-        Add(outputOption);
-        Add(namespaceOption);
+        Add(pathArgument);
 
         SetAction(async (result, cancellationToken) =>
         {
+            var genSettingsPath = result.GetRequiredValue(pathArgument);
+            var genSettingsFullPath = Path.GetFullPath(genSettingsPath);
+
+            if (!File.Exists(genSettingsFullPath))
+            {
+                throw new FileNotFoundException($"File \"{genSettingsFullPath}\" does not exist.");
+            }
+
+            var genSettingsContent = await File.ReadAllTextAsync(genSettingsFullPath, cancellationToken);
+            var genSettings =
+                JsonSerializer.Deserialize(genSettingsContent, typeof(GenSettings), WebIdlJsonContext.Default) as
+                    GenSettings;
+
+            if (genSettings is null)
+            {
+                throw new Exception("GenSettings is null.");
+            }
+
+            var baseDir = Path.GetDirectoryName(genSettingsFullPath)
+                          ?? throw new Exception("Base directory is null.");
+
+            genSettings = genSettings with
+            {
+                Input = Path.GetFullPath(genSettings.Input, baseDir),
+                Output = Path.GetFullPath(genSettings.Output, baseDir),
+            };
+
             ServiceCollection services = [];
+            
+            services.AddSingleton(genSettings);
+
             services.AddLogging(config =>
             {
                 config.ClearProviders();
@@ -43,6 +60,7 @@ public class GenerateCommand : Command
 
             services.AddSingleton<AttributeMemberTypeGenerator>();
             services.AddSingleton<IDLInterfaceMemberTypeGenerator>();
+            services.AddSingleton<IDLTypeDescriptionToTypeGenerator>();
             services.AddSingleton<InterfaceGenerator>();
             services.AddSingleton<ModuleGenerator>();
 
@@ -50,57 +68,37 @@ public class GenerateCommand : Command
 
             ILogger logger = provider.GetRequiredService<ILogger<GenerateCommand>>();
 
-            var inputOptionValue = result.GetRequiredValue(inputOption);
-            var outputOptionValue = result.GetRequiredValue(outputOption);
-            var namespaceOptionValue = result.GetRequiredValue(namespaceOption);
-
-            var inputFullPath = Path.GetFullPath(inputOptionValue);
-            var outputFullPath = Path.GetFullPath(outputOptionValue);
-
-            if (!File.Exists(inputFullPath) && !Directory.Exists(inputFullPath))
+            if (!File.Exists(genSettings.Input) && !Directory.Exists(genSettings.Input))
             {
-                throw new Exception($"Input \"{inputFullPath}\" is not found.");
+                throw new Exception($"Input \"{genSettings.Input}\" is not found.");
             }
 
             List<string> inputFiles = [];
-            var isInputFile = File.Exists(inputFullPath);
+            var isInputFile = File.Exists(genSettings.Input);
             if (isInputFile)
             {
-                inputFiles.Add(inputFullPath);
+                inputFiles.Add(genSettings.Input);
             }
             else
             {
-                var files = Directory.GetFiles(inputFullPath, "*.json", SearchOption.AllDirectories);
+                var files = Directory.GetFiles(genSettings.Input, "*.json", SearchOption.AllDirectories);
                 inputFiles.AddRange(files);
             }
 
-            if (Directory.Exists(outputFullPath))
+            if (Directory.Exists(genSettings.Output))
             {
-                Directory.Delete(outputFullPath, true);
+                Directory.Delete(genSettings.Output, true);
             }
 
-            Directory.CreateDirectory(outputFullPath);
+            Directory.CreateDirectory(genSettings.Output);
 
             var moduleGenerator = provider.GetRequiredService<ModuleGenerator>();
             foreach (var inputFile in inputFiles)
             {
                 logger.LogInformation("Processing {inputFile}", inputFile);
 
-                await moduleGenerator.GenerateAsync(inputFile, outputFullPath, namespaceOptionValue, cancellationToken);
+                await moduleGenerator.GenerateAsync(inputFile, genSettings.Output, cancellationToken);
             }
-
-
-            // var baseDir = AppDomain.CurrentDomain.BaseDirectory;
-            //
-            //
-            // var webrefParsedRootDir =
-            //     Path.GetFullPath(Path.Combine(baseDir, "../../../../submodules/webref/curated/ed/idlparsed"));
-            // var htmlModulePath = Path.Combine(webrefParsedRootDir, "html.json");
-            // var htmlModuleContent = await File.ReadAllTextAsync(htmlModulePath);
-            //
-            // var htmlModule =
-            //     JsonSerializer.Deserialize(htmlModuleContent, typeof(IDLModule),
-            //         WebIdlJsonContext.Default) as IDLModule;
         });
     }
 }

@@ -1,13 +1,15 @@
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.Options;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class InterfaceGenerator(
-    IDLInterfaceMemberTypeGenerator idlInterfaceMemberTypeGenerator
+    IDLInterfaceMemberTypeGenerator idlInterfaceMemberTypeGenerator,
+    GenSettings genSettings
 )
 {
-    public string Generate(InterfaceType input, string ns)
+    public string Generate(InterfaceType input)
     {
         var baseTypeName = input.Inheritance ?? "JSObjectProxy";
 
@@ -30,7 +32,7 @@ public class InterfaceGenerator(
                         using System.Runtime.InteropServices.JavaScript;
                         using Iskra.JSCore;
 
-                        namespace {{ns}};
+                        namespace {{genSettings.Namespace}};
 
                         #nullable enable
 

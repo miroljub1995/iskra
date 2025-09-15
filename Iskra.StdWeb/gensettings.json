@@ -1,0 +1,9 @@
+{
+  "input": "../submodules/webref/curated/ed/idlparsed",
+  "output": "./AutoGen",
+  "namespace": "Iskra.StdWeb",
+  "typeRewrite": {
+    "DOMString": "string",
+    "WindowProxy": "Window"
+  }
+}
