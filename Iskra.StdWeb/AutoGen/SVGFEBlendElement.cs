@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedString In1
+    public Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedString In2
+    public Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration Mode
+    public Iskra.StdWeb.SVGAnimatedEnumeration Mode
     {
         get
         {

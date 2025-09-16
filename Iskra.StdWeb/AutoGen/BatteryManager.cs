@@ -41,7 +41,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onchargingchange
+    public Iskra.StdWeb.EventHandler Onchargingchange
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onchargingtimechange
+    public Iskra.StdWeb.EventHandler Onchargingtimechange
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Ondischargingtimechange
+    public Iskra.StdWeb.EventHandler Ondischargingtimechange
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onlevelchange
+    public Iskra.StdWeb.EventHandler Onlevelchange
     {
         get
         {

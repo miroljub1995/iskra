@@ -33,7 +33,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onopen
+    public Iskra.StdWeb.EventHandler Onopen
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onclose
+    public Iskra.StdWeb.EventHandler Onclose
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessage
+    public Iskra.StdWeb.EventHandler Onmessage
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BinaryType BinaryType
+    public Iskra.StdWeb.BinaryType BinaryType
     {
         get
         {

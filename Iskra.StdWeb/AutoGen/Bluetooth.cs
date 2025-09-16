@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Bluetooth(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Onavailabilitychanged
+    public Iskra.StdWeb.EventHandler Onavailabilitychanged
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BluetoothDevice? ReferringDevice
+    public Iskra.StdWeb.BluetoothDevice? ReferringDevice
     {
         get
         {

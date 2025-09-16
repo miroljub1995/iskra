@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationEvent(JSObject obj): UIEvent(obj)
 {
-    public SpatialNavigationDirection Dir
+    public Iskra.StdWeb.SpatialNavigationDirection Dir
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public EventTarget? RelatedTarget
+    public Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {

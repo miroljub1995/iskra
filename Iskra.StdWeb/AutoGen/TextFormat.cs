@@ -25,7 +25,7 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public UnderlineStyle UnderlineStyle
+    public Iskra.StdWeb.UnderlineStyle UnderlineStyle
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public UnderlineThickness UnderlineThickness
+    public Iskra.StdWeb.UnderlineThickness UnderlineThickness
     {
         get
         {

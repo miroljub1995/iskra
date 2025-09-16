@@ -21,7 +21,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLCollection Elements
+    public Iskra.StdWeb.HTMLCollection Elements
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public ValidityState Validity
+    public Iskra.StdWeb.ValidityState Validity
     {
         get
         {

@@ -37,7 +37,7 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
         }
     }
 
-    public WebGLFramebuffer? Framebuffer
+    public Iskra.StdWeb.WebGLFramebuffer? Framebuffer
     {
         get
         {

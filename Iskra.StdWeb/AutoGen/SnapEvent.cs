@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SnapEvent(JSObject obj): Event(obj)
 {
-    public Node? SnapTargetBlock
+    public Iskra.StdWeb.Node? SnapTargetBlock
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SnapEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Node? SnapTargetInline
+    public Iskra.StdWeb.Node? SnapTargetInline
     {
         get
         {

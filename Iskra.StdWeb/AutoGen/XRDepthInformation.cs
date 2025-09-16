@@ -25,7 +25,7 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public XRRigidTransform NormDepthBufferFromNormView
+    public Iskra.StdWeb.XRRigidTransform NormDepthBufferFromNormView
     {
         get
         {

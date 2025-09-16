@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSGroupingRule(JSObject obj): CSSRule(obj)
 {
-    public CSSRuleList CssRules
+    public Iskra.StdWeb.CSSRuleList CssRules
     {
         get
         {

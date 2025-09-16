@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorker(JSObject obj): EventTarget(obj)
 {
-    public MessagePort Port
+    public Iskra.StdWeb.MessagePort Port
     {
         get
         {

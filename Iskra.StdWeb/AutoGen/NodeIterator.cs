@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
 {
-    public Node Root
+    public Iskra.StdWeb.Node Root
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Node ReferenceNode
+    public Iskra.StdWeb.Node ReferenceNode
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public NodeFilter? Filter
+    public Iskra.StdWeb.NodeFilter? Filter
     {
         get
         {

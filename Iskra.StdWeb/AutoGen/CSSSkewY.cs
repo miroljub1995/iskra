@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSkewY(JSObject obj): CSSTransformComponent(obj)
 {
-    public CSSNumericValue Ay
+    public Iskra.StdWeb.CSSNumericValue Ay
     {
         get
         {

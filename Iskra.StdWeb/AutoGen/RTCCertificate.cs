@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCCertificate(JSObject obj): JSObjectProxy(obj)
 {
-    public EpochTimeStamp Expires
+    public Iskra.StdWeb.EpochTimeStamp Expires
     {
         get
         {

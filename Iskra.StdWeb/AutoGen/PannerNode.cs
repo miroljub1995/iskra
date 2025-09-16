@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PannerNode(JSObject obj): AudioNode(obj)
 {
-    public PanningModelType PanningModel
+    public Iskra.StdWeb.PanningModelType PanningModel
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam PositionX
+    public Iskra.StdWeb.AudioParam PositionX
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam PositionY
+    public Iskra.StdWeb.AudioParam PositionY
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam PositionZ
+    public Iskra.StdWeb.AudioParam PositionZ
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam OrientationX
+    public Iskra.StdWeb.AudioParam OrientationX
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam OrientationY
+    public Iskra.StdWeb.AudioParam OrientationY
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam OrientationZ
+    public Iskra.StdWeb.AudioParam OrientationZ
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public DistanceModelType DistanceModel
+    public Iskra.StdWeb.DistanceModelType DistanceModel
     {
         get
         {

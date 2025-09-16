@@ -41,7 +41,7 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public XRWebGLLayer? BaseLayer
+    public Iskra.StdWeb.XRWebGLLayer? BaseLayer
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(obj)
 {
-    public XRInputSource InputSource
+    public Iskra.StdWeb.XRInputSource InputSource
     {
         get
         {

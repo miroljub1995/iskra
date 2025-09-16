@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
 {
-    public CSSColorPercent L
+    public Iskra.StdWeb.CSSColorPercent L
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public CSSColorNumber A
+    public Iskra.StdWeb.CSSColorNumber A
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public CSSColorNumber B
+    public Iskra.StdWeb.CSSColorNumber B
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public CSSColorPercent Alpha
+    public Iskra.StdWeb.CSSColorPercent Alpha
     {
         get
         {

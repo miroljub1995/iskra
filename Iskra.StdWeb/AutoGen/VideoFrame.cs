@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public VideoPixelFormat? Format
+    public Iskra.StdWeb.VideoPixelFormat? Format
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMRectReadOnly? CodedRect
+    public Iskra.StdWeb.DOMRectReadOnly? CodedRect
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMRectReadOnly? VisibleRect
+    public Iskra.StdWeb.DOMRectReadOnly? VisibleRect
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public VideoColorSpace ColorSpace
+    public Iskra.StdWeb.VideoColorSpace ColorSpace
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessage
+    public Iskra.StdWeb.EventHandler Onmessage
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessageerror
+    public Iskra.StdWeb.EventHandler Onmessageerror
     {
         get
         {

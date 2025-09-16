@@ -29,7 +29,7 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CSSRule? ParentRule
+    public Iskra.StdWeb.CSSRule? ParentRule
     {
         get
         {

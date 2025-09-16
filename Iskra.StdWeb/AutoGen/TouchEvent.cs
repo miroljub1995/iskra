@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TouchEvent(JSObject obj): UIEvent(obj)
 {
-    public TouchList Touches
+    public Iskra.StdWeb.TouchList Touches
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public TouchList TargetTouches
+    public Iskra.StdWeb.TouchList TargetTouches
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         }
     }
 
-    public TouchList ChangedTouches
+    public Iskra.StdWeb.TouchList ChangedTouches
     {
         get
         {

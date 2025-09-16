@@ -53,7 +53,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public XRRigidTransform? DeltaPose
+    public Iskra.StdWeb.XRRigidTransform? DeltaPose
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamAudioDestinationNode(JSObject obj): AudioNode(obj)
 {
-    public MediaStream Stream
+    public Iskra.StdWeb.MediaStream Stream
     {
         get
         {

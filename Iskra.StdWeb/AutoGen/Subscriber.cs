@@ -17,7 +17,7 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public AbortSignal Signal
+    public Iskra.StdWeb.AbortSignal Signal
     {
         get
         {

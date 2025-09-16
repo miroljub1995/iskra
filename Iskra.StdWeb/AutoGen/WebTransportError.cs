@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportError(JSObject obj): DOMException(obj)
 {
-    public WebTransportErrorSource Source
+    public Iskra.StdWeb.WebTransportErrorSource Source
     {
         get
         {

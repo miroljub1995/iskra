@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedAngle(JSObject obj): JSObjectProxy(obj)
 {
-    public SVGAngle BaseVal
+    public Iskra.StdWeb.SVGAngle BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedAngle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public SVGAngle AnimVal
+    public Iskra.StdWeb.SVGAngle AnimVal
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
 {
-    public BiquadFilterType Type
+    public Iskra.StdWeb.BiquadFilterType Type
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Frequency
+    public Iskra.StdWeb.AudioParam Frequency
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Detune
+    public Iskra.StdWeb.AudioParam Detune
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Q
+    public Iskra.StdWeb.AudioParam Q
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Gain
+    public Iskra.StdWeb.AudioParam Gain
     {
         get
         {

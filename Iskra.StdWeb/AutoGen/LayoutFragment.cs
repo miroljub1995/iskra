@@ -57,7 +57,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ChildBreakToken? BreakToken
+    public Iskra.StdWeb.ChildBreakToken? BreakToken
     {
         get
         {

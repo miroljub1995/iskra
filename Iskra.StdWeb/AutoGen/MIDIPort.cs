@@ -33,7 +33,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public MIDIPortType Type
+    public Iskra.StdWeb.MIDIPortType Type
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public MIDIPortDeviceState State
+    public Iskra.StdWeb.MIDIPortDeviceState State
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public MIDIPortConnectionState Connection
+    public Iskra.StdWeb.MIDIPortConnectionState Connection
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandler Onstatechange
     {
         get
         {

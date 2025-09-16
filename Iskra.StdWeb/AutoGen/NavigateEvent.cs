@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigateEvent(JSObject obj): Event(obj)
 {
-    public NavigationType NavigationType
+    public Iskra.StdWeb.NavigationType NavigationType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public NavigationDestination Destination
+    public Iskra.StdWeb.NavigationDestination Destination
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public AbortSignal Signal
+    public Iskra.StdWeb.AbortSignal Signal
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public FormData? FormData
+    public Iskra.StdWeb.FormData? FormData
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Element? SourceElement
+    public Iskra.StdWeb.Element? SourceElement
     {
         get
         {

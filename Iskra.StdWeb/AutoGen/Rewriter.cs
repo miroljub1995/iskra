@@ -17,7 +17,7 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RewriterTone Tone
+    public Iskra.StdWeb.RewriterTone Tone
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RewriterFormat Format
+    public Iskra.StdWeb.RewriterFormat Format
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RewriterLength Length
+    public Iskra.StdWeb.RewriterLength Length
     {
         get
         {

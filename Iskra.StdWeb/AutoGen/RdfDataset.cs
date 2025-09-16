@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RdfDataset(JSObject obj): JSObjectProxy(obj)
 {
-    public RdfGraph DefaultGraph
+    public Iskra.StdWeb.RdfGraph DefaultGraph
     {
         get
         {

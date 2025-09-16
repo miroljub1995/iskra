@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
 {
-    public EventHandler Onended
+    public Iskra.StdWeb.EventHandler Onended
     {
         get
         {

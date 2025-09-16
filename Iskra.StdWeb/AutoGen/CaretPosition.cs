@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
 {
-    public Node OffsetNode
+    public Iskra.StdWeb.Node OffsetNode
     {
         get
         {

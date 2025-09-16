@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
 {
-    public SVGElement? TargetElement
+    public Iskra.StdWeb.SVGElement? TargetElement
     {
         get
         {
@@ -17,19 +17,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public EventHandler Onbegin
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onend
+    public Iskra.StdWeb.EventHandler Onbegin
     {
         get
         {
@@ -41,7 +29,19 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public EventHandler Onrepeat
+    public Iskra.StdWeb.EventHandler Onend
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onrepeat
     {
         get
         {

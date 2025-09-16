@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBuffer(JSObject obj): EventTarget(obj)
 {
-    public AppendMode Mode
+    public Iskra.StdWeb.AppendMode Mode
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public TimeRanges Buffered
+    public Iskra.StdWeb.TimeRanges Buffered
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AudioTrackList AudioTracks
+    public Iskra.StdWeb.AudioTrackList AudioTracks
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public VideoTrackList VideoTracks
+    public Iskra.StdWeb.VideoTrackList VideoTracks
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public TextTrackList TextTracks
+    public Iskra.StdWeb.TextTrackList TextTracks
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onupdatestart
+    public Iskra.StdWeb.EventHandler Onupdatestart
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onupdate
+    public Iskra.StdWeb.EventHandler Onupdate
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onupdateend
+    public Iskra.StdWeb.EventHandler Onupdateend
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onabort
+    public Iskra.StdWeb.EventHandler Onabort
     {
         get
         {

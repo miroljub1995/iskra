@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
 {
-    public MediaKeyMessageType MessageType
+    public Iskra.StdWeb.MediaKeyMessageType MessageType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public ArrayBuffer Message
+    public Iskra.JSCore.ArrayBuffer Message
     {
         get
         {

@@ -25,7 +25,7 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onchange
+    public Iskra.StdWeb.EventHandler Onchange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onaddtrack
+    public Iskra.StdWeb.EventHandler Onaddtrack
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onremovetrack
+    public Iskra.StdWeb.EventHandler Onremovetrack
     {
         get
         {

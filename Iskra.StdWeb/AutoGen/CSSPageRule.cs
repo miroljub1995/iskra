@@ -21,7 +21,7 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
         }
     }
 
-    public CSSPageDescriptors Style
+    public Iskra.StdWeb.CSSPageDescriptors Style
     {
         get
         {

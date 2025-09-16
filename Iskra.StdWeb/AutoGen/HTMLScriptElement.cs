@@ -69,7 +69,7 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList Blocking
+    public Iskra.StdWeb.DOMTokenList Blocking
     {
         get
         {

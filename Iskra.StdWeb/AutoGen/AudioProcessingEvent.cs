@@ -17,7 +17,7 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public AudioBuffer InputBuffer
+    public Iskra.StdWeb.AudioBuffer InputBuffer
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public AudioBuffer OutputBuffer
+    public Iskra.StdWeb.AudioBuffer OutputBuffer
     {
         get
         {

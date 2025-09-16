@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCError(JSObject obj): DOMException(obj)
 {
-    public RTCErrorDetailType ErrorDetail
+    public Iskra.StdWeb.RTCErrorDetailType ErrorDetail
     {
         get
         {

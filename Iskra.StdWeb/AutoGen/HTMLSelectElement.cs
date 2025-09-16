@@ -33,7 +33,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLOptionsCollection Options
+    public Iskra.StdWeb.HTMLOptionsCollection Options
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLCollection SelectedOptions
+    public Iskra.StdWeb.HTMLCollection SelectedOptions
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public ValidityState Validity
+    public Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -173,7 +173,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public NodeList Labels
+    public Iskra.StdWeb.NodeList Labels
     {
         get
         {

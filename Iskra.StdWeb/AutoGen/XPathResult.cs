@@ -41,7 +41,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Node? SingleNodeValue
+    public Iskra.StdWeb.Node? SingleNodeValue
     {
         get
         {

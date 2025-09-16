@@ -17,7 +17,7 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ArrayBuffer? ApplicationServerKey
+    public Iskra.JSCore.ArrayBuffer? ApplicationServerKey
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class Lock(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public LockMode Mode
+    public Iskra.StdWeb.LockMode Mode
     {
         get
         {

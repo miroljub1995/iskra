@@ -17,7 +17,7 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WriterTone Tone
+    public Iskra.StdWeb.WriterTone Tone
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WriterFormat Format
+    public Iskra.StdWeb.WriterFormat Format
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WriterLength Length
+    public Iskra.StdWeb.WriterLength Length
     {
         get
         {

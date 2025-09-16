@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class UIEvent(JSObject obj): Event(obj)
 {
-    public Window? View
+    public Iskra.StdWeb.Window? View
     {
         get
         {

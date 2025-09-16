@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIMessageEvent(JSObject obj): Event(obj)
 {
-    public Uint8Array? Data
+    public Iskra.JSCore.Uint8Array? Data
     {
         get
         {

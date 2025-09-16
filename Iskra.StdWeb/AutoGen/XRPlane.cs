@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
 {
-    public XRSpace PlaneSpace
+    public Iskra.StdWeb.XRSpace PlaneSpace
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public XRPlaneOrientation? Orientation
+    public Iskra.StdWeb.XRPlaneOrientation? Orientation
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMHighResTimeStamp LastChangedTime
+    public Iskra.StdWeb.DOMHighResTimeStamp LastChangedTime
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannelEvent(JSObject obj): Event(obj)
 {
-    public RTCDataChannel Channel
+    public Iskra.StdWeb.RTCDataChannel Channel
     {
         get
         {

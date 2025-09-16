@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceMotionEvent(JSObject obj): Event(obj)
 {
-    public DeviceMotionEventAcceleration? Acceleration
+    public Iskra.StdWeb.DeviceMotionEventAcceleration? Acceleration
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public DeviceMotionEventAcceleration? AccelerationIncludingGravity
+    public Iskra.StdWeb.DeviceMotionEventAcceleration? AccelerationIncludingGravity
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public DeviceMotionEventRotationRate? RotationRate
+    public Iskra.StdWeb.DeviceMotionEventRotationRate? RotationRate
     {
         get
         {

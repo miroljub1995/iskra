@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
 {
-    public NavigationHistoryEntry? From
+    public Iskra.StdWeb.NavigationHistoryEntry? From
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public NavigationHistoryEntry Entry
+    public Iskra.StdWeb.NavigationHistoryEntry Entry
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public NavigationType NavigationType
+    public Iskra.StdWeb.NavigationType NavigationType
     {
         get
         {

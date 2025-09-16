@@ -81,7 +81,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Document? ContentDocument
+    public Iskra.StdWeb.Document? ContentDocument
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Window? ContentWindow
+    public Iskra.StdWeb.Window? ContentWindow
     {
         get
         {

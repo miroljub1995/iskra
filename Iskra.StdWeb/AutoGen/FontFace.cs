@@ -141,7 +141,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public FontFaceLoadStatus Status
+    public Iskra.StdWeb.FontFaceLoadStatus Status
     {
         get
         {

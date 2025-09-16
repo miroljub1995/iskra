@@ -45,7 +45,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList Sandbox
+    public Iskra.StdWeb.DOMTokenList Sandbox
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Document? ContentDocument
+    public Iskra.StdWeb.Document? ContentDocument
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Window? ContentWindow
+    public Iskra.StdWeb.Window? ContentWindow
     {
         get
         {

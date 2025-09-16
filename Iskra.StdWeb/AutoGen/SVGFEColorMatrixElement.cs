@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedString In1
+    public Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration Type
+    public Iskra.StdWeb.SVGAnimatedEnumeration Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumberList Values
+    public Iskra.StdWeb.SVGAnimatedNumberList Values
     {
         get
         {

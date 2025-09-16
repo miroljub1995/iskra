@@ -25,7 +25,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public DOMStringList ObjectStoreNames
+    public Iskra.StdWeb.DOMStringList ObjectStoreNames
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onabort
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onclose
+    public Iskra.StdWeb.EventHandler Onabort
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onclose
     {
         get
         {
@@ -69,7 +57,19 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onversionchange
+    public Iskra.StdWeb.EventHandler Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onversionchange
     {
         get
         {

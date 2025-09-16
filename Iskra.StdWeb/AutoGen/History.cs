@@ -17,7 +17,7 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ScrollRestoration ScrollRestoration
+    public Iskra.StdWeb.ScrollRestoration ScrollRestoration
     {
         get
         {

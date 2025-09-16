@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
 {
-    public Element? Target
+    public Iskra.StdWeb.Element? Target
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
         }
     }
 
-    public CompositeOperation Composite
+    public Iskra.StdWeb.CompositeOperation Composite
     {
         get
         {

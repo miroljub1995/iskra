@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
 {
-    public EncodedAudioChunkType Type
+    public Iskra.StdWeb.EncodedAudioChunkType Type
     {
         get
         {

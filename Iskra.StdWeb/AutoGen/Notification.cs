@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Notification(JSObject obj): EventTarget(obj)
 {
-    public static NotificationPermission Permission
+    public static Iskra.StdWeb.NotificationPermission Permission
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onclick
+    public Iskra.StdWeb.EventHandler Onclick
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onshow
+    public Iskra.StdWeb.EventHandler Onshow
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onclose
+    public Iskra.StdWeb.EventHandler Onclose
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public NotificationDirection Dir
+    public Iskra.StdWeb.NotificationDirection Dir
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EpochTimeStamp Timestamp
+    public Iskra.StdWeb.EpochTimeStamp Timestamp
     {
         get
         {

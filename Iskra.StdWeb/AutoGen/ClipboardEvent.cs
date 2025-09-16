@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardEvent(JSObject obj): Event(obj)
 {
-    public DataTransfer? ClipboardData
+    public Iskra.StdWeb.DataTransfer? ClipboardData
     {
         get
         {

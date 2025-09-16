@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HIDInputReportEvent(JSObject obj): Event(obj)
 {
-    public HIDDevice Device
+    public Iskra.StdWeb.HIDDevice Device
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
         }
     }
 
-    public DataView Data
+    public Iskra.JSCore.DataView Data
     {
         get
         {

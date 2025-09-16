@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUUncapturedErrorEvent(JSObject obj): Event(obj)
 {
-    public GPUError Error
+    public Iskra.StdWeb.GPUError Error
     {
         get
         {

@@ -1,5 +1,9 @@
 {
   "profiles": {
+    "Generate JSCore": {
+      "commandName": "Project",
+      "commandLineArgs": "generate \"../Iskra.JSCore/gensettings.json\""
+    },
     "Generate Std.Web": {
       "commandName": "Project",
       "commandLineArgs": "generate \"../Iskra.StdWeb/gensettings.json\""

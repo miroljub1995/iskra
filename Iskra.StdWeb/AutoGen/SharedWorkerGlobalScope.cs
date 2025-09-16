@@ -17,7 +17,7 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
         }
     }
 
-    public EventHandler Onconnect
+    public Iskra.StdWeb.EventHandler Onconnect
     {
         get
         {

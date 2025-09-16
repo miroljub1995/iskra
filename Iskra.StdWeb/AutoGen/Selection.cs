@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Selection(JSObject obj): JSObjectProxy(obj)
 {
-    public Node? AnchorNode
+    public Iskra.StdWeb.Node? AnchorNode
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Node? FocusNode
+    public Iskra.StdWeb.Node? FocusNode
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCEncodedAudioFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public ArrayBuffer Data
+    public Iskra.JSCore.ArrayBuffer Data
     {
         get
         {

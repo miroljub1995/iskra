@@ -57,7 +57,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList RelList
+    public Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList Sizes
+    public Iskra.StdWeb.DOMTokenList Sizes
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList Blocking
+    public Iskra.StdWeb.DOMTokenList Blocking
     {
         get
         {

@@ -1,4 +1,7 @@
 {
+  "references": [
+    "../Iskra.JSCore/gensettings.json"
+  ],
   "input": "../submodules/webref/curated/ed/idlparsed",
   "output": "./AutoGen",
   "namespace": "Iskra.StdWeb",

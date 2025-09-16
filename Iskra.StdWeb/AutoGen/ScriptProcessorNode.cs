@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
 {
-    public EventHandler Onaudioprocess
+    public Iskra.StdWeb.EventHandler Onaudioprocess
     {
         get
         {

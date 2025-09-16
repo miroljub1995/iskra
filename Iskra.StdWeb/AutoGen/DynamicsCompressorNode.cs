@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
 {
-    public AudioParam Threshold
+    public Iskra.StdWeb.AudioParam Threshold
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Knee
+    public Iskra.StdWeb.AudioParam Knee
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Ratio
+    public Iskra.StdWeb.AudioParam Ratio
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Attack
+    public Iskra.StdWeb.AudioParam Attack
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public AudioParam Release
+    public Iskra.StdWeb.AudioParam Release
     {
         get
         {

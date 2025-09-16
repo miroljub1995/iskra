@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DelayNode(JSObject obj): AudioNode(obj)
 {
-    public AudioParam DelayTime
+    public Iskra.StdWeb.AudioParam DelayTime
     {
         get
         {

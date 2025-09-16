@@ -21,7 +21,7 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
         }
     }
 
-    public CSSStyleProperties Style
+    public Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {

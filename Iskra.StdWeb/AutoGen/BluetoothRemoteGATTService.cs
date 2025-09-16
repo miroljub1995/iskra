@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
 {
-    public BluetoothDevice Device
+    public Iskra.StdWeb.BluetoothDevice Device
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
         }
     }
 
-    public UUID Uuid
+    public Iskra.StdWeb.UUID Uuid
     {
         get
         {

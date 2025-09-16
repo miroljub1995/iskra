@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaDevices(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Ondevicechange
+    public Iskra.StdWeb.EventHandler Ondevicechange
     {
         get
         {

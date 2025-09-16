@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
 {
-    public CSSRule? OwnerRule
+    public Iskra.StdWeb.CSSRule? OwnerRule
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
         }
     }
 
-    public CSSRuleList CssRules
+    public Iskra.StdWeb.CSSRuleList CssRules
     {
         get
         {

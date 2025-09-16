@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class OffscreenCanvasRenderingContext2D(JSObject obj): JSObjectProxy(obj)
 {
-    public OffscreenCanvas Canvas
+    public Iskra.StdWeb.OffscreenCanvas Canvas
     {
         get
         {

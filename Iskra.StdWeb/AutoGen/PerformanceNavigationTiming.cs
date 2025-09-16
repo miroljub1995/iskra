@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResourceTiming(obj)
 {
-    public DOMHighResTimeStamp UnloadEventStart
+    public Iskra.StdWeb.DOMHighResTimeStamp UnloadEventStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp UnloadEventEnd
+    public Iskra.StdWeb.DOMHighResTimeStamp UnloadEventEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp DomInteractive
+    public Iskra.StdWeb.DOMHighResTimeStamp DomInteractive
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp DomContentLoadedEventStart
+    public Iskra.StdWeb.DOMHighResTimeStamp DomContentLoadedEventStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp DomContentLoadedEventEnd
+    public Iskra.StdWeb.DOMHighResTimeStamp DomContentLoadedEventEnd
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp DomComplete
+    public Iskra.StdWeb.DOMHighResTimeStamp DomComplete
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp LoadEventStart
+    public Iskra.StdWeb.DOMHighResTimeStamp LoadEventStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp LoadEventEnd
+    public Iskra.StdWeb.DOMHighResTimeStamp LoadEventEnd
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public NavigationTimingType Type
+    public Iskra.StdWeb.NavigationTimingType Type
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public DOMHighResTimeStamp CriticalCHRestart
+    public Iskra.StdWeb.DOMHighResTimeStamp CriticalCHRestart
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public NotRestoredReasons? NotRestoredReasons
+    public Iskra.StdWeb.NotRestoredReasons? NotRestoredReasons
     {
         get
         {

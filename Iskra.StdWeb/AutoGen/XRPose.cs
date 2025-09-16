@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRPose(JSObject obj): JSObjectProxy(obj)
 {
-    public XRRigidTransform Transform
+    public Iskra.StdWeb.XRRigidTransform Transform
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMPointReadOnly? LinearVelocity
+    public Iskra.StdWeb.DOMPointReadOnly? LinearVelocity
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMPointReadOnly? AngularVelocity
+    public Iskra.StdWeb.DOMPointReadOnly? AngularVelocity
     {
         get
         {

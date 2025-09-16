@@ -17,7 +17,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public FrameType FrameType
+    public Iskra.StdWeb.FrameType FrameType
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ClientType Type
+    public Iskra.StdWeb.ClientType Type
     {
         get
         {

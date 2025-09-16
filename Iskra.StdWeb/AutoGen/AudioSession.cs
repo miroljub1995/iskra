@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioSession(JSObject obj): EventTarget(obj)
 {
-    public AudioSessionType Type
+    public Iskra.StdWeb.AudioSessionType Type
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AudioSessionState State
+    public Iskra.StdWeb.AudioSessionState State
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandler Onstatechange
     {
         get
         {

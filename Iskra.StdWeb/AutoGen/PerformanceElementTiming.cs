@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public DOMHighResTimeStamp RenderTime
+    public Iskra.StdWeb.DOMHighResTimeStamp RenderTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
         }
     }
 
-    public DOMHighResTimeStamp LoadTime
+    public Iskra.StdWeb.DOMHighResTimeStamp LoadTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
         }
     }
 
-    public DOMRectReadOnly IntersectionRect
+    public Iskra.StdWeb.DOMRectReadOnly IntersectionRect
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
         }
     }
 
-    public Element? Element
+    public Iskra.StdWeb.Element? Element
     {
         get
         {

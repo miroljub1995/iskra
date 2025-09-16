@@ -53,7 +53,7 @@ public partial class Attr(JSObject obj): Node(obj)
         }
     }
 
-    public Element? OwnerElement
+    public Iskra.StdWeb.Element? OwnerElement
     {
         get
         {

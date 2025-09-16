@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
 {
-    public MediaError? Error
+    public Iskra.StdWeb.MediaError? Error
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public MediaProvider? SrcObject
+    public Iskra.StdWeb.MediaProvider? SrcObject
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public TimeRanges Buffered
+    public Iskra.StdWeb.TimeRanges Buffered
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public TimeRanges Played
+    public Iskra.StdWeb.TimeRanges Played
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public TimeRanges Seekable
+    public Iskra.StdWeb.TimeRanges Seekable
     {
         get
         {
@@ -265,7 +265,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public AudioTrackList AudioTracks
+    public Iskra.StdWeb.AudioTrackList AudioTracks
     {
         get
         {
@@ -273,7 +273,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public VideoTrackList VideoTracks
+    public Iskra.StdWeb.VideoTrackList VideoTracks
     {
         get
         {
@@ -281,7 +281,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public TextTrackList TextTracks
+    public Iskra.StdWeb.TextTrackList TextTracks
     {
         get
         {

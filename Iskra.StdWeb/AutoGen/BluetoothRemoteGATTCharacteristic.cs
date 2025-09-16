@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarget(obj)
 {
-    public BluetoothRemoteGATTService Service
+    public Iskra.StdWeb.BluetoothRemoteGATTService Service
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
         }
     }
 
-    public UUID Uuid
+    public Iskra.StdWeb.UUID Uuid
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
         }
     }
 
-    public BluetoothCharacteristicProperties Properties
+    public Iskra.StdWeb.BluetoothCharacteristicProperties Properties
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
         }
     }
 
-    public DataView? Value
+    public Iskra.JSCore.DataView? Value
     {
         get
         {

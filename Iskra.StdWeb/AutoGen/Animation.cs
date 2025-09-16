@@ -21,7 +21,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AnimationEffect? Effect
+    public Iskra.StdWeb.AnimationEffect? Effect
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AnimationTimeline? Timeline
+    public Iskra.StdWeb.AnimationTimeline? Timeline
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AnimationPlayState PlayState
+    public Iskra.StdWeb.AnimationPlayState PlayState
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AnimationReplaceState ReplaceState
+    public Iskra.StdWeb.AnimationReplaceState ReplaceState
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onfinish
+    public Iskra.StdWeb.EventHandler Onfinish
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Oncancel
+    public Iskra.StdWeb.EventHandler Oncancel
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onremove
+    public Iskra.StdWeb.EventHandler Onremove
     {
         get
         {

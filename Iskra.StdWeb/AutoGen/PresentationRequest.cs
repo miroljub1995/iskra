@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationRequest(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Onconnectionavailable
+    public Iskra.StdWeb.EventHandler Onconnectionavailable
     {
         get
         {

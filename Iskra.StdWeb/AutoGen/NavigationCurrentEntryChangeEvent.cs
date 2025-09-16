@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
 {
-    public NavigationType? NavigationType
+    public Iskra.StdWeb.NavigationType? NavigationType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
         }
     }
 
-    public NavigationHistoryEntry From
+    public Iskra.StdWeb.NavigationHistoryEntry From
     {
         get
         {

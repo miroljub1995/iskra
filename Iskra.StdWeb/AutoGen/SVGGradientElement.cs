@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedEnumeration GradientUnits
+    public Iskra.StdWeb.SVGAnimatedEnumeration GradientUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedTransformList GradientTransform
+    public Iskra.StdWeb.SVGAnimatedTransformList GradientTransform
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration SpreadMethod
+    public Iskra.StdWeb.SVGAnimatedEnumeration SpreadMethod
     {
         get
         {

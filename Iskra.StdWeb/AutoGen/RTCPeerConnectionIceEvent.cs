@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
 {
-    public RTCIceCandidate? Candidate
+    public Iskra.StdWeb.RTCIceCandidate? Candidate
     {
         get
         {

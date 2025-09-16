@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
 {
-    public XRLayerLayout Layout
+    public Iskra.StdWeb.XRLayerLayout Layout
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         }
     }
 
-    public XRLayerQuality Quality
+    public Iskra.StdWeb.XRLayerQuality Quality
     {
         get
         {

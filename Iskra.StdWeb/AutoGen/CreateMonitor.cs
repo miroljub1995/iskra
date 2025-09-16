@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CreateMonitor(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Ondownloadprogress
+    public Iskra.StdWeb.EventHandler Ondownloadprogress
     {
         get
         {

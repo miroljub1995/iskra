@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public SVGAnimatedLength X
+    public Iskra.StdWeb.SVGAnimatedLength X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
         }
     }
 
-    public SVGAnimatedLength Y
+    public Iskra.StdWeb.SVGAnimatedLength Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
         }
     }
 
-    public SVGAnimatedLength Width
+    public Iskra.StdWeb.SVGAnimatedLength Width
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
         }
     }
 
-    public SVGAnimatedLength Height
+    public Iskra.StdWeb.SVGAnimatedLength Height
     {
         get
         {

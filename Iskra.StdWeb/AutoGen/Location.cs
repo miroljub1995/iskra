@@ -113,7 +113,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMStringList AncestorOrigins
+    public Iskra.StdWeb.DOMStringList AncestorOrigins
     {
         get
         {

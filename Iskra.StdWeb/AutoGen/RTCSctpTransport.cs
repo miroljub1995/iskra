@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
 {
-    public RTCDtlsTransport Transport
+    public Iskra.StdWeb.RTCDtlsTransport Transport
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSctpTransportState State
+    public Iskra.StdWeb.RTCSctpTransportState State
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandler Onstatechange
     {
         get
         {

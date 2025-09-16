@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public DOMHighResTimeStamp StartTime
+    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public DOMHighResTimeStamp Duration
+    public Iskra.StdWeb.DOMHighResTimeStamp Duration
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public ScriptInvokerType InvokerType
+    public Iskra.StdWeb.ScriptInvokerType InvokerType
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public DOMHighResTimeStamp ExecutionStart
+    public Iskra.StdWeb.DOMHighResTimeStamp ExecutionStart
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public DOMHighResTimeStamp PauseDuration
+    public Iskra.StdWeb.DOMHighResTimeStamp PauseDuration
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public DOMHighResTimeStamp ForcedStyleAndLayoutDuration
+    public Iskra.StdWeb.DOMHighResTimeStamp ForcedStyleAndLayoutDuration
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public Window? Window
+    public Iskra.StdWeb.Window? Window
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public ScriptWindowAttribution WindowAttribution
+    public Iskra.StdWeb.ScriptWindowAttribution WindowAttribution
     {
         get
         {

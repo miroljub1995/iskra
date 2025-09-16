@@ -33,7 +33,7 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList Blocking
+    public Iskra.StdWeb.DOMTokenList Blocking
     {
         get
         {

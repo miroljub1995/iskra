@@ -25,7 +25,7 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLCollection Cells
+    public Iskra.StdWeb.HTMLCollection Cells
     {
         get
         {

@@ -41,7 +41,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Document? OwnerDocument
+    public Iskra.StdWeb.Document? OwnerDocument
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Node? ParentNode
+    public Iskra.StdWeb.Node? ParentNode
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Element? ParentElement
+    public Iskra.StdWeb.Element? ParentElement
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public NodeList ChildNodes
+    public Iskra.StdWeb.NodeList ChildNodes
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Node? FirstChild
+    public Iskra.StdWeb.Node? FirstChild
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Node? LastChild
+    public Iskra.StdWeb.Node? LastChild
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Node? PreviousSibling
+    public Iskra.StdWeb.Node? PreviousSibling
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Node? NextSibling
+    public Iskra.StdWeb.Node? NextSibling
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
 {
-    public XRSpace Space
+    public Iskra.StdWeb.XRSpace Space
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public XRRigidTransform Transform
+    public Iskra.StdWeb.XRRigidTransform Transform
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public EventHandler Onredraw
+    public Iskra.StdWeb.EventHandler Onredraw
     {
         get
         {

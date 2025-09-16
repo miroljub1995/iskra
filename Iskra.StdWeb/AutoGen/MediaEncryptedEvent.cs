@@ -17,7 +17,7 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
         }
     }
 
-    public ArrayBuffer? InitData
+    public Iskra.JSCore.ArrayBuffer? InitData
     {
         get
         {

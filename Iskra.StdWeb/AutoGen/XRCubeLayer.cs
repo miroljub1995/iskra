@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
 {
-    public XRSpace Space
+    public Iskra.StdWeb.XRSpace Space
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public DOMPointReadOnly Orientation
+    public Iskra.StdWeb.DOMPointReadOnly Orientation
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public EventHandler Onredraw
+    public Iskra.StdWeb.EventHandler Onredraw
     {
         get
         {

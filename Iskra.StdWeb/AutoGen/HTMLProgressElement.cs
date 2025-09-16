@@ -41,7 +41,7 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public NodeList Labels
+    public Iskra.StdWeb.NodeList Labels
     {
         get
         {

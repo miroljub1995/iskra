@@ -17,7 +17,7 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public USBDirection Direction
+    public Iskra.StdWeb.USBDirection Direction
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public USBEndpointType Type
+    public Iskra.StdWeb.USBEndpointType Type
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioSinkInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public AudioSinkType Type
+    public Iskra.StdWeb.AudioSinkType Type
     {
         get
         {

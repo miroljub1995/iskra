@@ -17,7 +17,7 @@ public partial class NDEFReadingEvent(JSObject obj): Event(obj)
         }
     }
 
-    public NDEFMessage Message
+    public Iskra.StdWeb.NDEFMessage Message
     {
         get
         {

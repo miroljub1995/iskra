@@ -49,7 +49,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BackgroundFetchResult Result
+    public Iskra.StdWeb.BackgroundFetchResult Result
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BackgroundFetchFailureReason FailureReason
+    public Iskra.StdWeb.BackgroundFetchFailureReason FailureReason
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onprogress
+    public Iskra.StdWeb.EventHandler Onprogress
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSession(JSObject obj): EventTarget(obj)
 {
-    public XRVisibilityState VisibilityState
+    public Iskra.StdWeb.XRVisibilityState VisibilityState
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Float32Array? SupportedFrameRates
+    public Iskra.JSCore.Float32Array? SupportedFrameRates
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public XRRenderState RenderState
+    public Iskra.StdWeb.XRRenderState RenderState
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public XRInputSourceArray InputSources
+    public Iskra.StdWeb.XRInputSourceArray InputSources
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public XRInputSourceArray TrackedSources
+    public Iskra.StdWeb.XRInputSourceArray TrackedSources
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onend
+    public Iskra.StdWeb.EventHandler Onend
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Oninputsourceschange
+    public Iskra.StdWeb.EventHandler Oninputsourceschange
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onselect
+    public Iskra.StdWeb.EventHandler Onselect
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onselectstart
+    public Iskra.StdWeb.EventHandler Onselectstart
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onselectend
+    public Iskra.StdWeb.EventHandler Onselectend
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsqueeze
+    public Iskra.StdWeb.EventHandler Onsqueeze
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsqueezestart
+    public Iskra.StdWeb.EventHandler Onsqueezestart
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsqueezeend
+    public Iskra.StdWeb.EventHandler Onsqueezeend
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onvisibilitychange
+    public Iskra.StdWeb.EventHandler Onvisibilitychange
     {
         get
         {
@@ -181,7 +181,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onframeratechange
+    public Iskra.StdWeb.EventHandler Onframeratechange
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(obj)
 {
-    public Clients Clients
+    public Iskra.StdWeb.Clients Clients
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public ServiceWorkerRegistration Registration
+    public Iskra.StdWeb.ServiceWorkerRegistration Registration
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public ServiceWorker ServiceWorker
+    public Iskra.StdWeb.ServiceWorker ServiceWorker
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public EventHandler Oninstall
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onactivate
+    public Iskra.StdWeb.EventHandler Oninstall
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public EventHandler Onfetch
+    public Iskra.StdWeb.EventHandler Onactivate
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public EventHandler Onmessage
+    public Iskra.StdWeb.EventHandler Onfetch
     {
         get
         {
@@ -81,7 +69,19 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public EventHandler Onmessageerror
+    public Iskra.StdWeb.EventHandler Onmessage
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onmessageerror
     {
         get
         {

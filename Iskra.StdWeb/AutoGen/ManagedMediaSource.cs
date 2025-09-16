@@ -17,7 +17,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
         }
     }
 
-    public EventHandler Onstartstreaming
+    public Iskra.StdWeb.EventHandler Onstartstreaming
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
         }
     }
 
-    public EventHandler Onendstreaming
+    public Iskra.StdWeb.EventHandler Onendstreaming
     {
         get
         {

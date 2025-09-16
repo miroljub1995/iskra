@@ -125,7 +125,7 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public URLSearchParams SearchParams
+    public Iskra.StdWeb.URLSearchParams SearchParams
     {
         get
         {

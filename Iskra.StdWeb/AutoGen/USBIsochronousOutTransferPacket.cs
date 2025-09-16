@@ -17,7 +17,7 @@ public partial class USBIsochronousOutTransferPacket(JSObject obj): JSObjectProx
         }
     }
 
-    public USBTransferStatus Status
+    public Iskra.StdWeb.USBTransferStatus Status
     {
         get
         {

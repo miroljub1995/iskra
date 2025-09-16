@@ -33,7 +33,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ContactAddress? ShippingAddress
+    public Iskra.StdWeb.ContactAddress? ShippingAddress
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onpayerdetailchange
+    public Iskra.StdWeb.EventHandler Onpayerdetailchange
     {
         get
         {

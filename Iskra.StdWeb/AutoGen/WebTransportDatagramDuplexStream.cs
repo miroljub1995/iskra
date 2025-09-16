@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectProxy(obj)
 {
-    public ReadableStream Readable
+    public Iskra.StdWeb.ReadableStream Readable
     {
         get
         {

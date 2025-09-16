@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public RTCEncodedVideoFrameType Type
+    public Iskra.StdWeb.RTCEncodedVideoFrameType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ArrayBuffer Data
+    public Iskra.JSCore.ArrayBuffer Data
     {
         get
         {

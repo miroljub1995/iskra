@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
 {
-    public Element Subject
+    public Iskra.StdWeb.Element Subject
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
         }
     }
 
-    public CSSNumericValue StartOffset
+    public Iskra.StdWeb.CSSNumericValue StartOffset
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
         }
     }
 
-    public CSSNumericValue EndOffset
+    public Iskra.StdWeb.CSSNumericValue EndOffset
     {
         get
         {

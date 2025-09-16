@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRLayerEvent(JSObject obj): Event(obj)
 {
-    public XRLayer Layer
+    public Iskra.StdWeb.XRLayer Layer
     {
         get
         {

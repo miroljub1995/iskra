@@ -65,7 +65,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onresize
+    public Iskra.StdWeb.EventHandler Onresize
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onscroll
+    public Iskra.StdWeb.EventHandler Onscroll
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onscrollend
+    public Iskra.StdWeb.EventHandler Onscrollend
     {
         get
         {

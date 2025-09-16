@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CaptureActionEvent(JSObject obj): Event(obj)
 {
-    public CaptureAction Action
+    public Iskra.StdWeb.CaptureAction Action
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
 {
-    public MediaMetadata? Metadata
+    public Iskra.StdWeb.MediaMetadata? Metadata
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public MediaSessionPlaybackState PlaybackState
+    public Iskra.StdWeb.MediaSessionPlaybackState PlaybackState
     {
         get
         {

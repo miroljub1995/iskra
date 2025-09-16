@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
 {
-    public Element? Source
+    public Iskra.StdWeb.Element? Source
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
         }
     }
 
-    public PointerAxis Axis
+    public Iskra.StdWeb.PointerAxis Axis
     {
         get
         {

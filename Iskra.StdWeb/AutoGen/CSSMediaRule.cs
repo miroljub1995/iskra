@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
 {
-    public MediaList Media
+    public Iskra.StdWeb.MediaList Media
     {
         get
         {

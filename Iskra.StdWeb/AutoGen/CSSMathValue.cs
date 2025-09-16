@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathValue(JSObject obj): CSSNumericValue(obj)
 {
-    public CSSMathOperator Operator
+    public Iskra.StdWeb.CSSMathOperator Operator
     {
         get
         {

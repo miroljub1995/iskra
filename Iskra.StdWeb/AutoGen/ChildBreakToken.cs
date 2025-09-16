@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
 {
-    public BreakType BreakType
+    public Iskra.StdWeb.BreakType BreakType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public LayoutChild Child
+    public Iskra.StdWeb.LayoutChild Child
     {
         get
         {

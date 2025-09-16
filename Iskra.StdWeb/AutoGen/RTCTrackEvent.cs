@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTrackEvent(JSObject obj): Event(obj)
 {
-    public RTCRtpReceiver Receiver
+    public Iskra.StdWeb.RTCRtpReceiver Receiver
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
         }
     }
 
-    public MediaStreamTrack Track
+    public Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
         }
     }
 
-    public RTCRtpTransceiver Transceiver
+    public Iskra.StdWeb.RTCRtpTransceiver Transceiver
     {
         get
         {

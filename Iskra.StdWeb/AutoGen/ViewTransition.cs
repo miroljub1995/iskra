@@ -33,7 +33,7 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ViewTransitionTypeSet Types
+    public Iskra.StdWeb.ViewTransitionTypeSet Types
     {
         get
         {

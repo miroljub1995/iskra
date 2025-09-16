@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
 {
-    public WorkerGlobalScope Self
+    public Iskra.StdWeb.WorkerGlobalScope Self
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public WorkerLocation Location
+    public Iskra.StdWeb.WorkerLocation Location
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public WorkerNavigator Navigator
+    public Iskra.StdWeb.WorkerNavigator Navigator
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public OnErrorEventHandler Onerror
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onlanguagechange
+    public Iskra.StdWeb.OnErrorEventHandler Onerror
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onoffline
+    public Iskra.StdWeb.EventHandler Onlanguagechange
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Ononline
+    public Iskra.StdWeb.EventHandler Onoffline
     {
         get
         {
@@ -81,7 +69,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onrejectionhandled
+    public Iskra.StdWeb.EventHandler Ononline
     {
         get
         {
@@ -93,7 +81,19 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onunhandledrejection
+    public Iskra.StdWeb.EventHandler Onrejectionhandled
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onunhandledrejection
     {
         get
         {

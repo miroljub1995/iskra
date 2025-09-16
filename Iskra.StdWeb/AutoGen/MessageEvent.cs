@@ -33,7 +33,7 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public MessageEventSource? Source
+    public Iskra.StdWeb.MessageEventSource? Source
     {
         get
         {

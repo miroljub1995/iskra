@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
 {
-    public ReadableStream Readable
+    public Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WritableStream Writable
+    public Iskra.StdWeb.WritableStream Writable
     {
         get
         {

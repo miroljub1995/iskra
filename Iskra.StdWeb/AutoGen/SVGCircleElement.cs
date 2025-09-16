@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
 {
-    public SVGAnimatedLength Cx
+    public Iskra.StdWeb.SVGAnimatedLength Cx
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public SVGAnimatedLength Cy
+    public Iskra.StdWeb.SVGAnimatedLength Cy
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public SVGAnimatedLength R
+    public Iskra.StdWeb.SVGAnimatedLength R
     {
         get
         {

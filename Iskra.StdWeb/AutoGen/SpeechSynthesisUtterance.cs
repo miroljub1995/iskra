@@ -33,7 +33,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public SpeechSynthesisVoice? Voice
+    public Iskra.StdWeb.SpeechSynthesisVoice? Voice
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstart
+    public Iskra.StdWeb.EventHandler Onstart
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onend
+    public Iskra.StdWeb.EventHandler Onend
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onpause
+    public Iskra.StdWeb.EventHandler Onpause
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onresume
+    public Iskra.StdWeb.EventHandler Onresume
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmark
+    public Iskra.StdWeb.EventHandler Onmark
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onboundary
+    public Iskra.StdWeb.EventHandler Onboundary
     {
         get
         {

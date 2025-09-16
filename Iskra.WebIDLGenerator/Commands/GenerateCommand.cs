@@ -28,24 +28,7 @@ public class GenerateCommand : Command
                 throw new FileNotFoundException($"File \"{genSettingsFullPath}\" does not exist.");
             }
 
-            var genSettingsContent = await File.ReadAllTextAsync(genSettingsFullPath, cancellationToken);
-            var genSettings =
-                JsonSerializer.Deserialize(genSettingsContent, typeof(GenSettings), WebIdlJsonContext.Default) as
-                    GenSettings;
-
-            if (genSettings is null)
-            {
-                throw new Exception("GenSettings is null.");
-            }
-
-            var baseDir = Path.GetDirectoryName(genSettingsFullPath)
-                          ?? throw new Exception("Base directory is null.");
-
-            genSettings = genSettings with
-            {
-                Input = Path.GetFullPath(genSettings.Input, baseDir),
-                Output = Path.GetFullPath(genSettings.Output, baseDir),
-            };
+            var genSettings = await GenSettings.ReadFromFileAsync(genSettingsFullPath, cancellationToken);
 
             ServiceCollection services = [];
 
@@ -57,6 +40,8 @@ public class GenerateCommand : Command
                 config.AddConsole();
                 config.SetMinimumLevel(LogLevel.Information);
             });
+
+            services.AddSingleton<GenTypeDescriptors>();
 
             services
                 .AddSingleton<AttributeMemberTypeGenerator>()
@@ -75,17 +60,7 @@ public class GenerateCommand : Command
                 throw new Exception($"Input \"{genSettings.Input}\" is not found.");
             }
 
-            List<string> inputFiles = [];
-            var isInputFile = File.Exists(genSettings.Input);
-            if (isInputFile)
-            {
-                inputFiles.Add(genSettings.Input);
-            }
-            else
-            {
-                var files = Directory.GetFiles(genSettings.Input, "*.json", SearchOption.AllDirectories);
-                inputFiles.AddRange(files);
-            }
+            var inputFiles = GetModuleFiles(genSettings.Input);
 
             if (Directory.Exists(genSettings.Output))
             {
@@ -93,6 +68,12 @@ public class GenerateCommand : Command
             }
 
             Directory.CreateDirectory(genSettings.Output);
+
+            await AddGenSettingsToDescriptorsAsync(
+                provider.GetRequiredService<GenTypeDescriptors>(),
+                genSettingsFullPath,
+                cancellationToken
+            );
 
             var moduleGenerator = provider.GetRequiredService<ModuleGenerator>();
             foreach (var inputFile in inputFiles)
@@ -102,5 +83,119 @@ public class GenerateCommand : Command
                 await moduleGenerator.GenerateAsync(inputFile, genSettings.Output, cancellationToken);
             }
         });
+    }
+
+    private static async Task AddGenSettingsToDescriptorsAsync(
+        GenTypeDescriptors descriptors,
+        string gensettingsPath,
+        CancellationToken cancellationToken = default
+    )
+    {
+        var settings = await GenSettings.ReadFromFileAsync(gensettingsPath, cancellationToken);
+
+        foreach (var reference in settings.References)
+        {
+            await AddGenSettingsToDescriptorsAsync(descriptors, reference, cancellationToken);
+        }
+
+        var moduleFiles = GetModuleFiles(settings.Input);
+        foreach (var moduleFile in moduleFiles)
+        {
+            var moduleContent = await File.ReadAllTextAsync(moduleFile, cancellationToken);
+
+            if (JsonSerializer.Deserialize(moduleContent, typeof(IDLModule), WebIdlJsonContext.Default) is not IDLModule
+                module)
+            {
+                throw new Exception("Failed to deserialize IDLModule.");
+            }
+
+            foreach (var idlRootType in module.IDLParsed.IDLNames.Values)
+            {
+                if (idlRootType is CallbackType callbackType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = callbackType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is CallbackInterfaceType callbackInterfaceType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = callbackInterfaceType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is DictionaryType dictionaryType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = dictionaryType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is EnumType enumType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = enumType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is InterfaceMixinType interfaceMixinType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = interfaceMixinType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is InterfaceType interfaceType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = interfaceType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is NamespaceType namespaceType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = namespaceType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+                else if (idlRootType is TypedefType typedefType)
+                {
+                    descriptors.Add(new GenTypeDescriptor
+                    {
+                        Namespace = settings.Namespace,
+                        Name = typedefType.Name,
+                        RootType = idlRootType,
+                    });
+                }
+            }
+        }
+    }
+
+    private static List<string> GetModuleFiles(string input)
+    {
+        var isInputFile = File.Exists(input);
+        if (isInputFile)
+        {
+            return [input];
+        }
+
+        var files = Directory.GetFiles(input, "*.json", SearchOption.AllDirectories);
+        return files.ToList();
     }
 }

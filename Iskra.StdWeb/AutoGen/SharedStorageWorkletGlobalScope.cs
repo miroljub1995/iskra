@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGlobalScope(obj)
 {
-    public SharedStorage SharedStorage
+    public Iskra.StdWeb.SharedStorage SharedStorage
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
         }
     }
 
-    public PrivateAggregation PrivateAggregation
+    public Iskra.StdWeb.PrivateAggregation PrivateAggregation
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
         }
     }
 
-    public SharedStorageWorkletNavigator Navigator
+    public Iskra.StdWeb.SharedStorageWorkletNavigator Navigator
     {
         get
         {

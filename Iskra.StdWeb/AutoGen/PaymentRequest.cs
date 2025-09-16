@@ -17,7 +17,7 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ContactAddress? ShippingAddress
+    public Iskra.StdWeb.ContactAddress? ShippingAddress
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public PaymentShippingType? ShippingType
+    public Iskra.StdWeb.PaymentShippingType? ShippingType
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onshippingaddresschange
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onshippingoptionchange
+    public Iskra.StdWeb.EventHandler Onshippingaddresschange
     {
         get
         {
@@ -65,7 +53,19 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onpaymentmethodchange
+    public Iskra.StdWeb.EventHandler Onshippingoptionchange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onpaymentmethodchange
     {
         get
         {

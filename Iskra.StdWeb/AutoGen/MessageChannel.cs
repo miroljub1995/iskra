@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
 {
-    public MessagePort Port1
+    public Iskra.StdWeb.MessagePort Port1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public MessagePort Port2
+    public Iskra.StdWeb.MessagePort Port2
     {
         get
         {

@@ -21,7 +21,7 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public IDBObjectStore ObjectStore
+    public Iskra.StdWeb.IDBObjectStore ObjectStore
     {
         get
         {

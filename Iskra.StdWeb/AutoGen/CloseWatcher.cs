@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CloseWatcher(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Oncancel
+    public Iskra.StdWeb.EventHandler Oncancel
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CloseWatcher(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onclose
+    public Iskra.StdWeb.EventHandler Onclose
     {
         get
         {

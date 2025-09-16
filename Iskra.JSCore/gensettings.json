@@ -1,0 +1,5 @@
+{
+  "input": "./idlparsed",
+  "output": "./AutoGen",
+  "namespace": "Iskra.JSCore"
+}

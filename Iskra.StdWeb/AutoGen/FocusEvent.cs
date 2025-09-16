@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FocusEvent(JSObject obj): UIEvent(obj)
 {
-    public EventTarget? RelatedTarget
+    public Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {

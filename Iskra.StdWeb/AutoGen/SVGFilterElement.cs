@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedEnumeration FilterUnits
+    public Iskra.StdWeb.SVGAnimatedEnumeration FilterUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration PrimitiveUnits
+    public Iskra.StdWeb.SVGAnimatedEnumeration PrimitiveUnits
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength X
+    public Iskra.StdWeb.SVGAnimatedLength X
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength Y
+    public Iskra.StdWeb.SVGAnimatedLength Y
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength Width
+    public Iskra.StdWeb.SVGAnimatedLength Width
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength Height
+    public Iskra.StdWeb.SVGAnimatedLength Height
     {
         get
         {

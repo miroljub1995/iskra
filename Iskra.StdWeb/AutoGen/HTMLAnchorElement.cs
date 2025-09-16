@@ -57,7 +57,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList RelList
+    public Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {

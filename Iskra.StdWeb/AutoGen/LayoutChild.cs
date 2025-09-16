@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutChild(JSObject obj): JSObjectProxy(obj)
 {
-    public StylePropertyMapReadOnly StyleMap
+    public Iskra.StdWeb.StylePropertyMapReadOnly StyleMap
     {
         get
         {

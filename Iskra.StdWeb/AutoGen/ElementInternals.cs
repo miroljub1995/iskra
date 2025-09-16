@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
 {
-    public ShadowRoot? ShadowRoot
+    public Iskra.StdWeb.ShadowRoot? ShadowRoot
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ValidityState Validity
+    public Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public NodeList Labels
+    public Iskra.StdWeb.NodeList Labels
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CustomStateSet States
+    public Iskra.StdWeb.CustomStateSet States
     {
         get
         {

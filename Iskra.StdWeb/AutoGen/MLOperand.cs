@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
 {
-    public MLOperandDataType DataType
+    public Iskra.StdWeb.MLOperandDataType DataType
     {
         get
         {

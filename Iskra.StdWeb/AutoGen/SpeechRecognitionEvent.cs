@@ -17,7 +17,7 @@ public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public SpeechRecognitionResultList Results
+    public Iskra.StdWeb.SpeechRecognitionResultList Results
     {
         get
         {

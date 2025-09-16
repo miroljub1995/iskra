@@ -33,7 +33,7 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ImageTrackList Tracks
+    public Iskra.StdWeb.ImageTrackList Tracks
     {
         get
         {

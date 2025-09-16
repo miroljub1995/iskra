@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSource(JSObject obj): EventTarget(obj)
 {
-    public MediaSourceHandle Handle
+    public Iskra.StdWeb.MediaSourceHandle Handle
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public SourceBufferList SourceBuffers
+    public Iskra.StdWeb.SourceBufferList SourceBuffers
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public SourceBufferList ActiveSourceBuffers
+    public Iskra.StdWeb.SourceBufferList ActiveSourceBuffers
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ReadyState ReadyState
+    public Iskra.StdWeb.ReadyState ReadyState
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsourceopen
+    public Iskra.StdWeb.EventHandler Onsourceopen
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsourceended
+    public Iskra.StdWeb.EventHandler Onsourceended
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsourceclose
+    public Iskra.StdWeb.EventHandler Onsourceclose
     {
         get
         {

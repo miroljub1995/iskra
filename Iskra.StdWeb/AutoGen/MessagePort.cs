@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MessagePort(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Onclose
+    public Iskra.StdWeb.EventHandler Onclose
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Function Size
+    public Iskra.StdWeb.Function Size
     {
         get
         {

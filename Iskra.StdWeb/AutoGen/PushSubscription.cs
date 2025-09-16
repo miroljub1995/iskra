@@ -17,7 +17,7 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public EpochTimeStamp? ExpirationTime
+    public Iskra.StdWeb.EpochTimeStamp? ExpirationTime
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public PushSubscriptionOptions Options
+    public Iskra.StdWeb.PushSubscriptionOptions Options
     {
         get
         {

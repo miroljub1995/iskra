@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NetworkInformation(JSObject obj): EventTarget(obj)
 {
-    public ConnectionType Type
+    public Iskra.StdWeb.ConnectionType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EffectiveConnectionType EffectiveType
+    public Iskra.StdWeb.EffectiveConnectionType EffectiveType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Megabit DownlinkMax
+    public Iskra.StdWeb.Megabit DownlinkMax
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Megabit Downlink
+    public Iskra.StdWeb.Megabit Downlink
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Millisecond Rtt
+    public Iskra.StdWeb.Millisecond Rtt
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onchange
+    public Iskra.StdWeb.EventHandler Onchange
     {
         get
         {

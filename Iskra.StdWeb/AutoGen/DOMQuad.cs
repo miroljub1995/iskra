@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
 {
-    public DOMPoint P1
+    public Iskra.StdWeb.DOMPoint P1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMPoint P2
+    public Iskra.StdWeb.DOMPoint P2
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMPoint P3
+    public Iskra.StdWeb.DOMPoint P3
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMPoint P4
+    public Iskra.StdWeb.DOMPoint P4
     {
         get
         {

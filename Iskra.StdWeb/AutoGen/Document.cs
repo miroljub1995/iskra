@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Document(JSObject obj): Node(obj)
 {
-    public DOMImplementation Implementation
+    public Iskra.StdWeb.DOMImplementation Implementation
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public DocumentType? Doctype
+    public Iskra.StdWeb.DocumentType? Doctype
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Document(JSObject obj): Node(obj)
         }
     }
 
-    public Element? DocumentElement
+    public Iskra.StdWeb.Element? DocumentElement
     {
         get
         {

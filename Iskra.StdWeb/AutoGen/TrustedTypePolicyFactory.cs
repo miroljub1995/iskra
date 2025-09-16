@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
 {
-    public TrustedHTML EmptyHTML
+    public Iskra.StdWeb.TrustedHTML EmptyHTML
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public TrustedScript EmptyScript
+    public Iskra.StdWeb.TrustedScript EmptyScript
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public TrustedTypePolicy? DefaultPolicy
+    public Iskra.StdWeb.TrustedTypePolicy? DefaultPolicy
     {
         get
         {

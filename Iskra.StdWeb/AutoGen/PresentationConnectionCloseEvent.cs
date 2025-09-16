@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
 {
-    public PresentationConnectionCloseReason Reason
+    public Iskra.StdWeb.PresentationConnectionCloseReason Reason
     {
         get
         {

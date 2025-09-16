@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj)
 {
-    public EventHandler Onreadystatechange
+    public Iskra.StdWeb.EventHandler Onreadystatechange
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public XMLHttpRequestUpload Upload
+    public Iskra.StdWeb.XMLHttpRequestUpload Upload
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public XMLHttpRequestResponseType ResponseType
+    public Iskra.StdWeb.XMLHttpRequestResponseType ResponseType
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public Document? ResponseXML
+    public Iskra.StdWeb.Document? ResponseXML
     {
         get
         {

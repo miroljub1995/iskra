@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedLengthList(JSObject obj): JSObjectProxy(obj)
 {
-    public SVGLengthList BaseVal
+    public Iskra.StdWeb.SVGLengthList BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedLengthList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public SVGLengthList AnimVal
+    public Iskra.StdWeb.SVGLengthList AnimVal
     {
         get
         {

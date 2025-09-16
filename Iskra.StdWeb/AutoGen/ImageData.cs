@@ -25,7 +25,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ImageDataArray Data
+    public Iskra.StdWeb.ImageDataArray Data
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ImageDataPixelFormat PixelFormat
+    public Iskra.StdWeb.ImageDataPixelFormat PixelFormat
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public PredefinedColorSpace ColorSpace
+    public Iskra.StdWeb.PredefinedColorSpace ColorSpace
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorAttestationResponse(JSObject obj): AuthenticatorResponse(obj)
 {
-    public ArrayBuffer AttestationObject
+    public Iskra.JSCore.ArrayBuffer AttestationObject
     {
         get
         {

@@ -25,7 +25,7 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Element? Source
+    public Iskra.StdWeb.Element? Source
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public MediaDeviceKind Kind
+    public Iskra.StdWeb.MediaDeviceKind Kind
     {
         get
         {

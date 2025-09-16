@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AbortController(JSObject obj): JSObjectProxy(obj)
 {
-    public AbortSignal Signal
+    public Iskra.StdWeb.AbortSignal Signal
     {
         get
         {

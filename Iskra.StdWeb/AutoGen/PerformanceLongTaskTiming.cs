@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public DOMHighResTimeStamp StartTime
+    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public DOMHighResTimeStamp Duration
+    public Iskra.StdWeb.DOMHighResTimeStamp Duration
     {
         get
         {

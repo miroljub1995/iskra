@@ -121,7 +121,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public USBConfiguration? Configuration
+    public Iskra.StdWeb.USBConfiguration? Configuration
     {
         get
         {

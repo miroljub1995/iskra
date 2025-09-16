@@ -17,7 +17,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public SummarizerType Type
+    public Iskra.StdWeb.SummarizerType Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public SummarizerFormat Format
+    public Iskra.StdWeb.SummarizerFormat Format
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public SummarizerLength Length
+    public Iskra.StdWeb.SummarizerLength Length
     {
         get
         {

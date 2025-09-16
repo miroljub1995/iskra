@@ -21,7 +21,7 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public HighlightType Type
+    public Iskra.StdWeb.HighlightType Type
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Node Target
+    public Iskra.StdWeb.Node Target
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public NodeList AddedNodes
+    public Iskra.StdWeb.NodeList AddedNodes
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public NodeList RemovedNodes
+    public Iskra.StdWeb.NodeList RemovedNodes
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Node? PreviousSibling
+    public Iskra.StdWeb.Node? PreviousSibling
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Node? NextSibling
+    public Iskra.StdWeb.Node? NextSibling
     {
         get
         {

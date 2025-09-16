@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
 {
-    public DocumentFragment Content
+    public Iskra.StdWeb.DocumentFragment Content
     {
         get
         {

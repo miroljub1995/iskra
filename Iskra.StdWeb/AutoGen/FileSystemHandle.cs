@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
 {
-    public FileSystemHandleKind Kind
+    public Iskra.StdWeb.FileSystemHandleKind Kind
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Onloadstart
+    public Iskra.StdWeb.EventHandler Onloadstart
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onprogress
+    public Iskra.StdWeb.EventHandler Onprogress
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onabort
+    public Iskra.StdWeb.EventHandler Onabort
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onload
+    public Iskra.StdWeb.EventHandler Onload
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Ontimeout
+    public Iskra.StdWeb.EventHandler Ontimeout
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onloadend
+    public Iskra.StdWeb.EventHandler Onloadend
     {
         get
         {

@@ -21,7 +21,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
 {
-    public WebGLTexture ColorTexture
+    public Iskra.StdWeb.WebGLTexture ColorTexture
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public WebGLTexture? DepthStencilTexture
+    public Iskra.StdWeb.WebGLTexture? DepthStencilTexture
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         }
     }
 
-    public WebGLTexture? MotionVectorTexture
+    public Iskra.StdWeb.WebGLTexture? MotionVectorTexture
     {
         get
         {

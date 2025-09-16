@@ -33,7 +33,7 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ImageTrack? SelectedTrack
+    public Iskra.StdWeb.ImageTrack? SelectedTrack
     {
         get
         {

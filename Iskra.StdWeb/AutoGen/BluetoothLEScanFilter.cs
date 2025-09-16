@@ -33,7 +33,7 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public BluetoothManufacturerDataFilter ManufacturerData
+    public Iskra.StdWeb.BluetoothManufacturerDataFilter ManufacturerData
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public BluetoothServiceDataFilter ServiceData
+    public Iskra.StdWeb.BluetoothServiceDataFilter ServiceData
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(obj)
 {
-    public ReadableStreamBYOBRequest? ByobRequest
+    public Iskra.StdWeb.ReadableStreamBYOBRequest? ByobRequest
     {
         get
         {

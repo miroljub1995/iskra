@@ -17,7 +17,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public EventTarget Target
+    public Iskra.StdWeb.EventTarget Target
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public TouchType TouchType
+    public Iskra.StdWeb.TouchType TouchType
     {
         get
         {

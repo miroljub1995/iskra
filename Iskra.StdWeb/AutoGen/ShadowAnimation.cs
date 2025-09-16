@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowAnimation(JSObject obj): Animation(obj)
 {
-    public Animation SourceAnimation
+    public Iskra.StdWeb.Animation SourceAnimation
     {
         get
         {

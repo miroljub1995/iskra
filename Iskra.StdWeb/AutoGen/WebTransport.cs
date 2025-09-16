@@ -17,7 +17,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WebTransportReliabilityMode Reliability
+    public Iskra.StdWeb.WebTransportReliabilityMode Reliability
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WebTransportCongestionControl CongestionControl
+    public Iskra.StdWeb.WebTransportCongestionControl CongestionControl
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public WebTransportDatagramDuplexStream Datagrams
+    public Iskra.StdWeb.WebTransportDatagramDuplexStream Datagrams
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ReadableStream IncomingBidirectionalStreams
+    public Iskra.StdWeb.ReadableStream IncomingBidirectionalStreams
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ReadableStream IncomingUnidirectionalStreams
+    public Iskra.StdWeb.ReadableStream IncomingUnidirectionalStreams
     {
         get
         {

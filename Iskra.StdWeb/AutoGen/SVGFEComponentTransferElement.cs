@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEComponentTransferElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedString In1
+    public Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {

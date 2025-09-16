@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportSendStream(JSObject obj): WritableStream(obj)
 {
-    public WebTransportSendGroup? SendGroup
+    public Iskra.StdWeb.WebTransportSendGroup? SendGroup
     {
         get
         {

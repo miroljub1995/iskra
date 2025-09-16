@@ -33,7 +33,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onopen
+    public Iskra.StdWeb.EventHandler Onopen
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessage
+    public Iskra.StdWeb.EventHandler Onmessage
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {

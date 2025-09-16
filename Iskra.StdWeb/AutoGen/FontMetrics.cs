@@ -97,7 +97,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Baseline DominantBaseline
+    public Iskra.StdWeb.Baseline DominantBaseline
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public Request Request
+    public Iskra.StdWeb.Request Request
     {
         get
         {

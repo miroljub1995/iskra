@@ -33,7 +33,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public MediaKeyStatusMap KeyStatuses
+    public Iskra.StdWeb.MediaKeyStatusMap KeyStatuses
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onkeystatuseschange
+    public Iskra.StdWeb.EventHandler Onkeystatuseschange
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessage
+    public Iskra.StdWeb.EventHandler Onmessage
     {
         get
         {

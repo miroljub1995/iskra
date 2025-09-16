@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
 {
-    public DOMPointReadOnly Position
+    public Iskra.StdWeb.DOMPointReadOnly Position
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMPointReadOnly Orientation
+    public Iskra.StdWeb.DOMPointReadOnly Orientation
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array Matrix
+    public Iskra.JSCore.Float32Array Matrix
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public XRRigidTransform Inverse
+    public Iskra.StdWeb.XRRigidTransform Inverse
     {
         get
         {

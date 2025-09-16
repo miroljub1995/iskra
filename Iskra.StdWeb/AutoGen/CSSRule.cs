@@ -21,7 +21,7 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CSSRule? ParentRule
+    public Iskra.StdWeb.CSSRule? ParentRule
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CSSStyleSheet? ParentStyleSheet
+    public Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
     {
         get
         {

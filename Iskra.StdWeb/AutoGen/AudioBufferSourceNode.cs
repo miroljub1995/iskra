@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNode(obj)
 {
-    public AudioBuffer? Buffer
+    public Iskra.StdWeb.AudioBuffer? Buffer
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         }
     }
 
-    public AudioParam PlaybackRate
+    public Iskra.StdWeb.AudioParam PlaybackRate
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         }
     }
 
-    public AudioParam Detune
+    public Iskra.StdWeb.AudioParam Detune
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WindowClient(JSObject obj): Client(obj)
 {
-    public DocumentVisibilityState VisibilityState
+    public Iskra.StdWeb.DocumentVisibilityState VisibilityState
     {
         get
         {

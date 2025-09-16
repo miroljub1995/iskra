@@ -17,7 +17,7 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public IDBFactory IndexedDB
+    public Iskra.StdWeb.IDBFactory IndexedDB
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CacheStorage Caches
+    public Iskra.StdWeb.CacheStorage Caches
     {
         get
         {

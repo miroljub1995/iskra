@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedLength RefX
+    public Iskra.StdWeb.SVGAnimatedLength RefX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength RefY
+    public Iskra.StdWeb.SVGAnimatedLength RefY
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration MarkerUnits
+    public Iskra.StdWeb.SVGAnimatedEnumeration MarkerUnits
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength MarkerWidth
+    public Iskra.StdWeb.SVGAnimatedLength MarkerWidth
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedLength MarkerHeight
+    public Iskra.StdWeb.SVGAnimatedLength MarkerHeight
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration OrientType
+    public Iskra.StdWeb.SVGAnimatedEnumeration OrientType
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedAngle OrientAngle
+    public Iskra.StdWeb.SVGAnimatedAngle OrientAngle
     {
         get
         {

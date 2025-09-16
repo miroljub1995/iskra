@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
 {
-    public RTCIceCandidate Local
+    public Iskra.StdWeb.RTCIceCandidate Local
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCIceCandidate Remote
+    public Iskra.StdWeb.RTCIceCandidate Remote
     {
         get
         {

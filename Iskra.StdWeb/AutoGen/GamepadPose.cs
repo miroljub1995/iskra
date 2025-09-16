@@ -25,7 +25,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array? Position
+    public Iskra.JSCore.Float32Array? Position
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array? LinearVelocity
+    public Iskra.JSCore.Float32Array? LinearVelocity
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array? LinearAcceleration
+    public Iskra.JSCore.Float32Array? LinearAcceleration
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array? Orientation
+    public Iskra.JSCore.Float32Array? Orientation
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array? AngularVelocity
+    public Iskra.JSCore.Float32Array? AngularVelocity
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Float32Array? AngularAcceleration
+    public Iskra.JSCore.Float32Array? AngularAcceleration
     {
         get
         {

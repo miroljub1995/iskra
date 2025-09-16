@@ -17,7 +17,7 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ServiceWorkerState State
+    public Iskra.StdWeb.ServiceWorkerState State
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandler Onstatechange
     {
         get
         {

@@ -25,7 +25,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Headers Headers
+    public Iskra.StdWeb.Headers Headers
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RequestDestination Destination
+    public Iskra.StdWeb.RequestDestination Destination
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ReferrerPolicy ReferrerPolicy
+    public Iskra.StdWeb.ReferrerPolicy ReferrerPolicy
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RequestMode Mode
+    public Iskra.StdWeb.RequestMode Mode
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RequestCredentials Credentials
+    public Iskra.StdWeb.RequestCredentials Credentials
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RequestCache Cache
+    public Iskra.StdWeb.RequestCache Cache
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RequestRedirect Redirect
+    public Iskra.StdWeb.RequestRedirect Redirect
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public AbortSignal Signal
+    public Iskra.StdWeb.AbortSignal Signal
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RequestDuplex Duplex
+    public Iskra.StdWeb.RequestDuplex Duplex
     {
         get
         {

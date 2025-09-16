@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
 {
-    public RTCSessionDescription? LocalDescription
+    public Iskra.StdWeb.RTCSessionDescription? LocalDescription
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSessionDescription? CurrentLocalDescription
+    public Iskra.StdWeb.RTCSessionDescription? CurrentLocalDescription
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSessionDescription? PendingLocalDescription
+    public Iskra.StdWeb.RTCSessionDescription? PendingLocalDescription
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSessionDescription? RemoteDescription
+    public Iskra.StdWeb.RTCSessionDescription? RemoteDescription
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSessionDescription? CurrentRemoteDescription
+    public Iskra.StdWeb.RTCSessionDescription? CurrentRemoteDescription
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSessionDescription? PendingRemoteDescription
+    public Iskra.StdWeb.RTCSessionDescription? PendingRemoteDescription
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCSignalingState SignalingState
+    public Iskra.StdWeb.RTCSignalingState SignalingState
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCIceGatheringState IceGatheringState
+    public Iskra.StdWeb.RTCIceGatheringState IceGatheringState
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCIceConnectionState IceConnectionState
+    public Iskra.StdWeb.RTCIceConnectionState IceConnectionState
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCPeerConnectionState ConnectionState
+    public Iskra.StdWeb.RTCPeerConnectionState ConnectionState
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onnegotiationneeded
+    public Iskra.StdWeb.EventHandler Onnegotiationneeded
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onicecandidate
+    public Iskra.StdWeb.EventHandler Onicecandidate
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onicecandidateerror
+    public Iskra.StdWeb.EventHandler Onicecandidateerror
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsignalingstatechange
+    public Iskra.StdWeb.EventHandler Onsignalingstatechange
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Oniceconnectionstatechange
+    public Iskra.StdWeb.EventHandler Oniceconnectionstatechange
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onicegatheringstatechange
+    public Iskra.StdWeb.EventHandler Onicegatheringstatechange
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onconnectionstatechange
+    public Iskra.StdWeb.EventHandler Onconnectionstatechange
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public USBAlternateInterface Alternate
+    public Iskra.StdWeb.USBAlternateInterface Alternate
     {
         get
         {

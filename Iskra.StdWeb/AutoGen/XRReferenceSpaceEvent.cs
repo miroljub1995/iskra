@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
 {
-    public XRReferenceSpace ReferenceSpace
+    public Iskra.StdWeb.XRReferenceSpace ReferenceSpace
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
         }
     }
 
-    public XRRigidTransform? Transform
+    public Iskra.StdWeb.XRRigidTransform? Transform
     {
         get
         {

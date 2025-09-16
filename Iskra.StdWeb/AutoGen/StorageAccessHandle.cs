@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
 {
-    public Storage SessionStorage
+    public Iskra.StdWeb.Storage SessionStorage
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Storage LocalStorage
+    public Iskra.StdWeb.Storage LocalStorage
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public IDBFactory IndexedDB
+    public Iskra.StdWeb.IDBFactory IndexedDB
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public LockManager Locks
+    public Iskra.StdWeb.LockManager Locks
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CacheStorage Caches
+    public Iskra.StdWeb.CacheStorage Caches
     {
         get
         {

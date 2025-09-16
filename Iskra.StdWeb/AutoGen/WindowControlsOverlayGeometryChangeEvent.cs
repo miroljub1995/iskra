@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class WindowControlsOverlayGeometryChangeEvent(JSObject obj): Event(obj)
 {
-    public DOMRect TitlebarAreaRect
+    public Iskra.StdWeb.DOMRect TitlebarAreaRect
     {
         get
         {

@@ -33,7 +33,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMHighResTimeStamp Timestamp
+    public Iskra.StdWeb.DOMHighResTimeStamp Timestamp
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public GamepadMappingType Mapping
+    public Iskra.StdWeb.GamepadMappingType Mapping
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public GamepadHapticActuator VibrationActuator
+    public Iskra.StdWeb.GamepadHapticActuator VibrationActuator
     {
         get
         {

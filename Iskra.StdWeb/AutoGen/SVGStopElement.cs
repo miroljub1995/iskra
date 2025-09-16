@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGStopElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedNumber Offset
+    public Iskra.StdWeb.SVGAnimatedNumber Offset
     {
         get
         {

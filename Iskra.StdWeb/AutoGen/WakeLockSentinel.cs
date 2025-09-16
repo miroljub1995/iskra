@@ -17,7 +17,7 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public WakeLockType Type
+    public Iskra.StdWeb.WakeLockType Type
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onrelease
+    public Iskra.StdWeb.EventHandler Onrelease
     {
         get
         {

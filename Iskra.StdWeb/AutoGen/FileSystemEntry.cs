@@ -41,7 +41,7 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public FileSystem Filesystem
+    public Iskra.StdWeb.FileSystem Filesystem
     {
         get
         {

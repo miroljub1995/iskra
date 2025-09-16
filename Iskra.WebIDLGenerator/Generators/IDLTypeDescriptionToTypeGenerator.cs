@@ -5,16 +5,15 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class IDLTypeDescriptionToTypeGenerator(
     ILogger<IDLTypeDescriptionToTypeGenerator> logger,
-    GenSettings genSettings
+    GenSettings genSettings,
+    GenTypeDescriptors genTypeDescriptors
 )
 {
     public string Generate(IDLTypeDescription input)
     {
         if (input is SingleTypeDescription singleTypeDescription)
         {
-            var rewriteTypeIfNeeded = RewriteTypeIfNeeded(singleTypeDescription.IdlType);
-            var mapped = MapToDotnetType(rewriteTypeIfNeeded);
-            return MakeNullableIfNeeded(mapped, input.Nullable);
+            return MapSingleToManagedType(singleTypeDescription);
         }
 
         logger.LogWarning("Input type {input} is not handled, fallback to object.", input.GetType());
@@ -36,19 +35,39 @@ public class IDLTypeDescriptionToTypeGenerator(
         return input;
     }
 
-    private static string MapToDotnetType(string input)
+    private string MapSingleToManagedType(SingleTypeDescription input)
+    {
+        var rewriteTypeIfNeeded = RewriteTypeIfNeeded(input.IdlType);
+        var mapped = MapToDotnetType(rewriteTypeIfNeeded);
+        return MakeNullableIfNeeded(mapped, input.Nullable);
+    }
+
+    private string MapToDotnetType(string input)
         => input switch
         {
             "any" => "object",
             "boolean" => "bool",
             "octet" => "byte",
+            "byte" => "sbyte",
+            "short" => "short",
             "unsigned short" => "ushort",
             "long" => "int",
             "unsigned long" => "uint",
             "long long" => "long",
             "unsigned long long" => "ulong",
-            "unrestricted float"  => "float",
+            "float" => "float",
+            "unrestricted float" => "float",
+            "double" => "double",
             "unrestricted double" => "double",
-            _ => input
+            "string" => "string",
+            "object" => "object",
+            _ => MapReferenceToDotnetType(input),
         };
+
+    private string MapReferenceToDotnetType(string input)
+    {
+        return genTypeDescriptors.TryGet(input) is { } descriptor
+            ? $"{descriptor.Namespace}.{descriptor.Name}"
+            : $"UnknownNamespace.{input}";
+    }
 }

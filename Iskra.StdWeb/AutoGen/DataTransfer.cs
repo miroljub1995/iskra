@@ -33,7 +33,7 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DataTransferItemList Items
+    public Iskra.StdWeb.DataTransferItemList Items
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public FileList Files
+    public Iskra.StdWeb.FileList Files
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadEvent(JSObject obj): Event(obj)
 {
-    public Gamepad Gamepad
+    public Iskra.StdWeb.Gamepad Gamepad
     {
         get
         {

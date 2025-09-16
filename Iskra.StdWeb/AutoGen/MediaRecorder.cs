@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaRecorder(JSObject obj): EventTarget(obj)
 {
-    public MediaStream Stream
+    public Iskra.StdWeb.MediaStream Stream
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RecordingState State
+    public Iskra.StdWeb.RecordingState State
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstart
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onstop
+    public Iskra.StdWeb.EventHandler Onstart
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Ondataavailable
+    public Iskra.StdWeb.EventHandler Onstop
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onpause
+    public Iskra.StdWeb.EventHandler Ondataavailable
     {
         get
         {
@@ -81,7 +69,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onresume
+    public Iskra.StdWeb.EventHandler Onpause
     {
         get
         {
@@ -93,7 +81,19 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onresume
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BitrateMode AudioBitrateMode
+    public Iskra.StdWeb.BitrateMode AudioBitrateMode
     {
         get
         {

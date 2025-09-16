@@ -41,7 +41,7 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
         }
     }
 
-    public MessagePort Port
+    public Iskra.StdWeb.MessagePort Port
     {
         get
         {

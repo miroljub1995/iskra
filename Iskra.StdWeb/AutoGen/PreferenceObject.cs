@@ -33,7 +33,7 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onchange
+    public Iskra.StdWeb.EventHandler Onchange
     {
         get
         {

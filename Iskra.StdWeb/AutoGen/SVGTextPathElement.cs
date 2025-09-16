@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj)
 {
-    public SVGAnimatedLength StartOffset
+    public Iskra.StdWeb.SVGAnimatedLength StartOffset
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
         }
     }
 
-    public SVGAnimatedEnumeration Method
+    public Iskra.StdWeb.SVGAnimatedEnumeration Method
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
         }
     }
 
-    public SVGAnimatedEnumeration Spacing
+    public Iskra.StdWeb.SVGAnimatedEnumeration Spacing
     {
         get
         {

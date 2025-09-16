@@ -33,7 +33,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public CSSStyleSheet? ParentStyleSheet
+    public Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public MediaList Media
+    public Iskra.StdWeb.MediaList Media
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public DOMException? Error
+    public Iskra.StdWeb.DOMException? Error
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public IDBTransaction? Transaction
+    public Iskra.StdWeb.IDBTransaction? Transaction
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public IDBRequestReadyState ReadyState
+    public Iskra.StdWeb.IDBRequestReadyState ReadyState
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onsuccess
+    public Iskra.StdWeb.EventHandler Onsuccess
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {

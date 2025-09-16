@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CommandEvent(JSObject obj): Event(obj)
 {
-    public Element? Source
+    public Iskra.StdWeb.Element? Source
     {
         get
         {

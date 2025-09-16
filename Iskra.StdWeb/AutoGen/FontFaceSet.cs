@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSet(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Onloading
+    public Iskra.StdWeb.EventHandler Onloading
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onloadingdone
+    public Iskra.StdWeb.EventHandler Onloadingdone
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onloadingerror
+    public Iskra.StdWeb.EventHandler Onloadingerror
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
         }
     }
 
-    public FontFaceSetLoadStatus Status
+    public Iskra.StdWeb.FontFaceSetLoadStatus Status
     {
         get
         {

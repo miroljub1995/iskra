@@ -25,7 +25,7 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BluetoothRemoteGATTServer? Gatt
+    public Iskra.StdWeb.BluetoothRemoteGATTServer? Gatt
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BufferedChangeEvent(JSObject obj): Event(obj)
 {
-    public TimeRanges AddedRanges
+    public Iskra.StdWeb.TimeRanges AddedRanges
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
         }
     }
 
-    public TimeRanges RemovedRanges
+    public Iskra.StdWeb.TimeRanges RemovedRanges
     {
         get
         {

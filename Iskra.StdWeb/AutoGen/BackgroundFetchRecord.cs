@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public Request Request
+    public Iskra.StdWeb.Request Request
     {
         get
         {

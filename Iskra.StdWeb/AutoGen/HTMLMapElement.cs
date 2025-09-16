@@ -21,7 +21,7 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLCollection Areas
+    public Iskra.StdWeb.HTMLCollection Areas
     {
         get
         {

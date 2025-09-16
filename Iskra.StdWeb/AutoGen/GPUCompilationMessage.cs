@@ -17,7 +17,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public GPUCompilationMessageType Type
+    public Iskra.StdWeb.GPUCompilationMessageType Type
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public EventTarget? Target
+    public Iskra.StdWeb.EventTarget? Target
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public EventTarget? SrcElement
+    public Iskra.StdWeb.EventTarget? SrcElement
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public EventTarget? CurrentTarget
+    public Iskra.StdWeb.EventTarget? CurrentTarget
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMHighResTimeStamp TimeStamp
+    public Iskra.StdWeb.DOMHighResTimeStamp TimeStamp
     {
         get
         {

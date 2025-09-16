@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PublicKeyCredential(JSObject obj): Credential(obj)
 {
-    public ArrayBuffer RawId
+    public Iskra.JSCore.ArrayBuffer RawId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
         }
     }
 
-    public AuthenticatorResponse Response
+    public Iskra.StdWeb.AuthenticatorResponse Response
     {
         get
         {

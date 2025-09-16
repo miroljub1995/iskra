@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
 {
-    public RTCIceRole Role
+    public Iskra.StdWeb.RTCIceRole Role
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCIceComponent Component
+    public Iskra.StdWeb.RTCIceComponent Component
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCIceTransportState State
+    public Iskra.StdWeb.RTCIceTransportState State
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public RTCIceGathererState GatheringState
+    public Iskra.StdWeb.RTCIceGathererState GatheringState
     {
         get
         {
@@ -41,19 +41,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstatechange
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Ongatheringstatechange
+    public Iskra.StdWeb.EventHandler Onstatechange
     {
         get
         {
@@ -65,7 +53,19 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onselectedcandidatepairchange
+    public Iskra.StdWeb.EventHandler Ongatheringstatechange
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onselectedcandidatepairchange
     {
         get
         {

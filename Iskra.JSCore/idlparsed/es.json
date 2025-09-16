@@ -1,0 +1,57 @@
+{
+  "idlparsed": {
+    "idlNames": {
+      "ArrayBuffer": {
+        "fragment": "",
+        "type": "interface",
+        "name": "ArrayBuffer",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer"
+      },
+      "DataView": {
+        "fragment": "",
+        "type": "interface",
+        "name": "DataView",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView"
+      },
+      "Uint8Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Uint8Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array"
+      },
+      "Uint32Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Uint32Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array"
+      },
+      "Float32Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Float32Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array"
+      }
+    },
+    "idlExtendedNames": {}
+  }
+}

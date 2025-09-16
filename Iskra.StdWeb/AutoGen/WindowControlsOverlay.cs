@@ -17,7 +17,7 @@ public partial class WindowControlsOverlay(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Ongeometrychange
+    public Iskra.StdWeb.EventHandler Ongeometrychange
     {
         get
         {

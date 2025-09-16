@@ -25,7 +25,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public DOMException? Error
+    public Iskra.StdWeb.DOMException? Error
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onloadstart
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onprogress
+    public Iskra.StdWeb.EventHandler Onloadstart
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onload
+    public Iskra.StdWeb.EventHandler Onprogress
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onabort
+    public Iskra.StdWeb.EventHandler Onload
     {
         get
         {
@@ -81,7 +69,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onabort
     {
         get
         {
@@ -93,7 +81,19 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onloadend
+    public Iskra.StdWeb.EventHandler Onerror
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onloadend
     {
         get
         {

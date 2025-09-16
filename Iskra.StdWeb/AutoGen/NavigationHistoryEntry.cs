@@ -49,7 +49,7 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Ondispose
+    public Iskra.StdWeb.EventHandler Ondispose
     {
         get
         {

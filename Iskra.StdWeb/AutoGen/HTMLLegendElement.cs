@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLegendElement(JSObject obj): HTMLElement(obj)
 {
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {

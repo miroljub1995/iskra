@@ -21,7 +21,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap Annotation
+    public Iskra.StdWeb.CSSFontFeatureValuesMap Annotation
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap Ornaments
+    public Iskra.StdWeb.CSSFontFeatureValuesMap Ornaments
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap Stylistic
+    public Iskra.StdWeb.CSSFontFeatureValuesMap Stylistic
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap Swash
+    public Iskra.StdWeb.CSSFontFeatureValuesMap Swash
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap CharacterVariant
+    public Iskra.StdWeb.CSSFontFeatureValuesMap CharacterVariant
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap Styleset
+    public Iskra.StdWeb.CSSFontFeatureValuesMap Styleset
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSFontFeatureValuesMap HistoricalForms
+    public Iskra.StdWeb.CSSFontFeatureValuesMap HistoricalForms
     {
         get
         {

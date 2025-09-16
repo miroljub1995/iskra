@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageCapture(JSObject obj): JSObjectProxy(obj)
 {
-    public MediaStreamTrack Track
+    public Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {

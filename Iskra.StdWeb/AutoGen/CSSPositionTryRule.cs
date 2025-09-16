@@ -17,7 +17,7 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSPositionTryDescriptors Style
+    public Iskra.StdWeb.CSSPositionTryDescriptors Style
     {
         get
         {

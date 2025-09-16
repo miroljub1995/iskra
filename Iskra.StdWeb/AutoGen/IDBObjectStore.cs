@@ -29,7 +29,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMStringList IndexNames
+    public Iskra.StdWeb.DOMStringList IndexNames
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public IDBTransaction Transaction
+    public Iskra.StdWeb.IDBTransaction Transaction
     {
         get
         {

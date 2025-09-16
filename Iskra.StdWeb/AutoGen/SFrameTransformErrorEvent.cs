@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
 {
-    public SFrameTransformErrorEventType ErrorType
+    public Iskra.StdWeb.SFrameTransformErrorEventType ErrorType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public CryptoKeyID? KeyID
+    public Iskra.StdWeb.CryptoKeyID? KeyID
     {
         get
         {

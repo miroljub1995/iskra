@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public SVGAnimatedString Target
+    public Iskra.StdWeb.SVGAnimatedString Target
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
         }
     }
 
-    public DOMTokenList RelList
+    public Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {

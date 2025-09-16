@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointSpace(JSObject obj): XRSpace(obj)
 {
-    public XRHandJoint JointName
+    public Iskra.StdWeb.XRHandJoint JointName
     {
         get
         {

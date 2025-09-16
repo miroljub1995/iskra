@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioData(JSObject obj): JSObjectProxy(obj)
 {
-    public AudioSampleFormat? Format
+    public Iskra.StdWeb.AudioSampleFormat? Format
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCErrorEvent(JSObject obj): Event(obj)
 {
-    public RTCError Error
+    public Iskra.StdWeb.RTCError Error
     {
         get
         {

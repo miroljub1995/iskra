@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCPUDepthInformation(JSObject obj): XRDepthInformation(obj)
 {
-    public ArrayBuffer Data
+    public Iskra.JSCore.ArrayBuffer Data
     {
         get
         {

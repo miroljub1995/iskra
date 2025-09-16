@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedString In1
+    public Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedInteger OrderX
+    public Iskra.StdWeb.SVGAnimatedInteger OrderX
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedInteger OrderY
+    public Iskra.StdWeb.SVGAnimatedInteger OrderY
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumberList KernelMatrix
+    public Iskra.StdWeb.SVGAnimatedNumberList KernelMatrix
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Divisor
+    public Iskra.StdWeb.SVGAnimatedNumber Divisor
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Bias
+    public Iskra.StdWeb.SVGAnimatedNumber Bias
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedInteger TargetX
+    public Iskra.StdWeb.SVGAnimatedInteger TargetX
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedInteger TargetY
+    public Iskra.StdWeb.SVGAnimatedInteger TargetY
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration EdgeMode
+    public Iskra.StdWeb.SVGAnimatedEnumeration EdgeMode
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber KernelUnitLengthX
+    public Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber KernelUnitLengthY
+    public Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedBoolean PreserveAlpha
+    public Iskra.StdWeb.SVGAnimatedBoolean PreserveAlpha
     {
         get
         {

@@ -45,7 +45,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Document? ContentDocument
+    public Iskra.StdWeb.Document? ContentDocument
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Window? ContentWindow
+    public Iskra.StdWeb.Window? ContentWindow
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public ValidityState Validity
+    public Iskra.StdWeb.ValidityState Validity
     {
         get
         {

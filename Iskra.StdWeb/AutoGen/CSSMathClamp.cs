@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
 {
-    public CSSNumericValue Lower
+    public Iskra.StdWeb.CSSNumericValue Lower
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
         }
     }
 
-    public CSSNumericValue Value
+    public Iskra.StdWeb.CSSNumericValue Value
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
         }
     }
 
-    public CSSNumericValue Upper
+    public Iskra.StdWeb.CSSNumericValue Upper
     {
         get
         {

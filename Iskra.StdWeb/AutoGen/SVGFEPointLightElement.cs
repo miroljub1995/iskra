@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEPointLightElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedNumber X
+    public Iskra.StdWeb.SVGAnimatedNumber X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEPointLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Y
+    public Iskra.StdWeb.SVGAnimatedNumber Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEPointLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Z
+    public Iskra.StdWeb.SVGAnimatedNumber Z
     {
         get
         {

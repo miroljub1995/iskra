@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedString In1
+    public Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedString In2
+    public Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration Operator
+    public Iskra.StdWeb.SVGAnimatedEnumeration Operator
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber K1
+    public Iskra.StdWeb.SVGAnimatedNumber K1
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber K2
+    public Iskra.StdWeb.SVGAnimatedNumber K2
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber K3
+    public Iskra.StdWeb.SVGAnimatedNumber K3
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber K4
+    public Iskra.StdWeb.SVGAnimatedNumber K4
     {
         get
         {

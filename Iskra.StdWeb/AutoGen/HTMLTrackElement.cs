@@ -77,7 +77,7 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public TextTrack Track
+    public Iskra.StdWeb.TextTrack Track
     {
         get
         {

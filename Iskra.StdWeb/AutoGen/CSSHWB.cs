@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
 {
-    public CSSNumericValue H
+    public Iskra.StdWeb.CSSNumericValue H
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public CSSNumberish W
+    public Iskra.StdWeb.CSSNumberish W
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public CSSNumberish B
+    public Iskra.StdWeb.CSSNumberish B
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public CSSNumberish Alpha
+    public Iskra.StdWeb.CSSNumberish Alpha
     {
         get
         {

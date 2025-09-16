@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
 {
-    public GPUSupportedFeatures Features
+    public Iskra.StdWeb.GPUSupportedFeatures Features
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public GPUSupportedLimits Limits
+    public Iskra.StdWeb.GPUSupportedLimits Limits
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public GPUAdapterInfo Info
+    public Iskra.StdWeb.GPUAdapterInfo Info
     {
         get
         {

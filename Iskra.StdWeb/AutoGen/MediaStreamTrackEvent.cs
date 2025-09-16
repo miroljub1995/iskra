@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrackEvent(JSObject obj): Event(obj)
 {
-    public MediaStreamTrack Track
+    public Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {

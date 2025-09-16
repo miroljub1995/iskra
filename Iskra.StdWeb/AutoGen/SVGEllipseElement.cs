@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
 {
-    public SVGAnimatedLength Cx
+    public Iskra.StdWeb.SVGAnimatedLength Cx
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public SVGAnimatedLength Cy
+    public Iskra.StdWeb.SVGAnimatedLength Cy
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public SVGAnimatedLength Rx
+    public Iskra.StdWeb.SVGAnimatedLength Rx
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
         }
     }
 
-    public SVGAnimatedLength Ry
+    public Iskra.StdWeb.SVGAnimatedLength Ry
     {
         get
         {

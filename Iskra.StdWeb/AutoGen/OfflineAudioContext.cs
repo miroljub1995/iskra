@@ -17,7 +17,7 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public EventHandler Oncomplete
+    public Iskra.StdWeb.EventHandler Oncomplete
     {
         get
         {

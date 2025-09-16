@@ -17,7 +17,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public MediaList Media
+    public Iskra.StdWeb.MediaList Media
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSStyleSheet? StyleSheet
+    public Iskra.StdWeb.CSSStyleSheet? StyleSheet
     {
         get
         {

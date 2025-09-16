@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorklet(JSObject obj): Worklet(obj)
 {
-    public MessagePort Port
+    public Iskra.StdWeb.MessagePort Port
     {
         get
         {

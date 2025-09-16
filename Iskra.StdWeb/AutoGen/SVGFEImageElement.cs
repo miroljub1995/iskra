@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedPreserveAspectRatio PreserveAspectRatio
+    public Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedString CrossOrigin
+    public Iskra.StdWeb.SVGAnimatedString CrossOrigin
     {
         get
         {

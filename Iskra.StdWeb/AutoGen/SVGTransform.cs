@@ -17,7 +17,7 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMMatrix Matrix
+    public Iskra.StdWeb.DOMMatrix Matrix
     {
         get
         {

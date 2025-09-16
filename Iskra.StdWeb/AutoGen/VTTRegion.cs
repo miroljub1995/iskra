@@ -93,7 +93,7 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public ScrollSetting Scroll
+    public Iskra.StdWeb.ScrollSetting Scroll
     {
         get
         {

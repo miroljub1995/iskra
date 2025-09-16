@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
 {
-    public CSSNumericValue X
+    public Iskra.StdWeb.CSSNumericValue X
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public CSSNumericValue Y
+    public Iskra.StdWeb.CSSNumericValue Y
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public CSSNumericValue Z
+    public Iskra.StdWeb.CSSNumericValue Z
     {
         get
         {

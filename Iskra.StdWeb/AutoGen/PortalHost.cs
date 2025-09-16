@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PortalHost(JSObject obj): EventTarget(obj)
 {
-    public EventHandler Onmessage
+    public Iskra.StdWeb.EventHandler Onmessage
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class PortalHost(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessageerror
+    public Iskra.StdWeb.EventHandler Onmessageerror
     {
         get
         {

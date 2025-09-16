@@ -17,7 +17,7 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSStyleDeclaration Style
+    public Iskra.StdWeb.CSSStyleDeclaration Style
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextTrack(JSObject obj): EventTarget(obj)
 {
-    public TextTrackKind Kind
+    public Iskra.StdWeb.TextTrackKind Kind
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public TextTrackMode Mode
+    public Iskra.StdWeb.TextTrackMode Mode
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public TextTrackCueList? Cues
+    public Iskra.StdWeb.TextTrackCueList? Cues
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public TextTrackCueList? ActiveCues
+    public Iskra.StdWeb.TextTrackCueList? ActiveCues
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Oncuechange
+    public Iskra.StdWeb.EventHandler Oncuechange
     {
         get
         {

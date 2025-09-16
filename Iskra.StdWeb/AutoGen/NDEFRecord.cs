@@ -33,7 +33,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DataView? Data
+    public Iskra.JSCore.DataView? Data
     {
         get
         {

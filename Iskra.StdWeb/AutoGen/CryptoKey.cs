@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
 {
-    public KeyType Type
+    public Iskra.StdWeb.KeyType Type
     {
         get
         {

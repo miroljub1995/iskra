@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
 {
-    public EventHandler Onblocked
+    public Iskra.StdWeb.EventHandler Onblocked
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
         }
     }
 
-    public EventHandler Onupgradeneeded
+    public Iskra.StdWeb.EventHandler Onupgradeneeded
     {
         get
         {

@@ -41,7 +41,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCIceComponent? Component
+    public Iskra.StdWeb.RTCIceComponent? Component
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCIceProtocol? Protocol
+    public Iskra.StdWeb.RTCIceProtocol? Protocol
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCIceCandidateType? Type
+    public Iskra.StdWeb.RTCIceCandidateType? Type
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCIceTcpCandidateType? TcpType
+    public Iskra.StdWeb.RTCIceTcpCandidateType? TcpType
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCIceServerTransportProtocol? RelayProtocol
+    public Iskra.StdWeb.RTCIceServerTransportProtocol? RelayProtocol
     {
         get
         {

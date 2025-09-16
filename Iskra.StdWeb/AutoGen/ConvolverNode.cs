@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ConvolverNode(JSObject obj): AudioNode(obj)
 {
-    public AudioBuffer? Buffer
+    public Iskra.StdWeb.AudioBuffer? Buffer
     {
         get
         {

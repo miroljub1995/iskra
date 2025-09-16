@@ -129,7 +129,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList RelList
+    public Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormControlsCollection Elements
+    public Iskra.StdWeb.HTMLFormControlsCollection Elements
     {
         get
         {

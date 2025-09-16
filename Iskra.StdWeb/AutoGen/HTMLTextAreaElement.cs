@@ -57,7 +57,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -209,7 +209,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public ValidityState Validity
+    public Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -225,7 +225,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public NodeList Labels
+    public Iskra.StdWeb.NodeList Labels
     {
         get
         {

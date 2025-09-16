@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Window(JSObject obj): EventTarget(obj)
 {
-    public Window Window
+    public Iskra.StdWeb.Window Window
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Window Self
+    public Iskra.StdWeb.Window Self
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Document Document
+    public Iskra.StdWeb.Document Document
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Location Location
+    public Iskra.StdWeb.Location Location
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public History History
+    public Iskra.StdWeb.History History
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Navigation Navigation
+    public Iskra.StdWeb.Navigation Navigation
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public CustomElementRegistry CustomElements
+    public Iskra.StdWeb.CustomElementRegistry CustomElements
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BarProp Locationbar
+    public Iskra.StdWeb.BarProp Locationbar
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BarProp Menubar
+    public Iskra.StdWeb.BarProp Menubar
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BarProp Personalbar
+    public Iskra.StdWeb.BarProp Personalbar
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BarProp Scrollbars
+    public Iskra.StdWeb.BarProp Scrollbars
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BarProp Statusbar
+    public Iskra.StdWeb.BarProp Statusbar
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BarProp Toolbar
+    public Iskra.StdWeb.BarProp Toolbar
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Window Frames
+    public Iskra.StdWeb.Window Frames
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Window? Top
+    public Iskra.StdWeb.Window? Top
     {
         get
         {
@@ -181,7 +181,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Window? Parent
+    public Iskra.StdWeb.Window? Parent
     {
         get
         {
@@ -189,7 +189,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Element? FrameElement
+    public Iskra.StdWeb.Element? FrameElement
     {
         get
         {
@@ -197,7 +197,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Navigator Navigator
+    public Iskra.StdWeb.Navigator Navigator
     {
         get
         {
@@ -205,7 +205,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Navigator ClientInformation
+    public Iskra.StdWeb.Navigator ClientInformation
     {
         get
         {

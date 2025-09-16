@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DragEvent(JSObject obj): MouseEvent(obj)
 {
-    public DataTransfer? DataTransfer
+    public Iskra.StdWeb.DataTransfer? DataTransfer
     {
         get
         {

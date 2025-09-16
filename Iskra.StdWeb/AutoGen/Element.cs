@@ -65,7 +65,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public DOMTokenList ClassList
+    public Iskra.StdWeb.DOMTokenList ClassList
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public NamedNodeMap Attributes
+    public Iskra.StdWeb.NamedNodeMap Attributes
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public ShadowRoot? ShadowRoot
+    public Iskra.StdWeb.ShadowRoot? ShadowRoot
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class Element(JSObject obj): Node(obj)
         }
     }
 
-    public CustomElementRegistry? CustomElementRegistry
+    public Iskra.StdWeb.CustomElementRegistry? CustomElementRegistry
     {
         get
         {

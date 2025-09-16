@@ -73,7 +73,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         }
     }
 
-    public SecurityPolicyViolationEventDisposition Disposition
+    public Iskra.StdWeb.SecurityPolicyViolationEventDisposition Disposition
     {
         get
         {

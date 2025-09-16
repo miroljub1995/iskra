@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceLongAnimationFrameTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public DOMHighResTimeStamp StartTime
+    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
         }
     }
 
-    public DOMHighResTimeStamp Duration
+    public Iskra.StdWeb.DOMHighResTimeStamp Duration
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
         }
     }
 
-    public DOMHighResTimeStamp RenderStart
+    public Iskra.StdWeb.DOMHighResTimeStamp RenderStart
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
         }
     }
 
-    public DOMHighResTimeStamp StyleAndLayoutStart
+    public Iskra.StdWeb.DOMHighResTimeStamp StyleAndLayoutStart
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
         }
     }
 
-    public DOMHighResTimeStamp BlockingDuration
+    public Iskra.StdWeb.DOMHighResTimeStamp BlockingDuration
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
         }
     }
 
-    public DOMHighResTimeStamp FirstUIEventTimestamp
+    public Iskra.StdWeb.DOMHighResTimeStamp FirstUIEventTimestamp
     {
         get
         {

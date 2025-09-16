@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRView(JSObject obj): JSObjectProxy(obj)
 {
-    public XREye Eye
+    public Iskra.StdWeb.XREye Eye
     {
         get
         {

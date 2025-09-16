@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
 {
-    public SpeechSynthesisUtterance Utterance
+    public Iskra.StdWeb.SpeechSynthesisUtterance Utterance
     {
         get
         {

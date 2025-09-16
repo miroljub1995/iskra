@@ -17,7 +17,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public IDBCursorDirection Direction
+    public Iskra.StdWeb.IDBCursorDirection Direction
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public IDBRequest Request
+    public Iskra.StdWeb.IDBRequest Request
     {
         get
         {

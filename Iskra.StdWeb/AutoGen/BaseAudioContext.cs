@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
 {
-    public AudioDestinationNode Destination
+    public Iskra.StdWeb.AudioDestinationNode Destination
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AudioListener Listener
+    public Iskra.StdWeb.AudioListener Listener
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AudioContextState State
+    public Iskra.StdWeb.AudioContextState State
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public AudioWorklet AudioWorklet
+    public Iskra.StdWeb.AudioWorklet AudioWorklet
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandler Onstatechange
     {
         get
         {

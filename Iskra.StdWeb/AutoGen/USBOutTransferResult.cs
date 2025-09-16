@@ -17,7 +17,7 @@ public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public USBTransferStatus Status
+    public Iskra.StdWeb.USBTransferStatus Status
     {
         get
         {

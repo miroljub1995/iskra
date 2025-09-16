@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SubmitEvent(JSObject obj): Event(obj)
 {
-    public HTMLElement? Submitter
+    public Iskra.StdWeb.HTMLElement? Submitter
     {
         get
         {

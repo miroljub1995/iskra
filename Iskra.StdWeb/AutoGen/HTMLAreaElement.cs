@@ -93,7 +93,7 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public DOMTokenList RelList
+    public Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {

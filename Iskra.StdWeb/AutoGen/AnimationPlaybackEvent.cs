@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationPlaybackEvent(JSObject obj): Event(obj)
 {
-    public CSSNumberish? CurrentTime
+    public Iskra.StdWeb.CSSNumberish? CurrentTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AnimationPlaybackEvent(JSObject obj): Event(obj)
         }
     }
 
-    public CSSNumberish? TimelineTime
+    public Iskra.StdWeb.CSSNumberish? TimelineTime
     {
         get
         {

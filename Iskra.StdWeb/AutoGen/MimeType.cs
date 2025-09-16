@@ -33,7 +33,7 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Plugin EnabledPlugin
+    public Iskra.StdWeb.Plugin EnabledPlugin
     {
         get
         {

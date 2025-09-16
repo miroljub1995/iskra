@@ -117,7 +117,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLFormElement? Form
+    public Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public FileList? Files
+    public Iskra.StdWeb.FileList? Files
     {
         get
         {
@@ -221,7 +221,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public HTMLDataListElement? List
+    public Iskra.StdWeb.HTMLDataListElement? List
     {
         get
         {
@@ -465,7 +465,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public ValidityState Validity
+    public Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -481,7 +481,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public NodeList? Labels
+    public Iskra.StdWeb.NodeList? Labels
     {
         get
         {

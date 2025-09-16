@@ -17,7 +17,7 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Element Element
+    public Iskra.StdWeb.Element Element
     {
         get
         {

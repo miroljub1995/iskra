@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public Notification Notification
+    public Iskra.StdWeb.Notification Notification
     {
         get
         {

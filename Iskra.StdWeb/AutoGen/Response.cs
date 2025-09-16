@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Response(JSObject obj): JSObjectProxy(obj)
 {
-    public ResponseType Type
+    public Iskra.StdWeb.ResponseType Type
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Headers Headers
+    public Iskra.StdWeb.Headers Headers
     {
         get
         {

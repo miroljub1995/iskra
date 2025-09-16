@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
 {
-    public XRSpace MeshSpace
+    public Iskra.StdWeb.XRSpace MeshSpace
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Uint32Array Indices
+    public Iskra.JSCore.Uint32Array Indices
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMHighResTimeStamp LastChangedTime
+    public Iskra.StdWeb.DOMHighResTimeStamp LastChangedTime
     {
         get
         {

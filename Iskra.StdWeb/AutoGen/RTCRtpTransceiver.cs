@@ -17,7 +17,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCRtpSender Sender
+    public Iskra.StdWeb.RTCRtpSender Sender
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCRtpReceiver Receiver
+    public Iskra.StdWeb.RTCRtpReceiver Receiver
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCRtpTransceiverDirection Direction
+    public Iskra.StdWeb.RTCRtpTransceiverDirection Direction
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public RTCRtpTransceiverDirection? CurrentDirection
+    public Iskra.StdWeb.RTCRtpTransceiverDirection? CurrentDirection
     {
         get
         {

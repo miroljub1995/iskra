@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjectProxy(obj)
 {
-    public PrivateAggregation? PrivateAggregation
+    public Iskra.StdWeb.PrivateAggregation? PrivateAggregation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
         }
     }
 
-    public ProtectedAudienceUtilities ProtectedAudience
+    public Iskra.StdWeb.ProtectedAudienceUtilities ProtectedAudience
     {
         get
         {

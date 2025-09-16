@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDataListElement(JSObject obj): HTMLElement(obj)
 {
-    public HTMLCollection Options
+    public Iskra.StdWeb.HTMLCollection Options
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableSectionElement(JSObject obj): HTMLElement(obj)
 {
-    public HTMLCollection Rows
+    public Iskra.StdWeb.HTMLCollection Rows
     {
         get
         {

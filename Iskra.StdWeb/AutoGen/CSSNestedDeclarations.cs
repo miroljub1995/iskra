@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSNestedDeclarations(JSObject obj): CSSRule(obj)
 {
-    public CSSStyleProperties Style
+    public Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {

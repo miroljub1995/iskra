@@ -33,7 +33,7 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public EventHandler Onsinkchange
+    public Iskra.StdWeb.EventHandler Onsinkchange
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public EventHandler Onerror
+    public Iskra.StdWeb.EventHandler Onerror
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRAnchor(JSObject obj): JSObjectProxy(obj)
 {
-    public XRSpace AnchorSpace
+    public Iskra.StdWeb.XRSpace AnchorSpace
     {
         get
         {

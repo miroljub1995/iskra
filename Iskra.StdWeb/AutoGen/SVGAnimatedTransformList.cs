@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
 {
-    public SVGTransformList BaseVal
+    public Iskra.StdWeb.SVGTransformList BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public SVGTransformList AnimVal
+    public Iskra.StdWeb.SVGTransformList AnimVal
     {
         get
         {

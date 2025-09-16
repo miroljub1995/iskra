@@ -17,7 +17,7 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public DOMHighResTimeStamp Duration
+    public Iskra.StdWeb.DOMHighResTimeStamp Duration
     {
         get
         {

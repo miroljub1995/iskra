@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
 {
-    public ServiceWorker? Installing
+    public Iskra.StdWeb.ServiceWorker? Installing
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ServiceWorker? Waiting
+    public Iskra.StdWeb.ServiceWorker? Waiting
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ServiceWorker? Active
+    public Iskra.StdWeb.ServiceWorker? Active
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public NavigationPreloadManager NavigationPreload
+    public Iskra.StdWeb.NavigationPreloadManager NavigationPreload
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public ServiceWorkerUpdateViaCache UpdateViaCache
+    public Iskra.StdWeb.ServiceWorkerUpdateViaCache UpdateViaCache
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onupdatefound
+    public Iskra.StdWeb.EventHandler Onupdatefound
     {
         get
         {

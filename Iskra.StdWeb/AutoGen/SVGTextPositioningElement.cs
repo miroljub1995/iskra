@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElement(obj)
 {
-    public SVGAnimatedLengthList X
+    public Iskra.StdWeb.SVGAnimatedLengthList X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
         }
     }
 
-    public SVGAnimatedLengthList Y
+    public Iskra.StdWeb.SVGAnimatedLengthList Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
         }
     }
 
-    public SVGAnimatedLengthList Dx
+    public Iskra.StdWeb.SVGAnimatedLengthList Dx
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
         }
     }
 
-    public SVGAnimatedLengthList Dy
+    public Iskra.StdWeb.SVGAnimatedLengthList Dy
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
         }
     }
 
-    public SVGAnimatedNumberList Rotate
+    public Iskra.StdWeb.SVGAnimatedNumberList Rotate
     {
         get
         {

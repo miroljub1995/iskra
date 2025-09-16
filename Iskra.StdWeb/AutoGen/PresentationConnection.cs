@@ -25,7 +25,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public PresentationConnectionState State
+    public Iskra.StdWeb.PresentationConnectionState State
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onconnect
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public EventHandler Onclose
+    public Iskra.StdWeb.EventHandler Onconnect
     {
         get
         {
@@ -57,7 +45,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onterminate
+    public Iskra.StdWeb.EventHandler Onclose
     {
         get
         {
@@ -69,7 +57,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public BinaryType BinaryType
+    public Iskra.StdWeb.EventHandler Onterminate
     {
         get
         {
@@ -81,7 +69,19 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public EventHandler Onmessage
+    public Iskra.StdWeb.BinaryType BinaryType
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandler Onmessage
     {
         get
         {

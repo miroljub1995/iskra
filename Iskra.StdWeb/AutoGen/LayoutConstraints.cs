@@ -65,7 +65,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public BlockFragmentationType BlockFragmentationType
+    public Iskra.StdWeb.BlockFragmentationType BlockFragmentationType
     {
         get
         {

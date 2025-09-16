@@ -41,7 +41,7 @@ public partial class StorageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Storage? StorageArea
+    public Iskra.StdWeb.Storage? StorageArea
     {
         get
         {

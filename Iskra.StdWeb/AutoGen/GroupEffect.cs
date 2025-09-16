@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
 {
-    public AnimationNodeList Children
+    public Iskra.StdWeb.AnimationNodeList Children
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public AnimationEffect? FirstChild
+    public Iskra.StdWeb.AnimationEffect? FirstChild
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public AnimationEffect? LastChild
+    public Iskra.StdWeb.AnimationEffect? LastChild
     {
         get
         {

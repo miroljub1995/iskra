@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
 {
-    public EncodedVideoChunkType Type
+    public Iskra.StdWeb.EncodedVideoChunkType Type
     {
         get
         {

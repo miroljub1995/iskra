@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Attribution(JSObject obj): JSObjectProxy(obj)
 {
-    public AttributionAggregationServices AggregationServices
+    public Iskra.StdWeb.AttributionAggregationServices AggregationServices
     {
         get
         {

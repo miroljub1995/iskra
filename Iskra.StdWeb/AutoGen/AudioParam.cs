@@ -21,7 +21,7 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public AutomationRate AutomationRate
+    public Iskra.StdWeb.AutomationRate AutomationRate
     {
         get
         {

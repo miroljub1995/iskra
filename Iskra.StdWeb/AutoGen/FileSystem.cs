@@ -17,7 +17,7 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public FileSystemDirectoryEntry Root
+    public Iskra.StdWeb.FileSystemDirectoryEntry Root
     {
         get
         {

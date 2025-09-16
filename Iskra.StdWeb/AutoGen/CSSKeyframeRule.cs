@@ -21,7 +21,7 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public CSSStyleProperties Style
+    public Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedString In1
+    public Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedString In2
+    public Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Scale
+    public Iskra.StdWeb.SVGAnimatedNumber Scale
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration XChannelSelector
+    public Iskra.StdWeb.SVGAnimatedEnumeration XChannelSelector
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedEnumeration YChannelSelector
+    public Iskra.StdWeb.SVGAnimatedEnumeration YChannelSelector
     {
         get
         {

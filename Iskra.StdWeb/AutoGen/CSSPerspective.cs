@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPerspective(JSObject obj): CSSTransformComponent(obj)
 {
-    public CSSPerspectiveValue Length
+    public Iskra.StdWeb.CSSPerspectiveValue Length
     {
         get
         {

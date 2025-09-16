@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
 {
-    public SVGAnimatedNumber X
+    public Iskra.StdWeb.SVGAnimatedNumber X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Y
+    public Iskra.StdWeb.SVGAnimatedNumber Y
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber Z
+    public Iskra.StdWeb.SVGAnimatedNumber Z
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber PointsAtX
+    public Iskra.StdWeb.SVGAnimatedNumber PointsAtX
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber PointsAtY
+    public Iskra.StdWeb.SVGAnimatedNumber PointsAtY
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber PointsAtZ
+    public Iskra.StdWeb.SVGAnimatedNumber PointsAtZ
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber SpecularExponent
+    public Iskra.StdWeb.SVGAnimatedNumber SpecularExponent
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public SVGAnimatedNumber LimitingConeAngle
+    public Iskra.StdWeb.SVGAnimatedNumber LimitingConeAngle
     {
         get
         {
