@@ -7,7 +7,8 @@ namespace Iskra.WebIDLGenerator.Generators;
 public class ModuleGenerator(
     ILogger<ModuleGenerator> logger,
     EnumTypeGenerator enumTypeGenerator,
-    InterfaceGenerator interfaceGenerator
+    InterfaceGenerator interfaceGenerator,
+    GenTypeDescriptors genTypeDescriptors
 )
 {
     public async Task GenerateAsync(string path, string outputDir,
@@ -23,6 +24,8 @@ public class ModuleGenerator(
 
         foreach (var idlRootType in module.IDLParsed.IDLNames.Values)
         {
+            genTypeDescriptors.ResolveTypedefInIDLRootType(idlRootType);
+
             if (idlRootType is InterfaceType interfaceType)
             {
                 var outputFile = Path.GetFullPath(Path.Combine(outputDir, interfaceType.Name + ".cs"));
@@ -36,7 +39,6 @@ public class ModuleGenerator(
             }
             else if (idlRootType is EnumType enumType)
             {
-                
                 var outputFile = Path.GetFullPath(Path.Combine(outputDir, enumType.Name + ".cs"));
                 if (File.Exists(outputFile))
                 {

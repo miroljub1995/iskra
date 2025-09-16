@@ -66,15 +66,9 @@ public class IDLTypeDescriptionToTypeGenerator(
 
     private string MapReferenceToDotnetType(string input)
     {
-        if (genTypeDescriptors.TryGet(input) is not { } descriptor)
+        if (!genTypeDescriptors.TryGet(input, out var descriptor))
         {
             return $"UnknownNamespace.{input}";
-        }
-
-        if (descriptor.RootType is TypedefType typedefType)
-        {
-            var flattened = TypedefTypeFlattener.Flatten(typedefType.IdlType, genTypeDescriptors);
-            return Generate(flattened);
         }
 
         return $"{descriptor.Namespace}.{descriptor.Name}";

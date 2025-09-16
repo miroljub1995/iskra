@@ -69,11 +69,15 @@ public class GenerateCommand : Command
 
             Directory.CreateDirectory(genSettings.Output);
 
+            var genTypeDescriptors = provider.GetRequiredService<GenTypeDescriptors>();
+
             await AddGenSettingsToDescriptorsAsync(
-                provider.GetRequiredService<GenTypeDescriptors>(),
+                genTypeDescriptors,
                 genSettingsFullPath,
                 cancellationToken
             );
+
+            genTypeDescriptors.ResolveTypedefs();
 
             var moduleGenerator = provider.GetRequiredService<ModuleGenerator>();
             foreach (var inputFile in inputFiles)

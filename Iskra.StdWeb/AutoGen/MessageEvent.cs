@@ -33,7 +33,7 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object? Source
+    public object Source
     {
         get
         {

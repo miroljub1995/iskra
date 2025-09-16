@@ -29,7 +29,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object? SrcObject
+    public object SrcObject
     {
         get
         {
