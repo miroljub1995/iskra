@@ -41,7 +41,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

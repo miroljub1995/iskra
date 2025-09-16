@@ -53,7 +53,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmute
+    public Iskra.StdWeb.EventHandlerNonNull? Onmute
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onunmute
+    public Iskra.StdWeb.EventHandlerNonNull? Onunmute
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onended
+    public Iskra.StdWeb.EventHandlerNonNull? Onended
     {
         get
         {

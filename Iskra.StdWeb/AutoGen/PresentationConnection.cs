@@ -33,7 +33,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onconnect
+    public Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onclose
+    public Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onterminate
+    public Iskra.StdWeb.EventHandlerNonNull? Onterminate
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessage
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {

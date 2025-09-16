@@ -33,7 +33,7 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncontextlost
+    public Iskra.StdWeb.EventHandlerNonNull? Oncontextlost
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncontextrestored
+    public Iskra.StdWeb.EventHandlerNonNull? Oncontextrestored
     {
         get
         {

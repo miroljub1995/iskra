@@ -93,7 +93,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onopen
+    public Iskra.StdWeb.EventHandlerNonNull? Onopen
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onbufferedamountlow
+    public Iskra.StdWeb.EventHandlerNonNull? Onbufferedamountlow
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onclosing
+    public Iskra.StdWeb.EventHandlerNonNull? Onclosing
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onclose
+    public Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessage
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {

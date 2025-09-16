@@ -25,7 +25,7 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onprocessorerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onprocessorerror
     {
         get
         {

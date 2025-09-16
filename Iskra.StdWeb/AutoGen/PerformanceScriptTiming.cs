@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
+    public double StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp Duration
+    public double Duration
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ExecutionStart
+    public double ExecutionStart
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp PauseDuration
+    public double PauseDuration
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ForcedStyleAndLayoutDuration
+    public double ForcedStyleAndLayoutDuration
     {
         get
         {

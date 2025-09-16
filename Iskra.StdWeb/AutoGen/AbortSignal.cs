@@ -25,7 +25,7 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onabort
+    public Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp PredictedDisplayTime
+    public double PredictedDisplayTime
     {
         get
         {

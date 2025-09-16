@@ -77,7 +77,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncuechange
+    public Iskra.StdWeb.EventHandlerNonNull? Oncuechange
     {
         get
         {

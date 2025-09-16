@@ -41,7 +41,7 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onshippingaddresschange
+    public Iskra.StdWeb.EventHandlerNonNull? Onshippingaddresschange
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onshippingoptionchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onshippingoptionchange
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onpaymentmethodchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onpaymentmethodchange
     {
         get
         {

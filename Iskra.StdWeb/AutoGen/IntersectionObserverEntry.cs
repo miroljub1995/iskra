@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp Time
+    public double Time
     {
         get
         {

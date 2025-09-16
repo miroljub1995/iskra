@@ -17,7 +17,7 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Iskra.StdWeb.CryptoKeyID? KeyID
+    public object? KeyID
     {
         get
         {

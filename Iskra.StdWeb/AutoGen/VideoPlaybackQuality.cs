@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp CreationTime
+    public double CreationTime
     {
         get
         {

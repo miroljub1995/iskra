@@ -97,7 +97,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onupdatestart
+    public Iskra.StdWeb.EventHandlerNonNull? Onupdatestart
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onupdate
+    public Iskra.StdWeb.EventHandlerNonNull? Onupdate
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onupdateend
+    public Iskra.StdWeb.EventHandlerNonNull? Onupdateend
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onabort
+    public Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {

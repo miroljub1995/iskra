@@ -73,7 +73,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onpayerdetailchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
     {
         get
         {

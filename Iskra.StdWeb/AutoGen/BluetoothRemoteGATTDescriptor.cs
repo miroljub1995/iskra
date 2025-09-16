@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
         }
     }
 
-    public Iskra.StdWeb.UUID Uuid
+    public string Uuid
     {
         get
         {

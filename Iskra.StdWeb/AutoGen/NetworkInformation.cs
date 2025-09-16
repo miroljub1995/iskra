@@ -25,7 +25,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.Megabit DownlinkMax
+    public double DownlinkMax
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.Megabit Downlink
+    public double Downlink
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.Millisecond Rtt
+    public ulong Rtt
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

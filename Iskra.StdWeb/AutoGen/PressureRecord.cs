@@ -25,7 +25,7 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp Time
+    public double Time
     {
         get
         {

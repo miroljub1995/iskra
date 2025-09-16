@@ -57,7 +57,7 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onredraw
+    public Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
         get
         {

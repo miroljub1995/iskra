@@ -33,7 +33,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oninstall
+    public Iskra.StdWeb.EventHandlerNonNull? Oninstall
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onactivate
+    public Iskra.StdWeb.EventHandlerNonNull? Onactivate
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onfetch
+    public Iskra.StdWeb.EventHandlerNonNull? Onfetch
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessage
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessageerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

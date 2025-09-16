@@ -97,7 +97,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onfinish
+    public Iskra.StdWeb.EventHandlerNonNull? Onfinish
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncancel
+    public Iskra.StdWeb.EventHandlerNonNull? Oncancel
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onremove
+    public Iskra.StdWeb.EventHandlerNonNull? Onremove
     {
         get
         {

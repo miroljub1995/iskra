@@ -65,7 +65,7 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onenter
+    public Iskra.StdWeb.EventHandlerNonNull? Onenter
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onexit
+    public Iskra.StdWeb.EventHandlerNonNull? Onexit
     {
         get
         {

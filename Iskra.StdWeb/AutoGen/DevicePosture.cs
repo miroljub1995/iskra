@@ -17,7 +17,7 @@ public partial class DevicePosture(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

@@ -65,7 +65,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

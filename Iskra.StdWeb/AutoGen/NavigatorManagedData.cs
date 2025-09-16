@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorManagedData(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandler Onmanagedconfigurationchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onmanagedconfigurationchange
     {
         get
         {

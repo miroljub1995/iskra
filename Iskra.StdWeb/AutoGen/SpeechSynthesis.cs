@@ -33,7 +33,7 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onvoiceschanged
+    public Iskra.StdWeb.EventHandlerNonNull? Onvoiceschanged
     {
         get
         {

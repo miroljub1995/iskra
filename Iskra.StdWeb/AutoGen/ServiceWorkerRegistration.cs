@@ -57,7 +57,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onupdatefound
+    public Iskra.StdWeb.EventHandlerNonNull? Onupdatefound
     {
         get
         {

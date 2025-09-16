@@ -25,7 +25,7 @@ public partial class AudioDecoder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ondequeue
+    public Iskra.StdWeb.EventHandlerNonNull? Ondequeue
     {
         get
         {

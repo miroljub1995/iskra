@@ -17,7 +17,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onbegin
+    public Iskra.StdWeb.EventHandlerNonNull? Onbegin
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onend
+    public Iskra.StdWeb.EventHandlerNonNull? Onend
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onrepeat
+    public Iskra.StdWeb.EventHandlerNonNull? Onrepeat
     {
         get
         {

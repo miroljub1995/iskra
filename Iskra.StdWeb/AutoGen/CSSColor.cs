@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSColor(JSObject obj): CSSColorValue(obj)
 {
-    public Iskra.StdWeb.CSSKeywordish ColorSpace
+    public object ColorSpace
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSNumberish Alpha
+    public object Alpha
     {
         get
         {

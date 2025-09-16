@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp ProcessingStart
+    public double ProcessingStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ProcessingEnd
+    public double ProcessingEnd
     {
         get
         {

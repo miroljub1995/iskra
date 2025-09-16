@@ -73,7 +73,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onprogress
+    public Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
         get
         {

@@ -25,7 +25,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onkeyframerequest
+    public Iskra.StdWeb.EventHandlerNonNull? Onkeyframerequest
     {
         get
         {

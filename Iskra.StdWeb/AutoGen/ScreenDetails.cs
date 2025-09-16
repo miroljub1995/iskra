@@ -25,7 +25,7 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onscreenschange
+    public Iskra.StdWeb.EventHandlerNonNull? Onscreenschange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncurrentscreenchange
+    public Iskra.StdWeb.EventHandlerNonNull? Oncurrentscreenchange
     {
         get
         {

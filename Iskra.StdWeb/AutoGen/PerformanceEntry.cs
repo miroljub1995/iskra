@@ -33,7 +33,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
+    public double StartTime
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp Duration
+    public double Duration
     {
         get
         {

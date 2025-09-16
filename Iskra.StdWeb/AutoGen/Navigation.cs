@@ -49,7 +49,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onnavigate
+    public Iskra.StdWeb.EventHandlerNonNull? Onnavigate
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onnavigatesuccess
+    public Iskra.StdWeb.EventHandlerNonNull? Onnavigatesuccess
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onnavigateerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onnavigateerror
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncurrententrychange
+    public Iskra.StdWeb.EventHandlerNonNull? Oncurrententrychange
     {
         get
         {

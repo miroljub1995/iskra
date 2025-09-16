@@ -45,7 +45,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public Iskra.StdWeb.LineAndPositionSetting Line
+    public object Line
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public Iskra.StdWeb.LineAndPositionSetting Position
+    public object Position
     {
         get
         {

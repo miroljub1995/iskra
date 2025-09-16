@@ -53,7 +53,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsourceopen
+    public Iskra.StdWeb.EventHandlerNonNull? Onsourceopen
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsourceended
+    public Iskra.StdWeb.EventHandlerNonNull? Onsourceended
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsourceclose
+    public Iskra.StdWeb.EventHandlerNonNull? Onsourceclose
     {
         get
         {

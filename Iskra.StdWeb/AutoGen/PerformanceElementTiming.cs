@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp RenderTime
+    public double RenderTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp LoadTime
+    public double LoadTime
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onprioritychange
+    public Iskra.StdWeb.EventHandlerNonNull? Onprioritychange
     {
         get
         {

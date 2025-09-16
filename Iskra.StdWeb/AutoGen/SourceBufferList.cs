@@ -17,7 +17,7 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onaddsourcebuffer
+    public Iskra.StdWeb.EventHandlerNonNull? Onaddsourcebuffer
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onremovesourcebuffer
+    public Iskra.StdWeb.EventHandlerNonNull? Onremovesourcebuffer
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class HIDDevice(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandler Oninputreport
+    public Iskra.StdWeb.EventHandlerNonNull? Oninputreport
     {
         get
         {

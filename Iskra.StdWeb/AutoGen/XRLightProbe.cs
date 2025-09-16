@@ -17,7 +17,7 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onreflectionchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onreflectionchange
     {
         get
         {

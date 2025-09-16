@@ -113,7 +113,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp TimeStamp
+    public double TimeStamp
     {
         get
         {

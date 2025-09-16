@@ -73,7 +73,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onend
+    public Iskra.StdWeb.EventHandlerNonNull? Onend
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oninputsourceschange
+    public Iskra.StdWeb.EventHandlerNonNull? Oninputsourceschange
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onselect
+    public Iskra.StdWeb.EventHandlerNonNull? Onselect
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onselectstart
+    public Iskra.StdWeb.EventHandlerNonNull? Onselectstart
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onselectend
+    public Iskra.StdWeb.EventHandlerNonNull? Onselectend
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsqueeze
+    public Iskra.StdWeb.EventHandlerNonNull? Onsqueeze
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsqueezestart
+    public Iskra.StdWeb.EventHandlerNonNull? Onsqueezestart
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsqueezeend
+    public Iskra.StdWeb.EventHandlerNonNull? Onsqueezeend
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onvisibilitychange
+    public Iskra.StdWeb.EventHandlerNonNull? Onvisibilitychange
     {
         get
         {
@@ -181,7 +181,7 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onframeratechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onframeratechange
     {
         get
         {

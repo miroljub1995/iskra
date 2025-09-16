@@ -41,7 +41,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ontextupdate
+    public Iskra.StdWeb.EventHandlerNonNull? Ontextupdate
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ontextformatupdate
+    public Iskra.StdWeb.EventHandlerNonNull? Ontextformatupdate
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncharacterboundsupdate
+    public Iskra.StdWeb.EventHandlerNonNull? Oncharacterboundsupdate
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncompositionstart
+    public Iskra.StdWeb.EventHandlerNonNull? Oncompositionstart
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncompositionend
+    public Iskra.StdWeb.EventHandlerNonNull? Oncompositionend
     {
         get
         {

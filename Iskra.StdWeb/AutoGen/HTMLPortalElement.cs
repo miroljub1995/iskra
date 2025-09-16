@@ -33,7 +33,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessage
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessageerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

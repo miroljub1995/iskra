@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
+    public double StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp Duration
+    public double Duration
     {
         get
         {

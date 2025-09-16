@@ -49,7 +49,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onabort
+    public Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncomplete
+    public Iskra.StdWeb.EventHandlerNonNull? Oncomplete
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

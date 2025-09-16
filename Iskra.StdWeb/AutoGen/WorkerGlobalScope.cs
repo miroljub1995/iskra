@@ -33,7 +33,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.OnErrorEventHandler Onerror
+    public Iskra.StdWeb.OnErrorEventHandlerNonNull? Onerror
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onlanguagechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onlanguagechange
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onoffline
+    public Iskra.StdWeb.EventHandlerNonNull? Onoffline
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ononline
+    public Iskra.StdWeb.EventHandlerNonNull? Ononline
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onrejectionhandled
+    public Iskra.StdWeb.EventHandlerNonNull? Onrejectionhandled
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onunhandledrejection
+    public Iskra.StdWeb.EventHandlerNonNull? Onunhandledrejection
     {
         get
         {

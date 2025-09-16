@@ -33,7 +33,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp Timestamp
+    public double Timestamp
     {
         get
         {

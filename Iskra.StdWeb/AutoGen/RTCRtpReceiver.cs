@@ -25,7 +25,7 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp? JitterBufferTarget
+    public double? JitterBufferTarget
     {
         get
         {

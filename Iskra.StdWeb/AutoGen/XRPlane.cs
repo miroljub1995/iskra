@@ -33,7 +33,7 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp LastChangedTime
+    public double LastChangedTime
     {
         get
         {

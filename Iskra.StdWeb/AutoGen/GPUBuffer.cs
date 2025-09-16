@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.GPUSize64Out Size
+    public ulong Size
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUFlagsConstant Usage
+    public uint Usage
     {
         get
         {

@@ -25,7 +25,7 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp StartTime
+    public double StartTime
     {
         get
         {

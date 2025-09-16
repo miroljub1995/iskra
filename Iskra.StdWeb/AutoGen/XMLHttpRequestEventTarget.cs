@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandler Onloadstart
+    public Iskra.StdWeb.EventHandlerNonNull? Onloadstart
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onprogress
+    public Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onabort
+    public Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onload
+    public Iskra.StdWeb.EventHandlerNonNull? Onload
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ontimeout
+    public Iskra.StdWeb.EventHandlerNonNull? Ontimeout
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onloadend
+    public Iskra.StdWeb.EventHandlerNonNull? Onloadend
     {
         get
         {

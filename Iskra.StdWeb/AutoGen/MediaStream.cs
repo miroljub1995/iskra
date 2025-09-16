@@ -25,7 +25,7 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onaddtrack
+    public Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onremovetrack
+    public Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
     {
         get
         {

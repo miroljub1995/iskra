@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandler Onreadystatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onreadystatechange
     {
         get
         {

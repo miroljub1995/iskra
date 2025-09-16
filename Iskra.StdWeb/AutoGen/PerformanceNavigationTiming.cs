@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResourceTiming(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp UnloadEventStart
+    public double UnloadEventStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp UnloadEventEnd
+    public double UnloadEventEnd
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp DomInteractive
+    public double DomInteractive
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp DomContentLoadedEventStart
+    public double DomContentLoadedEventStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp DomContentLoadedEventEnd
+    public double DomContentLoadedEventEnd
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp DomComplete
+    public double DomComplete
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp LoadEventStart
+    public double LoadEventStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp LoadEventEnd
+    public double LoadEventEnd
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp CriticalCHRestart
+    public double CriticalCHRestart
     {
         get
         {

@@ -33,7 +33,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onabort
+    public Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onclose
+    public Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onversionchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onversionchange
     {
         get
         {

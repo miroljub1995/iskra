@@ -17,7 +17,7 @@ public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onenter
+    public Iskra.StdWeb.EventHandlerNonNull? Onenter
     {
         get
         {

@@ -17,7 +17,7 @@ public partial class BlobEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp Timecode
+    public double Timecode
     {
         get
         {

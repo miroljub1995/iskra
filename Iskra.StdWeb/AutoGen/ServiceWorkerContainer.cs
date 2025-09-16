@@ -25,7 +25,7 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Oncontrollerchange
+    public Iskra.StdWeb.EventHandlerNonNull? Oncontrollerchange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessage
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onmessageerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

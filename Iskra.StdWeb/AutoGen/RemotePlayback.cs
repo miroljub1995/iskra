@@ -17,7 +17,7 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onconnecting
+    public Iskra.StdWeb.EventHandlerNonNull? Onconnecting
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onconnect
+    public Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ondisconnect
+    public Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
         get
         {

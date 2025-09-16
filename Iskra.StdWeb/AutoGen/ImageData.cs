@@ -25,7 +25,7 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.ImageDataArray Data
+    public object Data
     {
         get
         {

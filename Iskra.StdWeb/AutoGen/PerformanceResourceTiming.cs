@@ -33,7 +33,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp WorkerStart
+    public double WorkerStart
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp RedirectStart
+    public double RedirectStart
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp RedirectEnd
+    public double RedirectEnd
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp FetchStart
+    public double FetchStart
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp DomainLookupStart
+    public double DomainLookupStart
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp DomainLookupEnd
+    public double DomainLookupEnd
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ConnectStart
+    public double ConnectStart
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ConnectEnd
+    public double ConnectEnd
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp SecureConnectionStart
+    public double SecureConnectionStart
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp RequestStart
+    public double RequestStart
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp FinalResponseHeadersStart
+    public double FinalResponseHeadersStart
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp FirstInterimResponseStart
+    public double FirstInterimResponseStart
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ResponseStart
+    public double ResponseStart
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp ResponseEnd
+    public double ResponseEnd
     {
         get
         {

@@ -49,7 +49,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onsuccess
+    public Iskra.StdWeb.EventHandlerNonNull? Onsuccess
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

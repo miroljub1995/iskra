@@ -17,7 +17,7 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUSize32Out Count
+    public uint Count
     {
         get
         {

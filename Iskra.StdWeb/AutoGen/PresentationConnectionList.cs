@@ -17,7 +17,7 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onconnectionavailable
+    public Iskra.StdWeb.EventHandlerNonNull? Onconnectionavailable
     {
         get
         {

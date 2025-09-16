@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
 {
-    public Iskra.StdWeb.CSSColorRGBComp R
+    public object R
     {
         get
         {
@@ -21,7 +21,7 @@ public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSColorRGBComp G
+    public object G
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSColorRGBComp B
+    public object B
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSColorPercent Alpha
+    public object Alpha
     {
         get
         {

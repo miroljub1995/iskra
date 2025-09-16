@@ -17,7 +17,7 @@ public partial class CSSCustomMediaRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public Iskra.StdWeb.CustomMediaQuery Query
+    public object Query
     {
         get
         {

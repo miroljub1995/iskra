@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Performance(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.DOMHighResTimeStamp TimeOrigin
+    public double TimeOrigin
     {
         get
         {

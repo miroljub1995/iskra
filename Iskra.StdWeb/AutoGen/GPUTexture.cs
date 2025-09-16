@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.GPUIntegerCoordinateOut Width
+    public uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUIntegerCoordinateOut Height
+    public uint Height
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUIntegerCoordinateOut DepthOrArrayLayers
+    public uint DepthOrArrayLayers
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUIntegerCoordinateOut MipLevelCount
+    public uint MipLevelCount
     {
         get
         {
@@ -41,7 +41,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUSize32Out SampleCount
+    public uint SampleCount
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.GPUFlagsConstant Usage
+    public uint Usage
     {
         get
         {

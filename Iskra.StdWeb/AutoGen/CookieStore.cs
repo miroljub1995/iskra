@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CookieStore(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandler Onchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

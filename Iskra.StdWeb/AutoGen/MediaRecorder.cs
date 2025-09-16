@@ -33,7 +33,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstart
+    public Iskra.StdWeb.EventHandlerNonNull? Onstart
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstop
+    public Iskra.StdWeb.EventHandlerNonNull? Onstop
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ondataavailable
+    public Iskra.StdWeb.EventHandlerNonNull? Ondataavailable
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onpause
+    public Iskra.StdWeb.EventHandlerNonNull? Onpause
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onresume
+    public Iskra.StdWeb.EventHandlerNonNull? Onresume
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

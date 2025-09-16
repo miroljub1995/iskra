@@ -57,7 +57,7 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onslotchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onslotchange
     {
         get
         {

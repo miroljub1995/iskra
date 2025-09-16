@@ -17,7 +17,7 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.EpochTimeStamp? ExpirationTime
+    public ulong? ExpirationTime
     {
         get
         {

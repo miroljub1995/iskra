@@ -25,7 +25,7 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

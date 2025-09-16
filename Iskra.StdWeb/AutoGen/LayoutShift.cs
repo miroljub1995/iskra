@@ -25,7 +25,7 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp LastInputTime
+    public double LastInputTime
     {
         get
         {

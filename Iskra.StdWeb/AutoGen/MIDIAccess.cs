@@ -25,7 +25,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

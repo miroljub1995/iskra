@@ -17,7 +17,7 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.EpochTimeStamp Timestamp
+    public ulong Timestamp
     {
         get
         {

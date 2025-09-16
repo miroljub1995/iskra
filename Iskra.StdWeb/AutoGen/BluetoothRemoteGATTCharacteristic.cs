@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
         }
     }
 
-    public Iskra.StdWeb.UUID Uuid
+    public string Uuid
     {
         get
         {

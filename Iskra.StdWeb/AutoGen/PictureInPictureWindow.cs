@@ -25,7 +25,7 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onresize
+    public Iskra.StdWeb.EventHandlerNonNull? Onresize
     {
         get
         {

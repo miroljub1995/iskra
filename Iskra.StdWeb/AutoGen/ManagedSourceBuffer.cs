@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ManagedSourceBuffer(JSObject obj): SourceBuffer(obj)
 {
-    public Iskra.StdWeb.EventHandler Onbufferedchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onbufferedchange
     {
         get
         {

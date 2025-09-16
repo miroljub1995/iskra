@@ -41,7 +41,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onstatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Ongatheringstatechange
+    public Iskra.StdWeb.EventHandlerNonNull? Ongatheringstatechange
     {
         get
         {
@@ -65,7 +65,7 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onselectedcandidatepairchange
+    public Iskra.StdWeb.EventHandlerNonNull? Onselectedcandidatepairchange
     {
         get
         {

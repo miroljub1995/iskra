@@ -25,7 +25,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.DOMHighResTimeStamp? Timestamp
+    public double? Timestamp
     {
         get
         {
@@ -33,19 +33,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onreading
-    {
-        get
-        {
-            throw new Exception();
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public Iskra.StdWeb.EventHandler Onactivate
+    public Iskra.StdWeb.EventHandlerNonNull? Onreading
     {
         get
         {
@@ -57,7 +45,19 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onactivate
+    {
+        get
+        {
+            throw new Exception();
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

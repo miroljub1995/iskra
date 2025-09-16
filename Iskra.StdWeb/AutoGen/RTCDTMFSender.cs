@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandler Ontonechange
+    public Iskra.StdWeb.EventHandlerNonNull? Ontonechange
     {
         get
         {

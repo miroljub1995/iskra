@@ -25,7 +25,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onclick
+    public Iskra.StdWeb.EventHandlerNonNull? Onclick
     {
         get
         {
@@ -37,7 +37,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onshow
+    public Iskra.StdWeb.EventHandlerNonNull? Onshow
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onerror
+    public Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EventHandler Onclose
+    public Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public Iskra.StdWeb.EpochTimeStamp Timestamp
+    public ulong Timestamp
     {
         get
         {
