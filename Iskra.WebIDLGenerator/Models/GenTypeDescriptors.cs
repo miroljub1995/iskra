@@ -63,7 +63,7 @@ public class GenTypeDescriptors
         ResolveTypedefInIDLTypeDescription(input.IdlType);
         foreach (var arg in input.Arguments)
         {
-            ResolveTypedefInIDLTypeDescription(arg.IdlType);
+            arg.IdlType = ResolveTypedefInIDLTypeDescription(arg.IdlType);
         }
     }
 

@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object? UnderlyingSourceStartCallback(Iskra.StdWeb.ReadableStreamController controller);
+public delegate object? UnderlyingSourceStartCallback(object controller);
 
 #nullable disable

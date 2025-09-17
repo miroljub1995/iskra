@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void VideoFrameRequestCallback(Iskra.StdWeb.DOMHighResTimeStamp now, Iskra.StdWeb.VideoFrameCallbackMetadata metadata);
+public delegate void VideoFrameRequestCallback(double now, Iskra.StdWeb.VideoFrameCallbackMetadata metadata);
 
 #nullable disable

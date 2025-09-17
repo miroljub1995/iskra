@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FrameRequestCallback(Iskra.StdWeb.DOMHighResTimeStamp time);
+public delegate void FrameRequestCallback(double time);
 
 #nullable disable
