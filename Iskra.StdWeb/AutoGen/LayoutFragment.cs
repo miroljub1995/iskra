@@ -49,7 +49,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Data
+    public object? Data
     {
         get
         {

@@ -29,7 +29,7 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object State
+    public object? State
     {
         get
         {

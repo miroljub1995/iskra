@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceMark(JSObject obj): PerformanceEntry(obj)
 {
-    public object Detail
+    public object? Detail
     {
         get
         {

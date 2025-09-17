@@ -73,7 +73,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Info
+    public object? Info
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRequest(JSObject obj): EventTarget(obj)
 {
-    public object Result
+    public object? Result
     {
         get
         {

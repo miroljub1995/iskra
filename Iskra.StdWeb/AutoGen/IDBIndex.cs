@@ -29,7 +29,7 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object KeyPath
+    public object? KeyPath
     {
         get
         {

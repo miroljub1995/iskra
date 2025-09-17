@@ -44,11 +44,13 @@ public class GenerateCommand : Command
             services.AddSingleton<GenTypeDescriptors>();
 
             services
+                .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()
+                .AddSingleton<CallbackTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
-                .AddSingleton<IDLInterfaceMemberTypeGenerator>()
-                .AddSingleton<IDLTypeDescriptionToTypeGenerator>()
-                .AddSingleton<InterfaceGenerator>()
+                .AddSingleton<MemberTypeGenerator>()
+                .AddSingleton<IDLTypeDescriptionToTypeDeclarationGenerator>()
+                .AddSingleton<InterfaceTypeGenerator>()
                 .AddSingleton<ModuleGenerator>();
 
             await using var provider = services.BuildServiceProvider();

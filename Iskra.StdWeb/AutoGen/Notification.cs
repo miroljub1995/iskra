@@ -185,7 +185,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Data
+    public object? Data
     {
         get
         {

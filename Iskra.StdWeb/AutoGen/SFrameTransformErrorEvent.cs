@@ -25,7 +25,7 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Frame
+    public object? Frame
     {
         get
         {

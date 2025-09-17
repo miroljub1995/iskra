@@ -33,7 +33,7 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RangeStart
+    public object? RangeStart
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object RangeEnd
+    public object? RangeEnd
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ExitRangeStart
+    public object? ExitRangeStart
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object ExitRangeEnd
+    public object? ExitRangeEnd
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredential(JSObject obj): Credential(obj)
 {
-    public object Token
+    public object? Token
     {
         get
         {

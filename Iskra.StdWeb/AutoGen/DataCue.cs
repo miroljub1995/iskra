@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataCue(JSObject obj): TextTrackCue(obj)
 {
-    public object Value
+    public object? Value
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
 {
-    public object Lower
+    public object? Lower
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Upper
+    public object? Upper
     {
         get
         {

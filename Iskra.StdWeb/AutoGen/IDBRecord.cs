@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public object Key
+    public object? Key
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PrimaryKey
+    public object? PrimaryKey
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Value
+    public object? Value
     {
         get
         {

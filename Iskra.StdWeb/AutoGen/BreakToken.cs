@@ -17,7 +17,7 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Data
+    public object? Data
     {
         get
         {

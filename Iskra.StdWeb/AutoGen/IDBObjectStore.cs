@@ -21,7 +21,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object KeyPath
+    public object? KeyPath
     {
         get
         {

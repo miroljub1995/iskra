@@ -17,7 +17,7 @@ public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdat
         }
     }
 
-    public object? MethodDetails
+    public JSObject? MethodDetails
     {
         get
         {

@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ValueEvent(JSObject obj): Event(obj)
 {
-    public object Value
+    public object? Value
     {
         get
         {

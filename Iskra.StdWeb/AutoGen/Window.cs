@@ -169,7 +169,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Opener
+    public object? Opener
     {
         get
         {

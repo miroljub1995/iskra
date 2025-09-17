@@ -4,8 +4,8 @@ using Microsoft.Extensions.Options;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
-public class InterfaceGenerator(
-    IDLInterfaceMemberTypeGenerator idlInterfaceMemberTypeGenerator,
+public class InterfaceTypeGenerator(
+    MemberTypeGenerator memberTypeGenerator,
     GenSettings genSettings
 )
 {
@@ -17,7 +17,7 @@ public class InterfaceGenerator(
 
         foreach (var idlInterfaceMemberType in input.Members)
         {
-            var part = idlInterfaceMemberTypeGenerator.Generate(idlInterfaceMemberType);
+            var part = memberTypeGenerator.Generate(idlInterfaceMemberType);
             if (!string.IsNullOrEmpty(part))
             {
                 bodyParts.Add(part);

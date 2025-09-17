@@ -6,8 +6,9 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class ModuleGenerator(
     ILogger<ModuleGenerator> logger,
+    CallbackTypeGenerator callbackTypeGenerator,
     EnumTypeGenerator enumTypeGenerator,
-    InterfaceGenerator interfaceGenerator,
+    InterfaceTypeGenerator interfaceTypeGenerator,
     GenTypeDescriptors genTypeDescriptors
 )
 {
@@ -24,9 +25,24 @@ public class ModuleGenerator(
 
         foreach (var idlRootType in module.IDLParsed.IDLNames.Values)
         {
-            genTypeDescriptors.ResolveTypedefInIDLRootType(idlRootType);
+            if (idlRootType is CallbackType callbackType)
+            {
+                var outputFile = Path.GetFullPath(Path.Combine(outputDir, callbackType.Name + ".cs"));
+                if (File.Exists(outputFile))
+                {
+                    throw new Exception($"Output file {outputFile} already exists.");
+                }
 
-            if (idlRootType is InterfaceType interfaceType)
+                if (!genTypeDescriptors.TryGet(callbackType.Name, out var gen) ||
+                    gen.RootType is not CallbackType foundType)
+                {
+                    throw new Exception($"Unable to find type {callbackType.Name}.");
+                }
+
+                var content = callbackTypeGenerator.Generate(foundType);
+                await File.WriteAllTextAsync(outputFile, content, cancellationToken);
+            }
+            else if (idlRootType is InterfaceType interfaceType)
             {
                 var outputFile = Path.GetFullPath(Path.Combine(outputDir, interfaceType.Name + ".cs"));
                 if (File.Exists(outputFile))
@@ -34,8 +50,14 @@ public class ModuleGenerator(
                     throw new Exception($"Output file {outputFile} already exists.");
                 }
 
-                var interfaceContent = interfaceGenerator.Generate(interfaceType);
-                await File.WriteAllTextAsync(outputFile, interfaceContent, cancellationToken);
+                if (!genTypeDescriptors.TryGet(interfaceType.Name, out var gen) ||
+                    gen.RootType is not InterfaceType foundType)
+                {
+                    throw new Exception($"Unable to find type {interfaceType.Name}.");
+                }
+
+                var content = interfaceTypeGenerator.Generate(foundType);
+                await File.WriteAllTextAsync(outputFile, content, cancellationToken);
             }
             else if (idlRootType is EnumType enumType)
             {
@@ -45,8 +67,14 @@ public class ModuleGenerator(
                     throw new Exception($"Output file {outputFile} already exists.");
                 }
 
-                var enumTypeContent = enumTypeGenerator.Generate(enumType);
-                await File.WriteAllTextAsync(outputFile, enumTypeContent, cancellationToken);
+                if (!genTypeDescriptors.TryGet(enumType.Name, out var gen) ||
+                    gen.RootType is not EnumType foundType)
+                {
+                    throw new Exception($"Unable to find type {enumType.Name}.");
+                }
+
+                var content = enumTypeGenerator.Generate(foundType);
+                await File.WriteAllTextAsync(outputFile, content, cancellationToken);
             }
             else
             {

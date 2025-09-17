@@ -3,8 +3,8 @@ using Microsoft.Extensions.Logging;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
-public class IDLTypeDescriptionToTypeGenerator(
-    ILogger<IDLTypeDescriptionToTypeGenerator> logger,
+public class IDLTypeDescriptionToTypeDeclarationGenerator(
+    ILogger<IDLTypeDescriptionToTypeDeclarationGenerator> logger,
     GenSettings genSettings,
     GenTypeDescriptors genTypeDescriptors
 )
@@ -39,13 +39,14 @@ public class IDLTypeDescriptionToTypeGenerator(
     {
         var rewriteTypeIfNeeded = RewriteTypeIfNeeded(input.IdlType);
         var mapped = MapToDotnetType(rewriteTypeIfNeeded);
-        return MakeNullableIfNeeded(mapped, input.Nullable);
+        return MakeNullableIfNeeded(mapped, input.Nullable || input.IdlType == "any");
     }
 
     private string MapToDotnetType(string input)
         => input switch
         {
             "any" => "object",
+            "undefined" => "void",
             "boolean" => "bool",
             "octet" => "byte",
             "byte" => "sbyte",
@@ -60,7 +61,7 @@ public class IDLTypeDescriptionToTypeGenerator(
             "double" => "double",
             "unrestricted double" => "double",
             "string" => "string",
-            "object" => "object",
+            "object" => "JSObject",
             _ => MapReferenceToDotnetType(input),
         };
 

@@ -421,7 +421,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object? ValueAsDate
+    public JSObject? ValueAsDate
     {
         get
         {

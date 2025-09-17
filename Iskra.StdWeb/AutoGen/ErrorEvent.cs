@@ -41,7 +41,7 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Error
+    public object? Error
     {
         get
         {

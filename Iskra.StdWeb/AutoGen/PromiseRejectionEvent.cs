@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
 {
-    public object Promise
+    public JSObject Promise
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Reason
+    public object? Reason
     {
         get
         {

@@ -25,7 +25,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Details
+    public JSObject Details
     {
         get
         {

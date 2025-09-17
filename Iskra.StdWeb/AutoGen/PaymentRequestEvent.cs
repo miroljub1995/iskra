@@ -41,7 +41,7 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object Total
+    public JSObject Total
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object? PaymentOptions
+    public JSObject? PaymentOptions
     {
         get
         {

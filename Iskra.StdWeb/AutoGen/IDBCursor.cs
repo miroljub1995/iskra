@@ -25,7 +25,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Key
+    public object? Key
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object PrimaryKey
+    public object? PrimaryKey
     {
         get
         {

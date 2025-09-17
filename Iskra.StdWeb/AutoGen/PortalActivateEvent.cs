@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PortalActivateEvent(JSObject obj): Event(obj)
 {
-    public object Data
+    public object? Data
     {
         get
         {

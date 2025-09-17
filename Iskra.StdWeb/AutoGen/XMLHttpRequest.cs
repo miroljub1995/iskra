@@ -97,7 +97,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         }
     }
 
-    public object Response
+    public object? Response
     {
         get
         {

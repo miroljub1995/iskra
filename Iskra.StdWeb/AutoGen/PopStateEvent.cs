@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class PopStateEvent(JSObject obj): Event(obj)
 {
-    public object State
+    public object? State
     {
         get
         {

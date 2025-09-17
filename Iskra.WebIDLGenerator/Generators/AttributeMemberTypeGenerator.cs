@@ -4,7 +4,7 @@ using Iskra.WebIDLGenerator.Models;
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class AttributeMemberTypeGenerator(
-    IDLTypeDescriptionToTypeGenerator descriptionToTypeGenerator
+    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator
 )
 {
     public string Generate(AttributeMemberType input)
@@ -14,7 +14,7 @@ public class AttributeMemberTypeGenerator(
         var isStatic = input.Special == AttributeSpecial.Static;
         var staticKeyword = isStatic ? " static" : "";
 
-        var returnType = descriptionToTypeGenerator.Generate(input.IdlType);
+        var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
         var getter = $$"""
                        get

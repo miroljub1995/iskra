@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public object Data
+    public object? Data
     {
         get
         {

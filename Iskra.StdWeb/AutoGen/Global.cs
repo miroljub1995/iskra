@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Global(JSObject obj): JSObjectProxy(obj)
 {
-    public object Value
+    public object? Value
     {
         get
         {

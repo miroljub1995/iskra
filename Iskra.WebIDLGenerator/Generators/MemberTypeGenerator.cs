@@ -3,12 +3,12 @@ using Microsoft.Extensions.Logging;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
-public class IDLInterfaceMemberTypeGenerator(
-    ILogger<IDLInterfaceMemberTypeGenerator> logger,
+public class MemberTypeGenerator(
+    ILogger<MemberTypeGenerator> logger,
     AttributeMemberTypeGenerator attributeMemberTypeGenerator
 )
 {
-    public string Generate(IDLInterfaceMemberType input)
+    public string Generate(IDLCallbackInterfaceMemberType input)
     {
         if (input is AttributeMemberType attributeMemberType)
         {

@@ -25,7 +25,7 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Algorithm
+    public JSObject Algorithm
     {
         get
         {
@@ -33,7 +33,7 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Usages
+    public JSObject Usages
     {
         get
         {

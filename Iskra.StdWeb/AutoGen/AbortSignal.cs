@@ -17,7 +17,7 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Reason
+    public object? Reason
     {
         get
         {

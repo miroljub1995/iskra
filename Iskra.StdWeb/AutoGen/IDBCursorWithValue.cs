@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBCursorWithValue(JSObject obj): IDBCursor(obj)
 {
-    public object Value
+    public object? Value
     {
         get
         {

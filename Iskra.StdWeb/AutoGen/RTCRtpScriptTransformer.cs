@@ -37,7 +37,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Options
+    public object? Options
     {
         get
         {

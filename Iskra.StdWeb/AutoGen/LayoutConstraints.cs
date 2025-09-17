@@ -73,7 +73,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Data
+    public object? Data
     {
         get
         {

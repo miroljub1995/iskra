@@ -17,7 +17,7 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
         }
     }
 
-    public object Data
+    public JSObject Data
     {
         get
         {

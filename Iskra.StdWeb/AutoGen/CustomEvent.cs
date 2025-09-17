@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class CustomEvent(JSObject obj): Event(obj)
 {
-    public object Detail
+    public object? Detail
     {
         get
         {
