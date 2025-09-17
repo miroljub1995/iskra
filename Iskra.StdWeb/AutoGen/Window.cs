@@ -9,7 +9,7 @@ namespace Iskra.StdWeb;
 
 public partial class Window(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.Window Window
+    public Iskra.StdWeb.Window Window_
     {
         get
         {

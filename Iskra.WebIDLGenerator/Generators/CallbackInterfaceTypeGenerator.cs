@@ -1,18 +1,15 @@
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
-using Microsoft.Extensions.Options;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
-public class InterfaceTypeGenerator(
-    MemberTypeGenerator memberTypeGenerator,
-    GenSettings genSettings
+public class CallbackInterfaceTypeGenerator(
+    GenSettings genSettings,
+    MemberTypeGenerator memberTypeGenerator
 )
 {
-    public string Generate(InterfaceType input)
+    public string Generate(CallbackInterfaceType input)
     {
-        var baseTypeName = input.Inheritance ?? "JSObjectProxy";
-
         List<string> bodyParts = [];
 
         foreach (var idlInterfaceMemberType in input.Members)
@@ -36,7 +33,7 @@ public class InterfaceTypeGenerator(
 
                         #nullable enable
 
-                        public partial class {{input.Name}}(JSObject obj): {{baseTypeName}}(obj)
+                        public partial class {{input.Name}}(JSObject obj): JSObjectProxy(obj)
                         {
                         {{body.IndentLines(4)}}
                         }

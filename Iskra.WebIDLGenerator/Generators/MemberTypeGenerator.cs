@@ -8,11 +8,11 @@ public class MemberTypeGenerator(
     AttributeMemberTypeGenerator attributeMemberTypeGenerator
 )
 {
-    public string Generate(IDLCallbackInterfaceMemberType input)
+    public string Generate(IDLCallbackInterfaceMemberType input, string containingTypeName)
     {
         if (input is AttributeMemberType attributeMemberType)
         {
-            return attributeMemberTypeGenerator.Generate(attributeMemberType);
+            return attributeMemberTypeGenerator.Generate(attributeMemberType, containingTypeName);
         }
 
         logger.LogWarning("Interface Member Type {type} is not handled.", input.GetType());

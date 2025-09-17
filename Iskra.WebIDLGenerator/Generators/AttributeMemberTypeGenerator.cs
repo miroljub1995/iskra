@@ -7,12 +7,18 @@ public class AttributeMemberTypeGenerator(
     IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator
 )
 {
-    public string Generate(AttributeMemberType input)
+    public string Generate(AttributeMemberType input, string containingTypeName)
     {
         List<string> bodyParts = [];
 
         var isStatic = input.Special == AttributeSpecial.Static;
         var staticKeyword = isStatic ? " static" : "";
+
+        var name = input.Name.Replace('-', '_').CapitalizeFirstLetter();
+        if (name == containingTypeName)
+        {
+            name += "_";
+        }
 
         var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
@@ -40,7 +46,7 @@ public class AttributeMemberTypeGenerator(
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
-                        public{{staticKeyword}} {{returnType}} {{input.Name.Replace('-', '_').CapitalizeFirstLetter()}}
+                        public{{staticKeyword}} {{returnType}} {{name}}
                         {
                         {{body.IndentLines(4)}}
                         }
