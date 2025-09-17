@@ -47,6 +47,7 @@ public class GenerateCommand : Command
                 .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()
                 .AddSingleton<CallbackTypeGenerator>()
+                .AddSingleton<DictionaryTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
                 .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<IDLTypeDescriptionToTypeDeclarationGenerator>()

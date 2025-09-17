@@ -7,6 +7,7 @@ namespace Iskra.WebIDLGenerator.Generators;
 public class ModuleGenerator(
     ILogger<ModuleGenerator> logger,
     CallbackTypeGenerator callbackTypeGenerator,
+    DictionaryTypeGenerator dictionaryTypeGenerator,
     EnumTypeGenerator enumTypeGenerator,
     InterfaceTypeGenerator interfaceTypeGenerator,
     GenTypeDescriptors genTypeDescriptors
@@ -40,6 +41,23 @@ public class ModuleGenerator(
                 }
 
                 var content = callbackTypeGenerator.Generate(foundType);
+                await File.WriteAllTextAsync(outputFile, content, cancellationToken);
+            }
+            else if (idlRootType is DictionaryType dictionaryType)
+            {
+                var outputFile = Path.GetFullPath(Path.Combine(outputDir, dictionaryType.Name + ".cs"));
+                if (File.Exists(outputFile))
+                {
+                    throw new Exception($"Output file {outputFile} already exists.");
+                }
+
+                if (!genTypeDescriptors.TryGet(dictionaryType.Name, out var gen) ||
+                    gen.RootType is not DictionaryType foundType)
+                {
+                    throw new Exception($"Unable to find type {dictionaryType.Name}.");
+                }
+
+                var content = dictionaryTypeGenerator.Generate(foundType);
                 await File.WriteAllTextAsync(outputFile, content, cancellationToken);
             }
             else if (idlRootType is InterfaceType interfaceType)

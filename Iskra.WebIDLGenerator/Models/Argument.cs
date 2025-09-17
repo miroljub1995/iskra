@@ -17,6 +17,8 @@ public class Argument : AbstractBase
     public string ValidCSharpName => Name switch
     {
         "event" => "@event",
+        "params" => "@params",
+        "lock" => "@lock",
         _ => Name
     };
 }
