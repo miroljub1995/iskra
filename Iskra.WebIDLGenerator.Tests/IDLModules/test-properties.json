@@ -1,0 +1,373 @@
+{
+  "spec": {
+    "title": "HTML Standard",
+    "url": "https://html.spec.whatwg.org/multipage/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestProperties": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestProperties",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "intProperty",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "intPropertyReadOnly",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "intPropertyNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "intPropertyReadOnlyNullableAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "intPropertyReadOnlyNullableAsNotNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "doubleProperty",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "double"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "doublePropertyReadOnly",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "double"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "doublePropertyNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "double"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "doublePropertyReadOnlyNullableAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "double"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "doublePropertyReadOnlyNullableAsNotNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "double"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "boolProperty",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "boolPropertyReadOnly",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "boolPropertyNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "boolPropertyReadOnlyNullableAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "boolPropertyReadOnlyNullableAsTrue",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "boolPropertyReadOnlyNullableAsFalse",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "stringProperty",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "stringPropertyReadOnly",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "stringPropertyNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "stringPropertyReadOnlyNullableAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "stringPropertyReadOnlyNullableAsNotNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "stringPropertyReadOnlyNullableAsEmpty",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}

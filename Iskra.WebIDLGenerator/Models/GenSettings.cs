@@ -13,9 +13,12 @@ public record GenSettings
 
     [JsonPropertyName("namespace")] public required string Namespace { get; set; }
 
+    [JsonPropertyName("proxyFactoryName")] public string? ProxyFactoryName { get; set; }
+
     [JsonPropertyName("typeRewrite")] public Dictionary<string, string> TypeRewrite { get; set; } = new();
 
-    public static async Task<GenSettings> ReadFromFileAsync(string gensettingsPath, CancellationToken cancellationToken = default)
+    public static async Task<GenSettings> ReadFromFileAsync(string gensettingsPath,
+        CancellationToken cancellationToken = default)
     {
         var content = await File.ReadAllTextAsync(gensettingsPath, cancellationToken);
 

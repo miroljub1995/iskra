@@ -50,9 +50,10 @@ public class GenerateCommand : Command
                 .AddSingleton<CallbackInterfaceTypeGenerator>()
                 .AddSingleton<DictionaryTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
-                .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<IDLTypeDescriptionToTypeDeclarationGenerator>()
                 .AddSingleton<InterfaceTypeGenerator>()
+                .AddSingleton<JSProxyFactoryGenerator>()
+                .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<ModuleGenerator>();
 
             await using var provider = services.BuildServiceProvider();
@@ -76,9 +77,10 @@ public class GenerateCommand : Command
             var genTypeDescriptors = provider.GetRequiredService<GenTypeDescriptors>();
 
             await AddGenSettingsToDescriptorsAsync(
-                genTypeDescriptors,
-                genSettingsFullPath,
-                cancellationToken
+                descriptors: genTypeDescriptors,
+                gensettingsPath: genSettingsFullPath,
+                isMain: true,
+                cancellationToken: cancellationToken
             );
 
             genTypeDescriptors.ResolveTypedefs();
@@ -90,12 +92,16 @@ public class GenerateCommand : Command
 
                 await moduleGenerator.GenerateAsync(inputFile, genSettings.Output, cancellationToken);
             }
+
+            var jsProxyFactoryGenerator = provider.GetRequiredService<JSProxyFactoryGenerator>();
+            await jsProxyFactoryGenerator.GenerateAsync(cancellationToken);
         });
     }
 
     private static async Task AddGenSettingsToDescriptorsAsync(
         GenTypeDescriptors descriptors,
         string gensettingsPath,
+        bool isMain,
         CancellationToken cancellationToken = default
     )
     {
@@ -103,7 +109,7 @@ public class GenerateCommand : Command
 
         foreach (var reference in settings.References)
         {
-            await AddGenSettingsToDescriptorsAsync(descriptors, reference, cancellationToken);
+            await AddGenSettingsToDescriptorsAsync(descriptors, reference, false, cancellationToken);
         }
 
         var moduleFiles = GetModuleFiles(settings.Input);
@@ -126,6 +132,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = callbackType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is CallbackInterfaceType callbackInterfaceType)
@@ -135,6 +142,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = callbackInterfaceType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is DictionaryType dictionaryType)
@@ -144,6 +152,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = dictionaryType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is EnumType enumType)
@@ -153,6 +162,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = enumType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is InterfaceMixinType interfaceMixinType)
@@ -162,6 +172,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = interfaceMixinType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is InterfaceType interfaceType)
@@ -171,6 +182,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = interfaceType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is NamespaceType namespaceType)
@@ -180,6 +192,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = namespaceType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
                 else if (idlRootType is TypedefType typedefType)
@@ -189,6 +202,7 @@ public class GenerateCommand : Command
                         Namespace = settings.Namespace,
                         Name = typedefType.Name,
                         RootType = idlRootType,
+                        IsMain = isMain,
                     });
                 }
             }

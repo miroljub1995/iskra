@@ -5,6 +5,7 @@
   "input": "../submodules/webref/curated/ed/idlparsed",
   "output": "./AutoGen",
   "namespace": "Iskra.StdWeb",
+  "proxyFactoryName": "StdWebProxyFactory",
   "typeRewrite": {
     "DOMString": "string",
     "CSSOMString": "string",

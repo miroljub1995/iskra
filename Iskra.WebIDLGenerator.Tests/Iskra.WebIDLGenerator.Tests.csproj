@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+        <RunAOTCompilation>true</RunAOTCompilation>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>full</TrimMode>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="TUnit" Version="0.57.1"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <WasmExtraFilesToDeploy Include="init-tests.js" />
+        <WasmExtraFilesToDeploy Include="test-extension-init.js"/>
+        <WasmExtraFilesToDeploy Include="Tests\**\*.js" TargetPath="Tests\%(RecursiveDir)%(FileName)%(Extension)"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Iskra.JSCore\Iskra.JSCore.csproj"/>
+    </ItemGroup>
+
+</Project>

@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.Core;
+using Iskra.JSCore;
 using Iskra.StdWeb;
 
 namespace Iskra.CoreExample;
@@ -10,7 +11,7 @@ public class DomAnchor : IAnchor
 
     public DomAnchor()
     {
-        Window window = WrapperFactory.GetWrapper<Window>(JSHost.GlobalThis);
+        Window window = JSObjectProxyFactory.GetWrapper<Window>(JSHost.GlobalThis);
         _parent = window.Document.Body;
     }
 }

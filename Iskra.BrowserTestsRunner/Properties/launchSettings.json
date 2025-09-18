@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Iskra.WebIDLGenerator.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RunnerBundlePath": "../../../../Iskra.WebIDLGenerator.Tests/bin/Debug/net9.0/browser-wasm/AppBundle/"
+      }
+    }
+  }
+}

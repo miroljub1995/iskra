@@ -7,6 +7,10 @@
     "Generate Std.Web": {
       "commandName": "Project",
       "commandLineArgs": "generate \"../Iskra.StdWeb/gensettings.json\""
+    },
+    "Generate WebIDLGenerator.Tests": {
+      "commandName": "Project",
+      "commandLineArgs": "generate \"../Iskra.WebIDLGenerator.Tests/gensettings.json\""
     }
   }
 }

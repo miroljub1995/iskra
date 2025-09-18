@@ -3,24 +3,24 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Iskra.JSCore\Iskra.JSCore.csproj" />
+        <ProjectReference Include="..\Iskra.JSCore\Iskra.JSCore.csproj"/>
     </ItemGroup>
 
-    <Target Name="GenerateBindings" BeforeTargets="BeforeBuild">
-        <!-- DotnetPath -->
-        <PropertyGroup Condition="'$(DOTNET_HOST_PATH)' == ''">
-            <DotnetPath>$(NetCoreRoot)/dotnet</DotnetPath>
-            <DotnetPath Condition="'$(OS)' == 'Windows_NT'">$(NetCoreRoot)/dotnet.exe</DotnetPath>
-        </PropertyGroup>
-        <PropertyGroup Condition="'$(DOTNET_HOST_PATH)' != ''">
-            <DotnetPath>$(DOTNET_HOST_PATH)</DotnetPath>
-        </PropertyGroup>
+    <!--    <Target Name="GenerateBindings" BeforeTargets="BeforeBuild">-->
+    <!--        &lt;!&ndash; DotnetPath &ndash;&gt;-->
+    <!--        <PropertyGroup Condition="'$(DOTNET_HOST_PATH)' == ''">-->
+    <!--            <DotnetPath>$(NetCoreRoot)/dotnet</DotnetPath>-->
+    <!--            <DotnetPath Condition="'$(OS)' == 'Windows_NT'">$(NetCoreRoot)/dotnet.exe</DotnetPath>-->
+    <!--        </PropertyGroup>-->
+    <!--        <PropertyGroup Condition="'$(DOTNET_HOST_PATH)' != ''">-->
+    <!--            <DotnetPath>$(DOTNET_HOST_PATH)</DotnetPath>-->
+    <!--        </PropertyGroup>-->
 
-        <!-- Generator project -->
-        <PropertyGroup>
-            <IskraGeneratorProject>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine($(MSBuildProjectDirectory), "../Iskra.StdWebGenerator"))))</IskraGeneratorProject>
-        </PropertyGroup>
+    <!--         Generator project -->
+    <!--        <PropertyGroup>-->
+    <!--            <IskraGeneratorProject>$([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine($(MSBuildProjectDirectory), "../Iskra.StdWebGenerator"))))</IskraGeneratorProject>-->
+    <!--        </PropertyGroup>-->
 
-        <Exec Command="&quot;$(DotnetPath)&quot; run --project &quot;$(IskraGeneratorProject)&quot;"/>
-    </Target>
+    <!--        <Exec Command="&quot;$(DotnetPath)&quot; run &#45;&#45;project &quot;$(IskraGeneratorProject)&quot;"/>-->
+    <!--    </Target>-->
 </Project>

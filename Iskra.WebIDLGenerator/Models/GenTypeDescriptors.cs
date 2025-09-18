@@ -6,6 +6,8 @@ public class GenTypeDescriptors
 {
     private readonly List<GenTypeDescriptor> _genTypeDescriptors = [];
 
+    public IReadOnlyList<GenTypeDescriptor> Descriptors => _genTypeDescriptors.AsReadOnly();
+
     public void Add(GenTypeDescriptor genTypeDescriptor)
     {
         if (_genTypeDescriptors.Any(x => x.Name == genTypeDescriptor.Name))
