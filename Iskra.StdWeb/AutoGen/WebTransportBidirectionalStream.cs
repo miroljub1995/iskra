@@ -13,7 +13,9 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
     {
         get
         {
+            Iskra.StdWeb.WebTransportReceiveStream __res_923;
             throw new Exception();
+            return __res_923;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
     {
         get
         {
+            Iskra.StdWeb.WebTransportSendStream __res_924;
             throw new Exception();
+            return __res_924;
         }
     }
 }

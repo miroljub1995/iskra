@@ -13,7 +13,9 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
     {
         get
         {
+            Iskra.StdWeb.OscillatorType __res_3232;
             throw new Exception();
+            return __res_3232;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3233;
             throw new Exception();
+            return __res_3233;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3234;
             throw new Exception();
+            return __res_3234;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSession __res_1747;
             throw new Exception();
+            return __res_1747;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_1748;
             throw new Exception();
+            return __res_1748;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_1749;
             throw new Exception();
+            return __res_1749;
         }
     }
 }

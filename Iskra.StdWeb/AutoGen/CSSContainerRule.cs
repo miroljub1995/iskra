@@ -13,7 +13,9 @@ public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
+            string __res_2814;
             throw new Exception();
+            return __res_2814;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
+            string __res_2815;
             throw new Exception();
+            return __res_2815;
         }
     }
 }

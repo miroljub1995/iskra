@@ -2,7 +2,9 @@
   "references": [
     "../Iskra.JSCore/gensettings.json"
   ],
-  "input": "./IDLModules",
+  "inputs": [
+    "./IDLModules"
+  ],
   "output": "./AutoGen",
   "namespace": "Iskra.WebIDLGenerator.Tests",
   "proxyFactoryName": "WebIDLGeneratorTestsProxyFactory"

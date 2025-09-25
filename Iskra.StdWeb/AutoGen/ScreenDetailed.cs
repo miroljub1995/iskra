@@ -13,7 +13,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
+            int __res_1200;
             throw new Exception();
+            return __res_1200;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
+            int __res_1201;
             throw new Exception();
+            return __res_1201;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
+            int __res_1202;
             throw new Exception();
+            return __res_1202;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
+            int __res_1203;
             throw new Exception();
+            return __res_1203;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1204;
+            __res_1204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            return __res_1204;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1205;
+            __res_1205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isInternal");
+            return __res_1205;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
+            float __res_1206;
             throw new Exception();
+            return __res_1206;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
+            string __res_1207;
             throw new Exception();
+            return __res_1207;
         }
     }
 }

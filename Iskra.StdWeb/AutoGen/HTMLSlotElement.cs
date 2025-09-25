@@ -13,7 +13,9 @@ public partial class HTMLSlotElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2531;
             throw new Exception();
+            return __res_2531;
         }
         set
         {

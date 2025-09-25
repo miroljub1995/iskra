@@ -13,7 +13,9 @@ public partial class NDEFMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1860;
             throw new Exception();
+            return __res_1860;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3027;
             throw new Exception();
+            return __res_3027;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3028;
             throw new Exception();
+            return __res_3028;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3029;
             throw new Exception();
+            return __res_3029;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1432;
             throw new Exception();
+            return __res_1432;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1433;
             throw new Exception();
+            return __res_1433;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1434;
             throw new Exception();
+            return __res_1434;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1435;
             throw new Exception();
+            return __res_1435;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1436;
             throw new Exception();
+            return __res_1436;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1437;
             throw new Exception();
+            return __res_1437;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1438;
             throw new Exception();
+            return __res_1438;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1439;
             throw new Exception();
+            return __res_1439;
         }
     }
 }

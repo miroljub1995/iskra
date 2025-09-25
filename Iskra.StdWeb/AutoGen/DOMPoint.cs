@@ -13,7 +13,9 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
+            double __res_1428;
             throw new Exception();
+            return __res_1428;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
+            double __res_1429;
             throw new Exception();
+            return __res_1429;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
+            double __res_1430;
             throw new Exception();
+            return __res_1430;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
+            double __res_1431;
             throw new Exception();
+            return __res_1431;
         }
         set
         {

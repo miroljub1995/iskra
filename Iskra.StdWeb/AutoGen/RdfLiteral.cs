@@ -13,7 +13,9 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2055;
             throw new Exception();
+            return __res_2055;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2056;
             throw new Exception();
+            return __res_2056;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2057;
             throw new Exception();
+            return __res_2057;
         }
     }
 }

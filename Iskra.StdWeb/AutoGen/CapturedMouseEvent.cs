@@ -13,7 +13,9 @@ public partial class CapturedMouseEvent(JSObject obj): Event(obj)
     {
         get
         {
+            int __res_1194;
             throw new Exception();
+            return __res_1194;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CapturedMouseEvent(JSObject obj): Event(obj)
     {
         get
         {
+            int __res_1195;
             throw new Exception();
+            return __res_1195;
         }
     }
 }

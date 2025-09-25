@@ -13,7 +13,9 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MLOperandDataType __res_1909;
             throw new Exception();
+            return __res_1909;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1910;
             throw new Exception();
+            return __res_1910;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1911;
+            __res_1911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readable");
+            return __res_1911;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1912;
+            __res_1912 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writable");
+            return __res_1912;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1913;
+            __res_1913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "constant");
+            return __res_1913;
         }
     }
 }

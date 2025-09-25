@@ -13,7 +13,9 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_237;
             throw new Exception();
+            return __res_237;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_238;
             throw new Exception();
+            return __res_238;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_239;
             throw new Exception();
+            return __res_239;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_240;
             throw new Exception();
+            return __res_240;
         }
     }
 }

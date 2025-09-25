@@ -13,7 +13,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationType __res_2643;
             throw new Exception();
+            return __res_2643;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationDestination __res_2644;
             throw new Exception();
+            return __res_2644;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2645;
+            __res_2645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canIntercept");
+            return __res_2645;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2646;
+            __res_2646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userInitiated");
+            return __res_2646;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2647;
+            __res_2647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hashChange");
+            return __res_2647;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.AbortSignal __res_2648;
             throw new Exception();
+            return __res_2648;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.FormData? __res_2649;
             throw new Exception();
+            return __res_2649;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_2650;
             throw new Exception();
+            return __res_2650;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_2651;
             throw new Exception();
+            return __res_2651;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2652;
+            __res_2652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            return __res_2652;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_2653;
             throw new Exception();
+            return __res_2653;
         }
     }
 }

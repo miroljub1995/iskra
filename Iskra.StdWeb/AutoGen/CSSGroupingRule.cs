@@ -13,7 +13,9 @@ public partial class CSSGroupingRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSRuleList __res_2877;
             throw new Exception();
+            return __res_2877;
         }
     }
 }

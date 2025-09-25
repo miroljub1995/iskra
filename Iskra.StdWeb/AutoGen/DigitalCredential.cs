@@ -13,7 +13,9 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            string __res_1412;
             throw new Exception();
+            return __res_1412;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            JSObject __res_1413;
             throw new Exception();
+            return __res_1413;
         }
     }
 }

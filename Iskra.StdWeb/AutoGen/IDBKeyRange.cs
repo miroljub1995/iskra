@@ -13,7 +13,9 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3023;
             throw new Exception();
+            return __res_3023;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3024;
             throw new Exception();
+            return __res_3024;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3025;
+            __res_3025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            return __res_3025;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3026;
+            __res_3026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            return __res_3026;
         }
     }
 }

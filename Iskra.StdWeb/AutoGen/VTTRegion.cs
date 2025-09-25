@@ -13,7 +13,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2839;
             throw new Exception();
+            return __res_2839;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2840;
             throw new Exception();
+            return __res_2840;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2841;
             throw new Exception();
+            return __res_2841;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2842;
             throw new Exception();
+            return __res_2842;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2843;
             throw new Exception();
+            return __res_2843;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2844;
             throw new Exception();
+            return __res_2844;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2845;
             throw new Exception();
+            return __res_2845;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ScrollSetting __res_2846;
             throw new Exception();
+            return __res_2846;
         }
         set
         {

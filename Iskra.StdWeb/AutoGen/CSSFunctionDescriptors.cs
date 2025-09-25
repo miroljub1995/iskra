@@ -13,7 +13,9 @@ public partial class CSSFunctionDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_9;
             throw new Exception();
+            return __res_9;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_631;
             throw new Exception();
+            return __res_631;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationEffect? __res_632;
             throw new Exception();
+            return __res_632;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationTimeline? __res_633;
             throw new Exception();
+            return __res_633;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_634;
             throw new Exception();
+            return __res_634;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationPlayState __res_635;
             throw new Exception();
+            return __res_635;
         }
     }
 
@@ -69,7 +79,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationReplaceState __res_636;
             throw new Exception();
+            return __res_636;
         }
     }
 
@@ -77,7 +89,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_637;
+            __res_637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
+            return __res_637;
         }
     }
 
@@ -85,7 +99,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_638;
             throw new Exception();
+            return __res_638;
         }
     }
 
@@ -93,7 +109,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_639;
             throw new Exception();
+            return __res_639;
         }
     }
 
@@ -101,7 +119,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_640;
             throw new Exception();
+            return __res_640;
         }
         set
         {
@@ -113,7 +133,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_641;
             throw new Exception();
+            return __res_641;
         }
         set
         {
@@ -125,7 +147,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_642;
             throw new Exception();
+            return __res_642;
         }
         set
         {

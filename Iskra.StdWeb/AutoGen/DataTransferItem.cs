@@ -13,7 +13,9 @@ public partial class DataTransferItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2579;
             throw new Exception();
+            return __res_2579;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DataTransferItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2580;
             throw new Exception();
+            return __res_2580;
         }
     }
 }

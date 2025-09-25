@@ -13,7 +13,9 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
+            double __res_1440;
             throw new Exception();
+            return __res_1440;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
+            double __res_1441;
             throw new Exception();
+            return __res_1441;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
+            double __res_1442;
             throw new Exception();
+            return __res_1442;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
+            double __res_1443;
             throw new Exception();
+            return __res_1443;
         }
         set
         {

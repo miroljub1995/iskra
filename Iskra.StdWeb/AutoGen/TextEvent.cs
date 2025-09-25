@@ -13,7 +13,9 @@ public partial class TextEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            string __res_3126;
             throw new Exception();
+            return __res_3126;
         }
     }
 }

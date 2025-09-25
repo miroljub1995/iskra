@@ -13,7 +13,9 @@ public partial class ContentIndexEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_11;
             throw new Exception();
+            return __res_11;
         }
     }
 }

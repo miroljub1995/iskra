@@ -13,7 +13,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2487;
+            __res_2487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2487;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2488;
             throw new Exception();
+            return __res_2488;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2489;
             throw new Exception();
+            return __res_2489;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2490;
             throw new Exception();
+            return __res_2490;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2491;
             throw new Exception();
+            return __res_2491;
         }
     }
 
@@ -61,7 +71,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2492;
+            __res_2492 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2492;
         }
     }
 
@@ -69,7 +81,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2493;
             throw new Exception();
+            return __res_2493;
         }
     }
 
@@ -77,7 +91,9 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2494;
             throw new Exception();
+            return __res_2494;
         }
     }
 }

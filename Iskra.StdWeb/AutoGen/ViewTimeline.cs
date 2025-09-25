@@ -13,7 +13,9 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.Element __res_117;
             throw new Exception();
+            return __res_117;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_118;
             throw new Exception();
+            return __res_118;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_119;
             throw new Exception();
+            return __res_119;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
+            uint __res_2225;
             throw new Exception();
+            return __res_2225;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
+            uint __res_2226;
             throw new Exception();
+            return __res_2226;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
+            uint __res_2227;
             throw new Exception();
+            return __res_2227;
         }
     }
 
@@ -45,7 +51,9 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
+            uint __res_2228;
             throw new Exception();
+            return __res_2228;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
+            string __res_2229;
             throw new Exception();
+            return __res_2229;
         }
         set
         {
@@ -65,7 +75,9 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2230;
+            __res_2230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "playsInline");
+            return __res_2230;
         }
         set
         {

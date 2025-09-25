@@ -13,7 +13,9 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_2741;
             throw new Exception();
+            return __res_2741;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_2742;
             throw new Exception();
+            return __res_2742;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_2743;
             throw new Exception();
+            return __res_2743;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2744;
             throw new Exception();
+            return __res_2744;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Storage? __res_2745;
             throw new Exception();
+            return __res_2745;
         }
     }
 }

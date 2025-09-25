@@ -13,7 +13,9 @@ public partial class CSSStyleProperties(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2901;
             throw new Exception();
+            return __res_2901;
         }
         set
         {

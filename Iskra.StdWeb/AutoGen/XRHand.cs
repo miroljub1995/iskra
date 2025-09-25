@@ -13,7 +13,9 @@ public partial class XRHand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1541;
             throw new Exception();
+            return __res_1541;
         }
     }
 }

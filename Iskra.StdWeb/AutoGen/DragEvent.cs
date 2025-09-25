@@ -13,7 +13,9 @@ public partial class DragEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.DataTransfer? __res_2581;
             throw new Exception();
+            return __res_2581;
         }
     }
 }

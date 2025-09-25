@@ -13,7 +13,9 @@ public partial class HTMLTableColElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2326;
             throw new Exception();
+            return __res_2326;
         }
         set
         {

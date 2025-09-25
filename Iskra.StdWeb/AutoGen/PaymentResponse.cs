@@ -13,7 +13,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2913;
             throw new Exception();
+            return __res_2913;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2914;
             throw new Exception();
+            return __res_2914;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            JSObject __res_2915;
             throw new Exception();
+            return __res_2915;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ContactAddress? __res_2916;
             throw new Exception();
+            return __res_2916;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2917;
             throw new Exception();
+            return __res_2917;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2918;
             throw new Exception();
+            return __res_2918;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2919;
             throw new Exception();
+            return __res_2919;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2920;
             throw new Exception();
+            return __res_2920;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2921;
             throw new Exception();
+            return __res_2921;
         }
         set
         {

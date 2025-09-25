@@ -13,7 +13,9 @@ public partial class NDEFReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1867;
             throw new Exception();
+            return __res_1867;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class NDEFReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1868;
             throw new Exception();
+            return __res_1868;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_1177;
             throw new Exception();
+            return __res_1177;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_1178;
             throw new Exception();
+            return __res_1178;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_1179;
             throw new Exception();
+            return __res_1179;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double __res_1180;
             throw new Exception();
+            return __res_1180;
         }
     }
 }

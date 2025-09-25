@@ -13,7 +13,9 @@ public partial class USBIsochronousOutTransferPacket(JSObject obj): JSObjectProx
     {
         get
         {
+            uint __res_2007;
             throw new Exception();
+            return __res_2007;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBIsochronousOutTransferPacket(JSObject obj): JSObjectProx
     {
         get
         {
+            Iskra.StdWeb.USBTransferStatus __res_2008;
             throw new Exception();
+            return __res_2008;
         }
     }
 }

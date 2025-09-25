@@ -13,7 +13,9 @@ public partial class AudioWorklet(JSObject obj): Worklet(obj)
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_3254;
             throw new Exception();
+            return __res_3254;
         }
     }
 }

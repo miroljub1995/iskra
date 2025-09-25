@@ -13,7 +13,9 @@ public partial class MediaList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2853;
             throw new Exception();
+            return __res_2853;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class MediaList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2854;
             throw new Exception();
+            return __res_2854;
         }
     }
 }

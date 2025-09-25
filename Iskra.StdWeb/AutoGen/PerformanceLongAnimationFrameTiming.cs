@@ -13,7 +13,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            double __res_2777;
             throw new Exception();
+            return __res_2777;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            double __res_2778;
             throw new Exception();
+            return __res_2778;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            string __res_2779;
             throw new Exception();
+            return __res_2779;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            string __res_2780;
             throw new Exception();
+            return __res_2780;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            double __res_2781;
             throw new Exception();
+            return __res_2781;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            double __res_2782;
             throw new Exception();
+            return __res_2782;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            double __res_2783;
             throw new Exception();
+            return __res_2783;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            double __res_2784;
             throw new Exception();
+            return __res_2784;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
+            object __res_2785;
             throw new Exception();
+            return __res_2785;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            string __res_3116;
             throw new Exception();
+            return __res_3116;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            string __res_3117;
             throw new Exception();
+            return __res_3117;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            uint __res_3118;
             throw new Exception();
+            return __res_3118;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3119;
+            __res_3119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            return __res_3119;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3120;
+            __res_3120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            return __res_3120;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3121;
+            __res_3121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            return __res_3121;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3122;
+            __res_3122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            return __res_3122;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3123;
+            __res_3123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "repeat");
+            return __res_3123;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class KeyboardEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3124;
+            __res_3124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            return __res_3124;
         }
     }
 }

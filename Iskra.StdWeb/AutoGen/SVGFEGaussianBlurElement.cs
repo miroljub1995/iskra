@@ -13,7 +13,9 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_557;
             throw new Exception();
+            return __res_557;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_558;
             throw new Exception();
+            return __res_558;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_559;
             throw new Exception();
+            return __res_559;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_560;
             throw new Exception();
+            return __res_560;
         }
     }
 }

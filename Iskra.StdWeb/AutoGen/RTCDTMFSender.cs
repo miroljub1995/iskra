@@ -13,7 +13,9 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_855;
             throw new Exception();
+            return __res_855;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_856;
+            __res_856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
+            return __res_856;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_857;
             throw new Exception();
+            return __res_857;
         }
     }
 }

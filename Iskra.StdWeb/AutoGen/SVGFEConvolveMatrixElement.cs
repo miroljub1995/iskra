@@ -13,7 +13,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_517;
             throw new Exception();
+            return __res_517;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedInteger __res_518;
             throw new Exception();
+            return __res_518;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedInteger __res_519;
             throw new Exception();
+            return __res_519;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumberList __res_520;
             throw new Exception();
+            return __res_520;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_521;
             throw new Exception();
+            return __res_521;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_522;
             throw new Exception();
+            return __res_522;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedInteger __res_523;
             throw new Exception();
+            return __res_523;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedInteger __res_524;
             throw new Exception();
+            return __res_524;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_525;
             throw new Exception();
+            return __res_525;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_526;
             throw new Exception();
+            return __res_526;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_527;
             throw new Exception();
+            return __res_527;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedBoolean __res_528;
             throw new Exception();
+            return __res_528;
         }
     }
 }

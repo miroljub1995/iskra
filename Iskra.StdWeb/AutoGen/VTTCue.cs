@@ -13,7 +13,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            Iskra.StdWeb.VTTRegion? __res_2829;
             throw new Exception();
+            return __res_2829;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            Iskra.StdWeb.DirectionSetting __res_2830;
             throw new Exception();
+            return __res_2830;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2831;
+            __res_2831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
+            return __res_2831;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            object __res_2832;
             throw new Exception();
+            return __res_2832;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            Iskra.StdWeb.LineAlignSetting __res_2833;
             throw new Exception();
+            return __res_2833;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            object __res_2834;
             throw new Exception();
+            return __res_2834;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            Iskra.StdWeb.PositionAlignSetting __res_2835;
             throw new Exception();
+            return __res_2835;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            double __res_2836;
             throw new Exception();
+            return __res_2836;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            Iskra.StdWeb.AlignSetting __res_2837;
             throw new Exception();
+            return __res_2837;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            string __res_2838;
             throw new Exception();
+            return __res_2838;
         }
         set
         {

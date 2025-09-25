@@ -13,7 +13,9 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
+            Iskra.StdWeb.AudioBuffer? __res_3194;
             throw new Exception();
+            return __res_3194;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3195;
             throw new Exception();
+            return __res_3195;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3196;
             throw new Exception();
+            return __res_3196;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            throw new Exception();
+            bool __res_3197;
+            __res_3197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
+            return __res_3197;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
+            double __res_3198;
             throw new Exception();
+            return __res_3198;
         }
         set
         {
@@ -65,7 +75,9 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
+            double __res_3199;
             throw new Exception();
+            return __res_3199;
         }
         set
         {

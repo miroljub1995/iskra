@@ -13,7 +13,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2353;
             throw new Exception();
+            return __res_2353;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2354;
+            __res_2354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "alpha");
+            return __res_2354;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2355;
             throw new Exception();
+            return __res_2355;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2356;
             throw new Exception();
+            return __res_2356;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2357;
+            __res_2357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultChecked");
+            return __res_2357;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2358;
+            __res_2358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "checked");
+            return __res_2358;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2359;
             throw new Exception();
+            return __res_2359;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2360;
             throw new Exception();
+            return __res_2360;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2361;
+            __res_2361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2361;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2362;
             throw new Exception();
+            return __res_2362;
         }
     }
 
@@ -129,7 +149,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.FileList? __res_2363;
             throw new Exception();
+            return __res_2363;
         }
         set
         {
@@ -141,7 +163,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2364;
             throw new Exception();
+            return __res_2364;
         }
         set
         {
@@ -153,7 +177,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2365;
             throw new Exception();
+            return __res_2365;
         }
         set
         {
@@ -165,7 +191,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2366;
             throw new Exception();
+            return __res_2366;
         }
         set
         {
@@ -177,7 +205,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2367;
+            __res_2367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "formNoValidate");
+            return __res_2367;
         }
         set
         {
@@ -189,7 +219,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2368;
             throw new Exception();
+            return __res_2368;
         }
         set
         {
@@ -201,7 +233,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2369;
             throw new Exception();
+            return __res_2369;
         }
         set
         {
@@ -213,7 +247,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2370;
+            __res_2370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "indeterminate");
+            return __res_2370;
         }
         set
         {
@@ -225,7 +261,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLDataListElement? __res_2371;
             throw new Exception();
+            return __res_2371;
         }
     }
 
@@ -233,7 +271,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2372;
             throw new Exception();
+            return __res_2372;
         }
         set
         {
@@ -245,7 +285,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2373;
             throw new Exception();
+            return __res_2373;
         }
         set
         {
@@ -257,7 +299,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2374;
             throw new Exception();
+            return __res_2374;
         }
         set
         {
@@ -269,7 +313,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2375;
             throw new Exception();
+            return __res_2375;
         }
         set
         {
@@ -281,7 +327,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2376;
+            __res_2376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiple");
+            return __res_2376;
         }
         set
         {
@@ -293,7 +341,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2377;
             throw new Exception();
+            return __res_2377;
         }
         set
         {
@@ -305,7 +355,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2378;
             throw new Exception();
+            return __res_2378;
         }
         set
         {
@@ -317,7 +369,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2379;
             throw new Exception();
+            return __res_2379;
         }
         set
         {
@@ -329,7 +383,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2380;
+            __res_2380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readOnly");
+            return __res_2380;
         }
         set
         {
@@ -341,7 +397,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2381;
+            __res_2381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
+            return __res_2381;
         }
         set
         {
@@ -353,7 +411,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2382;
             throw new Exception();
+            return __res_2382;
         }
         set
         {
@@ -365,7 +425,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2383;
             throw new Exception();
+            return __res_2383;
         }
         set
         {
@@ -377,7 +439,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2384;
             throw new Exception();
+            return __res_2384;
         }
         set
         {
@@ -389,7 +453,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2385;
             throw new Exception();
+            return __res_2385;
         }
         set
         {
@@ -401,7 +467,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2386;
             throw new Exception();
+            return __res_2386;
         }
         set
         {
@@ -413,7 +481,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2387;
             throw new Exception();
+            return __res_2387;
         }
         set
         {
@@ -425,7 +495,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            JSObject? __res_2388;
             throw new Exception();
+            return __res_2388;
         }
         set
         {
@@ -437,7 +509,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2389;
             throw new Exception();
+            return __res_2389;
         }
         set
         {
@@ -449,7 +523,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2390;
             throw new Exception();
+            return __res_2390;
         }
         set
         {
@@ -461,7 +537,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2391;
+            __res_2391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2391;
         }
     }
 
@@ -469,7 +547,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2392;
             throw new Exception();
+            return __res_2392;
         }
     }
 
@@ -477,7 +557,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2393;
             throw new Exception();
+            return __res_2393;
         }
     }
 
@@ -485,7 +567,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList? __res_2394;
             throw new Exception();
+            return __res_2394;
         }
     }
 
@@ -493,7 +577,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint? __res_2395;
             throw new Exception();
+            return __res_2395;
         }
         set
         {
@@ -505,7 +591,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint? __res_2396;
             throw new Exception();
+            return __res_2396;
         }
         set
         {
@@ -517,7 +605,9 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string? __res_2397;
             throw new Exception();
+            return __res_2397;
         }
         set
         {

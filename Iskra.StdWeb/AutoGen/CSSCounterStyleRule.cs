@@ -13,7 +13,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2924;
             throw new Exception();
+            return __res_2924;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2925;
             throw new Exception();
+            return __res_2925;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2926;
             throw new Exception();
+            return __res_2926;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2927;
             throw new Exception();
+            return __res_2927;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2928;
             throw new Exception();
+            return __res_2928;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2929;
             throw new Exception();
+            return __res_2929;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2930;
             throw new Exception();
+            return __res_2930;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2931;
             throw new Exception();
+            return __res_2931;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2932;
             throw new Exception();
+            return __res_2932;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2933;
             throw new Exception();
+            return __res_2933;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class CSSCounterStyleRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2934;
             throw new Exception();
+            return __res_2934;
         }
         set
         {

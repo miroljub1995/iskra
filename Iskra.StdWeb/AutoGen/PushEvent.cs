@@ -13,7 +13,9 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.PushMessageData? __res_1992;
             throw new Exception();
+            return __res_1992;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.Notification? __res_1993;
             throw new Exception();
+            return __res_1993;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2560;
             throw new Exception();
+            return __res_2560;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2561;
             throw new Exception();
+            return __res_2561;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_2562;
             throw new Exception();
+            return __res_2562;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            uint __res_2563;
             throw new Exception();
+            return __res_2563;
         }
     }
 }

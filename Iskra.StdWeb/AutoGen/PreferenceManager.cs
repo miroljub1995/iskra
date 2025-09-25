@@ -13,7 +13,9 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PreferenceObject __res_1782;
             throw new Exception();
+            return __res_1782;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PreferenceObject __res_1783;
             throw new Exception();
+            return __res_1783;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PreferenceObject __res_1784;
             throw new Exception();
+            return __res_1784;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PreferenceObject __res_1785;
             throw new Exception();
+            return __res_1785;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PreferenceObject __res_1786;
             throw new Exception();
+            return __res_1786;
         }
     }
 }

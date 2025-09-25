@@ -13,7 +13,9 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_445;
             throw new Exception();
+            return __res_445;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_446;
             throw new Exception();
+            return __res_446;
         }
     }
 }

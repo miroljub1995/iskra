@@ -13,7 +13,9 @@ public partial class StyleSheetList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2864;
             throw new Exception();
+            return __res_2864;
         }
     }
 }

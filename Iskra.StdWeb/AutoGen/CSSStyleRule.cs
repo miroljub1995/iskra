@@ -13,7 +13,9 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string __res_2870;
             throw new Exception();
+            return __res_2870;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleProperties __res_2871;
             throw new Exception();
+            return __res_2871;
         }
     }
 }

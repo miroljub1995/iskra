@@ -13,7 +13,9 @@ public partial class HTMLTimeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2171;
             throw new Exception();
+            return __res_2171;
         }
         set
         {

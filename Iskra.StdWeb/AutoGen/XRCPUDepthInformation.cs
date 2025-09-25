@@ -13,7 +13,9 @@ public partial class XRCPUDepthInformation(JSObject obj): XRDepthInformation(obj
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_468;
             throw new Exception();
+            return __res_468;
         }
     }
 }

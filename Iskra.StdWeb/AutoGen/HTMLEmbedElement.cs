@@ -13,7 +13,9 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2210;
             throw new Exception();
+            return __res_2210;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2211;
             throw new Exception();
+            return __res_2211;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2212;
             throw new Exception();
+            return __res_2212;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2213;
             throw new Exception();
+            return __res_2213;
         }
         set
         {

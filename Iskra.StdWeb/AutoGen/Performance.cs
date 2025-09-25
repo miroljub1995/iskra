@@ -13,7 +13,9 @@ public partial class Performance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_731;
             throw new Exception();
+            return __res_731;
         }
     }
 }

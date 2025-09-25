@@ -13,7 +13,9 @@ public partial class Gyroscope(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1208;
             throw new Exception();
+            return __res_1208;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Gyroscope(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1209;
             throw new Exception();
+            return __res_1209;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Gyroscope(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1210;
             throw new Exception();
+            return __res_1210;
         }
     }
 }

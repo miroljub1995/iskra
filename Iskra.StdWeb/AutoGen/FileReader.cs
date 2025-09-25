@@ -13,7 +13,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_3133;
             throw new Exception();
+            return __res_3133;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_3134;
             throw new Exception();
+            return __res_3134;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMException? __res_3135;
             throw new Exception();
+            return __res_3135;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3136;
             throw new Exception();
+            return __res_3136;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3137;
             throw new Exception();
+            return __res_3137;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3138;
             throw new Exception();
+            return __res_3138;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3139;
             throw new Exception();
+            return __res_3139;
         }
         set
         {
@@ -85,7 +99,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3140;
             throw new Exception();
+            return __res_3140;
         }
         set
         {
@@ -97,7 +113,9 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3141;
             throw new Exception();
+            return __res_3141;
         }
         set
         {

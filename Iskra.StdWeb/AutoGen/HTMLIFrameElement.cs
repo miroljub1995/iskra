@@ -13,7 +13,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2198;
             throw new Exception();
+            return __res_2198;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            object __res_2199;
             throw new Exception();
+            return __res_2199;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2200;
             throw new Exception();
+            return __res_2200;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2201;
             throw new Exception();
+            return __res_2201;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2202;
             throw new Exception();
+            return __res_2202;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2203;
+            __res_2203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "allowFullscreen");
+            return __res_2203;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2204;
             throw new Exception();
+            return __res_2204;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2205;
             throw new Exception();
+            return __res_2205;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2206;
             throw new Exception();
+            return __res_2206;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2207;
             throw new Exception();
+            return __res_2207;
         }
         set
         {
@@ -129,7 +149,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Document? __res_2208;
             throw new Exception();
+            return __res_2208;
         }
     }
 
@@ -137,7 +159,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_2209;
             throw new Exception();
+            return __res_2209;
         }
     }
 }

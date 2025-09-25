@@ -13,7 +13,9 @@ public partial class CSSTransition(JSObject obj): Animation(obj)
     {
         get
         {
+            string __res_1683;
             throw new Exception();
+            return __res_1683;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_909;
             throw new Exception();
+            return __res_909;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WebTransportReliabilityMode __res_910;
             throw new Exception();
+            return __res_910;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WebTransportCongestionControl __res_911;
             throw new Exception();
+            return __res_911;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort? __res_912;
             throw new Exception();
+            return __res_912;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort? __res_913;
             throw new Exception();
+            return __res_913;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_914;
             throw new Exception();
+            return __res_914;
         }
     }
 
@@ -69,7 +81,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_915;
             throw new Exception();
+            return __res_915;
         }
     }
 
@@ -77,7 +91,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_916;
             throw new Exception();
+            return __res_916;
         }
     }
 
@@ -85,7 +101,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WebTransportDatagramDuplexStream __res_917;
             throw new Exception();
+            return __res_917;
         }
     }
 
@@ -93,7 +111,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_918;
             throw new Exception();
+            return __res_918;
         }
     }
 
@@ -101,7 +121,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_919;
             throw new Exception();
+            return __res_919;
         }
     }
 
@@ -109,7 +131,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            bool __res_920;
             throw new Exception();
+            return __res_920;
         }
     }
 }

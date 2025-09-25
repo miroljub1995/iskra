@@ -13,7 +13,9 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2476;
             throw new Exception();
+            return __res_2476;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2477;
             throw new Exception();
+            return __res_2477;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2478;
             throw new Exception();
+            return __res_2478;
         }
     }
 
@@ -45,7 +51,9 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_2479;
             throw new Exception();
+            return __res_2479;
         }
     }
 }

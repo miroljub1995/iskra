@@ -13,7 +13,9 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_3298;
             throw new Exception();
+            return __res_3298;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_3299;
             throw new Exception();
+            return __res_3299;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_3300;
             throw new Exception();
+            return __res_3300;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_3301;
             throw new Exception();
+            return __res_3301;
         }
     }
 }

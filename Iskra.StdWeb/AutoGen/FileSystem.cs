@@ -13,7 +13,9 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_624;
             throw new Exception();
+            return __res_624;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.FileSystemDirectoryEntry __res_625;
             throw new Exception();
+            return __res_625;
         }
     }
 }

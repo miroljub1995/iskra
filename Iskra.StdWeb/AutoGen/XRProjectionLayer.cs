@@ -13,7 +13,9 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            uint __res_665;
             throw new Exception();
+            return __res_665;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            uint __res_666;
             throw new Exception();
+            return __res_666;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            uint __res_667;
             throw new Exception();
+            return __res_667;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_668;
+            __res_668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
+            return __res_668;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float? __res_669;
             throw new Exception();
+            return __res_669;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform? __res_670;
             throw new Exception();
+            return __res_670;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class ContentVisibilityAutoStateChangeEvent(JSObject obj): Event(
     {
         get
         {
-            throw new Exception();
+            bool __res_1544;
+            __res_1544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipped");
+            return __res_1544;
         }
     }
 }

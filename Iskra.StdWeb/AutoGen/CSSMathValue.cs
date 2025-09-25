@@ -13,7 +13,9 @@ public partial class CSSMathValue(JSObject obj): CSSNumericValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSMathOperator __res_19;
             throw new Exception();
+            return __res_19;
         }
     }
 }

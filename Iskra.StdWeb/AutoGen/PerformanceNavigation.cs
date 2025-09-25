@@ -13,7 +13,9 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_617;
             throw new Exception();
+            return __res_617;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_618;
             throw new Exception();
+            return __res_618;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class MLContext(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1906;
             throw new Exception();
+            return __res_1906;
         }
     }
 }

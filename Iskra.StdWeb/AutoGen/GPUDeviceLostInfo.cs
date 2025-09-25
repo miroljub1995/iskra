@@ -13,7 +13,9 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUDeviceLostReason __res_358;
             throw new Exception();
+            return __res_358;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_359;
             throw new Exception();
+            return __res_359;
         }
     }
 }

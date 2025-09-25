@@ -13,7 +13,9 @@ public partial class Profiler(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_1398;
             throw new Exception();
+            return __res_1398;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Profiler(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1399;
+            __res_1399 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stopped");
+            return __res_1399;
         }
     }
 }

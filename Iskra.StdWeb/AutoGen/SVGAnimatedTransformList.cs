@@ -13,7 +13,9 @@ public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGTransformList __res_181;
             throw new Exception();
+            return __res_181;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGTransformList __res_182;
             throw new Exception();
+            return __res_182;
         }
     }
 }

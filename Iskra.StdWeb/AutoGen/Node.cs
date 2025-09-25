@@ -13,7 +13,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_1315;
             throw new Exception();
+            return __res_1315;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1316;
             throw new Exception();
+            return __res_1316;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1317;
             throw new Exception();
+            return __res_1317;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1318;
+            __res_1318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isConnected");
+            return __res_1318;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Document? __res_1319;
             throw new Exception();
+            return __res_1319;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1320;
             throw new Exception();
+            return __res_1320;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_1321;
             throw new Exception();
+            return __res_1321;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_1322;
             throw new Exception();
+            return __res_1322;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1323;
             throw new Exception();
+            return __res_1323;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1324;
             throw new Exception();
+            return __res_1324;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1325;
             throw new Exception();
+            return __res_1325;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1326;
             throw new Exception();
+            return __res_1326;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_1327;
             throw new Exception();
+            return __res_1327;
         }
         set
         {
@@ -121,7 +147,9 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_1328;
             throw new Exception();
+            return __res_1328;
         }
         set
         {

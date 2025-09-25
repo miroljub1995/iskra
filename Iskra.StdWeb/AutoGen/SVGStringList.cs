@@ -13,7 +13,9 @@ public partial class SVGStringList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_138;
             throw new Exception();
+            return __res_138;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGStringList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_139;
             throw new Exception();
+            return __res_139;
         }
     }
 }

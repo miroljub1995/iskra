@@ -13,7 +13,9 @@ public partial class IdentityCredentialError(JSObject obj): DOMException(obj)
     {
         get
         {
+            string __res_959;
             throw new Exception();
+            return __res_959;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IdentityCredentialError(JSObject obj): DOMException(obj)
     {
         get
         {
+            string __res_960;
             throw new Exception();
+            return __res_960;
         }
     }
 }

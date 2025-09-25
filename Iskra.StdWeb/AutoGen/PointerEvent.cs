@@ -13,7 +13,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            int __res_3302;
             throw new Exception();
+            return __res_3302;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3303;
             throw new Exception();
+            return __res_3303;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3304;
             throw new Exception();
+            return __res_3304;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            float __res_3305;
             throw new Exception();
+            return __res_3305;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            float __res_3306;
             throw new Exception();
+            return __res_3306;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            int __res_3307;
             throw new Exception();
+            return __res_3307;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            int __res_3308;
             throw new Exception();
+            return __res_3308;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            int __res_3309;
             throw new Exception();
+            return __res_3309;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3310;
             throw new Exception();
+            return __res_3310;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3311;
             throw new Exception();
+            return __res_3311;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            string __res_3312;
             throw new Exception();
+            return __res_3312;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3313;
+            __res_3313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            return __res_3313;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            int __res_3314;
             throw new Exception();
+            return __res_3314;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_503;
             throw new Exception();
+            return __res_503;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumberList __res_504;
             throw new Exception();
+            return __res_504;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_505;
             throw new Exception();
+            return __res_505;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_506;
             throw new Exception();
+            return __res_506;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_507;
             throw new Exception();
+            return __res_507;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_508;
             throw new Exception();
+            return __res_508;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_509;
             throw new Exception();
+            return __res_509;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class Global(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_1874;
             throw new Exception();
+            return __res_1874;
         }
         set
         {

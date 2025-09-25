@@ -13,7 +13,9 @@ public partial class OfflineAudioCompletionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioBuffer __res_3172;
             throw new Exception();
+            return __res_3172;
         }
     }
 }

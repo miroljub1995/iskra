@@ -13,7 +13,9 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.KeyType __res_627;
             throw new Exception();
+            return __res_627;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_628;
+            __res_628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
+            return __res_628;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            JSObject __res_629;
             throw new Exception();
+            return __res_629;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            JSObject __res_630;
             throw new Exception();
+            return __res_630;
         }
     }
 }

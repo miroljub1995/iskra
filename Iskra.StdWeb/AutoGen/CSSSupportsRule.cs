@@ -13,7 +13,9 @@ public partial class CSSSupportsRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1418;
+            __res_1418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            return __res_1418;
         }
     }
 }

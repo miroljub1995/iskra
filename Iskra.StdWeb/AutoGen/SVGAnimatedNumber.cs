@@ -13,7 +13,9 @@ public partial class SVGAnimatedNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_146;
             throw new Exception();
+            return __res_146;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGAnimatedNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_147;
             throw new Exception();
+            return __res_147;
         }
     }
 }

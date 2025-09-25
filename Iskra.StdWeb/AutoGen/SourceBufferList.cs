@@ -13,7 +13,9 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_2986;
             throw new Exception();
+            return __res_2986;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2987;
             throw new Exception();
+            return __res_2987;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2988;
             throw new Exception();
+            return __res_2988;
         }
         set
         {

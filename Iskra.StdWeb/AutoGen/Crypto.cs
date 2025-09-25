@@ -13,7 +13,9 @@ public partial class Crypto(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SubtleCrypto __res_626;
             throw new Exception();
+            return __res_626;
         }
     }
 }

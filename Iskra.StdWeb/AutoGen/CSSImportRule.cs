@@ -13,7 +13,9 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2872;
             throw new Exception();
+            return __res_2872;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaList __res_2873;
             throw new Exception();
+            return __res_2873;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleSheet? __res_2874;
             throw new Exception();
+            return __res_2874;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string? __res_2875;
             throw new Exception();
+            return __res_2875;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string? __res_2876;
             throw new Exception();
+            return __res_2876;
         }
     }
 }

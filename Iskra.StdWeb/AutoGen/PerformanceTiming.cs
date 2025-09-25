@@ -13,7 +13,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_596;
             throw new Exception();
+            return __res_596;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_597;
             throw new Exception();
+            return __res_597;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_598;
             throw new Exception();
+            return __res_598;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_599;
             throw new Exception();
+            return __res_599;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_600;
             throw new Exception();
+            return __res_600;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_601;
             throw new Exception();
+            return __res_601;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_602;
             throw new Exception();
+            return __res_602;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_603;
             throw new Exception();
+            return __res_603;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_604;
             throw new Exception();
+            return __res_604;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_605;
             throw new Exception();
+            return __res_605;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_606;
             throw new Exception();
+            return __res_606;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_607;
             throw new Exception();
+            return __res_607;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_608;
             throw new Exception();
+            return __res_608;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_609;
             throw new Exception();
+            return __res_609;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_610;
             throw new Exception();
+            return __res_610;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_611;
             throw new Exception();
+            return __res_611;
         }
     }
 
@@ -141,7 +173,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_612;
             throw new Exception();
+            return __res_612;
         }
     }
 
@@ -149,7 +183,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_613;
             throw new Exception();
+            return __res_613;
         }
     }
 
@@ -157,7 +193,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_614;
             throw new Exception();
+            return __res_614;
         }
     }
 
@@ -165,7 +203,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_615;
             throw new Exception();
+            return __res_615;
         }
     }
 
@@ -173,7 +213,9 @@ public partial class PerformanceTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_616;
             throw new Exception();
+            return __res_616;
         }
     }
 }

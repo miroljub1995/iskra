@@ -13,7 +13,9 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.TimeRanges __res_2992;
             throw new Exception();
+            return __res_2992;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.TimeRanges __res_2993;
             throw new Exception();
+            return __res_2993;
         }
     }
 }

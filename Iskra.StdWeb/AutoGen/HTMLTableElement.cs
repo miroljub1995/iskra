@@ -13,7 +13,9 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLTableCaptionElement? __res_2321;
             throw new Exception();
+            return __res_2321;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLTableSectionElement? __res_2322;
             throw new Exception();
+            return __res_2322;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLTableSectionElement? __res_2323;
             throw new Exception();
+            return __res_2323;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2324;
             throw new Exception();
+            return __res_2324;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2325;
             throw new Exception();
+            return __res_2325;
         }
     }
 }

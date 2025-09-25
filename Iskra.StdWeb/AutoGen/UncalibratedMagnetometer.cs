@@ -13,7 +13,9 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_279;
             throw new Exception();
+            return __res_279;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_280;
             throw new Exception();
+            return __res_280;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_281;
             throw new Exception();
+            return __res_281;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_282;
             throw new Exception();
+            return __res_282;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_283;
             throw new Exception();
+            return __res_283;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_284;
             throw new Exception();
+            return __res_284;
         }
     }
 }

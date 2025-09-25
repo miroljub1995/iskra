@@ -13,7 +13,9 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2770;
             throw new Exception();
+            return __res_2770;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2771;
             throw new Exception();
+            return __res_2771;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2772;
             throw new Exception();
+            return __res_2772;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class XRPermissionStatus(JSObject obj): PermissionStatus(obj)
     {
         get
         {
+            object __res_1752;
             throw new Exception();
+            return __res_1752;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1211;
             throw new Exception();
+            return __res_1211;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.EventTarget __res_1212;
             throw new Exception();
+            return __res_1212;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1213;
             throw new Exception();
+            return __res_1213;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1214;
             throw new Exception();
+            return __res_1214;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1215;
             throw new Exception();
+            return __res_1215;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1216;
             throw new Exception();
+            return __res_1216;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1217;
             throw new Exception();
+            return __res_1217;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1218;
             throw new Exception();
+            return __res_1218;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1219;
             throw new Exception();
+            return __res_1219;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1220;
             throw new Exception();
+            return __res_1220;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1221;
             throw new Exception();
+            return __res_1221;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1222;
             throw new Exception();
+            return __res_1222;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1223;
             throw new Exception();
+            return __res_1223;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1224;
             throw new Exception();
+            return __res_1224;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.TouchType __res_1225;
             throw new Exception();
+            return __res_1225;
         }
     }
 }

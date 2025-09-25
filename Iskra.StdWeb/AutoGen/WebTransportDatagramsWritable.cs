@@ -13,7 +13,9 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
     {
         get
         {
+            Iskra.StdWeb.WebTransportSendGroup? __res_901;
             throw new Exception();
+            return __res_901;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
     {
         get
         {
+            long __res_902;
             throw new Exception();
+            return __res_902;
         }
         set
         {

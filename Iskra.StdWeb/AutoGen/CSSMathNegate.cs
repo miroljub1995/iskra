@@ -13,7 +13,9 @@ public partial class CSSMathNegate(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_22;
             throw new Exception();
+            return __res_22;
         }
     }
 }

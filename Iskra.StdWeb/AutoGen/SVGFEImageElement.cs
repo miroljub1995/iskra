@@ -13,7 +13,9 @@ public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_561;
             throw new Exception();
+            return __res_561;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_562;
             throw new Exception();
+            return __res_562;
         }
     }
 }

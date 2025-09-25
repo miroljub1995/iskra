@@ -13,7 +13,9 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_33;
             throw new Exception();
+            return __res_33;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_34;
             throw new Exception();
+            return __res_34;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_35;
             throw new Exception();
+            return __res_35;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
+            Iskra.StdWeb.PushSubscription? __res_1994;
             throw new Exception();
+            return __res_1994;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
+            Iskra.StdWeb.PushSubscription? __res_1995;
             throw new Exception();
+            return __res_1995;
         }
     }
 }

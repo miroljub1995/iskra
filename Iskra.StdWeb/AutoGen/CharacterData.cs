@@ -13,7 +13,9 @@ public partial class CharacterData(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1368;
             throw new Exception();
+            return __res_1368;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CharacterData(JSObject obj): Node(obj)
     {
         get
         {
+            uint __res_1369;
             throw new Exception();
+            return __res_1369;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_499;
             throw new Exception();
+            return __res_499;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_500;
             throw new Exception();
+            return __res_500;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumberList __res_501;
             throw new Exception();
+            return __res_501;
         }
     }
 }

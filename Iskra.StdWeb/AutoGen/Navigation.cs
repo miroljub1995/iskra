@@ -13,7 +13,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationHistoryEntry? __res_2621;
             throw new Exception();
+            return __res_2621;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationTransition? __res_2622;
             throw new Exception();
+            return __res_2622;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationActivation? __res_2623;
             throw new Exception();
+            return __res_2623;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2624;
+            __res_2624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canGoBack");
+            return __res_2624;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2625;
+            __res_2625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canGoForward");
+            return __res_2625;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2626;
             throw new Exception();
+            return __res_2626;
         }
         set
         {
@@ -65,7 +77,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2627;
             throw new Exception();
+            return __res_2627;
         }
         set
         {
@@ -77,7 +91,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2628;
             throw new Exception();
+            return __res_2628;
         }
         set
         {
@@ -89,7 +105,9 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2629;
             throw new Exception();
+            return __res_2629;
         }
         set
         {

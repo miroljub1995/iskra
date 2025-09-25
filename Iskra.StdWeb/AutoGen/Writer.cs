@@ -13,7 +13,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_91;
             throw new Exception();
+            return __res_91;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WriterTone __res_92;
             throw new Exception();
+            return __res_92;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WriterFormat __res_93;
             throw new Exception();
+            return __res_93;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WriterLength __res_94;
             throw new Exception();
+            return __res_94;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_95;
             throw new Exception();
+            return __res_95;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_96;
             throw new Exception();
+            return __res_96;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_97;
             throw new Exception();
+            return __res_97;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_98;
             throw new Exception();
+            return __res_98;
         }
     }
 }

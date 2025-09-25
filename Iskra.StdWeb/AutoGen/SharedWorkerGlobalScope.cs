@@ -13,7 +13,9 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
     {
         get
         {
+            string __res_2728;
             throw new Exception();
+            return __res_2728;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2729;
             throw new Exception();
+            return __res_2729;
         }
         set
         {

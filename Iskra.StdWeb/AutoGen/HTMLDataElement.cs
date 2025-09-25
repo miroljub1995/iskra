@@ -13,7 +13,9 @@ public partial class HTMLDataElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2170;
             throw new Exception();
+            return __res_2170;
         }
         set
         {

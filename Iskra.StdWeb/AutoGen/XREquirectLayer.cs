@@ -13,7 +13,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_682;
             throw new Exception();
+            return __res_682;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform __res_683;
             throw new Exception();
+            return __res_683;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_684;
             throw new Exception();
+            return __res_684;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_685;
             throw new Exception();
+            return __res_685;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_686;
             throw new Exception();
+            return __res_686;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_687;
             throw new Exception();
+            return __res_687;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class XREquirectLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_688;
             throw new Exception();
+            return __res_688;
         }
         set
         {

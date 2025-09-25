@@ -13,7 +13,9 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2706;
             throw new Exception();
+            return __res_2706;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2707;
+            __res_2707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
+            return __res_2707;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_2708;
             throw new Exception();
+            return __res_2708;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2709;
             throw new Exception();
+            return __res_2709;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2710;
             throw new Exception();
+            return __res_2710;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2711;
             throw new Exception();
+            return __res_2711;
         }
         set
         {

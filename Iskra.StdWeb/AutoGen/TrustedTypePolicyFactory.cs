@@ -13,7 +13,9 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.TrustedHTML __res_474;
             throw new Exception();
+            return __res_474;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.TrustedScript __res_475;
             throw new Exception();
+            return __res_475;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.TrustedTypePolicy? __res_476;
             throw new Exception();
+            return __res_476;
         }
     }
 }

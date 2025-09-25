@@ -13,7 +13,9 @@ public partial class SubmitEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLElement? __res_2507;
             throw new Exception();
+            return __res_2507;
         }
     }
 }

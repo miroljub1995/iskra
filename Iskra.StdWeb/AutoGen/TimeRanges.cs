@@ -13,7 +13,9 @@ public partial class TimeRanges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2308;
             throw new Exception();
+            return __res_2308;
         }
     }
 }

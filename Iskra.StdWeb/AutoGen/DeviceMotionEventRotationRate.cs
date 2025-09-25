@@ -13,7 +13,9 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
+            double? __res_1174;
             throw new Exception();
+            return __res_1174;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
+            double? __res_1175;
             throw new Exception();
+            return __res_1175;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
+            double? __res_1176;
             throw new Exception();
+            return __res_1176;
         }
     }
 }

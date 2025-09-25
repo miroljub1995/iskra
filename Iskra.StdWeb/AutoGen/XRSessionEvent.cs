@@ -13,7 +13,9 @@ public partial class XRSessionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSession __res_1744;
             throw new Exception();
+            return __res_1744;
         }
     }
 }

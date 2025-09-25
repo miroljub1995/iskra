@@ -13,7 +13,9 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_490;
             throw new Exception();
+            return __res_490;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_491;
             throw new Exception();
+            return __res_491;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_492;
             throw new Exception();
+            return __res_492;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_493;
             throw new Exception();
+            return __res_493;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_494;
             throw new Exception();
+            return __res_494;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGFilterElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_495;
             throw new Exception();
+            return __res_495;
         }
     }
 }

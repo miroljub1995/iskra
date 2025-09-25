@@ -13,7 +13,9 @@ public partial class NodeList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1304;
             throw new Exception();
+            return __res_1304;
         }
     }
 }

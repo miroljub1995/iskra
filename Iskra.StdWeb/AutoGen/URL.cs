@@ -13,7 +13,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1600;
             throw new Exception();
+            return __res_1600;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1601;
             throw new Exception();
+            return __res_1601;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1602;
             throw new Exception();
+            return __res_1602;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1603;
             throw new Exception();
+            return __res_1603;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1604;
             throw new Exception();
+            return __res_1604;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1605;
             throw new Exception();
+            return __res_1605;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1606;
             throw new Exception();
+            return __res_1606;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1607;
             throw new Exception();
+            return __res_1607;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1608;
             throw new Exception();
+            return __res_1608;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1609;
             throw new Exception();
+            return __res_1609;
         }
         set
         {
@@ -129,7 +149,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.URLSearchParams __res_1610;
             throw new Exception();
+            return __res_1610;
         }
     }
 
@@ -137,7 +159,9 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1611;
             throw new Exception();
+            return __res_1611;
         }
         set
         {

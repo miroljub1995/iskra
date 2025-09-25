@@ -13,7 +13,9 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2866;
             throw new Exception();
+            return __res_2866;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSRule? __res_2867;
             throw new Exception();
+            return __res_2867;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleSheet? __res_2868;
             throw new Exception();
+            return __res_2868;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_2869;
             throw new Exception();
+            return __res_2869;
         }
     }
 }

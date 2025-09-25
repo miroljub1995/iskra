@@ -13,7 +13,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.Clients __res_1820;
             throw new Exception();
+            return __res_1820;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.ServiceWorkerRegistration __res_1821;
             throw new Exception();
+            return __res_1821;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.ServiceWorker __res_1822;
             throw new Exception();
+            return __res_1822;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1823;
             throw new Exception();
+            return __res_1823;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1824;
             throw new Exception();
+            return __res_1824;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1825;
             throw new Exception();
+            return __res_1825;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1826;
             throw new Exception();
+            return __res_1826;
         }
         set
         {
@@ -85,7 +99,9 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1827;
             throw new Exception();
+            return __res_1827;
         }
         set
         {

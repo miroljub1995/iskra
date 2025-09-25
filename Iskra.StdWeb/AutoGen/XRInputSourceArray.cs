@@ -13,7 +13,9 @@ public partial class XRInputSourceArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1737;
             throw new Exception();
+            return __res_1737;
         }
     }
 }

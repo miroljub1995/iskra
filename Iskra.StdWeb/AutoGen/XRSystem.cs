@@ -13,7 +13,9 @@ public partial class XRSystem(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1688;
             throw new Exception();
+            return __res_1688;
         }
         set
         {

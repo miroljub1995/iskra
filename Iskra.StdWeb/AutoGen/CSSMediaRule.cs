@@ -13,7 +13,9 @@ public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaList __res_1416;
             throw new Exception();
+            return __res_1416;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1417;
+            __res_1417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            return __res_1417;
         }
     }
 }

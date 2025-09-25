@@ -13,7 +13,9 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
+            Iskra.StdWeb.SharedStorage __res_1684;
             throw new Exception();
+            return __res_1684;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
+            Iskra.StdWeb.PrivateAggregation __res_1685;
             throw new Exception();
+            return __res_1685;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
+            Iskra.StdWeb.SharedStorageWorkletNavigator __res_1686;
             throw new Exception();
+            return __res_1686;
         }
     }
 }

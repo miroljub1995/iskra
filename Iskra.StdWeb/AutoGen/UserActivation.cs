@@ -13,7 +13,9 @@ public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2564;
+            __res_2564 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasBeenActive");
+            return __res_2564;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2565;
+            __res_2565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isActive");
+            return __res_2565;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2759;
             throw new Exception();
+            return __res_2759;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2760;
             throw new Exception();
+            return __res_2760;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2761;
             throw new Exception();
+            return __res_2761;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2762;
             throw new Exception();
+            return __res_2762;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2763;
             throw new Exception();
+            return __res_2763;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2764;
+            __res_2764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noResize");
+            return __res_2764;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Document? __res_2765;
             throw new Exception();
+            return __res_2765;
         }
     }
 
@@ -93,7 +107,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_2766;
             throw new Exception();
+            return __res_2766;
         }
     }
 
@@ -101,7 +117,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2767;
             throw new Exception();
+            return __res_2767;
         }
         set
         {
@@ -113,7 +131,9 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2768;
             throw new Exception();
+            return __res_2768;
         }
         set
         {

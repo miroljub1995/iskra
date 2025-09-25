@@ -13,7 +13,9 @@ public partial class CSSMathMax(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericArray __res_25;
             throw new Exception();
+            return __res_25;
         }
     }
 }

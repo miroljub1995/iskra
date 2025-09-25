@@ -13,7 +13,9 @@ public partial class SVGNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_134;
             throw new Exception();
+            return __res_134;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_135;
             throw new Exception();
+            return __res_135;
         }
     }
 }

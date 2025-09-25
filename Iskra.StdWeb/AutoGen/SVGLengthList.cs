@@ -13,7 +13,9 @@ public partial class SVGLengthList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_136;
             throw new Exception();
+            return __res_136;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGLengthList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_137;
             throw new Exception();
+            return __res_137;
         }
     }
 }

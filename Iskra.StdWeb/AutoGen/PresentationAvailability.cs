@@ -13,7 +13,9 @@ public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_935;
+            __res_935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "value");
+            return __res_935;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_936;
             throw new Exception();
+            return __res_936;
         }
         set
         {

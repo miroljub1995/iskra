@@ -13,7 +13,9 @@ public partial class GPUError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_360;
             throw new Exception();
+            return __res_360;
         }
     }
 }

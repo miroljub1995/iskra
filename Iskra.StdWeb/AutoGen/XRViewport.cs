@@ -13,7 +13,9 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1718;
             throw new Exception();
+            return __res_1718;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1719;
             throw new Exception();
+            return __res_1719;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1720;
             throw new Exception();
+            return __res_1720;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1721;
             throw new Exception();
+            return __res_1721;
         }
     }
 }

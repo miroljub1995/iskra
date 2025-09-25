@@ -13,7 +13,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
+            string? __res_1361;
             throw new Exception();
+            return __res_1361;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
+            string? __res_1362;
             throw new Exception();
+            return __res_1362;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1363;
             throw new Exception();
+            return __res_1363;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1364;
             throw new Exception();
+            return __res_1364;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1365;
             throw new Exception();
+            return __res_1365;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_1366;
             throw new Exception();
+            return __res_1366;
         }
     }
 
@@ -65,7 +77,9 @@ public partial class Attr(JSObject obj): Node(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1367;
+            __res_1367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "specified");
+            return __res_1367;
         }
     }
 }

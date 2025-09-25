@@ -13,7 +13,9 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array __res_416;
             throw new Exception();
+            return __res_416;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_417;
             throw new Exception();
+            return __res_417;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_418;
             throw new Exception();
+            return __res_418;
         }
     }
 }

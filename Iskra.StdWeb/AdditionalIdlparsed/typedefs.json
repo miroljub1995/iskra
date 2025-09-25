@@ -1,0 +1,77 @@
+{
+  "idlparsed": {
+    "idlNames": {
+      "DOMString": {
+        "fragment": "",
+        "type": "typedef",
+        "name": "DOMString",
+        "idlType": {
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "string"
+        },
+        "extAttrs": [],
+        "href": "https://www.w3.org/TR/DOM-Level-3-Core/core.html#DOMString"
+      },
+      "CSSOMString": {
+        "fragment": "",
+        "type": "typedef",
+        "name": "CSSOMString",
+        "idlType": {
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "string"
+        },
+        "extAttrs": [],
+        "href": "https://udn.realityripple.com/docs/Web/API/CSSOMString"
+      },
+      "USVString": {
+        "fragment": "",
+        "type": "typedef",
+        "name": "USVString",
+        "idlType": {
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "string"
+        },
+        "extAttrs": [],
+        "href": "https://udn.realityripple.com/docs/Web/API/USVString"
+      },
+      "ByteString": {
+        "fragment": "",
+        "type": "typedef",
+        "name": "ByteString",
+        "idlType": {
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "string"
+        },
+        "extAttrs": [],
+        "href": "https://udn.realityripple.com/docs/Web/API/ByteString"
+      },
+      "WindowProxy": {
+        "fragment": "",
+        "type": "typedef",
+        "name": "WindowProxy",
+        "idlType": {
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "Window"
+        },
+        "extAttrs": [],
+        "href": "https://udn.realityripple.com/docs/Web/API/WindowProxy"
+      }
+    },
+    "idlExtendedNames": {}
+  }
+}

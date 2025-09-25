@@ -13,7 +13,9 @@ public partial class SVGAnimatedLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGLength __res_148;
             throw new Exception();
+            return __res_148;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimatedLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGLength __res_149;
             throw new Exception();
+            return __res_149;
         }
     }
 }

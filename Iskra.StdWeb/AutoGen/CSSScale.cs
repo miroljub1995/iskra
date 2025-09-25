@@ -13,7 +13,9 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_40;
             throw new Exception();
+            return __res_40;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_41;
             throw new Exception();
+            return __res_41;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_42;
             throw new Exception();
+            return __res_42;
         }
         set
         {

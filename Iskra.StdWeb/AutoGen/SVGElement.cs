@@ -13,7 +13,9 @@ public partial class SVGElement(JSObject obj): Element(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_120;
             throw new Exception();
+            return __res_120;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGElement(JSObject obj): Element(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGSVGElement? __res_121;
             throw new Exception();
+            return __res_121;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGElement(JSObject obj): Element(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGElement? __res_122;
             throw new Exception();
+            return __res_122;
         }
     }
 }

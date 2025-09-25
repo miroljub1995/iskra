@@ -13,7 +13,9 @@ public partial class TrustedTypePolicy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_477;
             throw new Exception();
+            return __res_477;
         }
     }
 }

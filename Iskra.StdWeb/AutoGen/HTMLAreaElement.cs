@@ -13,7 +13,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2312;
             throw new Exception();
+            return __res_2312;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2313;
             throw new Exception();
+            return __res_2313;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2314;
             throw new Exception();
+            return __res_2314;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2315;
             throw new Exception();
+            return __res_2315;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2316;
             throw new Exception();
+            return __res_2316;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2317;
             throw new Exception();
+            return __res_2317;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2318;
             throw new Exception();
+            return __res_2318;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2319;
             throw new Exception();
+            return __res_2319;
         }
     }
 
@@ -105,7 +121,9 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2320;
             throw new Exception();
+            return __res_2320;
         }
         set
         {

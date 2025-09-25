@@ -13,7 +13,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2414;
             throw new Exception();
+            return __res_2414;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2415;
+            __res_2415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2415;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2416;
             throw new Exception();
+            return __res_2416;
         }
     }
 
@@ -45,7 +51,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2417;
+            __res_2417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiple");
+            return __res_2417;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2418;
             throw new Exception();
+            return __res_2418;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2419;
+            __res_2419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
+            return __res_2419;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2420;
             throw new Exception();
+            return __res_2420;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2421;
             throw new Exception();
+            return __res_2421;
         }
     }
 
@@ -101,7 +117,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLOptionsCollection __res_2422;
             throw new Exception();
+            return __res_2422;
         }
     }
 
@@ -109,7 +127,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2423;
             throw new Exception();
+            return __res_2423;
         }
         set
         {
@@ -121,7 +141,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2424;
             throw new Exception();
+            return __res_2424;
         }
     }
 
@@ -129,7 +151,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2425;
             throw new Exception();
+            return __res_2425;
         }
         set
         {
@@ -141,7 +165,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2426;
             throw new Exception();
+            return __res_2426;
         }
         set
         {
@@ -153,7 +179,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2427;
+            __res_2427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2427;
         }
     }
 
@@ -161,7 +189,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2428;
             throw new Exception();
+            return __res_2428;
         }
     }
 
@@ -169,7 +199,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2429;
             throw new Exception();
+            return __res_2429;
         }
     }
 
@@ -177,7 +209,9 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_2430;
             throw new Exception();
+            return __res_2430;
         }
     }
 }

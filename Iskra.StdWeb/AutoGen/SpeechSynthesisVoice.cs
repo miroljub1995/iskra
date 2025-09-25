@@ -13,7 +13,9 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1675;
             throw new Exception();
+            return __res_1675;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1676;
             throw new Exception();
+            return __res_1676;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1677;
             throw new Exception();
+            return __res_1677;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1678;
+            __res_1678 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
+            return __res_1678;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1679;
+            __res_1679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
+            return __res_1679;
         }
     }
 }

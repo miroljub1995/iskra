@@ -13,7 +13,9 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_568;
             throw new Exception();
+            return __res_568;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_569;
             throw new Exception();
+            return __res_569;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_570;
             throw new Exception();
+            return __res_570;
         }
     }
 }

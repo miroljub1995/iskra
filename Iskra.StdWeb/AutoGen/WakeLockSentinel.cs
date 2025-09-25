@@ -13,7 +13,9 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_478;
+            __res_478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
+            return __res_478;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.WakeLockType __res_479;
             throw new Exception();
+            return __res_479;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_480;
             throw new Exception();
+            return __res_480;
         }
         set
         {

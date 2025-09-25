@@ -13,7 +13,9 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_3252;
             throw new Exception();
+            return __res_3252;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.OverSampleType __res_3253;
             throw new Exception();
+            return __res_3253;
         }
         set
         {

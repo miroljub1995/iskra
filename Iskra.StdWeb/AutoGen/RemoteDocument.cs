@@ -13,7 +13,9 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2058;
             throw new Exception();
+            return __res_2058;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2059;
             throw new Exception();
+            return __res_2059;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_2060;
             throw new Exception();
+            return __res_2060;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2061;
             throw new Exception();
+            return __res_2061;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2062;
             throw new Exception();
+            return __res_2062;
         }
     }
 }

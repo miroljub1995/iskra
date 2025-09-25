@@ -13,7 +13,9 @@ public partial class AbortController(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AbortSignal __res_1300;
             throw new Exception();
+            return __res_1300;
         }
     }
 }

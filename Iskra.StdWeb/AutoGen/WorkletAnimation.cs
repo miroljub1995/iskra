@@ -13,7 +13,9 @@ public partial class WorkletAnimation(JSObject obj): Animation(obj)
     {
         get
         {
+            string __res_1792;
             throw new Exception();
+            return __res_1792;
         }
     }
 }

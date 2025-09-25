@@ -13,7 +13,9 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1777;
             throw new Exception();
+            return __res_1777;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBFactory __res_1778;
             throw new Exception();
+            return __res_1778;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CacheStorage __res_1779;
             throw new Exception();
+            return __res_1779;
         }
     }
 }

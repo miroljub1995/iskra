@@ -13,7 +13,9 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2331;
             throw new Exception();
+            return __res_2331;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2332;
             throw new Exception();
+            return __res_2332;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2333;
             throw new Exception();
+            return __res_2333;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2334;
             throw new Exception();
+            return __res_2334;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2335;
             throw new Exception();
+            return __res_2335;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2336;
             throw new Exception();
+            return __res_2336;
         }
         set
         {

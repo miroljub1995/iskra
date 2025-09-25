@@ -13,7 +13,9 @@ public partial class OTPCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            string __res_3127;
             throw new Exception();
+            return __res_3127;
         }
     }
 }

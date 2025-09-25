@@ -13,7 +13,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_539;
             throw new Exception();
+            return __res_539;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_540;
             throw new Exception();
+            return __res_540;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_541;
             throw new Exception();
+            return __res_541;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_542;
             throw new Exception();
+            return __res_542;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_543;
             throw new Exception();
+            return __res_543;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_544;
             throw new Exception();
+            return __res_544;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_545;
             throw new Exception();
+            return __res_545;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_546;
             throw new Exception();
+            return __res_546;
         }
     }
 }

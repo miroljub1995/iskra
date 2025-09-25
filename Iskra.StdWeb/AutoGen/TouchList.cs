@@ -13,7 +13,9 @@ public partial class TouchList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1226;
             throw new Exception();
+            return __res_1226;
         }
     }
 }

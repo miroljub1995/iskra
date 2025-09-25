@@ -13,7 +13,9 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationType? __res_2659;
             throw new Exception();
+            return __res_2659;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationHistoryEntry __res_2660;
             throw new Exception();
+            return __res_2660;
         }
     }
 }

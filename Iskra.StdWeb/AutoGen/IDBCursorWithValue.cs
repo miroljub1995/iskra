@@ -13,7 +13,9 @@ public partial class IDBCursorWithValue(JSObject obj): IDBCursor(obj)
     {
         get
         {
+            object? __res_3035;
             throw new Exception();
+            return __res_3035;
         }
     }
 }

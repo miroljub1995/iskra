@@ -13,7 +13,9 @@ public partial class Font(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3060;
             throw new Exception();
+            return __res_3060;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Font(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_3061;
             throw new Exception();
+            return __res_3061;
         }
     }
 }

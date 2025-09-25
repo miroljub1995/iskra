@@ -13,7 +13,9 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1547;
             throw new Exception();
+            return __res_1547;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1548;
             throw new Exception();
+            return __res_1548;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1549;
             throw new Exception();
+            return __res_1549;
         }
     }
 }

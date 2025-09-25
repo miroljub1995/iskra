@@ -13,7 +13,9 @@ public partial class DOMPointReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1424;
             throw new Exception();
+            return __res_1424;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DOMPointReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1425;
             throw new Exception();
+            return __res_1425;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DOMPointReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1426;
             throw new Exception();
+            return __res_1426;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DOMPointReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1427;
             throw new Exception();
+            return __res_1427;
         }
     }
 }

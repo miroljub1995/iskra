@@ -13,7 +13,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1846;
             throw new Exception();
+            return __res_1846;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1847;
             throw new Exception();
+            return __res_1847;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1848;
             throw new Exception();
+            return __res_1848;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1849;
             throw new Exception();
+            return __res_1849;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1850;
             throw new Exception();
+            return __res_1850;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1851;
             throw new Exception();
+            return __res_1851;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_1852;
             throw new Exception();
+            return __res_1852;
         }
     }
 }

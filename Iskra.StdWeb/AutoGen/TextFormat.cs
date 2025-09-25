@@ -13,7 +13,9 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_3284;
             throw new Exception();
+            return __res_3284;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_3285;
             throw new Exception();
+            return __res_3285;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.UnderlineStyle __res_3286;
             throw new Exception();
+            return __res_3286;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.UnderlineThickness __res_3287;
             throw new Exception();
+            return __res_3287;
         }
     }
 }

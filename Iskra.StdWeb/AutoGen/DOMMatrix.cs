@@ -13,7 +13,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1473;
             throw new Exception();
+            return __res_1473;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1474;
             throw new Exception();
+            return __res_1474;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1475;
             throw new Exception();
+            return __res_1475;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1476;
             throw new Exception();
+            return __res_1476;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1477;
             throw new Exception();
+            return __res_1477;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1478;
             throw new Exception();
+            return __res_1478;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1479;
             throw new Exception();
+            return __res_1479;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1480;
             throw new Exception();
+            return __res_1480;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1481;
             throw new Exception();
+            return __res_1481;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1482;
             throw new Exception();
+            return __res_1482;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1483;
             throw new Exception();
+            return __res_1483;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1484;
             throw new Exception();
+            return __res_1484;
         }
         set
         {
@@ -157,7 +181,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1485;
             throw new Exception();
+            return __res_1485;
         }
         set
         {
@@ -169,7 +195,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1486;
             throw new Exception();
+            return __res_1486;
         }
         set
         {
@@ -181,7 +209,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1487;
             throw new Exception();
+            return __res_1487;
         }
         set
         {
@@ -193,7 +223,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1488;
             throw new Exception();
+            return __res_1488;
         }
         set
         {
@@ -205,7 +237,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1489;
             throw new Exception();
+            return __res_1489;
         }
         set
         {
@@ -217,7 +251,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1490;
             throw new Exception();
+            return __res_1490;
         }
         set
         {
@@ -229,7 +265,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1491;
             throw new Exception();
+            return __res_1491;
         }
         set
         {
@@ -241,7 +279,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1492;
             throw new Exception();
+            return __res_1492;
         }
         set
         {
@@ -253,7 +293,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1493;
             throw new Exception();
+            return __res_1493;
         }
         set
         {
@@ -265,7 +307,9 @@ public partial class DOMMatrix(JSObject obj): DOMMatrixReadOnly(obj)
     {
         get
         {
+            double __res_1494;
             throw new Exception();
+            return __res_1494;
         }
         set
         {

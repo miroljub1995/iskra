@@ -13,7 +13,9 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2149;
             throw new Exception();
+            return __res_2149;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2150;
             throw new Exception();
+            return __res_2150;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2151;
             throw new Exception();
+            return __res_2151;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2152;
             throw new Exception();
+            return __res_2152;
         }
         set
         {

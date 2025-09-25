@@ -13,7 +13,9 @@ public partial class PictureInPictureEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.PictureInPictureWindow __res_1276;
             throw new Exception();
+            return __res_1276;
         }
     }
 }

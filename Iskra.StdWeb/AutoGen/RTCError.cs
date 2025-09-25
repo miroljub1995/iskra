@@ -13,7 +13,9 @@ public partial class RTCError(JSObject obj): DOMException(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCErrorDetailType __res_859;
             throw new Exception();
+            return __res_859;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCError(JSObject obj): DOMException(obj)
     {
         get
         {
+            int? __res_860;
             throw new Exception();
+            return __res_860;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCError(JSObject obj): DOMException(obj)
     {
         get
         {
+            int? __res_861;
             throw new Exception();
+            return __res_861;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCError(JSObject obj): DOMException(obj)
     {
         get
         {
+            uint? __res_862;
             throw new Exception();
+            return __res_862;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCError(JSObject obj): DOMException(obj)
     {
         get
         {
+            uint? __res_863;
             throw new Exception();
+            return __res_863;
         }
     }
 }

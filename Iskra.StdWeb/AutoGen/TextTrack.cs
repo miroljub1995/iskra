@@ -13,7 +13,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrackKind __res_2291;
             throw new Exception();
+            return __res_2291;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2292;
             throw new Exception();
+            return __res_2292;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2293;
             throw new Exception();
+            return __res_2293;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2294;
             throw new Exception();
+            return __res_2294;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2295;
             throw new Exception();
+            return __res_2295;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrackMode __res_2296;
             throw new Exception();
+            return __res_2296;
         }
         set
         {
@@ -65,7 +77,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrackCueList? __res_2297;
             throw new Exception();
+            return __res_2297;
         }
     }
 
@@ -73,7 +87,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrackCueList? __res_2298;
             throw new Exception();
+            return __res_2298;
         }
     }
 
@@ -81,7 +97,9 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2299;
             throw new Exception();
+            return __res_2299;
         }
         set
         {

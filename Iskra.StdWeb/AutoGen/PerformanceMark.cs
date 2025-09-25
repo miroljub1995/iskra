@@ -13,7 +13,9 @@ public partial class PerformanceMark(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            object? __res_1396;
             throw new Exception();
+            return __res_1396;
         }
     }
 }

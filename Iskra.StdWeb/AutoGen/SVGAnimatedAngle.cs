@@ -13,7 +13,9 @@ public partial class SVGAnimatedAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAngle __res_150;
             throw new Exception();
+            return __res_150;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimatedAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAngle __res_151;
             throw new Exception();
+            return __res_151;
         }
     }
 }

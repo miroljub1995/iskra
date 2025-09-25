@@ -13,7 +13,9 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationActivation? __res_2665;
             throw new Exception();
+            return __res_2665;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.ViewTransition? __res_2666;
             throw new Exception();
+            return __res_2666;
         }
     }
 }

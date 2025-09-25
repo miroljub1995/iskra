@@ -13,7 +13,9 @@ public partial class AudioWorkletProcessor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_3263;
             throw new Exception();
+            return __res_3263;
         }
     }
 }

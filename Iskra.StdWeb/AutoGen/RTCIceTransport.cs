@@ -13,7 +13,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceRole __res_819;
             throw new Exception();
+            return __res_819;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceComponent __res_820;
             throw new Exception();
+            return __res_820;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceTransportState __res_821;
             throw new Exception();
+            return __res_821;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceGathererState __res_822;
             throw new Exception();
+            return __res_822;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_823;
             throw new Exception();
+            return __res_823;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_824;
             throw new Exception();
+            return __res_824;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_825;
             throw new Exception();
+            return __res_825;
         }
         set
         {

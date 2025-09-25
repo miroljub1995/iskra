@@ -13,7 +13,9 @@ public partial class MimeTypeArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2685;
             throw new Exception();
+            return __res_2685;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_1722;
             throw new Exception();
+            return __res_1722;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_1723;
             throw new Exception();
+            return __res_1723;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array __res_1724;
             throw new Exception();
+            return __res_1724;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform __res_1725;
             throw new Exception();
+            return __res_1725;
         }
     }
 }

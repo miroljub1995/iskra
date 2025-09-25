@@ -13,7 +13,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_3270;
             throw new Exception();
+            return __res_3270;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3271;
             throw new Exception();
+            return __res_3271;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3272;
             throw new Exception();
+            return __res_3272;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3273;
             throw new Exception();
+            return __res_3273;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3274;
             throw new Exception();
+            return __res_3274;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3275;
             throw new Exception();
+            return __res_3275;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3276;
             throw new Exception();
+            return __res_3276;
         }
         set
         {
@@ -81,7 +95,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3277;
             throw new Exception();
+            return __res_3277;
         }
         set
         {
@@ -93,7 +109,9 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3278;
             throw new Exception();
+            return __res_3278;
         }
         set
         {

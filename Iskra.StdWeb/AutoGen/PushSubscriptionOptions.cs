@@ -13,7 +13,9 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1987;
+            __res_1987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
+            return __res_1987;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer? __res_1988;
             throw new Exception();
+            return __res_1988;
         }
     }
 }

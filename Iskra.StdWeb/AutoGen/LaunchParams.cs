@@ -13,7 +13,9 @@ public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1875;
             throw new Exception();
+            return __res_1875;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1876;
             throw new Exception();
+            return __res_1876;
         }
     }
 }

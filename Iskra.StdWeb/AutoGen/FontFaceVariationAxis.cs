@@ -13,7 +13,9 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_886;
             throw new Exception();
+            return __res_886;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_887;
             throw new Exception();
+            return __res_887;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_888;
             throw new Exception();
+            return __res_888;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_889;
             throw new Exception();
+            return __res_889;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_890;
             throw new Exception();
+            return __res_890;
         }
     }
 }

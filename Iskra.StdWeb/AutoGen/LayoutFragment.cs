@@ -13,7 +13,9 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3063;
             throw new Exception();
+            return __res_3063;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3064;
             throw new Exception();
+            return __res_3064;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3065;
             throw new Exception();
+            return __res_3065;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3066;
             throw new Exception();
+            return __res_3066;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3067;
             throw new Exception();
+            return __res_3067;
         }
     }
 
@@ -61,7 +71,9 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ChildBreakToken? __res_3068;
             throw new Exception();
+            return __res_3068;
         }
     }
 }

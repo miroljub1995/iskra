@@ -13,7 +13,9 @@ public partial class CSSFunctionDeclarations(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFunctionDescriptors __res_10;
             throw new Exception();
+            return __res_10;
         }
     }
 }

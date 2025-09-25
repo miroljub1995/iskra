@@ -13,7 +13,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Window __res_2582;
             throw new Exception();
+            return __res_2582;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Window __res_2583;
             throw new Exception();
+            return __res_2583;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Document __res_2584;
             throw new Exception();
+            return __res_2584;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2585;
             throw new Exception();
+            return __res_2585;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Location __res_2586;
             throw new Exception();
+            return __res_2586;
         }
     }
 
@@ -57,7 +67,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.History __res_2587;
             throw new Exception();
+            return __res_2587;
         }
     }
 
@@ -65,7 +77,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Navigation __res_2588;
             throw new Exception();
+            return __res_2588;
         }
     }
 
@@ -73,7 +87,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.CustomElementRegistry __res_2589;
             throw new Exception();
+            return __res_2589;
         }
     }
 
@@ -81,7 +97,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BarProp __res_2590;
             throw new Exception();
+            return __res_2590;
         }
     }
 
@@ -89,7 +107,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BarProp __res_2591;
             throw new Exception();
+            return __res_2591;
         }
     }
 
@@ -97,7 +117,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BarProp __res_2592;
             throw new Exception();
+            return __res_2592;
         }
     }
 
@@ -105,7 +127,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BarProp __res_2593;
             throw new Exception();
+            return __res_2593;
         }
     }
 
@@ -113,7 +137,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BarProp __res_2594;
             throw new Exception();
+            return __res_2594;
         }
     }
 
@@ -121,7 +147,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BarProp __res_2595;
             throw new Exception();
+            return __res_2595;
         }
     }
 
@@ -129,7 +157,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2596;
             throw new Exception();
+            return __res_2596;
         }
         set
         {
@@ -141,7 +171,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2597;
+            __res_2597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "closed");
+            return __res_2597;
         }
     }
 
@@ -149,7 +181,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Window __res_2598;
             throw new Exception();
+            return __res_2598;
         }
     }
 
@@ -157,7 +191,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_2599;
             throw new Exception();
+            return __res_2599;
         }
     }
 
@@ -165,7 +201,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_2600;
             throw new Exception();
+            return __res_2600;
         }
     }
 
@@ -173,7 +211,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object? __res_2601;
             throw new Exception();
+            return __res_2601;
         }
         set
         {
@@ -185,7 +225,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_2602;
             throw new Exception();
+            return __res_2602;
         }
     }
 
@@ -193,7 +235,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_2603;
             throw new Exception();
+            return __res_2603;
         }
     }
 
@@ -201,7 +245,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Navigator __res_2604;
             throw new Exception();
+            return __res_2604;
         }
     }
 
@@ -209,7 +255,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Navigator __res_2605;
             throw new Exception();
+            return __res_2605;
         }
     }
 
@@ -217,7 +265,9 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2606;
+            __res_2606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "originAgentCluster");
+            return __res_2606;
         }
     }
 }

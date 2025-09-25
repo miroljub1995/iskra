@@ -13,7 +13,9 @@ public partial class SpeechRecognitionAlternative(JSObject obj): JSObjectProxy(o
     {
         get
         {
+            string __res_1640;
             throw new Exception();
+            return __res_1640;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SpeechRecognitionAlternative(JSObject obj): JSObjectProxy(o
     {
         get
         {
+            float __res_1641;
             throw new Exception();
+            return __res_1641;
         }
     }
 }

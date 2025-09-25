@@ -13,7 +13,9 @@ public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1914;
             throw new Exception();
+            return __res_1914;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1915;
             throw new Exception();
+            return __res_1915;
         }
     }
 }

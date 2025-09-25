@@ -13,7 +13,9 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string __res_2892;
             throw new Exception();
+            return __res_2892;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSPageDescriptors __res_2893;
             throw new Exception();
+            return __res_2893;
         }
     }
 }

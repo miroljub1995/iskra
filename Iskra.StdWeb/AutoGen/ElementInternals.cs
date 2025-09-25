@@ -13,7 +13,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ShadowRoot? __res_2553;
             throw new Exception();
+            return __res_2553;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2554;
             throw new Exception();
+            return __res_2554;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2555;
+            __res_2555 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2555;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2556;
             throw new Exception();
+            return __res_2556;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2557;
             throw new Exception();
+            return __res_2557;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_2558;
             throw new Exception();
+            return __res_2558;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CustomStateSet __res_2559;
             throw new Exception();
+            return __res_2559;
         }
     }
 }

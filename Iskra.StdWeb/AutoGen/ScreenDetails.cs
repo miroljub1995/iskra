@@ -13,7 +13,9 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1196;
             throw new Exception();
+            return __res_1196;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ScreenDetailed __res_1197;
             throw new Exception();
+            return __res_1197;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1198;
             throw new Exception();
+            return __res_1198;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1199;
             throw new Exception();
+            return __res_1199;
         }
         set
         {

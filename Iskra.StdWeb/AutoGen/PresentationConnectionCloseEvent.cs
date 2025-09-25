@@ -13,7 +13,9 @@ public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.PresentationConnectionCloseReason __res_946;
             throw new Exception();
+            return __res_946;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_947;
             throw new Exception();
+            return __res_947;
         }
     }
 }

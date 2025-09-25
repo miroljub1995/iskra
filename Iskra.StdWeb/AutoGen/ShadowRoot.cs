@@ -13,7 +13,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
+            Iskra.StdWeb.ShadowRootMode __res_1342;
             throw new Exception();
+            return __res_1342;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1343;
+            __res_1343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
+            return __res_1343;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
+            Iskra.StdWeb.SlotAssignmentMode __res_1344;
             throw new Exception();
+            return __res_1344;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1345;
+            __res_1345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
+            return __res_1345;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1346;
+            __res_1346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
+            return __res_1346;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
+            Iskra.StdWeb.Element __res_1347;
             throw new Exception();
+            return __res_1347;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1348;
             throw new Exception();
+            return __res_1348;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_619;
+            __res_619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFile");
+            return __res_619;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_620;
+            __res_620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isDirectory");
+            return __res_620;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_621;
             throw new Exception();
+            return __res_621;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_622;
             throw new Exception();
+            return __res_622;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.FileSystem __res_623;
             throw new Exception();
+            return __res_623;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_432;
             throw new Exception();
+            return __res_432;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Function __res_433;
             throw new Exception();
+            return __res_433;
         }
     }
 }

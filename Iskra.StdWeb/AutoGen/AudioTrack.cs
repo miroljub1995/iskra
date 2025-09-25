@@ -13,7 +13,9 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2272;
             throw new Exception();
+            return __res_2272;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2273;
             throw new Exception();
+            return __res_2273;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2274;
             throw new Exception();
+            return __res_2274;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2275;
             throw new Exception();
+            return __res_2275;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2276;
+            __res_2276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            return __res_2276;
         }
         set
         {

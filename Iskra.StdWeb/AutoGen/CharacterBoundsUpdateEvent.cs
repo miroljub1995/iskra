@@ -13,7 +13,9 @@ public partial class CharacterBoundsUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_3288;
             throw new Exception();
+            return __res_3288;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CharacterBoundsUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_3289;
             throw new Exception();
+            return __res_3289;
         }
     }
 }

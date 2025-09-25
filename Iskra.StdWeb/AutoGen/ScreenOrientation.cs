@@ -13,7 +13,9 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.OrientationType __res_3143;
             throw new Exception();
+            return __res_3143;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_3144;
             throw new Exception();
+            return __res_3144;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3145;
             throw new Exception();
+            return __res_3145;
         }
         set
         {

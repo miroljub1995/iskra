@@ -13,7 +13,9 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
     {
         get
         {
+            Iskra.StdWeb.ForDebuggingOnly __res_1528;
             throw new Exception();
+            return __res_1528;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
     {
         get
         {
+            Iskra.StdWeb.RealTimeReporting __res_1529;
             throw new Exception();
+            return __res_1529;
         }
     }
 }

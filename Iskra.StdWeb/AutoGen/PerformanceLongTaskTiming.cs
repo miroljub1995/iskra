@@ -13,7 +13,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_2801;
             throw new Exception();
+            return __res_2801;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_2802;
             throw new Exception();
+            return __res_2802;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_2803;
             throw new Exception();
+            return __res_2803;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_2804;
             throw new Exception();
+            return __res_2804;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            object __res_2805;
             throw new Exception();
+            return __res_2805;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SVGPathElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_933;
             throw new Exception();
+            return __res_933;
         }
     }
 }

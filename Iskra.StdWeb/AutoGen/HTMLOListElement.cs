@@ -13,7 +13,9 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2157;
+            __res_2157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
+            return __res_2157;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2158;
             throw new Exception();
+            return __res_2158;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2159;
             throw new Exception();
+            return __res_2159;
         }
         set
         {

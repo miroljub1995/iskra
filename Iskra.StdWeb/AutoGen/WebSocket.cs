@@ -13,7 +13,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1893;
             throw new Exception();
+            return __res_1893;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_1894;
             throw new Exception();
+            return __res_1894;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1895;
             throw new Exception();
+            return __res_1895;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1896;
             throw new Exception();
+            return __res_1896;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1897;
             throw new Exception();
+            return __res_1897;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1898;
             throw new Exception();
+            return __res_1898;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1899;
             throw new Exception();
+            return __res_1899;
         }
     }
 
@@ -81,7 +95,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1900;
             throw new Exception();
+            return __res_1900;
         }
     }
 
@@ -89,7 +105,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1901;
             throw new Exception();
+            return __res_1901;
         }
         set
         {
@@ -101,7 +119,9 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BinaryType __res_1902;
             throw new Exception();
+            return __res_1902;
         }
         set
         {

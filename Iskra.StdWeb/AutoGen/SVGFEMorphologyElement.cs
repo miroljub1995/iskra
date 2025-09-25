@@ -13,7 +13,9 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_564;
             throw new Exception();
+            return __res_564;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_565;
             throw new Exception();
+            return __res_565;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_566;
             throw new Exception();
+            return __res_566;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_567;
             throw new Exception();
+            return __res_567;
         }
     }
 }

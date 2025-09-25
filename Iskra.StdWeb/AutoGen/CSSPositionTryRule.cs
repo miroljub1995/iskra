@@ -13,7 +13,9 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_964;
             throw new Exception();
+            return __res_964;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSPositionTryDescriptors __res_965;
             throw new Exception();
+            return __res_965;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2535;
             throw new Exception();
+            return __res_2535;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2536;
             throw new Exception();
+            return __res_2536;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2537;
             throw new Exception();
+            return __res_2537;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2538;
             throw new Exception();
+            return __res_2538;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2539;
             throw new Exception();
+            return __res_2539;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2540;
             throw new Exception();
+            return __res_2540;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2541;
             throw new Exception();
+            return __res_2541;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2542;
             throw new Exception();
+            return __res_2542;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2543;
             throw new Exception();
+            return __res_2543;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2544;
             throw new Exception();
+            return __res_2544;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2545;
             throw new Exception();
+            return __res_2545;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class TextMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_2546;
             throw new Exception();
+            return __res_2546;
         }
     }
 }

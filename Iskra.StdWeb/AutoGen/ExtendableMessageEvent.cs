@@ -13,7 +13,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object? __res_1841;
             throw new Exception();
+            return __res_1841;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_1842;
             throw new Exception();
+            return __res_1842;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_1843;
             throw new Exception();
+            return __res_1843;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_1844;
             throw new Exception();
+            return __res_1844;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_1845;
             throw new Exception();
+            return __res_1845;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class CompositionEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            string __res_3125;
             throw new Exception();
+            return __res_3125;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRLayerEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRLayer __res_705;
             throw new Exception();
+            return __res_705;
         }
     }
 }

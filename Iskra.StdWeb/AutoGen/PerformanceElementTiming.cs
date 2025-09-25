@@ -13,7 +13,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            double __res_1877;
             throw new Exception();
+            return __res_1877;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            double __res_1878;
             throw new Exception();
+            return __res_1878;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_1879;
             throw new Exception();
+            return __res_1879;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            string __res_1880;
             throw new Exception();
+            return __res_1880;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            uint __res_1881;
             throw new Exception();
+            return __res_1881;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            uint __res_1882;
             throw new Exception();
+            return __res_1882;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            string __res_1883;
             throw new Exception();
+            return __res_1883;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            Iskra.StdWeb.Element? __res_1884;
             throw new Exception();
+            return __res_1884;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
+            string __res_1885;
             throw new Exception();
+            return __res_1885;
         }
     }
 }

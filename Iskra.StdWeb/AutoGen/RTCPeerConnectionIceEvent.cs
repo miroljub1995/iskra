@@ -13,7 +13,9 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceCandidate? __res_797;
             throw new Exception();
+            return __res_797;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_798;
             throw new Exception();
+            return __res_798;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class RTCIdentityProviderGlobalScope(JSObject obj): WorkerGlobalS
     {
         get
         {
+            Iskra.StdWeb.RTCIdentityProviderRegistrar __res_1680;
             throw new Exception();
+            return __res_1680;
         }
     }
 }

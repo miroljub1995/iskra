@@ -13,7 +13,9 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
     {
         get
         {
+            uint __res_2109;
             throw new Exception();
+            return __res_2109;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
     {
         get
         {
+            int __res_2110;
             throw new Exception();
+            return __res_2110;
         }
         set
         {

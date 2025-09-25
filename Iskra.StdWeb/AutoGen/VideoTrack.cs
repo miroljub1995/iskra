@@ -13,7 +13,9 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2282;
             throw new Exception();
+            return __res_2282;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2283;
             throw new Exception();
+            return __res_2283;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2284;
             throw new Exception();
+            return __res_2284;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2285;
             throw new Exception();
+            return __res_2285;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2286;
+            __res_2286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            return __res_2286;
         }
         set
         {

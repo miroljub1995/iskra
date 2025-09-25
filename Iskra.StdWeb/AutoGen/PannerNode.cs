@@ -13,7 +13,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.PanningModelType __res_3235;
             throw new Exception();
+            return __res_3235;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3236;
             throw new Exception();
+            return __res_3236;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3237;
             throw new Exception();
+            return __res_3237;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3238;
             throw new Exception();
+            return __res_3238;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3239;
             throw new Exception();
+            return __res_3239;
         }
     }
 
@@ -57,7 +67,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3240;
             throw new Exception();
+            return __res_3240;
         }
     }
 
@@ -65,7 +77,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3241;
             throw new Exception();
+            return __res_3241;
         }
     }
 
@@ -73,7 +87,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.DistanceModelType __res_3242;
             throw new Exception();
+            return __res_3242;
         }
         set
         {
@@ -85,7 +101,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3243;
             throw new Exception();
+            return __res_3243;
         }
         set
         {
@@ -97,7 +115,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3244;
             throw new Exception();
+            return __res_3244;
         }
         set
         {
@@ -109,7 +129,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3245;
             throw new Exception();
+            return __res_3245;
         }
         set
         {
@@ -121,7 +143,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3246;
             throw new Exception();
+            return __res_3246;
         }
         set
         {
@@ -133,7 +157,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3247;
             throw new Exception();
+            return __res_3247;
         }
         set
         {
@@ -145,7 +171,9 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3248;
             throw new Exception();
+            return __res_3248;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class GPUPipelineError(JSObject obj): DOMException(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUPipelineErrorReason __res_354;
             throw new Exception();
+            return __res_354;
         }
     }
 }

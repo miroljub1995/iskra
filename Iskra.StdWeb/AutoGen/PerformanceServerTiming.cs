@@ -13,7 +13,9 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_285;
             throw new Exception();
+            return __res_285;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_286;
             throw new Exception();
+            return __res_286;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_287;
             throw new Exception();
+            return __res_287;
         }
     }
 }

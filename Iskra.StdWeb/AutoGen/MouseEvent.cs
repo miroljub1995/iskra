@@ -13,7 +13,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            int __res_3096;
             throw new Exception();
+            return __res_3096;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            int __res_3097;
             throw new Exception();
+            return __res_3097;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            int __res_3098;
             throw new Exception();
+            return __res_3098;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            int __res_3099;
             throw new Exception();
+            return __res_3099;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            int __res_3100;
             throw new Exception();
+            return __res_3100;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            int __res_3101;
             throw new Exception();
+            return __res_3101;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3102;
+            __res_3102 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            return __res_3102;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3103;
+            __res_3103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            return __res_3103;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3104;
+            __res_3104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            return __res_3104;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3105;
+            __res_3105 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            return __res_3105;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            short __res_3106;
             throw new Exception();
+            return __res_3106;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            ushort __res_3107;
             throw new Exception();
+            return __res_3107;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.EventTarget? __res_3108;
             throw new Exception();
+            return __res_3108;
         }
     }
 }

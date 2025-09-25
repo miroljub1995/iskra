@@ -13,7 +13,9 @@ public partial class PasswordCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            string __res_1038;
             throw new Exception();
+            return __res_1038;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_399;
             throw new Exception();
+            return __res_399;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            ushort __res_400;
             throw new Exception();
+            return __res_400;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            uint __res_401;
             throw new Exception();
+            return __res_401;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            throw new Exception();
+            bool __res_402;
+            __res_402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
+            return __res_402;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            Iskra.StdWeb.XMLHttpRequestUpload __res_403;
             throw new Exception();
+            return __res_403;
         }
     }
 
@@ -65,7 +75,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            string __res_404;
             throw new Exception();
+            return __res_404;
         }
     }
 
@@ -73,7 +85,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            ushort __res_405;
             throw new Exception();
+            return __res_405;
         }
     }
 
@@ -81,7 +95,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            string __res_406;
             throw new Exception();
+            return __res_406;
         }
     }
 
@@ -89,7 +105,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            Iskra.StdWeb.XMLHttpRequestResponseType __res_407;
             throw new Exception();
+            return __res_407;
         }
         set
         {
@@ -101,7 +119,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            object? __res_408;
             throw new Exception();
+            return __res_408;
         }
     }
 
@@ -109,7 +129,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            string __res_409;
             throw new Exception();
+            return __res_409;
         }
     }
 
@@ -117,7 +139,9 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
+            Iskra.StdWeb.Document? __res_410;
             throw new Exception();
+            return __res_410;
         }
     }
 }

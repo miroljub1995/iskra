@@ -13,7 +13,9 @@ public partial class KeyFrameRequestEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_459;
             throw new Exception();
+            return __res_459;
         }
     }
 }

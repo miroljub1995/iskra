@@ -13,7 +13,9 @@ public partial class RTCErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCError __res_864;
             throw new Exception();
+            return __res_864;
         }
     }
 }

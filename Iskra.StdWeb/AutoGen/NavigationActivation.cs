@@ -13,7 +13,9 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationHistoryEntry? __res_2640;
             throw new Exception();
+            return __res_2640;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationHistoryEntry __res_2641;
             throw new Exception();
+            return __res_2641;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationType __res_2642;
             throw new Exception();
+            return __res_2642;
         }
     }
 }

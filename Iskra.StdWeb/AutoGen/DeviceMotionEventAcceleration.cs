@@ -13,7 +13,9 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
     {
         get
         {
+            double? __res_1171;
             throw new Exception();
+            return __res_1171;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
     {
         get
         {
+            double? __res_1172;
             throw new Exception();
+            return __res_1172;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
     {
         get
         {
+            double? __res_1173;
             throw new Exception();
+            return __res_1173;
         }
     }
 }

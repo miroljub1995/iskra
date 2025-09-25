@@ -13,7 +13,9 @@ public partial class CanvasRenderingContext2D(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCanvasElement __res_2534;
             throw new Exception();
+            return __res_2534;
         }
     }
 }

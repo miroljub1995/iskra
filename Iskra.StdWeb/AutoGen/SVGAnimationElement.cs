@@ -13,7 +13,9 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGElement? __res_385;
             throw new Exception();
+            return __res_385;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_386;
             throw new Exception();
+            return __res_386;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_387;
             throw new Exception();
+            return __res_387;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_388;
             throw new Exception();
+            return __res_388;
         }
         set
         {

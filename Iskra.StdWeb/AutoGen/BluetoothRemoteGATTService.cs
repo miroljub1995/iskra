@@ -13,7 +13,9 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothDevice __res_1131;
             throw new Exception();
+            return __res_1131;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1132;
             throw new Exception();
+            return __res_1132;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1133;
+            __res_1133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            return __res_1133;
         }
     }
 }

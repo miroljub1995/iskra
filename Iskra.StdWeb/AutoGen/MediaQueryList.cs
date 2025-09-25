@@ -13,7 +13,9 @@ public partial class MediaQueryList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_732;
             throw new Exception();
+            return __res_732;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaQueryList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_733;
+            __res_733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            return __res_733;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaQueryList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_734;
             throw new Exception();
+            return __res_734;
         }
         set
         {

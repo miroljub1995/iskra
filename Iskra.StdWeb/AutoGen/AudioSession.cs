@@ -13,7 +13,9 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioSessionType __res_3264;
             throw new Exception();
+            return __res_3264;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioSessionState __res_3265;
             throw new Exception();
+            return __res_3265;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3266;
             throw new Exception();
+            return __res_3266;
         }
         set
         {

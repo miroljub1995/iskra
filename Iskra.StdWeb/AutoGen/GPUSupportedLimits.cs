@@ -13,7 +13,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_290;
             throw new Exception();
+            return __res_290;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_291;
             throw new Exception();
+            return __res_291;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_292;
             throw new Exception();
+            return __res_292;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_293;
             throw new Exception();
+            return __res_293;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_294;
             throw new Exception();
+            return __res_294;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_295;
             throw new Exception();
+            return __res_295;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_296;
             throw new Exception();
+            return __res_296;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_297;
             throw new Exception();
+            return __res_297;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_298;
             throw new Exception();
+            return __res_298;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_299;
             throw new Exception();
+            return __res_299;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_300;
             throw new Exception();
+            return __res_300;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_301;
             throw new Exception();
+            return __res_301;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_302;
             throw new Exception();
+            return __res_302;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_303;
             throw new Exception();
+            return __res_303;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_304;
             throw new Exception();
+            return __res_304;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_305;
             throw new Exception();
+            return __res_305;
         }
     }
 
@@ -141,7 +173,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_306;
             throw new Exception();
+            return __res_306;
         }
     }
 
@@ -149,7 +183,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_307;
             throw new Exception();
+            return __res_307;
         }
     }
 
@@ -157,7 +193,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_308;
             throw new Exception();
+            return __res_308;
         }
     }
 
@@ -165,7 +203,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_309;
             throw new Exception();
+            return __res_309;
         }
     }
 
@@ -173,7 +213,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_310;
             throw new Exception();
+            return __res_310;
         }
     }
 
@@ -181,7 +223,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_311;
             throw new Exception();
+            return __res_311;
         }
     }
 
@@ -189,7 +233,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_312;
             throw new Exception();
+            return __res_312;
         }
     }
 
@@ -197,7 +243,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_313;
             throw new Exception();
+            return __res_313;
         }
     }
 
@@ -205,7 +253,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_314;
             throw new Exception();
+            return __res_314;
         }
     }
 
@@ -213,7 +263,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_315;
             throw new Exception();
+            return __res_315;
         }
     }
 
@@ -221,7 +273,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_316;
             throw new Exception();
+            return __res_316;
         }
     }
 
@@ -229,7 +283,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_317;
             throw new Exception();
+            return __res_317;
         }
     }
 
@@ -237,7 +293,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_318;
             throw new Exception();
+            return __res_318;
         }
     }
 
@@ -245,7 +303,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_319;
             throw new Exception();
+            return __res_319;
         }
     }
 
@@ -253,7 +313,9 @@ public partial class GPUSupportedLimits(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_320;
             throw new Exception();
+            return __res_320;
         }
     }
 }

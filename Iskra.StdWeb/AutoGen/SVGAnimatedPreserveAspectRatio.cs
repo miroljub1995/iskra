@@ -13,7 +13,9 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
     {
         get
         {
+            Iskra.StdWeb.SVGPreserveAspectRatio __res_185;
             throw new Exception();
+            return __res_185;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
     {
         get
         {
+            Iskra.StdWeb.SVGPreserveAspectRatio __res_186;
             throw new Exception();
+            return __res_186;
         }
     }
 }

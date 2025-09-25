@@ -13,7 +13,9 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUQueryType __res_355;
             throw new Exception();
+            return __res_355;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_356;
             throw new Exception();
+            return __res_356;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2432;
+            __res_2432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2432;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2433;
             throw new Exception();
+            return __res_2433;
         }
         set
         {

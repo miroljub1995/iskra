@@ -13,7 +13,9 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double __res_3210;
             throw new Exception();
+            return __res_3210;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioBuffer __res_3211;
             throw new Exception();
+            return __res_3211;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioBuffer __res_3212;
             throw new Exception();
+            return __res_3212;
         }
     }
 }

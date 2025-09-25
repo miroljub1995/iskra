@@ -13,7 +13,9 @@ public partial class RadioNodeList(JSObject obj): NodeList(obj)
     {
         get
         {
+            string __res_2108;
             throw new Exception();
+            return __res_2108;
         }
         set
         {

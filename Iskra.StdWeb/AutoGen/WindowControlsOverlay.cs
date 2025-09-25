@@ -13,7 +13,9 @@ public partial class WindowControlsOverlay(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1155;
+            __res_1155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            return __res_1155;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WindowControlsOverlay(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1156;
             throw new Exception();
+            return __res_1156;
         }
         set
         {

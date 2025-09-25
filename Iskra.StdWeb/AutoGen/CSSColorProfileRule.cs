@@ -13,7 +13,9 @@ public partial class CSSColorProfileRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_927;
             throw new Exception();
+            return __res_927;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSColorProfileRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_928;
             throw new Exception();
+            return __res_928;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSColorProfileRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_929;
             throw new Exception();
+            return __res_929;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class CSSColorProfileRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_930;
             throw new Exception();
+            return __res_930;
         }
     }
 }

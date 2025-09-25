@@ -13,7 +13,9 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.BiquadFilterType __res_3213;
             throw new Exception();
+            return __res_3213;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3214;
             throw new Exception();
+            return __res_3214;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3215;
             throw new Exception();
+            return __res_3215;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3216;
             throw new Exception();
+            return __res_3216;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3217;
             throw new Exception();
+            return __res_3217;
         }
     }
 }

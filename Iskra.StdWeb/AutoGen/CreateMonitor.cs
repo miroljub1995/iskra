@@ -13,7 +13,9 @@ public partial class CreateMonitor(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_107;
             throw new Exception();
+            return __res_107;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_2092;
             throw new Exception();
+            return __res_2092;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_2093;
             throw new Exception();
+            return __res_2093;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array __res_2094;
             throw new Exception();
+            return __res_2094;
         }
     }
 }

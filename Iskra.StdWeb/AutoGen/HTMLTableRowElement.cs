@@ -13,7 +13,9 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2328;
             throw new Exception();
+            return __res_2328;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2329;
             throw new Exception();
+            return __res_2329;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2330;
             throw new Exception();
+            return __res_2330;
         }
     }
 }

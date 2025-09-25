@@ -13,7 +13,9 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_1552;
             throw new Exception();
+            return __res_1552;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_1553;
             throw new Exception();
+            return __res_1553;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1554;
+            __res_1554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
+            return __res_1554;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1555;
             throw new Exception();
+            return __res_1555;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            ulong __res_1556;
             throw new Exception();
+            return __res_1556;
         }
     }
 }

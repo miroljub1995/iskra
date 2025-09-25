@@ -13,7 +13,9 @@ public partial class CSSAnimation(JSObject obj): Animation(obj)
     {
         get
         {
+            string __res_1495;
             throw new Exception();
+            return __res_1495;
         }
     }
 }

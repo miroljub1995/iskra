@@ -13,7 +13,9 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_115;
             throw new Exception();
+            return __res_115;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.ScrollAxis __res_116;
             throw new Exception();
+            return __res_116;
         }
     }
 }

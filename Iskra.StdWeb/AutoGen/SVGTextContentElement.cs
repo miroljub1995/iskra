@@ -13,7 +13,9 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_206;
             throw new Exception();
+            return __res_206;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_207;
             throw new Exception();
+            return __res_207;
         }
     }
 }

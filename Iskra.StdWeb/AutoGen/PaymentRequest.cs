@@ -13,7 +13,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2906;
             throw new Exception();
+            return __res_2906;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ContactAddress? __res_2907;
             throw new Exception();
+            return __res_2907;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2908;
             throw new Exception();
+            return __res_2908;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.PaymentShippingType? __res_2909;
             throw new Exception();
+            return __res_2909;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2910;
             throw new Exception();
+            return __res_2910;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2911;
             throw new Exception();
+            return __res_2911;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2912;
             throw new Exception();
+            return __res_2912;
         }
         set
         {

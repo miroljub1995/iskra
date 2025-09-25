@@ -13,7 +13,9 @@ public partial class LayoutChild(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.StylePropertyMapReadOnly __res_3062;
             throw new Exception();
+            return __res_3062;
         }
     }
 }

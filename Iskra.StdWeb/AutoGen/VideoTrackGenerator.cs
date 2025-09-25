@@ -13,7 +13,9 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WritableStream __res_109;
             throw new Exception();
+            return __res_109;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_110;
+            __res_110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            return __res_110;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStreamTrack __res_111;
             throw new Exception();
+            return __res_111;
         }
     }
 }

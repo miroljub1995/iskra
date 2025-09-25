@@ -13,7 +13,9 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_2277;
             throw new Exception();
+            return __res_2277;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            int __res_2278;
             throw new Exception();
+            return __res_2278;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2279;
             throw new Exception();
+            return __res_2279;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2280;
             throw new Exception();
+            return __res_2280;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2281;
             throw new Exception();
+            return __res_2281;
         }
         set
         {

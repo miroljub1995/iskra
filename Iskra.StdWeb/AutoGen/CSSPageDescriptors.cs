@@ -13,7 +13,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2878;
             throw new Exception();
+            return __res_2878;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2879;
             throw new Exception();
+            return __res_2879;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2880;
             throw new Exception();
+            return __res_2880;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2881;
             throw new Exception();
+            return __res_2881;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2882;
             throw new Exception();
+            return __res_2882;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2883;
             throw new Exception();
+            return __res_2883;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2884;
             throw new Exception();
+            return __res_2884;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2885;
             throw new Exception();
+            return __res_2885;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2886;
             throw new Exception();
+            return __res_2886;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2887;
             throw new Exception();
+            return __res_2887;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2888;
             throw new Exception();
+            return __res_2888;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2889;
             throw new Exception();
+            return __res_2889;
         }
         set
         {
@@ -157,7 +181,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2890;
             throw new Exception();
+            return __res_2890;
         }
         set
         {
@@ -169,7 +195,9 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
+            string __res_2891;
             throw new Exception();
+            return __res_2891;
         }
         set
         {

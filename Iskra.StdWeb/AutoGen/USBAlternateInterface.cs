@@ -13,7 +13,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2034;
             throw new Exception();
+            return __res_2034;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2035;
             throw new Exception();
+            return __res_2035;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2036;
             throw new Exception();
+            return __res_2036;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2037;
             throw new Exception();
+            return __res_2037;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2038;
             throw new Exception();
+            return __res_2038;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2039;
             throw new Exception();
+            return __res_2039;
         }
     }
 }

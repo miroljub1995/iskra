@@ -13,7 +13,9 @@ public partial class Blob(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_3128;
             throw new Exception();
+            return __res_3128;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Blob(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3129;
             throw new Exception();
+            return __res_3129;
         }
     }
 }

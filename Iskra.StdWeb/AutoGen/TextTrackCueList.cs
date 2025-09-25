@@ -13,7 +13,9 @@ public partial class TextTrackCueList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2300;
             throw new Exception();
+            return __res_2300;
         }
     }
 }

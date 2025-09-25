@@ -13,7 +13,9 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_464;
             throw new Exception();
+            return __res_464;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_465;
             throw new Exception();
+            return __res_465;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform __res_466;
             throw new Exception();
+            return __res_466;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_467;
             throw new Exception();
+            return __res_467;
         }
     }
 }

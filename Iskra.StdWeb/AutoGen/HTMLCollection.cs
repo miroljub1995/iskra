@@ -13,7 +13,9 @@ public partial class HTMLCollection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1305;
             throw new Exception();
+            return __res_1305;
         }
     }
 }

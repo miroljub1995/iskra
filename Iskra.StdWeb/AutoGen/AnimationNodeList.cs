@@ -13,7 +13,9 @@ public partial class AnimationNodeList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2098;
             throw new Exception();
+            return __res_2098;
         }
     }
 }

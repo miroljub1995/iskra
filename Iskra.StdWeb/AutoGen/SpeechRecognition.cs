@@ -13,7 +13,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.SpeechGrammarList __res_1620;
             throw new Exception();
+            return __res_1620;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1621;
             throw new Exception();
+            return __res_1621;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1622;
+            __res_1622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "continuous");
+            return __res_1622;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1623;
+            __res_1623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "interimResults");
+            return __res_1623;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_1624;
             throw new Exception();
+            return __res_1624;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1625;
+            __res_1625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "processLocally");
+            return __res_1625;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1626;
             throw new Exception();
+            return __res_1626;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1627;
             throw new Exception();
+            return __res_1627;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1628;
             throw new Exception();
+            return __res_1628;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1629;
             throw new Exception();
+            return __res_1629;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1630;
             throw new Exception();
+            return __res_1630;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1631;
             throw new Exception();
+            return __res_1631;
         }
         set
         {
@@ -157,7 +181,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1632;
             throw new Exception();
+            return __res_1632;
         }
         set
         {
@@ -169,7 +195,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1633;
             throw new Exception();
+            return __res_1633;
         }
         set
         {
@@ -181,7 +209,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1634;
             throw new Exception();
+            return __res_1634;
         }
         set
         {
@@ -193,7 +223,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1635;
             throw new Exception();
+            return __res_1635;
         }
         set
         {
@@ -205,7 +237,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1636;
             throw new Exception();
+            return __res_1636;
         }
         set
         {
@@ -217,7 +251,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1637;
             throw new Exception();
+            return __res_1637;
         }
         set
         {

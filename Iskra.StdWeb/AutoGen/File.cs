@@ -13,7 +13,9 @@ public partial class File(JSObject obj): Blob(obj)
     {
         get
         {
+            string __res_3130;
             throw new Exception();
+            return __res_3130;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class File(JSObject obj): Blob(obj)
     {
         get
         {
+            long __res_3131;
             throw new Exception();
+            return __res_3131;
         }
     }
 }

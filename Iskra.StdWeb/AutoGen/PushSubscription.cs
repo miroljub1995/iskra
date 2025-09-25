@@ -13,7 +13,9 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1989;
             throw new Exception();
+            return __res_1989;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong? __res_1990;
             throw new Exception();
+            return __res_1990;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PushSubscriptionOptions __res_1991;
             throw new Exception();
+            return __res_1991;
         }
     }
 }

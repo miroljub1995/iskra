@@ -13,7 +13,9 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioSampleFormat? __res_1061;
             throw new Exception();
+            return __res_1061;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1062;
             throw new Exception();
+            return __res_1062;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1063;
             throw new Exception();
+            return __res_1063;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1064;
             throw new Exception();
+            return __res_1064;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_1065;
             throw new Exception();
+            return __res_1065;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            long __res_1066;
             throw new Exception();
+            return __res_1066;
         }
     }
 }

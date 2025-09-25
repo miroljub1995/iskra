@@ -13,7 +13,9 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1246;
             throw new Exception();
+            return __res_1246;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_1247;
             throw new Exception();
+            return __res_1247;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_1248;
             throw new Exception();
+            return __res_1248;
         }
     }
 }

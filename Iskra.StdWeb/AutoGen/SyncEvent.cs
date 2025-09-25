@@ -13,7 +13,9 @@ public partial class SyncEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_2935;
             throw new Exception();
+            return __res_2935;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SyncEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2936;
+            __res_2936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lastChance");
+            return __res_2936;
         }
     }
 }

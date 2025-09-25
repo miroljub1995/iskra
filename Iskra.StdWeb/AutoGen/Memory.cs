@@ -13,7 +13,9 @@ public partial class Memory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1872;
             throw new Exception();
+            return __res_1872;
         }
     }
 }

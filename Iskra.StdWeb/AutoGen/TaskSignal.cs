@@ -13,7 +13,9 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
     {
         get
         {
+            Iskra.StdWeb.TaskPriority __res_462;
             throw new Exception();
+            return __res_462;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_463;
             throw new Exception();
+            return __res_463;
         }
         set
         {

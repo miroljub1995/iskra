@@ -13,7 +13,9 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_3173;
             throw new Exception();
+            return __res_3173;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_3174;
             throw new Exception();
+            return __res_3174;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3175;
             throw new Exception();
+            return __res_3175;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_3176;
             throw new Exception();
+            return __res_3176;
         }
     }
 }

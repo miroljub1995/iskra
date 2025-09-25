@@ -13,7 +13,9 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2677;
             throw new Exception();
+            return __res_2677;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2678;
             throw new Exception();
+            return __res_2678;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_2679;
             throw new Exception();
+            return __res_2679;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_2680;
             throw new Exception();
+            return __res_2680;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_2681;
             throw new Exception();
+            return __res_2681;
         }
     }
 }

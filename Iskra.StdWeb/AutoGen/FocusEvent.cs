@@ -13,7 +13,9 @@ public partial class FocusEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.EventTarget? __res_3095;
             throw new Exception();
+            return __res_3095;
         }
     }
 }

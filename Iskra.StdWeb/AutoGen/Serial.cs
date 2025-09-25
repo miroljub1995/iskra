@@ -13,7 +13,9 @@ public partial class Serial(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1798;
             throw new Exception();
+            return __res_1798;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class Serial(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1799;
             throw new Exception();
+            return __res_1799;
         }
         set
         {

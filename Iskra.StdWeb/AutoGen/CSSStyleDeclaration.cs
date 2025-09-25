@@ -13,7 +13,9 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2898;
             throw new Exception();
+            return __res_2898;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2899;
             throw new Exception();
+            return __res_2899;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSRule? __res_2900;
             throw new Exception();
+            return __res_2900;
         }
     }
 }

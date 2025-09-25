@@ -13,7 +13,9 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpReceiver __res_828;
             throw new Exception();
+            return __res_828;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStreamTrack __res_829;
             throw new Exception();
+            return __res_829;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_830;
             throw new Exception();
+            return __res_830;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpTransceiver __res_831;
             throw new Exception();
+            return __res_831;
         }
     }
 }

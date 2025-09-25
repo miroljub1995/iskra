@@ -13,7 +13,9 @@ public partial class AnimationPlaybackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_2099;
             throw new Exception();
+            return __res_2099;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AnimationPlaybackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_2100;
             throw new Exception();
+            return __res_2100;
         }
     }
 }

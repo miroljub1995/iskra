@@ -13,7 +13,9 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
+            object __res_61;
             throw new Exception();
+            return __res_61;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
+            object __res_62;
             throw new Exception();
+            return __res_62;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
+            object __res_63;
             throw new Exception();
+            return __res_63;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
+            object __res_64;
             throw new Exception();
+            return __res_64;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_2806;
             throw new Exception();
+            return __res_2806;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_2807;
             throw new Exception();
+            return __res_2807;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2808;
             throw new Exception();
+            return __res_2808;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2809;
             throw new Exception();
+            return __res_2809;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2810;
             throw new Exception();
+            return __res_2810;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2811;
             throw new Exception();
+            return __res_2811;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2812;
             throw new Exception();
+            return __res_2812;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_2813;
             throw new Exception();
+            return __res_2813;
         }
     }
 }

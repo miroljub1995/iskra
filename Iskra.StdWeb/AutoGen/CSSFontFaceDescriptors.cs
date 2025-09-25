@@ -13,7 +13,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1942;
             throw new Exception();
+            return __res_1942;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1943;
             throw new Exception();
+            return __res_1943;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1944;
             throw new Exception();
+            return __res_1944;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1945;
             throw new Exception();
+            return __res_1945;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1946;
             throw new Exception();
+            return __res_1946;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1947;
             throw new Exception();
+            return __res_1947;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1948;
             throw new Exception();
+            return __res_1948;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1949;
             throw new Exception();
+            return __res_1949;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1950;
             throw new Exception();
+            return __res_1950;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1951;
             throw new Exception();
+            return __res_1951;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1952;
             throw new Exception();
+            return __res_1952;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1953;
             throw new Exception();
+            return __res_1953;
         }
         set
         {
@@ -157,7 +181,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1954;
             throw new Exception();
+            return __res_1954;
         }
         set
         {
@@ -169,7 +195,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1955;
             throw new Exception();
+            return __res_1955;
         }
         set
         {
@@ -181,7 +209,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1956;
             throw new Exception();
+            return __res_1956;
         }
         set
         {
@@ -193,7 +223,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1957;
             throw new Exception();
+            return __res_1957;
         }
         set
         {
@@ -205,7 +237,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1958;
             throw new Exception();
+            return __res_1958;
         }
         set
         {
@@ -217,7 +251,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1959;
             throw new Exception();
+            return __res_1959;
         }
         set
         {
@@ -229,7 +265,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1960;
             throw new Exception();
+            return __res_1960;
         }
         set
         {
@@ -241,7 +279,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1961;
             throw new Exception();
+            return __res_1961;
         }
         set
         {
@@ -253,7 +293,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1962;
             throw new Exception();
+            return __res_1962;
         }
         set
         {
@@ -265,7 +307,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1963;
             throw new Exception();
+            return __res_1963;
         }
         set
         {
@@ -277,7 +321,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1964;
             throw new Exception();
+            return __res_1964;
         }
         set
         {
@@ -289,7 +335,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1965;
             throw new Exception();
+            return __res_1965;
         }
         set
         {
@@ -301,7 +349,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1966;
             throw new Exception();
+            return __res_1966;
         }
         set
         {
@@ -313,7 +363,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1967;
             throw new Exception();
+            return __res_1967;
         }
         set
         {
@@ -325,7 +377,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1968;
             throw new Exception();
+            return __res_1968;
         }
         set
         {
@@ -337,7 +391,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1969;
             throw new Exception();
+            return __res_1969;
         }
         set
         {
@@ -349,7 +405,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1970;
             throw new Exception();
+            return __res_1970;
         }
         set
         {
@@ -361,7 +419,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1971;
             throw new Exception();
+            return __res_1971;
         }
         set
         {
@@ -373,7 +433,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1972;
             throw new Exception();
+            return __res_1972;
         }
         set
         {
@@ -385,7 +447,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1973;
             throw new Exception();
+            return __res_1973;
         }
         set
         {
@@ -397,7 +461,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1974;
             throw new Exception();
+            return __res_1974;
         }
         set
         {
@@ -409,7 +475,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1975;
             throw new Exception();
+            return __res_1975;
         }
         set
         {
@@ -421,7 +489,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1976;
             throw new Exception();
+            return __res_1976;
         }
         set
         {
@@ -433,7 +503,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1977;
             throw new Exception();
+            return __res_1977;
         }
         set
         {
@@ -445,7 +517,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1978;
             throw new Exception();
+            return __res_1978;
         }
         set
         {
@@ -457,7 +531,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1979;
             throw new Exception();
+            return __res_1979;
         }
         set
         {
@@ -469,7 +545,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1980;
             throw new Exception();
+            return __res_1980;
         }
         set
         {
@@ -481,7 +559,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1981;
             throw new Exception();
+            return __res_1981;
         }
         set
         {
@@ -493,7 +573,9 @@ public partial class CSSFontFaceDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
+            string __res_1982;
             throw new Exception();
+            return __res_1982;
         }
         set
         {

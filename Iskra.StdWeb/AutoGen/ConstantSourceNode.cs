@@ -13,7 +13,9 @@ public partial class ConstantSourceNode(JSObject obj): AudioScheduledSourceNode(
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3218;
             throw new Exception();
+            return __res_3218;
         }
     }
 }

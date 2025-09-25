@@ -13,7 +13,9 @@ public partial class FileList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_3132;
             throw new Exception();
+            return __res_3132;
         }
     }
 }

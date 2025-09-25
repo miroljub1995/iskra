@@ -13,7 +13,9 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1613;
             throw new Exception();
+            return __res_1613;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Element __res_1614;
             throw new Exception();
+            return __res_1614;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1615;
             throw new Exception();
+            return __res_1615;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2630;
             throw new Exception();
+            return __res_2630;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2631;
             throw new Exception();
+            return __res_2631;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2632;
             throw new Exception();
+            return __res_2632;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
+            long __res_2633;
             throw new Exception();
+            return __res_2633;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2634;
+            __res_2634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            return __res_2634;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2635;
             throw new Exception();
+            return __res_2635;
         }
         set
         {

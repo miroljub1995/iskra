@@ -13,7 +13,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2480;
             throw new Exception();
+            return __res_2480;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2481;
             throw new Exception();
+            return __res_2481;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2482;
             throw new Exception();
+            return __res_2482;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2483;
             throw new Exception();
+            return __res_2483;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2484;
             throw new Exception();
+            return __res_2484;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2485;
             throw new Exception();
+            return __res_2485;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_2486;
             throw new Exception();
+            return __res_2486;
         }
     }
 }

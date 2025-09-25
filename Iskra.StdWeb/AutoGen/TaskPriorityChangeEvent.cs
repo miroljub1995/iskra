@@ -13,7 +13,9 @@ public partial class TaskPriorityChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.TaskPriority __res_461;
             throw new Exception();
+            return __res_461;
         }
     }
 }

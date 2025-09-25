@@ -13,7 +13,9 @@ public partial class HTMLQuoteElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2156;
             throw new Exception();
+            return __res_2156;
         }
         set
         {

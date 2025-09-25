@@ -13,7 +13,9 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2350;
             throw new Exception();
+            return __res_2350;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2351;
             throw new Exception();
+            return __res_2351;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLElement? __res_2352;
             throw new Exception();
+            return __res_2352;
         }
     }
 }

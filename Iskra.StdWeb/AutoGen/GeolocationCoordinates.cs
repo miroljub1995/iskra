@@ -13,7 +13,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_438;
             throw new Exception();
+            return __res_438;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_439;
             throw new Exception();
+            return __res_439;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_440;
             throw new Exception();
+            return __res_440;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_441;
             throw new Exception();
+            return __res_441;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_442;
             throw new Exception();
+            return __res_442;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_443;
             throw new Exception();
+            return __res_443;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_444;
             throw new Exception();
+            return __res_444;
         }
     }
 }

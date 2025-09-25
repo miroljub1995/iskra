@@ -13,7 +13,9 @@ public partial class SpeechRecognitionResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1642;
             throw new Exception();
+            return __res_1642;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SpeechRecognitionResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1643;
+            __res_1643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFinal");
+            return __res_1643;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdat
     {
         get
         {
+            string __res_2922;
             throw new Exception();
+            return __res_2922;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdat
     {
         get
         {
+            JSObject? __res_2923;
             throw new Exception();
+            return __res_2923;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class RTCDTMFToneChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_858;
             throw new Exception();
+            return __res_858;
         }
     }
 }

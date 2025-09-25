@@ -13,7 +13,9 @@ public partial class ShadowAnimation(JSObject obj): Animation(obj)
     {
         get
         {
+            Iskra.StdWeb.Animation __res_172;
             throw new Exception();
+            return __res_172;
         }
     }
 }

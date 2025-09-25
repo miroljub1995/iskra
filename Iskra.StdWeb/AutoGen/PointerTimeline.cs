@@ -13,7 +13,9 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_2049;
             throw new Exception();
+            return __res_2049;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
+            Iskra.StdWeb.PointerAxis __res_2050;
             throw new Exception();
+            return __res_2050;
         }
     }
 }

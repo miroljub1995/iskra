@@ -13,7 +13,9 @@ public partial class MediaStreamAudioSourceNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStream __res_3231;
             throw new Exception();
+            return __res_3231;
         }
     }
 }

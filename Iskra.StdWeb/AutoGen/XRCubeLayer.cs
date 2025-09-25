@@ -13,7 +13,9 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_689;
             throw new Exception();
+            return __res_689;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_690;
             throw new Exception();
+            return __res_690;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_691;
             throw new Exception();
+            return __res_691;
         }
         set
         {

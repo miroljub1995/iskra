@@ -13,7 +13,9 @@ public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj
     {
         get
         {
+            int __res_379;
             throw new Exception();
+            return __res_379;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj
     {
         get
         {
+            int __res_380;
             throw new Exception();
+            return __res_380;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj
     {
         get
         {
+            int __res_381;
             throw new Exception();
+            return __res_381;
         }
     }
 }

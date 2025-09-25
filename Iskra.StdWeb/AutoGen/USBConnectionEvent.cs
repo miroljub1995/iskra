@@ -13,7 +13,9 @@ public partial class USBConnectionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.USBDevice __res_1998;
             throw new Exception();
+            return __res_1998;
         }
     }
 }

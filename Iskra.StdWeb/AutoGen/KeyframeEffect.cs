@@ -13,7 +13,9 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_643;
             throw new Exception();
+            return __res_643;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
+            string? __res_644;
             throw new Exception();
+            return __res_644;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
+            Iskra.StdWeb.CompositeOperation __res_645;
             throw new Exception();
+            return __res_645;
         }
         set
         {

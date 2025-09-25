@@ -8,6 +8,7 @@ public class TestPropertiesTest() : BaseTest<TestProperties>("testProperties")
     [Before(Class)]
     public static void Before()
     {
+        JSCoreProxyFactory.Initialize();
         WebIDLGeneratorTestsProxyFactory.Initialize();
     }
 

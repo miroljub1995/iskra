@@ -13,7 +13,9 @@ public partial class WindowControlsOverlayGeometryChangeEvent(JSObject obj): Eve
     {
         get
         {
+            Iskra.StdWeb.DOMRect __res_1157;
             throw new Exception();
+            return __res_1157;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WindowControlsOverlayGeometryChangeEvent(JSObject obj): Eve
     {
         get
         {
-            throw new Exception();
+            bool __res_1158;
+            __res_1158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            return __res_1158;
         }
     }
 }

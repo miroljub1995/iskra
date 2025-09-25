@@ -13,7 +13,9 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLengthList __res_208;
             throw new Exception();
+            return __res_208;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLengthList __res_209;
             throw new Exception();
+            return __res_209;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLengthList __res_210;
             throw new Exception();
+            return __res_210;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLengthList __res_211;
             throw new Exception();
+            return __res_211;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumberList __res_212;
             throw new Exception();
+            return __res_212;
         }
     }
 }

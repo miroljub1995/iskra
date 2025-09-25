@@ -13,7 +13,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2112;
             throw new Exception();
+            return __res_2112;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2113;
             throw new Exception();
+            return __res_2113;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2114;
+            __res_2114 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "translate");
+            return __res_2114;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2115;
             throw new Exception();
+            return __res_2115;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            object __res_2116;
             throw new Exception();
+            return __res_2116;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2117;
+            __res_2117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inert");
+            return __res_2117;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2118;
             throw new Exception();
+            return __res_2118;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2119;
             throw new Exception();
+            return __res_2119;
         }
     }
 
@@ -105,7 +121,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2120;
+            __res_2120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "draggable");
+            return __res_2120;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2121;
+            __res_2121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "spellcheck");
+            return __res_2121;
         }
         set
         {
@@ -129,7 +149,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2122;
             throw new Exception();
+            return __res_2122;
         }
         set
         {
@@ -141,7 +163,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2123;
             throw new Exception();
+            return __res_2123;
         }
         set
         {
@@ -153,7 +177,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2124;
+            __res_2124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autocorrect");
+            return __res_2124;
         }
         set
         {
@@ -165,7 +191,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2125;
             throw new Exception();
+            return __res_2125;
         }
         set
         {
@@ -177,7 +205,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string __res_2126;
             throw new Exception();
+            return __res_2126;
         }
         set
         {
@@ -189,7 +219,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            string? __res_2127;
             throw new Exception();
+            return __res_2127;
         }
         set
         {
@@ -201,7 +233,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
+            uint __res_2128;
             throw new Exception();
+            return __res_2128;
         }
         set
         {
@@ -213,7 +247,9 @@ public partial class HTMLElement(JSObject obj): Element(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2129;
+            __res_2129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "headingReset");
+            return __res_2129;
         }
         set
         {

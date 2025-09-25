@@ -13,7 +13,9 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_755;
             throw new Exception();
+            return __res_755;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_756;
             throw new Exception();
+            return __res_756;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            uint __res_757;
             throw new Exception();
+            return __res_757;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_758;
             throw new Exception();
+            return __res_758;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            string __res_759;
             throw new Exception();
+            return __res_759;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_760;
             throw new Exception();
+            return __res_760;
         }
     }
 }

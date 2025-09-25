@@ -13,7 +13,9 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_241;
             throw new Exception();
+            return __res_241;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_242;
             throw new Exception();
+            return __res_242;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_243;
             throw new Exception();
+            return __res_243;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_244;
             throw new Exception();
+            return __res_244;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_245;
             throw new Exception();
+            return __res_245;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_246;
             throw new Exception();
+            return __res_246;
         }
     }
 }

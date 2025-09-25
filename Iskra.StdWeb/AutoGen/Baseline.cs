@@ -13,7 +13,9 @@ public partial class Baseline(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3058;
             throw new Exception();
+            return __res_3058;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Baseline(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3059;
             throw new Exception();
+            return __res_3059;
         }
     }
 }

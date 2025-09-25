@@ -13,7 +13,9 @@ public partial class SVGNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_125;
             throw new Exception();
+            return __res_125;
         }
         set
         {

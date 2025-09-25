@@ -13,7 +13,9 @@ public partial class CSSRuleList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2865;
             throw new Exception();
+            return __res_2865;
         }
     }
 }

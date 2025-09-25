@@ -13,7 +13,9 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_896;
             throw new Exception();
+            return __res_896;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_897;
             throw new Exception();
+            return __res_897;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_898;
             throw new Exception();
+            return __res_898;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_899;
             throw new Exception();
+            return __res_899;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.FontFaceSetLoadStatus __res_900;
             throw new Exception();
+            return __res_900;
         }
     }
 }

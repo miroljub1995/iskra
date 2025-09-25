@@ -13,7 +13,9 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
+            Iskra.StdWeb.PrivateAggregation? __res_1526;
             throw new Exception();
+            return __res_1526;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
+            Iskra.StdWeb.ProtectedAudienceUtilities __res_1527;
             throw new Exception();
+            return __res_1527;
         }
     }
 }

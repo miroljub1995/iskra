@@ -13,7 +13,9 @@ public partial class DedicatedWorkerGlobalScope(JSObject obj): WorkerGlobalScope
     {
         get
         {
+            string __res_2727;
             throw new Exception();
+            return __res_2727;
         }
     }
 }

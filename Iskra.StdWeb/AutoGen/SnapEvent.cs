@@ -13,7 +13,9 @@ public partial class SnapEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_0;
             throw new Exception();
+            return __res_0;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SnapEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1;
             throw new Exception();
+            return __res_1;
         }
     }
 }

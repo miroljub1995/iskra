@@ -13,7 +13,9 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1421;
             throw new Exception();
+            return __res_1421;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1422;
             throw new Exception();
+            return __res_1422;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_1423;
             throw new Exception();
+            return __res_1423;
         }
     }
 }

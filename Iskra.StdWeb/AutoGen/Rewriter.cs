@@ -13,7 +13,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_99;
             throw new Exception();
+            return __res_99;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RewriterTone __res_100;
             throw new Exception();
+            return __res_100;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RewriterFormat __res_101;
             throw new Exception();
+            return __res_101;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RewriterLength __res_102;
             throw new Exception();
+            return __res_102;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_103;
             throw new Exception();
+            return __res_103;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_104;
             throw new Exception();
+            return __res_104;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_105;
             throw new Exception();
+            return __res_105;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_106;
             throw new Exception();
+            return __res_106;
         }
     }
 }

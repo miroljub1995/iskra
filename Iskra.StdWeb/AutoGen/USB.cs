@@ -13,7 +13,9 @@ public partial class USB(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1996;
             throw new Exception();
+            return __res_1996;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class USB(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1997;
             throw new Exception();
+            return __res_1997;
         }
         set
         {

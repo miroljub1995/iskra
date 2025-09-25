@@ -13,7 +13,9 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2088;
             throw new Exception();
+            return __res_2088;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer? __res_2089;
             throw new Exception();
+            return __res_2089;
         }
     }
 }

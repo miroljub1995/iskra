@@ -13,7 +13,9 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2686;
             throw new Exception();
+            return __res_2686;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2687;
             throw new Exception();
+            return __res_2687;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2688;
             throw new Exception();
+            return __res_2688;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2689;
             throw new Exception();
+            return __res_2689;
         }
     }
 }

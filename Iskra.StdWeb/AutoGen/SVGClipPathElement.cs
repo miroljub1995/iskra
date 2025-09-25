@@ -13,7 +13,9 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1186;
             throw new Exception();
+            return __res_1186;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedTransformList __res_1187;
             throw new Exception();
+            return __res_1187;
         }
     }
 }

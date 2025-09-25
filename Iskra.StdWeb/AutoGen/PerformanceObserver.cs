@@ -13,7 +13,9 @@ public partial class PerformanceObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1563;
             throw new Exception();
+            return __res_1563;
         }
     }
 }

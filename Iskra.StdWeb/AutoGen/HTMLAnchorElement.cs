@@ -13,7 +13,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2161;
             throw new Exception();
+            return __res_2161;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2162;
             throw new Exception();
+            return __res_2162;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2163;
             throw new Exception();
+            return __res_2163;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2164;
             throw new Exception();
+            return __res_2164;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2165;
             throw new Exception();
+            return __res_2165;
         }
     }
 
@@ -69,7 +79,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2166;
             throw new Exception();
+            return __res_2166;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2167;
             throw new Exception();
+            return __res_2167;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2168;
             throw new Exception();
+            return __res_2168;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2169;
             throw new Exception();
+            return __res_2169;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1580;
             throw new Exception();
+            return __res_1580;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaDeviceKind __res_1581;
             throw new Exception();
+            return __res_1581;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1582;
             throw new Exception();
+            return __res_1582;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1583;
             throw new Exception();
+            return __res_1583;
         }
     }
 }

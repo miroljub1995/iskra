@@ -13,7 +13,9 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_187;
             throw new Exception();
+            return __res_187;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_188;
             throw new Exception();
+            return __res_188;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_189;
             throw new Exception();
+            return __res_189;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_190;
             throw new Exception();
+            return __res_190;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_191;
             throw new Exception();
+            return __res_191;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_192;
             throw new Exception();
+            return __res_192;
         }
     }
 }

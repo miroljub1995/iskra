@@ -13,7 +13,9 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2040;
             throw new Exception();
+            return __res_2040;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.USBDirection __res_2041;
             throw new Exception();
+            return __res_2041;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.USBEndpointType __res_2042;
             throw new Exception();
+            return __res_2042;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2043;
             throw new Exception();
+            return __res_2043;
         }
     }
 }

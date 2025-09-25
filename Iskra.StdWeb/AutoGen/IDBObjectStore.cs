@@ -13,7 +13,9 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3013;
             throw new Exception();
+            return __res_3013;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3014;
             throw new Exception();
+            return __res_3014;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMStringList __res_3015;
             throw new Exception();
+            return __res_3015;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBTransaction __res_3016;
             throw new Exception();
+            return __res_3016;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3017;
+            __res_3017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
+            return __res_3017;
         }
     }
 }

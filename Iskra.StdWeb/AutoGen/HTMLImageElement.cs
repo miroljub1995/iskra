@@ -13,7 +13,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2181;
             throw new Exception();
+            return __res_2181;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2182;
             throw new Exception();
+            return __res_2182;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2183;
             throw new Exception();
+            return __res_2183;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2184;
             throw new Exception();
+            return __res_2184;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string? __res_2185;
             throw new Exception();
+            return __res_2185;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2186;
             throw new Exception();
+            return __res_2186;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2187;
+            __res_2187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isMap");
+            return __res_2187;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2188;
             throw new Exception();
+            return __res_2188;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2189;
             throw new Exception();
+            return __res_2189;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2190;
             throw new Exception();
+            return __res_2190;
         }
     }
 
@@ -129,7 +149,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2191;
             throw new Exception();
+            return __res_2191;
         }
     }
 
@@ -137,7 +159,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2192;
+            __res_2192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            return __res_2192;
         }
     }
 
@@ -145,7 +169,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2193;
             throw new Exception();
+            return __res_2193;
         }
     }
 
@@ -153,7 +179,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2194;
             throw new Exception();
+            return __res_2194;
         }
         set
         {
@@ -165,7 +193,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2195;
             throw new Exception();
+            return __res_2195;
         }
         set
         {
@@ -177,7 +207,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2196;
             throw new Exception();
+            return __res_2196;
         }
         set
         {
@@ -189,7 +221,9 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2197;
             throw new Exception();
+            return __res_2197;
         }
         set
         {

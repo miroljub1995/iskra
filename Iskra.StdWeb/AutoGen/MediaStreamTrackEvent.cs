@@ -13,7 +13,9 @@ public partial class MediaStreamTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStreamTrack __res_1577;
             throw new Exception();
+            return __res_1577;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
+            int __res_1273;
             throw new Exception();
+            return __res_1273;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
+            int __res_1274;
             throw new Exception();
+            return __res_1274;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1275;
             throw new Exception();
+            return __res_1275;
         }
         set
         {

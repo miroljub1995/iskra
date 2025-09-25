@@ -13,7 +13,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_873;
             throw new Exception();
+            return __res_873;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_874;
             throw new Exception();
+            return __res_874;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_875;
             throw new Exception();
+            return __res_875;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_876;
             throw new Exception();
+            return __res_876;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_877;
             throw new Exception();
+            return __res_877;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_878;
             throw new Exception();
+            return __res_878;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_879;
             throw new Exception();
+            return __res_879;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_880;
             throw new Exception();
+            return __res_880;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_881;
             throw new Exception();
+            return __res_881;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_882;
             throw new Exception();
+            return __res_882;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_883;
             throw new Exception();
+            return __res_883;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.FontFaceLoadStatus __res_884;
             throw new Exception();
+            return __res_884;
         }
     }
 
@@ -153,7 +177,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_885;
             throw new Exception();
+            return __res_885;
         }
     }
 }

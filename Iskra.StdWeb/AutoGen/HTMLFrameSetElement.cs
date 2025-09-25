@@ -13,7 +13,9 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2757;
             throw new Exception();
+            return __res_2757;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2758;
             throw new Exception();
+            return __res_2758;
         }
         set
         {

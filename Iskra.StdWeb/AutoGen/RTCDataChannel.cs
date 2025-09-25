@@ -13,7 +13,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_837;
             throw new Exception();
+            return __res_837;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_838;
+            __res_838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ordered");
+            return __res_838;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort? __res_839;
             throw new Exception();
+            return __res_839;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort? __res_840;
             throw new Exception();
+            return __res_840;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_841;
             throw new Exception();
+            return __res_841;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_842;
+            __res_842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "negotiated");
+            return __res_842;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort? __res_843;
             throw new Exception();
+            return __res_843;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCDataChannelState __res_844;
             throw new Exception();
+            return __res_844;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_845;
             throw new Exception();
+            return __res_845;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_846;
             throw new Exception();
+            return __res_846;
         }
         set
         {
@@ -97,7 +117,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_847;
             throw new Exception();
+            return __res_847;
         }
         set
         {
@@ -109,7 +131,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_848;
             throw new Exception();
+            return __res_848;
         }
         set
         {
@@ -121,7 +145,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_849;
             throw new Exception();
+            return __res_849;
         }
         set
         {
@@ -133,7 +159,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_850;
             throw new Exception();
+            return __res_850;
         }
         set
         {
@@ -145,7 +173,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_851;
             throw new Exception();
+            return __res_851;
         }
         set
         {
@@ -157,7 +187,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_852;
             throw new Exception();
+            return __res_852;
         }
         set
         {
@@ -169,7 +201,9 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BinaryType __res_853;
             throw new Exception();
+            return __res_853;
         }
         set
         {

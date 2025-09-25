@@ -13,7 +13,9 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_130;
             throw new Exception();
+            return __res_130;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_131;
             throw new Exception();
+            return __res_131;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_132;
             throw new Exception();
+            return __res_132;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_133;
             throw new Exception();
+            return __res_133;
         }
         set
         {

@@ -1,5 +1,7 @@
 {
-  "input": "./idlparsed",
+  "inputs": [
+    "./idlparsed"
+  ],
   "output": "./AutoGen",
   "namespace": "Iskra.JSCore",
   "proxyFactoryName": "JSCoreProxyFactory"

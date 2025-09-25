@@ -13,7 +13,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1400;
             throw new Exception();
+            return __res_1400;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1401;
             throw new Exception();
+            return __res_1401;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1402;
             throw new Exception();
+            return __res_1402;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1403;
             throw new Exception();
+            return __res_1403;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1404;
             throw new Exception();
+            return __res_1404;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BackgroundFetchResult __res_1405;
             throw new Exception();
+            return __res_1405;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BackgroundFetchFailureReason __res_1406;
             throw new Exception();
+            return __res_1406;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1407;
+            __res_1407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
+            return __res_1407;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1408;
             throw new Exception();
+            return __res_1408;
         }
         set
         {

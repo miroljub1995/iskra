@@ -13,7 +13,9 @@ public partial class XRJointPose(JSObject obj): XRPose(obj)
     {
         get
         {
+            float __res_1543;
             throw new Exception();
+            return __res_1543;
         }
     }
 }

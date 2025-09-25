@@ -13,7 +13,9 @@ public partial class Instance(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            JSObject __res_1871;
             throw new Exception();
+            return __res_1871;
         }
     }
 }

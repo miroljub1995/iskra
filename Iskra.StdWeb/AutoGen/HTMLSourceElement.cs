@@ -13,7 +13,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2174;
             throw new Exception();
+            return __res_2174;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2175;
             throw new Exception();
+            return __res_2175;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2176;
             throw new Exception();
+            return __res_2176;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2177;
             throw new Exception();
+            return __res_2177;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2178;
             throw new Exception();
+            return __res_2178;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2179;
             throw new Exception();
+            return __res_2179;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2180;
             throw new Exception();
+            return __res_2180;
         }
         set
         {

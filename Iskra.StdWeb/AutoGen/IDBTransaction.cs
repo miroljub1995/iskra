@@ -13,7 +13,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMStringList __res_3036;
             throw new Exception();
+            return __res_3036;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBTransactionMode __res_3037;
             throw new Exception();
+            return __res_3037;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBTransactionDurability __res_3038;
             throw new Exception();
+            return __res_3038;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBDatabase __res_3039;
             throw new Exception();
+            return __res_3039;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMException? __res_3040;
             throw new Exception();
+            return __res_3040;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3041;
             throw new Exception();
+            return __res_3041;
         }
         set
         {
@@ -65,7 +77,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3042;
             throw new Exception();
+            return __res_3042;
         }
         set
         {
@@ -77,7 +91,9 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3043;
             throw new Exception();
+            return __res_3043;
         }
         set
         {

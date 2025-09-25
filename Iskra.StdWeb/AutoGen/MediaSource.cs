@@ -13,7 +13,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaSourceHandle __res_2963;
             throw new Exception();
+            return __res_2963;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.SourceBufferList __res_2964;
             throw new Exception();
+            return __res_2964;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.SourceBufferList __res_2965;
             throw new Exception();
+            return __res_2965;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadyState __res_2966;
             throw new Exception();
+            return __res_2966;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2967;
             throw new Exception();
+            return __res_2967;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2968;
             throw new Exception();
+            return __res_2968;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2969;
             throw new Exception();
+            return __res_2969;
         }
         set
         {
@@ -81,7 +95,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2970;
             throw new Exception();
+            return __res_2970;
         }
         set
         {
@@ -93,7 +109,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
+            bool __res_2971;
             throw new Exception();
+            return __res_2971;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1113;
             throw new Exception();
+            return __res_1113;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothDevice? __res_1114;
             throw new Exception();
+            return __res_1114;
         }
     }
 }

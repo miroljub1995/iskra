@@ -13,7 +13,9 @@ public partial class NamedFlow(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1283;
             throw new Exception();
+            return __res_1283;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NamedFlow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1284;
+            __res_1284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
+            return __res_1284;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NamedFlow(JSObject obj): EventTarget(obj)
     {
         get
         {
+            short __res_1285;
             throw new Exception();
+            return __res_1285;
         }
     }
 }

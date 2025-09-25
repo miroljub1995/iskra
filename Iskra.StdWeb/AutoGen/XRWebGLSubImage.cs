@@ -13,7 +13,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            Iskra.StdWeb.WebGLTexture __res_693;
             throw new Exception();
+            return __res_693;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            Iskra.StdWeb.WebGLTexture? __res_694;
             throw new Exception();
+            return __res_694;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            Iskra.StdWeb.WebGLTexture? __res_695;
             throw new Exception();
+            return __res_695;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint? __res_696;
             throw new Exception();
+            return __res_696;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint __res_697;
             throw new Exception();
+            return __res_697;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint __res_698;
             throw new Exception();
+            return __res_698;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint? __res_699;
             throw new Exception();
+            return __res_699;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint? __res_700;
             throw new Exception();
+            return __res_700;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint? __res_701;
             throw new Exception();
+            return __res_701;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
+            uint? __res_702;
             throw new Exception();
+            return __res_702;
         }
     }
 }

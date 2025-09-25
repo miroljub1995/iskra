@@ -13,7 +13,9 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_2712;
             throw new Exception();
+            return __res_2712;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_2713;
             throw new Exception();
+            return __res_2713;
         }
     }
 }

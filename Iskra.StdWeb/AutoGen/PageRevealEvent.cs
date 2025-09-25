@@ -13,7 +13,9 @@ public partial class PageRevealEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.ViewTransition? __res_2667;
             throw new Exception();
+            return __res_2667;
         }
     }
 }

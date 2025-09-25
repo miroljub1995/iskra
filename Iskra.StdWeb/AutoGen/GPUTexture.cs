@@ -13,7 +13,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_339;
             throw new Exception();
+            return __res_339;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_340;
             throw new Exception();
+            return __res_340;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_341;
             throw new Exception();
+            return __res_341;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_342;
             throw new Exception();
+            return __res_342;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_343;
             throw new Exception();
+            return __res_343;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUTextureDimension __res_344;
             throw new Exception();
+            return __res_344;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUTextureFormat __res_345;
             throw new Exception();
+            return __res_345;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class GPUTexture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_346;
             throw new Exception();
+            return __res_346;
         }
     }
 }

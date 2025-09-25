@@ -13,7 +13,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_3006;
             throw new Exception();
+            return __res_3006;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_3007;
             throw new Exception();
+            return __res_3007;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMStringList __res_3008;
             throw new Exception();
+            return __res_3008;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3009;
             throw new Exception();
+            return __res_3009;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3010;
             throw new Exception();
+            return __res_3010;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3011;
             throw new Exception();
+            return __res_3011;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class IDBDatabase(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3012;
             throw new Exception();
+            return __res_3012;
         }
         set
         {

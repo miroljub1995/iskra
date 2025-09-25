@@ -13,7 +13,9 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XREye __res_1716;
             throw new Exception();
+            return __res_1716;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_1717;
             throw new Exception();
+            return __res_1717;
         }
     }
 }

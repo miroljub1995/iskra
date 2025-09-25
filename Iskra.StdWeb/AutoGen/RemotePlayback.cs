@@ -13,7 +13,9 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RemotePlaybackState __res_2045;
             throw new Exception();
+            return __res_2045;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2046;
             throw new Exception();
+            return __res_2046;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2047;
             throw new Exception();
+            return __res_2047;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2048;
             throw new Exception();
+            return __res_2048;
         }
         set
         {

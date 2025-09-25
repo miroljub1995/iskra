@@ -13,7 +13,9 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1378;
             throw new Exception();
+            return __res_1378;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1379;
             throw new Exception();
+            return __res_1379;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1380;
+            __res_1380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
+            return __res_1380;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1381;
             throw new Exception();
+            return __res_1381;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeFilter? __res_1382;
             throw new Exception();
+            return __res_1382;
         }
     }
 }

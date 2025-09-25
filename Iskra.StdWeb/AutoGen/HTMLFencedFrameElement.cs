@@ -13,7 +13,9 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.FencedFrameConfig? __res_2816;
             throw new Exception();
+            return __res_2816;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2817;
             throw new Exception();
+            return __res_2817;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2818;
             throw new Exception();
+            return __res_2818;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2819;
             throw new Exception();
+            return __res_2819;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2820;
             throw new Exception();
+            return __res_2820;
         }
         set
         {

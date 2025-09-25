@@ -13,7 +13,9 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPoint __res_1445;
             throw new Exception();
+            return __res_1445;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPoint __res_1446;
             throw new Exception();
+            return __res_1446;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPoint __res_1447;
             throw new Exception();
+            return __res_1447;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPoint __res_1448;
             throw new Exception();
+            return __res_1448;
         }
     }
 }

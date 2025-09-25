@@ -13,7 +13,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3201;
             throw new Exception();
+            return __res_3201;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3202;
             throw new Exception();
+            return __res_3202;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3203;
             throw new Exception();
+            return __res_3203;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3204;
             throw new Exception();
+            return __res_3204;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3205;
             throw new Exception();
+            return __res_3205;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3206;
             throw new Exception();
+            return __res_3206;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3207;
             throw new Exception();
+            return __res_3207;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3208;
             throw new Exception();
+            return __res_3208;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3209;
             throw new Exception();
+            return __res_3209;
         }
     }
 }

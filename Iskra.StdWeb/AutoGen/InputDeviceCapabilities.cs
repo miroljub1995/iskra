@@ -13,7 +13,9 @@ public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1618;
+            __res_1618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "firesTouchEvents");
+            return __res_1618;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1619;
+            __res_1619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerMovementScrolls");
+            return __res_1619;
         }
     }
 }

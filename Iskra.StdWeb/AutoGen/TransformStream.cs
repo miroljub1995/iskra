@@ -13,7 +13,9 @@ public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_429;
             throw new Exception();
+            return __res_429;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.WritableStream __res_430;
             throw new Exception();
+            return __res_430;
         }
     }
 }

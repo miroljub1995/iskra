@@ -13,7 +13,9 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.SpeechSynthesisUtterance __res_1669;
             throw new Exception();
+            return __res_1669;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_1670;
             throw new Exception();
+            return __res_1670;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_1671;
             throw new Exception();
+            return __res_1671;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
+            float __res_1672;
             throw new Exception();
+            return __res_1672;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_1673;
             throw new Exception();
+            return __res_1673;
         }
     }
 }

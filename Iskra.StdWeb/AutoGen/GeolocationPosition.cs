@@ -13,7 +13,9 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GeolocationCoordinates __res_436;
             throw new Exception();
+            return __res_436;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_437;
             throw new Exception();
+            return __res_437;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2573;
             throw new Exception();
+            return __res_2573;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2574;
             throw new Exception();
+            return __res_2574;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DataTransferItemList __res_2575;
             throw new Exception();
+            return __res_2575;
         }
     }
 
@@ -45,7 +51,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2576;
             throw new Exception();
+            return __res_2576;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.FileList __res_2577;
             throw new Exception();
+            return __res_2577;
         }
     }
 }

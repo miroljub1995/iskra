@@ -13,7 +13,9 @@ public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_376;
             throw new Exception();
+            return __res_376;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_377;
             throw new Exception();
+            return __res_377;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WebGLActiveInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_378;
             throw new Exception();
+            return __res_378;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1926;
             throw new Exception();
+            return __res_1926;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1927;
             throw new Exception();
+            return __res_1927;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1928;
+            __res_1928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            return __res_1928;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1929;
             throw new Exception();
+            return __res_1929;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GamepadMappingType __res_1930;
             throw new Exception();
+            return __res_1930;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1931;
             throw new Exception();
+            return __res_1931;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1932;
             throw new Exception();
+            return __res_1932;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1933;
             throw new Exception();
+            return __res_1933;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GamepadHapticActuator __res_1934;
             throw new Exception();
+            return __res_1934;
         }
     }
 }

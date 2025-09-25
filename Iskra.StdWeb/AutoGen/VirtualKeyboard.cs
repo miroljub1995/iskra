@@ -13,7 +13,9 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRect __res_389;
             throw new Exception();
+            return __res_389;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_390;
+            __res_390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
+            return __res_390;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_391;
             throw new Exception();
+            return __res_391;
         }
         set
         {

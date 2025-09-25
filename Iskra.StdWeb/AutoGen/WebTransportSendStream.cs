@@ -13,7 +13,9 @@ public partial class WebTransportSendStream(JSObject obj): WritableStream(obj)
     {
         get
         {
+            Iskra.StdWeb.WebTransportSendGroup? __res_921;
             throw new Exception();
+            return __res_921;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class WebTransportSendStream(JSObject obj): WritableStream(obj)
     {
         get
         {
+            long __res_922;
             throw new Exception();
+            return __res_922;
         }
         set
         {

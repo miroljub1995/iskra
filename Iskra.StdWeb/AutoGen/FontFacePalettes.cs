@@ -13,7 +13,9 @@ public partial class FontFacePalettes(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_894;
             throw new Exception();
+            return __res_894;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class CSSMathMin(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericArray __res_24;
             throw new Exception();
+            return __res_24;
         }
     }
 }

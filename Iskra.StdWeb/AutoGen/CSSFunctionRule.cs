@@ -13,7 +13,9 @@ public partial class CSSFunctionRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string __res_7;
             throw new Exception();
+            return __res_7;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSFunctionRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string __res_8;
             throw new Exception();
+            return __res_8;
         }
     }
 }

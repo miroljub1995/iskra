@@ -13,7 +13,9 @@ public partial class SVGFETileElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_577;
             throw new Exception();
+            return __res_577;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_321;
             throw new Exception();
+            return __res_321;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_322;
             throw new Exception();
+            return __res_322;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_323;
             throw new Exception();
+            return __res_323;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_324;
             throw new Exception();
+            return __res_324;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_325;
             throw new Exception();
+            return __res_325;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_326;
             throw new Exception();
+            return __res_326;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_327;
+            __res_327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFallbackAdapter");
+            return __res_327;
         }
     }
 }

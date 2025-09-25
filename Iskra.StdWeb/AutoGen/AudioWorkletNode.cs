@@ -13,7 +13,9 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParamMap __res_3260;
             throw new Exception();
+            return __res_3260;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_3261;
             throw new Exception();
+            return __res_3261;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3262;
             throw new Exception();
+            return __res_3262;
         }
         set
         {

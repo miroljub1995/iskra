@@ -13,7 +13,9 @@ public partial class VideoDecoder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.CodecState __res_1044;
             throw new Exception();
+            return __res_1044;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoDecoder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_1045;
             throw new Exception();
+            return __res_1045;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VideoDecoder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1046;
             throw new Exception();
+            return __res_1046;
         }
         set
         {

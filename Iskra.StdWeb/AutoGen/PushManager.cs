@@ -13,7 +13,9 @@ public partial class PushManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1986;
             throw new Exception();
+            return __res_1986;
         }
     }
 }

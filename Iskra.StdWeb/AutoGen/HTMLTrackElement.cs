@@ -13,7 +13,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2231;
             throw new Exception();
+            return __res_2231;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2232;
             throw new Exception();
+            return __res_2232;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2233;
             throw new Exception();
+            return __res_2233;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2234;
             throw new Exception();
+            return __res_2234;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2235;
+            __res_2235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
+            return __res_2235;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            ushort __res_2236;
             throw new Exception();
+            return __res_2236;
         }
     }
 
@@ -81,7 +93,9 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrack __res_2237;
             throw new Exception();
+            return __res_2237;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2010;
             throw new Exception();
+            return __res_2010;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2011;
             throw new Exception();
+            return __res_2011;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2012;
             throw new Exception();
+            return __res_2012;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2013;
             throw new Exception();
+            return __res_2013;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2014;
             throw new Exception();
+            return __res_2014;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2015;
             throw new Exception();
+            return __res_2015;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_2016;
             throw new Exception();
+            return __res_2016;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_2017;
             throw new Exception();
+            return __res_2017;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2018;
             throw new Exception();
+            return __res_2018;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2019;
             throw new Exception();
+            return __res_2019;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2020;
             throw new Exception();
+            return __res_2020;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2021;
             throw new Exception();
+            return __res_2021;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2022;
             throw new Exception();
+            return __res_2022;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2023;
             throw new Exception();
+            return __res_2023;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.USBConfiguration? __res_2024;
             throw new Exception();
+            return __res_2024;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2025;
             throw new Exception();
+            return __res_2025;
         }
     }
 
@@ -141,7 +173,9 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2026;
+            __res_2026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
+            return __res_2026;
         }
     }
 }

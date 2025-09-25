@@ -13,7 +13,9 @@ public partial class Table(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1873;
             throw new Exception();
+            return __res_1873;
         }
     }
 }

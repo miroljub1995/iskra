@@ -17,11 +17,11 @@ public static class JSCoreProxyFactory
             return;
         }
 
-        JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "ArrayBuffer", obj => new ArrayBuffer(obj) );
-        JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "DataView", obj => new DataView(obj) );
-        JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint8Array", obj => new Uint8Array(obj) );
-        JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint32Array", obj => new Uint32Array(obj) );
-        JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Float32Array", obj => new Float32Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "ArrayBuffer", obj => new ArrayBuffer(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "DataView", obj => new DataView(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint8Array", obj => new Uint8Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint32Array", obj => new Uint32Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Float32Array", obj => new Float32Array(obj) );
     }
 }
 

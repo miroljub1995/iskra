@@ -13,7 +13,9 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceTransport __res_815;
             throw new Exception();
+            return __res_815;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCDtlsTransportState __res_816;
             throw new Exception();
+            return __res_816;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_817;
             throw new Exception();
+            return __res_817;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_818;
             throw new Exception();
+            return __res_818;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRReferenceSpace __res_1750;
             throw new Exception();
+            return __res_1750;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform? __res_1751;
             throw new Exception();
+            return __res_1751;
         }
     }
 }

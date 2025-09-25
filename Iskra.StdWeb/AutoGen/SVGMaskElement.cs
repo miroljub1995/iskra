@@ -13,7 +13,9 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1188;
             throw new Exception();
+            return __res_1188;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1189;
             throw new Exception();
+            return __res_1189;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_1190;
             throw new Exception();
+            return __res_1190;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_1191;
             throw new Exception();
+            return __res_1191;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_1192;
             throw new Exception();
+            return __res_1192;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_1193;
             throw new Exception();
+            return __res_1193;
         }
     }
 }

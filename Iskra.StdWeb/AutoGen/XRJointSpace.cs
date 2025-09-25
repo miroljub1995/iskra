@@ -13,7 +13,9 @@ public partial class XRJointSpace(JSObject obj): XRSpace(obj)
     {
         get
         {
+            Iskra.StdWeb.XRHandJoint __res_1542;
             throw new Exception();
+            return __res_1542;
         }
     }
 }

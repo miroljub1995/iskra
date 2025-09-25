@@ -20,11 +20,6 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
         return "object";
     }
 
-    private string RewriteTypeIfNeeded(string input)
-    {
-        return genSettings.TypeRewrite.GetValueOrDefault(input, input);
-    }
-
     private static string MakeNullableIfNeeded(string input, bool nullable)
     {
         if (nullable)
@@ -37,8 +32,7 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
     private string MapSingleToManagedType(SingleTypeDescription input)
     {
-        var rewriteTypeIfNeeded = RewriteTypeIfNeeded(input.IdlType);
-        var mapped = MapToDotnetType(rewriteTypeIfNeeded);
+        var mapped = MapToDotnetType(input.IdlType);
         return MakeNullableIfNeeded(mapped, input.Nullable || input.IdlType == "any");
     }
 

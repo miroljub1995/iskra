@@ -13,7 +13,9 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1301;
+            __res_1301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
+            return __res_1301;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object? __res_1302;
             throw new Exception();
+            return __res_1302;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1303;
             throw new Exception();
+            return __res_1303;
         }
         set
         {

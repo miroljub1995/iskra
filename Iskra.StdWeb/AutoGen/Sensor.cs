@@ -13,7 +13,9 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1853;
+            __res_1853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "activated");
+            return __res_1853;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1854;
+            __res_1854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasReading");
+            return __res_1854;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double? __res_1855;
             throw new Exception();
+            return __res_1855;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1856;
             throw new Exception();
+            return __res_1856;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1857;
             throw new Exception();
+            return __res_1857;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1858;
             throw new Exception();
+            return __res_1858;
         }
         set
         {

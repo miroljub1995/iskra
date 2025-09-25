@@ -13,7 +13,9 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ConnectionType __res_1277;
             throw new Exception();
+            return __res_1277;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EffectiveConnectionType __res_1278;
             throw new Exception();
+            return __res_1278;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_1279;
             throw new Exception();
+            return __res_1279;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_1280;
             throw new Exception();
+            return __res_1280;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1281;
             throw new Exception();
+            return __res_1281;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1282;
             throw new Exception();
+            return __res_1282;
         }
         set
         {

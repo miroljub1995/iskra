@@ -13,7 +13,9 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_336;
             throw new Exception();
+            return __res_336;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_337;
             throw new Exception();
+            return __res_337;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUBufferMapState __res_338;
             throw new Exception();
+            return __res_338;
         }
     }
 }

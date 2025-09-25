@@ -13,7 +13,9 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoColorPrimaries? __res_1079;
             throw new Exception();
+            return __res_1079;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoTransferCharacteristics? __res_1080;
             throw new Exception();
+            return __res_1080;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoMatrixCoefficients? __res_1081;
             throw new Exception();
+            return __res_1081;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_1082;
+            __res_1082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
+            return __res_1082;
         }
     }
 }

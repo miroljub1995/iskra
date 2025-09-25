@@ -13,7 +13,9 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2310;
             throw new Exception();
+            return __res_2310;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2311;
             throw new Exception();
+            return __res_2311;
         }
     }
 }

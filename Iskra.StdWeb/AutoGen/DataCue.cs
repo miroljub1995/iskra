@@ -13,7 +13,9 @@ public partial class DataCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            object? __res_1496;
             throw new Exception();
+            return __res_1496;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class DataCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
+            string __res_1497;
             throw new Exception();
+            return __res_1497;
         }
     }
 }

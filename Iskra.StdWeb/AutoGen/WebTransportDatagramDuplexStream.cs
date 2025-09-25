@@ -13,7 +13,9 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_903;
             throw new Exception();
+            return __res_903;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
     {
         get
         {
+            uint __res_904;
             throw new Exception();
+            return __res_904;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
     {
         get
         {
+            double? __res_905;
             throw new Exception();
+            return __res_905;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
     {
         get
         {
+            double? __res_906;
             throw new Exception();
+            return __res_906;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
     {
         get
         {
+            double __res_907;
             throw new Exception();
+            return __res_907;
         }
         set
         {
@@ -65,7 +75,9 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
     {
         get
         {
+            double __res_908;
             throw new Exception();
+            return __res_908;
         }
         set
         {

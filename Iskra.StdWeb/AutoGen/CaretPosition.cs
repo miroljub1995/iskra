@@ -13,7 +13,9 @@ public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_743;
             throw new Exception();
+            return __res_743;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_744;
             throw new Exception();
+            return __res_744;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.CodecState __res_1047;
             throw new Exception();
+            return __res_1047;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_1048;
             throw new Exception();
+            return __res_1048;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1049;
             throw new Exception();
+            return __res_1049;
         }
         set
         {

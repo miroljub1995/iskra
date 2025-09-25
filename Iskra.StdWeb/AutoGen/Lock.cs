@@ -13,7 +13,9 @@ public partial class Lock(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1181;
             throw new Exception();
+            return __res_1181;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Lock(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.LockMode __res_1182;
             throw new Exception();
+            return __res_1182;
         }
     }
 }

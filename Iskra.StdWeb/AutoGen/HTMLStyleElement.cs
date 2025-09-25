@@ -13,7 +13,9 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2153;
+            __res_2153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2153;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2154;
             throw new Exception();
+            return __res_2154;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2155;
             throw new Exception();
+            return __res_2155;
         }
     }
 }

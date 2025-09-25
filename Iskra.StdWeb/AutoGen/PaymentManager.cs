@@ -13,7 +13,9 @@ public partial class PaymentManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_362;
             throw new Exception();
+            return __res_362;
         }
         set
         {

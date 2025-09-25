@@ -13,7 +13,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2671;
             throw new Exception();
+            return __res_2671;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2672;
             throw new Exception();
+            return __res_2672;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2673;
             throw new Exception();
+            return __res_2673;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2674;
             throw new Exception();
+            return __res_2674;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2675;
             throw new Exception();
+            return __res_2675;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2676;
             throw new Exception();
+            return __res_2676;
         }
     }
 }

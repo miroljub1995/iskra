@@ -13,7 +13,9 @@ public partial class CSSNamespaceRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2896;
             throw new Exception();
+            return __res_2896;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSNamespaceRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2897;
             throw new Exception();
+            return __res_2897;
         }
     }
 }

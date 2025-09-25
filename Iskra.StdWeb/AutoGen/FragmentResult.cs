@@ -13,7 +13,9 @@ public partial class FragmentResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3090;
             throw new Exception();
+            return __res_3090;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FragmentResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3091;
             throw new Exception();
+            return __res_3091;
         }
     }
 }

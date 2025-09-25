@@ -13,7 +13,9 @@ public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothDevice __res_1129;
             throw new Exception();
+            return __res_1129;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1130;
+            __res_1130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            return __res_1130;
         }
     }
 }

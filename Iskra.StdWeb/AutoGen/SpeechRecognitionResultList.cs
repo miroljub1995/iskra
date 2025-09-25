@@ -13,7 +13,9 @@ public partial class SpeechRecognitionResultList(JSObject obj): JSObjectProxy(ob
     {
         get
         {
+            uint __res_1644;
             throw new Exception();
+            return __res_1644;
         }
     }
 }

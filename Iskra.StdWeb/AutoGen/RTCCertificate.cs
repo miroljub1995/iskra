@@ -13,7 +13,9 @@ public partial class RTCCertificate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_804;
             throw new Exception();
+            return __res_804;
         }
     }
 }

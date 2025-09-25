@@ -13,7 +13,9 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_455;
             throw new Exception();
+            return __res_455;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.WritableStream __res_456;
             throw new Exception();
+            return __res_456;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_457;
             throw new Exception();
+            return __res_457;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object? __res_458;
             throw new Exception();
+            return __res_458;
         }
     }
 }

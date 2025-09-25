@@ -13,7 +13,9 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSession __res_1712;
             throw new Exception();
+            return __res_1712;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1713;
             throw new Exception();
+            return __res_1713;
         }
     }
 }

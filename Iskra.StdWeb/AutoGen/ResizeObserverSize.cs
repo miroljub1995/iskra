@@ -13,7 +13,9 @@ public partial class ResizeObserverSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1891;
             throw new Exception();
+            return __res_1891;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ResizeObserverSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1892;
             throw new Exception();
+            return __res_1892;
         }
     }
 }

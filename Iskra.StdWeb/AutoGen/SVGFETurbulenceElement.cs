@@ -13,7 +13,9 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_578;
             throw new Exception();
+            return __res_578;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_579;
             throw new Exception();
+            return __res_579;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedInteger __res_580;
             throw new Exception();
+            return __res_580;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_581;
             throw new Exception();
+            return __res_581;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_582;
             throw new Exception();
+            return __res_582;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_583;
             throw new Exception();
+            return __res_583;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
     {
         get
         {
+            object __res_425;
             throw new Exception();
+            return __res_425;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
     {
         get
         {
+            double? __res_426;
             throw new Exception();
+            return __res_426;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
     {
         get
         {
+            object __res_427;
             throw new Exception();
+            return __res_427;
         }
     }
 }

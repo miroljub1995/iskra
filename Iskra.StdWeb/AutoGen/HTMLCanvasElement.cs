@@ -13,7 +13,9 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2532;
             throw new Exception();
+            return __res_2532;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2533;
             throw new Exception();
+            return __res_2533;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1102;
             throw new Exception();
+            return __res_1102;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly? __res_1103;
             throw new Exception();
+            return __res_1103;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_1104;
             throw new Exception();
+            return __res_1104;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_1105;
             throw new Exception();
+            return __res_1105;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1106;
+            __res_1106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIntersecting");
+            return __res_1106;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1107;
+            __res_1107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isVisible");
+            return __res_1107;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1108;
             throw new Exception();
+            return __res_1108;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Element __res_1109;
             throw new Exception();
+            return __res_1109;
         }
     }
 }

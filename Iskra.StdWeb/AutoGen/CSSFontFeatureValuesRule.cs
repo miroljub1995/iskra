@@ -13,7 +13,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_3290;
             throw new Exception();
+            return __res_3290;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3291;
             throw new Exception();
+            return __res_3291;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3292;
             throw new Exception();
+            return __res_3292;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3293;
             throw new Exception();
+            return __res_3293;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3294;
             throw new Exception();
+            return __res_3294;
         }
     }
 
@@ -57,7 +67,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3295;
             throw new Exception();
+            return __res_3295;
         }
     }
 
@@ -65,7 +77,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3296;
             throw new Exception();
+            return __res_3296;
         }
     }
 
@@ -73,7 +87,9 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3297;
             throw new Exception();
+            return __res_3297;
         }
     }
 }

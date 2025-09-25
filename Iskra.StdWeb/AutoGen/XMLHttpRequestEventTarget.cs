@@ -13,7 +13,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_392;
             throw new Exception();
+            return __res_392;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_393;
             throw new Exception();
+            return __res_393;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_394;
             throw new Exception();
+            return __res_394;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_395;
             throw new Exception();
+            return __res_395;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_396;
             throw new Exception();
+            return __res_396;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_397;
             throw new Exception();
+            return __res_397;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_398;
             throw new Exception();
+            return __res_398;
         }
         set
         {

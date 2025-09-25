@@ -13,7 +13,9 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_3279;
             throw new Exception();
+            return __res_3279;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_3280;
             throw new Exception();
+            return __res_3280;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_3281;
             throw new Exception();
+            return __res_3281;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_3282;
             throw new Exception();
+            return __res_3282;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_3283;
             throw new Exception();
+            return __res_3283;
         }
     }
 }

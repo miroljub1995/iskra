@@ -13,7 +13,9 @@ public partial class SpeechSynthesisErrorEvent(JSObject obj): SpeechSynthesisEve
     {
         get
         {
+            Iskra.StdWeb.SpeechSynthesisErrorCode __res_1674;
             throw new Exception();
+            return __res_1674;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.TouchList __res_1227;
             throw new Exception();
+            return __res_1227;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.TouchList __res_1228;
             throw new Exception();
+            return __res_1228;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.TouchList __res_1229;
             throw new Exception();
+            return __res_1229;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1230;
+            __res_1230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            return __res_1230;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1231;
+            __res_1231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            return __res_1231;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1232;
+            __res_1232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            return __res_1232;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1233;
+            __res_1233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            return __res_1233;
         }
     }
 }

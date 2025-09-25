@@ -13,7 +13,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_865;
+            __res_865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
+            return __res_865;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_866;
+            __res_866 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
+            return __res_866;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_867;
             throw new Exception();
+            return __res_867;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_868;
             throw new Exception();
+            return __res_868;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_869;
             throw new Exception();
+            return __res_869;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_870;
             throw new Exception();
+            return __res_870;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_871;
             throw new Exception();
+            return __res_871;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_872;
             throw new Exception();
+            return __res_872;
         }
     }
 }

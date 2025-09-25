@@ -13,7 +13,9 @@ public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MLOperandDataType __res_1907;
             throw new Exception();
+            return __res_1907;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1908;
             throw new Exception();
+            return __res_1908;
         }
     }
 }

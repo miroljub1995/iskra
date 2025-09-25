@@ -13,7 +13,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1306;
             throw new Exception();
+            return __res_1306;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1307;
             throw new Exception();
+            return __res_1307;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_1308;
             throw new Exception();
+            return __res_1308;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_1309;
             throw new Exception();
+            return __res_1309;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1310;
             throw new Exception();
+            return __res_1310;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_1311;
             throw new Exception();
+            return __res_1311;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1312;
             throw new Exception();
+            return __res_1312;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1313;
             throw new Exception();
+            return __res_1313;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1314;
             throw new Exception();
+            return __res_1314;
         }
     }
 }

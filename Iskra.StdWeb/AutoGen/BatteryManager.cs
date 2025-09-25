@@ -13,7 +13,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2821;
+            __res_2821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "charging");
+            return __res_2821;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2822;
             throw new Exception();
+            return __res_2822;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2823;
             throw new Exception();
+            return __res_2823;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2824;
             throw new Exception();
+            return __res_2824;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2825;
             throw new Exception();
+            return __res_2825;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2826;
             throw new Exception();
+            return __res_2826;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2827;
             throw new Exception();
+            return __res_2827;
         }
         set
         {
@@ -81,7 +95,9 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2828;
             throw new Exception();
+            return __res_2828;
         }
         set
         {

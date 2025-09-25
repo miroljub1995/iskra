@@ -13,7 +13,9 @@ public partial class WebGLObject(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_375;
             throw new Exception();
+            return __res_375;
         }
         set
         {

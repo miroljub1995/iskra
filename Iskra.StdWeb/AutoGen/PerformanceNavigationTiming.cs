@@ -13,7 +13,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_584;
             throw new Exception();
+            return __res_584;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_585;
             throw new Exception();
+            return __res_585;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_586;
             throw new Exception();
+            return __res_586;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_587;
             throw new Exception();
+            return __res_587;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_588;
             throw new Exception();
+            return __res_588;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_589;
             throw new Exception();
+            return __res_589;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_590;
             throw new Exception();
+            return __res_590;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_591;
             throw new Exception();
+            return __res_591;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            Iskra.StdWeb.NavigationTimingType __res_592;
             throw new Exception();
+            return __res_592;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            ushort __res_593;
             throw new Exception();
+            return __res_593;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            double __res_594;
             throw new Exception();
+            return __res_594;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
+            Iskra.StdWeb.NotRestoredReasons? __res_595;
             throw new Exception();
+            return __res_595;
         }
     }
 }

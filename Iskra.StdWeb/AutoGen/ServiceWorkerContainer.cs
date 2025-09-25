@@ -13,7 +13,9 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ServiceWorker? __res_1815;
             throw new Exception();
+            return __res_1815;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1816;
             throw new Exception();
+            return __res_1816;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1817;
             throw new Exception();
+            return __res_1817;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1818;
             throw new Exception();
+            return __res_1818;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class ServiceWorkerContainer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1819;
             throw new Exception();
+            return __res_1819;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class XRReferenceSpace(JSObject obj): XRSpace(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1714;
             throw new Exception();
+            return __res_1714;
         }
         set
         {

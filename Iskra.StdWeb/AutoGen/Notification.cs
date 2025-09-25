@@ -13,7 +13,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NotificationPermission __res_1753;
             throw new Exception();
+            return __res_1753;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_1754;
             throw new Exception();
+            return __res_1754;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1755;
             throw new Exception();
+            return __res_1755;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1756;
             throw new Exception();
+            return __res_1756;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1757;
             throw new Exception();
+            return __res_1757;
         }
         set
         {
@@ -65,7 +75,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1758;
             throw new Exception();
+            return __res_1758;
         }
         set
         {
@@ -77,7 +89,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1759;
             throw new Exception();
+            return __res_1759;
         }
     }
 
@@ -85,7 +99,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NotificationDirection __res_1760;
             throw new Exception();
+            return __res_1760;
         }
     }
 
@@ -93,7 +109,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1761;
             throw new Exception();
+            return __res_1761;
         }
     }
 
@@ -101,7 +119,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1762;
             throw new Exception();
+            return __res_1762;
         }
     }
 
@@ -109,7 +129,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1763;
             throw new Exception();
+            return __res_1763;
         }
     }
 
@@ -117,7 +139,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1764;
             throw new Exception();
+            return __res_1764;
         }
     }
 
@@ -125,7 +149,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1765;
             throw new Exception();
+            return __res_1765;
         }
     }
 
@@ -133,7 +159,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1766;
             throw new Exception();
+            return __res_1766;
         }
     }
 
@@ -141,7 +169,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1767;
             throw new Exception();
+            return __res_1767;
         }
     }
 
@@ -149,7 +179,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1768;
             throw new Exception();
+            return __res_1768;
         }
     }
 
@@ -157,7 +189,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_1769;
             throw new Exception();
+            return __res_1769;
         }
     }
 
@@ -165,7 +199,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1770;
+            __res_1770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "renotify");
+            return __res_1770;
         }
     }
 
@@ -173,7 +209,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_1771;
+            __res_1771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "silent");
+            return __res_1771;
         }
     }
 
@@ -181,7 +219,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1772;
+            __res_1772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "requireInteraction");
+            return __res_1772;
         }
     }
 
@@ -189,7 +229,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object? __res_1773;
             throw new Exception();
+            return __res_1773;
         }
     }
 
@@ -197,7 +239,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1774;
             throw new Exception();
+            return __res_1774;
         }
     }
 }

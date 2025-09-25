@@ -13,7 +13,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3146;
             throw new Exception();
+            return __res_3146;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3147;
             throw new Exception();
+            return __res_3147;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3148;
             throw new Exception();
+            return __res_3148;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3149;
             throw new Exception();
+            return __res_3149;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3150;
             throw new Exception();
+            return __res_3150;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3151;
             throw new Exception();
+            return __res_3151;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3152;
             throw new Exception();
+            return __res_3152;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3153;
             throw new Exception();
+            return __res_3153;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_3154;
             throw new Exception();
+            return __res_3154;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3155;
             throw new Exception();
+            return __res_3155;
         }
     }
 }

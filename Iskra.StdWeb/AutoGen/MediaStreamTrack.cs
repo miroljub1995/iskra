@@ -13,7 +13,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1568;
             throw new Exception();
+            return __res_1568;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1569;
             throw new Exception();
+            return __res_1569;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1570;
             throw new Exception();
+            return __res_1570;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1571;
+            __res_1571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            return __res_1571;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1572;
+            __res_1572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            return __res_1572;
         }
     }
 
@@ -57,7 +67,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1573;
             throw new Exception();
+            return __res_1573;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1574;
             throw new Exception();
+            return __res_1574;
         }
         set
         {
@@ -81,7 +95,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStreamTrackState __res_1575;
             throw new Exception();
+            return __res_1575;
         }
     }
 
@@ -89,7 +105,9 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1576;
             throw new Exception();
+            return __res_1576;
         }
         set
         {

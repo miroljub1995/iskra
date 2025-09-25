@@ -13,7 +13,9 @@ public partial class RTCTransformEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpScriptTransformer __res_454;
             throw new Exception();
+            return __res_454;
         }
     }
 }

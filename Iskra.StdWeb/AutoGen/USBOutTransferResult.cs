@@ -13,7 +13,9 @@ public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2001;
             throw new Exception();
+            return __res_2001;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.USBTransferStatus __res_2002;
             throw new Exception();
+            return __res_2002;
         }
     }
 }

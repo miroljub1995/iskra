@@ -13,7 +13,9 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.HIDDevice __res_655;
             throw new Exception();
+            return __res_655;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
+            byte __res_656;
             throw new Exception();
+            return __res_656;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.JSCore.DataView __res_657;
             throw new Exception();
+            return __res_657;
         }
     }
 }

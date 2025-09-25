@@ -13,7 +13,9 @@ public partial class SVGAnimatedNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGNumberList __res_156;
             throw new Exception();
+            return __res_156;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimatedNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGNumberList __res_157;
             throw new Exception();
+            return __res_157;
         }
     }
 }

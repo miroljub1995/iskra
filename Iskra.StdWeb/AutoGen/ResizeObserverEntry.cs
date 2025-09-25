@@ -13,7 +13,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Element __res_1886;
             throw new Exception();
+            return __res_1886;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_1887;
             throw new Exception();
+            return __res_1887;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1888;
             throw new Exception();
+            return __res_1888;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1889;
             throw new Exception();
+            return __res_1889;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1890;
             throw new Exception();
+            return __res_1890;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class ReadableStreamDefaultController(JSObject obj): JSObjectProx
     {
         get
         {
+            double? __res_420;
             throw new Exception();
+            return __res_420;
         }
     }
 }

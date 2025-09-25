@@ -13,7 +13,9 @@ public partial class PluginArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2684;
             throw new Exception();
+            return __res_2684;
         }
     }
 }

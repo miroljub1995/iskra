@@ -13,7 +13,9 @@ public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3002;
             throw new Exception();
+            return __res_3002;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3003;
             throw new Exception();
+            return __res_3003;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class HTMLDirectoryElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2769;
+            __res_2769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            return __res_2769;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class CSSConditionRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string __res_1415;
             throw new Exception();
+            return __res_1415;
         }
     }
 }

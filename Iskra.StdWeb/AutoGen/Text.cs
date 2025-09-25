@@ -13,7 +13,9 @@ public partial class Text(JSObject obj): CharacterData(obj)
     {
         get
         {
+            string __res_1370;
             throw new Exception();
+            return __res_1370;
         }
     }
 }

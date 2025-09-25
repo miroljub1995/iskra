@@ -13,7 +13,9 @@ public partial class AudioSinkInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioSinkType __res_3169;
             throw new Exception();
+            return __res_3169;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class AudioDestinationNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            uint __res_3200;
             throw new Exception();
+            return __res_3200;
         }
     }
 }

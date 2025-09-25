@@ -13,7 +13,9 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_737;
             throw new Exception();
+            return __res_737;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_738;
             throw new Exception();
+            return __res_738;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_739;
             throw new Exception();
+            return __res_739;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_740;
             throw new Exception();
+            return __res_740;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_741;
             throw new Exception();
+            return __res_741;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_742;
             throw new Exception();
+            return __res_742;
         }
     }
 }

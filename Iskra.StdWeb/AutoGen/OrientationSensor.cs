@@ -13,7 +13,9 @@ public partial class OrientationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            object __res_288;
             throw new Exception();
+            return __res_288;
         }
     }
 }

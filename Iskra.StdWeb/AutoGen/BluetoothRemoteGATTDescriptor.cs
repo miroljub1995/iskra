@@ -13,7 +13,9 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
+            Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_1147;
             throw new Exception();
+            return __res_1147;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
+            string __res_1148;
             throw new Exception();
+            return __res_1148;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
+            Iskra.JSCore.DataView? __res_1149;
             throw new Exception();
+            return __res_1149;
         }
     }
 }

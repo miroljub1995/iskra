@@ -13,7 +13,9 @@ public partial class HTMLLIElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2160;
             throw new Exception();
+            return __res_2160;
         }
         set
         {

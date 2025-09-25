@@ -24,6 +24,16 @@ public class GenTypeDescriptors
         return genTypeDescriptor is not null;
     }
 
+    public GenTypeDescriptor GetRequired(string name)
+    {
+        if (TryGet(name, out var descriptor))
+        {
+            return descriptor;
+        }
+
+        throw new Exception($"Type Descriptor with name \"{name}\" does not exist.");
+    }
+
     public void ResolveTypedefs()
     {
         foreach (var genTypeDescriptor in _genTypeDescriptors)
@@ -62,7 +72,7 @@ public class GenTypeDescriptors
 
     private void ResolveTypedefInCallbackType(CallbackType input)
     {
-        ResolveTypedefInIDLTypeDescription(input.IdlType);
+        input.IdlType = ResolveTypedefInIDLTypeDescription(input.IdlType);
         foreach (var arg in input.Arguments)
         {
             arg.IdlType = ResolveTypedefInIDLTypeDescription(arg.IdlType);
@@ -81,7 +91,7 @@ public class GenTypeDescriptors
     {
         foreach (var member in input.Members)
         {
-            ResolveTypedefInIDLTypeDescription(member.IdlType);
+            member.IdlType = ResolveTypedefInIDLTypeDescription(member.IdlType);
         }
     }
 

@@ -13,7 +13,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStream __res_1586;
             throw new Exception();
+            return __res_1586;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1587;
             throw new Exception();
+            return __res_1587;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RecordingState __res_1588;
             throw new Exception();
+            return __res_1588;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1589;
             throw new Exception();
+            return __res_1589;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1590;
             throw new Exception();
+            return __res_1590;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1591;
             throw new Exception();
+            return __res_1591;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1592;
             throw new Exception();
+            return __res_1592;
         }
         set
         {
@@ -85,7 +99,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1593;
             throw new Exception();
+            return __res_1593;
         }
         set
         {
@@ -97,7 +113,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1594;
             throw new Exception();
+            return __res_1594;
         }
         set
         {
@@ -109,7 +127,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_1595;
             throw new Exception();
+            return __res_1595;
         }
     }
 
@@ -117,7 +137,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_1596;
             throw new Exception();
+            return __res_1596;
         }
     }
 
@@ -125,7 +147,9 @@ public partial class MediaRecorder(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BitrateMode __res_1597;
             throw new Exception();
+            return __res_1597;
         }
     }
 }

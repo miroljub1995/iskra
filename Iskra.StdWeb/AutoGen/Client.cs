@@ -13,7 +13,9 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1828;
             throw new Exception();
+            return __res_1828;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.FrameType __res_1829;
             throw new Exception();
+            return __res_1829;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1830;
             throw new Exception();
+            return __res_1830;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ClientType __res_1831;
             throw new Exception();
+            return __res_1831;
         }
     }
 }

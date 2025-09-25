@@ -13,7 +13,9 @@ public partial class Range(JSObject obj): AbstractRange(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1377;
             throw new Exception();
+            return __res_1377;
         }
     }
 }

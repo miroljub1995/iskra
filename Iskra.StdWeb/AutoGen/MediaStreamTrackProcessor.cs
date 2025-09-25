@@ -13,7 +13,9 @@ public partial class MediaStreamTrackProcessor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_108;
             throw new Exception();
+            return __res_108;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.BreakType __res_3080;
             throw new Exception();
+            return __res_3080;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.LayoutChild __res_3081;
             throw new Exception();
+            return __res_3081;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class CSSSkewX(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_45;
             throw new Exception();
+            return __res_45;
         }
         set
         {

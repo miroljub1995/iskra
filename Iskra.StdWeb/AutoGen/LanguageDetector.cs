@@ -13,7 +13,9 @@ public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1550;
             throw new Exception();
+            return __res_1550;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1551;
             throw new Exception();
+            return __res_1551;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class MIDIMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.JSCore.Uint8Array? __res_2950;
             throw new Exception();
+            return __res_2950;
         }
     }
 }

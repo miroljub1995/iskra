@@ -13,7 +13,9 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_571;
             throw new Exception();
+            return __res_571;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_572;
             throw new Exception();
+            return __res_572;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_573;
             throw new Exception();
+            return __res_573;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_574;
             throw new Exception();
+            return __res_574;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_575;
             throw new Exception();
+            return __res_575;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_576;
             throw new Exception();
+            return __res_576;
         }
     }
 }

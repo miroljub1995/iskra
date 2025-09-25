@@ -13,7 +13,9 @@ public partial class CSSMatrixComponent(JSObject obj): CSSTransformComponent(obj
     {
         get
         {
+            Iskra.StdWeb.DOMMatrix __res_48;
             throw new Exception();
+            return __res_48;
         }
         set
         {

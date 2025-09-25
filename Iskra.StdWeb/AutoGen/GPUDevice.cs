@@ -13,7 +13,9 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUSupportedFeatures __res_332;
             throw new Exception();
+            return __res_332;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUSupportedLimits __res_333;
             throw new Exception();
+            return __res_333;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUAdapterInfo __res_334;
             throw new Exception();
+            return __res_334;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUQueue __res_335;
             throw new Exception();
+            return __res_335;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_2661;
             throw new Exception();
+            return __res_2661;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2662;
+            __res_2662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            return __res_2662;
         }
     }
 }

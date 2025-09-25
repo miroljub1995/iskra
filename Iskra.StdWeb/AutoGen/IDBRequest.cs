@@ -13,7 +13,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object? __res_2995;
             throw new Exception();
+            return __res_2995;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMException? __res_2996;
             throw new Exception();
+            return __res_2996;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_2997;
             throw new Exception();
+            return __res_2997;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBTransaction? __res_2998;
             throw new Exception();
+            return __res_2998;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBRequestReadyState __res_2999;
             throw new Exception();
+            return __res_2999;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3000;
             throw new Exception();
+            return __res_3000;
         }
         set
         {
@@ -65,7 +77,9 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3001;
             throw new Exception();
+            return __res_3001;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class BeforeUnloadEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2669;
             throw new Exception();
+            return __res_2669;
         }
         set
         {

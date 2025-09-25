@@ -13,7 +13,9 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2989;
+            __res_2989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "streaming");
+            return __res_2989;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2990;
             throw new Exception();
+            return __res_2990;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2991;
             throw new Exception();
+            return __res_2991;
         }
         set
         {

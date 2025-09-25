@@ -13,7 +13,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_268;
             throw new Exception();
+            return __res_268;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_269;
             throw new Exception();
+            return __res_269;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_270;
             throw new Exception();
+            return __res_270;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_271;
             throw new Exception();
+            return __res_271;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_272;
             throw new Exception();
+            return __res_272;
         }
     }
 }

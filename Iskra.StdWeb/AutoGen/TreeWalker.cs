@@ -13,7 +13,9 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1383;
             throw new Exception();
+            return __res_1383;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1384;
             throw new Exception();
+            return __res_1384;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeFilter? __res_1385;
             throw new Exception();
+            return __res_1385;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1386;
             throw new Exception();
+            return __res_1386;
         }
         set
         {

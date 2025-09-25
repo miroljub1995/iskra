@@ -13,7 +13,9 @@ public partial class CSSCustomMediaRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_1780;
             throw new Exception();
+            return __res_1780;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSCustomMediaRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            object __res_1781;
             throw new Exception();
+            return __res_1781;
         }
     }
 }

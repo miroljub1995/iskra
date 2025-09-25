@@ -13,7 +13,9 @@ public partial class NamedNodeMap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1360;
             throw new Exception();
+            return __res_1360;
         }
     }
 }

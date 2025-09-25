@@ -13,7 +13,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2608;
             throw new Exception();
+            return __res_2608;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2609;
             throw new Exception();
+            return __res_2609;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2610;
             throw new Exception();
+            return __res_2610;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2611;
             throw new Exception();
+            return __res_2611;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2612;
             throw new Exception();
+            return __res_2612;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2613;
             throw new Exception();
+            return __res_2613;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2614;
             throw new Exception();
+            return __res_2614;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2615;
             throw new Exception();
+            return __res_2615;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2616;
             throw new Exception();
+            return __res_2616;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMStringList __res_2617;
             throw new Exception();
+            return __res_2617;
         }
     }
 }

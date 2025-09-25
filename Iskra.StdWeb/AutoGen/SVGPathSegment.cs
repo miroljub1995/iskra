@@ -13,7 +13,9 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_931;
             throw new Exception();
+            return __res_931;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_932;
             throw new Exception();
+            return __res_932;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2052;
             throw new Exception();
+            return __res_2052;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2053;
             throw new Exception();
+            return __res_2053;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2054;
             throw new Exception();
+            return __res_2054;
         }
     }
 }

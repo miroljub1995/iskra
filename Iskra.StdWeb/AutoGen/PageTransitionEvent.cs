@@ -13,7 +13,9 @@ public partial class PageTransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2668;
+            __res_2668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "persisted");
+            return __res_2668;
         }
     }
 }

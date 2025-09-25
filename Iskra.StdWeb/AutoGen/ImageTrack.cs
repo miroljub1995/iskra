@@ -13,7 +13,9 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1091;
+            __res_1091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
+            return __res_1091;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1092;
             throw new Exception();
+            return __res_1092;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1093;
             throw new Exception();
+            return __res_1093;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1094;
+            __res_1094 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            return __res_1094;
         }
         set
         {

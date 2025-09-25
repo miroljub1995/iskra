@@ -13,7 +13,9 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_547;
             throw new Exception();
+            return __res_547;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_548;
             throw new Exception();
+            return __res_548;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_549;
             throw new Exception();
+            return __res_549;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_550;
             throw new Exception();
+            return __res_550;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_551;
             throw new Exception();
+            return __res_551;
         }
     }
 }

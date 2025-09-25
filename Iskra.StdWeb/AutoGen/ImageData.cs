@@ -13,7 +13,9 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2694;
             throw new Exception();
+            return __res_2694;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2695;
             throw new Exception();
+            return __res_2695;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2696;
             throw new Exception();
+            return __res_2696;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ImageDataPixelFormat __res_2697;
             throw new Exception();
+            return __res_2697;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PredefinedColorSpace __res_2698;
             throw new Exception();
+            return __res_2698;
         }
     }
 }

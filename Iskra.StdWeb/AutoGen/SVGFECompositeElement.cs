@@ -13,7 +13,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_510;
             throw new Exception();
+            return __res_510;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_511;
             throw new Exception();
+            return __res_511;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_512;
             throw new Exception();
+            return __res_512;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_513;
             throw new Exception();
+            return __res_513;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_514;
             throw new Exception();
+            return __res_514;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_515;
             throw new Exception();
+            return __res_515;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_516;
             throw new Exception();
+            return __res_516;
         }
     }
 }

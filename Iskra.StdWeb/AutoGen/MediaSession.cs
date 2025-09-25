@@ -13,7 +13,9 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaMetadata? __res_266;
             throw new Exception();
+            return __res_266;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaSessionPlaybackState __res_267;
             throw new Exception();
+            return __res_267;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_966;
             throw new Exception();
+            return __res_966;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_967;
             throw new Exception();
+            return __res_967;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_968;
             throw new Exception();
+            return __res_968;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_969;
             throw new Exception();
+            return __res_969;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_970;
             throw new Exception();
+            return __res_970;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_971;
             throw new Exception();
+            return __res_971;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_972;
             throw new Exception();
+            return __res_972;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_973;
             throw new Exception();
+            return __res_973;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_974;
             throw new Exception();
+            return __res_974;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_975;
             throw new Exception();
+            return __res_975;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_976;
             throw new Exception();
+            return __res_976;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_977;
             throw new Exception();
+            return __res_977;
         }
         set
         {
@@ -157,7 +181,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_978;
             throw new Exception();
+            return __res_978;
         }
         set
         {
@@ -169,7 +195,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_979;
             throw new Exception();
+            return __res_979;
         }
         set
         {
@@ -181,7 +209,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_980;
             throw new Exception();
+            return __res_980;
         }
         set
         {
@@ -193,7 +223,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_981;
             throw new Exception();
+            return __res_981;
         }
         set
         {
@@ -205,7 +237,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_982;
             throw new Exception();
+            return __res_982;
         }
         set
         {
@@ -217,7 +251,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_983;
             throw new Exception();
+            return __res_983;
         }
         set
         {
@@ -229,7 +265,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_984;
             throw new Exception();
+            return __res_984;
         }
         set
         {
@@ -241,7 +279,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_985;
             throw new Exception();
+            return __res_985;
         }
         set
         {
@@ -253,7 +293,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_986;
             throw new Exception();
+            return __res_986;
         }
         set
         {
@@ -265,7 +307,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_987;
             throw new Exception();
+            return __res_987;
         }
         set
         {
@@ -277,7 +321,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_988;
             throw new Exception();
+            return __res_988;
         }
         set
         {
@@ -289,7 +335,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_989;
             throw new Exception();
+            return __res_989;
         }
         set
         {
@@ -301,7 +349,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_990;
             throw new Exception();
+            return __res_990;
         }
         set
         {
@@ -313,7 +363,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_991;
             throw new Exception();
+            return __res_991;
         }
         set
         {
@@ -325,7 +377,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_992;
             throw new Exception();
+            return __res_992;
         }
         set
         {
@@ -337,7 +391,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_993;
             throw new Exception();
+            return __res_993;
         }
         set
         {
@@ -349,7 +405,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_994;
             throw new Exception();
+            return __res_994;
         }
         set
         {
@@ -361,7 +419,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_995;
             throw new Exception();
+            return __res_995;
         }
         set
         {
@@ -373,7 +433,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_996;
             throw new Exception();
+            return __res_996;
         }
         set
         {
@@ -385,7 +447,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_997;
             throw new Exception();
+            return __res_997;
         }
         set
         {
@@ -397,7 +461,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_998;
             throw new Exception();
+            return __res_998;
         }
         set
         {
@@ -409,7 +475,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_999;
             throw new Exception();
+            return __res_999;
         }
         set
         {
@@ -421,7 +489,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1000;
             throw new Exception();
+            return __res_1000;
         }
         set
         {
@@ -433,7 +503,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1001;
             throw new Exception();
+            return __res_1001;
         }
         set
         {
@@ -445,7 +517,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1002;
             throw new Exception();
+            return __res_1002;
         }
         set
         {
@@ -457,7 +531,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1003;
             throw new Exception();
+            return __res_1003;
         }
         set
         {
@@ -469,7 +545,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1004;
             throw new Exception();
+            return __res_1004;
         }
         set
         {
@@ -481,7 +559,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1005;
             throw new Exception();
+            return __res_1005;
         }
         set
         {
@@ -493,7 +573,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1006;
             throw new Exception();
+            return __res_1006;
         }
         set
         {
@@ -505,7 +587,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1007;
             throw new Exception();
+            return __res_1007;
         }
         set
         {
@@ -517,7 +601,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1008;
             throw new Exception();
+            return __res_1008;
         }
         set
         {
@@ -529,7 +615,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1009;
             throw new Exception();
+            return __res_1009;
         }
         set
         {
@@ -541,7 +629,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1010;
             throw new Exception();
+            return __res_1010;
         }
         set
         {
@@ -553,7 +643,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1011;
             throw new Exception();
+            return __res_1011;
         }
         set
         {
@@ -565,7 +657,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1012;
             throw new Exception();
+            return __res_1012;
         }
         set
         {
@@ -577,7 +671,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1013;
             throw new Exception();
+            return __res_1013;
         }
         set
         {
@@ -589,7 +685,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1014;
             throw new Exception();
+            return __res_1014;
         }
         set
         {
@@ -601,7 +699,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1015;
             throw new Exception();
+            return __res_1015;
         }
         set
         {
@@ -613,7 +713,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1016;
             throw new Exception();
+            return __res_1016;
         }
         set
         {
@@ -625,7 +727,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1017;
             throw new Exception();
+            return __res_1017;
         }
         set
         {
@@ -637,7 +741,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1018;
             throw new Exception();
+            return __res_1018;
         }
         set
         {
@@ -649,7 +755,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1019;
             throw new Exception();
+            return __res_1019;
         }
         set
         {
@@ -661,7 +769,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1020;
             throw new Exception();
+            return __res_1020;
         }
         set
         {
@@ -673,7 +783,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1021;
             throw new Exception();
+            return __res_1021;
         }
         set
         {
@@ -685,7 +797,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1022;
             throw new Exception();
+            return __res_1022;
         }
         set
         {
@@ -697,7 +811,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1023;
             throw new Exception();
+            return __res_1023;
         }
         set
         {
@@ -709,7 +825,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1024;
             throw new Exception();
+            return __res_1024;
         }
         set
         {
@@ -721,7 +839,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1025;
             throw new Exception();
+            return __res_1025;
         }
         set
         {
@@ -733,7 +853,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1026;
             throw new Exception();
+            return __res_1026;
         }
         set
         {
@@ -745,7 +867,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1027;
             throw new Exception();
+            return __res_1027;
         }
         set
         {
@@ -757,7 +881,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1028;
             throw new Exception();
+            return __res_1028;
         }
         set
         {
@@ -769,7 +895,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1029;
             throw new Exception();
+            return __res_1029;
         }
         set
         {
@@ -781,7 +909,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1030;
             throw new Exception();
+            return __res_1030;
         }
         set
         {
@@ -793,7 +923,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1031;
             throw new Exception();
+            return __res_1031;
         }
         set
         {
@@ -805,7 +937,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1032;
             throw new Exception();
+            return __res_1032;
         }
         set
         {
@@ -817,7 +951,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1033;
             throw new Exception();
+            return __res_1033;
         }
         set
         {
@@ -829,7 +965,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1034;
             throw new Exception();
+            return __res_1034;
         }
         set
         {
@@ -841,7 +979,9 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
+            string __res_1035;
             throw new Exception();
+            return __res_1035;
         }
         set
         {

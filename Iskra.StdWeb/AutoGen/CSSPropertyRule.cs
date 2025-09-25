@@ -13,7 +13,9 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2902;
             throw new Exception();
+            return __res_2902;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2903;
             throw new Exception();
+            return __res_2903;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2904;
+            __res_2904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
+            return __res_2904;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string? __res_2905;
             throw new Exception();
+            return __res_2905;
         }
     }
 }

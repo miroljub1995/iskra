@@ -13,7 +13,9 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSRule? __res_2862;
             throw new Exception();
+            return __res_2862;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSRuleList __res_2863;
             throw new Exception();
+            return __res_2863;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class WorkletAnimationEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_1791;
             throw new Exception();
+            return __res_1791;
         }
         set
         {

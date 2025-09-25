@@ -13,7 +13,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.WorkerGlobalScope __res_2718;
             throw new Exception();
+            return __res_2718;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.WorkerLocation __res_2719;
             throw new Exception();
+            return __res_2719;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.WorkerNavigator __res_2720;
             throw new Exception();
+            return __res_2720;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.OnErrorEventHandlerNonNull? __res_2721;
             throw new Exception();
+            return __res_2721;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2722;
             throw new Exception();
+            return __res_2722;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2723;
             throw new Exception();
+            return __res_2723;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2724;
             throw new Exception();
+            return __res_2724;
         }
         set
         {
@@ -85,7 +99,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2725;
             throw new Exception();
+            return __res_2725;
         }
         set
         {
@@ -97,7 +113,9 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2726;
             throw new Exception();
+            return __res_2726;
         }
         set
         {

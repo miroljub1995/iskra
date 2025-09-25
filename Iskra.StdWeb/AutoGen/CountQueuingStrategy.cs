@@ -13,7 +13,9 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_434;
             throw new Exception();
+            return __res_434;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Function __res_435;
             throw new Exception();
+            return __res_435;
         }
     }
 }

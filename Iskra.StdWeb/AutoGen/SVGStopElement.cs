@@ -13,7 +13,9 @@ public partial class SVGStopElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_247;
             throw new Exception();
+            return __res_247;
         }
     }
 }

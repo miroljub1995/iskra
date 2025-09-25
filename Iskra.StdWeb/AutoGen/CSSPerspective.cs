@@ -13,7 +13,9 @@ public partial class CSSPerspective(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_47;
             throw new Exception();
+            return __res_47;
         }
         set
         {

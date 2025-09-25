@@ -13,7 +13,9 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
+            ulong __res_3255;
             throw new Exception();
+            return __res_3255;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
+            double __res_3256;
             throw new Exception();
+            return __res_3256;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
+            float __res_3257;
             throw new Exception();
+            return __res_3257;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
+            uint __res_3258;
             throw new Exception();
+            return __res_3258;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_3259;
             throw new Exception();
+            return __res_3259;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2715;
             throw new Exception();
+            return __res_2715;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2716;
             throw new Exception();
+            return __res_2716;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2717;
             throw new Exception();
+            return __res_2717;
         }
         set
         {

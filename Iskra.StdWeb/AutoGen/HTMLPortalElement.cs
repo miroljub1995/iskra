@@ -13,7 +13,9 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_1534;
             throw new Exception();
+            return __res_1534;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_1535;
             throw new Exception();
+            return __res_1535;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1536;
             throw new Exception();
+            return __res_1536;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1537;
             throw new Exception();
+            return __res_1537;
         }
         set
         {

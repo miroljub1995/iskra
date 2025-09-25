@@ -13,7 +13,9 @@ public partial class ProgressEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_411;
+            __res_411 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lengthComputable");
+            return __res_411;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ProgressEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double __res_412;
             throw new Exception();
+            return __res_412;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ProgressEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double __res_413;
             throw new Exception();
+            return __res_413;
         }
     }
 }

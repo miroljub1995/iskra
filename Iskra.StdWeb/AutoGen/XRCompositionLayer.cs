@@ -13,7 +13,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRLayerLayout __res_658;
             throw new Exception();
+            return __res_658;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_659;
+            __res_659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha");
+            return __res_659;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_660;
+            __res_660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "forceMonoPresentation");
+            return __res_660;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            float __res_661;
             throw new Exception();
+            return __res_661;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            uint __res_662;
             throw new Exception();
+            return __res_662;
         }
     }
 
@@ -65,7 +75,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRLayerQuality __res_663;
             throw new Exception();
+            return __res_663;
         }
         set
         {
@@ -77,7 +89,9 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_664;
+            __res_664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "needsRedraw");
+            return __res_664;
         }
     }
 }

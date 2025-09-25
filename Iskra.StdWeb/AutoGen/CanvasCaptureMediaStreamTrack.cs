@@ -13,7 +13,9 @@ public partial class CanvasCaptureMediaStreamTrack(JSObject obj): MediaStreamTra
     {
         get
         {
+            Iskra.StdWeb.HTMLCanvasElement __res_730;
             throw new Exception();
+            return __res_730;
         }
     }
 }

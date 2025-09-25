@@ -13,7 +13,9 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_1557;
             throw new Exception();
+            return __res_1557;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1558;
             throw new Exception();
+            return __res_1558;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1559;
             throw new Exception();
+            return __res_1559;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1560;
             throw new Exception();
+            return __res_1560;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1561;
             throw new Exception();
+            return __res_1561;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_1562;
             throw new Exception();
+            return __res_1562;
         }
     }
 }

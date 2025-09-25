@@ -13,7 +13,9 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
+            Iskra.StdWeb.ReadableStreamBYOBRequest? __res_421;
             throw new Exception();
+            return __res_421;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
+            double? __res_422;
             throw new Exception();
+            return __res_422;
         }
     }
 }

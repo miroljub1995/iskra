@@ -13,7 +13,9 @@ public partial class ValueEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_1116;
             throw new Exception();
+            return __res_1116;
         }
     }
 }

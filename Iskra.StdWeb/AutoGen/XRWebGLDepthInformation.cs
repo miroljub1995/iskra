@@ -13,7 +13,9 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
+            Iskra.StdWeb.WebGLTexture __res_469;
             throw new Exception();
+            return __res_469;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
+            Iskra.StdWeb.XRTextureType __res_470;
             throw new Exception();
+            return __res_470;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
+            uint? __res_471;
             throw new Exception();
+            return __res_471;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2434;
+            __res_2434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2434;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2435;
             throw new Exception();
+            return __res_2435;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2436;
             throw new Exception();
+            return __res_2436;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2437;
+            __res_2437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultSelected");
+            return __res_2437;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2438;
+            __res_2438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            return __res_2438;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2439;
             throw new Exception();
+            return __res_2439;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2440;
             throw new Exception();
+            return __res_2440;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2441;
             throw new Exception();
+            return __res_2441;
         }
     }
 }

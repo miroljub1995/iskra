@@ -13,7 +13,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_83;
             throw new Exception();
+            return __res_83;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SummarizerType __res_84;
             throw new Exception();
+            return __res_84;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SummarizerFormat __res_85;
             throw new Exception();
+            return __res_85;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SummarizerLength __res_86;
             throw new Exception();
+            return __res_86;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_87;
             throw new Exception();
+            return __res_87;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_88;
             throw new Exception();
+            return __res_88;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_89;
             throw new Exception();
+            return __res_89;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_90;
             throw new Exception();
+            return __res_90;
         }
     }
 }

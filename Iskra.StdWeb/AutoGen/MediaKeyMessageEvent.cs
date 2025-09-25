@@ -13,7 +13,9 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaKeyMessageType __res_2086;
             throw new Exception();
+            return __res_2086;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_2087;
             throw new Exception();
+            return __res_2087;
         }
     }
 }

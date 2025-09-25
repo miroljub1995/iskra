@@ -13,7 +13,9 @@ public partial class SFrameTransform(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_447;
             throw new Exception();
+            return __res_447;
         }
         set
         {

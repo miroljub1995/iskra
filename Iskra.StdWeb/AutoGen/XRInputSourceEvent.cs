@@ -13,7 +13,9 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRFrame __res_1745;
             throw new Exception();
+            return __res_1745;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.XRInputSource __res_1746;
             throw new Exception();
+            return __res_1746;
         }
     }
 }

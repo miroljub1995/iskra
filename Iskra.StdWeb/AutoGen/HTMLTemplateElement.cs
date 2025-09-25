@@ -13,7 +13,9 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DocumentFragment __res_2525;
             throw new Exception();
+            return __res_2525;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2526;
             throw new Exception();
+            return __res_2526;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2527;
+            __res_2527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus");
+            return __res_2527;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2528;
+            __res_2528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootClonable");
+            return __res_2528;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2529;
+            __res_2529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootSerializable");
+            return __res_2529;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2530;
             throw new Exception();
+            return __res_2530;
         }
         set
         {

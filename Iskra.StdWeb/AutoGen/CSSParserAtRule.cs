@@ -13,7 +13,9 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
+            string __res_2952;
             throw new Exception();
+            return __res_2952;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
+            object __res_2953;
             throw new Exception();
+            return __res_2953;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
+            object __res_2954;
             throw new Exception();
+            return __res_2954;
         }
     }
 }

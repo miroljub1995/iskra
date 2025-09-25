@@ -13,7 +13,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            double __res_2786;
             throw new Exception();
+            return __res_2786;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            double __res_2787;
             throw new Exception();
+            return __res_2787;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            string __res_2788;
             throw new Exception();
+            return __res_2788;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            string __res_2789;
             throw new Exception();
+            return __res_2789;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            Iskra.StdWeb.ScriptInvokerType __res_2790;
             throw new Exception();
+            return __res_2790;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            string __res_2791;
             throw new Exception();
+            return __res_2791;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            double __res_2792;
             throw new Exception();
+            return __res_2792;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            string __res_2793;
             throw new Exception();
+            return __res_2793;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            string __res_2794;
             throw new Exception();
+            return __res_2794;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            long __res_2795;
             throw new Exception();
+            return __res_2795;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            double __res_2796;
             throw new Exception();
+            return __res_2796;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            double __res_2797;
             throw new Exception();
+            return __res_2797;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            Iskra.StdWeb.Window? __res_2798;
             throw new Exception();
+            return __res_2798;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
     {
         get
         {
+            Iskra.StdWeb.ScriptWindowAttribution __res_2799;
             throw new Exception();
+            return __res_2799;
         }
     }
 }

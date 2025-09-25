@@ -13,7 +13,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_722;
             throw new Exception();
+            return __res_722;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_723;
             throw new Exception();
+            return __res_723;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.Uint32Array __res_724;
             throw new Exception();
+            return __res_724;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_725;
             throw new Exception();
+            return __res_725;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_726;
             throw new Exception();
+            return __res_726;
         }
     }
 }

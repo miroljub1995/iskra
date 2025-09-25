@@ -13,7 +13,9 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2566;
             throw new Exception();
+            return __res_2566;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2567;
             throw new Exception();
+            return __res_2567;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_2568;
             throw new Exception();
+            return __res_2568;
         }
     }
 }

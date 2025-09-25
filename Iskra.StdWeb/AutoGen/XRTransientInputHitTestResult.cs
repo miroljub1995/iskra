@@ -13,7 +13,9 @@ public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(
     {
         get
         {
+            Iskra.StdWeb.XRInputSource __res_2090;
             throw new Exception();
+            return __res_2090;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(
     {
         get
         {
+            object __res_2091;
             throw new Exception();
+            return __res_2091;
         }
     }
 }

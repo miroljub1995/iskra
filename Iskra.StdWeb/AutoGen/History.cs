@@ -13,7 +13,9 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2618;
             throw new Exception();
+            return __res_2618;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ScrollRestoration __res_2619;
             throw new Exception();
+            return __res_2619;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_2620;
             throw new Exception();
+            return __res_2620;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class QuotaExceededError(JSObject obj): DOMException(obj)
     {
         get
         {
+            double? __res_1419;
             throw new Exception();
+            return __res_1419;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class QuotaExceededError(JSObject obj): DOMException(obj)
     {
         get
         {
+            double? __res_1420;
             throw new Exception();
+            return __res_1420;
         }
     }
 }

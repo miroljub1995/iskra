@@ -13,7 +13,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_938;
             throw new Exception();
+            return __res_938;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_939;
             throw new Exception();
+            return __res_939;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.PresentationConnectionState __res_940;
             throw new Exception();
+            return __res_940;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_941;
             throw new Exception();
+            return __res_941;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_942;
             throw new Exception();
+            return __res_942;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_943;
             throw new Exception();
+            return __res_943;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BinaryType __res_944;
             throw new Exception();
+            return __res_944;
         }
         set
         {
@@ -85,7 +99,9 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_945;
             throw new Exception();
+            return __res_945;
         }
         set
         {

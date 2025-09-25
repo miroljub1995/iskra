@@ -13,7 +13,9 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_472;
             throw new Exception();
+            return __res_472;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.HighlightType __res_473;
             throw new Exception();
+            return __res_473;
         }
         set
         {

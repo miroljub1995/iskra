@@ -13,7 +13,9 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_193;
             throw new Exception();
+            return __res_193;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_194;
             throw new Exception();
+            return __res_194;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_195;
             throw new Exception();
+            return __res_195;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class ClipboardEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.DataTransfer? __res_727;
             throw new Exception();
+            return __res_727;
         }
     }
 }

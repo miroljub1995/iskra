@@ -13,7 +13,9 @@ public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.Window __res_112;
             throw new Exception();
+            return __res_112;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_113;
             throw new Exception();
+            return __res_113;
         }
         set
         {

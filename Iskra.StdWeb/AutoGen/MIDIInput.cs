@@ -13,7 +13,9 @@ public partial class MIDIInput(JSObject obj): MIDIPort(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2949;
             throw new Exception();
+            return __res_2949;
         }
         set
         {

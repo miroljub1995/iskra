@@ -13,7 +13,9 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_2569;
             throw new Exception();
+            return __res_2569;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2570;
             throw new Exception();
+            return __res_2570;
         }
     }
 }

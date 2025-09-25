@@ -13,7 +13,9 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1110;
             throw new Exception();
+            return __res_1110;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1111;
+            __res_1111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
+            return __res_1111;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1112;
             throw new Exception();
+            return __res_1112;
         }
     }
 }

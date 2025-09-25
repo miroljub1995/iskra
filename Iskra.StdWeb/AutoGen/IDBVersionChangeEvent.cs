@@ -13,7 +13,9 @@ public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ulong __res_3004;
             throw new Exception();
+            return __res_3004;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ulong? __res_3005;
             throw new Exception();
+            return __res_3005;
         }
     }
 }

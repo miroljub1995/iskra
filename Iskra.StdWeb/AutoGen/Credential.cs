@@ -13,7 +13,9 @@ public partial class Credential(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1036;
             throw new Exception();
+            return __res_1036;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Credential(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1037;
             throw new Exception();
+            return __res_1037;
         }
     }
 }

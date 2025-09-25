@@ -13,7 +13,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_648;
             throw new Exception();
+            return __res_648;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_649;
+            __res_649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
+            return __res_649;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_650;
             throw new Exception();
+            return __res_650;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort __res_651;
             throw new Exception();
+            return __res_651;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_652;
             throw new Exception();
+            return __res_652;
         }
     }
 
@@ -57,7 +67,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_653;
             throw new Exception();
+            return __res_653;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2027;
             throw new Exception();
+            return __res_2027;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2028;
             throw new Exception();
+            return __res_2028;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2029;
             throw new Exception();
+            return __res_2029;
         }
     }
 }

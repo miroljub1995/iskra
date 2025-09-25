@@ -13,7 +13,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.XRVisibilityState __res_1689;
             throw new Exception();
+            return __res_1689;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            float? __res_1690;
             throw new Exception();
+            return __res_1690;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.JSCore.Float32Array? __res_1691;
             throw new Exception();
+            return __res_1691;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRenderState __res_1692;
             throw new Exception();
+            return __res_1692;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.XRInputSourceArray __res_1693;
             throw new Exception();
+            return __res_1693;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.XRInputSourceArray __res_1694;
             throw new Exception();
+            return __res_1694;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1695;
             throw new Exception();
+            return __res_1695;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1696;
+            __res_1696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isSystemKeyboardSupported");
+            return __res_1696;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1697;
             throw new Exception();
+            return __res_1697;
         }
         set
         {
@@ -89,7 +107,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1698;
             throw new Exception();
+            return __res_1698;
         }
         set
         {
@@ -101,7 +121,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1699;
             throw new Exception();
+            return __res_1699;
         }
         set
         {
@@ -113,7 +135,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1700;
             throw new Exception();
+            return __res_1700;
         }
         set
         {
@@ -125,7 +149,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1701;
             throw new Exception();
+            return __res_1701;
         }
         set
         {
@@ -137,7 +163,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1702;
             throw new Exception();
+            return __res_1702;
         }
         set
         {
@@ -149,7 +177,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1703;
             throw new Exception();
+            return __res_1703;
         }
         set
         {
@@ -161,7 +191,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1704;
             throw new Exception();
+            return __res_1704;
         }
         set
         {
@@ -173,7 +205,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1705;
             throw new Exception();
+            return __res_1705;
         }
         set
         {
@@ -185,7 +219,9 @@ public partial class XRSession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1706;
             throw new Exception();
+            return __res_1706;
         }
         set
         {

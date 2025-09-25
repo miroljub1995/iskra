@@ -13,7 +13,9 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.PermissionState __res_80;
             throw new Exception();
+            return __res_80;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_81;
             throw new Exception();
+            return __res_81;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_82;
             throw new Exception();
+            return __res_82;
         }
         set
         {

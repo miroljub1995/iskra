@@ -13,7 +13,9 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_2266;
             throw new Exception();
+            return __res_2266;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2267;
             throw new Exception();
+            return __res_2267;
         }
     }
 }

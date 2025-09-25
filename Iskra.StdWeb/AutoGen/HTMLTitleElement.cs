@@ -13,7 +13,9 @@ public partial class HTMLTitleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2130;
             throw new Exception();
+            return __res_2130;
         }
         set
         {

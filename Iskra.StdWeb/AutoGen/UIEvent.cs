@@ -13,7 +13,9 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_3093;
             throw new Exception();
+            return __res_3093;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
+            int __res_3094;
             throw new Exception();
+            return __res_3094;
         }
     }
 }

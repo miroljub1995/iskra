@@ -13,7 +13,9 @@ public partial class CSSTransformValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
+            uint __res_30;
             throw new Exception();
+            return __res_30;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSTransformValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_31;
+            __res_31 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            return __res_31;
         }
     }
 }

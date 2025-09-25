@@ -13,7 +13,9 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceCandidate __res_826;
             throw new Exception();
+            return __res_826;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceCandidate __res_827;
             throw new Exception();
+            return __res_827;
         }
     }
 }

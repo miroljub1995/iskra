@@ -1,10 +1,13 @@
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class AttributeMemberTypeGenerator(
-    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator
+    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
+    GetPropertyValueGenerator getPropertyValueGenerator,
+    GeneratorContext generatorContext
 )
 {
     public string Generate(AttributeMemberType input, string containingTypeName)
@@ -21,11 +24,23 @@ public class AttributeMemberTypeGenerator(
         }
 
         var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
+        var returnValueVar = generatorContext.GetNextVariableName("res");
+
+        var getPropertyValue = getPropertyValueGenerator.Generate(
+            inputVar: "JSObject",
+            type: input.IdlType,
+            propertyName: input.Name,
+            isStatic: isStatic,
+            containingTypeName: containingTypeName,
+            outputVar: returnValueVar
+        );
 
         var getter = $$"""
                        get
                        {
-                           throw new Exception();
+                           {{returnType}} {{returnValueVar}};
+                       {{getPropertyValue.IndentLines(4)}}
+                           return {{returnValueVar}};
                        }
                        """;
 
@@ -53,5 +68,10 @@ public class AttributeMemberTypeGenerator(
                         """;
 
         return content;
+    }
+
+    private string GeneratePropertyGetter(AttributeMemberType input)
+    {
+        throw new NotImplementedException();
     }
 }

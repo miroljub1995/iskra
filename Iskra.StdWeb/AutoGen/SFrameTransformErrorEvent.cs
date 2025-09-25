@@ -13,7 +13,9 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.SFrameTransformErrorEventType __res_448;
             throw new Exception();
+            return __res_448;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_449;
             throw new Exception();
+            return __res_449;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_450;
             throw new Exception();
+            return __res_450;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_160;
             throw new Exception();
+            return __res_160;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_161;
             throw new Exception();
+            return __res_161;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_162;
             throw new Exception();
+            return __res_162;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_163;
             throw new Exception();
+            return __res_163;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            float __res_164;
             throw new Exception();
+            return __res_164;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly __res_165;
             throw new Exception();
+            return __res_165;
         }
     }
 }

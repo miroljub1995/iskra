@@ -13,7 +13,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3030;
             throw new Exception();
+            return __res_3030;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBCursorDirection __res_3031;
             throw new Exception();
+            return __res_3031;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3032;
             throw new Exception();
+            return __res_3032;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3033;
             throw new Exception();
+            return __res_3033;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBRequest __res_3034;
             throw new Exception();
+            return __res_3034;
         }
     }
 }

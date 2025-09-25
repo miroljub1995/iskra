@@ -13,7 +13,9 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.UserIdleState? __res_1152;
             throw new Exception();
+            return __res_1152;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ScreenIdleState? __res_1153;
             throw new Exception();
+            return __res_1153;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1154;
             throw new Exception();
+            return __res_1154;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class HIDConnectionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.HIDDevice __res_654;
             throw new Exception();
+            return __res_654;
         }
     }
 }

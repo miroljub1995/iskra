@@ -13,7 +13,9 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_126;
             throw new Exception();
+            return __res_126;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_127;
             throw new Exception();
+            return __res_127;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_128;
             throw new Exception();
+            return __res_128;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_129;
             throw new Exception();
+            return __res_129;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class CSSUnparsedValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
+            uint __res_13;
             throw new Exception();
+            return __res_13;
         }
     }
 }

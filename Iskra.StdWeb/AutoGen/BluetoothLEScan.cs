@@ -13,7 +13,9 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1921;
             throw new Exception();
+            return __res_1921;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1922;
+            __res_1922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
+            return __res_1922;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1923;
+            __res_1923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
+            return __res_1923;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1924;
+            __res_1924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            return __res_1924;
         }
     }
 }

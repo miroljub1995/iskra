@@ -13,7 +13,9 @@ public partial class CloseWatcher(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2571;
             throw new Exception();
+            return __res_2571;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CloseWatcher(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2572;
             throw new Exception();
+            return __res_2572;
         }
         set
         {

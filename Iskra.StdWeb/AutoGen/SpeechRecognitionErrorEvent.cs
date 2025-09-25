@@ -13,7 +13,9 @@ public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.SpeechRecognitionErrorCode __res_1638;
             throw new Exception();
+            return __res_1638;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_1639;
             throw new Exception();
+            return __res_1639;
         }
     }
 }

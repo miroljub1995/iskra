@@ -13,7 +13,9 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double? __res_1167;
             throw new Exception();
+            return __res_1167;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double? __res_1168;
             throw new Exception();
+            return __res_1168;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double? __res_1169;
             throw new Exception();
+            return __res_1169;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1170;
+            __res_1170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "absolute");
+            return __res_1170;
         }
     }
 }

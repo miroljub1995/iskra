@@ -13,7 +13,9 @@ public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PresentationStyle __res_728;
             throw new Exception();
+            return __res_728;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_729;
             throw new Exception();
+            return __res_729;
         }
     }
 }

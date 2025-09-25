@@ -13,7 +13,9 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Storage __res_1793;
             throw new Exception();
+            return __res_1793;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Storage __res_1794;
             throw new Exception();
+            return __res_1794;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.IDBFactory __res_1795;
             throw new Exception();
+            return __res_1795;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.LockManager __res_1796;
             throw new Exception();
+            return __res_1796;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CacheStorage __res_1797;
             throw new Exception();
+            return __res_1797;
         }
     }
 }

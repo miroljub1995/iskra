@@ -13,7 +13,9 @@ public partial class TimeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_383;
             throw new Exception();
+            return __res_383;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TimeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            int __res_384;
             throw new Exception();
+            return __res_384;
         }
     }
 }

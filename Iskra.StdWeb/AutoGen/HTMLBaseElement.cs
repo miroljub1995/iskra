@@ -13,7 +13,9 @@ public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2131;
             throw new Exception();
+            return __res_2131;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2132;
             throw new Exception();
+            return __res_2132;
         }
         set
         {

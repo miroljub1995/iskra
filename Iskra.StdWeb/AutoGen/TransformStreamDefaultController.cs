@@ -13,7 +13,9 @@ public partial class TransformStreamDefaultController(JSObject obj): JSObjectPro
     {
         get
         {
+            double? __res_431;
             throw new Exception();
+            return __res_431;
         }
     }
 }

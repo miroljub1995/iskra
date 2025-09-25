@@ -13,7 +13,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSessionDescription? __res_761;
             throw new Exception();
+            return __res_761;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSessionDescription? __res_762;
             throw new Exception();
+            return __res_762;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSessionDescription? __res_763;
             throw new Exception();
+            return __res_763;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSessionDescription? __res_764;
             throw new Exception();
+            return __res_764;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSessionDescription? __res_765;
             throw new Exception();
+            return __res_765;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSessionDescription? __res_766;
             throw new Exception();
+            return __res_766;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSignalingState __res_767;
             throw new Exception();
+            return __res_767;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceGatheringState __res_768;
             throw new Exception();
+            return __res_768;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceConnectionState __res_769;
             throw new Exception();
+            return __res_769;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCPeerConnectionState __res_770;
             throw new Exception();
+            return __res_770;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_771;
+            __res_771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "canTrickleIceCandidates");
+            return __res_771;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_772;
             throw new Exception();
+            return __res_772;
         }
         set
         {
@@ -113,7 +137,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_773;
             throw new Exception();
+            return __res_773;
         }
         set
         {
@@ -125,7 +151,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_774;
             throw new Exception();
+            return __res_774;
         }
         set
         {
@@ -137,7 +165,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_775;
             throw new Exception();
+            return __res_775;
         }
         set
         {
@@ -149,7 +179,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_776;
             throw new Exception();
+            return __res_776;
         }
         set
         {
@@ -161,7 +193,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_777;
             throw new Exception();
+            return __res_777;
         }
         set
         {
@@ -173,7 +207,9 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_778;
             throw new Exception();
+            return __res_778;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_482;
             throw new Exception();
+            return __res_482;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_483;
             throw new Exception();
+            return __res_483;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node? __res_484;
             throw new Exception();
+            return __res_484;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_485;
             throw new Exception();
+            return __res_485;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_486;
+            __res_486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isCollapsed");
+            return __res_486;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_487;
             throw new Exception();
+            return __res_487;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_488;
             throw new Exception();
+            return __res_488;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_489;
             throw new Exception();
+            return __res_489;
         }
     }
 }

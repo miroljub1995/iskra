@@ -13,7 +13,9 @@ public partial class FontFaceSetLoadEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_895;
             throw new Exception();
+            return __res_895;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_671;
             throw new Exception();
+            return __res_671;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform __res_672;
             throw new Exception();
+            return __res_672;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_673;
             throw new Exception();
+            return __res_673;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_674;
             throw new Exception();
+            return __res_674;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_675;
             throw new Exception();
+            return __res_675;
         }
         set
         {

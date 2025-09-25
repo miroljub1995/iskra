@@ -13,7 +13,9 @@ public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1647;
             throw new Exception();
+            return __res_1647;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_1648;
             throw new Exception();
+            return __res_1648;
         }
         set
         {

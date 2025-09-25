@@ -13,7 +13,9 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_3267;
             throw new Exception();
+            return __res_3267;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_3268;
             throw new Exception();
+            return __res_3268;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_3269;
+            __res_3269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
+            return __res_3269;
         }
     }
 }

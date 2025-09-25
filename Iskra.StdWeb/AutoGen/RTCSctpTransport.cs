@@ -13,7 +13,9 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCDtlsTransport __res_832;
             throw new Exception();
+            return __res_832;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSctpTransportState __res_833;
             throw new Exception();
+            return __res_833;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_834;
             throw new Exception();
+            return __res_834;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ushort? __res_835;
             throw new Exception();
+            return __res_835;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_836;
             throw new Exception();
+            return __res_836;
         }
         set
         {

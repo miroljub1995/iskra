@@ -13,7 +13,9 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_2548;
             throw new Exception();
+            return __res_2548;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
+            ulong __res_2549;
             throw new Exception();
+            return __res_2549;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2550;
             throw new Exception();
+            return __res_2550;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2551;
             throw new Exception();
+            return __res_2551;
         }
         set
         {

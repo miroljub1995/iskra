@@ -13,7 +13,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_0;
             throw new Exception();
+            return __res_0;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1;
             throw new Exception();
+            return __res_1;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int? __res_2;
             throw new Exception();
+            return __res_2;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int? __res_3;
             throw new Exception();
+            return __res_3;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int? __res_4;
             throw new Exception();
+            return __res_4;
         }
     }
 
@@ -61,7 +71,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_5;
             throw new Exception();
+            return __res_5;
         }
         set
         {
@@ -73,7 +85,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_6;
             throw new Exception();
+            return __res_6;
         }
     }
 
@@ -81,7 +95,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_7;
             throw new Exception();
+            return __res_7;
         }
         set
         {
@@ -93,7 +109,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_8;
             throw new Exception();
+            return __res_8;
         }
     }
 
@@ -101,7 +119,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_9;
             throw new Exception();
+            return __res_9;
         }
     }
 
@@ -109,7 +129,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_10;
+            __res_10 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
+            return __res_10;
         }
         set
         {
@@ -121,7 +143,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_11;
+            __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
+            return __res_11;
         }
     }
 
@@ -129,7 +153,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_12;
+            __res_12 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
+            return __res_12;
         }
         set
         {
@@ -141,7 +167,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_13;
+            __res_13 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
+            return __res_13;
         }
     }
 
@@ -149,7 +177,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_14;
+            __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
+            return __res_14;
         }
     }
 
@@ -157,7 +187,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool? __res_15;
+            __res_15 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
+            return __res_15;
         }
     }
 
@@ -165,7 +197,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_16;
             throw new Exception();
+            return __res_16;
         }
         set
         {
@@ -177,7 +211,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_17;
             throw new Exception();
+            return __res_17;
         }
     }
 
@@ -185,7 +221,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_18;
             throw new Exception();
+            return __res_18;
         }
         set
         {
@@ -197,7 +235,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_19;
             throw new Exception();
+            return __res_19;
         }
     }
 
@@ -205,7 +245,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_20;
             throw new Exception();
+            return __res_20;
         }
     }
 
@@ -213,7 +255,9 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_21;
             throw new Exception();
+            return __res_21;
         }
     }
 }

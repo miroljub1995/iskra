@@ -13,7 +13,9 @@ public partial class CSSNestedDeclarations(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleProperties __res_1095;
             throw new Exception();
+            return __res_1095;
         }
     }
 }

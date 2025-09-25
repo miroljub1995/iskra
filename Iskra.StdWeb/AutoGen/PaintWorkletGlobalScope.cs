@@ -13,7 +13,9 @@ public partial class PaintWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
+            double __res_1183;
             throw new Exception();
+            return __res_1183;
         }
     }
 }

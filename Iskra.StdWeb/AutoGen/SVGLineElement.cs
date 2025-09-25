@@ -13,7 +13,9 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_200;
             throw new Exception();
+            return __res_200;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_201;
             throw new Exception();
+            return __res_201;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_202;
             throw new Exception();
+            return __res_202;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_203;
             throw new Exception();
+            return __res_203;
         }
     }
 }

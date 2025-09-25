@@ -13,7 +13,9 @@ public partial class BackgroundFetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.BackgroundFetchRegistration __res_1411;
             throw new Exception();
+            return __res_1411;
         }
     }
 }

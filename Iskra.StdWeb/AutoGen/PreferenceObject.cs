@@ -13,7 +13,9 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_1787;
             throw new Exception();
+            return __res_1787;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1788;
             throw new Exception();
+            return __res_1788;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_1789;
             throw new Exception();
+            return __res_1789;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1790;
             throw new Exception();
+            return __res_1790;
         }
         set
         {

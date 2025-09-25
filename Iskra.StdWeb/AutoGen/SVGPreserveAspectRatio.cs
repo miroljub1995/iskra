@@ -13,7 +13,9 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_183;
             throw new Exception();
+            return __res_183;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_184;
             throw new Exception();
+            return __res_184;
         }
         set
         {

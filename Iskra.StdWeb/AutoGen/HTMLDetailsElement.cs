@@ -13,7 +13,9 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2509;
             throw new Exception();
+            return __res_2509;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2510;
+            __res_2510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            return __res_2510;
         }
         set
         {

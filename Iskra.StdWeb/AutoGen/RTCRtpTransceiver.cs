@@ -13,7 +13,9 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_810;
             throw new Exception();
+            return __res_810;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpSender __res_811;
             throw new Exception();
+            return __res_811;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpReceiver __res_812;
             throw new Exception();
+            return __res_812;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpTransceiverDirection __res_813;
             throw new Exception();
+            return __res_813;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCRtpTransceiverDirection? __res_814;
             throw new Exception();
+            return __res_814;
         }
     }
 }

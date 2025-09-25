@@ -13,7 +13,9 @@ public partial class USBInTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.DataView? __res_1999;
             throw new Exception();
+            return __res_1999;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBInTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.USBTransferStatus __res_2000;
             throw new Exception();
+            return __res_2000;
         }
     }
 }

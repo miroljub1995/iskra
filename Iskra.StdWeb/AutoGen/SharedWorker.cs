@@ -13,7 +13,9 @@ public partial class SharedWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MessagePort __res_2730;
             throw new Exception();
+            return __res_2730;
         }
     }
 }

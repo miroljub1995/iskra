@@ -13,7 +13,9 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_26;
             throw new Exception();
+            return __res_26;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_27;
             throw new Exception();
+            return __res_27;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_28;
             throw new Exception();
+            return __res_28;
         }
     }
 }

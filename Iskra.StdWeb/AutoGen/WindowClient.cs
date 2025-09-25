@@ -13,7 +13,9 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
+            Iskra.StdWeb.DocumentVisibilityState __res_1832;
             throw new Exception();
+            return __res_1832;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1833;
+            __res_1833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
+            return __res_1833;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
+            object __res_1834;
             throw new Exception();
+            return __res_1834;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class DataTransferItemList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2578;
             throw new Exception();
+            return __res_2578;
         }
     }
 }

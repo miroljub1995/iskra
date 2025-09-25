@@ -13,7 +13,9 @@ public partial class Storage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2740;
             throw new Exception();
+            return __res_2740;
         }
     }
 }

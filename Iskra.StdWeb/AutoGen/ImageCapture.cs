@@ -13,7 +13,9 @@ public partial class ImageCapture(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStreamTrack __res_2075;
             throw new Exception();
+            return __res_2075;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class DelayNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3221;
             throw new Exception();
+            return __res_3221;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class CookieStore(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_707;
             throw new Exception();
+            return __res_707;
         }
         set
         {

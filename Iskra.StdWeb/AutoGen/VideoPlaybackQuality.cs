@@ -13,7 +13,9 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_371;
             throw new Exception();
+            return __res_371;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_372;
             throw new Exception();
+            return __res_372;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_373;
             throw new Exception();
+            return __res_373;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_374;
             throw new Exception();
+            return __res_374;
         }
     }
 }

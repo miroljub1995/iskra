@@ -13,7 +13,9 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1083;
             throw new Exception();
+            return __res_1083;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1084;
+            __res_1084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            return __res_1084;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1085;
             throw new Exception();
+            return __res_1085;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ImageTrackList __res_1086;
             throw new Exception();
+            return __res_1086;
         }
     }
 }

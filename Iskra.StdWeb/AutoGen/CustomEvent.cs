@@ -13,7 +13,9 @@ public partial class CustomEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_1299;
             throw new Exception();
+            return __res_1299;
         }
     }
 }

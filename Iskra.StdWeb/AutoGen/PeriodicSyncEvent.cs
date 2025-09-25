@@ -13,7 +13,9 @@ public partial class PeriodicSyncEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_289;
             throw new Exception();
+            return __res_289;
         }
     }
 }

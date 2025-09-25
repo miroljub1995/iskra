@@ -13,7 +13,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1502;
             throw new Exception();
+            return __res_1502;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1503;
             throw new Exception();
+            return __res_1503;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Headers __res_1504;
             throw new Exception();
+            return __res_1504;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RequestDestination __res_1505;
             throw new Exception();
+            return __res_1505;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1506;
             throw new Exception();
+            return __res_1506;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ReferrerPolicy __res_1507;
             throw new Exception();
+            return __res_1507;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RequestMode __res_1508;
             throw new Exception();
+            return __res_1508;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RequestCredentials __res_1509;
             throw new Exception();
+            return __res_1509;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RequestCache __res_1510;
             throw new Exception();
+            return __res_1510;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RequestRedirect __res_1511;
             throw new Exception();
+            return __res_1511;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1512;
             throw new Exception();
+            return __res_1512;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1513;
+            __res_1513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepalive");
+            return __res_1513;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1514;
+            __res_1514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isReloadNavigation");
+            return __res_1514;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1515;
+            __res_1515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isHistoryNavigation");
+            return __res_1515;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AbortSignal __res_1516;
             throw new Exception();
+            return __res_1516;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RequestDuplex __res_1517;
             throw new Exception();
+            return __res_1517;
         }
     }
 }

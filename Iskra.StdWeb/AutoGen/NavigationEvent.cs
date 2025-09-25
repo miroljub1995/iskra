@@ -13,7 +13,9 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.SpatialNavigationDirection __res_2076;
             throw new Exception();
+            return __res_2076;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.EventTarget? __res_2077;
             throw new Exception();
+            return __res_2077;
         }
     }
 }

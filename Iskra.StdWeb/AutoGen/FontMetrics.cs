@@ -13,7 +13,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3044;
             throw new Exception();
+            return __res_3044;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3045;
             throw new Exception();
+            return __res_3045;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3046;
             throw new Exception();
+            return __res_3046;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3047;
             throw new Exception();
+            return __res_3047;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3048;
             throw new Exception();
+            return __res_3048;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3049;
             throw new Exception();
+            return __res_3049;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3050;
             throw new Exception();
+            return __res_3050;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3051;
             throw new Exception();
+            return __res_3051;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3052;
             throw new Exception();
+            return __res_3052;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3053;
             throw new Exception();
+            return __res_3053;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3054;
             throw new Exception();
+            return __res_3054;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Baseline __res_3055;
             throw new Exception();
+            return __res_3055;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3056;
             throw new Exception();
+            return __res_3056;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3057;
             throw new Exception();
+            return __res_3057;
         }
     }
 }

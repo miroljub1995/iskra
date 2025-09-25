@@ -13,7 +13,9 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MIDIInputMap __res_2937;
             throw new Exception();
+            return __res_2937;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MIDIOutputMap __res_2938;
             throw new Exception();
+            return __res_2938;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2939;
             throw new Exception();
+            return __res_2939;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2940;
+            __res_2940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
+            return __res_2940;
         }
     }
 }

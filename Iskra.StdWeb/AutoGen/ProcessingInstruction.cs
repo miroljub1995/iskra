@@ -13,7 +13,9 @@ public partial class ProcessingInstruction(JSObject obj): CharacterData(obj)
     {
         get
         {
+            string __res_1371;
             throw new Exception();
+            return __res_1371;
         }
     }
 }

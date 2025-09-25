@@ -13,7 +13,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.Request __res_1835;
             throw new Exception();
+            return __res_1835;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_1836;
             throw new Exception();
+            return __res_1836;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_1837;
             throw new Exception();
+            return __res_1837;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_1838;
             throw new Exception();
+            return __res_1838;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_1839;
             throw new Exception();
+            return __res_1839;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_1840;
             throw new Exception();
+            return __res_1840;
         }
     }
 }

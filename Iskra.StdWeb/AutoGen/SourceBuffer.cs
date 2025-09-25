@@ -13,7 +13,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AppendMode __res_2972;
             throw new Exception();
+            return __res_2972;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2973;
+            __res_2973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "updating");
+            return __res_2973;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TimeRanges __res_2974;
             throw new Exception();
+            return __res_2974;
         }
     }
 
@@ -41,7 +47,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2975;
             throw new Exception();
+            return __res_2975;
         }
         set
         {
@@ -53,7 +61,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioTrackList __res_2976;
             throw new Exception();
+            return __res_2976;
         }
     }
 
@@ -61,7 +71,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoTrackList __res_2977;
             throw new Exception();
+            return __res_2977;
         }
     }
 
@@ -69,7 +81,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrackList __res_2978;
             throw new Exception();
+            return __res_2978;
         }
     }
 
@@ -77,7 +91,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2979;
             throw new Exception();
+            return __res_2979;
         }
         set
         {
@@ -89,7 +105,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2980;
             throw new Exception();
+            return __res_2980;
         }
         set
         {
@@ -101,7 +119,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2981;
             throw new Exception();
+            return __res_2981;
         }
         set
         {
@@ -113,7 +133,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2982;
             throw new Exception();
+            return __res_2982;
         }
         set
         {
@@ -125,7 +147,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2983;
             throw new Exception();
+            return __res_2983;
         }
         set
         {
@@ -137,7 +161,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2984;
             throw new Exception();
+            return __res_2984;
         }
         set
         {
@@ -149,7 +175,9 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2985;
             throw new Exception();
+            return __res_2985;
         }
         set
         {

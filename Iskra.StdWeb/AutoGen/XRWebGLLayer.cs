@@ -13,7 +13,9 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1738;
+            __res_1738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "antialias");
+            return __res_1738;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1739;
+            __res_1739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
+            return __res_1739;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            float? __res_1740;
             throw new Exception();
+            return __res_1740;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.WebGLFramebuffer? __res_1741;
             throw new Exception();
+            return __res_1741;
         }
     }
 
@@ -49,7 +57,9 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            uint __res_1742;
             throw new Exception();
+            return __res_1742;
         }
     }
 
@@ -57,7 +67,9 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
+            uint __res_1743;
             throw new Exception();
+            return __res_1743;
         }
     }
 }

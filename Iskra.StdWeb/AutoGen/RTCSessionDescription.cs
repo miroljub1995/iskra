@@ -13,7 +13,9 @@ public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCSdpType __res_779;
             throw new Exception();
+            return __res_779;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_780;
             throw new Exception();
+            return __res_780;
         }
     }
 }

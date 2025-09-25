@@ -13,7 +13,9 @@ public partial class SVGAnimatedString(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_152;
             throw new Exception();
+            return __res_152;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGAnimatedString(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_153;
             throw new Exception();
+            return __res_153;
         }
     }
 }

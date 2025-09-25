@@ -13,7 +13,9 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_534;
             throw new Exception();
+            return __res_534;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_535;
             throw new Exception();
+            return __res_535;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class DevicePosture(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.DevicePostureType __res_1940;
             throw new Exception();
+            return __res_1940;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DevicePosture(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1941;
             throw new Exception();
+            return __res_1941;
         }
         set
         {

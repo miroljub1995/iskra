@@ -13,7 +13,9 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2654;
             throw new Exception();
+            return __res_2654;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2655;
             throw new Exception();
+            return __res_2655;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2656;
             throw new Exception();
+            return __res_2656;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            long __res_2657;
             throw new Exception();
+            return __res_2657;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2658;
+            __res_2658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            return __res_2658;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2063;
             throw new Exception();
+            return __res_2063;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2064;
             throw new Exception();
+            return __res_2064;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2065;
             throw new Exception();
+            return __res_2065;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2066;
             throw new Exception();
+            return __res_2066;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2067;
             throw new Exception();
+            return __res_2067;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2068;
             throw new Exception();
+            return __res_2068;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2069;
             throw new Exception();
+            return __res_2069;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2070;
             throw new Exception();
+            return __res_2070;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.SecurityPolicyViolationEventDisposition __res_2071;
             throw new Exception();
+            return __res_2071;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ushort __res_2072;
             throw new Exception();
+            return __res_2072;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_2073;
             throw new Exception();
+            return __res_2073;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
+            uint __res_2074;
             throw new Exception();
+            return __res_2074;
         }
     }
 }

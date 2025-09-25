@@ -13,7 +13,9 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1861;
             throw new Exception();
+            return __res_1861;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1862;
             throw new Exception();
+            return __res_1862;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1863;
             throw new Exception();
+            return __res_1863;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.DataView? __res_1864;
             throw new Exception();
+            return __res_1864;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1865;
             throw new Exception();
+            return __res_1865;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1866;
             throw new Exception();
+            return __res_1866;
         }
     }
 }

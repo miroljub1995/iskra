@@ -13,7 +13,9 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Request __res_1409;
             throw new Exception();
+            return __res_1409;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1410;
             throw new Exception();
+            return __res_1410;
         }
     }
 }

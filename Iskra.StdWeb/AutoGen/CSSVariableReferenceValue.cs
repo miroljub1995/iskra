@@ -13,7 +13,9 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_14;
             throw new Exception();
+            return __res_14;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSUnparsedValue? __res_15;
             throw new Exception();
+            return __res_15;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_676;
             throw new Exception();
+            return __res_676;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform __res_677;
             throw new Exception();
+            return __res_677;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_678;
             throw new Exception();
+            return __res_678;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_679;
             throw new Exception();
+            return __res_679;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            float __res_680;
             throw new Exception();
+            return __res_680;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_681;
             throw new Exception();
+            return __res_681;
         }
         set
         {

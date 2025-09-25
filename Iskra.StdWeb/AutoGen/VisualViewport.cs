@@ -13,7 +13,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_745;
             throw new Exception();
+            return __res_745;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_746;
             throw new Exception();
+            return __res_746;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_747;
             throw new Exception();
+            return __res_747;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_748;
             throw new Exception();
+            return __res_748;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_749;
             throw new Exception();
+            return __res_749;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_750;
             throw new Exception();
+            return __res_750;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_751;
             throw new Exception();
+            return __res_751;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_752;
             throw new Exception();
+            return __res_752;
         }
         set
         {
@@ -81,7 +97,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_753;
             throw new Exception();
+            return __res_753;
         }
         set
         {
@@ -93,7 +111,9 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_754;
             throw new Exception();
+            return __res_754;
         }
         set
         {

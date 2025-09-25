@@ -13,7 +13,9 @@ public partial class IntrinsicSizes(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3069;
             throw new Exception();
+            return __res_3069;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class IntrinsicSizes(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3070;
             throw new Exception();
+            return __res_3070;
         }
     }
 }

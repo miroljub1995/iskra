@@ -13,7 +13,9 @@ public partial class SVGFEPointLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_536;
             throw new Exception();
+            return __res_536;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEPointLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_537;
             throw new Exception();
+            return __res_537;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEPointLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_538;
             throw new Exception();
+            return __res_538;
         }
     }
 }

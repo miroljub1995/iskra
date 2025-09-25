@@ -13,7 +13,9 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_799;
             throw new Exception();
+            return __res_799;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ushort? __res_800;
             throw new Exception();
+            return __res_800;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_801;
             throw new Exception();
+            return __res_801;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ushort __res_802;
             throw new Exception();
+            return __res_802;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_803;
             throw new Exception();
+            return __res_803;
         }
     }
 }

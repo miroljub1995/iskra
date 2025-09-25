@@ -13,7 +13,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1916;
             throw new Exception();
+            return __res_1916;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_1917;
             throw new Exception();
+            return __res_1917;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1918;
             throw new Exception();
+            return __res_1918;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothManufacturerDataFilter __res_1919;
             throw new Exception();
+            return __res_1919;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothServiceDataFilter __res_1920;
             throw new Exception();
+            return __res_1920;
         }
     }
 }

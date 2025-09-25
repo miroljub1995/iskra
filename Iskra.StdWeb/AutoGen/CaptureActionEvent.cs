@@ -13,7 +13,9 @@ public partial class CaptureActionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.CaptureAction __res_2800;
             throw new Exception();
+            return __res_2800;
         }
     }
 }

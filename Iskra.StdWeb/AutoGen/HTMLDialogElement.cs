@@ -13,7 +13,9 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2511;
+            __res_2511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            return __res_2511;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2512;
             throw new Exception();
+            return __res_2512;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2513;
             throw new Exception();
+            return __res_2513;
         }
         set
         {

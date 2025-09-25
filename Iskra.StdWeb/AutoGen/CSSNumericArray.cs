@@ -13,7 +13,9 @@ public partial class CSSNumericArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_29;
             throw new Exception();
+            return __res_29;
         }
     }
 }

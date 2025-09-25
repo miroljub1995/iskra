@@ -13,7 +13,9 @@ public partial class SVGGraphicsElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedTransformList __res_123;
             throw new Exception();
+            return __res_123;
         }
     }
 }

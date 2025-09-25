@@ -13,7 +13,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string? __res_1349;
             throw new Exception();
+            return __res_1349;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string? __res_1350;
             throw new Exception();
+            return __res_1350;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1351;
             throw new Exception();
+            return __res_1351;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1352;
             throw new Exception();
+            return __res_1352;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1353;
             throw new Exception();
+            return __res_1353;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1354;
             throw new Exception();
+            return __res_1354;
         }
         set
         {
@@ -69,7 +81,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_1355;
             throw new Exception();
+            return __res_1355;
         }
     }
 
@@ -77,7 +91,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1356;
             throw new Exception();
+            return __res_1356;
         }
         set
         {
@@ -89,7 +105,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.NamedNodeMap __res_1357;
             throw new Exception();
+            return __res_1357;
         }
     }
 
@@ -97,7 +115,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.ShadowRoot? __res_1358;
             throw new Exception();
+            return __res_1358;
         }
     }
 
@@ -105,7 +125,9 @@ public partial class Element(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.CustomElementRegistry? __res_1359;
             throw new Exception();
+            return __res_1359;
         }
     }
 }

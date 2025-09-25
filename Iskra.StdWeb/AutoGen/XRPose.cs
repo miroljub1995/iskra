@@ -13,7 +13,9 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRRigidTransform __res_1726;
             throw new Exception();
+            return __res_1726;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly? __res_1727;
             throw new Exception();
+            return __res_1727;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMPointReadOnly? __res_1728;
             throw new Exception();
+            return __res_1728;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1729;
+            __res_1729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
+            return __res_1729;
         }
     }
 }

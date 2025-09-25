@@ -13,7 +13,9 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string? __res_1545;
             throw new Exception();
+            return __res_1545;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
+            string? __res_1546;
             throw new Exception();
+            return __res_1546;
         }
     }
 }

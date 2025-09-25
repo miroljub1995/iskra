@@ -13,7 +13,9 @@ public partial class CSSUnitValue(JSObject obj): CSSNumericValue(obj)
     {
         get
         {
+            double __res_17;
             throw new Exception();
+            return __res_17;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSUnitValue(JSObject obj): CSSNumericValue(obj)
     {
         get
         {
+            string __res_18;
             throw new Exception();
+            return __res_18;
         }
     }
 }

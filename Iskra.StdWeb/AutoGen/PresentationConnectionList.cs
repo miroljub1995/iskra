@@ -13,7 +13,9 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_949;
             throw new Exception();
+            return __res_949;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_950;
             throw new Exception();
+            return __res_950;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2442;
             throw new Exception();
+            return __res_2442;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2443;
             throw new Exception();
+            return __res_2443;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2444;
             throw new Exception();
+            return __res_2444;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2445;
+            __res_2445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2445;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2446;
             throw new Exception();
+            return __res_2446;
         }
     }
 
@@ -69,7 +79,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2447;
             throw new Exception();
+            return __res_2447;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2448;
             throw new Exception();
+            return __res_2448;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2449;
             throw new Exception();
+            return __res_2449;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2450;
             throw new Exception();
+            return __res_2450;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2451;
+            __res_2451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readOnly");
+            return __res_2451;
         }
         set
         {
@@ -129,7 +149,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2452;
+            __res_2452 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
+            return __res_2452;
         }
         set
         {
@@ -141,7 +163,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2453;
             throw new Exception();
+            return __res_2453;
         }
         set
         {
@@ -153,7 +177,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2454;
             throw new Exception();
+            return __res_2454;
         }
         set
         {
@@ -165,7 +191,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2455;
             throw new Exception();
+            return __res_2455;
         }
     }
 
@@ -173,7 +201,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2456;
             throw new Exception();
+            return __res_2456;
         }
         set
         {
@@ -185,7 +215,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2457;
             throw new Exception();
+            return __res_2457;
         }
         set
         {
@@ -197,7 +229,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2458;
             throw new Exception();
+            return __res_2458;
         }
     }
 
@@ -205,7 +239,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2459;
+            __res_2459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2459;
         }
     }
 
@@ -213,7 +249,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2460;
             throw new Exception();
+            return __res_2460;
         }
     }
 
@@ -221,7 +259,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2461;
             throw new Exception();
+            return __res_2461;
         }
     }
 
@@ -229,7 +269,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_2462;
             throw new Exception();
+            return __res_2462;
         }
     }
 
@@ -237,7 +279,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2463;
             throw new Exception();
+            return __res_2463;
         }
         set
         {
@@ -249,7 +293,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2464;
             throw new Exception();
+            return __res_2464;
         }
         set
         {
@@ -261,7 +307,9 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2465;
             throw new Exception();
+            return __res_2465;
         }
         set
         {

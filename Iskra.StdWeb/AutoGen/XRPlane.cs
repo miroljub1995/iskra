@@ -13,7 +13,9 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_2;
             throw new Exception();
+            return __res_2;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3;
             throw new Exception();
+            return __res_3;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRPlaneOrientation? __res_4;
             throw new Exception();
+            return __res_4;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_5;
             throw new Exception();
+            return __res_5;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_6;
             throw new Exception();
+            return __res_6;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2849;
             throw new Exception();
+            return __res_2849;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2850;
             throw new Exception();
+            return __res_2850;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2851;
             throw new Exception();
+            return __res_2851;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ViewTransitionTypeSet __res_2852;
             throw new Exception();
+            return __res_2852;
         }
         set
         {

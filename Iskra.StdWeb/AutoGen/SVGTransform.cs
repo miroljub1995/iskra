@@ -13,7 +13,9 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_176;
             throw new Exception();
+            return __res_176;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMMatrix __res_177;
             throw new Exception();
+            return __res_177;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_178;
             throw new Exception();
+            return __res_178;
         }
     }
 }

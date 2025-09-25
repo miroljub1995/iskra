@@ -13,7 +13,9 @@ public partial class Attribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AttributionAggregationServices __res_706;
             throw new Exception();
+            return __res_706;
         }
     }
 }

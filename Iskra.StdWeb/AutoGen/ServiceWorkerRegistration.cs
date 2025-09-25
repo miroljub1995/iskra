@@ -13,7 +13,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ServiceWorker? __res_1808;
             throw new Exception();
+            return __res_1808;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ServiceWorker? __res_1809;
             throw new Exception();
+            return __res_1809;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ServiceWorker? __res_1810;
             throw new Exception();
+            return __res_1810;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationPreloadManager __res_1811;
             throw new Exception();
+            return __res_1811;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1812;
             throw new Exception();
+            return __res_1812;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ServiceWorkerUpdateViaCache __res_1813;
             throw new Exception();
+            return __res_1813;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1814;
             throw new Exception();
+            return __res_1814;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class NotRestoredReasonDetails(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2670;
             throw new Exception();
+            return __res_2670;
         }
     }
 }

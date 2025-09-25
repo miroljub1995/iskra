@@ -13,7 +13,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothDevice __res_1121;
             throw new Exception();
+            return __res_1121;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_1122;
             throw new Exception();
+            return __res_1122;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string? __res_1123;
             throw new Exception();
+            return __res_1123;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ushort? __res_1124;
             throw new Exception();
+            return __res_1124;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            sbyte? __res_1125;
             throw new Exception();
+            return __res_1125;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            sbyte? __res_1126;
             throw new Exception();
+            return __res_1126;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothManufacturerDataMap __res_1127;
             throw new Exception();
+            return __res_1127;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothServiceDataMap __res_1128;
             throw new Exception();
+            return __res_1128;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUSupportedFeatures __res_329;
             throw new Exception();
+            return __res_329;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUSupportedLimits __res_330;
             throw new Exception();
+            return __res_330;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUAdapterInfo __res_331;
             throw new Exception();
+            return __res_331;
         }
     }
 }

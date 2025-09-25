@@ -13,7 +13,9 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationNodeList __res_2095;
             throw new Exception();
+            return __res_2095;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationEffect? __res_2096;
             throw new Exception();
+            return __res_2096;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationEffect? __res_2097;
             throw new Exception();
+            return __res_2097;
         }
     }
 }

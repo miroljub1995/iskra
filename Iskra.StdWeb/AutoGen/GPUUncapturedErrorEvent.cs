@@ -13,7 +13,9 @@ public partial class GPUUncapturedErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUError __res_361;
             throw new Exception();
+            return __res_361;
         }
     }
 }

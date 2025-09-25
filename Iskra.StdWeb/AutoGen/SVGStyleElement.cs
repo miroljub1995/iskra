@@ -13,7 +13,9 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            string __res_173;
             throw new Exception();
+            return __res_173;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            string __res_174;
             throw new Exception();
+            return __res_174;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            string __res_175;
             throw new Exception();
+            return __res_175;
         }
         set
         {

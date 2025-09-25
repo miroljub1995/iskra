@@ -13,7 +13,9 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaStreamTrack? __res_805;
             throw new Exception();
+            return __res_805;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCDtlsTransport? __res_806;
             throw new Exception();
+            return __res_806;
         }
     }
 }

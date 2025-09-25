@@ -13,7 +13,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMImplementation __res_1329;
             throw new Exception();
+            return __res_1329;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1330;
             throw new Exception();
+            return __res_1330;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1331;
             throw new Exception();
+            return __res_1331;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1332;
             throw new Exception();
+            return __res_1332;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1333;
             throw new Exception();
+            return __res_1333;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1334;
             throw new Exception();
+            return __res_1334;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1335;
             throw new Exception();
+            return __res_1335;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1336;
             throw new Exception();
+            return __res_1336;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.DocumentType? __res_1337;
             throw new Exception();
+            return __res_1337;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_1338;
             throw new Exception();
+            return __res_1338;
         }
     }
 }

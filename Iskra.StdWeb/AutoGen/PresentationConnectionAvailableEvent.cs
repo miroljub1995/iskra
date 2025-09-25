@@ -13,7 +13,9 @@ public partial class PresentationConnectionAvailableEvent(JSObject obj): Event(o
     {
         get
         {
+            Iskra.StdWeb.PresentationConnection __res_937;
             throw new Exception();
+            return __res_937;
         }
     }
 }

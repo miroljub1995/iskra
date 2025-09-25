@@ -13,7 +13,9 @@ public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3188;
             throw new Exception();
+            return __res_3188;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_2701;
             throw new Exception();
+            return __res_2701;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2702;
             throw new Exception();
+            return __res_2702;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2703;
             throw new Exception();
+            return __res_2703;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_2704;
             throw new Exception();
+            return __res_2704;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object __res_2705;
             throw new Exception();
+            return __res_2705;
         }
     }
 }

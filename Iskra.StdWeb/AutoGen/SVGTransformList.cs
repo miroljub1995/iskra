@@ -13,7 +13,9 @@ public partial class SVGTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_179;
             throw new Exception();
+            return __res_179;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_180;
             throw new Exception();
+            return __res_180;
         }
     }
 }

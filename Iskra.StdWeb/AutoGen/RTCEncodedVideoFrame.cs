@@ -13,7 +13,9 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCEncodedVideoFrameType __res_451;
             throw new Exception();
+            return __res_451;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_452;
             throw new Exception();
+            return __res_452;
         }
         set
         {

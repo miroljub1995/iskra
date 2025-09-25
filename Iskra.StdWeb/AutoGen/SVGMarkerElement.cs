@@ -13,7 +13,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_226;
             throw new Exception();
+            return __res_226;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_227;
             throw new Exception();
+            return __res_227;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_228;
             throw new Exception();
+            return __res_228;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_229;
             throw new Exception();
+            return __res_229;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_230;
             throw new Exception();
+            return __res_230;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_231;
             throw new Exception();
+            return __res_231;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedAngle __res_232;
             throw new Exception();
+            return __res_232;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            string __res_233;
             throw new Exception();
+            return __res_233;
         }
         set
         {

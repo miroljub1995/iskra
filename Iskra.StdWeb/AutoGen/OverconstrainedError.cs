@@ -13,7 +13,9 @@ public partial class OverconstrainedError(JSObject obj): DOMException(obj)
     {
         get
         {
+            string __res_1578;
             throw new Exception();
+            return __res_1578;
         }
     }
 }

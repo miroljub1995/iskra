@@ -13,7 +13,9 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
+            uint __res_3170;
             throw new Exception();
+            return __res_3170;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3171;
             throw new Exception();
+            return __res_3171;
         }
         set
         {

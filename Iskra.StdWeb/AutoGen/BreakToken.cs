@@ -13,7 +13,9 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_3082;
             throw new Exception();
+            return __res_3082;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3083;
             throw new Exception();
+            return __res_3083;
         }
     }
 }

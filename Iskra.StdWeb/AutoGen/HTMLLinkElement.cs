@@ -13,7 +13,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2133;
             throw new Exception();
+            return __res_2133;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string? __res_2134;
             throw new Exception();
+            return __res_2134;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2135;
             throw new Exception();
+            return __res_2135;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2136;
             throw new Exception();
+            return __res_2136;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2137;
             throw new Exception();
+            return __res_2137;
         }
     }
 
@@ -69,7 +79,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2138;
             throw new Exception();
+            return __res_2138;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2139;
             throw new Exception();
+            return __res_2139;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2140;
             throw new Exception();
+            return __res_2140;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2141;
             throw new Exception();
+            return __res_2141;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2142;
             throw new Exception();
+            return __res_2142;
         }
     }
 
@@ -125,7 +145,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2143;
             throw new Exception();
+            return __res_2143;
         }
         set
         {
@@ -137,7 +159,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2144;
             throw new Exception();
+            return __res_2144;
         }
         set
         {
@@ -149,7 +173,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2145;
             throw new Exception();
+            return __res_2145;
         }
         set
         {
@@ -161,7 +187,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2146;
             throw new Exception();
+            return __res_2146;
         }
     }
 
@@ -169,7 +197,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2147;
+            __res_2147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2147;
         }
         set
         {
@@ -181,7 +211,9 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2148;
             throw new Exception();
+            return __res_2148;
         }
         set
         {

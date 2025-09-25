@@ -13,7 +13,9 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.EncodedVideoChunkType __res_1057;
             throw new Exception();
+            return __res_1057;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            long __res_1058;
             throw new Exception();
+            return __res_1058;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong? __res_1059;
             throw new Exception();
+            return __res_1059;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1060;
             throw new Exception();
+            return __res_1060;
         }
     }
 }

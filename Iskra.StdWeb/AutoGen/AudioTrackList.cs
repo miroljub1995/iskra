@@ -13,7 +13,9 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_2268;
             throw new Exception();
+            return __res_2268;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2269;
             throw new Exception();
+            return __res_2269;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2270;
             throw new Exception();
+            return __res_2270;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2271;
             throw new Exception();
+            return __res_2271;
         }
         set
         {

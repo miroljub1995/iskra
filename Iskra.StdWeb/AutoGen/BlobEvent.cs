@@ -13,7 +13,9 @@ public partial class BlobEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.Blob __res_1598;
             throw new Exception();
+            return __res_1598;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BlobEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double __res_1599;
             throw new Exception();
+            return __res_1599;
         }
     }
 }

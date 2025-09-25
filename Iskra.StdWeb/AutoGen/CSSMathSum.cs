@@ -13,7 +13,9 @@ public partial class CSSMathSum(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericArray __res_20;
             throw new Exception();
+            return __res_20;
         }
     }
 }

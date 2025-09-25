@@ -13,7 +13,9 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1339;
             throw new Exception();
+            return __res_1339;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1340;
             throw new Exception();
+            return __res_1340;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
+            string __res_1341;
             throw new Exception();
+            return __res_1341;
         }
     }
 }

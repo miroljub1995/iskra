@@ -13,7 +13,9 @@ public partial class AuthenticatorAttestationResponse(JSObject obj): Authenticat
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1163;
             throw new Exception();
+            return __res_1163;
         }
     }
 }

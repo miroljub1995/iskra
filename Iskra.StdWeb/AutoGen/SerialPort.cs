@@ -13,7 +13,9 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1800;
             throw new Exception();
+            return __res_1800;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1801;
             throw new Exception();
+            return __res_1801;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1802;
+            __res_1802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            return __res_1802;
         }
     }
 
@@ -45,7 +51,9 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ReadableStream __res_1803;
             throw new Exception();
+            return __res_1803;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.WritableStream __res_1804;
             throw new Exception();
+            return __res_1804;
         }
     }
 }

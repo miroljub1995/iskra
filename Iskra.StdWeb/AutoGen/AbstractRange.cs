@@ -13,7 +13,9 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1372;
             throw new Exception();
+            return __res_1372;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1373;
             throw new Exception();
+            return __res_1373;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Node __res_1374;
             throw new Exception();
+            return __res_1374;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1375;
             throw new Exception();
+            return __res_1375;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1376;
+            __res_1376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "collapsed");
+            return __res_1376;
         }
     }
 }

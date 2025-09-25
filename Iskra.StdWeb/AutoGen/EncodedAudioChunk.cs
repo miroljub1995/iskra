@@ -13,7 +13,9 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.EncodedAudioChunkType __res_1053;
             throw new Exception();
+            return __res_1053;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            long __res_1054;
             throw new Exception();
+            return __res_1054;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong? __res_1055;
             throw new Exception();
+            return __res_1055;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1056;
             throw new Exception();
+            return __res_1056;
         }
     }
 }

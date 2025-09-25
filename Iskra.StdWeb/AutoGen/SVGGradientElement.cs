@@ -13,7 +13,9 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_234;
             throw new Exception();
+            return __res_234;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedTransformList __res_235;
             throw new Exception();
+            return __res_235;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_236;
             throw new Exception();
+            return __res_236;
         }
     }
 }

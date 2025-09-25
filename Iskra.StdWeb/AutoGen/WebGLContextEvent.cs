@@ -13,7 +13,9 @@ public partial class WebGLContextEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_382;
             throw new Exception();
+            return __res_382;
         }
     }
 }

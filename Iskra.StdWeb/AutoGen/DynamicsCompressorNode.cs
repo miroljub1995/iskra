@@ -13,7 +13,9 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3222;
             throw new Exception();
+            return __res_3222;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3223;
             throw new Exception();
+            return __res_3223;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3224;
             throw new Exception();
+            return __res_3224;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            float __res_3225;
             throw new Exception();
+            return __res_3225;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3226;
             throw new Exception();
+            return __res_3226;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioParam __res_3227;
             throw new Exception();
+            return __res_3227;
         }
     }
 }

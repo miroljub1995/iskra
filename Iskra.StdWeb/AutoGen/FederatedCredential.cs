@@ -13,7 +13,9 @@ public partial class FederatedCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            string __res_1039;
             throw new Exception();
+            return __res_1039;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FederatedCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            string? __res_1040;
             throw new Exception();
+            return __res_1040;
         }
     }
 }

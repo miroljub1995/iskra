@@ -13,7 +13,9 @@ public partial class HTMLTableSectionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2327;
             throw new Exception();
+            return __res_2327;
         }
     }
 }

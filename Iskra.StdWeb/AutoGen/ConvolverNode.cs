@@ -13,7 +13,9 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioBuffer? __res_3219;
             throw new Exception();
+            return __res_3219;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3220;
+            __res_3220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
+            return __res_3220;
         }
         set
         {

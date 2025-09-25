@@ -13,7 +13,9 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2773;
             throw new Exception();
+            return __res_2773;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2774;
             throw new Exception();
+            return __res_2774;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2775;
             throw new Exception();
+            return __res_2775;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2776;
             throw new Exception();
+            return __res_2776;
         }
         set
         {

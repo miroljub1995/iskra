@@ -13,7 +13,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaError? __res_2238;
             throw new Exception();
+            return __res_2238;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2239;
             throw new Exception();
+            return __res_2239;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            object __res_2240;
             throw new Exception();
+            return __res_2240;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2241;
             throw new Exception();
+            return __res_2241;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string? __res_2242;
             throw new Exception();
+            return __res_2242;
         }
         set
         {
@@ -65,7 +75,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            ushort __res_2243;
             throw new Exception();
+            return __res_2243;
         }
     }
 
@@ -73,7 +85,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2244;
             throw new Exception();
+            return __res_2244;
         }
         set
         {
@@ -85,7 +99,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.TimeRanges __res_2245;
             throw new Exception();
+            return __res_2245;
         }
     }
 
@@ -93,7 +109,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            ushort __res_2246;
             throw new Exception();
+            return __res_2246;
         }
     }
 
@@ -101,7 +119,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2247;
+            __res_2247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "seeking");
+            return __res_2247;
         }
     }
 
@@ -109,7 +129,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2248;
             throw new Exception();
+            return __res_2248;
         }
         set
         {
@@ -121,7 +143,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2249;
             throw new Exception();
+            return __res_2249;
         }
     }
 
@@ -129,7 +153,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2250;
+            __res_2250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
+            return __res_2250;
         }
     }
 
@@ -137,7 +163,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2251;
             throw new Exception();
+            return __res_2251;
         }
         set
         {
@@ -149,7 +177,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2252;
             throw new Exception();
+            return __res_2252;
         }
         set
         {
@@ -161,7 +191,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2253;
+            __res_2253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "preservesPitch");
+            return __res_2253;
         }
         set
         {
@@ -173,7 +205,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.TimeRanges __res_2254;
             throw new Exception();
+            return __res_2254;
         }
     }
 
@@ -181,7 +215,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.TimeRanges __res_2255;
             throw new Exception();
+            return __res_2255;
         }
     }
 
@@ -189,7 +225,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2256;
+            __res_2256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ended");
+            return __res_2256;
         }
     }
 
@@ -197,7 +235,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2257;
+            __res_2257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoplay");
+            return __res_2257;
         }
         set
         {
@@ -209,7 +249,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2258;
+            __res_2258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
+            return __res_2258;
         }
         set
         {
@@ -221,7 +263,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2259;
+            __res_2259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "controls");
+            return __res_2259;
         }
         set
         {
@@ -233,7 +277,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            double __res_2260;
             throw new Exception();
+            return __res_2260;
         }
         set
         {
@@ -245,7 +291,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2261;
+            __res_2261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            return __res_2261;
         }
         set
         {
@@ -257,7 +305,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2262;
+            __res_2262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultMuted");
+            return __res_2262;
         }
         set
         {
@@ -269,7 +319,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioTrackList __res_2263;
             throw new Exception();
+            return __res_2263;
         }
     }
 
@@ -277,7 +329,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoTrackList __res_2264;
             throw new Exception();
+            return __res_2264;
         }
     }
 
@@ -285,7 +339,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrackList __res_2265;
             throw new Exception();
+            return __res_2265;
         }
     }
 }

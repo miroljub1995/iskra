@@ -13,7 +13,9 @@ public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            Iskra.StdWeb.Notification __res_1775;
             throw new Exception();
+            return __res_1775;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_1776;
             throw new Exception();
+            return __res_1776;
         }
     }
 }

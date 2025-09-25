@@ -13,7 +13,9 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2690;
             throw new Exception();
+            return __res_2690;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2691;
             throw new Exception();
+            return __res_2691;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2692;
             throw new Exception();
+            return __res_2692;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.Plugin __res_2693;
             throw new Exception();
+            return __res_2693;
         }
     }
 }

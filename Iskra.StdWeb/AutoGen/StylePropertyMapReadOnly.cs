@@ -13,7 +13,9 @@ public partial class StylePropertyMapReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_12;
             throw new Exception();
+            return __res_12;
         }
     }
 }

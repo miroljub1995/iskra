@@ -13,7 +13,9 @@ public partial class HashChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2663;
             throw new Exception();
+            return __res_2663;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class HashChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_2664;
             throw new Exception();
+            return __res_2664;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_414;
             throw new Exception();
+            return __res_414;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_415;
             throw new Exception();
+            return __res_415;
         }
         set
         {

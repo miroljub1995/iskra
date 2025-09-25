@@ -13,7 +13,9 @@ public partial class XRSubImage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRViewport __res_692;
             throw new Exception();
+            return __res_692;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRHandedness __res_1731;
             throw new Exception();
+            return __res_1731;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRTargetRayMode __res_1732;
             throw new Exception();
+            return __res_1732;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_1733;
             throw new Exception();
+            return __res_1733;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace? __res_1734;
             throw new Exception();
+            return __res_1734;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1735;
             throw new Exception();
+            return __res_1735;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1736;
+            __res_1736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
+            return __res_1736;
         }
     }
 }

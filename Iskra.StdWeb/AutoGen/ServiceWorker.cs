@@ -13,7 +13,9 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1805;
             throw new Exception();
+            return __res_1805;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ServiceWorkerState __res_1806;
             throw new Exception();
+            return __res_1806;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1807;
             throw new Exception();
+            return __res_1807;
         }
         set
         {

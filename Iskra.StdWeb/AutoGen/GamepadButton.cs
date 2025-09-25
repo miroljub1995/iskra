@@ -13,7 +13,9 @@ public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1935;
+            __res_1935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pressed");
+            return __res_1935;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1936;
+            __res_1936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "touched");
+            return __res_1936;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GamepadButton(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1937;
             throw new Exception();
+            return __res_1937;
         }
     }
 }

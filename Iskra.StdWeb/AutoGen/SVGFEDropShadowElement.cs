@@ -13,7 +13,9 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_552;
             throw new Exception();
+            return __res_552;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_553;
             throw new Exception();
+            return __res_553;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_554;
             throw new Exception();
+            return __res_554;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_555;
             throw new Exception();
+            return __res_555;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_556;
             throw new Exception();
+            return __res_556;
         }
     }
 }

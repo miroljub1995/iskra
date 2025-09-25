@@ -13,7 +13,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3071;
             throw new Exception();
+            return __res_3071;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3072;
             throw new Exception();
+            return __res_3072;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_3073;
             throw new Exception();
+            return __res_3073;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_3074;
             throw new Exception();
+            return __res_3074;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3075;
             throw new Exception();
+            return __res_3075;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3076;
             throw new Exception();
+            return __res_3076;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double? __res_3077;
             throw new Exception();
+            return __res_3077;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.BlockFragmentationType __res_3078;
             throw new Exception();
+            return __res_3078;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_3079;
             throw new Exception();
+            return __res_3079;
         }
     }
 }

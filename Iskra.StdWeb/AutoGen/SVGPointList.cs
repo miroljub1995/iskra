@@ -13,7 +13,9 @@ public partial class SVGPointList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_204;
             throw new Exception();
+            return __res_204;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGPointList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_205;
             throw new Exception();
+            return __res_205;
         }
     }
 }

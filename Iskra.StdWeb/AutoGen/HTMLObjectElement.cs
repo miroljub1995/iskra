@@ -13,7 +13,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2214;
             throw new Exception();
+            return __res_2214;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2215;
             throw new Exception();
+            return __res_2215;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2216;
             throw new Exception();
+            return __res_2216;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2217;
             throw new Exception();
+            return __res_2217;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2218;
             throw new Exception();
+            return __res_2218;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2219;
             throw new Exception();
+            return __res_2219;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Document? __res_2220;
             throw new Exception();
+            return __res_2220;
         }
     }
 
@@ -89,7 +103,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Window? __res_2221;
             throw new Exception();
+            return __res_2221;
         }
     }
 
@@ -97,7 +113,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2222;
+            __res_2222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2222;
         }
     }
 
@@ -105,7 +123,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2223;
             throw new Exception();
+            return __res_2223;
         }
     }
 
@@ -113,7 +133,9 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2224;
             throw new Exception();
+            return __res_2224;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class URLSearchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1612;
             throw new Exception();
+            return __res_1612;
         }
     }
 }

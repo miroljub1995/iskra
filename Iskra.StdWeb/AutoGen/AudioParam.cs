@@ -13,7 +13,9 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_3183;
             throw new Exception();
+            return __res_3183;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AutomationRate __res_3184;
             throw new Exception();
+            return __res_3184;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_3185;
             throw new Exception();
+            return __res_3185;
         }
     }
 
@@ -45,7 +51,9 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_3186;
             throw new Exception();
+            return __res_3186;
         }
     }
 
@@ -53,7 +61,9 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            float __res_3187;
             throw new Exception();
+            return __res_3187;
         }
     }
 }

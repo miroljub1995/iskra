@@ -13,7 +13,9 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1164;
             throw new Exception();
+            return __res_1164;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1165;
             throw new Exception();
+            return __res_1165;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer? __res_1166;
             throw new Exception();
+            return __res_1166;
         }
     }
 }

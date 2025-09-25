@@ -13,7 +13,9 @@ public partial class AmbientLightSensor(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_3092;
             throw new Exception();
+            return __res_3092;
         }
     }
 }

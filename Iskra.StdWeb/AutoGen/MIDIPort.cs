@@ -13,7 +13,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2941;
             throw new Exception();
+            return __res_2941;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2942;
             throw new Exception();
+            return __res_2942;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2943;
             throw new Exception();
+            return __res_2943;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MIDIPortType __res_2944;
             throw new Exception();
+            return __res_2944;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_2945;
             throw new Exception();
+            return __res_2945;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MIDIPortDeviceState __res_2946;
             throw new Exception();
+            return __res_2946;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MIDIPortConnectionState __res_2947;
             throw new Exception();
+            return __res_2947;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2948;
             throw new Exception();
+            return __res_2948;
         }
         set
         {

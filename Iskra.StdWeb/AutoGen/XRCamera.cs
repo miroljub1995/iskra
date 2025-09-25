@@ -13,7 +13,9 @@ public partial class XRCamera(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_954;
             throw new Exception();
+            return __res_954;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRCamera(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_955;
             throw new Exception();
+            return __res_955;
         }
     }
 }

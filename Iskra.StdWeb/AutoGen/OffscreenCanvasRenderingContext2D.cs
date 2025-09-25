@@ -13,7 +13,9 @@ public partial class OffscreenCanvasRenderingContext2D(JSObject obj): JSObjectPr
     {
         get
         {
+            Iskra.StdWeb.OffscreenCanvas __res_2552;
             throw new Exception();
+            return __res_2552;
         }
     }
 }

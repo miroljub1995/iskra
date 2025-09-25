@@ -13,7 +13,9 @@ public partial class GamepadHapticActuator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1938;
             throw new Exception();
+            return __res_1938;
         }
     }
 }

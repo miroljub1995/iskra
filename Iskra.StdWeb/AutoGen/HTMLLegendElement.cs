@@ -13,7 +13,9 @@ public partial class HTMLLegendElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2495;
             throw new Exception();
+            return __res_2495;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class HID(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_646;
             throw new Exception();
+            return __res_646;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HID(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_647;
             throw new Exception();
+            return __res_647;
         }
         set
         {

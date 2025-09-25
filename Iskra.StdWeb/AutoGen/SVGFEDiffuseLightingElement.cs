@@ -13,7 +13,9 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_529;
             throw new Exception();
+            return __res_529;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_530;
             throw new Exception();
+            return __res_530;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_531;
             throw new Exception();
+            return __res_531;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_532;
             throw new Exception();
+            return __res_532;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedNumber __res_533;
             throw new Exception();
+            return __res_533;
         }
     }
 }

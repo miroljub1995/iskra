@@ -13,7 +13,9 @@ public partial class ManagedSourceBuffer(JSObject obj): SourceBuffer(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2994;
             throw new Exception();
+            return __res_2994;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_257;
             throw new Exception();
+            return __res_257;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_258;
             throw new Exception();
+            return __res_258;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_259;
             throw new Exception();
+            return __res_259;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_260;
             throw new Exception();
+            return __res_260;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_261;
             throw new Exception();
+            return __res_261;
         }
     }
 
@@ -65,7 +75,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_262;
             throw new Exception();
+            return __res_262;
         }
         set
         {
@@ -77,7 +89,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_263;
             throw new Exception();
+            return __res_263;
         }
         set
         {
@@ -89,7 +103,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_264;
             throw new Exception();
+            return __res_264;
         }
         set
         {
@@ -101,7 +117,9 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
+            string __res_265;
             throw new Exception();
+            return __res_265;
         }
         set
         {

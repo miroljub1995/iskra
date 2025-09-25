@@ -13,7 +13,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_781;
             throw new Exception();
+            return __res_781;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_782;
             throw new Exception();
+            return __res_782;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort? __res_783;
             throw new Exception();
+            return __res_783;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_784;
             throw new Exception();
+            return __res_784;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceComponent? __res_785;
             throw new Exception();
+            return __res_785;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint? __res_786;
             throw new Exception();
+            return __res_786;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_787;
             throw new Exception();
+            return __res_787;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceProtocol? __res_788;
             throw new Exception();
+            return __res_788;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort? __res_789;
             throw new Exception();
+            return __res_789;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceCandidateType? __res_790;
             throw new Exception();
+            return __res_790;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceTcpCandidateType? __res_791;
             throw new Exception();
+            return __res_791;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_792;
             throw new Exception();
+            return __res_792;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort? __res_793;
             throw new Exception();
+            return __res_793;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_794;
             throw new Exception();
+            return __res_794;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCIceServerTransportProtocol? __res_795;
             throw new Exception();
+            return __res_795;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_796;
             throw new Exception();
+            return __res_796;
         }
     }
 }

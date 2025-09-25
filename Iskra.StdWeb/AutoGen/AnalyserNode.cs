@@ -13,7 +13,9 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            uint __res_3189;
             throw new Exception();
+            return __res_3189;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            uint __res_3190;
             throw new Exception();
+            return __res_3190;
         }
     }
 
@@ -33,7 +37,9 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3191;
             throw new Exception();
+            return __res_3191;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3192;
             throw new Exception();
+            return __res_3192;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            double __res_3193;
             throw new Exception();
+            return __res_3193;
         }
         set
         {

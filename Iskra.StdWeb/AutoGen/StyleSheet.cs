@@ -13,7 +13,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2855;
             throw new Exception();
+            return __res_2855;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2856;
             throw new Exception();
+            return __res_2856;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2857;
             throw new Exception();
+            return __res_2857;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleSheet? __res_2858;
             throw new Exception();
+            return __res_2858;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string? __res_2859;
             throw new Exception();
+            return __res_2859;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaList __res_2860;
             throw new Exception();
+            return __res_2860;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2861;
+            __res_2861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2861;
         }
         set
         {

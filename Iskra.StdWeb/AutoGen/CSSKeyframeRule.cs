@@ -13,7 +13,9 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_1237;
             throw new Exception();
+            return __res_1237;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleProperties __res_1238;
             throw new Exception();
+            return __res_1238;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2894;
             throw new Exception();
+            return __res_2894;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSStyleDeclaration __res_2895;
             throw new Exception();
+            return __res_2895;
         }
     }
 }

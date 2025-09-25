@@ -13,7 +13,9 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1681;
             throw new Exception();
+            return __res_1681;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1682;
             throw new Exception();
+            return __res_1682;
         }
         set
         {

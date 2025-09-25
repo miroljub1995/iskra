@@ -13,7 +13,9 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationTimeline __res_2101;
             throw new Exception();
+            return __res_2101;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AnimationTriggerBehavior __res_2102;
             throw new Exception();
+            return __res_2102;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_2103;
             throw new Exception();
+            return __res_2103;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_2104;
             throw new Exception();
+            return __res_2104;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_2105;
             throw new Exception();
+            return __res_2105;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object? __res_2106;
             throw new Exception();
+            return __res_2106;
         }
         set
         {

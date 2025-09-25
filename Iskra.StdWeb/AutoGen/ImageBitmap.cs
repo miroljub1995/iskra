@@ -13,7 +13,9 @@ public partial class ImageBitmap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2699;
             throw new Exception();
+            return __res_2699;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ImageBitmap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_2700;
             throw new Exception();
+            return __res_2700;
         }
     }
 }

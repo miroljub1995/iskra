@@ -13,7 +13,9 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_276;
             throw new Exception();
+            return __res_276;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_277;
             throw new Exception();
+            return __res_277;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_278;
             throw new Exception();
+            return __res_278;
         }
     }
 }

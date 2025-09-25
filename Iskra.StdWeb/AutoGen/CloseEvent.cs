@@ -13,7 +13,9 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1903;
+            __res_1903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "wasClean");
+            return __res_1903;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
+            ushort __res_1904;
             throw new Exception();
+            return __res_1904;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_1905;
             throw new Exception();
+            return __res_1905;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SVGFEComponentTransferElement(JSObject obj): SVGElement(obj
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_502;
             throw new Exception();
+            return __res_502;
         }
     }
 }

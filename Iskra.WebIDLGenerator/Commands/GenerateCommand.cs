@@ -1,5 +1,6 @@
 using System.CommandLine;
 using System.Text.Json;
+using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Generators;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,7 +22,7 @@ public class GenerateCommand : Command
         SetAction(async (result, cancellationToken) =>
         {
             var genSettingsPath = result.GetRequiredValue(pathArgument);
-            var genSettingsFullPath = Path.GetFullPath(genSettingsPath);
+            var genSettingsFullPath = Path.GetFullPath(genSettingsPath, AppDomain.CurrentDomain.BaseDirectory);
 
             if (!File.Exists(genSettingsFullPath))
             {
@@ -44,12 +45,14 @@ public class GenerateCommand : Command
             services.AddSingleton<GenTypeDescriptors>();
 
             services
+                .AddSingleton<GeneratorContext>()
                 .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()
                 .AddSingleton<CallbackTypeGenerator>()
                 .AddSingleton<CallbackInterfaceTypeGenerator>()
                 .AddSingleton<DictionaryTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
+                .AddSingleton<GetPropertyValueGenerator>()
                 .AddSingleton<IDLTypeDescriptionToTypeDeclarationGenerator>()
                 .AddSingleton<InterfaceTypeGenerator>()
                 .AddSingleton<JSProxyFactoryGenerator>()
@@ -60,12 +63,7 @@ public class GenerateCommand : Command
 
             ILogger logger = provider.GetRequiredService<ILogger<GenerateCommand>>();
 
-            if (!File.Exists(genSettings.Input) && !Directory.Exists(genSettings.Input))
-            {
-                throw new Exception($"Input \"{genSettings.Input}\" is not found.");
-            }
-
-            var inputFiles = GetModuleFiles(genSettings.Input);
+            var inputFiles = GetModuleFiles(genSettings.Inputs);
 
             if (Directory.Exists(genSettings.Output))
             {
@@ -112,7 +110,7 @@ public class GenerateCommand : Command
             await AddGenSettingsToDescriptorsAsync(descriptors, reference, false, cancellationToken);
         }
 
-        var moduleFiles = GetModuleFiles(settings.Input);
+        var moduleFiles = GetModuleFiles(settings.Inputs);
         foreach (var moduleFile in moduleFiles)
         {
             var moduleContent = await File.ReadAllTextAsync(moduleFile, cancellationToken);
@@ -209,15 +207,26 @@ public class GenerateCommand : Command
         }
     }
 
-    private static List<string> GetModuleFiles(string input)
+    private static List<string> GetModuleFiles(List<string> inputs)
     {
-        var isInputFile = File.Exists(input);
-        if (isInputFile)
+        List<string> res = [];
+        foreach (var input in inputs)
         {
-            return [input];
+            if (!File.Exists(input) && !Directory.Exists(input))
+            {
+                throw new Exception($"Input \"{input}\" is not found.");
+            }
+
+            var isInputFile = File.Exists(input);
+            if (isInputFile)
+            {
+                return [input];
+            }
+
+            var files = Directory.GetFiles(input, "*.json", SearchOption.AllDirectories);
+            res.AddRange(files.ToList());
         }
 
-        var files = Directory.GetFiles(input, "*.json", SearchOption.AllDirectories);
-        return files.ToList();
+        return res;
     }
 }

@@ -13,7 +13,9 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            string? __res_3113;
             throw new Exception();
+            return __res_3113;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_3114;
+            __res_3114 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            return __res_3114;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
+            string __res_3115;
             throw new Exception();
+            return __res_3115;
         }
     }
 }

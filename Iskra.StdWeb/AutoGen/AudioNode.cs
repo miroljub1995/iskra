@@ -13,7 +13,9 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BaseAudioContext __res_3177;
             throw new Exception();
+            return __res_3177;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3178;
             throw new Exception();
+            return __res_3178;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3179;
             throw new Exception();
+            return __res_3179;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3180;
             throw new Exception();
+            return __res_3180;
         }
         set
         {
@@ -49,7 +57,9 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ChannelCountMode __res_3181;
             throw new Exception();
+            return __res_3181;
         }
         set
         {
@@ -61,7 +71,9 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.ChannelInterpretation __res_3182;
             throw new Exception();
+            return __res_3182;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            JSObject __res_2682;
             throw new Exception();
+            return __res_2682;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            object? __res_2683;
             throw new Exception();
+            return __res_2683;
         }
     }
 }

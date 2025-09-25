@@ -13,7 +13,9 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1652;
+            __res_1652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
+            return __res_1652;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1653;
+            __res_1653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "speaking");
+            return __res_1653;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1654;
+            __res_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
+            return __res_1654;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1655;
             throw new Exception();
+            return __res_1655;
         }
         set
         {

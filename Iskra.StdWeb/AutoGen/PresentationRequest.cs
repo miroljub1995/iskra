@@ -13,7 +13,9 @@ public partial class PresentationRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_934;
             throw new Exception();
+            return __res_934;
         }
         set
         {

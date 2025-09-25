@@ -13,7 +13,9 @@ public partial class XRWebGLBinding(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_703;
             throw new Exception();
+            return __res_703;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class XRWebGLBinding(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_704;
+            __res_704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
+            return __res_704;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class ReadableStreamBYOBRequest(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_423;
             throw new Exception();
+            return __res_423;
         }
     }
 }

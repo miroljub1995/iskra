@@ -13,7 +13,9 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_347;
             throw new Exception();
+            return __res_347;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.GPUCompilationMessageType __res_348;
             throw new Exception();
+            return __res_348;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_349;
             throw new Exception();
+            return __res_349;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_350;
             throw new Exception();
+            return __res_350;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_351;
             throw new Exception();
+            return __res_351;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong __res_352;
             throw new Exception();
+            return __res_352;
         }
     }
 }

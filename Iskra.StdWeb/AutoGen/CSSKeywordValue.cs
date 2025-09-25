@@ -13,7 +13,9 @@ public partial class CSSKeywordValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
+            string __res_16;
             throw new Exception();
+            return __res_16;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class Accelerometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_951;
             throw new Exception();
+            return __res_951;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Accelerometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_952;
             throw new Exception();
+            return __res_952;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class Accelerometer(JSObject obj): Sensor(obj)
     {
         get
         {
+            double? __res_953;
             throw new Exception();
+            return __res_953;
         }
     }
 }

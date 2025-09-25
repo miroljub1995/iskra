@@ -13,7 +13,9 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_1242;
             throw new Exception();
+            return __res_1242;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1243;
+            __res_1243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
+            return __res_1243;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            double __res_1244;
             throw new Exception();
+            return __res_1244;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            object __res_1245;
             throw new Exception();
+            return __res_1245;
         }
     }
 }

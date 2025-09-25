@@ -13,7 +13,9 @@ public partial class NDEFReadingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_1869;
             throw new Exception();
+            return __res_1869;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NDEFReadingEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.NDEFMessage __res_1870;
             throw new Exception();
+            return __res_1870;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2731;
             throw new Exception();
+            return __res_2731;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2732;
             throw new Exception();
+            return __res_2732;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2733;
             throw new Exception();
+            return __res_2733;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2734;
             throw new Exception();
+            return __res_2734;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2735;
             throw new Exception();
+            return __res_2735;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2736;
             throw new Exception();
+            return __res_2736;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2737;
             throw new Exception();
+            return __res_2737;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2738;
             throw new Exception();
+            return __res_2738;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2739;
             throw new Exception();
+            return __res_2739;
         }
     }
 }

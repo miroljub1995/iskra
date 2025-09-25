@@ -13,7 +13,9 @@ public partial class DelegatedInkTrailPresenter(JSObject obj): JSObjectProxy(obj
     {
         get
         {
+            Iskra.StdWeb.Element? __res_712;
             throw new Exception();
+            return __res_712;
         }
     }
 }

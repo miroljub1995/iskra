@@ -2,15 +2,11 @@
   "references": [
     "../Iskra.JSCore/gensettings.json"
   ],
-  "input": "../submodules/webref/curated/ed/idlparsed",
+  "inputs": [
+    "../submodules/webref/curated/ed/idlparsed",
+    "./AdditionalIdlparsed"
+  ],
   "output": "./AutoGen",
   "namespace": "Iskra.StdWeb",
-  "proxyFactoryName": "StdWebProxyFactory",
-  "typeRewrite": {
-    "DOMString": "string",
-    "CSSOMString": "string",
-    "USVString": "string",
-    "ByteString": "string",
-    "WindowProxy": "Window"
-  }
+  "proxyFactoryName": "StdWebProxyFactory"
 }

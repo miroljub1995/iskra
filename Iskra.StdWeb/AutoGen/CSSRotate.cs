@@ -13,7 +13,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_36;
             throw new Exception();
+            return __res_36;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_37;
             throw new Exception();
+            return __res_37;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            object __res_38;
             throw new Exception();
+            return __res_38;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_39;
             throw new Exception();
+            return __res_39;
         }
         set
         {

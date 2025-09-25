@@ -13,7 +13,9 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3109;
             throw new Exception();
+            return __res_3109;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3110;
             throw new Exception();
+            return __res_3110;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            double __res_3111;
             throw new Exception();
+            return __res_3111;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class WheelEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
+            uint __res_3112;
             throw new Exception();
+            return __res_3112;
         }
     }
 }

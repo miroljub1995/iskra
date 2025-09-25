@@ -13,7 +13,9 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1117;
             throw new Exception();
+            return __res_1117;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string? __res_1118;
             throw new Exception();
+            return __res_1118;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.BluetoothRemoteGATTServer? __res_1119;
             throw new Exception();
+            return __res_1119;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1120;
+            __res_1120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "watchingAdvertisements");
+            return __res_1120;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
+            Iskra.StdWeb.WebTransportErrorSource __res_925;
             throw new Exception();
+            return __res_925;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
+            uint? __res_926;
             throw new Exception();
+            return __res_926;
         }
     }
 }

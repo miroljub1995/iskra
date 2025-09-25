@@ -13,7 +13,9 @@ public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRect __res_154;
             throw new Exception();
+            return __res_154;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly __res_155;
             throw new Exception();
+            return __res_155;
         }
     }
 }

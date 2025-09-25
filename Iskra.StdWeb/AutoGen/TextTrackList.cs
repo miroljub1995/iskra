@@ -13,7 +13,9 @@ public partial class TextTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_2287;
             throw new Exception();
+            return __res_2287;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TextTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2288;
             throw new Exception();
+            return __res_2288;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class TextTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2289;
             throw new Exception();
+            return __res_2289;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class TextTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2290;
             throw new Exception();
+            return __res_2290;
         }
         set
         {

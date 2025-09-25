@@ -13,7 +13,9 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_961;
             throw new Exception();
+            return __res_961;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            double __res_962;
             throw new Exception();
+            return __res_962;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
+            string __res_963;
             throw new Exception();
+            return __res_963;
         }
     }
 }

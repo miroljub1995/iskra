@@ -13,7 +13,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2079;
             throw new Exception();
+            return __res_2079;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2080;
             throw new Exception();
+            return __res_2080;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            object __res_2081;
             throw new Exception();
+            return __res_2081;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.MediaKeyStatusMap __res_2082;
             throw new Exception();
+            return __res_2082;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2083;
             throw new Exception();
+            return __res_2083;
         }
         set
         {
@@ -57,7 +67,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2084;
             throw new Exception();
+            return __res_2084;
         }
         set
         {

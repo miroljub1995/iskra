@@ -13,7 +13,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationType __res_2636;
             throw new Exception();
+            return __res_2636;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.NavigationHistoryEntry __res_2637;
             throw new Exception();
+            return __res_2637;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2638;
             throw new Exception();
+            return __res_2638;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2639;
             throw new Exception();
+            return __res_2639;
         }
     }
 }

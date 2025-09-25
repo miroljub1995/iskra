@@ -13,7 +13,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2746;
             throw new Exception();
+            return __res_2746;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2747;
             throw new Exception();
+            return __res_2747;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2748;
             throw new Exception();
+            return __res_2748;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2749;
             throw new Exception();
+            return __res_2749;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2750;
             throw new Exception();
+            return __res_2750;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            int __res_2751;
             throw new Exception();
+            return __res_2751;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2752;
             throw new Exception();
+            return __res_2752;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2753;
             throw new Exception();
+            return __res_2753;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2754;
+            __res_2754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trueSpeed");
+            return __res_2754;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2755;
             throw new Exception();
+            return __res_2755;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2756;
             throw new Exception();
+            return __res_2756;
         }
         set
         {

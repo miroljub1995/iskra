@@ -13,7 +13,9 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
+            Iskra.StdWeb.BluetoothRemoteGATTService __res_1134;
             throw new Exception();
+            return __res_1134;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
+            string __res_1135;
             throw new Exception();
+            return __res_1135;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
+            Iskra.StdWeb.BluetoothCharacteristicProperties __res_1136;
             throw new Exception();
+            return __res_1136;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
+            Iskra.JSCore.DataView? __res_1137;
             throw new Exception();
+            return __res_1137;
         }
     }
 }

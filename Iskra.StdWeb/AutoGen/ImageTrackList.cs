@@ -13,7 +13,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_1087;
             throw new Exception();
+            return __res_1087;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1088;
             throw new Exception();
+            return __res_1088;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            int __res_1089;
             throw new Exception();
+            return __res_1089;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.ImageTrack? __res_1090;
             throw new Exception();
+            return __res_1090;
         }
     }
 }

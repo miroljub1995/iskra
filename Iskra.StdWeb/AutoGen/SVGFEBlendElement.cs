@@ -13,7 +13,9 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_496;
             throw new Exception();
+            return __res_496;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_497;
             throw new Exception();
+            return __res_497;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_498;
             throw new Exception();
+            return __res_498;
         }
     }
 }

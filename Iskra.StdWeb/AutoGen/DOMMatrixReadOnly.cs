@@ -13,7 +13,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1449;
             throw new Exception();
+            return __res_1449;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1450;
             throw new Exception();
+            return __res_1450;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1451;
             throw new Exception();
+            return __res_1451;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1452;
             throw new Exception();
+            return __res_1452;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1453;
             throw new Exception();
+            return __res_1453;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1454;
             throw new Exception();
+            return __res_1454;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1455;
             throw new Exception();
+            return __res_1455;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1456;
             throw new Exception();
+            return __res_1456;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1457;
             throw new Exception();
+            return __res_1457;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1458;
             throw new Exception();
+            return __res_1458;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1459;
             throw new Exception();
+            return __res_1459;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1460;
             throw new Exception();
+            return __res_1460;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1461;
             throw new Exception();
+            return __res_1461;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1462;
             throw new Exception();
+            return __res_1462;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1463;
             throw new Exception();
+            return __res_1463;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1464;
             throw new Exception();
+            return __res_1464;
         }
     }
 
@@ -141,7 +173,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1465;
             throw new Exception();
+            return __res_1465;
         }
     }
 
@@ -149,7 +183,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1466;
             throw new Exception();
+            return __res_1466;
         }
     }
 
@@ -157,7 +193,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1467;
             throw new Exception();
+            return __res_1467;
         }
     }
 
@@ -165,7 +203,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1468;
             throw new Exception();
+            return __res_1468;
         }
     }
 
@@ -173,7 +213,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1469;
             throw new Exception();
+            return __res_1469;
         }
     }
 
@@ -181,7 +223,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1470;
             throw new Exception();
+            return __res_1470;
         }
     }
 
@@ -189,7 +233,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1471;
+            __res_1471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            return __res_1471;
         }
     }
 
@@ -197,7 +243,9 @@ public partial class DOMMatrixReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1472;
+            __res_1472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIdentity");
+            return __res_1472;
         }
     }
 }

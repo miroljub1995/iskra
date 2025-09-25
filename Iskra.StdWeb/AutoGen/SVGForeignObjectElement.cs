@@ -13,7 +13,9 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_222;
             throw new Exception();
+            return __res_222;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_223;
             throw new Exception();
+            return __res_223;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_224;
             throw new Exception();
+            return __res_224;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_225;
             throw new Exception();
+            return __res_225;
         }
     }
 }

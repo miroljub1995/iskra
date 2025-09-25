@@ -13,7 +13,9 @@ public partial class PaintSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1184;
             throw new Exception();
+            return __res_1184;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PaintSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1185;
             throw new Exception();
+            return __res_1185;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            byte __res_2030;
             throw new Exception();
+            return __res_2030;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.USBAlternateInterface __res_2031;
             throw new Exception();
+            return __res_2031;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_2032;
             throw new Exception();
+            return __res_2032;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2033;
+            __res_2033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
+            return __res_2033;
         }
     }
 }

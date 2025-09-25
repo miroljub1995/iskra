@@ -13,7 +13,9 @@ public partial class NavigatorManagedData(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1414;
             throw new Exception();
+            return __res_1414;
         }
         set
         {

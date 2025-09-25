@@ -13,7 +13,9 @@ public partial class CSSViewTransitionRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            string __res_2847;
             throw new Exception();
+            return __res_2847;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSViewTransitionRule(JSObject obj): CSSRule(obj)
     {
         get
         {
+            object __res_2848;
             throw new Exception();
+            return __res_2848;
         }
     }
 }

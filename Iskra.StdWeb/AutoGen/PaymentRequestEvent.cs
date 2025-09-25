@@ -13,7 +13,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_363;
             throw new Exception();
+            return __res_363;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_364;
             throw new Exception();
+            return __res_364;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            string __res_365;
             throw new Exception();
+            return __res_365;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_366;
             throw new Exception();
+            return __res_366;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            JSObject __res_367;
             throw new Exception();
+            return __res_367;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_368;
             throw new Exception();
+            return __res_368;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            JSObject? __res_369;
             throw new Exception();
+            return __res_369;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
+            object __res_370;
             throw new Exception();
+            return __res_370;
         }
     }
 }

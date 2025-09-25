@@ -13,7 +13,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_1249;
             throw new Exception();
+            return __res_1249;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_1250;
             throw new Exception();
+            return __res_1250;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_1251;
             throw new Exception();
+            return __res_1251;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1252;
             throw new Exception();
+            return __res_1252;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1253;
             throw new Exception();
+            return __res_1253;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1254;
             throw new Exception();
+            return __res_1254;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1255;
             throw new Exception();
+            return __res_1255;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1256;
             throw new Exception();
+            return __res_1256;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1257;
             throw new Exception();
+            return __res_1257;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1258;
             throw new Exception();
+            return __res_1258;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1259;
             throw new Exception();
+            return __res_1259;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1260;
             throw new Exception();
+            return __res_1260;
         }
     }
 
@@ -109,7 +133,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1261;
             throw new Exception();
+            return __res_1261;
         }
     }
 
@@ -117,7 +143,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1262;
             throw new Exception();
+            return __res_1262;
         }
     }
 
@@ -125,7 +153,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1263;
             throw new Exception();
+            return __res_1263;
         }
     }
 
@@ -133,7 +163,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1264;
             throw new Exception();
+            return __res_1264;
         }
     }
 
@@ -141,7 +173,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            double __res_1265;
             throw new Exception();
+            return __res_1265;
         }
     }
 
@@ -149,7 +183,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            ulong __res_1266;
             throw new Exception();
+            return __res_1266;
         }
     }
 
@@ -157,7 +193,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            ulong __res_1267;
             throw new Exception();
+            return __res_1267;
         }
     }
 
@@ -165,7 +203,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            ulong __res_1268;
             throw new Exception();
+            return __res_1268;
         }
     }
 
@@ -173,7 +213,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            ushort __res_1269;
             throw new Exception();
+            return __res_1269;
         }
     }
 
@@ -181,7 +223,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            Iskra.StdWeb.RenderBlockingStatusType __res_1270;
             throw new Exception();
+            return __res_1270;
         }
     }
 
@@ -189,7 +233,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_1271;
             throw new Exception();
+            return __res_1271;
         }
     }
 
@@ -197,7 +243,9 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
+            string __res_1272;
             throw new Exception();
+            return __res_1272;
         }
     }
 }

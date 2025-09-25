@@ -13,7 +13,9 @@ public partial class MessagePort(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2714;
             throw new Exception();
+            return __res_2714;
         }
         set
         {

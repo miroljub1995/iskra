@@ -13,7 +13,9 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            Iskra.JSCore.ArrayBuffer __res_1159;
             throw new Exception();
+            return __res_1159;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            Iskra.StdWeb.AuthenticatorResponse __res_1160;
             throw new Exception();
+            return __res_1160;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
+            string? __res_1161;
             throw new Exception();
+            return __res_1161;
         }
     }
 }

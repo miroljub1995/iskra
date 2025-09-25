@@ -13,7 +13,9 @@ public partial class DOMTokenList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1387;
             throw new Exception();
+            return __res_1387;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class DOMTokenList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_1388;
             throw new Exception();
+            return __res_1388;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoPixelFormat? __res_1067;
             throw new Exception();
+            return __res_1067;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1068;
             throw new Exception();
+            return __res_1068;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1069;
             throw new Exception();
+            return __res_1069;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly? __res_1070;
             throw new Exception();
+            return __res_1070;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMRectReadOnly? __res_1071;
             throw new Exception();
+            return __res_1071;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1072;
             throw new Exception();
+            return __res_1072;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1073;
+            __res_1073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
+            return __res_1073;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1074;
             throw new Exception();
+            return __res_1074;
         }
     }
 
@@ -77,7 +93,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_1075;
             throw new Exception();
+            return __res_1075;
         }
     }
 
@@ -85,7 +103,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ulong? __res_1076;
             throw new Exception();
+            return __res_1076;
         }
     }
 
@@ -93,7 +113,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            long __res_1077;
             throw new Exception();
+            return __res_1077;
         }
     }
 
@@ -101,7 +123,9 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.VideoColorSpace __res_1078;
             throw new Exception();
+            return __res_1078;
         }
     }
 }

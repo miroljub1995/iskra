@@ -13,7 +13,9 @@ public partial class XRAnchor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.XRSpace __res_460;
             throw new Exception();
+            return __res_460;
         }
     }
 }

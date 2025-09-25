@@ -13,7 +13,9 @@ public partial class PresentationReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            object __res_948;
             throw new Exception();
+            return __res_948;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1984;
+            __res_1984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            return __res_1984;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.AbortSignal __res_1985;
             throw new Exception();
+            return __res_1985;
         }
     }
 }

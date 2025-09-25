@@ -13,7 +13,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2337;
             throw new Exception();
+            return __res_2337;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2338;
             throw new Exception();
+            return __res_2338;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2339;
             throw new Exception();
+            return __res_2339;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2340;
             throw new Exception();
+            return __res_2340;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2341;
             throw new Exception();
+            return __res_2341;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2342;
             throw new Exception();
+            return __res_2342;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2343;
             throw new Exception();
+            return __res_2343;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2344;
+            __res_2344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noValidate");
+            return __res_2344;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2345;
             throw new Exception();
+            return __res_2345;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2346;
             throw new Exception();
+            return __res_2346;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2347;
             throw new Exception();
+            return __res_2347;
         }
     }
 
@@ -141,7 +163,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormControlsCollection __res_2348;
             throw new Exception();
+            return __res_2348;
         }
     }
 
@@ -149,7 +173,9 @@ public partial class HTMLFormElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            uint __res_2349;
             throw new Exception();
+            return __res_2349;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_196;
             throw new Exception();
+            return __res_196;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_197;
             throw new Exception();
+            return __res_197;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_198;
             throw new Exception();
+            return __res_198;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class SVGEllipseElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedLength __res_199;
             throw new Exception();
+            return __res_199;
         }
     }
 }

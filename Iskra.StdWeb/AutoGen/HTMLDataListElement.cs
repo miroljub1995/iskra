@@ -13,7 +13,9 @@ public partial class HTMLDataListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLCollection __res_2431;
             throw new Exception();
+            return __res_2431;
         }
     }
 }

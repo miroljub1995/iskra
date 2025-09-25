@@ -13,7 +13,9 @@ public partial class MediaKeySystemAccess(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            string __res_2078;
             throw new Exception();
+            return __res_2078;
         }
     }
 }

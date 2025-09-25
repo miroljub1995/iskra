@@ -13,7 +13,9 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            string __res_255;
             throw new Exception();
+            return __res_255;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            string? __res_256;
             throw new Exception();
+            return __res_256;
         }
         set
         {

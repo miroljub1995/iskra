@@ -13,7 +13,9 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1564;
             throw new Exception();
+            return __res_1564;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_1565;
+            __res_1565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            return __res_1565;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1566;
             throw new Exception();
+            return __res_1566;
         }
         set
         {
@@ -41,7 +47,9 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1567;
             throw new Exception();
+            return __res_1567;
         }
         set
         {

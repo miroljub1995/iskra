@@ -13,7 +13,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.TextTrack? __res_2301;
             throw new Exception();
+            return __res_2301;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_2302;
             throw new Exception();
+            return __res_2302;
         }
         set
         {
@@ -33,7 +37,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2303;
             throw new Exception();
+            return __res_2303;
         }
         set
         {
@@ -45,7 +51,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_2304;
             throw new Exception();
+            return __res_2304;
         }
         set
         {
@@ -57,7 +65,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2305;
+            __res_2305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pauseOnExit");
+            return __res_2305;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2306;
             throw new Exception();
+            return __res_2306;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_2307;
             throw new Exception();
+            return __res_2307;
         }
         set
         {

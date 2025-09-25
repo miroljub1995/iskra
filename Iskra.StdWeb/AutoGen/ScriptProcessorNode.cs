@@ -13,7 +13,9 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3249;
             throw new Exception();
+            return __res_3249;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
+            int __res_3250;
             throw new Exception();
+            return __res_3250;
         }
     }
 }

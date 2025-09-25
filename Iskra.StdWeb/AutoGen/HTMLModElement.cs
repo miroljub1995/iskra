@@ -13,7 +13,9 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2172;
             throw new Exception();
+            return __res_2172;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2173;
             throw new Exception();
+            return __res_2173;
         }
         set
         {

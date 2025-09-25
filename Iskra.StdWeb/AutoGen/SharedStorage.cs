@@ -13,7 +13,9 @@ public partial class SharedStorage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.SharedStorageWorklet __res_1687;
             throw new Exception();
+            return __res_1687;
         }
     }
 }

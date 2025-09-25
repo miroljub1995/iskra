@@ -13,7 +13,9 @@ public partial class SVGFEMergeNodeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
+            Iskra.StdWeb.SVGAnimatedString __res_563;
             throw new Exception();
+            return __res_563;
         }
     }
 }

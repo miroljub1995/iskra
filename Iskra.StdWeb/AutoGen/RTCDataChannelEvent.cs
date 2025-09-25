@@ -13,7 +13,9 @@ public partial class RTCDataChannelEvent(JSObject obj): Event(obj)
     {
         get
         {
+            Iskra.StdWeb.RTCDataChannel __res_854;
             throw new Exception();
+            return __res_854;
         }
     }
 }

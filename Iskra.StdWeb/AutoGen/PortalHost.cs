@@ -13,7 +13,9 @@ public partial class PortalHost(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1538;
             throw new Exception();
+            return __res_1538;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class PortalHost(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1539;
             throw new Exception();
+            return __res_1539;
         }
         set
         {

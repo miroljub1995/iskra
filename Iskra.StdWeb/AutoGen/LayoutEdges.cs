@@ -13,7 +13,9 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3084;
             throw new Exception();
+            return __res_3084;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3085;
             throw new Exception();
+            return __res_3085;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3086;
             throw new Exception();
+            return __res_3086;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3087;
             throw new Exception();
+            return __res_3087;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3088;
             throw new Exception();
+            return __res_3088;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class LayoutEdges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_3089;
             throw new Exception();
+            return __res_3089;
         }
     }
 }

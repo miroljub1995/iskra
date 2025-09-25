@@ -13,7 +13,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioDestinationNode __res_3156;
             throw new Exception();
+            return __res_3156;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            float __res_3157;
             throw new Exception();
+            return __res_3157;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            double __res_3158;
             throw new Exception();
+            return __res_3158;
         }
     }
 
@@ -37,7 +43,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioListener __res_3159;
             throw new Exception();
+            return __res_3159;
         }
     }
 
@@ -45,7 +53,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioContextState __res_3160;
             throw new Exception();
+            return __res_3160;
         }
     }
 
@@ -53,7 +63,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            uint __res_3161;
             throw new Exception();
+            return __res_3161;
         }
     }
 
@@ -61,7 +73,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.AudioWorklet __res_3162;
             throw new Exception();
+            return __res_3162;
         }
     }
 
@@ -69,7 +83,9 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_3163;
             throw new Exception();
+            return __res_3163;
         }
         set
         {

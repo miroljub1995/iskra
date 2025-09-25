@@ -13,7 +13,9 @@ public partial class PerformanceMeasure(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
+            object? __res_1397;
             throw new Exception();
+            return __res_1397;
         }
     }
 }

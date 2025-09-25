@@ -13,7 +13,9 @@ public partial class CSSParserBlock(JSObject obj): CSSParserValue(obj)
     {
         get
         {
+            string __res_2959;
             throw new Exception();
+            return __res_2959;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class CSSParserBlock(JSObject obj): CSSParserValue(obj)
     {
         get
         {
+            object __res_2960;
             throw new Exception();
+            return __res_2960;
         }
     }
 }

@@ -13,7 +13,9 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PressureSource __res_1531;
             throw new Exception();
+            return __res_1531;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            Iskra.StdWeb.PressureState __res_1532;
             throw new Exception();
+            return __res_1532;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            double __res_1533;
             throw new Exception();
+            return __res_1533;
         }
     }
 }

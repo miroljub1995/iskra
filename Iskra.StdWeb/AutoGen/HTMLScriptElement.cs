@@ -13,7 +13,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2514;
             throw new Exception();
+            return __res_2514;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2515;
             throw new Exception();
+            return __res_2515;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2516;
+            __res_2516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noModule");
+            return __res_2516;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2517;
+            __res_2517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "async");
+            return __res_2517;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2518;
+            __res_2518 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defer");
+            return __res_2518;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.DOMTokenList __res_2519;
             throw new Exception();
+            return __res_2519;
         }
     }
 
@@ -81,7 +93,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string? __res_2520;
             throw new Exception();
+            return __res_2520;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2521;
             throw new Exception();
+            return __res_2521;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2522;
             throw new Exception();
+            return __res_2522;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2523;
             throw new Exception();
+            return __res_2523;
         }
         set
         {
@@ -129,7 +149,9 @@ public partial class HTMLScriptElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2524;
             throw new Exception();
+            return __res_2524;
         }
         set
         {

@@ -13,7 +13,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2398;
             throw new Exception();
+            return __res_2398;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.Element? __res_2399;
             throw new Exception();
+            return __res_2399;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2400;
+            __res_2400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            return __res_2400;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.HTMLFormElement? __res_2401;
             throw new Exception();
+            return __res_2401;
         }
     }
 
@@ -57,7 +65,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2402;
             throw new Exception();
+            return __res_2402;
         }
         set
         {
@@ -69,7 +79,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2403;
             throw new Exception();
+            return __res_2403;
         }
         set
         {
@@ -81,7 +93,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2404;
             throw new Exception();
+            return __res_2404;
         }
         set
         {
@@ -93,7 +107,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2405;
+            __res_2405 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "formNoValidate");
+            return __res_2405;
         }
         set
         {
@@ -105,7 +121,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2406;
             throw new Exception();
+            return __res_2406;
         }
         set
         {
@@ -117,7 +135,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2407;
             throw new Exception();
+            return __res_2407;
         }
         set
         {
@@ -129,7 +149,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2408;
             throw new Exception();
+            return __res_2408;
         }
         set
         {
@@ -141,7 +163,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2409;
             throw new Exception();
+            return __res_2409;
         }
         set
         {
@@ -153,7 +177,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_2410;
+            __res_2410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            return __res_2410;
         }
     }
 
@@ -161,7 +187,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.ValidityState __res_2411;
             throw new Exception();
+            return __res_2411;
         }
     }
 
@@ -169,7 +197,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            string __res_2412;
             throw new Exception();
+            return __res_2412;
         }
     }
 
@@ -177,7 +207,9 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
+            Iskra.StdWeb.NodeList __res_2413;
             throw new Exception();
+            return __res_2413;
         }
     }
 }

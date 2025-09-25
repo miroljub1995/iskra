@@ -13,7 +13,9 @@ public partial class CSSMathInvert(JSObject obj): CSSMathValue(obj)
     {
         get
         {
+            Iskra.StdWeb.CSSNumericValue __res_23;
             throw new Exception();
+            return __res_23;
         }
     }
 }

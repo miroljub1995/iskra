@@ -13,7 +13,9 @@ public partial class WritableStreamDefaultController(JSObject obj): JSObjectProx
     {
         get
         {
+            Iskra.StdWeb.AbortSignal __res_428;
             throw new Exception();
+            return __res_428;
         }
     }
 }

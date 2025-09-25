@@ -13,7 +13,9 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_142;
             throw new Exception();
+            return __res_142;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            ushort __res_143;
             throw new Exception();
+            return __res_143;
         }
     }
 }

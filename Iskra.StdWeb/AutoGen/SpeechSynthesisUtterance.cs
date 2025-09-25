@@ -13,7 +13,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1656;
             throw new Exception();
+            return __res_1656;
         }
         set
         {
@@ -25,7 +27,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            string __res_1657;
             throw new Exception();
+            return __res_1657;
         }
         set
         {
@@ -37,7 +41,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.SpeechSynthesisVoice? __res_1658;
             throw new Exception();
+            return __res_1658;
         }
         set
         {
@@ -49,7 +55,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            float __res_1659;
             throw new Exception();
+            return __res_1659;
         }
         set
         {
@@ -61,7 +69,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            float __res_1660;
             throw new Exception();
+            return __res_1660;
         }
         set
         {
@@ -73,7 +83,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            float __res_1661;
             throw new Exception();
+            return __res_1661;
         }
         set
         {
@@ -85,7 +97,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1662;
             throw new Exception();
+            return __res_1662;
         }
         set
         {
@@ -97,7 +111,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1663;
             throw new Exception();
+            return __res_1663;
         }
         set
         {
@@ -109,7 +125,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1664;
             throw new Exception();
+            return __res_1664;
         }
         set
         {
@@ -121,7 +139,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1665;
             throw new Exception();
+            return __res_1665;
         }
         set
         {
@@ -133,7 +153,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1666;
             throw new Exception();
+            return __res_1666;
         }
         set
         {
@@ -145,7 +167,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1667;
             throw new Exception();
+            return __res_1667;
         }
         set
         {
@@ -157,7 +181,9 @@ public partial class SpeechSynthesisUtterance(JSObject obj): EventTarget(obj)
     {
         get
         {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1668;
             throw new Exception();
+            return __res_1668;
         }
         set
         {

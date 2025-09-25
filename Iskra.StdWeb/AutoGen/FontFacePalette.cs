@@ -13,7 +13,9 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
+            uint __res_891;
             throw new Exception();
+            return __res_891;
         }
     }
 
@@ -21,7 +23,9 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_892;
+            __res_892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usableWithLightBackground");
+            return __res_892;
         }
     }
 
@@ -29,7 +33,9 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            throw new Exception();
+            bool __res_893;
+            __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usableWithDarkBackground");
+            return __res_893;
         }
     }
 }
