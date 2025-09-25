@@ -13,9 +13,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2759;
-            throw new Exception();
-            return __res_2759;
+            string __res_5880;
+            string __res_5881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5880 = __res_5881;
+            return __res_5880;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2760;
-            throw new Exception();
-            return __res_2760;
+            string __res_5882;
+            string __res_5883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrolling");
+            __res_5882 = __res_5883;
+            return __res_5882;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2761;
-            throw new Exception();
-            return __res_2761;
+            string __res_5884;
+            string __res_5885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_5884 = __res_5885;
+            return __res_5884;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2762;
-            throw new Exception();
-            return __res_2762;
+            string __res_5886;
+            string __res_5887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameBorder");
+            __res_5886 = __res_5887;
+            return __res_5886;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2763;
-            throw new Exception();
-            return __res_2763;
+            string __res_5888;
+            string __res_5889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "longDesc");
+            __res_5888 = __res_5889;
+            return __res_5888;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2764;
-            __res_2764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noResize");
-            return __res_2764;
+            bool __res_5890;
+            bool __res_5891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noResize");
+            __res_5890 = __res_5891;
+            return __res_5890;
         }
         set
         {
@@ -97,9 +103,18 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.Document? __res_2765;
-            throw new Exception();
-            return __res_2765;
+            Iskra.StdWeb.Document? __res_5892;
+            JSObject? __res_5893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentDocument");
+            if (__res_5893 is null)
+            {
+                __res_5892 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5894 = (JSObject)__res_5893;
+                throw new Exception("Marshaller from \"__notNullable_5894\" to \"__res_5892\" not supported.");
+            }
+            return __res_5892;
         }
     }
 
@@ -107,9 +122,18 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_2766;
-            throw new Exception();
-            return __res_2766;
+            Iskra.StdWeb.Window? __res_5895;
+            JSObject? __res_5896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentWindow");
+            if (__res_5896 is null)
+            {
+                __res_5895 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5897 = (JSObject)__res_5896;
+                throw new Exception("Marshaller from \"__notNullable_5897\" to \"__res_5895\" not supported.");
+            }
+            return __res_5895;
         }
     }
 
@@ -117,9 +141,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2767;
-            throw new Exception();
-            return __res_2767;
+            string __res_5898;
+            string __res_5899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginHeight");
+            __res_5898 = __res_5899;
+            return __res_5898;
         }
         set
         {
@@ -131,9 +156,10 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2768;
-            throw new Exception();
-            return __res_2768;
+            string __res_5900;
+            string __res_5901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginWidth");
+            __res_5900 = __res_5901;
+            return __res_5900;
         }
         set
         {

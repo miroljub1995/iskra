@@ -13,9 +13,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedFeatures __res_332;
-            throw new Exception();
-            return __res_332;
+            Iskra.StdWeb.GPUSupportedFeatures __res_644;
+            JSObject __res_645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            throw new Exception("Marshaller from \"__res_645\" to \"__res_644\" not supported.");
+            return __res_644;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedLimits __res_333;
-            throw new Exception();
-            return __res_333;
+            Iskra.StdWeb.GPUSupportedLimits __res_646;
+            JSObject __res_647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            throw new Exception("Marshaller from \"__res_647\" to \"__res_646\" not supported.");
+            return __res_646;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUAdapterInfo __res_334;
-            throw new Exception();
-            return __res_334;
+            Iskra.StdWeb.GPUAdapterInfo __res_648;
+            JSObject __res_649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
+            throw new Exception("Marshaller from \"__res_649\" to \"__res_648\" not supported.");
+            return __res_648;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUQueue __res_335;
-            throw new Exception();
-            return __res_335;
+            Iskra.StdWeb.GPUQueue __res_650;
+            JSObject __res_651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
+            throw new Exception("Marshaller from \"__res_651\" to \"__res_650\" not supported.");
+            return __res_650;
         }
     }
 }

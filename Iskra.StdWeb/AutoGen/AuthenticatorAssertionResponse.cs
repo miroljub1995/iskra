@@ -13,9 +13,10 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1164;
-            throw new Exception();
-            return __res_1164;
+            Iskra.JSCore.ArrayBuffer __res_2459;
+            JSObject __res_2460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
+            throw new Exception("Marshaller from \"__res_2460\" to \"__res_2459\" not supported.");
+            return __res_2459;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1165;
-            throw new Exception();
-            return __res_1165;
+            Iskra.JSCore.ArrayBuffer __res_2461;
+            JSObject __res_2462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
+            throw new Exception("Marshaller from \"__res_2462\" to \"__res_2461\" not supported.");
+            return __res_2461;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_1166;
-            throw new Exception();
-            return __res_1166;
+            Iskra.JSCore.ArrayBuffer? __res_2463;
+            JSObject? __res_2464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
+            if (__res_2464 is null)
+            {
+                __res_2463 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2465 = (JSObject)__res_2464;
+                throw new Exception("Marshaller from \"__notNullable_2465\" to \"__res_2463\" not supported.");
+            }
+            return __res_2463;
         }
     }
 }

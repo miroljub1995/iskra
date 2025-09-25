@@ -13,9 +13,10 @@ public partial class SharedWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_2730;
-            throw new Exception();
-            return __res_2730;
+            Iskra.StdWeb.MessagePort __res_5818;
+            JSObject __res_5819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            throw new Exception("Marshaller from \"__res_5819\" to \"__res_5818\" not supported.");
+            return __res_5818;
         }
     }
 }

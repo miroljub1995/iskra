@@ -13,9 +13,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2058;
-            throw new Exception();
-            return __res_2058;
+            string __res_4391;
+            string __res_4392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_4391 = __res_4392;
+            return __res_4391;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2059;
-            throw new Exception();
-            return __res_2059;
+            string __res_4393;
+            string __res_4394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
+            __res_4393 = __res_4394;
+            return __res_4393;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_2060;
-            throw new Exception();
-            return __res_2060;
+            object? __res_4395;
+            JSObject __res_4396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
+            __res_4395 = __res_4396;
+            return __res_4395;
         }
         set
         {
@@ -47,9 +50,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2061;
-            throw new Exception();
-            return __res_2061;
+            string __res_4397;
+            string __res_4398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
+            __res_4397 = __res_4398;
+            return __res_4397;
         }
     }
 
@@ -57,9 +61,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2062;
-            throw new Exception();
-            return __res_2062;
+            string __res_4399;
+            string __res_4400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
+            __res_4399 = __res_4400;
+            return __res_4399;
         }
     }
 }

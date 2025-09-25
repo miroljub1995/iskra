@@ -13,9 +13,18 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_115;
-            throw new Exception();
-            return __res_115;
+            Iskra.StdWeb.Element? __res_197;
+            JSObject? __res_198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_198 is null)
+            {
+                __res_197 = null;
+            }
+            else
+            {
+                JSObject __notNullable_199 = (JSObject)__res_198;
+                throw new Exception("Marshaller from \"__notNullable_199\" to \"__res_197\" not supported.");
+            }
+            return __res_197;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.ScrollAxis __res_116;
-            throw new Exception();
-            return __res_116;
+            Iskra.StdWeb.ScrollAxis __res_200;
+            JSObject __res_201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
+            throw new Exception("Marshaller from \"__res_201\" to \"__res_200\" not supported.");
+            return __res_200;
         }
     }
 }

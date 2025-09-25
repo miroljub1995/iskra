@@ -13,9 +13,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_176;
-            throw new Exception();
-            return __res_176;
+            ushort __res_324;
+            double __res_325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_325\" to \"__res_324\" not supported.");
+            return __res_324;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMMatrix __res_177;
-            throw new Exception();
-            return __res_177;
+            Iskra.StdWeb.DOMMatrix __res_326;
+            JSObject __res_327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            throw new Exception("Marshaller from \"__res_327\" to \"__res_326\" not supported.");
+            return __res_326;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_178;
-            throw new Exception();
-            return __res_178;
+            float __res_328;
+            double __res_329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_328 = Convert.ToSingle(__res_329);
+            return __res_328;
         }
     }
 }

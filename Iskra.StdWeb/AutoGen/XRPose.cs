@@ -13,9 +13,10 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_1726;
-            throw new Exception();
-            return __res_1726;
+            Iskra.StdWeb.XRRigidTransform __res_3685;
+            JSObject __res_3686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller from \"__res_3686\" to \"__res_3685\" not supported.");
+            return __res_3685;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly? __res_1727;
-            throw new Exception();
-            return __res_1727;
+            Iskra.StdWeb.DOMPointReadOnly? __res_3687;
+            JSObject? __res_3688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_3688 is null)
+            {
+                __res_3687 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3689 = (JSObject)__res_3688;
+                throw new Exception("Marshaller from \"__notNullable_3689\" to \"__res_3687\" not supported.");
+            }
+            return __res_3687;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly? __res_1728;
-            throw new Exception();
-            return __res_1728;
+            Iskra.StdWeb.DOMPointReadOnly? __res_3690;
+            JSObject? __res_3691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_3691 is null)
+            {
+                __res_3690 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3692 = (JSObject)__res_3691;
+                throw new Exception("Marshaller from \"__notNullable_3692\" to \"__res_3690\" not supported.");
+            }
+            return __res_3690;
         }
     }
 
@@ -43,9 +62,10 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1729;
-            __res_1729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
-            return __res_1729;
+            bool __res_3693;
+            bool __res_3694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
+            __res_3693 = __res_3694;
+            return __res_3693;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class CustomEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_1299;
-            throw new Exception();
-            return __res_1299;
+            object? __res_2751;
+            JSObject __res_2752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
+            __res_2751 = __res_2752;
+            return __res_2751;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_886;
-            throw new Exception();
-            return __res_886;
+            string __res_1866;
+            string __res_1867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1866 = __res_1867;
+            return __res_1866;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_887;
-            throw new Exception();
-            return __res_887;
+            string __res_1868;
+            string __res_1869 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axisTag");
+            __res_1868 = __res_1869;
+            return __res_1868;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_888;
-            throw new Exception();
-            return __res_888;
+            double __res_1870;
+            double __res_1871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minimumValue");
+            __res_1870 = __res_1871;
+            return __res_1870;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_889;
-            throw new Exception();
-            return __res_889;
+            double __res_1872;
+            double __res_1873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maximumValue");
+            __res_1872 = __res_1873;
+            return __res_1872;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_890;
-            throw new Exception();
-            return __res_890;
+            double __res_1874;
+            double __res_1875 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
+            __res_1874 = __res_1875;
+            return __res_1874;
         }
     }
 }

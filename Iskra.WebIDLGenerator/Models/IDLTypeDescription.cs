@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 namespace Iskra.WebIDLGenerator.Models;
 
 [JsonConverter(typeof(IDLTypeDescriptionConverter))]
-public abstract class IDLTypeDescription : AbstractBase
+public abstract record IDLTypeDescription : AbstractBase
 {
     [JsonPropertyName("nullable")] public required bool Nullable { get; set; }
 

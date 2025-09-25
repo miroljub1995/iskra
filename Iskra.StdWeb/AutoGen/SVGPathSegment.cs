@@ -13,9 +13,10 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_931;
-            throw new Exception();
-            return __res_931;
+            string __res_1961;
+            string __res_1962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1961 = __res_1962;
+            return __res_1961;
         }
         set
         {
@@ -27,9 +28,9 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_932;
+            object __res_1963;
             throw new Exception();
-            return __res_932;
+            return __res_1963;
         }
         set
         {

@@ -13,9 +13,9 @@ public partial class XRBoundedReferenceSpace(JSObject obj): XRReferenceSpace(obj
     {
         get
         {
-            object __res_1715;
+            object __res_3663;
             throw new Exception();
-            return __res_1715;
+            return __res_3663;
         }
     }
 }

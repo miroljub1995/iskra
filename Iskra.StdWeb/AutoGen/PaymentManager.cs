@@ -13,9 +13,10 @@ public partial class PaymentManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_362;
-            throw new Exception();
-            return __res_362;
+            string __res_702;
+            string __res_703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userHint");
+            __res_702 = __res_703;
+            return __res_702;
         }
         set
         {

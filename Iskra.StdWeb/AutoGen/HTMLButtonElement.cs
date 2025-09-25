@@ -13,9 +13,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2398;
-            throw new Exception();
-            return __res_2398;
+            string __res_5107;
+            string __res_5108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_5107 = __res_5108;
+            return __res_5107;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_2399;
-            throw new Exception();
-            return __res_2399;
+            Iskra.StdWeb.Element? __res_5109;
+            JSObject? __res_5110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "commandForElement");
+            if (__res_5110 is null)
+            {
+                __res_5109 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5111 = (JSObject)__res_5110;
+                throw new Exception("Marshaller from \"__notNullable_5111\" to \"__res_5109\" not supported.");
+            }
+            return __res_5109;
         }
         set
         {
@@ -41,9 +51,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2400;
-            __res_2400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            return __res_2400;
+            bool __res_5112;
+            bool __res_5113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_5112 = __res_5113;
+            return __res_5112;
         }
         set
         {
@@ -55,9 +66,18 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_2401;
-            throw new Exception();
-            return __res_2401;
+            Iskra.StdWeb.HTMLFormElement? __res_5114;
+            JSObject? __res_5115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_5115 is null)
+            {
+                __res_5114 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5116 = (JSObject)__res_5115;
+                throw new Exception("Marshaller from \"__notNullable_5116\" to \"__res_5114\" not supported.");
+            }
+            return __res_5114;
         }
     }
 
@@ -65,9 +85,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2402;
-            throw new Exception();
-            return __res_2402;
+            string __res_5117;
+            string __res_5118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formAction");
+            __res_5117 = __res_5118;
+            return __res_5117;
         }
         set
         {
@@ -79,9 +100,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2403;
-            throw new Exception();
-            return __res_2403;
+            string __res_5119;
+            string __res_5120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formEnctype");
+            __res_5119 = __res_5120;
+            return __res_5119;
         }
         set
         {
@@ -93,9 +115,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2404;
-            throw new Exception();
-            return __res_2404;
+            string __res_5121;
+            string __res_5122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formMethod");
+            __res_5121 = __res_5122;
+            return __res_5121;
         }
         set
         {
@@ -107,9 +130,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2405;
-            __res_2405 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "formNoValidate");
-            return __res_2405;
+            bool __res_5123;
+            bool __res_5124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "formNoValidate");
+            __res_5123 = __res_5124;
+            return __res_5123;
         }
         set
         {
@@ -121,9 +145,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2406;
-            throw new Exception();
-            return __res_2406;
+            string __res_5125;
+            string __res_5126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formTarget");
+            __res_5125 = __res_5126;
+            return __res_5125;
         }
         set
         {
@@ -135,9 +160,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2407;
-            throw new Exception();
-            return __res_2407;
+            string __res_5127;
+            string __res_5128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5127 = __res_5128;
+            return __res_5127;
         }
         set
         {
@@ -149,9 +175,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2408;
-            throw new Exception();
-            return __res_2408;
+            string __res_5129;
+            string __res_5130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5129 = __res_5130;
+            return __res_5129;
         }
         set
         {
@@ -163,9 +190,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2409;
-            throw new Exception();
-            return __res_2409;
+            string __res_5131;
+            string __res_5132 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5131 = __res_5132;
+            return __res_5131;
         }
         set
         {
@@ -177,9 +205,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2410;
-            __res_2410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            return __res_2410;
+            bool __res_5133;
+            bool __res_5134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_5133 = __res_5134;
+            return __res_5133;
         }
     }
 
@@ -187,9 +216,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.ValidityState __res_2411;
-            throw new Exception();
-            return __res_2411;
+            Iskra.StdWeb.ValidityState __res_5135;
+            JSObject __res_5136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            throw new Exception("Marshaller from \"__res_5136\" to \"__res_5135\" not supported.");
+            return __res_5135;
         }
     }
 
@@ -197,9 +227,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2412;
-            throw new Exception();
-            return __res_2412;
+            string __res_5137;
+            string __res_5138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_5137 = __res_5138;
+            return __res_5137;
         }
     }
 
@@ -207,9 +238,10 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_2413;
-            throw new Exception();
-            return __res_2413;
+            Iskra.StdWeb.NodeList __res_5139;
+            JSObject __res_5140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            throw new Exception("Marshaller from \"__res_5140\" to \"__res_5139\" not supported.");
+            return __res_5139;
         }
     }
 }

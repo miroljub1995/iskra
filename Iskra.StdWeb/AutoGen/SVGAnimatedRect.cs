@@ -13,9 +13,10 @@ public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRect __res_154;
-            throw new Exception();
-            return __res_154;
+            Iskra.StdWeb.DOMRect __res_278;
+            JSObject __res_279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller from \"__res_279\" to \"__res_278\" not supported.");
+            return __res_278;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_155;
-            throw new Exception();
-            return __res_155;
+            Iskra.StdWeb.DOMRectReadOnly __res_280;
+            JSObject __res_281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller from \"__res_281\" to \"__res_280\" not supported.");
+            return __res_280;
         }
     }
 }

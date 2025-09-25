@@ -13,9 +13,10 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_3279;
-            throw new Exception();
-            return __res_3279;
+            uint __res_6999;
+            double __res_7000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "updateRangeStart");
+            __res_6999 = Convert.ToUInt32(__res_7000);
+            return __res_6999;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_3280;
-            throw new Exception();
-            return __res_3280;
+            uint __res_7001;
+            double __res_7002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "updateRangeEnd");
+            __res_7001 = Convert.ToUInt32(__res_7002);
+            return __res_7001;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_3281;
-            throw new Exception();
-            return __res_3281;
+            string __res_7003;
+            string __res_7004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_7003 = __res_7004;
+            return __res_7003;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_3282;
-            throw new Exception();
-            return __res_3282;
+            uint __res_7005;
+            double __res_7006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionStart");
+            __res_7005 = Convert.ToUInt32(__res_7006);
+            return __res_7005;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class TextUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_3283;
-            throw new Exception();
-            return __res_3283;
+            uint __res_7007;
+            double __res_7008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionEnd");
+            __res_7007 = Convert.ToUInt32(__res_7008);
+            return __res_7007;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1580;
-            throw new Exception();
-            return __res_1580;
+            string __res_3355;
+            string __res_3356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
+            __res_3355 = __res_3356;
+            return __res_3355;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaDeviceKind __res_1581;
-            throw new Exception();
-            return __res_1581;
+            Iskra.StdWeb.MediaDeviceKind __res_3357;
+            JSObject __res_3358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            throw new Exception("Marshaller from \"__res_3358\" to \"__res_3357\" not supported.");
+            return __res_3357;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1582;
-            throw new Exception();
-            return __res_1582;
+            string __res_3359;
+            string __res_3360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_3359 = __res_3360;
+            return __res_3359;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1583;
-            throw new Exception();
-            return __res_1583;
+            string __res_3361;
+            string __res_3362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
+            __res_3361 = __res_3362;
+            return __res_3361;
         }
     }
 }

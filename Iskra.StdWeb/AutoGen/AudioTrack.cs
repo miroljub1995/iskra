@@ -13,9 +13,10 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2272;
-            throw new Exception();
-            return __res_2272;
+            string __res_4831;
+            string __res_4832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4831 = __res_4832;
+            return __res_4831;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2273;
-            throw new Exception();
-            return __res_2273;
+            string __res_4833;
+            string __res_4834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_4833 = __res_4834;
+            return __res_4833;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2274;
-            throw new Exception();
-            return __res_2274;
+            string __res_4835;
+            string __res_4836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_4835 = __res_4836;
+            return __res_4835;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2275;
-            throw new Exception();
-            return __res_2275;
+            string __res_4837;
+            string __res_4838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_4837 = __res_4838;
+            return __res_4837;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class AudioTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2276;
-            __res_2276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
-            return __res_2276;
+            bool __res_4839;
+            bool __res_4840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            __res_4839 = __res_4840;
+            return __res_4839;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2821;
-            __res_2821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "charging");
-            return __res_2821;
+            bool __res_6006;
+            bool __res_6007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "charging");
+            __res_6006 = __res_6007;
+            return __res_6006;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2822;
-            throw new Exception();
-            return __res_2822;
+            double __res_6008;
+            double __res_6009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "chargingTime");
+            __res_6008 = __res_6009;
+            return __res_6008;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2823;
-            throw new Exception();
-            return __res_2823;
+            double __res_6010;
+            double __res_6011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "dischargingTime");
+            __res_6010 = __res_6011;
+            return __res_6010;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2824;
-            throw new Exception();
-            return __res_2824;
+            double __res_6012;
+            double __res_6013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "level");
+            __res_6012 = __res_6013;
+            return __res_6012;
         }
     }
 
@@ -53,9 +57,18 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2825;
-            throw new Exception();
-            return __res_2825;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6014;
+            JSObject? __res_6015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingchange");
+            if (__res_6015 is null)
+            {
+                __res_6014 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6016 = (JSObject)__res_6015;
+                throw new Exception("Marshaller from \"__notNullable_6016\" to \"__res_6014\" not supported.");
+            }
+            return __res_6014;
         }
         set
         {
@@ -67,9 +80,18 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2826;
-            throw new Exception();
-            return __res_2826;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6017;
+            JSObject? __res_6018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingtimechange");
+            if (__res_6018 is null)
+            {
+                __res_6017 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6019 = (JSObject)__res_6018;
+                throw new Exception("Marshaller from \"__notNullable_6019\" to \"__res_6017\" not supported.");
+            }
+            return __res_6017;
         }
         set
         {
@@ -81,9 +103,18 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2827;
-            throw new Exception();
-            return __res_2827;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6020;
+            JSObject? __res_6021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondischargingtimechange");
+            if (__res_6021 is null)
+            {
+                __res_6020 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6022 = (JSObject)__res_6021;
+                throw new Exception("Marshaller from \"__notNullable_6022\" to \"__res_6020\" not supported.");
+            }
+            return __res_6020;
         }
         set
         {
@@ -95,9 +126,18 @@ public partial class BatteryManager(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2828;
-            throw new Exception();
-            return __res_2828;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6023;
+            JSObject? __res_6024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlevelchange");
+            if (__res_6024 is null)
+            {
+                __res_6023 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6025 = (JSObject)__res_6024;
+                throw new Exception("Marshaller from \"__notNullable_6025\" to \"__res_6023\" not supported.");
+            }
+            return __res_6023;
         }
         set
         {

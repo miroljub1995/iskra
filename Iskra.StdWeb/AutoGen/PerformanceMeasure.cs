@@ -13,9 +13,10 @@ public partial class PerformanceMeasure(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            object? __res_1397;
-            throw new Exception();
-            return __res_1397;
+            object? __res_2975;
+            JSObject __res_2976 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
+            __res_2975 = __res_2976;
+            return __res_2975;
         }
     }
 }

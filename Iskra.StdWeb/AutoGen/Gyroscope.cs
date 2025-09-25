@@ -13,9 +13,18 @@ public partial class Gyroscope(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_1208;
-            throw new Exception();
-            return __res_1208;
+            double? __res_2561;
+            double? __res_2562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_2562 is null)
+            {
+                __res_2561 = null;
+            }
+            else
+            {
+                double __notNullable_2563 = (double)__res_2562;
+                __res_2561 = __notNullable_2563;
+            }
+            return __res_2561;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class Gyroscope(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_1209;
-            throw new Exception();
-            return __res_1209;
+            double? __res_2564;
+            double? __res_2565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_2565 is null)
+            {
+                __res_2564 = null;
+            }
+            else
+            {
+                double __notNullable_2566 = (double)__res_2565;
+                __res_2564 = __notNullable_2566;
+            }
+            return __res_2564;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class Gyroscope(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_1210;
-            throw new Exception();
-            return __res_1210;
+            double? __res_2567;
+            double? __res_2568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_2568 is null)
+            {
+                __res_2567 = null;
+            }
+            else
+            {
+                double __notNullable_2569 = (double)__res_2568;
+                __res_2567 = __notNullable_2569;
+            }
+            return __res_2567;
         }
     }
 }

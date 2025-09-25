@@ -13,9 +13,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3284;
-            throw new Exception();
-            return __res_3284;
+            uint __res_7009;
+            double __res_7010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
+            __res_7009 = Convert.ToUInt32(__res_7010);
+            return __res_7009;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3285;
-            throw new Exception();
-            return __res_3285;
+            uint __res_7011;
+            double __res_7012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
+            __res_7011 = Convert.ToUInt32(__res_7012);
+            return __res_7011;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.UnderlineStyle __res_3286;
-            throw new Exception();
-            return __res_3286;
+            Iskra.StdWeb.UnderlineStyle __res_7013;
+            JSObject __res_7014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineStyle");
+            throw new Exception("Marshaller from \"__res_7014\" to \"__res_7013\" not supported.");
+            return __res_7013;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.UnderlineThickness __res_3287;
-            throw new Exception();
-            return __res_3287;
+            Iskra.StdWeb.UnderlineThickness __res_7015;
+            JSObject __res_7016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineThickness");
+            throw new Exception("Marshaller from \"__res_7016\" to \"__res_7015\" not supported.");
+            return __res_7015;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_1445;
-            throw new Exception();
-            return __res_1445;
+            Iskra.StdWeb.DOMPoint __res_3074;
+            JSObject __res_3075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
+            throw new Exception("Marshaller from \"__res_3075\" to \"__res_3074\" not supported.");
+            return __res_3074;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_1446;
-            throw new Exception();
-            return __res_1446;
+            Iskra.StdWeb.DOMPoint __res_3076;
+            JSObject __res_3077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
+            throw new Exception("Marshaller from \"__res_3077\" to \"__res_3076\" not supported.");
+            return __res_3076;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_1447;
-            throw new Exception();
-            return __res_1447;
+            Iskra.StdWeb.DOMPoint __res_3078;
+            JSObject __res_3079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
+            throw new Exception("Marshaller from \"__res_3079\" to \"__res_3078\" not supported.");
+            return __res_3078;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_1448;
-            throw new Exception();
-            return __res_1448;
+            Iskra.StdWeb.DOMPoint __res_3080;
+            JSObject __res_3081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
+            throw new Exception("Marshaller from \"__res_3081\" to \"__res_3080\" not supported.");
+            return __res_3080;
         }
     }
 }

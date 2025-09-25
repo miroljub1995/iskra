@@ -13,9 +13,10 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2432;
-            __res_2432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            return __res_2432;
+            bool __res_5178;
+            bool __res_5179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_5178 = __res_5179;
+            return __res_5178;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2433;
-            throw new Exception();
-            return __res_2433;
+            string __res_5180;
+            string __res_5181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_5180 = __res_5181;
+            return __res_5180;
         }
         set
         {

@@ -13,9 +13,18 @@ public partial class HID(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_646;
-            throw new Exception();
-            return __res_646;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1304;
+            JSObject? __res_1305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_1305 is null)
+            {
+                __res_1304 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1306 = (JSObject)__res_1305;
+                throw new Exception("Marshaller from \"__notNullable_1306\" to \"__res_1304\" not supported.");
+            }
+            return __res_1304;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class HID(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_647;
-            throw new Exception();
-            return __res_647;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1307;
+            JSObject? __res_1308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_1308 is null)
+            {
+                __res_1307 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1309 = (JSObject)__res_1308;
+                throw new Exception("Marshaller from \"__notNullable_1309\" to \"__res_1307\" not supported.");
+            }
+            return __res_1307;
         }
         set
         {

@@ -13,9 +13,9 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_69;
+            object __res_116;
             throw new Exception();
-            return __res_69;
+            return __res_116;
         }
         set
         {
@@ -27,9 +27,9 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_70;
+            object __res_117;
             throw new Exception();
-            return __res_70;
+            return __res_117;
         }
         set
         {
@@ -41,9 +41,9 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_71;
+            object __res_118;
             throw new Exception();
-            return __res_71;
+            return __res_118;
         }
         set
         {
@@ -55,9 +55,9 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_72;
+            object __res_119;
             throw new Exception();
-            return __res_72;
+            return __res_119;
         }
         set
         {

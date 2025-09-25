@@ -13,9 +13,18 @@ public partial class MIDIMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.Uint8Array? __res_2950;
-            throw new Exception();
-            return __res_2950;
+            Iskra.JSCore.Uint8Array? __res_6292;
+            JSObject? __res_6293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_6293 is null)
+            {
+                __res_6292 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6294 = (JSObject)__res_6293;
+                throw new Exception("Marshaller from \"__notNullable_6294\" to \"__res_6292\" not supported.");
+            }
+            return __res_6292;
         }
     }
 }

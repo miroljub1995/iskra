@@ -13,9 +13,10 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1186;
-            throw new Exception();
-            return __res_1186;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_2516;
+            JSObject __res_2517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipPathUnits");
+            throw new Exception("Marshaller from \"__res_2517\" to \"__res_2516\" not supported.");
+            return __res_2516;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedTransformList __res_1187;
-            throw new Exception();
-            return __res_1187;
+            Iskra.StdWeb.SVGAnimatedTransformList __res_2518;
+            JSObject __res_2519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller from \"__res_2519\" to \"__res_2518\" not supported.");
+            return __res_2518;
         }
     }
 }

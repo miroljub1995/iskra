@@ -13,9 +13,10 @@ public partial class CSSFunctionRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_7;
-            throw new Exception();
-            return __res_7;
+            string __res_17;
+            string __res_18 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_17 = __res_18;
+            return __res_17;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSFunctionRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_8;
-            throw new Exception();
-            return __res_8;
+            string __res_19;
+            string __res_20 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnType");
+            __res_19 = __res_20;
+            return __res_19;
         }
     }
 }

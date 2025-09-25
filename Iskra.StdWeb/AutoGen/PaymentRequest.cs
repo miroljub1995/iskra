@@ -13,9 +13,10 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2906;
-            throw new Exception();
-            return __res_2906;
+            string __res_6185;
+            string __res_6186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_6185 = __res_6186;
+            return __res_6185;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ContactAddress? __res_2907;
-            throw new Exception();
-            return __res_2907;
+            Iskra.StdWeb.ContactAddress? __res_6187;
+            JSObject? __res_6188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
+            if (__res_6188 is null)
+            {
+                __res_6187 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6189 = (JSObject)__res_6188;
+                throw new Exception("Marshaller from \"__notNullable_6189\" to \"__res_6187\" not supported.");
+            }
+            return __res_6187;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_2908;
-            throw new Exception();
-            return __res_2908;
+            string? __res_6190;
+            string? __res_6191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
+            if (__res_6191 is null)
+            {
+                __res_6190 = null;
+            }
+            else
+            {
+                string __notNullable_6192 = (string)__res_6191;
+                __res_6190 = __notNullable_6192;
+            }
+            return __res_6190;
         }
     }
 
@@ -43,9 +62,18 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.PaymentShippingType? __res_2909;
-            throw new Exception();
-            return __res_2909;
+            Iskra.StdWeb.PaymentShippingType? __res_6193;
+            JSObject? __res_6194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingType");
+            if (__res_6194 is null)
+            {
+                __res_6193 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6195 = (JSObject)__res_6194;
+                throw new Exception("Marshaller from \"__notNullable_6195\" to \"__res_6193\" not supported.");
+            }
+            return __res_6193;
         }
     }
 
@@ -53,9 +81,18 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2910;
-            throw new Exception();
-            return __res_2910;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6196;
+            JSObject? __res_6197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingaddresschange");
+            if (__res_6197 is null)
+            {
+                __res_6196 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6198 = (JSObject)__res_6197;
+                throw new Exception("Marshaller from \"__notNullable_6198\" to \"__res_6196\" not supported.");
+            }
+            return __res_6196;
         }
         set
         {
@@ -67,9 +104,18 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2911;
-            throw new Exception();
-            return __res_2911;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6199;
+            JSObject? __res_6200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingoptionchange");
+            if (__res_6200 is null)
+            {
+                __res_6199 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6201 = (JSObject)__res_6200;
+                throw new Exception("Marshaller from \"__notNullable_6201\" to \"__res_6199\" not supported.");
+            }
+            return __res_6199;
         }
         set
         {
@@ -81,9 +127,18 @@ public partial class PaymentRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2912;
-            throw new Exception();
-            return __res_2912;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6202;
+            JSObject? __res_6203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpaymentmethodchange");
+            if (__res_6203 is null)
+            {
+                __res_6202 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6204 = (JSObject)__res_6203;
+                throw new Exception("Marshaller from \"__notNullable_6204\" to \"__res_6202\" not supported.");
+            }
+            return __res_6202;
         }
         set
         {

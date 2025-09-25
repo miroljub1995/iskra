@@ -13,9 +13,10 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XREye __res_1716;
-            throw new Exception();
-            return __res_1716;
+            Iskra.StdWeb.XREye __res_3664;
+            JSObject __res_3665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
+            throw new Exception("Marshaller from \"__res_3665\" to \"__res_3664\" not supported.");
+            return __res_3664;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_1717;
-            throw new Exception();
-            return __res_1717;
+            double? __res_3666;
+            double? __res_3667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
+            if (__res_3667 is null)
+            {
+                __res_3666 = null;
+            }
+            else
+            {
+                double __notNullable_3668 = (double)__res_3667;
+                __res_3666 = __notNullable_3668;
+            }
+            return __res_3666;
         }
     }
 }

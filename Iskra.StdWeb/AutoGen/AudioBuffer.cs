@@ -13,9 +13,10 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_3173;
-            throw new Exception();
-            return __res_3173;
+            float __res_6772;
+            double __res_6773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_6772 = Convert.ToSingle(__res_6773);
+            return __res_6772;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3174;
-            throw new Exception();
-            return __res_3174;
+            uint __res_6774;
+            double __res_6775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6774 = Convert.ToUInt32(__res_6775);
+            return __res_6774;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3175;
-            throw new Exception();
-            return __res_3175;
+            double __res_6776;
+            double __res_6777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_6776 = __res_6777;
+            return __res_6776;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class AudioBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3176;
-            throw new Exception();
-            return __res_3176;
+            uint __res_6778;
+            double __res_6779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
+            __res_6778 = Convert.ToUInt32(__res_6779);
+            return __res_6778;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            Iskra.StdWeb.WebGLTexture __res_469;
-            throw new Exception();
-            return __res_469;
+            Iskra.StdWeb.WebGLTexture __res_939;
+            JSObject __res_940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
+            throw new Exception("Marshaller from \"__res_940\" to \"__res_939\" not supported.");
+            return __res_939;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            Iskra.StdWeb.XRTextureType __res_470;
-            throw new Exception();
-            return __res_470;
+            Iskra.StdWeb.XRTextureType __res_941;
+            JSObject __res_942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textureType");
+            throw new Exception("Marshaller from \"__res_942\" to \"__res_941\" not supported.");
+            return __res_941;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            uint? __res_471;
-            throw new Exception();
-            return __res_471;
+            uint? __res_943;
+            double? __res_944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
+            if (__res_944 is null)
+            {
+                __res_943 = null;
+            }
+            else
+            {
+                double __notNullable_945 = (double)__res_944;
+                __res_943 = Convert.ToUInt32(__notNullable_945);
+            }
+            return __res_943;
         }
     }
 }

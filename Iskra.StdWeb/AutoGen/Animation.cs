@@ -13,9 +13,10 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_631;
-            throw new Exception();
-            return __res_631;
+            string __res_1269;
+            string __res_1270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_1269 = __res_1270;
+            return __res_1269;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_632;
-            throw new Exception();
-            return __res_632;
+            Iskra.StdWeb.AnimationEffect? __res_1271;
+            JSObject? __res_1272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "effect");
+            if (__res_1272 is null)
+            {
+                __res_1271 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1273 = (JSObject)__res_1272;
+                throw new Exception("Marshaller from \"__notNullable_1273\" to \"__res_1271\" not supported.");
+            }
+            return __res_1271;
         }
         set
         {
@@ -41,9 +51,18 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationTimeline? __res_633;
-            throw new Exception();
-            return __res_633;
+            Iskra.StdWeb.AnimationTimeline? __res_1274;
+            JSObject? __res_1275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "timeline");
+            if (__res_1275 is null)
+            {
+                __res_1274 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1276 = (JSObject)__res_1275;
+                throw new Exception("Marshaller from \"__notNullable_1276\" to \"__res_1274\" not supported.");
+            }
+            return __res_1274;
         }
         set
         {
@@ -55,9 +74,10 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_634;
-            throw new Exception();
-            return __res_634;
+            double __res_1277;
+            double __res_1278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
+            __res_1277 = __res_1278;
+            return __res_1277;
         }
         set
         {
@@ -69,9 +89,10 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationPlayState __res_635;
-            throw new Exception();
-            return __res_635;
+            Iskra.StdWeb.AnimationPlayState __res_1279;
+            JSObject __res_1280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playState");
+            throw new Exception("Marshaller from \"__res_1280\" to \"__res_1279\" not supported.");
+            return __res_1279;
         }
     }
 
@@ -79,9 +100,10 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationReplaceState __res_636;
-            throw new Exception();
-            return __res_636;
+            Iskra.StdWeb.AnimationReplaceState __res_1281;
+            JSObject __res_1282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "replaceState");
+            throw new Exception("Marshaller from \"__res_1282\" to \"__res_1281\" not supported.");
+            return __res_1281;
         }
     }
 
@@ -89,9 +111,10 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_637;
-            __res_637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
-            return __res_637;
+            bool __res_1283;
+            bool __res_1284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
+            __res_1283 = __res_1284;
+            return __res_1283;
         }
     }
 
@@ -99,9 +122,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_638;
+            object __res_1285;
             throw new Exception();
-            return __res_638;
+            return __res_1285;
         }
     }
 
@@ -109,9 +132,9 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_639;
+            object __res_1286;
             throw new Exception();
-            return __res_639;
+            return __res_1286;
         }
     }
 
@@ -119,9 +142,18 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_640;
-            throw new Exception();
-            return __res_640;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1287;
+            JSObject? __res_1288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onfinish");
+            if (__res_1288 is null)
+            {
+                __res_1287 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1289 = (JSObject)__res_1288;
+                throw new Exception("Marshaller from \"__notNullable_1289\" to \"__res_1287\" not supported.");
+            }
+            return __res_1287;
         }
         set
         {
@@ -133,9 +165,18 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_641;
-            throw new Exception();
-            return __res_641;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1290;
+            JSObject? __res_1291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncancel");
+            if (__res_1291 is null)
+            {
+                __res_1290 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1292 = (JSObject)__res_1291;
+                throw new Exception("Marshaller from \"__notNullable_1292\" to \"__res_1290\" not supported.");
+            }
+            return __res_1290;
         }
         set
         {
@@ -147,9 +188,18 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_642;
-            throw new Exception();
-            return __res_642;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1293;
+            JSObject? __res_1294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremove");
+            if (__res_1294 is null)
+            {
+                __res_1293 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1295 = (JSObject)__res_1294;
+                throw new Exception("Marshaller from \"__notNullable_1295\" to \"__res_1293\" not supported.");
+            }
+            return __res_1293;
         }
         set
         {

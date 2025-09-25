@@ -13,9 +13,10 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1861;
-            throw new Exception();
-            return __res_1861;
+            string __res_3982;
+            string __res_3983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recordType");
+            __res_3982 = __res_3983;
+            return __res_3982;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1862;
-            throw new Exception();
-            return __res_1862;
+            string? __res_3984;
+            string? __res_3985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mediaType");
+            if (__res_3985 is null)
+            {
+                __res_3984 = null;
+            }
+            else
+            {
+                string __notNullable_3986 = (string)__res_3985;
+                __res_3984 = __notNullable_3986;
+            }
+            return __res_3984;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1863;
-            throw new Exception();
-            return __res_1863;
+            string? __res_3987;
+            string? __res_3988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
+            if (__res_3988 is null)
+            {
+                __res_3987 = null;
+            }
+            else
+            {
+                string __notNullable_3989 = (string)__res_3988;
+                __res_3987 = __notNullable_3989;
+            }
+            return __res_3987;
         }
     }
 
@@ -43,9 +62,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.DataView? __res_1864;
-            throw new Exception();
-            return __res_1864;
+            Iskra.JSCore.DataView? __res_3990;
+            JSObject? __res_3991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_3991 is null)
+            {
+                __res_3990 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3992 = (JSObject)__res_3991;
+                throw new Exception("Marshaller from \"__notNullable_3992\" to \"__res_3990\" not supported.");
+            }
+            return __res_3990;
         }
     }
 
@@ -53,9 +81,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1865;
-            throw new Exception();
-            return __res_1865;
+            string? __res_3993;
+            string? __res_3994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "encoding");
+            if (__res_3994 is null)
+            {
+                __res_3993 = null;
+            }
+            else
+            {
+                string __notNullable_3995 = (string)__res_3994;
+                __res_3993 = __notNullable_3995;
+            }
+            return __res_3993;
         }
     }
 
@@ -63,9 +100,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1866;
-            throw new Exception();
-            return __res_1866;
+            string? __res_3996;
+            string? __res_3997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "lang");
+            if (__res_3997 is null)
+            {
+                __res_3996 = null;
+            }
+            else
+            {
+                string __notNullable_3998 = (string)__res_3997;
+                __res_3996 = __notNullable_3998;
+            }
+            return __res_3996;
         }
     }
 }

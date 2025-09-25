@@ -13,9 +13,9 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_949;
+            object __res_2001;
             throw new Exception();
-            return __res_949;
+            return __res_2001;
         }
     }
 
@@ -23,9 +23,18 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_950;
-            throw new Exception();
-            return __res_950;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2002;
+            JSObject? __res_2003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
+            if (__res_2003 is null)
+            {
+                __res_2002 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2004 = (JSObject)__res_2003;
+                throw new Exception("Marshaller from \"__notNullable_2004\" to \"__res_2002\" not supported.");
+            }
+            return __res_2002;
         }
         set
         {

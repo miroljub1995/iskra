@@ -13,9 +13,18 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_1787;
-            throw new Exception();
-            return __res_1787;
+            string? __res_3810;
+            string? __res_3811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "override");
+            if (__res_3811 is null)
+            {
+                __res_3810 = null;
+            }
+            else
+            {
+                string __notNullable_3812 = (string)__res_3811;
+                __res_3810 = __notNullable_3812;
+            }
+            return __res_3810;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1788;
-            throw new Exception();
-            return __res_1788;
+            string __res_3813;
+            string __res_3814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_3813 = __res_3814;
+            return __res_3813;
         }
     }
 
@@ -33,9 +43,9 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_1789;
+            object __res_3815;
             throw new Exception();
-            return __res_1789;
+            return __res_3815;
         }
     }
 
@@ -43,9 +53,18 @@ public partial class PreferenceObject(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1790;
-            throw new Exception();
-            return __res_1790;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3816;
+            JSObject? __res_3817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_3817 is null)
+            {
+                __res_3816 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3818 = (JSObject)__res_3817;
+                throw new Exception("Marshaller from \"__notNullable_3818\" to \"__res_3816\" not supported.");
+            }
+            return __res_3816;
         }
         set
         {

@@ -13,9 +13,18 @@ public partial class CloseWatcher(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2571;
-            throw new Exception();
-            return __res_2571;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5468;
+            JSObject? __res_5469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncancel");
+            if (__res_5469 is null)
+            {
+                __res_5468 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5470 = (JSObject)__res_5469;
+                throw new Exception("Marshaller from \"__notNullable_5470\" to \"__res_5468\" not supported.");
+            }
+            return __res_5468;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class CloseWatcher(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2572;
-            throw new Exception();
-            return __res_2572;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5471;
+            JSObject? __res_5472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclose");
+            if (__res_5472 is null)
+            {
+                __res_5471 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5473 = (JSObject)__res_5472;
+                throw new Exception("Marshaller from \"__notNullable_5473\" to \"__res_5471\" not supported.");
+            }
+            return __res_5471;
         }
         set
         {

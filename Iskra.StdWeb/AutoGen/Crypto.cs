@@ -13,9 +13,10 @@ public partial class Crypto(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SubtleCrypto __res_626;
-            throw new Exception();
-            return __res_626;
+            Iskra.StdWeb.SubtleCrypto __res_1259;
+            JSObject __res_1260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subtle");
+            throw new Exception("Marshaller from \"__res_1260\" to \"__res_1259\" not supported.");
+            return __res_1259;
         }
     }
 }

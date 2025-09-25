@@ -13,9 +13,10 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.CodecState __res_1047;
-            throw new Exception();
-            return __res_1047;
+            Iskra.StdWeb.CodecState __res_2203;
+            JSObject __res_2204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_2204\" to \"__res_2203\" not supported.");
+            return __res_2203;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_1048;
-            throw new Exception();
-            return __res_1048;
+            uint __res_2205;
+            double __res_2206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodeQueueSize");
+            __res_2205 = Convert.ToUInt32(__res_2206);
+            return __res_2205;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1049;
-            throw new Exception();
-            return __res_1049;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2207;
+            JSObject? __res_2208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
+            if (__res_2208 is null)
+            {
+                __res_2207 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2209 = (JSObject)__res_2208;
+                throw new Exception("Marshaller from \"__notNullable_2209\" to \"__res_2207\" not supported.");
+            }
+            return __res_2207;
         }
         set
         {

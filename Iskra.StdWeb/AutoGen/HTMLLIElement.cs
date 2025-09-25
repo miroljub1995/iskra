@@ -13,9 +13,10 @@ public partial class HTMLLIElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2160;
-            throw new Exception();
-            return __res_2160;
+            int __res_4598;
+            double __res_4599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_4598 = Convert.ToInt32(__res_4599);
+            return __res_4598;
         }
         set
         {

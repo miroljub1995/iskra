@@ -13,9 +13,18 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_276;
-            throw new Exception();
-            return __res_276;
+            double? __res_524;
+            double? __res_525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_525 is null)
+            {
+                __res_524 = null;
+            }
+            else
+            {
+                double __notNullable_526 = (double)__res_525;
+                __res_524 = __notNullable_526;
+            }
+            return __res_524;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_277;
-            throw new Exception();
-            return __res_277;
+            double? __res_527;
+            double? __res_528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_528 is null)
+            {
+                __res_527 = null;
+            }
+            else
+            {
+                double __notNullable_529 = (double)__res_528;
+                __res_527 = __notNullable_529;
+            }
+            return __res_527;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_278;
-            throw new Exception();
-            return __res_278;
+            double? __res_530;
+            double? __res_531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_531 is null)
+            {
+                __res_530 = null;
+            }
+            else
+            {
+                double __notNullable_532 = (double)__res_531;
+                __res_530 = __notNullable_532;
+            }
+            return __res_530;
         }
     }
 }

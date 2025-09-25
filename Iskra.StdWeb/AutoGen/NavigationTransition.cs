@@ -13,9 +13,10 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType __res_2636;
-            throw new Exception();
-            return __res_2636;
+            Iskra.StdWeb.NavigationType __res_5612;
+            JSObject __res_5613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
+            throw new Exception("Marshaller from \"__res_5613\" to \"__res_5612\" not supported.");
+            return __res_5612;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_2637;
-            throw new Exception();
-            return __res_2637;
+            Iskra.StdWeb.NavigationHistoryEntry __res_5614;
+            JSObject __res_5615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            throw new Exception("Marshaller from \"__res_5615\" to \"__res_5614\" not supported.");
+            return __res_5614;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2638;
+            object __res_5616;
             throw new Exception();
-            return __res_2638;
+            return __res_5616;
         }
     }
 
@@ -43,9 +45,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2639;
+            object __res_5617;
             throw new Exception();
-            return __res_2639;
+            return __res_5617;
         }
     }
 }

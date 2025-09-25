@@ -13,9 +13,18 @@ public partial class KeyFrameRequestEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_459;
-            throw new Exception();
-            return __res_459;
+            string? __res_917;
+            string? __res_918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "rid");
+            if (__res_918 is null)
+            {
+                __res_917 = null;
+            }
+            else
+            {
+                string __notNullable_919 = (string)__res_918;
+                __res_917 = __notNullable_919;
+            }
+            return __res_917;
         }
     }
 }

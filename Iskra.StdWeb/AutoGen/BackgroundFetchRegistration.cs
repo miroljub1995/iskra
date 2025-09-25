@@ -13,9 +13,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1400;
-            throw new Exception();
-            return __res_1400;
+            string __res_2981;
+            string __res_2982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_2981 = __res_2982;
+            return __res_2981;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1401;
-            throw new Exception();
-            return __res_1401;
+            ulong __res_2983;
+            double __res_2984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
+            __res_2983 = Convert.ToUInt64(__res_2984);
+            return __res_2983;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1402;
-            throw new Exception();
-            return __res_1402;
+            ulong __res_2985;
+            double __res_2986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
+            __res_2985 = Convert.ToUInt64(__res_2986);
+            return __res_2985;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1403;
-            throw new Exception();
-            return __res_1403;
+            ulong __res_2987;
+            double __res_2988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
+            __res_2987 = Convert.ToUInt64(__res_2988);
+            return __res_2987;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1404;
-            throw new Exception();
-            return __res_1404;
+            ulong __res_2989;
+            double __res_2990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
+            __res_2989 = Convert.ToUInt64(__res_2990);
+            return __res_2989;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BackgroundFetchResult __res_1405;
-            throw new Exception();
-            return __res_1405;
+            Iskra.StdWeb.BackgroundFetchResult __res_2991;
+            JSObject __res_2992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
+            throw new Exception("Marshaller from \"__res_2992\" to \"__res_2991\" not supported.");
+            return __res_2991;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BackgroundFetchFailureReason __res_1406;
-            throw new Exception();
-            return __res_1406;
+            Iskra.StdWeb.BackgroundFetchFailureReason __res_2993;
+            JSObject __res_2994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "failureReason");
+            throw new Exception("Marshaller from \"__res_2994\" to \"__res_2993\" not supported.");
+            return __res_2993;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1407;
-            __res_1407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
-            return __res_1407;
+            bool __res_2995;
+            bool __res_2996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
+            __res_2995 = __res_2996;
+            return __res_2995;
         }
     }
 
@@ -93,9 +101,18 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1408;
-            throw new Exception();
-            return __res_1408;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2997;
+            JSObject? __res_2998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
+            if (__res_2998 is null)
+            {
+                __res_2997 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2999 = (JSObject)__res_2998;
+                throw new Exception("Marshaller from \"__notNullable_2999\" to \"__res_2997\" not supported.");
+            }
+            return __res_2997;
         }
         set
         {

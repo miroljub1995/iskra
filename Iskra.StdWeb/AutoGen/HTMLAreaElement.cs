@@ -13,9 +13,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2312;
-            throw new Exception();
-            return __res_2312;
+            string __res_4922;
+            string __res_4923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alt");
+            __res_4922 = __res_4923;
+            return __res_4922;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2313;
-            throw new Exception();
-            return __res_2313;
+            string __res_4924;
+            string __res_4925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "coords");
+            __res_4924 = __res_4925;
+            return __res_4924;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2314;
-            throw new Exception();
-            return __res_2314;
+            string __res_4926;
+            string __res_4927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shape");
+            __res_4926 = __res_4927;
+            return __res_4926;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2315;
-            throw new Exception();
-            return __res_2315;
+            string __res_4928;
+            string __res_4929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_4928 = __res_4929;
+            return __res_4928;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2316;
-            throw new Exception();
-            return __res_2316;
+            string __res_4930;
+            string __res_4931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
+            __res_4930 = __res_4931;
+            return __res_4930;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2317;
-            throw new Exception();
-            return __res_2317;
+            string __res_4932;
+            string __res_4933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
+            __res_4932 = __res_4933;
+            return __res_4932;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2318;
-            throw new Exception();
-            return __res_2318;
+            string __res_4934;
+            string __res_4935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_4934 = __res_4935;
+            return __res_4934;
         }
         set
         {
@@ -111,9 +118,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_2319;
-            throw new Exception();
-            return __res_2319;
+            Iskra.StdWeb.DOMTokenList __res_4936;
+            JSObject __res_4937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            throw new Exception("Marshaller from \"__res_4937\" to \"__res_4936\" not supported.");
+            return __res_4936;
         }
     }
 
@@ -121,9 +129,10 @@ public partial class HTMLAreaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2320;
-            throw new Exception();
-            return __res_2320;
+            string __res_4938;
+            string __res_4939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_4938 = __res_4939;
+            return __res_4938;
         }
         set
         {

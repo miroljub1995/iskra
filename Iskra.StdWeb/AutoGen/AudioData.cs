@@ -13,9 +13,18 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioSampleFormat? __res_1061;
-            throw new Exception();
-            return __res_1061;
+            Iskra.StdWeb.AudioSampleFormat? __res_2235;
+            JSObject? __res_2236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
+            if (__res_2236 is null)
+            {
+                __res_2235 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2237 = (JSObject)__res_2236;
+                throw new Exception("Marshaller from \"__notNullable_2237\" to \"__res_2235\" not supported.");
+            }
+            return __res_2235;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1062;
-            throw new Exception();
-            return __res_1062;
+            float __res_2238;
+            double __res_2239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_2238 = Convert.ToSingle(__res_2239);
+            return __res_2238;
         }
     }
 
@@ -33,9 +43,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1063;
-            throw new Exception();
-            return __res_1063;
+            uint __res_2240;
+            double __res_2241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfFrames");
+            __res_2240 = Convert.ToUInt32(__res_2241);
+            return __res_2240;
         }
     }
 
@@ -43,9 +54,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1064;
-            throw new Exception();
-            return __res_1064;
+            uint __res_2242;
+            double __res_2243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
+            __res_2242 = Convert.ToUInt32(__res_2243);
+            return __res_2242;
         }
     }
 
@@ -53,9 +65,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_1065;
-            throw new Exception();
-            return __res_1065;
+            ulong __res_2244;
+            double __res_2245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_2244 = Convert.ToUInt64(__res_2245);
+            return __res_2244;
         }
     }
 
@@ -63,9 +76,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_1066;
-            throw new Exception();
-            return __res_1066;
+            long __res_2246;
+            double __res_2247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2246 = Convert.ToInt64(__res_2247);
+            return __res_2246;
         }
     }
 }

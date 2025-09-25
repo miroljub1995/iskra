@@ -13,9 +13,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_109;
-            throw new Exception();
-            return __res_109;
+            Iskra.StdWeb.WritableStream __res_184;
+            JSObject __res_185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller from \"__res_185\" to \"__res_184\" not supported.");
+            return __res_184;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_110;
-            __res_110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            return __res_110;
+            bool __res_186;
+            bool __res_187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_186 = __res_187;
+            return __res_186;
         }
         set
         {
@@ -37,9 +39,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_111;
-            throw new Exception();
-            return __res_111;
+            Iskra.StdWeb.MediaStreamTrack __res_188;
+            JSObject __res_189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller from \"__res_189\" to \"__res_188\" not supported.");
+            return __res_188;
         }
     }
 }

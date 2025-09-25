@@ -13,9 +13,10 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.BreakType __res_3080;
-            throw new Exception();
-            return __res_3080;
+            Iskra.StdWeb.BreakType __res_6574;
+            JSObject __res_6575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "breakType");
+            throw new Exception("Marshaller from \"__res_6575\" to \"__res_6574\" not supported.");
+            return __res_6574;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.LayoutChild __res_3081;
-            throw new Exception();
-            return __res_3081;
+            Iskra.StdWeb.LayoutChild __res_6576;
+            JSObject __res_6577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
+            throw new Exception("Marshaller from \"__res_6577\" to \"__res_6576\" not supported.");
+            return __res_6576;
         }
     }
 }

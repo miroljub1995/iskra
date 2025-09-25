@@ -13,9 +13,10 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            uint __res_2225;
-            throw new Exception();
-            return __res_2225;
+            uint __res_4733;
+            double __res_4734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_4733 = Convert.ToUInt32(__res_4734);
+            return __res_4733;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            uint __res_2226;
-            throw new Exception();
-            return __res_2226;
+            uint __res_4735;
+            double __res_4736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_4735 = Convert.ToUInt32(__res_4736);
+            return __res_4735;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            uint __res_2227;
-            throw new Exception();
-            return __res_2227;
+            uint __res_4737;
+            double __res_4738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "videoWidth");
+            __res_4737 = Convert.ToUInt32(__res_4738);
+            return __res_4737;
         }
     }
 
@@ -51,9 +54,10 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            uint __res_2228;
-            throw new Exception();
-            return __res_2228;
+            uint __res_4739;
+            double __res_4740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "videoHeight");
+            __res_4739 = Convert.ToUInt32(__res_4740);
+            return __res_4739;
         }
     }
 
@@ -61,9 +65,10 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            string __res_2229;
-            throw new Exception();
-            return __res_2229;
+            string __res_4741;
+            string __res_4742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "poster");
+            __res_4741 = __res_4742;
+            return __res_4741;
         }
         set
         {
@@ -75,9 +80,10 @@ public partial class HTMLVideoElement(JSObject obj): HTMLMediaElement(obj)
     {
         get
         {
-            bool __res_2230;
-            __res_2230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "playsInline");
-            return __res_2230;
+            bool __res_4743;
+            bool __res_4744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "playsInline");
+            __res_4743 = __res_4744;
+            return __res_4743;
         }
         set
         {

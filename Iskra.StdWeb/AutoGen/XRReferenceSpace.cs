@@ -13,9 +13,18 @@ public partial class XRReferenceSpace(JSObject obj): XRSpace(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1714;
-            throw new Exception();
-            return __res_1714;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3660;
+            JSObject? __res_3661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreset");
+            if (__res_3661 is null)
+            {
+                __res_3660 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3662 = (JSObject)__res_3661;
+                throw new Exception("Marshaller from \"__notNullable_3662\" to \"__res_3660\" not supported.");
+            }
+            return __res_3660;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            double __res_3164;
-            throw new Exception();
-            return __res_3164;
+            double __res_6752;
+            double __res_6753 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseLatency");
+            __res_6752 = __res_6753;
+            return __res_6752;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            double __res_3165;
-            throw new Exception();
-            return __res_3165;
+            double __res_6754;
+            double __res_6755 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outputLatency");
+            __res_6754 = __res_6755;
+            return __res_6754;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            object __res_3166;
+            object __res_6756;
             throw new Exception();
-            return __res_3166;
+            return __res_6756;
         }
     }
 
@@ -43,9 +45,18 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3167;
-            throw new Exception();
-            return __res_3167;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6757;
+            JSObject? __res_6758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange");
+            if (__res_6758 is null)
+            {
+                __res_6757 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6759 = (JSObject)__res_6758;
+                throw new Exception("Marshaller from \"__notNullable_6759\" to \"__res_6757\" not supported.");
+            }
+            return __res_6757;
         }
         set
         {
@@ -57,9 +68,18 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3168;
-            throw new Exception();
-            return __res_3168;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6760;
+            JSObject? __res_6761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_6761 is null)
+            {
+                __res_6760 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6762 = (JSObject)__res_6761;
+                throw new Exception("Marshaller from \"__notNullable_6762\" to \"__res_6760\" not supported.");
+            }
+            return __res_6760;
         }
         set
         {

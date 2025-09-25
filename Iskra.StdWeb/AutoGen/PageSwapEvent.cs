@@ -13,9 +13,18 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationActivation? __res_2665;
-            throw new Exception();
-            return __res_2665;
+            Iskra.StdWeb.NavigationActivation? __res_5673;
+            JSObject? __res_5674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
+            if (__res_5674 is null)
+            {
+                __res_5673 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5675 = (JSObject)__res_5674;
+                throw new Exception("Marshaller from \"__notNullable_5675\" to \"__res_5673\" not supported.");
+            }
+            return __res_5673;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.ViewTransition? __res_2666;
-            throw new Exception();
-            return __res_2666;
+            Iskra.StdWeb.ViewTransition? __res_5676;
+            JSObject? __res_5677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
+            if (__res_5677 is null)
+            {
+                __res_5676 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5678 = (JSObject)__res_5677;
+                throw new Exception("Marshaller from \"__notNullable_5678\" to \"__res_5676\" not supported.");
+            }
+            return __res_5676;
         }
     }
 }

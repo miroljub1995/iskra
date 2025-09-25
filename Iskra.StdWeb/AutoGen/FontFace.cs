@@ -13,9 +13,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_873;
-            throw new Exception();
-            return __res_873;
+            string __res_1841;
+            string __res_1842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "family");
+            __res_1841 = __res_1842;
+            return __res_1841;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_874;
-            throw new Exception();
-            return __res_874;
+            string __res_1843;
+            string __res_1844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "style");
+            __res_1843 = __res_1844;
+            return __res_1843;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_875;
-            throw new Exception();
-            return __res_875;
+            string __res_1845;
+            string __res_1846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "weight");
+            __res_1845 = __res_1846;
+            return __res_1845;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_876;
-            throw new Exception();
-            return __res_876;
+            string __res_1847;
+            string __res_1848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stretch");
+            __res_1847 = __res_1848;
+            return __res_1847;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_877;
-            throw new Exception();
-            return __res_877;
+            string __res_1849;
+            string __res_1850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicodeRange");
+            __res_1849 = __res_1850;
+            return __res_1849;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_878;
-            throw new Exception();
-            return __res_878;
+            string __res_1851;
+            string __res_1852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "featureSettings");
+            __res_1851 = __res_1852;
+            return __res_1851;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_879;
-            throw new Exception();
-            return __res_879;
+            string __res_1853;
+            string __res_1854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variationSettings");
+            __res_1853 = __res_1854;
+            return __res_1853;
         }
         set
         {
@@ -111,9 +118,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_880;
-            throw new Exception();
-            return __res_880;
+            string __res_1855;
+            string __res_1856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "display");
+            __res_1855 = __res_1856;
+            return __res_1855;
         }
         set
         {
@@ -125,9 +133,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_881;
-            throw new Exception();
-            return __res_881;
+            string __res_1857;
+            string __res_1858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascentOverride");
+            __res_1857 = __res_1858;
+            return __res_1857;
         }
         set
         {
@@ -139,9 +148,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_882;
-            throw new Exception();
-            return __res_882;
+            string __res_1859;
+            string __res_1860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descentOverride");
+            __res_1859 = __res_1860;
+            return __res_1859;
         }
         set
         {
@@ -153,9 +163,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_883;
-            throw new Exception();
-            return __res_883;
+            string __res_1861;
+            string __res_1862 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineGapOverride");
+            __res_1861 = __res_1862;
+            return __res_1861;
         }
         set
         {
@@ -167,9 +178,10 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FontFaceLoadStatus __res_884;
-            throw new Exception();
-            return __res_884;
+            Iskra.StdWeb.FontFaceLoadStatus __res_1863;
+            JSObject __res_1864 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
+            throw new Exception("Marshaller from \"__res_1864\" to \"__res_1863\" not supported.");
+            return __res_1863;
         }
     }
 
@@ -177,9 +189,9 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_885;
+            object __res_1865;
             throw new Exception();
-            return __res_885;
+            return __res_1865;
         }
     }
 }

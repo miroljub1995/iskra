@@ -13,9 +13,10 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1339;
-            throw new Exception();
-            return __res_1339;
+            string __res_2848;
+            string __res_2849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2848 = __res_2849;
+            return __res_2848;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1340;
-            throw new Exception();
-            return __res_1340;
+            string __res_2850;
+            string __res_2851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
+            __res_2850 = __res_2851;
+            return __res_2850;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1341;
-            throw new Exception();
-            return __res_1341;
+            string __res_2852;
+            string __res_2853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
+            __res_2852 = __res_2853;
+            return __res_2852;
         }
     }
 }

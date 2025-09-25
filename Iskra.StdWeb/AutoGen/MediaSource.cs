@@ -13,9 +13,10 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaSourceHandle __res_2963;
-            throw new Exception();
-            return __res_2963;
+            Iskra.StdWeb.MediaSourceHandle __res_6313;
+            JSObject __res_6314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handle");
+            throw new Exception("Marshaller from \"__res_6314\" to \"__res_6313\" not supported.");
+            return __res_6313;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.SourceBufferList __res_2964;
-            throw new Exception();
-            return __res_2964;
+            Iskra.StdWeb.SourceBufferList __res_6315;
+            JSObject __res_6316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceBuffers");
+            throw new Exception("Marshaller from \"__res_6316\" to \"__res_6315\" not supported.");
+            return __res_6315;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.SourceBufferList __res_2965;
-            throw new Exception();
-            return __res_2965;
+            Iskra.StdWeb.SourceBufferList __res_6317;
+            JSObject __res_6318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "activeSourceBuffers");
+            throw new Exception("Marshaller from \"__res_6318\" to \"__res_6317\" not supported.");
+            return __res_6317;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadyState __res_2966;
-            throw new Exception();
-            return __res_2966;
+            Iskra.StdWeb.ReadyState __res_6319;
+            JSObject __res_6320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
+            throw new Exception("Marshaller from \"__res_6320\" to \"__res_6319\" not supported.");
+            return __res_6319;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2967;
-            throw new Exception();
-            return __res_2967;
+            double __res_6321;
+            double __res_6322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_6321 = __res_6322;
+            return __res_6321;
         }
         set
         {
@@ -67,9 +72,18 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2968;
-            throw new Exception();
-            return __res_2968;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6323;
+            JSObject? __res_6324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen");
+            if (__res_6324 is null)
+            {
+                __res_6323 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6325 = (JSObject)__res_6324;
+                throw new Exception("Marshaller from \"__notNullable_6325\" to \"__res_6323\" not supported.");
+            }
+            return __res_6323;
         }
         set
         {
@@ -81,9 +95,18 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2969;
-            throw new Exception();
-            return __res_2969;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6326;
+            JSObject? __res_6327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended");
+            if (__res_6327 is null)
+            {
+                __res_6326 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6328 = (JSObject)__res_6327;
+                throw new Exception("Marshaller from \"__notNullable_6328\" to \"__res_6326\" not supported.");
+            }
+            return __res_6326;
         }
         set
         {
@@ -95,9 +118,18 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2970;
-            throw new Exception();
-            return __res_2970;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6329;
+            JSObject? __res_6330 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose");
+            if (__res_6330 is null)
+            {
+                __res_6329 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6331 = (JSObject)__res_6330;
+                throw new Exception("Marshaller from \"__notNullable_6331\" to \"__res_6329\" not supported.");
+            }
+            return __res_6329;
         }
         set
         {
@@ -109,9 +141,9 @@ public partial class MediaSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2971;
+            bool __res_6332;
             throw new Exception();
-            return __res_2971;
+            return __res_6332;
         }
     }
 }

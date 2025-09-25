@@ -13,9 +13,10 @@ public partial class GPU(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WGSLLanguageFeatures __res_328;
-            throw new Exception();
-            return __res_328;
+            Iskra.StdWeb.WGSLLanguageFeatures __res_636;
+            JSObject __res_637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wgslLanguageFeatures");
+            throw new Exception("Marshaller from \"__res_637\" to \"__res_636\" not supported.");
+            return __res_636;
         }
     }
 }

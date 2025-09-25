@@ -13,9 +13,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_241;
-            throw new Exception();
-            return __res_241;
+            Iskra.StdWeb.SVGAnimatedLength __res_455;
+            JSObject __res_456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
+            throw new Exception("Marshaller from \"__res_456\" to \"__res_455\" not supported.");
+            return __res_455;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_242;
-            throw new Exception();
-            return __res_242;
+            Iskra.StdWeb.SVGAnimatedLength __res_457;
+            JSObject __res_458 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
+            throw new Exception("Marshaller from \"__res_458\" to \"__res_457\" not supported.");
+            return __res_457;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_243;
-            throw new Exception();
-            return __res_243;
+            Iskra.StdWeb.SVGAnimatedLength __res_459;
+            JSObject __res_460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
+            throw new Exception("Marshaller from \"__res_460\" to \"__res_459\" not supported.");
+            return __res_459;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_244;
-            throw new Exception();
-            return __res_244;
+            Iskra.StdWeb.SVGAnimatedLength __res_461;
+            JSObject __res_462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fx");
+            throw new Exception("Marshaller from \"__res_462\" to \"__res_461\" not supported.");
+            return __res_461;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_245;
-            throw new Exception();
-            return __res_245;
+            Iskra.StdWeb.SVGAnimatedLength __res_463;
+            JSObject __res_464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fy");
+            throw new Exception("Marshaller from \"__res_464\" to \"__res_463\" not supported.");
+            return __res_463;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_246;
-            throw new Exception();
-            return __res_246;
+            Iskra.StdWeb.SVGAnimatedLength __res_465;
+            JSObject __res_466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fr");
+            throw new Exception("Marshaller from \"__res_466\" to \"__res_465\" not supported.");
+            return __res_465;
         }
     }
 }

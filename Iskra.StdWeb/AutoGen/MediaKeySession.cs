@@ -13,9 +13,10 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2079;
-            throw new Exception();
-            return __res_2079;
+            string __res_4434;
+            string __res_4435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sessionId");
+            __res_4434 = __res_4435;
+            return __res_4434;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2080;
-            throw new Exception();
-            return __res_2080;
+            double __res_4436;
+            double __res_4437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expiration");
+            __res_4436 = __res_4437;
+            return __res_4436;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_2081;
+            object __res_4438;
             throw new Exception();
-            return __res_2081;
+            return __res_4438;
         }
     }
 
@@ -43,9 +45,10 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaKeyStatusMap __res_2082;
-            throw new Exception();
-            return __res_2082;
+            Iskra.StdWeb.MediaKeyStatusMap __res_4439;
+            JSObject __res_4440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyStatuses");
+            throw new Exception("Marshaller from \"__res_4440\" to \"__res_4439\" not supported.");
+            return __res_4439;
         }
     }
 
@@ -53,9 +56,18 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2083;
-            throw new Exception();
-            return __res_2083;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4441;
+            JSObject? __res_4442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange");
+            if (__res_4442 is null)
+            {
+                __res_4441 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4443 = (JSObject)__res_4442;
+                throw new Exception("Marshaller from \"__notNullable_4443\" to \"__res_4441\" not supported.");
+            }
+            return __res_4441;
         }
         set
         {
@@ -67,9 +79,18 @@ public partial class MediaKeySession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2084;
-            throw new Exception();
-            return __res_2084;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4444;
+            JSObject? __res_4445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_4445 is null)
+            {
+                __res_4444 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4446 = (JSObject)__res_4445;
+                throw new Exception("Marshaller from \"__notNullable_4446\" to \"__res_4444\" not supported.");
+            }
+            return __res_4444;
         }
         set
         {

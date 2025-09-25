@@ -13,9 +13,10 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_1239;
-            throw new Exception();
-            return __res_1239;
+            string __res_2626;
+            string __res_2627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2626 = __res_2627;
+            return __res_2626;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_1240;
-            throw new Exception();
-            return __res_1240;
+            Iskra.StdWeb.CSSRuleList __res_2628;
+            JSObject __res_2629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            throw new Exception("Marshaller from \"__res_2629\" to \"__res_2628\" not supported.");
+            return __res_2628;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            uint __res_1241;
-            throw new Exception();
-            return __res_1241;
+            uint __res_2630;
+            double __res_2631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2630 = Convert.ToUInt32(__res_2631);
+            return __res_2630;
         }
     }
 }

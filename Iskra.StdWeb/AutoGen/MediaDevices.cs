@@ -13,9 +13,18 @@ public partial class MediaDevices(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1579;
-            throw new Exception();
-            return __res_1579;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3352;
+            JSObject? __res_3353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_3353 is null)
+            {
+                __res_3352 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3354 = (JSObject)__res_3353;
+                throw new Exception("Marshaller from \"__notNullable_3354\" to \"__res_3352\" not supported.");
+            }
+            return __res_3352;
         }
         set
         {

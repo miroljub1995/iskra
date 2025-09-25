@@ -13,9 +13,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Window __res_2582;
-            throw new Exception();
-            return __res_2582;
+            Iskra.StdWeb.Window __res_5492;
+            JSObject __res_5493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
+            throw new Exception("Marshaller from \"__res_5493\" to \"__res_5492\" not supported.");
+            return __res_5492;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Window __res_2583;
-            throw new Exception();
-            return __res_2583;
+            Iskra.StdWeb.Window __res_5494;
+            JSObject __res_5495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "self");
+            throw new Exception("Marshaller from \"__res_5495\" to \"__res_5494\" not supported.");
+            return __res_5494;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Document __res_2584;
-            throw new Exception();
-            return __res_2584;
+            Iskra.StdWeb.Document __res_5496;
+            JSObject __res_5497 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
+            throw new Exception("Marshaller from \"__res_5497\" to \"__res_5496\" not supported.");
+            return __res_5496;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2585;
-            throw new Exception();
-            return __res_2585;
+            string __res_5498;
+            string __res_5499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5498 = __res_5499;
+            return __res_5498;
         }
         set
         {
@@ -57,9 +61,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Location __res_2586;
-            throw new Exception();
-            return __res_2586;
+            Iskra.StdWeb.Location __res_5500;
+            JSObject __res_5501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "location");
+            throw new Exception("Marshaller from \"__res_5501\" to \"__res_5500\" not supported.");
+            return __res_5500;
         }
     }
 
@@ -67,9 +72,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.History __res_2587;
-            throw new Exception();
-            return __res_2587;
+            Iskra.StdWeb.History __res_5502;
+            JSObject __res_5503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "history");
+            throw new Exception("Marshaller from \"__res_5503\" to \"__res_5502\" not supported.");
+            return __res_5502;
         }
     }
 
@@ -77,9 +83,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Navigation __res_2588;
-            throw new Exception();
-            return __res_2588;
+            Iskra.StdWeb.Navigation __res_5504;
+            JSObject __res_5505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigation");
+            throw new Exception("Marshaller from \"__res_5505\" to \"__res_5504\" not supported.");
+            return __res_5504;
         }
     }
 
@@ -87,9 +94,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.CustomElementRegistry __res_2589;
-            throw new Exception();
-            return __res_2589;
+            Iskra.StdWeb.CustomElementRegistry __res_5506;
+            JSObject __res_5507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "customElements");
+            throw new Exception("Marshaller from \"__res_5507\" to \"__res_5506\" not supported.");
+            return __res_5506;
         }
     }
 
@@ -97,9 +105,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BarProp __res_2590;
-            throw new Exception();
-            return __res_2590;
+            Iskra.StdWeb.BarProp __res_5508;
+            JSObject __res_5509 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locationbar");
+            throw new Exception("Marshaller from \"__res_5509\" to \"__res_5508\" not supported.");
+            return __res_5508;
         }
     }
 
@@ -107,9 +116,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BarProp __res_2591;
-            throw new Exception();
-            return __res_2591;
+            Iskra.StdWeb.BarProp __res_5510;
+            JSObject __res_5511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "menubar");
+            throw new Exception("Marshaller from \"__res_5511\" to \"__res_5510\" not supported.");
+            return __res_5510;
         }
     }
 
@@ -117,9 +127,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BarProp __res_2592;
-            throw new Exception();
-            return __res_2592;
+            Iskra.StdWeb.BarProp __res_5512;
+            JSObject __res_5513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "personalbar");
+            throw new Exception("Marshaller from \"__res_5513\" to \"__res_5512\" not supported.");
+            return __res_5512;
         }
     }
 
@@ -127,9 +138,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BarProp __res_2593;
-            throw new Exception();
-            return __res_2593;
+            Iskra.StdWeb.BarProp __res_5514;
+            JSObject __res_5515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollbars");
+            throw new Exception("Marshaller from \"__res_5515\" to \"__res_5514\" not supported.");
+            return __res_5514;
         }
     }
 
@@ -137,9 +149,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BarProp __res_2594;
-            throw new Exception();
-            return __res_2594;
+            Iskra.StdWeb.BarProp __res_5516;
+            JSObject __res_5517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "statusbar");
+            throw new Exception("Marshaller from \"__res_5517\" to \"__res_5516\" not supported.");
+            return __res_5516;
         }
     }
 
@@ -147,9 +160,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BarProp __res_2595;
-            throw new Exception();
-            return __res_2595;
+            Iskra.StdWeb.BarProp __res_5518;
+            JSObject __res_5519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "toolbar");
+            throw new Exception("Marshaller from \"__res_5519\" to \"__res_5518\" not supported.");
+            return __res_5518;
         }
     }
 
@@ -157,9 +171,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2596;
-            throw new Exception();
-            return __res_2596;
+            string __res_5520;
+            string __res_5521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_5520 = __res_5521;
+            return __res_5520;
         }
         set
         {
@@ -171,9 +186,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2597;
-            __res_2597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "closed");
-            return __res_2597;
+            bool __res_5522;
+            bool __res_5523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "closed");
+            __res_5522 = __res_5523;
+            return __res_5522;
         }
     }
 
@@ -181,9 +197,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Window __res_2598;
-            throw new Exception();
-            return __res_2598;
+            Iskra.StdWeb.Window __res_5524;
+            JSObject __res_5525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frames");
+            throw new Exception("Marshaller from \"__res_5525\" to \"__res_5524\" not supported.");
+            return __res_5524;
         }
     }
 
@@ -191,9 +208,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_2599;
-            throw new Exception();
-            return __res_2599;
+            uint __res_5526;
+            double __res_5527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5526 = Convert.ToUInt32(__res_5527);
+            return __res_5526;
         }
     }
 
@@ -201,9 +219,18 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_2600;
-            throw new Exception();
-            return __res_2600;
+            Iskra.StdWeb.Window? __res_5528;
+            JSObject? __res_5529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "top");
+            if (__res_5529 is null)
+            {
+                __res_5528 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5530 = (JSObject)__res_5529;
+                throw new Exception("Marshaller from \"__notNullable_5530\" to \"__res_5528\" not supported.");
+            }
+            return __res_5528;
         }
     }
 
@@ -211,9 +238,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object? __res_2601;
-            throw new Exception();
-            return __res_2601;
+            object? __res_5531;
+            JSObject __res_5532 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "opener");
+            __res_5531 = __res_5532;
+            return __res_5531;
         }
         set
         {
@@ -225,9 +253,18 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_2602;
-            throw new Exception();
-            return __res_2602;
+            Iskra.StdWeb.Window? __res_5533;
+            JSObject? __res_5534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parent");
+            if (__res_5534 is null)
+            {
+                __res_5533 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5535 = (JSObject)__res_5534;
+                throw new Exception("Marshaller from \"__notNullable_5535\" to \"__res_5533\" not supported.");
+            }
+            return __res_5533;
         }
     }
 
@@ -235,9 +272,18 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_2603;
-            throw new Exception();
-            return __res_2603;
+            Iskra.StdWeb.Element? __res_5536;
+            JSObject? __res_5537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "frameElement");
+            if (__res_5537 is null)
+            {
+                __res_5536 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5538 = (JSObject)__res_5537;
+                throw new Exception("Marshaller from \"__notNullable_5538\" to \"__res_5536\" not supported.");
+            }
+            return __res_5536;
         }
     }
 
@@ -245,9 +291,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Navigator __res_2604;
-            throw new Exception();
-            return __res_2604;
+            Iskra.StdWeb.Navigator __res_5539;
+            JSObject __res_5540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            throw new Exception("Marshaller from \"__res_5540\" to \"__res_5539\" not supported.");
+            return __res_5539;
         }
     }
 
@@ -255,9 +302,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Navigator __res_2605;
-            throw new Exception();
-            return __res_2605;
+            Iskra.StdWeb.Navigator __res_5541;
+            JSObject __res_5542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clientInformation");
+            throw new Exception("Marshaller from \"__res_5542\" to \"__res_5541\" not supported.");
+            return __res_5541;
         }
     }
 
@@ -265,9 +313,10 @@ public partial class Window(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2606;
-            __res_2606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "originAgentCluster");
-            return __res_2606;
+            bool __res_5543;
+            bool __res_5544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "originAgentCluster");
+            __res_5543 = __res_5544;
+            return __res_5543;
         }
     }
 }

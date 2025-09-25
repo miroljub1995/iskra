@@ -13,9 +13,9 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3082;
+            object __res_6578;
             throw new Exception();
-            return __res_3082;
+            return __res_6578;
         }
     }
 
@@ -23,9 +23,10 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3083;
-            throw new Exception();
-            return __res_3083;
+            object? __res_6579;
+            JSObject __res_6580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_6579 = __res_6580;
+            return __res_6579;
         }
     }
 }

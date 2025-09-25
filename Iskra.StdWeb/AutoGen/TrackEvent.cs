@@ -13,9 +13,9 @@ public partial class TrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_2309;
+            object __res_4917;
             throw new Exception();
-            return __res_2309;
+            return __res_4917;
         }
     }
 }

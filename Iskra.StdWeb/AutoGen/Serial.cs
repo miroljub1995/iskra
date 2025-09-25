@@ -13,9 +13,18 @@ public partial class Serial(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1798;
-            throw new Exception();
-            return __res_1798;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3834;
+            JSObject? __res_3835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_3835 is null)
+            {
+                __res_3834 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3836 = (JSObject)__res_3835;
+                throw new Exception("Marshaller from \"__notNullable_3836\" to \"__res_3834\" not supported.");
+            }
+            return __res_3834;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class Serial(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1799;
-            throw new Exception();
-            return __res_1799;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3837;
+            JSObject? __res_3838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_3838 is null)
+            {
+                __res_3837 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3839 = (JSObject)__res_3838;
+                throw new Exception("Marshaller from \"__notNullable_3839\" to \"__res_3837\" not supported.");
+            }
+            return __res_3837;
         }
         set
         {

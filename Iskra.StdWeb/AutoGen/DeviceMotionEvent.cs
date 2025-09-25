@@ -13,9 +13,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_1177;
-            throw new Exception();
-            return __res_1177;
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2495;
+            JSObject? __res_2496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
+            if (__res_2496 is null)
+            {
+                __res_2495 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2497 = (JSObject)__res_2496;
+                throw new Exception("Marshaller from \"__notNullable_2497\" to \"__res_2495\" not supported.");
+            }
+            return __res_2495;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_1178;
-            throw new Exception();
-            return __res_1178;
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2498;
+            JSObject? __res_2499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
+            if (__res_2499 is null)
+            {
+                __res_2498 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2500 = (JSObject)__res_2499;
+                throw new Exception("Marshaller from \"__notNullable_2500\" to \"__res_2498\" not supported.");
+            }
+            return __res_2498;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_1179;
-            throw new Exception();
-            return __res_1179;
+            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2501;
+            JSObject? __res_2502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
+            if (__res_2502 is null)
+            {
+                __res_2501 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2503 = (JSObject)__res_2502;
+                throw new Exception("Marshaller from \"__notNullable_2503\" to \"__res_2501\" not supported.");
+            }
+            return __res_2501;
         }
     }
 
@@ -43,9 +70,10 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_1180;
-            throw new Exception();
-            return __res_1180;
+            double __res_2504;
+            double __res_2505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
+            __res_2504 = __res_2505;
+            return __res_2504;
         }
     }
 }

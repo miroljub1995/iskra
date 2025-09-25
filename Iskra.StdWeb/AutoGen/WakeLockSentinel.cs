@@ -13,9 +13,10 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_478;
-            __res_478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
-            return __res_478;
+            bool __res_959;
+            bool __res_960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
+            __res_959 = __res_960;
+            return __res_959;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WakeLockType __res_479;
-            throw new Exception();
-            return __res_479;
+            Iskra.StdWeb.WakeLockType __res_961;
+            JSObject __res_962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_962\" to \"__res_961\" not supported.");
+            return __res_961;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_480;
-            throw new Exception();
-            return __res_480;
+            Iskra.StdWeb.EventHandlerNonNull? __res_963;
+            JSObject? __res_964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
+            if (__res_964 is null)
+            {
+                __res_963 = null;
+            }
+            else
+            {
+                JSObject __notNullable_965 = (JSObject)__res_964;
+                throw new Exception("Marshaller from \"__notNullable_965\" to \"__res_963\" not supported.");
+            }
+            return __res_963;
         }
         set
         {

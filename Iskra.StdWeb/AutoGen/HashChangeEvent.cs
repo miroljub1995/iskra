@@ -13,9 +13,10 @@ public partial class HashChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2663;
-            throw new Exception();
-            return __res_2663;
+            string __res_5669;
+            string __res_5670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oldURL");
+            __res_5669 = __res_5670;
+            return __res_5669;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class HashChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2664;
-            throw new Exception();
-            return __res_2664;
+            string __res_5671;
+            string __res_5672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "newURL");
+            __res_5671 = __res_5672;
+            return __res_5671;
         }
     }
 }

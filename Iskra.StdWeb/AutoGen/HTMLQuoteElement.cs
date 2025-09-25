@@ -13,9 +13,10 @@ public partial class HTMLQuoteElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2156;
-            throw new Exception();
-            return __res_2156;
+            string __res_4590;
+            string __res_4591 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_4590 = __res_4591;
+            return __res_4590;
         }
         set
         {

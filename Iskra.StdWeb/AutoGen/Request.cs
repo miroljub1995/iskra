@@ -13,9 +13,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1502;
-            throw new Exception();
-            return __res_1502;
+            string __res_3188;
+            string __res_3189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "method");
+            __res_3188 = __res_3189;
+            return __res_3188;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1503;
-            throw new Exception();
-            return __res_1503;
+            string __res_3190;
+            string __res_3191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_3190 = __res_3191;
+            return __res_3190;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Headers __res_1504;
-            throw new Exception();
-            return __res_1504;
+            Iskra.StdWeb.Headers __res_3192;
+            JSObject __res_3193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "headers");
+            throw new Exception("Marshaller from \"__res_3193\" to \"__res_3192\" not supported.");
+            return __res_3192;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RequestDestination __res_1505;
-            throw new Exception();
-            return __res_1505;
+            Iskra.StdWeb.RequestDestination __res_3194;
+            JSObject __res_3195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
+            throw new Exception("Marshaller from \"__res_3195\" to \"__res_3194\" not supported.");
+            return __res_3194;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1506;
-            throw new Exception();
-            return __res_1506;
+            string __res_3196;
+            string __res_3197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrer");
+            __res_3196 = __res_3197;
+            return __res_3196;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReferrerPolicy __res_1507;
-            throw new Exception();
-            return __res_1507;
+            Iskra.StdWeb.ReferrerPolicy __res_3198;
+            JSObject __res_3199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referrerPolicy");
+            throw new Exception("Marshaller from \"__res_3199\" to \"__res_3198\" not supported.");
+            return __res_3198;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RequestMode __res_1508;
-            throw new Exception();
-            return __res_1508;
+            Iskra.StdWeb.RequestMode __res_3200;
+            JSObject __res_3201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller from \"__res_3201\" to \"__res_3200\" not supported.");
+            return __res_3200;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RequestCredentials __res_1509;
-            throw new Exception();
-            return __res_1509;
+            Iskra.StdWeb.RequestCredentials __res_3202;
+            JSObject __res_3203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "credentials");
+            throw new Exception("Marshaller from \"__res_3203\" to \"__res_3202\" not supported.");
+            return __res_3202;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RequestCache __res_1510;
-            throw new Exception();
-            return __res_1510;
+            Iskra.StdWeb.RequestCache __res_3204;
+            JSObject __res_3205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cache");
+            throw new Exception("Marshaller from \"__res_3205\" to \"__res_3204\" not supported.");
+            return __res_3204;
         }
     }
 
@@ -103,9 +112,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RequestRedirect __res_1511;
-            throw new Exception();
-            return __res_1511;
+            Iskra.StdWeb.RequestRedirect __res_3206;
+            JSObject __res_3207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "redirect");
+            throw new Exception("Marshaller from \"__res_3207\" to \"__res_3206\" not supported.");
+            return __res_3206;
         }
     }
 
@@ -113,9 +123,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1512;
-            throw new Exception();
-            return __res_1512;
+            string __res_3208;
+            string __res_3209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "integrity");
+            __res_3208 = __res_3209;
+            return __res_3208;
         }
     }
 
@@ -123,9 +134,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1513;
-            __res_1513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepalive");
-            return __res_1513;
+            bool __res_3210;
+            bool __res_3211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepalive");
+            __res_3210 = __res_3211;
+            return __res_3210;
         }
     }
 
@@ -133,9 +145,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1514;
-            __res_1514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isReloadNavigation");
-            return __res_1514;
+            bool __res_3212;
+            bool __res_3213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isReloadNavigation");
+            __res_3212 = __res_3213;
+            return __res_3212;
         }
     }
 
@@ -143,9 +156,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1515;
-            __res_1515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isHistoryNavigation");
-            return __res_1515;
+            bool __res_3214;
+            bool __res_3215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isHistoryNavigation");
+            __res_3214 = __res_3215;
+            return __res_3214;
         }
     }
 
@@ -153,9 +167,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_1516;
-            throw new Exception();
-            return __res_1516;
+            Iskra.StdWeb.AbortSignal __res_3216;
+            JSObject __res_3217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            throw new Exception("Marshaller from \"__res_3217\" to \"__res_3216\" not supported.");
+            return __res_3216;
         }
     }
 
@@ -163,9 +178,10 @@ public partial class Request(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RequestDuplex __res_1517;
-            throw new Exception();
-            return __res_1517;
+            Iskra.StdWeb.RequestDuplex __res_3218;
+            JSObject __res_3219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "duplex");
+            throw new Exception("Marshaller from \"__res_3219\" to \"__res_3218\" not supported.");
+            return __res_3218;
         }
     }
 }

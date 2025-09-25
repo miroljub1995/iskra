@@ -13,9 +13,10 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_1237;
-            throw new Exception();
-            return __res_1237;
+            string __res_2622;
+            string __res_2623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
+            __res_2622 = __res_2623;
+            return __res_2622;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_1238;
-            throw new Exception();
-            return __res_1238;
+            Iskra.StdWeb.CSSStyleProperties __res_2624;
+            JSObject __res_2625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller from \"__res_2625\" to \"__res_2624\" not supported.");
+            return __res_2624;
         }
     }
 }

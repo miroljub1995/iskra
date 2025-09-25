@@ -13,9 +13,18 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry? __res_2640;
-            throw new Exception();
-            return __res_2640;
+            Iskra.StdWeb.NavigationHistoryEntry? __res_5618;
+            JSObject? __res_5619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "from");
+            if (__res_5619 is null)
+            {
+                __res_5618 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5620 = (JSObject)__res_5619;
+                throw new Exception("Marshaller from \"__notNullable_5620\" to \"__res_5618\" not supported.");
+            }
+            return __res_5618;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_2641;
-            throw new Exception();
-            return __res_2641;
+            Iskra.StdWeb.NavigationHistoryEntry __res_5621;
+            JSObject __res_5622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "entry");
+            throw new Exception("Marshaller from \"__res_5622\" to \"__res_5621\" not supported.");
+            return __res_5621;
         }
     }
 
@@ -33,9 +43,10 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType __res_2642;
-            throw new Exception();
-            return __res_2642;
+            Iskra.StdWeb.NavigationType __res_5623;
+            JSObject __res_5624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
+            throw new Exception("Marshaller from \"__res_5624\" to \"__res_5623\" not supported.");
+            return __res_5623;
         }
     }
 }

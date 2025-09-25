@@ -13,9 +13,10 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            object? __res_956;
-            throw new Exception();
-            return __res_956;
+            object? __res_2018;
+            JSObject __res_2019 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
+            __res_2018 = __res_2019;
+            return __res_2018;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            bool __res_957;
-            __res_957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
-            return __res_957;
+            bool __res_2020;
+            bool __res_2021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
+            __res_2020 = __res_2021;
+            return __res_2020;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_958;
-            throw new Exception();
-            return __res_958;
+            string __res_2022;
+            string __res_2023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
+            __res_2022 = __res_2023;
+            return __res_2022;
         }
     }
 }

@@ -13,9 +13,18 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_2569;
-            throw new Exception();
-            return __res_2569;
+            Iskra.StdWeb.Element? __res_5463;
+            JSObject? __res_5464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_5464 is null)
+            {
+                __res_5463 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5465 = (JSObject)__res_5464;
+                throw new Exception("Marshaller from \"__notNullable_5465\" to \"__res_5463\" not supported.");
+            }
+            return __res_5463;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2570;
-            throw new Exception();
-            return __res_2570;
+            string __res_5466;
+            string __res_5467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_5466 = __res_5467;
+            return __res_5466;
         }
     }
 }

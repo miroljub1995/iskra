@@ -13,9 +13,10 @@ public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_1645;
-            throw new Exception();
-            return __res_1645;
+            uint __res_3498;
+            double __res_3499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultIndex");
+            __res_3498 = Convert.ToUInt32(__res_3499);
+            return __res_3498;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.SpeechRecognitionResultList __res_1646;
-            throw new Exception();
-            return __res_1646;
+            Iskra.StdWeb.SpeechRecognitionResultList __res_3500;
+            JSObject __res_3501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
+            throw new Exception("Marshaller from \"__res_3501\" to \"__res_3500\" not supported.");
+            return __res_3500;
         }
     }
 }

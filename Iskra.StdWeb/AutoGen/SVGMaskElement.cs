@@ -13,9 +13,10 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1188;
-            throw new Exception();
-            return __res_1188;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_2520;
+            JSObject __res_2521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "maskUnits");
+            throw new Exception("Marshaller from \"__res_2521\" to \"__res_2520\" not supported.");
+            return __res_2520;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1189;
-            throw new Exception();
-            return __res_1189;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_2522;
+            JSObject __res_2523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "maskContentUnits");
+            throw new Exception("Marshaller from \"__res_2523\" to \"__res_2522\" not supported.");
+            return __res_2522;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_1190;
-            throw new Exception();
-            return __res_1190;
+            Iskra.StdWeb.SVGAnimatedLength __res_2524;
+            JSObject __res_2525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller from \"__res_2525\" to \"__res_2524\" not supported.");
+            return __res_2524;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_1191;
-            throw new Exception();
-            return __res_1191;
+            Iskra.StdWeb.SVGAnimatedLength __res_2526;
+            JSObject __res_2527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller from \"__res_2527\" to \"__res_2526\" not supported.");
+            return __res_2526;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_1192;
-            throw new Exception();
-            return __res_1192;
+            Iskra.StdWeb.SVGAnimatedLength __res_2528;
+            JSObject __res_2529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            throw new Exception("Marshaller from \"__res_2529\" to \"__res_2528\" not supported.");
+            return __res_2528;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_1193;
-            throw new Exception();
-            return __res_1193;
+            Iskra.StdWeb.SVGAnimatedLength __res_2530;
+            JSObject __res_2531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            throw new Exception("Marshaller from \"__res_2531\" to \"__res_2530\" not supported.");
+            return __res_2530;
         }
     }
 }

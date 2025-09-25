@@ -13,9 +13,10 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_891;
-            throw new Exception();
-            return __res_891;
+            uint __res_1876;
+            double __res_1877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1876 = Convert.ToUInt32(__res_1877);
+            return __res_1876;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_892;
-            __res_892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usableWithLightBackground");
-            return __res_892;
+            bool __res_1878;
+            bool __res_1879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usableWithLightBackground");
+            __res_1878 = __res_1879;
+            return __res_1878;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class FontFacePalette(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_893;
-            __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usableWithDarkBackground");
-            return __res_893;
+            bool __res_1880;
+            bool __res_1881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usableWithDarkBackground");
+            __res_1880 = __res_1881;
+            return __res_1880;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.Request __res_1835;
-            throw new Exception();
-            return __res_1835;
+            Iskra.StdWeb.Request __res_3924;
+            JSObject __res_3925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            throw new Exception("Marshaller from \"__res_3925\" to \"__res_3924\" not supported.");
+            return __res_3924;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_1836;
+            object __res_3926;
             throw new Exception();
-            return __res_1836;
+            return __res_3926;
         }
     }
 
@@ -33,9 +34,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_1837;
-            throw new Exception();
-            return __res_1837;
+            string __res_3927;
+            string __res_3928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
+            __res_3927 = __res_3928;
+            return __res_3927;
         }
     }
 
@@ -43,9 +45,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_1838;
-            throw new Exception();
-            return __res_1838;
+            string __res_3929;
+            string __res_3930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
+            __res_3929 = __res_3930;
+            return __res_3929;
         }
     }
 
@@ -53,9 +56,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_1839;
-            throw new Exception();
-            return __res_1839;
+            string __res_3931;
+            string __res_3932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
+            __res_3931 = __res_3932;
+            return __res_3931;
         }
     }
 
@@ -63,9 +67,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_1840;
+            object __res_3933;
             throw new Exception();
-            return __res_1840;
+            return __res_3933;
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class GPUCompilationInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_353;
+            object __res_686;
             throw new Exception();
-            return __res_353;
+            return __res_686;
         }
     }
 }

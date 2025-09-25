@@ -13,9 +13,10 @@ public partial class MediaKeyStatusMap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2085;
-            throw new Exception();
-            return __res_2085;
+            uint __res_4447;
+            double __res_4448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_4447 = Convert.ToUInt32(__res_4448);
+            return __res_4447;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2131;
-            throw new Exception();
-            return __res_2131;
+            string __res_4539;
+            string __res_4540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_4539 = __res_4540;
+            return __res_4539;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2132;
-            throw new Exception();
-            return __res_2132;
+            string __res_4541;
+            string __res_4542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_4541 = __res_4542;
+            return __res_4541;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
-            Iskra.StdWeb.SharedStorage __res_1684;
-            throw new Exception();
-            return __res_1684;
+            Iskra.StdWeb.SharedStorage __res_3585;
+            JSObject __res_3586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
+            throw new Exception("Marshaller from \"__res_3586\" to \"__res_3585\" not supported.");
+            return __res_3585;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation __res_1685;
-            throw new Exception();
-            return __res_1685;
+            Iskra.StdWeb.PrivateAggregation __res_3587;
+            JSObject __res_3588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
+            throw new Exception("Marshaller from \"__res_3588\" to \"__res_3587\" not supported.");
+            return __res_3587;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
-            Iskra.StdWeb.SharedStorageWorkletNavigator __res_1686;
-            throw new Exception();
-            return __res_1686;
+            Iskra.StdWeb.SharedStorageWorkletNavigator __res_3589;
+            JSObject __res_3590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            throw new Exception("Marshaller from \"__res_3590\" to \"__res_3589\" not supported.");
+            return __res_3589;
         }
     }
 }

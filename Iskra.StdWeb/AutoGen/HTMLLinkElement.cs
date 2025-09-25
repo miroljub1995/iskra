@@ -13,9 +13,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2133;
-            throw new Exception();
-            return __res_2133;
+            string __res_4543;
+            string __res_4544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_4543 = __res_4544;
+            return __res_4543;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string? __res_2134;
-            throw new Exception();
-            return __res_2134;
+            string? __res_4545;
+            string? __res_4546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_4546 is null)
+            {
+                __res_4545 = null;
+            }
+            else
+            {
+                string __notNullable_4547 = (string)__res_4546;
+                __res_4545 = __notNullable_4547;
+            }
+            return __res_4545;
         }
         set
         {
@@ -41,9 +51,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2135;
-            throw new Exception();
-            return __res_2135;
+            string __res_4548;
+            string __res_4549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_4548 = __res_4549;
+            return __res_4548;
         }
         set
         {
@@ -55,9 +66,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2136;
-            throw new Exception();
-            return __res_2136;
+            string __res_4550;
+            string __res_4551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "as");
+            __res_4550 = __res_4551;
+            return __res_4550;
         }
         set
         {
@@ -69,9 +81,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_2137;
-            throw new Exception();
-            return __res_2137;
+            Iskra.StdWeb.DOMTokenList __res_4552;
+            JSObject __res_4553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            throw new Exception("Marshaller from \"__res_4553\" to \"__res_4552\" not supported.");
+            return __res_4552;
         }
     }
 
@@ -79,9 +92,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2138;
-            throw new Exception();
-            return __res_2138;
+            string __res_4554;
+            string __res_4555 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_4554 = __res_4555;
+            return __res_4554;
         }
         set
         {
@@ -93,9 +107,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2139;
-            throw new Exception();
-            return __res_2139;
+            string __res_4556;
+            string __res_4557 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "integrity");
+            __res_4556 = __res_4557;
+            return __res_4556;
         }
         set
         {
@@ -107,9 +122,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2140;
-            throw new Exception();
-            return __res_2140;
+            string __res_4558;
+            string __res_4559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
+            __res_4558 = __res_4559;
+            return __res_4558;
         }
         set
         {
@@ -121,9 +137,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2141;
-            throw new Exception();
-            return __res_2141;
+            string __res_4560;
+            string __res_4561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4560 = __res_4561;
+            return __res_4560;
         }
         set
         {
@@ -135,9 +152,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_2142;
-            throw new Exception();
-            return __res_2142;
+            Iskra.StdWeb.DOMTokenList __res_4562;
+            JSObject __res_4563 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sizes");
+            throw new Exception("Marshaller from \"__res_4563\" to \"__res_4562\" not supported.");
+            return __res_4562;
         }
     }
 
@@ -145,9 +163,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2143;
-            throw new Exception();
-            return __res_2143;
+            string __res_4564;
+            string __res_4565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "imageSrcset");
+            __res_4564 = __res_4565;
+            return __res_4564;
         }
         set
         {
@@ -159,9 +178,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2144;
-            throw new Exception();
-            return __res_2144;
+            string __res_4566;
+            string __res_4567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "imageSizes");
+            __res_4566 = __res_4567;
+            return __res_4566;
         }
         set
         {
@@ -173,9 +193,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2145;
-            throw new Exception();
-            return __res_2145;
+            string __res_4568;
+            string __res_4569 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_4568 = __res_4569;
+            return __res_4568;
         }
         set
         {
@@ -187,9 +208,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_2146;
-            throw new Exception();
-            return __res_2146;
+            Iskra.StdWeb.DOMTokenList __res_4570;
+            JSObject __res_4571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blocking");
+            throw new Exception("Marshaller from \"__res_4571\" to \"__res_4570\" not supported.");
+            return __res_4570;
         }
     }
 
@@ -197,9 +219,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2147;
-            __res_2147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            return __res_2147;
+            bool __res_4572;
+            bool __res_4573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_4572 = __res_4573;
+            return __res_4572;
         }
         set
         {
@@ -211,9 +234,10 @@ public partial class HTMLLinkElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2148;
-            throw new Exception();
-            return __res_2148;
+            string __res_4574;
+            string __res_4575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fetchPriority");
+            __res_4574 = __res_4575;
+            return __res_4574;
         }
         set
         {

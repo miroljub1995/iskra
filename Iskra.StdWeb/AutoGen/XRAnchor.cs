@@ -13,9 +13,10 @@ public partial class XRAnchor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_460;
-            throw new Exception();
-            return __res_460;
+            Iskra.StdWeb.XRSpace __res_920;
+            JSObject __res_921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "anchorSpace");
+            throw new Exception("Marshaller from \"__res_921\" to \"__res_920\" not supported.");
+            return __res_920;
         }
     }
 }

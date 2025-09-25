@@ -13,9 +13,10 @@ public partial class CSSConditionRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_1415;
-            throw new Exception();
-            return __res_1415;
+            string __res_3012;
+            string __res_3013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "conditionText");
+            __res_3012 = __res_3013;
+            return __res_3012;
         }
     }
 }

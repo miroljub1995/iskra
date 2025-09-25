@@ -13,9 +13,10 @@ public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MLOperandDataType __res_1907;
-            throw new Exception();
-            return __res_1907;
+            Iskra.StdWeb.MLOperandDataType __res_4082;
+            JSObject __res_4083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
+            throw new Exception("Marshaller from \"__res_4083\" to \"__res_4082\" not supported.");
+            return __res_4082;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1908;
+            object __res_4084;
             throw new Exception();
-            return __res_1908;
+            return __res_4084;
         }
     }
 }

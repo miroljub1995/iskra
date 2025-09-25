@@ -13,9 +13,10 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_363;
-            throw new Exception();
-            return __res_363;
+            string __res_704;
+            string __res_705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "topOrigin");
+            __res_704 = __res_705;
+            return __res_704;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_364;
-            throw new Exception();
-            return __res_364;
+            string __res_706;
+            string __res_707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestOrigin");
+            __res_706 = __res_707;
+            return __res_706;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_365;
-            throw new Exception();
-            return __res_365;
+            string __res_708;
+            string __res_709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestId");
+            __res_708 = __res_709;
+            return __res_708;
         }
     }
 
@@ -43,9 +46,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_366;
+            object __res_710;
             throw new Exception();
-            return __res_366;
+            return __res_710;
         }
     }
 
@@ -53,9 +56,10 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            JSObject __res_367;
-            throw new Exception();
-            return __res_367;
+            JSObject __res_711;
+            JSObject __res_712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "total");
+            __res_711 = __res_712;
+            return __res_711;
         }
     }
 
@@ -63,9 +67,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_368;
+            object __res_713;
             throw new Exception();
-            return __res_368;
+            return __res_713;
         }
     }
 
@@ -73,9 +77,18 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            JSObject? __res_369;
-            throw new Exception();
-            return __res_369;
+            JSObject? __res_714;
+            JSObject? __res_715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "paymentOptions");
+            if (__res_715 is null)
+            {
+                __res_714 = null;
+            }
+            else
+            {
+                JSObject __notNullable_716 = (JSObject)__res_715;
+                __res_714 = __notNullable_716;
+            }
+            return __res_714;
         }
     }
 
@@ -83,9 +96,9 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_370;
+            object __res_717;
             throw new Exception();
-            return __res_370;
+            return __res_717;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_255;
-            throw new Exception();
-            return __res_255;
+            string __res_483;
+            string __res_484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_483 = __res_484;
+            return __res_483;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string? __res_256;
-            throw new Exception();
-            return __res_256;
+            string? __res_485;
+            string? __res_486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_486 is null)
+            {
+                __res_485 = null;
+            }
+            else
+            {
+                string __notNullable_487 = (string)__res_486;
+                __res_485 = __notNullable_487;
+            }
+            return __res_485;
         }
         set
         {

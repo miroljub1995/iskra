@@ -13,9 +13,10 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2153;
-            __res_2153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            return __res_2153;
+            bool __res_4584;
+            bool __res_4585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_4584 = __res_4585;
+            return __res_4584;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2154;
-            throw new Exception();
-            return __res_2154;
+            string __res_4586;
+            string __res_4587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_4586 = __res_4587;
+            return __res_4586;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_2155;
-            throw new Exception();
-            return __res_2155;
+            Iskra.StdWeb.DOMTokenList __res_4588;
+            JSObject __res_4589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blocking");
+            throw new Exception("Marshaller from \"__res_4589\" to \"__res_4588\" not supported.");
+            return __res_4588;
         }
     }
 }

@@ -2,6 +2,7 @@ using System.CommandLine;
 using System.Text.Json;
 using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Generators;
+using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -57,7 +58,8 @@ public class GenerateCommand : Command
                 .AddSingleton<InterfaceTypeGenerator>()
                 .AddSingleton<JSProxyFactoryGenerator>()
                 .AddSingleton<MemberTypeGenerator>()
-                .AddSingleton<ModuleGenerator>();
+                .AddSingleton<ModuleGenerator>()
+                .AddSingleton<IDLTypeDescriptionMarshaller>();
 
             await using var provider = services.BuildServiceProvider();
 

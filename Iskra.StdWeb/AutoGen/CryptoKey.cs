@@ -13,9 +13,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.KeyType __res_627;
-            throw new Exception();
-            return __res_627;
+            Iskra.StdWeb.KeyType __res_1261;
+            JSObject __res_1262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_1262\" to \"__res_1261\" not supported.");
+            return __res_1261;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_628;
-            __res_628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
-            return __res_628;
+            bool __res_1263;
+            bool __res_1264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
+            __res_1263 = __res_1264;
+            return __res_1263;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            JSObject __res_629;
-            throw new Exception();
-            return __res_629;
+            JSObject __res_1265;
+            JSObject __res_1266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "algorithm");
+            __res_1265 = __res_1266;
+            return __res_1265;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            JSObject __res_630;
-            throw new Exception();
-            return __res_630;
+            JSObject __res_1267;
+            JSObject __res_1268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usages");
+            __res_1267 = __res_1268;
+            return __res_1267;
         }
     }
 }

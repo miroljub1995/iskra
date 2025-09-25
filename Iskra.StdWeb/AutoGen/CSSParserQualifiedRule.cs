@@ -13,9 +13,9 @@ public partial class CSSParserQualifiedRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            object __res_2955;
+            object __res_6302;
             throw new Exception();
-            return __res_2955;
+            return __res_6302;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class CSSParserQualifiedRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            object __res_2956;
+            object __res_6303;
             throw new Exception();
-            return __res_2956;
+            return __res_6303;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1987;
-            __res_1987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
-            return __res_1987;
+            bool __res_4235;
+            bool __res_4236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
+            __res_4235 = __res_4236;
+            return __res_4235;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_1988;
-            throw new Exception();
-            return __res_1988;
+            Iskra.JSCore.ArrayBuffer? __res_4237;
+            JSObject? __res_4238 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
+            if (__res_4238 is null)
+            {
+                __res_4237 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4239 = (JSObject)__res_4238;
+                throw new Exception("Marshaller from \"__notNullable_4239\" to \"__res_4237\" not supported.");
+            }
+            return __res_4237;
         }
     }
 }

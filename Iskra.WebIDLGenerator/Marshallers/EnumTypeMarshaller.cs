@@ -6,7 +6,7 @@ public class EnumTypeMarshaller(
     GenTypeDescriptors descriptors
 )
 {
-    public string Marshall(EnumType input, string inputVar, string outputVar)
+    public string ToManaged(EnumType input, string inputVar, string outputVar)
     {
         var descriptor = descriptors.GetRequired(input.Name);
 

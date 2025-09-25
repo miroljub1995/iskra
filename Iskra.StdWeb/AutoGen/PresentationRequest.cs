@@ -13,9 +13,18 @@ public partial class PresentationRequest(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_934;
-            throw new Exception();
-            return __res_934;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1966;
+            JSObject? __res_1967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
+            if (__res_1967 is null)
+            {
+                __res_1966 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1968 = (JSObject)__res_1967;
+                throw new Exception("Marshaller from \"__notNullable_1968\" to \"__res_1966\" not supported.");
+            }
+            return __res_1966;
         }
         set
         {

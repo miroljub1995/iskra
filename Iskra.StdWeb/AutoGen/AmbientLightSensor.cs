@@ -13,9 +13,18 @@ public partial class AmbientLightSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_3092;
-            throw new Exception();
-            return __res_3092;
+            double? __res_6597;
+            double? __res_6598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "illuminance");
+            if (__res_6598 is null)
+            {
+                __res_6597 = null;
+            }
+            else
+            {
+                double __notNullable_6599 = (double)__res_6598;
+                __res_6597 = __notNullable_6599;
+            }
+            return __res_6597;
         }
     }
 }

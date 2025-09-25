@@ -13,9 +13,18 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_799;
-            throw new Exception();
-            return __res_799;
+            string? __res_1659;
+            string? __res_1660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
+            if (__res_1660 is null)
+            {
+                __res_1659 = null;
+            }
+            else
+            {
+                string __notNullable_1661 = (string)__res_1660;
+                __res_1659 = __notNullable_1661;
+            }
+            return __res_1659;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort? __res_800;
-            throw new Exception();
-            return __res_800;
+            ushort? __res_1662;
+            double? __res_1663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
+            if (__res_1663 is null)
+            {
+                __res_1662 = null;
+            }
+            else
+            {
+                double __notNullable_1664 = (double)__res_1663;
+                throw new Exception("Marshaller from \"__notNullable_1664\" to \"__res_1662\" not supported.");
+            }
+            return __res_1662;
         }
     }
 
@@ -33,9 +51,10 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_801;
-            throw new Exception();
-            return __res_801;
+            string __res_1665;
+            string __res_1666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_1665 = __res_1666;
+            return __res_1665;
         }
     }
 
@@ -43,9 +62,10 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort __res_802;
-            throw new Exception();
-            return __res_802;
+            ushort __res_1667;
+            double __res_1668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
+            throw new Exception("Marshaller from \"__res_1668\" to \"__res_1667\" not supported.");
+            return __res_1667;
         }
     }
 
@@ -53,9 +73,10 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_803;
-            throw new Exception();
-            return __res_803;
+            string __res_1669;
+            string __res_1670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorText");
+            __res_1669 = __res_1670;
+            return __res_1669;
         }
     }
 }

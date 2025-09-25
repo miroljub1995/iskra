@@ -13,9 +13,10 @@ public partial class WritableStreamDefaultController(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_428;
-            throw new Exception();
-            return __res_428;
+            Iskra.StdWeb.AbortSignal __res_849;
+            JSObject __res_850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            throw new Exception("Marshaller from \"__res_850\" to \"__res_849\" not supported.");
+            return __res_849;
         }
     }
 }

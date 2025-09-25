@@ -13,9 +13,10 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2511;
-            __res_2511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            return __res_2511;
+            bool __res_5342;
+            bool __res_5343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_5342 = __res_5343;
+            return __res_5342;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2512;
-            throw new Exception();
-            return __res_2512;
+            string __res_5344;
+            string __res_5345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
+            __res_5344 = __res_5345;
+            return __res_5344;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2513;
-            throw new Exception();
-            return __res_2513;
+            string __res_5346;
+            string __res_5347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "closedBy");
+            __res_5346 = __res_5347;
+            return __res_5346;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2686;
-            throw new Exception();
-            return __res_2686;
+            string __res_5720;
+            string __res_5721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5720 = __res_5721;
+            return __res_5720;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2687;
-            throw new Exception();
-            return __res_2687;
+            string __res_5722;
+            string __res_5723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_5722 = __res_5723;
+            return __res_5722;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2688;
-            throw new Exception();
-            return __res_2688;
+            string __res_5724;
+            string __res_5725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
+            __res_5724 = __res_5725;
+            return __res_5724;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class Plugin(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2689;
-            throw new Exception();
-            return __res_2689;
+            uint __res_5726;
+            double __res_5727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5726 = Convert.ToUInt32(__res_5727);
+            return __res_5726;
         }
     }
 }

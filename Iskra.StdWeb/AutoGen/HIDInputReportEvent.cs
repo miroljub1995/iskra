@@ -13,9 +13,10 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.HIDDevice __res_655;
-            throw new Exception();
-            return __res_655;
+            Iskra.StdWeb.HIDDevice __res_1324;
+            JSObject __res_1325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            throw new Exception("Marshaller from \"__res_1325\" to \"__res_1324\" not supported.");
+            return __res_1324;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
-            byte __res_656;
-            throw new Exception();
-            return __res_656;
+            byte __res_1326;
+            double __res_1327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reportId");
+            __res_1326 = Convert.ToByte(__res_1327);
+            return __res_1326;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.DataView __res_657;
-            throw new Exception();
-            return __res_657;
+            Iskra.JSCore.DataView __res_1328;
+            JSObject __res_1329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            throw new Exception("Marshaller from \"__res_1329\" to \"__res_1328\" not supported.");
+            return __res_1328;
         }
     }
 }

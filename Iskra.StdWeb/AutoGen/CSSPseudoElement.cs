@@ -13,9 +13,10 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1613;
-            throw new Exception();
-            return __res_1613;
+            string __res_3425;
+            string __res_3426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3425 = __res_3426;
+            return __res_3425;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_1614;
-            throw new Exception();
-            return __res_1614;
+            Iskra.StdWeb.Element __res_3427;
+            JSObject __res_3428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
+            throw new Exception("Marshaller from \"__res_3428\" to \"__res_3427\" not supported.");
+            return __res_3427;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_1615;
+            object __res_3429;
             throw new Exception();
-            return __res_1615;
+            return __res_3429;
         }
     }
 }

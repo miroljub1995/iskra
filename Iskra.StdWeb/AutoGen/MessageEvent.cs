@@ -13,9 +13,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_2701;
-            throw new Exception();
-            return __res_2701;
+            object? __res_5749;
+            JSObject __res_5750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_5749 = __res_5750;
+            return __res_5749;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2702;
-            throw new Exception();
-            return __res_2702;
+            string __res_5751;
+            string __res_5752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_5751 = __res_5752;
+            return __res_5751;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2703;
-            throw new Exception();
-            return __res_2703;
+            string __res_5753;
+            string __res_5754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
+            __res_5753 = __res_5754;
+            return __res_5753;
         }
     }
 
@@ -43,9 +46,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_2704;
+            object __res_5755;
             throw new Exception();
-            return __res_2704;
+            return __res_5755;
         }
     }
 
@@ -53,9 +56,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_2705;
+            object __res_5756;
             throw new Exception();
-            return __res_2705;
+            return __res_5756;
         }
     }
 }

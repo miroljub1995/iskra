@@ -13,9 +13,10 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioSessionType __res_3264;
-            throw new Exception();
-            return __res_3264;
+            Iskra.StdWeb.AudioSessionType __res_6960;
+            JSObject __res_6961 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_6961\" to \"__res_6960\" not supported.");
+            return __res_6960;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioSessionState __res_3265;
-            throw new Exception();
-            return __res_3265;
+            Iskra.StdWeb.AudioSessionState __res_6962;
+            JSObject __res_6963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_6963\" to \"__res_6962\" not supported.");
+            return __res_6962;
         }
     }
 
@@ -37,9 +39,18 @@ public partial class AudioSession(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3266;
-            throw new Exception();
-            return __res_3266;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6964;
+            JSObject? __res_6965 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_6965 is null)
+            {
+                __res_6964 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6966 = (JSObject)__res_6965;
+                throw new Exception("Marshaller from \"__notNullable_6966\" to \"__res_6964\" not supported.");
+            }
+            return __res_6964;
         }
         set
         {

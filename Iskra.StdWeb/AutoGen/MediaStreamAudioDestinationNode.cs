@@ -13,9 +13,10 @@ public partial class MediaStreamAudioDestinationNode(JSObject obj): AudioNode(ob
     {
         get
         {
-            Iskra.StdWeb.MediaStream __res_3230;
-            throw new Exception();
-            return __res_3230;
+            Iskra.StdWeb.MediaStream __res_6889;
+            JSObject __res_6890 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
+            throw new Exception("Marshaller from \"__res_6890\" to \"__res_6889\" not supported.");
+            return __res_6889;
         }
     }
 }

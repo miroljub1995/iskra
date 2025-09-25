@@ -13,9 +13,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMImplementation __res_1329;
-            throw new Exception();
-            return __res_1329;
+            Iskra.StdWeb.DOMImplementation __res_2826;
+            JSObject __res_2827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "implementation");
+            throw new Exception("Marshaller from \"__res_2827\" to \"__res_2826\" not supported.");
+            return __res_2826;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1330;
-            throw new Exception();
-            return __res_1330;
+            string __res_2828;
+            string __res_2829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "URL");
+            __res_2828 = __res_2829;
+            return __res_2828;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1331;
-            throw new Exception();
-            return __res_1331;
+            string __res_2830;
+            string __res_2831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
+            __res_2830 = __res_2831;
+            return __res_2830;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1332;
-            throw new Exception();
-            return __res_1332;
+            string __res_2832;
+            string __res_2833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "compatMode");
+            __res_2832 = __res_2833;
+            return __res_2832;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1333;
-            throw new Exception();
-            return __res_1333;
+            string __res_2834;
+            string __res_2835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "characterSet");
+            __res_2834 = __res_2835;
+            return __res_2834;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1334;
-            throw new Exception();
-            return __res_1334;
+            string __res_2836;
+            string __res_2837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "charset");
+            __res_2836 = __res_2837;
+            return __res_2836;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1335;
-            throw new Exception();
-            return __res_1335;
+            string __res_2838;
+            string __res_2839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputEncoding");
+            __res_2838 = __res_2839;
+            return __res_2838;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1336;
-            throw new Exception();
-            return __res_1336;
+            string __res_2840;
+            string __res_2841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_2840 = __res_2841;
+            return __res_2840;
         }
     }
 
@@ -93,9 +101,18 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            Iskra.StdWeb.DocumentType? __res_1337;
-            throw new Exception();
-            return __res_1337;
+            Iskra.StdWeb.DocumentType? __res_2842;
+            JSObject? __res_2843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "doctype");
+            if (__res_2843 is null)
+            {
+                __res_2842 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2844 = (JSObject)__res_2843;
+                throw new Exception("Marshaller from \"__notNullable_2844\" to \"__res_2842\" not supported.");
+            }
+            return __res_2842;
         }
     }
 
@@ -103,9 +120,18 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1338;
-            throw new Exception();
-            return __res_1338;
+            Iskra.StdWeb.Element? __res_2845;
+            JSObject? __res_2846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "documentElement");
+            if (__res_2846 is null)
+            {
+                __res_2845 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2847 = (JSObject)__res_2846;
+                throw new Exception("Marshaller from \"__notNullable_2847\" to \"__res_2845\" not supported.");
+            }
+            return __res_2845;
         }
     }
 }

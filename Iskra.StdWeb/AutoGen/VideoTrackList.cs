@@ -13,9 +13,10 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_2277;
-            throw new Exception();
-            return __res_2277;
+            uint __res_4841;
+            double __res_4842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4841 = Convert.ToUInt32(__res_4842);
+            return __res_4841;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            int __res_2278;
-            throw new Exception();
-            return __res_2278;
+            int __res_4843;
+            double __res_4844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_4843 = Convert.ToInt32(__res_4844);
+            return __res_4843;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2279;
-            throw new Exception();
-            return __res_2279;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4845;
+            JSObject? __res_4846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_4846 is null)
+            {
+                __res_4845 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4847 = (JSObject)__res_4846;
+                throw new Exception("Marshaller from \"__notNullable_4847\" to \"__res_4845\" not supported.");
+            }
+            return __res_4845;
         }
         set
         {
@@ -47,9 +58,18 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2280;
-            throw new Exception();
-            return __res_2280;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4848;
+            JSObject? __res_4849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
+            if (__res_4849 is null)
+            {
+                __res_4848 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4850 = (JSObject)__res_4849;
+                throw new Exception("Marshaller from \"__notNullable_4850\" to \"__res_4848\" not supported.");
+            }
+            return __res_4848;
         }
         set
         {
@@ -61,9 +81,18 @@ public partial class VideoTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2281;
-            throw new Exception();
-            return __res_2281;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4851;
+            JSObject? __res_4852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
+            if (__res_4852 is null)
+            {
+                __res_4851 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4853 = (JSObject)__res_4852;
+                throw new Exception("Marshaller from \"__notNullable_4853\" to \"__res_4851\" not supported.");
+            }
+            return __res_4851;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationNodeList __res_2095;
-            throw new Exception();
-            return __res_2095;
+            Iskra.StdWeb.AnimationNodeList __res_4467;
+            JSObject __res_4468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            throw new Exception("Marshaller from \"__res_4468\" to \"__res_4467\" not supported.");
+            return __res_4467;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_2096;
-            throw new Exception();
-            return __res_2096;
+            Iskra.StdWeb.AnimationEffect? __res_4469;
+            JSObject? __res_4470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_4470 is null)
+            {
+                __res_4469 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4471 = (JSObject)__res_4470;
+                throw new Exception("Marshaller from \"__notNullable_4471\" to \"__res_4469\" not supported.");
+            }
+            return __res_4469;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_2097;
-            throw new Exception();
-            return __res_2097;
+            Iskra.StdWeb.AnimationEffect? __res_4472;
+            JSObject? __res_4473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
+            if (__res_4473 is null)
+            {
+                __res_4472 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4474 = (JSObject)__res_4473;
+                throw new Exception("Marshaller from \"__notNullable_4474\" to \"__res_4472\" not supported.");
+            }
+            return __res_4472;
         }
     }
 }

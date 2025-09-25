@@ -13,9 +13,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2161;
-            throw new Exception();
-            return __res_2161;
+            string __res_4600;
+            string __res_4601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_4600 = __res_4601;
+            return __res_4600;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2162;
-            throw new Exception();
-            return __res_2162;
+            string __res_4602;
+            string __res_4603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
+            __res_4602 = __res_4603;
+            return __res_4602;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2163;
-            throw new Exception();
-            return __res_2163;
+            string __res_4604;
+            string __res_4605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
+            __res_4604 = __res_4605;
+            return __res_4604;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2164;
-            throw new Exception();
-            return __res_2164;
+            string __res_4606;
+            string __res_4607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_4606 = __res_4607;
+            return __res_4606;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_2165;
-            throw new Exception();
-            return __res_2165;
+            Iskra.StdWeb.DOMTokenList __res_4608;
+            JSObject __res_4609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            throw new Exception("Marshaller from \"__res_4609\" to \"__res_4608\" not supported.");
+            return __res_4608;
         }
     }
 
@@ -79,9 +84,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2166;
-            throw new Exception();
-            return __res_2166;
+            string __res_4610;
+            string __res_4611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
+            __res_4610 = __res_4611;
+            return __res_4610;
         }
         set
         {
@@ -93,9 +99,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2167;
-            throw new Exception();
-            return __res_2167;
+            string __res_4612;
+            string __res_4613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4612 = __res_4613;
+            return __res_4612;
         }
         set
         {
@@ -107,9 +114,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2168;
-            throw new Exception();
-            return __res_2168;
+            string __res_4614;
+            string __res_4615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_4614 = __res_4615;
+            return __res_4614;
         }
         set
         {
@@ -121,9 +129,10 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2169;
-            throw new Exception();
-            return __res_2169;
+            string __res_4616;
+            string __res_4617 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_4616 = __res_4617;
+            return __res_4616;
         }
         set
         {

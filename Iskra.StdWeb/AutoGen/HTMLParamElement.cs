@@ -13,9 +13,10 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2773;
-            throw new Exception();
-            return __res_2773;
+            string __res_5910;
+            string __res_5911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5910 = __res_5911;
+            return __res_5910;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2774;
-            throw new Exception();
-            return __res_2774;
+            string __res_5912;
+            string __res_5913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5912 = __res_5913;
+            return __res_5912;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2775;
-            throw new Exception();
-            return __res_2775;
+            string __res_5914;
+            string __res_5915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5914 = __res_5915;
+            return __res_5914;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2776;
-            throw new Exception();
-            return __res_2776;
+            string __res_5916;
+            string __res_5917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueType");
+            __res_5916 = __res_5917;
+            return __res_5916;
         }
         set
         {

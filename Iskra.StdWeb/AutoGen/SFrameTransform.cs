@@ -13,9 +13,18 @@ public partial class SFrameTransform(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_447;
-            throw new Exception();
-            return __res_447;
+            Iskra.StdWeb.EventHandlerNonNull? __res_892;
+            JSObject? __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_893 is null)
+            {
+                __res_892 = null;
+            }
+            else
+            {
+                JSObject __notNullable_894 = (JSObject)__res_893;
+                throw new Exception("Marshaller from \"__notNullable_894\" to \"__res_892\" not supported.");
+            }
+            return __res_892;
         }
         set
         {

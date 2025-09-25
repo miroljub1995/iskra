@@ -13,9 +13,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1211;
-            throw new Exception();
-            return __res_1211;
+            int __res_2570;
+            double __res_2571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "identifier");
+            __res_2570 = Convert.ToInt32(__res_2571);
+            return __res_2570;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.EventTarget __res_1212;
-            throw new Exception();
-            return __res_1212;
+            Iskra.StdWeb.EventTarget __res_2572;
+            JSObject __res_2573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            throw new Exception("Marshaller from \"__res_2573\" to \"__res_2572\" not supported.");
+            return __res_2572;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1213;
-            throw new Exception();
-            return __res_1213;
+            double __res_2574;
+            double __res_2575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenX");
+            __res_2574 = __res_2575;
+            return __res_2574;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1214;
-            throw new Exception();
-            return __res_1214;
+            double __res_2576;
+            double __res_2577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenY");
+            __res_2576 = __res_2577;
+            return __res_2576;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1215;
-            throw new Exception();
-            return __res_1215;
+            double __res_2578;
+            double __res_2579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientX");
+            __res_2578 = __res_2579;
+            return __res_2578;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1216;
-            throw new Exception();
-            return __res_1216;
+            double __res_2580;
+            double __res_2581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientY");
+            __res_2580 = __res_2581;
+            return __res_2580;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1217;
-            throw new Exception();
-            return __res_1217;
+            double __res_2582;
+            double __res_2583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageX");
+            __res_2582 = __res_2583;
+            return __res_2582;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1218;
-            throw new Exception();
-            return __res_1218;
+            double __res_2584;
+            double __res_2585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageY");
+            __res_2584 = __res_2585;
+            return __res_2584;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1219;
-            throw new Exception();
-            return __res_1219;
+            float __res_2586;
+            double __res_2587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radiusX");
+            __res_2586 = Convert.ToSingle(__res_2587);
+            return __res_2586;
         }
     }
 
@@ -103,9 +112,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1220;
-            throw new Exception();
-            return __res_1220;
+            float __res_2588;
+            double __res_2589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radiusY");
+            __res_2588 = Convert.ToSingle(__res_2589);
+            return __res_2588;
         }
     }
 
@@ -113,9 +123,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1221;
-            throw new Exception();
-            return __res_1221;
+            float __res_2590;
+            double __res_2591 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotationAngle");
+            __res_2590 = Convert.ToSingle(__res_2591);
+            return __res_2590;
         }
     }
 
@@ -123,9 +134,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1222;
-            throw new Exception();
-            return __res_1222;
+            float __res_2592;
+            double __res_2593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "force");
+            __res_2592 = Convert.ToSingle(__res_2593);
+            return __res_2592;
         }
     }
 
@@ -133,9 +145,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1223;
-            throw new Exception();
-            return __res_1223;
+            float __res_2594;
+            double __res_2595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
+            __res_2594 = Convert.ToSingle(__res_2595);
+            return __res_2594;
         }
     }
 
@@ -143,9 +156,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1224;
-            throw new Exception();
-            return __res_1224;
+            float __res_2596;
+            double __res_2597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
+            __res_2596 = Convert.ToSingle(__res_2597);
+            return __res_2596;
         }
     }
 
@@ -153,9 +167,10 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TouchType __res_1225;
-            throw new Exception();
-            return __res_1225;
+            Iskra.StdWeb.TouchType __res_2598;
+            JSObject __res_2599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touchType");
+            throw new Exception("Marshaller from \"__res_2599\" to \"__res_2598\" not supported.");
+            return __res_2598;
         }
     }
 }

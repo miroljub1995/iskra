@@ -13,9 +13,10 @@ public partial class NamedFlow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1283;
-            throw new Exception();
-            return __res_1283;
+            string __res_2716;
+            string __res_2717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2716 = __res_2717;
+            return __res_2716;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class NamedFlow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1284;
-            __res_1284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
-            return __res_1284;
+            bool __res_2718;
+            bool __res_2719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
+            __res_2718 = __res_2719;
+            return __res_2718;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class NamedFlow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            short __res_1285;
-            throw new Exception();
-            return __res_1285;
+            short __res_2720;
+            double __res_2721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstEmptyRegionIndex");
+            __res_2720 = Convert.ToInt16(__res_2721);
+            return __res_2720;
         }
     }
 }

@@ -13,9 +13,18 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaMetadata? __res_266;
-            throw new Exception();
-            return __res_266;
+            Iskra.StdWeb.MediaMetadata? __res_506;
+            JSObject? __res_507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
+            if (__res_507 is null)
+            {
+                __res_506 = null;
+            }
+            else
+            {
+                JSObject __notNullable_508 = (JSObject)__res_507;
+                throw new Exception("Marshaller from \"__notNullable_508\" to \"__res_506\" not supported.");
+            }
+            return __res_506;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaSessionPlaybackState __res_267;
-            throw new Exception();
-            return __res_267;
+            Iskra.StdWeb.MediaSessionPlaybackState __res_509;
+            JSObject __res_510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackState");
+            throw new Exception("Marshaller from \"__res_510\" to \"__res_509\" not supported.");
+            return __res_509;
         }
         set
         {

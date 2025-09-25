@@ -13,9 +13,18 @@ public partial class MIDIInput(JSObject obj): MIDIPort(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2949;
-            throw new Exception();
-            return __res_2949;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6289;
+            JSObject? __res_6290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage");
+            if (__res_6290 is null)
+            {
+                __res_6289 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6291 = (JSObject)__res_6290;
+                throw new Exception("Marshaller from \"__notNullable_6291\" to \"__res_6289\" not supported.");
+            }
+            return __res_6289;
         }
         set
         {

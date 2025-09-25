@@ -13,9 +13,10 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2757;
-            throw new Exception();
-            return __res_2757;
+            string __res_5876;
+            string __res_5877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
+            __res_5876 = __res_5877;
+            return __res_5876;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2758;
-            throw new Exception();
-            return __res_2758;
+            string __res_5878;
+            string __res_5879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
+            __res_5878 = __res_5879;
+            return __res_5878;
         }
         set
         {

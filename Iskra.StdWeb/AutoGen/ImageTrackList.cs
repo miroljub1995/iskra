@@ -13,9 +13,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1087;
+            object __res_2295;
             throw new Exception();
-            return __res_1087;
+            return __res_2295;
         }
     }
 
@@ -23,9 +23,10 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1088;
-            throw new Exception();
-            return __res_1088;
+            uint __res_2296;
+            double __res_2297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2296 = Convert.ToUInt32(__res_2297);
+            return __res_2296;
         }
     }
 
@@ -33,9 +34,10 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1089;
-            throw new Exception();
-            return __res_1089;
+            int __res_2298;
+            double __res_2299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_2298 = Convert.ToInt32(__res_2299);
+            return __res_2298;
         }
     }
 
@@ -43,9 +45,18 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ImageTrack? __res_1090;
-            throw new Exception();
-            return __res_1090;
+            Iskra.StdWeb.ImageTrack? __res_2300;
+            JSObject? __res_2301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
+            if (__res_2301 is null)
+            {
+                __res_2300 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2302 = (JSObject)__res_2301;
+                throw new Exception("Marshaller from \"__notNullable_2302\" to \"__res_2300\" not supported.");
+            }
+            return __res_2300;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_564;
-            throw new Exception();
-            return __res_564;
+            Iskra.StdWeb.SVGAnimatedString __res_1134;
+            JSObject __res_1135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1135\" to \"__res_1134\" not supported.");
+            return __res_1134;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_565;
-            throw new Exception();
-            return __res_565;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1136;
+            JSObject __res_1137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
+            throw new Exception("Marshaller from \"__res_1137\" to \"__res_1136\" not supported.");
+            return __res_1136;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_566;
-            throw new Exception();
-            return __res_566;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1138;
+            JSObject __res_1139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "radiusX");
+            throw new Exception("Marshaller from \"__res_1139\" to \"__res_1138\" not supported.");
+            return __res_1138;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFEMorphologyElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_567;
-            throw new Exception();
-            return __res_567;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1140;
+            JSObject __res_1141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "radiusY");
+            throw new Exception("Marshaller from \"__res_1141\" to \"__res_1140\" not supported.");
+            return __res_1140;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2855;
-            throw new Exception();
-            return __res_2855;
+            string __res_6073;
+            string __res_6074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6073 = __res_6074;
+            return __res_6073;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2856;
-            throw new Exception();
-            return __res_2856;
+            string? __res_6075;
+            string? __res_6076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "href");
+            if (__res_6076 is null)
+            {
+                __res_6075 = null;
+            }
+            else
+            {
+                string __notNullable_6077 = (string)__res_6076;
+                __res_6075 = __notNullable_6077;
+            }
+            return __res_6075;
         }
     }
 
@@ -33,9 +43,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2857;
+            object __res_6078;
             throw new Exception();
-            return __res_2857;
+            return __res_6078;
         }
     }
 
@@ -43,9 +53,18 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_2858;
-            throw new Exception();
-            return __res_2858;
+            Iskra.StdWeb.CSSStyleSheet? __res_6079;
+            JSObject? __res_6080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
+            if (__res_6080 is null)
+            {
+                __res_6079 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6081 = (JSObject)__res_6080;
+                throw new Exception("Marshaller from \"__notNullable_6081\" to \"__res_6079\" not supported.");
+            }
+            return __res_6079;
         }
     }
 
@@ -53,9 +72,18 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2859;
-            throw new Exception();
-            return __res_2859;
+            string? __res_6082;
+            string? __res_6083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "title");
+            if (__res_6083 is null)
+            {
+                __res_6082 = null;
+            }
+            else
+            {
+                string __notNullable_6084 = (string)__res_6083;
+                __res_6082 = __notNullable_6084;
+            }
+            return __res_6082;
         }
     }
 
@@ -63,9 +91,10 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_2860;
-            throw new Exception();
-            return __res_2860;
+            Iskra.StdWeb.MediaList __res_6085;
+            JSObject __res_6086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            throw new Exception("Marshaller from \"__res_6086\" to \"__res_6085\" not supported.");
+            return __res_6085;
         }
     }
 
@@ -73,9 +102,10 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2861;
-            __res_2861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            return __res_2861;
+            bool __res_6087;
+            bool __res_6088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_6087 = __res_6088;
+            return __res_6087;
         }
         set
         {

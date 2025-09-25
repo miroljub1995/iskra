@@ -13,9 +13,10 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport __res_832;
-            throw new Exception();
-            return __res_832;
+            Iskra.StdWeb.RTCDtlsTransport __res_1737;
+            JSObject __res_1738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transport");
+            throw new Exception("Marshaller from \"__res_1738\" to \"__res_1737\" not supported.");
+            return __res_1737;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSctpTransportState __res_833;
-            throw new Exception();
-            return __res_833;
+            Iskra.StdWeb.RTCSctpTransportState __res_1739;
+            JSObject __res_1740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_1740\" to \"__res_1739\" not supported.");
+            return __res_1739;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_834;
-            throw new Exception();
-            return __res_834;
+            double __res_1741;
+            double __res_1742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxMessageSize");
+            __res_1741 = __res_1742;
+            return __res_1741;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort? __res_835;
-            throw new Exception();
-            return __res_835;
+            ushort? __res_1743;
+            double? __res_1744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxChannels");
+            if (__res_1744 is null)
+            {
+                __res_1743 = null;
+            }
+            else
+            {
+                double __notNullable_1745 = (double)__res_1744;
+                throw new Exception("Marshaller from \"__notNullable_1745\" to \"__res_1743\" not supported.");
+            }
+            return __res_1743;
         }
     }
 
@@ -53,9 +65,18 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_836;
-            throw new Exception();
-            return __res_836;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1746;
+            JSObject? __res_1747 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_1747 is null)
+            {
+                __res_1746 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1748 = (JSObject)__res_1747;
+                throw new Exception("Marshaller from \"__notNullable_1748\" to \"__res_1746\" not supported.");
+            }
+            return __res_1746;
         }
         set
         {

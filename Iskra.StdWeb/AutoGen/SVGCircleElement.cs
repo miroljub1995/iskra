@@ -13,9 +13,10 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_193;
-            throw new Exception();
-            return __res_193;
+            Iskra.StdWeb.SVGAnimatedLength __res_358;
+            JSObject __res_359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
+            throw new Exception("Marshaller from \"__res_359\" to \"__res_358\" not supported.");
+            return __res_358;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_194;
-            throw new Exception();
-            return __res_194;
+            Iskra.StdWeb.SVGAnimatedLength __res_360;
+            JSObject __res_361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
+            throw new Exception("Marshaller from \"__res_361\" to \"__res_360\" not supported.");
+            return __res_360;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_195;
-            throw new Exception();
-            return __res_195;
+            Iskra.StdWeb.SVGAnimatedLength __res_362;
+            JSObject __res_363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
+            throw new Exception("Marshaller from \"__res_363\" to \"__res_362\" not supported.");
+            return __res_362;
         }
     }
 }

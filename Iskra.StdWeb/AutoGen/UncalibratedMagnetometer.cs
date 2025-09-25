@@ -13,9 +13,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_279;
-            throw new Exception();
-            return __res_279;
+            double? __res_533;
+            double? __res_534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_534 is null)
+            {
+                __res_533 = null;
+            }
+            else
+            {
+                double __notNullable_535 = (double)__res_534;
+                __res_533 = __notNullable_535;
+            }
+            return __res_533;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_280;
-            throw new Exception();
-            return __res_280;
+            double? __res_536;
+            double? __res_537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_537 is null)
+            {
+                __res_536 = null;
+            }
+            else
+            {
+                double __notNullable_538 = (double)__res_537;
+                __res_536 = __notNullable_538;
+            }
+            return __res_536;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_281;
-            throw new Exception();
-            return __res_281;
+            double? __res_539;
+            double? __res_540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_540 is null)
+            {
+                __res_539 = null;
+            }
+            else
+            {
+                double __notNullable_541 = (double)__res_540;
+                __res_539 = __notNullable_541;
+            }
+            return __res_539;
         }
     }
 
@@ -43,9 +70,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_282;
-            throw new Exception();
-            return __res_282;
+            double? __res_542;
+            double? __res_543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
+            if (__res_543 is null)
+            {
+                __res_542 = null;
+            }
+            else
+            {
+                double __notNullable_544 = (double)__res_543;
+                __res_542 = __notNullable_544;
+            }
+            return __res_542;
         }
     }
 
@@ -53,9 +89,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_283;
-            throw new Exception();
-            return __res_283;
+            double? __res_545;
+            double? __res_546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
+            if (__res_546 is null)
+            {
+                __res_545 = null;
+            }
+            else
+            {
+                double __notNullable_547 = (double)__res_546;
+                __res_545 = __notNullable_547;
+            }
+            return __res_545;
         }
     }
 
@@ -63,9 +108,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_284;
-            throw new Exception();
-            return __res_284;
+            double? __res_548;
+            double? __res_549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
+            if (__res_549 is null)
+            {
+                __res_548 = null;
+            }
+            else
+            {
+                double __notNullable_550 = (double)__res_549;
+                __res_548 = __notNullable_550;
+            }
+            return __res_548;
         }
     }
 }

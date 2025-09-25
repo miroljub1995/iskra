@@ -1,10 +1,13 @@
 using Iskra.StdWebGenerator.GeneratorContexts;
+using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class GetPropertyValueGenerator(
-    GeneratorContext generatorContext
+    GeneratorContext generatorContext,
+    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
+    IDLTypeDescriptionMarshaller marshaller
 )
 {
     public string Generate(
@@ -45,8 +48,15 @@ public class GetPropertyValueGenerator(
     )
     {
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        if (type.IdlType == "boolean")
+        var getPropertyVar = generatorContext.GetNextVariableName("res");
+
+        string getPropertyContent;
+
+        IDLTypeDescription inputType;
+
+        if (type.IdlType is BuiltinTypes.Boolean)
         {
             if (isStatic)
             {
@@ -56,14 +66,101 @@ public class GetPropertyValueGenerator(
             }
             else
             {
+                inputType = new SingleTypeDescription
+                {
+                    ExtAttrs = [],
+                    IdlType = BuiltinTypes.Boolean,
+                    Nullable = type.Nullable,
+                };
+
+                getPropertyContent = $$"""
+                                       bool{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       """;
+            }
+        }
+        else if (type.IdlType is BuiltinTypes.String)
+        {
+            if (isStatic)
+            {
                 return $$"""
-                         {{outputVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                         throw new Exception();
                          """;
+            }
+            else
+            {
+                inputType = new SingleTypeDescription
+                {
+                    ExtAttrs = [],
+                    IdlType = BuiltinTypes.String,
+                    Nullable = type.Nullable,
+                };
+
+                getPropertyContent = $$"""
+                                       string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       """;
+            }
+        }
+        else if (type.IdlType is
+                 BuiltinTypes.Octet or
+                 BuiltinTypes.Byte or
+                 BuiltinTypes.Short or
+                 BuiltinTypes.UnsignedShort or
+                 BuiltinTypes.Long or
+                 BuiltinTypes.UnsignedLong or
+                 BuiltinTypes.LongLong or
+                 BuiltinTypes.UnsignedLongLong or
+                 BuiltinTypes.Float or
+                 BuiltinTypes.UnrestrictedFloat or
+                 BuiltinTypes.Double or
+                 BuiltinTypes.UnrestrictedDouble
+                )
+        {
+            if (isStatic)
+            {
+                return $$"""
+                         throw new Exception();
+                         """;
+            }
+            else
+            {
+                inputType = new SingleTypeDescription
+                {
+                    ExtAttrs = [],
+                    IdlType = BuiltinTypes.Double,
+                    Nullable = type.Nullable,
+                };
+
+                getPropertyContent = $$"""
+                                       double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       """;
+            }
+        }
+        else
+        {
+            if (isStatic)
+            {
+                return $$"""
+                         throw new Exception();
+                         """;
+            }
+            else
+            {
+                inputType = new SingleTypeDescription
+                {
+                    ExtAttrs = [],
+                    IdlType = BuiltinTypes.Object,
+                    Nullable = type.Nullable,
+                };
+
+                getPropertyContent = $$"""
+                                       JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       """;
             }
         }
 
         return $$"""
-                 throw new Exception();
+                 {{getPropertyContent}}
+                 {{marshaller.ToManaged(inputType, getPropertyVar, type, outputVar)}}
                  """;
     }
 }

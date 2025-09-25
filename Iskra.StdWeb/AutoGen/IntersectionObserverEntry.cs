@@ -13,9 +13,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1102;
-            throw new Exception();
-            return __res_1102;
+            double __res_2323;
+            double __res_2324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_2323 = __res_2324;
+            return __res_2323;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly? __res_1103;
-            throw new Exception();
-            return __res_1103;
+            Iskra.StdWeb.DOMRectReadOnly? __res_2325;
+            JSObject? __res_2326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rootBounds");
+            if (__res_2326 is null)
+            {
+                __res_2325 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2327 = (JSObject)__res_2326;
+                throw new Exception("Marshaller from \"__notNullable_2327\" to \"__res_2325\" not supported.");
+            }
+            return __res_2325;
         }
     }
 
@@ -33,9 +43,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_1104;
-            throw new Exception();
-            return __res_1104;
+            Iskra.StdWeb.DOMRectReadOnly __res_2328;
+            JSObject __res_2329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingClientRect");
+            throw new Exception("Marshaller from \"__res_2329\" to \"__res_2328\" not supported.");
+            return __res_2328;
         }
     }
 
@@ -43,9 +54,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_1105;
-            throw new Exception();
-            return __res_1105;
+            Iskra.StdWeb.DOMRectReadOnly __res_2330;
+            JSObject __res_2331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
+            throw new Exception("Marshaller from \"__res_2331\" to \"__res_2330\" not supported.");
+            return __res_2330;
         }
     }
 
@@ -53,9 +65,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1106;
-            __res_1106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIntersecting");
-            return __res_1106;
+            bool __res_2332;
+            bool __res_2333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIntersecting");
+            __res_2332 = __res_2333;
+            return __res_2332;
         }
     }
 
@@ -63,9 +76,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1107;
-            __res_1107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isVisible");
-            return __res_1107;
+            bool __res_2334;
+            bool __res_2335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isVisible");
+            __res_2334 = __res_2335;
+            return __res_2334;
         }
     }
 
@@ -73,9 +87,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1108;
-            throw new Exception();
-            return __res_1108;
+            double __res_2336;
+            double __res_2337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "intersectionRatio");
+            __res_2336 = __res_2337;
+            return __res_2336;
         }
     }
 
@@ -83,9 +98,10 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_1109;
-            throw new Exception();
-            return __res_1109;
+            Iskra.StdWeb.Element __res_2338;
+            JSObject __res_2339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            throw new Exception("Marshaller from \"__res_2339\" to \"__res_2338\" not supported.");
+            return __res_2338;
         }
     }
 }

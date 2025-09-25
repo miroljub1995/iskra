@@ -13,9 +13,10 @@ public partial class XRInputSourceArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1737;
-            throw new Exception();
-            return __res_1737;
+            uint __res_3708;
+            double __res_3709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3708 = Convert.ToUInt32(__res_3709);
+            return __res_3708;
         }
     }
 }

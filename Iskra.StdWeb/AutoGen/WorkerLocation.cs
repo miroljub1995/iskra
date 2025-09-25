@@ -13,9 +13,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2731;
-            throw new Exception();
-            return __res_2731;
+            string __res_5820;
+            string __res_5821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_5820 = __res_5821;
+            return __res_5820;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2732;
-            throw new Exception();
-            return __res_2732;
+            string __res_5822;
+            string __res_5823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_5822 = __res_5823;
+            return __res_5822;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2733;
-            throw new Exception();
-            return __res_2733;
+            string __res_5824;
+            string __res_5825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_5824 = __res_5825;
+            return __res_5824;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2734;
-            throw new Exception();
-            return __res_2734;
+            string __res_5826;
+            string __res_5827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_5826 = __res_5827;
+            return __res_5826;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2735;
-            throw new Exception();
-            return __res_2735;
+            string __res_5828;
+            string __res_5829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_5828 = __res_5829;
+            return __res_5828;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2736;
-            throw new Exception();
-            return __res_2736;
+            string __res_5830;
+            string __res_5831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_5830 = __res_5831;
+            return __res_5830;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2737;
-            throw new Exception();
-            return __res_2737;
+            string __res_5832;
+            string __res_5833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_5832 = __res_5833;
+            return __res_5832;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2738;
-            throw new Exception();
-            return __res_2738;
+            string __res_5834;
+            string __res_5835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_5834 = __res_5835;
+            return __res_5834;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2739;
-            throw new Exception();
-            return __res_2739;
+            string __res_5836;
+            string __res_5837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_5836 = __res_5837;
+            return __res_5836;
         }
     }
 }

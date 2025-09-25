@@ -13,9 +13,18 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            string? __res_3113;
-            throw new Exception();
-            return __res_3113;
+            string? __res_6643;
+            string? __res_6644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
+            if (__res_6644 is null)
+            {
+                __res_6643 = null;
+            }
+            else
+            {
+                string __notNullable_6645 = (string)__res_6644;
+                __res_6643 = __notNullable_6645;
+            }
+            return __res_6643;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_3114;
-            __res_3114 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
-            return __res_3114;
+            bool __res_6646;
+            bool __res_6647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            __res_6646 = __res_6647;
+            return __res_6646;
         }
     }
 
@@ -33,9 +43,10 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            string __res_3115;
-            throw new Exception();
-            return __res_3115;
+            string __res_6648;
+            string __res_6649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
+            __res_6648 = __res_6649;
+            return __res_6648;
         }
     }
 }

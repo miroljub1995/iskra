@@ -13,9 +13,10 @@ public partial class SVGNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_125;
-            throw new Exception();
-            return __res_125;
+            float __res_220;
+            double __res_221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_220 = Convert.ToSingle(__res_221);
+            return __res_220;
         }
         set
         {

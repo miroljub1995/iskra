@@ -13,9 +13,18 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1113;
-            throw new Exception();
-            return __res_1113;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2345;
+            JSObject? __res_2346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
+            if (__res_2346 is null)
+            {
+                __res_2345 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2347 = (JSObject)__res_2346;
+                throw new Exception("Marshaller from \"__notNullable_2347\" to \"__res_2345\" not supported.");
+            }
+            return __res_2345;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothDevice? __res_1114;
-            throw new Exception();
-            return __res_1114;
+            Iskra.StdWeb.BluetoothDevice? __res_2348;
+            JSObject? __res_2349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
+            if (__res_2349 is null)
+            {
+                __res_2348 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2350 = (JSObject)__res_2349;
+                throw new Exception("Marshaller from \"__notNullable_2350\" to \"__res_2348\" not supported.");
+            }
+            return __res_2348;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class SVGElement(JSObject obj): Element(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_120;
-            throw new Exception();
-            return __res_120;
+            Iskra.StdWeb.SVGAnimatedString __res_208;
+            JSObject __res_209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "className");
+            throw new Exception("Marshaller from \"__res_209\" to \"__res_208\" not supported.");
+            return __res_208;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class SVGElement(JSObject obj): Element(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGSVGElement? __res_121;
-            throw new Exception();
-            return __res_121;
+            Iskra.StdWeb.SVGSVGElement? __res_210;
+            JSObject? __res_211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerSVGElement");
+            if (__res_211 is null)
+            {
+                __res_210 = null;
+            }
+            else
+            {
+                JSObject __notNullable_212 = (JSObject)__res_211;
+                throw new Exception("Marshaller from \"__notNullable_212\" to \"__res_210\" not supported.");
+            }
+            return __res_210;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class SVGElement(JSObject obj): Element(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGElement? __res_122;
-            throw new Exception();
-            return __res_122;
+            Iskra.StdWeb.SVGElement? __res_213;
+            JSObject? __res_214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewportElement");
+            if (__res_214 is null)
+            {
+                __res_213 = null;
+            }
+            else
+            {
+                JSObject __notNullable_215 = (JSObject)__res_214;
+                throw new Exception("Marshaller from \"__notNullable_215\" to \"__res_213\" not supported.");
+            }
+            return __res_213;
         }
     }
 }

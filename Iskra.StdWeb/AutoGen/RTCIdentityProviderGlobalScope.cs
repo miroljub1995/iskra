@@ -13,9 +13,10 @@ public partial class RTCIdentityProviderGlobalScope(JSObject obj): WorkerGlobalS
     {
         get
         {
-            Iskra.StdWeb.RTCIdentityProviderRegistrar __res_1680;
-            throw new Exception();
-            return __res_1680;
+            Iskra.StdWeb.RTCIdentityProviderRegistrar __res_3577;
+            JSObject __res_3578 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rtcIdentityProvider");
+            throw new Exception("Marshaller from \"__res_3578\" to \"__res_3577\" not supported.");
+            return __res_3577;
         }
     }
 }

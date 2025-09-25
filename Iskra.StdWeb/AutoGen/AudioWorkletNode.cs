@@ -13,9 +13,10 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParamMap __res_3260;
-            throw new Exception();
-            return __res_3260;
+            Iskra.StdWeb.AudioParamMap __res_6951;
+            JSObject __res_6952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "parameters");
+            throw new Exception("Marshaller from \"__res_6952\" to \"__res_6951\" not supported.");
+            return __res_6951;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_3261;
-            throw new Exception();
-            return __res_3261;
+            Iskra.StdWeb.MessagePort __res_6953;
+            JSObject __res_6954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            throw new Exception("Marshaller from \"__res_6954\" to \"__res_6953\" not supported.");
+            return __res_6953;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class AudioWorkletNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3262;
-            throw new Exception();
-            return __res_3262;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6955;
+            JSObject? __res_6956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprocessorerror");
+            if (__res_6956 is null)
+            {
+                __res_6955 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6957 = (JSObject)__res_6956;
+                throw new Exception("Marshaller from \"__notNullable_6957\" to \"__res_6955\" not supported.");
+            }
+            return __res_6955;
         }
         set
         {

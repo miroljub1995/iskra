@@ -13,9 +13,10 @@ public partial class XRCPUDepthInformation(JSObject obj): XRDepthInformation(obj
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_468;
-            throw new Exception();
-            return __res_468;
+            Iskra.JSCore.ArrayBuffer __res_937;
+            JSObject __res_938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            throw new Exception("Marshaller from \"__res_938\" to \"__res_937\" not supported.");
+            return __res_937;
         }
     }
 }

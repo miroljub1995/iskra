@@ -13,9 +13,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.TouchList __res_1227;
-            throw new Exception();
-            return __res_1227;
+            Iskra.StdWeb.TouchList __res_2602;
+            JSObject __res_2603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
+            throw new Exception("Marshaller from \"__res_2603\" to \"__res_2602\" not supported.");
+            return __res_2602;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.TouchList __res_1228;
-            throw new Exception();
-            return __res_1228;
+            Iskra.StdWeb.TouchList __res_2604;
+            JSObject __res_2605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
+            throw new Exception("Marshaller from \"__res_2605\" to \"__res_2604\" not supported.");
+            return __res_2604;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.TouchList __res_1229;
-            throw new Exception();
-            return __res_1229;
+            Iskra.StdWeb.TouchList __res_2606;
+            JSObject __res_2607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
+            throw new Exception("Marshaller from \"__res_2607\" to \"__res_2606\" not supported.");
+            return __res_2606;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_1230;
-            __res_1230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
-            return __res_1230;
+            bool __res_2608;
+            bool __res_2609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            __res_2608 = __res_2609;
+            return __res_2608;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_1231;
-            __res_1231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
-            return __res_1231;
+            bool __res_2610;
+            bool __res_2611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            __res_2610 = __res_2611;
+            return __res_2610;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_1232;
-            __res_1232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
-            return __res_1232;
+            bool __res_2612;
+            bool __res_2613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            __res_2612 = __res_2613;
+            return __res_2612;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_1233;
-            __res_1233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
-            return __res_1233;
+            bool __res_2614;
+            bool __res_2615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            __res_2614 = __res_2615;
+            return __res_2614;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceRole __res_819;
-            throw new Exception();
-            return __res_819;
+            Iskra.StdWeb.RTCIceRole __res_1709;
+            JSObject __res_1710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "role");
+            throw new Exception("Marshaller from \"__res_1710\" to \"__res_1709\" not supported.");
+            return __res_1709;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceComponent __res_820;
-            throw new Exception();
-            return __res_820;
+            Iskra.StdWeb.RTCIceComponent __res_1711;
+            JSObject __res_1712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "component");
+            throw new Exception("Marshaller from \"__res_1712\" to \"__res_1711\" not supported.");
+            return __res_1711;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceTransportState __res_821;
-            throw new Exception();
-            return __res_821;
+            Iskra.StdWeb.RTCIceTransportState __res_1713;
+            JSObject __res_1714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_1714\" to \"__res_1713\" not supported.");
+            return __res_1713;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceGathererState __res_822;
-            throw new Exception();
-            return __res_822;
+            Iskra.StdWeb.RTCIceGathererState __res_1715;
+            JSObject __res_1716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gatheringState");
+            throw new Exception("Marshaller from \"__res_1716\" to \"__res_1715\" not supported.");
+            return __res_1715;
         }
     }
 
@@ -53,9 +57,18 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_823;
-            throw new Exception();
-            return __res_823;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1717;
+            JSObject? __res_1718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_1718 is null)
+            {
+                __res_1717 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1719 = (JSObject)__res_1718;
+                throw new Exception("Marshaller from \"__notNullable_1719\" to \"__res_1717\" not supported.");
+            }
+            return __res_1717;
         }
         set
         {
@@ -67,9 +80,18 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_824;
-            throw new Exception();
-            return __res_824;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1720;
+            JSObject? __res_1721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongatheringstatechange");
+            if (__res_1721 is null)
+            {
+                __res_1720 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1722 = (JSObject)__res_1721;
+                throw new Exception("Marshaller from \"__notNullable_1722\" to \"__res_1720\" not supported.");
+            }
+            return __res_1720;
         }
         set
         {
@@ -81,9 +103,18 @@ public partial class RTCIceTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_825;
-            throw new Exception();
-            return __res_825;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1723;
+            JSObject? __res_1724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselectedcandidatepairchange");
+            if (__res_1724 is null)
+            {
+                __res_1723 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1725 = (JSObject)__res_1724;
+                throw new Exception("Marshaller from \"__notNullable_1725\" to \"__res_1723\" not supported.");
+            }
+            return __res_1723;
         }
         set
         {

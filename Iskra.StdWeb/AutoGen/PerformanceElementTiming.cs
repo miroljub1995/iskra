@@ -13,9 +13,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            double __res_1877;
-            throw new Exception();
-            return __res_1877;
+            double __res_4021;
+            double __res_4022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_4021 = __res_4022;
+            return __res_4021;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            double __res_1878;
-            throw new Exception();
-            return __res_1878;
+            double __res_4023;
+            double __res_4024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_4023 = __res_4024;
+            return __res_4023;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_1879;
-            throw new Exception();
-            return __res_1879;
+            Iskra.StdWeb.DOMRectReadOnly __res_4025;
+            JSObject __res_4026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
+            throw new Exception("Marshaller from \"__res_4026\" to \"__res_4025\" not supported.");
+            return __res_4025;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            string __res_1880;
-            throw new Exception();
-            return __res_1880;
+            string __res_4027;
+            string __res_4028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "identifier");
+            __res_4027 = __res_4028;
+            return __res_4027;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            uint __res_1881;
-            throw new Exception();
-            return __res_1881;
+            uint __res_4029;
+            double __res_4030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
+            __res_4029 = Convert.ToUInt32(__res_4030);
+            return __res_4029;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            uint __res_1882;
-            throw new Exception();
-            return __res_1882;
+            uint __res_4031;
+            double __res_4032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
+            __res_4031 = Convert.ToUInt32(__res_4032);
+            return __res_4031;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            string __res_1883;
-            throw new Exception();
-            return __res_1883;
+            string __res_4033;
+            string __res_4034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4033 = __res_4034;
+            return __res_4033;
         }
     }
 
@@ -83,9 +90,18 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1884;
-            throw new Exception();
-            return __res_1884;
+            Iskra.StdWeb.Element? __res_4035;
+            JSObject? __res_4036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_4036 is null)
+            {
+                __res_4035 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4037 = (JSObject)__res_4036;
+                throw new Exception("Marshaller from \"__notNullable_4037\" to \"__res_4035\" not supported.");
+            }
+            return __res_4035;
         }
     }
 
@@ -93,9 +109,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            string __res_1885;
-            throw new Exception();
-            return __res_1885;
+            string __res_4038;
+            string __res_4039 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_4038 = __res_4039;
+            return __res_4038;
         }
     }
 }

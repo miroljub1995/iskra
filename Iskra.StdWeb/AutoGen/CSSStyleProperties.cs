@@ -13,9 +13,10 @@ public partial class CSSStyleProperties(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_2901;
-            throw new Exception();
-            return __res_2901;
+            string __res_6174;
+            string __res_6175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssFloat");
+            __res_6174 = __res_6175;
+            return __res_6174;
         }
         set
         {

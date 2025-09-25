@@ -13,9 +13,10 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_1412;
-            throw new Exception();
-            return __res_1412;
+            string __res_3005;
+            string __res_3006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_3005 = __res_3006;
+            return __res_3005;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            JSObject __res_1413;
-            throw new Exception();
-            return __res_1413;
+            JSObject __res_3007;
+            JSObject __res_3008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_3007 = __res_3008;
+            return __res_3007;
         }
     }
 }

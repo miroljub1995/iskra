@@ -13,9 +13,10 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1718;
-            throw new Exception();
-            return __res_1718;
+            int __res_3669;
+            double __res_3670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_3669 = Convert.ToInt32(__res_3670);
+            return __res_3669;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1719;
-            throw new Exception();
-            return __res_1719;
+            int __res_3671;
+            double __res_3672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_3671 = Convert.ToInt32(__res_3672);
+            return __res_3671;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1720;
-            throw new Exception();
-            return __res_1720;
+            int __res_3673;
+            double __res_3674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3673 = Convert.ToInt32(__res_3674);
+            return __res_3673;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class XRViewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1721;
-            throw new Exception();
-            return __res_1721;
+            int __res_3675;
+            double __res_3676 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3675 = Convert.ToInt32(__res_3676);
+            return __res_3675;
         }
     }
 }

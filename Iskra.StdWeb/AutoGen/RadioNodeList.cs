@@ -13,9 +13,10 @@ public partial class RadioNodeList(JSObject obj): NodeList(obj)
     {
         get
         {
-            string __res_2108;
-            throw new Exception();
-            return __res_2108;
+            string __res_4493;
+            string __res_4494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_4493 = __res_4494;
+            return __res_4493;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_2034;
-            throw new Exception();
-            return __res_2034;
+            byte __res_4340;
+            double __res_4341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "alternateSetting");
+            __res_4340 = Convert.ToByte(__res_4341);
+            return __res_4340;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_2035;
-            throw new Exception();
-            return __res_2035;
+            byte __res_4342;
+            double __res_4343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceClass");
+            __res_4342 = Convert.ToByte(__res_4343);
+            return __res_4342;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_2036;
-            throw new Exception();
-            return __res_2036;
+            byte __res_4344;
+            double __res_4345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceSubclass");
+            __res_4344 = Convert.ToByte(__res_4345);
+            return __res_4344;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_2037;
-            throw new Exception();
-            return __res_2037;
+            byte __res_4346;
+            double __res_4347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceProtocol");
+            __res_4346 = Convert.ToByte(__res_4347);
+            return __res_4346;
         }
     }
 
@@ -53,9 +57,18 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2038;
-            throw new Exception();
-            return __res_2038;
+            string? __res_4348;
+            string? __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "interfaceName");
+            if (__res_4349 is null)
+            {
+                __res_4348 = null;
+            }
+            else
+            {
+                string __notNullable_4350 = (string)__res_4349;
+                __res_4348 = __notNullable_4350;
+            }
+            return __res_4348;
         }
     }
 
@@ -63,9 +76,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2039;
+            object __res_4351;
             throw new Exception();
-            return __res_2039;
+            return __res_4351;
         }
     }
 }

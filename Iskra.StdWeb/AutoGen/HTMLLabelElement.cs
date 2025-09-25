@@ -13,9 +13,18 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_2350;
-            throw new Exception();
-            return __res_2350;
+            Iskra.StdWeb.HTMLFormElement? __res_5001;
+            JSObject? __res_5002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_5002 is null)
+            {
+                __res_5001 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5003 = (JSObject)__res_5002;
+                throw new Exception("Marshaller from \"__notNullable_5003\" to \"__res_5001\" not supported.");
+            }
+            return __res_5001;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2351;
-            throw new Exception();
-            return __res_2351;
+            string __res_5004;
+            string __res_5005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
+            __res_5004 = __res_5005;
+            return __res_5004;
         }
         set
         {
@@ -37,9 +47,18 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLElement? __res_2352;
-            throw new Exception();
-            return __res_2352;
+            Iskra.StdWeb.HTMLElement? __res_5006;
+            JSObject? __res_5007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
+            if (__res_5007 is null)
+            {
+                __res_5006 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5008 = (JSObject)__res_5007;
+                throw new Exception("Marshaller from \"__notNullable_5008\" to \"__res_5006\" not supported.");
+            }
+            return __res_5006;
         }
     }
 }

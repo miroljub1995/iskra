@@ -13,9 +13,18 @@ public partial class PortalHost(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1538;
-            throw new Exception();
-            return __res_1538;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3262;
+            JSObject? __res_3263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_3263 is null)
+            {
+                __res_3262 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3264 = (JSObject)__res_3263;
+                throw new Exception("Marshaller from \"__notNullable_3264\" to \"__res_3262\" not supported.");
+            }
+            return __res_3262;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class PortalHost(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1539;
-            throw new Exception();
-            return __res_1539;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3265;
+            JSObject? __res_3266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
+            if (__res_3266 is null)
+            {
+                __res_3265 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3267 = (JSObject)__res_3266;
+                throw new Exception("Marshaller from \"__notNullable_3267\" to \"__res_3265\" not supported.");
+            }
+            return __res_3265;
         }
         set
         {

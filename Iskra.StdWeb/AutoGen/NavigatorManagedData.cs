@@ -13,9 +13,18 @@ public partial class NavigatorManagedData(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1414;
-            throw new Exception();
-            return __res_1414;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3009;
+            JSObject? __res_3010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange");
+            if (__res_3010 is null)
+            {
+                __res_3009 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3011 = (JSObject)__res_3010;
+                throw new Exception("Marshaller from \"__notNullable_3011\" to \"__res_3009\" not supported.");
+            }
+            return __res_3009;
         }
         set
         {

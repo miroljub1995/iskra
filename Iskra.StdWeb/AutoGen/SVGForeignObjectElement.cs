@@ -13,9 +13,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_222;
-            throw new Exception();
-            return __res_222;
+            Iskra.StdWeb.SVGAnimatedLength __res_417;
+            JSObject __res_418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller from \"__res_418\" to \"__res_417\" not supported.");
+            return __res_417;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_223;
-            throw new Exception();
-            return __res_223;
+            Iskra.StdWeb.SVGAnimatedLength __res_419;
+            JSObject __res_420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller from \"__res_420\" to \"__res_419\" not supported.");
+            return __res_419;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_224;
-            throw new Exception();
-            return __res_224;
+            Iskra.StdWeb.SVGAnimatedLength __res_421;
+            JSObject __res_422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            throw new Exception("Marshaller from \"__res_422\" to \"__res_421\" not supported.");
+            return __res_421;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_225;
-            throw new Exception();
-            return __res_225;
+            Iskra.StdWeb.SVGAnimatedLength __res_423;
+            JSObject __res_424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            throw new Exception("Marshaller from \"__res_424\" to \"__res_423\" not supported.");
+            return __res_423;
         }
     }
 }

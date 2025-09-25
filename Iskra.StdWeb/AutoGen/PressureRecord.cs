@@ -13,9 +13,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PressureSource __res_1531;
-            throw new Exception();
-            return __res_1531;
+            Iskra.StdWeb.PressureSource __res_3246;
+            JSObject __res_3247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            throw new Exception("Marshaller from \"__res_3247\" to \"__res_3246\" not supported.");
+            return __res_3246;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PressureState __res_1532;
-            throw new Exception();
-            return __res_1532;
+            Iskra.StdWeb.PressureState __res_3248;
+            JSObject __res_3249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_3249\" to \"__res_3248\" not supported.");
+            return __res_3248;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1533;
-            throw new Exception();
-            return __res_1533;
+            double __res_3250;
+            double __res_3251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_3250 = __res_3251;
+            return __res_3250;
         }
     }
 }

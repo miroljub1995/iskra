@@ -13,9 +13,10 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaKeyMessageType __res_2086;
-            throw new Exception();
-            return __res_2086;
+            Iskra.StdWeb.MediaKeyMessageType __res_4449;
+            JSObject __res_4450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
+            throw new Exception("Marshaller from \"__res_4450\" to \"__res_4449\" not supported.");
+            return __res_4449;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2087;
-            throw new Exception();
-            return __res_2087;
+            Iskra.JSCore.ArrayBuffer __res_4451;
+            JSObject __res_4452 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            throw new Exception("Marshaller from \"__res_4452\" to \"__res_4451\" not supported.");
+            return __res_4451;
         }
     }
 }

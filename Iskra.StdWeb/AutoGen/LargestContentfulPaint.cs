@@ -13,9 +13,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_755;
-            throw new Exception();
-            return __res_755;
+            double __res_1539;
+            double __res_1540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_1539 = __res_1540;
+            return __res_1539;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_756;
-            throw new Exception();
-            return __res_756;
+            double __res_1541;
+            double __res_1542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_1541 = __res_1542;
+            return __res_1541;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            uint __res_757;
-            throw new Exception();
-            return __res_757;
+            uint __res_1543;
+            double __res_1544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_1543 = Convert.ToUInt32(__res_1544);
+            return __res_1543;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_758;
-            throw new Exception();
-            return __res_758;
+            string __res_1545;
+            string __res_1546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_1545 = __res_1546;
+            return __res_1545;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_759;
-            throw new Exception();
-            return __res_759;
+            string __res_1547;
+            string __res_1548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_1547 = __res_1548;
+            return __res_1547;
         }
     }
 
@@ -63,9 +68,18 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_760;
-            throw new Exception();
-            return __res_760;
+            Iskra.StdWeb.Element? __res_1549;
+            JSObject? __res_1550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_1550 is null)
+            {
+                __res_1549 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1551 = (JSObject)__res_1550;
+                throw new Exception("Marshaller from \"__notNullable_1551\" to \"__res_1549\" not supported.");
+            }
+            return __res_1549;
         }
     }
 }

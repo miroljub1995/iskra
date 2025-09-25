@@ -13,9 +13,18 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoColorPrimaries? __res_1079;
-            throw new Exception();
-            return __res_1079;
+            Iskra.StdWeb.VideoColorPrimaries? __res_2276;
+            JSObject? __res_2277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "primaries");
+            if (__res_2277 is null)
+            {
+                __res_2276 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2278 = (JSObject)__res_2277;
+                throw new Exception("Marshaller from \"__notNullable_2278\" to \"__res_2276\" not supported.");
+            }
+            return __res_2276;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoTransferCharacteristics? __res_1080;
-            throw new Exception();
-            return __res_1080;
+            Iskra.StdWeb.VideoTransferCharacteristics? __res_2279;
+            JSObject? __res_2280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transfer");
+            if (__res_2280 is null)
+            {
+                __res_2279 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2281 = (JSObject)__res_2280;
+                throw new Exception("Marshaller from \"__notNullable_2281\" to \"__res_2279\" not supported.");
+            }
+            return __res_2279;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoMatrixCoefficients? __res_1081;
-            throw new Exception();
-            return __res_1081;
+            Iskra.StdWeb.VideoMatrixCoefficients? __res_2282;
+            JSObject? __res_2283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "matrix");
+            if (__res_2283 is null)
+            {
+                __res_2282 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2284 = (JSObject)__res_2283;
+                throw new Exception("Marshaller from \"__notNullable_2284\" to \"__res_2282\" not supported.");
+            }
+            return __res_2282;
         }
     }
 
@@ -43,9 +70,18 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_1082;
-            __res_1082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
-            return __res_1082;
+            bool? __res_2285;
+            bool? __res_2286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
+            if (__res_2286 is null)
+            {
+                __res_2285 = null;
+            }
+            else
+            {
+                bool __notNullable_2287 = (bool)__res_2286;
+                __res_2285 = __notNullable_2287;
+            }
+            return __res_2285;
         }
     }
 }

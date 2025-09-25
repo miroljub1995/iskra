@@ -13,9 +13,10 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_2870;
-            throw new Exception();
-            return __res_2870;
+            string __res_6108;
+            string __res_6109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_6108 = __res_6109;
+            return __res_6108;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_2871;
-            throw new Exception();
-            return __res_2871;
+            Iskra.StdWeb.CSSStyleProperties __res_6110;
+            JSObject __res_6111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller from \"__res_6111\" to \"__res_6110\" not supported.");
+            return __res_6110;
         }
     }
 }

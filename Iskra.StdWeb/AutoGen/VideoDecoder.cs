@@ -13,9 +13,10 @@ public partial class VideoDecoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.CodecState __res_1044;
-            throw new Exception();
-            return __res_1044;
+            Iskra.StdWeb.CodecState __res_2196;
+            JSObject __res_2197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_2197\" to \"__res_2196\" not supported.");
+            return __res_2196;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VideoDecoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_1045;
-            throw new Exception();
-            return __res_1045;
+            uint __res_2198;
+            double __res_2199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodeQueueSize");
+            __res_2198 = Convert.ToUInt32(__res_2199);
+            return __res_2198;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class VideoDecoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1046;
-            throw new Exception();
-            return __res_1046;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2200;
+            JSObject? __res_2201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
+            if (__res_2201 is null)
+            {
+                __res_2200 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2202 = (JSObject)__res_2201;
+                throw new Exception("Marshaller from \"__notNullable_2202\" to \"__res_2200\" not supported.");
+            }
+            return __res_2200;
         }
         set
         {

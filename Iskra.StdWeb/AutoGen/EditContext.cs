@@ -13,9 +13,10 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3270;
-            throw new Exception();
-            return __res_3270;
+            string __res_6976;
+            string __res_6977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_6976 = __res_6977;
+            return __res_6976;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_3271;
-            throw new Exception();
-            return __res_3271;
+            uint __res_6978;
+            double __res_6979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionStart");
+            __res_6978 = Convert.ToUInt32(__res_6979);
+            return __res_6978;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_3272;
-            throw new Exception();
-            return __res_3272;
+            uint __res_6980;
+            double __res_6981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionEnd");
+            __res_6980 = Convert.ToUInt32(__res_6981);
+            return __res_6980;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_3273;
-            throw new Exception();
-            return __res_3273;
+            uint __res_6982;
+            double __res_6983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "characterBoundsRangeStart");
+            __res_6982 = Convert.ToUInt32(__res_6983);
+            return __res_6982;
         }
     }
 
@@ -53,9 +57,18 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3274;
-            throw new Exception();
-            return __res_3274;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6984;
+            JSObject? __res_6985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontextupdate");
+            if (__res_6985 is null)
+            {
+                __res_6984 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6986 = (JSObject)__res_6985;
+                throw new Exception("Marshaller from \"__notNullable_6986\" to \"__res_6984\" not supported.");
+            }
+            return __res_6984;
         }
         set
         {
@@ -67,9 +80,18 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3275;
-            throw new Exception();
-            return __res_3275;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6987;
+            JSObject? __res_6988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontextformatupdate");
+            if (__res_6988 is null)
+            {
+                __res_6987 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6989 = (JSObject)__res_6988;
+                throw new Exception("Marshaller from \"__notNullable_6989\" to \"__res_6987\" not supported.");
+            }
+            return __res_6987;
         }
         set
         {
@@ -81,9 +103,18 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3276;
-            throw new Exception();
-            return __res_3276;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6990;
+            JSObject? __res_6991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacterboundsupdate");
+            if (__res_6991 is null)
+            {
+                __res_6990 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6992 = (JSObject)__res_6991;
+                throw new Exception("Marshaller from \"__notNullable_6992\" to \"__res_6990\" not supported.");
+            }
+            return __res_6990;
         }
         set
         {
@@ -95,9 +126,18 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3277;
-            throw new Exception();
-            return __res_3277;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6993;
+            JSObject? __res_6994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncompositionstart");
+            if (__res_6994 is null)
+            {
+                __res_6993 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6995 = (JSObject)__res_6994;
+                throw new Exception("Marshaller from \"__notNullable_6995\" to \"__res_6993\" not supported.");
+            }
+            return __res_6993;
         }
         set
         {
@@ -109,9 +149,18 @@ public partial class EditContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3278;
-            throw new Exception();
-            return __res_3278;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6996;
+            JSObject? __res_6997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncompositionend");
+            if (__res_6997 is null)
+            {
+                __res_6996 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6998 = (JSObject)__res_6997;
+                throw new Exception("Marshaller from \"__notNullable_6998\" to \"__res_6996\" not supported.");
+            }
+            return __res_6996;
         }
         set
         {

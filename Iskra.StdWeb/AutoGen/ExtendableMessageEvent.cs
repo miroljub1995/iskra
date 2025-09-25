@@ -13,9 +13,10 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object? __res_1841;
-            throw new Exception();
-            return __res_1841;
+            object? __res_3934;
+            JSObject __res_3935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_3934 = __res_3935;
+            return __res_3934;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_1842;
-            throw new Exception();
-            return __res_1842;
+            string __res_3936;
+            string __res_3937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_3936 = __res_3937;
+            return __res_3936;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_1843;
-            throw new Exception();
-            return __res_1843;
+            string __res_3938;
+            string __res_3939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
+            __res_3938 = __res_3939;
+            return __res_3938;
         }
     }
 
@@ -43,9 +46,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_1844;
+            object __res_3940;
             throw new Exception();
-            return __res_1844;
+            return __res_3940;
         }
     }
 
@@ -53,9 +56,9 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_1845;
+            object __res_3941;
             throw new Exception();
-            return __res_1845;
+            return __res_3941;
         }
     }
 }

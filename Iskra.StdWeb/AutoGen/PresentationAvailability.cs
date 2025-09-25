@@ -13,9 +13,10 @@ public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_935;
-            __res_935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "value");
-            return __res_935;
+            bool __res_1969;
+            bool __res_1970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "value");
+            __res_1969 = __res_1970;
+            return __res_1969;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class PresentationAvailability(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_936;
-            throw new Exception();
-            return __res_936;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1971;
+            JSObject? __res_1972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_1972 is null)
+            {
+                __res_1971 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1973 = (JSObject)__res_1972;
+                throw new Exception("Marshaller from \"__notNullable_1973\" to \"__res_1971\" not supported.");
+            }
+            return __res_1971;
         }
         set
         {

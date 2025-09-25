@@ -13,9 +13,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.ShadowRootMode __res_1342;
-            throw new Exception();
-            return __res_1342;
+            Iskra.StdWeb.ShadowRootMode __res_2854;
+            JSObject __res_2855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller from \"__res_2855\" to \"__res_2854\" not supported.");
+            return __res_2854;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_1343;
-            __res_1343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
-            return __res_1343;
+            bool __res_2856;
+            bool __res_2857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
+            __res_2856 = __res_2857;
+            return __res_2856;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.SlotAssignmentMode __res_1344;
-            throw new Exception();
-            return __res_1344;
+            Iskra.StdWeb.SlotAssignmentMode __res_2858;
+            JSObject __res_2859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slotAssignment");
+            throw new Exception("Marshaller from \"__res_2859\" to \"__res_2858\" not supported.");
+            return __res_2858;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_1345;
-            __res_1345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
-            return __res_1345;
+            bool __res_2860;
+            bool __res_2861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
+            __res_2860 = __res_2861;
+            return __res_2860;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_1346;
-            __res_1346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
-            return __res_1346;
+            bool __res_2862;
+            bool __res_2863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
+            __res_2862 = __res_2863;
+            return __res_2862;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_1347;
-            throw new Exception();
-            return __res_1347;
+            Iskra.StdWeb.Element __res_2864;
+            JSObject __res_2865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
+            throw new Exception("Marshaller from \"__res_2865\" to \"__res_2864\" not supported.");
+            return __res_2864;
         }
     }
 
@@ -73,9 +79,18 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1348;
-            throw new Exception();
-            return __res_1348;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2866;
+            JSObject? __res_2867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
+            if (__res_2867 is null)
+            {
+                __res_2866 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2868 = (JSObject)__res_2867;
+                throw new Exception("Marshaller from \"__notNullable_2868\" to \"__res_2866\" not supported.");
+            }
+            return __res_2866;
         }
         set
         {

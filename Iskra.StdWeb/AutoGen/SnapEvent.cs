@@ -14,7 +14,16 @@ public partial class SnapEvent(JSObject obj): Event(obj)
         get
         {
             Iskra.StdWeb.Node? __res_0;
-            throw new Exception();
+            JSObject? __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetBlock");
+            if (__res_1 is null)
+            {
+                __res_0 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2 = (JSObject)__res_1;
+                throw new Exception("Marshaller from \"__notNullable_2\" to \"__res_0\" not supported.");
+            }
             return __res_0;
         }
     }
@@ -23,9 +32,18 @@ public partial class SnapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_1;
-            throw new Exception();
-            return __res_1;
+            Iskra.StdWeb.Node? __res_3;
+            JSObject? __res_4 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetInline");
+            if (__res_4 is null)
+            {
+                __res_3 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5 = (JSObject)__res_4;
+                throw new Exception("Marshaller from \"__notNullable_5\" to \"__res_3\" not supported.");
+            }
+            return __res_3;
         }
     }
 }

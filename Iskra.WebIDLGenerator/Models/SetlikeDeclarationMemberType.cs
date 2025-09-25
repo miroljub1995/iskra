@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class SetlikeDeclarationMemberType : DeclarationMemberType
+public record SetlikeDeclarationMemberType : DeclarationMemberType
 {
     [JsonPropertyName("readonly")] public required bool Readonly { get; set; }
 }

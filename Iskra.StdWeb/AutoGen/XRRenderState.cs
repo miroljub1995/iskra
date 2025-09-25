@@ -13,9 +13,10 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1707;
-            throw new Exception();
-            return __res_1707;
+            double __res_3643;
+            double __res_3644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthNear");
+            __res_3643 = __res_3644;
+            return __res_3643;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1708;
-            throw new Exception();
-            return __res_1708;
+            double __res_3645;
+            double __res_3646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthFar");
+            __res_3645 = __res_3646;
+            return __res_3645;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_1709;
-            __res_1709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "passthroughFullyObscured");
-            return __res_1709;
+            bool? __res_3647;
+            bool? __res_3648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "passthroughFullyObscured");
+            if (__res_3648 is null)
+            {
+                __res_3647 = null;
+            }
+            else
+            {
+                bool __notNullable_3649 = (bool)__res_3648;
+                __res_3647 = __notNullable_3649;
+            }
+            return __res_3647;
         }
     }
 
@@ -43,9 +54,18 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_1710;
-            throw new Exception();
-            return __res_1710;
+            double? __res_3650;
+            double? __res_3651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "inlineVerticalFieldOfView");
+            if (__res_3651 is null)
+            {
+                __res_3650 = null;
+            }
+            else
+            {
+                double __notNullable_3652 = (double)__res_3651;
+                __res_3650 = __notNullable_3652;
+            }
+            return __res_3650;
         }
     }
 
@@ -53,9 +73,18 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRWebGLLayer? __res_1711;
-            throw new Exception();
-            return __res_1711;
+            Iskra.StdWeb.XRWebGLLayer? __res_3653;
+            JSObject? __res_3654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "baseLayer");
+            if (__res_3654 is null)
+            {
+                __res_3653 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3655 = (JSObject)__res_3654;
+                throw new Exception("Marshaller from \"__notNullable_3655\" to \"__res_3653\" not supported.");
+            }
+            return __res_3653;
         }
     }
 }

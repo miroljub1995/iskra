@@ -13,9 +13,10 @@ public partial class SVGFEMergeNodeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_563;
-            throw new Exception();
-            return __res_563;
+            Iskra.StdWeb.SVGAnimatedString __res_1132;
+            JSObject __res_1133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1133\" to \"__res_1132\" not supported.");
+            return __res_1132;
         }
     }
 }

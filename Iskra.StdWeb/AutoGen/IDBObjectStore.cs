@@ -13,9 +13,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3013;
-            throw new Exception();
-            return __res_3013;
+            string __res_6436;
+            string __res_6437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6436 = __res_6437;
+            return __res_6436;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3014;
-            throw new Exception();
-            return __res_3014;
+            object? __res_6438;
+            JSObject __res_6439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            __res_6438 = __res_6439;
+            return __res_6438;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMStringList __res_3015;
-            throw new Exception();
-            return __res_3015;
+            Iskra.StdWeb.DOMStringList __res_6440;
+            JSObject __res_6441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
+            throw new Exception("Marshaller from \"__res_6441\" to \"__res_6440\" not supported.");
+            return __res_6440;
         }
     }
 
@@ -47,9 +50,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBTransaction __res_3016;
-            throw new Exception();
-            return __res_3016;
+            Iskra.StdWeb.IDBTransaction __res_6442;
+            JSObject __res_6443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
+            throw new Exception("Marshaller from \"__res_6443\" to \"__res_6442\" not supported.");
+            return __res_6442;
         }
     }
 
@@ -57,9 +61,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3017;
-            __res_3017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
-            return __res_3017;
+            bool __res_6444;
+            bool __res_6445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
+            __res_6444 = __res_6445;
+            return __res_6444;
         }
     }
 }

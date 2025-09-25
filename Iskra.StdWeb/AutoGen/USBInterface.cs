@@ -13,9 +13,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_2030;
-            throw new Exception();
-            return __res_2030;
+            byte __res_4333;
+            double __res_4334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceNumber");
+            __res_4333 = Convert.ToByte(__res_4334);
+            return __res_4333;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBAlternateInterface __res_2031;
-            throw new Exception();
-            return __res_2031;
+            Iskra.StdWeb.USBAlternateInterface __res_4335;
+            JSObject __res_4336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
+            throw new Exception("Marshaller from \"__res_4336\" to \"__res_4335\" not supported.");
+            return __res_4335;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2032;
+            object __res_4337;
             throw new Exception();
-            return __res_2032;
+            return __res_4337;
         }
     }
 
@@ -43,9 +45,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2033;
-            __res_2033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
-            return __res_2033;
+            bool __res_4338;
+            bool __res_4339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
+            __res_4338 = __res_4339;
+            return __res_4338;
         }
     }
 }

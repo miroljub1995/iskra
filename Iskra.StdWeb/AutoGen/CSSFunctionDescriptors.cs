@@ -13,9 +13,10 @@ public partial class CSSFunctionDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
-            string __res_9;
-            throw new Exception();
-            return __res_9;
+            string __res_21;
+            string __res_22 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            __res_21 = __res_22;
+            return __res_21;
         }
         set
         {

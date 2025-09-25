@@ -13,9 +13,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1091;
-            __res_1091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
-            return __res_1091;
+            bool __res_2303;
+            bool __res_2304 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
+            __res_2303 = __res_2304;
+            return __res_2303;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1092;
-            throw new Exception();
-            return __res_1092;
+            uint __res_2305;
+            double __res_2306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frameCount");
+            __res_2305 = Convert.ToUInt32(__res_2306);
+            return __res_2305;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1093;
-            throw new Exception();
-            return __res_1093;
+            float __res_2307;
+            double __res_2308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "repetitionCount");
+            __res_2307 = Convert.ToSingle(__res_2308);
+            return __res_2307;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1094;
-            __res_1094 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            return __res_1094;
+            bool __res_2309;
+            bool __res_2310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            __res_2309 = __res_2310;
+            return __res_2309;
         }
         set
         {

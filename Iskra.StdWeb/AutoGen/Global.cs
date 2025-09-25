@@ -13,9 +13,10 @@ public partial class Global(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_1874;
-            throw new Exception();
-            return __res_1874;
+            object? __res_4015;
+            JSObject __res_4016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_4015 = __res_4016;
+            return __res_4015;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            string __res_2952;
-            throw new Exception();
-            return __res_2952;
+            string __res_6298;
+            string __res_6299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6298 = __res_6299;
+            return __res_6298;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            object __res_2953;
+            object __res_6300;
             throw new Exception();
-            return __res_2953;
+            return __res_6300;
         }
     }
 
@@ -33,9 +34,9 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            object __res_2954;
+            object __res_6301;
             throw new Exception();
-            return __res_2954;
+            return __res_6301;
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Iskra.WebIDLGenerator.Models;
 /// Base class for all WebIDL AST nodes.
 /// Uses "type" as the JSON discriminator.
 /// </summary>
-public abstract class AbstractBase
+public abstract record AbstractBase
 {
     /// <summary>
     /// A list of extended attributes.

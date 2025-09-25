@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class Argument : AbstractBase
+public record Argument : AbstractBase
 {
     [JsonPropertyName("default")] public required ValueDescription? Default { get; set; }
 

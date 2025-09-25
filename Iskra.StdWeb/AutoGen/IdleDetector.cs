@@ -13,9 +13,18 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.UserIdleState? __res_1152;
-            throw new Exception();
-            return __res_1152;
+            Iskra.StdWeb.UserIdleState? __res_2430;
+            JSObject? __res_2431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userState");
+            if (__res_2431 is null)
+            {
+                __res_2430 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2432 = (JSObject)__res_2431;
+                throw new Exception("Marshaller from \"__notNullable_2432\" to \"__res_2430\" not supported.");
+            }
+            return __res_2430;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ScreenIdleState? __res_1153;
-            throw new Exception();
-            return __res_1153;
+            Iskra.StdWeb.ScreenIdleState? __res_2433;
+            JSObject? __res_2434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "screenState");
+            if (__res_2434 is null)
+            {
+                __res_2433 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2435 = (JSObject)__res_2434;
+                throw new Exception("Marshaller from \"__notNullable_2435\" to \"__res_2433\" not supported.");
+            }
+            return __res_2433;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1154;
-            throw new Exception();
-            return __res_1154;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2436;
+            JSObject? __res_2437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_2437 is null)
+            {
+                __res_2436 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2438 = (JSObject)__res_2437;
+                throw new Exception("Marshaller from \"__notNullable_2438\" to \"__res_2436\" not supported.");
+            }
+            return __res_2436;
         }
         set
         {

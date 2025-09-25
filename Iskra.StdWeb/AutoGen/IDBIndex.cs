@@ -13,9 +13,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3018;
-            throw new Exception();
-            return __res_3018;
+            string __res_6446;
+            string __res_6447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6446 = __res_6447;
+            return __res_6446;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBObjectStore __res_3019;
-            throw new Exception();
-            return __res_3019;
+            Iskra.StdWeb.IDBObjectStore __res_6448;
+            JSObject __res_6449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
+            throw new Exception("Marshaller from \"__res_6449\" to \"__res_6448\" not supported.");
+            return __res_6448;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3020;
-            throw new Exception();
-            return __res_3020;
+            object? __res_6450;
+            JSObject __res_6451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            __res_6450 = __res_6451;
+            return __res_6450;
         }
     }
 
@@ -47,9 +50,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3021;
-            __res_3021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
-            return __res_3021;
+            bool __res_6452;
+            bool __res_6453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
+            __res_6452 = __res_6453;
+            return __res_6452;
         }
     }
 
@@ -57,9 +61,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3022;
-            __res_3022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
-            return __res_3022;
+            bool __res_6454;
+            bool __res_6455 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
+            __res_6454 = __res_6455;
+            return __res_6454;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1547;
-            throw new Exception();
-            return __res_1547;
+            string __res_3284;
+            string __res_3285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceLanguage");
+            __res_3284 = __res_3285;
+            return __res_3284;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1548;
-            throw new Exception();
-            return __res_1548;
+            string __res_3286;
+            string __res_3287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetLanguage");
+            __res_3286 = __res_3287;
+            return __res_3286;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1549;
-            throw new Exception();
-            return __res_1549;
+            double __res_3288;
+            double __res_3289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_3288 = __res_3289;
+            return __res_3288;
         }
     }
 }

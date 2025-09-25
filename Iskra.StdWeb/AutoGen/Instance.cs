@@ -13,9 +13,10 @@ public partial class Instance(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            JSObject __res_1871;
-            throw new Exception();
-            return __res_1871;
+            JSObject __res_4009;
+            JSObject __res_4010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exports");
+            __res_4009 = __res_4010;
+            return __res_4009;
         }
     }
 }

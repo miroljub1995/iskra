@@ -13,9 +13,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1675;
-            throw new Exception();
-            return __res_1675;
+            string __res_3567;
+            string __res_3568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "voiceURI");
+            __res_3567 = __res_3568;
+            return __res_3567;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1676;
-            throw new Exception();
-            return __res_1676;
+            string __res_3569;
+            string __res_3570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3569 = __res_3570;
+            return __res_3569;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1677;
-            throw new Exception();
-            return __res_1677;
+            string __res_3571;
+            string __res_3572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_3571 = __res_3572;
+            return __res_3571;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1678;
-            __res_1678 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
-            return __res_1678;
+            bool __res_3573;
+            bool __res_3574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
+            __res_3573 = __res_3574;
+            return __res_3573;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1679;
-            __res_1679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
-            return __res_1679;
+            bool __res_3575;
+            bool __res_3576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
+            __res_3575 = __res_3576;
+            return __res_3575;
         }
     }
 }

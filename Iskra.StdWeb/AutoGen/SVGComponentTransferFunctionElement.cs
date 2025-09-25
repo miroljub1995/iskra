@@ -13,9 +13,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_503;
-            throw new Exception();
-            return __res_503;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1012;
+            JSObject __res_1013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_1013\" to \"__res_1012\" not supported.");
+            return __res_1012;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_504;
-            throw new Exception();
-            return __res_504;
+            Iskra.StdWeb.SVGAnimatedNumberList __res_1014;
+            JSObject __res_1015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tableValues");
+            throw new Exception("Marshaller from \"__res_1015\" to \"__res_1014\" not supported.");
+            return __res_1014;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_505;
-            throw new Exception();
-            return __res_505;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1016;
+            JSObject __res_1017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slope");
+            throw new Exception("Marshaller from \"__res_1017\" to \"__res_1016\" not supported.");
+            return __res_1016;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_506;
-            throw new Exception();
-            return __res_506;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1018;
+            JSObject __res_1019 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intercept");
+            throw new Exception("Marshaller from \"__res_1019\" to \"__res_1018\" not supported.");
+            return __res_1018;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_507;
-            throw new Exception();
-            return __res_507;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1020;
+            JSObject __res_1021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "amplitude");
+            throw new Exception("Marshaller from \"__res_1021\" to \"__res_1020\" not supported.");
+            return __res_1020;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_508;
-            throw new Exception();
-            return __res_508;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1022;
+            JSObject __res_1023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exponent");
+            throw new Exception("Marshaller from \"__res_1023\" to \"__res_1022\" not supported.");
+            return __res_1022;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_509;
-            throw new Exception();
-            return __res_509;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1024;
+            JSObject __res_1025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            throw new Exception("Marshaller from \"__res_1025\" to \"__res_1024\" not supported.");
+            return __res_1024;
         }
     }
 }

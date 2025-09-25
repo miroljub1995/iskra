@@ -13,9 +13,10 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_496;
-            throw new Exception();
-            return __res_496;
+            Iskra.StdWeb.SVGAnimatedString __res_998;
+            JSObject __res_999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_999\" to \"__res_998\" not supported.");
+            return __res_998;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_497;
-            throw new Exception();
-            return __res_497;
+            Iskra.StdWeb.SVGAnimatedString __res_1000;
+            JSObject __res_1001 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
+            throw new Exception("Marshaller from \"__res_1001\" to \"__res_1000\" not supported.");
+            return __res_1000;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_498;
-            throw new Exception();
-            return __res_498;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1002;
+            JSObject __res_1003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller from \"__res_1003\" to \"__res_1002\" not supported.");
+            return __res_1002;
         }
     }
 }

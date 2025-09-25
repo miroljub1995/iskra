@@ -13,9 +13,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_2801;
-            throw new Exception();
-            return __res_2801;
+            double __res_5966;
+            double __res_5967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_5966 = __res_5967;
+            return __res_5966;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_2802;
-            throw new Exception();
-            return __res_2802;
+            double __res_5968;
+            double __res_5969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_5968 = __res_5969;
+            return __res_5968;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_2803;
-            throw new Exception();
-            return __res_2803;
+            string __res_5970;
+            string __res_5971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5970 = __res_5971;
+            return __res_5970;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_2804;
-            throw new Exception();
-            return __res_2804;
+            string __res_5972;
+            string __res_5973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_5972 = __res_5973;
+            return __res_5972;
         }
     }
 
@@ -53,9 +57,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            object __res_2805;
+            object __res_5974;
             throw new Exception();
-            return __res_2805;
+            return __res_5974;
         }
     }
 }

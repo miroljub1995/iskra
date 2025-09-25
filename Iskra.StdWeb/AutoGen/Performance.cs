@@ -13,9 +13,10 @@ public partial class Performance(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_731;
-            throw new Exception();
-            return __res_731;
+            double __res_1487;
+            double __res_1488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeOrigin");
+            __res_1487 = __res_1488;
+            return __res_1487;
         }
     }
 }

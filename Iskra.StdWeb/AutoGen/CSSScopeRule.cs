@@ -13,9 +13,18 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string? __res_1545;
-            throw new Exception();
-            return __res_1545;
+            string? __res_3278;
+            string? __res_3279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "start");
+            if (__res_3279 is null)
+            {
+                __res_3278 = null;
+            }
+            else
+            {
+                string __notNullable_3280 = (string)__res_3279;
+                __res_3278 = __notNullable_3280;
+            }
+            return __res_3278;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string? __res_1546;
-            throw new Exception();
-            return __res_1546;
+            string? __res_3281;
+            string? __res_3282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "end");
+            if (__res_3282 is null)
+            {
+                __res_3281 = null;
+            }
+            else
+            {
+                string __notNullable_3283 = (string)__res_3282;
+                __res_3281 = __notNullable_3283;
+            }
+            return __res_3281;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_552;
-            throw new Exception();
-            return __res_552;
+            Iskra.StdWeb.SVGAnimatedString __res_1110;
+            JSObject __res_1111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1111\" to \"__res_1110\" not supported.");
+            return __res_1110;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_553;
-            throw new Exception();
-            return __res_553;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1112;
+            JSObject __res_1113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
+            throw new Exception("Marshaller from \"__res_1113\" to \"__res_1112\" not supported.");
+            return __res_1112;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_554;
-            throw new Exception();
-            return __res_554;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1114;
+            JSObject __res_1115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
+            throw new Exception("Marshaller from \"__res_1115\" to \"__res_1114\" not supported.");
+            return __res_1114;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_555;
-            throw new Exception();
-            return __res_555;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1116;
+            JSObject __res_1117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
+            throw new Exception("Marshaller from \"__res_1117\" to \"__res_1116\" not supported.");
+            return __res_1116;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_556;
-            throw new Exception();
-            return __res_556;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1118;
+            JSObject __res_1119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
+            throw new Exception("Marshaller from \"__res_1119\" to \"__res_1118\" not supported.");
+            return __res_1118;
         }
     }
 }

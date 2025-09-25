@@ -13,9 +13,10 @@ public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdat
     {
         get
         {
-            string __res_2922;
-            throw new Exception();
-            return __res_2922;
+            string __res_6229;
+            string __res_6230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
+            __res_6229 = __res_6230;
+            return __res_6229;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class PaymentMethodChangeEvent(JSObject obj): PaymentRequestUpdat
     {
         get
         {
-            JSObject? __res_2923;
-            throw new Exception();
-            return __res_2923;
+            JSObject? __res_6231;
+            JSObject? __res_6232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
+            if (__res_6232 is null)
+            {
+                __res_6231 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6233 = (JSObject)__res_6232;
+                __res_6231 = __notNullable_6233;
+            }
+            return __res_6231;
         }
     }
 }

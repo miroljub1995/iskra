@@ -13,9 +13,18 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_1174;
-            throw new Exception();
-            return __res_1174;
+            double? __res_2486;
+            double? __res_2487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            if (__res_2487 is null)
+            {
+                __res_2486 = null;
+            }
+            else
+            {
+                double __notNullable_2488 = (double)__res_2487;
+                __res_2486 = __notNullable_2488;
+            }
+            return __res_2486;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_1175;
-            throw new Exception();
-            return __res_1175;
+            double? __res_2489;
+            double? __res_2490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
+            if (__res_2490 is null)
+            {
+                __res_2489 = null;
+            }
+            else
+            {
+                double __notNullable_2491 = (double)__res_2490;
+                __res_2489 = __notNullable_2491;
+            }
+            return __res_2489;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_1176;
-            throw new Exception();
-            return __res_1176;
+            double? __res_2492;
+            double? __res_2493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
+            if (__res_2493 is null)
+            {
+                __res_2492 = null;
+            }
+            else
+            {
+                double __notNullable_2494 = (double)__res_2493;
+                __res_2492 = __notNullable_2494;
+            }
+            return __res_2492;
         }
     }
 }

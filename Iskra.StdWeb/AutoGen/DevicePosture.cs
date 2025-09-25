@@ -13,9 +13,10 @@ public partial class DevicePosture(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.DevicePostureType __res_1940;
-            throw new Exception();
-            return __res_1940;
+            Iskra.StdWeb.DevicePostureType __res_4141;
+            JSObject __res_4142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_4142\" to \"__res_4141\" not supported.");
+            return __res_4141;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class DevicePosture(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1941;
-            throw new Exception();
-            return __res_1941;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4143;
+            JSObject? __res_4144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_4144 is null)
+            {
+                __res_4143 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4145 = (JSObject)__res_4144;
+                throw new Exception("Marshaller from \"__notNullable_4145\" to \"__res_4143\" not supported.");
+            }
+            return __res_4143;
         }
         set
         {

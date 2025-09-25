@@ -13,9 +13,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_2480;
-            throw new Exception();
-            return __res_2480;
+            double __res_5277;
+            double __res_5278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_5277 = __res_5278;
+            return __res_5277;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_2481;
-            throw new Exception();
-            return __res_2481;
+            double __res_5279;
+            double __res_5280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "min");
+            __res_5279 = __res_5280;
+            return __res_5279;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_2482;
-            throw new Exception();
-            return __res_2482;
+            double __res_5281;
+            double __res_5282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "max");
+            __res_5281 = __res_5282;
+            return __res_5281;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_2483;
-            throw new Exception();
-            return __res_2483;
+            double __res_5283;
+            double __res_5284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "low");
+            __res_5283 = __res_5284;
+            return __res_5283;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_2484;
-            throw new Exception();
-            return __res_2484;
+            double __res_5285;
+            double __res_5286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "high");
+            __res_5285 = __res_5286;
+            return __res_5285;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_2485;
-            throw new Exception();
-            return __res_2485;
+            double __res_5287;
+            double __res_5288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "optimum");
+            __res_5287 = __res_5288;
+            return __res_5287;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class HTMLMeterElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_2486;
-            throw new Exception();
-            return __res_2486;
+            Iskra.StdWeb.NodeList __res_5289;
+            JSObject __res_5290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            throw new Exception("Marshaller from \"__res_5290\" to \"__res_5289\" not supported.");
+            return __res_5289;
         }
     }
 }

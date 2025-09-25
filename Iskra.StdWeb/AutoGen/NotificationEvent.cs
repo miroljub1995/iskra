@@ -13,9 +13,10 @@ public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.Notification __res_1775;
-            throw new Exception();
-            return __res_1775;
+            Iskra.StdWeb.Notification __res_3787;
+            JSObject __res_3788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
+            throw new Exception("Marshaller from \"__res_3788\" to \"__res_3787\" not supported.");
+            return __res_3787;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_1776;
-            throw new Exception();
-            return __res_1776;
+            string __res_3789;
+            string __res_3790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
+            __res_3789 = __res_3790;
+            return __res_3789;
         }
     }
 }

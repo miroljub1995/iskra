@@ -13,9 +13,10 @@ public partial class HIDConnectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.HIDDevice __res_654;
-            throw new Exception();
-            return __res_654;
+            Iskra.StdWeb.HIDDevice __res_1322;
+            JSObject __res_1323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            throw new Exception("Marshaller from \"__res_1323\" to \"__res_1322\" not supported.");
+            return __res_1322;
         }
     }
 }

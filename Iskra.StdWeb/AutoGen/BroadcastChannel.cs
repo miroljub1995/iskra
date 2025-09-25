@@ -13,9 +13,10 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2715;
-            throw new Exception();
-            return __res_2715;
+            string __res_5779;
+            string __res_5780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5779 = __res_5780;
+            return __res_5779;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2716;
-            throw new Exception();
-            return __res_2716;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5781;
+            JSObject? __res_5782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_5782 is null)
+            {
+                __res_5781 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5783 = (JSObject)__res_5782;
+                throw new Exception("Marshaller from \"__notNullable_5783\" to \"__res_5781\" not supported.");
+            }
+            return __res_5781;
         }
         set
         {
@@ -37,9 +47,18 @@ public partial class BroadcastChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2717;
-            throw new Exception();
-            return __res_2717;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5784;
+            JSObject? __res_5785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
+            if (__res_5785 is null)
+            {
+                __res_5784 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5786 = (JSObject)__res_5785;
+                throw new Exception("Marshaller from \"__notNullable_5786\" to \"__res_5784\" not supported.");
+            }
+            return __res_5784;
         }
         set
         {

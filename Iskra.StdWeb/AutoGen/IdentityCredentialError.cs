@@ -13,9 +13,10 @@ public partial class IdentityCredentialError(JSObject obj): DOMException(obj)
     {
         get
         {
-            string __res_959;
-            throw new Exception();
-            return __res_959;
+            string __res_2024;
+            string __res_2025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
+            __res_2024 = __res_2025;
+            return __res_2024;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class IdentityCredentialError(JSObject obj): DOMException(obj)
     {
         get
         {
-            string __res_960;
-            throw new Exception();
-            return __res_960;
+            string __res_2026;
+            string __res_2027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_2026 = __res_2027;
+            return __res_2026;
         }
     }
 }

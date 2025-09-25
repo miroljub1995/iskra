@@ -13,9 +13,18 @@ public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3002;
-            throw new Exception();
-            return __res_3002;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6407;
+            JSObject? __res_6408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onblocked");
+            if (__res_6408 is null)
+            {
+                __res_6407 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6409 = (JSObject)__res_6408;
+                throw new Exception("Marshaller from \"__notNullable_6409\" to \"__res_6407\" not supported.");
+            }
+            return __res_6407;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class IDBOpenDBRequest(JSObject obj): IDBRequest(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3003;
-            throw new Exception();
-            return __res_3003;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6410;
+            JSObject? __res_6411 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupgradeneeded");
+            if (__res_6411 is null)
+            {
+                __res_6410 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6412 = (JSObject)__res_6411;
+                throw new Exception("Marshaller from \"__notNullable_6412\" to \"__res_6410\" not supported.");
+            }
+            return __res_6410;
         }
         set
         {

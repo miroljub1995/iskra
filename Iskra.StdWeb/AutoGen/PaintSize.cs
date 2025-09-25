@@ -13,9 +13,10 @@ public partial class PaintSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1184;
-            throw new Exception();
-            return __res_1184;
+            double __res_2512;
+            double __res_2513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_2512 = __res_2513;
+            return __res_2512;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PaintSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1185;
-            throw new Exception();
-            return __res_1185;
+            double __res_2514;
+            double __res_2515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_2514 = __res_2515;
+            return __res_2514;
         }
     }
 }

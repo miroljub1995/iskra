@@ -13,9 +13,10 @@ public partial class DOMStringList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2111;
-            throw new Exception();
-            return __res_2111;
+            uint __res_4499;
+            double __res_4500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4499 = Convert.ToUInt32(__res_4500);
+            return __res_4499;
         }
     }
 }

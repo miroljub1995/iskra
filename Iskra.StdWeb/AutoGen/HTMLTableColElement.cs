@@ -13,9 +13,10 @@ public partial class HTMLTableColElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2326;
-            throw new Exception();
-            return __res_2326;
+            uint __res_4953;
+            double __res_4954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "span");
+            __res_4953 = Convert.ToUInt32(__res_4954);
+            return __res_4953;
         }
         set
         {

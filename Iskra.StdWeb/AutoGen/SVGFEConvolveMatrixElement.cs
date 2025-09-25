@@ -13,9 +13,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_517;
-            throw new Exception();
-            return __res_517;
+            Iskra.StdWeb.SVGAnimatedString __res_1040;
+            JSObject __res_1041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1041\" to \"__res_1040\" not supported.");
+            return __res_1040;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedInteger __res_518;
-            throw new Exception();
-            return __res_518;
+            Iskra.StdWeb.SVGAnimatedInteger __res_1042;
+            JSObject __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orderX");
+            throw new Exception("Marshaller from \"__res_1043\" to \"__res_1042\" not supported.");
+            return __res_1042;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedInteger __res_519;
-            throw new Exception();
-            return __res_519;
+            Iskra.StdWeb.SVGAnimatedInteger __res_1044;
+            JSObject __res_1045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orderY");
+            throw new Exception("Marshaller from \"__res_1045\" to \"__res_1044\" not supported.");
+            return __res_1044;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_520;
-            throw new Exception();
-            return __res_520;
+            Iskra.StdWeb.SVGAnimatedNumberList __res_1046;
+            JSObject __res_1047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelMatrix");
+            throw new Exception("Marshaller from \"__res_1047\" to \"__res_1046\" not supported.");
+            return __res_1046;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_521;
-            throw new Exception();
-            return __res_521;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1048;
+            JSObject __res_1049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "divisor");
+            throw new Exception("Marshaller from \"__res_1049\" to \"__res_1048\" not supported.");
+            return __res_1048;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_522;
-            throw new Exception();
-            return __res_522;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1050;
+            JSObject __res_1051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "bias");
+            throw new Exception("Marshaller from \"__res_1051\" to \"__res_1050\" not supported.");
+            return __res_1050;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedInteger __res_523;
-            throw new Exception();
-            return __res_523;
+            Iskra.StdWeb.SVGAnimatedInteger __res_1052;
+            JSObject __res_1053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetX");
+            throw new Exception("Marshaller from \"__res_1053\" to \"__res_1052\" not supported.");
+            return __res_1052;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedInteger __res_524;
-            throw new Exception();
-            return __res_524;
+            Iskra.StdWeb.SVGAnimatedInteger __res_1054;
+            JSObject __res_1055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetY");
+            throw new Exception("Marshaller from \"__res_1055\" to \"__res_1054\" not supported.");
+            return __res_1054;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_525;
-            throw new Exception();
-            return __res_525;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1056;
+            JSObject __res_1057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
+            throw new Exception("Marshaller from \"__res_1057\" to \"__res_1056\" not supported.");
+            return __res_1056;
         }
     }
 
@@ -103,9 +112,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_526;
-            throw new Exception();
-            return __res_526;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1058;
+            JSObject __res_1059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthX");
+            throw new Exception("Marshaller from \"__res_1059\" to \"__res_1058\" not supported.");
+            return __res_1058;
         }
     }
 
@@ -113,9 +123,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_527;
-            throw new Exception();
-            return __res_527;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1060;
+            JSObject __res_1061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthY");
+            throw new Exception("Marshaller from \"__res_1061\" to \"__res_1060\" not supported.");
+            return __res_1060;
         }
     }
 
@@ -123,9 +134,10 @@ public partial class SVGFEConvolveMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedBoolean __res_528;
-            throw new Exception();
-            return __res_528;
+            Iskra.StdWeb.SVGAnimatedBoolean __res_1062;
+            JSObject __res_1063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAlpha");
+            throw new Exception("Marshaller from \"__res_1063\" to \"__res_1062\" not supported.");
+            return __res_1062;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PresentationStyle __res_728;
-            throw new Exception();
-            return __res_728;
+            Iskra.StdWeb.PresentationStyle __res_1482;
+            JSObject __res_1483 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "presentationStyle");
+            throw new Exception("Marshaller from \"__res_1483\" to \"__res_1482\" not supported.");
+            return __res_1482;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_729;
+            object __res_1484;
             throw new Exception();
-            return __res_729;
+            return __res_1484;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class HTMLTitleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2130;
-            throw new Exception();
-            return __res_2130;
+            string __res_4537;
+            string __res_4538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_4537 = __res_4538;
+            return __res_4537;
         }
         set
         {

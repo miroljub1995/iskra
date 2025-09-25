@@ -13,9 +13,10 @@ public partial class AuthenticatorAttestationResponse(JSObject obj): Authenticat
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1163;
-            throw new Exception();
-            return __res_1163;
+            Iskra.JSCore.ArrayBuffer __res_2457;
+            JSObject __res_2458 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
+            throw new Exception("Marshaller from \"__res_2458\" to \"__res_2457\" not supported.");
+            return __res_2457;
         }
     }
 }

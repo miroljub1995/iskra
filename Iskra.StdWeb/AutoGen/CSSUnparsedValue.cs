@@ -13,9 +13,10 @@ public partial class CSSUnparsedValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
-            uint __res_13;
-            throw new Exception();
-            return __res_13;
+            uint __res_29;
+            double __res_30 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_29 = Convert.ToUInt32(__res_30);
+            return __res_29;
         }
     }
 }

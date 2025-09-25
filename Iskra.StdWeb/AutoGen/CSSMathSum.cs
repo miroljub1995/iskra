@@ -13,9 +13,10 @@ public partial class CSSMathSum(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericArray __res_20;
-            throw new Exception();
-            return __res_20;
+            Iskra.StdWeb.CSSNumericArray __res_44;
+            JSObject __res_45 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            throw new Exception("Marshaller from \"__res_45\" to \"__res_44\" not supported.");
+            return __res_44;
         }
     }
 }

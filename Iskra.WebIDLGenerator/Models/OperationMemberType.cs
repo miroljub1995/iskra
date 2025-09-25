@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class OperationMemberType : IDLInterfaceMemberType
+public record OperationMemberType : IDLInterfaceMemberType
 {
     [JsonPropertyName("special")] public required string? Special { get; set; }
 

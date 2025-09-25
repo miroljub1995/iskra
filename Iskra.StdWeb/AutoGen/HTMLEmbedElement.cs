@@ -13,9 +13,10 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2210;
-            throw new Exception();
-            return __res_2210;
+            string __res_4700;
+            string __res_4701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_4700 = __res_4701;
+            return __res_4700;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2211;
-            throw new Exception();
-            return __res_2211;
+            string __res_4702;
+            string __res_4703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4702 = __res_4703;
+            return __res_4702;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2212;
-            throw new Exception();
-            return __res_2212;
+            string __res_4704;
+            string __res_4705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_4704 = __res_4705;
+            return __res_4704;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLEmbedElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2213;
-            throw new Exception();
-            return __res_2213;
+            string __res_4706;
+            string __res_4707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_4706 = __res_4707;
+            return __res_4706;
         }
         set
         {

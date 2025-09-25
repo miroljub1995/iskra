@@ -13,9 +13,10 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCEncodedVideoFrameType __res_451;
-            throw new Exception();
-            return __res_451;
+            Iskra.StdWeb.RTCEncodedVideoFrameType __res_900;
+            JSObject __res_901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_901\" to \"__res_900\" not supported.");
+            return __res_900;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_452;
-            throw new Exception();
-            return __res_452;
+            Iskra.JSCore.ArrayBuffer __res_902;
+            JSObject __res_903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            throw new Exception("Marshaller from \"__res_903\" to \"__res_902\" not supported.");
+            return __res_902;
         }
         set
         {

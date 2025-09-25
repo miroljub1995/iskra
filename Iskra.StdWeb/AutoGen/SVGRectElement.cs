@@ -13,9 +13,10 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_187;
-            throw new Exception();
-            return __res_187;
+            Iskra.StdWeb.SVGAnimatedLength __res_346;
+            JSObject __res_347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller from \"__res_347\" to \"__res_346\" not supported.");
+            return __res_346;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_188;
-            throw new Exception();
-            return __res_188;
+            Iskra.StdWeb.SVGAnimatedLength __res_348;
+            JSObject __res_349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller from \"__res_349\" to \"__res_348\" not supported.");
+            return __res_348;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_189;
-            throw new Exception();
-            return __res_189;
+            Iskra.StdWeb.SVGAnimatedLength __res_350;
+            JSObject __res_351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            throw new Exception("Marshaller from \"__res_351\" to \"__res_350\" not supported.");
+            return __res_350;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_190;
-            throw new Exception();
-            return __res_190;
+            Iskra.StdWeb.SVGAnimatedLength __res_352;
+            JSObject __res_353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            throw new Exception("Marshaller from \"__res_353\" to \"__res_352\" not supported.");
+            return __res_352;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_191;
-            throw new Exception();
-            return __res_191;
+            Iskra.StdWeb.SVGAnimatedLength __res_354;
+            JSObject __res_355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rx");
+            throw new Exception("Marshaller from \"__res_355\" to \"__res_354\" not supported.");
+            return __res_354;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGRectElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_192;
-            throw new Exception();
-            return __res_192;
+            Iskra.StdWeb.SVGAnimatedLength __res_356;
+            JSObject __res_357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ry");
+            throw new Exception("Marshaller from \"__res_357\" to \"__res_356\" not supported.");
+            return __res_356;
         }
     }
 }

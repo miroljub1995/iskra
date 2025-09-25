@@ -13,9 +13,10 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportErrorSource __res_925;
-            throw new Exception();
-            return __res_925;
+            Iskra.StdWeb.WebTransportErrorSource __res_1948;
+            JSObject __res_1949 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            throw new Exception("Marshaller from \"__res_1949\" to \"__res_1948\" not supported.");
+            return __res_1948;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            uint? __res_926;
-            throw new Exception();
-            return __res_926;
+            uint? __res_1950;
+            double? __res_1951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
+            if (__res_1951 is null)
+            {
+                __res_1950 = null;
+            }
+            else
+            {
+                double __notNullable_1952 = (double)__res_1951;
+                __res_1950 = Convert.ToUInt32(__notNullable_1952);
+            }
+            return __res_1950;
         }
     }
 }

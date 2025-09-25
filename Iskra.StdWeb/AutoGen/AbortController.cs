@@ -13,9 +13,10 @@ public partial class AbortController(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_1300;
-            throw new Exception();
-            return __res_1300;
+            Iskra.StdWeb.AbortSignal __res_2753;
+            JSObject __res_2754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            throw new Exception("Marshaller from \"__res_2754\" to \"__res_2753\" not supported.");
+            return __res_2753;
         }
     }
 }

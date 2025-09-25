@@ -13,9 +13,9 @@ public partial class CookieChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_708;
+            object __res_1444;
             throw new Exception();
-            return __res_708;
+            return __res_1444;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class CookieChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_709;
+            object __res_1445;
             throw new Exception();
-            return __res_709;
+            return __res_1445;
         }
     }
 }

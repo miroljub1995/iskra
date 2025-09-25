@@ -13,9 +13,10 @@ public partial class DOMTokenList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1387;
-            throw new Exception();
-            return __res_1387;
+            uint __res_2954;
+            double __res_2955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2954 = Convert.ToUInt32(__res_2955);
+            return __res_2954;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class DOMTokenList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1388;
-            throw new Exception();
-            return __res_1388;
+            string __res_2956;
+            string __res_2957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_2956 = __res_2957;
+            return __res_2956;
         }
         set
         {

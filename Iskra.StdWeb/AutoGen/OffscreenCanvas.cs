@@ -13,9 +13,10 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2548;
-            throw new Exception();
-            return __res_2548;
+            ulong __res_5416;
+            double __res_5417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_5416 = Convert.ToUInt64(__res_5417);
+            return __res_5416;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2549;
-            throw new Exception();
-            return __res_2549;
+            ulong __res_5418;
+            double __res_5419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_5418 = Convert.ToUInt64(__res_5419);
+            return __res_5418;
         }
         set
         {
@@ -41,9 +43,18 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2550;
-            throw new Exception();
-            return __res_2550;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5420;
+            JSObject? __res_5421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
+            if (__res_5421 is null)
+            {
+                __res_5420 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5422 = (JSObject)__res_5421;
+                throw new Exception("Marshaller from \"__notNullable_5422\" to \"__res_5420\" not supported.");
+            }
+            return __res_5420;
         }
         set
         {
@@ -55,9 +66,18 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2551;
-            throw new Exception();
-            return __res_2551;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5423;
+            JSObject? __res_5424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
+            if (__res_5424 is null)
+            {
+                __res_5423 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5425 = (JSObject)__res_5424;
+                throw new Exception("Marshaller from \"__notNullable_5425\" to \"__res_5423\" not supported.");
+            }
+            return __res_5423;
         }
         set
         {

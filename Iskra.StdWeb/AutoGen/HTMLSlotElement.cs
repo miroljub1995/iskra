@@ -13,9 +13,10 @@ public partial class HTMLSlotElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2531;
-            throw new Exception();
-            return __res_2531;
+            string __res_5383;
+            string __res_5384 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5383 = __res_5384;
+            return __res_5383;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class CharacterData(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_1368;
-            throw new Exception();
-            return __res_1368;
+            string __res_2914;
+            string __res_2915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_2914 = __res_2915;
+            return __res_2914;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CharacterData(JSObject obj): Node(obj)
     {
         get
         {
-            uint __res_1369;
-            throw new Exception();
-            return __res_1369;
+            uint __res_2916;
+            double __res_2917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2916 = Convert.ToUInt32(__res_2917);
+            return __res_2916;
         }
     }
 }

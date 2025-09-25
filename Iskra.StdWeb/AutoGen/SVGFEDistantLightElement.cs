@@ -13,9 +13,10 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_534;
-            throw new Exception();
-            return __res_534;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1074;
+            JSObject __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
+            throw new Exception("Marshaller from \"__res_1075\" to \"__res_1074\" not supported.");
+            return __res_1074;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_535;
-            throw new Exception();
-            return __res_535;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1076;
+            JSObject __res_1077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
+            throw new Exception("Marshaller from \"__res_1077\" to \"__res_1076\" not supported.");
+            return __res_1076;
         }
     }
 }

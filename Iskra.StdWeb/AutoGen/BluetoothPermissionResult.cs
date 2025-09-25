@@ -13,9 +13,9 @@ public partial class BluetoothPermissionResult(JSObject obj): PermissionStatus(o
     {
         get
         {
-            object __res_1115;
+            object __res_2351;
             throw new Exception();
-            return __res_1115;
+            return __res_2351;
         }
         set
         {

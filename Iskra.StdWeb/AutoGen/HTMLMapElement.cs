@@ -13,9 +13,10 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2310;
-            throw new Exception();
-            return __res_2310;
+            string __res_4918;
+            string __res_4919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4918 = __res_4919;
+            return __res_4918;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_2311;
-            throw new Exception();
-            return __res_2311;
+            Iskra.StdWeb.HTMLCollection __res_4920;
+            JSObject __res_4921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            throw new Exception("Marshaller from \"__res_4921\" to \"__res_4920\" not supported.");
+            return __res_4920;
         }
     }
 }

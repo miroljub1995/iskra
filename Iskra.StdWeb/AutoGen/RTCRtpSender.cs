@@ -13,9 +13,18 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack? __res_805;
-            throw new Exception();
-            return __res_805;
+            Iskra.StdWeb.MediaStreamTrack? __res_1673;
+            JSObject? __res_1674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
+            if (__res_1674 is null)
+            {
+                __res_1673 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1675 = (JSObject)__res_1674;
+                throw new Exception("Marshaller from \"__notNullable_1675\" to \"__res_1673\" not supported.");
+            }
+            return __res_1673;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport? __res_806;
-            throw new Exception();
-            return __res_806;
+            Iskra.StdWeb.RTCDtlsTransport? __res_1676;
+            JSObject? __res_1677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_1677 is null)
+            {
+                __res_1676 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1678 = (JSObject)__res_1677;
+                throw new Exception("Marshaller from \"__notNullable_1678\" to \"__res_1676\" not supported.");
+            }
+            return __res_1676;
         }
     }
 }

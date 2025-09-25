@@ -13,9 +13,10 @@ public partial class RTCEncodedAudioFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_453;
-            throw new Exception();
-            return __res_453;
+            Iskra.JSCore.ArrayBuffer __res_904;
+            JSObject __res_905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            throw new Exception("Marshaller from \"__res_905\" to \"__res_904\" not supported.");
+            return __res_904;
         }
         set
         {

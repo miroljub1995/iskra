@@ -13,9 +13,10 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2618;
-            throw new Exception();
-            return __res_2618;
+            uint __res_5567;
+            double __res_5568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5567 = Convert.ToUInt32(__res_5568);
+            return __res_5567;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ScrollRestoration __res_2619;
-            throw new Exception();
-            return __res_2619;
+            Iskra.StdWeb.ScrollRestoration __res_5569;
+            JSObject __res_5570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollRestoration");
+            throw new Exception("Marshaller from \"__res_5570\" to \"__res_5569\" not supported.");
+            return __res_5569;
         }
         set
         {
@@ -37,9 +39,10 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_2620;
-            throw new Exception();
-            return __res_2620;
+            object? __res_5571;
+            JSObject __res_5572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            __res_5571 = __res_5572;
+            return __res_5571;
         }
     }
 }

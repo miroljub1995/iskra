@@ -13,9 +13,18 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3249;
-            throw new Exception();
-            return __res_3249;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6927;
+            JSObject? __res_6928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
+            if (__res_6928 is null)
+            {
+                __res_6927 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6929 = (JSObject)__res_6928;
+                throw new Exception("Marshaller from \"__notNullable_6929\" to \"__res_6927\" not supported.");
+            }
+            return __res_6927;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            int __res_3250;
-            throw new Exception();
-            return __res_3250;
+            int __res_6930;
+            double __res_6931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
+            __res_6930 = Convert.ToInt32(__res_6931);
+            return __res_6930;
         }
     }
 }

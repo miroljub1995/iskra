@@ -13,9 +13,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_539;
-            throw new Exception();
-            return __res_539;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1084;
+            JSObject __res_1085 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller from \"__res_1085\" to \"__res_1084\" not supported.");
+            return __res_1084;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_540;
-            throw new Exception();
-            return __res_540;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1086;
+            JSObject __res_1087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller from \"__res_1087\" to \"__res_1086\" not supported.");
+            return __res_1086;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_541;
-            throw new Exception();
-            return __res_541;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1088;
+            JSObject __res_1089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
+            throw new Exception("Marshaller from \"__res_1089\" to \"__res_1088\" not supported.");
+            return __res_1088;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_542;
-            throw new Exception();
-            return __res_542;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1090;
+            JSObject __res_1091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtX");
+            throw new Exception("Marshaller from \"__res_1091\" to \"__res_1090\" not supported.");
+            return __res_1090;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_543;
-            throw new Exception();
-            return __res_543;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1092;
+            JSObject __res_1093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtY");
+            throw new Exception("Marshaller from \"__res_1093\" to \"__res_1092\" not supported.");
+            return __res_1092;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_544;
-            throw new Exception();
-            return __res_544;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1094;
+            JSObject __res_1095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtZ");
+            throw new Exception("Marshaller from \"__res_1095\" to \"__res_1094\" not supported.");
+            return __res_1094;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_545;
-            throw new Exception();
-            return __res_545;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1096;
+            JSObject __res_1097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "specularExponent");
+            throw new Exception("Marshaller from \"__res_1097\" to \"__res_1096\" not supported.");
+            return __res_1096;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_546;
-            throw new Exception();
-            return __res_546;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1098;
+            JSObject __res_1099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limitingConeAngle");
+            throw new Exception("Marshaller from \"__res_1099\" to \"__res_1098\" not supported.");
+            return __res_1098;
         }
     }
 }

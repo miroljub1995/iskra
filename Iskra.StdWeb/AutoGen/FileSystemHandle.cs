@@ -13,9 +13,10 @@ public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileSystemHandleKind __res_1616;
-            throw new Exception();
-            return __res_1616;
+            Iskra.StdWeb.FileSystemHandleKind __res_3430;
+            JSObject __res_3431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            throw new Exception("Marshaller from \"__res_3431\" to \"__res_3430\" not supported.");
+            return __res_3430;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1617;
-            throw new Exception();
-            return __res_1617;
+            string __res_3432;
+            string __res_3433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3432 = __res_3433;
+            return __res_3432;
         }
     }
 }

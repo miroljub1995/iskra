@@ -13,9 +13,10 @@ public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_743;
-            throw new Exception();
-            return __res_743;
+            Iskra.StdWeb.Node __res_1512;
+            JSObject __res_1513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
+            throw new Exception("Marshaller from \"__res_1513\" to \"__res_1512\" not supported.");
+            return __res_1512;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_744;
-            throw new Exception();
-            return __res_744;
+            uint __res_1514;
+            double __res_1515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
+            __res_1514 = Convert.ToUInt32(__res_1515);
+            return __res_1514;
         }
     }
 }

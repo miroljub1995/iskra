@@ -13,9 +13,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2677;
-            throw new Exception();
-            return __res_2677;
+            string __res_5702;
+            string __res_5703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_5702 = __res_5703;
+            return __res_5702;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2678;
-            throw new Exception();
-            return __res_2678;
+            string __res_5704;
+            string __res_5705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
+            __res_5704 = __res_5705;
+            return __res_5704;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_2679;
-            throw new Exception();
-            return __res_2679;
+            uint __res_5706;
+            double __res_5707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineno");
+            __res_5706 = Convert.ToUInt32(__res_5707);
+            return __res_5706;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_2680;
-            throw new Exception();
-            return __res_2680;
+            uint __res_5708;
+            double __res_5709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colno");
+            __res_5708 = Convert.ToUInt32(__res_5709);
+            return __res_5708;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_2681;
-            throw new Exception();
-            return __res_2681;
+            object? __res_5710;
+            JSObject __res_5711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            __res_5710 = __res_5711;
+            return __res_5710;
         }
     }
 }

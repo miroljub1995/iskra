@@ -13,9 +13,10 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_961;
-            throw new Exception();
-            return __res_961;
+            string __res_2028;
+            string __res_2029 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "propertyName");
+            __res_2028 = __res_2029;
+            return __res_2028;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_962;
-            throw new Exception();
-            return __res_962;
+            double __res_2030;
+            double __res_2031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
+            __res_2030 = __res_2031;
+            return __res_2030;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_963;
-            throw new Exception();
-            return __res_963;
+            string __res_2032;
+            string __res_2033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
+            __res_2032 = __res_2033;
+            return __res_2032;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1652;
-            __res_1652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
-            return __res_1652;
+            bool __res_3512;
+            bool __res_3513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
+            __res_3512 = __res_3513;
+            return __res_3512;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1653;
-            __res_1653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "speaking");
-            return __res_1653;
+            bool __res_3514;
+            bool __res_3515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "speaking");
+            __res_3514 = __res_3515;
+            return __res_3514;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1654;
-            __res_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
-            return __res_1654;
+            bool __res_3516;
+            bool __res_3517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
+            __res_3516 = __res_3517;
+            return __res_3516;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class SpeechSynthesis(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1655;
-            throw new Exception();
-            return __res_1655;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3518;
+            JSObject? __res_3519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onvoiceschanged");
+            if (__res_3519 is null)
+            {
+                __res_3518 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3520 = (JSObject)__res_3519;
+                throw new Exception("Marshaller from \"__notNullable_3520\" to \"__res_3518\" not supported.");
+            }
+            return __res_3518;
         }
         set
         {

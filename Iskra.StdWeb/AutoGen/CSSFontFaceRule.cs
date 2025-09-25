@@ -13,9 +13,10 @@ public partial class CSSFontFaceRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFaceDescriptors __res_1983;
-            throw new Exception();
-            return __res_1983;
+            Iskra.StdWeb.CSSFontFaceDescriptors __res_4228;
+            JSObject __res_4229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller from \"__res_4229\" to \"__res_4228\" not supported.");
+            return __res_4228;
         }
     }
 }

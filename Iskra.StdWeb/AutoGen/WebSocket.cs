@@ -13,9 +13,10 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1893;
-            throw new Exception();
-            return __res_1893;
+            string __res_4051;
+            string __res_4052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_4051 = __res_4052;
+            return __res_4051;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_1894;
-            throw new Exception();
-            return __res_1894;
+            ushort __res_4053;
+            double __res_4054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            throw new Exception("Marshaller from \"__res_4054\" to \"__res_4053\" not supported.");
+            return __res_4053;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1895;
-            throw new Exception();
-            return __res_1895;
+            ulong __res_4055;
+            double __res_4056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferedAmount");
+            __res_4055 = Convert.ToUInt64(__res_4056);
+            return __res_4055;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1896;
-            throw new Exception();
-            return __res_1896;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4057;
+            JSObject? __res_4058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onopen");
+            if (__res_4058 is null)
+            {
+                __res_4057 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4059 = (JSObject)__res_4058;
+                throw new Exception("Marshaller from \"__notNullable_4059\" to \"__res_4057\" not supported.");
+            }
+            return __res_4057;
         }
         set
         {
@@ -57,9 +69,18 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1897;
-            throw new Exception();
-            return __res_1897;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4060;
+            JSObject? __res_4061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_4061 is null)
+            {
+                __res_4060 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4062 = (JSObject)__res_4061;
+                throw new Exception("Marshaller from \"__notNullable_4062\" to \"__res_4060\" not supported.");
+            }
+            return __res_4060;
         }
         set
         {
@@ -71,9 +92,18 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1898;
-            throw new Exception();
-            return __res_1898;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4063;
+            JSObject? __res_4064 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclose");
+            if (__res_4064 is null)
+            {
+                __res_4063 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4065 = (JSObject)__res_4064;
+                throw new Exception("Marshaller from \"__notNullable_4065\" to \"__res_4063\" not supported.");
+            }
+            return __res_4063;
         }
         set
         {
@@ -85,9 +115,10 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1899;
-            throw new Exception();
-            return __res_1899;
+            string __res_4066;
+            string __res_4067 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "extensions");
+            __res_4066 = __res_4067;
+            return __res_4066;
         }
     }
 
@@ -95,9 +126,10 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1900;
-            throw new Exception();
-            return __res_1900;
+            string __res_4068;
+            string __res_4069 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_4068 = __res_4069;
+            return __res_4068;
         }
     }
 
@@ -105,9 +137,18 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1901;
-            throw new Exception();
-            return __res_1901;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4070;
+            JSObject? __res_4071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_4071 is null)
+            {
+                __res_4070 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4072 = (JSObject)__res_4071;
+                throw new Exception("Marshaller from \"__notNullable_4072\" to \"__res_4070\" not supported.");
+            }
+            return __res_4070;
         }
         set
         {
@@ -119,9 +160,10 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BinaryType __res_1902;
-            throw new Exception();
-            return __res_1902;
+            Iskra.StdWeb.BinaryType __res_4073;
+            JSObject __res_4074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
+            throw new Exception("Marshaller from \"__res_4074\" to \"__res_4073\" not supported.");
+            return __res_4073;
         }
         set
         {

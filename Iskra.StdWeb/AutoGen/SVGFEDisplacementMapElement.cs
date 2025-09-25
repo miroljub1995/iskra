@@ -13,9 +13,10 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_547;
-            throw new Exception();
-            return __res_547;
+            Iskra.StdWeb.SVGAnimatedString __res_1100;
+            JSObject __res_1101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1101\" to \"__res_1100\" not supported.");
+            return __res_1100;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_548;
-            throw new Exception();
-            return __res_548;
+            Iskra.StdWeb.SVGAnimatedString __res_1102;
+            JSObject __res_1103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
+            throw new Exception("Marshaller from \"__res_1103\" to \"__res_1102\" not supported.");
+            return __res_1102;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_549;
-            throw new Exception();
-            return __res_549;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1104;
+            JSObject __res_1105 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scale");
+            throw new Exception("Marshaller from \"__res_1105\" to \"__res_1104\" not supported.");
+            return __res_1104;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_550;
-            throw new Exception();
-            return __res_550;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1106;
+            JSObject __res_1107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "xChannelSelector");
+            throw new Exception("Marshaller from \"__res_1107\" to \"__res_1106\" not supported.");
+            return __res_1106;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFEDisplacementMapElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_551;
-            throw new Exception();
-            return __res_551;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1108;
+            JSObject __res_1109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "yChannelSelector");
+            throw new Exception("Marshaller from \"__res_1109\" to \"__res_1108\" not supported.");
+            return __res_1108;
         }
     }
 }

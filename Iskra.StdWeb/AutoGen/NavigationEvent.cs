@@ -13,9 +13,10 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.SpatialNavigationDirection __res_2076;
-            throw new Exception();
-            return __res_2076;
+            Iskra.StdWeb.SpatialNavigationDirection __res_4427;
+            JSObject __res_4428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
+            throw new Exception("Marshaller from \"__res_4428\" to \"__res_4427\" not supported.");
+            return __res_4427;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_2077;
-            throw new Exception();
-            return __res_2077;
+            Iskra.StdWeb.EventTarget? __res_4429;
+            JSObject? __res_4430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_4430 is null)
+            {
+                __res_4429 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4431 = (JSObject)__res_4430;
+                throw new Exception("Marshaller from \"__notNullable_4431\" to \"__res_4429\" not supported.");
+            }
+            return __res_4429;
         }
     }
 }

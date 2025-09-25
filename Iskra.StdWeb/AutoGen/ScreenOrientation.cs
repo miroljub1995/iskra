@@ -13,9 +13,10 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.OrientationType __res_3143;
-            throw new Exception();
-            return __res_3143;
+            Iskra.StdWeb.OrientationType __res_6709;
+            JSObject __res_6710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_6710\" to \"__res_6709\" not supported.");
+            return __res_6709;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_3144;
-            throw new Exception();
-            return __res_3144;
+            ushort __res_6711;
+            double __res_6712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            throw new Exception("Marshaller from \"__res_6712\" to \"__res_6711\" not supported.");
+            return __res_6711;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3145;
-            throw new Exception();
-            return __res_3145;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6713;
+            JSObject? __res_6714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_6714 is null)
+            {
+                __res_6713 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6715 = (JSObject)__res_6714;
+                throw new Exception("Marshaller from \"__notNullable_6715\" to \"__res_6713\" not supported.");
+            }
+            return __res_6713;
         }
         set
         {

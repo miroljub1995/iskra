@@ -13,9 +13,18 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_399;
-            throw new Exception();
-            return __res_399;
+            Iskra.StdWeb.EventHandlerNonNull? __res_787;
+            JSObject? __res_788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange");
+            if (__res_788 is null)
+            {
+                __res_787 = null;
+            }
+            else
+            {
+                JSObject __notNullable_789 = (JSObject)__res_788;
+                throw new Exception("Marshaller from \"__notNullable_789\" to \"__res_787\" not supported.");
+            }
+            return __res_787;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            ushort __res_400;
-            throw new Exception();
-            return __res_400;
+            ushort __res_790;
+            double __res_791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            throw new Exception("Marshaller from \"__res_791\" to \"__res_790\" not supported.");
+            return __res_790;
         }
     }
 
@@ -37,9 +47,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            uint __res_401;
-            throw new Exception();
-            return __res_401;
+            uint __res_792;
+            double __res_793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeout");
+            __res_792 = Convert.ToUInt32(__res_793);
+            return __res_792;
         }
         set
         {
@@ -51,9 +62,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            bool __res_402;
-            __res_402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
-            return __res_402;
+            bool __res_794;
+            bool __res_795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
+            __res_794 = __res_795;
+            return __res_794;
         }
         set
         {
@@ -65,9 +77,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.XMLHttpRequestUpload __res_403;
-            throw new Exception();
-            return __res_403;
+            Iskra.StdWeb.XMLHttpRequestUpload __res_796;
+            JSObject __res_797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
+            throw new Exception("Marshaller from \"__res_797\" to \"__res_796\" not supported.");
+            return __res_796;
         }
     }
 
@@ -75,9 +88,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            string __res_404;
-            throw new Exception();
-            return __res_404;
+            string __res_798;
+            string __res_799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseURL");
+            __res_798 = __res_799;
+            return __res_798;
         }
     }
 
@@ -85,9 +99,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            ushort __res_405;
-            throw new Exception();
-            return __res_405;
+            ushort __res_800;
+            double __res_801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
+            throw new Exception("Marshaller from \"__res_801\" to \"__res_800\" not supported.");
+            return __res_800;
         }
     }
 
@@ -95,9 +110,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            string __res_406;
-            throw new Exception();
-            return __res_406;
+            string __res_802;
+            string __res_803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
+            __res_802 = __res_803;
+            return __res_802;
         }
     }
 
@@ -105,9 +121,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.XMLHttpRequestResponseType __res_407;
-            throw new Exception();
-            return __res_407;
+            Iskra.StdWeb.XMLHttpRequestResponseType __res_804;
+            JSObject __res_805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseType");
+            throw new Exception("Marshaller from \"__res_805\" to \"__res_804\" not supported.");
+            return __res_804;
         }
         set
         {
@@ -119,9 +136,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            object? __res_408;
-            throw new Exception();
-            return __res_408;
+            object? __res_806;
+            JSObject __res_807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            __res_806 = __res_807;
+            return __res_806;
         }
     }
 
@@ -129,9 +147,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            string __res_409;
-            throw new Exception();
-            return __res_409;
+            string __res_808;
+            string __res_809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseText");
+            __res_808 = __res_809;
+            return __res_808;
         }
     }
 
@@ -139,9 +158,18 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.Document? __res_410;
-            throw new Exception();
-            return __res_410;
+            Iskra.StdWeb.Document? __res_810;
+            JSObject? __res_811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "responseXML");
+            if (__res_811 is null)
+            {
+                __res_810 = null;
+            }
+            else
+            {
+                JSObject __notNullable_812 = (JSObject)__res_811;
+                throw new Exception("Marshaller from \"__notNullable_812\" to \"__res_810\" not supported.");
+            }
+            return __res_810;
         }
     }
 }

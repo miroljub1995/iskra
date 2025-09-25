@@ -13,9 +13,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2181;
-            throw new Exception();
-            return __res_2181;
+            string __res_4640;
+            string __res_4641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alt");
+            __res_4640 = __res_4641;
+            return __res_4640;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2182;
-            throw new Exception();
-            return __res_2182;
+            string __res_4642;
+            string __res_4643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_4642 = __res_4643;
+            return __res_4642;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2183;
-            throw new Exception();
-            return __res_2183;
+            string __res_4644;
+            string __res_4645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "srcset");
+            __res_4644 = __res_4645;
+            return __res_4644;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2184;
-            throw new Exception();
-            return __res_2184;
+            string __res_4646;
+            string __res_4647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizes");
+            __res_4646 = __res_4647;
+            return __res_4646;
         }
         set
         {
@@ -69,9 +73,18 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string? __res_2185;
-            throw new Exception();
-            return __res_2185;
+            string? __res_4648;
+            string? __res_4649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_4649 is null)
+            {
+                __res_4648 = null;
+            }
+            else
+            {
+                string __notNullable_4650 = (string)__res_4649;
+                __res_4648 = __notNullable_4650;
+            }
+            return __res_4648;
         }
         set
         {
@@ -83,9 +96,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2186;
-            throw new Exception();
-            return __res_2186;
+            string __res_4651;
+            string __res_4652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "useMap");
+            __res_4651 = __res_4652;
+            return __res_4651;
         }
         set
         {
@@ -97,9 +111,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2187;
-            __res_2187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isMap");
-            return __res_2187;
+            bool __res_4653;
+            bool __res_4654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isMap");
+            __res_4653 = __res_4654;
+            return __res_4653;
         }
         set
         {
@@ -111,9 +126,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2188;
-            throw new Exception();
-            return __res_2188;
+            uint __res_4655;
+            double __res_4656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_4655 = Convert.ToUInt32(__res_4656);
+            return __res_4655;
         }
         set
         {
@@ -125,9 +141,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2189;
-            throw new Exception();
-            return __res_2189;
+            uint __res_4657;
+            double __res_4658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_4657 = Convert.ToUInt32(__res_4658);
+            return __res_4657;
         }
         set
         {
@@ -139,9 +156,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2190;
-            throw new Exception();
-            return __res_2190;
+            uint __res_4659;
+            double __res_4660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
+            __res_4659 = Convert.ToUInt32(__res_4660);
+            return __res_4659;
         }
     }
 
@@ -149,9 +167,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2191;
-            throw new Exception();
-            return __res_2191;
+            uint __res_4661;
+            double __res_4662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
+            __res_4661 = Convert.ToUInt32(__res_4662);
+            return __res_4661;
         }
     }
 
@@ -159,9 +178,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2192;
-            __res_2192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            return __res_2192;
+            bool __res_4663;
+            bool __res_4664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            __res_4663 = __res_4664;
+            return __res_4663;
         }
     }
 
@@ -169,9 +189,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2193;
-            throw new Exception();
-            return __res_2193;
+            string __res_4665;
+            string __res_4666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
+            __res_4665 = __res_4666;
+            return __res_4665;
         }
     }
 
@@ -179,9 +200,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2194;
-            throw new Exception();
-            return __res_2194;
+            string __res_4667;
+            string __res_4668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_4667 = __res_4668;
+            return __res_4667;
         }
         set
         {
@@ -193,9 +215,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2195;
-            throw new Exception();
-            return __res_2195;
+            string __res_4669;
+            string __res_4670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "decoding");
+            __res_4669 = __res_4670;
+            return __res_4669;
         }
         set
         {
@@ -207,9 +230,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2196;
-            throw new Exception();
-            return __res_2196;
+            string __res_4671;
+            string __res_4672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "loading");
+            __res_4671 = __res_4672;
+            return __res_4671;
         }
         set
         {
@@ -221,9 +245,10 @@ public partial class HTMLImageElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2197;
-            throw new Exception();
-            return __res_2197;
+            string __res_4673;
+            string __res_4674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fetchPriority");
+            __res_4673 = __res_4674;
+            return __res_4673;
         }
         set
         {

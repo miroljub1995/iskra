@@ -13,9 +13,18 @@ public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3188;
-            throw new Exception();
-            return __res_3188;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6802;
+            JSObject? __res_6803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_6803 is null)
+            {
+                __res_6802 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6804 = (JSObject)__res_6803;
+                throw new Exception("Marshaller from \"__notNullable_6804\" to \"__res_6802\" not supported.");
+            }
+            return __res_6802;
         }
         set
         {

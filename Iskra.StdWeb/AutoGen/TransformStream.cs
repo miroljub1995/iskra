@@ -13,9 +13,10 @@ public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_429;
-            throw new Exception();
-            return __res_429;
+            Iskra.StdWeb.ReadableStream __res_851;
+            JSObject __res_852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller from \"__res_852\" to \"__res_851\" not supported.");
+            return __res_851;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_430;
-            throw new Exception();
-            return __res_430;
+            Iskra.StdWeb.WritableStream __res_853;
+            JSObject __res_854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller from \"__res_854\" to \"__res_853\" not supported.");
+            return __res_853;
         }
     }
 }

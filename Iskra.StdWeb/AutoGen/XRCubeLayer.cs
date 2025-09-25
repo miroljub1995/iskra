@@ -13,9 +13,10 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_689;
-            throw new Exception();
-            return __res_689;
+            Iskra.StdWeb.XRSpace __res_1397;
+            JSObject __res_1398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
+            throw new Exception("Marshaller from \"__res_1398\" to \"__res_1397\" not supported.");
+            return __res_1397;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_690;
-            throw new Exception();
-            return __res_690;
+            Iskra.StdWeb.DOMPointReadOnly __res_1399;
+            JSObject __res_1400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
+            throw new Exception("Marshaller from \"__res_1400\" to \"__res_1399\" not supported.");
+            return __res_1399;
         }
         set
         {
@@ -41,9 +43,18 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_691;
-            throw new Exception();
-            return __res_691;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1401;
+            JSObject? __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
+            if (__res_1402 is null)
+            {
+                __res_1401 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1403 = (JSObject)__res_1402;
+                throw new Exception("Marshaller from \"__notNullable_1403\" to \"__res_1401\" not supported.");
+            }
+            return __res_1401;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ulong __res_3004;
-            throw new Exception();
-            return __res_3004;
+            ulong __res_6413;
+            double __res_6414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "oldVersion");
+            __res_6413 = Convert.ToUInt64(__res_6414);
+            return __res_6413;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class IDBVersionChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ulong? __res_3005;
-            throw new Exception();
-            return __res_3005;
+            ulong? __res_6415;
+            double? __res_6416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "newVersion");
+            if (__res_6416 is null)
+            {
+                __res_6415 = null;
+            }
+            else
+            {
+                double __notNullable_6417 = (double)__res_6416;
+                __res_6415 = Convert.ToUInt64(__notNullable_6417);
+            }
+            return __res_6415;
         }
     }
 }

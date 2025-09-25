@@ -13,9 +13,10 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_2266;
-            throw new Exception();
-            return __res_2266;
+            ushort __res_4816;
+            double __res_4817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            throw new Exception("Marshaller from \"__res_4817\" to \"__res_4816\" not supported.");
+            return __res_4816;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2267;
-            throw new Exception();
-            return __res_2267;
+            string __res_4818;
+            string __res_4819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_4818 = __res_4819;
+            return __res_4818;
         }
     }
 }

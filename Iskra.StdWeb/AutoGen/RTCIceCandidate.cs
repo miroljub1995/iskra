@@ -13,9 +13,10 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_781;
-            throw new Exception();
-            return __res_781;
+            string __res_1606;
+            string __res_1607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "candidate");
+            __res_1606 = __res_1607;
+            return __res_1606;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_782;
-            throw new Exception();
-            return __res_782;
+            string? __res_1608;
+            string? __res_1609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "sdpMid");
+            if (__res_1609 is null)
+            {
+                __res_1608 = null;
+            }
+            else
+            {
+                string __notNullable_1610 = (string)__res_1609;
+                __res_1608 = __notNullable_1610;
+            }
+            return __res_1608;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_783;
-            throw new Exception();
-            return __res_783;
+            ushort? __res_1611;
+            double? __res_1612 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpMLineIndex");
+            if (__res_1612 is null)
+            {
+                __res_1611 = null;
+            }
+            else
+            {
+                double __notNullable_1613 = (double)__res_1612;
+                throw new Exception("Marshaller from \"__notNullable_1613\" to \"__res_1611\" not supported.");
+            }
+            return __res_1611;
         }
     }
 
@@ -43,9 +62,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_784;
-            throw new Exception();
-            return __res_784;
+            string? __res_1614;
+            string? __res_1615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "foundation");
+            if (__res_1615 is null)
+            {
+                __res_1614 = null;
+            }
+            else
+            {
+                string __notNullable_1616 = (string)__res_1615;
+                __res_1614 = __notNullable_1616;
+            }
+            return __res_1614;
         }
     }
 
@@ -53,9 +81,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceComponent? __res_785;
-            throw new Exception();
-            return __res_785;
+            Iskra.StdWeb.RTCIceComponent? __res_1617;
+            JSObject? __res_1618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "component");
+            if (__res_1618 is null)
+            {
+                __res_1617 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1619 = (JSObject)__res_1618;
+                throw new Exception("Marshaller from \"__notNullable_1619\" to \"__res_1617\" not supported.");
+            }
+            return __res_1617;
         }
     }
 
@@ -63,9 +100,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint? __res_786;
-            throw new Exception();
-            return __res_786;
+            uint? __res_1620;
+            double? __res_1621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "priority");
+            if (__res_1621 is null)
+            {
+                __res_1620 = null;
+            }
+            else
+            {
+                double __notNullable_1622 = (double)__res_1621;
+                __res_1620 = Convert.ToUInt32(__notNullable_1622);
+            }
+            return __res_1620;
         }
     }
 
@@ -73,9 +119,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_787;
-            throw new Exception();
-            return __res_787;
+            string? __res_1623;
+            string? __res_1624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
+            if (__res_1624 is null)
+            {
+                __res_1623 = null;
+            }
+            else
+            {
+                string __notNullable_1625 = (string)__res_1624;
+                __res_1623 = __notNullable_1625;
+            }
+            return __res_1623;
         }
     }
 
@@ -83,9 +138,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceProtocol? __res_788;
-            throw new Exception();
-            return __res_788;
+            Iskra.StdWeb.RTCIceProtocol? __res_1626;
+            JSObject? __res_1627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "protocol");
+            if (__res_1627 is null)
+            {
+                __res_1626 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1628 = (JSObject)__res_1627;
+                throw new Exception("Marshaller from \"__notNullable_1628\" to \"__res_1626\" not supported.");
+            }
+            return __res_1626;
         }
     }
 
@@ -93,9 +157,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_789;
-            throw new Exception();
-            return __res_789;
+            ushort? __res_1629;
+            double? __res_1630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
+            if (__res_1630 is null)
+            {
+                __res_1629 = null;
+            }
+            else
+            {
+                double __notNullable_1631 = (double)__res_1630;
+                throw new Exception("Marshaller from \"__notNullable_1631\" to \"__res_1629\" not supported.");
+            }
+            return __res_1629;
         }
     }
 
@@ -103,9 +176,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidateType? __res_790;
-            throw new Exception();
-            return __res_790;
+            Iskra.StdWeb.RTCIceCandidateType? __res_1632;
+            JSObject? __res_1633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "type");
+            if (__res_1633 is null)
+            {
+                __res_1632 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1634 = (JSObject)__res_1633;
+                throw new Exception("Marshaller from \"__notNullable_1634\" to \"__res_1632\" not supported.");
+            }
+            return __res_1632;
         }
     }
 
@@ -113,9 +195,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceTcpCandidateType? __res_791;
-            throw new Exception();
-            return __res_791;
+            Iskra.StdWeb.RTCIceTcpCandidateType? __res_1635;
+            JSObject? __res_1636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tcpType");
+            if (__res_1636 is null)
+            {
+                __res_1635 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1637 = (JSObject)__res_1636;
+                throw new Exception("Marshaller from \"__notNullable_1637\" to \"__res_1635\" not supported.");
+            }
+            return __res_1635;
         }
     }
 
@@ -123,9 +214,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_792;
-            throw new Exception();
-            return __res_792;
+            string? __res_1638;
+            string? __res_1639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relatedAddress");
+            if (__res_1639 is null)
+            {
+                __res_1638 = null;
+            }
+            else
+            {
+                string __notNullable_1640 = (string)__res_1639;
+                __res_1638 = __notNullable_1640;
+            }
+            return __res_1638;
         }
     }
 
@@ -133,9 +233,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_793;
-            throw new Exception();
-            return __res_793;
+            ushort? __res_1641;
+            double? __res_1642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "relatedPort");
+            if (__res_1642 is null)
+            {
+                __res_1641 = null;
+            }
+            else
+            {
+                double __notNullable_1643 = (double)__res_1642;
+                throw new Exception("Marshaller from \"__notNullable_1643\" to \"__res_1641\" not supported.");
+            }
+            return __res_1641;
         }
     }
 
@@ -143,9 +252,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_794;
-            throw new Exception();
-            return __res_794;
+            string? __res_1644;
+            string? __res_1645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "usernameFragment");
+            if (__res_1645 is null)
+            {
+                __res_1644 = null;
+            }
+            else
+            {
+                string __notNullable_1646 = (string)__res_1645;
+                __res_1644 = __notNullable_1646;
+            }
+            return __res_1644;
         }
     }
 
@@ -153,9 +271,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceServerTransportProtocol? __res_795;
-            throw new Exception();
-            return __res_795;
+            Iskra.StdWeb.RTCIceServerTransportProtocol? __res_1647;
+            JSObject? __res_1648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relayProtocol");
+            if (__res_1648 is null)
+            {
+                __res_1647 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1649 = (JSObject)__res_1648;
+                throw new Exception("Marshaller from \"__notNullable_1649\" to \"__res_1647\" not supported.");
+            }
+            return __res_1647;
         }
     }
 
@@ -163,9 +290,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_796;
-            throw new Exception();
-            return __res_796;
+            string? __res_1650;
+            string? __res_1651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_1651 is null)
+            {
+                __res_1650 = null;
+            }
+            else
+            {
+                string __notNullable_1652 = (string)__res_1651;
+                __res_1650 = __notNullable_1652;
+            }
+            return __res_1650;
         }
     }
 }

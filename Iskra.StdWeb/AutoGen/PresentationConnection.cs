@@ -13,9 +13,10 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_938;
-            throw new Exception();
-            return __res_938;
+            string __res_1976;
+            string __res_1977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_1976 = __res_1977;
+            return __res_1976;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_939;
-            throw new Exception();
-            return __res_939;
+            string __res_1978;
+            string __res_1979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_1978 = __res_1979;
+            return __res_1978;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.PresentationConnectionState __res_940;
-            throw new Exception();
-            return __res_940;
+            Iskra.StdWeb.PresentationConnectionState __res_1980;
+            JSObject __res_1981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_1981\" to \"__res_1980\" not supported.");
+            return __res_1980;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_941;
-            throw new Exception();
-            return __res_941;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1982;
+            JSObject? __res_1983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_1983 is null)
+            {
+                __res_1982 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1984 = (JSObject)__res_1983;
+                throw new Exception("Marshaller from \"__notNullable_1984\" to \"__res_1982\" not supported.");
+            }
+            return __res_1982;
         }
         set
         {
@@ -57,9 +69,18 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_942;
-            throw new Exception();
-            return __res_942;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1985;
+            JSObject? __res_1986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclose");
+            if (__res_1986 is null)
+            {
+                __res_1985 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1987 = (JSObject)__res_1986;
+                throw new Exception("Marshaller from \"__notNullable_1987\" to \"__res_1985\" not supported.");
+            }
+            return __res_1985;
         }
         set
         {
@@ -71,9 +92,18 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_943;
-            throw new Exception();
-            return __res_943;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1988;
+            JSObject? __res_1989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onterminate");
+            if (__res_1989 is null)
+            {
+                __res_1988 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1990 = (JSObject)__res_1989;
+                throw new Exception("Marshaller from \"__notNullable_1990\" to \"__res_1988\" not supported.");
+            }
+            return __res_1988;
         }
         set
         {
@@ -85,9 +115,10 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BinaryType __res_944;
-            throw new Exception();
-            return __res_944;
+            Iskra.StdWeb.BinaryType __res_1991;
+            JSObject __res_1992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
+            throw new Exception("Marshaller from \"__res_1992\" to \"__res_1991\" not supported.");
+            return __res_1991;
         }
         set
         {
@@ -99,9 +130,18 @@ public partial class PresentationConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_945;
-            throw new Exception();
-            return __res_945;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1993;
+            JSObject? __res_1994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_1994 is null)
+            {
+                __res_1993 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1995 = (JSObject)__res_1994;
+                throw new Exception("Marshaller from \"__notNullable_1995\" to \"__res_1993\" not supported.");
+            }
+            return __res_1993;
         }
         set
         {

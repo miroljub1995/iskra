@@ -13,9 +13,10 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_1886;
-            throw new Exception();
-            return __res_1886;
+            Iskra.StdWeb.Element __res_4040;
+            JSObject __res_4041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            throw new Exception("Marshaller from \"__res_4041\" to \"__res_4040\" not supported.");
+            return __res_4040;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_1887;
-            throw new Exception();
-            return __res_1887;
+            Iskra.StdWeb.DOMRectReadOnly __res_4042;
+            JSObject __res_4043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentRect");
+            throw new Exception("Marshaller from \"__res_4043\" to \"__res_4042\" not supported.");
+            return __res_4042;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1888;
+            object __res_4044;
             throw new Exception();
-            return __res_1888;
+            return __res_4044;
         }
     }
 
@@ -43,9 +45,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1889;
+            object __res_4045;
             throw new Exception();
-            return __res_1889;
+            return __res_4045;
         }
     }
 
@@ -53,9 +55,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1890;
+            object __res_4046;
             throw new Exception();
-            return __res_1890;
+            return __res_4046;
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3030;
+            object __res_6470;
             throw new Exception();
-            return __res_3030;
+            return __res_6470;
         }
     }
 
@@ -23,9 +23,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBCursorDirection __res_3031;
-            throw new Exception();
-            return __res_3031;
+            Iskra.StdWeb.IDBCursorDirection __res_6471;
+            JSObject __res_6472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            throw new Exception("Marshaller from \"__res_6472\" to \"__res_6471\" not supported.");
+            return __res_6471;
         }
     }
 
@@ -33,9 +34,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3032;
-            throw new Exception();
-            return __res_3032;
+            object? __res_6473;
+            JSObject __res_6474 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
+            __res_6473 = __res_6474;
+            return __res_6473;
         }
     }
 
@@ -43,9 +45,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3033;
-            throw new Exception();
-            return __res_3033;
+            object? __res_6475;
+            JSObject __res_6476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
+            __res_6475 = __res_6476;
+            return __res_6475;
         }
     }
 
@@ -53,9 +56,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBRequest __res_3034;
-            throw new Exception();
-            return __res_3034;
+            Iskra.StdWeb.IDBRequest __res_6477;
+            JSObject __res_6478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            throw new Exception("Marshaller from \"__res_6478\" to \"__res_6477\" not supported.");
+            return __res_6477;
         }
     }
 }

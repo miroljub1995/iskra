@@ -13,9 +13,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_1557;
-            throw new Exception();
-            return __res_1557;
+            ulong __res_3304;
+            double __res_3305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "id");
+            __res_3304 = Convert.ToUInt64(__res_3305);
+            return __res_3304;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1558;
-            throw new Exception();
-            return __res_1558;
+            string __res_3306;
+            string __res_3307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3306 = __res_3307;
+            return __res_3306;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1559;
-            throw new Exception();
-            return __res_1559;
+            string __res_3308;
+            string __res_3309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_3308 = __res_3309;
+            return __res_3308;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1560;
-            throw new Exception();
-            return __res_1560;
+            double __res_3310;
+            double __res_3311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_3310 = __res_3311;
+            return __res_3310;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1561;
-            throw new Exception();
-            return __res_1561;
+            double __res_3312;
+            double __res_3313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_3312 = __res_3313;
+            return __res_3312;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_1562;
-            throw new Exception();
-            return __res_1562;
+            ulong __res_3314;
+            double __res_3315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationId");
+            __res_3314 = Convert.ToUInt64(__res_3315);
+            return __res_3314;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_273;
-            throw new Exception();
-            return __res_273;
+            string __res_519;
+            string __res_520 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_519 = __res_520;
+            return __res_519;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_274;
-            throw new Exception();
-            return __res_274;
+            double __res_521;
+            double __res_522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_521 = __res_522;
+            return __res_521;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_275;
+            object __res_523;
             throw new Exception();
-            return __res_275;
+            return __res_523;
         }
     }
 }

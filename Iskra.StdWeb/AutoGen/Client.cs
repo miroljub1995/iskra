@@ -13,9 +13,10 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1828;
-            throw new Exception();
-            return __res_1828;
+            string __res_3911;
+            string __res_3912 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_3911 = __res_3912;
+            return __res_3911;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FrameType __res_1829;
-            throw new Exception();
-            return __res_1829;
+            Iskra.StdWeb.FrameType __res_3913;
+            JSObject __res_3914 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frameType");
+            throw new Exception("Marshaller from \"__res_3914\" to \"__res_3913\" not supported.");
+            return __res_3913;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1830;
-            throw new Exception();
-            return __res_1830;
+            string __res_3915;
+            string __res_3916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3915 = __res_3916;
+            return __res_3915;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ClientType __res_1831;
-            throw new Exception();
-            return __res_1831;
+            Iskra.StdWeb.ClientType __res_3917;
+            JSObject __res_3918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_3918\" to \"__res_3917\" not supported.");
+            return __res_3917;
         }
     }
 }

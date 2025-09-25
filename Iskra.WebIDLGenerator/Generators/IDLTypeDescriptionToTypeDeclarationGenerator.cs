@@ -5,7 +5,6 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class IDLTypeDescriptionToTypeDeclarationGenerator(
     ILogger<IDLTypeDescriptionToTypeDeclarationGenerator> logger,
-    GenSettings genSettings,
     GenTypeDescriptors genTypeDescriptors
 )
 {
@@ -39,23 +38,23 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
     private string MapToDotnetType(string input)
         => input switch
         {
-            "any" => "object",
-            "undefined" => "void",
-            "boolean" => "bool",
-            "octet" => "byte",
-            "byte" => "sbyte",
-            "short" => "short",
-            "unsigned short" => "ushort",
-            "long" => "int",
-            "unsigned long" => "uint",
-            "long long" => "long",
-            "unsigned long long" => "ulong",
-            "float" => "float",
-            "unrestricted float" => "float",
-            "double" => "double",
-            "unrestricted double" => "double",
-            "string" => "string",
-            "object" => "JSObject",
+            BuiltinTypes.Any => "object",
+            BuiltinTypes.Undefined => "void",
+            BuiltinTypes.Boolean => "bool",
+            BuiltinTypes.Octet => "byte",
+            BuiltinTypes.Byte => "sbyte",
+            BuiltinTypes.Short => "short",
+            BuiltinTypes.UnsignedShort => "ushort",
+            BuiltinTypes.Long => "int",
+            BuiltinTypes.UnsignedLong => "uint",
+            BuiltinTypes.LongLong => "long",
+            BuiltinTypes.UnsignedLongLong => "ulong",
+            BuiltinTypes.Float => "float",
+            BuiltinTypes.UnrestrictedFloat => "float",
+            BuiltinTypes.Double => "double",
+            BuiltinTypes.UnrestrictedDouble => "double",
+            BuiltinTypes.String => "string",
+            BuiltinTypes.Object => "JSObject",
             _ => MapReferenceToDotnetType(input),
         };
 

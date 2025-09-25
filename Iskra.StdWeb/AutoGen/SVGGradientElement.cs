@@ -13,9 +13,10 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_234;
-            throw new Exception();
-            return __res_234;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_441;
+            JSObject __res_442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientUnits");
+            throw new Exception("Marshaller from \"__res_442\" to \"__res_441\" not supported.");
+            return __res_441;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedTransformList __res_235;
-            throw new Exception();
-            return __res_235;
+            Iskra.StdWeb.SVGAnimatedTransformList __res_443;
+            JSObject __res_444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientTransform");
+            throw new Exception("Marshaller from \"__res_444\" to \"__res_443\" not supported.");
+            return __res_443;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_236;
-            throw new Exception();
-            return __res_236;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_445;
+            JSObject __res_446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spreadMethod");
+            throw new Exception("Marshaller from \"__res_446\" to \"__res_445\" not supported.");
+            return __res_445;
         }
     }
 }

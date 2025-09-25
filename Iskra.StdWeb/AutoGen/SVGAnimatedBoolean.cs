@@ -13,9 +13,10 @@ public partial class SVGAnimatedBoolean(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_140;
-            __res_140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "baseVal");
-            return __res_140;
+            bool __res_250;
+            bool __res_251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "baseVal");
+            __res_250 = __res_251;
+            return __res_250;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class SVGAnimatedBoolean(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_141;
-            __res_141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animVal");
-            return __res_141;
+            bool __res_252;
+            bool __res_253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animVal");
+            __res_252 = __res_253;
+            return __res_252;
         }
     }
 }

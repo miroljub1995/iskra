@@ -13,9 +13,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSessionDescription? __res_761;
-            throw new Exception();
-            return __res_761;
+            Iskra.StdWeb.RTCSessionDescription? __res_1552;
+            JSObject? __res_1553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "localDescription");
+            if (__res_1553 is null)
+            {
+                __res_1552 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1554 = (JSObject)__res_1553;
+                throw new Exception("Marshaller from \"__notNullable_1554\" to \"__res_1552\" not supported.");
+            }
+            return __res_1552;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSessionDescription? __res_762;
-            throw new Exception();
-            return __res_762;
+            Iskra.StdWeb.RTCSessionDescription? __res_1555;
+            JSObject? __res_1556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentLocalDescription");
+            if (__res_1556 is null)
+            {
+                __res_1555 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1557 = (JSObject)__res_1556;
+                throw new Exception("Marshaller from \"__notNullable_1557\" to \"__res_1555\" not supported.");
+            }
+            return __res_1555;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSessionDescription? __res_763;
-            throw new Exception();
-            return __res_763;
+            Iskra.StdWeb.RTCSessionDescription? __res_1558;
+            JSObject? __res_1559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pendingLocalDescription");
+            if (__res_1559 is null)
+            {
+                __res_1558 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1560 = (JSObject)__res_1559;
+                throw new Exception("Marshaller from \"__notNullable_1560\" to \"__res_1558\" not supported.");
+            }
+            return __res_1558;
         }
     }
 
@@ -43,9 +70,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSessionDescription? __res_764;
-            throw new Exception();
-            return __res_764;
+            Iskra.StdWeb.RTCSessionDescription? __res_1561;
+            JSObject? __res_1562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "remoteDescription");
+            if (__res_1562 is null)
+            {
+                __res_1561 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1563 = (JSObject)__res_1562;
+                throw new Exception("Marshaller from \"__notNullable_1563\" to \"__res_1561\" not supported.");
+            }
+            return __res_1561;
         }
     }
 
@@ -53,9 +89,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSessionDescription? __res_765;
-            throw new Exception();
-            return __res_765;
+            Iskra.StdWeb.RTCSessionDescription? __res_1564;
+            JSObject? __res_1565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentRemoteDescription");
+            if (__res_1565 is null)
+            {
+                __res_1564 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1566 = (JSObject)__res_1565;
+                throw new Exception("Marshaller from \"__notNullable_1566\" to \"__res_1564\" not supported.");
+            }
+            return __res_1564;
         }
     }
 
@@ -63,9 +108,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSessionDescription? __res_766;
-            throw new Exception();
-            return __res_766;
+            Iskra.StdWeb.RTCSessionDescription? __res_1567;
+            JSObject? __res_1568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pendingRemoteDescription");
+            if (__res_1568 is null)
+            {
+                __res_1567 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1569 = (JSObject)__res_1568;
+                throw new Exception("Marshaller from \"__notNullable_1569\" to \"__res_1567\" not supported.");
+            }
+            return __res_1567;
         }
     }
 
@@ -73,9 +127,10 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSignalingState __res_767;
-            throw new Exception();
-            return __res_767;
+            Iskra.StdWeb.RTCSignalingState __res_1570;
+            JSObject __res_1571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signalingState");
+            throw new Exception("Marshaller from \"__res_1571\" to \"__res_1570\" not supported.");
+            return __res_1570;
         }
     }
 
@@ -83,9 +138,10 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceGatheringState __res_768;
-            throw new Exception();
-            return __res_768;
+            Iskra.StdWeb.RTCIceGatheringState __res_1572;
+            JSObject __res_1573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceGatheringState");
+            throw new Exception("Marshaller from \"__res_1573\" to \"__res_1572\" not supported.");
+            return __res_1572;
         }
     }
 
@@ -93,9 +149,10 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceConnectionState __res_769;
-            throw new Exception();
-            return __res_769;
+            Iskra.StdWeb.RTCIceConnectionState __res_1574;
+            JSObject __res_1575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceConnectionState");
+            throw new Exception("Marshaller from \"__res_1575\" to \"__res_1574\" not supported.");
+            return __res_1574;
         }
     }
 
@@ -103,9 +160,10 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCPeerConnectionState __res_770;
-            throw new Exception();
-            return __res_770;
+            Iskra.StdWeb.RTCPeerConnectionState __res_1576;
+            JSObject __res_1577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionState");
+            throw new Exception("Marshaller from \"__res_1577\" to \"__res_1576\" not supported.");
+            return __res_1576;
         }
     }
 
@@ -113,9 +171,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool? __res_771;
-            __res_771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "canTrickleIceCandidates");
-            return __res_771;
+            bool? __res_1578;
+            bool? __res_1579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "canTrickleIceCandidates");
+            if (__res_1579 is null)
+            {
+                __res_1578 = null;
+            }
+            else
+            {
+                bool __notNullable_1580 = (bool)__res_1579;
+                __res_1578 = __notNullable_1580;
+            }
+            return __res_1578;
         }
     }
 
@@ -123,9 +190,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_772;
-            throw new Exception();
-            return __res_772;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1581;
+            JSObject? __res_1582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnegotiationneeded");
+            if (__res_1582 is null)
+            {
+                __res_1581 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1583 = (JSObject)__res_1582;
+                throw new Exception("Marshaller from \"__notNullable_1583\" to \"__res_1581\" not supported.");
+            }
+            return __res_1581;
         }
         set
         {
@@ -137,9 +213,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_773;
-            throw new Exception();
-            return __res_773;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1584;
+            JSObject? __res_1585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidate");
+            if (__res_1585 is null)
+            {
+                __res_1584 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1586 = (JSObject)__res_1585;
+                throw new Exception("Marshaller from \"__notNullable_1586\" to \"__res_1584\" not supported.");
+            }
+            return __res_1584;
         }
         set
         {
@@ -151,9 +236,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_774;
-            throw new Exception();
-            return __res_774;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1587;
+            JSObject? __res_1588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidateerror");
+            if (__res_1588 is null)
+            {
+                __res_1587 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1589 = (JSObject)__res_1588;
+                throw new Exception("Marshaller from \"__notNullable_1589\" to \"__res_1587\" not supported.");
+            }
+            return __res_1587;
         }
         set
         {
@@ -165,9 +259,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_775;
-            throw new Exception();
-            return __res_775;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1590;
+            JSObject? __res_1591 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsignalingstatechange");
+            if (__res_1591 is null)
+            {
+                __res_1590 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1592 = (JSObject)__res_1591;
+                throw new Exception("Marshaller from \"__notNullable_1592\" to \"__res_1590\" not supported.");
+            }
+            return __res_1590;
         }
         set
         {
@@ -179,9 +282,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_776;
-            throw new Exception();
-            return __res_776;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1593;
+            JSObject? __res_1594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oniceconnectionstatechange");
+            if (__res_1594 is null)
+            {
+                __res_1593 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1595 = (JSObject)__res_1594;
+                throw new Exception("Marshaller from \"__notNullable_1595\" to \"__res_1593\" not supported.");
+            }
+            return __res_1593;
         }
         set
         {
@@ -193,9 +305,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_777;
-            throw new Exception();
-            return __res_777;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1596;
+            JSObject? __res_1597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicegatheringstatechange");
+            if (__res_1597 is null)
+            {
+                __res_1596 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1598 = (JSObject)__res_1597;
+                throw new Exception("Marshaller from \"__notNullable_1598\" to \"__res_1596\" not supported.");
+            }
+            return __res_1596;
         }
         set
         {
@@ -207,9 +328,18 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_778;
-            throw new Exception();
-            return __res_778;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1599;
+            JSObject? __res_1600 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionstatechange");
+            if (__res_1600 is null)
+            {
+                __res_1599 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1601 = (JSObject)__res_1600;
+                throw new Exception("Marshaller from \"__notNullable_1601\" to \"__res_1599\" not supported.");
+            }
+            return __res_1599;
         }
         set
         {

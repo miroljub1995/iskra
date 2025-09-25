@@ -13,9 +13,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRHandedness __res_1731;
-            throw new Exception();
-            return __res_1731;
+            Iskra.StdWeb.XRHandedness __res_3696;
+            JSObject __res_3697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
+            throw new Exception("Marshaller from \"__res_3697\" to \"__res_3696\" not supported.");
+            return __res_3696;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRTargetRayMode __res_1732;
-            throw new Exception();
-            return __res_1732;
+            Iskra.StdWeb.XRTargetRayMode __res_3698;
+            JSObject __res_3699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
+            throw new Exception("Marshaller from \"__res_3699\" to \"__res_3698\" not supported.");
+            return __res_3698;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_1733;
-            throw new Exception();
-            return __res_1733;
+            Iskra.StdWeb.XRSpace __res_3700;
+            JSObject __res_3701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
+            throw new Exception("Marshaller from \"__res_3701\" to \"__res_3700\" not supported.");
+            return __res_3700;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace? __res_1734;
-            throw new Exception();
-            return __res_1734;
+            Iskra.StdWeb.XRSpace? __res_3702;
+            JSObject? __res_3703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
+            if (__res_3703 is null)
+            {
+                __res_3702 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3704 = (JSObject)__res_3703;
+                throw new Exception("Marshaller from \"__notNullable_3704\" to \"__res_3702\" not supported.");
+            }
+            return __res_3702;
         }
     }
 
@@ -53,9 +65,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1735;
+            object __res_3705;
             throw new Exception();
-            return __res_1735;
+            return __res_3705;
         }
     }
 
@@ -63,9 +75,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1736;
-            __res_1736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
-            return __res_1736;
+            bool __res_3706;
+            bool __res_3707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
+            __res_3706 = __res_3707;
+            return __res_3706;
         }
     }
 }

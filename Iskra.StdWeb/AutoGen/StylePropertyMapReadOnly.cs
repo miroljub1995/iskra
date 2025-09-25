@@ -13,9 +13,10 @@ public partial class StylePropertyMapReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_12;
-            throw new Exception();
-            return __res_12;
+            uint __res_27;
+            double __res_28 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_27 = Convert.ToUInt32(__res_28);
+            return __res_27;
         }
     }
 }

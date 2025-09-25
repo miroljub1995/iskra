@@ -13,9 +13,10 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_3210;
-            throw new Exception();
-            return __res_3210;
+            double __res_6848;
+            double __res_6849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackTime");
+            __res_6848 = __res_6849;
+            return __res_6848;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_3211;
-            throw new Exception();
-            return __res_3211;
+            Iskra.StdWeb.AudioBuffer __res_6850;
+            JSObject __res_6851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
+            throw new Exception("Marshaller from \"__res_6851\" to \"__res_6850\" not supported.");
+            return __res_6850;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_3212;
-            throw new Exception();
-            return __res_3212;
+            Iskra.StdWeb.AudioBuffer __res_6852;
+            JSObject __res_6853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
+            throw new Exception("Marshaller from \"__res_6853\" to \"__res_6852\" not supported.");
+            return __res_6852;
         }
     }
 }

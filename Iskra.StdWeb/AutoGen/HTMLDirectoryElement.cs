@@ -13,9 +13,10 @@ public partial class HTMLDirectoryElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2769;
-            __res_2769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            return __res_2769;
+            bool __res_5902;
+            bool __res_5903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_5902 = __res_5903;
+            return __res_5902;
         }
         set
         {

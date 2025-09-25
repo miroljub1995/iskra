@@ -13,9 +13,10 @@ public partial class PerformanceMark(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            object? __res_1396;
-            throw new Exception();
-            return __res_1396;
+            object? __res_2973;
+            JSObject __res_2974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
+            __res_2973 = __res_2974;
+            return __res_2973;
         }
     }
 }

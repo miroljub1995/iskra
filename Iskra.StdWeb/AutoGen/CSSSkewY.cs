@@ -13,9 +13,10 @@ public partial class CSSSkewY(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_46;
-            throw new Exception();
-            return __res_46;
+            Iskra.StdWeb.CSSNumericValue __res_90;
+            JSObject __res_91 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
+            throw new Exception("Marshaller from \"__res_91\" to \"__res_90\" not supported.");
+            return __res_90;
         }
         set
         {

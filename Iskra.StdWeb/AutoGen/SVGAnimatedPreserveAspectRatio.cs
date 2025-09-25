@@ -13,9 +13,10 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
     {
         get
         {
-            Iskra.StdWeb.SVGPreserveAspectRatio __res_185;
-            throw new Exception();
-            return __res_185;
+            Iskra.StdWeb.SVGPreserveAspectRatio __res_342;
+            JSObject __res_343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller from \"__res_343\" to \"__res_342\" not supported.");
+            return __res_342;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
     {
         get
         {
-            Iskra.StdWeb.SVGPreserveAspectRatio __res_186;
-            throw new Exception();
-            return __res_186;
+            Iskra.StdWeb.SVGPreserveAspectRatio __res_344;
+            JSObject __res_345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller from \"__res_345\" to \"__res_344\" not supported.");
+            return __res_344;
         }
     }
 }

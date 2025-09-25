@@ -13,9 +13,10 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.Clients __res_1820;
-            throw new Exception();
-            return __res_1820;
+            Iskra.StdWeb.Clients __res_3890;
+            JSObject __res_3891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clients");
+            throw new Exception("Marshaller from \"__res_3891\" to \"__res_3890\" not supported.");
+            return __res_3890;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.ServiceWorkerRegistration __res_1821;
-            throw new Exception();
-            return __res_1821;
+            Iskra.StdWeb.ServiceWorkerRegistration __res_3892;
+            JSObject __res_3893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
+            throw new Exception("Marshaller from \"__res_3893\" to \"__res_3892\" not supported.");
+            return __res_3892;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.ServiceWorker __res_1822;
-            throw new Exception();
-            return __res_1822;
+            Iskra.StdWeb.ServiceWorker __res_3894;
+            JSObject __res_3895 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
+            throw new Exception("Marshaller from \"__res_3895\" to \"__res_3894\" not supported.");
+            return __res_3894;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1823;
-            throw new Exception();
-            return __res_1823;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3896;
+            JSObject? __res_3897 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninstall");
+            if (__res_3897 is null)
+            {
+                __res_3896 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3898 = (JSObject)__res_3897;
+                throw new Exception("Marshaller from \"__notNullable_3898\" to \"__res_3896\" not supported.");
+            }
+            return __res_3896;
         }
         set
         {
@@ -57,9 +69,18 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1824;
-            throw new Exception();
-            return __res_1824;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3899;
+            JSObject? __res_3900 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate");
+            if (__res_3900 is null)
+            {
+                __res_3899 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3901 = (JSObject)__res_3900;
+                throw new Exception("Marshaller from \"__notNullable_3901\" to \"__res_3899\" not supported.");
+            }
+            return __res_3899;
         }
         set
         {
@@ -71,9 +92,18 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1825;
-            throw new Exception();
-            return __res_1825;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3902;
+            JSObject? __res_3903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onfetch");
+            if (__res_3903 is null)
+            {
+                __res_3902 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3904 = (JSObject)__res_3903;
+                throw new Exception("Marshaller from \"__notNullable_3904\" to \"__res_3902\" not supported.");
+            }
+            return __res_3902;
         }
         set
         {
@@ -85,9 +115,18 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1826;
-            throw new Exception();
-            return __res_1826;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3905;
+            JSObject? __res_3906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_3906 is null)
+            {
+                __res_3905 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3907 = (JSObject)__res_3906;
+                throw new Exception("Marshaller from \"__notNullable_3907\" to \"__res_3905\" not supported.");
+            }
+            return __res_3905;
         }
         set
         {
@@ -99,9 +138,18 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1827;
-            throw new Exception();
-            return __res_1827;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3908;
+            JSObject? __res_3909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
+            if (__res_3909 is null)
+            {
+                __res_3908 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3910 = (JSObject)__res_3909;
+                throw new Exception("Marshaller from \"__notNullable_3910\" to \"__res_3908\" not supported.");
+            }
+            return __res_3908;
         }
         set
         {

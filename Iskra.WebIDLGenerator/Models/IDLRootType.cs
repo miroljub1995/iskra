@@ -12,6 +12,6 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(InterfaceType), "interface")]
 [JsonDerivedType(typeof(NamespaceType), "namespace")]
 [JsonDerivedType(typeof(TypedefType), "typedef")]
-public abstract class IDLRootType : AbstractBase
+public abstract record IDLRootType : AbstractBase
 {
 }

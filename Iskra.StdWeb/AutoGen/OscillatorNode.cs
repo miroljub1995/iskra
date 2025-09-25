@@ -13,9 +13,10 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
     {
         get
         {
-            Iskra.StdWeb.OscillatorType __res_3232;
-            throw new Exception();
-            return __res_3232;
+            Iskra.StdWeb.OscillatorType __res_6893;
+            JSObject __res_6894 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_6894\" to \"__res_6893\" not supported.");
+            return __res_6893;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3233;
-            throw new Exception();
-            return __res_3233;
+            Iskra.StdWeb.AudioParam __res_6895;
+            JSObject __res_6896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
+            throw new Exception("Marshaller from \"__res_6896\" to \"__res_6895\" not supported.");
+            return __res_6895;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3234;
-            throw new Exception();
-            return __res_3234;
+            Iskra.StdWeb.AudioParam __res_6897;
+            JSObject __res_6898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
+            throw new Exception("Marshaller from \"__res_6898\" to \"__res_6897\" not supported.");
+            return __res_6897;
         }
     }
 }

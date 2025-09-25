@@ -13,9 +13,10 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RemotePlaybackState __res_2045;
-            throw new Exception();
-            return __res_2045;
+            Iskra.StdWeb.RemotePlaybackState __res_4361;
+            JSObject __res_4362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_4362\" to \"__res_4361\" not supported.");
+            return __res_4361;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2046;
-            throw new Exception();
-            return __res_2046;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4363;
+            JSObject? __res_4364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting");
+            if (__res_4364 is null)
+            {
+                __res_4363 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4365 = (JSObject)__res_4364;
+                throw new Exception("Marshaller from \"__notNullable_4365\" to \"__res_4363\" not supported.");
+            }
+            return __res_4363;
         }
         set
         {
@@ -37,9 +47,18 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2047;
-            throw new Exception();
-            return __res_2047;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4366;
+            JSObject? __res_4367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_4367 is null)
+            {
+                __res_4366 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4368 = (JSObject)__res_4367;
+                throw new Exception("Marshaller from \"__notNullable_4368\" to \"__res_4366\" not supported.");
+            }
+            return __res_4366;
         }
         set
         {
@@ -51,9 +70,18 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2048;
-            throw new Exception();
-            return __res_2048;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4369;
+            JSObject? __res_4370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_4370 is null)
+            {
+                __res_4369 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4371 = (JSObject)__res_4370;
+                throw new Exception("Marshaller from \"__notNullable_4371\" to \"__res_4369\" not supported.");
+            }
+            return __res_4369;
         }
         set
         {

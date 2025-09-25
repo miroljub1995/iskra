@@ -13,9 +13,10 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2706;
-            throw new Exception();
-            return __res_2706;
+            string __res_5757;
+            string __res_5758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_5757 = __res_5758;
+            return __res_5757;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2707;
-            __res_2707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
-            return __res_2707;
+            bool __res_5759;
+            bool __res_5760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
+            __res_5759 = __res_5760;
+            return __res_5759;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_2708;
-            throw new Exception();
-            return __res_2708;
+            ushort __res_5761;
+            double __res_5762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            throw new Exception("Marshaller from \"__res_5762\" to \"__res_5761\" not supported.");
+            return __res_5761;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2709;
-            throw new Exception();
-            return __res_2709;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5763;
+            JSObject? __res_5764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onopen");
+            if (__res_5764 is null)
+            {
+                __res_5763 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5765 = (JSObject)__res_5764;
+                throw new Exception("Marshaller from \"__notNullable_5765\" to \"__res_5763\" not supported.");
+            }
+            return __res_5763;
         }
         set
         {
@@ -57,9 +69,18 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2710;
-            throw new Exception();
-            return __res_2710;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5766;
+            JSObject? __res_5767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_5767 is null)
+            {
+                __res_5766 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5768 = (JSObject)__res_5767;
+                throw new Exception("Marshaller from \"__notNullable_5768\" to \"__res_5766\" not supported.");
+            }
+            return __res_5766;
         }
         set
         {
@@ -71,9 +92,18 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2711;
-            throw new Exception();
-            return __res_2711;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5769;
+            JSObject? __res_5770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_5770 is null)
+            {
+                __res_5769 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5771 = (JSObject)__res_5770;
+                throw new Exception("Marshaller from \"__notNullable_5771\" to \"__res_5769\" not supported.");
+            }
+            return __res_5769;
         }
         set
         {

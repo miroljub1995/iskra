@@ -13,9 +13,10 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRFrame __res_1745;
-            throw new Exception();
-            return __res_1745;
+            Iskra.StdWeb.XRFrame __res_3726;
+            JSObject __res_3727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            throw new Exception("Marshaller from \"__res_3727\" to \"__res_3726\" not supported.");
+            return __res_3726;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRInputSource __res_1746;
-            throw new Exception();
-            return __res_1746;
+            Iskra.StdWeb.XRInputSource __res_3728;
+            JSObject __res_3729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            throw new Exception("Marshaller from \"__res_3729\" to \"__res_3728\" not supported.");
+            return __res_3728;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedFeatures __res_329;
-            throw new Exception();
-            return __res_329;
+            Iskra.StdWeb.GPUSupportedFeatures __res_638;
+            JSObject __res_639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            throw new Exception("Marshaller from \"__res_639\" to \"__res_638\" not supported.");
+            return __res_638;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedLimits __res_330;
-            throw new Exception();
-            return __res_330;
+            Iskra.StdWeb.GPUSupportedLimits __res_640;
+            JSObject __res_641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            throw new Exception("Marshaller from \"__res_641\" to \"__res_640\" not supported.");
+            return __res_640;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUAdapterInfo __res_331;
-            throw new Exception();
-            return __res_331;
+            Iskra.StdWeb.GPUAdapterInfo __res_642;
+            JSObject __res_643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
+            throw new Exception("Marshaller from \"__res_643\" to \"__res_642\" not supported.");
+            return __res_642;
         }
     }
 }

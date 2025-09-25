@@ -13,9 +13,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_557;
-            throw new Exception();
-            return __res_557;
+            Iskra.StdWeb.SVGAnimatedString __res_1120;
+            JSObject __res_1121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1121\" to \"__res_1120\" not supported.");
+            return __res_1120;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_558;
-            throw new Exception();
-            return __res_558;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1122;
+            JSObject __res_1123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
+            throw new Exception("Marshaller from \"__res_1123\" to \"__res_1122\" not supported.");
+            return __res_1122;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_559;
-            throw new Exception();
-            return __res_559;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1124;
+            JSObject __res_1125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
+            throw new Exception("Marshaller from \"__res_1125\" to \"__res_1124\" not supported.");
+            return __res_1124;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_560;
-            throw new Exception();
-            return __res_560;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1126;
+            JSObject __res_1127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
+            throw new Exception("Marshaller from \"__res_1127\" to \"__res_1126\" not supported.");
+            return __res_1126;
         }
     }
 }

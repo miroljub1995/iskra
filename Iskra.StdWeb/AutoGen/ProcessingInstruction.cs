@@ -13,9 +13,10 @@ public partial class ProcessingInstruction(JSObject obj): CharacterData(obj)
     {
         get
         {
-            string __res_1371;
-            throw new Exception();
-            return __res_1371;
+            string __res_2920;
+            string __res_2921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_2920 = __res_2921;
+            return __res_2920;
         }
     }
 }

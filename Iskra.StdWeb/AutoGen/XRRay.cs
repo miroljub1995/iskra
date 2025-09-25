@@ -13,9 +13,10 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_2092;
-            throw new Exception();
-            return __res_2092;
+            Iskra.StdWeb.DOMPointReadOnly __res_4461;
+            JSObject __res_4462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "origin");
+            throw new Exception("Marshaller from \"__res_4462\" to \"__res_4461\" not supported.");
+            return __res_4461;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_2093;
-            throw new Exception();
-            return __res_2093;
+            Iskra.StdWeb.DOMPointReadOnly __res_4463;
+            JSObject __res_4464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            throw new Exception("Marshaller from \"__res_4464\" to \"__res_4463\" not supported.");
+            return __res_4463;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_2094;
-            throw new Exception();
-            return __res_2094;
+            Iskra.JSCore.Float32Array __res_4465;
+            JSObject __res_4466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            throw new Exception("Marshaller from \"__res_4466\" to \"__res_4465\" not supported.");
+            return __res_4465;
         }
     }
 }

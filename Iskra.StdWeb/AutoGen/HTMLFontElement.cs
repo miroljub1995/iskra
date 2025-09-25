@@ -13,9 +13,10 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2770;
-            throw new Exception();
-            return __res_2770;
+            string __res_5904;
+            string __res_5905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
+            __res_5904 = __res_5905;
+            return __res_5904;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2771;
-            throw new Exception();
-            return __res_2771;
+            string __res_5906;
+            string __res_5907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "face");
+            __res_5906 = __res_5907;
+            return __res_5906;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2772;
-            throw new Exception();
-            return __res_2772;
+            string __res_5908;
+            string __res_5909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
+            __res_5908 = __res_5909;
+            return __res_5908;
         }
         set
         {

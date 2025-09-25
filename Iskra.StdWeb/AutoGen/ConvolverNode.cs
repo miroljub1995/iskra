@@ -13,9 +13,18 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer? __res_3219;
-            throw new Exception();
-            return __res_3219;
+            Iskra.StdWeb.AudioBuffer? __res_6866;
+            JSObject? __res_6867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
+            if (__res_6867 is null)
+            {
+                __res_6866 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6868 = (JSObject)__res_6867;
+                throw new Exception("Marshaller from \"__notNullable_6868\" to \"__res_6866\" not supported.");
+            }
+            return __res_6866;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            bool __res_3220;
-            __res_3220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
-            return __res_3220;
+            bool __res_6869;
+            bool __res_6870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
+            __res_6869 = __res_6870;
+            return __res_6869;
         }
         set
         {

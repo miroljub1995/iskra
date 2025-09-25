@@ -13,9 +13,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2849;
+            object __res_6064;
             throw new Exception();
-            return __res_2849;
+            return __res_6064;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2850;
+            object __res_6065;
             throw new Exception();
-            return __res_2850;
+            return __res_6065;
         }
     }
 
@@ -33,9 +33,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2851;
+            object __res_6066;
             throw new Exception();
-            return __res_2851;
+            return __res_6066;
         }
     }
 
@@ -43,9 +43,10 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ViewTransitionTypeSet __res_2852;
-            throw new Exception();
-            return __res_2852;
+            Iskra.StdWeb.ViewTransitionTypeSet __res_6067;
+            JSObject __res_6068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            throw new Exception("Marshaller from \"__res_6068\" to \"__res_6067\" not supported.");
+            return __res_6067;
         }
         set
         {

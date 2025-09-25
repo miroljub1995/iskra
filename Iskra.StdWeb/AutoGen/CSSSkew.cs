@@ -13,9 +13,10 @@ public partial class CSSSkew(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_43;
-            throw new Exception();
-            return __res_43;
+            Iskra.StdWeb.CSSNumericValue __res_84;
+            JSObject __res_85 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
+            throw new Exception("Marshaller from \"__res_85\" to \"__res_84\" not supported.");
+            return __res_84;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSSkew(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_44;
-            throw new Exception();
-            return __res_44;
+            Iskra.StdWeb.CSSNumericValue __res_86;
+            JSObject __res_87 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
+            throw new Exception("Marshaller from \"__res_87\" to \"__res_86\" not supported.");
+            return __res_86;
         }
         set
         {

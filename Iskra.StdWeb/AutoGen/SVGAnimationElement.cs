@@ -13,9 +13,18 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGElement? __res_385;
-            throw new Exception();
-            return __res_385;
+            Iskra.StdWeb.SVGElement? __res_747;
+            JSObject? __res_748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "targetElement");
+            if (__res_748 is null)
+            {
+                __res_747 = null;
+            }
+            else
+            {
+                JSObject __notNullable_749 = (JSObject)__res_748;
+                throw new Exception("Marshaller from \"__notNullable_749\" to \"__res_747\" not supported.");
+            }
+            return __res_747;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_386;
-            throw new Exception();
-            return __res_386;
+            Iskra.StdWeb.EventHandlerNonNull? __res_750;
+            JSObject? __res_751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbegin");
+            if (__res_751 is null)
+            {
+                __res_750 = null;
+            }
+            else
+            {
+                JSObject __notNullable_752 = (JSObject)__res_751;
+                throw new Exception("Marshaller from \"__notNullable_752\" to \"__res_750\" not supported.");
+            }
+            return __res_750;
         }
         set
         {
@@ -37,9 +55,18 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_387;
-            throw new Exception();
-            return __res_387;
+            Iskra.StdWeb.EventHandlerNonNull? __res_753;
+            JSObject? __res_754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
+            if (__res_754 is null)
+            {
+                __res_753 = null;
+            }
+            else
+            {
+                JSObject __notNullable_755 = (JSObject)__res_754;
+                throw new Exception("Marshaller from \"__notNullable_755\" to \"__res_753\" not supported.");
+            }
+            return __res_753;
         }
         set
         {
@@ -51,9 +78,18 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_388;
-            throw new Exception();
-            return __res_388;
+            Iskra.StdWeb.EventHandlerNonNull? __res_756;
+            JSObject? __res_757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrepeat");
+            if (__res_757 is null)
+            {
+                __res_756 = null;
+            }
+            else
+            {
+                JSObject __notNullable_758 = (JSObject)__res_757;
+                throw new Exception("Marshaller from \"__notNullable_758\" to \"__res_756\" not supported.");
+            }
+            return __res_756;
         }
         set
         {

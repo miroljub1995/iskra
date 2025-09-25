@@ -13,9 +13,10 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2872;
-            throw new Exception();
-            return __res_2872;
+            string __res_6112;
+            string __res_6113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_6112 = __res_6113;
+            return __res_6112;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_2873;
-            throw new Exception();
-            return __res_2873;
+            Iskra.StdWeb.MediaList __res_6114;
+            JSObject __res_6115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            throw new Exception("Marshaller from \"__res_6115\" to \"__res_6114\" not supported.");
+            return __res_6114;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_2874;
-            throw new Exception();
-            return __res_2874;
+            Iskra.StdWeb.CSSStyleSheet? __res_6116;
+            JSObject? __res_6117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
+            if (__res_6117 is null)
+            {
+                __res_6116 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6118 = (JSObject)__res_6117;
+                throw new Exception("Marshaller from \"__notNullable_6118\" to \"__res_6116\" not supported.");
+            }
+            return __res_6116;
         }
     }
 
@@ -43,9 +54,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_2875;
-            throw new Exception();
-            return __res_2875;
+            string? __res_6119;
+            string? __res_6120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
+            if (__res_6120 is null)
+            {
+                __res_6119 = null;
+            }
+            else
+            {
+                string __notNullable_6121 = (string)__res_6120;
+                __res_6119 = __notNullable_6121;
+            }
+            return __res_6119;
         }
     }
 
@@ -53,9 +73,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_2876;
-            throw new Exception();
-            return __res_2876;
+            string? __res_6122;
+            string? __res_6123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
+            if (__res_6123 is null)
+            {
+                __res_6122 = null;
+            }
+            else
+            {
+                string __notNullable_6124 = (string)__res_6123;
+                __res_6122 = __notNullable_6124;
+            }
+            return __res_6122;
         }
     }
 }

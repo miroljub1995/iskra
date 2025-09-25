@@ -13,9 +13,10 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
-            Iskra.StdWeb.BluetoothRemoteGATTService __res_1134;
-            throw new Exception();
-            return __res_1134;
+            Iskra.StdWeb.BluetoothRemoteGATTService __res_2393;
+            JSObject __res_2394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
+            throw new Exception("Marshaller from \"__res_2394\" to \"__res_2393\" not supported.");
+            return __res_2393;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
-            string __res_1135;
-            throw new Exception();
-            return __res_1135;
+            string __res_2395;
+            string __res_2396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2395 = __res_2396;
+            return __res_2395;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
-            Iskra.StdWeb.BluetoothCharacteristicProperties __res_1136;
-            throw new Exception();
-            return __res_1136;
+            Iskra.StdWeb.BluetoothCharacteristicProperties __res_2397;
+            JSObject __res_2398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
+            throw new Exception("Marshaller from \"__res_2398\" to \"__res_2397\" not supported.");
+            return __res_2397;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
-            Iskra.JSCore.DataView? __res_1137;
-            throw new Exception();
-            return __res_1137;
+            Iskra.JSCore.DataView? __res_2399;
+            JSObject? __res_2400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_2400 is null)
+            {
+                __res_2399 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2401 = (JSObject)__res_2400;
+                throw new Exception("Marshaller from \"__notNullable_2401\" to \"__res_2399\" not supported.");
+            }
+            return __res_2399;
         }
     }
 }

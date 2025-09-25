@@ -13,9 +13,10 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_336;
-            throw new Exception();
-            return __res_336;
+            ulong __res_652;
+            double __res_653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_652 = Convert.ToUInt64(__res_653);
+            return __res_652;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_337;
-            throw new Exception();
-            return __res_337;
+            uint __res_654;
+            double __res_655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
+            __res_654 = Convert.ToUInt32(__res_655);
+            return __res_654;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUBufferMapState __res_338;
-            throw new Exception();
-            return __res_338;
+            Iskra.StdWeb.GPUBufferMapState __res_656;
+            JSObject __res_657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapState");
+            throw new Exception("Marshaller from \"__res_657\" to \"__res_656\" not supported.");
+            return __res_656;
         }
     }
 }

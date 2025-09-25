@@ -13,9 +13,10 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedHTML __res_474;
-            throw new Exception();
-            return __res_474;
+            Iskra.StdWeb.TrustedHTML __res_950;
+            JSObject __res_951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
+            throw new Exception("Marshaller from \"__res_951\" to \"__res_950\" not supported.");
+            return __res_950;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedScript __res_475;
-            throw new Exception();
-            return __res_475;
+            Iskra.StdWeb.TrustedScript __res_952;
+            JSObject __res_953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
+            throw new Exception("Marshaller from \"__res_953\" to \"__res_952\" not supported.");
+            return __res_952;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedTypePolicy? __res_476;
-            throw new Exception();
-            return __res_476;
+            Iskra.StdWeb.TrustedTypePolicy? __res_954;
+            JSObject? __res_955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
+            if (__res_955 is null)
+            {
+                __res_954 = null;
+            }
+            else
+            {
+                JSObject __notNullable_956 = (JSObject)__res_955;
+                throw new Exception("Marshaller from \"__notNullable_956\" to \"__res_954\" not supported.");
+            }
+            return __res_954;
         }
     }
 }

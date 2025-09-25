@@ -13,9 +13,10 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            int __res_1273;
-            throw new Exception();
-            return __res_1273;
+            int __res_2694;
+            double __res_2695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_2694 = Convert.ToInt32(__res_2695);
+            return __res_2694;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            int __res_1274;
-            throw new Exception();
-            return __res_1274;
+            int __res_2696;
+            double __res_2697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_2696 = Convert.ToInt32(__res_2697);
+            return __res_2696;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1275;
-            throw new Exception();
-            return __res_1275;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2698;
+            JSObject? __res_2699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresize");
+            if (__res_2699 is null)
+            {
+                __res_2698 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2700 = (JSObject)__res_2699;
+                throw new Exception("Marshaller from \"__notNullable_2700\" to \"__res_2698\" not supported.");
+            }
+            return __res_2698;
         }
         set
         {

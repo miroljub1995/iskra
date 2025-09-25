@@ -13,9 +13,10 @@ public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGTransformList __res_181;
-            throw new Exception();
-            return __res_181;
+            Iskra.StdWeb.SVGTransformList __res_334;
+            JSObject __res_335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller from \"__res_335\" to \"__res_334\" not supported.");
+            return __res_334;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGTransformList __res_182;
-            throw new Exception();
-            return __res_182;
+            Iskra.StdWeb.SVGTransformList __res_336;
+            JSObject __res_337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller from \"__res_337\" to \"__res_336\" not supported.");
+            return __res_336;
         }
     }
 }

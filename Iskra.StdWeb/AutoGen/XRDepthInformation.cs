@@ -13,9 +13,10 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_464;
-            throw new Exception();
-            return __res_464;
+            uint __res_929;
+            double __res_930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_929 = Convert.ToUInt32(__res_930);
+            return __res_929;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_465;
-            throw new Exception();
-            return __res_465;
+            uint __res_931;
+            double __res_932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_931 = Convert.ToUInt32(__res_932);
+            return __res_931;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_466;
-            throw new Exception();
-            return __res_466;
+            Iskra.StdWeb.XRRigidTransform __res_933;
+            JSObject __res_934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "normDepthBufferFromNormView");
+            throw new Exception("Marshaller from \"__res_934\" to \"__res_933\" not supported.");
+            return __res_933;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_467;
-            throw new Exception();
-            return __res_467;
+            float __res_935;
+            double __res_936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rawValueToMeters");
+            __res_935 = Convert.ToSingle(__res_936);
+            return __res_935;
         }
     }
 }

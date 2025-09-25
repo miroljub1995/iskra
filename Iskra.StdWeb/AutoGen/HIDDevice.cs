@@ -13,9 +13,18 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_648;
-            throw new Exception();
-            return __res_648;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1310;
+            JSObject? __res_1311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport");
+            if (__res_1311 is null)
+            {
+                __res_1310 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1312 = (JSObject)__res_1311;
+                throw new Exception("Marshaller from \"__notNullable_1312\" to \"__res_1310\" not supported.");
+            }
+            return __res_1310;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_649;
-            __res_649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
-            return __res_649;
+            bool __res_1313;
+            bool __res_1314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
+            __res_1313 = __res_1314;
+            return __res_1313;
         }
     }
 
@@ -37,9 +47,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_650;
-            throw new Exception();
-            return __res_650;
+            ushort __res_1315;
+            double __res_1316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
+            throw new Exception("Marshaller from \"__res_1316\" to \"__res_1315\" not supported.");
+            return __res_1315;
         }
     }
 
@@ -47,9 +58,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_651;
-            throw new Exception();
-            return __res_651;
+            ushort __res_1317;
+            double __res_1318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
+            throw new Exception("Marshaller from \"__res_1318\" to \"__res_1317\" not supported.");
+            return __res_1317;
         }
     }
 
@@ -57,9 +69,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_652;
-            throw new Exception();
-            return __res_652;
+            string __res_1319;
+            string __res_1320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productName");
+            __res_1319 = __res_1320;
+            return __res_1319;
         }
     }
 
@@ -67,9 +80,9 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_653;
+            object __res_1321;
             throw new Exception();
-            return __res_653;
+            return __res_1321;
         }
     }
 }

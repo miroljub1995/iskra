@@ -13,9 +13,10 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_568;
-            throw new Exception();
-            return __res_568;
+            Iskra.StdWeb.SVGAnimatedString __res_1142;
+            JSObject __res_1143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1143\" to \"__res_1142\" not supported.");
+            return __res_1142;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_569;
-            throw new Exception();
-            return __res_569;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1144;
+            JSObject __res_1145 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
+            throw new Exception("Marshaller from \"__res_1145\" to \"__res_1144\" not supported.");
+            return __res_1144;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEOffsetElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_570;
-            throw new Exception();
-            return __res_570;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1146;
+            JSObject __res_1147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
+            throw new Exception("Marshaller from \"__res_1147\" to \"__res_1146\" not supported.");
+            return __res_1146;
         }
     }
 }

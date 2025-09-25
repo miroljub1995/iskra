@@ -9,6 +9,6 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(PromiseTypeDescription), "Promise")]
 [JsonDerivedType(typeof(RecordTypeDescription), "record")]
 [JsonDerivedType(typeof(SequenceTypeDescription), "sequence")]
-public abstract class NonUnionTypeDescription : IDLTypeDescription
+public abstract record NonUnionTypeDescription : IDLTypeDescription
 {
 }

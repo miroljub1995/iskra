@@ -13,9 +13,10 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceTransport __res_815;
-            throw new Exception();
-            return __res_815;
+            Iskra.StdWeb.RTCIceTransport __res_1699;
+            JSObject __res_1700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceTransport");
+            throw new Exception("Marshaller from \"__res_1700\" to \"__res_1699\" not supported.");
+            return __res_1699;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransportState __res_816;
-            throw new Exception();
-            return __res_816;
+            Iskra.StdWeb.RTCDtlsTransportState __res_1701;
+            JSObject __res_1702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_1702\" to \"__res_1701\" not supported.");
+            return __res_1701;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_817;
-            throw new Exception();
-            return __res_817;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1703;
+            JSObject? __res_1704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_1704 is null)
+            {
+                __res_1703 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1705 = (JSObject)__res_1704;
+                throw new Exception("Marshaller from \"__notNullable_1705\" to \"__res_1703\" not supported.");
+            }
+            return __res_1703;
         }
         set
         {
@@ -47,9 +58,18 @@ public partial class RTCDtlsTransport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_818;
-            throw new Exception();
-            return __res_818;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1706;
+            JSObject? __res_1707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_1707 is null)
+            {
+                __res_1706 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1708 = (JSObject)__res_1707;
+                throw new Exception("Marshaller from \"__notNullable_1708\" to \"__res_1706\" not supported.");
+            }
+            return __res_1706;
         }
         set
         {

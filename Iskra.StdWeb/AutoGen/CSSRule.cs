@@ -13,9 +13,10 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2866;
-            throw new Exception();
-            return __res_2866;
+            string __res_6098;
+            string __res_6099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
+            __res_6098 = __res_6099;
+            return __res_6098;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRule? __res_2867;
-            throw new Exception();
-            return __res_2867;
+            Iskra.StdWeb.CSSRule? __res_6100;
+            JSObject? __res_6101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
+            if (__res_6101 is null)
+            {
+                __res_6100 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6102 = (JSObject)__res_6101;
+                throw new Exception("Marshaller from \"__notNullable_6102\" to \"__res_6100\" not supported.");
+            }
+            return __res_6100;
         }
     }
 
@@ -37,9 +47,18 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_2868;
-            throw new Exception();
-            return __res_2868;
+            Iskra.StdWeb.CSSStyleSheet? __res_6103;
+            JSObject? __res_6104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
+            if (__res_6104 is null)
+            {
+                __res_6103 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6105 = (JSObject)__res_6104;
+                throw new Exception("Marshaller from \"__notNullable_6105\" to \"__res_6103\" not supported.");
+            }
+            return __res_6103;
         }
     }
 
@@ -47,9 +66,10 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_2869;
-            throw new Exception();
-            return __res_2869;
+            ushort __res_6106;
+            double __res_6107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_6107\" to \"__res_6106\" not supported.");
+            return __res_6106;
         }
     }
 }

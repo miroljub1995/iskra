@@ -13,9 +13,10 @@ public partial class CSSMatrixComponent(JSObject obj): CSSTransformComponent(obj
     {
         get
         {
-            Iskra.StdWeb.DOMMatrix __res_48;
-            throw new Exception();
-            return __res_48;
+            Iskra.StdWeb.DOMMatrix __res_93;
+            JSObject __res_94 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            throw new Exception("Marshaller from \"__res_94\" to \"__res_93\" not supported.");
+            return __res_93;
         }
         set
         {

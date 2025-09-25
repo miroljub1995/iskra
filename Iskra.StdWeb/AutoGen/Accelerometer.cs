@@ -13,9 +13,18 @@ public partial class Accelerometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_951;
-            throw new Exception();
-            return __res_951;
+            double? __res_2005;
+            double? __res_2006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_2006 is null)
+            {
+                __res_2005 = null;
+            }
+            else
+            {
+                double __notNullable_2007 = (double)__res_2006;
+                __res_2005 = __notNullable_2007;
+            }
+            return __res_2005;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class Accelerometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_952;
-            throw new Exception();
-            return __res_952;
+            double? __res_2008;
+            double? __res_2009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_2009 is null)
+            {
+                __res_2008 = null;
+            }
+            else
+            {
+                double __notNullable_2010 = (double)__res_2009;
+                __res_2008 = __notNullable_2010;
+            }
+            return __res_2008;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class Accelerometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_953;
-            throw new Exception();
-            return __res_953;
+            double? __res_2011;
+            double? __res_2012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_2012 is null)
+            {
+                __res_2011 = null;
+            }
+            else
+            {
+                double __notNullable_2013 = (double)__res_2012;
+                __res_2011 = __notNullable_2013;
+            }
+            return __res_2011;
         }
     }
 }

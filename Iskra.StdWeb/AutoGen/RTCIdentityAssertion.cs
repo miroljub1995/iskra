@@ -13,9 +13,10 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1681;
-            throw new Exception();
-            return __res_1681;
+            string __res_3579;
+            string __res_3580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
+            __res_3579 = __res_3580;
+            return __res_3579;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1682;
-            throw new Exception();
-            return __res_1682;
+            string __res_3581;
+            string __res_3582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3581 = __res_3582;
+            return __res_3581;
         }
         set
         {

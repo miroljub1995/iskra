@@ -13,9 +13,10 @@ public partial class HTMLTimeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2171;
-            throw new Exception();
-            return __res_2171;
+            string __res_4620;
+            string __res_4621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_4620 = __res_4621;
+            return __res_4620;
         }
         set
         {

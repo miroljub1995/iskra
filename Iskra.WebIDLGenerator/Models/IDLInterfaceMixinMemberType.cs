@@ -6,6 +6,6 @@ namespace Iskra.WebIDLGenerator.Models;
 [JsonDerivedType(typeof(AttributeMemberType), "attribute")]
 [JsonDerivedType(typeof(ConstantMemberType), "const")]
 [JsonDerivedType(typeof(OperationMemberType), "operation")]
-public abstract class IDLInterfaceMixinMemberType : IDLNamespaceMemberType
+public abstract record IDLInterfaceMixinMemberType : IDLNamespaceMemberType
 {
 }

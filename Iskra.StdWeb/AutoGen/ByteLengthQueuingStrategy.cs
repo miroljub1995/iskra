@@ -13,9 +13,10 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_432;
-            throw new Exception();
-            return __res_432;
+            double __res_858;
+            double __res_859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_858 = __res_859;
+            return __res_858;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Function __res_433;
-            throw new Exception();
-            return __res_433;
+            Iskra.StdWeb.Function __res_860;
+            JSObject __res_861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            throw new Exception("Marshaller from \"__res_861\" to \"__res_860\" not supported.");
+            return __res_860;
         }
     }
 }

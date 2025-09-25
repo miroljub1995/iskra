@@ -13,9 +13,10 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3222;
-            throw new Exception();
-            return __res_3222;
+            Iskra.StdWeb.AudioParam __res_6873;
+            JSObject __res_6874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "threshold");
+            throw new Exception("Marshaller from \"__res_6874\" to \"__res_6873\" not supported.");
+            return __res_6873;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3223;
-            throw new Exception();
-            return __res_3223;
+            Iskra.StdWeb.AudioParam __res_6875;
+            JSObject __res_6876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "knee");
+            throw new Exception("Marshaller from \"__res_6876\" to \"__res_6875\" not supported.");
+            return __res_6875;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3224;
-            throw new Exception();
-            return __res_3224;
+            Iskra.StdWeb.AudioParam __res_6877;
+            JSObject __res_6878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ratio");
+            throw new Exception("Marshaller from \"__res_6878\" to \"__res_6877\" not supported.");
+            return __res_6877;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            float __res_3225;
-            throw new Exception();
-            return __res_3225;
+            float __res_6879;
+            double __res_6880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reduction");
+            __res_6879 = Convert.ToSingle(__res_6880);
+            return __res_6879;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3226;
-            throw new Exception();
-            return __res_3226;
+            Iskra.StdWeb.AudioParam __res_6881;
+            JSObject __res_6882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attack");
+            throw new Exception("Marshaller from \"__res_6882\" to \"__res_6881\" not supported.");
+            return __res_6881;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3227;
-            throw new Exception();
-            return __res_3227;
+            Iskra.StdWeb.AudioParam __res_6883;
+            JSObject __res_6884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "release");
+            throw new Exception("Marshaller from \"__res_6884\" to \"__res_6883\" not supported.");
+            return __res_6883;
         }
     }
 }

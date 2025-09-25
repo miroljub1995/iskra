@@ -13,9 +13,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            double __res_2777;
-            throw new Exception();
-            return __res_2777;
+            double __res_5918;
+            double __res_5919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_5918 = __res_5919;
+            return __res_5918;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            double __res_2778;
-            throw new Exception();
-            return __res_2778;
+            double __res_5920;
+            double __res_5921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_5920 = __res_5921;
+            return __res_5920;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            string __res_2779;
-            throw new Exception();
-            return __res_2779;
+            string __res_5922;
+            string __res_5923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5922 = __res_5923;
+            return __res_5922;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            string __res_2780;
-            throw new Exception();
-            return __res_2780;
+            string __res_5924;
+            string __res_5925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_5924 = __res_5925;
+            return __res_5924;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            double __res_2781;
-            throw new Exception();
-            return __res_2781;
+            double __res_5926;
+            double __res_5927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderStart");
+            __res_5926 = __res_5927;
+            return __res_5926;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            double __res_2782;
-            throw new Exception();
-            return __res_2782;
+            double __res_5928;
+            double __res_5929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "styleAndLayoutStart");
+            __res_5928 = __res_5929;
+            return __res_5928;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            double __res_2783;
-            throw new Exception();
-            return __res_2783;
+            double __res_5930;
+            double __res_5931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockingDuration");
+            __res_5930 = __res_5931;
+            return __res_5930;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            double __res_2784;
-            throw new Exception();
-            return __res_2784;
+            double __res_5932;
+            double __res_5933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstUIEventTimestamp");
+            __res_5932 = __res_5933;
+            return __res_5932;
         }
     }
 
@@ -93,9 +101,9 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
     {
         get
         {
-            object __res_2785;
+            object __res_5934;
             throw new Exception();
-            return __res_2785;
+            return __res_5934;
         }
     }
 }

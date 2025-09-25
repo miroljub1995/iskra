@@ -13,9 +13,10 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_414;
-            throw new Exception();
-            return __res_414;
+            Iskra.StdWeb.XRSpace __res_819;
+            JSObject __res_820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
+            throw new Exception("Marshaller from \"__res_820\" to \"__res_819\" not supported.");
+            return __res_819;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_415;
-            throw new Exception();
-            return __res_415;
+            Iskra.StdWeb.EventHandlerNonNull? __res_821;
+            JSObject? __res_822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
+            if (__res_822 is null)
+            {
+                __res_821 = null;
+            }
+            else
+            {
+                JSObject __notNullable_823 = (JSObject)__res_822;
+                throw new Exception("Marshaller from \"__notNullable_823\" to \"__res_821\" not supported.");
+            }
+            return __res_821;
         }
         set
         {

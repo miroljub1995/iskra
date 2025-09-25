@@ -13,9 +13,10 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2894;
-            throw new Exception();
-            return __res_2894;
+            string __res_6159;
+            string __res_6160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6159 = __res_6160;
+            return __res_6159;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleDeclaration __res_2895;
-            throw new Exception();
-            return __res_2895;
+            Iskra.StdWeb.CSSStyleDeclaration __res_6161;
+            JSObject __res_6162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller from \"__res_6162\" to \"__res_6161\" not supported.");
+            return __res_6161;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.PermissionState __res_80;
-            throw new Exception();
-            return __res_80;
+            Iskra.StdWeb.PermissionState __res_127;
+            JSObject __res_128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_128\" to \"__res_127\" not supported.");
+            return __res_127;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_81;
-            throw new Exception();
-            return __res_81;
+            string __res_129;
+            string __res_130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_129 = __res_130;
+            return __res_129;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_82;
-            throw new Exception();
-            return __res_82;
+            Iskra.StdWeb.EventHandlerNonNull? __res_131;
+            JSObject? __res_132 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_132 is null)
+            {
+                __res_131 = null;
+            }
+            else
+            {
+                JSObject __notNullable_133 = (JSObject)__res_132;
+                throw new Exception("Marshaller from \"__notNullable_133\" to \"__res_131\" not supported.");
+            }
+            return __res_131;
         }
         set
         {

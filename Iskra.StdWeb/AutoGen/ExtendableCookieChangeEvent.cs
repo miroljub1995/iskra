@@ -13,9 +13,9 @@ public partial class ExtendableCookieChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
-            object __res_710;
+            object __res_1446;
             throw new Exception();
-            return __res_710;
+            return __res_1446;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class ExtendableCookieChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
-            object __res_711;
+            object __res_1447;
             throw new Exception();
-            return __res_711;
+            return __res_1447;
         }
     }
 }

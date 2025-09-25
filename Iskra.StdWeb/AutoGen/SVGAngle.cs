@@ -13,9 +13,10 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_130;
-            throw new Exception();
-            return __res_130;
+            ushort __res_230;
+            double __res_231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
+            throw new Exception("Marshaller from \"__res_231\" to \"__res_230\" not supported.");
+            return __res_230;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_131;
-            throw new Exception();
-            return __res_131;
+            float __res_232;
+            double __res_233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_232 = Convert.ToSingle(__res_233);
+            return __res_232;
         }
         set
         {
@@ -37,9 +39,10 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_132;
-            throw new Exception();
-            return __res_132;
+            float __res_234;
+            double __res_235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
+            __res_234 = Convert.ToSingle(__res_235);
+            return __res_234;
         }
         set
         {
@@ -51,9 +54,10 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_133;
-            throw new Exception();
-            return __res_133;
+            string __res_236;
+            string __res_237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
+            __res_236 = __res_237;
+            return __res_236;
         }
         set
         {

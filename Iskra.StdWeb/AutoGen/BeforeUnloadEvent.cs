@@ -13,9 +13,10 @@ public partial class BeforeUnloadEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2669;
-            throw new Exception();
-            return __res_2669;
+            string __res_5684;
+            string __res_5685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
+            __res_5684 = __res_5685;
+            return __res_5684;
         }
         set
         {

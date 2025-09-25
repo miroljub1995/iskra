@@ -13,9 +13,10 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_2712;
-            throw new Exception();
-            return __res_2712;
+            Iskra.StdWeb.MessagePort __res_5772;
+            JSObject __res_5773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
+            throw new Exception("Marshaller from \"__res_5773\" to \"__res_5772\" not supported.");
+            return __res_5772;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_2713;
-            throw new Exception();
-            return __res_2713;
+            Iskra.StdWeb.MessagePort __res_5774;
+            JSObject __res_5775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
+            throw new Exception("Marshaller from \"__res_5775\" to \"__res_5774\" not supported.");
+            return __res_5774;
         }
     }
 }

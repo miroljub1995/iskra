@@ -13,9 +13,18 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_643;
-            throw new Exception();
-            return __res_643;
+            Iskra.StdWeb.Element? __res_1296;
+            JSObject? __res_1297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_1297 is null)
+            {
+                __res_1296 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1298 = (JSObject)__res_1297;
+                throw new Exception("Marshaller from \"__notNullable_1298\" to \"__res_1296\" not supported.");
+            }
+            return __res_1296;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            string? __res_644;
-            throw new Exception();
-            return __res_644;
+            string? __res_1299;
+            string? __res_1300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
+            if (__res_1300 is null)
+            {
+                __res_1299 = null;
+            }
+            else
+            {
+                string __notNullable_1301 = (string)__res_1300;
+                __res_1299 = __notNullable_1301;
+            }
+            return __res_1299;
         }
         set
         {
@@ -41,9 +59,10 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            Iskra.StdWeb.CompositeOperation __res_645;
-            throw new Exception();
-            return __res_645;
+            Iskra.StdWeb.CompositeOperation __res_1302;
+            JSObject __res_1303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
+            throw new Exception("Marshaller from \"__res_1303\" to \"__res_1302\" not supported.");
+            return __res_1302;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate __res_826;
-            throw new Exception();
-            return __res_826;
+            Iskra.StdWeb.RTCIceCandidate __res_1726;
+            JSObject __res_1727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "local");
+            throw new Exception("Marshaller from \"__res_1727\" to \"__res_1726\" not supported.");
+            return __res_1726;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate __res_827;
-            throw new Exception();
-            return __res_827;
+            Iskra.StdWeb.RTCIceCandidate __res_1728;
+            JSObject __res_1729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
+            throw new Exception("Marshaller from \"__res_1729\" to \"__res_1728\" not supported.");
+            return __res_1728;
         }
     }
 }

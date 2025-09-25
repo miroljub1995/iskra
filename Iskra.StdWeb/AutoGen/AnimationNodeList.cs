@@ -13,9 +13,10 @@ public partial class AnimationNodeList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2098;
-            throw new Exception();
-            return __res_2098;
+            uint __res_4475;
+            double __res_4476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4475 = Convert.ToUInt32(__res_4476);
+            return __res_4475;
         }
     }
 }

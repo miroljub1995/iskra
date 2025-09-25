@@ -13,9 +13,10 @@ public partial class PictureInPictureEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.PictureInPictureWindow __res_1276;
-            throw new Exception();
-            return __res_1276;
+            Iskra.StdWeb.PictureInPictureWindow __res_2701;
+            JSObject __res_2702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pictureInPictureWindow");
+            throw new Exception("Marshaller from \"__res_2702\" to \"__res_2701\" not supported.");
+            return __res_2701;
         }
     }
 }

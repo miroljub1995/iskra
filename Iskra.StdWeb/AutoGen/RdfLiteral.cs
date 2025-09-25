@@ -13,9 +13,10 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2055;
-            throw new Exception();
-            return __res_2055;
+            string __res_4384;
+            string __res_4385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_4384 = __res_4385;
+            return __res_4384;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2056;
-            throw new Exception();
-            return __res_2056;
+            string __res_4386;
+            string __res_4387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "datatype");
+            __res_4386 = __res_4387;
+            return __res_4386;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2057;
-            throw new Exception();
-            return __res_2057;
+            string? __res_4388;
+            string? __res_4389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "language");
+            if (__res_4389 is null)
+            {
+                __res_4388 = null;
+            }
+            else
+            {
+                string __notNullable_4390 = (string)__res_4389;
+                __res_4388 = __notNullable_4390;
+            }
+            return __res_4388;
         }
     }
 }

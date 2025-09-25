@@ -13,9 +13,18 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1916;
-            throw new Exception();
-            return __res_1916;
+            string? __res_4098;
+            string? __res_4099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_4099 is null)
+            {
+                __res_4098 = null;
+            }
+            else
+            {
+                string __notNullable_4100 = (string)__res_4099;
+                __res_4098 = __notNullable_4100;
+            }
+            return __res_4098;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1917;
-            throw new Exception();
-            return __res_1917;
+            string? __res_4101;
+            string? __res_4102 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
+            if (__res_4102 is null)
+            {
+                __res_4101 = null;
+            }
+            else
+            {
+                string __notNullable_4103 = (string)__res_4102;
+                __res_4101 = __notNullable_4103;
+            }
+            return __res_4101;
         }
     }
 
@@ -33,9 +51,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1918;
+            object __res_4104;
             throw new Exception();
-            return __res_1918;
+            return __res_4104;
         }
     }
 
@@ -43,9 +61,10 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothManufacturerDataFilter __res_1919;
-            throw new Exception();
-            return __res_1919;
+            Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4105;
+            JSObject __res_4106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
+            throw new Exception("Marshaller from \"__res_4106\" to \"__res_4105\" not supported.");
+            return __res_4105;
         }
     }
 
@@ -53,9 +72,10 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothServiceDataFilter __res_1920;
-            throw new Exception();
-            return __res_1920;
+            Iskra.StdWeb.BluetoothServiceDataFilter __res_4107;
+            JSObject __res_4108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
+            throw new Exception("Marshaller from \"__res_4108\" to \"__res_4107\" not supported.");
+            return __res_4107;
         }
     }
 }

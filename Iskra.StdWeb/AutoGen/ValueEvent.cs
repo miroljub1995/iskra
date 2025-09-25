@@ -13,9 +13,10 @@ public partial class ValueEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_1116;
-            throw new Exception();
-            return __res_1116;
+            object? __res_2352;
+            JSObject __res_2353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_2352 = __res_2353;
+            return __res_2352;
         }
     }
 }

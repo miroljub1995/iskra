@@ -13,9 +13,10 @@ public partial class PeriodicSyncEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_289;
-            throw new Exception();
-            return __res_289;
+            string __res_558;
+            string __res_559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
+            __res_558 = __res_559;
+            return __res_558;
         }
     }
 }

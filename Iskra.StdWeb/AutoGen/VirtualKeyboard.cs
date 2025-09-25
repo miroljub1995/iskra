@@ -13,9 +13,10 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRect __res_389;
-            throw new Exception();
-            return __res_389;
+            Iskra.StdWeb.DOMRect __res_759;
+            JSObject __res_760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
+            throw new Exception("Marshaller from \"__res_760\" to \"__res_759\" not supported.");
+            return __res_759;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_390;
-            __res_390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
-            return __res_390;
+            bool __res_761;
+            bool __res_762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
+            __res_761 = __res_762;
+            return __res_761;
         }
         set
         {
@@ -37,9 +39,18 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_391;
-            throw new Exception();
-            return __res_391;
+            Iskra.StdWeb.EventHandlerNonNull? __res_763;
+            JSObject? __res_764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_764 is null)
+            {
+                __res_763 = null;
+            }
+            else
+            {
+                JSObject __notNullable_765 = (JSObject)__res_764;
+                throw new Exception("Marshaller from \"__notNullable_765\" to \"__res_763\" not supported.");
+            }
+            return __res_763;
         }
         set
         {

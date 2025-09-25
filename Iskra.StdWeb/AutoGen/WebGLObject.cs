@@ -13,9 +13,10 @@ public partial class WebGLObject(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_375;
-            throw new Exception();
-            return __res_375;
+            string __res_726;
+            string __res_727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_726 = __res_727;
+            return __res_726;
         }
         set
         {

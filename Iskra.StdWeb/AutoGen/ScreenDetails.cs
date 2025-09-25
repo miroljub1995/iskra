@@ -13,9 +13,9 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_1196;
+            object __res_2536;
             throw new Exception();
-            return __res_1196;
+            return __res_2536;
         }
     }
 
@@ -23,9 +23,10 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ScreenDetailed __res_1197;
-            throw new Exception();
-            return __res_1197;
+            Iskra.StdWeb.ScreenDetailed __res_2537;
+            JSObject __res_2538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentScreen");
+            throw new Exception("Marshaller from \"__res_2538\" to \"__res_2537\" not supported.");
+            return __res_2537;
         }
     }
 
@@ -33,9 +34,18 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1198;
-            throw new Exception();
-            return __res_1198;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2539;
+            JSObject? __res_2540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange");
+            if (__res_2540 is null)
+            {
+                __res_2539 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2541 = (JSObject)__res_2540;
+                throw new Exception("Marshaller from \"__notNullable_2541\" to \"__res_2539\" not supported.");
+            }
+            return __res_2539;
         }
         set
         {
@@ -47,9 +57,18 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1199;
-            throw new Exception();
-            return __res_1199;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2542;
+            JSObject? __res_2543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange");
+            if (__res_2543 is null)
+            {
+                __res_2542 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2544 = (JSObject)__res_2543;
+                throw new Exception("Marshaller from \"__notNullable_2544\" to \"__res_2542\" not supported.");
+            }
+            return __res_2542;
         }
         set
         {

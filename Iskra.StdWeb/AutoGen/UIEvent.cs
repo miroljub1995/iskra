@@ -13,9 +13,18 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_3093;
-            throw new Exception();
-            return __res_3093;
+            Iskra.StdWeb.Window? __res_6600;
+            JSObject? __res_6601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_6601 is null)
+            {
+                __res_6600 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6602 = (JSObject)__res_6601;
+                throw new Exception("Marshaller from \"__notNullable_6602\" to \"__res_6600\" not supported.");
+            }
+            return __res_6600;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_3094;
-            throw new Exception();
-            return __res_3094;
+            int __res_6603;
+            double __res_6604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_6603 = Convert.ToInt32(__res_6604);
+            return __res_6603;
         }
     }
 }

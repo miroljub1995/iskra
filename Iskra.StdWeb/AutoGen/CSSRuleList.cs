@@ -13,9 +13,10 @@ public partial class CSSRuleList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2865;
-            throw new Exception();
-            return __res_2865;
+            uint __res_6096;
+            double __res_6097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6096 = Convert.ToUInt32(__res_6097);
+            return __res_6096;
         }
     }
 }

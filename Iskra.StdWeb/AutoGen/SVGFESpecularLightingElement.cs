@@ -13,9 +13,10 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_571;
-            throw new Exception();
-            return __res_571;
+            Iskra.StdWeb.SVGAnimatedString __res_1148;
+            JSObject __res_1149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1149\" to \"__res_1148\" not supported.");
+            return __res_1148;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_572;
-            throw new Exception();
-            return __res_572;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1150;
+            JSObject __res_1151 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "surfaceScale");
+            throw new Exception("Marshaller from \"__res_1151\" to \"__res_1150\" not supported.");
+            return __res_1150;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_573;
-            throw new Exception();
-            return __res_573;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1152;
+            JSObject __res_1153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "specularConstant");
+            throw new Exception("Marshaller from \"__res_1153\" to \"__res_1152\" not supported.");
+            return __res_1152;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_574;
-            throw new Exception();
-            return __res_574;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1154;
+            JSObject __res_1155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "specularExponent");
+            throw new Exception("Marshaller from \"__res_1155\" to \"__res_1154\" not supported.");
+            return __res_1154;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_575;
-            throw new Exception();
-            return __res_575;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1156;
+            JSObject __res_1157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthX");
+            throw new Exception("Marshaller from \"__res_1157\" to \"__res_1156\" not supported.");
+            return __res_1156;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGFESpecularLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_576;
-            throw new Exception();
-            return __res_576;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1158;
+            JSObject __res_1159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthY");
+            throw new Exception("Marshaller from \"__res_1159\" to \"__res_1158\" not supported.");
+            return __res_1158;
         }
     }
 }

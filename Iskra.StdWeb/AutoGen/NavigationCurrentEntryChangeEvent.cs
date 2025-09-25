@@ -13,9 +13,18 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType? __res_2659;
-            throw new Exception();
-            return __res_2659;
+            Iskra.StdWeb.NavigationType? __res_5660;
+            JSObject? __res_5661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "navigationType");
+            if (__res_5661 is null)
+            {
+                __res_5660 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5662 = (JSObject)__res_5661;
+                throw new Exception("Marshaller from \"__notNullable_5662\" to \"__res_5660\" not supported.");
+            }
+            return __res_5660;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_2660;
-            throw new Exception();
-            return __res_2660;
+            Iskra.StdWeb.NavigationHistoryEntry __res_5663;
+            JSObject __res_5664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            throw new Exception("Marshaller from \"__res_5664\" to \"__res_5663\" not supported.");
+            return __res_5663;
         }
     }
 }

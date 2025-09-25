@@ -13,9 +13,10 @@ public partial class SpeechRecognitionPhrase(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1650;
-            throw new Exception();
-            return __res_1650;
+            string __res_3508;
+            string __res_3509 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "phrase");
+            __res_3508 = __res_3509;
+            return __res_3508;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SpeechRecognitionPhrase(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1651;
-            throw new Exception();
-            return __res_1651;
+            float __res_3510;
+            double __res_3511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boost");
+            __res_3510 = Convert.ToSingle(__res_3511);
+            return __res_3510;
         }
     }
 }

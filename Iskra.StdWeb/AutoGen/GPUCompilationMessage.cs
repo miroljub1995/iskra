@@ -13,9 +13,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_347;
-            throw new Exception();
-            return __res_347;
+            string __res_674;
+            string __res_675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_674 = __res_675;
+            return __res_674;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUCompilationMessageType __res_348;
-            throw new Exception();
-            return __res_348;
+            Iskra.StdWeb.GPUCompilationMessageType __res_676;
+            JSObject __res_677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_677\" to \"__res_676\" not supported.");
+            return __res_676;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_349;
-            throw new Exception();
-            return __res_349;
+            ulong __res_678;
+            double __res_679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNum");
+            __res_678 = Convert.ToUInt64(__res_679);
+            return __res_678;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_350;
-            throw new Exception();
-            return __res_350;
+            ulong __res_680;
+            double __res_681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "linePos");
+            __res_680 = Convert.ToUInt64(__res_681);
+            return __res_680;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_351;
-            throw new Exception();
-            return __res_351;
+            ulong __res_682;
+            double __res_683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
+            __res_682 = Convert.ToUInt64(__res_683);
+            return __res_682;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_352;
-            throw new Exception();
-            return __res_352;
+            ulong __res_684;
+            double __res_685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_684 = Convert.ToUInt64(__res_685);
+            return __res_684;
         }
     }
 }

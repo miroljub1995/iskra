@@ -13,9 +13,10 @@ public partial class PaintWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            double __res_1183;
-            throw new Exception();
-            return __res_1183;
+            double __res_2510;
+            double __res_2511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
+            __res_2510 = __res_2511;
+            return __res_2510;
         }
     }
 }

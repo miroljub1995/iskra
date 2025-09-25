@@ -13,9 +13,10 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2157;
-            __res_2157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
-            return __res_2157;
+            bool __res_4592;
+            bool __res_4593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
+            __res_4592 = __res_4593;
+            return __res_4592;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2158;
-            throw new Exception();
-            return __res_2158;
+            int __res_4594;
+            double __res_4595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
+            __res_4594 = Convert.ToInt32(__res_4595);
+            return __res_4594;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2159;
-            throw new Exception();
-            return __res_2159;
+            string __res_4596;
+            string __res_4597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4596 = __res_4597;
+            return __res_4596;
         }
         set
         {

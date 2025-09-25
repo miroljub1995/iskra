@@ -13,9 +13,10 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1805;
-            throw new Exception();
-            return __res_1805;
+            string __res_3852;
+            string __res_3853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scriptURL");
+            __res_3852 = __res_3853;
+            return __res_3852;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ServiceWorkerState __res_1806;
-            throw new Exception();
-            return __res_1806;
+            Iskra.StdWeb.ServiceWorkerState __res_3854;
+            JSObject __res_3855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller from \"__res_3855\" to \"__res_3854\" not supported.");
+            return __res_3854;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class ServiceWorker(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1807;
-            throw new Exception();
-            return __res_1807;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3856;
+            JSObject? __res_3857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_3857 is null)
+            {
+                __res_3856 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3858 = (JSObject)__res_3857;
+                throw new Exception("Marshaller from \"__notNullable_3858\" to \"__res_3856\" not supported.");
+            }
+            return __res_3856;
         }
         set
         {

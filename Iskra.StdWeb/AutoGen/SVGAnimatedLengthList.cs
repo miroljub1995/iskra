@@ -13,9 +13,10 @@ public partial class SVGAnimatedLengthList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGLengthList __res_158;
-            throw new Exception();
-            return __res_158;
+            Iskra.StdWeb.SVGLengthList __res_286;
+            JSObject __res_287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller from \"__res_287\" to \"__res_286\" not supported.");
+            return __res_286;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAnimatedLengthList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGLengthList __res_159;
-            throw new Exception();
-            return __res_159;
+            Iskra.StdWeb.SVGLengthList __res_288;
+            JSObject __res_289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller from \"__res_289\" to \"__res_288\" not supported.");
+            return __res_288;
         }
     }
 }

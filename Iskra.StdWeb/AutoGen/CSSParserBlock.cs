@@ -13,9 +13,10 @@ public partial class CSSParserBlock(JSObject obj): CSSParserValue(obj)
     {
         get
         {
-            string __res_2959;
-            throw new Exception();
-            return __res_2959;
+            string __res_6307;
+            string __res_6308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6307 = __res_6308;
+            return __res_6307;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class CSSParserBlock(JSObject obj): CSSParserValue(obj)
     {
         get
         {
-            object __res_2960;
+            object __res_6309;
             throw new Exception();
-            return __res_2960;
+            return __res_6309;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_2;
-            throw new Exception();
-            return __res_2;
+            Iskra.StdWeb.XRSpace __res_6;
+            JSObject __res_7 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
+            throw new Exception("Marshaller from \"__res_7\" to \"__res_6\" not supported.");
+            return __res_6;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3;
+            object __res_8;
             throw new Exception();
-            return __res_3;
+            return __res_8;
         }
     }
 
@@ -33,9 +34,18 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRPlaneOrientation? __res_4;
-            throw new Exception();
-            return __res_4;
+            Iskra.StdWeb.XRPlaneOrientation? __res_9;
+            JSObject? __res_10 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
+            if (__res_10 is null)
+            {
+                __res_9 = null;
+            }
+            else
+            {
+                JSObject __notNullable_11 = (JSObject)__res_10;
+                throw new Exception("Marshaller from \"__notNullable_11\" to \"__res_9\" not supported.");
+            }
+            return __res_9;
         }
     }
 
@@ -43,9 +53,10 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_5;
-            throw new Exception();
-            return __res_5;
+            double __res_12;
+            double __res_13 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            __res_12 = __res_13;
+            return __res_12;
         }
     }
 
@@ -53,9 +64,18 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6;
-            throw new Exception();
-            return __res_6;
+            string? __res_14;
+            string? __res_15 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            if (__res_15 is null)
+            {
+                __res_14 = null;
+            }
+            else
+            {
+                string __notNullable_16 = (string)__res_15;
+                __res_14 = __notNullable_16;
+            }
+            return __res_14;
         }
     }
 }

@@ -13,9 +13,18 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate? __res_797;
-            throw new Exception();
-            return __res_797;
+            Iskra.StdWeb.RTCIceCandidate? __res_1653;
+            JSObject? __res_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
+            if (__res_1654 is null)
+            {
+                __res_1653 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1655 = (JSObject)__res_1654;
+                throw new Exception("Marshaller from \"__notNullable_1655\" to \"__res_1653\" not supported.");
+            }
+            return __res_1653;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_798;
-            throw new Exception();
-            return __res_798;
+            string? __res_1656;
+            string? __res_1657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_1657 is null)
+            {
+                __res_1656 = null;
+            }
+            else
+            {
+                string __notNullable_1658 = (string)__res_1657;
+                __res_1656 = __notNullable_1658;
+            }
+            return __res_1656;
         }
     }
 }

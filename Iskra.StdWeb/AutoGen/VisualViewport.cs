@@ -13,9 +13,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_745;
-            throw new Exception();
-            return __res_745;
+            double __res_1516;
+            double __res_1517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetLeft");
+            __res_1516 = __res_1517;
+            return __res_1516;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_746;
-            throw new Exception();
-            return __res_746;
+            double __res_1518;
+            double __res_1519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetTop");
+            __res_1518 = __res_1519;
+            return __res_1518;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_747;
-            throw new Exception();
-            return __res_747;
+            double __res_1520;
+            double __res_1521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageLeft");
+            __res_1520 = __res_1521;
+            return __res_1520;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_748;
-            throw new Exception();
-            return __res_748;
+            double __res_1522;
+            double __res_1523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageTop");
+            __res_1522 = __res_1523;
+            return __res_1522;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_749;
-            throw new Exception();
-            return __res_749;
+            double __res_1524;
+            double __res_1525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1524 = __res_1525;
+            return __res_1524;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_750;
-            throw new Exception();
-            return __res_750;
+            double __res_1526;
+            double __res_1527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1526 = __res_1527;
+            return __res_1526;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_751;
-            throw new Exception();
-            return __res_751;
+            double __res_1528;
+            double __res_1529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scale");
+            __res_1528 = __res_1529;
+            return __res_1528;
         }
     }
 
@@ -83,9 +90,18 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_752;
-            throw new Exception();
-            return __res_752;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1530;
+            JSObject? __res_1531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresize");
+            if (__res_1531 is null)
+            {
+                __res_1530 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1532 = (JSObject)__res_1531;
+                throw new Exception("Marshaller from \"__notNullable_1532\" to \"__res_1530\" not supported.");
+            }
+            return __res_1530;
         }
         set
         {
@@ -97,9 +113,18 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_753;
-            throw new Exception();
-            return __res_753;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1533;
+            JSObject? __res_1534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscroll");
+            if (__res_1534 is null)
+            {
+                __res_1533 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1535 = (JSObject)__res_1534;
+                throw new Exception("Marshaller from \"__notNullable_1535\" to \"__res_1533\" not supported.");
+            }
+            return __res_1533;
         }
         set
         {
@@ -111,9 +136,18 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_754;
-            throw new Exception();
-            return __res_754;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1536;
+            JSObject? __res_1537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscrollend");
+            if (__res_1537 is null)
+            {
+                __res_1536 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1538 = (JSObject)__res_1537;
+                throw new Exception("Marshaller from \"__notNullable_1538\" to \"__res_1536\" not supported.");
+            }
+            return __res_1536;
         }
         set
         {

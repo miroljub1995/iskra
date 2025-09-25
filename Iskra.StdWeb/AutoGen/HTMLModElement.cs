@@ -13,9 +13,10 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2172;
-            throw new Exception();
-            return __res_2172;
+            string __res_4622;
+            string __res_4623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_4622 = __res_4623;
+            return __res_4622;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2173;
-            throw new Exception();
-            return __res_2173;
+            string __res_4624;
+            string __res_4625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_4624 = __res_4625;
+            return __res_4624;
         }
         set
         {

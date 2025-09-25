@@ -13,9 +13,18 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_1246;
-            throw new Exception();
-            return __res_1246;
+            Iskra.StdWeb.Node? __res_2639;
+            JSObject? __res_2640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
+            if (__res_2640 is null)
+            {
+                __res_2639 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2641 = (JSObject)__res_2640;
+                throw new Exception("Marshaller from \"__notNullable_2641\" to \"__res_2639\" not supported.");
+            }
+            return __res_2639;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_1247;
-            throw new Exception();
-            return __res_1247;
+            Iskra.StdWeb.DOMRectReadOnly __res_2642;
+            JSObject __res_2643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
+            throw new Exception("Marshaller from \"__res_2643\" to \"__res_2642\" not supported.");
+            return __res_2642;
         }
     }
 
@@ -33,9 +43,10 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_1248;
-            throw new Exception();
-            return __res_1248;
+            Iskra.StdWeb.DOMRectReadOnly __res_2644;
+            JSObject __res_2645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
+            throw new Exception("Marshaller from \"__res_2645\" to \"__res_2644\" not supported.");
+            return __res_2644;
         }
     }
 }

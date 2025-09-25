@@ -13,9 +13,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_2040;
-            throw new Exception();
-            return __res_2040;
+            byte __res_4352;
+            double __res_4353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
+            __res_4352 = Convert.ToByte(__res_4353);
+            return __res_4352;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBDirection __res_2041;
-            throw new Exception();
-            return __res_2041;
+            Iskra.StdWeb.USBDirection __res_4354;
+            JSObject __res_4355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            throw new Exception("Marshaller from \"__res_4355\" to \"__res_4354\" not supported.");
+            return __res_4354;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBEndpointType __res_2042;
-            throw new Exception();
-            return __res_2042;
+            Iskra.StdWeb.USBEndpointType __res_4356;
+            JSObject __res_4357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_4357\" to \"__res_4356\" not supported.");
+            return __res_4356;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2043;
-            throw new Exception();
-            return __res_2043;
+            uint __res_4358;
+            double __res_4359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
+            __res_4358 = Convert.ToUInt32(__res_4359);
+            return __res_4358;
         }
     }
 }

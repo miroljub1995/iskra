@@ -13,9 +13,10 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2088;
-            throw new Exception();
-            return __res_2088;
+            string __res_4453;
+            string __res_4454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
+            __res_4453 = __res_4454;
+            return __res_4453;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_2089;
-            throw new Exception();
-            return __res_2089;
+            Iskra.JSCore.ArrayBuffer? __res_4455;
+            JSObject? __res_4456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
+            if (__res_4456 is null)
+            {
+                __res_4455 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4457 = (JSObject)__res_4456;
+                throw new Exception("Marshaller from \"__notNullable_4457\" to \"__res_4455\" not supported.");
+            }
+            return __res_4455;
         }
     }
 }

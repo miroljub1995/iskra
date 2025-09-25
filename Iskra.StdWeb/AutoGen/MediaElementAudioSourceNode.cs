@@ -13,9 +13,10 @@ public partial class MediaElementAudioSourceNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLMediaElement __res_3229;
-            throw new Exception();
-            return __res_3229;
+            Iskra.StdWeb.HTMLMediaElement __res_6887;
+            JSObject __res_6888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaElement");
+            throw new Exception("Marshaller from \"__res_6888\" to \"__res_6887\" not supported.");
+            return __res_6887;
         }
     }
 }

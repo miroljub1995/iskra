@@ -13,9 +13,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_371;
-            throw new Exception();
-            return __res_371;
+            double __res_718;
+            double __res_719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "creationTime");
+            __res_718 = __res_719;
+            return __res_718;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_372;
-            throw new Exception();
-            return __res_372;
+            uint __res_720;
+            double __res_721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "droppedVideoFrames");
+            __res_720 = Convert.ToUInt32(__res_721);
+            return __res_720;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_373;
-            throw new Exception();
-            return __res_373;
+            uint __res_722;
+            double __res_723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "totalVideoFrames");
+            __res_722 = Convert.ToUInt32(__res_723);
+            return __res_722;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_374;
-            throw new Exception();
-            return __res_374;
+            uint __res_724;
+            double __res_725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "corruptedVideoFrames");
+            __res_724 = Convert.ToUInt32(__res_725);
+            return __res_724;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class XRHand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1541;
-            throw new Exception();
-            return __res_1541;
+            uint __res_3270;
+            double __res_3271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_3270 = Convert.ToUInt32(__res_3271);
+            return __res_3270;
         }
     }
 }

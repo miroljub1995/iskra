@@ -13,9 +13,10 @@ public partial class GPUUncapturedErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUError __res_361;
-            throw new Exception();
-            return __res_361;
+            Iskra.StdWeb.GPUError __res_700;
+            JSObject __res_701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            throw new Exception("Marshaller from \"__res_701\" to \"__res_700\" not supported.");
+            return __res_700;
         }
     }
 }

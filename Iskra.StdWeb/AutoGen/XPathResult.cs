@@ -13,9 +13,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_1389;
-            throw new Exception();
-            return __res_1389;
+            ushort __res_2958;
+            double __res_2959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
+            throw new Exception("Marshaller from \"__res_2959\" to \"__res_2958\" not supported.");
+            return __res_2958;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1390;
-            throw new Exception();
-            return __res_1390;
+            double __res_2960;
+            double __res_2961 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberValue");
+            __res_2960 = __res_2961;
+            return __res_2960;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1391;
-            throw new Exception();
-            return __res_1391;
+            string __res_2962;
+            string __res_2963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringValue");
+            __res_2962 = __res_2963;
+            return __res_2962;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1392;
-            __res_1392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
-            return __res_1392;
+            bool __res_2964;
+            bool __res_2965 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
+            __res_2964 = __res_2965;
+            return __res_2964;
         }
     }
 
@@ -53,9 +57,18 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_1393;
-            throw new Exception();
-            return __res_1393;
+            Iskra.StdWeb.Node? __res_2966;
+            JSObject? __res_2967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "singleNodeValue");
+            if (__res_2967 is null)
+            {
+                __res_2966 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2968 = (JSObject)__res_2967;
+                throw new Exception("Marshaller from \"__notNullable_2968\" to \"__res_2966\" not supported.");
+            }
+            return __res_2966;
         }
     }
 
@@ -63,9 +76,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1394;
-            __res_1394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
-            return __res_1394;
+            bool __res_2969;
+            bool __res_2970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
+            __res_2969 = __res_2970;
+            return __res_2969;
         }
     }
 
@@ -73,9 +87,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1395;
-            throw new Exception();
-            return __res_1395;
+            uint __res_2971;
+            double __res_2972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "snapshotLength");
+            __res_2971 = Convert.ToUInt32(__res_2972);
+            return __res_2971;
         }
     }
 }

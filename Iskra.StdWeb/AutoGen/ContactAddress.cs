@@ -13,9 +13,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3146;
-            throw new Exception();
-            return __res_3146;
+            string __res_6716;
+            string __res_6717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "city");
+            __res_6716 = __res_6717;
+            return __res_6716;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3147;
-            throw new Exception();
-            return __res_3147;
+            string __res_6718;
+            string __res_6719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "country");
+            __res_6718 = __res_6719;
+            return __res_6718;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3148;
-            throw new Exception();
-            return __res_3148;
+            string __res_6720;
+            string __res_6721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dependentLocality");
+            __res_6720 = __res_6721;
+            return __res_6720;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3149;
-            throw new Exception();
-            return __res_3149;
+            string __res_6722;
+            string __res_6723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "organization");
+            __res_6722 = __res_6723;
+            return __res_6722;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3150;
-            throw new Exception();
-            return __res_3150;
+            string __res_6724;
+            string __res_6725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "phone");
+            __res_6724 = __res_6725;
+            return __res_6724;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3151;
-            throw new Exception();
-            return __res_3151;
+            string __res_6726;
+            string __res_6727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postalCode");
+            __res_6726 = __res_6727;
+            return __res_6726;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3152;
-            throw new Exception();
-            return __res_3152;
+            string __res_6728;
+            string __res_6729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recipient");
+            __res_6728 = __res_6729;
+            return __res_6728;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3153;
-            throw new Exception();
-            return __res_3153;
+            string __res_6730;
+            string __res_6731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "region");
+            __res_6730 = __res_6731;
+            return __res_6730;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3154;
-            throw new Exception();
-            return __res_3154;
+            string __res_6732;
+            string __res_6733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sortingCode");
+            __res_6732 = __res_6733;
+            return __res_6732;
         }
     }
 
@@ -103,9 +112,9 @@ public partial class ContactAddress(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3155;
+            object __res_6734;
             throw new Exception();
-            return __res_3155;
+            return __res_6734;
         }
     }
 }

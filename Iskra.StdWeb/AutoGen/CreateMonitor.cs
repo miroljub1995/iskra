@@ -13,9 +13,18 @@ public partial class CreateMonitor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_107;
-            throw new Exception();
-            return __res_107;
+            Iskra.StdWeb.EventHandlerNonNull? __res_179;
+            JSObject? __res_180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress");
+            if (__res_180 is null)
+            {
+                __res_179 = null;
+            }
+            else
+            {
+                JSObject __notNullable_181 = (JSObject)__res_180;
+                throw new Exception("Marshaller from \"__notNullable_181\" to \"__res_179\" not supported.");
+            }
+            return __res_179;
         }
         set
         {

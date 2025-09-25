@@ -13,9 +13,10 @@ public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1647;
-            throw new Exception();
-            return __res_1647;
+            string __res_3502;
+            string __res_3503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_3502 = __res_3503;
+            return __res_3502;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1648;
-            throw new Exception();
-            return __res_1648;
+            float __res_3504;
+            double __res_3505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "weight");
+            __res_3504 = Convert.ToSingle(__res_3505);
+            return __res_3504;
         }
         set
         {

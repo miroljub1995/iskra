@@ -13,9 +13,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2434;
-            __res_2434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            return __res_2434;
+            bool __res_5182;
+            bool __res_5183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_5182 = __res_5183;
+            return __res_5182;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_2435;
-            throw new Exception();
-            return __res_2435;
+            Iskra.StdWeb.HTMLFormElement? __res_5184;
+            JSObject? __res_5185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_5185 is null)
+            {
+                __res_5184 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5186 = (JSObject)__res_5185;
+                throw new Exception("Marshaller from \"__notNullable_5186\" to \"__res_5184\" not supported.");
+            }
+            return __res_5184;
         }
     }
 
@@ -37,9 +47,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2436;
-            throw new Exception();
-            return __res_2436;
+            string __res_5187;
+            string __res_5188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_5187 = __res_5188;
+            return __res_5187;
         }
         set
         {
@@ -51,9 +62,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2437;
-            __res_2437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultSelected");
-            return __res_2437;
+            bool __res_5189;
+            bool __res_5190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultSelected");
+            __res_5189 = __res_5190;
+            return __res_5189;
         }
         set
         {
@@ -65,9 +77,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2438;
-            __res_2438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            return __res_2438;
+            bool __res_5191;
+            bool __res_5192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            __res_5191 = __res_5192;
+            return __res_5191;
         }
         set
         {
@@ -79,9 +92,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2439;
-            throw new Exception();
-            return __res_2439;
+            string __res_5193;
+            string __res_5194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5193 = __res_5194;
+            return __res_5193;
         }
         set
         {
@@ -93,9 +107,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2440;
-            throw new Exception();
-            return __res_2440;
+            string __res_5195;
+            string __res_5196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_5195 = __res_5196;
+            return __res_5195;
         }
         set
         {
@@ -107,9 +122,10 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2441;
-            throw new Exception();
-            return __res_2441;
+            int __res_5197;
+            double __res_5198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_5197 = Convert.ToInt32(__res_5198);
+            return __res_5197;
         }
     }
 }

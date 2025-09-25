@@ -13,9 +13,18 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.PushMessageData? __res_1992;
-            throw new Exception();
-            return __res_1992;
+            Iskra.StdWeb.PushMessageData? __res_4247;
+            JSObject? __res_4248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_4248 is null)
+            {
+                __res_4247 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4249 = (JSObject)__res_4248;
+                throw new Exception("Marshaller from \"__notNullable_4249\" to \"__res_4247\" not supported.");
+            }
+            return __res_4247;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.Notification? __res_1993;
-            throw new Exception();
-            return __res_1993;
+            Iskra.StdWeb.Notification? __res_4250;
+            JSObject? __res_4251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
+            if (__res_4251 is null)
+            {
+                __res_4250 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4252 = (JSObject)__res_4251;
+                throw new Exception("Marshaller from \"__notNullable_4252\" to \"__res_4250\" not supported.");
+            }
+            return __res_4250;
         }
     }
 }

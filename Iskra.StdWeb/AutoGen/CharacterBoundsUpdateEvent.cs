@@ -13,9 +13,10 @@ public partial class CharacterBoundsUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_3288;
-            throw new Exception();
-            return __res_3288;
+            uint __res_7017;
+            double __res_7018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
+            __res_7017 = Convert.ToUInt32(__res_7018);
+            return __res_7017;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CharacterBoundsUpdateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_3289;
-            throw new Exception();
-            return __res_3289;
+            uint __res_7019;
+            double __res_7020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
+            __res_7019 = Convert.ToUInt32(__res_7020);
+            return __res_7019;
         }
     }
 }

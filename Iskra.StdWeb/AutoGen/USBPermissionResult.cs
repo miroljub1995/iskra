@@ -13,9 +13,9 @@ public partial class USBPermissionResult(JSObject obj): PermissionStatus(obj)
     {
         get
         {
-            object __res_2044;
+            object __res_4360;
             throw new Exception();
-            return __res_2044;
+            return __res_4360;
         }
         set
         {

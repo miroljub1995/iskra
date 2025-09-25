@@ -13,9 +13,10 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_2986;
-            throw new Exception();
-            return __res_2986;
+            uint __res_6367;
+            double __res_6368 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6367 = Convert.ToUInt32(__res_6368);
+            return __res_6367;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2987;
-            throw new Exception();
-            return __res_2987;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6369;
+            JSObject? __res_6370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddsourcebuffer");
+            if (__res_6370 is null)
+            {
+                __res_6369 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6371 = (JSObject)__res_6370;
+                throw new Exception("Marshaller from \"__notNullable_6371\" to \"__res_6369\" not supported.");
+            }
+            return __res_6369;
         }
         set
         {
@@ -37,9 +47,18 @@ public partial class SourceBufferList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2988;
-            throw new Exception();
-            return __res_2988;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6372;
+            JSObject? __res_6373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovesourcebuffer");
+            if (__res_6373 is null)
+            {
+                __res_6372 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6374 = (JSObject)__res_6373;
+                throw new Exception("Marshaller from \"__notNullable_6374\" to \"__res_6372\" not supported.");
+            }
+            return __res_6372;
         }
         set
         {

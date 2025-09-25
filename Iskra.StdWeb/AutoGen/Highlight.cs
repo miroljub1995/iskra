@@ -13,9 +13,10 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_472;
-            throw new Exception();
-            return __res_472;
+            int __res_946;
+            double __res_947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
+            __res_946 = Convert.ToInt32(__res_947);
+            return __res_946;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.HighlightType __res_473;
-            throw new Exception();
-            return __res_473;
+            Iskra.StdWeb.HighlightType __res_948;
+            JSObject __res_949 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_949\" to \"__res_948\" not supported.");
+            return __res_948;
         }
         set
         {

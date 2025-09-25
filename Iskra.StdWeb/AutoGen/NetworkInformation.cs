@@ -13,9 +13,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ConnectionType __res_1277;
-            throw new Exception();
-            return __res_1277;
+            Iskra.StdWeb.ConnectionType __res_2703;
+            JSObject __res_2704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_2704\" to \"__res_2703\" not supported.");
+            return __res_2703;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EffectiveConnectionType __res_1278;
-            throw new Exception();
-            return __res_1278;
+            Iskra.StdWeb.EffectiveConnectionType __res_2705;
+            JSObject __res_2706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effectiveType");
+            throw new Exception("Marshaller from \"__res_2706\" to \"__res_2705\" not supported.");
+            return __res_2705;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1279;
-            throw new Exception();
-            return __res_1279;
+            double __res_2707;
+            double __res_2708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlinkMax");
+            __res_2707 = __res_2708;
+            return __res_2707;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1280;
-            throw new Exception();
-            return __res_1280;
+            double __res_2709;
+            double __res_2710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlink");
+            __res_2709 = __res_2710;
+            return __res_2709;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1281;
-            throw new Exception();
-            return __res_1281;
+            ulong __res_2711;
+            double __res_2712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rtt");
+            __res_2711 = Convert.ToUInt64(__res_2712);
+            return __res_2711;
         }
     }
 
@@ -63,9 +68,18 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1282;
-            throw new Exception();
-            return __res_1282;
+            Iskra.StdWeb.EventHandlerNonNull? __res_2713;
+            JSObject? __res_2714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_2714 is null)
+            {
+                __res_2713 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2715 = (JSObject)__res_2714;
+                throw new Exception("Marshaller from \"__notNullable_2715\" to \"__res_2713\" not supported.");
+            }
+            return __res_2713;
         }
         set
         {

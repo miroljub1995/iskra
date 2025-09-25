@@ -13,9 +13,10 @@ public partial class CSSAnimation(JSObject obj): Animation(obj)
     {
         get
         {
-            string __res_1495;
-            throw new Exception();
-            return __res_1495;
+            string __res_3174;
+            string __res_3175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animationName");
+            __res_3174 = __res_3175;
+            return __res_3174;
         }
     }
 }

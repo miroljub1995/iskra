@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class DictionaryType : AbstractContainer
+public record DictionaryType : AbstractContainer
 {
     [JsonPropertyName("members")] public required List<FieldType> Members { get; set; }
 

@@ -13,9 +13,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3298;
-            throw new Exception();
-            return __res_3298;
+            string __res_7037;
+            string __res_7038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7037 = __res_7038;
+            return __res_7037;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3299;
-            throw new Exception();
-            return __res_3299;
+            string __res_7039;
+            string __res_7040 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_7039 = __res_7040;
+            return __res_7039;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3300;
-            throw new Exception();
-            return __res_3300;
+            string __res_7041;
+            string __res_7042 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "basePalette");
+            __res_7041 = __res_7042;
+            return __res_7041;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3301;
-            throw new Exception();
-            return __res_3301;
+            string __res_7043;
+            string __res_7044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "overrideColors");
+            __res_7043 = __res_7044;
+            return __res_7043;
         }
     }
 }

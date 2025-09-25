@@ -13,9 +13,10 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2149;
-            throw new Exception();
-            return __res_2149;
+            string __res_4576;
+            string __res_4577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4576 = __res_4577;
+            return __res_4576;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2150;
-            throw new Exception();
-            return __res_2150;
+            string __res_4578;
+            string __res_4579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "httpEquiv");
+            __res_4578 = __res_4579;
+            return __res_4578;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2151;
-            throw new Exception();
-            return __res_2151;
+            string __res_4580;
+            string __res_4581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "content");
+            __res_4580 = __res_4581;
+            return __res_4580;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2152;
-            throw new Exception();
-            return __res_2152;
+            string __res_4582;
+            string __res_4583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_4582 = __res_4583;
+            return __res_4582;
         }
         set
         {

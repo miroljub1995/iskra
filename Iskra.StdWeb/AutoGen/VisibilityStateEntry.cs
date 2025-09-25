@@ -13,9 +13,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2560;
-            throw new Exception();
-            return __res_2560;
+            string __res_5444;
+            string __res_5445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5444 = __res_5445;
+            return __res_5444;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2561;
-            throw new Exception();
-            return __res_2561;
+            string __res_5446;
+            string __res_5447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_5446 = __res_5447;
+            return __res_5446;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2562;
-            throw new Exception();
-            return __res_2562;
+            double __res_5448;
+            double __res_5449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_5448 = __res_5449;
+            return __res_5448;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            uint __res_2563;
-            throw new Exception();
-            return __res_2563;
+            uint __res_5450;
+            double __res_5451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_5450 = Convert.ToUInt32(__res_5451);
+            return __res_5450;
         }
     }
 }

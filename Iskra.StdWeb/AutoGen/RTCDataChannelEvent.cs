@@ -13,9 +13,10 @@ public partial class RTCDataChannelEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDataChannel __res_854;
-            throw new Exception();
-            return __res_854;
+            Iskra.StdWeb.RTCDataChannel __res_1792;
+            JSObject __res_1793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
+            throw new Exception("Marshaller from \"__res_1793\" to \"__res_1792\" not supported.");
+            return __res_1792;
         }
     }
 }

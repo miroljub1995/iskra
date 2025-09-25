@@ -13,9 +13,10 @@ public partial class NotRestoredReasonDetails(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2670;
-            throw new Exception();
-            return __res_2670;
+            string __res_5686;
+            string __res_5687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_5686 = __res_5687;
+            return __res_5686;
         }
     }
 }

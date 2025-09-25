@@ -13,9 +13,10 @@ public partial class CapturedMouseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_1194;
-            throw new Exception();
-            return __res_1194;
+            int __res_2532;
+            double __res_2533 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "surfaceX");
+            __res_2532 = Convert.ToInt32(__res_2533);
+            return __res_2532;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CapturedMouseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_1195;
-            throw new Exception();
-            return __res_1195;
+            int __res_2534;
+            double __res_2535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "surfaceY");
+            __res_2534 = Convert.ToInt32(__res_2535);
+            return __res_2534;
         }
     }
 }

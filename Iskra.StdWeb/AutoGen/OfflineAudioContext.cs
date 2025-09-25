@@ -13,9 +13,10 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            uint __res_3170;
-            throw new Exception();
-            return __res_3170;
+            uint __res_6765;
+            double __res_6766 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6765 = Convert.ToUInt32(__res_6766);
+            return __res_6765;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3171;
-            throw new Exception();
-            return __res_3171;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6767;
+            JSObject? __res_6768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete");
+            if (__res_6768 is null)
+            {
+                __res_6767 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6769 = (JSObject)__res_6768;
+                throw new Exception("Marshaller from \"__notNullable_6769\" to \"__res_6767\" not supported.");
+            }
+            return __res_6767;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_33;
-            throw new Exception();
-            return __res_33;
+            Iskra.StdWeb.CSSNumericValue __res_70;
+            JSObject __res_71 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller from \"__res_71\" to \"__res_70\" not supported.");
+            return __res_70;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_34;
-            throw new Exception();
-            return __res_34;
+            Iskra.StdWeb.CSSNumericValue __res_72;
+            JSObject __res_73 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller from \"__res_73\" to \"__res_72\" not supported.");
+            return __res_72;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_35;
-            throw new Exception();
-            return __res_35;
+            Iskra.StdWeb.CSSNumericValue __res_74;
+            JSObject __res_75 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
+            throw new Exception("Marshaller from \"__res_75\" to \"__res_74\" not supported.");
+            return __res_74;
         }
         set
         {

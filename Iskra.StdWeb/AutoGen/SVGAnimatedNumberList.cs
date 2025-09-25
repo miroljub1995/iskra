@@ -13,9 +13,10 @@ public partial class SVGAnimatedNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGNumberList __res_156;
-            throw new Exception();
-            return __res_156;
+            Iskra.StdWeb.SVGNumberList __res_282;
+            JSObject __res_283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller from \"__res_283\" to \"__res_282\" not supported.");
+            return __res_282;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAnimatedNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGNumberList __res_157;
-            throw new Exception();
-            return __res_157;
+            Iskra.StdWeb.SVGNumberList __res_284;
+            JSObject __res_285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller from \"__res_285\" to \"__res_284\" not supported.");
+            return __res_284;
         }
     }
 }

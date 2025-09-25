@@ -13,9 +13,10 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_676;
-            throw new Exception();
-            return __res_676;
+            Iskra.StdWeb.XRSpace __res_1369;
+            JSObject __res_1370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
+            throw new Exception("Marshaller from \"__res_1370\" to \"__res_1369\" not supported.");
+            return __res_1369;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_677;
-            throw new Exception();
-            return __res_677;
+            Iskra.StdWeb.XRRigidTransform __res_1371;
+            JSObject __res_1372 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller from \"__res_1372\" to \"__res_1371\" not supported.");
+            return __res_1371;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_678;
-            throw new Exception();
-            return __res_678;
+            float __res_1373;
+            double __res_1374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radius");
+            __res_1373 = Convert.ToSingle(__res_1374);
+            return __res_1373;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_679;
-            throw new Exception();
-            return __res_679;
+            float __res_1375;
+            double __res_1376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "centralAngle");
+            __res_1375 = Convert.ToSingle(__res_1376);
+            return __res_1375;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_680;
-            throw new Exception();
-            return __res_680;
+            float __res_1377;
+            double __res_1378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "aspectRatio");
+            __res_1377 = Convert.ToSingle(__res_1378);
+            return __res_1377;
         }
         set
         {
@@ -83,9 +88,18 @@ public partial class XRCylinderLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_681;
-            throw new Exception();
-            return __res_681;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1379;
+            JSObject? __res_1380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
+            if (__res_1380 is null)
+            {
+                __res_1379 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1381 = (JSObject)__res_1380;
+                throw new Exception("Marshaller from \"__notNullable_1381\" to \"__res_1379\" not supported.");
+            }
+            return __res_1379;
         }
         set
         {

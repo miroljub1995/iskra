@@ -13,9 +13,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3290;
-            throw new Exception();
-            return __res_3290;
+            string __res_7021;
+            string __res_7022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_7021 = __res_7022;
+            return __res_7021;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3291;
-            throw new Exception();
-            return __res_3291;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7023;
+            JSObject __res_7024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
+            throw new Exception("Marshaller from \"__res_7024\" to \"__res_7023\" not supported.");
+            return __res_7023;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3292;
-            throw new Exception();
-            return __res_3292;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7025;
+            JSObject __res_7026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
+            throw new Exception("Marshaller from \"__res_7026\" to \"__res_7025\" not supported.");
+            return __res_7025;
         }
     }
 
@@ -47,9 +50,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3293;
-            throw new Exception();
-            return __res_3293;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7027;
+            JSObject __res_7028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
+            throw new Exception("Marshaller from \"__res_7028\" to \"__res_7027\" not supported.");
+            return __res_7027;
         }
     }
 
@@ -57,9 +61,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3294;
-            throw new Exception();
-            return __res_3294;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7029;
+            JSObject __res_7030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
+            throw new Exception("Marshaller from \"__res_7030\" to \"__res_7029\" not supported.");
+            return __res_7029;
         }
     }
 
@@ -67,9 +72,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3295;
-            throw new Exception();
-            return __res_3295;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7031;
+            JSObject __res_7032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
+            throw new Exception("Marshaller from \"__res_7032\" to \"__res_7031\" not supported.");
+            return __res_7031;
         }
     }
 
@@ -77,9 +83,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3296;
-            throw new Exception();
-            return __res_3296;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7033;
+            JSObject __res_7034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
+            throw new Exception("Marshaller from \"__res_7034\" to \"__res_7033\" not supported.");
+            return __res_7033;
         }
     }
 
@@ -87,9 +94,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_3297;
-            throw new Exception();
-            return __res_3297;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7035;
+            JSObject __res_7036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
+            throw new Exception("Marshaller from \"__res_7036\" to \"__res_7035\" not supported.");
+            return __res_7035;
         }
     }
 }

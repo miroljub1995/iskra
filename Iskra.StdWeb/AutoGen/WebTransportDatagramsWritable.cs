@@ -13,9 +13,18 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
     {
         get
         {
-            Iskra.StdWeb.WebTransportSendGroup? __res_901;
-            throw new Exception();
-            return __res_901;
+            Iskra.StdWeb.WebTransportSendGroup? __res_1897;
+            JSObject? __res_1898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
+            if (__res_1898 is null)
+            {
+                __res_1897 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1899 = (JSObject)__res_1898;
+                throw new Exception("Marshaller from \"__notNullable_1899\" to \"__res_1897\" not supported.");
+            }
+            return __res_1897;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
     {
         get
         {
-            long __res_902;
-            throw new Exception();
-            return __res_902;
+            long __res_1900;
+            double __res_1901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
+            __res_1900 = Convert.ToInt64(__res_1901);
+            return __res_1900;
         }
         set
         {

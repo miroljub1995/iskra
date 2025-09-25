@@ -13,9 +13,10 @@ public partial class HTMLDataElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2170;
-            throw new Exception();
-            return __res_2170;
+            string __res_4618;
+            string __res_4619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_4618 = __res_4619;
+            return __res_4618;
         }
         set
         {

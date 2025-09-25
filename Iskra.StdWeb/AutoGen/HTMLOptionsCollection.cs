@@ -13,9 +13,10 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
     {
         get
         {
-            uint __res_2109;
-            throw new Exception();
-            return __res_2109;
+            uint __res_4495;
+            double __res_4496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4495 = Convert.ToUInt32(__res_4496);
+            return __res_4495;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
     {
         get
         {
-            int __res_2110;
-            throw new Exception();
-            return __res_2110;
+            int __res_4497;
+            double __res_4498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_4497 = Convert.ToInt32(__res_4498);
+            return __res_4497;
         }
         set
         {

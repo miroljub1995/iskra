@@ -13,9 +13,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_213;
-            throw new Exception();
-            return __res_213;
+            Iskra.StdWeb.SVGAnimatedLength __res_398;
+            JSObject __res_399 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            throw new Exception("Marshaller from \"__res_399\" to \"__res_398\" not supported.");
+            return __res_398;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_214;
-            throw new Exception();
-            return __res_214;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_400;
+            JSObject __res_401 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
+            throw new Exception("Marshaller from \"__res_401\" to \"__res_400\" not supported.");
+            return __res_400;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_215;
-            throw new Exception();
-            return __res_215;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_402;
+            JSObject __res_403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
+            throw new Exception("Marshaller from \"__res_403\" to \"__res_402\" not supported.");
+            return __res_402;
         }
     }
 }

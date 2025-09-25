@@ -13,9 +13,10 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2902;
-            throw new Exception();
-            return __res_2902;
+            string __res_6176;
+            string __res_6177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6176 = __res_6177;
+            return __res_6176;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2903;
-            throw new Exception();
-            return __res_2903;
+            string __res_6178;
+            string __res_6179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "syntax");
+            __res_6178 = __res_6179;
+            return __res_6178;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            bool __res_2904;
-            __res_2904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
-            return __res_2904;
+            bool __res_6180;
+            bool __res_6181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
+            __res_6180 = __res_6181;
+            return __res_6180;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class CSSPropertyRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_2905;
-            throw new Exception();
-            return __res_2905;
+            string? __res_6182;
+            string? __res_6183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "initialValue");
+            if (__res_6183 is null)
+            {
+                __res_6182 = null;
+            }
+            else
+            {
+                string __notNullable_6184 = (string)__res_6183;
+                __res_6182 = __notNullable_6184;
+            }
+            return __res_6182;
         }
     }
 }

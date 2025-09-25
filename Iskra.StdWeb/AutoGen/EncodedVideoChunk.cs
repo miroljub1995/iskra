@@ -13,9 +13,10 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.EncodedVideoChunkType __res_1057;
-            throw new Exception();
-            return __res_1057;
+            Iskra.StdWeb.EncodedVideoChunkType __res_2226;
+            JSObject __res_2227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_2227\" to \"__res_2226\" not supported.");
+            return __res_2226;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_1058;
-            throw new Exception();
-            return __res_1058;
+            long __res_2228;
+            double __res_2229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2228 = Convert.ToInt64(__res_2229);
+            return __res_2228;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_1059;
-            throw new Exception();
-            return __res_1059;
+            ulong? __res_2230;
+            double? __res_2231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_2231 is null)
+            {
+                __res_2230 = null;
+            }
+            else
+            {
+                double __notNullable_2232 = (double)__res_2231;
+                __res_2230 = Convert.ToUInt64(__notNullable_2232);
+            }
+            return __res_2230;
         }
     }
 
@@ -43,9 +54,10 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1060;
-            throw new Exception();
-            return __res_1060;
+            uint __res_2233;
+            double __res_2234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
+            __res_2233 = Convert.ToUInt32(__res_2234);
+            return __res_2233;
         }
     }
 }

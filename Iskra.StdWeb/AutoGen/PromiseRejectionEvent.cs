@@ -13,9 +13,10 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            JSObject __res_2682;
-            throw new Exception();
-            return __res_2682;
+            JSObject __res_5712;
+            JSObject __res_5713 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
+            __res_5712 = __res_5713;
+            return __res_5712;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_2683;
-            throw new Exception();
-            return __res_2683;
+            object? __res_5714;
+            JSObject __res_5715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            __res_5714 = __res_5715;
+            return __res_5714;
         }
     }
 }

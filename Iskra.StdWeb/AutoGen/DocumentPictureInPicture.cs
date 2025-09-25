@@ -13,9 +13,10 @@ public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Window __res_112;
-            throw new Exception();
-            return __res_112;
+            Iskra.StdWeb.Window __res_190;
+            JSObject __res_191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
+            throw new Exception("Marshaller from \"__res_191\" to \"__res_190\" not supported.");
+            return __res_190;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class DocumentPictureInPicture(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_113;
-            throw new Exception();
-            return __res_113;
+            Iskra.StdWeb.EventHandlerNonNull? __res_192;
+            JSObject? __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onenter");
+            if (__res_193 is null)
+            {
+                __res_192 = null;
+            }
+            else
+            {
+                JSObject __notNullable_194 = (JSObject)__res_193;
+                throw new Exception("Marshaller from \"__notNullable_194\" to \"__res_192\" not supported.");
+            }
+            return __res_192;
         }
         set
         {

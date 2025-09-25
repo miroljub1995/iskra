@@ -13,9 +13,10 @@ public partial class WorkletAnimation(JSObject obj): Animation(obj)
     {
         get
         {
-            string __res_1792;
-            throw new Exception();
-            return __res_1792;
+            string __res_3822;
+            string __res_3823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animatorName");
+            __res_3822 = __res_3823;
+            return __res_3822;
         }
     }
 }

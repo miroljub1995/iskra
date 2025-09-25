@@ -13,9 +13,10 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.SpeechSynthesisUtterance __res_1669;
-            throw new Exception();
-            return __res_1669;
+            Iskra.StdWeb.SpeechSynthesisUtterance __res_3555;
+            JSObject __res_3556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "utterance");
+            throw new Exception("Marshaller from \"__res_3556\" to \"__res_3555\" not supported.");
+            return __res_3555;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_1670;
-            throw new Exception();
-            return __res_1670;
+            uint __res_3557;
+            double __res_3558 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charIndex");
+            __res_3557 = Convert.ToUInt32(__res_3558);
+            return __res_3557;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_1671;
-            throw new Exception();
-            return __res_1671;
+            uint __res_3559;
+            double __res_3560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charLength");
+            __res_3559 = Convert.ToUInt32(__res_3560);
+            return __res_3559;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
-            float __res_1672;
-            throw new Exception();
-            return __res_1672;
+            float __res_3561;
+            double __res_3562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
+            __res_3561 = Convert.ToSingle(__res_3562);
+            return __res_3561;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SpeechSynthesisEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_1673;
-            throw new Exception();
-            return __res_1673;
+            string __res_3563;
+            string __res_3564 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3563 = __res_3564;
+            return __res_3563;
         }
     }
 }

@@ -13,9 +13,18 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRule? __res_2862;
-            throw new Exception();
-            return __res_2862;
+            Iskra.StdWeb.CSSRule? __res_6089;
+            JSObject? __res_6090 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
+            if (__res_6090 is null)
+            {
+                __res_6089 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6091 = (JSObject)__res_6090;
+                throw new Exception("Marshaller from \"__notNullable_6091\" to \"__res_6089\" not supported.");
+            }
+            return __res_6089;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_2863;
-            throw new Exception();
-            return __res_2863;
+            Iskra.StdWeb.CSSRuleList __res_6092;
+            JSObject __res_6093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            throw new Exception("Marshaller from \"__res_6093\" to \"__res_6092\" not supported.");
+            return __res_6092;
         }
     }
 }

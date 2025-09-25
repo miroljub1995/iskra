@@ -13,9 +13,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2174;
-            throw new Exception();
-            return __res_2174;
+            string __res_4626;
+            string __res_4627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_4626 = __res_4627;
+            return __res_4626;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2175;
-            throw new Exception();
-            return __res_2175;
+            string __res_4628;
+            string __res_4629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4628 = __res_4629;
+            return __res_4628;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2176;
-            throw new Exception();
-            return __res_2176;
+            string __res_4630;
+            string __res_4631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "srcset");
+            __res_4630 = __res_4631;
+            return __res_4630;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2177;
-            throw new Exception();
-            return __res_2177;
+            string __res_4632;
+            string __res_4633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizes");
+            __res_4632 = __res_4633;
+            return __res_4632;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2178;
-            throw new Exception();
-            return __res_2178;
+            string __res_4634;
+            string __res_4635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_4634 = __res_4635;
+            return __res_4634;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2179;
-            throw new Exception();
-            return __res_2179;
+            uint __res_4636;
+            double __res_4637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_4636 = Convert.ToUInt32(__res_4637);
+            return __res_4636;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class HTMLSourceElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2180;
-            throw new Exception();
-            return __res_2180;
+            uint __res_4638;
+            double __res_4639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_4638 = Convert.ToUInt32(__res_4639);
+            return __res_4638;
         }
         set
         {

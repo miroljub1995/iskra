@@ -13,9 +13,10 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_529;
-            throw new Exception();
-            return __res_529;
+            Iskra.StdWeb.SVGAnimatedString __res_1064;
+            JSObject __res_1065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1065\" to \"__res_1064\" not supported.");
+            return __res_1064;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_530;
-            throw new Exception();
-            return __res_530;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1066;
+            JSObject __res_1067 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "surfaceScale");
+            throw new Exception("Marshaller from \"__res_1067\" to \"__res_1066\" not supported.");
+            return __res_1066;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_531;
-            throw new Exception();
-            return __res_531;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1068;
+            JSObject __res_1069 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "diffuseConstant");
+            throw new Exception("Marshaller from \"__res_1069\" to \"__res_1068\" not supported.");
+            return __res_1068;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_532;
-            throw new Exception();
-            return __res_532;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1070;
+            JSObject __res_1071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthX");
+            throw new Exception("Marshaller from \"__res_1071\" to \"__res_1070\" not supported.");
+            return __res_1070;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFEDiffuseLightingElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_533;
-            throw new Exception();
-            return __res_533;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1072;
+            JSObject __res_1073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthY");
+            throw new Exception("Marshaller from \"__res_1073\" to \"__res_1072\" not supported.");
+            return __res_1072;
         }
     }
 }

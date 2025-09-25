@@ -13,9 +13,18 @@ public partial class WorkletAnimationEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_1791;
-            throw new Exception();
-            return __res_1791;
+            double? __res_3819;
+            double? __res_3820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "localTime");
+            if (__res_3820 is null)
+            {
+                __res_3819 = null;
+            }
+            else
+            {
+                double __notNullable_3821 = (double)__res_3820;
+                __res_3819 = __notNullable_3821;
+            }
+            return __res_3819;
         }
         set
         {

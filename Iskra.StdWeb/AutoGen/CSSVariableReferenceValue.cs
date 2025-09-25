@@ -13,9 +13,10 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_14;
-            throw new Exception();
-            return __res_14;
+            string __res_31;
+            string __res_32 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
+            __res_31 = __res_32;
+            return __res_31;
         }
         set
         {
@@ -27,9 +28,18 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSUnparsedValue? __res_15;
-            throw new Exception();
-            return __res_15;
+            Iskra.StdWeb.CSSUnparsedValue? __res_33;
+            JSObject? __res_34 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
+            if (__res_34 is null)
+            {
+                __res_33 = null;
+            }
+            else
+            {
+                JSObject __notNullable_35 = (JSObject)__res_34;
+                throw new Exception("Marshaller from \"__notNullable_35\" to \"__res_33\" not supported.");
+            }
+            return __res_33;
         }
     }
 }

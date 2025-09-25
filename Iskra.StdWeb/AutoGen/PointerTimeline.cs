@@ -13,9 +13,18 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_2049;
-            throw new Exception();
-            return __res_2049;
+            Iskra.StdWeb.Element? __res_4372;
+            JSObject? __res_4373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_4373 is null)
+            {
+                __res_4372 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4374 = (JSObject)__res_4373;
+                throw new Exception("Marshaller from \"__notNullable_4374\" to \"__res_4372\" not supported.");
+            }
+            return __res_4372;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.PointerAxis __res_2050;
-            throw new Exception();
-            return __res_2050;
+            Iskra.StdWeb.PointerAxis __res_4375;
+            JSObject __res_4376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
+            throw new Exception("Marshaller from \"__res_4376\" to \"__res_4375\" not supported.");
+            return __res_4375;
         }
     }
 }

@@ -13,9 +13,18 @@ public partial class HTMLLegendElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_2495;
-            throw new Exception();
-            return __res_2495;
+            Iskra.StdWeb.HTMLFormElement? __res_5308;
+            JSObject? __res_5309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_5309 is null)
+            {
+                __res_5308 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5310 = (JSObject)__res_5309;
+                throw new Exception("Marshaller from \"__notNullable_5310\" to \"__res_5308\" not supported.");
+            }
+            return __res_5308;
         }
     }
 }

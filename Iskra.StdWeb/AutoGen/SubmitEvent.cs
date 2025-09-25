@@ -13,9 +13,18 @@ public partial class SubmitEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLElement? __res_2507;
-            throw new Exception();
-            return __res_2507;
+            Iskra.StdWeb.HTMLElement? __res_5333;
+            JSObject? __res_5334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
+            if (__res_5334 is null)
+            {
+                __res_5333 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5335 = (JSObject)__res_5334;
+                throw new Exception("Marshaller from \"__notNullable_5335\" to \"__res_5333\" not supported.");
+            }
+            return __res_5333;
         }
     }
 }

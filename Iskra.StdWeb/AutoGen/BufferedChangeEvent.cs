@@ -13,9 +13,10 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_2992;
-            throw new Exception();
-            return __res_2992;
+            Iskra.StdWeb.TimeRanges __res_6383;
+            JSObject __res_6384 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
+            throw new Exception("Marshaller from \"__res_6384\" to \"__res_6383\" not supported.");
+            return __res_6383;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_2993;
-            throw new Exception();
-            return __res_2993;
+            Iskra.StdWeb.TimeRanges __res_6385;
+            JSObject __res_6386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
+            throw new Exception("Marshaller from \"__res_6386\" to \"__res_6385\" not supported.");
+            return __res_6385;
         }
     }
 }

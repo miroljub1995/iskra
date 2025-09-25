@@ -13,9 +13,10 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_117;
-            throw new Exception();
-            return __res_117;
+            Iskra.StdWeb.Element __res_202;
+            JSObject __res_203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
+            throw new Exception("Marshaller from \"__res_203\" to \"__res_202\" not supported.");
+            return __res_202;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_118;
-            throw new Exception();
-            return __res_118;
+            Iskra.StdWeb.CSSNumericValue __res_204;
+            JSObject __res_205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            throw new Exception("Marshaller from \"__res_205\" to \"__res_204\" not supported.");
+            return __res_204;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_119;
-            throw new Exception();
-            return __res_119;
+            Iskra.StdWeb.CSSNumericValue __res_206;
+            JSObject __res_207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
+            throw new Exception("Marshaller from \"__res_207\" to \"__res_206\" not supported.");
+            return __res_206;
         }
     }
 }

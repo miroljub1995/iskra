@@ -13,9 +13,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_722;
-            throw new Exception();
-            return __res_722;
+            Iskra.StdWeb.XRSpace __res_1469;
+            JSObject __res_1470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
+            throw new Exception("Marshaller from \"__res_1470\" to \"__res_1469\" not supported.");
+            return __res_1469;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_723;
+            object __res_1471;
             throw new Exception();
-            return __res_723;
+            return __res_1471;
         }
     }
 
@@ -33,9 +34,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Uint32Array __res_724;
-            throw new Exception();
-            return __res_724;
+            Iskra.JSCore.Uint32Array __res_1472;
+            JSObject __res_1473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
+            throw new Exception("Marshaller from \"__res_1473\" to \"__res_1472\" not supported.");
+            return __res_1472;
         }
     }
 
@@ -43,9 +45,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_725;
-            throw new Exception();
-            return __res_725;
+            double __res_1474;
+            double __res_1475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            __res_1474 = __res_1475;
+            return __res_1474;
         }
     }
 
@@ -53,9 +56,18 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_726;
-            throw new Exception();
-            return __res_726;
+            string? __res_1476;
+            string? __res_1477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            if (__res_1477 is null)
+            {
+                __res_1476 = null;
+            }
+            else
+            {
+                string __notNullable_1478 = (string)__res_1477;
+                __res_1476 = __notNullable_1478;
+            }
+            return __res_1476;
         }
     }
 }

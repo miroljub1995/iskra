@@ -13,9 +13,10 @@ public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1618;
-            __res_1618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "firesTouchEvents");
-            return __res_1618;
+            bool __res_3434;
+            bool __res_3435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "firesTouchEvents");
+            __res_3434 = __res_3435;
+            return __res_3434;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class InputDeviceCapabilities(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1619;
-            __res_1619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerMovementScrolls");
-            return __res_1619;
+            bool __res_3436;
+            bool __res_3437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerMovementScrolls");
+            __res_3436 = __res_3437;
+            return __res_3436;
         }
     }
 }

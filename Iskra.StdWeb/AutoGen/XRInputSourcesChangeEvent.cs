@@ -13,9 +13,10 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSession __res_1747;
-            throw new Exception();
-            return __res_1747;
+            Iskra.StdWeb.XRSession __res_3730;
+            JSObject __res_3731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            throw new Exception("Marshaller from \"__res_3731\" to \"__res_3730\" not supported.");
+            return __res_3730;
         }
     }
 
@@ -23,9 +24,9 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_1748;
+            object __res_3732;
             throw new Exception();
-            return __res_1748;
+            return __res_3732;
         }
     }
 
@@ -33,9 +34,9 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_1749;
+            object __res_3733;
             throw new Exception();
-            return __res_1749;
+            return __res_3733;
         }
     }
 }

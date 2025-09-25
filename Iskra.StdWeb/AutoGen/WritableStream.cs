@@ -13,9 +13,10 @@ public partial class WritableStream(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_424;
-            __res_424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            return __res_424;
+            bool __res_842;
+            bool __res_843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
+            __res_842 = __res_843;
+            return __res_842;
         }
     }
 }

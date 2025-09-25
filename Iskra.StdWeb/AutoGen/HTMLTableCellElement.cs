@@ -13,9 +13,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2331;
-            throw new Exception();
-            return __res_2331;
+            uint __res_4963;
+            double __res_4964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colSpan");
+            __res_4963 = Convert.ToUInt32(__res_4964);
+            return __res_4963;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2332;
-            throw new Exception();
-            return __res_2332;
+            uint __res_4965;
+            double __res_4966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowSpan");
+            __res_4965 = Convert.ToUInt32(__res_4966);
+            return __res_4965;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2333;
-            throw new Exception();
-            return __res_2333;
+            string __res_4967;
+            string __res_4968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "headers");
+            __res_4967 = __res_4968;
+            return __res_4967;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2334;
-            throw new Exception();
-            return __res_2334;
+            int __res_4969;
+            double __res_4970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "cellIndex");
+            __res_4969 = Convert.ToInt32(__res_4970);
+            return __res_4969;
         }
     }
 
@@ -65,9 +69,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2335;
-            throw new Exception();
-            return __res_2335;
+            string __res_4971;
+            string __res_4972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scope");
+            __res_4971 = __res_4972;
+            return __res_4971;
         }
         set
         {
@@ -79,9 +84,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2336;
-            throw new Exception();
-            return __res_2336;
+            string __res_4973;
+            string __res_4974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "abbr");
+            __res_4973 = __res_4974;
+            return __res_4973;
         }
         set
         {

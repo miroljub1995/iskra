@@ -13,9 +13,10 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1498;
-            throw new Exception();
-            return __res_1498;
+            string __res_3180;
+            string __res_3181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postscriptName");
+            __res_3180 = __res_3181;
+            return __res_3180;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1499;
-            throw new Exception();
-            return __res_1499;
+            string __res_3182;
+            string __res_3183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullName");
+            __res_3182 = __res_3183;
+            return __res_3182;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1500;
-            throw new Exception();
-            return __res_1500;
+            string __res_3184;
+            string __res_3185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "family");
+            __res_3184 = __res_3185;
+            return __res_3184;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class FontData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1501;
-            throw new Exception();
-            return __res_1501;
+            string __res_3186;
+            string __res_3187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "style");
+            __res_3186 = __res_3187;
+            return __res_3186;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_1416;
-            throw new Exception();
-            return __res_1416;
+            Iskra.StdWeb.MediaList __res_3014;
+            JSObject __res_3015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            throw new Exception("Marshaller from \"__res_3015\" to \"__res_3014\" not supported.");
+            return __res_3014;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            bool __res_1417;
-            __res_1417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            return __res_1417;
+            bool __res_3016;
+            bool __res_3017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_3016 = __res_3017;
+            return __res_3016;
         }
     }
 }

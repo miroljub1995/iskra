@@ -13,9 +13,10 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_173;
-            throw new Exception();
-            return __res_173;
+            string __res_318;
+            string __res_319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_318 = __res_319;
+            return __res_318;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_174;
-            throw new Exception();
-            return __res_174;
+            string __res_320;
+            string __res_321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_320 = __res_321;
+            return __res_320;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_175;
-            throw new Exception();
-            return __res_175;
+            string __res_322;
+            string __res_323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_322 = __res_323;
+            return __res_322;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_1383;
-            throw new Exception();
-            return __res_1383;
+            Iskra.StdWeb.Node __res_2945;
+            JSObject __res_2946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            throw new Exception("Marshaller from \"__res_2946\" to \"__res_2945\" not supported.");
+            return __res_2945;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1384;
-            throw new Exception();
-            return __res_1384;
+            uint __res_2947;
+            double __res_2948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
+            __res_2947 = Convert.ToUInt32(__res_2948);
+            return __res_2947;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeFilter? __res_1385;
-            throw new Exception();
-            return __res_1385;
+            Iskra.StdWeb.NodeFilter? __res_2949;
+            JSObject? __res_2950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
+            if (__res_2950 is null)
+            {
+                __res_2949 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2951 = (JSObject)__res_2950;
+                throw new Exception("Marshaller from \"__notNullable_2951\" to \"__res_2949\" not supported.");
+            }
+            return __res_2949;
         }
     }
 
@@ -43,9 +54,10 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_1386;
-            throw new Exception();
-            return __res_1386;
+            Iskra.StdWeb.Node __res_2952;
+            JSObject __res_2953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
+            throw new Exception("Marshaller from \"__res_2953\" to \"__res_2952\" not supported.");
+            return __res_2952;
         }
         set
         {

@@ -13,9 +13,9 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
     {
         get
         {
-            object __res_425;
+            object __res_844;
             throw new Exception();
-            return __res_425;
+            return __res_844;
         }
     }
 
@@ -23,9 +23,18 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
     {
         get
         {
-            double? __res_426;
-            throw new Exception();
-            return __res_426;
+            double? __res_845;
+            double? __res_846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_846 is null)
+            {
+                __res_845 = null;
+            }
+            else
+            {
+                double __notNullable_847 = (double)__res_846;
+                __res_845 = __notNullable_847;
+            }
+            return __res_845;
         }
     }
 
@@ -33,9 +42,9 @@ public partial class WritableStreamDefaultWriter(JSObject obj): JSObjectProxy(ob
     {
         get
         {
-            object __res_427;
+            object __res_848;
             throw new Exception();
-            return __res_427;
+            return __res_848;
         }
     }
 }

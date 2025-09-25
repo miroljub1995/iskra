@@ -13,9 +13,10 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_578;
-            throw new Exception();
-            return __res_578;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1162;
+            JSObject __res_1163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseFrequencyX");
+            throw new Exception("Marshaller from \"__res_1163\" to \"__res_1162\" not supported.");
+            return __res_1162;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_579;
-            throw new Exception();
-            return __res_579;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1164;
+            JSObject __res_1165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseFrequencyY");
+            throw new Exception("Marshaller from \"__res_1165\" to \"__res_1164\" not supported.");
+            return __res_1164;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedInteger __res_580;
-            throw new Exception();
-            return __res_580;
+            Iskra.StdWeb.SVGAnimatedInteger __res_1166;
+            JSObject __res_1167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "numOctaves");
+            throw new Exception("Marshaller from \"__res_1167\" to \"__res_1166\" not supported.");
+            return __res_1166;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_581;
-            throw new Exception();
-            return __res_581;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1168;
+            JSObject __res_1169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seed");
+            throw new Exception("Marshaller from \"__res_1169\" to \"__res_1168\" not supported.");
+            return __res_1168;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_582;
-            throw new Exception();
-            return __res_582;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1170;
+            JSObject __res_1171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stitchTiles");
+            throw new Exception("Marshaller from \"__res_1171\" to \"__res_1170\" not supported.");
+            return __res_1170;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_583;
-            throw new Exception();
-            return __res_583;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1172;
+            JSObject __res_1173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_1173\" to \"__res_1172\" not supported.");
+            return __res_1172;
         }
     }
 }

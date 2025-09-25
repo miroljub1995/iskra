@@ -13,9 +13,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2328;
-            throw new Exception();
-            return __res_2328;
+            int __res_4957;
+            double __res_4958 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
+            __res_4957 = Convert.ToInt32(__res_4958);
+            return __res_4957;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2329;
-            throw new Exception();
-            return __res_2329;
+            int __res_4959;
+            double __res_4960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
+            __res_4959 = Convert.ToInt32(__res_4960);
+            return __res_4959;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_2330;
-            throw new Exception();
-            return __res_2330;
+            Iskra.StdWeb.HTMLCollection __res_4961;
+            JSObject __res_4962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
+            throw new Exception("Marshaller from \"__res_4962\" to \"__res_4961\" not supported.");
+            return __res_4961;
         }
     }
 }

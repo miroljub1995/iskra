@@ -13,9 +13,18 @@ public partial class TimeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_383;
-            throw new Exception();
-            return __res_383;
+            Iskra.StdWeb.Window? __res_742;
+            JSObject? __res_743 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_743 is null)
+            {
+                __res_742 = null;
+            }
+            else
+            {
+                JSObject __notNullable_744 = (JSObject)__res_743;
+                throw new Exception("Marshaller from \"__notNullable_744\" to \"__res_742\" not supported.");
+            }
+            return __res_742;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class TimeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_384;
-            throw new Exception();
-            return __res_384;
+            int __res_745;
+            double __res_746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_745 = Convert.ToInt32(__res_746);
+            return __res_745;
         }
     }
 }

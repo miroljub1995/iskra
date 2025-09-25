@@ -13,9 +13,10 @@ public partial class AudioWorkletProcessor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_3263;
-            throw new Exception();
-            return __res_3263;
+            Iskra.StdWeb.MessagePort __res_6958;
+            JSObject __res_6959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            throw new Exception("Marshaller from \"__res_6959\" to \"__res_6958\" not supported.");
+            return __res_6958;
         }
     }
 }

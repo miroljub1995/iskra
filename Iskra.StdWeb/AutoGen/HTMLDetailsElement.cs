@@ -13,9 +13,10 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2509;
-            throw new Exception();
-            return __res_2509;
+            string __res_5338;
+            string __res_5339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5338 = __res_5339;
+            return __res_5338;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2510;
-            __res_2510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            return __res_2510;
+            bool __res_5340;
+            bool __res_5341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_5340 = __res_5341;
+            return __res_5340;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_416;
-            throw new Exception();
-            return __res_416;
+            Iskra.JSCore.Float32Array __res_824;
+            JSObject __res_825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
+            throw new Exception("Marshaller from \"__res_825\" to \"__res_824\" not supported.");
+            return __res_824;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_417;
-            throw new Exception();
-            return __res_417;
+            Iskra.StdWeb.DOMPointReadOnly __res_826;
+            JSObject __res_827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
+            throw new Exception("Marshaller from \"__res_827\" to \"__res_826\" not supported.");
+            return __res_826;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_418;
-            throw new Exception();
-            return __res_418;
+            Iskra.StdWeb.DOMPointReadOnly __res_828;
+            JSObject __res_829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
+            throw new Exception("Marshaller from \"__res_829\" to \"__res_828\" not supported.");
+            return __res_828;
         }
     }
 }

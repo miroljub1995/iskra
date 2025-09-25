@@ -13,9 +13,10 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_671;
-            throw new Exception();
-            return __res_671;
+            Iskra.StdWeb.XRSpace __res_1358;
+            JSObject __res_1359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
+            throw new Exception("Marshaller from \"__res_1359\" to \"__res_1358\" not supported.");
+            return __res_1358;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_672;
-            throw new Exception();
-            return __res_672;
+            Iskra.StdWeb.XRRigidTransform __res_1360;
+            JSObject __res_1361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller from \"__res_1361\" to \"__res_1360\" not supported.");
+            return __res_1360;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_673;
-            throw new Exception();
-            return __res_673;
+            float __res_1362;
+            double __res_1363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1362 = Convert.ToSingle(__res_1363);
+            return __res_1362;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_674;
-            throw new Exception();
-            return __res_674;
+            float __res_1364;
+            double __res_1365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1364 = Convert.ToSingle(__res_1365);
+            return __res_1364;
         }
         set
         {
@@ -69,9 +73,18 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_675;
-            throw new Exception();
-            return __res_675;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1366;
+            JSObject? __res_1367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
+            if (__res_1367 is null)
+            {
+                __res_1366 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1368 = (JSObject)__res_1367;
+                throw new Exception("Marshaller from \"__notNullable_1368\" to \"__res_1366\" not supported.");
+            }
+            return __res_1366;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class USBIsochronousOutTransferPacket(JSObject obj): JSObjectProx
     {
         get
         {
-            uint __res_2007;
-            throw new Exception();
-            return __res_2007;
+            uint __res_4285;
+            double __res_4286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytesWritten");
+            __res_4285 = Convert.ToUInt32(__res_4286);
+            return __res_4285;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class USBIsochronousOutTransferPacket(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.USBTransferStatus __res_2008;
-            throw new Exception();
-            return __res_2008;
+            Iskra.StdWeb.USBTransferStatus __res_4287;
+            JSObject __res_4288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
+            throw new Exception("Marshaller from \"__res_4288\" to \"__res_4287\" not supported.");
+            return __res_4287;
         }
     }
 }

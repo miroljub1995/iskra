@@ -13,9 +13,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            ulong __res_3255;
-            throw new Exception();
-            return __res_3255;
+            ulong __res_6941;
+            double __res_6942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentFrame");
+            __res_6941 = Convert.ToUInt64(__res_6942);
+            return __res_6941;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            double __res_3256;
-            throw new Exception();
-            return __res_3256;
+            double __res_6943;
+            double __res_6944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
+            __res_6943 = __res_6944;
+            return __res_6943;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            float __res_3257;
-            throw new Exception();
-            return __res_3257;
+            float __res_6945;
+            double __res_6946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_6945 = Convert.ToSingle(__res_6946);
+            return __res_6945;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            uint __res_3258;
-            throw new Exception();
-            return __res_3258;
+            uint __res_6947;
+            double __res_6948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
+            __res_6947 = Convert.ToUInt32(__res_6948);
+            return __res_6947;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_3259;
-            throw new Exception();
-            return __res_3259;
+            Iskra.StdWeb.MessagePort __res_6949;
+            JSObject __res_6950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            throw new Exception("Marshaller from \"__res_6950\" to \"__res_6949\" not supported.");
+            return __res_6949;
         }
     }
 }

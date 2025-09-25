@@ -13,9 +13,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpReceiver __res_828;
-            throw new Exception();
-            return __res_828;
+            Iskra.StdWeb.RTCRtpReceiver __res_1730;
+            JSObject __res_1731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            throw new Exception("Marshaller from \"__res_1731\" to \"__res_1730\" not supported.");
+            return __res_1730;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_829;
-            throw new Exception();
-            return __res_829;
+            Iskra.StdWeb.MediaStreamTrack __res_1732;
+            JSObject __res_1733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller from \"__res_1733\" to \"__res_1732\" not supported.");
+            return __res_1732;
         }
     }
 
@@ -33,9 +35,9 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_830;
+            object __res_1734;
             throw new Exception();
-            return __res_830;
+            return __res_1734;
         }
     }
 
@@ -43,9 +45,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiver __res_831;
-            throw new Exception();
-            return __res_831;
+            Iskra.StdWeb.RTCRtpTransceiver __res_1735;
+            JSObject __res_1736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
+            throw new Exception("Marshaller from \"__res_1736\" to \"__res_1735\" not supported.");
+            return __res_1735;
         }
     }
 }

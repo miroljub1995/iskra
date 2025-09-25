@@ -13,9 +13,10 @@ public partial class FederatedCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_1039;
-            throw new Exception();
-            return __res_1039;
+            string __res_2184;
+            string __res_2185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "provider");
+            __res_2184 = __res_2185;
+            return __res_2184;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class FederatedCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string? __res_1040;
-            throw new Exception();
-            return __res_1040;
+            string? __res_2186;
+            string? __res_2187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
+            if (__res_2187 is null)
+            {
+                __res_2186 = null;
+            }
+            else
+            {
+                string __notNullable_2188 = (string)__res_2187;
+                __res_2186 = __notNullable_2188;
+            }
+            return __res_2186;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class FieldType : AbstractBase
+public record FieldType : AbstractBase
 {
     [JsonPropertyName("name")] public required string Name { get; set; }
 

@@ -13,9 +13,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2839;
-            throw new Exception();
-            return __res_2839;
+            string __res_6045;
+            string __res_6046 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_6045 = __res_6046;
+            return __res_6045;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2840;
-            throw new Exception();
-            return __res_2840;
+            double __res_6047;
+            double __res_6048 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6047 = __res_6048;
+            return __res_6047;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2841;
-            throw new Exception();
-            return __res_2841;
+            uint __res_6049;
+            double __res_6050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lines");
+            __res_6049 = Convert.ToUInt32(__res_6050);
+            return __res_6049;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2842;
-            throw new Exception();
-            return __res_2842;
+            double __res_6051;
+            double __res_6052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "regionAnchorX");
+            __res_6051 = __res_6052;
+            return __res_6051;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2843;
-            throw new Exception();
-            return __res_2843;
+            double __res_6053;
+            double __res_6054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "regionAnchorY");
+            __res_6053 = __res_6054;
+            return __res_6053;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2844;
-            throw new Exception();
-            return __res_2844;
+            double __res_6055;
+            double __res_6056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "viewportAnchorX");
+            __res_6055 = __res_6056;
+            return __res_6055;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2845;
-            throw new Exception();
-            return __res_2845;
+            double __res_6057;
+            double __res_6058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "viewportAnchorY");
+            __res_6057 = __res_6058;
+            return __res_6057;
         }
         set
         {
@@ -111,9 +118,10 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ScrollSetting __res_2846;
-            throw new Exception();
-            return __res_2846;
+            Iskra.StdWeb.ScrollSetting __res_6059;
+            JSObject __res_6060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scroll");
+            throw new Exception("Marshaller from \"__res_6060\" to \"__res_6059\" not supported.");
+            return __res_6059;
         }
         set
         {

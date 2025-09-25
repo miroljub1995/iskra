@@ -13,9 +13,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_966;
-            throw new Exception();
-            return __res_966;
+            string __res_2038;
+            string __res_2039 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin");
+            __res_2038 = __res_2039;
+            return __res_2038;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_967;
-            throw new Exception();
-            return __res_967;
+            string __res_2040;
+            string __res_2041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginTop");
+            __res_2040 = __res_2041;
+            return __res_2040;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_968;
-            throw new Exception();
-            return __res_968;
+            string __res_2042;
+            string __res_2043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginRight");
+            __res_2042 = __res_2043;
+            return __res_2042;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_969;
-            throw new Exception();
-            return __res_969;
+            string __res_2044;
+            string __res_2045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBottom");
+            __res_2044 = __res_2045;
+            return __res_2044;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_970;
-            throw new Exception();
-            return __res_970;
+            string __res_2046;
+            string __res_2047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginLeft");
+            __res_2046 = __res_2047;
+            return __res_2046;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_971;
-            throw new Exception();
-            return __res_971;
+            string __res_2048;
+            string __res_2049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlock");
+            __res_2048 = __res_2049;
+            return __res_2048;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_972;
-            throw new Exception();
-            return __res_972;
+            string __res_2050;
+            string __res_2051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlockStart");
+            __res_2050 = __res_2051;
+            return __res_2050;
         }
         set
         {
@@ -111,9 +118,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_973;
-            throw new Exception();
-            return __res_973;
+            string __res_2052;
+            string __res_2053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlockEnd");
+            __res_2052 = __res_2053;
+            return __res_2052;
         }
         set
         {
@@ -125,9 +133,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_974;
-            throw new Exception();
-            return __res_974;
+            string __res_2054;
+            string __res_2055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInline");
+            __res_2054 = __res_2055;
+            return __res_2054;
         }
         set
         {
@@ -139,9 +148,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_975;
-            throw new Exception();
-            return __res_975;
+            string __res_2056;
+            string __res_2057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInlineStart");
+            __res_2056 = __res_2057;
+            return __res_2056;
         }
         set
         {
@@ -153,9 +163,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_976;
-            throw new Exception();
-            return __res_976;
+            string __res_2058;
+            string __res_2059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInlineEnd");
+            __res_2058 = __res_2059;
+            return __res_2058;
         }
         set
         {
@@ -167,9 +178,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_977;
-            throw new Exception();
-            return __res_977;
+            string __res_2060;
+            string __res_2061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-top");
+            __res_2060 = __res_2061;
+            return __res_2060;
         }
         set
         {
@@ -181,9 +193,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_978;
-            throw new Exception();
-            return __res_978;
+            string __res_2062;
+            string __res_2063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-right");
+            __res_2062 = __res_2063;
+            return __res_2062;
         }
         set
         {
@@ -195,9 +208,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_979;
-            throw new Exception();
-            return __res_979;
+            string __res_2064;
+            string __res_2065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-bottom");
+            __res_2064 = __res_2065;
+            return __res_2064;
         }
         set
         {
@@ -209,9 +223,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_980;
-            throw new Exception();
-            return __res_980;
+            string __res_2066;
+            string __res_2067 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-left");
+            __res_2066 = __res_2067;
+            return __res_2066;
         }
         set
         {
@@ -223,9 +238,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_981;
-            throw new Exception();
-            return __res_981;
+            string __res_2068;
+            string __res_2069 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block");
+            __res_2068 = __res_2069;
+            return __res_2068;
         }
         set
         {
@@ -237,9 +253,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_982;
-            throw new Exception();
-            return __res_982;
+            string __res_2070;
+            string __res_2071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block-start");
+            __res_2070 = __res_2071;
+            return __res_2070;
         }
         set
         {
@@ -251,9 +268,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_983;
-            throw new Exception();
-            return __res_983;
+            string __res_2072;
+            string __res_2073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block-end");
+            __res_2072 = __res_2073;
+            return __res_2072;
         }
         set
         {
@@ -265,9 +283,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_984;
-            throw new Exception();
-            return __res_984;
+            string __res_2074;
+            string __res_2075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline");
+            __res_2074 = __res_2075;
+            return __res_2074;
         }
         set
         {
@@ -279,9 +298,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_985;
-            throw new Exception();
-            return __res_985;
+            string __res_2076;
+            string __res_2077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline-start");
+            __res_2076 = __res_2077;
+            return __res_2076;
         }
         set
         {
@@ -293,9 +313,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_986;
-            throw new Exception();
-            return __res_986;
+            string __res_2078;
+            string __res_2079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline-end");
+            __res_2078 = __res_2079;
+            return __res_2078;
         }
         set
         {
@@ -307,9 +328,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_987;
-            throw new Exception();
-            return __res_987;
+            string __res_2080;
+            string __res_2081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset");
+            __res_2080 = __res_2081;
+            return __res_2080;
         }
         set
         {
@@ -321,9 +343,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_988;
-            throw new Exception();
-            return __res_988;
+            string __res_2082;
+            string __res_2083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlock");
+            __res_2082 = __res_2083;
+            return __res_2082;
         }
         set
         {
@@ -335,9 +358,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_989;
-            throw new Exception();
-            return __res_989;
+            string __res_2084;
+            string __res_2085 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlockStart");
+            __res_2084 = __res_2085;
+            return __res_2084;
         }
         set
         {
@@ -349,9 +373,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_990;
-            throw new Exception();
-            return __res_990;
+            string __res_2086;
+            string __res_2087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlockEnd");
+            __res_2086 = __res_2087;
+            return __res_2086;
         }
         set
         {
@@ -363,9 +388,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_991;
-            throw new Exception();
-            return __res_991;
+            string __res_2088;
+            string __res_2089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInline");
+            __res_2088 = __res_2089;
+            return __res_2088;
         }
         set
         {
@@ -377,9 +403,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_992;
-            throw new Exception();
-            return __res_992;
+            string __res_2090;
+            string __res_2091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInlineStart");
+            __res_2090 = __res_2091;
+            return __res_2090;
         }
         set
         {
@@ -391,9 +418,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_993;
-            throw new Exception();
-            return __res_993;
+            string __res_2092;
+            string __res_2093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInlineEnd");
+            __res_2092 = __res_2093;
+            return __res_2092;
         }
         set
         {
@@ -405,9 +433,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_994;
-            throw new Exception();
-            return __res_994;
+            string __res_2094;
+            string __res_2095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "top");
+            __res_2094 = __res_2095;
+            return __res_2094;
         }
         set
         {
@@ -419,9 +448,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_995;
-            throw new Exception();
-            return __res_995;
+            string __res_2096;
+            string __res_2097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "left");
+            __res_2096 = __res_2097;
+            return __res_2096;
         }
         set
         {
@@ -433,9 +463,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_996;
-            throw new Exception();
-            return __res_996;
+            string __res_2098;
+            string __res_2099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "right");
+            __res_2098 = __res_2099;
+            return __res_2098;
         }
         set
         {
@@ -447,9 +478,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_997;
-            throw new Exception();
-            return __res_997;
+            string __res_2100;
+            string __res_2101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bottom");
+            __res_2100 = __res_2101;
+            return __res_2100;
         }
         set
         {
@@ -461,9 +493,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_998;
-            throw new Exception();
-            return __res_998;
+            string __res_2102;
+            string __res_2103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block");
+            __res_2102 = __res_2103;
+            return __res_2102;
         }
         set
         {
@@ -475,9 +508,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_999;
-            throw new Exception();
-            return __res_999;
+            string __res_2104;
+            string __res_2105 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block-start");
+            __res_2104 = __res_2105;
+            return __res_2104;
         }
         set
         {
@@ -489,9 +523,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1000;
-            throw new Exception();
-            return __res_1000;
+            string __res_2106;
+            string __res_2107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block-end");
+            __res_2106 = __res_2107;
+            return __res_2106;
         }
         set
         {
@@ -503,9 +538,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1001;
-            throw new Exception();
-            return __res_1001;
+            string __res_2108;
+            string __res_2109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline");
+            __res_2108 = __res_2109;
+            return __res_2108;
         }
         set
         {
@@ -517,9 +553,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1002;
-            throw new Exception();
-            return __res_1002;
+            string __res_2110;
+            string __res_2111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline-start");
+            __res_2110 = __res_2111;
+            return __res_2110;
         }
         set
         {
@@ -531,9 +568,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1003;
-            throw new Exception();
-            return __res_1003;
+            string __res_2112;
+            string __res_2113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline-end");
+            __res_2112 = __res_2113;
+            return __res_2112;
         }
         set
         {
@@ -545,9 +583,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1004;
-            throw new Exception();
-            return __res_1004;
+            string __res_2114;
+            string __res_2115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_2114 = __res_2115;
+            return __res_2114;
         }
         set
         {
@@ -559,9 +598,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1005;
-            throw new Exception();
-            return __res_1005;
+            string __res_2116;
+            string __res_2117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minWidth");
+            __res_2116 = __res_2117;
+            return __res_2116;
         }
         set
         {
@@ -573,9 +613,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1006;
-            throw new Exception();
-            return __res_1006;
+            string __res_2118;
+            string __res_2119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxWidth");
+            __res_2118 = __res_2119;
+            return __res_2118;
         }
         set
         {
@@ -587,9 +628,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1007;
-            throw new Exception();
-            return __res_1007;
+            string __res_2120;
+            string __res_2121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_2120 = __res_2121;
+            return __res_2120;
         }
         set
         {
@@ -601,9 +643,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1008;
-            throw new Exception();
-            return __res_1008;
+            string __res_2122;
+            string __res_2123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minHeight");
+            __res_2122 = __res_2123;
+            return __res_2122;
         }
         set
         {
@@ -615,9 +658,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1009;
-            throw new Exception();
-            return __res_1009;
+            string __res_2124;
+            string __res_2125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxHeight");
+            __res_2124 = __res_2125;
+            return __res_2124;
         }
         set
         {
@@ -629,9 +673,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1010;
-            throw new Exception();
-            return __res_1010;
+            string __res_2126;
+            string __res_2127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockSize");
+            __res_2126 = __res_2127;
+            return __res_2126;
         }
         set
         {
@@ -643,9 +688,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1011;
-            throw new Exception();
-            return __res_1011;
+            string __res_2128;
+            string __res_2129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minBlockSize");
+            __res_2128 = __res_2129;
+            return __res_2128;
         }
         set
         {
@@ -657,9 +703,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1012;
-            throw new Exception();
-            return __res_1012;
+            string __res_2130;
+            string __res_2131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxBlockSize");
+            __res_2130 = __res_2131;
+            return __res_2130;
         }
         set
         {
@@ -671,9 +718,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1013;
-            throw new Exception();
-            return __res_1013;
+            string __res_2132;
+            string __res_2133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inlineSize");
+            __res_2132 = __res_2133;
+            return __res_2132;
         }
         set
         {
@@ -685,9 +733,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1014;
-            throw new Exception();
-            return __res_1014;
+            string __res_2134;
+            string __res_2135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minInlineSize");
+            __res_2134 = __res_2135;
+            return __res_2134;
         }
         set
         {
@@ -699,9 +748,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1015;
-            throw new Exception();
-            return __res_1015;
+            string __res_2136;
+            string __res_2137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxInlineSize");
+            __res_2136 = __res_2137;
+            return __res_2136;
         }
         set
         {
@@ -713,9 +763,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1016;
-            throw new Exception();
-            return __res_1016;
+            string __res_2138;
+            string __res_2139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-width");
+            __res_2138 = __res_2139;
+            return __res_2138;
         }
         set
         {
@@ -727,9 +778,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1017;
-            throw new Exception();
-            return __res_1017;
+            string __res_2140;
+            string __res_2141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-width");
+            __res_2140 = __res_2141;
+            return __res_2140;
         }
         set
         {
@@ -741,9 +793,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1018;
-            throw new Exception();
-            return __res_1018;
+            string __res_2142;
+            string __res_2143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-height");
+            __res_2142 = __res_2143;
+            return __res_2142;
         }
         set
         {
@@ -755,9 +808,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1019;
-            throw new Exception();
-            return __res_1019;
+            string __res_2144;
+            string __res_2145 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-height");
+            __res_2144 = __res_2145;
+            return __res_2144;
         }
         set
         {
@@ -769,9 +823,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1020;
-            throw new Exception();
-            return __res_1020;
+            string __res_2146;
+            string __res_2147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "block-size");
+            __res_2146 = __res_2147;
+            return __res_2146;
         }
         set
         {
@@ -783,9 +838,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1021;
-            throw new Exception();
-            return __res_1021;
+            string __res_2148;
+            string __res_2149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-block-size");
+            __res_2148 = __res_2149;
+            return __res_2148;
         }
         set
         {
@@ -797,9 +853,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1022;
-            throw new Exception();
-            return __res_1022;
+            string __res_2150;
+            string __res_2151 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-block-size");
+            __res_2150 = __res_2151;
+            return __res_2150;
         }
         set
         {
@@ -811,9 +868,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1023;
-            throw new Exception();
-            return __res_1023;
+            string __res_2152;
+            string __res_2153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inline-size");
+            __res_2152 = __res_2153;
+            return __res_2152;
         }
         set
         {
@@ -825,9 +883,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1024;
-            throw new Exception();
-            return __res_1024;
+            string __res_2154;
+            string __res_2155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-inline-size");
+            __res_2154 = __res_2155;
+            return __res_2154;
         }
         set
         {
@@ -839,9 +898,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1025;
-            throw new Exception();
-            return __res_1025;
+            string __res_2156;
+            string __res_2157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-inline-size");
+            __res_2156 = __res_2157;
+            return __res_2156;
         }
         set
         {
@@ -853,9 +913,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1026;
-            throw new Exception();
-            return __res_1026;
+            string __res_2158;
+            string __res_2159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "placeSelf");
+            __res_2158 = __res_2159;
+            return __res_2158;
         }
         set
         {
@@ -867,9 +928,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1027;
-            throw new Exception();
-            return __res_1027;
+            string __res_2160;
+            string __res_2161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alignSelf");
+            __res_2160 = __res_2161;
+            return __res_2160;
         }
         set
         {
@@ -881,9 +943,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1028;
-            throw new Exception();
-            return __res_1028;
+            string __res_2162;
+            string __res_2163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "justifySelf");
+            __res_2162 = __res_2163;
+            return __res_2162;
         }
         set
         {
@@ -895,9 +958,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1029;
-            throw new Exception();
-            return __res_1029;
+            string __res_2164;
+            string __res_2165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "place-self");
+            __res_2164 = __res_2165;
+            return __res_2164;
         }
         set
         {
@@ -909,9 +973,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1030;
-            throw new Exception();
-            return __res_1030;
+            string __res_2166;
+            string __res_2167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align-self");
+            __res_2166 = __res_2167;
+            return __res_2166;
         }
         set
         {
@@ -923,9 +988,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1031;
-            throw new Exception();
-            return __res_1031;
+            string __res_2168;
+            string __res_2169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "justify-self");
+            __res_2168 = __res_2169;
+            return __res_2168;
         }
         set
         {
@@ -937,9 +1003,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1032;
-            throw new Exception();
-            return __res_1032;
+            string __res_2170;
+            string __res_2171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionAnchor");
+            __res_2170 = __res_2171;
+            return __res_2170;
         }
         set
         {
@@ -951,9 +1018,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1033;
-            throw new Exception();
-            return __res_1033;
+            string __res_2172;
+            string __res_2173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "position-anchor");
+            __res_2172 = __res_2173;
+            return __res_2172;
         }
         set
         {
@@ -965,9 +1033,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1034;
-            throw new Exception();
-            return __res_1034;
+            string __res_2174;
+            string __res_2175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionArea");
+            __res_2174 = __res_2175;
+            return __res_2174;
         }
         set
         {
@@ -979,9 +1048,10 @@ public partial class CSSPositionTryDescriptors(JSObject obj): CSSStyleDeclaratio
     {
         get
         {
-            string __res_1035;
-            throw new Exception();
-            return __res_1035;
+            string __res_2176;
+            string __res_2177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "position-area");
+            __res_2176 = __res_2177;
+            return __res_2176;
         }
         set
         {

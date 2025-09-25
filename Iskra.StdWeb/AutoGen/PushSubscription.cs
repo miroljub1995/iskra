@@ -13,9 +13,10 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1989;
-            throw new Exception();
-            return __res_1989;
+            string __res_4240;
+            string __res_4241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "endpoint");
+            __res_4240 = __res_4241;
+            return __res_4240;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_1990;
-            throw new Exception();
-            return __res_1990;
+            ulong? __res_4242;
+            double? __res_4243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "expirationTime");
+            if (__res_4243 is null)
+            {
+                __res_4242 = null;
+            }
+            else
+            {
+                double __notNullable_4244 = (double)__res_4243;
+                __res_4242 = Convert.ToUInt64(__notNullable_4244);
+            }
+            return __res_4242;
         }
     }
 
@@ -33,9 +43,10 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PushSubscriptionOptions __res_1991;
-            throw new Exception();
-            return __res_1991;
+            Iskra.StdWeb.PushSubscriptionOptions __res_4245;
+            JSObject __res_4246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            throw new Exception("Marshaller from \"__res_4246\" to \"__res_4245\" not supported.");
+            return __res_4245;
         }
     }
 }

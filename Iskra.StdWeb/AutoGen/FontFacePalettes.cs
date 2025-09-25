@@ -13,9 +13,10 @@ public partial class FontFacePalettes(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_894;
-            throw new Exception();
-            return __res_894;
+            uint __res_1882;
+            double __res_1883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1882 = Convert.ToUInt32(__res_1883);
+            return __res_1882;
         }
     }
 }

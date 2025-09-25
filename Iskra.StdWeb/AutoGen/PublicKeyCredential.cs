@@ -13,9 +13,10 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1159;
-            throw new Exception();
-            return __res_1159;
+            Iskra.JSCore.ArrayBuffer __res_2448;
+            JSObject __res_2449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
+            throw new Exception("Marshaller from \"__res_2449\" to \"__res_2448\" not supported.");
+            return __res_2448;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            Iskra.StdWeb.AuthenticatorResponse __res_1160;
-            throw new Exception();
-            return __res_1160;
+            Iskra.StdWeb.AuthenticatorResponse __res_2450;
+            JSObject __res_2451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            throw new Exception("Marshaller from \"__res_2451\" to \"__res_2450\" not supported.");
+            return __res_2450;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string? __res_1161;
-            throw new Exception();
-            return __res_1161;
+            string? __res_2452;
+            string? __res_2453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
+            if (__res_2453 is null)
+            {
+                __res_2452 = null;
+            }
+            else
+            {
+                string __notNullable_2454 = (string)__res_2453;
+                __res_2452 = __notNullable_2454;
+            }
+            return __res_2452;
         }
     }
 }

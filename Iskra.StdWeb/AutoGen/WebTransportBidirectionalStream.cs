@@ -13,9 +13,10 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.WebTransportReceiveStream __res_923;
-            throw new Exception();
-            return __res_923;
+            Iskra.StdWeb.WebTransportReceiveStream __res_1944;
+            JSObject __res_1945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller from \"__res_1945\" to \"__res_1944\" not supported.");
+            return __res_1944;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.WebTransportSendStream __res_924;
-            throw new Exception();
-            return __res_924;
+            Iskra.StdWeb.WebTransportSendStream __res_1946;
+            JSObject __res_1947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller from \"__res_1947\" to \"__res_1946\" not supported.");
+            return __res_1946;
         }
     }
 }

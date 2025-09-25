@@ -13,9 +13,10 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_499;
-            throw new Exception();
-            return __res_499;
+            Iskra.StdWeb.SVGAnimatedString __res_1004;
+            JSObject __res_1005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller from \"__res_1005\" to \"__res_1004\" not supported.");
+            return __res_1004;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_500;
-            throw new Exception();
-            return __res_500;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1006;
+            JSObject __res_1007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_1007\" to \"__res_1006\" not supported.");
+            return __res_1006;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_501;
-            throw new Exception();
-            return __res_501;
+            Iskra.StdWeb.SVGAnimatedNumberList __res_1008;
+            JSObject __res_1009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            throw new Exception("Marshaller from \"__res_1009\" to \"__res_1008\" not supported.");
+            return __res_1008;
         }
     }
 }

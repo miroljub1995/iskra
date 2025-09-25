@@ -13,9 +13,18 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_3267;
-            throw new Exception();
-            return __res_3267;
+            double? __res_6967;
+            double? __res_6968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "distance");
+            if (__res_6968 is null)
+            {
+                __res_6967 = null;
+            }
+            else
+            {
+                double __notNullable_6969 = (double)__res_6968;
+                __res_6967 = __notNullable_6969;
+            }
+            return __res_6967;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_3268;
-            throw new Exception();
-            return __res_3268;
+            double? __res_6970;
+            double? __res_6971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "max");
+            if (__res_6971 is null)
+            {
+                __res_6970 = null;
+            }
+            else
+            {
+                double __notNullable_6972 = (double)__res_6971;
+                __res_6970 = __notNullable_6972;
+            }
+            return __res_6970;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            bool? __res_3269;
-            __res_3269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
-            return __res_3269;
+            bool? __res_6973;
+            bool? __res_6974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
+            if (__res_6974 is null)
+            {
+                __res_6973 = null;
+            }
+            else
+            {
+                bool __notNullable_6975 = (bool)__res_6974;
+                __res_6973 = __notNullable_6975;
+            }
+            return __res_6973;
         }
     }
 }

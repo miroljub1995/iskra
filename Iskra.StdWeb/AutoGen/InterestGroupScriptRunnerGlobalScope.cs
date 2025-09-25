@@ -13,9 +13,18 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation? __res_1526;
-            throw new Exception();
-            return __res_1526;
+            Iskra.StdWeb.PrivateAggregation? __res_3236;
+            JSObject? __res_3237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
+            if (__res_3237 is null)
+            {
+                __res_3236 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3238 = (JSObject)__res_3237;
+                throw new Exception("Marshaller from \"__notNullable_3238\" to \"__res_3236\" not supported.");
+            }
+            return __res_3236;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
-            Iskra.StdWeb.ProtectedAudienceUtilities __res_1527;
-            throw new Exception();
-            return __res_1527;
+            Iskra.StdWeb.ProtectedAudienceUtilities __res_3239;
+            JSObject __res_3240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            throw new Exception("Marshaller from \"__res_3240\" to \"__res_3239\" not supported.");
+            return __res_3239;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIInputMap __res_2937;
-            throw new Exception();
-            return __res_2937;
+            Iskra.StdWeb.MIDIInputMap __res_6260;
+            JSObject __res_6261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
+            throw new Exception("Marshaller from \"__res_6261\" to \"__res_6260\" not supported.");
+            return __res_6260;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIOutputMap __res_2938;
-            throw new Exception();
-            return __res_2938;
+            Iskra.StdWeb.MIDIOutputMap __res_6262;
+            JSObject __res_6263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
+            throw new Exception("Marshaller from \"__res_6263\" to \"__res_6262\" not supported.");
+            return __res_6262;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2939;
-            throw new Exception();
-            return __res_2939;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6264;
+            JSObject? __res_6265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_6265 is null)
+            {
+                __res_6264 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6266 = (JSObject)__res_6265;
+                throw new Exception("Marshaller from \"__notNullable_6266\" to \"__res_6264\" not supported.");
+            }
+            return __res_6264;
         }
         set
         {
@@ -47,9 +58,10 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2940;
-            __res_2940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
-            return __res_2940;
+            bool __res_6267;
+            bool __res_6268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
+            __res_6267 = __res_6268;
+            return __res_6267;
         }
     }
 }

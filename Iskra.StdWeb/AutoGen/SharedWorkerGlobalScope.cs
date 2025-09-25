@@ -13,9 +13,10 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
     {
         get
         {
-            string __res_2728;
-            throw new Exception();
-            return __res_2728;
+            string __res_5813;
+            string __res_5814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5813 = __res_5814;
+            return __res_5813;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2729;
-            throw new Exception();
-            return __res_2729;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5815;
+            JSObject? __res_5816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_5816 is null)
+            {
+                __res_5815 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5817 = (JSObject)__res_5816;
+                throw new Exception("Marshaller from \"__notNullable_5817\" to \"__res_5815\" not supported.");
+            }
+            return __res_5815;
         }
         set
         {

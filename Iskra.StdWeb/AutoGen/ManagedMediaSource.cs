@@ -13,9 +13,10 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            bool __res_2989;
-            __res_2989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "streaming");
-            return __res_2989;
+            bool __res_6375;
+            bool __res_6376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "streaming");
+            __res_6375 = __res_6376;
+            return __res_6375;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2990;
-            throw new Exception();
-            return __res_2990;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6377;
+            JSObject? __res_6378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming");
+            if (__res_6378 is null)
+            {
+                __res_6377 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6379 = (JSObject)__res_6378;
+                throw new Exception("Marshaller from \"__notNullable_6379\" to \"__res_6377\" not supported.");
+            }
+            return __res_6377;
         }
         set
         {
@@ -37,9 +47,18 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2991;
-            throw new Exception();
-            return __res_2991;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6380;
+            JSObject? __res_6381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming");
+            if (__res_6381 is null)
+            {
+                __res_6380 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6382 = (JSObject)__res_6381;
+                throw new Exception("Marshaller from \"__notNullable_6382\" to \"__res_6380\" not supported.");
+            }
+            return __res_6380;
         }
         set
         {

@@ -13,9 +13,10 @@ public partial class SVGAnimatedInteger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_144;
-            throw new Exception();
-            return __res_144;
+            int __res_258;
+            double __res_259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
+            __res_258 = Convert.ToInt32(__res_259);
+            return __res_258;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class SVGAnimatedInteger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_145;
-            throw new Exception();
-            return __res_145;
+            int __res_260;
+            double __res_261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
+            __res_260 = Convert.ToInt32(__res_261);
+            return __res_260;
         }
     }
 }

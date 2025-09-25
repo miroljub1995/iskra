@@ -13,9 +13,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_257;
-            throw new Exception();
-            return __res_257;
+            Iskra.StdWeb.SVGAnimatedString __res_488;
+            JSObject __res_489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            throw new Exception("Marshaller from \"__res_489\" to \"__res_488\" not supported.");
+            return __res_488;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_258;
-            throw new Exception();
-            return __res_258;
+            string __res_490;
+            string __res_491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
+            __res_490 = __res_491;
+            return __res_490;
         }
         set
         {
@@ -37,9 +39,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_259;
-            throw new Exception();
-            return __res_259;
+            string __res_492;
+            string __res_493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
+            __res_492 = __res_493;
+            return __res_492;
         }
         set
         {
@@ -51,9 +54,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_260;
-            throw new Exception();
-            return __res_260;
+            string __res_494;
+            string __res_495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_494 = __res_495;
+            return __res_494;
         }
         set
         {
@@ -65,9 +69,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_261;
-            throw new Exception();
-            return __res_261;
+            Iskra.StdWeb.DOMTokenList __res_496;
+            JSObject __res_497 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            throw new Exception("Marshaller from \"__res_497\" to \"__res_496\" not supported.");
+            return __res_496;
         }
     }
 
@@ -75,9 +80,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_262;
-            throw new Exception();
-            return __res_262;
+            string __res_498;
+            string __res_499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
+            __res_498 = __res_499;
+            return __res_498;
         }
         set
         {
@@ -89,9 +95,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_263;
-            throw new Exception();
-            return __res_263;
+            string __res_500;
+            string __res_501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_500 = __res_501;
+            return __res_500;
         }
         set
         {
@@ -103,9 +110,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_264;
-            throw new Exception();
-            return __res_264;
+            string __res_502;
+            string __res_503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_502 = __res_503;
+            return __res_502;
         }
         set
         {
@@ -117,9 +125,10 @@ public partial class SVGAElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            string __res_265;
-            throw new Exception();
-            return __res_265;
+            string __res_504;
+            string __res_505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_504 = __res_505;
+            return __res_504;
         }
         set
         {

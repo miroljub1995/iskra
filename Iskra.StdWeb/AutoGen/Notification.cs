@@ -13,9 +13,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.NotificationPermission __res_1753;
+            Iskra.StdWeb.NotificationPermission __res_3740;
             throw new Exception();
-            return __res_1753;
+            return __res_3740;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_1754;
+            uint __res_3742;
             throw new Exception();
-            return __res_1754;
+            return __res_3742;
         }
     }
 
@@ -33,9 +33,18 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1755;
-            throw new Exception();
-            return __res_1755;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3744;
+            JSObject? __res_3745 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclick");
+            if (__res_3745 is null)
+            {
+                __res_3744 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3746 = (JSObject)__res_3745;
+                throw new Exception("Marshaller from \"__notNullable_3746\" to \"__res_3744\" not supported.");
+            }
+            return __res_3744;
         }
         set
         {
@@ -47,9 +56,18 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1756;
-            throw new Exception();
-            return __res_1756;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3747;
+            JSObject? __res_3748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshow");
+            if (__res_3748 is null)
+            {
+                __res_3747 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3749 = (JSObject)__res_3748;
+                throw new Exception("Marshaller from \"__notNullable_3749\" to \"__res_3747\" not supported.");
+            }
+            return __res_3747;
         }
         set
         {
@@ -61,9 +79,18 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1757;
-            throw new Exception();
-            return __res_1757;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3750;
+            JSObject? __res_3751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_3751 is null)
+            {
+                __res_3750 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3752 = (JSObject)__res_3751;
+                throw new Exception("Marshaller from \"__notNullable_3752\" to \"__res_3750\" not supported.");
+            }
+            return __res_3750;
         }
         set
         {
@@ -75,9 +102,18 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1758;
-            throw new Exception();
-            return __res_1758;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3753;
+            JSObject? __res_3754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclose");
+            if (__res_3754 is null)
+            {
+                __res_3753 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3755 = (JSObject)__res_3754;
+                throw new Exception("Marshaller from \"__notNullable_3755\" to \"__res_3753\" not supported.");
+            }
+            return __res_3753;
         }
         set
         {
@@ -89,9 +125,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1759;
-            throw new Exception();
-            return __res_1759;
+            string __res_3756;
+            string __res_3757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_3756 = __res_3757;
+            return __res_3756;
         }
     }
 
@@ -99,9 +136,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.NotificationDirection __res_1760;
-            throw new Exception();
-            return __res_1760;
+            Iskra.StdWeb.NotificationDirection __res_3758;
+            JSObject __res_3759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
+            throw new Exception("Marshaller from \"__res_3759\" to \"__res_3758\" not supported.");
+            return __res_3758;
         }
     }
 
@@ -109,9 +147,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1761;
-            throw new Exception();
-            return __res_1761;
+            string __res_3760;
+            string __res_3761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_3760 = __res_3761;
+            return __res_3760;
         }
     }
 
@@ -119,9 +158,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1762;
-            throw new Exception();
-            return __res_1762;
+            string __res_3762;
+            string __res_3763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "body");
+            __res_3762 = __res_3763;
+            return __res_3762;
         }
     }
 
@@ -129,9 +169,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1763;
-            throw new Exception();
-            return __res_1763;
+            string __res_3764;
+            string __res_3765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigate");
+            __res_3764 = __res_3765;
+            return __res_3764;
         }
     }
 
@@ -139,9 +180,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1764;
-            throw new Exception();
-            return __res_1764;
+            string __res_3766;
+            string __res_3767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
+            __res_3766 = __res_3767;
+            return __res_3766;
         }
     }
 
@@ -149,9 +191,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1765;
-            throw new Exception();
-            return __res_1765;
+            string __res_3768;
+            string __res_3769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "image");
+            __res_3768 = __res_3769;
+            return __res_3768;
         }
     }
 
@@ -159,9 +202,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1766;
-            throw new Exception();
-            return __res_1766;
+            string __res_3770;
+            string __res_3771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "icon");
+            __res_3770 = __res_3771;
+            return __res_3770;
         }
     }
 
@@ -169,9 +213,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1767;
-            throw new Exception();
-            return __res_1767;
+            string __res_3772;
+            string __res_3773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "badge");
+            __res_3772 = __res_3773;
+            return __res_3772;
         }
     }
 
@@ -179,9 +224,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_1768;
+            object __res_3774;
             throw new Exception();
-            return __res_1768;
+            return __res_3774;
         }
     }
 
@@ -189,9 +234,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_1769;
-            throw new Exception();
-            return __res_1769;
+            ulong __res_3775;
+            double __res_3776 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_3775 = Convert.ToUInt64(__res_3776);
+            return __res_3775;
         }
     }
 
@@ -199,9 +245,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1770;
-            __res_1770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "renotify");
-            return __res_1770;
+            bool __res_3777;
+            bool __res_3778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "renotify");
+            __res_3777 = __res_3778;
+            return __res_3777;
         }
     }
 
@@ -209,9 +256,18 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool? __res_1771;
-            __res_1771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "silent");
-            return __res_1771;
+            bool? __res_3779;
+            bool? __res_3780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "silent");
+            if (__res_3780 is null)
+            {
+                __res_3779 = null;
+            }
+            else
+            {
+                bool __notNullable_3781 = (bool)__res_3780;
+                __res_3779 = __notNullable_3781;
+            }
+            return __res_3779;
         }
     }
 
@@ -219,9 +275,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1772;
-            __res_1772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "requireInteraction");
-            return __res_1772;
+            bool __res_3782;
+            bool __res_3783 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "requireInteraction");
+            __res_3782 = __res_3783;
+            return __res_3782;
         }
     }
 
@@ -229,9 +286,10 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object? __res_1773;
-            throw new Exception();
-            return __res_1773;
+            object? __res_3784;
+            JSObject __res_3785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_3784 = __res_3785;
+            return __res_3784;
         }
     }
 
@@ -239,9 +297,9 @@ public partial class Notification(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_1774;
+            object __res_3786;
             throw new Exception();
-            return __res_1774;
+            return __res_3786;
         }
     }
 }

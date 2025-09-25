@@ -13,9 +13,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AppendMode __res_2972;
-            throw new Exception();
-            return __res_2972;
+            Iskra.StdWeb.AppendMode __res_6334;
+            JSObject __res_6335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller from \"__res_6335\" to \"__res_6334\" not supported.");
+            return __res_6334;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2973;
-            __res_2973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "updating");
-            return __res_2973;
+            bool __res_6336;
+            bool __res_6337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "updating");
+            __res_6336 = __res_6337;
+            return __res_6336;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_2974;
-            throw new Exception();
-            return __res_2974;
+            Iskra.StdWeb.TimeRanges __res_6338;
+            JSObject __res_6339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
+            throw new Exception("Marshaller from \"__res_6339\" to \"__res_6338\" not supported.");
+            return __res_6338;
         }
     }
 
@@ -47,9 +50,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2975;
-            throw new Exception();
-            return __res_2975;
+            double __res_6340;
+            double __res_6341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestampOffset");
+            __res_6340 = __res_6341;
+            return __res_6340;
         }
         set
         {
@@ -61,9 +65,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioTrackList __res_2976;
-            throw new Exception();
-            return __res_2976;
+            Iskra.StdWeb.AudioTrackList __res_6342;
+            JSObject __res_6343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
+            throw new Exception("Marshaller from \"__res_6343\" to \"__res_6342\" not supported.");
+            return __res_6342;
         }
     }
 
@@ -71,9 +76,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoTrackList __res_2977;
-            throw new Exception();
-            return __res_2977;
+            Iskra.StdWeb.VideoTrackList __res_6344;
+            JSObject __res_6345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
+            throw new Exception("Marshaller from \"__res_6345\" to \"__res_6344\" not supported.");
+            return __res_6344;
         }
     }
 
@@ -81,9 +87,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrackList __res_2978;
-            throw new Exception();
-            return __res_2978;
+            Iskra.StdWeb.TextTrackList __res_6346;
+            JSObject __res_6347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
+            throw new Exception("Marshaller from \"__res_6347\" to \"__res_6346\" not supported.");
+            return __res_6346;
         }
     }
 
@@ -91,9 +98,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2979;
-            throw new Exception();
-            return __res_2979;
+            double __res_6348;
+            double __res_6349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "appendWindowStart");
+            __res_6348 = __res_6349;
+            return __res_6348;
         }
         set
         {
@@ -105,9 +113,10 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2980;
-            throw new Exception();
-            return __res_2980;
+            double __res_6350;
+            double __res_6351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "appendWindowEnd");
+            __res_6350 = __res_6351;
+            return __res_6350;
         }
         set
         {
@@ -119,9 +128,18 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2981;
-            throw new Exception();
-            return __res_2981;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6352;
+            JSObject? __res_6353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupdatestart");
+            if (__res_6353 is null)
+            {
+                __res_6352 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6354 = (JSObject)__res_6353;
+                throw new Exception("Marshaller from \"__notNullable_6354\" to \"__res_6352\" not supported.");
+            }
+            return __res_6352;
         }
         set
         {
@@ -133,9 +151,18 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2982;
-            throw new Exception();
-            return __res_2982;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6355;
+            JSObject? __res_6356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupdate");
+            if (__res_6356 is null)
+            {
+                __res_6355 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6357 = (JSObject)__res_6356;
+                throw new Exception("Marshaller from \"__notNullable_6357\" to \"__res_6355\" not supported.");
+            }
+            return __res_6355;
         }
         set
         {
@@ -147,9 +174,18 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2983;
-            throw new Exception();
-            return __res_2983;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6358;
+            JSObject? __res_6359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupdateend");
+            if (__res_6359 is null)
+            {
+                __res_6358 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6360 = (JSObject)__res_6359;
+                throw new Exception("Marshaller from \"__notNullable_6360\" to \"__res_6358\" not supported.");
+            }
+            return __res_6358;
         }
         set
         {
@@ -161,9 +197,18 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2984;
-            throw new Exception();
-            return __res_2984;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6361;
+            JSObject? __res_6362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_6362 is null)
+            {
+                __res_6361 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6363 = (JSObject)__res_6362;
+                throw new Exception("Marshaller from \"__notNullable_6363\" to \"__res_6361\" not supported.");
+            }
+            return __res_6361;
         }
         set
         {
@@ -175,9 +220,18 @@ public partial class SourceBuffer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2985;
-            throw new Exception();
-            return __res_2985;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6364;
+            JSObject? __res_6365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
+            if (__res_6365 is null)
+            {
+                __res_6364 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6366 = (JSObject)__res_6365;
+                throw new Exception("Marshaller from \"__notNullable_6366\" to \"__res_6364\" not supported.");
+            }
+            return __res_6364;
         }
         set
         {

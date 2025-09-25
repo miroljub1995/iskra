@@ -13,9 +13,10 @@ public partial class Attribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AttributionAggregationServices __res_706;
-            throw new Exception();
-            return __res_706;
+            Iskra.StdWeb.AttributionAggregationServices __res_1439;
+            JSObject __res_1440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
+            throw new Exception("Marshaller from \"__res_1440\" to \"__res_1439\" not supported.");
+            return __res_1439;
         }
     }
 }

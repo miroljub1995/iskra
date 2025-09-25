@@ -13,9 +13,10 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_1147;
-            throw new Exception();
-            return __res_1147;
+            Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_2420;
+            JSObject __res_2421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
+            throw new Exception("Marshaller from \"__res_2421\" to \"__res_2420\" not supported.");
+            return __res_2420;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            string __res_1148;
-            throw new Exception();
-            return __res_1148;
+            string __res_2422;
+            string __res_2423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2422 = __res_2423;
+            return __res_2422;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            Iskra.JSCore.DataView? __res_1149;
-            throw new Exception();
-            return __res_1149;
+            Iskra.JSCore.DataView? __res_2424;
+            JSObject? __res_2425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_2425 is null)
+            {
+                __res_2424 = null;
+            }
+            else
+            {
+                JSObject __notNullable_2426 = (JSObject)__res_2425;
+                throw new Exception("Marshaller from \"__notNullable_2426\" to \"__res_2424\" not supported.");
+            }
+            return __res_2424;
         }
     }
 }

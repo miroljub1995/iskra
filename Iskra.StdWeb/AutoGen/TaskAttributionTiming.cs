@@ -13,9 +13,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2806;
-            throw new Exception();
-            return __res_2806;
+            double __res_5975;
+            double __res_5976 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_5975 = __res_5976;
+            return __res_5975;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2807;
-            throw new Exception();
-            return __res_2807;
+            double __res_5977;
+            double __res_5978 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_5977 = __res_5978;
+            return __res_5977;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2808;
-            throw new Exception();
-            return __res_2808;
+            string __res_5979;
+            string __res_5980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5979 = __res_5980;
+            return __res_5979;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2809;
-            throw new Exception();
-            return __res_2809;
+            string __res_5981;
+            string __res_5982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_5981 = __res_5982;
+            return __res_5981;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2810;
-            throw new Exception();
-            return __res_2810;
+            string __res_5983;
+            string __res_5984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerType");
+            __res_5983 = __res_5984;
+            return __res_5983;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2811;
-            throw new Exception();
-            return __res_2811;
+            string __res_5985;
+            string __res_5986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerSrc");
+            __res_5985 = __res_5986;
+            return __res_5985;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2812;
-            throw new Exception();
-            return __res_2812;
+            string __res_5987;
+            string __res_5988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerId");
+            __res_5987 = __res_5988;
+            return __res_5987;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class TaskAttributionTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_2813;
-            throw new Exception();
-            return __res_2813;
+            string __res_5989;
+            string __res_5990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerName");
+            __res_5989 = __res_5990;
+            return __res_5989;
         }
     }
 }

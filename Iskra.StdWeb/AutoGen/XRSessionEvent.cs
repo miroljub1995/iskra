@@ -13,9 +13,10 @@ public partial class XRSessionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSession __res_1744;
-            throw new Exception();
-            return __res_1744;
+            Iskra.StdWeb.XRSession __res_3724;
+            JSObject __res_3725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            throw new Exception("Marshaller from \"__res_3725\" to \"__res_3724\" not supported.");
+            return __res_3724;
         }
     }
 }

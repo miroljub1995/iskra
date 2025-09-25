@@ -13,9 +13,10 @@ public partial class SensorErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMException __res_1859;
-            throw new Exception();
-            return __res_1859;
+            Iskra.StdWeb.DOMException __res_3979;
+            JSObject __res_3980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            throw new Exception("Marshaller from \"__res_3980\" to \"__res_3979\" not supported.");
+            return __res_3979;
         }
     }
 }

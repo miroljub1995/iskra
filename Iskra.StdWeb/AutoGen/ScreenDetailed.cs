@@ -13,9 +13,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            int __res_1200;
-            throw new Exception();
-            return __res_1200;
+            int __res_2545;
+            double __res_2546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availLeft");
+            __res_2545 = Convert.ToInt32(__res_2546);
+            return __res_2545;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            int __res_1201;
-            throw new Exception();
-            return __res_1201;
+            int __res_2547;
+            double __res_2548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availTop");
+            __res_2547 = Convert.ToInt32(__res_2548);
+            return __res_2547;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            int __res_1202;
-            throw new Exception();
-            return __res_1202;
+            int __res_2549;
+            double __res_2550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
+            __res_2549 = Convert.ToInt32(__res_2550);
+            return __res_2549;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            int __res_1203;
-            throw new Exception();
-            return __res_1203;
+            int __res_2551;
+            double __res_2552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
+            __res_2551 = Convert.ToInt32(__res_2552);
+            return __res_2551;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            bool __res_1204;
-            __res_1204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            return __res_1204;
+            bool __res_2553;
+            bool __res_2554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            __res_2553 = __res_2554;
+            return __res_2553;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            bool __res_1205;
-            __res_1205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isInternal");
-            return __res_1205;
+            bool __res_2555;
+            bool __res_2556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isInternal");
+            __res_2555 = __res_2556;
+            return __res_2555;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            float __res_1206;
-            throw new Exception();
-            return __res_1206;
+            float __res_2557;
+            double __res_2558 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
+            __res_2557 = Convert.ToSingle(__res_2558);
+            return __res_2557;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class ScreenDetailed(JSObject obj): Screen(obj)
     {
         get
         {
-            string __res_1207;
-            throw new Exception();
-            return __res_1207;
+            string __res_2559;
+            string __res_2560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_2559 = __res_2560;
+            return __res_2559;
         }
     }
 }

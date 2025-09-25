@@ -13,9 +13,10 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3027;
-            throw new Exception();
-            return __res_3027;
+            object? __res_6464;
+            JSObject __res_6465 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
+            __res_6464 = __res_6465;
+            return __res_6464;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3028;
-            throw new Exception();
-            return __res_3028;
+            object? __res_6466;
+            JSObject __res_6467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
+            __res_6466 = __res_6467;
+            return __res_6466;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_3029;
-            throw new Exception();
-            return __res_3029;
+            object? __res_6468;
+            JSObject __res_6469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_6468 = __res_6469;
+            return __res_6468;
         }
     }
 }

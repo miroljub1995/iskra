@@ -13,9 +13,10 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_455;
-            throw new Exception();
-            return __res_455;
+            Iskra.StdWeb.ReadableStream __res_908;
+            JSObject __res_909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller from \"__res_909\" to \"__res_908\" not supported.");
+            return __res_908;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_456;
-            throw new Exception();
-            return __res_456;
+            Iskra.StdWeb.WritableStream __res_910;
+            JSObject __res_911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller from \"__res_911\" to \"__res_910\" not supported.");
+            return __res_910;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_457;
-            throw new Exception();
-            return __res_457;
+            Iskra.StdWeb.EventHandlerNonNull? __res_912;
+            JSObject? __res_913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest");
+            if (__res_913 is null)
+            {
+                __res_912 = null;
+            }
+            else
+            {
+                JSObject __notNullable_914 = (JSObject)__res_913;
+                throw new Exception("Marshaller from \"__notNullable_914\" to \"__res_912\" not supported.");
+            }
+            return __res_912;
         }
         set
         {
@@ -47,9 +58,10 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object? __res_458;
-            throw new Exception();
-            return __res_458;
+            object? __res_915;
+            JSObject __res_916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            __res_915 = __res_916;
+            return __res_915;
         }
     }
 }

@@ -13,9 +13,18 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrack? __res_2301;
-            throw new Exception();
-            return __res_2301;
+            Iskra.StdWeb.TextTrack? __res_4898;
+            JSObject? __res_4899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
+            if (__res_4899 is null)
+            {
+                __res_4898 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4900 = (JSObject)__res_4899;
+                throw new Exception("Marshaller from \"__notNullable_4900\" to \"__res_4898\" not supported.");
+            }
+            return __res_4898;
         }
     }
 
@@ -23,9 +32,10 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2302;
-            throw new Exception();
-            return __res_2302;
+            string __res_4901;
+            string __res_4902 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4901 = __res_4902;
+            return __res_4901;
         }
         set
         {
@@ -37,9 +47,10 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2303;
-            throw new Exception();
-            return __res_2303;
+            double __res_4903;
+            double __res_4904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_4903 = __res_4904;
+            return __res_4903;
         }
         set
         {
@@ -51,9 +62,10 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2304;
-            throw new Exception();
-            return __res_2304;
+            double __res_4905;
+            double __res_4906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endTime");
+            __res_4905 = __res_4906;
+            return __res_4905;
         }
         set
         {
@@ -65,9 +77,10 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2305;
-            __res_2305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pauseOnExit");
-            return __res_2305;
+            bool __res_4907;
+            bool __res_4908 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pauseOnExit");
+            __res_4907 = __res_4908;
+            return __res_4907;
         }
         set
         {
@@ -79,9 +92,18 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2306;
-            throw new Exception();
-            return __res_2306;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4909;
+            JSObject? __res_4910 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onenter");
+            if (__res_4910 is null)
+            {
+                __res_4909 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4911 = (JSObject)__res_4910;
+                throw new Exception("Marshaller from \"__notNullable_4911\" to \"__res_4909\" not supported.");
+            }
+            return __res_4909;
         }
         set
         {
@@ -93,9 +115,18 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2307;
-            throw new Exception();
-            return __res_2307;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4912;
+            JSObject? __res_4913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onexit");
+            if (__res_4913 is null)
+            {
+                __res_4912 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4914 = (JSObject)__res_4913;
+                throw new Exception("Marshaller from \"__notNullable_4914\" to \"__res_4912\" not supported.");
+            }
+            return __res_4912;
         }
         set
         {

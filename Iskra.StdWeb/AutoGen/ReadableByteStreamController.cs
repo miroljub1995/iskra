@@ -13,9 +13,18 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            Iskra.StdWeb.ReadableStreamBYOBRequest? __res_421;
-            throw new Exception();
-            return __res_421;
+            Iskra.StdWeb.ReadableStreamBYOBRequest? __res_835;
+            JSObject? __res_836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
+            if (__res_836 is null)
+            {
+                __res_835 = null;
+            }
+            else
+            {
+                JSObject __notNullable_837 = (JSObject)__res_836;
+                throw new Exception("Marshaller from \"__notNullable_837\" to \"__res_835\" not supported.");
+            }
+            return __res_835;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            double? __res_422;
-            throw new Exception();
-            return __res_422;
+            double? __res_838;
+            double? __res_839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_839 is null)
+            {
+                __res_838 = null;
+            }
+            else
+            {
+                double __notNullable_840 = (double)__res_839;
+                __res_838 = __notNullable_840;
+            }
+            return __res_838;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_206;
-            throw new Exception();
-            return __res_206;
+            Iskra.StdWeb.SVGAnimatedLength __res_384;
+            JSObject __res_385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
+            throw new Exception("Marshaller from \"__res_385\" to \"__res_384\" not supported.");
+            return __res_384;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_207;
-            throw new Exception();
-            return __res_207;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_386;
+            JSObject __res_387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
+            throw new Exception("Marshaller from \"__res_387\" to \"__res_386\" not supported.");
+            return __res_386;
         }
     }
 }

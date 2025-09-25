@@ -1,0 +1,38 @@
+using Iskra.WebIDLGenerator.Extensions;
+using Iskra.WebIDLGenerator.Generators;
+using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace Iskra.WebIDLGenerator.Marshallers;
+
+public partial class IDLTypeDescriptionMarshaller
+{
+    public string ToManagedNullable(
+        IDLTypeDescription input,
+        string inputVar,
+        IDLTypeDescription outputType,
+        string outputVar
+    )
+    {
+        var notNullableInput = input with { Nullable = false };
+        var notNullableOutput = outputType with { Nullable = false };
+
+        var notNullableInputVar = context.GetNextVariableName("notNullable");
+
+        var notNullableType = provider
+            .GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>()
+            .Generate(notNullableInput);
+
+        return $$"""
+                 if ({{inputVar}} is null)
+                 {
+                     {{outputVar}} = null;
+                 }
+                 else
+                 {
+                     {{notNullableType}} {{notNullableInputVar}} = ({{notNullableType}}){{inputVar}};
+                 {{ToManaged(notNullableInput, notNullableInputVar, notNullableOutput, outputVar).IndentLines(4)}}
+                 }
+                 """;
+    }
+}

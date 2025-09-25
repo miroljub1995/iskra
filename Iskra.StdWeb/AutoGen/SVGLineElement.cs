@@ -13,9 +13,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_200;
-            throw new Exception();
-            return __res_200;
+            Iskra.StdWeb.SVGAnimatedLength __res_372;
+            JSObject __res_373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
+            throw new Exception("Marshaller from \"__res_373\" to \"__res_372\" not supported.");
+            return __res_372;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_201;
-            throw new Exception();
-            return __res_201;
+            Iskra.StdWeb.SVGAnimatedLength __res_374;
+            JSObject __res_375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
+            throw new Exception("Marshaller from \"__res_375\" to \"__res_374\" not supported.");
+            return __res_374;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_202;
-            throw new Exception();
-            return __res_202;
+            Iskra.StdWeb.SVGAnimatedLength __res_376;
+            JSObject __res_377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
+            throw new Exception("Marshaller from \"__res_377\" to \"__res_376\" not supported.");
+            return __res_376;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_203;
-            throw new Exception();
-            return __res_203;
+            Iskra.StdWeb.SVGAnimatedLength __res_378;
+            JSObject __res_379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
+            throw new Exception("Marshaller from \"__res_379\" to \"__res_378\" not supported.");
+            return __res_378;
         }
     }
 }

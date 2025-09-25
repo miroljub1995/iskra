@@ -13,9 +13,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry? __res_2621;
-            throw new Exception();
-            return __res_2621;
+            Iskra.StdWeb.NavigationHistoryEntry? __res_5573;
+            JSObject? __res_5574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentEntry");
+            if (__res_5574 is null)
+            {
+                __res_5573 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5575 = (JSObject)__res_5574;
+                throw new Exception("Marshaller from \"__notNullable_5575\" to \"__res_5573\" not supported.");
+            }
+            return __res_5573;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationTransition? __res_2622;
-            throw new Exception();
-            return __res_2622;
+            Iskra.StdWeb.NavigationTransition? __res_5576;
+            JSObject? __res_5577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transition");
+            if (__res_5577 is null)
+            {
+                __res_5576 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5578 = (JSObject)__res_5577;
+                throw new Exception("Marshaller from \"__notNullable_5578\" to \"__res_5576\" not supported.");
+            }
+            return __res_5576;
         }
     }
 
@@ -33,9 +51,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationActivation? __res_2623;
-            throw new Exception();
-            return __res_2623;
+            Iskra.StdWeb.NavigationActivation? __res_5579;
+            JSObject? __res_5580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
+            if (__res_5580 is null)
+            {
+                __res_5579 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5581 = (JSObject)__res_5580;
+                throw new Exception("Marshaller from \"__notNullable_5581\" to \"__res_5579\" not supported.");
+            }
+            return __res_5579;
         }
     }
 
@@ -43,9 +70,10 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2624;
-            __res_2624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canGoBack");
-            return __res_2624;
+            bool __res_5582;
+            bool __res_5583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canGoBack");
+            __res_5582 = __res_5583;
+            return __res_5582;
         }
     }
 
@@ -53,9 +81,10 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2625;
-            __res_2625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canGoForward");
-            return __res_2625;
+            bool __res_5584;
+            bool __res_5585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canGoForward");
+            __res_5584 = __res_5585;
+            return __res_5584;
         }
     }
 
@@ -63,9 +92,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2626;
-            throw new Exception();
-            return __res_2626;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5586;
+            JSObject? __res_5587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnavigate");
+            if (__res_5587 is null)
+            {
+                __res_5586 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5588 = (JSObject)__res_5587;
+                throw new Exception("Marshaller from \"__notNullable_5588\" to \"__res_5586\" not supported.");
+            }
+            return __res_5586;
         }
         set
         {
@@ -77,9 +115,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2627;
-            throw new Exception();
-            return __res_2627;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5589;
+            JSObject? __res_5590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnavigatesuccess");
+            if (__res_5590 is null)
+            {
+                __res_5589 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5591 = (JSObject)__res_5590;
+                throw new Exception("Marshaller from \"__notNullable_5591\" to \"__res_5589\" not supported.");
+            }
+            return __res_5589;
         }
         set
         {
@@ -91,9 +138,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2628;
-            throw new Exception();
-            return __res_2628;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5592;
+            JSObject? __res_5593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnavigateerror");
+            if (__res_5593 is null)
+            {
+                __res_5592 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5594 = (JSObject)__res_5593;
+                throw new Exception("Marshaller from \"__notNullable_5594\" to \"__res_5592\" not supported.");
+            }
+            return __res_5592;
         }
         set
         {
@@ -105,9 +161,18 @@ public partial class Navigation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2629;
-            throw new Exception();
-            return __res_2629;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5595;
+            JSObject? __res_5596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrententrychange");
+            if (__res_5596 is null)
+            {
+                __res_5595 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5597 = (JSObject)__res_5596;
+                throw new Exception("Marshaller from \"__notNullable_5597\" to \"__res_5595\" not supported.");
+            }
+            return __res_5595;
         }
         set
         {

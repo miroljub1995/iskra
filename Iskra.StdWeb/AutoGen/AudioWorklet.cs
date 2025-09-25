@@ -13,9 +13,10 @@ public partial class AudioWorklet(JSObject obj): Worklet(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_3254;
-            throw new Exception();
-            return __res_3254;
+            Iskra.StdWeb.MessagePort __res_6939;
+            JSObject __res_6940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            throw new Exception("Marshaller from \"__res_6940\" to \"__res_6939\" not supported.");
+            return __res_6939;
         }
     }
 }

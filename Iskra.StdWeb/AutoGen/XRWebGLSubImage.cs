@@ -13,9 +13,10 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            Iskra.StdWeb.WebGLTexture __res_693;
-            throw new Exception();
-            return __res_693;
+            Iskra.StdWeb.WebGLTexture __res_1406;
+            JSObject __res_1407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorTexture");
+            throw new Exception("Marshaller from \"__res_1407\" to \"__res_1406\" not supported.");
+            return __res_1406;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            Iskra.StdWeb.WebGLTexture? __res_694;
-            throw new Exception();
-            return __res_694;
+            Iskra.StdWeb.WebGLTexture? __res_1408;
+            JSObject? __res_1409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "depthStencilTexture");
+            if (__res_1409 is null)
+            {
+                __res_1408 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1410 = (JSObject)__res_1409;
+                throw new Exception("Marshaller from \"__notNullable_1410\" to \"__res_1408\" not supported.");
+            }
+            return __res_1408;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            Iskra.StdWeb.WebGLTexture? __res_695;
-            throw new Exception();
-            return __res_695;
+            Iskra.StdWeb.WebGLTexture? __res_1411;
+            JSObject? __res_1412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "motionVectorTexture");
+            if (__res_1412 is null)
+            {
+                __res_1411 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1413 = (JSObject)__res_1412;
+                throw new Exception("Marshaller from \"__notNullable_1413\" to \"__res_1411\" not supported.");
+            }
+            return __res_1411;
         }
     }
 
@@ -43,9 +62,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint? __res_696;
-            throw new Exception();
-            return __res_696;
+            uint? __res_1414;
+            double? __res_1415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
+            if (__res_1415 is null)
+            {
+                __res_1414 = null;
+            }
+            else
+            {
+                double __notNullable_1416 = (double)__res_1415;
+                __res_1414 = Convert.ToUInt32(__notNullable_1416);
+            }
+            return __res_1414;
         }
     }
 
@@ -53,9 +81,10 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint __res_697;
-            throw new Exception();
-            return __res_697;
+            uint __res_1417;
+            double __res_1418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorTextureWidth");
+            __res_1417 = Convert.ToUInt32(__res_1418);
+            return __res_1417;
         }
     }
 
@@ -63,9 +92,10 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint __res_698;
-            throw new Exception();
-            return __res_698;
+            uint __res_1419;
+            double __res_1420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorTextureHeight");
+            __res_1419 = Convert.ToUInt32(__res_1420);
+            return __res_1419;
         }
     }
 
@@ -73,9 +103,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint? __res_699;
-            throw new Exception();
-            return __res_699;
+            uint? __res_1421;
+            double? __res_1422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "depthStencilTextureWidth");
+            if (__res_1422 is null)
+            {
+                __res_1421 = null;
+            }
+            else
+            {
+                double __notNullable_1423 = (double)__res_1422;
+                __res_1421 = Convert.ToUInt32(__notNullable_1423);
+            }
+            return __res_1421;
         }
     }
 
@@ -83,9 +122,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint? __res_700;
-            throw new Exception();
-            return __res_700;
+            uint? __res_1424;
+            double? __res_1425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "depthStencilTextureHeight");
+            if (__res_1425 is null)
+            {
+                __res_1424 = null;
+            }
+            else
+            {
+                double __notNullable_1426 = (double)__res_1425;
+                __res_1424 = Convert.ToUInt32(__notNullable_1426);
+            }
+            return __res_1424;
         }
     }
 
@@ -93,9 +141,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint? __res_701;
-            throw new Exception();
-            return __res_701;
+            uint? __res_1427;
+            double? __res_1428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "motionVectorTextureWidth");
+            if (__res_1428 is null)
+            {
+                __res_1427 = null;
+            }
+            else
+            {
+                double __notNullable_1429 = (double)__res_1428;
+                __res_1427 = Convert.ToUInt32(__notNullable_1429);
+            }
+            return __res_1427;
         }
     }
 
@@ -103,9 +160,18 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
     {
         get
         {
-            uint? __res_702;
-            throw new Exception();
-            return __res_702;
+            uint? __res_1430;
+            double? __res_1431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "motionVectorTextureHeight");
+            if (__res_1431 is null)
+            {
+                __res_1430 = null;
+            }
+            else
+            {
+                double __notNullable_1432 = (double)__res_1431;
+                __res_1430 = Convert.ToUInt32(__notNullable_1432);
+            }
+            return __res_1430;
         }
     }
 }

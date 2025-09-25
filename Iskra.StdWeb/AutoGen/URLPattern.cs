@@ -13,9 +13,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_713;
-            throw new Exception();
-            return __res_713;
+            string __res_1451;
+            string __res_1452 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_1451 = __res_1452;
+            return __res_1451;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_714;
-            throw new Exception();
-            return __res_714;
+            string __res_1453;
+            string __res_1454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_1453 = __res_1454;
+            return __res_1453;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_715;
-            throw new Exception();
-            return __res_715;
+            string __res_1455;
+            string __res_1456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_1455 = __res_1456;
+            return __res_1455;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_716;
-            throw new Exception();
-            return __res_716;
+            string __res_1457;
+            string __res_1458 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_1457 = __res_1458;
+            return __res_1457;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_717;
-            throw new Exception();
-            return __res_717;
+            string __res_1459;
+            string __res_1460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_1459 = __res_1460;
+            return __res_1459;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_718;
-            throw new Exception();
-            return __res_718;
+            string __res_1461;
+            string __res_1462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_1461 = __res_1462;
+            return __res_1461;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_719;
-            throw new Exception();
-            return __res_719;
+            string __res_1463;
+            string __res_1464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_1463 = __res_1464;
+            return __res_1463;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_720;
-            throw new Exception();
-            return __res_720;
+            string __res_1465;
+            string __res_1466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_1465 = __res_1466;
+            return __res_1465;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_721;
-            __res_721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
-            return __res_721;
+            bool __res_1467;
+            bool __res_1468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
+            __res_1467 = __res_1468;
+            return __res_1467;
         }
     }
 }

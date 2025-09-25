@@ -13,9 +13,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2746;
-            throw new Exception();
-            return __res_2746;
+            string __res_5854;
+            string __res_5855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "behavior");
+            __res_5854 = __res_5855;
+            return __res_5854;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2747;
-            throw new Exception();
-            return __res_2747;
+            string __res_5856;
+            string __res_5857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bgColor");
+            __res_5856 = __res_5857;
+            return __res_5856;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2748;
-            throw new Exception();
-            return __res_2748;
+            string __res_5858;
+            string __res_5859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_5858 = __res_5859;
+            return __res_5858;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2749;
-            throw new Exception();
-            return __res_2749;
+            string __res_5860;
+            string __res_5861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_5860 = __res_5861;
+            return __res_5860;
         }
         set
         {
@@ -69,9 +73,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2750;
-            throw new Exception();
-            return __res_2750;
+            uint __res_5862;
+            double __res_5863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hspace");
+            __res_5862 = Convert.ToUInt32(__res_5863);
+            return __res_5862;
         }
         set
         {
@@ -83,9 +88,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_2751;
-            throw new Exception();
-            return __res_2751;
+            int __res_5864;
+            double __res_5865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loop");
+            __res_5864 = Convert.ToInt32(__res_5865);
+            return __res_5864;
         }
         set
         {
@@ -97,9 +103,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2752;
-            throw new Exception();
-            return __res_2752;
+            uint __res_5866;
+            double __res_5867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scrollAmount");
+            __res_5866 = Convert.ToUInt32(__res_5867);
+            return __res_5866;
         }
         set
         {
@@ -111,9 +118,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2753;
-            throw new Exception();
-            return __res_2753;
+            uint __res_5868;
+            double __res_5869 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scrollDelay");
+            __res_5868 = Convert.ToUInt32(__res_5869);
+            return __res_5868;
         }
         set
         {
@@ -125,9 +133,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_2754;
-            __res_2754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trueSpeed");
-            return __res_2754;
+            bool __res_5870;
+            bool __res_5871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trueSpeed");
+            __res_5870 = __res_5871;
+            return __res_5870;
         }
         set
         {
@@ -139,9 +148,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2755;
-            throw new Exception();
-            return __res_2755;
+            uint __res_5872;
+            double __res_5873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vspace");
+            __res_5872 = Convert.ToUInt32(__res_5873);
+            return __res_5872;
         }
         set
         {
@@ -153,9 +163,10 @@ public partial class HTMLMarqueeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_2756;
-            throw new Exception();
-            return __res_2756;
+            string __res_5874;
+            string __res_5875 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_5874 = __res_5875;
+            return __res_5874;
         }
         set
         {

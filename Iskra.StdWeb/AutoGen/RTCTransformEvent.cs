@@ -13,9 +13,10 @@ public partial class RTCTransformEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpScriptTransformer __res_454;
-            throw new Exception();
-            return __res_454;
+            Iskra.StdWeb.RTCRtpScriptTransformer __res_906;
+            JSObject __res_907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
+            throw new Exception("Marshaller from \"__res_907\" to \"__res_906\" not supported.");
+            return __res_906;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class InterfaceType : AbstractContainer
+public record InterfaceType : AbstractContainer
 {
     [JsonPropertyName("members")] public required List<IDLInterfaceMemberType> Members { get; set; }
 

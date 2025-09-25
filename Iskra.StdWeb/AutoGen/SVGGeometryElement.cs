@@ -13,9 +13,10 @@ public partial class SVGGeometryElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_124;
-            throw new Exception();
-            return __res_124;
+            Iskra.StdWeb.SVGAnimatedNumber __res_218;
+            JSObject __res_219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
+            throw new Exception("Marshaller from \"__res_219\" to \"__res_218\" not supported.");
+            return __res_218;
         }
     }
 }

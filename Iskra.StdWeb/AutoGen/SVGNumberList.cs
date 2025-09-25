@@ -13,9 +13,10 @@ public partial class SVGNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_134;
-            throw new Exception();
-            return __res_134;
+            uint __res_238;
+            double __res_239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_238 = Convert.ToUInt32(__res_239);
+            return __res_238;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class SVGNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_135;
-            throw new Exception();
-            return __res_135;
+            uint __res_240;
+            double __res_241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_240 = Convert.ToUInt32(__res_241);
+            return __res_240;
         }
     }
 }

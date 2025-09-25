@@ -13,9 +13,10 @@ public partial class NDEFReadingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_1869;
-            throw new Exception();
-            return __res_1869;
+            string __res_4005;
+            string __res_4006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "serialNumber");
+            __res_4005 = __res_4006;
+            return __res_4005;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class NDEFReadingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NDEFMessage __res_1870;
-            throw new Exception();
-            return __res_1870;
+            Iskra.StdWeb.NDEFMessage __res_4007;
+            JSObject __res_4008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            throw new Exception("Marshaller from \"__res_4008\" to \"__res_4007\" not supported.");
+            return __res_4007;
         }
     }
 }

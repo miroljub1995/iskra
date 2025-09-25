@@ -13,9 +13,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_1242;
-            throw new Exception();
-            return __res_1242;
+            double __res_2632;
+            double __res_2633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_2632 = __res_2633;
+            return __res_2632;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            bool __res_1243;
-            __res_1243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
-            return __res_1243;
+            bool __res_2634;
+            bool __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
+            __res_2634 = __res_2635;
+            return __res_2634;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_1244;
-            throw new Exception();
-            return __res_1244;
+            double __res_2636;
+            double __res_2637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastInputTime");
+            __res_2636 = __res_2637;
+            return __res_2636;
         }
     }
 
@@ -43,9 +46,9 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            object __res_1245;
+            object __res_2638;
             throw new Exception();
-            return __res_1245;
+            return __res_2638;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WorkerGlobalScope __res_2718;
-            throw new Exception();
-            return __res_2718;
+            Iskra.StdWeb.WorkerGlobalScope __res_5787;
+            JSObject __res_5788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "self");
+            throw new Exception("Marshaller from \"__res_5788\" to \"__res_5787\" not supported.");
+            return __res_5787;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WorkerLocation __res_2719;
-            throw new Exception();
-            return __res_2719;
+            Iskra.StdWeb.WorkerLocation __res_5789;
+            JSObject __res_5790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "location");
+            throw new Exception("Marshaller from \"__res_5790\" to \"__res_5789\" not supported.");
+            return __res_5789;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WorkerNavigator __res_2720;
-            throw new Exception();
-            return __res_2720;
+            Iskra.StdWeb.WorkerNavigator __res_5791;
+            JSObject __res_5792 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            throw new Exception("Marshaller from \"__res_5792\" to \"__res_5791\" not supported.");
+            return __res_5791;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.OnErrorEventHandlerNonNull? __res_2721;
-            throw new Exception();
-            return __res_2721;
+            Iskra.StdWeb.OnErrorEventHandlerNonNull? __res_5793;
+            JSObject? __res_5794 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_5794 is null)
+            {
+                __res_5793 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5795 = (JSObject)__res_5794;
+                throw new Exception("Marshaller from \"__notNullable_5795\" to \"__res_5793\" not supported.");
+            }
+            return __res_5793;
         }
         set
         {
@@ -57,9 +69,18 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2722;
-            throw new Exception();
-            return __res_2722;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5796;
+            JSObject? __res_5797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlanguagechange");
+            if (__res_5797 is null)
+            {
+                __res_5796 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5798 = (JSObject)__res_5797;
+                throw new Exception("Marshaller from \"__notNullable_5798\" to \"__res_5796\" not supported.");
+            }
+            return __res_5796;
         }
         set
         {
@@ -71,9 +92,18 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2723;
-            throw new Exception();
-            return __res_2723;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5799;
+            JSObject? __res_5800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onoffline");
+            if (__res_5800 is null)
+            {
+                __res_5799 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5801 = (JSObject)__res_5800;
+                throw new Exception("Marshaller from \"__notNullable_5801\" to \"__res_5799\" not supported.");
+            }
+            return __res_5799;
         }
         set
         {
@@ -85,9 +115,18 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2724;
-            throw new Exception();
-            return __res_2724;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5802;
+            JSObject? __res_5803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ononline");
+            if (__res_5803 is null)
+            {
+                __res_5802 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5804 = (JSObject)__res_5803;
+                throw new Exception("Marshaller from \"__notNullable_5804\" to \"__res_5802\" not supported.");
+            }
+            return __res_5802;
         }
         set
         {
@@ -99,9 +138,18 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2725;
-            throw new Exception();
-            return __res_2725;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5805;
+            JSObject? __res_5806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrejectionhandled");
+            if (__res_5806 is null)
+            {
+                __res_5805 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5807 = (JSObject)__res_5806;
+                throw new Exception("Marshaller from \"__notNullable_5807\" to \"__res_5805\" not supported.");
+            }
+            return __res_5805;
         }
         set
         {
@@ -113,9 +161,18 @@ public partial class WorkerGlobalScope(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2726;
-            throw new Exception();
-            return __res_2726;
+            Iskra.StdWeb.EventHandlerNonNull? __res_5808;
+            JSObject? __res_5809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunhandledrejection");
+            if (__res_5809 is null)
+            {
+                __res_5808 = null;
+            }
+            else
+            {
+                JSObject __notNullable_5810 = (JSObject)__res_5809;
+                throw new Exception("Marshaller from \"__notNullable_5810\" to \"__res_5808\" not supported.");
+            }
+            return __res_5808;
         }
         set
         {

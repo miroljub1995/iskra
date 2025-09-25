@@ -13,9 +13,10 @@ public partial class CSSMathValue(JSObject obj): CSSNumericValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSMathOperator __res_19;
-            throw new Exception();
-            return __res_19;
+            Iskra.StdWeb.CSSMathOperator __res_42;
+            JSObject __res_43 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
+            throw new Exception("Marshaller from \"__res_43\" to \"__res_42\" not supported.");
+            return __res_42;
         }
     }
 }

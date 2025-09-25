@@ -13,9 +13,18 @@ public partial class NDEFReader(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1867;
-            throw new Exception();
-            return __res_1867;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3999;
+            JSObject? __res_4000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
+            if (__res_4000 is null)
+            {
+                __res_3999 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4001 = (JSObject)__res_4000;
+                throw new Exception("Marshaller from \"__notNullable_4001\" to \"__res_3999\" not supported.");
+            }
+            return __res_3999;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class NDEFReader(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1868;
-            throw new Exception();
-            return __res_1868;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4002;
+            JSObject? __res_4003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror");
+            if (__res_4003 is null)
+            {
+                __res_4002 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4004 = (JSObject)__res_4003;
+                throw new Exception("Marshaller from \"__notNullable_4004\" to \"__res_4002\" not supported.");
+            }
+            return __res_4002;
         }
         set
         {

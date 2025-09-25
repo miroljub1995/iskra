@@ -13,9 +13,18 @@ public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1875;
-            throw new Exception();
-            return __res_1875;
+            string? __res_4017;
+            string? __res_4018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "targetURL");
+            if (__res_4018 is null)
+            {
+                __res_4017 = null;
+            }
+            else
+            {
+                string __notNullable_4019 = (string)__res_4018;
+                __res_4017 = __notNullable_4019;
+            }
+            return __res_4017;
         }
     }
 
@@ -23,9 +32,9 @@ public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1876;
+            object __res_4020;
             throw new Exception();
-            return __res_1876;
+            return __res_4020;
         }
     }
 }

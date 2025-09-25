@@ -13,9 +13,18 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_896;
-            throw new Exception();
-            return __res_896;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1885;
+            JSObject? __res_1886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloading");
+            if (__res_1886 is null)
+            {
+                __res_1885 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1887 = (JSObject)__res_1886;
+                throw new Exception("Marshaller from \"__notNullable_1887\" to \"__res_1885\" not supported.");
+            }
+            return __res_1885;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_897;
-            throw new Exception();
-            return __res_897;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1888;
+            JSObject? __res_1889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadingdone");
+            if (__res_1889 is null)
+            {
+                __res_1888 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1890 = (JSObject)__res_1889;
+                throw new Exception("Marshaller from \"__notNullable_1890\" to \"__res_1888\" not supported.");
+            }
+            return __res_1888;
         }
         set
         {
@@ -41,9 +59,18 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_898;
-            throw new Exception();
-            return __res_898;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1891;
+            JSObject? __res_1892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadingerror");
+            if (__res_1892 is null)
+            {
+                __res_1891 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1893 = (JSObject)__res_1892;
+                throw new Exception("Marshaller from \"__notNullable_1893\" to \"__res_1891\" not supported.");
+            }
+            return __res_1891;
         }
         set
         {
@@ -55,9 +82,9 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_899;
+            object __res_1894;
             throw new Exception();
-            return __res_899;
+            return __res_1894;
         }
     }
 
@@ -65,9 +92,10 @@ public partial class FontFaceSet(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.FontFaceSetLoadStatus __res_900;
-            throw new Exception();
-            return __res_900;
+            Iskra.StdWeb.FontFaceSetLoadStatus __res_1895;
+            JSObject __res_1896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
+            throw new Exception("Marshaller from \"__res_1896\" to \"__res_1895\" not supported.");
+            return __res_1895;
         }
     }
 }

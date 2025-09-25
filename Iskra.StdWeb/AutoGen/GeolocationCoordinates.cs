@@ -13,9 +13,10 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_438;
-            throw new Exception();
-            return __res_438;
+            double __res_870;
+            double __res_871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "accuracy");
+            __res_870 = __res_871;
+            return __res_870;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_439;
-            throw new Exception();
-            return __res_439;
+            double __res_872;
+            double __res_873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "latitude");
+            __res_872 = __res_873;
+            return __res_872;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_440;
-            throw new Exception();
-            return __res_440;
+            double __res_874;
+            double __res_875 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "longitude");
+            __res_874 = __res_875;
+            return __res_874;
         }
     }
 
@@ -43,9 +46,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_441;
-            throw new Exception();
-            return __res_441;
+            double? __res_876;
+            double? __res_877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
+            if (__res_877 is null)
+            {
+                __res_876 = null;
+            }
+            else
+            {
+                double __notNullable_878 = (double)__res_877;
+                __res_876 = __notNullable_878;
+            }
+            return __res_876;
         }
     }
 
@@ -53,9 +65,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_442;
-            throw new Exception();
-            return __res_442;
+            double? __res_879;
+            double? __res_880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
+            if (__res_880 is null)
+            {
+                __res_879 = null;
+            }
+            else
+            {
+                double __notNullable_881 = (double)__res_880;
+                __res_879 = __notNullable_881;
+            }
+            return __res_879;
         }
     }
 
@@ -63,9 +84,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_443;
-            throw new Exception();
-            return __res_443;
+            double? __res_882;
+            double? __res_883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
+            if (__res_883 is null)
+            {
+                __res_882 = null;
+            }
+            else
+            {
+                double __notNullable_884 = (double)__res_883;
+                __res_882 = __notNullable_884;
+            }
+            return __res_882;
         }
     }
 
@@ -73,9 +103,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_444;
-            throw new Exception();
-            return __res_444;
+            double? __res_885;
+            double? __res_886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
+            if (__res_886 is null)
+            {
+                __res_885 = null;
+            }
+            else
+            {
+                double __notNullable_887 = (double)__res_886;
+                __res_885 = __notNullable_887;
+            }
+            return __res_885;
         }
     }
 }

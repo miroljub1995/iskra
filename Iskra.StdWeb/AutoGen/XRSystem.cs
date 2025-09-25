@@ -13,9 +13,18 @@ public partial class XRSystem(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1688;
-            throw new Exception();
-            return __res_1688;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3593;
+            JSObject? __res_3594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_3594 is null)
+            {
+                __res_3593 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3595 = (JSObject)__res_3594;
+                throw new Exception("Marshaller from \"__notNullable_3595\" to \"__res_3593\" not supported.");
+            }
+            return __res_3593;
         }
         set
         {

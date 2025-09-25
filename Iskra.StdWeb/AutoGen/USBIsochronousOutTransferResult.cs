@@ -13,9 +13,9 @@ public partial class USBIsochronousOutTransferResult(JSObject obj): JSObjectProx
     {
         get
         {
-            object __res_2009;
+            object __res_4289;
             throw new Exception();
-            return __res_2009;
+            return __res_4289;
         }
     }
 }

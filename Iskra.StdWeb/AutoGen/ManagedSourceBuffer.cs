@@ -13,9 +13,18 @@ public partial class ManagedSourceBuffer(JSObject obj): SourceBuffer(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2994;
-            throw new Exception();
-            return __res_2994;
+            Iskra.StdWeb.EventHandlerNonNull? __res_6387;
+            JSObject? __res_6388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedchange");
+            if (__res_6388 is null)
+            {
+                __res_6387 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6389 = (JSObject)__res_6388;
+                throw new Exception("Marshaller from \"__notNullable_6389\" to \"__res_6387\" not supported.");
+            }
+            return __res_6387;
         }
         set
         {

@@ -13,9 +13,18 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_3252;
-            throw new Exception();
-            return __res_3252;
+            Iskra.JSCore.Float32Array? __res_6934;
+            JSObject? __res_6935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
+            if (__res_6935 is null)
+            {
+                __res_6934 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6936 = (JSObject)__res_6935;
+                throw new Exception("Marshaller from \"__notNullable_6936\" to \"__res_6934\" not supported.");
+            }
+            return __res_6934;
         }
         set
         {
@@ -27,9 +36,10 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.OverSampleType __res_3253;
-            throw new Exception();
-            return __res_3253;
+            Iskra.StdWeb.OverSampleType __res_6937;
+            JSObject __res_6938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
+            throw new Exception("Marshaller from \"__res_6938\" to \"__res_6937\" not supported.");
+            return __res_6937;
         }
         set
         {

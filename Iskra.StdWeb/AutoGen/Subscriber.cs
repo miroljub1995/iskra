@@ -13,9 +13,10 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1984;
-            __res_1984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            return __res_1984;
+            bool __res_4230;
+            bool __res_4231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_4230 = __res_4231;
+            return __res_4230;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_1985;
-            throw new Exception();
-            return __res_1985;
+            Iskra.StdWeb.AbortSignal __res_4232;
+            JSObject __res_4233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            throw new Exception("Marshaller from \"__res_4233\" to \"__res_4232\" not supported.");
+            return __res_4232;
         }
     }
 }

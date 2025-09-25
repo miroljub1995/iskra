@@ -13,9 +13,10 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUDeviceLostReason __res_358;
-            throw new Exception();
-            return __res_358;
+            Iskra.StdWeb.GPUDeviceLostReason __res_694;
+            JSObject __res_695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            throw new Exception("Marshaller from \"__res_695\" to \"__res_694\" not supported.");
+            return __res_694;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_359;
-            throw new Exception();
-            return __res_359;
+            string __res_696;
+            string __res_697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_696 = __res_697;
+            return __res_696;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class AsyncIterableMemberType : IDLInterfaceMemberType
+public record AsyncIterableMemberType : IDLInterfaceMemberType
 {
     [JsonPropertyName("async")] public required bool Async { get; set; }
 

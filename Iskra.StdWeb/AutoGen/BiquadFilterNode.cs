@@ -13,9 +13,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.BiquadFilterType __res_3213;
-            throw new Exception();
-            return __res_3213;
+            Iskra.StdWeb.BiquadFilterType __res_6854;
+            JSObject __res_6855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller from \"__res_6855\" to \"__res_6854\" not supported.");
+            return __res_6854;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3214;
-            throw new Exception();
-            return __res_3214;
+            Iskra.StdWeb.AudioParam __res_6856;
+            JSObject __res_6857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
+            throw new Exception("Marshaller from \"__res_6857\" to \"__res_6856\" not supported.");
+            return __res_6856;
         }
     }
 
@@ -37,9 +39,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3215;
-            throw new Exception();
-            return __res_3215;
+            Iskra.StdWeb.AudioParam __res_6858;
+            JSObject __res_6859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
+            throw new Exception("Marshaller from \"__res_6859\" to \"__res_6858\" not supported.");
+            return __res_6858;
         }
     }
 
@@ -47,9 +50,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3216;
-            throw new Exception();
-            return __res_3216;
+            Iskra.StdWeb.AudioParam __res_6860;
+            JSObject __res_6861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
+            throw new Exception("Marshaller from \"__res_6861\" to \"__res_6860\" not supported.");
+            return __res_6860;
         }
     }
 
@@ -57,9 +61,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_3217;
-            throw new Exception();
-            return __res_3217;
+            Iskra.StdWeb.AudioParam __res_6862;
+            JSObject __res_6863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
+            throw new Exception("Marshaller from \"__res_6863\" to \"__res_6862\" not supported.");
+            return __res_6862;
         }
     }
 }

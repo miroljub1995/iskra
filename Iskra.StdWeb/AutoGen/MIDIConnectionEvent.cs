@@ -13,9 +13,18 @@ public partial class MIDIConnectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIPort? __res_2951;
-            throw new Exception();
-            return __res_2951;
+            Iskra.StdWeb.MIDIPort? __res_6295;
+            JSObject? __res_6296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "port");
+            if (__res_6296 is null)
+            {
+                __res_6295 = null;
+            }
+            else
+            {
+                JSObject __notNullable_6297 = (JSObject)__res_6296;
+                throw new Exception("Marshaller from \"__notNullable_6297\" to \"__res_6295\" not supported.");
+            }
+            return __res_6295;
         }
     }
 }

@@ -13,9 +13,10 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
-            double __res_1428;
-            throw new Exception();
-            return __res_1428;
+            double __res_3040;
+            double __res_3041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_3040 = __res_3041;
+            return __res_3040;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
-            double __res_1429;
-            throw new Exception();
-            return __res_1429;
+            double __res_3042;
+            double __res_3043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_3042 = __res_3043;
+            return __res_3042;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
-            double __res_1430;
-            throw new Exception();
-            return __res_1430;
+            double __res_3044;
+            double __res_3045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "z");
+            __res_3044 = __res_3045;
+            return __res_3044;
         }
         set
         {
@@ -55,9 +58,10 @@ public partial class DOMPoint(JSObject obj): DOMPointReadOnly(obj)
     {
         get
         {
-            double __res_1431;
-            throw new Exception();
-            return __res_1431;
+            double __res_3046;
+            double __res_3047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "w");
+            __res_3046 = __res_3047;
+            return __res_3046;
         }
         set
         {

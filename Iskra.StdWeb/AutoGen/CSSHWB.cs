@@ -13,9 +13,10 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_57;
-            throw new Exception();
-            return __res_57;
+            Iskra.StdWeb.CSSNumericValue __res_103;
+            JSObject __res_104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "h");
+            throw new Exception("Marshaller from \"__res_104\" to \"__res_103\" not supported.");
+            return __res_103;
         }
         set
         {
@@ -27,9 +28,9 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_58;
+            object __res_105;
             throw new Exception();
-            return __res_58;
+            return __res_105;
         }
         set
         {
@@ -41,9 +42,9 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_59;
+            object __res_106;
             throw new Exception();
-            return __res_59;
+            return __res_106;
         }
         set
         {
@@ -55,9 +56,9 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_60;
+            object __res_107;
             throw new Exception();
-            return __res_60;
+            return __res_107;
         }
         set
         {

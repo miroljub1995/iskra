@@ -13,9 +13,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2573;
-            throw new Exception();
-            return __res_2573;
+            string __res_5474;
+            string __res_5475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
+            __res_5474 = __res_5475;
+            return __res_5474;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2574;
-            throw new Exception();
-            return __res_2574;
+            string __res_5476;
+            string __res_5477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
+            __res_5476 = __res_5477;
+            return __res_5476;
         }
         set
         {
@@ -41,9 +43,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DataTransferItemList __res_2575;
-            throw new Exception();
-            return __res_2575;
+            Iskra.StdWeb.DataTransferItemList __res_5478;
+            JSObject __res_5479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
+            throw new Exception("Marshaller from \"__res_5479\" to \"__res_5478\" not supported.");
+            return __res_5478;
         }
     }
 
@@ -51,9 +54,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2576;
+            object __res_5480;
             throw new Exception();
-            return __res_2576;
+            return __res_5480;
         }
     }
 
@@ -61,9 +64,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileList __res_2577;
-            throw new Exception();
-            return __res_2577;
+            Iskra.StdWeb.FileList __res_5481;
+            JSObject __res_5482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
+            throw new Exception("Marshaller from \"__res_5482\" to \"__res_5481\" not supported.");
+            return __res_5481;
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class PressureObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1530;
+            object __res_3245;
             throw new Exception();
-            return __res_1530;
+            return __res_3245;
         }
     }
 }

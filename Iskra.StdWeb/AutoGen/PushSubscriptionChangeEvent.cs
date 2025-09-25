@@ -13,9 +13,18 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
-            Iskra.StdWeb.PushSubscription? __res_1994;
-            throw new Exception();
-            return __res_1994;
+            Iskra.StdWeb.PushSubscription? __res_4253;
+            JSObject? __res_4254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
+            if (__res_4254 is null)
+            {
+                __res_4253 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4255 = (JSObject)__res_4254;
+                throw new Exception("Marshaller from \"__notNullable_4255\" to \"__res_4253\" not supported.");
+            }
+            return __res_4253;
         }
     }
 
@@ -23,9 +32,18 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
-            Iskra.StdWeb.PushSubscription? __res_1995;
-            throw new Exception();
-            return __res_1995;
+            Iskra.StdWeb.PushSubscription? __res_4256;
+            JSObject? __res_4257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
+            if (__res_4257 is null)
+            {
+                __res_4256 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4258 = (JSObject)__res_4257;
+                throw new Exception("Marshaller from \"__notNullable_4258\" to \"__res_4256\" not supported.");
+            }
+            return __res_4256;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace Iskra.WebIDLGenerator.Models;
 
-public class TypedefType : IDLRootType
+public record TypedefType : IDLRootType
 {
     [JsonPropertyName("name")] public required string Name { get; set; }
 

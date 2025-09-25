@@ -13,9 +13,10 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1564;
-            throw new Exception();
-            return __res_1564;
+            string __res_3317;
+            string __res_3318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3317 = __res_3318;
+            return __res_3317;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1565;
-            __res_1565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            return __res_1565;
+            bool __res_3319;
+            bool __res_3320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_3319 = __res_3320;
+            return __res_3319;
         }
     }
 
@@ -33,9 +35,18 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1566;
-            throw new Exception();
-            return __res_1566;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3321;
+            JSObject? __res_3322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
+            if (__res_3322 is null)
+            {
+                __res_3321 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3323 = (JSObject)__res_3322;
+                throw new Exception("Marshaller from \"__notNullable_3323\" to \"__res_3321\" not supported.");
+            }
+            return __res_3321;
         }
         set
         {
@@ -47,9 +58,18 @@ public partial class MediaStream(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1567;
-            throw new Exception();
-            return __res_1567;
+            Iskra.StdWeb.EventHandlerNonNull? __res_3324;
+            JSObject? __res_3325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
+            if (__res_3325 is null)
+            {
+                __res_3324 = null;
+            }
+            else
+            {
+                JSObject __notNullable_3326 = (JSObject)__res_3325;
+                throw new Exception("Marshaller from \"__notNullable_3326\" to \"__res_3324\" not supported.");
+            }
+            return __res_3324;
         }
         set
         {

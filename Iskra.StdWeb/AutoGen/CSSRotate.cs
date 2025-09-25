@@ -13,9 +13,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_36;
+            object __res_76;
             throw new Exception();
-            return __res_36;
+            return __res_76;
         }
         set
         {
@@ -27,9 +27,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_37;
+            object __res_77;
             throw new Exception();
-            return __res_37;
+            return __res_77;
         }
         set
         {
@@ -41,9 +41,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_38;
+            object __res_78;
             throw new Exception();
-            return __res_38;
+            return __res_78;
         }
         set
         {
@@ -55,9 +55,10 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_39;
-            throw new Exception();
-            return __res_39;
+            Iskra.StdWeb.CSSNumericValue __res_79;
+            JSObject __res_80 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
+            throw new Exception("Marshaller from \"__res_80\" to \"__res_79\" not supported.");
+            return __res_79;
         }
         set
         {

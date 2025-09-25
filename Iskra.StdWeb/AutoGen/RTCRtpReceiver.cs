@@ -13,9 +13,10 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_807;
-            throw new Exception();
-            return __res_807;
+            Iskra.StdWeb.MediaStreamTrack __res_1679;
+            JSObject __res_1680 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller from \"__res_1680\" to \"__res_1679\" not supported.");
+            return __res_1679;
         }
     }
 
@@ -23,9 +24,18 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport? __res_808;
-            throw new Exception();
-            return __res_808;
+            Iskra.StdWeb.RTCDtlsTransport? __res_1681;
+            JSObject? __res_1682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_1682 is null)
+            {
+                __res_1681 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1683 = (JSObject)__res_1682;
+                throw new Exception("Marshaller from \"__notNullable_1683\" to \"__res_1681\" not supported.");
+            }
+            return __res_1681;
         }
     }
 
@@ -33,9 +43,18 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_809;
-            throw new Exception();
-            return __res_809;
+            double? __res_1684;
+            double? __res_1685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
+            if (__res_1685 is null)
+            {
+                __res_1684 = null;
+            }
+            else
+            {
+                double __notNullable_1686 = (double)__res_1685;
+                __res_1684 = __notNullable_1686;
+            }
+            return __res_1684;
         }
         set
         {

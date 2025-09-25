@@ -13,9 +13,10 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2532;
-            throw new Exception();
-            return __res_2532;
+            uint __res_5385;
+            double __res_5386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_5385 = Convert.ToUInt32(__res_5386);
+            return __res_5385;
         }
         set
         {
@@ -27,9 +28,10 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_2533;
-            throw new Exception();
-            return __res_2533;
+            uint __res_5387;
+            double __res_5388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_5387 = Convert.ToUInt32(__res_5388);
+            return __res_5387;
         }
         set
         {

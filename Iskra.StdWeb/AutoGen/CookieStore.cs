@@ -13,9 +13,18 @@ public partial class CookieStore(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_707;
-            throw new Exception();
-            return __res_707;
+            Iskra.StdWeb.EventHandlerNonNull? __res_1441;
+            JSObject? __res_1442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_1442 is null)
+            {
+                __res_1441 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1443 = (JSObject)__res_1442;
+                throw new Exception("Marshaller from \"__notNullable_1443\" to \"__res_1441\" not supported.");
+            }
+            return __res_1441;
         }
         set
         {

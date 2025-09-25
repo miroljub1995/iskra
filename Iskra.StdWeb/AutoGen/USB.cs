@@ -13,9 +13,18 @@ public partial class USB(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1996;
-            throw new Exception();
-            return __res_1996;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4259;
+            JSObject? __res_4260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_4260 is null)
+            {
+                __res_4259 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4261 = (JSObject)__res_4260;
+                throw new Exception("Marshaller from \"__notNullable_4261\" to \"__res_4259\" not supported.");
+            }
+            return __res_4259;
         }
         set
         {
@@ -27,9 +36,18 @@ public partial class USB(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1997;
-            throw new Exception();
-            return __res_1997;
+            Iskra.StdWeb.EventHandlerNonNull? __res_4262;
+            JSObject? __res_4263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_4263 is null)
+            {
+                __res_4262 = null;
+            }
+            else
+            {
+                JSObject __notNullable_4264 = (JSObject)__res_4263;
+                throw new Exception("Marshaller from \"__notNullable_4264\" to \"__res_4262\" not supported.");
+            }
+            return __res_4262;
         }
         set
         {

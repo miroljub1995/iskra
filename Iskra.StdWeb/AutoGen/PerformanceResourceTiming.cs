@@ -13,9 +13,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_1249;
-            throw new Exception();
-            return __res_1249;
+            string __res_2646;
+            string __res_2647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initiatorType");
+            __res_2646 = __res_2647;
+            return __res_2646;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_1250;
-            throw new Exception();
-            return __res_1250;
+            string __res_2648;
+            string __res_2649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deliveryType");
+            __res_2648 = __res_2649;
+            return __res_2648;
         }
     }
 
@@ -33,9 +35,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_1251;
-            throw new Exception();
-            return __res_1251;
+            string __res_2650;
+            string __res_2651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "nextHopProtocol");
+            __res_2650 = __res_2651;
+            return __res_2650;
         }
     }
 
@@ -43,9 +46,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1252;
-            throw new Exception();
-            return __res_1252;
+            double __res_2652;
+            double __res_2653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "workerStart");
+            __res_2652 = __res_2653;
+            return __res_2652;
         }
     }
 
@@ -53,9 +57,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1253;
-            throw new Exception();
-            return __res_1253;
+            double __res_2654;
+            double __res_2655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectStart");
+            __res_2654 = __res_2655;
+            return __res_2654;
         }
     }
 
@@ -63,9 +68,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1254;
-            throw new Exception();
-            return __res_1254;
+            double __res_2656;
+            double __res_2657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectEnd");
+            __res_2656 = __res_2657;
+            return __res_2656;
         }
     }
 
@@ -73,9 +79,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1255;
-            throw new Exception();
-            return __res_1255;
+            double __res_2658;
+            double __res_2659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fetchStart");
+            __res_2658 = __res_2659;
+            return __res_2658;
         }
     }
 
@@ -83,9 +90,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1256;
-            throw new Exception();
-            return __res_1256;
+            double __res_2660;
+            double __res_2661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupStart");
+            __res_2660 = __res_2661;
+            return __res_2660;
         }
     }
 
@@ -93,9 +101,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1257;
-            throw new Exception();
-            return __res_1257;
+            double __res_2662;
+            double __res_2663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupEnd");
+            __res_2662 = __res_2663;
+            return __res_2662;
         }
     }
 
@@ -103,9 +112,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1258;
-            throw new Exception();
-            return __res_1258;
+            double __res_2664;
+            double __res_2665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectStart");
+            __res_2664 = __res_2665;
+            return __res_2664;
         }
     }
 
@@ -113,9 +123,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1259;
-            throw new Exception();
-            return __res_1259;
+            double __res_2666;
+            double __res_2667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectEnd");
+            __res_2666 = __res_2667;
+            return __res_2666;
         }
     }
 
@@ -123,9 +134,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1260;
-            throw new Exception();
-            return __res_1260;
+            double __res_2668;
+            double __res_2669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "secureConnectionStart");
+            __res_2668 = __res_2669;
+            return __res_2668;
         }
     }
 
@@ -133,9 +145,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1261;
-            throw new Exception();
-            return __res_1261;
+            double __res_2670;
+            double __res_2671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "requestStart");
+            __res_2670 = __res_2671;
+            return __res_2670;
         }
     }
 
@@ -143,9 +156,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1262;
-            throw new Exception();
-            return __res_1262;
+            double __res_2672;
+            double __res_2673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "finalResponseHeadersStart");
+            __res_2672 = __res_2673;
+            return __res_2672;
         }
     }
 
@@ -153,9 +167,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1263;
-            throw new Exception();
-            return __res_1263;
+            double __res_2674;
+            double __res_2675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstInterimResponseStart");
+            __res_2674 = __res_2675;
+            return __res_2674;
         }
     }
 
@@ -163,9 +178,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1264;
-            throw new Exception();
-            return __res_1264;
+            double __res_2676;
+            double __res_2677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStart");
+            __res_2676 = __res_2677;
+            return __res_2676;
         }
     }
 
@@ -173,9 +189,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_1265;
-            throw new Exception();
-            return __res_1265;
+            double __res_2678;
+            double __res_2679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseEnd");
+            __res_2678 = __res_2679;
+            return __res_2678;
         }
     }
 
@@ -183,9 +200,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            ulong __res_1266;
-            throw new Exception();
-            return __res_1266;
+            ulong __res_2680;
+            double __res_2681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "transferSize");
+            __res_2680 = Convert.ToUInt64(__res_2681);
+            return __res_2680;
         }
     }
 
@@ -193,9 +211,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            ulong __res_1267;
-            throw new Exception();
-            return __res_1267;
+            ulong __res_2682;
+            double __res_2683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodedBodySize");
+            __res_2682 = Convert.ToUInt64(__res_2683);
+            return __res_2682;
         }
     }
 
@@ -203,9 +222,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            ulong __res_1268;
-            throw new Exception();
-            return __res_1268;
+            ulong __res_2684;
+            double __res_2685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodedBodySize");
+            __res_2684 = Convert.ToUInt64(__res_2685);
+            return __res_2684;
         }
     }
 
@@ -213,9 +233,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            ushort __res_1269;
-            throw new Exception();
-            return __res_1269;
+            ushort __res_2686;
+            double __res_2687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStatus");
+            throw new Exception("Marshaller from \"__res_2687\" to \"__res_2686\" not supported.");
+            return __res_2686;
         }
     }
 
@@ -223,9 +244,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            Iskra.StdWeb.RenderBlockingStatusType __res_1270;
-            throw new Exception();
-            return __res_1270;
+            Iskra.StdWeb.RenderBlockingStatusType __res_2688;
+            JSObject __res_2689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderBlockingStatus");
+            throw new Exception("Marshaller from \"__res_2689\" to \"__res_2688\" not supported.");
+            return __res_2688;
         }
     }
 
@@ -233,9 +255,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_1271;
-            throw new Exception();
-            return __res_1271;
+            string __res_2690;
+            string __res_2691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_2690 = __res_2691;
+            return __res_2690;
         }
     }
 
@@ -243,9 +266,10 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_1272;
-            throw new Exception();
-            return __res_1272;
+            string __res_2692;
+            string __res_2693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentEncoding");
+            __res_2692 = __res_2693;
+            return __res_2692;
         }
     }
 }

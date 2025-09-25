@@ -13,9 +13,10 @@ public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            string __res_2814;
-            throw new Exception();
-            return __res_2814;
+            string __res_5991;
+            string __res_5992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerName");
+            __res_5991 = __res_5992;
+            return __res_5991;
         }
     }
 
@@ -23,9 +24,10 @@ public partial class CSSContainerRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            string __res_2815;
-            throw new Exception();
-            return __res_2815;
+            string __res_5993;
+            string __res_5994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerQuery");
+            __res_5993 = __res_5994;
+            return __res_5993;
         }
     }
 }
