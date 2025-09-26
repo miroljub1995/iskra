@@ -13,10 +13,10 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_384;
-            JSObject __res_385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
-            throw new Exception("Marshaller from \"__res_385\" to \"__res_384\" not supported.");
-            return __res_384;
+            Iskra.StdWeb.SVGAnimatedLength __res_424;
+            JSObject __res_425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
+            throw new Exception("Marshaller ToManaged from \"__res_425\" to \"__res_424\" not supported.");
+            return __res_424;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_386;
-            JSObject __res_387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
-            throw new Exception("Marshaller from \"__res_387\" to \"__res_386\" not supported.");
-            return __res_386;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_426;
+            JSObject __res_427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
+            throw new Exception("Marshaller ToManaged from \"__res_427\" to \"__res_426\" not supported.");
+            return __res_426;
         }
     }
 }

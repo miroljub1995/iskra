@@ -13,18 +13,18 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_968;
-            JSObject? __res_969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "anchorNode");
-            if (__res_969 is null)
+            Iskra.StdWeb.Node? __res_1071;
+            JSObject? __res_1072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "anchorNode");
+            if (__res_1072 is null)
             {
-                __res_968 = null;
+                __res_1071 = null;
             }
             else
             {
-                JSObject __notNullable_970 = (JSObject)__res_969;
-                throw new Exception("Marshaller from \"__notNullable_970\" to \"__res_968\" not supported.");
+                JSObject __notNullable_1073 = (JSObject)__res_1072;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1073\" to \"__res_1071\" not supported.");
             }
-            return __res_968;
+            return __res_1071;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_971;
-            double __res_972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "anchorOffset");
-            __res_971 = Convert.ToUInt32(__res_972);
-            return __res_971;
+            uint __res_1074;
+            double __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "anchorOffset");
+            __res_1074 = Convert.ToUInt32(__res_1075);
+            return __res_1074;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_973;
-            JSObject? __res_974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "focusNode");
-            if (__res_974 is null)
+            Iskra.StdWeb.Node? __res_1076;
+            JSObject? __res_1077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "focusNode");
+            if (__res_1077 is null)
             {
-                __res_973 = null;
+                __res_1076 = null;
             }
             else
             {
-                JSObject __notNullable_975 = (JSObject)__res_974;
-                throw new Exception("Marshaller from \"__notNullable_975\" to \"__res_973\" not supported.");
+                JSObject __notNullable_1078 = (JSObject)__res_1077;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1078\" to \"__res_1076\" not supported.");
             }
-            return __res_973;
+            return __res_1076;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_976;
-            double __res_977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "focusOffset");
-            __res_976 = Convert.ToUInt32(__res_977);
-            return __res_976;
+            uint __res_1079;
+            double __res_1080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "focusOffset");
+            __res_1079 = Convert.ToUInt32(__res_1080);
+            return __res_1079;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_978;
-            bool __res_979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isCollapsed");
-            __res_978 = __res_979;
-            return __res_978;
+            bool __res_1081;
+            bool __res_1082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isCollapsed");
+            __res_1081 = __res_1082;
+            return __res_1081;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_980;
-            double __res_981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeCount");
-            __res_980 = Convert.ToUInt32(__res_981);
-            return __res_980;
+            uint __res_1083;
+            double __res_1084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeCount");
+            __res_1083 = Convert.ToUInt32(__res_1084);
+            return __res_1083;
         }
     }
 
@@ -95,10 +95,10 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_982;
-            string __res_983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_982 = __res_983;
-            return __res_982;
+            string __res_1085;
+            string __res_1086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1085 = __res_1086;
+            return __res_1085;
         }
     }
 
@@ -106,10 +106,10 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_984;
-            string __res_985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_984 = __res_985;
-            return __res_984;
+            string __res_1087;
+            string __res_1088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_1087 = __res_1088;
+            return __res_1087;
         }
     }
 }

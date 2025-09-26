@@ -13,14 +13,16 @@ public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3502;
-            string __res_3503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_3502 = __res_3503;
-            return __res_3502;
+            string __res_3985;
+            string __res_3986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_3985 = __res_3986;
+            return __res_3985;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_3987;
+            __marshalledValue_3987 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_3987);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class SpeechGrammar(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_3504;
-            double __res_3505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "weight");
-            __res_3504 = Convert.ToSingle(__res_3505);
-            return __res_3504;
+            float __res_3988;
+            double __res_3989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "weight");
+            __res_3988 = Convert.ToSingle(__res_3989);
+            return __res_3988;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_3990;
+            __marshalledValue_3990 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "weight", __marshalledValue_3990);
         }
     }
 }

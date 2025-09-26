@@ -13,10 +13,10 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_222;
-            double __res_223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            throw new Exception("Marshaller from \"__res_223\" to \"__res_222\" not supported.");
-            return __res_222;
+            ushort __res_245;
+            double __res_246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
+            throw new Exception("Marshaller ToManaged from \"__res_246\" to \"__res_245\" not supported.");
+            return __res_245;
         }
     }
 
@@ -24,14 +24,16 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_224;
-            double __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_224 = Convert.ToSingle(__res_225);
-            return __res_224;
+            float __res_247;
+            double __res_248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_247 = Convert.ToSingle(__res_248);
+            return __res_247;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_249;
+            __marshalledValue_249 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_249);
         }
     }
 
@@ -39,14 +41,16 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_226;
-            double __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
-            __res_226 = Convert.ToSingle(__res_227);
-            return __res_226;
+            float __res_250;
+            double __res_251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
+            __res_250 = Convert.ToSingle(__res_251);
+            return __res_250;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_252;
+            __marshalledValue_252 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_252);
         }
     }
 
@@ -54,14 +58,16 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_228;
-            string __res_229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
-            __res_228 = __res_229;
-            return __res_228;
+            string __res_253;
+            string __res_254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
+            __res_253 = __res_254;
+            return __res_253;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_255;
+            __marshalledValue_255 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_255);
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3290;
+            object __res_3710;
             throw new Exception();
-            return __res_3290;
+            return __res_3710;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3291;
-            double __res_3292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_3291 = __res_3292;
-            return __res_3291;
+            double __res_3711;
+            double __res_3712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_3711 = __res_3712;
+            return __res_3711;
         }
     }
 }

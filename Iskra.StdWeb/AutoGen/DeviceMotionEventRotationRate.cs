@@ -13,18 +13,18 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_2486;
-            double? __res_2487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
-            if (__res_2487 is null)
+            double? __res_2834;
+            double? __res_2835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            if (__res_2835 is null)
             {
-                __res_2486 = null;
+                __res_2834 = null;
             }
             else
             {
-                double __notNullable_2488 = (double)__res_2487;
-                __res_2486 = __notNullable_2488;
+                double __notNullable_2836 = (double)__res_2835;
+                __res_2834 = __notNullable_2836;
             }
-            return __res_2486;
+            return __res_2834;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_2489;
-            double? __res_2490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_2490 is null)
+            double? __res_2837;
+            double? __res_2838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
+            if (__res_2838 is null)
             {
-                __res_2489 = null;
+                __res_2837 = null;
             }
             else
             {
-                double __notNullable_2491 = (double)__res_2490;
-                __res_2489 = __notNullable_2491;
+                double __notNullable_2839 = (double)__res_2838;
+                __res_2837 = __notNullable_2839;
             }
-            return __res_2489;
+            return __res_2837;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class DeviceMotionEventRotationRate(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_2492;
-            double? __res_2493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_2493 is null)
+            double? __res_2840;
+            double? __res_2841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
+            if (__res_2841 is null)
             {
-                __res_2492 = null;
+                __res_2840 = null;
             }
             else
             {
-                double __notNullable_2494 = (double)__res_2493;
-                __res_2492 = __notNullable_2494;
+                double __notNullable_2842 = (double)__res_2841;
+                __res_2840 = __notNullable_2842;
             }
-            return __res_2492;
+            return __res_2840;
         }
     }
 }

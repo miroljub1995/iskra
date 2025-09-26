@@ -13,10 +13,10 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportErrorSource __res_1948;
-            JSObject __res_1949 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
-            throw new Exception("Marshaller from \"__res_1949\" to \"__res_1948\" not supported.");
-            return __res_1948;
+            Iskra.StdWeb.WebTransportErrorSource __res_2195;
+            JSObject __res_2196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            throw new Exception("Marshaller ToManaged from \"__res_2196\" to \"__res_2195\" not supported.");
+            return __res_2195;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            uint? __res_1950;
-            double? __res_1951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
-            if (__res_1951 is null)
+            uint? __res_2197;
+            double? __res_2198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
+            if (__res_2198 is null)
             {
-                __res_1950 = null;
+                __res_2197 = null;
             }
             else
             {
-                double __notNullable_1952 = (double)__res_1951;
-                __res_1950 = Convert.ToUInt32(__notNullable_1952);
+                double __notNullable_2199 = (double)__res_2198;
+                __res_2197 = Convert.ToUInt32(__notNullable_2199);
             }
-            return __res_1950;
+            return __res_2197;
         }
     }
 }

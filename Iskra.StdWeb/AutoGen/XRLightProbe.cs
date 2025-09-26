@@ -13,10 +13,10 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_819;
-            JSObject __res_820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
-            throw new Exception("Marshaller from \"__res_820\" to \"__res_819\" not supported.");
-            return __res_819;
+            Iskra.StdWeb.XRSpace __res_908;
+            JSObject __res_909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
+            throw new Exception("Marshaller ToManaged from \"__res_909\" to \"__res_908\" not supported.");
+            return __res_908;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class XRLightProbe(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_821;
-            JSObject? __res_822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
-            if (__res_822 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_910;
+            JSObject? __res_911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
+            if (__res_911 is null)
             {
-                __res_821 = null;
+                __res_910 = null;
             }
             else
             {
-                JSObject __notNullable_823 = (JSObject)__res_822;
-                throw new Exception("Marshaller from \"__notNullable_823\" to \"__res_821\" not supported.");
+                JSObject __notNullable_912 = (JSObject)__res_911;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_912\" to \"__res_910\" not supported.");
             }
-            return __res_821;
+            return __res_910;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_913;
+            if (value is null)
+            {
+                __marshalledValue_913 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_914 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_914\" to \"__marshalledValue_913\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange", __marshalledValue_913);
         }
     }
 }

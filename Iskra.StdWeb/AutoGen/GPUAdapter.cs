@@ -13,10 +13,10 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedFeatures __res_638;
-            JSObject __res_639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
-            throw new Exception("Marshaller from \"__res_639\" to \"__res_638\" not supported.");
-            return __res_638;
+            Iskra.StdWeb.GPUSupportedFeatures __res_697;
+            JSObject __res_698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            throw new Exception("Marshaller ToManaged from \"__res_698\" to \"__res_697\" not supported.");
+            return __res_697;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedLimits __res_640;
-            JSObject __res_641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
-            throw new Exception("Marshaller from \"__res_641\" to \"__res_640\" not supported.");
-            return __res_640;
+            Iskra.StdWeb.GPUSupportedLimits __res_699;
+            JSObject __res_700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            throw new Exception("Marshaller ToManaged from \"__res_700\" to \"__res_699\" not supported.");
+            return __res_699;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUAdapterInfo __res_642;
-            JSObject __res_643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
-            throw new Exception("Marshaller from \"__res_643\" to \"__res_642\" not supported.");
-            return __res_642;
+            Iskra.StdWeb.GPUAdapterInfo __res_701;
+            JSObject __res_702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
+            throw new Exception("Marshaller ToManaged from \"__res_702\" to \"__res_701\" not supported.");
+            return __res_701;
         }
     }
 }

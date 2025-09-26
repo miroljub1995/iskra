@@ -13,9 +13,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_76;
+            object __res_84;
             throw new Exception();
-            return __res_76;
+            return __res_84;
         }
         set
         {
@@ -27,9 +27,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_77;
+            object __res_85;
             throw new Exception();
-            return __res_77;
+            return __res_85;
         }
         set
         {
@@ -41,9 +41,9 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_78;
+            object __res_86;
             throw new Exception();
-            return __res_78;
+            return __res_86;
         }
         set
         {
@@ -55,14 +55,16 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_79;
-            JSObject __res_80 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
-            throw new Exception("Marshaller from \"__res_80\" to \"__res_79\" not supported.");
-            return __res_79;
+            Iskra.StdWeb.CSSNumericValue __res_87;
+            JSObject __res_88 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
+            throw new Exception("Marshaller ToManaged from \"__res_88\" to \"__res_87\" not supported.");
+            return __res_87;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_89;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_89\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_89);
         }
     }
 }

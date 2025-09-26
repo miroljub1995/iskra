@@ -13,14 +13,16 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.BiquadFilterType __res_6854;
-            JSObject __res_6855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_6855\" to \"__res_6854\" not supported.");
-            return __res_6854;
+            Iskra.StdWeb.BiquadFilterType __res_8087;
+            JSObject __res_8088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_8088\" to \"__res_8087\" not supported.");
+            return __res_8087;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_8089;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8089\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_8089);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6856;
-            JSObject __res_6857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            throw new Exception("Marshaller from \"__res_6857\" to \"__res_6856\" not supported.");
-            return __res_6856;
+            Iskra.StdWeb.AudioParam __res_8090;
+            JSObject __res_8091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
+            throw new Exception("Marshaller ToManaged from \"__res_8091\" to \"__res_8090\" not supported.");
+            return __res_8090;
         }
     }
 
@@ -39,10 +41,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6858;
-            JSObject __res_6859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            throw new Exception("Marshaller from \"__res_6859\" to \"__res_6858\" not supported.");
-            return __res_6858;
+            Iskra.StdWeb.AudioParam __res_8092;
+            JSObject __res_8093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
+            throw new Exception("Marshaller ToManaged from \"__res_8093\" to \"__res_8092\" not supported.");
+            return __res_8092;
         }
     }
 
@@ -50,10 +52,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6860;
-            JSObject __res_6861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
-            throw new Exception("Marshaller from \"__res_6861\" to \"__res_6860\" not supported.");
-            return __res_6860;
+            Iskra.StdWeb.AudioParam __res_8094;
+            JSObject __res_8095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
+            throw new Exception("Marshaller ToManaged from \"__res_8095\" to \"__res_8094\" not supported.");
+            return __res_8094;
         }
     }
 
@@ -61,10 +63,10 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6862;
-            JSObject __res_6863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
-            throw new Exception("Marshaller from \"__res_6863\" to \"__res_6862\" not supported.");
-            return __res_6862;
+            Iskra.StdWeb.AudioParam __res_8096;
+            JSObject __res_8097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
+            throw new Exception("Marshaller ToManaged from \"__res_8097\" to \"__res_8096\" not supported.");
+            return __res_8096;
         }
     }
 }

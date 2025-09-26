@@ -13,14 +13,16 @@ public partial class CSSSkew(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_84;
-            JSObject __res_85 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
-            throw new Exception("Marshaller from \"__res_85\" to \"__res_84\" not supported.");
-            return __res_84;
+            Iskra.StdWeb.CSSNumericValue __res_93;
+            JSObject __res_94 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
+            throw new Exception("Marshaller ToManaged from \"__res_94\" to \"__res_93\" not supported.");
+            return __res_93;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_95;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_95\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_95);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class CSSSkew(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_86;
-            JSObject __res_87 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
-            throw new Exception("Marshaller from \"__res_87\" to \"__res_86\" not supported.");
-            return __res_86;
+            Iskra.StdWeb.CSSNumericValue __res_96;
+            JSObject __res_97 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
+            throw new Exception("Marshaller ToManaged from \"__res_97\" to \"__res_96\" not supported.");
+            return __res_96;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_98;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_98\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_98);
         }
     }
 }

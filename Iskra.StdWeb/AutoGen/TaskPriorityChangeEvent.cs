@@ -13,10 +13,10 @@ public partial class TaskPriorityChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.TaskPriority __res_922;
-            JSObject __res_923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousPriority");
-            throw new Exception("Marshaller from \"__res_923\" to \"__res_922\" not supported.");
-            return __res_922;
+            Iskra.StdWeb.TaskPriority __res_1019;
+            JSObject __res_1020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousPriority");
+            throw new Exception("Marshaller ToManaged from \"__res_1020\" to \"__res_1019\" not supported.");
+            return __res_1019;
         }
     }
 }

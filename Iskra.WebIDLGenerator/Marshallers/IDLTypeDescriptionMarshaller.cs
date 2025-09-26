@@ -113,7 +113,7 @@ public partial class IDLTypeDescriptionMarshaller(
             return ToJSNullable(inputType, inputVar, outputType, outputVar);
         }
 
-        if (outputType is SingleTypeDescription singleTypeDescription)
+        if (inputType is SingleTypeDescription singleTypeDescription)
         {
             // No marshalling
             if (singleTypeDescription.IdlType is
@@ -127,6 +127,25 @@ public partial class IDLTypeDescriptionMarshaller(
             {
                 return $$"""
                          {{outputVar}} = {{inputVar}};
+                         """;
+            }
+
+
+            if (singleTypeDescription.IdlType is
+                BuiltinTypes.Octet or
+                BuiltinTypes.Byte or
+                BuiltinTypes.Short or
+                BuiltinTypes.UnsignedShort or
+                BuiltinTypes.Long or
+                BuiltinTypes.UnsignedLong or
+                BuiltinTypes.LongLong or
+                BuiltinTypes.UnsignedLongLong or
+                BuiltinTypes.Float or
+                BuiltinTypes.UnrestrictedFloat
+               )
+            {
+                return $$"""
+                         {{outputVar}} = Convert.ToDouble({{inputVar}});
                          """;
             }
         }

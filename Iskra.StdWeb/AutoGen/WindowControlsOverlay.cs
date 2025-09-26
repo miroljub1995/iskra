@@ -13,10 +13,10 @@ public partial class WindowControlsOverlay(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2439;
-            bool __res_2440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_2439 = __res_2440;
-            return __res_2439;
+            bool __res_2785;
+            bool __res_2786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_2785 = __res_2786;
+            return __res_2785;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class WindowControlsOverlay(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2441;
-            JSObject? __res_2442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_2442 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2787;
+            JSObject? __res_2788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_2788 is null)
             {
-                __res_2441 = null;
+                __res_2787 = null;
             }
             else
             {
-                JSObject __notNullable_2443 = (JSObject)__res_2442;
-                throw new Exception("Marshaller from \"__notNullable_2443\" to \"__res_2441\" not supported.");
+                JSObject __notNullable_2789 = (JSObject)__res_2788;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2789\" to \"__res_2787\" not supported.");
             }
-            return __res_2441;
+            return __res_2787;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2790;
+            if (value is null)
+            {
+                __marshalledValue_2790 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2791 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2791\" to \"__marshalledValue_2790\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_2790);
         }
     }
 }

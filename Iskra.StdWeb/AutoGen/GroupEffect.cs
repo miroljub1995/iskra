@@ -13,10 +13,10 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationNodeList __res_4467;
-            JSObject __res_4468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            throw new Exception("Marshaller from \"__res_4468\" to \"__res_4467\" not supported.");
-            return __res_4467;
+            Iskra.StdWeb.AnimationNodeList __res_5121;
+            JSObject __res_5122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            throw new Exception("Marshaller ToManaged from \"__res_5122\" to \"__res_5121\" not supported.");
+            return __res_5121;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_4469;
-            JSObject? __res_4470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
-            if (__res_4470 is null)
+            Iskra.StdWeb.AnimationEffect? __res_5123;
+            JSObject? __res_5124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_5124 is null)
             {
-                __res_4469 = null;
+                __res_5123 = null;
             }
             else
             {
-                JSObject __notNullable_4471 = (JSObject)__res_4470;
-                throw new Exception("Marshaller from \"__notNullable_4471\" to \"__res_4469\" not supported.");
+                JSObject __notNullable_5125 = (JSObject)__res_5124;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5125\" to \"__res_5123\" not supported.");
             }
-            return __res_4469;
+            return __res_5123;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_4472;
-            JSObject? __res_4473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
-            if (__res_4473 is null)
+            Iskra.StdWeb.AnimationEffect? __res_5126;
+            JSObject? __res_5127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
+            if (__res_5127 is null)
             {
-                __res_4472 = null;
+                __res_5126 = null;
             }
             else
             {
-                JSObject __notNullable_4474 = (JSObject)__res_4473;
-                throw new Exception("Marshaller from \"__notNullable_4474\" to \"__res_4472\" not supported.");
+                JSObject __notNullable_5128 = (JSObject)__res_5127;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5128\" to \"__res_5126\" not supported.");
             }
-            return __res_4472;
+            return __res_5126;
         }
     }
 }

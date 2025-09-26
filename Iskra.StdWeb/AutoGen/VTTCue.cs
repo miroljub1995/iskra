@@ -13,22 +13,32 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            Iskra.StdWeb.VTTRegion? __res_6026;
-            JSObject? __res_6027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "region");
-            if (__res_6027 is null)
+            Iskra.StdWeb.VTTRegion? __res_7100;
+            JSObject? __res_7101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "region");
+            if (__res_7101 is null)
             {
-                __res_6026 = null;
+                __res_7100 = null;
             }
             else
             {
-                JSObject __notNullable_6028 = (JSObject)__res_6027;
-                throw new Exception("Marshaller from \"__notNullable_6028\" to \"__res_6026\" not supported.");
+                JSObject __notNullable_7102 = (JSObject)__res_7101;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7102\" to \"__res_7100\" not supported.");
             }
-            return __res_6026;
+            return __res_7100;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7103;
+            if (value is null)
+            {
+                __marshalledValue_7103 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.VTTRegion __notNullable_7104 = (Iskra.StdWeb.VTTRegion)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7104\" to \"__marshalledValue_7103\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "region", __marshalledValue_7103);
         }
     }
 
@@ -36,14 +46,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            Iskra.StdWeb.DirectionSetting __res_6029;
-            JSObject __res_6030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertical");
-            throw new Exception("Marshaller from \"__res_6030\" to \"__res_6029\" not supported.");
-            return __res_6029;
+            Iskra.StdWeb.DirectionSetting __res_7105;
+            JSObject __res_7106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertical");
+            throw new Exception("Marshaller ToManaged from \"__res_7106\" to \"__res_7105\" not supported.");
+            return __res_7105;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_7107;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7107\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "vertical", __marshalledValue_7107);
         }
     }
 
@@ -51,14 +63,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            bool __res_6031;
-            bool __res_6032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
-            __res_6031 = __res_6032;
-            return __res_6031;
+            bool __res_7108;
+            bool __res_7109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
+            __res_7108 = __res_7109;
+            return __res_7108;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_7110;
+            __marshalledValue_7110 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "snapToLines", __marshalledValue_7110);
         }
     }
 
@@ -66,9 +80,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            object __res_6033;
+            object __res_7111;
             throw new Exception();
-            return __res_6033;
+            return __res_7111;
         }
         set
         {
@@ -80,14 +94,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            Iskra.StdWeb.LineAlignSetting __res_6034;
-            JSObject __res_6035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lineAlign");
-            throw new Exception("Marshaller from \"__res_6035\" to \"__res_6034\" not supported.");
-            return __res_6034;
+            Iskra.StdWeb.LineAlignSetting __res_7112;
+            JSObject __res_7113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lineAlign");
+            throw new Exception("Marshaller ToManaged from \"__res_7113\" to \"__res_7112\" not supported.");
+            return __res_7112;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_7114;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7114\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "lineAlign", __marshalledValue_7114);
         }
     }
 
@@ -95,9 +111,9 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            object __res_6036;
+            object __res_7115;
             throw new Exception();
-            return __res_6036;
+            return __res_7115;
         }
         set
         {
@@ -109,14 +125,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            Iskra.StdWeb.PositionAlignSetting __res_6037;
-            JSObject __res_6038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionAlign");
-            throw new Exception("Marshaller from \"__res_6038\" to \"__res_6037\" not supported.");
-            return __res_6037;
+            Iskra.StdWeb.PositionAlignSetting __res_7116;
+            JSObject __res_7117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionAlign");
+            throw new Exception("Marshaller ToManaged from \"__res_7117\" to \"__res_7116\" not supported.");
+            return __res_7116;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_7118;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7118\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "positionAlign", __marshalledValue_7118);
         }
     }
 
@@ -124,14 +142,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            double __res_6039;
-            double __res_6040 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_6039 = __res_6040;
-            return __res_6039;
+            double __res_7119;
+            double __res_7120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_7119 = __res_7120;
+            return __res_7119;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_7121;
+            __marshalledValue_7121 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_7121);
         }
     }
 
@@ -139,14 +159,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            Iskra.StdWeb.AlignSetting __res_6041;
-            JSObject __res_6042 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "align");
-            throw new Exception("Marshaller from \"__res_6042\" to \"__res_6041\" not supported.");
-            return __res_6041;
+            Iskra.StdWeb.AlignSetting __res_7122;
+            JSObject __res_7123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "align");
+            throw new Exception("Marshaller ToManaged from \"__res_7123\" to \"__res_7122\" not supported.");
+            return __res_7122;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_7124;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7124\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "align", __marshalledValue_7124);
         }
     }
 
@@ -154,14 +176,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            string __res_6043;
-            string __res_6044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_6043 = __res_6044;
-            return __res_6043;
+            string __res_7125;
+            string __res_7126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_7125 = __res_7126;
+            return __res_7125;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_7127;
+            __marshalledValue_7127 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_7127);
         }
     }
 }

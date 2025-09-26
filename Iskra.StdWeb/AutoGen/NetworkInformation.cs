@@ -13,10 +13,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ConnectionType __res_2703;
-            JSObject __res_2704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_2704\" to \"__res_2703\" not supported.");
-            return __res_2703;
+            Iskra.StdWeb.ConnectionType __res_3059;
+            JSObject __res_3060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_3060\" to \"__res_3059\" not supported.");
+            return __res_3059;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EffectiveConnectionType __res_2705;
-            JSObject __res_2706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effectiveType");
-            throw new Exception("Marshaller from \"__res_2706\" to \"__res_2705\" not supported.");
-            return __res_2705;
+            Iskra.StdWeb.EffectiveConnectionType __res_3061;
+            JSObject __res_3062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effectiveType");
+            throw new Exception("Marshaller ToManaged from \"__res_3062\" to \"__res_3061\" not supported.");
+            return __res_3061;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2707;
-            double __res_2708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlinkMax");
-            __res_2707 = __res_2708;
-            return __res_2707;
+            double __res_3063;
+            double __res_3064 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlinkMax");
+            __res_3063 = __res_3064;
+            return __res_3063;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_2709;
-            double __res_2710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlink");
-            __res_2709 = __res_2710;
-            return __res_2709;
+            double __res_3065;
+            double __res_3066 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlink");
+            __res_3065 = __res_3066;
+            return __res_3065;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2711;
-            double __res_2712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rtt");
-            __res_2711 = Convert.ToUInt64(__res_2712);
-            return __res_2711;
+            ulong __res_3067;
+            double __res_3068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rtt");
+            __res_3067 = Convert.ToUInt64(__res_3068);
+            return __res_3067;
         }
     }
 
@@ -68,22 +68,32 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2713;
-            JSObject? __res_2714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_2714 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3069;
+            JSObject? __res_3070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_3070 is null)
             {
-                __res_2713 = null;
+                __res_3069 = null;
             }
             else
             {
-                JSObject __notNullable_2715 = (JSObject)__res_2714;
-                throw new Exception("Marshaller from \"__notNullable_2715\" to \"__res_2713\" not supported.");
+                JSObject __notNullable_3071 = (JSObject)__res_3070;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3071\" to \"__res_3069\" not supported.");
             }
-            return __res_2713;
+            return __res_3069;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3072;
+            if (value is null)
+            {
+                __marshalledValue_3072 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3073 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3073\" to \"__marshalledValue_3072\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_3072);
         }
     }
 }

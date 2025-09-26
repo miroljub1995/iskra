@@ -13,14 +13,16 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_511;
-            string __res_512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_511 = __res_512;
-            return __res_511;
+            string __res_567;
+            string __res_568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_567 = __res_568;
+            return __res_567;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_569;
+            __marshalledValue_569 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_569);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_513;
-            string __res_514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "artist");
-            __res_513 = __res_514;
-            return __res_513;
+            string __res_570;
+            string __res_571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "artist");
+            __res_570 = __res_571;
+            return __res_570;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_572;
+            __marshalledValue_572 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "artist", __marshalledValue_572);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_515;
-            string __res_516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "album");
-            __res_515 = __res_516;
-            return __res_515;
+            string __res_573;
+            string __res_574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "album");
+            __res_573 = __res_574;
+            return __res_573;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_575;
+            __marshalledValue_575 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "album", __marshalledValue_575);
         }
     }
 
@@ -58,9 +64,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_517;
+            object __res_576;
             throw new Exception();
-            return __res_517;
+            return __res_576;
         }
         set
         {
@@ -72,9 +78,9 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_518;
+            object __res_577;
             throw new Exception();
-            return __res_518;
+            return __res_577;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class GamepadEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Gamepad __res_4139;
-            JSObject __res_4140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
-            throw new Exception("Marshaller from \"__res_4140\" to \"__res_4139\" not supported.");
-            return __res_4139;
+            Iskra.StdWeb.Gamepad __res_4735;
+            JSObject __res_4736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
+            throw new Exception("Marshaller ToManaged from \"__res_4736\" to \"__res_4735\" not supported.");
+            return __res_4735;
         }
     }
 }

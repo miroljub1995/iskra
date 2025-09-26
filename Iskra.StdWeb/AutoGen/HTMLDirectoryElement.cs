@@ -13,14 +13,16 @@ public partial class HTMLDirectoryElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5902;
-            bool __res_5903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_5902 = __res_5903;
-            return __res_5902;
+            bool __res_6955;
+            bool __res_6956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_6955 = __res_6956;
+            return __res_6955;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6957;
+            __marshalledValue_6957 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_6957);
         }
     }
 }

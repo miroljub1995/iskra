@@ -13,18 +13,18 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            Iskra.StdWeb.ReadableStreamBYOBRequest? __res_835;
-            JSObject? __res_836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
-            if (__res_836 is null)
+            Iskra.StdWeb.ReadableStreamBYOBRequest? __res_926;
+            JSObject? __res_927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
+            if (__res_927 is null)
             {
-                __res_835 = null;
+                __res_926 = null;
             }
             else
             {
-                JSObject __notNullable_837 = (JSObject)__res_836;
-                throw new Exception("Marshaller from \"__notNullable_837\" to \"__res_835\" not supported.");
+                JSObject __notNullable_928 = (JSObject)__res_927;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_928\" to \"__res_926\" not supported.");
             }
-            return __res_835;
+            return __res_926;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            double? __res_838;
-            double? __res_839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_839 is null)
+            double? __res_929;
+            double? __res_930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_930 is null)
             {
-                __res_838 = null;
+                __res_929 = null;
             }
             else
             {
-                double __notNullable_840 = (double)__res_839;
-                __res_838 = __notNullable_840;
+                double __notNullable_931 = (double)__res_930;
+                __res_929 = __notNullable_931;
             }
-            return __res_838;
+            return __res_929;
         }
     }
 }

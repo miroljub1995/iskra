@@ -13,10 +13,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_184;
-            JSObject __res_185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller from \"__res_185\" to \"__res_184\" not supported.");
-            return __res_184;
+            Iskra.StdWeb.WritableStream __res_203;
+            JSObject __res_204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller ToManaged from \"__res_204\" to \"__res_203\" not supported.");
+            return __res_203;
         }
     }
 
@@ -24,14 +24,16 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_186;
-            bool __res_187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_186 = __res_187;
-            return __res_186;
+            bool __res_205;
+            bool __res_206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_205 = __res_206;
+            return __res_205;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_207;
+            __marshalledValue_207 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_207);
         }
     }
 
@@ -39,10 +41,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_188;
-            JSObject __res_189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller from \"__res_189\" to \"__res_188\" not supported.");
-            return __res_188;
+            Iskra.StdWeb.MediaStreamTrack __res_208;
+            JSObject __res_209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller ToManaged from \"__res_209\" to \"__res_208\" not supported.");
+            return __res_208;
         }
     }
 }

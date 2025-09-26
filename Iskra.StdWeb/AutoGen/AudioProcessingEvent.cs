@@ -13,10 +13,10 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_6848;
-            double __res_6849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackTime");
-            __res_6848 = __res_6849;
-            return __res_6848;
+            double __res_8081;
+            double __res_8082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackTime");
+            __res_8081 = __res_8082;
+            return __res_8081;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_6850;
-            JSObject __res_6851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
-            throw new Exception("Marshaller from \"__res_6851\" to \"__res_6850\" not supported.");
-            return __res_6850;
+            Iskra.StdWeb.AudioBuffer __res_8083;
+            JSObject __res_8084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
+            throw new Exception("Marshaller ToManaged from \"__res_8084\" to \"__res_8083\" not supported.");
+            return __res_8083;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_6852;
-            JSObject __res_6853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
-            throw new Exception("Marshaller from \"__res_6853\" to \"__res_6852\" not supported.");
-            return __res_6852;
+            Iskra.StdWeb.AudioBuffer __res_8085;
+            JSObject __res_8086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
+            throw new Exception("Marshaller ToManaged from \"__res_8086\" to \"__res_8085\" not supported.");
+            return __res_8085;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCEncodedVideoFrameType __res_900;
-            JSObject __res_901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_901\" to \"__res_900\" not supported.");
-            return __res_900;
+            Iskra.StdWeb.RTCEncodedVideoFrameType __res_993;
+            JSObject __res_994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_994\" to \"__res_993\" not supported.");
+            return __res_993;
         }
     }
 
@@ -24,14 +24,16 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_902;
-            JSObject __res_903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new Exception("Marshaller from \"__res_903\" to \"__res_902\" not supported.");
-            return __res_902;
+            Iskra.JSCore.ArrayBuffer __res_995;
+            JSObject __res_996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            throw new Exception("Marshaller ToManaged from \"__res_996\" to \"__res_995\" not supported.");
+            return __res_995;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_997;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_997\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_997);
         }
     }
 }

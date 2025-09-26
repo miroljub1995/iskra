@@ -13,10 +13,10 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_4816;
-            double __res_4817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller from \"__res_4817\" to \"__res_4816\" not supported.");
-            return __res_4816;
+            ushort __res_5597;
+            double __res_5598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            throw new Exception("Marshaller ToManaged from \"__res_5598\" to \"__res_5597\" not supported.");
+            return __res_5597;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4818;
-            string __res_4819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_4818 = __res_4819;
-            return __res_4818;
+            string __res_5599;
+            string __res_5600 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_5599 = __res_5600;
+            return __res_5599;
         }
     }
 }

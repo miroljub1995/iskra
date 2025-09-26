@@ -13,10 +13,10 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2848;
-            string __res_2849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2848 = __res_2849;
-            return __res_2848;
+            string __res_3214;
+            string __res_3215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3214 = __res_3215;
+            return __res_3214;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2850;
-            string __res_2851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
-            __res_2850 = __res_2851;
-            return __res_2850;
+            string __res_3216;
+            string __res_3217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
+            __res_3216 = __res_3217;
+            return __res_3216;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class DocumentType(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2852;
-            string __res_2853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
-            __res_2852 = __res_2853;
-            return __res_2852;
+            string __res_3218;
+            string __res_3219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
+            __res_3218 = __res_3219;
+            return __res_3218;
         }
     }
 }

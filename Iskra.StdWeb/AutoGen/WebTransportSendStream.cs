@@ -13,22 +13,32 @@ public partial class WebTransportSendStream(JSObject obj): WritableStream(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportSendGroup? __res_1939;
-            JSObject? __res_1940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
-            if (__res_1940 is null)
+            Iskra.StdWeb.WebTransportSendGroup? __res_2183;
+            JSObject? __res_2184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
+            if (__res_2184 is null)
             {
-                __res_1939 = null;
+                __res_2183 = null;
             }
             else
             {
-                JSObject __notNullable_1941 = (JSObject)__res_1940;
-                throw new Exception("Marshaller from \"__notNullable_1941\" to \"__res_1939\" not supported.");
+                JSObject __notNullable_2185 = (JSObject)__res_2184;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2185\" to \"__res_2183\" not supported.");
             }
-            return __res_1939;
+            return __res_2183;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2186;
+            if (value is null)
+            {
+                __marshalledValue_2186 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.WebTransportSendGroup __notNullable_2187 = (Iskra.StdWeb.WebTransportSendGroup)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2187\" to \"__marshalledValue_2186\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_2186);
         }
     }
 
@@ -36,14 +46,16 @@ public partial class WebTransportSendStream(JSObject obj): WritableStream(obj)
     {
         get
         {
-            long __res_1942;
-            double __res_1943 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
-            __res_1942 = Convert.ToInt64(__res_1943);
-            return __res_1942;
+            long __res_2188;
+            double __res_2189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
+            __res_2188 = Convert.ToInt64(__res_2189);
+            return __res_2188;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_2190;
+            __marshalledValue_2190 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_2190);
         }
     }
 }

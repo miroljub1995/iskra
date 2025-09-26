@@ -13,10 +13,10 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BaseAudioContext __res_6780;
-            JSObject __res_6781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "context");
-            throw new Exception("Marshaller from \"__res_6781\" to \"__res_6780\" not supported.");
-            return __res_6780;
+            Iskra.StdWeb.BaseAudioContext __res_7997;
+            JSObject __res_7998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "context");
+            throw new Exception("Marshaller ToManaged from \"__res_7998\" to \"__res_7997\" not supported.");
+            return __res_7997;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_6782;
-            double __res_6783 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfInputs");
-            __res_6782 = Convert.ToUInt32(__res_6783);
-            return __res_6782;
+            uint __res_7999;
+            double __res_8000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfInputs");
+            __res_7999 = Convert.ToUInt32(__res_8000);
+            return __res_7999;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_6784;
-            double __res_6785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfOutputs");
-            __res_6784 = Convert.ToUInt32(__res_6785);
-            return __res_6784;
+            uint __res_8001;
+            double __res_8002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfOutputs");
+            __res_8001 = Convert.ToUInt32(__res_8002);
+            return __res_8001;
         }
     }
 
@@ -46,14 +46,16 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_6786;
-            double __res_6787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "channelCount");
-            __res_6786 = Convert.ToUInt32(__res_6787);
-            return __res_6786;
+            uint __res_8003;
+            double __res_8004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "channelCount");
+            __res_8003 = Convert.ToUInt32(__res_8004);
+            return __res_8003;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_8005;
+            __marshalledValue_8005 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "channelCount", __marshalledValue_8005);
         }
     }
 
@@ -61,14 +63,16 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ChannelCountMode __res_6788;
-            JSObject __res_6789 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelCountMode");
-            throw new Exception("Marshaller from \"__res_6789\" to \"__res_6788\" not supported.");
-            return __res_6788;
+            Iskra.StdWeb.ChannelCountMode __res_8006;
+            JSObject __res_8007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelCountMode");
+            throw new Exception("Marshaller ToManaged from \"__res_8007\" to \"__res_8006\" not supported.");
+            return __res_8006;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_8008;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8008\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channelCountMode", __marshalledValue_8008);
         }
     }
 
@@ -76,14 +80,16 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ChannelInterpretation __res_6790;
-            JSObject __res_6791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelInterpretation");
-            throw new Exception("Marshaller from \"__res_6791\" to \"__res_6790\" not supported.");
-            return __res_6790;
+            Iskra.StdWeb.ChannelInterpretation __res_8009;
+            JSObject __res_8010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelInterpretation");
+            throw new Exception("Marshaller ToManaged from \"__res_8010\" to \"__res_8009\" not supported.");
+            return __res_8009;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_8011;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8011\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channelInterpretation", __marshalledValue_8011);
         }
     }
 }

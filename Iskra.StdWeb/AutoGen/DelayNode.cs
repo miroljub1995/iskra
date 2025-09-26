@@ -13,10 +13,10 @@ public partial class DelayNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6871;
-            JSObject __res_6872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "delayTime");
-            throw new Exception("Marshaller from \"__res_6872\" to \"__res_6871\" not supported.");
-            return __res_6871;
+            Iskra.StdWeb.AudioParam __res_8108;
+            JSObject __res_8109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "delayTime");
+            throw new Exception("Marshaller ToManaged from \"__res_8109\" to \"__res_8108\" not supported.");
+            return __res_8108;
         }
     }
 }

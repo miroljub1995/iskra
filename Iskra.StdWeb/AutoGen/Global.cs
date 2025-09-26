@@ -13,14 +13,16 @@ public partial class Global(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_4015;
-            JSObject __res_4016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_4015 = __res_4016;
-            return __res_4015;
+            object? __res_4601;
+            JSObject __res_4602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_4601 = __res_4602;
+            return __res_4601;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_4603;
+            __marshalledValue_4603 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "value", __marshalledValue_4603);
         }
     }
 }

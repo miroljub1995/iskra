@@ -13,10 +13,10 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_302;
-            JSObject __res_303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller from \"__res_303\" to \"__res_302\" not supported.");
-            return __res_302;
+            Iskra.StdWeb.SVGAnimatedLength __res_337;
+            JSObject __res_338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller ToManaged from \"__res_338\" to \"__res_337\" not supported.");
+            return __res_337;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_304;
-            JSObject __res_305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller from \"__res_305\" to \"__res_304\" not supported.");
-            return __res_304;
+            Iskra.StdWeb.SVGAnimatedLength __res_339;
+            JSObject __res_340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller ToManaged from \"__res_340\" to \"__res_339\" not supported.");
+            return __res_339;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_306;
-            JSObject __res_307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            throw new Exception("Marshaller from \"__res_307\" to \"__res_306\" not supported.");
-            return __res_306;
+            Iskra.StdWeb.SVGAnimatedLength __res_341;
+            JSObject __res_342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            throw new Exception("Marshaller ToManaged from \"__res_342\" to \"__res_341\" not supported.");
+            return __res_341;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_308;
-            JSObject __res_309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            throw new Exception("Marshaller from \"__res_309\" to \"__res_308\" not supported.");
-            return __res_308;
+            Iskra.StdWeb.SVGAnimatedLength __res_343;
+            JSObject __res_344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            throw new Exception("Marshaller ToManaged from \"__res_344\" to \"__res_343\" not supported.");
+            return __res_343;
         }
     }
 
@@ -57,18 +57,18 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGElement? __res_310;
-            JSObject? __res_311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "instanceRoot");
-            if (__res_311 is null)
+            Iskra.StdWeb.SVGElement? __res_345;
+            JSObject? __res_346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "instanceRoot");
+            if (__res_346 is null)
             {
-                __res_310 = null;
+                __res_345 = null;
             }
             else
             {
-                JSObject __notNullable_312 = (JSObject)__res_311;
-                throw new Exception("Marshaller from \"__notNullable_312\" to \"__res_310\" not supported.");
+                JSObject __notNullable_347 = (JSObject)__res_346;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_347\" to \"__res_345\" not supported.");
             }
-            return __res_310;
+            return __res_345;
         }
     }
 
@@ -76,18 +76,18 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGElement? __res_313;
-            JSObject? __res_314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "animatedInstanceRoot");
-            if (__res_314 is null)
+            Iskra.StdWeb.SVGElement? __res_348;
+            JSObject? __res_349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "animatedInstanceRoot");
+            if (__res_349 is null)
             {
-                __res_313 = null;
+                __res_348 = null;
             }
             else
             {
-                JSObject __notNullable_315 = (JSObject)__res_314;
-                throw new Exception("Marshaller from \"__notNullable_315\" to \"__res_313\" not supported.");
+                JSObject __notNullable_350 = (JSObject)__res_349;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_350\" to \"__res_348\" not supported.");
             }
-            return __res_313;
+            return __res_348;
         }
     }
 }

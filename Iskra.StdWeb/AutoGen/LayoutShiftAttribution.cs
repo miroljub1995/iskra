@@ -13,18 +13,18 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_2639;
-            JSObject? __res_2640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
-            if (__res_2640 is null)
+            Iskra.StdWeb.Node? __res_2993;
+            JSObject? __res_2994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
+            if (__res_2994 is null)
             {
-                __res_2639 = null;
+                __res_2993 = null;
             }
             else
             {
-                JSObject __notNullable_2641 = (JSObject)__res_2640;
-                throw new Exception("Marshaller from \"__notNullable_2641\" to \"__res_2639\" not supported.");
+                JSObject __notNullable_2995 = (JSObject)__res_2994;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2995\" to \"__res_2993\" not supported.");
             }
-            return __res_2639;
+            return __res_2993;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_2642;
-            JSObject __res_2643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
-            throw new Exception("Marshaller from \"__res_2643\" to \"__res_2642\" not supported.");
-            return __res_2642;
+            Iskra.StdWeb.DOMRectReadOnly __res_2996;
+            JSObject __res_2997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
+            throw new Exception("Marshaller ToManaged from \"__res_2997\" to \"__res_2996\" not supported.");
+            return __res_2996;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_2644;
-            JSObject __res_2645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
-            throw new Exception("Marshaller from \"__res_2645\" to \"__res_2644\" not supported.");
-            return __res_2644;
+            Iskra.StdWeb.DOMRectReadOnly __res_2998;
+            JSObject __res_2999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
+            throw new Exception("Marshaller ToManaged from \"__res_2999\" to \"__res_2998\" not supported.");
+            return __res_2998;
         }
     }
 }

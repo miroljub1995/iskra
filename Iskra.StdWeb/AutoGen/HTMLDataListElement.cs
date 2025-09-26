@@ -13,10 +13,10 @@ public partial class HTMLDataListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5176;
-            JSObject __res_5177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller from \"__res_5177\" to \"__res_5176\" not supported.");
-            return __res_5176;
+            Iskra.StdWeb.HTMLCollection __res_6085;
+            JSObject __res_6086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            throw new Exception("Marshaller ToManaged from \"__res_6086\" to \"__res_6085\" not supported.");
+            return __res_6085;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_888;
-            double __res_889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller from \"__res_889\" to \"__res_888\" not supported.");
-            return __res_888;
+            ushort __res_979;
+            double __res_980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            throw new Exception("Marshaller ToManaged from \"__res_980\" to \"__res_979\" not supported.");
+            return __res_979;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_890;
-            string __res_891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_890 = __res_891;
-            return __res_890;
+            string __res_981;
+            string __res_982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_981 = __res_982;
+            return __res_981;
         }
     }
 }

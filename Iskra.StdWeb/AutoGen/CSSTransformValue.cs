@@ -13,10 +13,10 @@ public partial class CSSTransformValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
-            uint __res_64;
-            double __res_65 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_64 = Convert.ToUInt32(__res_65);
-            return __res_64;
+            uint __res_68;
+            double __res_69 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_68 = Convert.ToUInt32(__res_69);
+            return __res_68;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSTransformValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
-            bool __res_66;
-            bool __res_67 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_66 = __res_67;
-            return __res_66;
+            bool __res_70;
+            bool __res_71 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            __res_70 = __res_71;
+            return __res_70;
         }
     }
 }

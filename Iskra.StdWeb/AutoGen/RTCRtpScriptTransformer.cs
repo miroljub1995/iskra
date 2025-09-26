@@ -13,10 +13,10 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_908;
-            JSObject __res_909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller from \"__res_909\" to \"__res_908\" not supported.");
-            return __res_908;
+            Iskra.StdWeb.ReadableStream __res_1003;
+            JSObject __res_1004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller ToManaged from \"__res_1004\" to \"__res_1003\" not supported.");
+            return __res_1003;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_910;
-            JSObject __res_911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller from \"__res_911\" to \"__res_910\" not supported.");
-            return __res_910;
+            Iskra.StdWeb.WritableStream __res_1005;
+            JSObject __res_1006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller ToManaged from \"__res_1006\" to \"__res_1005\" not supported.");
+            return __res_1005;
         }
     }
 
@@ -35,22 +35,32 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_912;
-            JSObject? __res_913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest");
-            if (__res_913 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1007;
+            JSObject? __res_1008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest");
+            if (__res_1008 is null)
             {
-                __res_912 = null;
+                __res_1007 = null;
             }
             else
             {
-                JSObject __notNullable_914 = (JSObject)__res_913;
-                throw new Exception("Marshaller from \"__notNullable_914\" to \"__res_912\" not supported.");
+                JSObject __notNullable_1009 = (JSObject)__res_1008;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1009\" to \"__res_1007\" not supported.");
             }
-            return __res_912;
+            return __res_1007;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1010;
+            if (value is null)
+            {
+                __marshalledValue_1010 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1011 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1011\" to \"__marshalledValue_1010\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest", __marshalledValue_1010);
         }
     }
 
@@ -58,10 +68,10 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object? __res_915;
-            JSObject __res_916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            __res_915 = __res_916;
-            return __res_915;
+            object? __res_1012;
+            JSObject __res_1013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            __res_1012 = __res_1013;
+            return __res_1012;
         }
     }
 }

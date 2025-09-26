@@ -13,14 +13,16 @@ public partial class HTMLTimeElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4620;
-            string __res_4621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_4620 = __res_4621;
-            return __res_4620;
+            string __res_5337;
+            string __res_5338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_5337 = __res_5338;
+            return __res_5337;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5339;
+            __marshalledValue_5339 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_5339);
         }
     }
 }

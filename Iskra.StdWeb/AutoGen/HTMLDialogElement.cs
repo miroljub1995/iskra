@@ -13,14 +13,16 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5342;
-            bool __res_5343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_5342 = __res_5343;
-            return __res_5342;
+            bool __res_6291;
+            bool __res_6292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_6291 = __res_6292;
+            return __res_6291;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6293;
+            __marshalledValue_6293 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6293);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5344;
-            string __res_5345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
-            __res_5344 = __res_5345;
-            return __res_5344;
+            string __res_6294;
+            string __res_6295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
+            __res_6294 = __res_6295;
+            return __res_6294;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6296;
+            __marshalledValue_6296 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_6296);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5346;
-            string __res_5347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "closedBy");
-            __res_5346 = __res_5347;
-            return __res_5346;
+            string __res_6297;
+            string __res_6298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "closedBy");
+            __res_6297 = __res_6298;
+            return __res_6297;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6299;
+            __marshalledValue_6299 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "closedBy", __marshalledValue_6299);
         }
     }
 }

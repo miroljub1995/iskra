@@ -13,10 +13,10 @@ public partial class PresentationConnectionAvailableEvent(JSObject obj): Event(o
     {
         get
         {
-            Iskra.StdWeb.PresentationConnection __res_1974;
-            JSObject __res_1975 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            throw new Exception("Marshaller from \"__res_1975\" to \"__res_1974\" not supported.");
-            return __res_1974;
+            Iskra.StdWeb.PresentationConnection __res_2226;
+            JSObject __res_2227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
+            throw new Exception("Marshaller ToManaged from \"__res_2227\" to \"__res_2226\" not supported.");
+            return __res_2226;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_1679;
-            JSObject __res_1680 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller from \"__res_1680\" to \"__res_1679\" not supported.");
-            return __res_1679;
+            Iskra.StdWeb.MediaStreamTrack __res_1862;
+            JSObject __res_1863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller ToManaged from \"__res_1863\" to \"__res_1862\" not supported.");
+            return __res_1862;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport? __res_1681;
-            JSObject? __res_1682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
-            if (__res_1682 is null)
+            Iskra.StdWeb.RTCDtlsTransport? __res_1864;
+            JSObject? __res_1865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_1865 is null)
             {
-                __res_1681 = null;
+                __res_1864 = null;
             }
             else
             {
-                JSObject __notNullable_1683 = (JSObject)__res_1682;
-                throw new Exception("Marshaller from \"__notNullable_1683\" to \"__res_1681\" not supported.");
+                JSObject __notNullable_1866 = (JSObject)__res_1865;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1866\" to \"__res_1864\" not supported.");
             }
-            return __res_1681;
+            return __res_1864;
         }
     }
 
@@ -43,22 +43,32 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_1684;
-            double? __res_1685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
-            if (__res_1685 is null)
+            double? __res_1867;
+            double? __res_1868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
+            if (__res_1868 is null)
             {
-                __res_1684 = null;
+                __res_1867 = null;
             }
             else
             {
-                double __notNullable_1686 = (double)__res_1685;
-                __res_1684 = __notNullable_1686;
+                double __notNullable_1869 = (double)__res_1868;
+                __res_1867 = __notNullable_1869;
             }
-            return __res_1684;
+            return __res_1867;
         }
         set
         {
-            throw new Exception();
+            double? __marshalledValue_1870;
+            if (value is null)
+            {
+                __marshalledValue_1870 = null;
+            }
+            else
+            {
+                double __notNullable_1871 = (double)value;
+                __marshalledValue_1870 = __notNullable_1871;
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_1870);
         }
     }
 }

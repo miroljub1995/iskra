@@ -13,10 +13,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4391;
-            string __res_4392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_4391 = __res_4392;
-            return __res_4391;
+            string __res_5040;
+            string __res_5041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_5040 = __res_5041;
+            return __res_5040;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4393;
-            string __res_4394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
-            __res_4393 = __res_4394;
-            return __res_4393;
+            string __res_5042;
+            string __res_5043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
+            __res_5042 = __res_5043;
+            return __res_5042;
         }
     }
 
@@ -35,14 +35,16 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_4395;
-            JSObject __res_4396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
-            __res_4395 = __res_4396;
-            return __res_4395;
+            object? __res_5044;
+            JSObject __res_5045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
+            __res_5044 = __res_5045;
+            return __res_5044;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5046;
+            __marshalledValue_5046 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5046);
         }
     }
 
@@ -50,10 +52,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4397;
-            string __res_4398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
-            __res_4397 = __res_4398;
-            return __res_4397;
+            string __res_5047;
+            string __res_5048 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
+            __res_5047 = __res_5048;
+            return __res_5047;
         }
     }
 
@@ -61,10 +63,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4399;
-            string __res_4400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
-            __res_4399 = __res_4400;
-            return __res_4399;
+            string __res_5049;
+            string __res_5050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
+            __res_5049 = __res_5050;
+            return __res_5049;
         }
     }
 }

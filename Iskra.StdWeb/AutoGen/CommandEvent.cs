@@ -13,18 +13,18 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_5463;
-            JSObject? __res_5464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_5464 is null)
+            Iskra.StdWeb.Element? __res_6440;
+            JSObject? __res_6441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_6441 is null)
             {
-                __res_5463 = null;
+                __res_6440 = null;
             }
             else
             {
-                JSObject __notNullable_5465 = (JSObject)__res_5464;
-                throw new Exception("Marshaller from \"__notNullable_5465\" to \"__res_5463\" not supported.");
+                JSObject __notNullable_6442 = (JSObject)__res_6441;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6442\" to \"__res_6440\" not supported.");
             }
-            return __res_5463;
+            return __res_6440;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5466;
-            string __res_5467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_5466 = __res_5467;
-            return __res_5466;
+            string __res_6443;
+            string __res_6444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_6443 = __res_6444;
+            return __res_6443;
         }
     }
 }

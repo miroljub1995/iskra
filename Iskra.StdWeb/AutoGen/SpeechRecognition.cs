@@ -13,14 +13,16 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.SpeechGrammarList __res_3438;
-            JSObject __res_3439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "grammars");
-            throw new Exception("Marshaller from \"__res_3439\" to \"__res_3438\" not supported.");
-            return __res_3438;
+            Iskra.StdWeb.SpeechGrammarList __res_3893;
+            JSObject __res_3894 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "grammars");
+            throw new Exception("Marshaller ToManaged from \"__res_3894\" to \"__res_3893\" not supported.");
+            return __res_3893;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_3895;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_3895\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "grammars", __marshalledValue_3895);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3440;
-            string __res_3441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_3440 = __res_3441;
-            return __res_3440;
+            string __res_3896;
+            string __res_3897 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_3896 = __res_3897;
+            return __res_3896;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_3898;
+            __marshalledValue_3898 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lang", __marshalledValue_3898);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3442;
-            bool __res_3443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "continuous");
-            __res_3442 = __res_3443;
-            return __res_3442;
+            bool __res_3899;
+            bool __res_3900 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "continuous");
+            __res_3899 = __res_3900;
+            return __res_3899;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_3901;
+            __marshalledValue_3901 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "continuous", __marshalledValue_3901);
         }
     }
 
@@ -58,14 +64,16 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3444;
-            bool __res_3445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "interimResults");
-            __res_3444 = __res_3445;
-            return __res_3444;
+            bool __res_3902;
+            bool __res_3903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "interimResults");
+            __res_3902 = __res_3903;
+            return __res_3902;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_3904;
+            __marshalledValue_3904 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "interimResults", __marshalledValue_3904);
         }
     }
 
@@ -73,14 +81,16 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_3446;
-            double __res_3447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxAlternatives");
-            __res_3446 = Convert.ToUInt32(__res_3447);
-            return __res_3446;
+            uint __res_3905;
+            double __res_3906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxAlternatives");
+            __res_3905 = Convert.ToUInt32(__res_3906);
+            return __res_3905;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_3907;
+            __marshalledValue_3907 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxAlternatives", __marshalledValue_3907);
         }
     }
 
@@ -88,14 +98,16 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3448;
-            bool __res_3449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "processLocally");
-            __res_3448 = __res_3449;
-            return __res_3448;
+            bool __res_3908;
+            bool __res_3909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "processLocally");
+            __res_3908 = __res_3909;
+            return __res_3908;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_3910;
+            __marshalledValue_3910 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "processLocally", __marshalledValue_3910);
         }
     }
 
@@ -103,9 +115,9 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_3450;
+            object __res_3911;
             throw new Exception();
-            return __res_3450;
+            return __res_3911;
         }
         set
         {
@@ -117,22 +129,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3451;
-            JSObject? __res_3452 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudiostart");
-            if (__res_3452 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3912;
+            JSObject? __res_3913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudiostart");
+            if (__res_3913 is null)
             {
-                __res_3451 = null;
+                __res_3912 = null;
             }
             else
             {
-                JSObject __notNullable_3453 = (JSObject)__res_3452;
-                throw new Exception("Marshaller from \"__notNullable_3453\" to \"__res_3451\" not supported.");
+                JSObject __notNullable_3914 = (JSObject)__res_3913;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3914\" to \"__res_3912\" not supported.");
             }
-            return __res_3451;
+            return __res_3912;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3915;
+            if (value is null)
+            {
+                __marshalledValue_3915 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3916 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3916\" to \"__marshalledValue_3915\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudiostart", __marshalledValue_3915);
         }
     }
 
@@ -140,22 +162,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3454;
-            JSObject? __res_3455 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundstart");
-            if (__res_3455 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3917;
+            JSObject? __res_3918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundstart");
+            if (__res_3918 is null)
             {
-                __res_3454 = null;
+                __res_3917 = null;
             }
             else
             {
-                JSObject __notNullable_3456 = (JSObject)__res_3455;
-                throw new Exception("Marshaller from \"__notNullable_3456\" to \"__res_3454\" not supported.");
+                JSObject __notNullable_3919 = (JSObject)__res_3918;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3919\" to \"__res_3917\" not supported.");
             }
-            return __res_3454;
+            return __res_3917;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3920;
+            if (value is null)
+            {
+                __marshalledValue_3920 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3921 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3921\" to \"__marshalledValue_3920\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundstart", __marshalledValue_3920);
         }
     }
 
@@ -163,22 +195,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3457;
-            JSObject? __res_3458 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechstart");
-            if (__res_3458 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3922;
+            JSObject? __res_3923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechstart");
+            if (__res_3923 is null)
             {
-                __res_3457 = null;
+                __res_3922 = null;
             }
             else
             {
-                JSObject __notNullable_3459 = (JSObject)__res_3458;
-                throw new Exception("Marshaller from \"__notNullable_3459\" to \"__res_3457\" not supported.");
+                JSObject __notNullable_3924 = (JSObject)__res_3923;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3924\" to \"__res_3922\" not supported.");
             }
-            return __res_3457;
+            return __res_3922;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3925;
+            if (value is null)
+            {
+                __marshalledValue_3925 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3926 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3926\" to \"__marshalledValue_3925\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechstart", __marshalledValue_3925);
         }
     }
 
@@ -186,22 +228,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3460;
-            JSObject? __res_3461 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechend");
-            if (__res_3461 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3927;
+            JSObject? __res_3928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechend");
+            if (__res_3928 is null)
             {
-                __res_3460 = null;
+                __res_3927 = null;
             }
             else
             {
-                JSObject __notNullable_3462 = (JSObject)__res_3461;
-                throw new Exception("Marshaller from \"__notNullable_3462\" to \"__res_3460\" not supported.");
+                JSObject __notNullable_3929 = (JSObject)__res_3928;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3929\" to \"__res_3927\" not supported.");
             }
-            return __res_3460;
+            return __res_3927;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3930;
+            if (value is null)
+            {
+                __marshalledValue_3930 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3931 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3931\" to \"__marshalledValue_3930\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechend", __marshalledValue_3930);
         }
     }
 
@@ -209,22 +261,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3463;
-            JSObject? __res_3464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundend");
-            if (__res_3464 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3932;
+            JSObject? __res_3933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundend");
+            if (__res_3933 is null)
             {
-                __res_3463 = null;
+                __res_3932 = null;
             }
             else
             {
-                JSObject __notNullable_3465 = (JSObject)__res_3464;
-                throw new Exception("Marshaller from \"__notNullable_3465\" to \"__res_3463\" not supported.");
+                JSObject __notNullable_3934 = (JSObject)__res_3933;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3934\" to \"__res_3932\" not supported.");
             }
-            return __res_3463;
+            return __res_3932;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3935;
+            if (value is null)
+            {
+                __marshalledValue_3935 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3936 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3936\" to \"__marshalledValue_3935\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundend", __marshalledValue_3935);
         }
     }
 
@@ -232,22 +294,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3466;
-            JSObject? __res_3467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioend");
-            if (__res_3467 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3937;
+            JSObject? __res_3938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioend");
+            if (__res_3938 is null)
             {
-                __res_3466 = null;
+                __res_3937 = null;
             }
             else
             {
-                JSObject __notNullable_3468 = (JSObject)__res_3467;
-                throw new Exception("Marshaller from \"__notNullable_3468\" to \"__res_3466\" not supported.");
+                JSObject __notNullable_3939 = (JSObject)__res_3938;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3939\" to \"__res_3937\" not supported.");
             }
-            return __res_3466;
+            return __res_3937;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3940;
+            if (value is null)
+            {
+                __marshalledValue_3940 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3941 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3941\" to \"__marshalledValue_3940\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioend", __marshalledValue_3940);
         }
     }
 
@@ -255,22 +327,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3469;
-            JSObject? __res_3470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresult");
-            if (__res_3470 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3942;
+            JSObject? __res_3943 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresult");
+            if (__res_3943 is null)
             {
-                __res_3469 = null;
+                __res_3942 = null;
             }
             else
             {
-                JSObject __notNullable_3471 = (JSObject)__res_3470;
-                throw new Exception("Marshaller from \"__notNullable_3471\" to \"__res_3469\" not supported.");
+                JSObject __notNullable_3944 = (JSObject)__res_3943;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3944\" to \"__res_3942\" not supported.");
             }
-            return __res_3469;
+            return __res_3942;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3945;
+            if (value is null)
+            {
+                __marshalledValue_3945 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3946 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3946\" to \"__marshalledValue_3945\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresult", __marshalledValue_3945);
         }
     }
 
@@ -278,22 +360,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3472;
-            JSObject? __res_3473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnomatch");
-            if (__res_3473 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3947;
+            JSObject? __res_3948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnomatch");
+            if (__res_3948 is null)
             {
-                __res_3472 = null;
+                __res_3947 = null;
             }
             else
             {
-                JSObject __notNullable_3474 = (JSObject)__res_3473;
-                throw new Exception("Marshaller from \"__notNullable_3474\" to \"__res_3472\" not supported.");
+                JSObject __notNullable_3949 = (JSObject)__res_3948;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3949\" to \"__res_3947\" not supported.");
             }
-            return __res_3472;
+            return __res_3947;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3950;
+            if (value is null)
+            {
+                __marshalledValue_3950 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3951 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3951\" to \"__marshalledValue_3950\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onnomatch", __marshalledValue_3950);
         }
     }
 
@@ -301,22 +393,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3475;
-            JSObject? __res_3476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_3476 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3952;
+            JSObject? __res_3953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_3953 is null)
             {
-                __res_3475 = null;
+                __res_3952 = null;
             }
             else
             {
-                JSObject __notNullable_3477 = (JSObject)__res_3476;
-                throw new Exception("Marshaller from \"__notNullable_3477\" to \"__res_3475\" not supported.");
+                JSObject __notNullable_3954 = (JSObject)__res_3953;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3954\" to \"__res_3952\" not supported.");
             }
-            return __res_3475;
+            return __res_3952;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3955;
+            if (value is null)
+            {
+                __marshalledValue_3955 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3956 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3956\" to \"__marshalledValue_3955\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_3955);
         }
     }
 
@@ -324,22 +426,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3478;
-            JSObject? __res_3479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
-            if (__res_3479 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3957;
+            JSObject? __res_3958 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
+            if (__res_3958 is null)
             {
-                __res_3478 = null;
+                __res_3957 = null;
             }
             else
             {
-                JSObject __notNullable_3480 = (JSObject)__res_3479;
-                throw new Exception("Marshaller from \"__notNullable_3480\" to \"__res_3478\" not supported.");
+                JSObject __notNullable_3959 = (JSObject)__res_3958;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3959\" to \"__res_3957\" not supported.");
             }
-            return __res_3478;
+            return __res_3957;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3960;
+            if (value is null)
+            {
+                __marshalledValue_3960 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3961 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3961\" to \"__marshalledValue_3960\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstart", __marshalledValue_3960);
         }
     }
 
@@ -347,22 +459,32 @@ public partial class SpeechRecognition(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3481;
-            JSObject? __res_3482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
-            if (__res_3482 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3962;
+            JSObject? __res_3963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
+            if (__res_3963 is null)
             {
-                __res_3481 = null;
+                __res_3962 = null;
             }
             else
             {
-                JSObject __notNullable_3483 = (JSObject)__res_3482;
-                throw new Exception("Marshaller from \"__notNullable_3483\" to \"__res_3481\" not supported.");
+                JSObject __notNullable_3964 = (JSObject)__res_3963;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3964\" to \"__res_3962\" not supported.");
             }
-            return __res_3481;
+            return __res_3962;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3965;
+            if (value is null)
+            {
+                __marshalledValue_3965 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3966 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3966\" to \"__marshalledValue_3965\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_3965);
         }
     }
 }

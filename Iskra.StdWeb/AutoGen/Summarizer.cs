@@ -13,10 +13,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_134;
-            string __res_135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_134 = __res_135;
-            return __res_134;
+            string __res_151;
+            string __res_152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_151 = __res_152;
+            return __res_151;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SummarizerType __res_136;
-            JSObject __res_137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_137\" to \"__res_136\" not supported.");
-            return __res_136;
+            Iskra.StdWeb.SummarizerType __res_153;
+            JSObject __res_154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_154\" to \"__res_153\" not supported.");
+            return __res_153;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SummarizerFormat __res_138;
-            JSObject __res_139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller from \"__res_139\" to \"__res_138\" not supported.");
-            return __res_138;
+            Iskra.StdWeb.SummarizerFormat __res_155;
+            JSObject __res_156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
+            throw new Exception("Marshaller ToManaged from \"__res_156\" to \"__res_155\" not supported.");
+            return __res_155;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SummarizerLength __res_140;
-            JSObject __res_141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller from \"__res_141\" to \"__res_140\" not supported.");
-            return __res_140;
+            Iskra.StdWeb.SummarizerLength __res_157;
+            JSObject __res_158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            throw new Exception("Marshaller ToManaged from \"__res_158\" to \"__res_157\" not supported.");
+            return __res_157;
         }
     }
 
@@ -57,9 +57,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_142;
+            object __res_159;
             throw new Exception();
-            return __res_142;
+            return __res_159;
         }
     }
 
@@ -67,9 +67,9 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_143;
+            object __res_160;
             throw new Exception();
-            return __res_143;
+            return __res_160;
         }
     }
 
@@ -77,18 +77,18 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_144;
-            string? __res_145 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_145 is null)
+            string? __res_161;
+            string? __res_162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_162 is null)
             {
-                __res_144 = null;
+                __res_161 = null;
             }
             else
             {
-                string __notNullable_146 = (string)__res_145;
-                __res_144 = __notNullable_146;
+                string __notNullable_163 = (string)__res_162;
+                __res_161 = __notNullable_163;
             }
-            return __res_144;
+            return __res_161;
         }
     }
 
@@ -96,10 +96,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_147;
-            double __res_148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_147 = __res_148;
-            return __res_147;
+            double __res_164;
+            double __res_165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_164 = __res_165;
+            return __res_164;
         }
     }
 }

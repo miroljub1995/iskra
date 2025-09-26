@@ -13,10 +13,10 @@ public partial class XRWebGLBinding(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1433;
-            double __res_1434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
-            __res_1433 = __res_1434;
-            return __res_1433;
+            double __res_1592;
+            double __res_1593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
+            __res_1592 = __res_1593;
+            return __res_1592;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRWebGLBinding(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1435;
-            bool __res_1436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
-            __res_1435 = __res_1436;
-            return __res_1435;
+            bool __res_1594;
+            bool __res_1595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
+            __res_1594 = __res_1595;
+            return __res_1594;
         }
     }
 }

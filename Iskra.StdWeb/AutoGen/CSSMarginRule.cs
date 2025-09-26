@@ -13,10 +13,10 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_6159;
-            string __res_6160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6159 = __res_6160;
-            return __res_6159;
+            string __res_7270;
+            string __res_7271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7270 = __res_7271;
+            return __res_7270;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleDeclaration __res_6161;
-            JSObject __res_6162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller from \"__res_6162\" to \"__res_6161\" not supported.");
-            return __res_6161;
+            Iskra.StdWeb.CSSStyleDeclaration __res_7272;
+            JSObject __res_7273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller ToManaged from \"__res_7273\" to \"__res_7272\" not supported.");
+            return __res_7272;
         }
     }
 }

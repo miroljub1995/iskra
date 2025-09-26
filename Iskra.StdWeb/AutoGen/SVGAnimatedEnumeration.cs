@@ -13,14 +13,16 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_254;
-            double __res_255 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            throw new Exception("Marshaller from \"__res_255\" to \"__res_254\" not supported.");
-            return __res_254;
+            ushort __res_284;
+            double __res_285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
+            throw new Exception("Marshaller ToManaged from \"__res_285\" to \"__res_284\" not supported.");
+            return __res_284;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_286;
+            __marshalledValue_286 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_286);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_256;
-            double __res_257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            throw new Exception("Marshaller from \"__res_257\" to \"__res_256\" not supported.");
-            return __res_256;
+            ushort __res_287;
+            double __res_288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
+            throw new Exception("Marshaller ToManaged from \"__res_288\" to \"__res_287\" not supported.");
+            return __res_287;
         }
     }
 }

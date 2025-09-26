@@ -13,10 +13,10 @@ public partial class SVGFETileElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1160;
-            JSObject __res_1161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller from \"__res_1161\" to \"__res_1160\" not supported.");
-            return __res_1160;
+            Iskra.StdWeb.SVGAnimatedString __res_1263;
+            JSObject __res_1264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller ToManaged from \"__res_1264\" to \"__res_1263\" not supported.");
+            return __res_1263;
         }
     }
 }

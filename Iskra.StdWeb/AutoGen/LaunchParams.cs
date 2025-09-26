@@ -13,18 +13,18 @@ public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4017;
-            string? __res_4018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "targetURL");
-            if (__res_4018 is null)
+            string? __res_4604;
+            string? __res_4605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "targetURL");
+            if (__res_4605 is null)
             {
-                __res_4017 = null;
+                __res_4604 = null;
             }
             else
             {
-                string __notNullable_4019 = (string)__res_4018;
-                __res_4017 = __notNullable_4019;
+                string __notNullable_4606 = (string)__res_4605;
+                __res_4604 = __notNullable_4606;
             }
-            return __res_4017;
+            return __res_4604;
         }
     }
 
@@ -32,9 +32,9 @@ public partial class LaunchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4020;
+            object __res_4607;
             throw new Exception();
-            return __res_4020;
+            return __res_4607;
         }
     }
 }

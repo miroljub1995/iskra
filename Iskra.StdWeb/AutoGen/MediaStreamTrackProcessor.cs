@@ -13,10 +13,10 @@ public partial class MediaStreamTrackProcessor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_182;
-            JSObject __res_183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller from \"__res_183\" to \"__res_182\" not supported.");
-            return __res_182;
+            Iskra.StdWeb.ReadableStream __res_201;
+            JSObject __res_202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller ToManaged from \"__res_202\" to \"__res_201\" not supported.");
+            return __res_201;
         }
     }
 }

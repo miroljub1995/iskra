@@ -13,18 +13,18 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4098;
-            string? __res_4099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_4099 is null)
+            string? __res_4694;
+            string? __res_4695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_4695 is null)
             {
-                __res_4098 = null;
+                __res_4694 = null;
             }
             else
             {
-                string __notNullable_4100 = (string)__res_4099;
-                __res_4098 = __notNullable_4100;
+                string __notNullable_4696 = (string)__res_4695;
+                __res_4694 = __notNullable_4696;
             }
-            return __res_4098;
+            return __res_4694;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4101;
-            string? __res_4102 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
-            if (__res_4102 is null)
+            string? __res_4697;
+            string? __res_4698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
+            if (__res_4698 is null)
             {
-                __res_4101 = null;
+                __res_4697 = null;
             }
             else
             {
-                string __notNullable_4103 = (string)__res_4102;
-                __res_4101 = __notNullable_4103;
+                string __notNullable_4699 = (string)__res_4698;
+                __res_4697 = __notNullable_4699;
             }
-            return __res_4101;
+            return __res_4697;
         }
     }
 
@@ -51,9 +51,9 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4104;
+            object __res_4700;
             throw new Exception();
-            return __res_4104;
+            return __res_4700;
         }
     }
 
@@ -61,10 +61,10 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4105;
-            JSObject __res_4106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
-            throw new Exception("Marshaller from \"__res_4106\" to \"__res_4105\" not supported.");
-            return __res_4105;
+            Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4701;
+            JSObject __res_4702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
+            throw new Exception("Marshaller ToManaged from \"__res_4702\" to \"__res_4701\" not supported.");
+            return __res_4701;
         }
     }
 
@@ -72,10 +72,10 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothServiceDataFilter __res_4107;
-            JSObject __res_4108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
-            throw new Exception("Marshaller from \"__res_4108\" to \"__res_4107\" not supported.");
-            return __res_4107;
+            Iskra.StdWeb.BluetoothServiceDataFilter __res_4703;
+            JSObject __res_4704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
+            throw new Exception("Marshaller ToManaged from \"__res_4704\" to \"__res_4703\" not supported.");
+            return __res_4703;
         }
     }
 }

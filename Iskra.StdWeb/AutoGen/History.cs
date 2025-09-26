@@ -13,10 +13,10 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_5567;
-            double __res_5568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5567 = Convert.ToUInt32(__res_5568);
-            return __res_5567;
+            uint __res_6561;
+            double __res_6562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6561 = Convert.ToUInt32(__res_6562);
+            return __res_6561;
         }
     }
 
@@ -24,14 +24,16 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ScrollRestoration __res_5569;
-            JSObject __res_5570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollRestoration");
-            throw new Exception("Marshaller from \"__res_5570\" to \"__res_5569\" not supported.");
-            return __res_5569;
+            Iskra.StdWeb.ScrollRestoration __res_6563;
+            JSObject __res_6564 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollRestoration");
+            throw new Exception("Marshaller ToManaged from \"__res_6564\" to \"__res_6563\" not supported.");
+            return __res_6563;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_6565;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_6565\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scrollRestoration", __marshalledValue_6565);
         }
     }
 
@@ -39,10 +41,10 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_5571;
-            JSObject __res_5572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            __res_5571 = __res_5572;
-            return __res_5571;
+            object? __res_6566;
+            JSObject __res_6567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            __res_6566 = __res_6567;
+            return __res_6566;
         }
     }
 }

@@ -13,22 +13,32 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1794;
-            JSObject? __res_1795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
-            if (__res_1795 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2006;
+            JSObject? __res_2007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
+            if (__res_2007 is null)
             {
-                __res_1794 = null;
+                __res_2006 = null;
             }
             else
             {
-                JSObject __notNullable_1796 = (JSObject)__res_1795;
-                throw new Exception("Marshaller from \"__notNullable_1796\" to \"__res_1794\" not supported.");
+                JSObject __notNullable_2008 = (JSObject)__res_2007;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2008\" to \"__res_2006\" not supported.");
             }
-            return __res_1794;
+            return __res_2006;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2009;
+            if (value is null)
+            {
+                __marshalledValue_2009 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2010 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2010\" to \"__marshalledValue_2009\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_2009);
         }
     }
 
@@ -36,10 +46,10 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1797;
-            bool __res_1798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
-            __res_1797 = __res_1798;
-            return __res_1797;
+            bool __res_2011;
+            bool __res_2012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
+            __res_2011 = __res_2012;
+            return __res_2011;
         }
     }
 
@@ -47,10 +57,10 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1799;
-            string __res_1800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
-            __res_1799 = __res_1800;
-            return __res_1799;
+            string __res_2013;
+            string __res_2014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
+            __res_2013 = __res_2014;
+            return __res_2013;
         }
     }
 }

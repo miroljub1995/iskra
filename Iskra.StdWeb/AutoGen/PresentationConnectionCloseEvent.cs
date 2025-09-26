@@ -13,10 +13,10 @@ public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.PresentationConnectionCloseReason __res_1996;
-            JSObject __res_1997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller from \"__res_1997\" to \"__res_1996\" not supported.");
-            return __res_1996;
+            Iskra.StdWeb.PresentationConnectionCloseReason __res_2257;
+            JSObject __res_2258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            throw new Exception("Marshaller ToManaged from \"__res_2258\" to \"__res_2257\" not supported.");
+            return __res_2257;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_1998;
-            string __res_1999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_1998 = __res_1999;
-            return __res_1998;
+            string __res_2259;
+            string __res_2260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_2259 = __res_2260;
+            return __res_2259;
         }
     }
 }

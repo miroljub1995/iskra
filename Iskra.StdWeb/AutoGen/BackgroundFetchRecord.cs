@@ -13,10 +13,10 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Request __res_3000;
-            JSObject __res_3001 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            throw new Exception("Marshaller from \"__res_3001\" to \"__res_3000\" not supported.");
-            return __res_3000;
+            Iskra.StdWeb.Request __res_3377;
+            JSObject __res_3378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            throw new Exception("Marshaller ToManaged from \"__res_3378\" to \"__res_3377\" not supported.");
+            return __res_3377;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3002;
+            object __res_3379;
             throw new Exception();
-            return __res_3002;
+            return __res_3379;
         }
     }
 }

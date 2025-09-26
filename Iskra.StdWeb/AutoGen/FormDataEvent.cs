@@ -13,10 +13,10 @@ public partial class FormDataEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.FormData __res_5336;
-            JSObject __res_5337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
-            throw new Exception("Marshaller from \"__res_5337\" to \"__res_5336\" not supported.");
-            return __res_5336;
+            Iskra.StdWeb.FormData __res_6283;
+            JSObject __res_6284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
+            throw new Exception("Marshaller ToManaged from \"__res_6284\" to \"__res_6283\" not supported.");
+            return __res_6283;
         }
     }
 }

@@ -13,22 +13,32 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3840;
-            JSObject? __res_3841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_3841 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4392;
+            JSObject? __res_4393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_4393 is null)
             {
-                __res_3840 = null;
+                __res_4392 = null;
             }
             else
             {
-                JSObject __notNullable_3842 = (JSObject)__res_3841;
-                throw new Exception("Marshaller from \"__notNullable_3842\" to \"__res_3840\" not supported.");
+                JSObject __notNullable_4394 = (JSObject)__res_4393;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4394\" to \"__res_4392\" not supported.");
             }
-            return __res_3840;
+            return __res_4392;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_4395;
+            if (value is null)
+            {
+                __marshalledValue_4395 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4396 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_4396\" to \"__marshalledValue_4395\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_4395);
         }
     }
 
@@ -36,22 +46,32 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3843;
-            JSObject? __res_3844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_3844 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4397;
+            JSObject? __res_4398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_4398 is null)
             {
-                __res_3843 = null;
+                __res_4397 = null;
             }
             else
             {
-                JSObject __notNullable_3845 = (JSObject)__res_3844;
-                throw new Exception("Marshaller from \"__notNullable_3845\" to \"__res_3843\" not supported.");
+                JSObject __notNullable_4399 = (JSObject)__res_4398;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4399\" to \"__res_4397\" not supported.");
             }
-            return __res_3843;
+            return __res_4397;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_4400;
+            if (value is null)
+            {
+                __marshalledValue_4400 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4401 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_4401\" to \"__marshalledValue_4400\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_4400);
         }
     }
 
@@ -59,10 +79,10 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3846;
-            bool __res_3847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
-            __res_3846 = __res_3847;
-            return __res_3846;
+            bool __res_4402;
+            bool __res_4403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            __res_4402 = __res_4403;
+            return __res_4402;
         }
     }
 
@@ -70,10 +90,10 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_3848;
-            JSObject __res_3849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller from \"__res_3849\" to \"__res_3848\" not supported.");
-            return __res_3848;
+            Iskra.StdWeb.ReadableStream __res_4404;
+            JSObject __res_4405 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller ToManaged from \"__res_4405\" to \"__res_4404\" not supported.");
+            return __res_4404;
         }
     }
 
@@ -81,10 +101,10 @@ public partial class SerialPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_3850;
-            JSObject __res_3851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller from \"__res_3851\" to \"__res_3850\" not supported.");
-            return __res_3850;
+            Iskra.StdWeb.WritableStream __res_4406;
+            JSObject __res_4407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller ToManaged from \"__res_4407\" to \"__res_4406\" not supported.");
+            return __res_4406;
         }
     }
 }

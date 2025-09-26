@@ -13,14 +13,16 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4918;
-            string __res_4919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4918 = __res_4919;
-            return __res_4918;
+            string __res_5730;
+            string __res_5731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5730 = __res_5731;
+            return __res_5730;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5732;
+            __marshalledValue_5732 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5732);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_4920;
-            JSObject __res_4921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            throw new Exception("Marshaller from \"__res_4921\" to \"__res_4920\" not supported.");
-            return __res_4920;
+            Iskra.StdWeb.HTMLCollection __res_5733;
+            JSObject __res_5734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            throw new Exception("Marshaller ToManaged from \"__res_5734\" to \"__res_5733\" not supported.");
+            return __res_5733;
         }
     }
 }

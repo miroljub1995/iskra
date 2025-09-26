@@ -13,10 +13,10 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_2420;
-            JSObject __res_2421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
-            throw new Exception("Marshaller from \"__res_2421\" to \"__res_2420\" not supported.");
-            return __res_2420;
+            Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_2764;
+            JSObject __res_2765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
+            throw new Exception("Marshaller ToManaged from \"__res_2765\" to \"__res_2764\" not supported.");
+            return __res_2764;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            string __res_2422;
-            string __res_2423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_2422 = __res_2423;
-            return __res_2422;
+            string __res_2766;
+            string __res_2767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2766 = __res_2767;
+            return __res_2766;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            Iskra.JSCore.DataView? __res_2424;
-            JSObject? __res_2425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_2425 is null)
+            Iskra.JSCore.DataView? __res_2768;
+            JSObject? __res_2769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_2769 is null)
             {
-                __res_2424 = null;
+                __res_2768 = null;
             }
             else
             {
-                JSObject __notNullable_2426 = (JSObject)__res_2425;
-                throw new Exception("Marshaller from \"__notNullable_2426\" to \"__res_2424\" not supported.");
+                JSObject __notNullable_2770 = (JSObject)__res_2769;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2770\" to \"__res_2768\" not supported.");
             }
-            return __res_2424;
+            return __res_2768;
         }
     }
 }

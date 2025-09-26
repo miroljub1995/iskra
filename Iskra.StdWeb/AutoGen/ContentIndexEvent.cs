@@ -13,10 +13,10 @@ public partial class ContentIndexEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_25;
-            string __res_26 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_25 = __res_26;
-            return __res_25;
+            string __res_26;
+            string __res_27 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_26 = __res_27;
+            return __res_26;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRHandedness __res_3696;
-            JSObject __res_3697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
-            throw new Exception("Marshaller from \"__res_3697\" to \"__res_3696\" not supported.");
-            return __res_3696;
+            Iskra.StdWeb.XRHandedness __res_4230;
+            JSObject __res_4231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
+            throw new Exception("Marshaller ToManaged from \"__res_4231\" to \"__res_4230\" not supported.");
+            return __res_4230;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRTargetRayMode __res_3698;
-            JSObject __res_3699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
-            throw new Exception("Marshaller from \"__res_3699\" to \"__res_3698\" not supported.");
-            return __res_3698;
+            Iskra.StdWeb.XRTargetRayMode __res_4232;
+            JSObject __res_4233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
+            throw new Exception("Marshaller ToManaged from \"__res_4233\" to \"__res_4232\" not supported.");
+            return __res_4232;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_3700;
-            JSObject __res_3701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
-            throw new Exception("Marshaller from \"__res_3701\" to \"__res_3700\" not supported.");
-            return __res_3700;
+            Iskra.StdWeb.XRSpace __res_4234;
+            JSObject __res_4235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
+            throw new Exception("Marshaller ToManaged from \"__res_4235\" to \"__res_4234\" not supported.");
+            return __res_4234;
         }
     }
 
@@ -46,18 +46,18 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace? __res_3702;
-            JSObject? __res_3703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
-            if (__res_3703 is null)
+            Iskra.StdWeb.XRSpace? __res_4236;
+            JSObject? __res_4237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
+            if (__res_4237 is null)
             {
-                __res_3702 = null;
+                __res_4236 = null;
             }
             else
             {
-                JSObject __notNullable_3704 = (JSObject)__res_3703;
-                throw new Exception("Marshaller from \"__notNullable_3704\" to \"__res_3702\" not supported.");
+                JSObject __notNullable_4238 = (JSObject)__res_4237;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4238\" to \"__res_4236\" not supported.");
             }
-            return __res_3702;
+            return __res_4236;
         }
     }
 
@@ -65,9 +65,9 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3705;
+            object __res_4239;
             throw new Exception();
-            return __res_3705;
+            return __res_4239;
         }
     }
 
@@ -75,10 +75,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3706;
-            bool __res_3707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
-            __res_3706 = __res_3707;
-            return __res_3706;
+            bool __res_4240;
+            bool __res_4241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
+            __res_4240 = __res_4241;
+            return __res_4240;
         }
     }
 }

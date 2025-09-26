@@ -13,14 +13,16 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6436;
-            string __res_6437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6436 = __res_6437;
-            return __res_6436;
+            string __res_7621;
+            string __res_7622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7621 = __res_7622;
+            return __res_7621;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_7623;
+            __marshalledValue_7623 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7623);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6438;
-            JSObject __res_6439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
-            __res_6438 = __res_6439;
-            return __res_6438;
+            object? __res_7624;
+            JSObject __res_7625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            __res_7624 = __res_7625;
+            return __res_7624;
         }
     }
 
@@ -39,10 +41,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMStringList __res_6440;
-            JSObject __res_6441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
-            throw new Exception("Marshaller from \"__res_6441\" to \"__res_6440\" not supported.");
-            return __res_6440;
+            Iskra.StdWeb.DOMStringList __res_7626;
+            JSObject __res_7627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
+            throw new Exception("Marshaller ToManaged from \"__res_7627\" to \"__res_7626\" not supported.");
+            return __res_7626;
         }
     }
 
@@ -50,10 +52,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBTransaction __res_6442;
-            JSObject __res_6443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
-            throw new Exception("Marshaller from \"__res_6443\" to \"__res_6442\" not supported.");
-            return __res_6442;
+            Iskra.StdWeb.IDBTransaction __res_7628;
+            JSObject __res_7629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
+            throw new Exception("Marshaller ToManaged from \"__res_7629\" to \"__res_7628\" not supported.");
+            return __res_7628;
         }
     }
 
@@ -61,10 +63,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6444;
-            bool __res_6445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
-            __res_6444 = __res_6445;
-            return __res_6444;
+            bool __res_7630;
+            bool __res_7631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
+            __res_7630 = __res_7631;
+            return __res_7630;
         }
     }
 }

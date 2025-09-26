@@ -13,10 +13,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioDestinationNode __res_6735;
-            JSObject __res_6736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
-            throw new Exception("Marshaller from \"__res_6736\" to \"__res_6735\" not supported.");
-            return __res_6735;
+            Iskra.StdWeb.AudioDestinationNode __res_7944;
+            JSObject __res_7945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
+            throw new Exception("Marshaller ToManaged from \"__res_7945\" to \"__res_7944\" not supported.");
+            return __res_7944;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            float __res_6737;
-            double __res_6738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_6737 = Convert.ToSingle(__res_6738);
-            return __res_6737;
+            float __res_7946;
+            double __res_7947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_7946 = Convert.ToSingle(__res_7947);
+            return __res_7946;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_6739;
-            double __res_6740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
-            __res_6739 = __res_6740;
-            return __res_6739;
+            double __res_7948;
+            double __res_7949 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
+            __res_7948 = __res_7949;
+            return __res_7948;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioListener __res_6741;
-            JSObject __res_6742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "listener");
-            throw new Exception("Marshaller from \"__res_6742\" to \"__res_6741\" not supported.");
-            return __res_6741;
+            Iskra.StdWeb.AudioListener __res_7950;
+            JSObject __res_7951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "listener");
+            throw new Exception("Marshaller ToManaged from \"__res_7951\" to \"__res_7950\" not supported.");
+            return __res_7950;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioContextState __res_6743;
-            JSObject __res_6744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller from \"__res_6744\" to \"__res_6743\" not supported.");
-            return __res_6743;
+            Iskra.StdWeb.AudioContextState __res_7952;
+            JSObject __res_7953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller ToManaged from \"__res_7953\" to \"__res_7952\" not supported.");
+            return __res_7952;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_6745;
-            double __res_6746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
-            __res_6745 = Convert.ToUInt32(__res_6746);
-            return __res_6745;
+            uint __res_7954;
+            double __res_7955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
+            __res_7954 = Convert.ToUInt32(__res_7955);
+            return __res_7954;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioWorklet __res_6747;
-            JSObject __res_6748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioWorklet");
-            throw new Exception("Marshaller from \"__res_6748\" to \"__res_6747\" not supported.");
-            return __res_6747;
+            Iskra.StdWeb.AudioWorklet __res_7956;
+            JSObject __res_7957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioWorklet");
+            throw new Exception("Marshaller ToManaged from \"__res_7957\" to \"__res_7956\" not supported.");
+            return __res_7956;
         }
     }
 
@@ -90,22 +90,32 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6749;
-            JSObject? __res_6750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_6750 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7958;
+            JSObject? __res_7959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_7959 is null)
             {
-                __res_6749 = null;
+                __res_7958 = null;
             }
             else
             {
-                JSObject __notNullable_6751 = (JSObject)__res_6750;
-                throw new Exception("Marshaller from \"__notNullable_6751\" to \"__res_6749\" not supported.");
+                JSObject __notNullable_7960 = (JSObject)__res_7959;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7960\" to \"__res_7958\" not supported.");
             }
-            return __res_6749;
+            return __res_7958;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7961;
+            if (value is null)
+            {
+                __marshalledValue_7961 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7962 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7962\" to \"__marshalledValue_7961\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7961);
         }
     }
 }

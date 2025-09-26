@@ -13,14 +13,16 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            uint __res_6805;
-            double __res_6806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fftSize");
-            __res_6805 = Convert.ToUInt32(__res_6806);
-            return __res_6805;
+            uint __res_8029;
+            double __res_8030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fftSize");
+            __res_8029 = Convert.ToUInt32(__res_8030);
+            return __res_8029;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_8031;
+            __marshalledValue_8031 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "fftSize", __marshalledValue_8031);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            uint __res_6807;
-            double __res_6808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frequencyBinCount");
-            __res_6807 = Convert.ToUInt32(__res_6808);
-            return __res_6807;
+            uint __res_8032;
+            double __res_8033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frequencyBinCount");
+            __res_8032 = Convert.ToUInt32(__res_8033);
+            return __res_8032;
         }
     }
 
@@ -39,14 +41,16 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_6809;
-            double __res_6810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minDecibels");
-            __res_6809 = __res_6810;
-            return __res_6809;
+            double __res_8034;
+            double __res_8035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minDecibels");
+            __res_8034 = __res_8035;
+            return __res_8034;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_8036;
+            __marshalledValue_8036 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minDecibels", __marshalledValue_8036);
         }
     }
 
@@ -54,14 +58,16 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_6811;
-            double __res_6812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDecibels");
-            __res_6811 = __res_6812;
-            return __res_6811;
+            double __res_8037;
+            double __res_8038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDecibels");
+            __res_8037 = __res_8038;
+            return __res_8037;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_8039;
+            __marshalledValue_8039 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDecibels", __marshalledValue_8039);
         }
     }
 
@@ -69,14 +75,16 @@ public partial class AnalyserNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_6813;
-            double __res_6814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant");
-            __res_6813 = __res_6814;
-            return __res_6813;
+            double __res_8040;
+            double __res_8041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant");
+            __res_8040 = __res_8041;
+            return __res_8040;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_8042;
+            __marshalledValue_8042 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant", __marshalledValue_8042);
         }
     }
 }

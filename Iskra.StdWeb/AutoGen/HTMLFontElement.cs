@@ -13,14 +13,16 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5904;
-            string __res_5905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
-            __res_5904 = __res_5905;
-            return __res_5904;
+            string __res_6958;
+            string __res_6959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
+            __res_6958 = __res_6959;
+            return __res_6958;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6960;
+            __marshalledValue_6960 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_6960);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5906;
-            string __res_5907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "face");
-            __res_5906 = __res_5907;
-            return __res_5906;
+            string __res_6961;
+            string __res_6962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "face");
+            __res_6961 = __res_6962;
+            return __res_6961;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6963;
+            __marshalledValue_6963 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "face", __marshalledValue_6963);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class HTMLFontElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5908;
-            string __res_5909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
-            __res_5908 = __res_5909;
-            return __res_5908;
+            string __res_6964;
+            string __res_6965 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
+            __res_6964 = __res_6965;
+            return __res_6964;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6966;
+            __marshalledValue_6966 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_6966);
         }
     }
 }

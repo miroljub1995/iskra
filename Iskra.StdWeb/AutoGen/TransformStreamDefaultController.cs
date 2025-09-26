@@ -13,18 +13,18 @@ public partial class TransformStreamDefaultController(JSObject obj): JSObjectPro
     {
         get
         {
-            double? __res_855;
-            double? __res_856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_856 is null)
+            double? __res_946;
+            double? __res_947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_947 is null)
             {
-                __res_855 = null;
+                __res_946 = null;
             }
             else
             {
-                double __notNullable_857 = (double)__res_856;
-                __res_855 = __notNullable_857;
+                double __notNullable_948 = (double)__res_947;
+                __res_946 = __notNullable_948;
             }
-            return __res_855;
+            return __res_946;
         }
     }
 }

@@ -13,18 +13,18 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack? __res_1673;
-            JSObject? __res_1674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
-            if (__res_1674 is null)
+            Iskra.StdWeb.MediaStreamTrack? __res_1856;
+            JSObject? __res_1857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
+            if (__res_1857 is null)
             {
-                __res_1673 = null;
+                __res_1856 = null;
             }
             else
             {
-                JSObject __notNullable_1675 = (JSObject)__res_1674;
-                throw new Exception("Marshaller from \"__notNullable_1675\" to \"__res_1673\" not supported.");
+                JSObject __notNullable_1858 = (JSObject)__res_1857;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1858\" to \"__res_1856\" not supported.");
             }
-            return __res_1673;
+            return __res_1856;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport? __res_1676;
-            JSObject? __res_1677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
-            if (__res_1677 is null)
+            Iskra.StdWeb.RTCDtlsTransport? __res_1859;
+            JSObject? __res_1860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_1860 is null)
             {
-                __res_1676 = null;
+                __res_1859 = null;
             }
             else
             {
-                JSObject __notNullable_1678 = (JSObject)__res_1677;
-                throw new Exception("Marshaller from \"__notNullable_1678\" to \"__res_1676\" not supported.");
+                JSObject __notNullable_1861 = (JSObject)__res_1860;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1861\" to \"__res_1859\" not supported.");
             }
-            return __res_1676;
+            return __res_1859;
         }
     }
 }

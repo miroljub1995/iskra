@@ -13,18 +13,18 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ShadowRoot? __res_5428;
-            JSObject? __res_5429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
-            if (__res_5429 is null)
+            Iskra.StdWeb.ShadowRoot? __res_6405;
+            JSObject? __res_6406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
+            if (__res_6406 is null)
             {
-                __res_5428 = null;
+                __res_6405 = null;
             }
             else
             {
-                JSObject __notNullable_5430 = (JSObject)__res_5429;
-                throw new Exception("Marshaller from \"__notNullable_5430\" to \"__res_5428\" not supported.");
+                JSObject __notNullable_6407 = (JSObject)__res_6406;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6407\" to \"__res_6405\" not supported.");
             }
-            return __res_5428;
+            return __res_6405;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_5431;
-            JSObject? __res_5432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_5432 is null)
+            Iskra.StdWeb.HTMLFormElement? __res_6408;
+            JSObject? __res_6409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6409 is null)
             {
-                __res_5431 = null;
+                __res_6408 = null;
             }
             else
             {
-                JSObject __notNullable_5433 = (JSObject)__res_5432;
-                throw new Exception("Marshaller from \"__notNullable_5433\" to \"__res_5431\" not supported.");
+                JSObject __notNullable_6410 = (JSObject)__res_6409;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6410\" to \"__res_6408\" not supported.");
             }
-            return __res_5431;
+            return __res_6408;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_5434;
-            bool __res_5435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_5434 = __res_5435;
-            return __res_5434;
+            bool __res_6411;
+            bool __res_6412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_6411 = __res_6412;
+            return __res_6411;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ValidityState __res_5436;
-            JSObject __res_5437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller from \"__res_5437\" to \"__res_5436\" not supported.");
-            return __res_5436;
+            Iskra.StdWeb.ValidityState __res_6413;
+            JSObject __res_6414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            throw new Exception("Marshaller ToManaged from \"__res_6414\" to \"__res_6413\" not supported.");
+            return __res_6413;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5438;
-            string __res_5439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_5438 = __res_5439;
-            return __res_5438;
+            string __res_6415;
+            string __res_6416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_6415 = __res_6416;
+            return __res_6415;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_5440;
-            JSObject __res_5441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller from \"__res_5441\" to \"__res_5440\" not supported.");
-            return __res_5440;
+            Iskra.StdWeb.NodeList __res_6417;
+            JSObject __res_6418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            throw new Exception("Marshaller ToManaged from \"__res_6418\" to \"__res_6417\" not supported.");
+            return __res_6417;
         }
     }
 
@@ -95,10 +95,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CustomStateSet __res_5442;
-            JSObject __res_5443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
-            throw new Exception("Marshaller from \"__res_5443\" to \"__res_5442\" not supported.");
-            return __res_5442;
+            Iskra.StdWeb.CustomStateSet __res_6419;
+            JSObject __res_6420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
+            throw new Exception("Marshaller ToManaged from \"__res_6420\" to \"__res_6419\" not supported.");
+            return __res_6419;
         }
     }
 }

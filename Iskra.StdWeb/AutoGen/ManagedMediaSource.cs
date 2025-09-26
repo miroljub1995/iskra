@@ -13,10 +13,10 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            bool __res_6375;
-            bool __res_6376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "streaming");
-            __res_6375 = __res_6376;
-            return __res_6375;
+            bool __res_7538;
+            bool __res_7539 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "streaming");
+            __res_7538 = __res_7539;
+            return __res_7538;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6377;
-            JSObject? __res_6378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming");
-            if (__res_6378 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7540;
+            JSObject? __res_7541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming");
+            if (__res_7541 is null)
             {
-                __res_6377 = null;
+                __res_7540 = null;
             }
             else
             {
-                JSObject __notNullable_6379 = (JSObject)__res_6378;
-                throw new Exception("Marshaller from \"__notNullable_6379\" to \"__res_6377\" not supported.");
+                JSObject __notNullable_7542 = (JSObject)__res_7541;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7542\" to \"__res_7540\" not supported.");
             }
-            return __res_6377;
+            return __res_7540;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7543;
+            if (value is null)
+            {
+                __marshalledValue_7543 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7544 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7544\" to \"__marshalledValue_7543\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming", __marshalledValue_7543);
         }
     }
 
@@ -47,22 +57,32 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6380;
-            JSObject? __res_6381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming");
-            if (__res_6381 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7545;
+            JSObject? __res_7546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming");
+            if (__res_7546 is null)
             {
-                __res_6380 = null;
+                __res_7545 = null;
             }
             else
             {
-                JSObject __notNullable_6382 = (JSObject)__res_6381;
-                throw new Exception("Marshaller from \"__notNullable_6382\" to \"__res_6380\" not supported.");
+                JSObject __notNullable_7547 = (JSObject)__res_7546;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7547\" to \"__res_7545\" not supported.");
             }
-            return __res_6380;
+            return __res_7545;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7548;
+            if (value is null)
+            {
+                __marshalledValue_7548 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7549 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7549\" to \"__marshalledValue_7548\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming", __marshalledValue_7548);
         }
     }
 }

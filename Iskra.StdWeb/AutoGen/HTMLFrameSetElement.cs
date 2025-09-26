@@ -13,14 +13,16 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5876;
-            string __res_5877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
-            __res_5876 = __res_5877;
-            return __res_5876;
+            string __res_6919;
+            string __res_6920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
+            __res_6919 = __res_6920;
+            return __res_6919;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6921;
+            __marshalledValue_6921 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cols", __marshalledValue_6921);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5878;
-            string __res_5879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
-            __res_5878 = __res_5879;
-            return __res_5878;
+            string __res_6922;
+            string __res_6923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
+            __res_6922 = __res_6923;
+            return __res_6922;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6924;
+            __marshalledValue_6924 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rows", __marshalledValue_6924);
         }
     }
 }

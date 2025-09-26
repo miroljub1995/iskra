@@ -13,10 +13,10 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.SFrameTransformErrorEventType __res_895;
-            JSObject __res_896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
-            throw new Exception("Marshaller from \"__res_896\" to \"__res_895\" not supported.");
-            return __res_895;
+            Iskra.StdWeb.SFrameTransformErrorEventType __res_988;
+            JSObject __res_989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
+            throw new Exception("Marshaller ToManaged from \"__res_989\" to \"__res_988\" not supported.");
+            return __res_988;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_897;
+            object __res_990;
             throw new Exception();
-            return __res_897;
+            return __res_990;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_898;
-            JSObject __res_899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
-            __res_898 = __res_899;
-            return __res_898;
+            object? __res_991;
+            JSObject __res_992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            __res_991 = __res_992;
+            return __res_991;
         }
     }
 }

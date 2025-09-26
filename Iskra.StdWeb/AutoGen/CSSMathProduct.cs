@@ -13,10 +13,10 @@ public partial class CSSMathProduct(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericArray __res_46;
-            JSObject __res_47 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            throw new Exception("Marshaller from \"__res_47\" to \"__res_46\" not supported.");
-            return __res_46;
+            Iskra.StdWeb.CSSNumericArray __res_50;
+            JSObject __res_51 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            throw new Exception("Marshaller ToManaged from \"__res_51\" to \"__res_50\" not supported.");
+            return __res_50;
         }
     }
 }

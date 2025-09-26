@@ -13,10 +13,10 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3791;
-            string __res_3792 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3791 = __res_3792;
-            return __res_3791;
+            string __res_4335;
+            string __res_4336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4335 = __res_4336;
+            return __res_4335;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBFactory __res_3793;
-            JSObject __res_3794 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            throw new Exception("Marshaller from \"__res_3794\" to \"__res_3793\" not supported.");
-            return __res_3793;
+            Iskra.StdWeb.IDBFactory __res_4337;
+            JSObject __res_4338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            throw new Exception("Marshaller ToManaged from \"__res_4338\" to \"__res_4337\" not supported.");
+            return __res_4337;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CacheStorage __res_3795;
-            JSObject __res_3796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            throw new Exception("Marshaller from \"__res_3796\" to \"__res_3795\" not supported.");
-            return __res_3795;
+            Iskra.StdWeb.CacheStorage __res_4339;
+            JSObject __res_4340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            throw new Exception("Marshaller ToManaged from \"__res_4340\" to \"__res_4339\" not supported.");
+            return __res_4339;
         }
     }
 }

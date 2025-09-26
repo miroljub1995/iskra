@@ -13,10 +13,10 @@ public partial class SpeechSynthesisErrorEvent(JSObject obj): SpeechSynthesisEve
     {
         get
         {
-            Iskra.StdWeb.SpeechSynthesisErrorCode __res_3565;
-            JSObject __res_3566 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            throw new Exception("Marshaller from \"__res_3566\" to \"__res_3565\" not supported.");
-            return __res_3565;
+            Iskra.StdWeb.SpeechSynthesisErrorCode __res_4073;
+            JSObject __res_4074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            throw new Exception("Marshaller ToManaged from \"__res_4074\" to \"__res_4073\" not supported.");
+            return __res_4073;
         }
     }
 }

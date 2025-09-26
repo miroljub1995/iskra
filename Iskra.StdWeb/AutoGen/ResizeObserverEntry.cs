@@ -13,10 +13,10 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_4040;
-            JSObject __res_4041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller from \"__res_4041\" to \"__res_4040\" not supported.");
-            return __res_4040;
+            Iskra.StdWeb.Element __res_4627;
+            JSObject __res_4628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            throw new Exception("Marshaller ToManaged from \"__res_4628\" to \"__res_4627\" not supported.");
+            return __res_4627;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_4042;
-            JSObject __res_4043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentRect");
-            throw new Exception("Marshaller from \"__res_4043\" to \"__res_4042\" not supported.");
-            return __res_4042;
+            Iskra.StdWeb.DOMRectReadOnly __res_4629;
+            JSObject __res_4630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentRect");
+            throw new Exception("Marshaller ToManaged from \"__res_4630\" to \"__res_4629\" not supported.");
+            return __res_4629;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4044;
+            object __res_4631;
             throw new Exception();
-            return __res_4044;
+            return __res_4631;
         }
     }
 
@@ -45,9 +45,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4045;
+            object __res_4632;
             throw new Exception();
-            return __res_4045;
+            return __res_4632;
         }
     }
 
@@ -55,9 +55,9 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4046;
+            object __res_4633;
             throw new Exception();
-            return __res_4046;
+            return __res_4633;
         }
     }
 }

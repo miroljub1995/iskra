@@ -13,10 +13,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7009;
-            double __res_7010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
-            __res_7009 = Convert.ToUInt32(__res_7010);
-            return __res_7009;
+            uint __res_8275;
+            double __res_8276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
+            __res_8275 = Convert.ToUInt32(__res_8276);
+            return __res_8275;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7011;
-            double __res_7012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
-            __res_7011 = Convert.ToUInt32(__res_7012);
-            return __res_7011;
+            uint __res_8277;
+            double __res_8278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
+            __res_8277 = Convert.ToUInt32(__res_8278);
+            return __res_8277;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.UnderlineStyle __res_7013;
-            JSObject __res_7014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineStyle");
-            throw new Exception("Marshaller from \"__res_7014\" to \"__res_7013\" not supported.");
-            return __res_7013;
+            Iskra.StdWeb.UnderlineStyle __res_8279;
+            JSObject __res_8280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineStyle");
+            throw new Exception("Marshaller ToManaged from \"__res_8280\" to \"__res_8279\" not supported.");
+            return __res_8279;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.UnderlineThickness __res_7015;
-            JSObject __res_7016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineThickness");
-            throw new Exception("Marshaller from \"__res_7016\" to \"__res_7015\" not supported.");
-            return __res_7015;
+            Iskra.StdWeb.UnderlineThickness __res_8281;
+            JSObject __res_8282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineThickness");
+            throw new Exception("Marshaller ToManaged from \"__res_8282\" to \"__res_8281\" not supported.");
+            return __res_8281;
         }
     }
 }

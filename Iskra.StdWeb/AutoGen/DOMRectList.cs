@@ -13,10 +13,10 @@ public partial class DOMRectList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3072;
-            double __res_3073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3072 = Convert.ToUInt32(__res_3073);
-            return __res_3072;
+            uint __res_3459;
+            double __res_3460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3459 = Convert.ToUInt32(__res_3460);
+            return __res_3459;
         }
     }
 }

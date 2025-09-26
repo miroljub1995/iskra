@@ -13,10 +13,10 @@ public partial class SyncEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_6256;
-            string __res_6257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
-            __res_6256 = __res_6257;
-            return __res_6256;
+            string __res_7388;
+            string __res_7389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
+            __res_7388 = __res_7389;
+            return __res_7388;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SyncEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            bool __res_6258;
-            bool __res_6259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lastChance");
-            __res_6258 = __res_6259;
-            return __res_6258;
+            bool __res_7390;
+            bool __res_7391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lastChance");
+            __res_7390 = __res_7391;
+            return __res_7390;
         }
     }
 }

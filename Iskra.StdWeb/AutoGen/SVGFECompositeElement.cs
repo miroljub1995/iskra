@@ -13,10 +13,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1026;
-            JSObject __res_1027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller from \"__res_1027\" to \"__res_1026\" not supported.");
-            return __res_1026;
+            Iskra.StdWeb.SVGAnimatedString __res_1129;
+            JSObject __res_1130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller ToManaged from \"__res_1130\" to \"__res_1129\" not supported.");
+            return __res_1129;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1028;
-            JSObject __res_1029 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
-            throw new Exception("Marshaller from \"__res_1029\" to \"__res_1028\" not supported.");
-            return __res_1028;
+            Iskra.StdWeb.SVGAnimatedString __res_1131;
+            JSObject __res_1132 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
+            throw new Exception("Marshaller ToManaged from \"__res_1132\" to \"__res_1131\" not supported.");
+            return __res_1131;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1030;
-            JSObject __res_1031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
-            throw new Exception("Marshaller from \"__res_1031\" to \"__res_1030\" not supported.");
-            return __res_1030;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1133;
+            JSObject __res_1134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
+            throw new Exception("Marshaller ToManaged from \"__res_1134\" to \"__res_1133\" not supported.");
+            return __res_1133;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1032;
-            JSObject __res_1033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k1");
-            throw new Exception("Marshaller from \"__res_1033\" to \"__res_1032\" not supported.");
-            return __res_1032;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1135;
+            JSObject __res_1136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k1");
+            throw new Exception("Marshaller ToManaged from \"__res_1136\" to \"__res_1135\" not supported.");
+            return __res_1135;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1034;
-            JSObject __res_1035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k2");
-            throw new Exception("Marshaller from \"__res_1035\" to \"__res_1034\" not supported.");
-            return __res_1034;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1137;
+            JSObject __res_1138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k2");
+            throw new Exception("Marshaller ToManaged from \"__res_1138\" to \"__res_1137\" not supported.");
+            return __res_1137;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1036;
-            JSObject __res_1037 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k3");
-            throw new Exception("Marshaller from \"__res_1037\" to \"__res_1036\" not supported.");
-            return __res_1036;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1139;
+            JSObject __res_1140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k3");
+            throw new Exception("Marshaller ToManaged from \"__res_1140\" to \"__res_1139\" not supported.");
+            return __res_1139;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1038;
-            JSObject __res_1039 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k4");
-            throw new Exception("Marshaller from \"__res_1039\" to \"__res_1038\" not supported.");
-            return __res_1038;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1141;
+            JSObject __res_1142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k4");
+            throw new Exception("Marshaller ToManaged from \"__res_1142\" to \"__res_1141\" not supported.");
+            return __res_1141;
         }
     }
 }

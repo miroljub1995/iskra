@@ -13,10 +13,10 @@ public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj
     {
         get
         {
-            int __res_734;
-            double __res_735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeMin");
-            __res_734 = Convert.ToInt32(__res_735);
-            return __res_734;
+            int __res_795;
+            double __res_796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeMin");
+            __res_795 = Convert.ToInt32(__res_796);
+            return __res_795;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj
     {
         get
         {
-            int __res_736;
-            double __res_737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeMax");
-            __res_736 = Convert.ToInt32(__res_737);
-            return __res_736;
+            int __res_797;
+            double __res_798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeMax");
+            __res_797 = Convert.ToInt32(__res_798);
+            return __res_797;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class WebGLShaderPrecisionFormat(JSObject obj): JSObjectProxy(obj
     {
         get
         {
-            int __res_738;
-            double __res_739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "precision");
-            __res_738 = Convert.ToInt32(__res_739);
-            return __res_738;
+            int __res_799;
+            double __res_800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "precision");
+            __res_799 = Convert.ToInt32(__res_800);
+            return __res_799;
         }
     }
 }

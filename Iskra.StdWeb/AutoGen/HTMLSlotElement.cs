@@ -13,14 +13,16 @@ public partial class HTMLSlotElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5383;
-            string __res_5384 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5383 = __res_5384;
-            return __res_5383;
+            string __res_6351;
+            string __res_6352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6351 = __res_6352;
+            return __res_6351;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6353;
+            __marshalledValue_6353 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6353);
         }
     }
 }

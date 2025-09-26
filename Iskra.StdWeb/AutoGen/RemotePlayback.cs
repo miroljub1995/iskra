@@ -13,10 +13,10 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RemotePlaybackState __res_4361;
-            JSObject __res_4362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller from \"__res_4362\" to \"__res_4361\" not supported.");
-            return __res_4361;
+            Iskra.StdWeb.RemotePlaybackState __res_5004;
+            JSObject __res_5005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller ToManaged from \"__res_5005\" to \"__res_5004\" not supported.");
+            return __res_5004;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4363;
-            JSObject? __res_4364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting");
-            if (__res_4364 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5006;
+            JSObject? __res_5007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting");
+            if (__res_5007 is null)
             {
-                __res_4363 = null;
+                __res_5006 = null;
             }
             else
             {
-                JSObject __notNullable_4365 = (JSObject)__res_4364;
-                throw new Exception("Marshaller from \"__notNullable_4365\" to \"__res_4363\" not supported.");
+                JSObject __notNullable_5008 = (JSObject)__res_5007;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5008\" to \"__res_5006\" not supported.");
             }
-            return __res_4363;
+            return __res_5006;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5009;
+            if (value is null)
+            {
+                __marshalledValue_5009 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5010 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5010\" to \"__marshalledValue_5009\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting", __marshalledValue_5009);
         }
     }
 
@@ -47,22 +57,32 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4366;
-            JSObject? __res_4367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_4367 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5011;
+            JSObject? __res_5012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_5012 is null)
             {
-                __res_4366 = null;
+                __res_5011 = null;
             }
             else
             {
-                JSObject __notNullable_4368 = (JSObject)__res_4367;
-                throw new Exception("Marshaller from \"__notNullable_4368\" to \"__res_4366\" not supported.");
+                JSObject __notNullable_5013 = (JSObject)__res_5012;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5013\" to \"__res_5011\" not supported.");
             }
-            return __res_4366;
+            return __res_5011;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5014;
+            if (value is null)
+            {
+                __marshalledValue_5014 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5015 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5015\" to \"__marshalledValue_5014\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_5014);
         }
     }
 
@@ -70,22 +90,32 @@ public partial class RemotePlayback(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4369;
-            JSObject? __res_4370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_4370 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5016;
+            JSObject? __res_5017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_5017 is null)
             {
-                __res_4369 = null;
+                __res_5016 = null;
             }
             else
             {
-                JSObject __notNullable_4371 = (JSObject)__res_4370;
-                throw new Exception("Marshaller from \"__notNullable_4371\" to \"__res_4369\" not supported.");
+                JSObject __notNullable_5018 = (JSObject)__res_5017;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5018\" to \"__res_5016\" not supported.");
             }
-            return __res_4369;
+            return __res_5016;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5019;
+            if (value is null)
+            {
+                __marshalledValue_5019 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5020 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5020\" to \"__marshalledValue_5019\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_5019);
         }
     }
 }

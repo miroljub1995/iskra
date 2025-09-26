@@ -13,18 +13,18 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.UserIdleState? __res_2430;
-            JSObject? __res_2431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userState");
-            if (__res_2431 is null)
+            Iskra.StdWeb.UserIdleState? __res_2774;
+            JSObject? __res_2775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userState");
+            if (__res_2775 is null)
             {
-                __res_2430 = null;
+                __res_2774 = null;
             }
             else
             {
-                JSObject __notNullable_2432 = (JSObject)__res_2431;
-                throw new Exception("Marshaller from \"__notNullable_2432\" to \"__res_2430\" not supported.");
+                JSObject __notNullable_2776 = (JSObject)__res_2775;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2776\" to \"__res_2774\" not supported.");
             }
-            return __res_2430;
+            return __res_2774;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ScreenIdleState? __res_2433;
-            JSObject? __res_2434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "screenState");
-            if (__res_2434 is null)
+            Iskra.StdWeb.ScreenIdleState? __res_2777;
+            JSObject? __res_2778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "screenState");
+            if (__res_2778 is null)
             {
-                __res_2433 = null;
+                __res_2777 = null;
             }
             else
             {
-                JSObject __notNullable_2435 = (JSObject)__res_2434;
-                throw new Exception("Marshaller from \"__notNullable_2435\" to \"__res_2433\" not supported.");
+                JSObject __notNullable_2779 = (JSObject)__res_2778;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2779\" to \"__res_2777\" not supported.");
             }
-            return __res_2433;
+            return __res_2777;
         }
     }
 
@@ -51,22 +51,32 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2436;
-            JSObject? __res_2437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_2437 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2780;
+            JSObject? __res_2781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_2781 is null)
             {
-                __res_2436 = null;
+                __res_2780 = null;
             }
             else
             {
-                JSObject __notNullable_2438 = (JSObject)__res_2437;
-                throw new Exception("Marshaller from \"__notNullable_2438\" to \"__res_2436\" not supported.");
+                JSObject __notNullable_2782 = (JSObject)__res_2781;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2782\" to \"__res_2780\" not supported.");
             }
-            return __res_2436;
+            return __res_2780;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2783;
+            if (value is null)
+            {
+                __marshalledValue_2783 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2784 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2784\" to \"__marshalledValue_2783\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_2783);
         }
     }
 }

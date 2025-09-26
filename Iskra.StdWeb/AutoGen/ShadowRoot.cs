@@ -13,10 +13,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.ShadowRootMode __res_2854;
-            JSObject __res_2855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller from \"__res_2855\" to \"__res_2854\" not supported.");
-            return __res_2854;
+            Iskra.StdWeb.ShadowRootMode __res_3220;
+            JSObject __res_3221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller ToManaged from \"__res_3221\" to \"__res_3220\" not supported.");
+            return __res_3220;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_2856;
-            bool __res_2857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
-            __res_2856 = __res_2857;
-            return __res_2856;
+            bool __res_3222;
+            bool __res_3223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
+            __res_3222 = __res_3223;
+            return __res_3222;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.SlotAssignmentMode __res_2858;
-            JSObject __res_2859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slotAssignment");
-            throw new Exception("Marshaller from \"__res_2859\" to \"__res_2858\" not supported.");
-            return __res_2858;
+            Iskra.StdWeb.SlotAssignmentMode __res_3224;
+            JSObject __res_3225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slotAssignment");
+            throw new Exception("Marshaller ToManaged from \"__res_3225\" to \"__res_3224\" not supported.");
+            return __res_3224;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_2860;
-            bool __res_2861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
-            __res_2860 = __res_2861;
-            return __res_2860;
+            bool __res_3226;
+            bool __res_3227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
+            __res_3226 = __res_3227;
+            return __res_3226;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_2862;
-            bool __res_2863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
-            __res_2862 = __res_2863;
-            return __res_2862;
+            bool __res_3228;
+            bool __res_3229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
+            __res_3228 = __res_3229;
+            return __res_3228;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_2864;
-            JSObject __res_2865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
-            throw new Exception("Marshaller from \"__res_2865\" to \"__res_2864\" not supported.");
-            return __res_2864;
+            Iskra.StdWeb.Element __res_3230;
+            JSObject __res_3231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
+            throw new Exception("Marshaller ToManaged from \"__res_3231\" to \"__res_3230\" not supported.");
+            return __res_3230;
         }
     }
 
@@ -79,22 +79,32 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2866;
-            JSObject? __res_2867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
-            if (__res_2867 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3232;
+            JSObject? __res_3233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
+            if (__res_3233 is null)
             {
-                __res_2866 = null;
+                __res_3232 = null;
             }
             else
             {
-                JSObject __notNullable_2868 = (JSObject)__res_2867;
-                throw new Exception("Marshaller from \"__notNullable_2868\" to \"__res_2866\" not supported.");
+                JSObject __notNullable_3234 = (JSObject)__res_3233;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3234\" to \"__res_3232\" not supported.");
             }
-            return __res_2866;
+            return __res_3232;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3235;
+            if (value is null)
+            {
+                __marshalledValue_3235 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3236 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3236\" to \"__marshalledValue_3235\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_3235);
         }
     }
 }

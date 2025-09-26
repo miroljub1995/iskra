@@ -13,14 +13,16 @@ public partial class SVGAnimatedInteger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_258;
-            double __res_259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            __res_258 = Convert.ToInt32(__res_259);
-            return __res_258;
+            int __res_289;
+            double __res_290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
+            __res_289 = Convert.ToInt32(__res_290);
+            return __res_289;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_291;
+            __marshalledValue_291 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_291);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class SVGAnimatedInteger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_260;
-            double __res_261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            __res_260 = Convert.ToInt32(__res_261);
-            return __res_260;
+            int __res_292;
+            double __res_293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
+            __res_292 = Convert.ToInt32(__res_293);
+            return __res_292;
         }
     }
 }

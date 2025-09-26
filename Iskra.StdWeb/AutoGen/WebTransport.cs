@@ -13,9 +13,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1916;
+            object __res_2156;
             throw new Exception();
-            return __res_1916;
+            return __res_2156;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportReliabilityMode __res_1917;
-            JSObject __res_1918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reliability");
-            throw new Exception("Marshaller from \"__res_1918\" to \"__res_1917\" not supported.");
-            return __res_1917;
+            Iskra.StdWeb.WebTransportReliabilityMode __res_2157;
+            JSObject __res_2158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reliability");
+            throw new Exception("Marshaller ToManaged from \"__res_2158\" to \"__res_2157\" not supported.");
+            return __res_2157;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportCongestionControl __res_1919;
-            JSObject __res_1920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "congestionControl");
-            throw new Exception("Marshaller from \"__res_1920\" to \"__res_1919\" not supported.");
-            return __res_1919;
+            Iskra.StdWeb.WebTransportCongestionControl __res_2159;
+            JSObject __res_2160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "congestionControl");
+            throw new Exception("Marshaller ToManaged from \"__res_2160\" to \"__res_2159\" not supported.");
+            return __res_2159;
         }
     }
 
@@ -45,22 +45,32 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_1921;
-            double? __res_1922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams");
-            if (__res_1922 is null)
+            ushort? __res_2161;
+            double? __res_2162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams");
+            if (__res_2162 is null)
             {
-                __res_1921 = null;
+                __res_2161 = null;
             }
             else
             {
-                double __notNullable_1923 = (double)__res_1922;
-                throw new Exception("Marshaller from \"__notNullable_1923\" to \"__res_1921\" not supported.");
+                double __notNullable_2163 = (double)__res_2162;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2163\" to \"__res_2161\" not supported.");
             }
-            return __res_1921;
+            return __res_2161;
         }
         set
         {
-            throw new Exception();
+            double? __marshalledValue_2164;
+            if (value is null)
+            {
+                __marshalledValue_2164 = null;
+            }
+            else
+            {
+                ushort __notNullable_2165 = (ushort)value;
+                __marshalledValue_2164 = Convert.ToDouble(__notNullable_2165);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_2164);
         }
     }
 
@@ -68,22 +78,32 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_1924;
-            double? __res_1925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams");
-            if (__res_1925 is null)
+            ushort? __res_2166;
+            double? __res_2167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams");
+            if (__res_2167 is null)
             {
-                __res_1924 = null;
+                __res_2166 = null;
             }
             else
             {
-                double __notNullable_1926 = (double)__res_1925;
-                throw new Exception("Marshaller from \"__notNullable_1926\" to \"__res_1924\" not supported.");
+                double __notNullable_2168 = (double)__res_2167;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2168\" to \"__res_2166\" not supported.");
             }
-            return __res_1924;
+            return __res_2166;
         }
         set
         {
-            throw new Exception();
+            double? __marshalledValue_2169;
+            if (value is null)
+            {
+                __marshalledValue_2169 = null;
+            }
+            else
+            {
+                ushort __notNullable_2170 = (ushort)value;
+                __marshalledValue_2169 = Convert.ToDouble(__notNullable_2170);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_2169);
         }
     }
 
@@ -91,10 +111,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1927;
-            string __res_1928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_1927 = __res_1928;
-            return __res_1927;
+            string __res_2171;
+            string __res_2172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_2171 = __res_2172;
+            return __res_2171;
         }
     }
 
@@ -102,9 +122,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1929;
+            object __res_2173;
             throw new Exception();
-            return __res_1929;
+            return __res_2173;
         }
     }
 
@@ -112,9 +132,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1930;
+            object __res_2174;
             throw new Exception();
-            return __res_1930;
+            return __res_2174;
         }
     }
 
@@ -122,10 +142,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportDatagramDuplexStream __res_1931;
-            JSObject __res_1932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
-            throw new Exception("Marshaller from \"__res_1932\" to \"__res_1931\" not supported.");
-            return __res_1931;
+            Iskra.StdWeb.WebTransportDatagramDuplexStream __res_2175;
+            JSObject __res_2176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
+            throw new Exception("Marshaller ToManaged from \"__res_2176\" to \"__res_2175\" not supported.");
+            return __res_2175;
         }
     }
 
@@ -133,10 +153,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_1933;
-            JSObject __res_1934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
-            throw new Exception("Marshaller from \"__res_1934\" to \"__res_1933\" not supported.");
-            return __res_1933;
+            Iskra.StdWeb.ReadableStream __res_2177;
+            JSObject __res_2178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
+            throw new Exception("Marshaller ToManaged from \"__res_2178\" to \"__res_2177\" not supported.");
+            return __res_2177;
         }
     }
 
@@ -144,10 +164,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_1935;
-            JSObject __res_1936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
-            throw new Exception("Marshaller from \"__res_1936\" to \"__res_1935\" not supported.");
-            return __res_1935;
+            Iskra.StdWeb.ReadableStream __res_2179;
+            JSObject __res_2180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
+            throw new Exception("Marshaller ToManaged from \"__res_2180\" to \"__res_2179\" not supported.");
+            return __res_2179;
         }
     }
 
@@ -155,9 +175,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1937;
+            bool __res_2181;
             throw new Exception();
-            return __res_1937;
+            return __res_2181;
         }
     }
 }

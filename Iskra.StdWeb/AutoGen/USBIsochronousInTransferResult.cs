@@ -13,18 +13,18 @@ public partial class USBIsochronousInTransferResult(JSObject obj): JSObjectProxy
     {
         get
         {
-            Iskra.JSCore.DataView? __res_4281;
-            JSObject? __res_4282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_4282 is null)
+            Iskra.JSCore.DataView? __res_4924;
+            JSObject? __res_4925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_4925 is null)
             {
-                __res_4281 = null;
+                __res_4924 = null;
             }
             else
             {
-                JSObject __notNullable_4283 = (JSObject)__res_4282;
-                throw new Exception("Marshaller from \"__notNullable_4283\" to \"__res_4281\" not supported.");
+                JSObject __notNullable_4926 = (JSObject)__res_4925;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4926\" to \"__res_4924\" not supported.");
             }
-            return __res_4281;
+            return __res_4924;
         }
     }
 
@@ -32,9 +32,9 @@ public partial class USBIsochronousInTransferResult(JSObject obj): JSObjectProxy
     {
         get
         {
-            object __res_4284;
+            object __res_4927;
             throw new Exception();
-            return __res_4284;
+            return __res_4927;
         }
     }
 }

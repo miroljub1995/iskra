@@ -13,14 +13,16 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_6155;
-            string __res_6156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_6155 = __res_6156;
-            return __res_6155;
+            string __res_7265;
+            string __res_7266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_7265 = __res_7266;
+            return __res_7265;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_7267;
+            __marshalledValue_7267 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7267);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSPageDescriptors __res_6157;
-            JSObject __res_6158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller from \"__res_6158\" to \"__res_6157\" not supported.");
-            return __res_6157;
+            Iskra.StdWeb.CSSPageDescriptors __res_7268;
+            JSObject __res_7269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller ToManaged from \"__res_7269\" to \"__res_7268\" not supported.");
+            return __res_7268;
         }
     }
 }

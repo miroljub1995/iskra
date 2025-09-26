@@ -13,18 +13,18 @@ public partial class DragEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.DataTransfer? __res_5489;
-            JSObject? __res_5490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
-            if (__res_5490 is null)
+            Iskra.StdWeb.DataTransfer? __res_6472;
+            JSObject? __res_6473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
+            if (__res_6473 is null)
             {
-                __res_5489 = null;
+                __res_6472 = null;
             }
             else
             {
-                JSObject __notNullable_5491 = (JSObject)__res_5490;
-                throw new Exception("Marshaller from \"__notNullable_5491\" to \"__res_5489\" not supported.");
+                JSObject __notNullable_6474 = (JSObject)__res_6473;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6474\" to \"__res_6472\" not supported.");
             }
-            return __res_5489;
+            return __res_6472;
         }
     }
 }

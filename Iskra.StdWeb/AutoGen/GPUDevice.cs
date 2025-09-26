@@ -13,10 +13,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedFeatures __res_644;
-            JSObject __res_645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
-            throw new Exception("Marshaller from \"__res_645\" to \"__res_644\" not supported.");
-            return __res_644;
+            Iskra.StdWeb.GPUSupportedFeatures __res_703;
+            JSObject __res_704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            throw new Exception("Marshaller ToManaged from \"__res_704\" to \"__res_703\" not supported.");
+            return __res_703;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedLimits __res_646;
-            JSObject __res_647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
-            throw new Exception("Marshaller from \"__res_647\" to \"__res_646\" not supported.");
-            return __res_646;
+            Iskra.StdWeb.GPUSupportedLimits __res_705;
+            JSObject __res_706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            throw new Exception("Marshaller ToManaged from \"__res_706\" to \"__res_705\" not supported.");
+            return __res_705;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUAdapterInfo __res_648;
-            JSObject __res_649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
-            throw new Exception("Marshaller from \"__res_649\" to \"__res_648\" not supported.");
-            return __res_648;
+            Iskra.StdWeb.GPUAdapterInfo __res_707;
+            JSObject __res_708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
+            throw new Exception("Marshaller ToManaged from \"__res_708\" to \"__res_707\" not supported.");
+            return __res_707;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class GPUDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUQueue __res_650;
-            JSObject __res_651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
-            throw new Exception("Marshaller from \"__res_651\" to \"__res_650\" not supported.");
-            return __res_650;
+            Iskra.StdWeb.GPUQueue __res_709;
+            JSObject __res_710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
+            throw new Exception("Marshaller ToManaged from \"__res_710\" to \"__res_709\" not supported.");
+            return __res_709;
         }
     }
 }

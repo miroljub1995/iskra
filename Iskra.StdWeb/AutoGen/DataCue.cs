@@ -13,14 +13,16 @@ public partial class DataCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            object? __res_3176;
-            JSObject __res_3177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_3176 = __res_3177;
-            return __res_3176;
+            object? __res_3585;
+            JSObject __res_3586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_3585 = __res_3586;
+            return __res_3585;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_3587;
+            __marshalledValue_3587 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "value", __marshalledValue_3587);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class DataCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            string __res_3178;
-            string __res_3179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3178 = __res_3179;
-            return __res_3178;
+            string __res_3588;
+            string __res_3589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3588 = __res_3589;
+            return __res_3588;
         }
     }
 }

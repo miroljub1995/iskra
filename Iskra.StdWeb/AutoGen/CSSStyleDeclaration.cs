@@ -13,14 +13,16 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6167;
-            string __res_6168 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
-            __res_6167 = __res_6168;
-            return __res_6167;
+            string __res_7278;
+            string __res_7279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
+            __res_7278 = __res_7279;
+            return __res_7278;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_7280;
+            __marshalledValue_7280 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7280);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6169;
-            double __res_6170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6169 = Convert.ToUInt32(__res_6170);
-            return __res_6169;
+            uint __res_7281;
+            double __res_7282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7281 = Convert.ToUInt32(__res_7282);
+            return __res_7281;
         }
     }
 
@@ -39,18 +41,18 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRule? __res_6171;
-            JSObject? __res_6172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
-            if (__res_6172 is null)
+            Iskra.StdWeb.CSSRule? __res_7283;
+            JSObject? __res_7284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
+            if (__res_7284 is null)
             {
-                __res_6171 = null;
+                __res_7283 = null;
             }
             else
             {
-                JSObject __notNullable_6173 = (JSObject)__res_6172;
-                throw new Exception("Marshaller from \"__notNullable_6173\" to \"__res_6171\" not supported.");
+                JSObject __notNullable_7285 = (JSObject)__res_7284;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7285\" to \"__res_7283\" not supported.");
             }
-            return __res_6171;
+            return __res_7283;
         }
     }
 }

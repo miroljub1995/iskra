@@ -13,18 +13,18 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_5598;
-            string? __res_5599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_5599 is null)
+            string? __res_6601;
+            string? __res_6602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_6602 is null)
             {
-                __res_5598 = null;
+                __res_6601 = null;
             }
             else
             {
-                string __notNullable_5600 = (string)__res_5599;
-                __res_5598 = __notNullable_5600;
+                string __notNullable_6603 = (string)__res_6602;
+                __res_6601 = __notNullable_6603;
             }
-            return __res_5598;
+            return __res_6601;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_5601;
-            string __res_5602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_5601 = __res_5602;
-            return __res_5601;
+            string __res_6604;
+            string __res_6605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
+            __res_6604 = __res_6605;
+            return __res_6604;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_5603;
-            string __res_5604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_5603 = __res_5604;
-            return __res_5603;
+            string __res_6606;
+            string __res_6607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_6606 = __res_6607;
+            return __res_6606;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            long __res_5605;
-            double __res_5606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_5605 = Convert.ToInt64(__res_5606);
-            return __res_5605;
+            long __res_6608;
+            double __res_6609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_6608 = Convert.ToInt64(__res_6609);
+            return __res_6608;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_5607;
-            bool __res_5608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
-            __res_5607 = __res_5608;
-            return __res_5607;
+            bool __res_6610;
+            bool __res_6611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            __res_6610 = __res_6611;
+            return __res_6610;
         }
     }
 
@@ -76,22 +76,32 @@ public partial class NavigationHistoryEntry(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_5609;
-            JSObject? __res_5610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose");
-            if (__res_5610 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_6612;
+            JSObject? __res_6613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose");
+            if (__res_6613 is null)
             {
-                __res_5609 = null;
+                __res_6612 = null;
             }
             else
             {
-                JSObject __notNullable_5611 = (JSObject)__res_5610;
-                throw new Exception("Marshaller from \"__notNullable_5611\" to \"__res_5609\" not supported.");
+                JSObject __notNullable_6614 = (JSObject)__res_6613;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6614\" to \"__res_6612\" not supported.");
             }
-            return __res_5609;
+            return __res_6612;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_6615;
+            if (value is null)
+            {
+                __marshalledValue_6615 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_6616 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_6616\" to \"__marshalledValue_6615\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose", __marshalledValue_6615);
         }
     }
 }

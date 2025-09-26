@@ -13,10 +13,10 @@ public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4094;
-            JSObject __res_4095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
-            throw new Exception("Marshaller from \"__res_4095\" to \"__res_4094\" not supported.");
-            return __res_4094;
+            Iskra.JSCore.ArrayBuffer __res_4690;
+            JSObject __res_4691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
+            throw new Exception("Marshaller ToManaged from \"__res_4691\" to \"__res_4690\" not supported.");
+            return __res_4690;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4096;
-            JSObject __res_4097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
-            throw new Exception("Marshaller from \"__res_4097\" to \"__res_4096\" not supported.");
-            return __res_4096;
+            Iskra.JSCore.ArrayBuffer __res_4692;
+            JSObject __res_4693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
+            throw new Exception("Marshaller ToManaged from \"__res_4693\" to \"__res_4692\" not supported.");
+            return __res_4692;
         }
     }
 }

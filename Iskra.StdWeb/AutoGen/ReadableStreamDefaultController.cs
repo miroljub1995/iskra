@@ -13,18 +13,18 @@ public partial class ReadableStreamDefaultController(JSObject obj): JSObjectProx
     {
         get
         {
-            double? __res_832;
-            double? __res_833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_833 is null)
+            double? __res_923;
+            double? __res_924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_924 is null)
             {
-                __res_832 = null;
+                __res_923 = null;
             }
             else
             {
-                double __notNullable_834 = (double)__res_833;
-                __res_832 = __notNullable_834;
+                double __notNullable_925 = (double)__res_924;
+                __res_923 = __notNullable_925;
             }
-            return __res_832;
+            return __res_923;
         }
     }
 }

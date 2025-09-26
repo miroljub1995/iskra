@@ -13,10 +13,10 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrackKind __res_4875;
-            JSObject __res_4876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
-            throw new Exception("Marshaller from \"__res_4876\" to \"__res_4875\" not supported.");
-            return __res_4875;
+            Iskra.StdWeb.TextTrackKind __res_5676;
+            JSObject __res_5677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            throw new Exception("Marshaller ToManaged from \"__res_5677\" to \"__res_5676\" not supported.");
+            return __res_5676;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_4877;
-            string __res_4878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_4877 = __res_4878;
-            return __res_4877;
+            string __res_5678;
+            string __res_5679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_5678 = __res_5679;
+            return __res_5678;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_4879;
-            string __res_4880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_4879 = __res_4880;
-            return __res_4879;
+            string __res_5680;
+            string __res_5681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_5680 = __res_5681;
+            return __res_5680;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_4881;
-            string __res_4882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4881 = __res_4882;
-            return __res_4881;
+            string __res_5682;
+            string __res_5683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_5682 = __res_5683;
+            return __res_5682;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_4883;
-            string __res_4884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inBandMetadataTrackDispatchType");
-            __res_4883 = __res_4884;
-            return __res_4883;
+            string __res_5684;
+            string __res_5685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inBandMetadataTrackDispatchType");
+            __res_5684 = __res_5685;
+            return __res_5684;
         }
     }
 
@@ -68,14 +68,16 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrackMode __res_4885;
-            JSObject __res_4886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller from \"__res_4886\" to \"__res_4885\" not supported.");
-            return __res_4885;
+            Iskra.StdWeb.TextTrackMode __res_5686;
+            JSObject __res_5687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller ToManaged from \"__res_5687\" to \"__res_5686\" not supported.");
+            return __res_5686;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5688;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5688\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "mode", __marshalledValue_5688);
         }
     }
 
@@ -83,18 +85,18 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrackCueList? __res_4887;
-            JSObject? __res_4888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "cues");
-            if (__res_4888 is null)
+            Iskra.StdWeb.TextTrackCueList? __res_5689;
+            JSObject? __res_5690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "cues");
+            if (__res_5690 is null)
             {
-                __res_4887 = null;
+                __res_5689 = null;
             }
             else
             {
-                JSObject __notNullable_4889 = (JSObject)__res_4888;
-                throw new Exception("Marshaller from \"__notNullable_4889\" to \"__res_4887\" not supported.");
+                JSObject __notNullable_5691 = (JSObject)__res_5690;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5691\" to \"__res_5689\" not supported.");
             }
-            return __res_4887;
+            return __res_5689;
         }
     }
 
@@ -102,18 +104,18 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrackCueList? __res_4890;
-            JSObject? __res_4891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activeCues");
-            if (__res_4891 is null)
+            Iskra.StdWeb.TextTrackCueList? __res_5692;
+            JSObject? __res_5693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activeCues");
+            if (__res_5693 is null)
             {
-                __res_4890 = null;
+                __res_5692 = null;
             }
             else
             {
-                JSObject __notNullable_4892 = (JSObject)__res_4891;
-                throw new Exception("Marshaller from \"__notNullable_4892\" to \"__res_4890\" not supported.");
+                JSObject __notNullable_5694 = (JSObject)__res_5693;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5694\" to \"__res_5692\" not supported.");
             }
-            return __res_4890;
+            return __res_5692;
         }
     }
 
@@ -121,22 +123,32 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4893;
-            JSObject? __res_4894 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange");
-            if (__res_4894 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5695;
+            JSObject? __res_5696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange");
+            if (__res_5696 is null)
             {
-                __res_4893 = null;
+                __res_5695 = null;
             }
             else
             {
-                JSObject __notNullable_4895 = (JSObject)__res_4894;
-                throw new Exception("Marshaller from \"__notNullable_4895\" to \"__res_4893\" not supported.");
+                JSObject __notNullable_5697 = (JSObject)__res_5696;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5697\" to \"__res_5695\" not supported.");
             }
-            return __res_4893;
+            return __res_5695;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5698;
+            if (value is null)
+            {
+                __marshalledValue_5698 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5699 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5699\" to \"__marshalledValue_5698\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange", __marshalledValue_5698);
         }
     }
 }

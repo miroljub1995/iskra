@@ -13,22 +13,32 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2345;
-            JSObject? __res_2346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
-            if (__res_2346 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2687;
+            JSObject? __res_2688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
+            if (__res_2688 is null)
             {
-                __res_2345 = null;
+                __res_2687 = null;
             }
             else
             {
-                JSObject __notNullable_2347 = (JSObject)__res_2346;
-                throw new Exception("Marshaller from \"__notNullable_2347\" to \"__res_2345\" not supported.");
+                JSObject __notNullable_2689 = (JSObject)__res_2688;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2689\" to \"__res_2687\" not supported.");
             }
-            return __res_2345;
+            return __res_2687;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2690;
+            if (value is null)
+            {
+                __marshalledValue_2690 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2691 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2691\" to \"__marshalledValue_2690\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_2690);
         }
     }
 
@@ -36,18 +46,18 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothDevice? __res_2348;
-            JSObject? __res_2349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
-            if (__res_2349 is null)
+            Iskra.StdWeb.BluetoothDevice? __res_2692;
+            JSObject? __res_2693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
+            if (__res_2693 is null)
             {
-                __res_2348 = null;
+                __res_2692 = null;
             }
             else
             {
-                JSObject __notNullable_2350 = (JSObject)__res_2349;
-                throw new Exception("Marshaller from \"__notNullable_2350\" to \"__res_2348\" not supported.");
+                JSObject __notNullable_2694 = (JSObject)__res_2693;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2694\" to \"__res_2692\" not supported.");
             }
-            return __res_2348;
+            return __res_2692;
         }
     }
 }

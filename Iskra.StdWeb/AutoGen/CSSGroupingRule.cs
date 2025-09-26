@@ -13,10 +13,10 @@ public partial class CSSGroupingRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_6125;
-            JSObject __res_6126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            throw new Exception("Marshaller from \"__res_6126\" to \"__res_6125\" not supported.");
-            return __res_6125;
+            Iskra.StdWeb.CSSRuleList __res_7221;
+            JSObject __res_7222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            throw new Exception("Marshaller ToManaged from \"__res_7222\" to \"__res_7221\" not supported.");
+            return __res_7221;
         }
     }
 }

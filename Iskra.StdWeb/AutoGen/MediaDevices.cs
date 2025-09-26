@@ -13,22 +13,32 @@ public partial class MediaDevices(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3352;
-            JSObject? __res_3353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
-            if (__res_3353 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3783;
+            JSObject? __res_3784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_3784 is null)
             {
-                __res_3352 = null;
+                __res_3783 = null;
             }
             else
             {
-                JSObject __notNullable_3354 = (JSObject)__res_3353;
-                throw new Exception("Marshaller from \"__notNullable_3354\" to \"__res_3352\" not supported.");
+                JSObject __notNullable_3785 = (JSObject)__res_3784;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3785\" to \"__res_3783\" not supported.");
             }
-            return __res_3352;
+            return __res_3783;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3786;
+            if (value is null)
+            {
+                __marshalledValue_3786 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3787 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3787\" to \"__marshalledValue_3786\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_3786);
         }
     }
 }

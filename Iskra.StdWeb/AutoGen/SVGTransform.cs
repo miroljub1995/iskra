@@ -13,10 +13,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_324;
-            double __res_325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_325\" to \"__res_324\" not supported.");
-            return __res_324;
+            ushort __res_362;
+            double __res_363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_363\" to \"__res_362\" not supported.");
+            return __res_362;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMMatrix __res_326;
-            JSObject __res_327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            throw new Exception("Marshaller from \"__res_327\" to \"__res_326\" not supported.");
-            return __res_326;
+            Iskra.StdWeb.DOMMatrix __res_364;
+            JSObject __res_365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            throw new Exception("Marshaller ToManaged from \"__res_365\" to \"__res_364\" not supported.");
+            return __res_364;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_328;
-            double __res_329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_328 = Convert.ToSingle(__res_329);
-            return __res_328;
+            float __res_366;
+            double __res_367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_366 = Convert.ToSingle(__res_367);
+            return __res_366;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PressureSource __res_3246;
-            JSObject __res_3247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
-            throw new Exception("Marshaller from \"__res_3247\" to \"__res_3246\" not supported.");
-            return __res_3246;
+            Iskra.StdWeb.PressureSource __res_3656;
+            JSObject __res_3657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            throw new Exception("Marshaller ToManaged from \"__res_3657\" to \"__res_3656\" not supported.");
+            return __res_3656;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PressureState __res_3248;
-            JSObject __res_3249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller from \"__res_3249\" to \"__res_3248\" not supported.");
-            return __res_3248;
+            Iskra.StdWeb.PressureState __res_3658;
+            JSObject __res_3659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller ToManaged from \"__res_3659\" to \"__res_3658\" not supported.");
+            return __res_3658;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3250;
-            double __res_3251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_3250 = __res_3251;
-            return __res_3250;
+            double __res_3660;
+            double __res_3661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_3660 = __res_3661;
+            return __res_3660;
         }
     }
 }

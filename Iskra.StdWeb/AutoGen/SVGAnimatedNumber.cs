@@ -13,14 +13,16 @@ public partial class SVGAnimatedNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_262;
-            double __res_263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            __res_262 = Convert.ToSingle(__res_263);
-            return __res_262;
+            float __res_294;
+            double __res_295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
+            __res_294 = Convert.ToSingle(__res_295);
+            return __res_294;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_296;
+            __marshalledValue_296 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_296);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class SVGAnimatedNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_264;
-            double __res_265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            __res_264 = Convert.ToSingle(__res_265);
-            return __res_264;
+            float __res_297;
+            double __res_298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
+            __res_297 = Convert.ToSingle(__res_298);
+            return __res_297;
         }
     }
 }

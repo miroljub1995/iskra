@@ -21,7 +21,7 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
         set
         {
             double __marshalledValue_2;
-            __marshalledValue_2 = value;
+            __marshalledValue_2 = Convert.ToDouble(value);
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "intProperty", __marshalledValue_2);
         }
     }
@@ -63,8 +63,8 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
             }
             else
             {
-                double __notNullable_9 = (double)value;
-                __marshalledValue_8 = __notNullable_9;
+                int __notNullable_9 = (int)value;
+                __marshalledValue_8 = Convert.ToDouble(__notNullable_9);
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyNullable", __marshalledValue_8);
         }

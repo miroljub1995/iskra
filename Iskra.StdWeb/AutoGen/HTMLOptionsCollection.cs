@@ -13,14 +13,16 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
     {
         get
         {
-            uint __res_4495;
-            double __res_4496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4495 = Convert.ToUInt32(__res_4496);
-            return __res_4495;
+            uint __res_5156;
+            double __res_5157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5156 = Convert.ToUInt32(__res_5157);
+            return __res_5156;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_5158;
+            __marshalledValue_5158 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_5158);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLOptionsCollection(JSObject obj): HTMLCollection(obj)
     {
         get
         {
-            int __res_4497;
-            double __res_4498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_4497 = Convert.ToInt32(__res_4498);
-            return __res_4497;
+            int __res_5159;
+            double __res_5160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_5159 = Convert.ToInt32(__res_5160);
+            return __res_5159;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_5161;
+            __marshalledValue_5161 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_5161);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_358;
-            JSObject __res_359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
-            throw new Exception("Marshaller from \"__res_359\" to \"__res_358\" not supported.");
-            return __res_358;
+            Iskra.StdWeb.SVGAnimatedLength __res_398;
+            JSObject __res_399 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
+            throw new Exception("Marshaller ToManaged from \"__res_399\" to \"__res_398\" not supported.");
+            return __res_398;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_360;
-            JSObject __res_361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
-            throw new Exception("Marshaller from \"__res_361\" to \"__res_360\" not supported.");
-            return __res_360;
+            Iskra.StdWeb.SVGAnimatedLength __res_400;
+            JSObject __res_401 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
+            throw new Exception("Marshaller ToManaged from \"__res_401\" to \"__res_400\" not supported.");
+            return __res_400;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGCircleElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_362;
-            JSObject __res_363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
-            throw new Exception("Marshaller from \"__res_363\" to \"__res_362\" not supported.");
-            return __res_362;
+            Iskra.StdWeb.SVGAnimatedLength __res_402;
+            JSObject __res_403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
+            throw new Exception("Marshaller ToManaged from \"__res_403\" to \"__res_402\" not supported.");
+            return __res_402;
         }
     }
 }

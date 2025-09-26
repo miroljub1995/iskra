@@ -13,10 +13,10 @@ public partial class BackgroundFetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.BackgroundFetchRegistration __res_3003;
-            JSObject __res_3004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
-            throw new Exception("Marshaller from \"__res_3004\" to \"__res_3003\" not supported.");
-            return __res_3003;
+            Iskra.StdWeb.BackgroundFetchRegistration __res_3380;
+            JSObject __res_3381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
+            throw new Exception("Marshaller ToManaged from \"__res_3381\" to \"__res_3380\" not supported.");
+            return __res_3380;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(
     {
         get
         {
-            Iskra.StdWeb.XRInputSource __res_4458;
-            JSObject __res_4459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
-            throw new Exception("Marshaller from \"__res_4459\" to \"__res_4458\" not supported.");
-            return __res_4458;
+            Iskra.StdWeb.XRInputSource __res_5112;
+            JSObject __res_5113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            throw new Exception("Marshaller ToManaged from \"__res_5113\" to \"__res_5112\" not supported.");
+            return __res_5112;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(
     {
         get
         {
-            object __res_4460;
+            object __res_5114;
             throw new Exception();
-            return __res_4460;
+            return __res_5114;
         }
     }
 }

@@ -13,14 +13,16 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_4592;
-            bool __res_4593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
-            __res_4592 = __res_4593;
-            return __res_4592;
+            bool __res_5296;
+            bool __res_5297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
+            __res_5296 = __res_5297;
+            return __res_5296;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_5298;
+            __marshalledValue_5298 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_5298);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_4594;
-            double __res_4595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
-            __res_4594 = Convert.ToInt32(__res_4595);
-            return __res_4594;
+            int __res_5299;
+            double __res_5300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
+            __res_5299 = Convert.ToInt32(__res_5300);
+            return __res_5299;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_5301;
+            __marshalledValue_5301 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_5301);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4596;
-            string __res_4597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4596 = __res_4597;
-            return __res_4596;
+            string __res_5302;
+            string __res_5303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5302 = __res_5303;
+            return __res_5302;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5304;
+            __marshalledValue_5304 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_5304);
         }
     }
 }

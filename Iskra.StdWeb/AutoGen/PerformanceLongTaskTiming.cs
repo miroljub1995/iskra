@@ -13,10 +13,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_5966;
-            double __res_5967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_5966 = __res_5967;
-            return __res_5966;
+            double __res_7027;
+            double __res_7028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_7027 = __res_7028;
+            return __res_7027;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            double __res_5968;
-            double __res_5969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_5968 = __res_5969;
-            return __res_5968;
+            double __res_7029;
+            double __res_7030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_7029 = __res_7030;
+            return __res_7029;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_5970;
-            string __res_5971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5970 = __res_5971;
-            return __res_5970;
+            string __res_7031;
+            string __res_7032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7031 = __res_7032;
+            return __res_7031;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            string __res_5972;
-            string __res_5973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_5972 = __res_5973;
-            return __res_5972;
+            string __res_7033;
+            string __res_7034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_7033 = __res_7034;
+            return __res_7033;
         }
     }
 
@@ -57,9 +57,9 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
     {
         get
         {
-            object __res_5974;
+            object __res_7035;
             throw new Exception();
-            return __res_5974;
+            return __res_7035;
         }
     }
 }

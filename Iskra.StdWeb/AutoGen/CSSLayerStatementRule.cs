@@ -13,9 +13,9 @@ public partial class CSSLayerStatementRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            object __res_2429;
+            object __res_2773;
             throw new Exception();
-            return __res_2429;
+            return __res_2773;
         }
     }
 }

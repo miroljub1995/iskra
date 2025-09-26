@@ -13,10 +13,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_622;
-            string __res_623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendor");
-            __res_622 = __res_623;
-            return __res_622;
+            string __res_681;
+            string __res_682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendor");
+            __res_681 = __res_682;
+            return __res_681;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_624;
-            string __res_625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "architecture");
-            __res_624 = __res_625;
-            return __res_624;
+            string __res_683;
+            string __res_684 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "architecture");
+            __res_683 = __res_684;
+            return __res_683;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_626;
-            string __res_627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "device");
-            __res_626 = __res_627;
-            return __res_626;
+            string __res_685;
+            string __res_686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "device");
+            __res_685 = __res_686;
+            return __res_685;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_628;
-            string __res_629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_628 = __res_629;
-            return __res_628;
+            string __res_687;
+            string __res_688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_687 = __res_688;
+            return __res_687;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_630;
-            double __res_631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "subgroupMinSize");
-            __res_630 = Convert.ToUInt32(__res_631);
-            return __res_630;
+            uint __res_689;
+            double __res_690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "subgroupMinSize");
+            __res_689 = Convert.ToUInt32(__res_690);
+            return __res_689;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_632;
-            double __res_633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "subgroupMaxSize");
-            __res_632 = Convert.ToUInt32(__res_633);
-            return __res_632;
+            uint __res_691;
+            double __res_692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "subgroupMaxSize");
+            __res_691 = Convert.ToUInt32(__res_692);
+            return __res_691;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class GPUAdapterInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_634;
-            bool __res_635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFallbackAdapter");
-            __res_634 = __res_635;
-            return __res_634;
+            bool __res_693;
+            bool __res_694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFallbackAdapter");
+            __res_693 = __res_694;
+            return __res_693;
         }
     }
 }

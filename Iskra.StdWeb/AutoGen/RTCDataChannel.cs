@@ -13,10 +13,10 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1749;
-            string __res_1750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1749 = __res_1750;
-            return __res_1749;
+            string __res_1947;
+            string __res_1948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1947 = __res_1948;
+            return __res_1947;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1751;
-            bool __res_1752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ordered");
-            __res_1751 = __res_1752;
-            return __res_1751;
+            bool __res_1949;
+            bool __res_1950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ordered");
+            __res_1949 = __res_1950;
+            return __res_1949;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort? __res_1753;
-            double? __res_1754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxPacketLifeTime");
-            if (__res_1754 is null)
+            ushort? __res_1951;
+            double? __res_1952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxPacketLifeTime");
+            if (__res_1952 is null)
             {
-                __res_1753 = null;
+                __res_1951 = null;
             }
             else
             {
-                double __notNullable_1755 = (double)__res_1754;
-                throw new Exception("Marshaller from \"__notNullable_1755\" to \"__res_1753\" not supported.");
+                double __notNullable_1953 = (double)__res_1952;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1953\" to \"__res_1951\" not supported.");
             }
-            return __res_1753;
+            return __res_1951;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort? __res_1756;
-            double? __res_1757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxRetransmits");
-            if (__res_1757 is null)
+            ushort? __res_1954;
+            double? __res_1955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxRetransmits");
+            if (__res_1955 is null)
             {
-                __res_1756 = null;
+                __res_1954 = null;
             }
             else
             {
-                double __notNullable_1758 = (double)__res_1757;
-                throw new Exception("Marshaller from \"__notNullable_1758\" to \"__res_1756\" not supported.");
+                double __notNullable_1956 = (double)__res_1955;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1956\" to \"__res_1954\" not supported.");
             }
-            return __res_1756;
+            return __res_1954;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1759;
-            string __res_1760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_1759 = __res_1760;
-            return __res_1759;
+            string __res_1957;
+            string __res_1958 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_1957 = __res_1958;
+            return __res_1957;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1761;
-            bool __res_1762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "negotiated");
-            __res_1761 = __res_1762;
-            return __res_1761;
+            bool __res_1959;
+            bool __res_1960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "negotiated");
+            __res_1959 = __res_1960;
+            return __res_1959;
         }
     }
 
@@ -95,18 +95,18 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort? __res_1763;
-            double? __res_1764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "id");
-            if (__res_1764 is null)
+            ushort? __res_1961;
+            double? __res_1962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "id");
+            if (__res_1962 is null)
             {
-                __res_1763 = null;
+                __res_1961 = null;
             }
             else
             {
-                double __notNullable_1765 = (double)__res_1764;
-                throw new Exception("Marshaller from \"__notNullable_1765\" to \"__res_1763\" not supported.");
+                double __notNullable_1963 = (double)__res_1962;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1963\" to \"__res_1961\" not supported.");
             }
-            return __res_1763;
+            return __res_1961;
         }
     }
 
@@ -114,10 +114,10 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDataChannelState __res_1766;
-            JSObject __res_1767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
-            throw new Exception("Marshaller from \"__res_1767\" to \"__res_1766\" not supported.");
-            return __res_1766;
+            Iskra.StdWeb.RTCDataChannelState __res_1964;
+            JSObject __res_1965 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
+            throw new Exception("Marshaller ToManaged from \"__res_1965\" to \"__res_1964\" not supported.");
+            return __res_1964;
         }
     }
 
@@ -125,10 +125,10 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_1768;
-            double __res_1769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferedAmount");
-            __res_1768 = Convert.ToUInt32(__res_1769);
-            return __res_1768;
+            uint __res_1966;
+            double __res_1967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferedAmount");
+            __res_1966 = Convert.ToUInt32(__res_1967);
+            return __res_1966;
         }
     }
 
@@ -136,14 +136,16 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_1770;
-            double __res_1771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferedAmountLowThreshold");
-            __res_1770 = Convert.ToUInt32(__res_1771);
-            return __res_1770;
+            uint __res_1968;
+            double __res_1969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferedAmountLowThreshold");
+            __res_1968 = Convert.ToUInt32(__res_1969);
+            return __res_1968;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_1970;
+            __marshalledValue_1970 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "bufferedAmountLowThreshold", __marshalledValue_1970);
         }
     }
 
@@ -151,22 +153,32 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1772;
-            JSObject? __res_1773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onopen");
-            if (__res_1773 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1971;
+            JSObject? __res_1972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onopen");
+            if (__res_1972 is null)
             {
-                __res_1772 = null;
+                __res_1971 = null;
             }
             else
             {
-                JSObject __notNullable_1774 = (JSObject)__res_1773;
-                throw new Exception("Marshaller from \"__notNullable_1774\" to \"__res_1772\" not supported.");
+                JSObject __notNullable_1973 = (JSObject)__res_1972;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1973\" to \"__res_1971\" not supported.");
             }
-            return __res_1772;
+            return __res_1971;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1974;
+            if (value is null)
+            {
+                __marshalledValue_1974 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1975 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1975\" to \"__marshalledValue_1974\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onopen", __marshalledValue_1974);
         }
     }
 
@@ -174,22 +186,32 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1775;
-            JSObject? __res_1776 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedamountlow");
-            if (__res_1776 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1976;
+            JSObject? __res_1977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedamountlow");
+            if (__res_1977 is null)
             {
-                __res_1775 = null;
+                __res_1976 = null;
             }
             else
             {
-                JSObject __notNullable_1777 = (JSObject)__res_1776;
-                throw new Exception("Marshaller from \"__notNullable_1777\" to \"__res_1775\" not supported.");
+                JSObject __notNullable_1978 = (JSObject)__res_1977;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1978\" to \"__res_1976\" not supported.");
             }
-            return __res_1775;
+            return __res_1976;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1979;
+            if (value is null)
+            {
+                __marshalledValue_1979 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1980 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1980\" to \"__marshalledValue_1979\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedamountlow", __marshalledValue_1979);
         }
     }
 
@@ -197,22 +219,32 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1778;
-            JSObject? __res_1779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_1779 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1981;
+            JSObject? __res_1982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_1982 is null)
             {
-                __res_1778 = null;
+                __res_1981 = null;
             }
             else
             {
-                JSObject __notNullable_1780 = (JSObject)__res_1779;
-                throw new Exception("Marshaller from \"__notNullable_1780\" to \"__res_1778\" not supported.");
+                JSObject __notNullable_1983 = (JSObject)__res_1982;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1983\" to \"__res_1981\" not supported.");
             }
-            return __res_1778;
+            return __res_1981;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1984;
+            if (value is null)
+            {
+                __marshalledValue_1984 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1985 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1985\" to \"__marshalledValue_1984\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_1984);
         }
     }
 
@@ -220,22 +252,32 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1781;
-            JSObject? __res_1782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclosing");
-            if (__res_1782 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1986;
+            JSObject? __res_1987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclosing");
+            if (__res_1987 is null)
             {
-                __res_1781 = null;
+                __res_1986 = null;
             }
             else
             {
-                JSObject __notNullable_1783 = (JSObject)__res_1782;
-                throw new Exception("Marshaller from \"__notNullable_1783\" to \"__res_1781\" not supported.");
+                JSObject __notNullable_1988 = (JSObject)__res_1987;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1988\" to \"__res_1986\" not supported.");
             }
-            return __res_1781;
+            return __res_1986;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1989;
+            if (value is null)
+            {
+                __marshalledValue_1989 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1990 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1990\" to \"__marshalledValue_1989\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onclosing", __marshalledValue_1989);
         }
     }
 
@@ -243,22 +285,32 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1784;
-            JSObject? __res_1785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclose");
-            if (__res_1785 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1991;
+            JSObject? __res_1992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onclose");
+            if (__res_1992 is null)
             {
-                __res_1784 = null;
+                __res_1991 = null;
             }
             else
             {
-                JSObject __notNullable_1786 = (JSObject)__res_1785;
-                throw new Exception("Marshaller from \"__notNullable_1786\" to \"__res_1784\" not supported.");
+                JSObject __notNullable_1993 = (JSObject)__res_1992;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1993\" to \"__res_1991\" not supported.");
             }
-            return __res_1784;
+            return __res_1991;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1994;
+            if (value is null)
+            {
+                __marshalledValue_1994 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1995 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1995\" to \"__marshalledValue_1994\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onclose", __marshalledValue_1994);
         }
     }
 
@@ -266,22 +318,32 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1787;
-            JSObject? __res_1788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
-            if (__res_1788 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1996;
+            JSObject? __res_1997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_1997 is null)
             {
-                __res_1787 = null;
+                __res_1996 = null;
             }
             else
             {
-                JSObject __notNullable_1789 = (JSObject)__res_1788;
-                throw new Exception("Marshaller from \"__notNullable_1789\" to \"__res_1787\" not supported.");
+                JSObject __notNullable_1998 = (JSObject)__res_1997;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1998\" to \"__res_1996\" not supported.");
             }
-            return __res_1787;
+            return __res_1996;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1999;
+            if (value is null)
+            {
+                __marshalledValue_1999 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2000 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2000\" to \"__marshalledValue_1999\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_1999);
         }
     }
 
@@ -289,14 +351,16 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BinaryType __res_1790;
-            JSObject __res_1791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
-            throw new Exception("Marshaller from \"__res_1791\" to \"__res_1790\" not supported.");
-            return __res_1790;
+            Iskra.StdWeb.BinaryType __res_2001;
+            JSObject __res_2002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
+            throw new Exception("Marshaller ToManaged from \"__res_2002\" to \"__res_2001\" not supported.");
+            return __res_2001;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_2003;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_2003\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "binaryType", __marshalledValue_2003);
         }
     }
 }

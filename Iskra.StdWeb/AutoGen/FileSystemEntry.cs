@@ -13,10 +13,10 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1245;
-            bool __res_1246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFile");
-            __res_1245 = __res_1246;
-            return __res_1245;
+            bool __res_1348;
+            bool __res_1349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFile");
+            __res_1348 = __res_1349;
+            return __res_1348;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1247;
-            bool __res_1248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isDirectory");
-            __res_1247 = __res_1248;
-            return __res_1247;
+            bool __res_1350;
+            bool __res_1351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isDirectory");
+            __res_1350 = __res_1351;
+            return __res_1350;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1249;
-            string __res_1250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1249 = __res_1250;
-            return __res_1249;
+            string __res_1352;
+            string __res_1353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1352 = __res_1353;
+            return __res_1352;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1251;
-            string __res_1252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullPath");
-            __res_1251 = __res_1252;
-            return __res_1251;
+            string __res_1354;
+            string __res_1355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullPath");
+            __res_1354 = __res_1355;
+            return __res_1354;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class FileSystemEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileSystem __res_1253;
-            JSObject __res_1254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filesystem");
-            throw new Exception("Marshaller from \"__res_1254\" to \"__res_1253\" not supported.");
-            return __res_1253;
+            Iskra.StdWeb.FileSystem __res_1356;
+            JSObject __res_1357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filesystem");
+            throw new Exception("Marshaller ToManaged from \"__res_1357\" to \"__res_1356\" not supported.");
+            return __res_1356;
         }
     }
 }

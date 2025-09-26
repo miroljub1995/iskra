@@ -13,10 +13,10 @@ public partial class Range(JSObject obj): AbstractRange(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_2932;
-            JSObject __res_2933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
-            throw new Exception("Marshaller from \"__res_2933\" to \"__res_2932\" not supported.");
-            return __res_2932;
+            Iskra.StdWeb.Node __res_3305;
+            JSObject __res_3306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
+            throw new Exception("Marshaller ToManaged from \"__res_3306\" to \"__res_3305\" not supported.");
+            return __res_3305;
         }
     }
 }

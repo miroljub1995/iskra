@@ -13,10 +13,10 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIInputMap __res_6260;
-            JSObject __res_6261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
-            throw new Exception("Marshaller from \"__res_6261\" to \"__res_6260\" not supported.");
-            return __res_6260;
+            Iskra.StdWeb.MIDIInputMap __res_7392;
+            JSObject __res_7393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
+            throw new Exception("Marshaller ToManaged from \"__res_7393\" to \"__res_7392\" not supported.");
+            return __res_7392;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIOutputMap __res_6262;
-            JSObject __res_6263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
-            throw new Exception("Marshaller from \"__res_6263\" to \"__res_6262\" not supported.");
-            return __res_6262;
+            Iskra.StdWeb.MIDIOutputMap __res_7394;
+            JSObject __res_7395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
+            throw new Exception("Marshaller ToManaged from \"__res_7395\" to \"__res_7394\" not supported.");
+            return __res_7394;
         }
     }
 
@@ -35,22 +35,32 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6264;
-            JSObject? __res_6265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_6265 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7396;
+            JSObject? __res_7397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_7397 is null)
             {
-                __res_6264 = null;
+                __res_7396 = null;
             }
             else
             {
-                JSObject __notNullable_6266 = (JSObject)__res_6265;
-                throw new Exception("Marshaller from \"__notNullable_6266\" to \"__res_6264\" not supported.");
+                JSObject __notNullable_7398 = (JSObject)__res_7397;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7398\" to \"__res_7396\" not supported.");
             }
-            return __res_6264;
+            return __res_7396;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7399;
+            if (value is null)
+            {
+                __marshalledValue_7399 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7400 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7400\" to \"__marshalledValue_7399\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7399);
         }
     }
 
@@ -58,10 +68,10 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_6267;
-            bool __res_6268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
-            __res_6267 = __res_6268;
-            return __res_6267;
+            bool __res_7401;
+            bool __res_7402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
+            __res_7401 = __res_7402;
+            return __res_7401;
         }
     }
 }

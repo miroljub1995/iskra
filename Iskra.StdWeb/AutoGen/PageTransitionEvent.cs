@@ -13,10 +13,10 @@ public partial class PageTransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            bool __res_5682;
-            bool __res_5683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "persisted");
-            __res_5682 = __res_5683;
-            return __res_5682;
+            bool __res_6687;
+            bool __res_6688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "persisted");
+            __res_6687 = __res_6688;
+            return __res_6687;
         }
     }
 }

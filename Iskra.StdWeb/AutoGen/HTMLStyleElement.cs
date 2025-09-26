@@ -13,14 +13,16 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_4584;
-            bool __res_4585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_4584 = __res_4585;
-            return __res_4584;
+            bool __res_5285;
+            bool __res_5286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_5285 = __res_5286;
+            return __res_5285;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_5287;
+            __marshalledValue_5287 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_5287);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4586;
-            string __res_4587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_4586 = __res_4587;
-            return __res_4586;
+            string __res_5288;
+            string __res_5289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_5288 = __res_5289;
+            return __res_5288;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5290;
+            __marshalledValue_5290 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_5290);
         }
     }
 
@@ -43,10 +47,10 @@ public partial class HTMLStyleElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_4588;
-            JSObject __res_4589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blocking");
-            throw new Exception("Marshaller from \"__res_4589\" to \"__res_4588\" not supported.");
-            return __res_4588;
+            Iskra.StdWeb.DOMTokenList __res_5291;
+            JSObject __res_5292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blocking");
+            throw new Exception("Marshaller ToManaged from \"__res_5292\" to \"__res_5291\" not supported.");
+            return __res_5291;
         }
     }
 }

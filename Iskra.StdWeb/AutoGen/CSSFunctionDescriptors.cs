@@ -20,7 +20,9 @@ public partial class CSSFunctionDescriptors(JSObject obj): CSSStyleDeclaration(o
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_23;
+            __marshalledValue_23 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_23);
         }
     }
 }

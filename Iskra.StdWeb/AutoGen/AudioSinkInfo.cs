@@ -13,10 +13,10 @@ public partial class AudioSinkInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioSinkType __res_6763;
-            JSObject __res_6764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_6764\" to \"__res_6763\" not supported.");
-            return __res_6763;
+            Iskra.StdWeb.AudioSinkType __res_7978;
+            JSObject __res_7979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_7979\" to \"__res_7978\" not supported.");
+            return __res_7978;
         }
     }
 }

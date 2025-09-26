@@ -13,10 +13,10 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_858;
-            double __res_859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_858 = __res_859;
-            return __res_858;
+            double __res_949;
+            double __res_950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_949 = __res_950;
+            return __res_949;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Function __res_860;
-            JSObject __res_861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            throw new Exception("Marshaller from \"__res_861\" to \"__res_860\" not supported.");
-            return __res_860;
+            Iskra.StdWeb.Function __res_951;
+            JSObject __res_952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            throw new Exception("Marshaller ToManaged from \"__res_952\" to \"__res_951\" not supported.");
+            return __res_951;
         }
     }
 }

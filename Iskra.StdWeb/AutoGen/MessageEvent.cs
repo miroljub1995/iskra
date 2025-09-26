@@ -13,10 +13,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_5749;
-            JSObject __res_5750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_5749 = __res_5750;
-            return __res_5749;
+            object? __res_6755;
+            JSObject __res_6756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_6755 = __res_6756;
+            return __res_6755;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5751;
-            string __res_5752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_5751 = __res_5752;
-            return __res_5751;
+            string __res_6757;
+            string __res_6758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_6757 = __res_6758;
+            return __res_6757;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5753;
-            string __res_5754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
-            __res_5753 = __res_5754;
-            return __res_5753;
+            string __res_6759;
+            string __res_6760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
+            __res_6759 = __res_6760;
+            return __res_6759;
         }
     }
 
@@ -46,9 +46,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_5755;
+            object __res_6761;
             throw new Exception();
-            return __res_5755;
+            return __res_6761;
         }
     }
 
@@ -56,9 +56,9 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_5756;
+            object __res_6762;
             throw new Exception();
-            return __res_5756;
+            return __res_6762;
         }
     }
 }

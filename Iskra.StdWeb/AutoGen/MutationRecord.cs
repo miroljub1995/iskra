@@ -13,10 +13,10 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2766;
-            string __res_2767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2766 = __res_2767;
-            return __res_2766;
+            string __res_3128;
+            string __res_3129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3128 = __res_3129;
+            return __res_3128;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_2768;
-            JSObject __res_2769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller from \"__res_2769\" to \"__res_2768\" not supported.");
-            return __res_2768;
+            Iskra.StdWeb.Node __res_3130;
+            JSObject __res_3131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            throw new Exception("Marshaller ToManaged from \"__res_3131\" to \"__res_3130\" not supported.");
+            return __res_3130;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_2770;
-            JSObject __res_2771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedNodes");
-            throw new Exception("Marshaller from \"__res_2771\" to \"__res_2770\" not supported.");
-            return __res_2770;
+            Iskra.StdWeb.NodeList __res_3132;
+            JSObject __res_3133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedNodes");
+            throw new Exception("Marshaller ToManaged from \"__res_3133\" to \"__res_3132\" not supported.");
+            return __res_3132;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_2772;
-            JSObject __res_2773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedNodes");
-            throw new Exception("Marshaller from \"__res_2773\" to \"__res_2772\" not supported.");
-            return __res_2772;
+            Iskra.StdWeb.NodeList __res_3134;
+            JSObject __res_3135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedNodes");
+            throw new Exception("Marshaller ToManaged from \"__res_3135\" to \"__res_3134\" not supported.");
+            return __res_3134;
         }
     }
 
@@ -57,18 +57,18 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_2774;
-            JSObject? __res_2775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
-            if (__res_2775 is null)
+            Iskra.StdWeb.Node? __res_3136;
+            JSObject? __res_3137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
+            if (__res_3137 is null)
             {
-                __res_2774 = null;
+                __res_3136 = null;
             }
             else
             {
-                JSObject __notNullable_2776 = (JSObject)__res_2775;
-                throw new Exception("Marshaller from \"__notNullable_2776\" to \"__res_2774\" not supported.");
+                JSObject __notNullable_3138 = (JSObject)__res_3137;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3138\" to \"__res_3136\" not supported.");
             }
-            return __res_2774;
+            return __res_3136;
         }
     }
 
@@ -76,18 +76,18 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_2777;
-            JSObject? __res_2778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
-            if (__res_2778 is null)
+            Iskra.StdWeb.Node? __res_3139;
+            JSObject? __res_3140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
+            if (__res_3140 is null)
             {
-                __res_2777 = null;
+                __res_3139 = null;
             }
             else
             {
-                JSObject __notNullable_2779 = (JSObject)__res_2778;
-                throw new Exception("Marshaller from \"__notNullable_2779\" to \"__res_2777\" not supported.");
+                JSObject __notNullable_3141 = (JSObject)__res_3140;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3141\" to \"__res_3139\" not supported.");
             }
-            return __res_2777;
+            return __res_3139;
         }
     }
 
@@ -95,18 +95,18 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2780;
-            string? __res_2781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeName");
-            if (__res_2781 is null)
+            string? __res_3142;
+            string? __res_3143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeName");
+            if (__res_3143 is null)
             {
-                __res_2780 = null;
+                __res_3142 = null;
             }
             else
             {
-                string __notNullable_2782 = (string)__res_2781;
-                __res_2780 = __notNullable_2782;
+                string __notNullable_3144 = (string)__res_3143;
+                __res_3142 = __notNullable_3144;
             }
-            return __res_2780;
+            return __res_3142;
         }
     }
 
@@ -114,18 +114,18 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2783;
-            string? __res_2784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeNamespace");
-            if (__res_2784 is null)
+            string? __res_3145;
+            string? __res_3146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeNamespace");
+            if (__res_3146 is null)
             {
-                __res_2783 = null;
+                __res_3145 = null;
             }
             else
             {
-                string __notNullable_2785 = (string)__res_2784;
-                __res_2783 = __notNullable_2785;
+                string __notNullable_3147 = (string)__res_3146;
+                __res_3145 = __notNullable_3147;
             }
-            return __res_2783;
+            return __res_3145;
         }
     }
 
@@ -133,18 +133,18 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_2786;
-            string? __res_2787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
-            if (__res_2787 is null)
+            string? __res_3148;
+            string? __res_3149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
+            if (__res_3149 is null)
             {
-                __res_2786 = null;
+                __res_3148 = null;
             }
             else
             {
-                string __notNullable_2788 = (string)__res_2787;
-                __res_2786 = __notNullable_2788;
+                string __notNullable_3150 = (string)__res_3149;
+                __res_3148 = __notNullable_3150;
             }
-            return __res_2786;
+            return __res_3148;
         }
     }
 }

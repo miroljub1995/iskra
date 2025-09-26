@@ -13,18 +13,18 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation? __res_3236;
-            JSObject? __res_3237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
-            if (__res_3237 is null)
+            Iskra.StdWeb.PrivateAggregation? __res_3646;
+            JSObject? __res_3647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
+            if (__res_3647 is null)
             {
-                __res_3236 = null;
+                __res_3646 = null;
             }
             else
             {
-                JSObject __notNullable_3238 = (JSObject)__res_3237;
-                throw new Exception("Marshaller from \"__notNullable_3238\" to \"__res_3236\" not supported.");
+                JSObject __notNullable_3648 = (JSObject)__res_3647;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3648\" to \"__res_3646\" not supported.");
             }
-            return __res_3236;
+            return __res_3646;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
-            Iskra.StdWeb.ProtectedAudienceUtilities __res_3239;
-            JSObject __res_3240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
-            throw new Exception("Marshaller from \"__res_3240\" to \"__res_3239\" not supported.");
-            return __res_3239;
+            Iskra.StdWeb.ProtectedAudienceUtilities __res_3649;
+            JSObject __res_3650 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            throw new Exception("Marshaller ToManaged from \"__res_3650\" to \"__res_3649\" not supported.");
+            return __res_3649;
         }
     }
 }

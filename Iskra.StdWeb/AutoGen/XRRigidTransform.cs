@@ -13,10 +13,10 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_3677;
-            JSObject __res_3678 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "position");
-            throw new Exception("Marshaller from \"__res_3678\" to \"__res_3677\" not supported.");
-            return __res_3677;
+            Iskra.StdWeb.DOMPointReadOnly __res_4211;
+            JSObject __res_4212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "position");
+            throw new Exception("Marshaller ToManaged from \"__res_4212\" to \"__res_4211\" not supported.");
+            return __res_4211;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_3679;
-            JSObject __res_3680 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
-            throw new Exception("Marshaller from \"__res_3680\" to \"__res_3679\" not supported.");
-            return __res_3679;
+            Iskra.StdWeb.DOMPointReadOnly __res_4213;
+            JSObject __res_4214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
+            throw new Exception("Marshaller ToManaged from \"__res_4214\" to \"__res_4213\" not supported.");
+            return __res_4213;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_3681;
-            JSObject __res_3682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            throw new Exception("Marshaller from \"__res_3682\" to \"__res_3681\" not supported.");
-            return __res_3681;
+            Iskra.JSCore.Float32Array __res_4215;
+            JSObject __res_4216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            throw new Exception("Marshaller ToManaged from \"__res_4216\" to \"__res_4215\" not supported.");
+            return __res_4215;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_3683;
-            JSObject __res_3684 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inverse");
-            throw new Exception("Marshaller from \"__res_3684\" to \"__res_3683\" not supported.");
-            return __res_3683;
+            Iskra.StdWeb.XRRigidTransform __res_4217;
+            JSObject __res_4218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inverse");
+            throw new Exception("Marshaller ToManaged from \"__res_4218\" to \"__res_4217\" not supported.");
+            return __res_4217;
         }
     }
 }

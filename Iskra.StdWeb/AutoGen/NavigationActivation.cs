@@ -13,18 +13,18 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry? __res_5618;
-            JSObject? __res_5619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "from");
-            if (__res_5619 is null)
+            Iskra.StdWeb.NavigationHistoryEntry? __res_6623;
+            JSObject? __res_6624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "from");
+            if (__res_6624 is null)
             {
-                __res_5618 = null;
+                __res_6623 = null;
             }
             else
             {
-                JSObject __notNullable_5620 = (JSObject)__res_5619;
-                throw new Exception("Marshaller from \"__notNullable_5620\" to \"__res_5618\" not supported.");
+                JSObject __notNullable_6625 = (JSObject)__res_6624;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6625\" to \"__res_6623\" not supported.");
             }
-            return __res_5618;
+            return __res_6623;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_5621;
-            JSObject __res_5622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "entry");
-            throw new Exception("Marshaller from \"__res_5622\" to \"__res_5621\" not supported.");
-            return __res_5621;
+            Iskra.StdWeb.NavigationHistoryEntry __res_6626;
+            JSObject __res_6627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "entry");
+            throw new Exception("Marshaller ToManaged from \"__res_6627\" to \"__res_6626\" not supported.");
+            return __res_6626;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class NavigationActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType __res_5623;
-            JSObject __res_5624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
-            throw new Exception("Marshaller from \"__res_5624\" to \"__res_5623\" not supported.");
-            return __res_5623;
+            Iskra.StdWeb.NavigationType __res_6628;
+            JSObject __res_6629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
+            throw new Exception("Marshaller ToManaged from \"__res_6629\" to \"__res_6628\" not supported.");
+            return __res_6628;
         }
     }
 }

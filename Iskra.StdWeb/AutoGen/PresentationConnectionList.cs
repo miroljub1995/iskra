@@ -13,9 +13,9 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_2001;
+            object __res_2262;
             throw new Exception();
-            return __res_2001;
+            return __res_2262;
         }
     }
 
@@ -23,22 +23,32 @@ public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2002;
-            JSObject? __res_2003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
-            if (__res_2003 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2263;
+            JSObject? __res_2264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
+            if (__res_2264 is null)
             {
-                __res_2002 = null;
+                __res_2263 = null;
             }
             else
             {
-                JSObject __notNullable_2004 = (JSObject)__res_2003;
-                throw new Exception("Marshaller from \"__notNullable_2004\" to \"__res_2002\" not supported.");
+                JSObject __notNullable_2265 = (JSObject)__res_2264;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2265\" to \"__res_2263\" not supported.");
             }
-            return __res_2002;
+            return __res_2263;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2266;
+            if (value is null)
+            {
+                __marshalledValue_2266 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2267 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2267\" to \"__marshalledValue_2266\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_2266);
         }
     }
 }

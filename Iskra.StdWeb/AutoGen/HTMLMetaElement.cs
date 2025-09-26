@@ -13,14 +13,16 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4576;
-            string __res_4577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4576 = __res_4577;
-            return __res_4576;
+            string __res_5273;
+            string __res_5274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5273 = __res_5274;
+            return __res_5273;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5275;
+            __marshalledValue_5275 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5275);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4578;
-            string __res_4579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "httpEquiv");
-            __res_4578 = __res_4579;
-            return __res_4578;
+            string __res_5276;
+            string __res_5277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "httpEquiv");
+            __res_5276 = __res_5277;
+            return __res_5276;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5278;
+            __marshalledValue_5278 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "httpEquiv", __marshalledValue_5278);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4580;
-            string __res_4581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "content");
-            __res_4580 = __res_4581;
-            return __res_4580;
+            string __res_5279;
+            string __res_5280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "content");
+            __res_5279 = __res_5280;
+            return __res_5279;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5281;
+            __marshalledValue_5281 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "content", __marshalledValue_5281);
         }
     }
 
@@ -58,14 +64,16 @@ public partial class HTMLMetaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4582;
-            string __res_4583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_4582 = __res_4583;
-            return __res_4582;
+            string __res_5282;
+            string __res_5283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_5282 = __res_5283;
+            return __res_5282;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5284;
+            __marshalledValue_5284 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_5284);
         }
     }
 }

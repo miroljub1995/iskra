@@ -13,10 +13,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4117;
-            string __res_4118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4117 = __res_4118;
-            return __res_4117;
+            string __res_4713;
+            string __res_4714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4713 = __res_4714;
+            return __res_4713;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_4119;
-            double __res_4120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_4119 = Convert.ToInt32(__res_4120);
-            return __res_4119;
+            int __res_4715;
+            double __res_4716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_4715 = Convert.ToInt32(__res_4716);
+            return __res_4715;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4121;
-            bool __res_4122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
-            __res_4121 = __res_4122;
-            return __res_4121;
+            bool __res_4717;
+            bool __res_4718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            __res_4717 = __res_4718;
+            return __res_4717;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4123;
-            double __res_4124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_4123 = __res_4124;
-            return __res_4123;
+            double __res_4719;
+            double __res_4720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_4719 = __res_4720;
+            return __res_4719;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GamepadMappingType __res_4125;
-            JSObject __res_4126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapping");
-            throw new Exception("Marshaller from \"__res_4126\" to \"__res_4125\" not supported.");
-            return __res_4125;
+            Iskra.StdWeb.GamepadMappingType __res_4721;
+            JSObject __res_4722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapping");
+            throw new Exception("Marshaller ToManaged from \"__res_4722\" to \"__res_4721\" not supported.");
+            return __res_4721;
         }
     }
 
@@ -68,9 +68,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4127;
+            object __res_4723;
             throw new Exception();
-            return __res_4127;
+            return __res_4723;
         }
     }
 
@@ -78,9 +78,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4128;
+            object __res_4724;
             throw new Exception();
-            return __res_4128;
+            return __res_4724;
         }
     }
 
@@ -88,9 +88,9 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4129;
+            object __res_4725;
             throw new Exception();
-            return __res_4129;
+            return __res_4725;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GamepadHapticActuator __res_4130;
-            JSObject __res_4131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
-            throw new Exception("Marshaller from \"__res_4131\" to \"__res_4130\" not supported.");
-            return __res_4130;
+            Iskra.StdWeb.GamepadHapticActuator __res_4726;
+            JSObject __res_4727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
+            throw new Exception("Marshaller ToManaged from \"__res_4727\" to \"__res_4726\" not supported.");
+            return __res_4726;
         }
     }
 }

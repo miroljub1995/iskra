@@ -13,10 +13,10 @@ public partial class CSSMathMax(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericArray __res_54;
-            JSObject __res_55 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            throw new Exception("Marshaller from \"__res_55\" to \"__res_54\" not supported.");
-            return __res_54;
+            Iskra.StdWeb.CSSNumericArray __res_58;
+            JSObject __res_59 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            throw new Exception("Marshaller ToManaged from \"__res_59\" to \"__res_58\" not supported.");
+            return __res_58;
         }
     }
 }

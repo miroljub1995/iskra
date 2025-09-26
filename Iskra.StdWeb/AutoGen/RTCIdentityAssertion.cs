@@ -13,14 +13,16 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3579;
-            string __res_3580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
-            __res_3579 = __res_3580;
-            return __res_3579;
+            string __res_4087;
+            string __res_4088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
+            __res_4087 = __res_4088;
+            return __res_4087;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_4089;
+            __marshalledValue_4089 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_4089);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3581;
-            string __res_3582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3581 = __res_3582;
-            return __res_3581;
+            string __res_4090;
+            string __res_4091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4090 = __res_4091;
+            return __res_4090;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_4092;
+            __marshalledValue_4092 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_4092);
         }
     }
 }

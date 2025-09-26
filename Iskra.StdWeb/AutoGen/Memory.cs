@@ -13,10 +13,10 @@ public partial class Memory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4011;
-            JSObject __res_4012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
-            throw new Exception("Marshaller from \"__res_4012\" to \"__res_4011\" not supported.");
-            return __res_4011;
+            Iskra.JSCore.ArrayBuffer __res_4597;
+            JSObject __res_4598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
+            throw new Exception("Marshaller ToManaged from \"__res_4598\" to \"__res_4597\" not supported.");
+            return __res_4597;
         }
     }
 }

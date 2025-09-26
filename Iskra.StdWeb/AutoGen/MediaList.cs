@@ -13,14 +13,16 @@ public partial class MediaList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6069;
-            string __res_6070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
-            __res_6069 = __res_6070;
-            return __res_6069;
+            string __res_7161;
+            string __res_7162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
+            __res_7161 = __res_7162;
+            return __res_7161;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_7163;
+            __marshalledValue_7163 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_7163);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class MediaList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6071;
-            double __res_6072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6071 = Convert.ToUInt32(__res_6072);
-            return __res_6071;
+            uint __res_7164;
+            double __res_7165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7164 = Convert.ToUInt32(__res_7165);
+            return __res_7164;
         }
     }
 }

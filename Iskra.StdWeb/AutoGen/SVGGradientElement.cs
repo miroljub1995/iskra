@@ -13,10 +13,10 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_441;
-            JSObject __res_442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientUnits");
-            throw new Exception("Marshaller from \"__res_442\" to \"__res_441\" not supported.");
-            return __res_441;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_484;
+            JSObject __res_485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientUnits");
+            throw new Exception("Marshaller ToManaged from \"__res_485\" to \"__res_484\" not supported.");
+            return __res_484;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedTransformList __res_443;
-            JSObject __res_444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientTransform");
-            throw new Exception("Marshaller from \"__res_444\" to \"__res_443\" not supported.");
-            return __res_443;
+            Iskra.StdWeb.SVGAnimatedTransformList __res_486;
+            JSObject __res_487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientTransform");
+            throw new Exception("Marshaller ToManaged from \"__res_487\" to \"__res_486\" not supported.");
+            return __res_486;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_445;
-            JSObject __res_446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spreadMethod");
-            throw new Exception("Marshaller from \"__res_446\" to \"__res_445\" not supported.");
-            return __res_445;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_488;
+            JSObject __res_489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spreadMethod");
+            throw new Exception("Marshaller ToManaged from \"__res_489\" to \"__res_488\" not supported.");
+            return __res_488;
         }
     }
 }

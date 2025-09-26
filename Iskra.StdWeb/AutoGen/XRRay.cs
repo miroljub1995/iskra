@@ -13,10 +13,10 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_4461;
-            JSObject __res_4462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "origin");
-            throw new Exception("Marshaller from \"__res_4462\" to \"__res_4461\" not supported.");
-            return __res_4461;
+            Iskra.StdWeb.DOMPointReadOnly __res_5115;
+            JSObject __res_5116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "origin");
+            throw new Exception("Marshaller ToManaged from \"__res_5116\" to \"__res_5115\" not supported.");
+            return __res_5115;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_4463;
-            JSObject __res_4464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            throw new Exception("Marshaller from \"__res_4464\" to \"__res_4463\" not supported.");
-            return __res_4463;
+            Iskra.StdWeb.DOMPointReadOnly __res_5117;
+            JSObject __res_5118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            throw new Exception("Marshaller ToManaged from \"__res_5118\" to \"__res_5117\" not supported.");
+            return __res_5117;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class XRRay(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_4465;
-            JSObject __res_4466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            throw new Exception("Marshaller from \"__res_4466\" to \"__res_4465\" not supported.");
-            return __res_4465;
+            Iskra.JSCore.Float32Array __res_5119;
+            JSObject __res_5120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            throw new Exception("Marshaller ToManaged from \"__res_5120\" to \"__res_5119\" not supported.");
+            return __res_5119;
         }
     }
 }

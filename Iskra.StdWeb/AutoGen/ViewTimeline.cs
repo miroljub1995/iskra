@@ -13,10 +13,10 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_202;
-            JSObject __res_203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
-            throw new Exception("Marshaller from \"__res_203\" to \"__res_202\" not supported.");
-            return __res_202;
+            Iskra.StdWeb.Element __res_224;
+            JSObject __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
+            throw new Exception("Marshaller ToManaged from \"__res_225\" to \"__res_224\" not supported.");
+            return __res_224;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_204;
-            JSObject __res_205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            throw new Exception("Marshaller from \"__res_205\" to \"__res_204\" not supported.");
-            return __res_204;
+            Iskra.StdWeb.CSSNumericValue __res_226;
+            JSObject __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            throw new Exception("Marshaller ToManaged from \"__res_227\" to \"__res_226\" not supported.");
+            return __res_226;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_206;
-            JSObject __res_207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
-            throw new Exception("Marshaller from \"__res_207\" to \"__res_206\" not supported.");
-            return __res_206;
+            Iskra.StdWeb.CSSNumericValue __res_228;
+            JSObject __res_229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
+            throw new Exception("Marshaller ToManaged from \"__res_229\" to \"__res_228\" not supported.");
+            return __res_228;
         }
     }
 }

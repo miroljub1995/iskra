@@ -13,18 +13,18 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_1659;
-            string? __res_1660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
-            if (__res_1660 is null)
+            string? __res_1842;
+            string? __res_1843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
+            if (__res_1843 is null)
             {
-                __res_1659 = null;
+                __res_1842 = null;
             }
             else
             {
-                string __notNullable_1661 = (string)__res_1660;
-                __res_1659 = __notNullable_1661;
+                string __notNullable_1844 = (string)__res_1843;
+                __res_1842 = __notNullable_1844;
             }
-            return __res_1659;
+            return __res_1842;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort? __res_1662;
-            double? __res_1663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
-            if (__res_1663 is null)
+            ushort? __res_1845;
+            double? __res_1846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
+            if (__res_1846 is null)
             {
-                __res_1662 = null;
+                __res_1845 = null;
             }
             else
             {
-                double __notNullable_1664 = (double)__res_1663;
-                throw new Exception("Marshaller from \"__notNullable_1664\" to \"__res_1662\" not supported.");
+                double __notNullable_1847 = (double)__res_1846;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1847\" to \"__res_1845\" not supported.");
             }
-            return __res_1662;
+            return __res_1845;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_1665;
-            string __res_1666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_1665 = __res_1666;
-            return __res_1665;
+            string __res_1848;
+            string __res_1849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_1848 = __res_1849;
+            return __res_1848;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort __res_1667;
-            double __res_1668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
-            throw new Exception("Marshaller from \"__res_1668\" to \"__res_1667\" not supported.");
-            return __res_1667;
+            ushort __res_1850;
+            double __res_1851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
+            throw new Exception("Marshaller ToManaged from \"__res_1851\" to \"__res_1850\" not supported.");
+            return __res_1850;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_1669;
-            string __res_1670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorText");
-            __res_1669 = __res_1670;
-            return __res_1669;
+            string __res_1852;
+            string __res_1853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorText");
+            __res_1852 = __res_1853;
+            return __res_1852;
         }
     }
 }

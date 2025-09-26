@@ -13,10 +13,10 @@ public partial class HTMLTableSectionElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_4955;
-            JSObject __res_4956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
-            throw new Exception("Marshaller from \"__res_4956\" to \"__res_4955\" not supported.");
-            return __res_4955;
+            Iskra.StdWeb.HTMLCollection __res_5783;
+            JSObject __res_5784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
+            throw new Exception("Marshaller ToManaged from \"__res_5784\" to \"__res_5783\" not supported.");
+            return __res_5783;
         }
     }
 }

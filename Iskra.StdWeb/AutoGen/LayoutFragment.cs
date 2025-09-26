@@ -13,10 +13,10 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6536;
-            double __res_6537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_6536 = __res_6537;
-            return __res_6536;
+            double __res_7729;
+            double __res_7730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
+            __res_7729 = __res_7730;
+            return __res_7729;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6538;
-            double __res_6539 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_6538 = __res_6539;
-            return __res_6538;
+            double __res_7731;
+            double __res_7732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
+            __res_7731 = __res_7732;
+            return __res_7731;
         }
     }
 
@@ -35,14 +35,16 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6540;
-            double __res_6541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineOffset");
-            __res_6540 = __res_6541;
-            return __res_6540;
+            double __res_7733;
+            double __res_7734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineOffset");
+            __res_7733 = __res_7734;
+            return __res_7733;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_7735;
+            __marshalledValue_7735 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "inlineOffset", __marshalledValue_7735);
         }
     }
 
@@ -50,14 +52,16 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6542;
-            double __res_6543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockOffset");
-            __res_6542 = __res_6543;
-            return __res_6542;
+            double __res_7736;
+            double __res_7737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockOffset");
+            __res_7736 = __res_7737;
+            return __res_7736;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_7738;
+            __marshalledValue_7738 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "blockOffset", __marshalledValue_7738);
         }
     }
 
@@ -65,10 +69,10 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6544;
-            JSObject __res_6545 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_6544 = __res_6545;
-            return __res_6544;
+            object? __res_7739;
+            JSObject __res_7740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_7739 = __res_7740;
+            return __res_7739;
         }
     }
 
@@ -76,18 +80,18 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ChildBreakToken? __res_6546;
-            JSObject? __res_6547 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "breakToken");
-            if (__res_6547 is null)
+            Iskra.StdWeb.ChildBreakToken? __res_7741;
+            JSObject? __res_7742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "breakToken");
+            if (__res_7742 is null)
             {
-                __res_6546 = null;
+                __res_7741 = null;
             }
             else
             {
-                JSObject __notNullable_6548 = (JSObject)__res_6547;
-                throw new Exception("Marshaller from \"__notNullable_6548\" to \"__res_6546\" not supported.");
+                JSObject __notNullable_7743 = (JSObject)__res_7742;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7743\" to \"__res_7741\" not supported.");
             }
-            return __res_6546;
+            return __res_7741;
         }
     }
 }

@@ -13,22 +13,32 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_6934;
-            JSObject? __res_6935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
-            if (__res_6935 is null)
+            Iskra.JSCore.Float32Array? __res_8182;
+            JSObject? __res_8183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
+            if (__res_8183 is null)
             {
-                __res_6934 = null;
+                __res_8182 = null;
             }
             else
             {
-                JSObject __notNullable_6936 = (JSObject)__res_6935;
-                throw new Exception("Marshaller from \"__notNullable_6936\" to \"__res_6934\" not supported.");
+                JSObject __notNullable_8184 = (JSObject)__res_8183;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_8184\" to \"__res_8182\" not supported.");
             }
-            return __res_6934;
+            return __res_8182;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_8185;
+            if (value is null)
+            {
+                __marshalledValue_8185 = null;
+            }
+            else
+            {
+                Iskra.JSCore.Float32Array __notNullable_8186 = (Iskra.JSCore.Float32Array)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_8186\" to \"__marshalledValue_8185\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_8185);
         }
     }
 
@@ -36,14 +46,16 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.OverSampleType __res_6937;
-            JSObject __res_6938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
-            throw new Exception("Marshaller from \"__res_6938\" to \"__res_6937\" not supported.");
-            return __res_6937;
+            Iskra.StdWeb.OverSampleType __res_8187;
+            JSObject __res_8188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
+            throw new Exception("Marshaller ToManaged from \"__res_8188\" to \"__res_8187\" not supported.");
+            return __res_8187;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_8189;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8189\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "oversample", __marshalledValue_8189);
         }
     }
 }

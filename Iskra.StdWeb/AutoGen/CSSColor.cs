@@ -13,9 +13,9 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_124;
+            object __res_139;
             throw new Exception();
-            return __res_124;
+            return __res_139;
         }
         set
         {
@@ -27,9 +27,9 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_125;
+            object __res_140;
             throw new Exception();
-            return __res_125;
+            return __res_140;
         }
         set
         {
@@ -41,9 +41,9 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_126;
+            object __res_141;
             throw new Exception();
-            return __res_126;
+            return __res_141;
         }
         set
         {

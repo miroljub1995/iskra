@@ -13,10 +13,10 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_824;
-            JSObject __res_825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
-            throw new Exception("Marshaller from \"__res_825\" to \"__res_824\" not supported.");
-            return __res_824;
+            Iskra.JSCore.Float32Array __res_915;
+            JSObject __res_916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
+            throw new Exception("Marshaller ToManaged from \"__res_916\" to \"__res_915\" not supported.");
+            return __res_915;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_826;
-            JSObject __res_827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
-            throw new Exception("Marshaller from \"__res_827\" to \"__res_826\" not supported.");
-            return __res_826;
+            Iskra.StdWeb.DOMPointReadOnly __res_917;
+            JSObject __res_918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
+            throw new Exception("Marshaller ToManaged from \"__res_918\" to \"__res_917\" not supported.");
+            return __res_917;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_828;
-            JSObject __res_829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
-            throw new Exception("Marshaller from \"__res_829\" to \"__res_828\" not supported.");
-            return __res_828;
+            Iskra.StdWeb.DOMPointReadOnly __res_919;
+            JSObject __res_920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
+            throw new Exception("Marshaller ToManaged from \"__res_920\" to \"__res_919\" not supported.");
+            return __res_919;
         }
     }
 }

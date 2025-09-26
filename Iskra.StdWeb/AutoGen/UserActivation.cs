@@ -13,10 +13,10 @@ public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_5452;
-            bool __res_5453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasBeenActive");
-            __res_5452 = __res_5453;
-            return __res_5452;
+            bool __res_6429;
+            bool __res_6430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasBeenActive");
+            __res_6429 = __res_6430;
+            return __res_6429;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class UserActivation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_5454;
-            bool __res_5455 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isActive");
-            __res_5454 = __res_5455;
-            return __res_5454;
+            bool __res_6431;
+            bool __res_6432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isActive");
+            __res_6431 = __res_6432;
+            return __res_6431;
         }
     }
 }

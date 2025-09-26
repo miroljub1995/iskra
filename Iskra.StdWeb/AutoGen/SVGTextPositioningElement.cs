@@ -13,10 +13,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_388;
-            JSObject __res_389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller from \"__res_389\" to \"__res_388\" not supported.");
-            return __res_388;
+            Iskra.StdWeb.SVGAnimatedLengthList __res_428;
+            JSObject __res_429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller ToManaged from \"__res_429\" to \"__res_428\" not supported.");
+            return __res_428;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_390;
-            JSObject __res_391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller from \"__res_391\" to \"__res_390\" not supported.");
-            return __res_390;
+            Iskra.StdWeb.SVGAnimatedLengthList __res_430;
+            JSObject __res_431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller ToManaged from \"__res_431\" to \"__res_430\" not supported.");
+            return __res_430;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_392;
-            JSObject __res_393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
-            throw new Exception("Marshaller from \"__res_393\" to \"__res_392\" not supported.");
-            return __res_392;
+            Iskra.StdWeb.SVGAnimatedLengthList __res_432;
+            JSObject __res_433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
+            throw new Exception("Marshaller ToManaged from \"__res_433\" to \"__res_432\" not supported.");
+            return __res_432;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_394;
-            JSObject __res_395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
-            throw new Exception("Marshaller from \"__res_395\" to \"__res_394\" not supported.");
-            return __res_394;
+            Iskra.StdWeb.SVGAnimatedLengthList __res_434;
+            JSObject __res_435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
+            throw new Exception("Marshaller ToManaged from \"__res_435\" to \"__res_434\" not supported.");
+            return __res_434;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_396;
-            JSObject __res_397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rotate");
-            throw new Exception("Marshaller from \"__res_397\" to \"__res_396\" not supported.");
-            return __res_396;
+            Iskra.StdWeb.SVGAnimatedNumberList __res_436;
+            JSObject __res_437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rotate");
+            throw new Exception("Marshaller ToManaged from \"__res_437\" to \"__res_436\" not supported.");
+            return __res_436;
         }
     }
 }

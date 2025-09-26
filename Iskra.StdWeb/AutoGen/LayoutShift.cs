@@ -13,10 +13,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2632;
-            double __res_2633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_2632 = __res_2633;
-            return __res_2632;
+            double __res_2986;
+            double __res_2987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_2986 = __res_2987;
+            return __res_2986;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            bool __res_2634;
-            bool __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
-            __res_2634 = __res_2635;
-            return __res_2634;
+            bool __res_2988;
+            bool __res_2989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
+            __res_2988 = __res_2989;
+            return __res_2988;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2636;
-            double __res_2637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastInputTime");
-            __res_2636 = __res_2637;
-            return __res_2636;
+            double __res_2990;
+            double __res_2991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastInputTime");
+            __res_2990 = __res_2991;
+            return __res_2990;
         }
     }
 
@@ -46,9 +46,9 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            object __res_2638;
+            object __res_2992;
             throw new Exception();
-            return __res_2638;
+            return __res_2992;
         }
     }
 }

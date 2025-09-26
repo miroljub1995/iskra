@@ -13,10 +13,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3048;
-            double __res_3049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_3048 = __res_3049;
-            return __res_3048;
+            double __res_3431;
+            double __res_3432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_3431 = __res_3432;
+            return __res_3431;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3050;
-            double __res_3051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_3050 = __res_3051;
-            return __res_3050;
+            double __res_3433;
+            double __res_3434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_3433 = __res_3434;
+            return __res_3433;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3052;
-            double __res_3053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_3052 = __res_3053;
-            return __res_3052;
+            double __res_3435;
+            double __res_3436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3435 = __res_3436;
+            return __res_3435;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3054;
-            double __res_3055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_3054 = __res_3055;
-            return __res_3054;
+            double __res_3437;
+            double __res_3438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3437 = __res_3438;
+            return __res_3437;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3056;
-            double __res_3057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
-            __res_3056 = __res_3057;
-            return __res_3056;
+            double __res_3439;
+            double __res_3440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
+            __res_3439 = __res_3440;
+            return __res_3439;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3058;
-            double __res_3059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "right");
-            __res_3058 = __res_3059;
-            return __res_3058;
+            double __res_3441;
+            double __res_3442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "right");
+            __res_3441 = __res_3442;
+            return __res_3441;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3060;
-            double __res_3061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bottom");
-            __res_3060 = __res_3061;
-            return __res_3060;
+            double __res_3443;
+            double __res_3444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bottom");
+            __res_3443 = __res_3444;
+            return __res_3443;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class DOMRectReadOnly(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3062;
-            double __res_3063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
-            __res_3062 = __res_3063;
-            return __res_3062;
+            double __res_3445;
+            double __res_3446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
+            __res_3445 = __res_3446;
+            return __res_3445;
         }
     }
 }

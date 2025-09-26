@@ -13,10 +13,10 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1004;
-            JSObject __res_1005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller from \"__res_1005\" to \"__res_1004\" not supported.");
-            return __res_1004;
+            Iskra.StdWeb.SVGAnimatedString __res_1107;
+            JSObject __res_1108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller ToManaged from \"__res_1108\" to \"__res_1107\" not supported.");
+            return __res_1107;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1006;
-            JSObject __res_1007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_1007\" to \"__res_1006\" not supported.");
-            return __res_1006;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1109;
+            JSObject __res_1110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_1110\" to \"__res_1109\" not supported.");
+            return __res_1109;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGFEColorMatrixElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_1008;
-            JSObject __res_1009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            throw new Exception("Marshaller from \"__res_1009\" to \"__res_1008\" not supported.");
-            return __res_1008;
+            Iskra.StdWeb.SVGAnimatedNumberList __res_1111;
+            JSObject __res_1112 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            throw new Exception("Marshaller ToManaged from \"__res_1112\" to \"__res_1111\" not supported.");
+            return __res_1111;
         }
     }
 }

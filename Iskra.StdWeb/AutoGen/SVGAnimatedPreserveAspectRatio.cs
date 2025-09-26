@@ -13,10 +13,10 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
     {
         get
         {
-            Iskra.StdWeb.SVGPreserveAspectRatio __res_342;
-            JSObject __res_343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            throw new Exception("Marshaller from \"__res_343\" to \"__res_342\" not supported.");
-            return __res_342;
+            Iskra.StdWeb.SVGPreserveAspectRatio __res_382;
+            JSObject __res_383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller ToManaged from \"__res_383\" to \"__res_382\" not supported.");
+            return __res_382;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
     {
         get
         {
-            Iskra.StdWeb.SVGPreserveAspectRatio __res_344;
-            JSObject __res_345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            throw new Exception("Marshaller from \"__res_345\" to \"__res_344\" not supported.");
-            return __res_344;
+            Iskra.StdWeb.SVGPreserveAspectRatio __res_384;
+            JSObject __res_385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller ToManaged from \"__res_385\" to \"__res_384\" not supported.");
+            return __res_384;
         }
     }
 }

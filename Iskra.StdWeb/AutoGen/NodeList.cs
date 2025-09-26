@@ -13,10 +13,10 @@ public partial class NodeList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2762;
-            double __res_2763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2762 = Convert.ToUInt32(__res_2763);
-            return __res_2762;
+            uint __res_3124;
+            double __res_3125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3124 = Convert.ToUInt32(__res_3125);
+            return __res_3124;
         }
     }
 }

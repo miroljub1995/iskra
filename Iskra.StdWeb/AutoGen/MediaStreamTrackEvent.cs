@@ -13,10 +13,10 @@ public partial class MediaStreamTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_3348;
-            JSObject __res_3349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller from \"__res_3349\" to \"__res_3348\" not supported.");
-            return __res_3348;
+            Iskra.StdWeb.MediaStreamTrack __res_3779;
+            JSObject __res_3780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller ToManaged from \"__res_3780\" to \"__res_3779\" not supported.");
+            return __res_3779;
         }
     }
 }

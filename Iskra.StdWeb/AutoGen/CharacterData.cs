@@ -13,14 +13,16 @@ public partial class CharacterData(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2914;
-            string __res_2915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_2914 = __res_2915;
-            return __res_2914;
+            string __res_3286;
+            string __res_3287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_3286 = __res_3287;
+            return __res_3286;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_3288;
+            __marshalledValue_3288 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_3288);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class CharacterData(JSObject obj): Node(obj)
     {
         get
         {
-            uint __res_2916;
-            double __res_2917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2916 = Convert.ToUInt32(__res_2917);
-            return __res_2916;
+            uint __res_3289;
+            double __res_3290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3289 = Convert.ToUInt32(__res_3290);
+            return __res_3289;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_6112;
-            string __res_6113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_6112 = __res_6113;
-            return __res_6112;
+            string __res_7208;
+            string __res_7209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_7208 = __res_7209;
+            return __res_7208;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_6114;
-            JSObject __res_6115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            throw new Exception("Marshaller from \"__res_6115\" to \"__res_6114\" not supported.");
-            return __res_6114;
+            Iskra.StdWeb.MediaList __res_7210;
+            JSObject __res_7211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            throw new Exception("Marshaller ToManaged from \"__res_7211\" to \"__res_7210\" not supported.");
+            return __res_7210;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_6116;
-            JSObject? __res_6117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
-            if (__res_6117 is null)
+            Iskra.StdWeb.CSSStyleSheet? __res_7212;
+            JSObject? __res_7213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
+            if (__res_7213 is null)
             {
-                __res_6116 = null;
+                __res_7212 = null;
             }
             else
             {
-                JSObject __notNullable_6118 = (JSObject)__res_6117;
-                throw new Exception("Marshaller from \"__notNullable_6118\" to \"__res_6116\" not supported.");
+                JSObject __notNullable_7214 = (JSObject)__res_7213;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7214\" to \"__res_7212\" not supported.");
             }
-            return __res_6116;
+            return __res_7212;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_6119;
-            string? __res_6120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
-            if (__res_6120 is null)
+            string? __res_7215;
+            string? __res_7216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
+            if (__res_7216 is null)
             {
-                __res_6119 = null;
+                __res_7215 = null;
             }
             else
             {
-                string __notNullable_6121 = (string)__res_6120;
-                __res_6119 = __notNullable_6121;
+                string __notNullable_7217 = (string)__res_7216;
+                __res_7215 = __notNullable_7217;
             }
-            return __res_6119;
+            return __res_7215;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_6122;
-            string? __res_6123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
-            if (__res_6123 is null)
+            string? __res_7218;
+            string? __res_7219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
+            if (__res_7219 is null)
             {
-                __res_6122 = null;
+                __res_7218 = null;
             }
             else
             {
-                string __notNullable_6124 = (string)__res_6123;
-                __res_6122 = __notNullable_6124;
+                string __notNullable_7220 = (string)__res_7219;
+                __res_7218 = __notNullable_7220;
             }
-            return __res_6122;
+            return __res_7218;
         }
     }
 }

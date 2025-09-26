@@ -13,10 +13,10 @@ public partial class SVGAnimatedLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGLength __res_266;
-            JSObject __res_267 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            throw new Exception("Marshaller from \"__res_267\" to \"__res_266\" not supported.");
-            return __res_266;
+            Iskra.StdWeb.SVGLength __res_299;
+            JSObject __res_300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            throw new Exception("Marshaller ToManaged from \"__res_300\" to \"__res_299\" not supported.");
+            return __res_299;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGAnimatedLength(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGLength __res_268;
-            JSObject __res_269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            throw new Exception("Marshaller from \"__res_269\" to \"__res_268\" not supported.");
-            return __res_268;
+            Iskra.StdWeb.SVGLength __res_301;
+            JSObject __res_302 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            throw new Exception("Marshaller ToManaged from \"__res_302\" to \"__res_301\" not supported.");
+            return __res_301;
         }
     }
 }

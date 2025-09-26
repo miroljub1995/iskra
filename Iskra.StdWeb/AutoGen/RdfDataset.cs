@@ -13,10 +13,10 @@ public partial class RdfDataset(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RdfGraph __res_4377;
-            JSObject __res_4378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
-            throw new Exception("Marshaller from \"__res_4378\" to \"__res_4377\" not supported.");
-            return __res_4377;
+            Iskra.StdWeb.RdfGraph __res_5026;
+            JSObject __res_5027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
+            throw new Exception("Marshaller ToManaged from \"__res_5027\" to \"__res_5026\" not supported.");
+            return __res_5026;
         }
     }
 }

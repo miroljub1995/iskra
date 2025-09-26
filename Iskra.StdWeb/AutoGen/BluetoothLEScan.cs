@@ -13,9 +13,9 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4109;
+            object __res_4705;
             throw new Exception();
-            return __res_4109;
+            return __res_4705;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4110;
-            bool __res_4111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
-            __res_4110 = __res_4111;
-            return __res_4110;
+            bool __res_4706;
+            bool __res_4707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
+            __res_4706 = __res_4707;
+            return __res_4706;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4112;
-            bool __res_4113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
-            __res_4112 = __res_4113;
-            return __res_4112;
+            bool __res_4708;
+            bool __res_4709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
+            __res_4708 = __res_4709;
+            return __res_4708;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4114;
-            bool __res_4115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_4114 = __res_4115;
-            return __res_4114;
+            bool __res_4710;
+            bool __res_4711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_4710 = __res_4711;
+            return __res_4710;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.OrientationType __res_6709;
-            JSObject __res_6710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_6710\" to \"__res_6709\" not supported.");
-            return __res_6709;
+            Iskra.StdWeb.OrientationType __res_7916;
+            JSObject __res_7917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_7917\" to \"__res_7916\" not supported.");
+            return __res_7916;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_6711;
-            double __res_6712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            throw new Exception("Marshaller from \"__res_6712\" to \"__res_6711\" not supported.");
-            return __res_6711;
+            ushort __res_7918;
+            double __res_7919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            throw new Exception("Marshaller ToManaged from \"__res_7919\" to \"__res_7918\" not supported.");
+            return __res_7918;
         }
     }
 
@@ -35,22 +35,32 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6713;
-            JSObject? __res_6714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_6714 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7920;
+            JSObject? __res_7921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_7921 is null)
             {
-                __res_6713 = null;
+                __res_7920 = null;
             }
             else
             {
-                JSObject __notNullable_6715 = (JSObject)__res_6714;
-                throw new Exception("Marshaller from \"__notNullable_6715\" to \"__res_6713\" not supported.");
+                JSObject __notNullable_7922 = (JSObject)__res_7921;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7922\" to \"__res_7920\" not supported.");
             }
-            return __res_6713;
+            return __res_7920;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7923;
+            if (value is null)
+            {
+                __marshalledValue_7923 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7924 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7924\" to \"__marshalledValue_7923\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_7923);
         }
     }
 }

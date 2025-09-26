@@ -13,10 +13,10 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_149;
-            string __res_150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_149 = __res_150;
-            return __res_149;
+            string __res_166;
+            string __res_167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_166 = __res_167;
+            return __res_166;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WriterTone __res_151;
-            JSObject __res_152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
-            throw new Exception("Marshaller from \"__res_152\" to \"__res_151\" not supported.");
-            return __res_151;
+            Iskra.StdWeb.WriterTone __res_168;
+            JSObject __res_169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
+            throw new Exception("Marshaller ToManaged from \"__res_169\" to \"__res_168\" not supported.");
+            return __res_168;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WriterFormat __res_153;
-            JSObject __res_154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller from \"__res_154\" to \"__res_153\" not supported.");
-            return __res_153;
+            Iskra.StdWeb.WriterFormat __res_170;
+            JSObject __res_171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
+            throw new Exception("Marshaller ToManaged from \"__res_171\" to \"__res_170\" not supported.");
+            return __res_170;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WriterLength __res_155;
-            JSObject __res_156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller from \"__res_156\" to \"__res_155\" not supported.");
-            return __res_155;
+            Iskra.StdWeb.WriterLength __res_172;
+            JSObject __res_173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            throw new Exception("Marshaller ToManaged from \"__res_173\" to \"__res_172\" not supported.");
+            return __res_172;
         }
     }
 
@@ -57,9 +57,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_157;
+            object __res_174;
             throw new Exception();
-            return __res_157;
+            return __res_174;
         }
     }
 
@@ -67,9 +67,9 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_158;
+            object __res_175;
             throw new Exception();
-            return __res_158;
+            return __res_175;
         }
     }
 
@@ -77,18 +77,18 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_159;
-            string? __res_160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_160 is null)
+            string? __res_176;
+            string? __res_177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_177 is null)
             {
-                __res_159 = null;
+                __res_176 = null;
             }
             else
             {
-                string __notNullable_161 = (string)__res_160;
-                __res_159 = __notNullable_161;
+                string __notNullable_178 = (string)__res_177;
+                __res_176 = __notNullable_178;
             }
-            return __res_159;
+            return __res_176;
         }
     }
 
@@ -96,10 +96,10 @@ public partial class Writer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_162;
-            double __res_163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_162 = __res_163;
-            return __res_162;
+            double __res_179;
+            double __res_180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_179 = __res_180;
+            return __res_179;
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6064;
+            object __res_7155;
             throw new Exception();
-            return __res_6064;
+            return __res_7155;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6065;
+            object __res_7156;
             throw new Exception();
-            return __res_6065;
+            return __res_7156;
         }
     }
 
@@ -33,9 +33,9 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6066;
+            object __res_7157;
             throw new Exception();
-            return __res_6066;
+            return __res_7157;
         }
     }
 
@@ -43,14 +43,16 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ViewTransitionTypeSet __res_6067;
-            JSObject __res_6068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            throw new Exception("Marshaller from \"__res_6068\" to \"__res_6067\" not supported.");
-            return __res_6067;
+            Iskra.StdWeb.ViewTransitionTypeSet __res_7158;
+            JSObject __res_7159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            throw new Exception("Marshaller ToManaged from \"__res_7159\" to \"__res_7158\" not supported.");
+            return __res_7158;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_7160;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7160\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_7160);
         }
     }
 }

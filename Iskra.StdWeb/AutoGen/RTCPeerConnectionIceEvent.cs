@@ -13,18 +13,18 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate? __res_1653;
-            JSObject? __res_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
-            if (__res_1654 is null)
+            Iskra.StdWeb.RTCIceCandidate? __res_1836;
+            JSObject? __res_1837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
+            if (__res_1837 is null)
             {
-                __res_1653 = null;
+                __res_1836 = null;
             }
             else
             {
-                JSObject __notNullable_1655 = (JSObject)__res_1654;
-                throw new Exception("Marshaller from \"__notNullable_1655\" to \"__res_1653\" not supported.");
+                JSObject __notNullable_1838 = (JSObject)__res_1837;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1838\" to \"__res_1836\" not supported.");
             }
-            return __res_1653;
+            return __res_1836;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_1656;
-            string? __res_1657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_1657 is null)
+            string? __res_1839;
+            string? __res_1840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_1840 is null)
             {
-                __res_1656 = null;
+                __res_1839 = null;
             }
             else
             {
-                string __notNullable_1658 = (string)__res_1657;
-                __res_1656 = __notNullable_1658;
+                string __notNullable_1841 = (string)__res_1840;
+                __res_1839 = __notNullable_1841;
             }
-            return __res_1656;
+            return __res_1839;
         }
     }
 }

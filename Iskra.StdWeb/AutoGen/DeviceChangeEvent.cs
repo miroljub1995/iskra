@@ -13,9 +13,9 @@ public partial class DeviceChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_3363;
+            object __res_3796;
             throw new Exception();
-            return __res_3363;
+            return __res_3796;
         }
     }
 
@@ -23,9 +23,9 @@ public partial class DeviceChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_3364;
+            object __res_3797;
             throw new Exception();
-            return __res_3364;
+            return __res_3797;
         }
     }
 }

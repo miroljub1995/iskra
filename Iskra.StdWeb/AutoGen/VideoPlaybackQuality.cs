@@ -13,10 +13,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_718;
-            double __res_719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "creationTime");
-            __res_718 = __res_719;
-            return __res_718;
+            double __res_778;
+            double __res_779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "creationTime");
+            __res_778 = __res_779;
+            return __res_778;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_720;
-            double __res_721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "droppedVideoFrames");
-            __res_720 = Convert.ToUInt32(__res_721);
-            return __res_720;
+            uint __res_780;
+            double __res_781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "droppedVideoFrames");
+            __res_780 = Convert.ToUInt32(__res_781);
+            return __res_780;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_722;
-            double __res_723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "totalVideoFrames");
-            __res_722 = Convert.ToUInt32(__res_723);
-            return __res_722;
+            uint __res_782;
+            double __res_783 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "totalVideoFrames");
+            __res_782 = Convert.ToUInt32(__res_783);
+            return __res_782;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class VideoPlaybackQuality(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_724;
-            double __res_725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "corruptedVideoFrames");
-            __res_724 = Convert.ToUInt32(__res_725);
-            return __res_724;
+            uint __res_784;
+            double __res_785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "corruptedVideoFrames");
+            __res_784 = Convert.ToUInt32(__res_785);
+            return __res_784;
         }
     }
 }

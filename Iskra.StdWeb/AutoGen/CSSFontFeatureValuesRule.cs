@@ -13,14 +13,16 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_7021;
-            string __res_7022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_7021 = __res_7022;
-            return __res_7021;
+            string __res_8287;
+            string __res_8288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_8287 = __res_8288;
+            return __res_8287;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_8289;
+            __marshalledValue_8289 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_8289);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7023;
-            JSObject __res_7024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
-            throw new Exception("Marshaller from \"__res_7024\" to \"__res_7023\" not supported.");
-            return __res_7023;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8290;
+            JSObject __res_8291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
+            throw new Exception("Marshaller ToManaged from \"__res_8291\" to \"__res_8290\" not supported.");
+            return __res_8290;
         }
     }
 
@@ -39,10 +41,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7025;
-            JSObject __res_7026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
-            throw new Exception("Marshaller from \"__res_7026\" to \"__res_7025\" not supported.");
-            return __res_7025;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8292;
+            JSObject __res_8293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
+            throw new Exception("Marshaller ToManaged from \"__res_8293\" to \"__res_8292\" not supported.");
+            return __res_8292;
         }
     }
 
@@ -50,10 +52,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7027;
-            JSObject __res_7028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
-            throw new Exception("Marshaller from \"__res_7028\" to \"__res_7027\" not supported.");
-            return __res_7027;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8294;
+            JSObject __res_8295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
+            throw new Exception("Marshaller ToManaged from \"__res_8295\" to \"__res_8294\" not supported.");
+            return __res_8294;
         }
     }
 
@@ -61,10 +63,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7029;
-            JSObject __res_7030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
-            throw new Exception("Marshaller from \"__res_7030\" to \"__res_7029\" not supported.");
-            return __res_7029;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8296;
+            JSObject __res_8297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
+            throw new Exception("Marshaller ToManaged from \"__res_8297\" to \"__res_8296\" not supported.");
+            return __res_8296;
         }
     }
 
@@ -72,10 +74,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7031;
-            JSObject __res_7032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
-            throw new Exception("Marshaller from \"__res_7032\" to \"__res_7031\" not supported.");
-            return __res_7031;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8298;
+            JSObject __res_8299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
+            throw new Exception("Marshaller ToManaged from \"__res_8299\" to \"__res_8298\" not supported.");
+            return __res_8298;
         }
     }
 
@@ -83,10 +85,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7033;
-            JSObject __res_7034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
-            throw new Exception("Marshaller from \"__res_7034\" to \"__res_7033\" not supported.");
-            return __res_7033;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8300;
+            JSObject __res_8301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
+            throw new Exception("Marshaller ToManaged from \"__res_8301\" to \"__res_8300\" not supported.");
+            return __res_8300;
         }
     }
 
@@ -94,10 +96,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_7035;
-            JSObject __res_7036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
-            throw new Exception("Marshaller from \"__res_7036\" to \"__res_7035\" not supported.");
-            return __res_7035;
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8302;
+            JSObject __res_8303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
+            throw new Exception("Marshaller ToManaged from \"__res_8303\" to \"__res_8302\" not supported.");
+            return __res_8302;
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class GPUCanvasContext(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_693;
+            object __res_752;
             throw new Exception();
-            return __res_693;
+            return __res_752;
         }
     }
 }

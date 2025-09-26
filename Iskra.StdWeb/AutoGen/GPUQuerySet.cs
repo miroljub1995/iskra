@@ -13,10 +13,10 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUQueryType __res_689;
-            JSObject __res_690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_690\" to \"__res_689\" not supported.");
-            return __res_689;
+            Iskra.StdWeb.GPUQueryType __res_748;
+            JSObject __res_749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_749\" to \"__res_748\" not supported.");
+            return __res_748;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_691;
-            double __res_692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
-            __res_691 = Convert.ToUInt32(__res_692);
-            return __res_691;
+            uint __res_750;
+            double __res_751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
+            __res_750 = Convert.ToUInt32(__res_751);
+            return __res_750;
         }
     }
 }

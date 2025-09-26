@@ -13,14 +13,16 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2626;
-            string __res_2627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2626 = __res_2627;
-            return __res_2626;
+            string __res_2979;
+            string __res_2980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2979 = __res_2980;
+            return __res_2979;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_2981;
+            __marshalledValue_2981 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_2981);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_2628;
-            JSObject __res_2629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            throw new Exception("Marshaller from \"__res_2629\" to \"__res_2628\" not supported.");
-            return __res_2628;
+            Iskra.StdWeb.CSSRuleList __res_2982;
+            JSObject __res_2983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            throw new Exception("Marshaller ToManaged from \"__res_2983\" to \"__res_2982\" not supported.");
+            return __res_2982;
         }
     }
 
@@ -39,10 +41,10 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            uint __res_2630;
-            double __res_2631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2630 = Convert.ToUInt32(__res_2631);
-            return __res_2630;
+            uint __res_2984;
+            double __res_2985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2984 = Convert.ToUInt32(__res_2985);
+            return __res_2984;
         }
     }
 }

@@ -13,14 +13,16 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationTimeline __res_4479;
-            JSObject __res_4480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "timeline");
-            throw new Exception("Marshaller from \"__res_4480\" to \"__res_4479\" not supported.");
-            return __res_4479;
+            Iskra.StdWeb.AnimationTimeline __res_5133;
+            JSObject __res_5134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "timeline");
+            throw new Exception("Marshaller ToManaged from \"__res_5134\" to \"__res_5133\" not supported.");
+            return __res_5133;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5135;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5135\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "timeline", __marshalledValue_5135);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationTriggerBehavior __res_4481;
-            JSObject __res_4482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "behavior");
-            throw new Exception("Marshaller from \"__res_4482\" to \"__res_4481\" not supported.");
-            return __res_4481;
+            Iskra.StdWeb.AnimationTriggerBehavior __res_5136;
+            JSObject __res_5137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "behavior");
+            throw new Exception("Marshaller ToManaged from \"__res_5137\" to \"__res_5136\" not supported.");
+            return __res_5136;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5138;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5138\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "behavior", __marshalledValue_5138);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_4483;
-            JSObject __res_4484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rangeStart");
-            __res_4483 = __res_4484;
-            return __res_4483;
+            object? __res_5139;
+            JSObject __res_5140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rangeStart");
+            __res_5139 = __res_5140;
+            return __res_5139;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5141;
+            __marshalledValue_5141 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "rangeStart", __marshalledValue_5141);
         }
     }
 
@@ -58,14 +64,16 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_4485;
-            JSObject __res_4486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rangeEnd");
-            __res_4485 = __res_4486;
-            return __res_4485;
+            object? __res_5142;
+            JSObject __res_5143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rangeEnd");
+            __res_5142 = __res_5143;
+            return __res_5142;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5144;
+            __marshalledValue_5144 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "rangeEnd", __marshalledValue_5144);
         }
     }
 
@@ -73,14 +81,16 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_4487;
-            JSObject __res_4488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exitRangeStart");
-            __res_4487 = __res_4488;
-            return __res_4487;
+            object? __res_5145;
+            JSObject __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exitRangeStart");
+            __res_5145 = __res_5146;
+            return __res_5145;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5147;
+            __marshalledValue_5147 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "exitRangeStart", __marshalledValue_5147);
         }
     }
 
@@ -88,14 +98,16 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_4489;
-            JSObject __res_4490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exitRangeEnd");
-            __res_4489 = __res_4490;
-            return __res_4489;
+            object? __res_5148;
+            JSObject __res_5149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exitRangeEnd");
+            __res_5148 = __res_5149;
+            return __res_5148;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_5150;
+            __marshalledValue_5150 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "exitRangeEnd", __marshalledValue_5150);
         }
     }
 }

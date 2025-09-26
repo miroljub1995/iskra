@@ -13,10 +13,10 @@ public partial class SVGPointList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_380;
-            double __res_381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_380 = Convert.ToUInt32(__res_381);
-            return __res_380;
+            uint __res_420;
+            double __res_421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_420 = Convert.ToUInt32(__res_421);
+            return __res_420;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGPointList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_382;
-            double __res_383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_382 = Convert.ToUInt32(__res_383);
-            return __res_382;
+            uint __res_422;
+            double __res_423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_422 = Convert.ToUInt32(__res_423);
+            return __res_422;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_5665;
-            JSObject __res_5666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            __res_5665 = __res_5666;
-            return __res_5665;
+            object? __res_6670;
+            JSObject __res_6671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            __res_6670 = __res_6671;
+            return __res_6670;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            bool __res_5667;
-            bool __res_5668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
-            __res_5667 = __res_5668;
-            return __res_5667;
+            bool __res_6672;
+            bool __res_6673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            __res_6672 = __res_6673;
+            return __res_6672;
         }
     }
 }

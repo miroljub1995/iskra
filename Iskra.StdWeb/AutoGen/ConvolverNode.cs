@@ -13,22 +13,32 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer? __res_6866;
-            JSObject? __res_6867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
-            if (__res_6867 is null)
+            Iskra.StdWeb.AudioBuffer? __res_8100;
+            JSObject? __res_8101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
+            if (__res_8101 is null)
             {
-                __res_6866 = null;
+                __res_8100 = null;
             }
             else
             {
-                JSObject __notNullable_6868 = (JSObject)__res_6867;
-                throw new Exception("Marshaller from \"__notNullable_6868\" to \"__res_6866\" not supported.");
+                JSObject __notNullable_8102 = (JSObject)__res_8101;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_8102\" to \"__res_8100\" not supported.");
             }
-            return __res_6866;
+            return __res_8100;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_8103;
+            if (value is null)
+            {
+                __marshalledValue_8103 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.AudioBuffer __notNullable_8104 = (Iskra.StdWeb.AudioBuffer)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_8104\" to \"__marshalledValue_8103\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8103);
         }
     }
 
@@ -36,14 +46,16 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            bool __res_6869;
-            bool __res_6870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
-            __res_6869 = __res_6870;
-            return __res_6869;
+            bool __res_8105;
+            bool __res_8106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
+            __res_8105 = __res_8106;
+            return __res_8105;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_8107;
+            __marshalledValue_8107 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "normalize", __marshalledValue_8107);
         }
     }
 }

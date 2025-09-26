@@ -13,10 +13,10 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PreferenceObject __res_3800;
-            JSObject __res_3801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorScheme");
-            throw new Exception("Marshaller from \"__res_3801\" to \"__res_3800\" not supported.");
-            return __res_3800;
+            Iskra.StdWeb.PreferenceObject __res_4344;
+            JSObject __res_4345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorScheme");
+            throw new Exception("Marshaller ToManaged from \"__res_4345\" to \"__res_4344\" not supported.");
+            return __res_4344;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PreferenceObject __res_3802;
-            JSObject __res_3803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contrast");
-            throw new Exception("Marshaller from \"__res_3803\" to \"__res_3802\" not supported.");
-            return __res_3802;
+            Iskra.StdWeb.PreferenceObject __res_4346;
+            JSObject __res_4347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contrast");
+            throw new Exception("Marshaller ToManaged from \"__res_4347\" to \"__res_4346\" not supported.");
+            return __res_4346;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PreferenceObject __res_3804;
-            JSObject __res_3805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedMotion");
-            throw new Exception("Marshaller from \"__res_3805\" to \"__res_3804\" not supported.");
-            return __res_3804;
+            Iskra.StdWeb.PreferenceObject __res_4348;
+            JSObject __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedMotion");
+            throw new Exception("Marshaller ToManaged from \"__res_4349\" to \"__res_4348\" not supported.");
+            return __res_4348;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PreferenceObject __res_3806;
-            JSObject __res_3807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedTransparency");
-            throw new Exception("Marshaller from \"__res_3807\" to \"__res_3806\" not supported.");
-            return __res_3806;
+            Iskra.StdWeb.PreferenceObject __res_4350;
+            JSObject __res_4351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedTransparency");
+            throw new Exception("Marshaller ToManaged from \"__res_4351\" to \"__res_4350\" not supported.");
+            return __res_4350;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class PreferenceManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PreferenceObject __res_3808;
-            JSObject __res_3809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedData");
-            throw new Exception("Marshaller from \"__res_3809\" to \"__res_3808\" not supported.");
-            return __res_3808;
+            Iskra.StdWeb.PreferenceObject __res_4352;
+            JSObject __res_4353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedData");
+            throw new Exception("Marshaller ToManaged from \"__res_4353\" to \"__res_4352\" not supported.");
+            return __res_4352;
         }
     }
 }

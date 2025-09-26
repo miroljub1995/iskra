@@ -13,10 +13,10 @@ public partial class XRJointSpace(JSObject obj): XRSpace(obj)
     {
         get
         {
-            Iskra.StdWeb.XRHandJoint __res_3272;
-            JSObject __res_3273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "jointName");
-            throw new Exception("Marshaller from \"__res_3273\" to \"__res_3272\" not supported.");
-            return __res_3272;
+            Iskra.StdWeb.XRHandJoint __res_3692;
+            JSObject __res_3693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "jointName");
+            throw new Exception("Marshaller ToManaged from \"__res_3693\" to \"__res_3692\" not supported.");
+            return __res_3692;
         }
     }
 }

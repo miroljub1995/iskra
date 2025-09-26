@@ -13,10 +13,10 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2034;
-            string __res_2035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2034 = __res_2035;
-            return __res_2034;
+            string __res_2297;
+            string __res_2298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2297 = __res_2298;
+            return __res_2297;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSPositionTryDescriptors __res_2036;
-            JSObject __res_2037 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller from \"__res_2037\" to \"__res_2036\" not supported.");
-            return __res_2036;
+            Iskra.StdWeb.CSSPositionTryDescriptors __res_2299;
+            JSObject __res_2300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller ToManaged from \"__res_2300\" to \"__res_2299\" not supported.");
+            return __res_2299;
         }
     }
 }

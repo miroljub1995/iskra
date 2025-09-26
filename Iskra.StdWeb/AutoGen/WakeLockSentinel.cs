@@ -13,10 +13,10 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_959;
-            bool __res_960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
-            __res_959 = __res_960;
-            return __res_959;
+            bool __res_1060;
+            bool __res_1061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
+            __res_1060 = __res_1061;
+            return __res_1060;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WakeLockType __res_961;
-            JSObject __res_962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_962\" to \"__res_961\" not supported.");
-            return __res_961;
+            Iskra.StdWeb.WakeLockType __res_1062;
+            JSObject __res_1063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_1063\" to \"__res_1062\" not supported.");
+            return __res_1062;
         }
     }
 
@@ -35,22 +35,32 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_963;
-            JSObject? __res_964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
-            if (__res_964 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1064;
+            JSObject? __res_1065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
+            if (__res_1065 is null)
             {
-                __res_963 = null;
+                __res_1064 = null;
             }
             else
             {
-                JSObject __notNullable_965 = (JSObject)__res_964;
-                throw new Exception("Marshaller from \"__notNullable_965\" to \"__res_963\" not supported.");
+                JSObject __notNullable_1066 = (JSObject)__res_1065;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1066\" to \"__res_1064\" not supported.");
             }
-            return __res_963;
+            return __res_1064;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1067;
+            if (value is null)
+            {
+                __marshalledValue_1067 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1068 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1068\" to \"__marshalledValue_1067\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease", __marshalledValue_1067);
         }
     }
 }

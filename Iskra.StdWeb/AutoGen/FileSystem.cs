@@ -13,10 +13,10 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1255;
-            string __res_1256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1255 = __res_1256;
-            return __res_1255;
+            string __res_1358;
+            string __res_1359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1358 = __res_1359;
+            return __res_1358;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileSystemDirectoryEntry __res_1257;
-            JSObject __res_1258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            throw new Exception("Marshaller from \"__res_1258\" to \"__res_1257\" not supported.");
-            return __res_1257;
+            Iskra.StdWeb.FileSystemDirectoryEntry __res_1360;
+            JSObject __res_1361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            throw new Exception("Marshaller ToManaged from \"__res_1361\" to \"__res_1360\" not supported.");
+            return __res_1360;
         }
     }
 }

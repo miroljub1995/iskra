@@ -13,10 +13,10 @@ public partial class PortalActivateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_3268;
-            JSObject __res_3269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_3268 = __res_3269;
-            return __res_3268;
+            object? __res_3688;
+            JSObject __res_3689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_3688 = __res_3689;
+            return __res_3688;
         }
     }
 }

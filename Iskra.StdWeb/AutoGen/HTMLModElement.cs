@@ -13,14 +13,16 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4622;
-            string __res_4623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_4622 = __res_4623;
-            return __res_4622;
+            string __res_5340;
+            string __res_5341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_5340 = __res_5341;
+            return __res_5340;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5342;
+            __marshalledValue_5342 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_5342);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4624;
-            string __res_4625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_4624 = __res_4625;
-            return __res_4624;
+            string __res_5343;
+            string __res_5344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_5343 = __res_5344;
+            return __res_5343;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5345;
+            __marshalledValue_5345 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_5345);
         }
     }
 }

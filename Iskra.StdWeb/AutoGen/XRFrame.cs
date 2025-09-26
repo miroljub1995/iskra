@@ -13,10 +13,10 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSession __res_3656;
-            JSObject __res_3657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            throw new Exception("Marshaller from \"__res_3657\" to \"__res_3656\" not supported.");
-            return __res_3656;
+            Iskra.StdWeb.XRSession __res_4188;
+            JSObject __res_4189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            throw new Exception("Marshaller ToManaged from \"__res_4189\" to \"__res_4188\" not supported.");
+            return __res_4188;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3658;
-            double __res_3659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
-            __res_3658 = __res_3659;
-            return __res_3658;
+            double __res_4190;
+            double __res_4191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
+            __res_4190 = __res_4191;
+            return __res_4190;
         }
     }
 }

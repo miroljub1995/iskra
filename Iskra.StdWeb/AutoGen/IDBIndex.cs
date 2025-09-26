@@ -13,14 +13,16 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6446;
-            string __res_6447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6446 = __res_6447;
-            return __res_6446;
+            string __res_7632;
+            string __res_7633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7632 = __res_7633;
+            return __res_7632;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_7634;
+            __marshalledValue_7634 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7634);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBObjectStore __res_6448;
-            JSObject __res_6449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
-            throw new Exception("Marshaller from \"__res_6449\" to \"__res_6448\" not supported.");
-            return __res_6448;
+            Iskra.StdWeb.IDBObjectStore __res_7635;
+            JSObject __res_7636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
+            throw new Exception("Marshaller ToManaged from \"__res_7636\" to \"__res_7635\" not supported.");
+            return __res_7635;
         }
     }
 
@@ -39,10 +41,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6450;
-            JSObject __res_6451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
-            __res_6450 = __res_6451;
-            return __res_6450;
+            object? __res_7637;
+            JSObject __res_7638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            __res_7637 = __res_7638;
+            return __res_7637;
         }
     }
 
@@ -50,10 +52,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6452;
-            bool __res_6453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
-            __res_6452 = __res_6453;
-            return __res_6452;
+            bool __res_7639;
+            bool __res_7640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
+            __res_7639 = __res_7640;
+            return __res_7639;
         }
     }
 
@@ -61,10 +63,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6454;
-            bool __res_6455 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
-            __res_6454 = __res_6455;
-            return __res_6454;
+            bool __res_7641;
+            bool __res_7642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
+            __res_7641 = __res_7642;
+            return __res_7641;
         }
     }
 }

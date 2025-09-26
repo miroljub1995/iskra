@@ -13,10 +13,10 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1819;
-            bool __res_1820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
-            __res_1819 = __res_1820;
-            return __res_1819;
+            bool __res_2033;
+            bool __res_2034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
+            __res_2033 = __res_2034;
+            return __res_2033;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1821;
-            bool __res_1822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
-            __res_1821 = __res_1822;
-            return __res_1821;
+            bool __res_2035;
+            bool __res_2036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
+            __res_2035 = __res_2036;
+            return __res_2035;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_1823;
-            JSObject? __res_1824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
-            if (__res_1824 is null)
+            Iskra.JSCore.Float32Array? __res_2037;
+            JSObject? __res_2038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
+            if (__res_2038 is null)
             {
-                __res_1823 = null;
+                __res_2037 = null;
             }
             else
             {
-                JSObject __notNullable_1825 = (JSObject)__res_1824;
-                throw new Exception("Marshaller from \"__notNullable_1825\" to \"__res_1823\" not supported.");
+                JSObject __notNullable_2039 = (JSObject)__res_2038;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2039\" to \"__res_2037\" not supported.");
             }
-            return __res_1823;
+            return __res_2037;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_1826;
-            JSObject? __res_1827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_1827 is null)
+            Iskra.JSCore.Float32Array? __res_2040;
+            JSObject? __res_2041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_2041 is null)
             {
-                __res_1826 = null;
+                __res_2040 = null;
             }
             else
             {
-                JSObject __notNullable_1828 = (JSObject)__res_1827;
-                throw new Exception("Marshaller from \"__notNullable_1828\" to \"__res_1826\" not supported.");
+                JSObject __notNullable_2042 = (JSObject)__res_2041;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2042\" to \"__res_2040\" not supported.");
             }
-            return __res_1826;
+            return __res_2040;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_1829;
-            JSObject? __res_1830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
-            if (__res_1830 is null)
+            Iskra.JSCore.Float32Array? __res_2043;
+            JSObject? __res_2044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
+            if (__res_2044 is null)
             {
-                __res_1829 = null;
+                __res_2043 = null;
             }
             else
             {
-                JSObject __notNullable_1831 = (JSObject)__res_1830;
-                throw new Exception("Marshaller from \"__notNullable_1831\" to \"__res_1829\" not supported.");
+                JSObject __notNullable_2045 = (JSObject)__res_2044;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2045\" to \"__res_2043\" not supported.");
             }
-            return __res_1829;
+            return __res_2043;
         }
     }
 
@@ -92,18 +92,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_1832;
-            JSObject? __res_1833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
-            if (__res_1833 is null)
+            Iskra.JSCore.Float32Array? __res_2046;
+            JSObject? __res_2047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
+            if (__res_2047 is null)
             {
-                __res_1832 = null;
+                __res_2046 = null;
             }
             else
             {
-                JSObject __notNullable_1834 = (JSObject)__res_1833;
-                throw new Exception("Marshaller from \"__notNullable_1834\" to \"__res_1832\" not supported.");
+                JSObject __notNullable_2048 = (JSObject)__res_2047;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2048\" to \"__res_2046\" not supported.");
             }
-            return __res_1832;
+            return __res_2046;
         }
     }
 
@@ -111,18 +111,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_1835;
-            JSObject? __res_1836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_1836 is null)
+            Iskra.JSCore.Float32Array? __res_2049;
+            JSObject? __res_2050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_2050 is null)
             {
-                __res_1835 = null;
+                __res_2049 = null;
             }
             else
             {
-                JSObject __notNullable_1837 = (JSObject)__res_1836;
-                throw new Exception("Marshaller from \"__notNullable_1837\" to \"__res_1835\" not supported.");
+                JSObject __notNullable_2051 = (JSObject)__res_2050;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2051\" to \"__res_2049\" not supported.");
             }
-            return __res_1835;
+            return __res_2049;
         }
     }
 
@@ -130,18 +130,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_1838;
-            JSObject? __res_1839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
-            if (__res_1839 is null)
+            Iskra.JSCore.Float32Array? __res_2052;
+            JSObject? __res_2053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
+            if (__res_2053 is null)
             {
-                __res_1838 = null;
+                __res_2052 = null;
             }
             else
             {
-                JSObject __notNullable_1840 = (JSObject)__res_1839;
-                throw new Exception("Marshaller from \"__notNullable_1840\" to \"__res_1838\" not supported.");
+                JSObject __notNullable_2054 = (JSObject)__res_2053;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2054\" to \"__res_2052\" not supported.");
             }
-            return __res_1838;
+            return __res_2052;
         }
     }
 }

@@ -13,9 +13,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2295;
+            object __res_2636;
             throw new Exception();
-            return __res_2295;
+            return __res_2636;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2296;
-            double __res_2297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2296 = Convert.ToUInt32(__res_2297);
-            return __res_2296;
+            uint __res_2637;
+            double __res_2638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2637 = Convert.ToUInt32(__res_2638);
+            return __res_2637;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_2298;
-            double __res_2299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_2298 = Convert.ToInt32(__res_2299);
-            return __res_2298;
+            int __res_2639;
+            double __res_2640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_2639 = Convert.ToInt32(__res_2640);
+            return __res_2639;
         }
     }
 
@@ -45,18 +45,18 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ImageTrack? __res_2300;
-            JSObject? __res_2301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
-            if (__res_2301 is null)
+            Iskra.StdWeb.ImageTrack? __res_2641;
+            JSObject? __res_2642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
+            if (__res_2642 is null)
             {
-                __res_2300 = null;
+                __res_2641 = null;
             }
             else
             {
-                JSObject __notNullable_2302 = (JSObject)__res_2301;
-                throw new Exception("Marshaller from \"__notNullable_2302\" to \"__res_2300\" not supported.");
+                JSObject __notNullable_2643 = (JSObject)__res_2642;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2643\" to \"__res_2641\" not supported.");
             }
-            return __res_2300;
+            return __res_2641;
         }
     }
 }

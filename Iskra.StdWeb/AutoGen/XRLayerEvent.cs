@@ -13,10 +13,10 @@ public partial class XRLayerEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRLayer __res_1437;
-            JSObject __res_1438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
-            throw new Exception("Marshaller from \"__res_1438\" to \"__res_1437\" not supported.");
-            return __res_1437;
+            Iskra.StdWeb.XRLayer __res_1596;
+            JSObject __res_1597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
+            throw new Exception("Marshaller ToManaged from \"__res_1597\" to \"__res_1596\" not supported.");
+            return __res_1596;
         }
     }
 }

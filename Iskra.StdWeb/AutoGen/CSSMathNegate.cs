@@ -13,10 +13,10 @@ public partial class CSSMathNegate(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_48;
-            JSObject __res_49 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            throw new Exception("Marshaller from \"__res_49\" to \"__res_48\" not supported.");
-            return __res_48;
+            Iskra.StdWeb.CSSNumericValue __res_52;
+            JSObject __res_53 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            throw new Exception("Marshaller ToManaged from \"__res_53\" to \"__res_52\" not supported.");
+            return __res_52;
         }
     }
 }

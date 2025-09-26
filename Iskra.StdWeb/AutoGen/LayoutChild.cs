@@ -13,10 +13,10 @@ public partial class LayoutChild(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.StylePropertyMapReadOnly __res_6534;
-            JSObject __res_6535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
-            throw new Exception("Marshaller from \"__res_6535\" to \"__res_6534\" not supported.");
-            return __res_6534;
+            Iskra.StdWeb.StylePropertyMapReadOnly __res_7727;
+            JSObject __res_7728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
+            throw new Exception("Marshaller ToManaged from \"__res_7728\" to \"__res_7727\" not supported.");
+            return __res_7727;
         }
     }
 }

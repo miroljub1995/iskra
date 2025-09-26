@@ -13,10 +13,10 @@ public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRReferenceSpace __res_3734;
-            JSObject __res_3735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
-            throw new Exception("Marshaller from \"__res_3735\" to \"__res_3734\" not supported.");
-            return __res_3734;
+            Iskra.StdWeb.XRReferenceSpace __res_4270;
+            JSObject __res_4271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
+            throw new Exception("Marshaller ToManaged from \"__res_4271\" to \"__res_4270\" not supported.");
+            return __res_4270;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform? __res_3736;
-            JSObject? __res_3737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transform");
-            if (__res_3737 is null)
+            Iskra.StdWeb.XRRigidTransform? __res_4272;
+            JSObject? __res_4273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transform");
+            if (__res_4273 is null)
             {
-                __res_3736 = null;
+                __res_4272 = null;
             }
             else
             {
-                JSObject __notNullable_3738 = (JSObject)__res_3737;
-                throw new Exception("Marshaller from \"__notNullable_3738\" to \"__res_3736\" not supported.");
+                JSObject __notNullable_4274 = (JSObject)__res_4273;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4274\" to \"__res_4272\" not supported.");
             }
-            return __res_3736;
+            return __res_4272;
         }
     }
 }

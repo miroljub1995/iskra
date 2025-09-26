@@ -13,10 +13,10 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.WebTransportReceiveStream __res_1944;
-            JSObject __res_1945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller from \"__res_1945\" to \"__res_1944\" not supported.");
-            return __res_1944;
+            Iskra.StdWeb.WebTransportReceiveStream __res_2191;
+            JSObject __res_2192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            throw new Exception("Marshaller ToManaged from \"__res_2192\" to \"__res_2191\" not supported.");
+            return __res_2191;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.WebTransportSendStream __res_1946;
-            JSObject __res_1947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller from \"__res_1947\" to \"__res_1946\" not supported.");
-            return __res_1946;
+            Iskra.StdWeb.WebTransportSendStream __res_2193;
+            JSObject __res_2194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            throw new Exception("Marshaller ToManaged from \"__res_2194\" to \"__res_2193\" not supported.");
+            return __res_2193;
         }
     }
 }

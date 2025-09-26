@@ -13,10 +13,10 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4235;
-            bool __res_4236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
-            __res_4235 = __res_4236;
-            return __res_4235;
+            bool __res_4874;
+            bool __res_4875 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
+            __res_4874 = __res_4875;
+            return __res_4874;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_4237;
-            JSObject? __res_4238 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
-            if (__res_4238 is null)
+            Iskra.JSCore.ArrayBuffer? __res_4876;
+            JSObject? __res_4877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
+            if (__res_4877 is null)
             {
-                __res_4237 = null;
+                __res_4876 = null;
             }
             else
             {
-                JSObject __notNullable_4239 = (JSObject)__res_4238;
-                throw new Exception("Marshaller from \"__notNullable_4239\" to \"__res_4237\" not supported.");
+                JSObject __notNullable_4878 = (JSObject)__res_4877;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4878\" to \"__res_4876\" not supported.");
             }
-            return __res_4237;
+            return __res_4876;
         }
     }
 }

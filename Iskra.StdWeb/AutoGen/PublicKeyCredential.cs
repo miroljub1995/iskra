@@ -13,10 +13,10 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2448;
-            JSObject __res_2449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
-            throw new Exception("Marshaller from \"__res_2449\" to \"__res_2448\" not supported.");
-            return __res_2448;
+            Iskra.JSCore.ArrayBuffer __res_2796;
+            JSObject __res_2797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
+            throw new Exception("Marshaller ToManaged from \"__res_2797\" to \"__res_2796\" not supported.");
+            return __res_2796;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            Iskra.StdWeb.AuthenticatorResponse __res_2450;
-            JSObject __res_2451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            throw new Exception("Marshaller from \"__res_2451\" to \"__res_2450\" not supported.");
-            return __res_2450;
+            Iskra.StdWeb.AuthenticatorResponse __res_2798;
+            JSObject __res_2799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            throw new Exception("Marshaller ToManaged from \"__res_2799\" to \"__res_2798\" not supported.");
+            return __res_2798;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string? __res_2452;
-            string? __res_2453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
-            if (__res_2453 is null)
+            string? __res_2800;
+            string? __res_2801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
+            if (__res_2801 is null)
             {
-                __res_2452 = null;
+                __res_2800 = null;
             }
             else
             {
-                string __notNullable_2454 = (string)__res_2453;
-                __res_2452 = __notNullable_2454;
+                string __notNullable_2802 = (string)__res_2801;
+                __res_2800 = __notNullable_2802;
             }
-            return __res_2452;
+            return __res_2800;
         }
     }
 }

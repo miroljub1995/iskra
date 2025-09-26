@@ -13,10 +13,10 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_6383;
-            JSObject __res_6384 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
-            throw new Exception("Marshaller from \"__res_6384\" to \"__res_6383\" not supported.");
-            return __res_6383;
+            Iskra.StdWeb.TimeRanges __res_7550;
+            JSObject __res_7551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
+            throw new Exception("Marshaller ToManaged from \"__res_7551\" to \"__res_7550\" not supported.");
+            return __res_7550;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_6385;
-            JSObject __res_6386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
-            throw new Exception("Marshaller from \"__res_6386\" to \"__res_6385\" not supported.");
-            return __res_6385;
+            Iskra.StdWeb.TimeRanges __res_7552;
+            JSObject __res_7553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
+            throw new Exception("Marshaller ToManaged from \"__res_7553\" to \"__res_7552\" not supported.");
+            return __res_7552;
         }
     }
 }

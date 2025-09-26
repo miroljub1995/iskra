@@ -13,10 +13,10 @@ public partial class CanvasRenderingContext2D(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCanvasElement __res_5389;
-            JSObject __res_5390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            throw new Exception("Marshaller from \"__res_5390\" to \"__res_5389\" not supported.");
-            return __res_5389;
+            Iskra.StdWeb.HTMLCanvasElement __res_6360;
+            JSObject __res_6361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            throw new Exception("Marshaller ToManaged from \"__res_6361\" to \"__res_6360\" not supported.");
+            return __res_6360;
         }
     }
 }

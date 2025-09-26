@@ -13,18 +13,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_5840;
-            string? __res_5841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "key");
-            if (__res_5841 is null)
+            string? __res_6872;
+            string? __res_6873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "key");
+            if (__res_6873 is null)
             {
-                __res_5840 = null;
+                __res_6872 = null;
             }
             else
             {
-                string __notNullable_5842 = (string)__res_5841;
-                __res_5840 = __notNullable_5842;
+                string __notNullable_6874 = (string)__res_6873;
+                __res_6872 = __notNullable_6874;
             }
-            return __res_5840;
+            return __res_6872;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_5843;
-            string? __res_5844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
-            if (__res_5844 is null)
+            string? __res_6875;
+            string? __res_6876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
+            if (__res_6876 is null)
             {
-                __res_5843 = null;
+                __res_6875 = null;
             }
             else
             {
-                string __notNullable_5845 = (string)__res_5844;
-                __res_5843 = __notNullable_5845;
+                string __notNullable_6877 = (string)__res_6876;
+                __res_6875 = __notNullable_6877;
             }
-            return __res_5843;
+            return __res_6875;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_5846;
-            string? __res_5847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "newValue");
-            if (__res_5847 is null)
+            string? __res_6878;
+            string? __res_6879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "newValue");
+            if (__res_6879 is null)
             {
-                __res_5846 = null;
+                __res_6878 = null;
             }
             else
             {
-                string __notNullable_5848 = (string)__res_5847;
-                __res_5846 = __notNullable_5848;
+                string __notNullable_6880 = (string)__res_6879;
+                __res_6878 = __notNullable_6880;
             }
-            return __res_5846;
+            return __res_6878;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5849;
-            string __res_5850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_5849 = __res_5850;
-            return __res_5849;
+            string __res_6881;
+            string __res_6882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_6881 = __res_6882;
+            return __res_6881;
         }
     }
 
@@ -81,18 +81,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Storage? __res_5851;
-            JSObject? __res_5852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "storageArea");
-            if (__res_5852 is null)
+            Iskra.StdWeb.Storage? __res_6883;
+            JSObject? __res_6884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "storageArea");
+            if (__res_6884 is null)
             {
-                __res_5851 = null;
+                __res_6883 = null;
             }
             else
             {
-                JSObject __notNullable_5853 = (JSObject)__res_5852;
-                throw new Exception("Marshaller from \"__notNullable_5853\" to \"__res_5851\" not supported.");
+                JSObject __notNullable_6885 = (JSObject)__res_6884;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6885\" to \"__res_6883\" not supported.");
             }
-            return __res_5851;
+            return __res_6883;
         }
     }
 }

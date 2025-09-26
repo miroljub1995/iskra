@@ -13,18 +13,18 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoPixelFormat? __res_2248;
-            JSObject? __res_2249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
-            if (__res_2249 is null)
+            Iskra.StdWeb.VideoPixelFormat? __res_2589;
+            JSObject? __res_2590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
+            if (__res_2590 is null)
             {
-                __res_2248 = null;
+                __res_2589 = null;
             }
             else
             {
-                JSObject __notNullable_2250 = (JSObject)__res_2249;
-                throw new Exception("Marshaller from \"__notNullable_2250\" to \"__res_2248\" not supported.");
+                JSObject __notNullable_2591 = (JSObject)__res_2590;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2591\" to \"__res_2589\" not supported.");
             }
-            return __res_2248;
+            return __res_2589;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2251;
-            double __res_2252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
-            __res_2251 = Convert.ToUInt32(__res_2252);
-            return __res_2251;
+            uint __res_2592;
+            double __res_2593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
+            __res_2592 = Convert.ToUInt32(__res_2593);
+            return __res_2592;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2253;
-            double __res_2254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
-            __res_2253 = Convert.ToUInt32(__res_2254);
-            return __res_2253;
+            uint __res_2594;
+            double __res_2595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
+            __res_2594 = Convert.ToUInt32(__res_2595);
+            return __res_2594;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly? __res_2255;
-            JSObject? __res_2256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
-            if (__res_2256 is null)
+            Iskra.StdWeb.DOMRectReadOnly? __res_2596;
+            JSObject? __res_2597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
+            if (__res_2597 is null)
             {
-                __res_2255 = null;
+                __res_2596 = null;
             }
             else
             {
-                JSObject __notNullable_2257 = (JSObject)__res_2256;
-                throw new Exception("Marshaller from \"__notNullable_2257\" to \"__res_2255\" not supported.");
+                JSObject __notNullable_2598 = (JSObject)__res_2597;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2598\" to \"__res_2596\" not supported.");
             }
-            return __res_2255;
+            return __res_2596;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly? __res_2258;
-            JSObject? __res_2259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
-            if (__res_2259 is null)
+            Iskra.StdWeb.DOMRectReadOnly? __res_2599;
+            JSObject? __res_2600 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
+            if (__res_2600 is null)
             {
-                __res_2258 = null;
+                __res_2599 = null;
             }
             else
             {
-                JSObject __notNullable_2260 = (JSObject)__res_2259;
-                throw new Exception("Marshaller from \"__notNullable_2260\" to \"__res_2258\" not supported.");
+                JSObject __notNullable_2601 = (JSObject)__res_2600;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2601\" to \"__res_2599\" not supported.");
             }
-            return __res_2258;
+            return __res_2599;
         }
     }
 
@@ -92,10 +92,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2261;
-            double __res_2262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
-            __res_2261 = __res_2262;
-            return __res_2261;
+            double __res_2602;
+            double __res_2603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
+            __res_2602 = __res_2603;
+            return __res_2602;
         }
     }
 
@@ -103,10 +103,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2263;
-            bool __res_2264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
-            __res_2263 = __res_2264;
-            return __res_2263;
+            bool __res_2604;
+            bool __res_2605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
+            __res_2604 = __res_2605;
+            return __res_2604;
         }
     }
 
@@ -114,10 +114,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2265;
-            double __res_2266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
-            __res_2265 = Convert.ToUInt32(__res_2266);
-            return __res_2265;
+            uint __res_2606;
+            double __res_2607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
+            __res_2606 = Convert.ToUInt32(__res_2607);
+            return __res_2606;
         }
     }
 
@@ -125,10 +125,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2267;
-            double __res_2268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
-            __res_2267 = Convert.ToUInt32(__res_2268);
-            return __res_2267;
+            uint __res_2608;
+            double __res_2609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
+            __res_2608 = Convert.ToUInt32(__res_2609);
+            return __res_2608;
         }
     }
 
@@ -136,18 +136,18 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_2269;
-            double? __res_2270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_2270 is null)
+            ulong? __res_2610;
+            double? __res_2611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_2611 is null)
             {
-                __res_2269 = null;
+                __res_2610 = null;
             }
             else
             {
-                double __notNullable_2271 = (double)__res_2270;
-                __res_2269 = Convert.ToUInt64(__notNullable_2271);
+                double __notNullable_2612 = (double)__res_2611;
+                __res_2610 = Convert.ToUInt64(__notNullable_2612);
             }
-            return __res_2269;
+            return __res_2610;
         }
     }
 
@@ -155,10 +155,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_2272;
-            double __res_2273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2272 = Convert.ToInt64(__res_2273);
-            return __res_2272;
+            long __res_2613;
+            double __res_2614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2613 = Convert.ToInt64(__res_2614);
+            return __res_2613;
         }
     }
 
@@ -166,10 +166,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoColorSpace __res_2274;
-            JSObject __res_2275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
-            throw new Exception("Marshaller from \"__res_2275\" to \"__res_2274\" not supported.");
-            return __res_2274;
+            Iskra.StdWeb.VideoColorSpace __res_2615;
+            JSObject __res_2616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
+            throw new Exception("Marshaller ToManaged from \"__res_2616\" to \"__res_2615\" not supported.");
+            return __res_2615;
         }
     }
 }

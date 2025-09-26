@@ -13,10 +13,10 @@ public partial class SVGStopElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_467;
-            JSObject __res_468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            throw new Exception("Marshaller from \"__res_468\" to \"__res_467\" not supported.");
-            return __res_467;
+            Iskra.StdWeb.SVGAnimatedNumber __res_510;
+            JSObject __res_511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            throw new Exception("Marshaller ToManaged from \"__res_511\" to \"__res_510\" not supported.");
+            return __res_510;
         }
     }
 }

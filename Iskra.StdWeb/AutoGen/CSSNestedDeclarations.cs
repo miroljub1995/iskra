@@ -13,10 +13,10 @@ public partial class CSSNestedDeclarations(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_2311;
-            JSObject __res_2312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller from \"__res_2312\" to \"__res_2311\" not supported.");
-            return __res_2311;
+            Iskra.StdWeb.CSSStyleProperties __res_2653;
+            JSObject __res_2654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            throw new Exception("Marshaller ToManaged from \"__res_2654\" to \"__res_2653\" not supported.");
+            return __res_2653;
         }
     }
 }

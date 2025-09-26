@@ -13,10 +13,10 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMRect __res_759;
-            JSObject __res_760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
-            throw new Exception("Marshaller from \"__res_760\" to \"__res_759\" not supported.");
-            return __res_759;
+            Iskra.StdWeb.DOMRect __res_826;
+            JSObject __res_827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
+            throw new Exception("Marshaller ToManaged from \"__res_827\" to \"__res_826\" not supported.");
+            return __res_826;
         }
     }
 
@@ -24,14 +24,16 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_761;
-            bool __res_762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
-            __res_761 = __res_762;
-            return __res_761;
+            bool __res_828;
+            bool __res_829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
+            __res_828 = __res_829;
+            return __res_828;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_830;
+            __marshalledValue_830 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "overlaysContent", __marshalledValue_830);
         }
     }
 
@@ -39,22 +41,32 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_763;
-            JSObject? __res_764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_764 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_831;
+            JSObject? __res_832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_832 is null)
             {
-                __res_763 = null;
+                __res_831 = null;
             }
             else
             {
-                JSObject __notNullable_765 = (JSObject)__res_764;
-                throw new Exception("Marshaller from \"__notNullable_765\" to \"__res_763\" not supported.");
+                JSObject __notNullable_833 = (JSObject)__res_832;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_833\" to \"__res_831\" not supported.");
             }
-            return __res_763;
+            return __res_831;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_834;
+            if (value is null)
+            {
+                __marshalledValue_834 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_835 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_835\" to \"__marshalledValue_834\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_834);
         }
     }
 }

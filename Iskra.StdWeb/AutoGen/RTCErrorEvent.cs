@@ -13,10 +13,10 @@ public partial class RTCErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCError __res_1817;
-            JSObject __res_1818 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            throw new Exception("Marshaller from \"__res_1818\" to \"__res_1817\" not supported.");
-            return __res_1817;
+            Iskra.StdWeb.RTCError __res_2031;
+            JSObject __res_2032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            throw new Exception("Marshaller ToManaged from \"__res_2032\" to \"__res_2031\" not supported.");
+            return __res_2031;
         }
     }
 }

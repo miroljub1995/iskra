@@ -13,14 +13,16 @@ public partial class CSSTransformComponent(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_68;
-            bool __res_69 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_68 = __res_69;
-            return __res_68;
+            bool __res_72;
+            bool __res_73 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            __res_72 = __res_73;
+            return __res_72;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_74;
+            __marshalledValue_74 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "is2D", __marshalledValue_74);
         }
     }
 }

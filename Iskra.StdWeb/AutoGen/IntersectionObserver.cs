@@ -13,9 +13,9 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2313;
+            object __res_2655;
             throw new Exception();
-            return __res_2313;
+            return __res_2655;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2314;
-            string __res_2315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
-            __res_2314 = __res_2315;
-            return __res_2314;
+            string __res_2656;
+            string __res_2657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
+            __res_2656 = __res_2657;
+            return __res_2656;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2316;
-            string __res_2317 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
-            __res_2316 = __res_2317;
-            return __res_2316;
+            string __res_2658;
+            string __res_2659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
+            __res_2658 = __res_2659;
+            return __res_2658;
         }
     }
 
@@ -45,9 +45,9 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2318;
+            object __res_2660;
             throw new Exception();
-            return __res_2318;
+            return __res_2660;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_2319;
-            double __res_2320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
-            __res_2319 = Convert.ToInt32(__res_2320);
-            return __res_2319;
+            int __res_2661;
+            double __res_2662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
+            __res_2661 = Convert.ToInt32(__res_2662);
+            return __res_2661;
         }
     }
 
@@ -66,10 +66,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2321;
-            bool __res_2322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
-            __res_2321 = __res_2322;
-            return __res_2321;
+            bool __res_2663;
+            bool __res_2664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
+            __res_2663 = __res_2664;
+            return __res_2663;
         }
     }
 }

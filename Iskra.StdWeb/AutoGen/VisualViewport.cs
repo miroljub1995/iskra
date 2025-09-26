@@ -13,10 +13,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1516;
-            double __res_1517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetLeft");
-            __res_1516 = __res_1517;
-            return __res_1516;
+            double __res_1679;
+            double __res_1680 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetLeft");
+            __res_1679 = __res_1680;
+            return __res_1679;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1518;
-            double __res_1519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetTop");
-            __res_1518 = __res_1519;
-            return __res_1518;
+            double __res_1681;
+            double __res_1682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetTop");
+            __res_1681 = __res_1682;
+            return __res_1681;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1520;
-            double __res_1521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageLeft");
-            __res_1520 = __res_1521;
-            return __res_1520;
+            double __res_1683;
+            double __res_1684 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageLeft");
+            __res_1683 = __res_1684;
+            return __res_1683;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1522;
-            double __res_1523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageTop");
-            __res_1522 = __res_1523;
-            return __res_1522;
+            double __res_1685;
+            double __res_1686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageTop");
+            __res_1685 = __res_1686;
+            return __res_1685;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1524;
-            double __res_1525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1524 = __res_1525;
-            return __res_1524;
+            double __res_1687;
+            double __res_1688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1687 = __res_1688;
+            return __res_1687;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1526;
-            double __res_1527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1526 = __res_1527;
-            return __res_1526;
+            double __res_1689;
+            double __res_1690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1689 = __res_1690;
+            return __res_1689;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_1528;
-            double __res_1529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scale");
-            __res_1528 = __res_1529;
-            return __res_1528;
+            double __res_1691;
+            double __res_1692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scale");
+            __res_1691 = __res_1692;
+            return __res_1691;
         }
     }
 
@@ -90,22 +90,32 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1530;
-            JSObject? __res_1531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresize");
-            if (__res_1531 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1693;
+            JSObject? __res_1694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresize");
+            if (__res_1694 is null)
             {
-                __res_1530 = null;
+                __res_1693 = null;
             }
             else
             {
-                JSObject __notNullable_1532 = (JSObject)__res_1531;
-                throw new Exception("Marshaller from \"__notNullable_1532\" to \"__res_1530\" not supported.");
+                JSObject __notNullable_1695 = (JSObject)__res_1694;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1695\" to \"__res_1693\" not supported.");
             }
-            return __res_1530;
+            return __res_1693;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1696;
+            if (value is null)
+            {
+                __marshalledValue_1696 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1697 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1697\" to \"__marshalledValue_1696\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresize", __marshalledValue_1696);
         }
     }
 
@@ -113,22 +123,32 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1533;
-            JSObject? __res_1534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscroll");
-            if (__res_1534 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1698;
+            JSObject? __res_1699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscroll");
+            if (__res_1699 is null)
             {
-                __res_1533 = null;
+                __res_1698 = null;
             }
             else
             {
-                JSObject __notNullable_1535 = (JSObject)__res_1534;
-                throw new Exception("Marshaller from \"__notNullable_1535\" to \"__res_1533\" not supported.");
+                JSObject __notNullable_1700 = (JSObject)__res_1699;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1700\" to \"__res_1698\" not supported.");
             }
-            return __res_1533;
+            return __res_1698;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1701;
+            if (value is null)
+            {
+                __marshalledValue_1701 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1702 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1702\" to \"__marshalledValue_1701\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscroll", __marshalledValue_1701);
         }
     }
 
@@ -136,22 +156,32 @@ public partial class VisualViewport(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1536;
-            JSObject? __res_1537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscrollend");
-            if (__res_1537 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1703;
+            JSObject? __res_1704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscrollend");
+            if (__res_1704 is null)
             {
-                __res_1536 = null;
+                __res_1703 = null;
             }
             else
             {
-                JSObject __notNullable_1538 = (JSObject)__res_1537;
-                throw new Exception("Marshaller from \"__notNullable_1538\" to \"__res_1536\" not supported.");
+                JSObject __notNullable_1705 = (JSObject)__res_1704;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1705\" to \"__res_1703\" not supported.");
             }
-            return __res_1536;
+            return __res_1703;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1706;
+            if (value is null)
+            {
+                __marshalledValue_1706 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1707 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1707\" to \"__marshalledValue_1706\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscrollend", __marshalledValue_1706);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_4820;
-            double __res_4821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4820 = Convert.ToUInt32(__res_4821);
-            return __res_4820;
+            uint __res_5601;
+            double __res_5602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5601 = Convert.ToUInt32(__res_5602);
+            return __res_5601;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4822;
-            JSObject? __res_4823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_4823 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5603;
+            JSObject? __res_5604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_5604 is null)
             {
-                __res_4822 = null;
+                __res_5603 = null;
             }
             else
             {
-                JSObject __notNullable_4824 = (JSObject)__res_4823;
-                throw new Exception("Marshaller from \"__notNullable_4824\" to \"__res_4822\" not supported.");
+                JSObject __notNullable_5605 = (JSObject)__res_5604;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5605\" to \"__res_5603\" not supported.");
             }
-            return __res_4822;
+            return __res_5603;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5606;
+            if (value is null)
+            {
+                __marshalledValue_5606 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5607 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5607\" to \"__marshalledValue_5606\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_5606);
         }
     }
 
@@ -47,22 +57,32 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4825;
-            JSObject? __res_4826 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
-            if (__res_4826 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5608;
+            JSObject? __res_5609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
+            if (__res_5609 is null)
             {
-                __res_4825 = null;
+                __res_5608 = null;
             }
             else
             {
-                JSObject __notNullable_4827 = (JSObject)__res_4826;
-                throw new Exception("Marshaller from \"__notNullable_4827\" to \"__res_4825\" not supported.");
+                JSObject __notNullable_5610 = (JSObject)__res_5609;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5610\" to \"__res_5608\" not supported.");
             }
-            return __res_4825;
+            return __res_5608;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5611;
+            if (value is null)
+            {
+                __marshalledValue_5611 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5612 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5612\" to \"__marshalledValue_5611\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack", __marshalledValue_5611);
         }
     }
 
@@ -70,22 +90,32 @@ public partial class AudioTrackList(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4828;
-            JSObject? __res_4829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
-            if (__res_4829 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5613;
+            JSObject? __res_5614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
+            if (__res_5614 is null)
             {
-                __res_4828 = null;
+                __res_5613 = null;
             }
             else
             {
-                JSObject __notNullable_4830 = (JSObject)__res_4829;
-                throw new Exception("Marshaller from \"__notNullable_4830\" to \"__res_4828\" not supported.");
+                JSObject __notNullable_5615 = (JSObject)__res_5614;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5615\" to \"__res_5613\" not supported.");
             }
-            return __res_4828;
+            return __res_5613;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5616;
+            if (value is null)
+            {
+                __marshalledValue_5616 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5617 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5617\" to \"__marshalledValue_5616\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack", __marshalledValue_5616);
         }
     }
 }

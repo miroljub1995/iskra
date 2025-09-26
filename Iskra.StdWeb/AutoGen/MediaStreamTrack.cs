@@ -13,10 +13,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3327;
-            string __res_3328 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_3327 = __res_3328;
-            return __res_3327;
+            string __res_3751;
+            string __res_3752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_3751 = __res_3752;
+            return __res_3751;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3329;
-            string __res_3330 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_3329 = __res_3330;
-            return __res_3329;
+            string __res_3753;
+            string __res_3754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3753 = __res_3754;
+            return __res_3753;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3331;
-            string __res_3332 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_3331 = __res_3332;
-            return __res_3331;
+            string __res_3755;
+            string __res_3756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_3755 = __res_3756;
+            return __res_3755;
         }
     }
 
@@ -46,14 +46,16 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3333;
-            bool __res_3334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
-            __res_3333 = __res_3334;
-            return __res_3333;
+            bool __res_3757;
+            bool __res_3758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            __res_3757 = __res_3758;
+            return __res_3757;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_3759;
+            __marshalledValue_3759 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_3759);
         }
     }
 
@@ -61,10 +63,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3335;
-            bool __res_3336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_3335 = __res_3336;
-            return __res_3335;
+            bool __res_3760;
+            bool __res_3761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_3760 = __res_3761;
+            return __res_3760;
         }
     }
 
@@ -72,22 +74,32 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3337;
-            JSObject? __res_3338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmute");
-            if (__res_3338 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3762;
+            JSObject? __res_3763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmute");
+            if (__res_3763 is null)
             {
-                __res_3337 = null;
+                __res_3762 = null;
             }
             else
             {
-                JSObject __notNullable_3339 = (JSObject)__res_3338;
-                throw new Exception("Marshaller from \"__notNullable_3339\" to \"__res_3337\" not supported.");
+                JSObject __notNullable_3764 = (JSObject)__res_3763;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3764\" to \"__res_3762\" not supported.");
             }
-            return __res_3337;
+            return __res_3762;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3765;
+            if (value is null)
+            {
+                __marshalledValue_3765 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3766 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3766\" to \"__marshalledValue_3765\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmute", __marshalledValue_3765);
         }
     }
 
@@ -95,22 +107,32 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3340;
-            JSObject? __res_3341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute");
-            if (__res_3341 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3767;
+            JSObject? __res_3768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute");
+            if (__res_3768 is null)
             {
-                __res_3340 = null;
+                __res_3767 = null;
             }
             else
             {
-                JSObject __notNullable_3342 = (JSObject)__res_3341;
-                throw new Exception("Marshaller from \"__notNullable_3342\" to \"__res_3340\" not supported.");
+                JSObject __notNullable_3769 = (JSObject)__res_3768;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3769\" to \"__res_3767\" not supported.");
             }
-            return __res_3340;
+            return __res_3767;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3770;
+            if (value is null)
+            {
+                __marshalledValue_3770 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3771 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3771\" to \"__marshalledValue_3770\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute", __marshalledValue_3770);
         }
     }
 
@@ -118,10 +140,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrackState __res_3343;
-            JSObject __res_3344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
-            throw new Exception("Marshaller from \"__res_3344\" to \"__res_3343\" not supported.");
-            return __res_3343;
+            Iskra.StdWeb.MediaStreamTrackState __res_3772;
+            JSObject __res_3773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
+            throw new Exception("Marshaller ToManaged from \"__res_3773\" to \"__res_3772\" not supported.");
+            return __res_3772;
         }
     }
 
@@ -129,22 +151,32 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3345;
-            JSObject? __res_3346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_3346 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3774;
+            JSObject? __res_3775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_3775 is null)
             {
-                __res_3345 = null;
+                __res_3774 = null;
             }
             else
             {
-                JSObject __notNullable_3347 = (JSObject)__res_3346;
-                throw new Exception("Marshaller from \"__notNullable_3347\" to \"__res_3345\" not supported.");
+                JSObject __notNullable_3776 = (JSObject)__res_3775;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3776\" to \"__res_3774\" not supported.");
             }
-            return __res_3345;
+            return __res_3774;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3777;
+            if (value is null)
+            {
+                __marshalledValue_3777 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3778 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3778\" to \"__marshalledValue_3777\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_3777);
         }
     }
 }

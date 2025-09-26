@@ -13,10 +13,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_1469;
-            JSObject __res_1470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
-            throw new Exception("Marshaller from \"__res_1470\" to \"__res_1469\" not supported.");
-            return __res_1469;
+            Iskra.StdWeb.XRSpace __res_1630;
+            JSObject __res_1631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
+            throw new Exception("Marshaller ToManaged from \"__res_1631\" to \"__res_1630\" not supported.");
+            return __res_1630;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1471;
+            object __res_1632;
             throw new Exception();
-            return __res_1471;
+            return __res_1632;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Uint32Array __res_1472;
-            JSObject __res_1473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
-            throw new Exception("Marshaller from \"__res_1473\" to \"__res_1472\" not supported.");
-            return __res_1472;
+            Iskra.JSCore.Uint32Array __res_1633;
+            JSObject __res_1634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
+            throw new Exception("Marshaller ToManaged from \"__res_1634\" to \"__res_1633\" not supported.");
+            return __res_1633;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1474;
-            double __res_1475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
-            __res_1474 = __res_1475;
-            return __res_1474;
+            double __res_1635;
+            double __res_1636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            __res_1635 = __res_1636;
+            return __res_1635;
         }
     }
 
@@ -56,18 +56,18 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1476;
-            string? __res_1477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
-            if (__res_1477 is null)
+            string? __res_1637;
+            string? __res_1638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            if (__res_1638 is null)
             {
-                __res_1476 = null;
+                __res_1637 = null;
             }
             else
             {
-                string __notNullable_1478 = (string)__res_1477;
-                __res_1476 = __notNullable_1478;
+                string __notNullable_1639 = (string)__res_1638;
+                __res_1637 = __notNullable_1639;
             }
-            return __res_1476;
+            return __res_1637;
         }
     }
 }

@@ -13,14 +13,16 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_338;
-            double __res_339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "align");
-            throw new Exception("Marshaller from \"__res_339\" to \"__res_338\" not supported.");
-            return __res_338;
+            ushort __res_376;
+            double __res_377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "align");
+            throw new Exception("Marshaller ToManaged from \"__res_377\" to \"__res_376\" not supported.");
+            return __res_376;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_378;
+            __marshalledValue_378 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "align", __marshalledValue_378);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_340;
-            double __res_341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "meetOrSlice");
-            throw new Exception("Marshaller from \"__res_341\" to \"__res_340\" not supported.");
-            return __res_340;
+            ushort __res_379;
+            double __res_380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "meetOrSlice");
+            throw new Exception("Marshaller ToManaged from \"__res_380\" to \"__res_379\" not supported.");
+            return __res_379;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_381;
+            __marshalledValue_381 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "meetOrSlice", __marshalledValue_381);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_2934;
-            JSObject __res_2935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            throw new Exception("Marshaller from \"__res_2935\" to \"__res_2934\" not supported.");
-            return __res_2934;
+            Iskra.StdWeb.Node __res_3307;
+            JSObject __res_3308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            throw new Exception("Marshaller ToManaged from \"__res_3308\" to \"__res_3307\" not supported.");
+            return __res_3307;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_2936;
-            JSObject __res_2937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
-            throw new Exception("Marshaller from \"__res_2937\" to \"__res_2936\" not supported.");
-            return __res_2936;
+            Iskra.StdWeb.Node __res_3309;
+            JSObject __res_3310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
+            throw new Exception("Marshaller ToManaged from \"__res_3310\" to \"__res_3309\" not supported.");
+            return __res_3309;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2938;
-            bool __res_2939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
-            __res_2938 = __res_2939;
-            return __res_2938;
+            bool __res_3311;
+            bool __res_3312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
+            __res_3311 = __res_3312;
+            return __res_3311;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2940;
-            double __res_2941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_2940 = Convert.ToUInt32(__res_2941);
-            return __res_2940;
+            uint __res_3313;
+            double __res_3314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
+            __res_3313 = Convert.ToUInt32(__res_3314);
+            return __res_3313;
         }
     }
 
@@ -57,18 +57,18 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeFilter? __res_2942;
-            JSObject? __res_2943 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_2943 is null)
+            Iskra.StdWeb.NodeFilter? __res_3315;
+            JSObject? __res_3316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
+            if (__res_3316 is null)
             {
-                __res_2942 = null;
+                __res_3315 = null;
             }
             else
             {
-                JSObject __notNullable_2944 = (JSObject)__res_2943;
-                throw new Exception("Marshaller from \"__notNullable_2944\" to \"__res_2942\" not supported.");
+                JSObject __notNullable_3317 = (JSObject)__res_3316;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3317\" to \"__res_3315\" not supported.");
             }
-            return __res_2942;
+            return __res_3315;
         }
     }
 }

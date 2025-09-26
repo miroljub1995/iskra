@@ -13,10 +13,10 @@ public partial class CaptureActionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.CaptureAction __res_5964;
-            JSObject __res_5965 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "action");
-            throw new Exception("Marshaller from \"__res_5965\" to \"__res_5964\" not supported.");
-            return __res_5964;
+            Iskra.StdWeb.CaptureAction __res_7025;
+            JSObject __res_7026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "action");
+            throw new Exception("Marshaller ToManaged from \"__res_7026\" to \"__res_7025\" not supported.");
+            return __res_7025;
         }
     }
 }

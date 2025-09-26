@@ -13,10 +13,10 @@ public partial class OverconstrainedError(JSObject obj): DOMException(obj)
     {
         get
         {
-            string __res_3350;
-            string __res_3351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "constraint");
-            __res_3350 = __res_3351;
-            return __res_3350;
+            string __res_3781;
+            string __res_3782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "constraint");
+            __res_3781 = __res_3782;
+            return __res_3781;
         }
     }
 }

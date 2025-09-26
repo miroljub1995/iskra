@@ -13,10 +13,10 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            bool __res_4075;
-            bool __res_4076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "wasClean");
-            __res_4075 = __res_4076;
-            return __res_4075;
+            bool __res_4671;
+            bool __res_4672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "wasClean");
+            __res_4671 = __res_4672;
+            return __res_4671;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort __res_4077;
-            double __res_4078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller from \"__res_4078\" to \"__res_4077\" not supported.");
-            return __res_4077;
+            ushort __res_4673;
+            double __res_4674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            throw new Exception("Marshaller ToManaged from \"__res_4674\" to \"__res_4673\" not supported.");
+            return __res_4673;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_4079;
-            string __res_4080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_4079 = __res_4080;
-            return __res_4079;
+            string __res_4675;
+            string __res_4676 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_4675 = __res_4676;
+            return __res_4675;
         }
     }
 }

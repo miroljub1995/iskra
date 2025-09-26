@@ -13,10 +13,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2303;
-            bool __res_2304 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
-            __res_2303 = __res_2304;
-            return __res_2303;
+            bool __res_2644;
+            bool __res_2645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
+            __res_2644 = __res_2645;
+            return __res_2644;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2305;
-            double __res_2306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frameCount");
-            __res_2305 = Convert.ToUInt32(__res_2306);
-            return __res_2305;
+            uint __res_2646;
+            double __res_2647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frameCount");
+            __res_2646 = Convert.ToUInt32(__res_2647);
+            return __res_2646;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_2307;
-            double __res_2308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "repetitionCount");
-            __res_2307 = Convert.ToSingle(__res_2308);
-            return __res_2307;
+            float __res_2648;
+            double __res_2649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "repetitionCount");
+            __res_2648 = Convert.ToSingle(__res_2649);
+            return __res_2648;
         }
     }
 
@@ -46,14 +46,16 @@ public partial class ImageTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2309;
-            bool __res_2310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            __res_2309 = __res_2310;
-            return __res_2309;
+            bool __res_2650;
+            bool __res_2651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            __res_2650 = __res_2651;
+            return __res_2650;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_2652;
+            __marshalledValue_2652 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_2652);
         }
     }
 }

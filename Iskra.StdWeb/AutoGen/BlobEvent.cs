@@ -13,10 +13,10 @@ public partial class BlobEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Blob __res_3395;
-            JSObject __res_3396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new Exception("Marshaller from \"__res_3396\" to \"__res_3395\" not supported.");
-            return __res_3395;
+            Iskra.StdWeb.Blob __res_3840;
+            JSObject __res_3841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            throw new Exception("Marshaller ToManaged from \"__res_3841\" to \"__res_3840\" not supported.");
+            return __res_3840;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BlobEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_3397;
-            double __res_3398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
-            __res_3397 = __res_3398;
-            return __res_3397;
+            double __res_3842;
+            double __res_3843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
+            __res_3842 = __res_3843;
+            return __res_3842;
         }
     }
 }

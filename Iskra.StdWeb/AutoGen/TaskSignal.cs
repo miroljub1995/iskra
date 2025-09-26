@@ -13,10 +13,10 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
     {
         get
         {
-            Iskra.StdWeb.TaskPriority __res_924;
-            JSObject __res_925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "priority");
-            throw new Exception("Marshaller from \"__res_925\" to \"__res_924\" not supported.");
-            return __res_924;
+            Iskra.StdWeb.TaskPriority __res_1021;
+            JSObject __res_1022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "priority");
+            throw new Exception("Marshaller ToManaged from \"__res_1022\" to \"__res_1021\" not supported.");
+            return __res_1021;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_926;
-            JSObject? __res_927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange");
-            if (__res_927 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1023;
+            JSObject? __res_1024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange");
+            if (__res_1024 is null)
             {
-                __res_926 = null;
+                __res_1023 = null;
             }
             else
             {
-                JSObject __notNullable_928 = (JSObject)__res_927;
-                throw new Exception("Marshaller from \"__notNullable_928\" to \"__res_926\" not supported.");
+                JSObject __notNullable_1025 = (JSObject)__res_1024;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1025\" to \"__res_1023\" not supported.");
             }
-            return __res_926;
+            return __res_1023;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1026;
+            if (value is null)
+            {
+                __marshalledValue_1026 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1027 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1027\" to \"__marshalledValue_1026\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange", __marshalledValue_1026);
         }
     }
 }

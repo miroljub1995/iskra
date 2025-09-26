@@ -13,10 +13,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1084;
-            JSObject __res_1085 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller from \"__res_1085\" to \"__res_1084\" not supported.");
-            return __res_1084;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1187;
+            JSObject __res_1188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller ToManaged from \"__res_1188\" to \"__res_1187\" not supported.");
+            return __res_1187;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1086;
-            JSObject __res_1087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller from \"__res_1087\" to \"__res_1086\" not supported.");
-            return __res_1086;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1189;
+            JSObject __res_1190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller ToManaged from \"__res_1190\" to \"__res_1189\" not supported.");
+            return __res_1189;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1088;
-            JSObject __res_1089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
-            throw new Exception("Marshaller from \"__res_1089\" to \"__res_1088\" not supported.");
-            return __res_1088;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1191;
+            JSObject __res_1192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
+            throw new Exception("Marshaller ToManaged from \"__res_1192\" to \"__res_1191\" not supported.");
+            return __res_1191;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1090;
-            JSObject __res_1091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtX");
-            throw new Exception("Marshaller from \"__res_1091\" to \"__res_1090\" not supported.");
-            return __res_1090;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1193;
+            JSObject __res_1194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtX");
+            throw new Exception("Marshaller ToManaged from \"__res_1194\" to \"__res_1193\" not supported.");
+            return __res_1193;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1092;
-            JSObject __res_1093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtY");
-            throw new Exception("Marshaller from \"__res_1093\" to \"__res_1092\" not supported.");
-            return __res_1092;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1195;
+            JSObject __res_1196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtY");
+            throw new Exception("Marshaller ToManaged from \"__res_1196\" to \"__res_1195\" not supported.");
+            return __res_1195;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1094;
-            JSObject __res_1095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtZ");
-            throw new Exception("Marshaller from \"__res_1095\" to \"__res_1094\" not supported.");
-            return __res_1094;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1197;
+            JSObject __res_1198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pointsAtZ");
+            throw new Exception("Marshaller ToManaged from \"__res_1198\" to \"__res_1197\" not supported.");
+            return __res_1197;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1096;
-            JSObject __res_1097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "specularExponent");
-            throw new Exception("Marshaller from \"__res_1097\" to \"__res_1096\" not supported.");
-            return __res_1096;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1199;
+            JSObject __res_1200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "specularExponent");
+            throw new Exception("Marshaller ToManaged from \"__res_1200\" to \"__res_1199\" not supported.");
+            return __res_1199;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class SVGFESpotLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1098;
-            JSObject __res_1099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limitingConeAngle");
-            throw new Exception("Marshaller from \"__res_1099\" to \"__res_1098\" not supported.");
-            return __res_1098;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1201;
+            JSObject __res_1202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limitingConeAngle");
+            throw new Exception("Marshaller ToManaged from \"__res_1202\" to \"__res_1201\" not supported.");
+            return __res_1201;
         }
     }
 }

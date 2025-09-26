@@ -13,10 +13,10 @@ public partial class Lock(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2506;
-            string __res_2507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2506 = __res_2507;
-            return __res_2506;
+            string __res_2854;
+            string __res_2855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2854 = __res_2855;
+            return __res_2854;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Lock(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.LockMode __res_2508;
-            JSObject __res_2509 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller from \"__res_2509\" to \"__res_2508\" not supported.");
-            return __res_2508;
+            Iskra.StdWeb.LockMode __res_2856;
+            JSObject __res_2857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller ToManaged from \"__res_2857\" to \"__res_2856\" not supported.");
+            return __res_2856;
         }
     }
 }

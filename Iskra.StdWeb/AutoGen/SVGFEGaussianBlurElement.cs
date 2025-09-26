@@ -13,10 +13,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1120;
-            JSObject __res_1121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller from \"__res_1121\" to \"__res_1120\" not supported.");
-            return __res_1120;
+            Iskra.StdWeb.SVGAnimatedString __res_1223;
+            JSObject __res_1224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller ToManaged from \"__res_1224\" to \"__res_1223\" not supported.");
+            return __res_1223;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1122;
-            JSObject __res_1123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
-            throw new Exception("Marshaller from \"__res_1123\" to \"__res_1122\" not supported.");
-            return __res_1122;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1225;
+            JSObject __res_1226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
+            throw new Exception("Marshaller ToManaged from \"__res_1226\" to \"__res_1225\" not supported.");
+            return __res_1225;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1124;
-            JSObject __res_1125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
-            throw new Exception("Marshaller from \"__res_1125\" to \"__res_1124\" not supported.");
-            return __res_1124;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1227;
+            JSObject __res_1228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
+            throw new Exception("Marshaller ToManaged from \"__res_1228\" to \"__res_1227\" not supported.");
+            return __res_1227;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1126;
-            JSObject __res_1127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
-            throw new Exception("Marshaller from \"__res_1127\" to \"__res_1126\" not supported.");
-            return __res_1126;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1229;
+            JSObject __res_1230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
+            throw new Exception("Marshaller ToManaged from \"__res_1230\" to \"__res_1229\" not supported.");
+            return __res_1229;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5702;
-            string __res_5703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_5702 = __res_5703;
-            return __res_5702;
+            string __res_6708;
+            string __res_6709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_6708 = __res_6709;
+            return __res_6708;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5704;
-            string __res_5705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
-            __res_5704 = __res_5705;
-            return __res_5704;
+            string __res_6710;
+            string __res_6711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
+            __res_6710 = __res_6711;
+            return __res_6710;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_5706;
-            double __res_5707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineno");
-            __res_5706 = Convert.ToUInt32(__res_5707);
-            return __res_5706;
+            uint __res_6712;
+            double __res_6713 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineno");
+            __res_6712 = Convert.ToUInt32(__res_6713);
+            return __res_6712;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_5708;
-            double __res_5709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colno");
-            __res_5708 = Convert.ToUInt32(__res_5709);
-            return __res_5708;
+            uint __res_6714;
+            double __res_6715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colno");
+            __res_6714 = Convert.ToUInt32(__res_6715);
+            return __res_6714;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_5710;
-            JSObject __res_5711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            __res_5710 = __res_5711;
-            return __res_5710;
+            object? __res_6716;
+            JSObject __res_6717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            __res_6716 = __res_6717;
+            return __res_6716;
         }
     }
 }

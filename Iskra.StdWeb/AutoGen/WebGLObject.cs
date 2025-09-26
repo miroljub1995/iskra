@@ -13,14 +13,16 @@ public partial class WebGLObject(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_726;
-            string __res_727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_726 = __res_727;
-            return __res_726;
+            string __res_786;
+            string __res_787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_786 = __res_787;
+            return __res_786;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_788;
+            __marshalledValue_788 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_788);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_417;
-            JSObject __res_418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller from \"__res_418\" to \"__res_417\" not supported.");
-            return __res_417;
+            Iskra.StdWeb.SVGAnimatedLength __res_459;
+            JSObject __res_460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller ToManaged from \"__res_460\" to \"__res_459\" not supported.");
+            return __res_459;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_419;
-            JSObject __res_420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller from \"__res_420\" to \"__res_419\" not supported.");
-            return __res_419;
+            Iskra.StdWeb.SVGAnimatedLength __res_461;
+            JSObject __res_462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller ToManaged from \"__res_462\" to \"__res_461\" not supported.");
+            return __res_461;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_421;
-            JSObject __res_422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            throw new Exception("Marshaller from \"__res_422\" to \"__res_421\" not supported.");
-            return __res_421;
+            Iskra.StdWeb.SVGAnimatedLength __res_463;
+            JSObject __res_464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            throw new Exception("Marshaller ToManaged from \"__res_464\" to \"__res_463\" not supported.");
+            return __res_463;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGForeignObjectElement(JSObject obj): SVGGraphicsElement(o
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_423;
-            JSObject __res_424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            throw new Exception("Marshaller from \"__res_424\" to \"__res_423\" not supported.");
-            return __res_423;
+            Iskra.StdWeb.SVGAnimatedLength __res_465;
+            JSObject __res_466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            throw new Exception("Marshaller ToManaged from \"__res_466\" to \"__res_465\" not supported.");
+            return __res_465;
         }
     }
 }

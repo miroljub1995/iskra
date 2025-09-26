@@ -13,10 +13,10 @@ public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCSdpType __res_1602;
-            JSObject __res_1603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_1603\" to \"__res_1602\" not supported.");
-            return __res_1602;
+            Iskra.StdWeb.RTCSdpType __res_1785;
+            JSObject __res_1786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_1786\" to \"__res_1785\" not supported.");
+            return __res_1785;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1604;
-            string __res_1605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
-            __res_1604 = __res_1605;
-            return __res_1604;
+            string __res_1787;
+            string __res_1788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
+            __res_1787 = __res_1788;
+            return __res_1787;
         }
     }
 }

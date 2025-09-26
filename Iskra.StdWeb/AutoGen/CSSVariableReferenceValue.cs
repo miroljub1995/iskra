@@ -13,14 +13,16 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_31;
-            string __res_32 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
-            __res_31 = __res_32;
-            return __res_31;
+            string __res_32;
+            string __res_33 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
+            __res_32 = __res_33;
+            return __res_32;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_34;
+            __marshalledValue_34 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_34);
         }
     }
 
@@ -28,18 +30,18 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSUnparsedValue? __res_33;
-            JSObject? __res_34 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
-            if (__res_34 is null)
+            Iskra.StdWeb.CSSUnparsedValue? __res_35;
+            JSObject? __res_36 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
+            if (__res_36 is null)
             {
-                __res_33 = null;
+                __res_35 = null;
             }
             else
             {
-                JSObject __notNullable_35 = (JSObject)__res_34;
-                throw new Exception("Marshaller from \"__notNullable_35\" to \"__res_33\" not supported.");
+                JSObject __notNullable_37 = (JSObject)__res_36;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_37\" to \"__res_35\" not supported.");
             }
-            return __res_33;
+            return __res_35;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SVGGraphicsElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedTransformList __res_216;
-            JSObject __res_217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller from \"__res_217\" to \"__res_216\" not supported.");
-            return __res_216;
+            Iskra.StdWeb.SVGAnimatedTransformList __res_238;
+            JSObject __res_239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller ToManaged from \"__res_239\" to \"__res_238\" not supported.");
+            return __res_238;
         }
     }
 }

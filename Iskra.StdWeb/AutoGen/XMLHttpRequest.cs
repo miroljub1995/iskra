@@ -13,22 +13,32 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_787;
-            JSObject? __res_788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange");
-            if (__res_788 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_871;
+            JSObject? __res_872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange");
+            if (__res_872 is null)
             {
-                __res_787 = null;
+                __res_871 = null;
             }
             else
             {
-                JSObject __notNullable_789 = (JSObject)__res_788;
-                throw new Exception("Marshaller from \"__notNullable_789\" to \"__res_787\" not supported.");
+                JSObject __notNullable_873 = (JSObject)__res_872;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_873\" to \"__res_871\" not supported.");
             }
-            return __res_787;
+            return __res_871;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_874;
+            if (value is null)
+            {
+                __marshalledValue_874 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_875 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_875\" to \"__marshalledValue_874\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange", __marshalledValue_874);
         }
     }
 
@@ -36,10 +46,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            ushort __res_790;
-            double __res_791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller from \"__res_791\" to \"__res_790\" not supported.");
-            return __res_790;
+            ushort __res_876;
+            double __res_877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            throw new Exception("Marshaller ToManaged from \"__res_877\" to \"__res_876\" not supported.");
+            return __res_876;
         }
     }
 
@@ -47,14 +57,16 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            uint __res_792;
-            double __res_793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeout");
-            __res_792 = Convert.ToUInt32(__res_793);
-            return __res_792;
+            uint __res_878;
+            double __res_879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeout");
+            __res_878 = Convert.ToUInt32(__res_879);
+            return __res_878;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_880;
+            __marshalledValue_880 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "timeout", __marshalledValue_880);
         }
     }
 
@@ -62,14 +74,16 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            bool __res_794;
-            bool __res_795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
-            __res_794 = __res_795;
-            return __res_794;
+            bool __res_881;
+            bool __res_882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
+            __res_881 = __res_882;
+            return __res_881;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_883;
+            __marshalledValue_883 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "withCredentials", __marshalledValue_883);
         }
     }
 
@@ -77,10 +91,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.XMLHttpRequestUpload __res_796;
-            JSObject __res_797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
-            throw new Exception("Marshaller from \"__res_797\" to \"__res_796\" not supported.");
-            return __res_796;
+            Iskra.StdWeb.XMLHttpRequestUpload __res_884;
+            JSObject __res_885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
+            throw new Exception("Marshaller ToManaged from \"__res_885\" to \"__res_884\" not supported.");
+            return __res_884;
         }
     }
 
@@ -88,10 +102,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            string __res_798;
-            string __res_799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseURL");
-            __res_798 = __res_799;
-            return __res_798;
+            string __res_886;
+            string __res_887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseURL");
+            __res_886 = __res_887;
+            return __res_886;
         }
     }
 
@@ -99,10 +113,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            ushort __res_800;
-            double __res_801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
-            throw new Exception("Marshaller from \"__res_801\" to \"__res_800\" not supported.");
-            return __res_800;
+            ushort __res_888;
+            double __res_889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
+            throw new Exception("Marshaller ToManaged from \"__res_889\" to \"__res_888\" not supported.");
+            return __res_888;
         }
     }
 
@@ -110,10 +124,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            string __res_802;
-            string __res_803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
-            __res_802 = __res_803;
-            return __res_802;
+            string __res_890;
+            string __res_891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
+            __res_890 = __res_891;
+            return __res_890;
         }
     }
 
@@ -121,14 +135,16 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.XMLHttpRequestResponseType __res_804;
-            JSObject __res_805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseType");
-            throw new Exception("Marshaller from \"__res_805\" to \"__res_804\" not supported.");
-            return __res_804;
+            Iskra.StdWeb.XMLHttpRequestResponseType __res_892;
+            JSObject __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseType");
+            throw new Exception("Marshaller ToManaged from \"__res_893\" to \"__res_892\" not supported.");
+            return __res_892;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_894;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_894\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "responseType", __marshalledValue_894);
         }
     }
 
@@ -136,10 +152,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            object? __res_806;
-            JSObject __res_807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            __res_806 = __res_807;
-            return __res_806;
+            object? __res_895;
+            JSObject __res_896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            __res_895 = __res_896;
+            return __res_895;
         }
     }
 
@@ -147,10 +163,10 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            string __res_808;
-            string __res_809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseText");
-            __res_808 = __res_809;
-            return __res_808;
+            string __res_897;
+            string __res_898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseText");
+            __res_897 = __res_898;
+            return __res_897;
         }
     }
 
@@ -158,18 +174,18 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
     {
         get
         {
-            Iskra.StdWeb.Document? __res_810;
-            JSObject? __res_811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "responseXML");
-            if (__res_811 is null)
+            Iskra.StdWeb.Document? __res_899;
+            JSObject? __res_900 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "responseXML");
+            if (__res_900 is null)
             {
-                __res_810 = null;
+                __res_899 = null;
             }
             else
             {
-                JSObject __notNullable_812 = (JSObject)__res_811;
-                throw new Exception("Marshaller from \"__notNullable_812\" to \"__res_810\" not supported.");
+                JSObject __notNullable_901 = (JSObject)__res_900;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_901\" to \"__res_899\" not supported.");
             }
-            return __res_810;
+            return __res_899;
         }
     }
 }

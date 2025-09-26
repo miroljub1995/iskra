@@ -13,10 +13,10 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_862;
-            double __res_863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_862 = __res_863;
-            return __res_862;
+            double __res_953;
+            double __res_954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_953 = __res_954;
+            return __res_953;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Function __res_864;
-            JSObject __res_865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            throw new Exception("Marshaller from \"__res_865\" to \"__res_864\" not supported.");
-            return __res_864;
+            Iskra.StdWeb.Function __res_955;
+            JSObject __res_956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            throw new Exception("Marshaller ToManaged from \"__res_956\" to \"__res_955\" not supported.");
+            return __res_955;
         }
     }
 }

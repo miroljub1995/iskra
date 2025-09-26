@@ -13,10 +13,10 @@ public partial class AnimationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2616;
-            string __res_2617 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animationName");
-            __res_2616 = __res_2617;
-            return __res_2616;
+            string __res_2968;
+            string __res_2969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animationName");
+            __res_2968 = __res_2969;
+            return __res_2968;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AnimationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_2618;
-            double __res_2619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
-            __res_2618 = __res_2619;
-            return __res_2618;
+            double __res_2970;
+            double __res_2971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
+            __res_2970 = __res_2971;
+            return __res_2970;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class AnimationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2620;
-            string __res_2621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
-            __res_2620 = __res_2621;
-            return __res_2620;
+            string __res_2972;
+            string __res_2973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
+            __res_2972 = __res_2973;
+            return __res_2972;
         }
     }
 }

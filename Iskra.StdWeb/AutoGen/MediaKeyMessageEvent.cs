@@ -13,10 +13,10 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaKeyMessageType __res_4449;
-            JSObject __res_4450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
-            throw new Exception("Marshaller from \"__res_4450\" to \"__res_4449\" not supported.");
-            return __res_4449;
+            Iskra.StdWeb.MediaKeyMessageType __res_5103;
+            JSObject __res_5104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
+            throw new Exception("Marshaller ToManaged from \"__res_5104\" to \"__res_5103\" not supported.");
+            return __res_5103;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4451;
-            JSObject __res_4452 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
-            throw new Exception("Marshaller from \"__res_4452\" to \"__res_4451\" not supported.");
-            return __res_4451;
+            Iskra.JSCore.ArrayBuffer __res_5105;
+            JSObject __res_5106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            throw new Exception("Marshaller ToManaged from \"__res_5106\" to \"__res_5105\" not supported.");
+            return __res_5105;
         }
     }
 }

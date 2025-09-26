@@ -13,10 +13,10 @@ public partial class WindowControlsOverlayGeometryChangeEvent(JSObject obj): Eve
     {
         get
         {
-            Iskra.StdWeb.DOMRect __res_2444;
-            JSObject __res_2445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "titlebarAreaRect");
-            throw new Exception("Marshaller from \"__res_2445\" to \"__res_2444\" not supported.");
-            return __res_2444;
+            Iskra.StdWeb.DOMRect __res_2792;
+            JSObject __res_2793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "titlebarAreaRect");
+            throw new Exception("Marshaller ToManaged from \"__res_2793\" to \"__res_2792\" not supported.");
+            return __res_2792;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WindowControlsOverlayGeometryChangeEvent(JSObject obj): Eve
     {
         get
         {
-            bool __res_2446;
-            bool __res_2447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_2446 = __res_2447;
-            return __res_2446;
+            bool __res_2794;
+            bool __res_2795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_2794 = __res_2795;
+            return __res_2794;
         }
     }
 }

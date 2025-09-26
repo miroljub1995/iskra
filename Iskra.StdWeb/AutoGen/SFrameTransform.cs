@@ -13,22 +13,32 @@ public partial class SFrameTransform(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_892;
-            JSObject? __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_893 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_983;
+            JSObject? __res_984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_984 is null)
             {
-                __res_892 = null;
+                __res_983 = null;
             }
             else
             {
-                JSObject __notNullable_894 = (JSObject)__res_893;
-                throw new Exception("Marshaller from \"__notNullable_894\" to \"__res_892\" not supported.");
+                JSObject __notNullable_985 = (JSObject)__res_984;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_985\" to \"__res_983\" not supported.");
             }
-            return __res_892;
+            return __res_983;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_986;
+            if (value is null)
+            {
+                __marshalledValue_986 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_987 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_987\" to \"__marshalledValue_986\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_986);
         }
     }
 }

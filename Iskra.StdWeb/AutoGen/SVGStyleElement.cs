@@ -13,14 +13,16 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_318;
-            string __res_319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_318 = __res_319;
-            return __res_318;
+            string __res_353;
+            string __res_354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_353 = __res_354;
+            return __res_353;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_355;
+            __marshalledValue_355 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_355);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_320;
-            string __res_321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_320 = __res_321;
-            return __res_320;
+            string __res_356;
+            string __res_357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_356 = __res_357;
+            return __res_356;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_358;
+            __marshalledValue_358 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_358);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_322;
-            string __res_323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_322 = __res_323;
-            return __res_322;
+            string __res_359;
+            string __res_360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_359 = __res_360;
+            return __res_359;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_361;
+            __marshalledValue_361 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_361);
         }
     }
 }

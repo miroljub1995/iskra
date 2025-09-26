@@ -13,9 +13,9 @@ public partial class BluetoothLEScanPermissionResult(JSObject obj): PermissionSt
     {
         get
         {
-            object __res_4116;
+            object __res_4712;
             throw new Exception();
-            return __res_4116;
+            return __res_4712;
         }
         set
         {

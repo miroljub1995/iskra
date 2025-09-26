@@ -13,14 +13,16 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1961;
-            string __res_1962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1961 = __res_1962;
-            return __res_1961;
+            string __res_2208;
+            string __res_2209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2208 = __res_2209;
+            return __res_2208;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_2210;
+            __marshalledValue_2210 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_2210);
         }
     }
 
@@ -28,9 +30,9 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_1963;
+            object __res_2211;
             throw new Exception();
-            return __res_1963;
+            return __res_2211;
         }
         set
         {

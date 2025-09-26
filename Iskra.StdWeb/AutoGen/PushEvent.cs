@@ -13,18 +13,18 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.PushMessageData? __res_4247;
-            JSObject? __res_4248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_4248 is null)
+            Iskra.StdWeb.PushMessageData? __res_4886;
+            JSObject? __res_4887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_4887 is null)
             {
-                __res_4247 = null;
+                __res_4886 = null;
             }
             else
             {
-                JSObject __notNullable_4249 = (JSObject)__res_4248;
-                throw new Exception("Marshaller from \"__notNullable_4249\" to \"__res_4247\" not supported.");
+                JSObject __notNullable_4888 = (JSObject)__res_4887;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4888\" to \"__res_4886\" not supported.");
             }
-            return __res_4247;
+            return __res_4886;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.Notification? __res_4250;
-            JSObject? __res_4251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
-            if (__res_4251 is null)
+            Iskra.StdWeb.Notification? __res_4889;
+            JSObject? __res_4890 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
+            if (__res_4890 is null)
             {
-                __res_4250 = null;
+                __res_4889 = null;
             }
             else
             {
-                JSObject __notNullable_4252 = (JSObject)__res_4251;
-                throw new Exception("Marshaller from \"__notNullable_4252\" to \"__res_4250\" not supported.");
+                JSObject __notNullable_4891 = (JSObject)__res_4890;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4891\" to \"__res_4889\" not supported.");
             }
-            return __res_4250;
+            return __res_4889;
         }
     }
 }

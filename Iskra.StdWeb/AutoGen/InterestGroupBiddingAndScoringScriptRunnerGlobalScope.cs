@@ -13,10 +13,10 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
     {
         get
         {
-            Iskra.StdWeb.ForDebuggingOnly __res_3241;
-            JSObject __res_3242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
-            throw new Exception("Marshaller from \"__res_3242\" to \"__res_3241\" not supported.");
-            return __res_3241;
+            Iskra.StdWeb.ForDebuggingOnly __res_3651;
+            JSObject __res_3652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
+            throw new Exception("Marshaller ToManaged from \"__res_3652\" to \"__res_3651\" not supported.");
+            return __res_3651;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
     {
         get
         {
-            Iskra.StdWeb.RealTimeReporting __res_3243;
-            JSObject __res_3244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
-            throw new Exception("Marshaller from \"__res_3244\" to \"__res_3243\" not supported.");
-            return __res_3243;
+            Iskra.StdWeb.RealTimeReporting __res_3653;
+            JSObject __res_3654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
+            throw new Exception("Marshaller ToManaged from \"__res_3654\" to \"__res_3653\" not supported.");
+            return __res_3653;
         }
     }
 }

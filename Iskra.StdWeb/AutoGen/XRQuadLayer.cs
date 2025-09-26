@@ -13,14 +13,16 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_1358;
-            JSObject __res_1359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
-            throw new Exception("Marshaller from \"__res_1359\" to \"__res_1358\" not supported.");
-            return __res_1358;
+            Iskra.StdWeb.XRSpace __res_1492;
+            JSObject __res_1493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
+            throw new Exception("Marshaller ToManaged from \"__res_1493\" to \"__res_1492\" not supported.");
+            return __res_1492;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1494;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1494\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_1494);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_1360;
-            JSObject __res_1361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller from \"__res_1361\" to \"__res_1360\" not supported.");
-            return __res_1360;
+            Iskra.StdWeb.XRRigidTransform __res_1495;
+            JSObject __res_1496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller ToManaged from \"__res_1496\" to \"__res_1495\" not supported.");
+            return __res_1495;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1497;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1497\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_1497);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_1362;
-            double __res_1363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1362 = Convert.ToSingle(__res_1363);
-            return __res_1362;
+            float __res_1498;
+            double __res_1499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1498 = Convert.ToSingle(__res_1499);
+            return __res_1498;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_1500;
+            __marshalledValue_1500 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_1500);
         }
     }
 
@@ -58,14 +64,16 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            float __res_1364;
-            double __res_1365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1364 = Convert.ToSingle(__res_1365);
-            return __res_1364;
+            float __res_1501;
+            double __res_1502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1501 = Convert.ToSingle(__res_1502);
+            return __res_1501;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_1503;
+            __marshalledValue_1503 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_1503);
         }
     }
 
@@ -73,22 +81,32 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1366;
-            JSObject? __res_1367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
-            if (__res_1367 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1504;
+            JSObject? __res_1505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
+            if (__res_1505 is null)
             {
-                __res_1366 = null;
+                __res_1504 = null;
             }
             else
             {
-                JSObject __notNullable_1368 = (JSObject)__res_1367;
-                throw new Exception("Marshaller from \"__notNullable_1368\" to \"__res_1366\" not supported.");
+                JSObject __notNullable_1506 = (JSObject)__res_1505;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1506\" to \"__res_1504\" not supported.");
             }
-            return __res_1366;
+            return __res_1504;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1507;
+            if (value is null)
+            {
+                __marshalledValue_1507 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1508 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1508\" to \"__marshalledValue_1507\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_1507);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class GPUPipelineError(JSObject obj): DOMException(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUPipelineErrorReason __res_687;
-            JSObject __res_688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller from \"__res_688\" to \"__res_687\" not supported.");
-            return __res_687;
+            Iskra.StdWeb.GPUPipelineErrorReason __res_746;
+            JSObject __res_747 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            throw new Exception("Marshaller ToManaged from \"__res_747\" to \"__res_746\" not supported.");
+            return __res_746;
         }
     }
 }

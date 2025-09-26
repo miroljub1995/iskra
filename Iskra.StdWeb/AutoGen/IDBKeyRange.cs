@@ -13,10 +13,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6456;
-            JSObject __res_6457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            __res_6456 = __res_6457;
-            return __res_6456;
+            object? __res_7643;
+            JSObject __res_7644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
+            __res_7643 = __res_7644;
+            return __res_7643;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6458;
-            JSObject __res_6459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            __res_6458 = __res_6459;
-            return __res_6458;
+            object? __res_7645;
+            JSObject __res_7646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
+            __res_7645 = __res_7646;
+            return __res_7645;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6460;
-            bool __res_6461 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_6460 = __res_6461;
-            return __res_6460;
+            bool __res_7647;
+            bool __res_7648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_7647 = __res_7648;
+            return __res_7647;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6462;
-            bool __res_6463 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_6462 = __res_6463;
-            return __res_6462;
+            bool __res_7649;
+            bool __res_7650 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_7649 = __res_7650;
+            return __res_7649;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_398;
-            JSObject __res_399 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            throw new Exception("Marshaller from \"__res_399\" to \"__res_398\" not supported.");
-            return __res_398;
+            Iskra.StdWeb.SVGAnimatedLength __res_438;
+            JSObject __res_439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            throw new Exception("Marshaller ToManaged from \"__res_439\" to \"__res_438\" not supported.");
+            return __res_438;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_400;
-            JSObject __res_401 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
-            throw new Exception("Marshaller from \"__res_401\" to \"__res_400\" not supported.");
-            return __res_400;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_440;
+            JSObject __res_441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
+            throw new Exception("Marshaller ToManaged from \"__res_441\" to \"__res_440\" not supported.");
+            return __res_440;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_402;
-            JSObject __res_403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
-            throw new Exception("Marshaller from \"__res_403\" to \"__res_402\" not supported.");
-            return __res_402;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_442;
+            JSObject __res_443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
+            throw new Exception("Marshaller ToManaged from \"__res_443\" to \"__res_442\" not supported.");
+            return __res_442;
         }
     }
 }

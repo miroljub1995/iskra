@@ -13,22 +13,32 @@ public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6802;
-            JSObject? __res_6803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_6803 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_8024;
+            JSObject? __res_8025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_8025 is null)
             {
-                __res_6802 = null;
+                __res_8024 = null;
             }
             else
             {
-                JSObject __notNullable_6804 = (JSObject)__res_6803;
-                throw new Exception("Marshaller from \"__notNullable_6804\" to \"__res_6802\" not supported.");
+                JSObject __notNullable_8026 = (JSObject)__res_8025;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_8026\" to \"__res_8024\" not supported.");
             }
-            return __res_6802;
+            return __res_8024;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_8027;
+            if (value is null)
+            {
+                __marshalledValue_8027 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_8028 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_8028\" to \"__marshalledValue_8027\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_8027);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1074;
-            JSObject __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
-            throw new Exception("Marshaller from \"__res_1075\" to \"__res_1074\" not supported.");
-            return __res_1074;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1177;
+            JSObject __res_1178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
+            throw new Exception("Marshaller ToManaged from \"__res_1178\" to \"__res_1177\" not supported.");
+            return __res_1177;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1076;
-            JSObject __res_1077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
-            throw new Exception("Marshaller from \"__res_1077\" to \"__res_1076\" not supported.");
-            return __res_1076;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1179;
+            JSObject __res_1180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
+            throw new Exception("Marshaller ToManaged from \"__res_1180\" to \"__res_1179\" not supported.");
+            return __res_1179;
         }
     }
 }

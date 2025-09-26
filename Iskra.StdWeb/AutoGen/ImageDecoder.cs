@@ -13,10 +13,10 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2288;
-            string __res_2289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2288 = __res_2289;
-            return __res_2288;
+            string __res_2629;
+            string __res_2630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2629 = __res_2630;
+            return __res_2629;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2290;
-            bool __res_2291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            __res_2290 = __res_2291;
-            return __res_2290;
+            bool __res_2631;
+            bool __res_2632 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            __res_2631 = __res_2632;
+            return __res_2631;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2292;
+            object __res_2633;
             throw new Exception();
-            return __res_2292;
+            return __res_2633;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ImageTrackList __res_2293;
-            JSObject __res_2294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
-            throw new Exception("Marshaller from \"__res_2294\" to \"__res_2293\" not supported.");
-            return __res_2293;
+            Iskra.StdWeb.ImageTrackList __res_2634;
+            JSObject __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
+            throw new Exception("Marshaller ToManaged from \"__res_2635\" to \"__res_2634\" not supported.");
+            return __res_2634;
         }
     }
 }

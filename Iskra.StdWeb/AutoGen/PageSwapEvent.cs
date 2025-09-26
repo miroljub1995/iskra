@@ -13,18 +13,18 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationActivation? __res_5673;
-            JSObject? __res_5674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
-            if (__res_5674 is null)
+            Iskra.StdWeb.NavigationActivation? __res_6678;
+            JSObject? __res_6679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
+            if (__res_6679 is null)
             {
-                __res_5673 = null;
+                __res_6678 = null;
             }
             else
             {
-                JSObject __notNullable_5675 = (JSObject)__res_5674;
-                throw new Exception("Marshaller from \"__notNullable_5675\" to \"__res_5673\" not supported.");
+                JSObject __notNullable_6680 = (JSObject)__res_6679;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6680\" to \"__res_6678\" not supported.");
             }
-            return __res_5673;
+            return __res_6678;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.ViewTransition? __res_5676;
-            JSObject? __res_5677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
-            if (__res_5677 is null)
+            Iskra.StdWeb.ViewTransition? __res_6681;
+            JSObject? __res_6682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
+            if (__res_6682 is null)
             {
-                __res_5676 = null;
+                __res_6681 = null;
             }
             else
             {
-                JSObject __notNullable_5678 = (JSObject)__res_5677;
-                throw new Exception("Marshaller from \"__notNullable_5678\" to \"__res_5676\" not supported.");
+                JSObject __notNullable_6683 = (JSObject)__res_6682;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6683\" to \"__res_6681\" not supported.");
             }
-            return __res_5676;
+            return __res_6681;
         }
     }
 }

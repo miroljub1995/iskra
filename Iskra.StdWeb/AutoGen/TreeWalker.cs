@@ -13,10 +13,10 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_2945;
-            JSObject __res_2946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            throw new Exception("Marshaller from \"__res_2946\" to \"__res_2945\" not supported.");
-            return __res_2945;
+            Iskra.StdWeb.Node __res_3318;
+            JSObject __res_3319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            throw new Exception("Marshaller ToManaged from \"__res_3319\" to \"__res_3318\" not supported.");
+            return __res_3318;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2947;
-            double __res_2948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_2947 = Convert.ToUInt32(__res_2948);
-            return __res_2947;
+            uint __res_3320;
+            double __res_3321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
+            __res_3320 = Convert.ToUInt32(__res_3321);
+            return __res_3320;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeFilter? __res_2949;
-            JSObject? __res_2950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_2950 is null)
+            Iskra.StdWeb.NodeFilter? __res_3322;
+            JSObject? __res_3323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
+            if (__res_3323 is null)
             {
-                __res_2949 = null;
+                __res_3322 = null;
             }
             else
             {
-                JSObject __notNullable_2951 = (JSObject)__res_2950;
-                throw new Exception("Marshaller from \"__notNullable_2951\" to \"__res_2949\" not supported.");
+                JSObject __notNullable_3324 = (JSObject)__res_3323;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3324\" to \"__res_3322\" not supported.");
             }
-            return __res_2949;
+            return __res_3322;
         }
     }
 
@@ -54,14 +54,16 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Node __res_2952;
-            JSObject __res_2953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
-            throw new Exception("Marshaller from \"__res_2953\" to \"__res_2952\" not supported.");
-            return __res_2952;
+            Iskra.StdWeb.Node __res_3325;
+            JSObject __res_3326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
+            throw new Exception("Marshaller ToManaged from \"__res_3326\" to \"__res_3325\" not supported.");
+            return __res_3325;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_3327;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_3327\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_3327);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class XRCamera(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2014;
-            double __res_2015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_2014 = Convert.ToUInt32(__res_2015);
-            return __res_2014;
+            uint __res_2277;
+            double __res_2278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_2277 = Convert.ToUInt32(__res_2278);
+            return __res_2277;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRCamera(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2016;
-            double __res_2017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_2016 = Convert.ToUInt32(__res_2017);
-            return __res_2016;
+            uint __res_2279;
+            double __res_2280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_2279 = Convert.ToUInt32(__res_2280);
+            return __res_2279;
         }
     }
 }

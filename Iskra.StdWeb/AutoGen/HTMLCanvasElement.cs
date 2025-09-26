@@ -13,14 +13,16 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_5385;
-            double __res_5386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_5385 = Convert.ToUInt32(__res_5386);
-            return __res_5385;
+            uint __res_6354;
+            double __res_6355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6354 = Convert.ToUInt32(__res_6355);
+            return __res_6354;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6356;
+            __marshalledValue_6356 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_6356);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLCanvasElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_5387;
-            double __res_5388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_5387 = Convert.ToUInt32(__res_5388);
-            return __res_5387;
+            uint __res_6357;
+            double __res_6358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_6357 = Convert.ToUInt32(__res_6358);
+            return __res_6357;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6359;
+            __marshalledValue_6359 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_6359);
         }
     }
 }

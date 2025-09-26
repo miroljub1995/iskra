@@ -13,10 +13,10 @@ public partial class CompositionEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            string __res_6668;
-            string __res_6669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_6668 = __res_6669;
-            return __res_6668;
+            string __res_7863;
+            string __res_7864 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_7863 = __res_7864;
+            return __res_7863;
         }
     }
 }

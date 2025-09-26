@@ -13,10 +13,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_1539;
-            double __res_1540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
-            __res_1539 = __res_1540;
-            return __res_1539;
+            double __res_1708;
+            double __res_1709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_1708 = __res_1709;
+            return __res_1708;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_1541;
-            double __res_1542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
-            __res_1541 = __res_1542;
-            return __res_1541;
+            double __res_1710;
+            double __res_1711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_1710 = __res_1711;
+            return __res_1710;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            uint __res_1543;
-            double __res_1544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_1543 = Convert.ToUInt32(__res_1544);
-            return __res_1543;
+            uint __res_1712;
+            double __res_1713 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_1712 = Convert.ToUInt32(__res_1713);
+            return __res_1712;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_1545;
-            string __res_1546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_1545 = __res_1546;
-            return __res_1545;
+            string __res_1714;
+            string __res_1715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_1714 = __res_1715;
+            return __res_1714;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_1547;
-            string __res_1548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_1547 = __res_1548;
-            return __res_1547;
+            string __res_1716;
+            string __res_1717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_1716 = __res_1717;
+            return __res_1716;
         }
     }
 
@@ -68,18 +68,18 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1549;
-            JSObject? __res_1550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
-            if (__res_1550 is null)
+            Iskra.StdWeb.Element? __res_1718;
+            JSObject? __res_1719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_1719 is null)
             {
-                __res_1549 = null;
+                __res_1718 = null;
             }
             else
             {
-                JSObject __notNullable_1551 = (JSObject)__res_1550;
-                throw new Exception("Marshaller from \"__notNullable_1551\" to \"__res_1549\" not supported.");
+                JSObject __notNullable_1720 = (JSObject)__res_1719;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1720\" to \"__res_1718\" not supported.");
             }
-            return __res_1549;
+            return __res_1718;
         }
     }
 }

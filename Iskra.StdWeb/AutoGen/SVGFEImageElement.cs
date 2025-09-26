@@ -13,10 +13,10 @@ public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1128;
-            JSObject __res_1129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
-            throw new Exception("Marshaller from \"__res_1129\" to \"__res_1128\" not supported.");
-            return __res_1128;
+            Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1231;
+            JSObject __res_1232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
+            throw new Exception("Marshaller ToManaged from \"__res_1232\" to \"__res_1231\" not supported.");
+            return __res_1231;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1130;
-            JSObject __res_1131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "crossOrigin");
-            throw new Exception("Marshaller from \"__res_1131\" to \"__res_1130\" not supported.");
-            return __res_1130;
+            Iskra.StdWeb.SVGAnimatedString __res_1233;
+            JSObject __res_1234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "crossOrigin");
+            throw new Exception("Marshaller ToManaged from \"__res_1234\" to \"__res_1233\" not supported.");
+            return __res_1233;
         }
     }
 }

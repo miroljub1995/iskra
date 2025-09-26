@@ -13,14 +13,16 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_946;
-            double __res_947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
-            __res_946 = Convert.ToInt32(__res_947);
-            return __res_946;
+            int __res_1045;
+            double __res_1046 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
+            __res_1045 = Convert.ToInt32(__res_1046);
+            return __res_1045;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_1047;
+            __marshalledValue_1047 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1047);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.HighlightType __res_948;
-            JSObject __res_949 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_949\" to \"__res_948\" not supported.");
-            return __res_948;
+            Iskra.StdWeb.HighlightType __res_1048;
+            JSObject __res_1049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_1049\" to \"__res_1048\" not supported.");
+            return __res_1048;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1050;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1050\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_1050);
         }
     }
 }

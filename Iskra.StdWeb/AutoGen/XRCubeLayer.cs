@@ -13,14 +13,16 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_1397;
-            JSObject __res_1398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
-            throw new Exception("Marshaller from \"__res_1398\" to \"__res_1397\" not supported.");
-            return __res_1397;
+            Iskra.StdWeb.XRSpace __res_1552;
+            JSObject __res_1553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
+            throw new Exception("Marshaller ToManaged from \"__res_1553\" to \"__res_1552\" not supported.");
+            return __res_1552;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1554;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1554\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_1554);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_1399;
-            JSObject __res_1400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
-            throw new Exception("Marshaller from \"__res_1400\" to \"__res_1399\" not supported.");
-            return __res_1399;
+            Iskra.StdWeb.DOMPointReadOnly __res_1555;
+            JSObject __res_1556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
+            throw new Exception("Marshaller ToManaged from \"__res_1556\" to \"__res_1555\" not supported.");
+            return __res_1555;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1557;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1557\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "orientation", __marshalledValue_1557);
         }
     }
 
@@ -43,22 +47,32 @@ public partial class XRCubeLayer(JSObject obj): XRCompositionLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1401;
-            JSObject? __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
-            if (__res_1402 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1558;
+            JSObject? __res_1559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
+            if (__res_1559 is null)
             {
-                __res_1401 = null;
+                __res_1558 = null;
             }
             else
             {
-                JSObject __notNullable_1403 = (JSObject)__res_1402;
-                throw new Exception("Marshaller from \"__notNullable_1403\" to \"__res_1401\" not supported.");
+                JSObject __notNullable_1560 = (JSObject)__res_1559;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1560\" to \"__res_1558\" not supported.");
             }
-            return __res_1401;
+            return __res_1558;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1561;
+            if (value is null)
+            {
+                __marshalledValue_1561 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1562 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1562\" to \"__marshalledValue_1561\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_1561);
         }
     }
 }

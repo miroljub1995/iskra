@@ -13,22 +13,32 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6927;
-            JSObject? __res_6928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
-            if (__res_6928 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_8173;
+            JSObject? __res_8174 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
+            if (__res_8174 is null)
             {
-                __res_6927 = null;
+                __res_8173 = null;
             }
             else
             {
-                JSObject __notNullable_6929 = (JSObject)__res_6928;
-                throw new Exception("Marshaller from \"__notNullable_6929\" to \"__res_6927\" not supported.");
+                JSObject __notNullable_8175 = (JSObject)__res_8174;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_8175\" to \"__res_8173\" not supported.");
             }
-            return __res_6927;
+            return __res_8173;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_8176;
+            if (value is null)
+            {
+                __marshalledValue_8176 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_8177 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_8177\" to \"__marshalledValue_8176\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_8176);
         }
     }
 
@@ -36,10 +46,10 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            int __res_6930;
-            double __res_6931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
-            __res_6930 = Convert.ToInt32(__res_6931);
-            return __res_6930;
+            int __res_8178;
+            double __res_8179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
+            __res_8178 = Convert.ToInt32(__res_8179);
+            return __res_8178;
         }
     }
 }

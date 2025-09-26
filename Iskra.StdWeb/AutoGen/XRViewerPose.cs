@@ -13,9 +13,9 @@ public partial class XRViewerPose(JSObject obj): XRPose(obj)
     {
         get
         {
-            object __res_3695;
+            object __res_4229;
             throw new Exception();
-            return __res_3695;
+            return __res_4229;
         }
     }
 }

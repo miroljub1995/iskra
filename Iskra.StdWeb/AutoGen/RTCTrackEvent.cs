@@ -13,10 +13,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpReceiver __res_1730;
-            JSObject __res_1731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            throw new Exception("Marshaller from \"__res_1731\" to \"__res_1730\" not supported.");
-            return __res_1730;
+            Iskra.StdWeb.RTCRtpReceiver __res_1926;
+            JSObject __res_1927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            throw new Exception("Marshaller ToManaged from \"__res_1927\" to \"__res_1926\" not supported.");
+            return __res_1926;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_1732;
-            JSObject __res_1733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller from \"__res_1733\" to \"__res_1732\" not supported.");
-            return __res_1732;
+            Iskra.StdWeb.MediaStreamTrack __res_1928;
+            JSObject __res_1929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            throw new Exception("Marshaller ToManaged from \"__res_1929\" to \"__res_1928\" not supported.");
+            return __res_1928;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_1734;
+            object __res_1930;
             throw new Exception();
-            return __res_1734;
+            return __res_1930;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiver __res_1735;
-            JSObject __res_1736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
-            throw new Exception("Marshaller from \"__res_1736\" to \"__res_1735\" not supported.");
-            return __res_1735;
+            Iskra.StdWeb.RTCRtpTransceiver __res_1931;
+            JSObject __res_1932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
+            throw new Exception("Marshaller ToManaged from \"__res_1932\" to \"__res_1931\" not supported.");
+            return __res_1931;
         }
     }
 }

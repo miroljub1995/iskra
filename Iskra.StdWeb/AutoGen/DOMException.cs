@@ -13,10 +13,10 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3026;
-            string __res_3027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3026 = __res_3027;
-            return __res_3026;
+            string __res_3405;
+            string __res_3406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3405 = __res_3406;
+            return __res_3405;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3028;
-            string __res_3029 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_3028 = __res_3029;
-            return __res_3028;
+            string __res_3407;
+            string __res_3408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_3407 = __res_3408;
+            return __res_3407;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_3030;
-            double __res_3031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller from \"__res_3031\" to \"__res_3030\" not supported.");
-            return __res_3030;
+            ushort __res_3409;
+            double __res_3410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            throw new Exception("Marshaller ToManaged from \"__res_3410\" to \"__res_3409\" not supported.");
+            return __res_3409;
         }
     }
 }

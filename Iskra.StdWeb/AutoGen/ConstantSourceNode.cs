@@ -13,10 +13,10 @@ public partial class ConstantSourceNode(JSObject obj): AudioScheduledSourceNode(
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6864;
-            JSObject __res_6865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            throw new Exception("Marshaller from \"__res_6865\" to \"__res_6864\" not supported.");
-            return __res_6864;
+            Iskra.StdWeb.AudioParam __res_8098;
+            JSObject __res_8099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            throw new Exception("Marshaller ToManaged from \"__res_8099\" to \"__res_8098\" not supported.");
+            return __res_8098;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Storage __res_3824;
-            JSObject __res_3825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
-            throw new Exception("Marshaller from \"__res_3825\" to \"__res_3824\" not supported.");
-            return __res_3824;
+            Iskra.StdWeb.Storage __res_4372;
+            JSObject __res_4373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
+            throw new Exception("Marshaller ToManaged from \"__res_4373\" to \"__res_4372\" not supported.");
+            return __res_4372;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Storage __res_3826;
-            JSObject __res_3827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
-            throw new Exception("Marshaller from \"__res_3827\" to \"__res_3826\" not supported.");
-            return __res_3826;
+            Iskra.StdWeb.Storage __res_4374;
+            JSObject __res_4375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
+            throw new Exception("Marshaller ToManaged from \"__res_4375\" to \"__res_4374\" not supported.");
+            return __res_4374;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBFactory __res_3828;
-            JSObject __res_3829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            throw new Exception("Marshaller from \"__res_3829\" to \"__res_3828\" not supported.");
-            return __res_3828;
+            Iskra.StdWeb.IDBFactory __res_4376;
+            JSObject __res_4377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            throw new Exception("Marshaller ToManaged from \"__res_4377\" to \"__res_4376\" not supported.");
+            return __res_4376;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.LockManager __res_3830;
-            JSObject __res_3831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
-            throw new Exception("Marshaller from \"__res_3831\" to \"__res_3830\" not supported.");
-            return __res_3830;
+            Iskra.StdWeb.LockManager __res_4378;
+            JSObject __res_4379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            throw new Exception("Marshaller ToManaged from \"__res_4379\" to \"__res_4378\" not supported.");
+            return __res_4378;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CacheStorage __res_3832;
-            JSObject __res_3833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            throw new Exception("Marshaller from \"__res_3833\" to \"__res_3832\" not supported.");
-            return __res_3832;
+            Iskra.StdWeb.CacheStorage __res_4380;
+            JSObject __res_4381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            throw new Exception("Marshaller ToManaged from \"__res_4381\" to \"__res_4380\" not supported.");
+            return __res_4380;
         }
     }
 }

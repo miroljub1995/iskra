@@ -13,18 +13,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2495;
-            JSObject? __res_2496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
-            if (__res_2496 is null)
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2843;
+            JSObject? __res_2844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
+            if (__res_2844 is null)
             {
-                __res_2495 = null;
+                __res_2843 = null;
             }
             else
             {
-                JSObject __notNullable_2497 = (JSObject)__res_2496;
-                throw new Exception("Marshaller from \"__notNullable_2497\" to \"__res_2495\" not supported.");
+                JSObject __notNullable_2845 = (JSObject)__res_2844;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2845\" to \"__res_2843\" not supported.");
             }
-            return __res_2495;
+            return __res_2843;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2498;
-            JSObject? __res_2499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
-            if (__res_2499 is null)
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2846;
+            JSObject? __res_2847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
+            if (__res_2847 is null)
             {
-                __res_2498 = null;
+                __res_2846 = null;
             }
             else
             {
-                JSObject __notNullable_2500 = (JSObject)__res_2499;
-                throw new Exception("Marshaller from \"__notNullable_2500\" to \"__res_2498\" not supported.");
+                JSObject __notNullable_2848 = (JSObject)__res_2847;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2848\" to \"__res_2846\" not supported.");
             }
-            return __res_2498;
+            return __res_2846;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2501;
-            JSObject? __res_2502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
-            if (__res_2502 is null)
+            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2849;
+            JSObject? __res_2850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
+            if (__res_2850 is null)
             {
-                __res_2501 = null;
+                __res_2849 = null;
             }
             else
             {
-                JSObject __notNullable_2503 = (JSObject)__res_2502;
-                throw new Exception("Marshaller from \"__notNullable_2503\" to \"__res_2501\" not supported.");
+                JSObject __notNullable_2851 = (JSObject)__res_2850;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2851\" to \"__res_2849\" not supported.");
             }
-            return __res_2501;
+            return __res_2849;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_2504;
-            double __res_2505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
-            __res_2504 = __res_2505;
-            return __res_2504;
+            double __res_2852;
+            double __res_2853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
+            __res_2852 = __res_2853;
+            return __res_2852;
         }
     }
 }

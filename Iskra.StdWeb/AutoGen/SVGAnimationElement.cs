@@ -13,18 +13,18 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGElement? __res_747;
-            JSObject? __res_748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "targetElement");
-            if (__res_748 is null)
+            Iskra.StdWeb.SVGElement? __res_808;
+            JSObject? __res_809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "targetElement");
+            if (__res_809 is null)
             {
-                __res_747 = null;
+                __res_808 = null;
             }
             else
             {
-                JSObject __notNullable_749 = (JSObject)__res_748;
-                throw new Exception("Marshaller from \"__notNullable_749\" to \"__res_747\" not supported.");
+                JSObject __notNullable_810 = (JSObject)__res_809;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_810\" to \"__res_808\" not supported.");
             }
-            return __res_747;
+            return __res_808;
         }
     }
 
@@ -32,22 +32,32 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_750;
-            JSObject? __res_751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbegin");
-            if (__res_751 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_811;
+            JSObject? __res_812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbegin");
+            if (__res_812 is null)
             {
-                __res_750 = null;
+                __res_811 = null;
             }
             else
             {
-                JSObject __notNullable_752 = (JSObject)__res_751;
-                throw new Exception("Marshaller from \"__notNullable_752\" to \"__res_750\" not supported.");
+                JSObject __notNullable_813 = (JSObject)__res_812;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_813\" to \"__res_811\" not supported.");
             }
-            return __res_750;
+            return __res_811;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_814;
+            if (value is null)
+            {
+                __marshalledValue_814 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_815 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_815\" to \"__marshalledValue_814\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onbegin", __marshalledValue_814);
         }
     }
 
@@ -55,22 +65,32 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_753;
-            JSObject? __res_754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
-            if (__res_754 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_816;
+            JSObject? __res_817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
+            if (__res_817 is null)
             {
-                __res_753 = null;
+                __res_816 = null;
             }
             else
             {
-                JSObject __notNullable_755 = (JSObject)__res_754;
-                throw new Exception("Marshaller from \"__notNullable_755\" to \"__res_753\" not supported.");
+                JSObject __notNullable_818 = (JSObject)__res_817;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_818\" to \"__res_816\" not supported.");
             }
-            return __res_753;
+            return __res_816;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_819;
+            if (value is null)
+            {
+                __marshalledValue_819 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_820 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_820\" to \"__marshalledValue_819\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_819);
         }
     }
 
@@ -78,22 +98,32 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_756;
-            JSObject? __res_757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrepeat");
-            if (__res_757 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_821;
+            JSObject? __res_822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrepeat");
+            if (__res_822 is null)
             {
-                __res_756 = null;
+                __res_821 = null;
             }
             else
             {
-                JSObject __notNullable_758 = (JSObject)__res_757;
-                throw new Exception("Marshaller from \"__notNullable_758\" to \"__res_756\" not supported.");
+                JSObject __notNullable_823 = (JSObject)__res_822;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_823\" to \"__res_821\" not supported.");
             }
-            return __res_756;
+            return __res_821;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_824;
+            if (value is null)
+            {
+                __marshalledValue_824 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_825 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_825\" to \"__marshalledValue_824\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrepeat", __marshalledValue_824);
         }
     }
 }

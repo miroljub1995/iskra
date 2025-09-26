@@ -13,10 +13,10 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_164;
-            string __res_165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_164 = __res_165;
-            return __res_164;
+            string __res_181;
+            string __res_182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_181 = __res_182;
+            return __res_181;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RewriterTone __res_166;
-            JSObject __res_167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
-            throw new Exception("Marshaller from \"__res_167\" to \"__res_166\" not supported.");
-            return __res_166;
+            Iskra.StdWeb.RewriterTone __res_183;
+            JSObject __res_184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
+            throw new Exception("Marshaller ToManaged from \"__res_184\" to \"__res_183\" not supported.");
+            return __res_183;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RewriterFormat __res_168;
-            JSObject __res_169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller from \"__res_169\" to \"__res_168\" not supported.");
-            return __res_168;
+            Iskra.StdWeb.RewriterFormat __res_185;
+            JSObject __res_186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
+            throw new Exception("Marshaller ToManaged from \"__res_186\" to \"__res_185\" not supported.");
+            return __res_185;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RewriterLength __res_170;
-            JSObject __res_171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller from \"__res_171\" to \"__res_170\" not supported.");
-            return __res_170;
+            Iskra.StdWeb.RewriterLength __res_187;
+            JSObject __res_188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            throw new Exception("Marshaller ToManaged from \"__res_188\" to \"__res_187\" not supported.");
+            return __res_187;
         }
     }
 
@@ -57,9 +57,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_172;
+            object __res_189;
             throw new Exception();
-            return __res_172;
+            return __res_189;
         }
     }
 
@@ -67,9 +67,9 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_173;
+            object __res_190;
             throw new Exception();
-            return __res_173;
+            return __res_190;
         }
     }
 
@@ -77,18 +77,18 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_174;
-            string? __res_175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_175 is null)
+            string? __res_191;
+            string? __res_192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_192 is null)
             {
-                __res_174 = null;
+                __res_191 = null;
             }
             else
             {
-                string __notNullable_176 = (string)__res_175;
-                __res_174 = __notNullable_176;
+                string __notNullable_193 = (string)__res_192;
+                __res_191 = __notNullable_193;
             }
-            return __res_174;
+            return __res_191;
         }
     }
 
@@ -96,10 +96,10 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_177;
-            double __res_178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_177 = __res_178;
-            return __res_177;
+            double __res_194;
+            double __res_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_194 = __res_195;
+            return __res_194;
         }
     }
 }

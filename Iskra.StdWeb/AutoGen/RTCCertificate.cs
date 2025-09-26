@@ -13,10 +13,10 @@ public partial class RTCCertificate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_1671;
-            double __res_1672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expires");
-            __res_1671 = Convert.ToUInt64(__res_1672);
-            return __res_1671;
+            ulong __res_1854;
+            double __res_1855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expires");
+            __res_1854 = Convert.ToUInt64(__res_1855);
+            return __res_1854;
         }
     }
 }

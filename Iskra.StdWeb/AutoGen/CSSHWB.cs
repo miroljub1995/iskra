@@ -13,14 +13,16 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_103;
-            JSObject __res_104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "h");
-            throw new Exception("Marshaller from \"__res_104\" to \"__res_103\" not supported.");
-            return __res_103;
+            Iskra.StdWeb.CSSNumericValue __res_117;
+            JSObject __res_118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "h");
+            throw new Exception("Marshaller ToManaged from \"__res_118\" to \"__res_117\" not supported.");
+            return __res_117;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_119;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_119\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "h", __marshalledValue_119);
         }
     }
 
@@ -28,9 +30,9 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_105;
+            object __res_120;
             throw new Exception();
-            return __res_105;
+            return __res_120;
         }
         set
         {
@@ -42,9 +44,9 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_106;
+            object __res_121;
             throw new Exception();
-            return __res_106;
+            return __res_121;
         }
         set
         {
@@ -56,9 +58,9 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_107;
+            object __res_122;
             throw new Exception();
-            return __res_107;
+            return __res_122;
         }
         set
         {

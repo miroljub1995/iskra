@@ -13,10 +13,10 @@ public partial class IDBCursorWithValue(JSObject obj): IDBCursor(obj)
     {
         get
         {
-            object? __res_6479;
-            JSObject __res_6480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_6479 = __res_6480;
-            return __res_6479;
+            object? __res_7666;
+            JSObject __res_7667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_7666 = __res_7667;
+            return __res_7666;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4333;
-            double __res_4334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceNumber");
-            __res_4333 = Convert.ToByte(__res_4334);
-            return __res_4333;
+            byte __res_4976;
+            double __res_4977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceNumber");
+            __res_4976 = Convert.ToByte(__res_4977);
+            return __res_4976;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBAlternateInterface __res_4335;
-            JSObject __res_4336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
-            throw new Exception("Marshaller from \"__res_4336\" to \"__res_4335\" not supported.");
-            return __res_4335;
+            Iskra.StdWeb.USBAlternateInterface __res_4978;
+            JSObject __res_4979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
+            throw new Exception("Marshaller ToManaged from \"__res_4979\" to \"__res_4978\" not supported.");
+            return __res_4978;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4337;
+            object __res_4980;
             throw new Exception();
-            return __res_4337;
+            return __res_4980;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4338;
-            bool __res_4339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
-            __res_4338 = __res_4339;
-            return __res_4338;
+            bool __res_4981;
+            bool __res_4982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
+            __res_4981 = __res_4982;
+            return __res_4981;
         }
     }
 }

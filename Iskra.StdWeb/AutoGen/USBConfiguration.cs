@@ -13,10 +13,10 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4327;
-            double __res_4328 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "configurationValue");
-            __res_4327 = Convert.ToByte(__res_4328);
-            return __res_4327;
+            byte __res_4970;
+            double __res_4971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "configurationValue");
+            __res_4970 = Convert.ToByte(__res_4971);
+            return __res_4970;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4329;
-            string? __res_4330 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "configurationName");
-            if (__res_4330 is null)
+            string? __res_4972;
+            string? __res_4973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "configurationName");
+            if (__res_4973 is null)
             {
-                __res_4329 = null;
+                __res_4972 = null;
             }
             else
             {
-                string __notNullable_4331 = (string)__res_4330;
-                __res_4329 = __notNullable_4331;
+                string __notNullable_4974 = (string)__res_4973;
+                __res_4972 = __notNullable_4974;
             }
-            return __res_4329;
+            return __res_4972;
         }
     }
 
@@ -43,9 +43,9 @@ public partial class USBConfiguration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4332;
+            object __res_4975;
             throw new Exception();
-            return __res_4332;
+            return __res_4975;
         }
     }
 }

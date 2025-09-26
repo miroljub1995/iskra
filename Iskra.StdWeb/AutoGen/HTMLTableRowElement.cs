@@ -13,10 +13,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_4957;
-            double __res_4958 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
-            __res_4957 = Convert.ToInt32(__res_4958);
-            return __res_4957;
+            int __res_5785;
+            double __res_5786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
+            __res_5785 = Convert.ToInt32(__res_5786);
+            return __res_5785;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_4959;
-            double __res_4960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
-            __res_4959 = Convert.ToInt32(__res_4960);
-            return __res_4959;
+            int __res_5787;
+            double __res_5788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
+            __res_5787 = Convert.ToInt32(__res_5788);
+            return __res_5787;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_4961;
-            JSObject __res_4962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
-            throw new Exception("Marshaller from \"__res_4962\" to \"__res_4961\" not supported.");
-            return __res_4961;
+            Iskra.StdWeb.HTMLCollection __res_5789;
+            JSObject __res_5790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
+            throw new Exception("Marshaller ToManaged from \"__res_5790\" to \"__res_5789\" not supported.");
+            return __res_5789;
         }
     }
 }

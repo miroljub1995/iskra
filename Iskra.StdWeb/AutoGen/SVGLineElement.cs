@@ -13,10 +13,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_372;
-            JSObject __res_373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
-            throw new Exception("Marshaller from \"__res_373\" to \"__res_372\" not supported.");
-            return __res_372;
+            Iskra.StdWeb.SVGAnimatedLength __res_412;
+            JSObject __res_413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
+            throw new Exception("Marshaller ToManaged from \"__res_413\" to \"__res_412\" not supported.");
+            return __res_412;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_374;
-            JSObject __res_375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
-            throw new Exception("Marshaller from \"__res_375\" to \"__res_374\" not supported.");
-            return __res_374;
+            Iskra.StdWeb.SVGAnimatedLength __res_414;
+            JSObject __res_415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
+            throw new Exception("Marshaller ToManaged from \"__res_415\" to \"__res_414\" not supported.");
+            return __res_414;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_376;
-            JSObject __res_377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
-            throw new Exception("Marshaller from \"__res_377\" to \"__res_376\" not supported.");
-            return __res_376;
+            Iskra.StdWeb.SVGAnimatedLength __res_416;
+            JSObject __res_417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
+            throw new Exception("Marshaller ToManaged from \"__res_417\" to \"__res_416\" not supported.");
+            return __res_416;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_378;
-            JSObject __res_379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
-            throw new Exception("Marshaller from \"__res_379\" to \"__res_378\" not supported.");
-            return __res_378;
+            Iskra.StdWeb.SVGAnimatedLength __res_418;
+            JSObject __res_419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
+            throw new Exception("Marshaller ToManaged from \"__res_419\" to \"__res_418\" not supported.");
+            return __res_418;
         }
     }
 }

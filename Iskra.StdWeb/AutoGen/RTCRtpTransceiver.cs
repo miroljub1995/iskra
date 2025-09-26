@@ -13,18 +13,18 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1687;
-            string? __res_1688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
-            if (__res_1688 is null)
+            string? __res_1872;
+            string? __res_1873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
+            if (__res_1873 is null)
             {
-                __res_1687 = null;
+                __res_1872 = null;
             }
             else
             {
-                string __notNullable_1689 = (string)__res_1688;
-                __res_1687 = __notNullable_1689;
+                string __notNullable_1874 = (string)__res_1873;
+                __res_1872 = __notNullable_1874;
             }
-            return __res_1687;
+            return __res_1872;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpSender __res_1690;
-            JSObject __res_1691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
-            throw new Exception("Marshaller from \"__res_1691\" to \"__res_1690\" not supported.");
-            return __res_1690;
+            Iskra.StdWeb.RTCRtpSender __res_1875;
+            JSObject __res_1876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
+            throw new Exception("Marshaller ToManaged from \"__res_1876\" to \"__res_1875\" not supported.");
+            return __res_1875;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpReceiver __res_1692;
-            JSObject __res_1693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            throw new Exception("Marshaller from \"__res_1693\" to \"__res_1692\" not supported.");
-            return __res_1692;
+            Iskra.StdWeb.RTCRtpReceiver __res_1877;
+            JSObject __res_1878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            throw new Exception("Marshaller ToManaged from \"__res_1878\" to \"__res_1877\" not supported.");
+            return __res_1877;
         }
     }
 
@@ -54,14 +54,16 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiverDirection __res_1694;
-            JSObject __res_1695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            throw new Exception("Marshaller from \"__res_1695\" to \"__res_1694\" not supported.");
-            return __res_1694;
+            Iskra.StdWeb.RTCRtpTransceiverDirection __res_1879;
+            JSObject __res_1880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            throw new Exception("Marshaller ToManaged from \"__res_1880\" to \"__res_1879\" not supported.");
+            return __res_1879;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1881;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1881\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "direction", __marshalledValue_1881);
         }
     }
 
@@ -69,18 +71,18 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiverDirection? __res_1696;
-            JSObject? __res_1697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentDirection");
-            if (__res_1697 is null)
+            Iskra.StdWeb.RTCRtpTransceiverDirection? __res_1882;
+            JSObject? __res_1883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentDirection");
+            if (__res_1883 is null)
             {
-                __res_1696 = null;
+                __res_1882 = null;
             }
             else
             {
-                JSObject __notNullable_1698 = (JSObject)__res_1697;
-                throw new Exception("Marshaller from \"__notNullable_1698\" to \"__res_1696\" not supported.");
+                JSObject __notNullable_1884 = (JSObject)__res_1883;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1884\" to \"__res_1882\" not supported.");
             }
-            return __res_1696;
+            return __res_1882;
         }
     }
 }

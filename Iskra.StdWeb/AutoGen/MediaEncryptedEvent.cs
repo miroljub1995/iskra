@@ -13,10 +13,10 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_4453;
-            string __res_4454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
-            __res_4453 = __res_4454;
-            return __res_4453;
+            string __res_5107;
+            string __res_5108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
+            __res_5107 = __res_5108;
+            return __res_5107;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_4455;
-            JSObject? __res_4456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
-            if (__res_4456 is null)
+            Iskra.JSCore.ArrayBuffer? __res_5109;
+            JSObject? __res_5110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
+            if (__res_5110 is null)
             {
-                __res_4455 = null;
+                __res_5109 = null;
             }
             else
             {
-                JSObject __notNullable_4457 = (JSObject)__res_4456;
-                throw new Exception("Marshaller from \"__notNullable_4457\" to \"__res_4455\" not supported.");
+                JSObject __notNullable_5111 = (JSObject)__res_5110;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5111\" to \"__res_5109\" not supported.");
             }
-            return __res_4455;
+            return __res_5109;
         }
     }
 }

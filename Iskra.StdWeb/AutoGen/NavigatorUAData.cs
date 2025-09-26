@@ -13,9 +13,9 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2340;
+            object __res_2682;
             throw new Exception();
-            return __res_2340;
+            return __res_2682;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2341;
-            bool __res_2342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
-            __res_2341 = __res_2342;
-            return __res_2341;
+            bool __res_2683;
+            bool __res_2684 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
+            __res_2683 = __res_2684;
+            return __res_2683;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2343;
-            string __res_2344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_2343 = __res_2344;
-            return __res_2343;
+            string __res_2685;
+            string __res_2686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
+            __res_2685 = __res_2686;
+            return __res_2685;
         }
     }
 }

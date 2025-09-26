@@ -13,10 +13,10 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRLayerLayout __res_1330;
-            JSObject __res_1331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layout");
-            throw new Exception("Marshaller from \"__res_1331\" to \"__res_1330\" not supported.");
-            return __res_1330;
+            Iskra.StdWeb.XRLayerLayout __res_1456;
+            JSObject __res_1457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layout");
+            throw new Exception("Marshaller ToManaged from \"__res_1457\" to \"__res_1456\" not supported.");
+            return __res_1456;
         }
     }
 
@@ -24,14 +24,16 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            bool __res_1332;
-            bool __res_1333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha");
-            __res_1332 = __res_1333;
-            return __res_1332;
+            bool __res_1458;
+            bool __res_1459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha");
+            __res_1458 = __res_1459;
+            return __res_1458;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_1460;
+            __marshalledValue_1460 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha", __marshalledValue_1460);
         }
     }
 
@@ -39,14 +41,16 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            bool __res_1334;
-            bool __res_1335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "forceMonoPresentation");
-            __res_1334 = __res_1335;
-            return __res_1334;
+            bool __res_1461;
+            bool __res_1462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "forceMonoPresentation");
+            __res_1461 = __res_1462;
+            return __res_1461;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_1463;
+            __marshalledValue_1463 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "forceMonoPresentation", __marshalledValue_1463);
         }
     }
 
@@ -54,14 +58,16 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            float __res_1336;
-            double __res_1337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "opacity");
-            __res_1336 = Convert.ToSingle(__res_1337);
-            return __res_1336;
+            float __res_1464;
+            double __res_1465 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "opacity");
+            __res_1464 = Convert.ToSingle(__res_1465);
+            return __res_1464;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_1466;
+            __marshalledValue_1466 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "opacity", __marshalledValue_1466);
         }
     }
 
@@ -69,10 +75,10 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            uint __res_1338;
-            double __res_1339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "mipLevels");
-            __res_1338 = Convert.ToUInt32(__res_1339);
-            return __res_1338;
+            uint __res_1467;
+            double __res_1468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "mipLevels");
+            __res_1467 = Convert.ToUInt32(__res_1468);
+            return __res_1467;
         }
     }
 
@@ -80,14 +86,16 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            Iskra.StdWeb.XRLayerQuality __res_1340;
-            JSObject __res_1341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "quality");
-            throw new Exception("Marshaller from \"__res_1341\" to \"__res_1340\" not supported.");
-            return __res_1340;
+            Iskra.StdWeb.XRLayerQuality __res_1469;
+            JSObject __res_1470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "quality");
+            throw new Exception("Marshaller ToManaged from \"__res_1470\" to \"__res_1469\" not supported.");
+            return __res_1469;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1471;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1471\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "quality", __marshalledValue_1471);
         }
     }
 
@@ -95,10 +103,10 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
     {
         get
         {
-            bool __res_1342;
-            bool __res_1343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "needsRedraw");
-            __res_1342 = __res_1343;
-            return __res_1342;
+            bool __res_1472;
+            bool __res_1473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "needsRedraw");
+            __res_1472 = __res_1473;
+            return __res_1472;
         }
     }
 }

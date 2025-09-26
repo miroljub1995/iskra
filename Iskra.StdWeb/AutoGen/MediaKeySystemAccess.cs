@@ -13,10 +13,10 @@ public partial class MediaKeySystemAccess(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4432;
-            string __res_4433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
-            __res_4432 = __res_4433;
-            return __res_4432;
+            string __res_5082;
+            string __res_5083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
+            __res_5082 = __res_5083;
+            return __res_5082;
         }
     }
 }

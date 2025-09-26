@@ -13,22 +13,32 @@ public partial class CookieStore(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1441;
-            JSObject? __res_1442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_1442 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1600;
+            JSObject? __res_1601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_1601 is null)
             {
-                __res_1441 = null;
+                __res_1600 = null;
             }
             else
             {
-                JSObject __notNullable_1443 = (JSObject)__res_1442;
-                throw new Exception("Marshaller from \"__notNullable_1443\" to \"__res_1441\" not supported.");
+                JSObject __notNullable_1602 = (JSObject)__res_1601;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1602\" to \"__res_1600\" not supported.");
             }
-            return __res_1441;
+            return __res_1600;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1603;
+            if (value is null)
+            {
+                __marshalledValue_1603 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1604 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1604\" to \"__marshalledValue_1603\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_1603);
         }
     }
 }

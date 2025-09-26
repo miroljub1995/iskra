@@ -13,10 +13,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2981;
-            string __res_2982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_2981 = __res_2982;
-            return __res_2981;
+            string __res_3356;
+            string __res_3357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3356 = __res_3357;
+            return __res_3356;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2983;
-            double __res_2984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
-            __res_2983 = Convert.ToUInt64(__res_2984);
-            return __res_2983;
+            ulong __res_3358;
+            double __res_3359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
+            __res_3358 = Convert.ToUInt64(__res_3359);
+            return __res_3358;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2985;
-            double __res_2986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
-            __res_2985 = Convert.ToUInt64(__res_2986);
-            return __res_2985;
+            ulong __res_3360;
+            double __res_3361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
+            __res_3360 = Convert.ToUInt64(__res_3361);
+            return __res_3360;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2987;
-            double __res_2988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
-            __res_2987 = Convert.ToUInt64(__res_2988);
-            return __res_2987;
+            ulong __res_3362;
+            double __res_3363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
+            __res_3362 = Convert.ToUInt64(__res_3363);
+            return __res_3362;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_2989;
-            double __res_2990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
-            __res_2989 = Convert.ToUInt64(__res_2990);
-            return __res_2989;
+            ulong __res_3364;
+            double __res_3365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
+            __res_3364 = Convert.ToUInt64(__res_3365);
+            return __res_3364;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BackgroundFetchResult __res_2991;
-            JSObject __res_2992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
-            throw new Exception("Marshaller from \"__res_2992\" to \"__res_2991\" not supported.");
-            return __res_2991;
+            Iskra.StdWeb.BackgroundFetchResult __res_3366;
+            JSObject __res_3367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
+            throw new Exception("Marshaller ToManaged from \"__res_3367\" to \"__res_3366\" not supported.");
+            return __res_3366;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BackgroundFetchFailureReason __res_2993;
-            JSObject __res_2994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "failureReason");
-            throw new Exception("Marshaller from \"__res_2994\" to \"__res_2993\" not supported.");
-            return __res_2993;
+            Iskra.StdWeb.BackgroundFetchFailureReason __res_3368;
+            JSObject __res_3369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "failureReason");
+            throw new Exception("Marshaller ToManaged from \"__res_3369\" to \"__res_3368\" not supported.");
+            return __res_3368;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2995;
-            bool __res_2996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
-            __res_2995 = __res_2996;
-            return __res_2995;
+            bool __res_3370;
+            bool __res_3371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
+            __res_3370 = __res_3371;
+            return __res_3370;
         }
     }
 
@@ -101,22 +101,32 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2997;
-            JSObject? __res_2998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
-            if (__res_2998 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3372;
+            JSObject? __res_3373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
+            if (__res_3373 is null)
             {
-                __res_2997 = null;
+                __res_3372 = null;
             }
             else
             {
-                JSObject __notNullable_2999 = (JSObject)__res_2998;
-                throw new Exception("Marshaller from \"__notNullable_2999\" to \"__res_2997\" not supported.");
+                JSObject __notNullable_3374 = (JSObject)__res_3373;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3374\" to \"__res_3372\" not supported.");
             }
-            return __res_2997;
+            return __res_3372;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3375;
+            if (value is null)
+            {
+                __marshalledValue_3375 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3376 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3376\" to \"__marshalledValue_3375\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_3375);
         }
     }
 }

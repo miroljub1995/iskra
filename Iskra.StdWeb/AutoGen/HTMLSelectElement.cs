@@ -13,14 +13,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5141;
-            string __res_5142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "autocomplete");
-            __res_5141 = __res_5142;
-            return __res_5141;
+            string __res_6041;
+            string __res_6042 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "autocomplete");
+            __res_6041 = __res_6042;
+            return __res_6041;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6043;
+            __marshalledValue_6043 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_6043);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5143;
-            bool __res_5144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_5143 = __res_5144;
-            return __res_5143;
+            bool __res_6044;
+            bool __res_6045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_6044 = __res_6045;
+            return __res_6044;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6046;
+            __marshalledValue_6046 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6046);
         }
     }
 
@@ -43,18 +47,18 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_5145;
-            JSObject? __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_5146 is null)
+            Iskra.StdWeb.HTMLFormElement? __res_6047;
+            JSObject? __res_6048 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6048 is null)
             {
-                __res_5145 = null;
+                __res_6047 = null;
             }
             else
             {
-                JSObject __notNullable_5147 = (JSObject)__res_5146;
-                throw new Exception("Marshaller from \"__notNullable_5147\" to \"__res_5145\" not supported.");
+                JSObject __notNullable_6049 = (JSObject)__res_6048;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6049\" to \"__res_6047\" not supported.");
             }
-            return __res_5145;
+            return __res_6047;
         }
     }
 
@@ -62,14 +66,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5148;
-            bool __res_5149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiple");
-            __res_5148 = __res_5149;
-            return __res_5148;
+            bool __res_6050;
+            bool __res_6051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiple");
+            __res_6050 = __res_6051;
+            return __res_6050;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6052;
+            __marshalledValue_6052 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "multiple", __marshalledValue_6052);
         }
     }
 
@@ -77,14 +83,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5150;
-            string __res_5151 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5150 = __res_5151;
-            return __res_5150;
+            string __res_6053;
+            string __res_6054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6053 = __res_6054;
+            return __res_6053;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6055;
+            __marshalledValue_6055 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6055);
         }
     }
 
@@ -92,14 +100,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5152;
-            bool __res_5153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
-            __res_5152 = __res_5153;
-            return __res_5152;
+            bool __res_6056;
+            bool __res_6057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
+            __res_6056 = __res_6057;
+            return __res_6056;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6058;
+            __marshalledValue_6058 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_6058);
         }
     }
 
@@ -107,14 +117,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_5154;
-            double __res_5155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_5154 = Convert.ToUInt32(__res_5155);
-            return __res_5154;
+            uint __res_6059;
+            double __res_6060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_6059 = Convert.ToUInt32(__res_6060);
+            return __res_6059;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6061;
+            __marshalledValue_6061 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_6061);
         }
     }
 
@@ -122,10 +134,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5156;
-            string __res_5157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5156 = __res_5157;
-            return __res_5156;
+            string __res_6062;
+            string __res_6063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6062 = __res_6063;
+            return __res_6062;
         }
     }
 
@@ -133,10 +145,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLOptionsCollection __res_5158;
-            JSObject __res_5159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller from \"__res_5159\" to \"__res_5158\" not supported.");
-            return __res_5158;
+            Iskra.StdWeb.HTMLOptionsCollection __res_6064;
+            JSObject __res_6065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            throw new Exception("Marshaller ToManaged from \"__res_6065\" to \"__res_6064\" not supported.");
+            return __res_6064;
         }
     }
 
@@ -144,14 +156,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_5160;
-            double __res_5161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5160 = Convert.ToUInt32(__res_5161);
-            return __res_5160;
+            uint __res_6066;
+            double __res_6067 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6066 = Convert.ToUInt32(__res_6067);
+            return __res_6066;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6068;
+            __marshalledValue_6068 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_6068);
         }
     }
 
@@ -159,10 +173,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5162;
-            JSObject __res_5163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "selectedOptions");
-            throw new Exception("Marshaller from \"__res_5163\" to \"__res_5162\" not supported.");
-            return __res_5162;
+            Iskra.StdWeb.HTMLCollection __res_6069;
+            JSObject __res_6070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "selectedOptions");
+            throw new Exception("Marshaller ToManaged from \"__res_6070\" to \"__res_6069\" not supported.");
+            return __res_6069;
         }
     }
 
@@ -170,14 +184,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_5164;
-            double __res_5165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_5164 = Convert.ToInt32(__res_5165);
-            return __res_5164;
+            int __res_6071;
+            double __res_6072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_6071 = Convert.ToInt32(__res_6072);
+            return __res_6071;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6073;
+            __marshalledValue_6073 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_6073);
         }
     }
 
@@ -185,14 +201,16 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5166;
-            string __res_5167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_5166 = __res_5167;
-            return __res_5166;
+            string __res_6074;
+            string __res_6075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_6074 = __res_6075;
+            return __res_6074;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6076;
+            __marshalledValue_6076 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_6076);
         }
     }
 
@@ -200,10 +218,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5168;
-            bool __res_5169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_5168 = __res_5169;
-            return __res_5168;
+            bool __res_6077;
+            bool __res_6078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_6077 = __res_6078;
+            return __res_6077;
         }
     }
 
@@ -211,10 +229,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.ValidityState __res_5170;
-            JSObject __res_5171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller from \"__res_5171\" to \"__res_5170\" not supported.");
-            return __res_5170;
+            Iskra.StdWeb.ValidityState __res_6079;
+            JSObject __res_6080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            throw new Exception("Marshaller ToManaged from \"__res_6080\" to \"__res_6079\" not supported.");
+            return __res_6079;
         }
     }
 
@@ -222,10 +240,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5172;
-            string __res_5173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_5172 = __res_5173;
-            return __res_5172;
+            string __res_6081;
+            string __res_6082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_6081 = __res_6082;
+            return __res_6081;
         }
     }
 
@@ -233,10 +251,10 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_5174;
-            JSObject __res_5175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller from \"__res_5175\" to \"__res_5174\" not supported.");
-            return __res_5174;
+            Iskra.StdWeb.NodeList __res_6083;
+            JSObject __res_6084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            throw new Exception("Marshaller ToManaged from \"__res_6084\" to \"__res_6083\" not supported.");
+            return __res_6083;
         }
     }
 }

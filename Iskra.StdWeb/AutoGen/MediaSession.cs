@@ -13,22 +13,32 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaMetadata? __res_506;
-            JSObject? __res_507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
-            if (__res_507 is null)
+            Iskra.StdWeb.MediaMetadata? __res_559;
+            JSObject? __res_560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
+            if (__res_560 is null)
             {
-                __res_506 = null;
+                __res_559 = null;
             }
             else
             {
-                JSObject __notNullable_508 = (JSObject)__res_507;
-                throw new Exception("Marshaller from \"__notNullable_508\" to \"__res_506\" not supported.");
+                JSObject __notNullable_561 = (JSObject)__res_560;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_561\" to \"__res_559\" not supported.");
             }
-            return __res_506;
+            return __res_559;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_562;
+            if (value is null)
+            {
+                __marshalledValue_562 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.MediaMetadata __notNullable_563 = (Iskra.StdWeb.MediaMetadata)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_563\" to \"__marshalledValue_562\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "metadata", __marshalledValue_562);
         }
     }
 
@@ -36,14 +46,16 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaSessionPlaybackState __res_509;
-            JSObject __res_510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackState");
-            throw new Exception("Marshaller from \"__res_510\" to \"__res_509\" not supported.");
-            return __res_509;
+            Iskra.StdWeb.MediaSessionPlaybackState __res_564;
+            JSObject __res_565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackState");
+            throw new Exception("Marshaller ToManaged from \"__res_565\" to \"__res_564\" not supported.");
+            return __res_564;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_566;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_566\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "playbackState", __marshalledValue_566);
         }
     }
 }

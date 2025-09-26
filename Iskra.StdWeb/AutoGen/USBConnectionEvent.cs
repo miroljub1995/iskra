@@ -13,10 +13,10 @@ public partial class USBConnectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.USBDevice __res_4265;
-            JSObject __res_4266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            throw new Exception("Marshaller from \"__res_4266\" to \"__res_4265\" not supported.");
-            return __res_4265;
+            Iskra.StdWeb.USBDevice __res_4908;
+            JSObject __res_4909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            throw new Exception("Marshaller ToManaged from \"__res_4909\" to \"__res_4908\" not supported.");
+            return __res_4908;
         }
     }
 }

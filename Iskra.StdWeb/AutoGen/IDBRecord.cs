@@ -13,10 +13,10 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6464;
-            JSObject __res_6465 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
-            __res_6464 = __res_6465;
-            return __res_6464;
+            object? __res_7651;
+            JSObject __res_7652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
+            __res_7651 = __res_7652;
+            return __res_7651;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6466;
-            JSObject __res_6467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
-            __res_6466 = __res_6467;
-            return __res_6466;
+            object? __res_7653;
+            JSObject __res_7654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
+            __res_7653 = __res_7654;
+            return __res_7653;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6468;
-            JSObject __res_6469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_6468 = __res_6469;
-            return __res_6468;
+            object? __res_7655;
+            JSObject __res_7656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_7655 = __res_7656;
+            return __res_7655;
         }
     }
 }

@@ -13,14 +13,16 @@ public partial class CSSUnitValue(JSObject obj): CSSNumericValue(obj)
     {
         get
         {
-            double __res_38;
-            double __res_39 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_38 = __res_39;
-            return __res_38;
+            double __res_41;
+            double __res_42 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_41 = __res_42;
+            return __res_41;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_43;
+            __marshalledValue_43 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_43);
         }
     }
 
@@ -28,10 +30,10 @@ public partial class CSSUnitValue(JSObject obj): CSSNumericValue(obj)
     {
         get
         {
-            string __res_40;
-            string __res_41 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
-            __res_40 = __res_41;
-            return __res_40;
+            string __res_44;
+            string __res_45 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
+            __res_44 = __res_45;
+            return __res_44;
         }
     }
 }

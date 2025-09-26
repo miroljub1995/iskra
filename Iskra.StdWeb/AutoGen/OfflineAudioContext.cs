@@ -13,10 +13,10 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            uint __res_6765;
-            double __res_6766 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6765 = Convert.ToUInt32(__res_6766);
-            return __res_6765;
+            uint __res_7980;
+            double __res_7981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7980 = Convert.ToUInt32(__res_7981);
+            return __res_7980;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_6767;
-            JSObject? __res_6768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete");
-            if (__res_6768 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7982;
+            JSObject? __res_7983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete");
+            if (__res_7983 is null)
             {
-                __res_6767 = null;
+                __res_7982 = null;
             }
             else
             {
-                JSObject __notNullable_6769 = (JSObject)__res_6768;
-                throw new Exception("Marshaller from \"__notNullable_6769\" to \"__res_6767\" not supported.");
+                JSObject __notNullable_7984 = (JSObject)__res_7983;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7984\" to \"__res_7982\" not supported.");
             }
-            return __res_6767;
+            return __res_7982;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_7985;
+            if (value is null)
+            {
+                __marshalledValue_7985 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7986 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_7986\" to \"__marshalledValue_7985\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete", __marshalledValue_7985);
         }
     }
 }

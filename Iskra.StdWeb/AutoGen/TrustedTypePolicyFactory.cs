@@ -13,10 +13,10 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedHTML __res_950;
-            JSObject __res_951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
-            throw new Exception("Marshaller from \"__res_951\" to \"__res_950\" not supported.");
-            return __res_950;
+            Iskra.StdWeb.TrustedHTML __res_1051;
+            JSObject __res_1052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
+            throw new Exception("Marshaller ToManaged from \"__res_1052\" to \"__res_1051\" not supported.");
+            return __res_1051;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedScript __res_952;
-            JSObject __res_953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
-            throw new Exception("Marshaller from \"__res_953\" to \"__res_952\" not supported.");
-            return __res_952;
+            Iskra.StdWeb.TrustedScript __res_1053;
+            JSObject __res_1054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
+            throw new Exception("Marshaller ToManaged from \"__res_1054\" to \"__res_1053\" not supported.");
+            return __res_1053;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedTypePolicy? __res_954;
-            JSObject? __res_955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
-            if (__res_955 is null)
+            Iskra.StdWeb.TrustedTypePolicy? __res_1055;
+            JSObject? __res_1056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
+            if (__res_1056 is null)
             {
-                __res_954 = null;
+                __res_1055 = null;
             }
             else
             {
-                JSObject __notNullable_956 = (JSObject)__res_955;
-                throw new Exception("Marshaller from \"__notNullable_956\" to \"__res_954\" not supported.");
+                JSObject __notNullable_1057 = (JSObject)__res_1056;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1057\" to \"__res_1055\" not supported.");
             }
-            return __res_954;
+            return __res_1055;
         }
     }
 }

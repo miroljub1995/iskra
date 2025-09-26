@@ -13,10 +13,10 @@ public partial class GainNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_6885;
-            JSObject __res_6886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
-            throw new Exception("Marshaller from \"__res_6886\" to \"__res_6885\" not supported.");
-            return __res_6885;
+            Iskra.StdWeb.AudioParam __res_8122;
+            JSObject __res_8123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
+            throw new Exception("Marshaller ToManaged from \"__res_8123\" to \"__res_8122\" not supported.");
+            return __res_8122;
         }
     }
 }

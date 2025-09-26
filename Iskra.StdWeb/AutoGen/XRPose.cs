@@ -13,10 +13,10 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_3685;
-            JSObject __res_3686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller from \"__res_3686\" to \"__res_3685\" not supported.");
-            return __res_3685;
+            Iskra.StdWeb.XRRigidTransform __res_4219;
+            JSObject __res_4220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            throw new Exception("Marshaller ToManaged from \"__res_4220\" to \"__res_4219\" not supported.");
+            return __res_4219;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly? __res_3687;
-            JSObject? __res_3688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_3688 is null)
+            Iskra.StdWeb.DOMPointReadOnly? __res_4221;
+            JSObject? __res_4222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_4222 is null)
             {
-                __res_3687 = null;
+                __res_4221 = null;
             }
             else
             {
-                JSObject __notNullable_3689 = (JSObject)__res_3688;
-                throw new Exception("Marshaller from \"__notNullable_3689\" to \"__res_3687\" not supported.");
+                JSObject __notNullable_4223 = (JSObject)__res_4222;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4223\" to \"__res_4221\" not supported.");
             }
-            return __res_3687;
+            return __res_4221;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly? __res_3690;
-            JSObject? __res_3691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_3691 is null)
+            Iskra.StdWeb.DOMPointReadOnly? __res_4224;
+            JSObject? __res_4225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_4225 is null)
             {
-                __res_3690 = null;
+                __res_4224 = null;
             }
             else
             {
-                JSObject __notNullable_3692 = (JSObject)__res_3691;
-                throw new Exception("Marshaller from \"__notNullable_3692\" to \"__res_3690\" not supported.");
+                JSObject __notNullable_4226 = (JSObject)__res_4225;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4226\" to \"__res_4224\" not supported.");
             }
-            return __res_3690;
+            return __res_4224;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3693;
-            bool __res_3694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
-            __res_3693 = __res_3694;
-            return __res_3693;
+            bool __res_4227;
+            bool __res_4228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
+            __res_4227 = __res_4228;
+            return __res_4227;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
     {
         get
         {
-            string __res_5813;
-            string __res_5814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5813 = __res_5814;
-            return __res_5813;
+            string __res_6843;
+            string __res_6844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6843 = __res_6844;
+            return __res_6843;
         }
     }
 
@@ -24,22 +24,32 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_5815;
-            JSObject? __res_5816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_5816 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_6845;
+            JSObject? __res_6846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_6846 is null)
             {
-                __res_5815 = null;
+                __res_6845 = null;
             }
             else
             {
-                JSObject __notNullable_5817 = (JSObject)__res_5816;
-                throw new Exception("Marshaller from \"__notNullable_5817\" to \"__res_5815\" not supported.");
+                JSObject __notNullable_6847 = (JSObject)__res_6846;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6847\" to \"__res_6845\" not supported.");
             }
-            return __res_5815;
+            return __res_6845;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_6848;
+            if (value is null)
+            {
+                __marshalledValue_6848 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_6849 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_6849\" to \"__marshalledValue_6848\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_6848);
         }
     }
 }

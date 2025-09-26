@@ -13,14 +13,16 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5178;
-            bool __res_5179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_5178 = __res_5179;
-            return __res_5178;
+            bool __res_6087;
+            bool __res_6088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_6087 = __res_6088;
+            return __res_6087;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6089;
+            __marshalledValue_6089 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6089);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5180;
-            string __res_5181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_5180 = __res_5181;
-            return __res_5180;
+            string __res_6090;
+            string __res_6091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_6090 = __res_6091;
+            return __res_6090;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6092;
+            __marshalledValue_6092 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_6092);
         }
     }
 }

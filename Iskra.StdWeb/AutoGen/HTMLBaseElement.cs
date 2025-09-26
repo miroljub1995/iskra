@@ -13,14 +13,16 @@ public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4539;
-            string __res_4540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_4539 = __res_4540;
-            return __res_4539;
+            string __res_5220;
+            string __res_5221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_5220 = __res_5221;
+            return __res_5220;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5222;
+            __marshalledValue_5222 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_5222);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLBaseElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4541;
-            string __res_4542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_4541 = __res_4542;
-            return __res_4541;
+            string __res_5223;
+            string __res_5224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_5223 = __res_5224;
+            return __res_5223;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5225;
+            __marshalledValue_5225 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5225);
         }
     }
 }

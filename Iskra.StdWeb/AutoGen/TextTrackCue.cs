@@ -13,18 +13,18 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrack? __res_4898;
-            JSObject? __res_4899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
-            if (__res_4899 is null)
+            Iskra.StdWeb.TextTrack? __res_5702;
+            JSObject? __res_5703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
+            if (__res_5703 is null)
             {
-                __res_4898 = null;
+                __res_5702 = null;
             }
             else
             {
-                JSObject __notNullable_4900 = (JSObject)__res_4899;
-                throw new Exception("Marshaller from \"__notNullable_4900\" to \"__res_4898\" not supported.");
+                JSObject __notNullable_5704 = (JSObject)__res_5703;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5704\" to \"__res_5702\" not supported.");
             }
-            return __res_4898;
+            return __res_5702;
         }
     }
 
@@ -32,14 +32,16 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_4901;
-            string __res_4902 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4901 = __res_4902;
-            return __res_4901;
+            string __res_5705;
+            string __res_5706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_5705 = __res_5706;
+            return __res_5705;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5707;
+            __marshalledValue_5707 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_5707);
         }
     }
 
@@ -47,14 +49,16 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_4903;
-            double __res_4904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_4903 = __res_4904;
-            return __res_4903;
+            double __res_5708;
+            double __res_5709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_5708 = __res_5709;
+            return __res_5708;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_5710;
+            __marshalledValue_5710 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "startTime", __marshalledValue_5710);
         }
     }
 
@@ -62,14 +66,16 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_4905;
-            double __res_4906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endTime");
-            __res_4905 = __res_4906;
-            return __res_4905;
+            double __res_5711;
+            double __res_5712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endTime");
+            __res_5711 = __res_5712;
+            return __res_5711;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_5713;
+            __marshalledValue_5713 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "endTime", __marshalledValue_5713);
         }
     }
 
@@ -77,14 +83,16 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_4907;
-            bool __res_4908 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pauseOnExit");
-            __res_4907 = __res_4908;
-            return __res_4907;
+            bool __res_5714;
+            bool __res_5715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pauseOnExit");
+            __res_5714 = __res_5715;
+            return __res_5714;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_5716;
+            __marshalledValue_5716 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "pauseOnExit", __marshalledValue_5716);
         }
     }
 
@@ -92,22 +100,32 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4909;
-            JSObject? __res_4910 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onenter");
-            if (__res_4910 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5717;
+            JSObject? __res_5718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onenter");
+            if (__res_5718 is null)
             {
-                __res_4909 = null;
+                __res_5717 = null;
             }
             else
             {
-                JSObject __notNullable_4911 = (JSObject)__res_4910;
-                throw new Exception("Marshaller from \"__notNullable_4911\" to \"__res_4909\" not supported.");
+                JSObject __notNullable_5719 = (JSObject)__res_5718;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5719\" to \"__res_5717\" not supported.");
             }
-            return __res_4909;
+            return __res_5717;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5720;
+            if (value is null)
+            {
+                __marshalledValue_5720 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5721 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5721\" to \"__marshalledValue_5720\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onenter", __marshalledValue_5720);
         }
     }
 
@@ -115,22 +133,32 @@ public partial class TextTrackCue(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4912;
-            JSObject? __res_4913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onexit");
-            if (__res_4913 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_5722;
+            JSObject? __res_5723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onexit");
+            if (__res_5723 is null)
             {
-                __res_4912 = null;
+                __res_5722 = null;
             }
             else
             {
-                JSObject __notNullable_4914 = (JSObject)__res_4913;
-                throw new Exception("Marshaller from \"__notNullable_4914\" to \"__res_4912\" not supported.");
+                JSObject __notNullable_5724 = (JSObject)__res_5723;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5724\" to \"__res_5722\" not supported.");
             }
-            return __res_4912;
+            return __res_5722;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5725;
+            if (value is null)
+            {
+                __marshalledValue_5725 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_5726 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5726\" to \"__marshalledValue_5725\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onexit", __marshalledValue_5725);
         }
     }
 }

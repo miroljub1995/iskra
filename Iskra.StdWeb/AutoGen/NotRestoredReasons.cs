@@ -13,18 +13,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_5688;
-            string? __res_5689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
-            if (__res_5689 is null)
+            string? __res_6694;
+            string? __res_6695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
+            if (__res_6695 is null)
             {
-                __res_5688 = null;
+                __res_6694 = null;
             }
             else
             {
-                string __notNullable_5690 = (string)__res_5689;
-                __res_5688 = __notNullable_5690;
+                string __notNullable_6696 = (string)__res_6695;
+                __res_6694 = __notNullable_6696;
             }
-            return __res_5688;
+            return __res_6694;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_5691;
-            string? __res_5692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_5692 is null)
+            string? __res_6697;
+            string? __res_6698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
+            if (__res_6698 is null)
             {
-                __res_5691 = null;
+                __res_6697 = null;
             }
             else
             {
-                string __notNullable_5693 = (string)__res_5692;
-                __res_5691 = __notNullable_5693;
+                string __notNullable_6699 = (string)__res_6698;
+                __res_6697 = __notNullable_6699;
             }
-            return __res_5691;
+            return __res_6697;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_5694;
-            string? __res_5695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_5695 is null)
+            string? __res_6700;
+            string? __res_6701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_6701 is null)
             {
-                __res_5694 = null;
+                __res_6700 = null;
             }
             else
             {
-                string __notNullable_5696 = (string)__res_5695;
-                __res_5694 = __notNullable_5696;
+                string __notNullable_6702 = (string)__res_6701;
+                __res_6700 = __notNullable_6702;
             }
-            return __res_5694;
+            return __res_6700;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_5697;
-            string? __res_5698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_5698 is null)
+            string? __res_6703;
+            string? __res_6704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_6704 is null)
             {
-                __res_5697 = null;
+                __res_6703 = null;
             }
             else
             {
-                string __notNullable_5699 = (string)__res_5698;
-                __res_5697 = __notNullable_5699;
+                string __notNullable_6705 = (string)__res_6704;
+                __res_6703 = __notNullable_6705;
             }
-            return __res_5697;
+            return __res_6703;
         }
     }
 
@@ -89,9 +89,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_5700;
+            object __res_6706;
             throw new Exception();
-            return __res_5700;
+            return __res_6706;
         }
     }
 
@@ -99,9 +99,9 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_5701;
+            object __res_6707;
             throw new Exception();
-            return __res_5701;
+            return __res_6707;
         }
     }
 }

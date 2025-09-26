@@ -22,7 +22,7 @@ public partial class SnapEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_2 = (JSObject)__res_1;
-                throw new Exception("Marshaller from \"__notNullable_2\" to \"__res_0\" not supported.");
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2\" to \"__res_0\" not supported.");
             }
             return __res_0;
         }
@@ -41,7 +41,7 @@ public partial class SnapEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_5 = (JSObject)__res_4;
-                throw new Exception("Marshaller from \"__notNullable_5\" to \"__res_3\" not supported.");
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5\" to \"__res_3\" not supported.");
             }
             return __res_3;
         }

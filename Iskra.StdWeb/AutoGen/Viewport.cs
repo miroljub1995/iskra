@@ -13,9 +13,9 @@ public partial class Viewport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6708;
+            object __res_7915;
             throw new Exception();
-            return __res_6708;
+            return __res_7915;
         }
     }
 }

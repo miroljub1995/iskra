@@ -13,10 +13,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1012;
-            JSObject __res_1013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_1013\" to \"__res_1012\" not supported.");
-            return __res_1012;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1115;
+            JSObject __res_1116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_1116\" to \"__res_1115\" not supported.");
+            return __res_1115;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_1014;
-            JSObject __res_1015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tableValues");
-            throw new Exception("Marshaller from \"__res_1015\" to \"__res_1014\" not supported.");
-            return __res_1014;
+            Iskra.StdWeb.SVGAnimatedNumberList __res_1117;
+            JSObject __res_1118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tableValues");
+            throw new Exception("Marshaller ToManaged from \"__res_1118\" to \"__res_1117\" not supported.");
+            return __res_1117;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1016;
-            JSObject __res_1017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slope");
-            throw new Exception("Marshaller from \"__res_1017\" to \"__res_1016\" not supported.");
-            return __res_1016;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1119;
+            JSObject __res_1120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slope");
+            throw new Exception("Marshaller ToManaged from \"__res_1120\" to \"__res_1119\" not supported.");
+            return __res_1119;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1018;
-            JSObject __res_1019 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intercept");
-            throw new Exception("Marshaller from \"__res_1019\" to \"__res_1018\" not supported.");
-            return __res_1018;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1121;
+            JSObject __res_1122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intercept");
+            throw new Exception("Marshaller ToManaged from \"__res_1122\" to \"__res_1121\" not supported.");
+            return __res_1121;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1020;
-            JSObject __res_1021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "amplitude");
-            throw new Exception("Marshaller from \"__res_1021\" to \"__res_1020\" not supported.");
-            return __res_1020;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1123;
+            JSObject __res_1124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "amplitude");
+            throw new Exception("Marshaller ToManaged from \"__res_1124\" to \"__res_1123\" not supported.");
+            return __res_1123;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1022;
-            JSObject __res_1023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exponent");
-            throw new Exception("Marshaller from \"__res_1023\" to \"__res_1022\" not supported.");
-            return __res_1022;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1125;
+            JSObject __res_1126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exponent");
+            throw new Exception("Marshaller ToManaged from \"__res_1126\" to \"__res_1125\" not supported.");
+            return __res_1125;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class SVGComponentTransferFunctionElement(JSObject obj): SVGEleme
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1024;
-            JSObject __res_1025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            throw new Exception("Marshaller from \"__res_1025\" to \"__res_1024\" not supported.");
-            return __res_1024;
+            Iskra.StdWeb.SVGAnimatedNumber __res_1127;
+            JSObject __res_1128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            throw new Exception("Marshaller ToManaged from \"__res_1128\" to \"__res_1127\" not supported.");
+            return __res_1127;
         }
     }
 }

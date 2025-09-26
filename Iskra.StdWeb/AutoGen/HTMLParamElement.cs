@@ -13,14 +13,16 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5910;
-            string __res_5911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5910 = __res_5911;
-            return __res_5910;
+            string __res_6967;
+            string __res_6968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6967 = __res_6968;
+            return __res_6967;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6969;
+            __marshalledValue_6969 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6969);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5912;
-            string __res_5913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_5912 = __res_5913;
-            return __res_5912;
+            string __res_6970;
+            string __res_6971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_6970 = __res_6971;
+            return __res_6970;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6972;
+            __marshalledValue_6972 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_6972);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5914;
-            string __res_5915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5914 = __res_5915;
-            return __res_5914;
+            string __res_6973;
+            string __res_6974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6973 = __res_6974;
+            return __res_6973;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6975;
+            __marshalledValue_6975 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_6975);
         }
     }
 
@@ -58,14 +64,16 @@ public partial class HTMLParamElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5916;
-            string __res_5917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueType");
-            __res_5916 = __res_5917;
-            return __res_5916;
+            string __res_6976;
+            string __res_6977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueType");
+            __res_6976 = __res_6977;
+            return __res_6976;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6978;
+            __marshalledValue_6978 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueType", __marshalledValue_6978);
         }
     }
 }

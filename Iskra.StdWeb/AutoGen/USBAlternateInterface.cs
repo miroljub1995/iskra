@@ -13,10 +13,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4340;
-            double __res_4341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "alternateSetting");
-            __res_4340 = Convert.ToByte(__res_4341);
-            return __res_4340;
+            byte __res_4983;
+            double __res_4984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "alternateSetting");
+            __res_4983 = Convert.ToByte(__res_4984);
+            return __res_4983;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4342;
-            double __res_4343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceClass");
-            __res_4342 = Convert.ToByte(__res_4343);
-            return __res_4342;
+            byte __res_4985;
+            double __res_4986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceClass");
+            __res_4985 = Convert.ToByte(__res_4986);
+            return __res_4985;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4344;
-            double __res_4345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceSubclass");
-            __res_4344 = Convert.ToByte(__res_4345);
-            return __res_4344;
+            byte __res_4987;
+            double __res_4988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceSubclass");
+            __res_4987 = Convert.ToByte(__res_4988);
+            return __res_4987;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4346;
-            double __res_4347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceProtocol");
-            __res_4346 = Convert.ToByte(__res_4347);
-            return __res_4346;
+            byte __res_4989;
+            double __res_4990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceProtocol");
+            __res_4989 = Convert.ToByte(__res_4990);
+            return __res_4989;
         }
     }
 
@@ -57,18 +57,18 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4348;
-            string? __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "interfaceName");
-            if (__res_4349 is null)
+            string? __res_4991;
+            string? __res_4992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "interfaceName");
+            if (__res_4992 is null)
             {
-                __res_4348 = null;
+                __res_4991 = null;
             }
             else
             {
-                string __notNullable_4350 = (string)__res_4349;
-                __res_4348 = __notNullable_4350;
+                string __notNullable_4993 = (string)__res_4992;
+                __res_4991 = __notNullable_4993;
             }
-            return __res_4348;
+            return __res_4991;
         }
     }
 
@@ -76,9 +76,9 @@ public partial class USBAlternateInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_4351;
+            object __res_4994;
             throw new Exception();
-            return __res_4351;
+            return __res_4994;
         }
     }
 }

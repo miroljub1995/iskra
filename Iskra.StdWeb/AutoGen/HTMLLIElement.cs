@@ -13,14 +13,16 @@ public partial class HTMLLIElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_4598;
-            double __res_4599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_4598 = Convert.ToInt32(__res_4599);
-            return __res_4598;
+            int __res_5305;
+            double __res_5306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_5305 = Convert.ToInt32(__res_5306);
+            return __res_5305;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_5307;
+            __marshalledValue_5307 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_5307);
         }
     }
 }

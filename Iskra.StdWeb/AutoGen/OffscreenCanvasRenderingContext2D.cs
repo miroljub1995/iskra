@@ -13,10 +13,10 @@ public partial class OffscreenCanvasRenderingContext2D(JSObject obj): JSObjectPr
     {
         get
         {
-            Iskra.StdWeb.OffscreenCanvas __res_5426;
-            JSObject __res_5427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            throw new Exception("Marshaller from \"__res_5427\" to \"__res_5426\" not supported.");
-            return __res_5426;
+            Iskra.StdWeb.OffscreenCanvas __res_6403;
+            JSObject __res_6404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            throw new Exception("Marshaller ToManaged from \"__res_6404\" to \"__res_6403\" not supported.");
+            return __res_6403;
         }
     }
 }

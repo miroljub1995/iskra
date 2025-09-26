@@ -13,10 +13,10 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_1241;
-            double __res_1242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_1242\" to \"__res_1241\" not supported.");
-            return __res_1241;
+            ushort __res_1344;
+            double __res_1345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_1345\" to \"__res_1344\" not supported.");
+            return __res_1344;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_1243;
-            double __res_1244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            throw new Exception("Marshaller from \"__res_1244\" to \"__res_1243\" not supported.");
-            return __res_1243;
+            ushort __res_1346;
+            double __res_1347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
+            throw new Exception("Marshaller ToManaged from \"__res_1347\" to \"__res_1346\" not supported.");
+            return __res_1346;
         }
     }
 }

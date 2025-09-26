@@ -13,10 +13,10 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_56;
-            JSObject __res_57 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            throw new Exception("Marshaller from \"__res_57\" to \"__res_56\" not supported.");
-            return __res_56;
+            Iskra.StdWeb.CSSNumericValue __res_60;
+            JSObject __res_61 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
+            throw new Exception("Marshaller ToManaged from \"__res_61\" to \"__res_60\" not supported.");
+            return __res_60;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_58;
-            JSObject __res_59 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            throw new Exception("Marshaller from \"__res_59\" to \"__res_58\" not supported.");
-            return __res_58;
+            Iskra.StdWeb.CSSNumericValue __res_62;
+            JSObject __res_63 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            throw new Exception("Marshaller ToManaged from \"__res_63\" to \"__res_62\" not supported.");
+            return __res_62;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_60;
-            JSObject __res_61 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            throw new Exception("Marshaller from \"__res_61\" to \"__res_60\" not supported.");
-            return __res_60;
+            Iskra.StdWeb.CSSNumericValue __res_64;
+            JSObject __res_65 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
+            throw new Exception("Marshaller ToManaged from \"__res_65\" to \"__res_64\" not supported.");
+            return __res_64;
         }
     }
 }

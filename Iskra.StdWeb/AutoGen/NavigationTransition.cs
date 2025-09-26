@@ -13,10 +13,10 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType __res_5612;
-            JSObject __res_5613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
-            throw new Exception("Marshaller from \"__res_5613\" to \"__res_5612\" not supported.");
-            return __res_5612;
+            Iskra.StdWeb.NavigationType __res_6617;
+            JSObject __res_6618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
+            throw new Exception("Marshaller ToManaged from \"__res_6618\" to \"__res_6617\" not supported.");
+            return __res_6617;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_5614;
-            JSObject __res_5615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            throw new Exception("Marshaller from \"__res_5615\" to \"__res_5614\" not supported.");
-            return __res_5614;
+            Iskra.StdWeb.NavigationHistoryEntry __res_6619;
+            JSObject __res_6620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            throw new Exception("Marshaller ToManaged from \"__res_6620\" to \"__res_6619\" not supported.");
+            return __res_6619;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_5616;
+            object __res_6621;
             throw new Exception();
-            return __res_5616;
+            return __res_6621;
         }
     }
 
@@ -45,9 +45,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_5617;
+            object __res_6622;
             throw new Exception();
-            return __res_5617;
+            return __res_6622;
         }
     }
 }

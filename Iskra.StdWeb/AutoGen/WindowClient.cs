@@ -13,10 +13,10 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
-            Iskra.StdWeb.DocumentVisibilityState __res_3919;
-            JSObject __res_3920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "visibilityState");
-            throw new Exception("Marshaller from \"__res_3920\" to \"__res_3919\" not supported.");
-            return __res_3919;
+            Iskra.StdWeb.DocumentVisibilityState __res_4495;
+            JSObject __res_4496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "visibilityState");
+            throw new Exception("Marshaller ToManaged from \"__res_4496\" to \"__res_4495\" not supported.");
+            return __res_4495;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
-            bool __res_3921;
-            bool __res_3922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
-            __res_3921 = __res_3922;
-            return __res_3921;
+            bool __res_4497;
+            bool __res_4498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
+            __res_4497 = __res_4498;
+            return __res_4497;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
-            object __res_3923;
+            object __res_4499;
             throw new Exception();
-            return __res_3923;
+            return __res_4499;
         }
     }
 }

@@ -13,22 +13,32 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1296;
-            JSObject? __res_1297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_1297 is null)
+            Iskra.StdWeb.Element? __res_1411;
+            JSObject? __res_1412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_1412 is null)
             {
-                __res_1296 = null;
+                __res_1411 = null;
             }
             else
             {
-                JSObject __notNullable_1298 = (JSObject)__res_1297;
-                throw new Exception("Marshaller from \"__notNullable_1298\" to \"__res_1296\" not supported.");
+                JSObject __notNullable_1413 = (JSObject)__res_1412;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1413\" to \"__res_1411\" not supported.");
             }
-            return __res_1296;
+            return __res_1411;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_1414;
+            if (value is null)
+            {
+                __marshalledValue_1414 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.Element __notNullable_1415 = (Iskra.StdWeb.Element)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_1415\" to \"__marshalledValue_1414\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_1414);
         }
     }
 
@@ -36,22 +46,32 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            string? __res_1299;
-            string? __res_1300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
-            if (__res_1300 is null)
+            string? __res_1416;
+            string? __res_1417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
+            if (__res_1417 is null)
             {
-                __res_1299 = null;
+                __res_1416 = null;
             }
             else
             {
-                string __notNullable_1301 = (string)__res_1300;
-                __res_1299 = __notNullable_1301;
+                string __notNullable_1418 = (string)__res_1417;
+                __res_1416 = __notNullable_1418;
             }
-            return __res_1299;
+            return __res_1416;
         }
         set
         {
-            throw new Exception();
+            string? __marshalledValue_1419;
+            if (value is null)
+            {
+                __marshalledValue_1419 = null;
+            }
+            else
+            {
+                string __notNullable_1420 = (string)value;
+                __marshalledValue_1419 = __notNullable_1420;
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_1419);
         }
     }
 
@@ -59,14 +79,16 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            Iskra.StdWeb.CompositeOperation __res_1302;
-            JSObject __res_1303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
-            throw new Exception("Marshaller from \"__res_1303\" to \"__res_1302\" not supported.");
-            return __res_1302;
+            Iskra.StdWeb.CompositeOperation __res_1421;
+            JSObject __res_1422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
+            throw new Exception("Marshaller ToManaged from \"__res_1422\" to \"__res_1421\" not supported.");
+            return __res_1421;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_1423;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1423\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "composite", __marshalledValue_1423);
         }
     }
 }

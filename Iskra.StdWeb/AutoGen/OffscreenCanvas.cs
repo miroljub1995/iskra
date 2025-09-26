@@ -13,14 +13,16 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_5416;
-            double __res_5417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_5416 = Convert.ToUInt64(__res_5417);
-            return __res_5416;
+            ulong __res_6387;
+            double __res_6388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6387 = Convert.ToUInt64(__res_6388);
+            return __res_6387;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6389;
+            __marshalledValue_6389 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_6389);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ulong __res_5418;
-            double __res_5419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_5418 = Convert.ToUInt64(__res_5419);
-            return __res_5418;
+            ulong __res_6390;
+            double __res_6391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_6390 = Convert.ToUInt64(__res_6391);
+            return __res_6390;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_6392;
+            __marshalledValue_6392 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_6392);
         }
     }
 
@@ -43,22 +47,32 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_5420;
-            JSObject? __res_5421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
-            if (__res_5421 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_6393;
+            JSObject? __res_6394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
+            if (__res_6394 is null)
             {
-                __res_5420 = null;
+                __res_6393 = null;
             }
             else
             {
-                JSObject __notNullable_5422 = (JSObject)__res_5421;
-                throw new Exception("Marshaller from \"__notNullable_5422\" to \"__res_5420\" not supported.");
+                JSObject __notNullable_6395 = (JSObject)__res_6394;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6395\" to \"__res_6393\" not supported.");
             }
-            return __res_5420;
+            return __res_6393;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_6396;
+            if (value is null)
+            {
+                __marshalledValue_6396 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_6397 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_6397\" to \"__marshalledValue_6396\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost", __marshalledValue_6396);
         }
     }
 
@@ -66,22 +80,32 @@ public partial class OffscreenCanvas(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_5423;
-            JSObject? __res_5424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
-            if (__res_5424 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_6398;
+            JSObject? __res_6399 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
+            if (__res_6399 is null)
             {
-                __res_5423 = null;
+                __res_6398 = null;
             }
             else
             {
-                JSObject __notNullable_5425 = (JSObject)__res_5424;
-                throw new Exception("Marshaller from \"__notNullable_5425\" to \"__res_5423\" not supported.");
+                JSObject __notNullable_6400 = (JSObject)__res_6399;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_6400\" to \"__res_6398\" not supported.");
             }
-            return __res_5423;
+            return __res_6398;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_6401;
+            if (value is null)
+            {
+                __marshalledValue_6401 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_6402 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_6402\" to \"__marshalledValue_6401\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored", __marshalledValue_6401);
         }
     }
 }

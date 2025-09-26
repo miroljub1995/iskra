@@ -13,10 +13,10 @@ public partial class TimeRanges(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_4915;
-            double __res_4916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4915 = Convert.ToUInt32(__res_4916);
-            return __res_4915;
+            uint __res_5727;
+            double __res_5728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5727 = Convert.ToUInt32(__res_5728);
+            return __res_5727;
         }
     }
 }

@@ -13,14 +13,16 @@ public partial class CSSSkewX(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_88;
-            JSObject __res_89 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
-            throw new Exception("Marshaller from \"__res_89\" to \"__res_88\" not supported.");
-            return __res_88;
+            Iskra.StdWeb.CSSNumericValue __res_99;
+            JSObject __res_100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
+            throw new Exception("Marshaller ToManaged from \"__res_100\" to \"__res_99\" not supported.");
+            return __res_99;
         }
         set
         {
-            throw new Exception();
+            JSObject __marshalledValue_101;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_101\" not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_101);
         }
     }
 }

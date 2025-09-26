@@ -13,10 +13,10 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.SpatialNavigationDirection __res_4427;
-            JSObject __res_4428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
-            throw new Exception("Marshaller from \"__res_4428\" to \"__res_4427\" not supported.");
-            return __res_4427;
+            Iskra.StdWeb.SpatialNavigationDirection __res_5077;
+            JSObject __res_5078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
+            throw new Exception("Marshaller ToManaged from \"__res_5078\" to \"__res_5077\" not supported.");
+            return __res_5077;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_4429;
-            JSObject? __res_4430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_4430 is null)
+            Iskra.StdWeb.EventTarget? __res_5079;
+            JSObject? __res_5080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_5080 is null)
             {
-                __res_4429 = null;
+                __res_5079 = null;
             }
             else
             {
-                JSObject __notNullable_4431 = (JSObject)__res_4430;
-                throw new Exception("Marshaller from \"__notNullable_4431\" to \"__res_4429\" not supported.");
+                JSObject __notNullable_5081 = (JSObject)__res_5080;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5081\" to \"__res_5079\" not supported.");
             }
-            return __res_4429;
+            return __res_5079;
         }
     }
 }

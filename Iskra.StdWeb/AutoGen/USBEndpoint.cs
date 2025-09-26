@@ -13,10 +13,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4352;
-            double __res_4353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
-            __res_4352 = Convert.ToByte(__res_4353);
-            return __res_4352;
+            byte __res_4995;
+            double __res_4996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
+            __res_4995 = Convert.ToByte(__res_4996);
+            return __res_4995;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBDirection __res_4354;
-            JSObject __res_4355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            throw new Exception("Marshaller from \"__res_4355\" to \"__res_4354\" not supported.");
-            return __res_4354;
+            Iskra.StdWeb.USBDirection __res_4997;
+            JSObject __res_4998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            throw new Exception("Marshaller ToManaged from \"__res_4998\" to \"__res_4997\" not supported.");
+            return __res_4997;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBEndpointType __res_4356;
-            JSObject __res_4357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_4357\" to \"__res_4356\" not supported.");
-            return __res_4356;
+            Iskra.StdWeb.USBEndpointType __res_4999;
+            JSObject __res_5000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_5000\" to \"__res_4999\" not supported.");
+            return __res_4999;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_4358;
-            double __res_4359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
-            __res_4358 = Convert.ToUInt32(__res_4359);
-            return __res_4358;
+            uint __res_5001;
+            double __res_5002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
+            __res_5001 = Convert.ToUInt32(__res_5002);
+            return __res_5001;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SpeechRecognitionAlternative(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            string __res_3488;
-            string __res_3489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transcript");
-            __res_3488 = __res_3489;
-            return __res_3488;
+            string __res_3971;
+            string __res_3972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transcript");
+            __res_3971 = __res_3972;
+            return __res_3971;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SpeechRecognitionAlternative(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            float __res_3490;
-            double __res_3491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "confidence");
-            __res_3490 = Convert.ToSingle(__res_3491);
-            return __res_3490;
+            float __res_3973;
+            double __res_3974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "confidence");
+            __res_3973 = Convert.ToSingle(__res_3974);
+            return __res_3973;
         }
     }
 }

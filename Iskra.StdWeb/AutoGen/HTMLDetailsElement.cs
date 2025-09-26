@@ -13,14 +13,16 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5338;
-            string __res_5339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5338 = __res_5339;
-            return __res_5338;
+            string __res_6285;
+            string __res_6286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6285 = __res_6286;
+            return __res_6285;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6287;
+            __marshalledValue_6287 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6287);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5340;
-            bool __res_5341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_5340 = __res_5341;
-            return __res_5340;
+            bool __res_6288;
+            bool __res_6289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_6288 = __res_6289;
+            return __res_6288;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_6290;
+            __marshalledValue_6290 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6290);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_425;
-            JSObject __res_426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refX");
-            throw new Exception("Marshaller from \"__res_426\" to \"__res_425\" not supported.");
-            return __res_425;
+            Iskra.StdWeb.SVGAnimatedLength __res_467;
+            JSObject __res_468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refX");
+            throw new Exception("Marshaller ToManaged from \"__res_468\" to \"__res_467\" not supported.");
+            return __res_467;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_427;
-            JSObject __res_428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refY");
-            throw new Exception("Marshaller from \"__res_428\" to \"__res_427\" not supported.");
-            return __res_427;
+            Iskra.StdWeb.SVGAnimatedLength __res_469;
+            JSObject __res_470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refY");
+            throw new Exception("Marshaller ToManaged from \"__res_470\" to \"__res_469\" not supported.");
+            return __res_469;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_429;
-            JSObject __res_430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerUnits");
-            throw new Exception("Marshaller from \"__res_430\" to \"__res_429\" not supported.");
-            return __res_429;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_471;
+            JSObject __res_472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerUnits");
+            throw new Exception("Marshaller ToManaged from \"__res_472\" to \"__res_471\" not supported.");
+            return __res_471;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_431;
-            JSObject __res_432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerWidth");
-            throw new Exception("Marshaller from \"__res_432\" to \"__res_431\" not supported.");
-            return __res_431;
+            Iskra.StdWeb.SVGAnimatedLength __res_473;
+            JSObject __res_474 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerWidth");
+            throw new Exception("Marshaller ToManaged from \"__res_474\" to \"__res_473\" not supported.");
+            return __res_473;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_433;
-            JSObject __res_434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerHeight");
-            throw new Exception("Marshaller from \"__res_434\" to \"__res_433\" not supported.");
-            return __res_433;
+            Iskra.StdWeb.SVGAnimatedLength __res_475;
+            JSObject __res_476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerHeight");
+            throw new Exception("Marshaller ToManaged from \"__res_476\" to \"__res_475\" not supported.");
+            return __res_475;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_435;
-            JSObject __res_436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientType");
-            throw new Exception("Marshaller from \"__res_436\" to \"__res_435\" not supported.");
-            return __res_435;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_477;
+            JSObject __res_478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientType");
+            throw new Exception("Marshaller ToManaged from \"__res_478\" to \"__res_477\" not supported.");
+            return __res_477;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedAngle __res_437;
-            JSObject __res_438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientAngle");
-            throw new Exception("Marshaller from \"__res_438\" to \"__res_437\" not supported.");
-            return __res_437;
+            Iskra.StdWeb.SVGAnimatedAngle __res_479;
+            JSObject __res_480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientAngle");
+            throw new Exception("Marshaller ToManaged from \"__res_480\" to \"__res_479\" not supported.");
+            return __res_479;
         }
     }
 
@@ -90,14 +90,16 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_439;
-            string __res_440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "orient");
-            __res_439 = __res_440;
-            return __res_439;
+            string __res_481;
+            string __res_482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "orient");
+            __res_481 = __res_482;
+            return __res_481;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_483;
+            __marshalledValue_483 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "orient", __marshalledValue_483);
         }
     }
 }

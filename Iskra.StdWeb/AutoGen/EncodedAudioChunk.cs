@@ -13,10 +13,10 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.EncodedAudioChunkType __res_2217;
-            JSObject __res_2218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller from \"__res_2218\" to \"__res_2217\" not supported.");
-            return __res_2217;
+            Iskra.StdWeb.EncodedAudioChunkType __res_2558;
+            JSObject __res_2559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            throw new Exception("Marshaller ToManaged from \"__res_2559\" to \"__res_2558\" not supported.");
+            return __res_2558;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_2219;
-            double __res_2220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2219 = Convert.ToInt64(__res_2220);
-            return __res_2219;
+            long __res_2560;
+            double __res_2561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2560 = Convert.ToInt64(__res_2561);
+            return __res_2560;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_2221;
-            double? __res_2222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_2222 is null)
+            ulong? __res_2562;
+            double? __res_2563 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_2563 is null)
             {
-                __res_2221 = null;
+                __res_2562 = null;
             }
             else
             {
-                double __notNullable_2223 = (double)__res_2222;
-                __res_2221 = Convert.ToUInt64(__notNullable_2223);
+                double __notNullable_2564 = (double)__res_2563;
+                __res_2562 = Convert.ToUInt64(__notNullable_2564);
             }
-            return __res_2221;
+            return __res_2562;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2224;
-            double __res_2225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
-            __res_2224 = Convert.ToUInt32(__res_2225);
-            return __res_2224;
+            uint __res_2565;
+            double __res_2566 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
+            __res_2565 = Convert.ToUInt32(__res_2566);
+            return __res_2565;
         }
     }
 }

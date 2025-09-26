@@ -159,7 +159,7 @@ public class SetPropertyValueGenerator(
 
         return $$"""
                  {{marshalledTypeDeclaration}} {{marshalledVar}};
-                 {{marshaller.ToJS(marshalledType, "value", marshalledType, marshalledVar)}}
+                 {{marshaller.ToJS(type, "value", marshalledType, marshalledVar)}}
                  {{setPropertyContent}}
                  """;
     }

@@ -13,18 +13,18 @@ public partial class USBInTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.DataView? __res_4267;
-            JSObject? __res_4268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_4268 is null)
+            Iskra.JSCore.DataView? __res_4910;
+            JSObject? __res_4911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_4911 is null)
             {
-                __res_4267 = null;
+                __res_4910 = null;
             }
             else
             {
-                JSObject __notNullable_4269 = (JSObject)__res_4268;
-                throw new Exception("Marshaller from \"__notNullable_4269\" to \"__res_4267\" not supported.");
+                JSObject __notNullable_4912 = (JSObject)__res_4911;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4912\" to \"__res_4910\" not supported.");
             }
-            return __res_4267;
+            return __res_4910;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class USBInTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBTransferStatus __res_4270;
-            JSObject __res_4271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller from \"__res_4271\" to \"__res_4270\" not supported.");
-            return __res_4270;
+            Iskra.StdWeb.USBTransferStatus __res_4913;
+            JSObject __res_4914 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
+            throw new Exception("Marshaller ToManaged from \"__res_4914\" to \"__res_4913\" not supported.");
+            return __res_4913;
         }
     }
 }

@@ -13,14 +13,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4675;
-            string __res_4676 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_4675 = __res_4676;
-            return __res_4675;
+            string __res_5416;
+            string __res_5417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_5416 = __res_5417;
+            return __res_5416;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5418;
+            __marshalledValue_5418 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5418);
         }
     }
 
@@ -28,9 +30,9 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            object __res_4677;
+            object __res_5419;
             throw new Exception();
-            return __res_4677;
+            return __res_5419;
         }
         set
         {
@@ -42,14 +44,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4678;
-            string __res_4679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4678 = __res_4679;
-            return __res_4678;
+            string __res_5420;
+            string __res_5421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5420 = __res_5421;
+            return __res_5420;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5422;
+            __marshalledValue_5422 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5422);
         }
     }
 
@@ -57,10 +61,10 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_4680;
-            JSObject __res_4681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
-            throw new Exception("Marshaller from \"__res_4681\" to \"__res_4680\" not supported.");
-            return __res_4680;
+            Iskra.StdWeb.DOMTokenList __res_5423;
+            JSObject __res_5424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
+            throw new Exception("Marshaller ToManaged from \"__res_5424\" to \"__res_5423\" not supported.");
+            return __res_5423;
         }
     }
 
@@ -68,14 +72,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4682;
-            string __res_4683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "allow");
-            __res_4682 = __res_4683;
-            return __res_4682;
+            string __res_5425;
+            string __res_5426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "allow");
+            __res_5425 = __res_5426;
+            return __res_5425;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5427;
+            __marshalledValue_5427 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "allow", __marshalledValue_5427);
         }
     }
 
@@ -83,14 +89,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_4684;
-            bool __res_4685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "allowFullscreen");
-            __res_4684 = __res_4685;
-            return __res_4684;
+            bool __res_5428;
+            bool __res_5429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "allowFullscreen");
+            __res_5428 = __res_5429;
+            return __res_5428;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_5430;
+            __marshalledValue_5430 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "allowFullscreen", __marshalledValue_5430);
         }
     }
 
@@ -98,14 +106,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4686;
-            string __res_4687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_4686 = __res_4687;
-            return __res_4686;
+            string __res_5431;
+            string __res_5432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_5431 = __res_5432;
+            return __res_5431;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5433;
+            __marshalledValue_5433 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_5433);
         }
     }
 
@@ -113,14 +123,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4688;
-            string __res_4689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
-            __res_4688 = __res_4689;
-            return __res_4688;
+            string __res_5434;
+            string __res_5435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_5434 = __res_5435;
+            return __res_5434;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5436;
+            __marshalledValue_5436 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_5436);
         }
     }
 
@@ -128,14 +140,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4690;
-            string __res_4691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
-            __res_4690 = __res_4691;
-            return __res_4690;
+            string __res_5437;
+            string __res_5438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_5437 = __res_5438;
+            return __res_5437;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5439;
+            __marshalledValue_5439 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_5439);
         }
     }
 
@@ -143,14 +157,16 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_4692;
-            string __res_4693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "loading");
-            __res_4692 = __res_4693;
-            return __res_4692;
+            string __res_5440;
+            string __res_5441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "loading");
+            __res_5440 = __res_5441;
+            return __res_5440;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_5442;
+            __marshalledValue_5442 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "loading", __marshalledValue_5442);
         }
     }
 
@@ -158,18 +174,18 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.Document? __res_4694;
-            JSObject? __res_4695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentDocument");
-            if (__res_4695 is null)
+            Iskra.StdWeb.Document? __res_5443;
+            JSObject? __res_5444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentDocument");
+            if (__res_5444 is null)
             {
-                __res_4694 = null;
+                __res_5443 = null;
             }
             else
             {
-                JSObject __notNullable_4696 = (JSObject)__res_4695;
-                throw new Exception("Marshaller from \"__notNullable_4696\" to \"__res_4694\" not supported.");
+                JSObject __notNullable_5445 = (JSObject)__res_5444;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5445\" to \"__res_5443\" not supported.");
             }
-            return __res_4694;
+            return __res_5443;
         }
     }
 
@@ -177,18 +193,18 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_4697;
-            JSObject? __res_4698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentWindow");
-            if (__res_4698 is null)
+            Iskra.StdWeb.Window? __res_5446;
+            JSObject? __res_5447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentWindow");
+            if (__res_5447 is null)
             {
-                __res_4697 = null;
+                __res_5446 = null;
             }
             else
             {
-                JSObject __notNullable_4699 = (JSObject)__res_4698;
-                throw new Exception("Marshaller from \"__notNullable_4699\" to \"__res_4697\" not supported.");
+                JSObject __notNullable_5448 = (JSObject)__res_5447;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5448\" to \"__res_5446\" not supported.");
             }
-            return __res_4697;
+            return __res_5446;
         }
     }
 }

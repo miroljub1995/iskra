@@ -13,10 +13,10 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            int __res_2694;
-            double __res_2695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_2694 = Convert.ToInt32(__res_2695);
-            return __res_2694;
+            int __res_3048;
+            double __res_3049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3048 = Convert.ToInt32(__res_3049);
+            return __res_3048;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            int __res_2696;
-            double __res_2697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_2696 = Convert.ToInt32(__res_2697);
-            return __res_2696;
+            int __res_3050;
+            double __res_3051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3050 = Convert.ToInt32(__res_3051);
+            return __res_3050;
         }
     }
 
@@ -35,22 +35,32 @@ public partial class PictureInPictureWindow(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2698;
-            JSObject? __res_2699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresize");
-            if (__res_2699 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3052;
+            JSObject? __res_3053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresize");
+            if (__res_3053 is null)
             {
-                __res_2698 = null;
+                __res_3052 = null;
             }
             else
             {
-                JSObject __notNullable_2700 = (JSObject)__res_2699;
-                throw new Exception("Marshaller from \"__notNullable_2700\" to \"__res_2698\" not supported.");
+                JSObject __notNullable_3054 = (JSObject)__res_3053;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3054\" to \"__res_3052\" not supported.");
             }
-            return __res_2698;
+            return __res_3052;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_3055;
+            if (value is null)
+            {
+                __marshalledValue_3055 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3056 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_3056\" to \"__marshalledValue_3055\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresize", __marshalledValue_3055);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class OTPCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_6672;
-            string __res_6673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
-            __res_6672 = __res_6673;
-            return __res_6672;
+            string __res_7867;
+            string __res_7868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
+            __res_7867 = __res_7868;
+            return __res_7867;
         }
     }
 }

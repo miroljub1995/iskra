@@ -13,14 +13,16 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5474;
-            string __res_5475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
-            __res_5474 = __res_5475;
-            return __res_5474;
+            string __res_6455;
+            string __res_6456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
+            __res_6455 = __res_6456;
+            return __res_6455;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6457;
+            __marshalledValue_6457 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_6457);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5476;
-            string __res_5477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
-            __res_5476 = __res_5477;
-            return __res_5476;
+            string __res_6458;
+            string __res_6459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
+            __res_6458 = __res_6459;
+            return __res_6458;
         }
         set
         {
-            throw new Exception();
+            string __marshalledValue_6460;
+            __marshalledValue_6460 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_6460);
         }
     }
 
@@ -43,10 +47,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DataTransferItemList __res_5478;
-            JSObject __res_5479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
-            throw new Exception("Marshaller from \"__res_5479\" to \"__res_5478\" not supported.");
-            return __res_5478;
+            Iskra.StdWeb.DataTransferItemList __res_6461;
+            JSObject __res_6462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
+            throw new Exception("Marshaller ToManaged from \"__res_6462\" to \"__res_6461\" not supported.");
+            return __res_6461;
         }
     }
 
@@ -54,9 +58,9 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_5480;
+            object __res_6463;
             throw new Exception();
-            return __res_5480;
+            return __res_6463;
         }
     }
 
@@ -64,10 +68,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileList __res_5481;
-            JSObject __res_5482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
-            throw new Exception("Marshaller from \"__res_5482\" to \"__res_5481\" not supported.");
-            return __res_5481;
+            Iskra.StdWeb.FileList __res_6464;
+            JSObject __res_6465 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
+            throw new Exception("Marshaller ToManaged from \"__res_6465\" to \"__res_6464\" not supported.");
+            return __res_6464;
         }
     }
 }

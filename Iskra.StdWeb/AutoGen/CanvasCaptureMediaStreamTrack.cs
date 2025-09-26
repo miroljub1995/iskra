@@ -13,10 +13,10 @@ public partial class CanvasCaptureMediaStreamTrack(JSObject obj): MediaStreamTra
     {
         get
         {
-            Iskra.StdWeb.HTMLCanvasElement __res_1485;
-            JSObject __res_1486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            throw new Exception("Marshaller from \"__res_1486\" to \"__res_1485\" not supported.");
-            return __res_1485;
+            Iskra.StdWeb.HTMLCanvasElement __res_1646;
+            JSObject __res_1647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            throw new Exception("Marshaller ToManaged from \"__res_1647\" to \"__res_1646\" not supported.");
+            return __res_1646;
         }
     }
 }

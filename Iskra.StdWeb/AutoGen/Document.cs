@@ -13,10 +13,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMImplementation __res_2826;
-            JSObject __res_2827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "implementation");
-            throw new Exception("Marshaller from \"__res_2827\" to \"__res_2826\" not supported.");
-            return __res_2826;
+            Iskra.StdWeb.DOMImplementation __res_3192;
+            JSObject __res_3193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "implementation");
+            throw new Exception("Marshaller ToManaged from \"__res_3193\" to \"__res_3192\" not supported.");
+            return __res_3192;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2828;
-            string __res_2829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "URL");
-            __res_2828 = __res_2829;
-            return __res_2828;
+            string __res_3194;
+            string __res_3195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "URL");
+            __res_3194 = __res_3195;
+            return __res_3194;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2830;
-            string __res_2831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
-            __res_2830 = __res_2831;
-            return __res_2830;
+            string __res_3196;
+            string __res_3197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
+            __res_3196 = __res_3197;
+            return __res_3196;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2832;
-            string __res_2833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "compatMode");
-            __res_2832 = __res_2833;
-            return __res_2832;
+            string __res_3198;
+            string __res_3199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "compatMode");
+            __res_3198 = __res_3199;
+            return __res_3198;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2834;
-            string __res_2835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "characterSet");
-            __res_2834 = __res_2835;
-            return __res_2834;
+            string __res_3200;
+            string __res_3201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "characterSet");
+            __res_3200 = __res_3201;
+            return __res_3200;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2836;
-            string __res_2837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "charset");
-            __res_2836 = __res_2837;
-            return __res_2836;
+            string __res_3202;
+            string __res_3203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "charset");
+            __res_3202 = __res_3203;
+            return __res_3202;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2838;
-            string __res_2839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputEncoding");
-            __res_2838 = __res_2839;
-            return __res_2838;
+            string __res_3204;
+            string __res_3205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputEncoding");
+            __res_3204 = __res_3205;
+            return __res_3204;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            string __res_2840;
-            string __res_2841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_2840 = __res_2841;
-            return __res_2840;
+            string __res_3206;
+            string __res_3207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_3206 = __res_3207;
+            return __res_3206;
         }
     }
 
@@ -101,18 +101,18 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            Iskra.StdWeb.DocumentType? __res_2842;
-            JSObject? __res_2843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "doctype");
-            if (__res_2843 is null)
+            Iskra.StdWeb.DocumentType? __res_3208;
+            JSObject? __res_3209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "doctype");
+            if (__res_3209 is null)
             {
-                __res_2842 = null;
+                __res_3208 = null;
             }
             else
             {
-                JSObject __notNullable_2844 = (JSObject)__res_2843;
-                throw new Exception("Marshaller from \"__notNullable_2844\" to \"__res_2842\" not supported.");
+                JSObject __notNullable_3210 = (JSObject)__res_3209;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3210\" to \"__res_3208\" not supported.");
             }
-            return __res_2842;
+            return __res_3208;
         }
     }
 
@@ -120,18 +120,18 @@ public partial class Document(JSObject obj): Node(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_2845;
-            JSObject? __res_2846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "documentElement");
-            if (__res_2846 is null)
+            Iskra.StdWeb.Element? __res_3211;
+            JSObject? __res_3212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "documentElement");
+            if (__res_3212 is null)
             {
-                __res_2845 = null;
+                __res_3211 = null;
             }
             else
             {
-                JSObject __notNullable_2847 = (JSObject)__res_2846;
-                throw new Exception("Marshaller from \"__notNullable_2847\" to \"__res_2845\" not supported.");
+                JSObject __notNullable_3213 = (JSObject)__res_3212;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_3213\" to \"__res_3211\" not supported.");
             }
-            return __res_2845;
+            return __res_3211;
         }
     }
 }

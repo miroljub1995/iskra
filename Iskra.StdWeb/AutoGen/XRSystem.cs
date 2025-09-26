@@ -13,22 +13,32 @@ public partial class XRSystem(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3593;
-            JSObject? __res_3594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
-            if (__res_3594 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4103;
+            JSObject? __res_4104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_4104 is null)
             {
-                __res_3593 = null;
+                __res_4103 = null;
             }
             else
             {
-                JSObject __notNullable_3595 = (JSObject)__res_3594;
-                throw new Exception("Marshaller from \"__notNullable_3595\" to \"__res_3593\" not supported.");
+                JSObject __notNullable_4105 = (JSObject)__res_4104;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_4105\" to \"__res_4103\" not supported.");
             }
-            return __res_3593;
+            return __res_4103;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_4106;
+            if (value is null)
+            {
+                __marshalledValue_4106 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4107 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_4107\" to \"__marshalledValue_4106\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_4106);
         }
     }
 }

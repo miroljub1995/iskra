@@ -13,10 +13,10 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2459;
-            JSObject __res_2460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
-            throw new Exception("Marshaller from \"__res_2460\" to \"__res_2459\" not supported.");
-            return __res_2459;
+            Iskra.JSCore.ArrayBuffer __res_2807;
+            JSObject __res_2808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
+            throw new Exception("Marshaller ToManaged from \"__res_2808\" to \"__res_2807\" not supported.");
+            return __res_2807;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2461;
-            JSObject __res_2462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
-            throw new Exception("Marshaller from \"__res_2462\" to \"__res_2461\" not supported.");
-            return __res_2461;
+            Iskra.JSCore.ArrayBuffer __res_2809;
+            JSObject __res_2810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
+            throw new Exception("Marshaller ToManaged from \"__res_2810\" to \"__res_2809\" not supported.");
+            return __res_2809;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_2463;
-            JSObject? __res_2464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
-            if (__res_2464 is null)
+            Iskra.JSCore.ArrayBuffer? __res_2811;
+            JSObject? __res_2812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
+            if (__res_2812 is null)
             {
-                __res_2463 = null;
+                __res_2811 = null;
             }
             else
             {
-                JSObject __notNullable_2465 = (JSObject)__res_2464;
-                throw new Exception("Marshaller from \"__notNullable_2465\" to \"__res_2463\" not supported.");
+                JSObject __notNullable_2813 = (JSObject)__res_2812;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2813\" to \"__res_2811\" not supported.");
             }
-            return __res_2463;
+            return __res_2811;
         }
     }
 }

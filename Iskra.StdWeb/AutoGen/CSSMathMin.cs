@@ -13,10 +13,10 @@ public partial class CSSMathMin(JSObject obj): CSSMathValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericArray __res_52;
-            JSObject __res_53 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            throw new Exception("Marshaller from \"__res_53\" to \"__res_52\" not supported.");
-            return __res_52;
+            Iskra.StdWeb.CSSNumericArray __res_56;
+            JSObject __res_57 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            throw new Exception("Marshaller ToManaged from \"__res_57\" to \"__res_56\" not supported.");
+            return __res_56;
         }
     }
 }

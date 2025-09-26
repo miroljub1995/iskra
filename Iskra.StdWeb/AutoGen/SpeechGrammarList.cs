@@ -13,10 +13,10 @@ public partial class SpeechGrammarList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3506;
-            double __res_3507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3506 = Convert.ToUInt32(__res_3507);
-            return __res_3506;
+            uint __res_3991;
+            double __res_3992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3991 = Convert.ToUInt32(__res_3992);
+            return __res_3991;
         }
     }
 }

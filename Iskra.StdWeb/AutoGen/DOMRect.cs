@@ -13,14 +13,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3064;
-            double __res_3065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_3064 = __res_3065;
-            return __res_3064;
+            double __res_3447;
+            double __res_3448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_3447 = __res_3448;
+            return __res_3447;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_3449;
+            __marshalledValue_3449 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_3449);
         }
     }
 
@@ -28,14 +30,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3066;
-            double __res_3067 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_3066 = __res_3067;
-            return __res_3066;
+            double __res_3450;
+            double __res_3451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_3450 = __res_3451;
+            return __res_3450;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_3452;
+            __marshalledValue_3452 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_3452);
         }
     }
 
@@ -43,14 +47,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3068;
-            double __res_3069 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_3068 = __res_3069;
-            return __res_3068;
+            double __res_3453;
+            double __res_3454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3453 = __res_3454;
+            return __res_3453;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_3455;
+            __marshalledValue_3455 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_3455);
         }
     }
 
@@ -58,14 +64,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3070;
-            double __res_3071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_3070 = __res_3071;
-            return __res_3070;
+            double __res_3456;
+            double __res_3457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3456 = __res_3457;
+            return __res_3456;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_3458;
+            __marshalledValue_3458 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_3458);
         }
     }
 }

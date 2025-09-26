@@ -13,10 +13,10 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6553;
-            double __res_6554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availableInlineSize");
-            __res_6553 = __res_6554;
-            return __res_6553;
+            double __res_7748;
+            double __res_7749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availableInlineSize");
+            __res_7748 = __res_7749;
+            return __res_7748;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6555;
-            double __res_6556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availableBlockSize");
-            __res_6555 = __res_6556;
-            return __res_6555;
+            double __res_7750;
+            double __res_7751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availableBlockSize");
+            __res_7750 = __res_7751;
+            return __res_7750;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_6557;
-            double? __res_6558 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedInlineSize");
-            if (__res_6558 is null)
+            double? __res_7752;
+            double? __res_7753 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedInlineSize");
+            if (__res_7753 is null)
             {
-                __res_6557 = null;
+                __res_7752 = null;
             }
             else
             {
-                double __notNullable_6559 = (double)__res_6558;
-                __res_6557 = __notNullable_6559;
+                double __notNullable_7754 = (double)__res_7753;
+                __res_7752 = __notNullable_7754;
             }
-            return __res_6557;
+            return __res_7752;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_6560;
-            double? __res_6561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedBlockSize");
-            if (__res_6561 is null)
+            double? __res_7755;
+            double? __res_7756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedBlockSize");
+            if (__res_7756 is null)
             {
-                __res_6560 = null;
+                __res_7755 = null;
             }
             else
             {
-                double __notNullable_6562 = (double)__res_6561;
-                __res_6560 = __notNullable_6562;
+                double __notNullable_7757 = (double)__res_7756;
+                __res_7755 = __notNullable_7757;
             }
-            return __res_6560;
+            return __res_7755;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6563;
-            double __res_6564 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "percentageInlineSize");
-            __res_6563 = __res_6564;
-            return __res_6563;
+            double __res_7758;
+            double __res_7759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "percentageInlineSize");
+            __res_7758 = __res_7759;
+            return __res_7758;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6565;
-            double __res_6566 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "percentageBlockSize");
-            __res_6565 = __res_6566;
-            return __res_6565;
+            double __res_7760;
+            double __res_7761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "percentageBlockSize");
+            __res_7760 = __res_7761;
+            return __res_7760;
         }
     }
 
@@ -95,18 +95,18 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_6567;
-            double? __res_6568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "blockFragmentationOffset");
-            if (__res_6568 is null)
+            double? __res_7762;
+            double? __res_7763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "blockFragmentationOffset");
+            if (__res_7763 is null)
             {
-                __res_6567 = null;
+                __res_7762 = null;
             }
             else
             {
-                double __notNullable_6569 = (double)__res_6568;
-                __res_6567 = __notNullable_6569;
+                double __notNullable_7764 = (double)__res_7763;
+                __res_7762 = __notNullable_7764;
             }
-            return __res_6567;
+            return __res_7762;
         }
     }
 
@@ -114,10 +114,10 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.BlockFragmentationType __res_6570;
-            JSObject __res_6571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blockFragmentationType");
-            throw new Exception("Marshaller from \"__res_6571\" to \"__res_6570\" not supported.");
-            return __res_6570;
+            Iskra.StdWeb.BlockFragmentationType __res_7765;
+            JSObject __res_7766 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blockFragmentationType");
+            throw new Exception("Marshaller ToManaged from \"__res_7766\" to \"__res_7765\" not supported.");
+            return __res_7765;
         }
     }
 
@@ -125,10 +125,10 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6572;
-            JSObject __res_6573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_6572 = __res_6573;
-            return __res_6572;
+            object? __res_7767;
+            JSObject __res_7768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_7767 = __res_7768;
+            return __res_7767;
         }
     }
 }

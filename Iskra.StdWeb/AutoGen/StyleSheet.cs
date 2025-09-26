@@ -13,10 +13,10 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6073;
-            string __res_6074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6073 = __res_6074;
-            return __res_6073;
+            string __res_7166;
+            string __res_7167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_7166 = __res_7167;
+            return __res_7166;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6075;
-            string? __res_6076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "href");
-            if (__res_6076 is null)
+            string? __res_7168;
+            string? __res_7169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "href");
+            if (__res_7169 is null)
             {
-                __res_6075 = null;
+                __res_7168 = null;
             }
             else
             {
-                string __notNullable_6077 = (string)__res_6076;
-                __res_6075 = __notNullable_6077;
+                string __notNullable_7170 = (string)__res_7169;
+                __res_7168 = __notNullable_7170;
             }
-            return __res_6075;
+            return __res_7168;
         }
     }
 
@@ -43,9 +43,9 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6078;
+            object __res_7171;
             throw new Exception();
-            return __res_6078;
+            return __res_7171;
         }
     }
 
@@ -53,18 +53,18 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_6079;
-            JSObject? __res_6080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
-            if (__res_6080 is null)
+            Iskra.StdWeb.CSSStyleSheet? __res_7172;
+            JSObject? __res_7173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
+            if (__res_7173 is null)
             {
-                __res_6079 = null;
+                __res_7172 = null;
             }
             else
             {
-                JSObject __notNullable_6081 = (JSObject)__res_6080;
-                throw new Exception("Marshaller from \"__notNullable_6081\" to \"__res_6079\" not supported.");
+                JSObject __notNullable_7174 = (JSObject)__res_7173;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_7174\" to \"__res_7172\" not supported.");
             }
-            return __res_6079;
+            return __res_7172;
         }
     }
 
@@ -72,18 +72,18 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6082;
-            string? __res_6083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "title");
-            if (__res_6083 is null)
+            string? __res_7175;
+            string? __res_7176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "title");
+            if (__res_7176 is null)
             {
-                __res_6082 = null;
+                __res_7175 = null;
             }
             else
             {
-                string __notNullable_6084 = (string)__res_6083;
-                __res_6082 = __notNullable_6084;
+                string __notNullable_7177 = (string)__res_7176;
+                __res_7175 = __notNullable_7177;
             }
-            return __res_6082;
+            return __res_7175;
         }
     }
 
@@ -91,10 +91,10 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_6085;
-            JSObject __res_6086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            throw new Exception("Marshaller from \"__res_6086\" to \"__res_6085\" not supported.");
-            return __res_6085;
+            Iskra.StdWeb.MediaList __res_7178;
+            JSObject __res_7179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            throw new Exception("Marshaller ToManaged from \"__res_7179\" to \"__res_7178\" not supported.");
+            return __res_7178;
         }
     }
 
@@ -102,14 +102,16 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6087;
-            bool __res_6088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_6087 = __res_6088;
-            return __res_6087;
+            bool __res_7180;
+            bool __res_7181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_7180 = __res_7181;
+            return __res_7180;
         }
         set
         {
-            throw new Exception();
+            bool __marshalledValue_7182;
+            __marshalledValue_7182 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_7182);
         }
     }
 }

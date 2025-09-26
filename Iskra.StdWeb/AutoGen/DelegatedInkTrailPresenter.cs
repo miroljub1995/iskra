@@ -13,18 +13,18 @@ public partial class DelegatedInkTrailPresenter(JSObject obj): JSObjectProxy(obj
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1448;
-            JSObject? __res_1449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
-            if (__res_1449 is null)
+            Iskra.StdWeb.Element? __res_1609;
+            JSObject? __res_1610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
+            if (__res_1610 is null)
             {
-                __res_1448 = null;
+                __res_1609 = null;
             }
             else
             {
-                JSObject __notNullable_1450 = (JSObject)__res_1449;
-                throw new Exception("Marshaller from \"__notNullable_1450\" to \"__res_1448\" not supported.");
+                JSObject __notNullable_1611 = (JSObject)__res_1610;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_1611\" to \"__res_1609\" not supported.");
             }
-            return __res_1448;
+            return __res_1609;
         }
     }
 }

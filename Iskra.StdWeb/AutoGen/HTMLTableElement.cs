@@ -13,22 +13,32 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLTableCaptionElement? __res_4940;
-            JSObject? __res_4941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "caption");
-            if (__res_4941 is null)
+            Iskra.StdWeb.HTMLTableCaptionElement? __res_5761;
+            JSObject? __res_5762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "caption");
+            if (__res_5762 is null)
             {
-                __res_4940 = null;
+                __res_5761 = null;
             }
             else
             {
-                JSObject __notNullable_4942 = (JSObject)__res_4941;
-                throw new Exception("Marshaller from \"__notNullable_4942\" to \"__res_4940\" not supported.");
+                JSObject __notNullable_5763 = (JSObject)__res_5762;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5763\" to \"__res_5761\" not supported.");
             }
-            return __res_4940;
+            return __res_5761;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5764;
+            if (value is null)
+            {
+                __marshalledValue_5764 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.HTMLTableCaptionElement __notNullable_5765 = (Iskra.StdWeb.HTMLTableCaptionElement)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5765\" to \"__marshalledValue_5764\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "caption", __marshalledValue_5764);
         }
     }
 
@@ -36,22 +46,32 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLTableSectionElement? __res_4943;
-            JSObject? __res_4944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tHead");
-            if (__res_4944 is null)
+            Iskra.StdWeb.HTMLTableSectionElement? __res_5766;
+            JSObject? __res_5767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tHead");
+            if (__res_5767 is null)
             {
-                __res_4943 = null;
+                __res_5766 = null;
             }
             else
             {
-                JSObject __notNullable_4945 = (JSObject)__res_4944;
-                throw new Exception("Marshaller from \"__notNullable_4945\" to \"__res_4943\" not supported.");
+                JSObject __notNullable_5768 = (JSObject)__res_5767;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5768\" to \"__res_5766\" not supported.");
             }
-            return __res_4943;
+            return __res_5766;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5769;
+            if (value is null)
+            {
+                __marshalledValue_5769 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.HTMLTableSectionElement __notNullable_5770 = (Iskra.StdWeb.HTMLTableSectionElement)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5770\" to \"__marshalledValue_5769\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "tHead", __marshalledValue_5769);
         }
     }
 
@@ -59,22 +79,32 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLTableSectionElement? __res_4946;
-            JSObject? __res_4947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot");
-            if (__res_4947 is null)
+            Iskra.StdWeb.HTMLTableSectionElement? __res_5771;
+            JSObject? __res_5772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot");
+            if (__res_5772 is null)
             {
-                __res_4946 = null;
+                __res_5771 = null;
             }
             else
             {
-                JSObject __notNullable_4948 = (JSObject)__res_4947;
-                throw new Exception("Marshaller from \"__notNullable_4948\" to \"__res_4946\" not supported.");
+                JSObject __notNullable_5773 = (JSObject)__res_5772;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_5773\" to \"__res_5771\" not supported.");
             }
-            return __res_4946;
+            return __res_5771;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_5774;
+            if (value is null)
+            {
+                __marshalledValue_5774 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.HTMLTableSectionElement __notNullable_5775 = (Iskra.StdWeb.HTMLTableSectionElement)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_5775\" to \"__marshalledValue_5774\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot", __marshalledValue_5774);
         }
     }
 
@@ -82,10 +112,10 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_4949;
-            JSObject __res_4950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tBodies");
-            throw new Exception("Marshaller from \"__res_4950\" to \"__res_4949\" not supported.");
-            return __res_4949;
+            Iskra.StdWeb.HTMLCollection __res_5776;
+            JSObject __res_5777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tBodies");
+            throw new Exception("Marshaller ToManaged from \"__res_5777\" to \"__res_5776\" not supported.");
+            return __res_5776;
         }
     }
 
@@ -93,10 +123,10 @@ public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_4951;
-            JSObject __res_4952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
-            throw new Exception("Marshaller from \"__res_4952\" to \"__res_4951\" not supported.");
-            return __res_4951;
+            Iskra.StdWeb.HTMLCollection __res_5778;
+            JSObject __res_5779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
+            throw new Exception("Marshaller ToManaged from \"__res_5779\" to \"__res_5778\" not supported.");
+            return __res_5778;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.CodecState __res_2203;
-            JSObject __res_2204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller from \"__res_2204\" to \"__res_2203\" not supported.");
-            return __res_2203;
+            Iskra.StdWeb.CodecState __res_2540;
+            JSObject __res_2541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new Exception("Marshaller ToManaged from \"__res_2541\" to \"__res_2540\" not supported.");
+            return __res_2540;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_2205;
-            double __res_2206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodeQueueSize");
-            __res_2205 = Convert.ToUInt32(__res_2206);
-            return __res_2205;
+            uint __res_2542;
+            double __res_2543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodeQueueSize");
+            __res_2542 = Convert.ToUInt32(__res_2543);
+            return __res_2542;
         }
     }
 
@@ -35,22 +35,32 @@ public partial class AudioEncoder(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2207;
-            JSObject? __res_2208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
-            if (__res_2208 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2544;
+            JSObject? __res_2545 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
+            if (__res_2545 is null)
             {
-                __res_2207 = null;
+                __res_2544 = null;
             }
             else
             {
-                JSObject __notNullable_2209 = (JSObject)__res_2208;
-                throw new Exception("Marshaller from \"__notNullable_2209\" to \"__res_2207\" not supported.");
+                JSObject __notNullable_2546 = (JSObject)__res_2545;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_2546\" to \"__res_2544\" not supported.");
             }
-            return __res_2207;
+            return __res_2544;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_2547;
+            if (value is null)
+            {
+                __marshalledValue_2547 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2548 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_2548\" to \"__marshalledValue_2547\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_2547);
         }
     }
 }

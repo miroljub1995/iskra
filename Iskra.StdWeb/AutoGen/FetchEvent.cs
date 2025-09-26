@@ -13,10 +13,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.Request __res_3924;
-            JSObject __res_3925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            throw new Exception("Marshaller from \"__res_3925\" to \"__res_3924\" not supported.");
-            return __res_3924;
+            Iskra.StdWeb.Request __res_4500;
+            JSObject __res_4501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            throw new Exception("Marshaller ToManaged from \"__res_4501\" to \"__res_4500\" not supported.");
+            return __res_4500;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_3926;
+            object __res_4502;
             throw new Exception();
-            return __res_3926;
+            return __res_4502;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_3927;
-            string __res_3928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
-            __res_3927 = __res_3928;
-            return __res_3927;
+            string __res_4503;
+            string __res_4504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
+            __res_4503 = __res_4504;
+            return __res_4503;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_3929;
-            string __res_3930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
-            __res_3929 = __res_3930;
-            return __res_3929;
+            string __res_4505;
+            string __res_4506 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
+            __res_4505 = __res_4506;
+            return __res_4505;
         }
     }
 
@@ -56,10 +56,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_3931;
-            string __res_3932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
-            __res_3931 = __res_3932;
-            return __res_3931;
+            string __res_4507;
+            string __res_4508 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
+            __res_4507 = __res_4508;
+            return __res_4507;
         }
     }
 
@@ -67,9 +67,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_3933;
+            object __res_4509;
             throw new Exception();
-            return __res_3933;
+            return __res_4509;
         }
     }
 }

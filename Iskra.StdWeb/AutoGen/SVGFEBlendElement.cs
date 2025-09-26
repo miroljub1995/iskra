@@ -13,10 +13,10 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_998;
-            JSObject __res_999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller from \"__res_999\" to \"__res_998\" not supported.");
-            return __res_998;
+            Iskra.StdWeb.SVGAnimatedString __res_1101;
+            JSObject __res_1102 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            throw new Exception("Marshaller ToManaged from \"__res_1102\" to \"__res_1101\" not supported.");
+            return __res_1101;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1000;
-            JSObject __res_1001 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
-            throw new Exception("Marshaller from \"__res_1001\" to \"__res_1000\" not supported.");
-            return __res_1000;
+            Iskra.StdWeb.SVGAnimatedString __res_1103;
+            JSObject __res_1104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
+            throw new Exception("Marshaller ToManaged from \"__res_1104\" to \"__res_1103\" not supported.");
+            return __res_1103;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGFEBlendElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1002;
-            JSObject __res_1003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller from \"__res_1003\" to \"__res_1002\" not supported.");
-            return __res_1002;
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_1105;
+            JSObject __res_1106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            throw new Exception("Marshaller ToManaged from \"__res_1106\" to \"__res_1105\" not supported.");
+            return __res_1105;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRFrame __res_3726;
-            JSObject __res_3727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
-            throw new Exception("Marshaller from \"__res_3727\" to \"__res_3726\" not supported.");
-            return __res_3726;
+            Iskra.StdWeb.XRFrame __res_4262;
+            JSObject __res_4263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            throw new Exception("Marshaller ToManaged from \"__res_4263\" to \"__res_4262\" not supported.");
+            return __res_4262;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRInputSource __res_3728;
-            JSObject __res_3729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
-            throw new Exception("Marshaller from \"__res_3729\" to \"__res_3728\" not supported.");
-            return __res_3728;
+            Iskra.StdWeb.XRInputSource __res_4264;
+            JSObject __res_4265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            throw new Exception("Marshaller ToManaged from \"__res_4265\" to \"__res_4264\" not supported.");
+            return __res_4264;
         }
     }
 }

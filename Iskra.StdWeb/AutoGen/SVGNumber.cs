@@ -13,14 +13,16 @@ public partial class SVGNumber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_220;
-            double __res_221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_220 = Convert.ToSingle(__res_221);
-            return __res_220;
+            float __res_242;
+            double __res_243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_242 = Convert.ToSingle(__res_243);
+            return __res_242;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_244;
+            __marshalledValue_244 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_244);
         }
     }
 }

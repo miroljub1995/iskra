@@ -13,10 +13,10 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_290;
-            JSObject __res_291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller from \"__res_291\" to \"__res_290\" not supported.");
-            return __res_290;
+            Iskra.StdWeb.SVGAnimatedLength __res_324;
+            JSObject __res_325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            throw new Exception("Marshaller ToManaged from \"__res_325\" to \"__res_324\" not supported.");
+            return __res_324;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_292;
-            JSObject __res_293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller from \"__res_293\" to \"__res_292\" not supported.");
-            return __res_292;
+            Iskra.StdWeb.SVGAnimatedLength __res_326;
+            JSObject __res_327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            throw new Exception("Marshaller ToManaged from \"__res_327\" to \"__res_326\" not supported.");
+            return __res_326;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_294;
-            JSObject __res_295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            throw new Exception("Marshaller from \"__res_295\" to \"__res_294\" not supported.");
-            return __res_294;
+            Iskra.StdWeb.SVGAnimatedLength __res_328;
+            JSObject __res_329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            throw new Exception("Marshaller ToManaged from \"__res_329\" to \"__res_328\" not supported.");
+            return __res_328;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_296;
-            JSObject __res_297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            throw new Exception("Marshaller from \"__res_297\" to \"__res_296\" not supported.");
-            return __res_296;
+            Iskra.StdWeb.SVGAnimatedLength __res_330;
+            JSObject __res_331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            throw new Exception("Marshaller ToManaged from \"__res_331\" to \"__res_330\" not supported.");
+            return __res_330;
         }
     }
 
@@ -57,14 +57,16 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            float __res_298;
-            double __res_299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentScale");
-            __res_298 = Convert.ToSingle(__res_299);
-            return __res_298;
+            float __res_332;
+            double __res_333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentScale");
+            __res_332 = Convert.ToSingle(__res_333);
+            return __res_332;
         }
         set
         {
-            throw new Exception();
+            double __marshalledValue_334;
+            __marshalledValue_334 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "currentScale", __marshalledValue_334);
         }
     }
 
@@ -72,10 +74,10 @@ public partial class SVGSVGElement(JSObject obj): SVGGraphicsElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_300;
-            JSObject __res_301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentTranslate");
-            throw new Exception("Marshaller from \"__res_301\" to \"__res_300\" not supported.");
-            return __res_300;
+            Iskra.StdWeb.DOMPointReadOnly __res_335;
+            JSObject __res_336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentTranslate");
+            throw new Exception("Marshaller ToManaged from \"__res_336\" to \"__res_335\" not supported.");
+            return __res_335;
         }
     }
 }

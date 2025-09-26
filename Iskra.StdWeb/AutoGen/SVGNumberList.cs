@@ -13,10 +13,10 @@ public partial class SVGNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_238;
-            double __res_239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_238 = Convert.ToUInt32(__res_239);
-            return __res_238;
+            uint __res_267;
+            double __res_268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_267 = Convert.ToUInt32(__res_268);
+            return __res_267;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGNumberList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_240;
-            double __res_241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_240 = Convert.ToUInt32(__res_241);
-            return __res_240;
+            uint __res_269;
+            double __res_270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_269 = Convert.ToUInt32(__res_270);
+            return __res_269;
         }
     }
 }

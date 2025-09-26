@@ -13,22 +13,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_766;
-            JSObject? __res_767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadstart");
-            if (__res_767 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_836;
+            JSObject? __res_837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadstart");
+            if (__res_837 is null)
             {
-                __res_766 = null;
+                __res_836 = null;
             }
             else
             {
-                JSObject __notNullable_768 = (JSObject)__res_767;
-                throw new Exception("Marshaller from \"__notNullable_768\" to \"__res_766\" not supported.");
+                JSObject __notNullable_838 = (JSObject)__res_837;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_838\" to \"__res_836\" not supported.");
             }
-            return __res_766;
+            return __res_836;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_839;
+            if (value is null)
+            {
+                __marshalledValue_839 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_840 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_840\" to \"__marshalledValue_839\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloadstart", __marshalledValue_839);
         }
     }
 
@@ -36,22 +46,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_769;
-            JSObject? __res_770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
-            if (__res_770 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_841;
+            JSObject? __res_842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
+            if (__res_842 is null)
             {
-                __res_769 = null;
+                __res_841 = null;
             }
             else
             {
-                JSObject __notNullable_771 = (JSObject)__res_770;
-                throw new Exception("Marshaller from \"__notNullable_771\" to \"__res_769\" not supported.");
+                JSObject __notNullable_843 = (JSObject)__res_842;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_843\" to \"__res_841\" not supported.");
             }
-            return __res_769;
+            return __res_841;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_844;
+            if (value is null)
+            {
+                __marshalledValue_844 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_845 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_845\" to \"__marshalledValue_844\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_844);
         }
     }
 
@@ -59,22 +79,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_772;
-            JSObject? __res_773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
-            if (__res_773 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_846;
+            JSObject? __res_847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
+            if (__res_847 is null)
             {
-                __res_772 = null;
+                __res_846 = null;
             }
             else
             {
-                JSObject __notNullable_774 = (JSObject)__res_773;
-                throw new Exception("Marshaller from \"__notNullable_774\" to \"__res_772\" not supported.");
+                JSObject __notNullable_848 = (JSObject)__res_847;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_848\" to \"__res_846\" not supported.");
             }
-            return __res_772;
+            return __res_846;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_849;
+            if (value is null)
+            {
+                __marshalledValue_849 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_850 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_850\" to \"__marshalledValue_849\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_849);
         }
     }
 
@@ -82,22 +112,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_775;
-            JSObject? __res_776 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_776 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_851;
+            JSObject? __res_852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_852 is null)
             {
-                __res_775 = null;
+                __res_851 = null;
             }
             else
             {
-                JSObject __notNullable_777 = (JSObject)__res_776;
-                throw new Exception("Marshaller from \"__notNullable_777\" to \"__res_775\" not supported.");
+                JSObject __notNullable_853 = (JSObject)__res_852;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_853\" to \"__res_851\" not supported.");
             }
-            return __res_775;
+            return __res_851;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_854;
+            if (value is null)
+            {
+                __marshalledValue_854 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_855 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_855\" to \"__marshalledValue_854\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_854);
         }
     }
 
@@ -105,22 +145,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_778;
-            JSObject? __res_779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onload");
-            if (__res_779 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_856;
+            JSObject? __res_857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onload");
+            if (__res_857 is null)
             {
-                __res_778 = null;
+                __res_856 = null;
             }
             else
             {
-                JSObject __notNullable_780 = (JSObject)__res_779;
-                throw new Exception("Marshaller from \"__notNullable_780\" to \"__res_778\" not supported.");
+                JSObject __notNullable_858 = (JSObject)__res_857;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_858\" to \"__res_856\" not supported.");
             }
-            return __res_778;
+            return __res_856;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_859;
+            if (value is null)
+            {
+                __marshalledValue_859 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_860 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_860\" to \"__marshalledValue_859\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onload", __marshalledValue_859);
         }
     }
 
@@ -128,22 +178,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_781;
-            JSObject? __res_782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontimeout");
-            if (__res_782 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_861;
+            JSObject? __res_862 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontimeout");
+            if (__res_862 is null)
             {
-                __res_781 = null;
+                __res_861 = null;
             }
             else
             {
-                JSObject __notNullable_783 = (JSObject)__res_782;
-                throw new Exception("Marshaller from \"__notNullable_783\" to \"__res_781\" not supported.");
+                JSObject __notNullable_863 = (JSObject)__res_862;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_863\" to \"__res_861\" not supported.");
             }
-            return __res_781;
+            return __res_861;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_864;
+            if (value is null)
+            {
+                __marshalledValue_864 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_865 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_865\" to \"__marshalledValue_864\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontimeout", __marshalledValue_864);
         }
     }
 
@@ -151,22 +211,32 @@ public partial class XMLHttpRequestEventTarget(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_784;
-            JSObject? __res_785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadend");
-            if (__res_785 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_866;
+            JSObject? __res_867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadend");
+            if (__res_867 is null)
             {
-                __res_784 = null;
+                __res_866 = null;
             }
             else
             {
-                JSObject __notNullable_786 = (JSObject)__res_785;
-                throw new Exception("Marshaller from \"__notNullable_786\" to \"__res_784\" not supported.");
+                JSObject __notNullable_868 = (JSObject)__res_867;
+                throw new Exception("Marshaller ToManaged from \"__notNullable_868\" to \"__res_866\" not supported.");
             }
-            return __res_784;
+            return __res_866;
         }
         set
         {
-            throw new Exception();
+            JSObject? __marshalledValue_869;
+            if (value is null)
+            {
+                __marshalledValue_869 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_870 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new Exception("Marshaller ToJS from \"__notNullable_870\" to \"__marshalledValue_869\" not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloadend", __marshalledValue_869);
         }
     }
 }

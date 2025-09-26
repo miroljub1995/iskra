@@ -13,10 +13,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3355;
-            string __res_3356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
-            __res_3355 = __res_3356;
-            return __res_3355;
+            string __res_3788;
+            string __res_3789 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
+            __res_3788 = __res_3789;
+            return __res_3788;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaDeviceKind __res_3357;
-            JSObject __res_3358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
-            throw new Exception("Marshaller from \"__res_3358\" to \"__res_3357\" not supported.");
-            return __res_3357;
+            Iskra.StdWeb.MediaDeviceKind __res_3790;
+            JSObject __res_3791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            throw new Exception("Marshaller ToManaged from \"__res_3791\" to \"__res_3790\" not supported.");
+            return __res_3790;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3359;
-            string __res_3360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_3359 = __res_3360;
-            return __res_3359;
+            string __res_3792;
+            string __res_3793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_3792 = __res_3793;
+            return __res_3792;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3361;
-            string __res_3362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
-            __res_3361 = __res_3362;
-            return __res_3361;
+            string __res_3794;
+            string __res_3795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
+            __res_3794 = __res_3795;
+            return __res_3794;
         }
     }
 }

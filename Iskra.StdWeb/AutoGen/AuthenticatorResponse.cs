@@ -13,10 +13,10 @@ public partial class AuthenticatorResponse(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2455;
-            JSObject __res_2456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clientDataJSON");
-            throw new Exception("Marshaller from \"__res_2456\" to \"__res_2455\" not supported.");
-            return __res_2455;
+            Iskra.JSCore.ArrayBuffer __res_2803;
+            JSObject __res_2804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clientDataJSON");
+            throw new Exception("Marshaller ToManaged from \"__res_2804\" to \"__res_2803\" not supported.");
+            return __res_2803;
         }
     }
 }
