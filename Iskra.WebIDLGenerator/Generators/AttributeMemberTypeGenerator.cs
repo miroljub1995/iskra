@@ -7,6 +7,7 @@ namespace Iskra.WebIDLGenerator.Generators;
 public class AttributeMemberTypeGenerator(
     IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
     GetPropertyValueGenerator getPropertyValueGenerator,
+    SetPropertyValueGenerator setPropertyValueGenerator,
     GeneratorContext generatorContext
 )
 {
@@ -23,35 +24,48 @@ public class AttributeMemberTypeGenerator(
             name += "_";
         }
 
-        var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
-        var returnValueVar = generatorContext.GetNextVariableName("res");
+        var returnTypeDeclaration = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
-        var getPropertyValue = getPropertyValueGenerator.Generate(
-            inputVar: "JSObject",
-            type: input.IdlType,
-            propertyName: input.Name,
-            isStatic: isStatic,
-            containingTypeName: containingTypeName,
-            outputVar: returnValueVar
-        );
+        // Getter
+        {
+            var returnValueVar = generatorContext.GetNextVariableName("res");
 
-        var getter = $$"""
-                       get
-                       {
-                           {{returnType}} {{returnValueVar}};
-                       {{getPropertyValue.IndentLines(4)}}
-                           return {{returnValueVar}};
-                       }
-                       """;
+            var getPropertyValue = getPropertyValueGenerator.Generate(
+                inputVar: "JSObject",
+                type: input.IdlType,
+                propertyName: input.Name,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName,
+                outputVar: returnValueVar
+            );
 
-        bodyParts.Add(getter);
+            var getter = $$"""
+                           get
+                           {
+                               {{returnTypeDeclaration}} {{returnValueVar}};
+                           {{getPropertyValue.IndentLines(4)}}
+                               return {{returnValueVar}};
+                           }
+                           """;
 
+            bodyParts.Add(getter);
+        }
+
+        // Setter
         if (!input.Readonly)
         {
+            var setPropertyValue = setPropertyValueGenerator.Generate(
+                inputVar: "JSObject",
+                type: input.IdlType,
+                propertyName: input.Name,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName
+            );
+
             var setter = $$"""
                            set
                            {
-                               throw new Exception();
+                           {{setPropertyValue.IndentLines(4)}}
                            }
                            """;
 
@@ -61,17 +75,12 @@ public class AttributeMemberTypeGenerator(
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
-                        public{{staticKeyword}} {{returnType}} {{name}}
+                        public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}
                         {
                         {{body.IndentLines(4)}}
                         }
                         """;
 
         return content;
-    }
-
-    private string GeneratePropertyGetter(AttributeMemberType input)
-    {
-        throw new NotImplementedException();
     }
 }

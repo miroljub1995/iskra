@@ -97,7 +97,42 @@ public partial class IDLTypeDescriptionMarshaller(
         }
 
         return $$"""
-                 throw new Exception("Marshaller from \"{{inputVar}}\" to \"{{outputVar}}\" not supported.");
+                 throw new Exception("Marshaller ToManaged from \"{{inputVar}}\" to \"{{outputVar}}\" not supported.");
+                 """;
+    }
+
+    public string ToJS(
+        IDLTypeDescription inputType,
+        string inputVar,
+        IDLTypeDescription outputType,
+        string outputVar
+    )
+    {
+        if (outputType.Nullable)
+        {
+            return ToJSNullable(inputType, inputVar, outputType, outputVar);
+        }
+
+        if (outputType is SingleTypeDescription singleTypeDescription)
+        {
+            // No marshalling
+            if (singleTypeDescription.IdlType is
+                BuiltinTypes.Any or
+                BuiltinTypes.Boolean or
+                BuiltinTypes.String or
+                BuiltinTypes.Double or
+                BuiltinTypes.UnrestrictedDouble or
+                BuiltinTypes.Object
+               )
+            {
+                return $$"""
+                         {{outputVar}} = {{inputVar}};
+                         """;
+            }
+        }
+
+        return $$"""
+                 throw new Exception("Marshaller ToJS from \"{{inputVar}}\" to \"{{outputVar}}\" not supported.");
                  """;
     }
 }

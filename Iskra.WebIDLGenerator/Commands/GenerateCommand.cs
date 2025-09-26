@@ -59,6 +59,8 @@ public class GenerateCommand : Command
                 .AddSingleton<JSProxyFactoryGenerator>()
                 .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<ModuleGenerator>()
+                .AddSingleton<SetPropertyValueGenerator>()
+                // Marshaller
                 .AddSingleton<IDLTypeDescriptionMarshaller>();
 
             await using var provider = services.BuildServiceProvider();

@@ -99,6 +99,35 @@ public static partial class JSObjectPropertyExtensions
     //     };
     // }
 
+    public static void SetPropertyAsBooleanV2AsNullable(this JSObject obj, string propertyName, bool? value) =>
+        SetPropertyAsBooleanV2AsNullable_Bridge(obj, propertyName, value);
+
+    public static void SetPropertyAsBooleanV2(this JSObject obj, string propertyName, bool value) =>
+        SetPropertyAsBooleanV2AsNullable_Bridge(obj, propertyName, value);
+
+    [JSImport("globalThis.Reflect.set")]
+    private static partial void SetPropertyAsBooleanV2AsNullable_Bridge(JSObject obj, string propertyName, bool? value);
+
+    public static void SetPropertyAsDoubleV2AsNullable(this JSObject obj, string propertyName, double? value) =>
+        SetPropertyAsDoubleV2AsNullable_Bridge(obj, propertyName, value);
+
+    public static void SetPropertyAsDoubleV2(this JSObject obj, string propertyName, double value) =>
+        SetPropertyAsDoubleV2AsNullable_Bridge(obj, propertyName, value);
+
+    [JSImport("globalThis.Reflect.set")]
+    private static partial void
+        SetPropertyAsDoubleV2AsNullable_Bridge(JSObject obj, string propertyName, double? value);
+
+    public static void SetPropertyAsStringV2AsNullable(this JSObject obj, string propertyName, string? value) =>
+        SetPropertyAsStringV2AsNullable_Bridge(obj, propertyName, value);
+
+    public static void SetPropertyAsStringV2(this JSObject obj, string propertyName, string value) =>
+        SetPropertyAsStringV2AsNullable_Bridge(obj, propertyName, value);
+
+    [JSImport("globalThis.Reflect.set")]
+    private static partial void
+        SetPropertyAsStringV2AsNullable_Bridge(JSObject obj, string propertyName, string? value);
+
     public static void SetPropertyAsBooleanNullable(this JSObject obj, string propertyName, bool? value)
     {
         if (value is null)

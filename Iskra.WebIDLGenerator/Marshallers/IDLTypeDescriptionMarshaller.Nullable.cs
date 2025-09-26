@@ -35,4 +35,33 @@ public partial class IDLTypeDescriptionMarshaller
                  }
                  """;
     }
+
+    public string ToJSNullable(
+        IDLTypeDescription input,
+        string inputVar,
+        IDLTypeDescription outputType,
+        string outputVar
+    )
+    {
+        var notNullableInput = input with { Nullable = false };
+        var notNullableOutput = outputType with { Nullable = false };
+
+        var notNullableInputVar = context.GetNextVariableName("notNullable");
+
+        var notNullableInputTypeDeclaration = provider
+            .GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>()
+            .Generate(notNullableInput);
+
+        return $$"""
+                 if ({{inputVar}} is null)
+                 {
+                     {{outputVar}} = null;
+                 }
+                 else
+                 {
+                     {{notNullableInputTypeDeclaration}} {{notNullableInputVar}} = ({{notNullableInputTypeDeclaration}}){{inputVar}};
+                 {{ToJS(notNullableInput, notNullableInputVar, notNullableOutput, outputVar).IndentLines(4)}}
+                 }
+                 """;
+    }
 }
