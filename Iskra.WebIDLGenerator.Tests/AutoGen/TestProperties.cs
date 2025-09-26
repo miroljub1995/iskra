@@ -14,7 +14,8 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
         get
         {
             int __res_0;
-            throw new Exception();
+            double __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "intProperty");
+            __res_0 = Convert.ToInt32(__res_1);
             return __res_0;
         }
         set
@@ -27,9 +28,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1;
-            throw new Exception();
-            return __res_1;
+            int __res_2;
+            double __res_3 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "intPropertyReadOnly");
+            __res_2 = Convert.ToInt32(__res_3);
+            return __res_2;
         }
     }
 
@@ -37,9 +39,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int? __res_2;
-            throw new Exception();
-            return __res_2;
+            int? __res_4;
+            double? __res_5 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyNullable");
+            if (__res_5 is null)
+            {
+                __res_4 = null;
+            }
+            else
+            {
+                double __notNullable_6 = (double)__res_5;
+                __res_4 = Convert.ToInt32(__notNullable_6);
+            }
+            return __res_4;
         }
         set
         {
@@ -51,9 +62,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int? __res_3;
-            throw new Exception();
-            return __res_3;
+            int? __res_7;
+            double? __res_8 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyReadOnlyNullableAsNull");
+            if (__res_8 is null)
+            {
+                __res_7 = null;
+            }
+            else
+            {
+                double __notNullable_9 = (double)__res_8;
+                __res_7 = Convert.ToInt32(__notNullable_9);
+            }
+            return __res_7;
         }
     }
 
@@ -61,9 +81,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int? __res_4;
-            throw new Exception();
-            return __res_4;
+            int? __res_10;
+            double? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyReadOnlyNullableAsNotNull");
+            if (__res_11 is null)
+            {
+                __res_10 = null;
+            }
+            else
+            {
+                double __notNullable_12 = (double)__res_11;
+                __res_10 = Convert.ToInt32(__notNullable_12);
+            }
+            return __res_10;
         }
     }
 
@@ -71,9 +100,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_5;
-            throw new Exception();
-            return __res_5;
+            double __res_13;
+            double __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doubleProperty");
+            __res_13 = __res_14;
+            return __res_13;
         }
         set
         {
@@ -85,9 +115,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_6;
-            throw new Exception();
-            return __res_6;
+            double __res_15;
+            double __res_16 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doublePropertyReadOnly");
+            __res_15 = __res_16;
+            return __res_15;
         }
     }
 
@@ -95,9 +126,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_7;
-            throw new Exception();
-            return __res_7;
+            double? __res_17;
+            double? __res_18 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable");
+            if (__res_18 is null)
+            {
+                __res_17 = null;
+            }
+            else
+            {
+                double __notNullable_19 = (double)__res_18;
+                __res_17 = __notNullable_19;
+            }
+            return __res_17;
         }
         set
         {
@@ -109,9 +149,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_8;
-            throw new Exception();
-            return __res_8;
+            double? __res_20;
+            double? __res_21 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNull");
+            if (__res_21 is null)
+            {
+                __res_20 = null;
+            }
+            else
+            {
+                double __notNullable_22 = (double)__res_21;
+                __res_20 = __notNullable_22;
+            }
+            return __res_20;
         }
     }
 
@@ -119,9 +168,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_9;
-            throw new Exception();
-            return __res_9;
+            double? __res_23;
+            double? __res_24 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNotNull");
+            if (__res_24 is null)
+            {
+                __res_23 = null;
+            }
+            else
+            {
+                double __notNullable_25 = (double)__res_24;
+                __res_23 = __notNullable_25;
+            }
+            return __res_23;
         }
     }
 
@@ -129,9 +187,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_10;
-            __res_10 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
-            return __res_10;
+            bool __res_26;
+            bool __res_27 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
+            __res_26 = __res_27;
+            return __res_26;
         }
         set
         {
@@ -143,9 +202,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_11;
-            __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
-            return __res_11;
+            bool __res_28;
+            bool __res_29 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
+            __res_28 = __res_29;
+            return __res_28;
         }
     }
 
@@ -153,9 +213,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_12;
-            __res_12 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
-            return __res_12;
+            bool? __res_30;
+            bool? __res_31 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
+            if (__res_31 is null)
+            {
+                __res_30 = null;
+            }
+            else
+            {
+                bool __notNullable_32 = (bool)__res_31;
+                __res_30 = __notNullable_32;
+            }
+            return __res_30;
         }
         set
         {
@@ -167,9 +236,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_13;
-            __res_13 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
-            return __res_13;
+            bool? __res_33;
+            bool? __res_34 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
+            if (__res_34 is null)
+            {
+                __res_33 = null;
+            }
+            else
+            {
+                bool __notNullable_35 = (bool)__res_34;
+                __res_33 = __notNullable_35;
+            }
+            return __res_33;
         }
     }
 
@@ -177,9 +255,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_14;
-            __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
-            return __res_14;
+            bool? __res_36;
+            bool? __res_37 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
+            if (__res_37 is null)
+            {
+                __res_36 = null;
+            }
+            else
+            {
+                bool __notNullable_38 = (bool)__res_37;
+                __res_36 = __notNullable_38;
+            }
+            return __res_36;
         }
     }
 
@@ -187,9 +274,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_15;
-            __res_15 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
-            return __res_15;
+            bool? __res_39;
+            bool? __res_40 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
+            if (__res_40 is null)
+            {
+                __res_39 = null;
+            }
+            else
+            {
+                bool __notNullable_41 = (bool)__res_40;
+                __res_39 = __notNullable_41;
+            }
+            return __res_39;
         }
     }
 
@@ -197,9 +293,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_16;
-            throw new Exception();
-            return __res_16;
+            string __res_42;
+            string __res_43 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringProperty");
+            __res_42 = __res_43;
+            return __res_42;
         }
         set
         {
@@ -211,9 +308,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_17;
-            throw new Exception();
-            return __res_17;
+            string __res_44;
+            string __res_45 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringPropertyReadOnly");
+            __res_44 = __res_45;
+            return __res_44;
         }
     }
 
@@ -221,9 +319,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_18;
-            throw new Exception();
-            return __res_18;
+            string? __res_46;
+            string? __res_47 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable");
+            if (__res_47 is null)
+            {
+                __res_46 = null;
+            }
+            else
+            {
+                string __notNullable_48 = (string)__res_47;
+                __res_46 = __notNullable_48;
+            }
+            return __res_46;
         }
         set
         {
@@ -235,9 +342,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_19;
-            throw new Exception();
-            return __res_19;
+            string? __res_49;
+            string? __res_50 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNull");
+            if (__res_50 is null)
+            {
+                __res_49 = null;
+            }
+            else
+            {
+                string __notNullable_51 = (string)__res_50;
+                __res_49 = __notNullable_51;
+            }
+            return __res_49;
         }
     }
 
@@ -245,9 +361,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_20;
-            throw new Exception();
-            return __res_20;
+            string? __res_52;
+            string? __res_53 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNotNull");
+            if (__res_53 is null)
+            {
+                __res_52 = null;
+            }
+            else
+            {
+                string __notNullable_54 = (string)__res_53;
+                __res_52 = __notNullable_54;
+            }
+            return __res_52;
         }
     }
 
@@ -255,9 +380,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_21;
-            throw new Exception();
-            return __res_21;
+            string? __res_55;
+            string? __res_56 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsEmpty");
+            if (__res_56 is null)
+            {
+                __res_55 = null;
+            }
+            else
+            {
+                string __notNullable_57 = (string)__res_56;
+                __res_55 = __notNullable_57;
+            }
+            return __res_55;
         }
     }
 }
