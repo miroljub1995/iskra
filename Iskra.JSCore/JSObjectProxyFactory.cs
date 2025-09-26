@@ -42,9 +42,9 @@ public static partial class JSObjectProxyFactory
         return specificProxy;
     }
 
-    [JSImport("addConstructorFromProp", "iskra")]
+    [JSImport("constructorMap.addConstructorFromProp", "iskra")]
     private static partial int AddConstructorFromProp_Bridge(JSObject obj, string propName);
 
-    [JSImport("getConstructorId", "iskra")]
+    [JSImport("constructorMap.getConstructorId", "iskra")]
     private static partial int? GetConstructorId_Bridge(JSObject obj);
 }
