@@ -15,7 +15,7 @@ public partial class PortalActivateEvent(JSObject obj): Event(obj)
         {
             object? __res_3688;
             JSObject __res_3689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_3688 = __res_3689;
+            throw new Exception("Marshaller ToManaged from \"__res_3689\" to \"__res_3688\" not supported.");
             return __res_3688;
         }
     }

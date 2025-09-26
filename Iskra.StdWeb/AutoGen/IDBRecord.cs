@@ -15,7 +15,7 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7651;
             JSObject __res_7652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
-            __res_7651 = __res_7652;
+            throw new Exception("Marshaller ToManaged from \"__res_7652\" to \"__res_7651\" not supported.");
             return __res_7651;
         }
     }
@@ -26,7 +26,7 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7653;
             JSObject __res_7654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
-            __res_7653 = __res_7654;
+            throw new Exception("Marshaller ToManaged from \"__res_7654\" to \"__res_7653\" not supported.");
             return __res_7653;
         }
     }
@@ -37,7 +37,7 @@ public partial class IDBRecord(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7655;
             JSObject __res_7656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_7655 = __res_7656;
+            throw new Exception("Marshaller ToManaged from \"__res_7656\" to \"__res_7655\" not supported.");
             return __res_7655;
         }
     }

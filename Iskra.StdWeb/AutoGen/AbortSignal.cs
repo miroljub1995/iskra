@@ -26,7 +26,7 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
         {
             object? __res_3117;
             JSObject __res_3118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            __res_3117 = __res_3118;
+            throw new Exception("Marshaller ToManaged from \"__res_3118\" to \"__res_3117\" not supported.");
             return __res_3117;
         }
     }

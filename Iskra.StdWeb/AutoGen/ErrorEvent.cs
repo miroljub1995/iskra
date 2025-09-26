@@ -59,7 +59,7 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
         {
             object? __res_6716;
             JSObject __res_6717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            __res_6716 = __res_6717;
+            throw new Exception("Marshaller ToManaged from \"__res_6717\" to \"__res_6716\" not supported.");
             return __res_6716;
         }
     }

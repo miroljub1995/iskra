@@ -15,7 +15,7 @@ public partial class PerformanceMeasure(JSObject obj): PerformanceEntry(obj)
         {
             object? __res_3350;
             JSObject __res_3351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
-            __res_3350 = __res_3351;
+            throw new Exception("Marshaller ToManaged from \"__res_3351\" to \"__res_3350\" not supported.");
             return __res_3350;
         }
     }

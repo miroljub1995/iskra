@@ -15,7 +15,7 @@ public partial class PerformanceMark(JSObject obj): PerformanceEntry(obj)
         {
             object? __res_3348;
             JSObject __res_3349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
-            __res_3348 = __res_3349;
+            throw new Exception("Marshaller ToManaged from \"__res_3349\" to \"__res_3348\" not supported.");
             return __res_3348;
         }
     }

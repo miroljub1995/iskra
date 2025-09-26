@@ -36,7 +36,7 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         {
             object? __res_991;
             JSObject __res_992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
-            __res_991 = __res_992;
+            throw new Exception("Marshaller ToManaged from \"__res_992\" to \"__res_991\" not supported.");
             return __res_991;
         }
     }

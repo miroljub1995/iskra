@@ -26,7 +26,7 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
         {
             object? __res_6720;
             JSObject __res_6721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            __res_6720 = __res_6721;
+            throw new Exception("Marshaller ToManaged from \"__res_6721\" to \"__res_6720\" not supported.");
             return __res_6720;
         }
     }

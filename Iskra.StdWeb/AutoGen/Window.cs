@@ -244,13 +244,13 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             object? __res_6516;
             JSObject __res_6517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "opener");
-            __res_6516 = __res_6517;
+            throw new Exception("Marshaller ToManaged from \"__res_6517\" to \"__res_6516\" not supported.");
             return __res_6516;
         }
         set
         {
             JSObject __marshalledValue_6518;
-            __marshalledValue_6518 = value;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_6518\" not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "opener", __marshalledValue_6518);
         }
     }

@@ -328,7 +328,7 @@ public partial class Notification(JSObject obj): EventTarget(obj)
         {
             object? __res_4328;
             JSObject __res_4329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_4328 = __res_4329;
+            throw new Exception("Marshaller ToManaged from \"__res_4329\" to \"__res_4328\" not supported.");
             return __res_4328;
         }
     }

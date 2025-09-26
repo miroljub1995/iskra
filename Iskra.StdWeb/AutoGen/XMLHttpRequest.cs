@@ -154,7 +154,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         {
             object? __res_895;
             JSObject __res_896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            __res_895 = __res_896;
+            throw new Exception("Marshaller ToManaged from \"__res_896\" to \"__res_895\" not supported.");
             return __res_895;
         }
     }

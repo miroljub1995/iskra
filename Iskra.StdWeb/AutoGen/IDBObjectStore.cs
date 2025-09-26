@@ -32,7 +32,7 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7624;
             JSObject __res_7625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
-            __res_7624 = __res_7625;
+            throw new Exception("Marshaller ToManaged from \"__res_7625\" to \"__res_7624\" not supported.");
             return __res_7624;
         }
     }

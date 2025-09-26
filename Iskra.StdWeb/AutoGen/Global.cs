@@ -15,13 +15,13 @@ public partial class Global(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_4601;
             JSObject __res_4602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_4601 = __res_4602;
+            throw new Exception("Marshaller ToManaged from \"__res_4602\" to \"__res_4601\" not supported.");
             return __res_4601;
         }
         set
         {
             JSObject __marshalledValue_4603;
-            __marshalledValue_4603 = value;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_4603\" not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "value", __marshalledValue_4603);
         }
     }

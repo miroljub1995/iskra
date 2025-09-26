@@ -15,13 +15,13 @@ public partial class DataCue(JSObject obj): TextTrackCue(obj)
         {
             object? __res_3585;
             JSObject __res_3586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_3585 = __res_3586;
+            throw new Exception("Marshaller ToManaged from \"__res_3586\" to \"__res_3585\" not supported.");
             return __res_3585;
         }
         set
         {
             JSObject __marshalledValue_3587;
-            __marshalledValue_3587 = value;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_3587\" not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "value", __marshalledValue_3587);
         }
     }

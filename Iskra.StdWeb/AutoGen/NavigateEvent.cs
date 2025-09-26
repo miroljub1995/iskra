@@ -119,7 +119,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         {
             object? __res_6648;
             JSObject __res_6649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
-            __res_6648 = __res_6649;
+            throw new Exception("Marshaller ToManaged from \"__res_6649\" to \"__res_6648\" not supported.");
             return __res_6648;
         }
     }

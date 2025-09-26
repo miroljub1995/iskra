@@ -37,13 +37,13 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_5044;
             JSObject __res_5045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
-            __res_5044 = __res_5045;
+            throw new Exception("Marshaller ToManaged from \"__res_5045\" to \"__res_5044\" not supported.");
             return __res_5044;
         }
         set
         {
             JSObject __marshalledValue_5046;
-            __marshalledValue_5046 = value;
+            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5046\" not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5046);
         }
     }

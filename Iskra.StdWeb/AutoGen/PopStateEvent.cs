@@ -15,7 +15,7 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
         {
             object? __res_6670;
             JSObject __res_6671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            __res_6670 = __res_6671;
+            throw new Exception("Marshaller ToManaged from \"__res_6671\" to \"__res_6670\" not supported.");
             return __res_6670;
         }
     }

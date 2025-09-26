@@ -128,6 +128,16 @@ public static partial class JSObjectPropertyExtensions
     private static partial void
         SetPropertyAsStringV2AsNullable_Bridge(JSObject obj, string propertyName, string? value);
 
+    public static void SetPropertyAsJSObjectV2AsNullable(this JSObject obj, string propertyName, JSObject? value) =>
+        SetPropertyAsJSObjectV2AsNullable_Bridge(obj, propertyName, value);
+
+    public static void SetPropertyAsJSObjectV2(this JSObject obj, string propertyName, JSObject value) =>
+        SetPropertyAsJSObjectV2AsNullable_Bridge(obj, propertyName, value);
+
+    [JSImport("globalThis.Reflect.set")]
+    private static partial void
+        SetPropertyAsJSObjectV2AsNullable_Bridge(JSObject obj, string propertyName, JSObject? value);
+
     public static void SetPropertyAsBooleanNullable(this JSObject obj, string propertyName, bool? value)
     {
         if (value is null)

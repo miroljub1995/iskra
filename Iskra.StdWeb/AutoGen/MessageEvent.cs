@@ -15,7 +15,7 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         {
             object? __res_6755;
             JSObject __res_6756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_6755 = __res_6756;
+            throw new Exception("Marshaller ToManaged from \"__res_6756\" to \"__res_6755\" not supported.");
             return __res_6755;
         }
     }

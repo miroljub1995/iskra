@@ -71,7 +71,7 @@ public partial class LayoutFragment(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7739;
             JSObject __res_7740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_7739 = __res_7740;
+            throw new Exception("Marshaller ToManaged from \"__res_7740\" to \"__res_7739\" not supported.");
             return __res_7739;
         }
     }

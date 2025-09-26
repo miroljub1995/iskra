@@ -70,7 +70,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
         {
             object? __res_1012;
             JSObject __res_1013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            __res_1012 = __res_1013;
+            throw new Exception("Marshaller ToManaged from \"__res_1013\" to \"__res_1012\" not supported.");
             return __res_1012;
         }
     }

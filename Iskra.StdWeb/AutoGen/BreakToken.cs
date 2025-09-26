@@ -25,7 +25,7 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7774;
             JSObject __res_7775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_7774 = __res_7775;
+            throw new Exception("Marshaller ToManaged from \"__res_7775\" to \"__res_7774\" not supported.");
             return __res_7774;
         }
     }

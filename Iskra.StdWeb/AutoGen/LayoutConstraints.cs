@@ -127,7 +127,7 @@ public partial class LayoutConstraints(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7767;
             JSObject __res_7768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_7767 = __res_7768;
+            throw new Exception("Marshaller ToManaged from \"__res_7768\" to \"__res_7767\" not supported.");
             return __res_7767;
         }
     }

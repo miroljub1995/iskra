@@ -36,7 +36,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7660;
             JSObject __res_7661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
-            __res_7660 = __res_7661;
+            throw new Exception("Marshaller ToManaged from \"__res_7661\" to \"__res_7660\" not supported.");
             return __res_7660;
         }
     }
@@ -47,7 +47,7 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7662;
             JSObject __res_7663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
-            __res_7662 = __res_7663;
+            throw new Exception("Marshaller ToManaged from \"__res_7663\" to \"__res_7662\" not supported.");
             return __res_7662;
         }
     }

@@ -15,7 +15,7 @@ public partial class ValueEvent(JSObject obj): Event(obj)
         {
             object? __res_2696;
             JSObject __res_2697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_2696 = __res_2697;
+            throw new Exception("Marshaller ToManaged from \"__res_2697\" to \"__res_2696\" not supported.");
             return __res_2696;
         }
     }

@@ -15,7 +15,7 @@ public partial class CustomEvent(JSObject obj): Event(obj)
         {
             object? __res_3111;
             JSObject __res_3112 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
-            __res_3111 = __res_3112;
+            throw new Exception("Marshaller ToManaged from \"__res_3112\" to \"__res_3111\" not supported.");
             return __res_3111;
         }
     }

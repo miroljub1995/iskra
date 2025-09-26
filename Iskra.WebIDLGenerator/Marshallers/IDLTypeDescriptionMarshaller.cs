@@ -26,7 +26,6 @@ public partial class IDLTypeDescriptionMarshaller(
         {
             // No marshalling
             if (singleTypeDescription.IdlType is
-                BuiltinTypes.Any or
                 BuiltinTypes.Boolean or
                 BuiltinTypes.String or
                 BuiltinTypes.Double or
@@ -117,7 +116,6 @@ public partial class IDLTypeDescriptionMarshaller(
         {
             // No marshalling
             if (singleTypeDescription.IdlType is
-                BuiltinTypes.Any or
                 BuiltinTypes.Boolean or
                 BuiltinTypes.String or
                 BuiltinTypes.Double or

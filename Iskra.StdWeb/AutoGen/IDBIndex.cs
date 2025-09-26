@@ -43,7 +43,7 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_7637;
             JSObject __res_7638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
-            __res_7637 = __res_7638;
+            throw new Exception("Marshaller ToManaged from \"__res_7638\" to \"__res_7637\" not supported.");
             return __res_7637;
         }
     }

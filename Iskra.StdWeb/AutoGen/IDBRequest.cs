@@ -15,7 +15,7 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         {
             object? __res_7559;
             JSObject __res_7560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
-            __res_7559 = __res_7560;
+            throw new Exception("Marshaller ToManaged from \"__res_7560\" to \"__res_7559\" not supported.");
             return __res_7559;
         }
     }

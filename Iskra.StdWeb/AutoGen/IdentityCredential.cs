@@ -15,7 +15,7 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
         {
             object? __res_2281;
             JSObject __res_2282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
-            __res_2281 = __res_2282;
+            throw new Exception("Marshaller ToManaged from \"__res_2282\" to \"__res_2281\" not supported.");
             return __res_2281;
         }
     }
