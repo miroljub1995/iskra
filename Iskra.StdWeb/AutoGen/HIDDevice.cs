@@ -59,7 +59,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         {
             ushort __res_1441;
             double __res_1442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            throw new Exception("Marshaller ToManaged from \"__res_1442\" to \"__res_1441\" not supported.");
+            __res_1441 = Convert.ToUInt16(__res_1442);
             return __res_1441;
         }
     }
@@ -70,7 +70,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         {
             ushort __res_1443;
             double __res_1444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            throw new Exception("Marshaller ToManaged from \"__res_1444\" to \"__res_1443\" not supported.");
+            __res_1443 = Convert.ToUInt16(__res_1444);
             return __res_1443;
         }
     }

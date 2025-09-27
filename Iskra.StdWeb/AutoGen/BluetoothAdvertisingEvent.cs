@@ -62,7 +62,7 @@ public partial class BluetoothAdvertisingEvent(JSObject obj): Event(obj)
             else
             {
                 double __notNullable_2716 = (double)__res_2715;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2716\" to \"__res_2714\" not supported.");
+                __res_2714 = Convert.ToUInt16(__notNullable_2716);
             }
             return __res_2714;
         }

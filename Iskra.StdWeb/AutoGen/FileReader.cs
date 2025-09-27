@@ -15,7 +15,7 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         {
             ushort __res_7879;
             double __res_7880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from \"__res_7880\" to \"__res_7879\" not supported.");
+            __res_7879 = Convert.ToUInt16(__res_7880);
             return __res_7879;
         }
     }

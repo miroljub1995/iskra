@@ -52,7 +52,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 double __notNullable_1796 = (double)__res_1795;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1796\" to \"__res_1794\" not supported.");
+                __res_1794 = Convert.ToUInt16(__notNullable_1796);
             }
             return __res_1794;
         }
@@ -166,7 +166,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 double __notNullable_1814 = (double)__res_1813;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1814\" to \"__res_1812\" not supported.");
+                __res_1812 = Convert.ToUInt16(__notNullable_1814);
             }
             return __res_1812;
         }
@@ -242,7 +242,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 double __notNullable_1826 = (double)__res_1825;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1826\" to \"__res_1824\" not supported.");
+                __res_1824 = Convert.ToUInt16(__notNullable_1826);
             }
             return __res_1824;
         }

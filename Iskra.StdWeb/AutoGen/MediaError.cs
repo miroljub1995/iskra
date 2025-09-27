@@ -15,7 +15,7 @@ public partial class MediaError(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_5597;
             double __res_5598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller ToManaged from \"__res_5598\" to \"__res_5597\" not supported.");
+            __res_5597 = Convert.ToUInt16(__res_5598);
             return __res_5597;
         }
     }

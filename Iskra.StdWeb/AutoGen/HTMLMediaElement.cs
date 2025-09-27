@@ -109,7 +109,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             ushort __res_5540;
             double __res_5541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "networkState");
-            throw new Exception("Marshaller ToManaged from \"__res_5541\" to \"__res_5540\" not supported.");
+            __res_5540 = Convert.ToUInt16(__res_5541);
             return __res_5540;
         }
     }
@@ -148,7 +148,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             ushort __res_5547;
             double __res_5548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from \"__res_5548\" to \"__res_5547\" not supported.");
+            __res_5547 = Convert.ToUInt16(__res_5548);
             return __res_5547;
         }
     }

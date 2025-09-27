@@ -41,7 +41,7 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
             else
             {
                 double __notNullable_1847 = (double)__res_1846;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1847\" to \"__res_1845\" not supported.");
+                __res_1845 = Convert.ToUInt16(__notNullable_1847);
             }
             return __res_1845;
         }
@@ -64,7 +64,7 @@ public partial class RTCPeerConnectionIceErrorEvent(JSObject obj): Event(obj)
         {
             ushort __res_1850;
             double __res_1851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
-            throw new Exception("Marshaller ToManaged from \"__res_1851\" to \"__res_1850\" not supported.");
+            __res_1850 = Convert.ToUInt16(__res_1851);
             return __res_1850;
         }
     }

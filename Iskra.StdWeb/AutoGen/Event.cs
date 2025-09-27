@@ -83,7 +83,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_3091;
             double __res_3092 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "eventPhase");
-            throw new Exception("Marshaller ToManaged from \"__res_3092\" to \"__res_3091\" not supported.");
+            __res_3091 = Convert.ToUInt16(__res_3092);
             return __res_3091;
         }
     }

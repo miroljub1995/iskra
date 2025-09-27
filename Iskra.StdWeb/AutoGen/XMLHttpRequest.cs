@@ -48,7 +48,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         {
             ushort __res_876;
             double __res_877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from \"__res_877\" to \"__res_876\" not supported.");
+            __res_876 = Convert.ToUInt16(__res_877);
             return __res_876;
         }
     }
@@ -115,7 +115,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         {
             ushort __res_888;
             double __res_889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from \"__res_889\" to \"__res_888\" not supported.");
+            __res_888 = Convert.ToUInt16(__res_889);
             return __res_888;
         }
     }

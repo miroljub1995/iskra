@@ -136,7 +136,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
         {
             ushort __res_7825;
             double __res_7826 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "buttons");
-            throw new Exception("Marshaller ToManaged from \"__res_7826\" to \"__res_7825\" not supported.");
+            __res_7825 = Convert.ToUInt16(__res_7826);
             return __res_7825;
         }
     }

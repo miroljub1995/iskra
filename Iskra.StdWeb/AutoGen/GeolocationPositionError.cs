@@ -15,7 +15,7 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_979;
             double __res_980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller ToManaged from \"__res_980\" to \"__res_979\" not supported.");
+            __res_979 = Convert.ToUInt16(__res_980);
             return __res_979;
         }
     }

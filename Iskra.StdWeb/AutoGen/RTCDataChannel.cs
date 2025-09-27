@@ -44,7 +44,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
             else
             {
                 double __notNullable_1953 = (double)__res_1952;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1953\" to \"__res_1951\" not supported.");
+                __res_1951 = Convert.ToUInt16(__notNullable_1953);
             }
             return __res_1951;
         }
@@ -63,7 +63,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
             else
             {
                 double __notNullable_1956 = (double)__res_1955;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1956\" to \"__res_1954\" not supported.");
+                __res_1954 = Convert.ToUInt16(__notNullable_1956);
             }
             return __res_1954;
         }
@@ -104,7 +104,7 @@ public partial class RTCDataChannel(JSObject obj): EventTarget(obj)
             else
             {
                 double __notNullable_1963 = (double)__res_1962;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1963\" to \"__res_1961\" not supported.");
+                __res_1961 = Convert.ToUInt16(__notNullable_1963);
             }
             return __res_1961;
         }

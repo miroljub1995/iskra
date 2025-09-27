@@ -15,7 +15,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_3333;
             double __res_3334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
-            throw new Exception("Marshaller ToManaged from \"__res_3334\" to \"__res_3333\" not supported.");
+            __res_3333 = Convert.ToUInt16(__res_3334);
             return __res_3333;
         }
     }

@@ -48,7 +48,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_3636;
             double __res_3637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from \"__res_3637\" to \"__res_3636\" not supported.");
+            __res_3636 = Convert.ToUInt16(__res_3637);
             return __res_3636;
         }
     }

@@ -37,7 +37,7 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_3409;
             double __res_3410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller ToManaged from \"__res_3410\" to \"__res_3409\" not supported.");
+            __res_3409 = Convert.ToUInt16(__res_3410);
             return __res_3409;
         }
     }

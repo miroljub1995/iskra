@@ -15,7 +15,7 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_256;
             double __res_257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            throw new Exception("Marshaller ToManaged from \"__res_257\" to \"__res_256\" not supported.");
+            __res_256 = Convert.ToUInt16(__res_257);
             return __res_256;
         }
     }

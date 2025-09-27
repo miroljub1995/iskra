@@ -15,7 +15,7 @@ public partial class Node(JSObject obj): EventTarget(obj)
         {
             ushort __res_3151;
             double __res_3152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nodeType");
-            throw new Exception("Marshaller ToManaged from \"__res_3152\" to \"__res_3151\" not supported.");
+            __res_3151 = Convert.ToUInt16(__res_3152);
             return __res_3151;
         }
     }

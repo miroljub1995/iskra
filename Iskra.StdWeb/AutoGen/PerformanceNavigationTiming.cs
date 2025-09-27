@@ -114,7 +114,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         {
             ushort __res_1295;
             double __res_1296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            throw new Exception("Marshaller ToManaged from \"__res_1296\" to \"__res_1295\" not supported.");
+            __res_1295 = Convert.ToUInt16(__res_1296);
             return __res_1295;
         }
     }

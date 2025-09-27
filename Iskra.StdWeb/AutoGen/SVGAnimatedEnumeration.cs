@@ -15,7 +15,7 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_284;
             double __res_285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            throw new Exception("Marshaller ToManaged from \"__res_285\" to \"__res_284\" not supported.");
+            __res_284 = Convert.ToUInt16(__res_285);
             return __res_284;
         }
         set
@@ -32,7 +32,7 @@ public partial class SVGAnimatedEnumeration(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_287;
             double __res_288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            throw new Exception("Marshaller ToManaged from \"__res_288\" to \"__res_287\" not supported.");
+            __res_287 = Convert.ToUInt16(__res_288);
             return __res_287;
         }
     }

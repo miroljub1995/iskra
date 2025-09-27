@@ -81,7 +81,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_4945;
             double __res_4946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            throw new Exception("Marshaller ToManaged from \"__res_4946\" to \"__res_4945\" not supported.");
+            __res_4945 = Convert.ToUInt16(__res_4946);
             return __res_4945;
         }
     }
@@ -92,7 +92,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_4947;
             double __res_4948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            throw new Exception("Marshaller ToManaged from \"__res_4948\" to \"__res_4947\" not supported.");
+            __res_4947 = Convert.ToUInt16(__res_4948);
             return __res_4947;
         }
     }

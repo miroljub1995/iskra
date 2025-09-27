@@ -55,7 +55,7 @@ public partial class RTCSctpTransport(JSObject obj): EventTarget(obj)
             else
             {
                 double __notNullable_1941 = (double)__res_1940;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1941\" to \"__res_1939\" not supported.");
+                __res_1939 = Convert.ToUInt16(__notNullable_1941);
             }
             return __res_1939;
         }

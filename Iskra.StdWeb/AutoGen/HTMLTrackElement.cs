@@ -100,7 +100,7 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
         {
             ushort __res_5522;
             double __res_5523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from \"__res_5523\" to \"__res_5522\" not supported.");
+            __res_5522 = Convert.ToUInt16(__res_5523);
             return __res_5522;
         }
     }

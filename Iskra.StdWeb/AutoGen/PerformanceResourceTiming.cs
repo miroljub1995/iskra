@@ -235,7 +235,7 @@ public partial class PerformanceResourceTiming(JSObject obj): PerformanceEntry(o
         {
             ushort __res_3040;
             double __res_3041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStatus");
-            throw new Exception("Marshaller ToManaged from \"__res_3041\" to \"__res_3040\" not supported.");
+            __res_3040 = Convert.ToUInt16(__res_3041);
             return __res_3040;
         }
     }

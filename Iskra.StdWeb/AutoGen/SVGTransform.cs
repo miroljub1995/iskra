@@ -15,7 +15,7 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_362;
             double __res_363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_363\" to \"__res_362\" not supported.");
+            __res_362 = Convert.ToUInt16(__res_363);
             return __res_362;
         }
     }

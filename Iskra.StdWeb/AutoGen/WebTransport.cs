@@ -54,7 +54,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
             else
             {
                 double __notNullable_2163 = (double)__res_2162;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2163\" to \"__res_2161\" not supported.");
+                __res_2161 = Convert.ToUInt16(__notNullable_2163);
             }
             return __res_2161;
         }
@@ -87,7 +87,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
             else
             {
                 double __notNullable_2168 = (double)__res_2167;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2168\" to \"__res_2166\" not supported.");
+                __res_2166 = Convert.ToUInt16(__notNullable_2168);
             }
             return __res_2166;
         }

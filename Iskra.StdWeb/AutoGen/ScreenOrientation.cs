@@ -26,7 +26,7 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
         {
             ushort __res_7918;
             double __res_7919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            throw new Exception("Marshaller ToManaged from \"__res_7919\" to \"__res_7918\" not supported.");
+            __res_7918 = Convert.ToUInt16(__res_7919);
             return __res_7918;
         }
     }

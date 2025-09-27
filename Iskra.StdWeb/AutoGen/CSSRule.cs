@@ -70,7 +70,7 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_7201;
             double __res_7202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_7202\" to \"__res_7201\" not supported.");
+            __res_7201 = Convert.ToUInt16(__res_7202);
             return __res_7201;
         }
     }

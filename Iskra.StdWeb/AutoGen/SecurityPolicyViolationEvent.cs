@@ -114,7 +114,7 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
         {
             ushort __res_5069;
             double __res_5070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "statusCode");
-            throw new Exception("Marshaller ToManaged from \"__res_5070\" to \"__res_5069\" not supported.");
+            __res_5069 = Convert.ToUInt16(__res_5070);
             return __res_5069;
         }
     }

@@ -37,7 +37,7 @@ public partial class EventSource(JSObject obj): EventTarget(obj)
         {
             ushort __res_6767;
             double __res_6768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from \"__res_6768\" to \"__res_6767\" not supported.");
+            __res_6767 = Convert.ToUInt16(__res_6768);
             return __res_6767;
         }
     }

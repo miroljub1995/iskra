@@ -26,7 +26,7 @@ public partial class WebSocket(JSObject obj): EventTarget(obj)
         {
             ushort __res_4640;
             double __res_4641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from \"__res_4641\" to \"__res_4640\" not supported.");
+            __res_4640 = Convert.ToUInt16(__res_4641);
             return __res_4640;
         }
     }

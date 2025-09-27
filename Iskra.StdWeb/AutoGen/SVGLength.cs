@@ -15,7 +15,7 @@ public partial class SVGLength(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_245;
             double __res_246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            throw new Exception("Marshaller ToManaged from \"__res_246\" to \"__res_245\" not supported.");
+            __res_245 = Convert.ToUInt16(__res_246);
             return __res_245;
         }
     }

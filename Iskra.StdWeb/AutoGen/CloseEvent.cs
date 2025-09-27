@@ -26,7 +26,7 @@ public partial class CloseEvent(JSObject obj): Event(obj)
         {
             ushort __res_4673;
             double __res_4674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            throw new Exception("Marshaller ToManaged from \"__res_4674\" to \"__res_4673\" not supported.");
+            __res_4673 = Convert.ToUInt16(__res_4674);
             return __res_4673;
         }
     }

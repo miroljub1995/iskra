@@ -15,7 +15,7 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_376;
             double __res_377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "align");
-            throw new Exception("Marshaller ToManaged from \"__res_377\" to \"__res_376\" not supported.");
+            __res_376 = Convert.ToUInt16(__res_377);
             return __res_376;
         }
         set
@@ -32,7 +32,7 @@ public partial class SVGPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
         {
             ushort __res_379;
             double __res_380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "meetOrSlice");
-            throw new Exception("Marshaller ToManaged from \"__res_380\" to \"__res_379\" not supported.");
+            __res_379 = Convert.ToUInt16(__res_380);
             return __res_379;
         }
         set
