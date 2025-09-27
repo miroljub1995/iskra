@@ -38,14 +38,14 @@ public partial class IDLTypeDescriptionMarshaller(
                          """;
             }
 
-            if (singleTypeDescription.IdlType is BuiltinTypes.Octet)
+            if (singleTypeDescription.IdlType is BuiltinTypes.Byte)
             {
                 return $$"""
                          {{outputVar}} = Convert.ToByte({{inputVar}});
                          """;
             }
 
-            if (singleTypeDescription.IdlType is BuiltinTypes.Byte)
+            if (singleTypeDescription.IdlType is BuiltinTypes.SignedByte)
             {
                 return $$"""
                          {{outputVar}} = Convert.ToSByte({{inputVar}});
@@ -59,28 +59,35 @@ public partial class IDLTypeDescriptionMarshaller(
                          """;
             }
 
-            if (singleTypeDescription.IdlType is BuiltinTypes.Long)
+            if (singleTypeDescription.IdlType is BuiltinTypes.UnsignedShort)
+            {
+                return $$"""
+                         {{outputVar}} = Convert.ToUInt16({{inputVar}});
+                         """;
+            }
+
+            if (singleTypeDescription.IdlType is BuiltinTypes.Int32)
             {
                 return $$"""
                          {{outputVar}} = Convert.ToInt32({{inputVar}});
                          """;
             }
 
-            if (singleTypeDescription.IdlType is BuiltinTypes.UnsignedLong)
+            if (singleTypeDescription.IdlType is BuiltinTypes.UnsignedInt32)
             {
                 return $$"""
                          {{outputVar}} = Convert.ToUInt32({{inputVar}});
                          """;
             }
 
-            if (singleTypeDescription.IdlType is BuiltinTypes.LongLong)
+            if (singleTypeDescription.IdlType is BuiltinTypes.Int64)
             {
                 return $$"""
                          {{outputVar}} = Convert.ToInt64({{inputVar}});
                          """;
             }
 
-            if (singleTypeDescription.IdlType is BuiltinTypes.UnsignedLongLong)
+            if (singleTypeDescription.IdlType is BuiltinTypes.UnsignedInt64)
             {
                 return $$"""
                          {{outputVar}} = Convert.ToUInt64({{inputVar}});
@@ -130,14 +137,14 @@ public partial class IDLTypeDescriptionMarshaller(
 
 
             if (singleTypeDescription.IdlType is
-                BuiltinTypes.Octet or
                 BuiltinTypes.Byte or
+                BuiltinTypes.SignedByte or
                 BuiltinTypes.Short or
                 BuiltinTypes.UnsignedShort or
-                BuiltinTypes.Long or
-                BuiltinTypes.UnsignedLong or
-                BuiltinTypes.LongLong or
-                BuiltinTypes.UnsignedLongLong or
+                BuiltinTypes.Int32 or
+                BuiltinTypes.UnsignedInt32 or
+                BuiltinTypes.Int64 or
+                BuiltinTypes.UnsignedInt64 or
                 BuiltinTypes.Float or
                 BuiltinTypes.UnrestrictedFloat
                )

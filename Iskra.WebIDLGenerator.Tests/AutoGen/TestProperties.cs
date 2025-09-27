@@ -9,218 +9,20 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
 {
-    public int IntProperty
-    {
-        get
-        {
-            int __res_0;
-            double __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "intProperty");
-            __res_0 = Convert.ToInt32(__res_1);
-            return __res_0;
-        }
-        set
-        {
-            double __marshalledValue_2;
-            __marshalledValue_2 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "intProperty", __marshalledValue_2);
-        }
-    }
-
-    public int IntPropertyReadOnly
-    {
-        get
-        {
-            int __res_3;
-            double __res_4 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "intPropertyReadOnly");
-            __res_3 = Convert.ToInt32(__res_4);
-            return __res_3;
-        }
-    }
-
-    public int? IntPropertyNullable
-    {
-        get
-        {
-            int? __res_5;
-            double? __res_6 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyNullable");
-            if (__res_6 is null)
-            {
-                __res_5 = null;
-            }
-            else
-            {
-                double __notNullable_7 = (double)__res_6;
-                __res_5 = Convert.ToInt32(__notNullable_7);
-            }
-            return __res_5;
-        }
-        set
-        {
-            double? __marshalledValue_8;
-            if (value is null)
-            {
-                __marshalledValue_8 = null;
-            }
-            else
-            {
-                int __notNullable_9 = (int)value;
-                __marshalledValue_8 = Convert.ToDouble(__notNullable_9);
-            }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyNullable", __marshalledValue_8);
-        }
-    }
-
-    public int? IntPropertyReadOnlyNullableAsNull
-    {
-        get
-        {
-            int? __res_10;
-            double? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyReadOnlyNullableAsNull");
-            if (__res_11 is null)
-            {
-                __res_10 = null;
-            }
-            else
-            {
-                double __notNullable_12 = (double)__res_11;
-                __res_10 = Convert.ToInt32(__notNullable_12);
-            }
-            return __res_10;
-        }
-    }
-
-    public int? IntPropertyReadOnlyNullableAsNotNull
-    {
-        get
-        {
-            int? __res_13;
-            double? __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "intPropertyReadOnlyNullableAsNotNull");
-            if (__res_14 is null)
-            {
-                __res_13 = null;
-            }
-            else
-            {
-                double __notNullable_15 = (double)__res_14;
-                __res_13 = Convert.ToInt32(__notNullable_15);
-            }
-            return __res_13;
-        }
-    }
-
-    public double DoubleProperty
-    {
-        get
-        {
-            double __res_16;
-            double __res_17 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doubleProperty");
-            __res_16 = __res_17;
-            return __res_16;
-        }
-        set
-        {
-            double __marshalledValue_18;
-            __marshalledValue_18 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "doubleProperty", __marshalledValue_18);
-        }
-    }
-
-    public double DoublePropertyReadOnly
-    {
-        get
-        {
-            double __res_19;
-            double __res_20 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doublePropertyReadOnly");
-            __res_19 = __res_20;
-            return __res_19;
-        }
-    }
-
-    public double? DoublePropertyNullable
-    {
-        get
-        {
-            double? __res_21;
-            double? __res_22 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable");
-            if (__res_22 is null)
-            {
-                __res_21 = null;
-            }
-            else
-            {
-                double __notNullable_23 = (double)__res_22;
-                __res_21 = __notNullable_23;
-            }
-            return __res_21;
-        }
-        set
-        {
-            double? __marshalledValue_24;
-            if (value is null)
-            {
-                __marshalledValue_24 = null;
-            }
-            else
-            {
-                double __notNullable_25 = (double)value;
-                __marshalledValue_24 = __notNullable_25;
-            }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable", __marshalledValue_24);
-        }
-    }
-
-    public double? DoublePropertyReadOnlyNullableAsNull
-    {
-        get
-        {
-            double? __res_26;
-            double? __res_27 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNull");
-            if (__res_27 is null)
-            {
-                __res_26 = null;
-            }
-            else
-            {
-                double __notNullable_28 = (double)__res_27;
-                __res_26 = __notNullable_28;
-            }
-            return __res_26;
-        }
-    }
-
-    public double? DoublePropertyReadOnlyNullableAsNotNull
-    {
-        get
-        {
-            double? __res_29;
-            double? __res_30 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNotNull");
-            if (__res_30 is null)
-            {
-                __res_29 = null;
-            }
-            else
-            {
-                double __notNullable_31 = (double)__res_30;
-                __res_29 = __notNullable_31;
-            }
-            return __res_29;
-        }
-    }
-
     public bool BoolProperty
     {
         get
         {
-            bool __res_32;
-            bool __res_33 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
-            __res_32 = __res_33;
-            return __res_32;
+            bool __res_0;
+            bool __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
+            __res_0 = __res_1;
+            return __res_0;
         }
         set
         {
-            bool __marshalledValue_34;
-            __marshalledValue_34 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "boolProperty", __marshalledValue_34);
+            bool __marshalledValue_2;
+            __marshalledValue_2 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "boolProperty", __marshalledValue_2);
         }
     }
 
@@ -228,10 +30,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_35;
-            bool __res_36 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
-            __res_35 = __res_36;
-            return __res_35;
+            bool __res_3;
+            bool __res_4 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
+            __res_3 = __res_4;
+            return __res_3;
         }
     }
 
@@ -239,32 +41,32 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_37;
-            bool? __res_38 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
-            if (__res_38 is null)
+            bool? __res_5;
+            bool? __res_6 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
+            if (__res_6 is null)
             {
-                __res_37 = null;
+                __res_5 = null;
             }
             else
             {
-                bool __notNullable_39 = (bool)__res_38;
-                __res_37 = __notNullable_39;
+                bool __notNullable_7 = (bool)__res_6;
+                __res_5 = __notNullable_7;
             }
-            return __res_37;
+            return __res_5;
         }
         set
         {
-            bool? __marshalledValue_40;
+            bool? __marshalledValue_8;
             if (value is null)
             {
-                __marshalledValue_40 = null;
+                __marshalledValue_8 = null;
             }
             else
             {
-                bool __notNullable_41 = (bool)value;
-                __marshalledValue_40 = __notNullable_41;
+                bool __notNullable_9 = (bool)value;
+                __marshalledValue_8 = __notNullable_9;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable", __marshalledValue_40);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable", __marshalledValue_8);
         }
     }
 
@@ -272,18 +74,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_42;
-            bool? __res_43 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
-            if (__res_43 is null)
+            bool? __res_10;
+            bool? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
+            if (__res_11 is null)
             {
-                __res_42 = null;
+                __res_10 = null;
             }
             else
             {
-                bool __notNullable_44 = (bool)__res_43;
-                __res_42 = __notNullable_44;
+                bool __notNullable_12 = (bool)__res_11;
+                __res_10 = __notNullable_12;
             }
-            return __res_42;
+            return __res_10;
         }
     }
 
@@ -291,18 +93,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_45;
-            bool? __res_46 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
-            if (__res_46 is null)
+            bool? __res_13;
+            bool? __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
+            if (__res_14 is null)
             {
-                __res_45 = null;
+                __res_13 = null;
             }
             else
             {
-                bool __notNullable_47 = (bool)__res_46;
-                __res_45 = __notNullable_47;
+                bool __notNullable_15 = (bool)__res_14;
+                __res_13 = __notNullable_15;
             }
-            return __res_45;
+            return __res_13;
         }
     }
 
@@ -310,18 +112,1206 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_48;
-            bool? __res_49 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
+            bool? __res_16;
+            bool? __res_17 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
+            if (__res_17 is null)
+            {
+                __res_16 = null;
+            }
+            else
+            {
+                bool __notNullable_18 = (bool)__res_17;
+                __res_16 = __notNullable_18;
+            }
+            return __res_16;
+        }
+    }
+
+    public byte ByteProperty
+    {
+        get
+        {
+            byte __res_19;
+            double __res_20 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteProperty");
+            __res_19 = Convert.ToByte(__res_20);
+            return __res_19;
+        }
+        set
+        {
+            double __marshalledValue_21;
+            __marshalledValue_21 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "byteProperty", __marshalledValue_21);
+        }
+    }
+
+    public byte BytePropertyReadOnly
+    {
+        get
+        {
+            byte __res_22;
+            double __res_23 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytePropertyReadOnly");
+            __res_22 = Convert.ToByte(__res_23);
+            return __res_22;
+        }
+    }
+
+    public byte? BytePropertyNullable
+    {
+        get
+        {
+            byte? __res_24;
+            double? __res_25 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyNullable");
+            if (__res_25 is null)
+            {
+                __res_24 = null;
+            }
+            else
+            {
+                double __notNullable_26 = (double)__res_25;
+                __res_24 = Convert.ToByte(__notNullable_26);
+            }
+            return __res_24;
+        }
+        set
+        {
+            double? __marshalledValue_27;
+            if (value is null)
+            {
+                __marshalledValue_27 = null;
+            }
+            else
+            {
+                byte __notNullable_28 = (byte)value;
+                __marshalledValue_27 = Convert.ToDouble(__notNullable_28);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyNullable", __marshalledValue_27);
+        }
+    }
+
+    public byte? BytePropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            byte? __res_29;
+            double? __res_30 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyReadOnlyNullableAsNull");
+            if (__res_30 is null)
+            {
+                __res_29 = null;
+            }
+            else
+            {
+                double __notNullable_31 = (double)__res_30;
+                __res_29 = Convert.ToByte(__notNullable_31);
+            }
+            return __res_29;
+        }
+    }
+
+    public byte? BytePropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            byte? __res_32;
+            double? __res_33 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyReadOnlyNullableAsNotNull");
+            if (__res_33 is null)
+            {
+                __res_32 = null;
+            }
+            else
+            {
+                double __notNullable_34 = (double)__res_33;
+                __res_32 = Convert.ToByte(__notNullable_34);
+            }
+            return __res_32;
+        }
+    }
+
+    public sbyte SignedByteProperty
+    {
+        get
+        {
+            sbyte __res_35;
+            double __res_36 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "signedByteProperty");
+            __res_35 = Convert.ToSByte(__res_36);
+            return __res_35;
+        }
+        set
+        {
+            double __marshalledValue_37;
+            __marshalledValue_37 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "signedByteProperty", __marshalledValue_37);
+        }
+    }
+
+    public sbyte SignedBytePropertyReadOnly
+    {
+        get
+        {
+            sbyte __res_38;
+            double __res_39 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "signedBytePropertyReadOnly");
+            __res_38 = Convert.ToSByte(__res_39);
+            return __res_38;
+        }
+    }
+
+    public sbyte? SignedBytePropertyNullable
+    {
+        get
+        {
+            sbyte? __res_40;
+            double? __res_41 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyNullable");
+            if (__res_41 is null)
+            {
+                __res_40 = null;
+            }
+            else
+            {
+                double __notNullable_42 = (double)__res_41;
+                __res_40 = Convert.ToSByte(__notNullable_42);
+            }
+            return __res_40;
+        }
+        set
+        {
+            double? __marshalledValue_43;
+            if (value is null)
+            {
+                __marshalledValue_43 = null;
+            }
+            else
+            {
+                sbyte __notNullable_44 = (sbyte)value;
+                __marshalledValue_43 = Convert.ToDouble(__notNullable_44);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyNullable", __marshalledValue_43);
+        }
+    }
+
+    public sbyte? SignedBytePropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            sbyte? __res_45;
+            double? __res_46 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyReadOnlyNullableAsNull");
+            if (__res_46 is null)
+            {
+                __res_45 = null;
+            }
+            else
+            {
+                double __notNullable_47 = (double)__res_46;
+                __res_45 = Convert.ToSByte(__notNullable_47);
+            }
+            return __res_45;
+        }
+    }
+
+    public sbyte? SignedBytePropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            sbyte? __res_48;
+            double? __res_49 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyReadOnlyNullableAsNotNull");
             if (__res_49 is null)
             {
                 __res_48 = null;
             }
             else
             {
-                bool __notNullable_50 = (bool)__res_49;
-                __res_48 = __notNullable_50;
+                double __notNullable_50 = (double)__res_49;
+                __res_48 = Convert.ToSByte(__notNullable_50);
             }
             return __res_48;
+        }
+    }
+
+    public short ShortProperty
+    {
+        get
+        {
+            short __res_51;
+            double __res_52 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shortProperty");
+            __res_51 = Convert.ToInt16(__res_52);
+            return __res_51;
+        }
+        set
+        {
+            double __marshalledValue_53;
+            __marshalledValue_53 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shortProperty", __marshalledValue_53);
+        }
+    }
+
+    public short ShortPropertyReadOnly
+    {
+        get
+        {
+            short __res_54;
+            double __res_55 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shortPropertyReadOnly");
+            __res_54 = Convert.ToInt16(__res_55);
+            return __res_54;
+        }
+    }
+
+    public short? ShortPropertyNullable
+    {
+        get
+        {
+            short? __res_56;
+            double? __res_57 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyNullable");
+            if (__res_57 is null)
+            {
+                __res_56 = null;
+            }
+            else
+            {
+                double __notNullable_58 = (double)__res_57;
+                __res_56 = Convert.ToInt16(__notNullable_58);
+            }
+            return __res_56;
+        }
+        set
+        {
+            double? __marshalledValue_59;
+            if (value is null)
+            {
+                __marshalledValue_59 = null;
+            }
+            else
+            {
+                short __notNullable_60 = (short)value;
+                __marshalledValue_59 = Convert.ToDouble(__notNullable_60);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyNullable", __marshalledValue_59);
+        }
+    }
+
+    public short? ShortPropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            short? __res_61;
+            double? __res_62 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyReadOnlyNullableAsNull");
+            if (__res_62 is null)
+            {
+                __res_61 = null;
+            }
+            else
+            {
+                double __notNullable_63 = (double)__res_62;
+                __res_61 = Convert.ToInt16(__notNullable_63);
+            }
+            return __res_61;
+        }
+    }
+
+    public short? ShortPropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            short? __res_64;
+            double? __res_65 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyReadOnlyNullableAsNotNull");
+            if (__res_65 is null)
+            {
+                __res_64 = null;
+            }
+            else
+            {
+                double __notNullable_66 = (double)__res_65;
+                __res_64 = Convert.ToInt16(__notNullable_66);
+            }
+            return __res_64;
+        }
+    }
+
+    public ushort UnsignedShortProperty
+    {
+        get
+        {
+            ushort __res_67;
+            double __res_68 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedShortProperty");
+            __res_67 = Convert.ToUInt16(__res_68);
+            return __res_67;
+        }
+        set
+        {
+            double __marshalledValue_69;
+            __marshalledValue_69 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "unsignedShortProperty", __marshalledValue_69);
+        }
+    }
+
+    public ushort UnsignedShortPropertyReadOnly
+    {
+        get
+        {
+            ushort __res_70;
+            double __res_71 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedShortPropertyReadOnly");
+            __res_70 = Convert.ToUInt16(__res_71);
+            return __res_70;
+        }
+    }
+
+    public ushort? UnsignedShortPropertyNullable
+    {
+        get
+        {
+            ushort? __res_72;
+            double? __res_73 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyNullable");
+            if (__res_73 is null)
+            {
+                __res_72 = null;
+            }
+            else
+            {
+                double __notNullable_74 = (double)__res_73;
+                __res_72 = Convert.ToUInt16(__notNullable_74);
+            }
+            return __res_72;
+        }
+        set
+        {
+            double? __marshalledValue_75;
+            if (value is null)
+            {
+                __marshalledValue_75 = null;
+            }
+            else
+            {
+                ushort __notNullable_76 = (ushort)value;
+                __marshalledValue_75 = Convert.ToDouble(__notNullable_76);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyNullable", __marshalledValue_75);
+        }
+    }
+
+    public ushort? UnsignedShortPropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            ushort? __res_77;
+            double? __res_78 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyReadOnlyNullableAsNull");
+            if (__res_78 is null)
+            {
+                __res_77 = null;
+            }
+            else
+            {
+                double __notNullable_79 = (double)__res_78;
+                __res_77 = Convert.ToUInt16(__notNullable_79);
+            }
+            return __res_77;
+        }
+    }
+
+    public ushort? UnsignedShortPropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            ushort? __res_80;
+            double? __res_81 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyReadOnlyNullableAsNotNull");
+            if (__res_81 is null)
+            {
+                __res_80 = null;
+            }
+            else
+            {
+                double __notNullable_82 = (double)__res_81;
+                __res_80 = Convert.ToUInt16(__notNullable_82);
+            }
+            return __res_80;
+        }
+    }
+
+    public int Int32Property
+    {
+        get
+        {
+            int __res_83;
+            double __res_84 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int32Property");
+            __res_83 = Convert.ToInt32(__res_84);
+            return __res_83;
+        }
+        set
+        {
+            double __marshalledValue_85;
+            __marshalledValue_85 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "int32Property", __marshalledValue_85);
+        }
+    }
+
+    public int Int32PropertyReadOnly
+    {
+        get
+        {
+            int __res_86;
+            double __res_87 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int32PropertyReadOnly");
+            __res_86 = Convert.ToInt32(__res_87);
+            return __res_86;
+        }
+    }
+
+    public int? Int32PropertyNullable
+    {
+        get
+        {
+            int? __res_88;
+            double? __res_89 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyNullable");
+            if (__res_89 is null)
+            {
+                __res_88 = null;
+            }
+            else
+            {
+                double __notNullable_90 = (double)__res_89;
+                __res_88 = Convert.ToInt32(__notNullable_90);
+            }
+            return __res_88;
+        }
+        set
+        {
+            double? __marshalledValue_91;
+            if (value is null)
+            {
+                __marshalledValue_91 = null;
+            }
+            else
+            {
+                int __notNullable_92 = (int)value;
+                __marshalledValue_91 = Convert.ToDouble(__notNullable_92);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyNullable", __marshalledValue_91);
+        }
+    }
+
+    public int? Int32PropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            int? __res_93;
+            double? __res_94 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyReadOnlyNullableAsNull");
+            if (__res_94 is null)
+            {
+                __res_93 = null;
+            }
+            else
+            {
+                double __notNullable_95 = (double)__res_94;
+                __res_93 = Convert.ToInt32(__notNullable_95);
+            }
+            return __res_93;
+        }
+    }
+
+    public int? Int32PropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            int? __res_96;
+            double? __res_97 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyReadOnlyNullableAsNotNull");
+            if (__res_97 is null)
+            {
+                __res_96 = null;
+            }
+            else
+            {
+                double __notNullable_98 = (double)__res_97;
+                __res_96 = Convert.ToInt32(__notNullable_98);
+            }
+            return __res_96;
+        }
+    }
+
+    public uint UnsignedInt32Property
+    {
+        get
+        {
+            uint __res_99;
+            double __res_100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt32Property");
+            __res_99 = Convert.ToUInt32(__res_100);
+            return __res_99;
+        }
+        set
+        {
+            double __marshalledValue_101;
+            __marshalledValue_101 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "unsignedInt32Property", __marshalledValue_101);
+        }
+    }
+
+    public uint UnsignedInt32PropertyReadOnly
+    {
+        get
+        {
+            uint __res_102;
+            double __res_103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt32PropertyReadOnly");
+            __res_102 = Convert.ToUInt32(__res_103);
+            return __res_102;
+        }
+    }
+
+    public uint? UnsignedInt32PropertyNullable
+    {
+        get
+        {
+            uint? __res_104;
+            double? __res_105 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyNullable");
+            if (__res_105 is null)
+            {
+                __res_104 = null;
+            }
+            else
+            {
+                double __notNullable_106 = (double)__res_105;
+                __res_104 = Convert.ToUInt32(__notNullable_106);
+            }
+            return __res_104;
+        }
+        set
+        {
+            double? __marshalledValue_107;
+            if (value is null)
+            {
+                __marshalledValue_107 = null;
+            }
+            else
+            {
+                uint __notNullable_108 = (uint)value;
+                __marshalledValue_107 = Convert.ToDouble(__notNullable_108);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyNullable", __marshalledValue_107);
+        }
+    }
+
+    public uint? UnsignedInt32PropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            uint? __res_109;
+            double? __res_110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyReadOnlyNullableAsNull");
+            if (__res_110 is null)
+            {
+                __res_109 = null;
+            }
+            else
+            {
+                double __notNullable_111 = (double)__res_110;
+                __res_109 = Convert.ToUInt32(__notNullable_111);
+            }
+            return __res_109;
+        }
+    }
+
+    public uint? UnsignedInt32PropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            uint? __res_112;
+            double? __res_113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyReadOnlyNullableAsNotNull");
+            if (__res_113 is null)
+            {
+                __res_112 = null;
+            }
+            else
+            {
+                double __notNullable_114 = (double)__res_113;
+                __res_112 = Convert.ToUInt32(__notNullable_114);
+            }
+            return __res_112;
+        }
+    }
+
+    public long Int64Property
+    {
+        get
+        {
+            long __res_115;
+            double __res_116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int64Property");
+            __res_115 = Convert.ToInt64(__res_116);
+            return __res_115;
+        }
+        set
+        {
+            double __marshalledValue_117;
+            __marshalledValue_117 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "int64Property", __marshalledValue_117);
+        }
+    }
+
+    public long Int64PropertyReadOnly
+    {
+        get
+        {
+            long __res_118;
+            double __res_119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int64PropertyReadOnly");
+            __res_118 = Convert.ToInt64(__res_119);
+            return __res_118;
+        }
+    }
+
+    public long? Int64PropertyNullable
+    {
+        get
+        {
+            long? __res_120;
+            double? __res_121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyNullable");
+            if (__res_121 is null)
+            {
+                __res_120 = null;
+            }
+            else
+            {
+                double __notNullable_122 = (double)__res_121;
+                __res_120 = Convert.ToInt64(__notNullable_122);
+            }
+            return __res_120;
+        }
+        set
+        {
+            double? __marshalledValue_123;
+            if (value is null)
+            {
+                __marshalledValue_123 = null;
+            }
+            else
+            {
+                long __notNullable_124 = (long)value;
+                __marshalledValue_123 = Convert.ToDouble(__notNullable_124);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyNullable", __marshalledValue_123);
+        }
+    }
+
+    public long? Int64PropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            long? __res_125;
+            double? __res_126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyReadOnlyNullableAsNull");
+            if (__res_126 is null)
+            {
+                __res_125 = null;
+            }
+            else
+            {
+                double __notNullable_127 = (double)__res_126;
+                __res_125 = Convert.ToInt64(__notNullable_127);
+            }
+            return __res_125;
+        }
+    }
+
+    public long? Int64PropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            long? __res_128;
+            double? __res_129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyReadOnlyNullableAsNotNull");
+            if (__res_129 is null)
+            {
+                __res_128 = null;
+            }
+            else
+            {
+                double __notNullable_130 = (double)__res_129;
+                __res_128 = Convert.ToInt64(__notNullable_130);
+            }
+            return __res_128;
+        }
+    }
+
+    public ulong UnsignedInt64Property
+    {
+        get
+        {
+            ulong __res_131;
+            double __res_132 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt64Property");
+            __res_131 = Convert.ToUInt64(__res_132);
+            return __res_131;
+        }
+        set
+        {
+            double __marshalledValue_133;
+            __marshalledValue_133 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "unsignedInt64Property", __marshalledValue_133);
+        }
+    }
+
+    public ulong UnsignedInt64PropertyReadOnly
+    {
+        get
+        {
+            ulong __res_134;
+            double __res_135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt64PropertyReadOnly");
+            __res_134 = Convert.ToUInt64(__res_135);
+            return __res_134;
+        }
+    }
+
+    public ulong? UnsignedInt64PropertyNullable
+    {
+        get
+        {
+            ulong? __res_136;
+            double? __res_137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyNullable");
+            if (__res_137 is null)
+            {
+                __res_136 = null;
+            }
+            else
+            {
+                double __notNullable_138 = (double)__res_137;
+                __res_136 = Convert.ToUInt64(__notNullable_138);
+            }
+            return __res_136;
+        }
+        set
+        {
+            double? __marshalledValue_139;
+            if (value is null)
+            {
+                __marshalledValue_139 = null;
+            }
+            else
+            {
+                ulong __notNullable_140 = (ulong)value;
+                __marshalledValue_139 = Convert.ToDouble(__notNullable_140);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyNullable", __marshalledValue_139);
+        }
+    }
+
+    public ulong? UnsignedInt64PropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            ulong? __res_141;
+            double? __res_142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyReadOnlyNullableAsNull");
+            if (__res_142 is null)
+            {
+                __res_141 = null;
+            }
+            else
+            {
+                double __notNullable_143 = (double)__res_142;
+                __res_141 = Convert.ToUInt64(__notNullable_143);
+            }
+            return __res_141;
+        }
+    }
+
+    public ulong? UnsignedInt64PropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            ulong? __res_144;
+            double? __res_145 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyReadOnlyNullableAsNotNull");
+            if (__res_145 is null)
+            {
+                __res_144 = null;
+            }
+            else
+            {
+                double __notNullable_146 = (double)__res_145;
+                __res_144 = Convert.ToUInt64(__notNullable_146);
+            }
+            return __res_144;
+        }
+    }
+
+    public float FloatProperty
+    {
+        get
+        {
+            float __res_147;
+            double __res_148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "floatProperty");
+            __res_147 = Convert.ToSingle(__res_148);
+            return __res_147;
+        }
+        set
+        {
+            double __marshalledValue_149;
+            __marshalledValue_149 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "floatProperty", __marshalledValue_149);
+        }
+    }
+
+    public float FloatPropertyReadOnly
+    {
+        get
+        {
+            float __res_150;
+            double __res_151 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "floatPropertyReadOnly");
+            __res_150 = Convert.ToSingle(__res_151);
+            return __res_150;
+        }
+    }
+
+    public float? FloatPropertyNullable
+    {
+        get
+        {
+            float? __res_152;
+            double? __res_153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyNullable");
+            if (__res_153 is null)
+            {
+                __res_152 = null;
+            }
+            else
+            {
+                double __notNullable_154 = (double)__res_153;
+                __res_152 = Convert.ToSingle(__notNullable_154);
+            }
+            return __res_152;
+        }
+        set
+        {
+            double? __marshalledValue_155;
+            if (value is null)
+            {
+                __marshalledValue_155 = null;
+            }
+            else
+            {
+                float __notNullable_156 = (float)value;
+                __marshalledValue_155 = Convert.ToDouble(__notNullable_156);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyNullable", __marshalledValue_155);
+        }
+    }
+
+    public float? FloatPropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            float? __res_157;
+            double? __res_158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyReadOnlyNullableAsNull");
+            if (__res_158 is null)
+            {
+                __res_157 = null;
+            }
+            else
+            {
+                double __notNullable_159 = (double)__res_158;
+                __res_157 = Convert.ToSingle(__notNullable_159);
+            }
+            return __res_157;
+        }
+    }
+
+    public float? FloatPropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            float? __res_160;
+            double? __res_161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyReadOnlyNullableAsNotNull");
+            if (__res_161 is null)
+            {
+                __res_160 = null;
+            }
+            else
+            {
+                double __notNullable_162 = (double)__res_161;
+                __res_160 = Convert.ToSingle(__notNullable_162);
+            }
+            return __res_160;
+        }
+    }
+
+    public float UnrestrictedFloatProperty
+    {
+        get
+        {
+            float __res_163;
+            double __res_164 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedFloatProperty");
+            __res_163 = Convert.ToSingle(__res_164);
+            return __res_163;
+        }
+        set
+        {
+            double __marshalledValue_165;
+            __marshalledValue_165 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "unrestrictedFloatProperty", __marshalledValue_165);
+        }
+    }
+
+    public float UnrestrictedFloatPropertyReadOnly
+    {
+        get
+        {
+            float __res_166;
+            double __res_167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedFloatPropertyReadOnly");
+            __res_166 = Convert.ToSingle(__res_167);
+            return __res_166;
+        }
+    }
+
+    public float? UnrestrictedFloatPropertyNullable
+    {
+        get
+        {
+            float? __res_168;
+            double? __res_169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyNullable");
+            if (__res_169 is null)
+            {
+                __res_168 = null;
+            }
+            else
+            {
+                double __notNullable_170 = (double)__res_169;
+                __res_168 = Convert.ToSingle(__notNullable_170);
+            }
+            return __res_168;
+        }
+        set
+        {
+            double? __marshalledValue_171;
+            if (value is null)
+            {
+                __marshalledValue_171 = null;
+            }
+            else
+            {
+                float __notNullable_172 = (float)value;
+                __marshalledValue_171 = Convert.ToDouble(__notNullable_172);
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyNullable", __marshalledValue_171);
+        }
+    }
+
+    public float? UnrestrictedFloatPropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            float? __res_173;
+            double? __res_174 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyReadOnlyNullableAsNull");
+            if (__res_174 is null)
+            {
+                __res_173 = null;
+            }
+            else
+            {
+                double __notNullable_175 = (double)__res_174;
+                __res_173 = Convert.ToSingle(__notNullable_175);
+            }
+            return __res_173;
+        }
+    }
+
+    public float? UnrestrictedFloatPropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            float? __res_176;
+            double? __res_177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyReadOnlyNullableAsNotNull");
+            if (__res_177 is null)
+            {
+                __res_176 = null;
+            }
+            else
+            {
+                double __notNullable_178 = (double)__res_177;
+                __res_176 = Convert.ToSingle(__notNullable_178);
+            }
+            return __res_176;
+        }
+    }
+
+    public double DoubleProperty
+    {
+        get
+        {
+            double __res_179;
+            double __res_180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doubleProperty");
+            __res_179 = __res_180;
+            return __res_179;
+        }
+        set
+        {
+            double __marshalledValue_181;
+            __marshalledValue_181 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "doubleProperty", __marshalledValue_181);
+        }
+    }
+
+    public double DoublePropertyReadOnly
+    {
+        get
+        {
+            double __res_182;
+            double __res_183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doublePropertyReadOnly");
+            __res_182 = __res_183;
+            return __res_182;
+        }
+    }
+
+    public double? DoublePropertyNullable
+    {
+        get
+        {
+            double? __res_184;
+            double? __res_185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable");
+            if (__res_185 is null)
+            {
+                __res_184 = null;
+            }
+            else
+            {
+                double __notNullable_186 = (double)__res_185;
+                __res_184 = __notNullable_186;
+            }
+            return __res_184;
+        }
+        set
+        {
+            double? __marshalledValue_187;
+            if (value is null)
+            {
+                __marshalledValue_187 = null;
+            }
+            else
+            {
+                double __notNullable_188 = (double)value;
+                __marshalledValue_187 = __notNullable_188;
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable", __marshalledValue_187);
+        }
+    }
+
+    public double? DoublePropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            double? __res_189;
+            double? __res_190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNull");
+            if (__res_190 is null)
+            {
+                __res_189 = null;
+            }
+            else
+            {
+                double __notNullable_191 = (double)__res_190;
+                __res_189 = __notNullable_191;
+            }
+            return __res_189;
+        }
+    }
+
+    public double? DoublePropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            double? __res_192;
+            double? __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNotNull");
+            if (__res_193 is null)
+            {
+                __res_192 = null;
+            }
+            else
+            {
+                double __notNullable_194 = (double)__res_193;
+                __res_192 = __notNullable_194;
+            }
+            return __res_192;
+        }
+    }
+
+    public double UnrestrictedDoubleProperty
+    {
+        get
+        {
+            double __res_195;
+            double __res_196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedDoubleProperty");
+            __res_195 = __res_196;
+            return __res_195;
+        }
+        set
+        {
+            double __marshalledValue_197;
+            __marshalledValue_197 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "unrestrictedDoubleProperty", __marshalledValue_197);
+        }
+    }
+
+    public double UnrestrictedDoublePropertyReadOnly
+    {
+        get
+        {
+            double __res_198;
+            double __res_199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedDoublePropertyReadOnly");
+            __res_198 = __res_199;
+            return __res_198;
+        }
+    }
+
+    public double? UnrestrictedDoublePropertyNullable
+    {
+        get
+        {
+            double? __res_200;
+            double? __res_201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyNullable");
+            if (__res_201 is null)
+            {
+                __res_200 = null;
+            }
+            else
+            {
+                double __notNullable_202 = (double)__res_201;
+                __res_200 = __notNullable_202;
+            }
+            return __res_200;
+        }
+        set
+        {
+            double? __marshalledValue_203;
+            if (value is null)
+            {
+                __marshalledValue_203 = null;
+            }
+            else
+            {
+                double __notNullable_204 = (double)value;
+                __marshalledValue_203 = __notNullable_204;
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyNullable", __marshalledValue_203);
+        }
+    }
+
+    public double? UnrestrictedDoublePropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            double? __res_205;
+            double? __res_206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyReadOnlyNullableAsNull");
+            if (__res_206 is null)
+            {
+                __res_205 = null;
+            }
+            else
+            {
+                double __notNullable_207 = (double)__res_206;
+                __res_205 = __notNullable_207;
+            }
+            return __res_205;
+        }
+    }
+
+    public double? UnrestrictedDoublePropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            double? __res_208;
+            double? __res_209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyReadOnlyNullableAsNotNull");
+            if (__res_209 is null)
+            {
+                __res_208 = null;
+            }
+            else
+            {
+                double __notNullable_210 = (double)__res_209;
+                __res_208 = __notNullable_210;
+            }
+            return __res_208;
         }
     }
 
@@ -329,16 +1319,16 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_51;
-            string __res_52 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringProperty");
-            __res_51 = __res_52;
-            return __res_51;
+            string __res_211;
+            string __res_212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringProperty");
+            __res_211 = __res_212;
+            return __res_211;
         }
         set
         {
-            string __marshalledValue_53;
-            __marshalledValue_53 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "stringProperty", __marshalledValue_53);
+            string __marshalledValue_213;
+            __marshalledValue_213 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "stringProperty", __marshalledValue_213);
         }
     }
 
@@ -346,10 +1336,10 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_54;
-            string __res_55 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringPropertyReadOnly");
-            __res_54 = __res_55;
-            return __res_54;
+            string __res_214;
+            string __res_215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringPropertyReadOnly");
+            __res_214 = __res_215;
+            return __res_214;
         }
     }
 
@@ -357,32 +1347,32 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_56;
-            string? __res_57 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable");
-            if (__res_57 is null)
+            string? __res_216;
+            string? __res_217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable");
+            if (__res_217 is null)
             {
-                __res_56 = null;
+                __res_216 = null;
             }
             else
             {
-                string __notNullable_58 = (string)__res_57;
-                __res_56 = __notNullable_58;
+                string __notNullable_218 = (string)__res_217;
+                __res_216 = __notNullable_218;
             }
-            return __res_56;
+            return __res_216;
         }
         set
         {
-            string? __marshalledValue_59;
+            string? __marshalledValue_219;
             if (value is null)
             {
-                __marshalledValue_59 = null;
+                __marshalledValue_219 = null;
             }
             else
             {
-                string __notNullable_60 = (string)value;
-                __marshalledValue_59 = __notNullable_60;
+                string __notNullable_220 = (string)value;
+                __marshalledValue_219 = __notNullable_220;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable", __marshalledValue_59);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable", __marshalledValue_219);
         }
     }
 
@@ -390,18 +1380,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_61;
-            string? __res_62 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNull");
-            if (__res_62 is null)
+            string? __res_221;
+            string? __res_222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNull");
+            if (__res_222 is null)
             {
-                __res_61 = null;
+                __res_221 = null;
             }
             else
             {
-                string __notNullable_63 = (string)__res_62;
-                __res_61 = __notNullable_63;
+                string __notNullable_223 = (string)__res_222;
+                __res_221 = __notNullable_223;
             }
-            return __res_61;
+            return __res_221;
         }
     }
 
@@ -409,18 +1399,18 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_64;
-            string? __res_65 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNotNull");
-            if (__res_65 is null)
+            string? __res_224;
+            string? __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNotNull");
+            if (__res_225 is null)
             {
-                __res_64 = null;
+                __res_224 = null;
             }
             else
             {
-                string __notNullable_66 = (string)__res_65;
-                __res_64 = __notNullable_66;
+                string __notNullable_226 = (string)__res_225;
+                __res_224 = __notNullable_226;
             }
-            return __res_64;
+            return __res_224;
         }
     }
 
@@ -428,18 +1418,117 @@ public partial class TestProperties(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_67;
-            string? __res_68 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsEmpty");
-            if (__res_68 is null)
+            string? __res_227;
+            string? __res_228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsEmpty");
+            if (__res_228 is null)
             {
-                __res_67 = null;
+                __res_227 = null;
             }
             else
             {
-                string __notNullable_69 = (string)__res_68;
-                __res_67 = __notNullable_69;
+                string __notNullable_229 = (string)__res_228;
+                __res_227 = __notNullable_229;
             }
-            return __res_67;
+            return __res_227;
+        }
+    }
+
+    public JSObject ObjectProperty
+    {
+        get
+        {
+            JSObject __res_230;
+            JSObject __res_231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectProperty");
+            __res_230 = __res_231;
+            return __res_230;
+        }
+        set
+        {
+            JSObject __marshalledValue_232;
+            __marshalledValue_232 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "objectProperty", __marshalledValue_232);
+        }
+    }
+
+    public JSObject ObjectPropertyReadOnly
+    {
+        get
+        {
+            JSObject __res_233;
+            JSObject __res_234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectPropertyReadOnly");
+            __res_233 = __res_234;
+            return __res_233;
+        }
+    }
+
+    public JSObject? ObjectPropertyNullable
+    {
+        get
+        {
+            JSObject? __res_235;
+            JSObject? __res_236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyNullable");
+            if (__res_236 is null)
+            {
+                __res_235 = null;
+            }
+            else
+            {
+                JSObject __notNullable_237 = (JSObject)__res_236;
+                __res_235 = __notNullable_237;
+            }
+            return __res_235;
+        }
+        set
+        {
+            JSObject? __marshalledValue_238;
+            if (value is null)
+            {
+                __marshalledValue_238 = null;
+            }
+            else
+            {
+                JSObject __notNullable_239 = (JSObject)value;
+                __marshalledValue_238 = __notNullable_239;
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyNullable", __marshalledValue_238);
+        }
+    }
+
+    public JSObject? ObjectPropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            JSObject? __res_240;
+            JSObject? __res_241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyReadOnlyNullableAsNull");
+            if (__res_241 is null)
+            {
+                __res_240 = null;
+            }
+            else
+            {
+                JSObject __notNullable_242 = (JSObject)__res_241;
+                __res_240 = __notNullable_242;
+            }
+            return __res_240;
+        }
+    }
+
+    public JSObject? ObjectPropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            JSObject? __res_243;
+            JSObject? __res_244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyReadOnlyNullableAsNotNull");
+            if (__res_244 is null)
+            {
+                __res_243 = null;
+            }
+            else
+            {
+                JSObject __notNullable_245 = (JSObject)__res_244;
+                __res_243 = __notNullable_245;
+            }
+            return __res_243;
         }
     }
 }

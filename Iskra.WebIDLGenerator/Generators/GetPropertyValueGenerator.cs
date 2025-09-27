@@ -101,14 +101,14 @@ public class GetPropertyValueGenerator(
             }
         }
         else if (type.IdlType is
-                 BuiltinTypes.Octet or
                  BuiltinTypes.Byte or
+                 BuiltinTypes.SignedByte or
                  BuiltinTypes.Short or
                  BuiltinTypes.UnsignedShort or
-                 BuiltinTypes.Long or
-                 BuiltinTypes.UnsignedLong or
-                 BuiltinTypes.LongLong or
-                 BuiltinTypes.UnsignedLongLong or
+                 BuiltinTypes.Int32 or
+                 BuiltinTypes.UnsignedInt32 or
+                 BuiltinTypes.Int64 or
+                 BuiltinTypes.UnsignedInt64 or
                  BuiltinTypes.Float or
                  BuiltinTypes.UnrestrictedFloat or
                  BuiltinTypes.Double or
