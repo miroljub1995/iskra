@@ -15,7 +15,7 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         {
             Iskra.StdWeb.XRLayerLayout __res_1456;
             JSObject __res_1457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layout");
-            throw new Exception("Marshaller ToManaged from \"__res_1457\" to \"__res_1456\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayerLayout } not supported.");
             return __res_1456;
         }
     }
@@ -88,13 +88,13 @@ public partial class XRCompositionLayer(JSObject obj): XRLayer(obj)
         {
             Iskra.StdWeb.XRLayerQuality __res_1469;
             JSObject __res_1470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "quality");
-            throw new Exception("Marshaller ToManaged from \"__res_1470\" to \"__res_1469\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayerQuality } not supported.");
             return __res_1469;
         }
         set
         {
             JSObject __marshalledValue_1471;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1471\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayerQuality } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "quality", __marshalledValue_1471);
         }
     }

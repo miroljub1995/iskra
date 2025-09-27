@@ -32,13 +32,13 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.HighlightType __res_1048;
             JSObject __res_1049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_1049\" to \"__res_1048\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HighlightType } not supported.");
             return __res_1048;
         }
         set
         {
             JSObject __marshalledValue_1050;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1050\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HighlightType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_1050);
         }
     }

@@ -15,7 +15,7 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
         {
             Iskra.StdWeb.SpatialNavigationDirection __res_5077;
             JSObject __res_5078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
-            throw new Exception("Marshaller ToManaged from \"__res_5078\" to \"__res_5077\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpatialNavigationDirection } not supported.");
             return __res_5077;
         }
     }
@@ -33,7 +33,7 @@ public partial class NavigationEvent(JSObject obj): UIEvent(obj)
             else
             {
                 JSObject __notNullable_5081 = (JSObject)__res_5080;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5081\" to \"__res_5079\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
             return __res_5079;
         }

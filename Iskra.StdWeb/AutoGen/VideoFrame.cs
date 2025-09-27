@@ -22,7 +22,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2591 = (JSObject)__res_2590;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2591\" to \"__res_2589\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoPixelFormat } not supported.");
             }
             return __res_2589;
         }
@@ -63,7 +63,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2598 = (JSObject)__res_2597;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2598\" to \"__res_2596\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             }
             return __res_2596;
         }
@@ -82,7 +82,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2601 = (JSObject)__res_2600;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2601\" to \"__res_2599\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             }
             return __res_2599;
         }
@@ -168,7 +168,7 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.VideoColorSpace __res_2615;
             JSObject __res_2616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
-            throw new Exception("Marshaller ToManaged from \"__res_2616\" to \"__res_2615\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoColorSpace } not supported.");
             return __res_2615;
         }
     }

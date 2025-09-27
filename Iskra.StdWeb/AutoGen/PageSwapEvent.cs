@@ -22,7 +22,7 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6680 = (JSObject)__res_6679;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6680\" to \"__res_6678\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationActivation } not supported.");
             }
             return __res_6678;
         }
@@ -41,7 +41,7 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6683 = (JSObject)__res_6682;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6683\" to \"__res_6681\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransition } not supported.");
             }
             return __res_6681;
         }

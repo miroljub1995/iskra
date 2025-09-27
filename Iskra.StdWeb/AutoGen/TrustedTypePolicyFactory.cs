@@ -15,7 +15,7 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.TrustedHTML __res_1051;
             JSObject __res_1052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
-            throw new Exception("Marshaller ToManaged from \"__res_1052\" to \"__res_1051\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TrustedHTML } not supported.");
             return __res_1051;
         }
     }
@@ -26,7 +26,7 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.TrustedScript __res_1053;
             JSObject __res_1054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
-            throw new Exception("Marshaller ToManaged from \"__res_1054\" to \"__res_1053\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TrustedScript } not supported.");
             return __res_1053;
         }
     }
@@ -44,7 +44,7 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1057 = (JSObject)__res_1056;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1057\" to \"__res_1055\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TrustedTypePolicy } not supported.");
             }
             return __res_1055;
         }

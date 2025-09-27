@@ -15,7 +15,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_444;
             JSObject __res_445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller ToManaged from \"__res_445\" to \"__res_444\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_444;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_446;
             JSObject __res_447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller ToManaged from \"__res_447\" to \"__res_446\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_446;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_448;
             JSObject __res_449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            throw new Exception("Marshaller ToManaged from \"__res_449\" to \"__res_448\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_448;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_450;
             JSObject __res_451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            throw new Exception("Marshaller ToManaged from \"__res_451\" to \"__res_450\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_450;
         }
     }
@@ -59,7 +59,7 @@ public partial class SVGImageElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_452;
             JSObject __res_453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
-            throw new Exception("Marshaller ToManaged from \"__res_453\" to \"__res_452\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedPreserveAspectRatio } not supported.");
             return __res_452;
         }
     }

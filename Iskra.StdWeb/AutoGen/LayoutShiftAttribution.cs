@@ -22,7 +22,7 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2995 = (JSObject)__res_2994;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2995\" to \"__res_2993\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_2993;
         }
@@ -34,7 +34,7 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMRectReadOnly __res_2996;
             JSObject __res_2997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
-            throw new Exception("Marshaller ToManaged from \"__res_2997\" to \"__res_2996\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             return __res_2996;
         }
     }
@@ -45,7 +45,7 @@ public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMRectReadOnly __res_2998;
             JSObject __res_2999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
-            throw new Exception("Marshaller ToManaged from \"__res_2999\" to \"__res_2998\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             return __res_2998;
         }
     }

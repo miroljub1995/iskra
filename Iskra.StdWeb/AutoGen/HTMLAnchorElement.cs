@@ -83,7 +83,7 @@ public partial class HTMLAnchorElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.DOMTokenList __res_5320;
             JSObject __res_5321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
-            throw new Exception("Marshaller ToManaged from \"__res_5321\" to \"__res_5320\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
             return __res_5320;
         }
     }

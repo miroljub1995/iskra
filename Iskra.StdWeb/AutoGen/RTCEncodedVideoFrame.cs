@@ -15,7 +15,7 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.RTCEncodedVideoFrameType __res_993;
             JSObject __res_994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_994\" to \"__res_993\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCEncodedVideoFrameType } not supported.");
             return __res_993;
         }
     }
@@ -26,13 +26,13 @@ public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.JSCore.ArrayBuffer __res_995;
             JSObject __res_996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new Exception("Marshaller ToManaged from \"__res_996\" to \"__res_995\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             return __res_995;
         }
         set
         {
             JSObject __marshalledValue_997;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_997\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_997);
         }
     }

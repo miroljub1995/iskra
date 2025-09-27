@@ -22,7 +22,7 @@ public partial class USB(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4900 = (JSObject)__res_4899;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4900\" to \"__res_4898\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4898;
         }
@@ -36,7 +36,7 @@ public partial class USB(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4902 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4902\" to \"__marshalledValue_4901\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_4901);
         }
@@ -55,7 +55,7 @@ public partial class USB(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4905 = (JSObject)__res_4904;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4905\" to \"__res_4903\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4903;
         }
@@ -69,7 +69,7 @@ public partial class USB(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4907 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4907\" to \"__marshalledValue_4906\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_4906);
         }

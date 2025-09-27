@@ -22,7 +22,7 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
             else
             {
                 JSObject __notNullable_1413 = (JSObject)__res_1412;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1413\" to \"__res_1411\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_1411;
         }
@@ -36,7 +36,7 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
             else
             {
                 Iskra.StdWeb.Element __notNullable_1415 = (Iskra.StdWeb.Element)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1415\" to \"__marshalledValue_1414\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_1414);
         }
@@ -81,13 +81,13 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
         {
             Iskra.StdWeb.CompositeOperation __res_1421;
             JSObject __res_1422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
-            throw new Exception("Marshaller ToManaged from \"__res_1422\" to \"__res_1421\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CompositeOperation } not supported.");
             return __res_1421;
         }
         set
         {
             JSObject __marshalledValue_1423;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1423\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CompositeOperation } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "composite", __marshalledValue_1423);
         }
     }

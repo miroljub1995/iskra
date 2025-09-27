@@ -45,7 +45,7 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.PushSubscriptionOptions __res_4884;
             JSObject __res_4885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller ToManaged from \"__res_4885\" to \"__res_4884\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscriptionOptions } not supported.");
             return __res_4884;
         }
     }

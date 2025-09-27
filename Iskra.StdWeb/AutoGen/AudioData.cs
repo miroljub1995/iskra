@@ -22,7 +22,7 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2578 = (JSObject)__res_2577;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2578\" to \"__res_2576\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioSampleFormat } not supported.");
             }
             return __res_2576;
         }

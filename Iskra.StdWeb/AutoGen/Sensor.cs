@@ -63,7 +63,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4548 = (JSObject)__res_4547;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4548\" to \"__res_4546\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4546;
         }
@@ -77,7 +77,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4550 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4550\" to \"__marshalledValue_4549\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_4549);
         }
@@ -96,7 +96,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4553 = (JSObject)__res_4552;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4553\" to \"__res_4551\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4551;
         }
@@ -110,7 +110,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4555 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4555\" to \"__marshalledValue_4554\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate", __marshalledValue_4554);
         }
@@ -129,7 +129,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4558 = (JSObject)__res_4557;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4558\" to \"__res_4556\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4556;
         }
@@ -143,7 +143,7 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4560 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4560\" to \"__marshalledValue_4559\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_4559);
         }

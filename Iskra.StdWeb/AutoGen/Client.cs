@@ -26,7 +26,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.FrameType __res_4489;
             JSObject __res_4490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frameType");
-            throw new Exception("Marshaller ToManaged from \"__res_4490\" to \"__res_4489\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FrameType } not supported.");
             return __res_4489;
         }
     }
@@ -48,7 +48,7 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ClientType __res_4493;
             JSObject __res_4494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_4494\" to \"__res_4493\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ClientType } not supported.");
             return __res_4493;
         }
     }

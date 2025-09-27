@@ -15,7 +15,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1265;
             JSObject __res_1266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseFrequencyX");
-            throw new Exception("Marshaller ToManaged from \"__res_1266\" to \"__res_1265\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1265;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1267;
             JSObject __res_1268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseFrequencyY");
-            throw new Exception("Marshaller ToManaged from \"__res_1268\" to \"__res_1267\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1267;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedInteger __res_1269;
             JSObject __res_1270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "numOctaves");
-            throw new Exception("Marshaller ToManaged from \"__res_1270\" to \"__res_1269\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedInteger } not supported.");
             return __res_1269;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1271;
             JSObject __res_1272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seed");
-            throw new Exception("Marshaller ToManaged from \"__res_1272\" to \"__res_1271\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1271;
         }
     }
@@ -59,7 +59,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_1273;
             JSObject __res_1274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stitchTiles");
-            throw new Exception("Marshaller ToManaged from \"__res_1274\" to \"__res_1273\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_1273;
         }
     }
@@ -70,7 +70,7 @@ public partial class SVGFETurbulenceElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_1275;
             JSObject __res_1276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_1276\" to \"__res_1275\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_1275;
         }
     }

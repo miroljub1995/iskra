@@ -22,7 +22,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1436 = (JSObject)__res_1435;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1436\" to \"__res_1434\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1434;
         }
@@ -36,7 +36,7 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1438 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1438\" to \"__marshalledValue_1437\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport", __marshalledValue_1437);
         }

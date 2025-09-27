@@ -44,7 +44,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2039 = (JSObject)__res_2038;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2039\" to \"__res_2037\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_2037;
         }
@@ -63,7 +63,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2042 = (JSObject)__res_2041;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2042\" to \"__res_2040\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_2040;
         }
@@ -82,7 +82,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2045 = (JSObject)__res_2044;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2045\" to \"__res_2043\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_2043;
         }
@@ -101,7 +101,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2048 = (JSObject)__res_2047;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2048\" to \"__res_2046\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_2046;
         }
@@ -120,7 +120,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2051 = (JSObject)__res_2050;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2051\" to \"__res_2049\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_2049;
         }
@@ -139,7 +139,7 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2054 = (JSObject)__res_2053;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2054\" to \"__res_2052\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_2052;
         }

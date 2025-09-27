@@ -26,7 +26,7 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AbortSignal __res_4871;
             JSObject __res_4872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            throw new Exception("Marshaller ToManaged from \"__res_4872\" to \"__res_4871\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AbortSignal } not supported.");
             return __res_4871;
         }
     }

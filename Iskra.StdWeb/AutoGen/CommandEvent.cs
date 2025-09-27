@@ -22,7 +22,7 @@ public partial class CommandEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6442 = (JSObject)__res_6441;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6442\" to \"__res_6440\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_6440;
         }

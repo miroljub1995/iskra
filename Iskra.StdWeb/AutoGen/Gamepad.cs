@@ -59,7 +59,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GamepadMappingType __res_4721;
             JSObject __res_4722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapping");
-            throw new Exception("Marshaller ToManaged from \"__res_4722\" to \"__res_4721\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadMappingType } not supported.");
             return __res_4721;
         }
     }
@@ -100,7 +100,7 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GamepadHapticActuator __res_4726;
             JSObject __res_4727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
-            throw new Exception("Marshaller ToManaged from \"__res_4727\" to \"__res_4726\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadHapticActuator } not supported.");
             return __res_4726;
         }
     }

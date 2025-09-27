@@ -22,7 +22,7 @@ public partial class FocusEvent(JSObject obj): UIEvent(obj)
             else
             {
                 JSObject __notNullable_7802 = (JSObject)__res_7801;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7802\" to \"__res_7800\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
             return __res_7800;
         }

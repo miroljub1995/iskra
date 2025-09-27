@@ -15,7 +15,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedString __res_1213;
             JSObject __res_1214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller ToManaged from \"__res_1214\" to \"__res_1213\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
             return __res_1213;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1215;
             JSObject __res_1216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
-            throw new Exception("Marshaller ToManaged from \"__res_1216\" to \"__res_1215\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1215;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1217;
             JSObject __res_1218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
-            throw new Exception("Marshaller ToManaged from \"__res_1218\" to \"__res_1217\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1217;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1219;
             JSObject __res_1220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
-            throw new Exception("Marshaller ToManaged from \"__res_1220\" to \"__res_1219\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1219;
         }
     }
@@ -59,7 +59,7 @@ public partial class SVGFEDropShadowElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1221;
             JSObject __res_1222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
-            throw new Exception("Marshaller ToManaged from \"__res_1222\" to \"__res_1221\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1221;
         }
     }

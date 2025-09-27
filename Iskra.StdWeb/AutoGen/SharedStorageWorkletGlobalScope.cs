@@ -15,7 +15,7 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
         {
             Iskra.StdWeb.SharedStorage __res_4095;
             JSObject __res_4096 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
-            throw new Exception("Marshaller ToManaged from \"__res_4096\" to \"__res_4095\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorage } not supported.");
             return __res_4095;
         }
     }
@@ -26,7 +26,7 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
         {
             Iskra.StdWeb.PrivateAggregation __res_4097;
             JSObject __res_4098 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
-            throw new Exception("Marshaller ToManaged from \"__res_4098\" to \"__res_4097\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
             return __res_4097;
         }
     }
@@ -37,7 +37,7 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
         {
             Iskra.StdWeb.SharedStorageWorkletNavigator __res_4099;
             JSObject __res_4100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
-            throw new Exception("Marshaller ToManaged from \"__res_4100\" to \"__res_4099\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorageWorkletNavigator } not supported.");
             return __res_4099;
         }
     }

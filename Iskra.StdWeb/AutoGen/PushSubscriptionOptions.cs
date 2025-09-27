@@ -33,7 +33,7 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_4878 = (JSObject)__res_4877;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4878\" to \"__res_4876\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
             return __res_4876;
         }

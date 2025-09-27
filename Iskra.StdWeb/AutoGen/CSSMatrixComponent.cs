@@ -15,13 +15,13 @@ public partial class CSSMatrixComponent(JSObject obj): CSSTransformComponent(obj
         {
             Iskra.StdWeb.DOMMatrix __res_106;
             JSObject __res_107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            throw new Exception("Marshaller ToManaged from \"__res_107\" to \"__res_106\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMMatrix } not supported.");
             return __res_106;
         }
         set
         {
             JSObject __marshalledValue_108;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_108\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMMatrix } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_108);
         }
     }

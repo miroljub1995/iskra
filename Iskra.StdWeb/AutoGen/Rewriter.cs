@@ -26,7 +26,7 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.RewriterTone __res_183;
             JSObject __res_184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
-            throw new Exception("Marshaller ToManaged from \"__res_184\" to \"__res_183\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterTone } not supported.");
             return __res_183;
         }
     }
@@ -37,7 +37,7 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.RewriterFormat __res_185;
             JSObject __res_186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller ToManaged from \"__res_186\" to \"__res_185\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterFormat } not supported.");
             return __res_185;
         }
     }
@@ -48,7 +48,7 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.RewriterLength __res_187;
             JSObject __res_188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller ToManaged from \"__res_188\" to \"__res_187\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterLength } not supported.");
             return __res_187;
         }
     }

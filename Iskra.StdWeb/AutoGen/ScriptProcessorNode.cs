@@ -22,7 +22,7 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
             else
             {
                 JSObject __notNullable_8175 = (JSObject)__res_8174;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_8175\" to \"__res_8173\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_8173;
         }
@@ -36,7 +36,7 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_8177 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_8177\" to \"__marshalledValue_8176\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_8176);
         }

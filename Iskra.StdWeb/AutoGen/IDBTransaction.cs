@@ -15,7 +15,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.DOMStringList __res_7668;
             JSObject __res_7669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStoreNames");
-            throw new Exception("Marshaller ToManaged from \"__res_7669\" to \"__res_7668\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMStringList } not supported.");
             return __res_7668;
         }
     }
@@ -26,7 +26,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.IDBTransactionMode __res_7670;
             JSObject __res_7671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from \"__res_7671\" to \"__res_7670\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBTransactionMode } not supported.");
             return __res_7670;
         }
     }
@@ -37,7 +37,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.IDBTransactionDurability __res_7672;
             JSObject __res_7673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "durability");
-            throw new Exception("Marshaller ToManaged from \"__res_7673\" to \"__res_7672\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBTransactionDurability } not supported.");
             return __res_7672;
         }
     }
@@ -48,7 +48,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.IDBDatabase __res_7674;
             JSObject __res_7675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "db");
-            throw new Exception("Marshaller ToManaged from \"__res_7675\" to \"__res_7674\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBDatabase } not supported.");
             return __res_7674;
         }
     }
@@ -66,7 +66,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7678 = (JSObject)__res_7677;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7678\" to \"__res_7676\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMException } not supported.");
             }
             return __res_7676;
         }
@@ -85,7 +85,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7681 = (JSObject)__res_7680;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7681\" to \"__res_7679\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7679;
         }
@@ -99,7 +99,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7683 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7683\" to \"__marshalledValue_7682\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_7682);
         }
@@ -118,7 +118,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7686 = (JSObject)__res_7685;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7686\" to \"__res_7684\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7684;
         }
@@ -132,7 +132,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7688 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7688\" to \"__marshalledValue_7687\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete", __marshalledValue_7687);
         }
@@ -151,7 +151,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7691 = (JSObject)__res_7690;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7691\" to \"__res_7689\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7689;
         }
@@ -165,7 +165,7 @@ public partial class IDBTransaction(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7693 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7693\" to \"__marshalledValue_7692\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_7692);
         }

@@ -50,7 +50,7 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_7285 = (JSObject)__res_7284;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7285\" to \"__res_7283\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
             }
             return __res_7283;
         }

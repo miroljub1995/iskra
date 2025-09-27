@@ -26,7 +26,7 @@ public partial class USBIsochronousOutTransferPacket(JSObject obj): JSObjectProx
         {
             Iskra.StdWeb.USBTransferStatus __res_4930;
             JSObject __res_4931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from \"__res_4931\" to \"__res_4930\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBTransferStatus } not supported.");
             return __res_4930;
         }
     }

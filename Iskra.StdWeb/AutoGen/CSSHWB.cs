@@ -15,13 +15,13 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_117;
             JSObject __res_118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "h");
-            throw new Exception("Marshaller ToManaged from \"__res_118\" to \"__res_117\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_117;
         }
         set
         {
             JSObject __marshalledValue_119;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_119\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "h", __marshalledValue_119);
         }
     }

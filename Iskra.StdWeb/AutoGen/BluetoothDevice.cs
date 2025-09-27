@@ -52,7 +52,7 @@ public partial class BluetoothDevice(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_2705 = (JSObject)__res_2704;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2705\" to \"__res_2703\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothRemoteGATTServer } not supported.");
             }
             return __res_2703;
         }

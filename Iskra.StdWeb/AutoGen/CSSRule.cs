@@ -39,7 +39,7 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_7197 = (JSObject)__res_7196;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7197\" to \"__res_7195\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
             }
             return __res_7195;
         }
@@ -58,7 +58,7 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_7200 = (JSObject)__res_7199;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7200\" to \"__res_7198\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleSheet } not supported.");
             }
             return __res_7198;
         }

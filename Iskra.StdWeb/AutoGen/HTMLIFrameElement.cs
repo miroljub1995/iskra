@@ -63,7 +63,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.DOMTokenList __res_5423;
             JSObject __res_5424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
-            throw new Exception("Marshaller ToManaged from \"__res_5424\" to \"__res_5423\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
             return __res_5423;
         }
     }
@@ -183,7 +183,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5445 = (JSObject)__res_5444;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5445\" to \"__res_5443\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
             }
             return __res_5443;
         }
@@ -202,7 +202,7 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5448 = (JSObject)__res_5447;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5448\" to \"__res_5446\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_5446;
         }

@@ -37,7 +37,7 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
         {
             Iskra.StdWeb.DOMRectReadOnly __res_4612;
             JSObject __res_4613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
-            throw new Exception("Marshaller ToManaged from \"__res_4613\" to \"__res_4612\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             return __res_4612;
         }
     }
@@ -99,7 +99,7 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
             else
             {
                 JSObject __notNullable_4624 = (JSObject)__res_4623;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4624\" to \"__res_4622\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_4622;
         }

@@ -154,7 +154,7 @@ public partial class MouseEvent(JSObject obj): UIEvent(obj)
             else
             {
                 JSObject __notNullable_7829 = (JSObject)__res_7828;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7829\" to \"__res_7827\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
             return __res_7827;
         }

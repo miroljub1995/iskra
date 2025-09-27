@@ -175,7 +175,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5882 = (JSObject)__res_5881;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5882\" to \"__res_5880\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_5880;
         }
@@ -194,7 +194,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5885 = (JSObject)__res_5884;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5885\" to \"__res_5883\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileList } not supported.");
             }
             return __res_5883;
         }
@@ -208,7 +208,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
             else
             {
                 Iskra.StdWeb.FileList __notNullable_5887 = (Iskra.StdWeb.FileList)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_5887\" to \"__marshalledValue_5886\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileList } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "files", __marshalledValue_5886);
         }
@@ -346,7 +346,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5911 = (JSObject)__res_5910;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5911\" to \"__res_5909\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLDataListElement } not supported.");
             }
             return __res_5909;
         }
@@ -708,7 +708,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.ValidityState __res_5973;
             JSObject __res_5974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller ToManaged from \"__res_5974\" to \"__res_5973\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
             return __res_5973;
         }
     }
@@ -737,7 +737,7 @@ public partial class HTMLInputElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5979 = (JSObject)__res_5978;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5979\" to \"__res_5977\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             }
             return __res_5977;
         }

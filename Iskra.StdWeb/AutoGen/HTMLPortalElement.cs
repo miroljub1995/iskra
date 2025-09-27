@@ -56,7 +56,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_3670 = (JSObject)__res_3669;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3670\" to \"__res_3668\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_3668;
         }
@@ -70,7 +70,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_3672 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_3672\" to \"__marshalledValue_3671\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_3671);
         }
@@ -89,7 +89,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_3675 = (JSObject)__res_3674;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3675\" to \"__res_3673\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_3673;
         }
@@ -103,7 +103,7 @@ public partial class HTMLPortalElement(JSObject obj): HTMLElement(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_3677 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_3677\" to \"__marshalledValue_3676\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror", __marshalledValue_3676);
         }

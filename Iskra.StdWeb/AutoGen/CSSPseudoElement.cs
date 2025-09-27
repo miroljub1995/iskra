@@ -26,7 +26,7 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Element __res_3882;
             JSObject __res_3883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
-            throw new Exception("Marshaller ToManaged from \"__res_3883\" to \"__res_3882\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             return __res_3882;
         }
     }

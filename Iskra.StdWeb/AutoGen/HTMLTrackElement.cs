@@ -111,7 +111,7 @@ public partial class HTMLTrackElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.TextTrack __res_5524;
             JSObject __res_5525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from \"__res_5525\" to \"__res_5524\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrack } not supported.");
             return __res_5524;
         }
     }

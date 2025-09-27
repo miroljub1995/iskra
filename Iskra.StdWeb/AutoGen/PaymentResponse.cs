@@ -55,7 +55,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7332 = (JSObject)__res_7331;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7332\" to \"__res_7330\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ContactAddress } not supported.");
             }
             return __res_7330;
         }
@@ -150,7 +150,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7347 = (JSObject)__res_7346;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7347\" to \"__res_7345\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7345;
         }
@@ -164,7 +164,7 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7349 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7349\" to \"__marshalledValue_7348\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange", __marshalledValue_7348);
         }

@@ -22,7 +22,7 @@ public partial class MIDIInput(JSObject obj): MIDIPort(obj)
             else
             {
                 JSObject __notNullable_7427 = (JSObject)__res_7426;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7427\" to \"__res_7425\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7425;
         }
@@ -36,7 +36,7 @@ public partial class MIDIInput(JSObject obj): MIDIPort(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7429 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7429\" to \"__marshalledValue_7428\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage", __marshalledValue_7428);
         }

@@ -22,7 +22,7 @@ public partial class XRReferenceSpace(JSObject obj): XRSpace(obj)
             else
             {
                 JSObject __notNullable_4194 = (JSObject)__res_4193;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4194\" to \"__res_4192\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4192;
         }
@@ -36,7 +36,7 @@ public partial class XRReferenceSpace(JSObject obj): XRSpace(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4196 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4196\" to \"__marshalledValue_4195\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreset", __marshalledValue_4195);
         }

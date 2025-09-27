@@ -15,7 +15,7 @@ public partial class TaskPriorityChangeEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.TaskPriority __res_1019;
             JSObject __res_1020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousPriority");
-            throw new Exception("Marshaller ToManaged from \"__res_1020\" to \"__res_1019\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskPriority } not supported.");
             return __res_1019;
         }
     }

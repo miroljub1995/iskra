@@ -15,7 +15,7 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_484;
             JSObject __res_485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientUnits");
-            throw new Exception("Marshaller ToManaged from \"__res_485\" to \"__res_484\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_484;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedTransformList __res_486;
             JSObject __res_487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientTransform");
-            throw new Exception("Marshaller ToManaged from \"__res_487\" to \"__res_486\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedTransformList } not supported.");
             return __res_486;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGGradientElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_488;
             JSObject __res_489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spreadMethod");
-            throw new Exception("Marshaller ToManaged from \"__res_489\" to \"__res_488\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_488;
         }
     }

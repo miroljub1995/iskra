@@ -15,7 +15,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.AudioDestinationNode __res_7944;
             JSObject __res_7945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
-            throw new Exception("Marshaller ToManaged from \"__res_7945\" to \"__res_7944\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioDestinationNode } not supported.");
             return __res_7944;
         }
     }
@@ -48,7 +48,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.AudioListener __res_7950;
             JSObject __res_7951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "listener");
-            throw new Exception("Marshaller ToManaged from \"__res_7951\" to \"__res_7950\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioListener } not supported.");
             return __res_7950;
         }
     }
@@ -59,7 +59,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.AudioContextState __res_7952;
             JSObject __res_7953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from \"__res_7953\" to \"__res_7952\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioContextState } not supported.");
             return __res_7952;
         }
     }
@@ -81,7 +81,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.AudioWorklet __res_7956;
             JSObject __res_7957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioWorklet");
-            throw new Exception("Marshaller ToManaged from \"__res_7957\" to \"__res_7956\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioWorklet } not supported.");
             return __res_7956;
         }
     }
@@ -99,7 +99,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7960 = (JSObject)__res_7959;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7960\" to \"__res_7958\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7958;
         }
@@ -113,7 +113,7 @@ public partial class BaseAudioContext(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7962 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7962\" to \"__marshalledValue_7961\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7961);
         }

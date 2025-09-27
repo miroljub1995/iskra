@@ -48,7 +48,7 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Plugin __res_6740;
             JSObject __res_6741 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledPlugin");
-            throw new Exception("Marshaller ToManaged from \"__res_6741\" to \"__res_6740\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Plugin } not supported.");
             return __res_6740;
         }
     }

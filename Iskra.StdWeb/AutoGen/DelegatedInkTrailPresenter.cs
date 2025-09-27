@@ -22,7 +22,7 @@ public partial class DelegatedInkTrailPresenter(JSObject obj): JSObjectProxy(obj
             else
             {
                 JSObject __notNullable_1611 = (JSObject)__res_1610;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1611\" to \"__res_1609\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_1609;
         }

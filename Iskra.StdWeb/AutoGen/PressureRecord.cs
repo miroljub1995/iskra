@@ -15,7 +15,7 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.PressureSource __res_3656;
             JSObject __res_3657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
-            throw new Exception("Marshaller ToManaged from \"__res_3657\" to \"__res_3656\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } not supported.");
             return __res_3656;
         }
     }
@@ -26,7 +26,7 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.PressureState __res_3658;
             JSObject __res_3659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from \"__res_3659\" to \"__res_3658\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureState } not supported.");
             return __res_3658;
         }
     }

@@ -15,7 +15,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRHandedness __res_4230;
             JSObject __res_4231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
-            throw new Exception("Marshaller ToManaged from \"__res_4231\" to \"__res_4230\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHandedness } not supported.");
             return __res_4230;
         }
     }
@@ -26,7 +26,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRTargetRayMode __res_4232;
             JSObject __res_4233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
-            throw new Exception("Marshaller ToManaged from \"__res_4233\" to \"__res_4232\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRTargetRayMode } not supported.");
             return __res_4232;
         }
     }
@@ -37,7 +37,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRSpace __res_4234;
             JSObject __res_4235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
-            throw new Exception("Marshaller ToManaged from \"__res_4235\" to \"__res_4234\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             return __res_4234;
         }
     }
@@ -55,7 +55,7 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_4238 = (JSObject)__res_4237;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4238\" to \"__res_4236\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             }
             return __res_4236;
         }

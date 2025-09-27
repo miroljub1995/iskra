@@ -15,7 +15,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMPointReadOnly __res_4211;
             JSObject __res_4212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "position");
-            throw new Exception("Marshaller ToManaged from \"__res_4212\" to \"__res_4211\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             return __res_4211;
         }
     }
@@ -26,7 +26,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMPointReadOnly __res_4213;
             JSObject __res_4214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
-            throw new Exception("Marshaller ToManaged from \"__res_4214\" to \"__res_4213\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             return __res_4213;
         }
     }
@@ -37,7 +37,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.JSCore.Float32Array __res_4215;
             JSObject __res_4216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            throw new Exception("Marshaller ToManaged from \"__res_4216\" to \"__res_4215\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             return __res_4215;
         }
     }
@@ -48,7 +48,7 @@ public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRRigidTransform __res_4217;
             JSObject __res_4218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inverse");
-            throw new Exception("Marshaller ToManaged from \"__res_4218\" to \"__res_4217\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
             return __res_4217;
         }
     }

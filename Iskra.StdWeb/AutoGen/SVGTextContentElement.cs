@@ -15,7 +15,7 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
         {
             Iskra.StdWeb.SVGAnimatedLength __res_424;
             JSObject __res_425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
-            throw new Exception("Marshaller ToManaged from \"__res_425\" to \"__res_424\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_424;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_426;
             JSObject __res_427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
-            throw new Exception("Marshaller ToManaged from \"__res_427\" to \"__res_426\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_426;
         }
     }

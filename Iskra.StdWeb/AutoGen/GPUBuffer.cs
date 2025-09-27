@@ -37,7 +37,7 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GPUBufferMapState __res_715;
             JSObject __res_716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapState");
-            throw new Exception("Marshaller ToManaged from \"__res_716\" to \"__res_715\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUBufferMapState } not supported.");
             return __res_715;
         }
     }

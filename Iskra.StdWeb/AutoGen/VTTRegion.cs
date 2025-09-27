@@ -134,13 +134,13 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ScrollSetting __res_7149;
             JSObject __res_7150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scroll");
-            throw new Exception("Marshaller ToManaged from \"__res_7150\" to \"__res_7149\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollSetting } not supported.");
             return __res_7149;
         }
         set
         {
             JSObject __marshalledValue_7151;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7151\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollSetting } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scroll", __marshalledValue_7151);
         }
     }

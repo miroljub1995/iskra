@@ -15,7 +15,7 @@ public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.BluetoothDevice __res_2727;
             JSObject __res_2728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            throw new Exception("Marshaller ToManaged from \"__res_2728\" to \"__res_2727\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } not supported.");
             return __res_2727;
         }
     }

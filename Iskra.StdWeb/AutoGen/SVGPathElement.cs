@@ -15,7 +15,7 @@ public partial class SVGPathElement(JSObject obj): SVGGeometryElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_2212;
             JSObject __res_2213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
-            throw new Exception("Marshaller ToManaged from \"__res_2213\" to \"__res_2212\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_2212;
         }
     }

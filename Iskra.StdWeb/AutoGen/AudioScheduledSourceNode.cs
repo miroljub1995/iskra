@@ -22,7 +22,7 @@ public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
             else
             {
                 JSObject __notNullable_8026 = (JSObject)__res_8025;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_8026\" to \"__res_8024\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_8024;
         }
@@ -36,7 +36,7 @@ public partial class AudioScheduledSourceNode(JSObject obj): AudioNode(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_8028 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_8028\" to \"__marshalledValue_8027\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_8027);
         }

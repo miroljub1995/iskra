@@ -15,7 +15,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ResponseType __res_3630;
             JSObject __res_3631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_3631\" to \"__res_3630\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ResponseType } not supported.");
             return __res_3630;
         }
     }
@@ -81,7 +81,7 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Headers __res_3642;
             JSObject __res_3643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "headers");
-            throw new Exception("Marshaller ToManaged from \"__res_3643\" to \"__res_3642\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Headers } not supported.");
             return __res_3642;
         }
     }

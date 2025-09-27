@@ -15,7 +15,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         {
             Iskra.StdWeb.SVGAnimatedLength __res_490;
             JSObject __res_491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
-            throw new Exception("Marshaller ToManaged from \"__res_491\" to \"__res_490\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_490;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         {
             Iskra.StdWeb.SVGAnimatedLength __res_492;
             JSObject __res_493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
-            throw new Exception("Marshaller ToManaged from \"__res_493\" to \"__res_492\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_492;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         {
             Iskra.StdWeb.SVGAnimatedLength __res_494;
             JSObject __res_495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
-            throw new Exception("Marshaller ToManaged from \"__res_495\" to \"__res_494\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_494;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(
         {
             Iskra.StdWeb.SVGAnimatedLength __res_496;
             JSObject __res_497 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
-            throw new Exception("Marshaller ToManaged from \"__res_497\" to \"__res_496\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_496;
         }
     }

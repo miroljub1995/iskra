@@ -22,7 +22,7 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
             else
             {
                 JSObject __notNullable_928 = (JSObject)__res_927;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_928\" to \"__res_926\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStreamBYOBRequest } not supported.");
             }
             return __res_926;
         }

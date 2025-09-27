@@ -15,7 +15,7 @@ public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.PresentationConnectionCloseReason __res_2257;
             JSObject __res_2258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller ToManaged from \"__res_2258\" to \"__res_2257\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnectionCloseReason } not supported.");
             return __res_2257;
         }
     }

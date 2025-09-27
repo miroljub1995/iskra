@@ -22,7 +22,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1723 = (JSObject)__res_1722;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1723\" to \"__res_1721\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSessionDescription } not supported.");
             }
             return __res_1721;
         }
@@ -41,7 +41,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1726 = (JSObject)__res_1725;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1726\" to \"__res_1724\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSessionDescription } not supported.");
             }
             return __res_1724;
         }
@@ -60,7 +60,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1729 = (JSObject)__res_1728;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1729\" to \"__res_1727\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSessionDescription } not supported.");
             }
             return __res_1727;
         }
@@ -79,7 +79,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1732 = (JSObject)__res_1731;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1732\" to \"__res_1730\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSessionDescription } not supported.");
             }
             return __res_1730;
         }
@@ -98,7 +98,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1735 = (JSObject)__res_1734;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1735\" to \"__res_1733\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSessionDescription } not supported.");
             }
             return __res_1733;
         }
@@ -117,7 +117,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1738 = (JSObject)__res_1737;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1738\" to \"__res_1736\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSessionDescription } not supported.");
             }
             return __res_1736;
         }
@@ -129,7 +129,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.RTCSignalingState __res_1739;
             JSObject __res_1740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signalingState");
-            throw new Exception("Marshaller ToManaged from \"__res_1740\" to \"__res_1739\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSignalingState } not supported.");
             return __res_1739;
         }
     }
@@ -140,7 +140,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.RTCIceGatheringState __res_1741;
             JSObject __res_1742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceGatheringState");
-            throw new Exception("Marshaller ToManaged from \"__res_1742\" to \"__res_1741\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceGatheringState } not supported.");
             return __res_1741;
         }
     }
@@ -151,7 +151,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.RTCIceConnectionState __res_1743;
             JSObject __res_1744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceConnectionState");
-            throw new Exception("Marshaller ToManaged from \"__res_1744\" to \"__res_1743\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceConnectionState } not supported.");
             return __res_1743;
         }
     }
@@ -162,7 +162,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.RTCPeerConnectionState __res_1745;
             JSObject __res_1746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionState");
-            throw new Exception("Marshaller ToManaged from \"__res_1746\" to \"__res_1745\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCPeerConnectionState } not supported.");
             return __res_1745;
         }
     }
@@ -199,7 +199,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1752 = (JSObject)__res_1751;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1752\" to \"__res_1750\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1750;
         }
@@ -213,7 +213,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1754 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1754\" to \"__marshalledValue_1753\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onnegotiationneeded", __marshalledValue_1753);
         }
@@ -232,7 +232,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1757 = (JSObject)__res_1756;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1757\" to \"__res_1755\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1755;
         }
@@ -246,7 +246,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1759 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1759\" to \"__marshalledValue_1758\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidate", __marshalledValue_1758);
         }
@@ -265,7 +265,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1762 = (JSObject)__res_1761;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1762\" to \"__res_1760\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1760;
         }
@@ -279,7 +279,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1764 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1764\" to \"__marshalledValue_1763\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidateerror", __marshalledValue_1763);
         }
@@ -298,7 +298,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1767 = (JSObject)__res_1766;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1767\" to \"__res_1765\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1765;
         }
@@ -312,7 +312,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1769 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1769\" to \"__marshalledValue_1768\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsignalingstatechange", __marshalledValue_1768);
         }
@@ -331,7 +331,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1772 = (JSObject)__res_1771;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1772\" to \"__res_1770\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1770;
         }
@@ -345,7 +345,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1774 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1774\" to \"__marshalledValue_1773\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oniceconnectionstatechange", __marshalledValue_1773);
         }
@@ -364,7 +364,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1777 = (JSObject)__res_1776;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1777\" to \"__res_1775\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1775;
         }
@@ -378,7 +378,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1779 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1779\" to \"__marshalledValue_1778\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicegatheringstatechange", __marshalledValue_1778);
         }
@@ -397,7 +397,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1782 = (JSObject)__res_1781;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1782\" to \"__res_1780\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1780;
         }
@@ -411,7 +411,7 @@ public partial class RTCPeerConnection(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1784 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1784\" to \"__marshalledValue_1783\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionstatechange", __marshalledValue_1783);
         }

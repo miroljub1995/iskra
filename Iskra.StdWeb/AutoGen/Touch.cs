@@ -26,7 +26,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.EventTarget __res_2924;
             JSObject __res_2925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from \"__res_2925\" to \"__res_2924\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             return __res_2924;
         }
     }
@@ -169,7 +169,7 @@ public partial class Touch(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.TouchType __res_2950;
             JSObject __res_2951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touchType");
-            throw new Exception("Marshaller ToManaged from \"__res_2951\" to \"__res_2950\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchType } not supported.");
             return __res_2950;
         }
     }

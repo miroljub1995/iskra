@@ -15,7 +15,7 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XREye __res_4198;
             JSObject __res_4199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
-            throw new Exception("Marshaller ToManaged from \"__res_4199\" to \"__res_4198\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XREye } not supported.");
             return __res_4198;
         }
     }

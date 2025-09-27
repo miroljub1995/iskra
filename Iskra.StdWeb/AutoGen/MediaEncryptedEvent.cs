@@ -33,7 +33,7 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_5111 = (JSObject)__res_5110;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5111\" to \"__res_5109\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
             return __res_5109;
         }

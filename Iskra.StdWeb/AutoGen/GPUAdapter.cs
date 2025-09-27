@@ -15,7 +15,7 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GPUSupportedFeatures __res_697;
             JSObject __res_698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
-            throw new Exception("Marshaller ToManaged from \"__res_698\" to \"__res_697\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUSupportedFeatures } not supported.");
             return __res_697;
         }
     }
@@ -26,7 +26,7 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GPUSupportedLimits __res_699;
             JSObject __res_700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
-            throw new Exception("Marshaller ToManaged from \"__res_700\" to \"__res_699\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUSupportedLimits } not supported.");
             return __res_699;
         }
     }
@@ -37,7 +37,7 @@ public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GPUAdapterInfo __res_701;
             JSObject __res_702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
-            throw new Exception("Marshaller ToManaged from \"__res_702\" to \"__res_701\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUAdapterInfo } not supported.");
             return __res_701;
         }
     }

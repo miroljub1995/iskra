@@ -15,7 +15,7 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.RTCRtpReceiver __res_1926;
             JSObject __res_1927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            throw new Exception("Marshaller ToManaged from \"__res_1927\" to \"__res_1926\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpReceiver } not supported.");
             return __res_1926;
         }
     }
@@ -26,7 +26,7 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.MediaStreamTrack __res_1928;
             JSObject __res_1929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from \"__res_1929\" to \"__res_1928\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
             return __res_1928;
         }
     }
@@ -47,7 +47,7 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.RTCRtpTransceiver __res_1931;
             JSObject __res_1932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
-            throw new Exception("Marshaller ToManaged from \"__res_1932\" to \"__res_1931\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiver } not supported.");
             return __res_1931;
         }
     }

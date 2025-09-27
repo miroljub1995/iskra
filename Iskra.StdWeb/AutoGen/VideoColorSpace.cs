@@ -22,7 +22,7 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2619 = (JSObject)__res_2618;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2619\" to \"__res_2617\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoColorPrimaries } not supported.");
             }
             return __res_2617;
         }
@@ -41,7 +41,7 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2622 = (JSObject)__res_2621;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2622\" to \"__res_2620\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoTransferCharacteristics } not supported.");
             }
             return __res_2620;
         }
@@ -60,7 +60,7 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2625 = (JSObject)__res_2624;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2625\" to \"__res_2623\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoMatrixCoefficients } not supported.");
             }
             return __res_2623;
         }

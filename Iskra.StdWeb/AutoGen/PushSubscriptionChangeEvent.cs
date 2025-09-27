@@ -22,7 +22,7 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
             else
             {
                 JSObject __notNullable_4894 = (JSObject)__res_4893;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4894\" to \"__res_4892\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
             }
             return __res_4892;
         }
@@ -41,7 +41,7 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
             else
             {
                 JSObject __notNullable_4897 = (JSObject)__res_4896;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4897\" to \"__res_4895\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
             }
             return __res_4895;
         }

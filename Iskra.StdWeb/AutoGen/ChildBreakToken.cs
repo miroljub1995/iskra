@@ -15,7 +15,7 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.BreakType __res_7769;
             JSObject __res_7770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "breakType");
-            throw new Exception("Marshaller ToManaged from \"__res_7770\" to \"__res_7769\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BreakType } not supported.");
             return __res_7769;
         }
     }
@@ -26,7 +26,7 @@ public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.LayoutChild __res_7771;
             JSObject __res_7772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
-            throw new Exception("Marshaller ToManaged from \"__res_7772\" to \"__res_7771\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LayoutChild } not supported.");
             return __res_7771;
         }
     }

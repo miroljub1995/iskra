@@ -15,7 +15,7 @@ public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
         {
             Iskra.StdWeb.Notification __res_4331;
             JSObject __res_4332 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
-            throw new Exception("Marshaller ToManaged from \"__res_4332\" to \"__res_4331\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Notification } not supported.");
             return __res_4331;
         }
     }

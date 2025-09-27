@@ -15,13 +15,13 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
         {
             Iskra.StdWeb.OscillatorType __res_8130;
             JSObject __res_8131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_8131\" to \"__res_8130\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OscillatorType } not supported.");
             return __res_8130;
         }
         set
         {
             JSObject __marshalledValue_8132;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8132\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OscillatorType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_8132);
         }
     }
@@ -32,7 +32,7 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8133;
             JSObject __res_8134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            throw new Exception("Marshaller ToManaged from \"__res_8134\" to \"__res_8133\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8133;
         }
     }
@@ -43,7 +43,7 @@ public partial class OscillatorNode(JSObject obj): AudioScheduledSourceNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8135;
             JSObject __res_8136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            throw new Exception("Marshaller ToManaged from \"__res_8136\" to \"__res_8135\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8135;
         }
     }

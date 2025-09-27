@@ -15,7 +15,7 @@ public partial class PerformanceMark(JSObject obj): PerformanceEntry(obj)
         {
             object? __res_3348;
             JSObject __res_3349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
-            throw new Exception("Marshaller ToManaged from \"__res_3349\" to \"__res_3348\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_3348;
         }
     }

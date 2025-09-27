@@ -15,7 +15,7 @@ public partial class ConstantSourceNode(JSObject obj): AudioScheduledSourceNode(
         {
             Iskra.StdWeb.AudioParam __res_8098;
             JSObject __res_8099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            throw new Exception("Marshaller ToManaged from \"__res_8099\" to \"__res_8098\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8098;
         }
     }

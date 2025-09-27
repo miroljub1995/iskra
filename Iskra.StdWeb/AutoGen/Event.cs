@@ -33,7 +33,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3084 = (JSObject)__res_3083;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3084\" to \"__res_3082\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
             return __res_3082;
         }
@@ -52,7 +52,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3087 = (JSObject)__res_3086;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3087\" to \"__res_3085\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
             return __res_3085;
         }
@@ -71,7 +71,7 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3090 = (JSObject)__res_3089;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3090\" to \"__res_3088\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
             return __res_3088;
         }

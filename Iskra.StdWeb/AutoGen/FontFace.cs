@@ -202,7 +202,7 @@ public partial class FontFace(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.FontFaceLoadStatus __res_2088;
             JSObject __res_2089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from \"__res_2089\" to \"__res_2088\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FontFaceLoadStatus } not supported.");
             return __res_2088;
         }
     }

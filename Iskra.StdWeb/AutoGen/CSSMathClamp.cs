@@ -15,7 +15,7 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_60;
             JSObject __res_61 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            throw new Exception("Marshaller ToManaged from \"__res_61\" to \"__res_60\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_60;
         }
     }
@@ -26,7 +26,7 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_62;
             JSObject __res_63 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            throw new Exception("Marshaller ToManaged from \"__res_63\" to \"__res_62\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_62;
         }
     }
@@ -37,7 +37,7 @@ public partial class CSSMathClamp(JSObject obj): CSSMathValue(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_64;
             JSObject __res_65 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            throw new Exception("Marshaller ToManaged from \"__res_65\" to \"__res_64\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_64;
         }
     }

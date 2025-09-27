@@ -15,7 +15,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_2868;
             JSObject __res_2869 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "maskUnits");
-            throw new Exception("Marshaller ToManaged from \"__res_2869\" to \"__res_2868\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_2868;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_2870;
             JSObject __res_2871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "maskContentUnits");
-            throw new Exception("Marshaller ToManaged from \"__res_2871\" to \"__res_2870\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_2870;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_2872;
             JSObject __res_2873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller ToManaged from \"__res_2873\" to \"__res_2872\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_2872;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_2874;
             JSObject __res_2875 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller ToManaged from \"__res_2875\" to \"__res_2874\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_2874;
         }
     }
@@ -59,7 +59,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_2876;
             JSObject __res_2877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            throw new Exception("Marshaller ToManaged from \"__res_2877\" to \"__res_2876\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_2876;
         }
     }
@@ -70,7 +70,7 @@ public partial class SVGMaskElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_2878;
             JSObject __res_2879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            throw new Exception("Marshaller ToManaged from \"__res_2879\" to \"__res_2878\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_2878;
         }
     }

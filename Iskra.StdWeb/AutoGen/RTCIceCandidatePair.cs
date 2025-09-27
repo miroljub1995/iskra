@@ -15,7 +15,7 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.RTCIceCandidate __res_1922;
             JSObject __res_1923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "local");
-            throw new Exception("Marshaller ToManaged from \"__res_1923\" to \"__res_1922\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidate } not supported.");
             return __res_1922;
         }
     }
@@ -26,7 +26,7 @@ public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.RTCIceCandidate __res_1924;
             JSObject __res_1925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
-            throw new Exception("Marshaller ToManaged from \"__res_1925\" to \"__res_1924\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidate } not supported.");
             return __res_1924;
         }
     }

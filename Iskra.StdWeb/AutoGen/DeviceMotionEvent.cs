@@ -22,7 +22,7 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_2845 = (JSObject)__res_2844;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2845\" to \"__res_2843\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventAcceleration } not supported.");
             }
             return __res_2843;
         }
@@ -41,7 +41,7 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_2848 = (JSObject)__res_2847;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2848\" to \"__res_2846\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventAcceleration } not supported.");
             }
             return __res_2846;
         }
@@ -60,7 +60,7 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_2851 = (JSObject)__res_2850;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2851\" to \"__res_2849\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventRotationRate } not supported.");
             }
             return __res_2849;
         }

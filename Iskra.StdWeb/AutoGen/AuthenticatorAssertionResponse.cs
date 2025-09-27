@@ -15,7 +15,7 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
         {
             Iskra.JSCore.ArrayBuffer __res_2807;
             JSObject __res_2808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
-            throw new Exception("Marshaller ToManaged from \"__res_2808\" to \"__res_2807\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             return __res_2807;
         }
     }
@@ -26,7 +26,7 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
         {
             Iskra.JSCore.ArrayBuffer __res_2809;
             JSObject __res_2810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
-            throw new Exception("Marshaller ToManaged from \"__res_2810\" to \"__res_2809\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             return __res_2809;
         }
     }
@@ -44,7 +44,7 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
             else
             {
                 JSObject __notNullable_2813 = (JSObject)__res_2812;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2813\" to \"__res_2811\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
             return __res_2811;
         }

@@ -15,7 +15,7 @@ public partial class OfflineAudioCompletionEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.AudioBuffer __res_7987;
             JSObject __res_7988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderedBuffer");
-            throw new Exception("Marshaller ToManaged from \"__res_7988\" to \"__res_7987\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
             return __res_7987;
         }
     }

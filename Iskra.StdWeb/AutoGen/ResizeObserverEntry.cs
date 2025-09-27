@@ -15,7 +15,7 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Element __res_4627;
             JSObject __res_4628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from \"__res_4628\" to \"__res_4627\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             return __res_4627;
         }
     }
@@ -26,7 +26,7 @@ public partial class ResizeObserverEntry(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMRectReadOnly __res_4629;
             JSObject __res_4630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentRect");
-            throw new Exception("Marshaller ToManaged from \"__res_4630\" to \"__res_4629\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             return __res_4629;
         }
     }

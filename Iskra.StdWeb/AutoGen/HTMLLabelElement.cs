@@ -22,7 +22,7 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5846 = (JSObject)__res_5845;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5846\" to \"__res_5844\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_5844;
         }
@@ -58,7 +58,7 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5852 = (JSObject)__res_5851;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5852\" to \"__res_5850\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
             }
             return __res_5850;
         }

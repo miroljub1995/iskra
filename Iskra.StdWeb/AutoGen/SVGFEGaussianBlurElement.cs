@@ -15,7 +15,7 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedString __res_1223;
             JSObject __res_1224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller ToManaged from \"__res_1224\" to \"__res_1223\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
             return __res_1223;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1225;
             JSObject __res_1226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
-            throw new Exception("Marshaller ToManaged from \"__res_1226\" to \"__res_1225\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1225;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedNumber __res_1227;
             JSObject __res_1228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
-            throw new Exception("Marshaller ToManaged from \"__res_1228\" to \"__res_1227\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
             return __res_1227;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_1229;
             JSObject __res_1230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
-            throw new Exception("Marshaller ToManaged from \"__res_1230\" to \"__res_1229\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_1229;
         }
     }

@@ -39,7 +39,7 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_37 = (JSObject)__res_36;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_37\" to \"__res_35\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSUnparsedValue } not supported.");
             }
             return __res_35;
         }

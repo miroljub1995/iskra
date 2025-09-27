@@ -15,7 +15,7 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_412;
             JSObject __res_413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
-            throw new Exception("Marshaller ToManaged from \"__res_413\" to \"__res_412\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_412;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_414;
             JSObject __res_415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
-            throw new Exception("Marshaller ToManaged from \"__res_415\" to \"__res_414\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_414;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_416;
             JSObject __res_417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
-            throw new Exception("Marshaller ToManaged from \"__res_417\" to \"__res_416\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_416;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGLineElement(JSObject obj): SVGGeometryElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_418;
             JSObject __res_419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
-            throw new Exception("Marshaller ToManaged from \"__res_419\" to \"__res_418\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_418;
         }
     }

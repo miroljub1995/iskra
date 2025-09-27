@@ -44,7 +44,7 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6439 = (JSObject)__res_6438;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6439\" to \"__res_6437\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_6437;
         }

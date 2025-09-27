@@ -22,7 +22,7 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
             else
             {
                 JSObject __notNullable_8102 = (JSObject)__res_8101;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_8102\" to \"__res_8100\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
             }
             return __res_8100;
         }
@@ -36,7 +36,7 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
             else
             {
                 Iskra.StdWeb.AudioBuffer __notNullable_8104 = (Iskra.StdWeb.AudioBuffer)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_8104\" to \"__marshalledValue_8103\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8103);
         }

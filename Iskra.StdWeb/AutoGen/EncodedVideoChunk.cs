@@ -15,7 +15,7 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.EncodedVideoChunkType __res_2567;
             JSObject __res_2568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_2568\" to \"__res_2567\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EncodedVideoChunkType } not supported.");
             return __res_2567;
         }
     }

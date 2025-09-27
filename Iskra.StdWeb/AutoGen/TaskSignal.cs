@@ -15,7 +15,7 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
         {
             Iskra.StdWeb.TaskPriority __res_1021;
             JSObject __res_1022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "priority");
-            throw new Exception("Marshaller ToManaged from \"__res_1022\" to \"__res_1021\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskPriority } not supported.");
             return __res_1021;
         }
     }
@@ -33,7 +33,7 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
             else
             {
                 JSObject __notNullable_1025 = (JSObject)__res_1024;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1025\" to \"__res_1023\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1023;
         }
@@ -47,7 +47,7 @@ public partial class TaskSignal(JSObject obj): AbortSignal(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1027 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1027\" to \"__marshalledValue_1026\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange", __marshalledValue_1026);
         }

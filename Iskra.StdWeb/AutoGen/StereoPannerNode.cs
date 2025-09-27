@@ -15,7 +15,7 @@ public partial class StereoPannerNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8180;
             JSObject __res_8181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pan");
-            throw new Exception("Marshaller ToManaged from \"__res_8181\" to \"__res_8180\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8180;
         }
     }

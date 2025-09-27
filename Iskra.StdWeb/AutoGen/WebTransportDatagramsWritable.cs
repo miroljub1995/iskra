@@ -22,7 +22,7 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
             else
             {
                 JSObject __notNullable_2130 = (JSObject)__res_2129;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2130\" to \"__res_2128\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendGroup } not supported.");
             }
             return __res_2128;
         }
@@ -36,7 +36,7 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
             else
             {
                 Iskra.StdWeb.WebTransportSendGroup __notNullable_2132 = (Iskra.StdWeb.WebTransportSendGroup)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_2132\" to \"__marshalledValue_2131\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendGroup } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_2131);
         }

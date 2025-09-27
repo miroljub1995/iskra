@@ -15,7 +15,7 @@ public partial class EncodedAudioChunk(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.EncodedAudioChunkType __res_2558;
             JSObject __res_2559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_2559\" to \"__res_2558\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EncodedAudioChunkType } not supported.");
             return __res_2558;
         }
     }

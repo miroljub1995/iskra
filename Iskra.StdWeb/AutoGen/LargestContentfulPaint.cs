@@ -77,7 +77,7 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
             else
             {
                 JSObject __notNullable_1720 = (JSObject)__res_1719;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1720\" to \"__res_1718\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_1718;
         }

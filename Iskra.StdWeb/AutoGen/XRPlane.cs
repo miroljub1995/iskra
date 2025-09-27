@@ -15,7 +15,7 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRSpace __res_6;
             JSObject __res_7 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
-            throw new Exception("Marshaller ToManaged from \"__res_7\" to \"__res_6\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             return __res_6;
         }
     }
@@ -43,7 +43,7 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_11 = (JSObject)__res_10;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_11\" to \"__res_9\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRPlaneOrientation } not supported.");
             }
             return __res_9;
         }

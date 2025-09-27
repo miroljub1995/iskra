@@ -26,7 +26,7 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.GPUCompilationMessageType __res_735;
             JSObject __res_736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_736\" to \"__res_735\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUCompilationMessageType } not supported.");
             return __res_735;
         }
     }

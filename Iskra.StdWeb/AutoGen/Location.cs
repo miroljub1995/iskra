@@ -162,7 +162,7 @@ public partial class Location(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMStringList __res_6559;
             JSObject __res_6560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ancestorOrigins");
-            throw new Exception("Marshaller ToManaged from \"__res_6560\" to \"__res_6559\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMStringList } not supported.");
             return __res_6559;
         }
     }

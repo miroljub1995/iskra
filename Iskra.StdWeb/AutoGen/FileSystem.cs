@@ -26,7 +26,7 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.FileSystemDirectoryEntry __res_1360;
             JSObject __res_1361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            throw new Exception("Marshaller ToManaged from \"__res_1361\" to \"__res_1360\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemDirectoryEntry } not supported.");
             return __res_1360;
         }
     }

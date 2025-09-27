@@ -15,7 +15,7 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_337;
             JSObject __res_338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller ToManaged from \"__res_338\" to \"__res_337\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_337;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_339;
             JSObject __res_340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller ToManaged from \"__res_340\" to \"__res_339\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_339;
         }
     }
@@ -37,7 +37,7 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_341;
             JSObject __res_342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            throw new Exception("Marshaller ToManaged from \"__res_342\" to \"__res_341\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_341;
         }
     }
@@ -48,7 +48,7 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedLength __res_343;
             JSObject __res_344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            throw new Exception("Marshaller ToManaged from \"__res_344\" to \"__res_343\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
             return __res_343;
         }
     }
@@ -66,7 +66,7 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
             else
             {
                 JSObject __notNullable_347 = (JSObject)__res_346;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_347\" to \"__res_345\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGElement } not supported.");
             }
             return __res_345;
         }
@@ -85,7 +85,7 @@ public partial class SVGUseElement(JSObject obj): SVGGraphicsElement(obj)
             else
             {
                 JSObject __notNullable_350 = (JSObject)__res_349;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_350\" to \"__res_348\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGElement } not supported.");
             }
             return __res_348;
         }

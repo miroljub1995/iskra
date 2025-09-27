@@ -22,7 +22,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
             else
             {
                 JSObject __notNullable_873 = (JSObject)__res_872;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_873\" to \"__res_871\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_871;
         }
@@ -36,7 +36,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_875 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_875\" to \"__marshalledValue_874\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange", __marshalledValue_874);
         }
@@ -93,7 +93,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         {
             Iskra.StdWeb.XMLHttpRequestUpload __res_884;
             JSObject __res_885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
-            throw new Exception("Marshaller ToManaged from \"__res_885\" to \"__res_884\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XMLHttpRequestUpload } not supported.");
             return __res_884;
         }
     }
@@ -137,13 +137,13 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         {
             Iskra.StdWeb.XMLHttpRequestResponseType __res_892;
             JSObject __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseType");
-            throw new Exception("Marshaller ToManaged from \"__res_893\" to \"__res_892\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XMLHttpRequestResponseType } not supported.");
             return __res_892;
         }
         set
         {
             JSObject __marshalledValue_894;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_894\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XMLHttpRequestResponseType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "responseType", __marshalledValue_894);
         }
     }
@@ -154,7 +154,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
         {
             object? __res_895;
             JSObject __res_896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            throw new Exception("Marshaller ToManaged from \"__res_896\" to \"__res_895\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_895;
         }
     }
@@ -183,7 +183,7 @@ public partial class XMLHttpRequest(JSObject obj): XMLHttpRequestEventTarget(obj
             else
             {
                 JSObject __notNullable_901 = (JSObject)__res_900;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_901\" to \"__res_899\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
             }
             return __res_899;
         }

@@ -66,7 +66,7 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3343 = (JSObject)__res_3342;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3343\" to \"__res_3341\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_3341;
         }

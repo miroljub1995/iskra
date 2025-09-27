@@ -15,7 +15,7 @@ public partial class ImageCapture(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.MediaStreamTrack __res_5075;
             JSObject __res_5076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from \"__res_5076\" to \"__res_5075\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
             return __res_5075;
         }
     }

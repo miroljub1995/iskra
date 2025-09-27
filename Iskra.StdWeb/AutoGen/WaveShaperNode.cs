@@ -22,7 +22,7 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
             else
             {
                 JSObject __notNullable_8184 = (JSObject)__res_8183;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_8184\" to \"__res_8182\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
             return __res_8182;
         }
@@ -36,7 +36,7 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
             else
             {
                 Iskra.JSCore.Float32Array __notNullable_8186 = (Iskra.JSCore.Float32Array)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_8186\" to \"__marshalledValue_8185\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_8185);
         }
@@ -48,13 +48,13 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.OverSampleType __res_8187;
             JSObject __res_8188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
-            throw new Exception("Marshaller ToManaged from \"__res_8188\" to \"__res_8187\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OverSampleType } not supported.");
             return __res_8187;
         }
         set
         {
             JSObject __marshalledValue_8189;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8189\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OverSampleType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "oversample", __marshalledValue_8189);
         }
     }

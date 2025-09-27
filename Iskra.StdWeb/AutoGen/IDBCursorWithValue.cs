@@ -15,7 +15,7 @@ public partial class IDBCursorWithValue(JSObject obj): IDBCursor(obj)
         {
             object? __res_7666;
             JSObject __res_7667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            throw new Exception("Marshaller ToManaged from \"__res_7667\" to \"__res_7666\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_7666;
         }
     }

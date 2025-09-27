@@ -59,7 +59,7 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
         {
             object? __res_6716;
             JSObject __res_6717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            throw new Exception("Marshaller ToManaged from \"__res_6717\" to \"__res_6716\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_6716;
         }
     }

@@ -32,7 +32,7 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
         {
             Iskra.StdWeb.CSSStyleProperties __res_7206;
             JSObject __res_7207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller ToManaged from \"__res_7207\" to \"__res_7206\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleProperties } not supported.");
             return __res_7206;
         }
     }

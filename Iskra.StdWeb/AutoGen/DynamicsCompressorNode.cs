@@ -15,7 +15,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8110;
             JSObject __res_8111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "threshold");
-            throw new Exception("Marshaller ToManaged from \"__res_8111\" to \"__res_8110\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8110;
         }
     }
@@ -26,7 +26,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8112;
             JSObject __res_8113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "knee");
-            throw new Exception("Marshaller ToManaged from \"__res_8113\" to \"__res_8112\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8112;
         }
     }
@@ -37,7 +37,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8114;
             JSObject __res_8115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ratio");
-            throw new Exception("Marshaller ToManaged from \"__res_8115\" to \"__res_8114\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8114;
         }
     }
@@ -59,7 +59,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8118;
             JSObject __res_8119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attack");
-            throw new Exception("Marshaller ToManaged from \"__res_8119\" to \"__res_8118\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8118;
         }
     }
@@ -70,7 +70,7 @@ public partial class DynamicsCompressorNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8120;
             JSObject __res_8121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "release");
-            throw new Exception("Marshaller ToManaged from \"__res_8121\" to \"__res_8120\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8120;
         }
     }

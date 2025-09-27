@@ -15,7 +15,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8063;
             JSObject __res_8064 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
-            throw new Exception("Marshaller ToManaged from \"__res_8064\" to \"__res_8063\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8063;
         }
     }
@@ -26,7 +26,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8065;
             JSObject __res_8066 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
-            throw new Exception("Marshaller ToManaged from \"__res_8066\" to \"__res_8065\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8065;
         }
     }
@@ -37,7 +37,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8067;
             JSObject __res_8068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
-            throw new Exception("Marshaller ToManaged from \"__res_8068\" to \"__res_8067\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8067;
         }
     }
@@ -48,7 +48,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8069;
             JSObject __res_8070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardX");
-            throw new Exception("Marshaller ToManaged from \"__res_8070\" to \"__res_8069\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8069;
         }
     }
@@ -59,7 +59,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8071;
             JSObject __res_8072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardY");
-            throw new Exception("Marshaller ToManaged from \"__res_8072\" to \"__res_8071\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8071;
         }
     }
@@ -70,7 +70,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8073;
             JSObject __res_8074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardZ");
-            throw new Exception("Marshaller ToManaged from \"__res_8074\" to \"__res_8073\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8073;
         }
     }
@@ -81,7 +81,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8075;
             JSObject __res_8076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upX");
-            throw new Exception("Marshaller ToManaged from \"__res_8076\" to \"__res_8075\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8075;
         }
     }
@@ -92,7 +92,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8077;
             JSObject __res_8078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upY");
-            throw new Exception("Marshaller ToManaged from \"__res_8078\" to \"__res_8077\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8077;
         }
     }
@@ -103,7 +103,7 @@ public partial class AudioListener(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AudioParam __res_8079;
             JSObject __res_8080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upZ");
-            throw new Exception("Marshaller ToManaged from \"__res_8080\" to \"__res_8079\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8079;
         }
     }

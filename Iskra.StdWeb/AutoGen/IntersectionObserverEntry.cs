@@ -33,7 +33,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2669 = (JSObject)__res_2668;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2669\" to \"__res_2667\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             }
             return __res_2667;
         }
@@ -45,7 +45,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMRectReadOnly __res_2670;
             JSObject __res_2671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingClientRect");
-            throw new Exception("Marshaller ToManaged from \"__res_2671\" to \"__res_2670\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             return __res_2670;
         }
     }
@@ -56,7 +56,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMRectReadOnly __res_2672;
             JSObject __res_2673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
-            throw new Exception("Marshaller ToManaged from \"__res_2673\" to \"__res_2672\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             return __res_2672;
         }
     }
@@ -100,7 +100,7 @@ public partial class IntersectionObserverEntry(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Element __res_2680;
             JSObject __res_2681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from \"__res_2681\" to \"__res_2680\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             return __res_2680;
         }
     }

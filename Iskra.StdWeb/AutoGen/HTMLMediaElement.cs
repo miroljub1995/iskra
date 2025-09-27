@@ -22,7 +22,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5528 = (JSObject)__res_5527;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5528\" to \"__res_5526\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaError } not supported.");
             }
             return __res_5526;
         }
@@ -137,7 +137,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.TimeRanges __res_5545;
             JSObject __res_5546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
-            throw new Exception("Marshaller ToManaged from \"__res_5546\" to \"__res_5545\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
             return __res_5545;
         }
     }
@@ -260,7 +260,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.TimeRanges __res_5567;
             JSObject __res_5568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "played");
-            throw new Exception("Marshaller ToManaged from \"__res_5568\" to \"__res_5567\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
             return __res_5567;
         }
     }
@@ -271,7 +271,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.TimeRanges __res_5569;
             JSObject __res_5570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seekable");
-            throw new Exception("Marshaller ToManaged from \"__res_5570\" to \"__res_5569\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
             return __res_5569;
         }
     }
@@ -395,7 +395,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.AudioTrackList __res_5591;
             JSObject __res_5592 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
-            throw new Exception("Marshaller ToManaged from \"__res_5592\" to \"__res_5591\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioTrackList } not supported.");
             return __res_5591;
         }
     }
@@ -406,7 +406,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.VideoTrackList __res_5593;
             JSObject __res_5594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
-            throw new Exception("Marshaller ToManaged from \"__res_5594\" to \"__res_5593\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoTrackList } not supported.");
             return __res_5593;
         }
     }
@@ -417,7 +417,7 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.TextTrackList __res_5595;
             JSObject __res_5596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
-            throw new Exception("Marshaller ToManaged from \"__res_5596\" to \"__res_5595\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackList } not supported.");
             return __res_5595;
         }
     }

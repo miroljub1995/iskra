@@ -22,7 +22,7 @@ public partial class TimeEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_805 = (JSObject)__res_804;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_805\" to \"__res_803\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_803;
         }

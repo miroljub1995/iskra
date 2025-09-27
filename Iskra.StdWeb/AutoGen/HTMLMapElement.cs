@@ -32,7 +32,7 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.HTMLCollection __res_5733;
             JSObject __res_5734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            throw new Exception("Marshaller ToManaged from \"__res_5734\" to \"__res_5733\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
             return __res_5733;
         }
     }

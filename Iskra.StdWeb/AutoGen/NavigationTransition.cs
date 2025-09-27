@@ -15,7 +15,7 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.NavigationType __res_6617;
             JSObject __res_6618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
-            throw new Exception("Marshaller ToManaged from \"__res_6618\" to \"__res_6617\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
             return __res_6617;
         }
     }
@@ -26,7 +26,7 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.NavigationHistoryEntry __res_6619;
             JSObject __res_6620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            throw new Exception("Marshaller ToManaged from \"__res_6620\" to \"__res_6619\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
             return __res_6619;
         }
     }

@@ -15,7 +15,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Window __res_6475;
             JSObject __res_6476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
-            throw new Exception("Marshaller ToManaged from \"__res_6476\" to \"__res_6475\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             return __res_6475;
         }
     }
@@ -26,7 +26,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Window __res_6477;
             JSObject __res_6478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "self");
-            throw new Exception("Marshaller ToManaged from \"__res_6478\" to \"__res_6477\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             return __res_6477;
         }
     }
@@ -37,7 +37,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Document __res_6479;
             JSObject __res_6480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
-            throw new Exception("Marshaller ToManaged from \"__res_6480\" to \"__res_6479\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
             return __res_6479;
         }
     }
@@ -65,7 +65,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Location __res_6484;
             JSObject __res_6485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "location");
-            throw new Exception("Marshaller ToManaged from \"__res_6485\" to \"__res_6484\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Location } not supported.");
             return __res_6484;
         }
     }
@@ -76,7 +76,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.History __res_6486;
             JSObject __res_6487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "history");
-            throw new Exception("Marshaller ToManaged from \"__res_6487\" to \"__res_6486\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = History } not supported.");
             return __res_6486;
         }
     }
@@ -87,7 +87,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Navigation __res_6488;
             JSObject __res_6489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigation");
-            throw new Exception("Marshaller ToManaged from \"__res_6489\" to \"__res_6488\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Navigation } not supported.");
             return __res_6488;
         }
     }
@@ -98,7 +98,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.CustomElementRegistry __res_6490;
             JSObject __res_6491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "customElements");
-            throw new Exception("Marshaller ToManaged from \"__res_6491\" to \"__res_6490\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CustomElementRegistry } not supported.");
             return __res_6490;
         }
     }
@@ -109,7 +109,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BarProp __res_6492;
             JSObject __res_6493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locationbar");
-            throw new Exception("Marshaller ToManaged from \"__res_6493\" to \"__res_6492\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BarProp } not supported.");
             return __res_6492;
         }
     }
@@ -120,7 +120,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BarProp __res_6494;
             JSObject __res_6495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "menubar");
-            throw new Exception("Marshaller ToManaged from \"__res_6495\" to \"__res_6494\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BarProp } not supported.");
             return __res_6494;
         }
     }
@@ -131,7 +131,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BarProp __res_6496;
             JSObject __res_6497 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "personalbar");
-            throw new Exception("Marshaller ToManaged from \"__res_6497\" to \"__res_6496\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BarProp } not supported.");
             return __res_6496;
         }
     }
@@ -142,7 +142,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BarProp __res_6498;
             JSObject __res_6499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollbars");
-            throw new Exception("Marshaller ToManaged from \"__res_6499\" to \"__res_6498\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BarProp } not supported.");
             return __res_6498;
         }
     }
@@ -153,7 +153,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BarProp __res_6500;
             JSObject __res_6501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "statusbar");
-            throw new Exception("Marshaller ToManaged from \"__res_6501\" to \"__res_6500\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BarProp } not supported.");
             return __res_6500;
         }
     }
@@ -164,7 +164,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BarProp __res_6502;
             JSObject __res_6503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "toolbar");
-            throw new Exception("Marshaller ToManaged from \"__res_6503\" to \"__res_6502\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BarProp } not supported.");
             return __res_6502;
         }
     }
@@ -203,7 +203,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Window __res_6509;
             JSObject __res_6510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frames");
-            throw new Exception("Marshaller ToManaged from \"__res_6510\" to \"__res_6509\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             return __res_6509;
         }
     }
@@ -232,7 +232,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_6515 = (JSObject)__res_6514;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6515\" to \"__res_6513\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_6513;
         }
@@ -244,13 +244,13 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             object? __res_6516;
             JSObject __res_6517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "opener");
-            throw new Exception("Marshaller ToManaged from \"__res_6517\" to \"__res_6516\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_6516;
         }
         set
         {
             JSObject __marshalledValue_6518;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_6518\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "opener", __marshalledValue_6518);
         }
     }
@@ -268,7 +268,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_6521 = (JSObject)__res_6520;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6521\" to \"__res_6519\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_6519;
         }
@@ -287,7 +287,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_6524 = (JSObject)__res_6523;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6524\" to \"__res_6522\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_6522;
         }
@@ -299,7 +299,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Navigator __res_6525;
             JSObject __res_6526 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
-            throw new Exception("Marshaller ToManaged from \"__res_6526\" to \"__res_6525\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Navigator } not supported.");
             return __res_6525;
         }
     }
@@ -310,7 +310,7 @@ public partial class Window(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.Navigator __res_6527;
             JSObject __res_6528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clientInformation");
-            throw new Exception("Marshaller ToManaged from \"__res_6528\" to \"__res_6527\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Navigator } not supported.");
             return __res_6527;
         }
     }

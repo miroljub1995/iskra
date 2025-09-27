@@ -22,7 +22,7 @@ public partial class SubmitEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6282 = (JSObject)__res_6281;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6282\" to \"__res_6280\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
             }
             return __res_6280;
         }

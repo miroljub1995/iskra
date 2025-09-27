@@ -15,7 +15,7 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.MediaKeyMessageType __res_5103;
             JSObject __res_5104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
-            throw new Exception("Marshaller ToManaged from \"__res_5104\" to \"__res_5103\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaKeyMessageType } not supported.");
             return __res_5103;
         }
     }
@@ -26,7 +26,7 @@ public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
         {
             Iskra.JSCore.ArrayBuffer __res_5105;
             JSObject __res_5106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
-            throw new Exception("Marshaller ToManaged from \"__res_5106\" to \"__res_5105\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             return __res_5105;
         }
     }

@@ -15,7 +15,7 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
         {
             Iskra.StdWeb.WebGLTexture __res_1038;
             JSObject __res_1039 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
-            throw new Exception("Marshaller ToManaged from \"__res_1039\" to \"__res_1038\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
             return __res_1038;
         }
     }
@@ -26,7 +26,7 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
         {
             Iskra.StdWeb.XRTextureType __res_1040;
             JSObject __res_1041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textureType");
-            throw new Exception("Marshaller ToManaged from \"__res_1041\" to \"__res_1040\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRTextureType } not supported.");
             return __res_1040;
         }
     }

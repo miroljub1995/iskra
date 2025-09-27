@@ -103,7 +103,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
         {
             Iskra.StdWeb.NavigationTimingType __res_1293;
             JSObject __res_1294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_1294\" to \"__res_1293\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationTimingType } not supported.");
             return __res_1293;
         }
     }
@@ -143,7 +143,7 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
             else
             {
                 JSObject __notNullable_1301 = (JSObject)__res_1300;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1301\" to \"__res_1299\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotRestoredReasons } not supported.");
             }
             return __res_1299;
         }

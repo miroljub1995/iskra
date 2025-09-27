@@ -22,7 +22,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
             else
             {
                 JSObject __notNullable_8045 = (JSObject)__res_8044;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_8045\" to \"__res_8043\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
             }
             return __res_8043;
         }
@@ -36,7 +36,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
             else
             {
                 Iskra.StdWeb.AudioBuffer __notNullable_8047 = (Iskra.StdWeb.AudioBuffer)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_8047\" to \"__marshalledValue_8046\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8046);
         }
@@ -48,7 +48,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         {
             Iskra.StdWeb.AudioParam __res_8048;
             JSObject __res_8049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackRate");
-            throw new Exception("Marshaller ToManaged from \"__res_8049\" to \"__res_8048\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8048;
         }
     }
@@ -59,7 +59,7 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
         {
             Iskra.StdWeb.AudioParam __res_8050;
             JSObject __res_8051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            throw new Exception("Marshaller ToManaged from \"__res_8051\" to \"__res_8050\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8050;
         }
     }

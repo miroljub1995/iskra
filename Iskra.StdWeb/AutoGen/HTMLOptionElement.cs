@@ -39,7 +39,7 @@ public partial class HTMLOptionElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6098 = (JSObject)__res_6097;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6098\" to \"__res_6096\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_6096;
         }

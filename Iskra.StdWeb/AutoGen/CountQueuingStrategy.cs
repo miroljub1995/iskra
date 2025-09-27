@@ -26,7 +26,7 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Function __res_955;
             JSObject __res_956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            throw new Exception("Marshaller ToManaged from \"__res_956\" to \"__res_955\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
             return __res_955;
         }
     }

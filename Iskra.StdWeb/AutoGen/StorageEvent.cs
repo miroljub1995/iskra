@@ -90,7 +90,7 @@ public partial class StorageEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6885 = (JSObject)__res_6884;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6885\" to \"__res_6883\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Storage } not supported.");
             }
             return __res_6883;
         }

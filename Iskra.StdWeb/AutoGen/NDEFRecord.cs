@@ -71,7 +71,7 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_4574 = (JSObject)__res_4573;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4574\" to \"__res_4572\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
             return __res_4572;
         }

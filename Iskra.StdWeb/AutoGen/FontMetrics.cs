@@ -135,7 +135,7 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Baseline __res_7715;
             JSObject __res_7716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dominantBaseline");
-            throw new Exception("Marshaller ToManaged from \"__res_7716\" to \"__res_7715\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Baseline } not supported.");
             return __res_7715;
         }
     }

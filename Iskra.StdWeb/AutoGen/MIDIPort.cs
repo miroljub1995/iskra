@@ -64,7 +64,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.MIDIPortType __res_7411;
             JSObject __res_7412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_7412\" to \"__res_7411\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortType } not supported.");
             return __res_7411;
         }
     }
@@ -94,7 +94,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.MIDIPortDeviceState __res_7416;
             JSObject __res_7417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from \"__res_7417\" to \"__res_7416\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortDeviceState } not supported.");
             return __res_7416;
         }
     }
@@ -105,7 +105,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.MIDIPortConnectionState __res_7418;
             JSObject __res_7419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            throw new Exception("Marshaller ToManaged from \"__res_7419\" to \"__res_7418\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortConnectionState } not supported.");
             return __res_7418;
         }
     }
@@ -123,7 +123,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7422 = (JSObject)__res_7421;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7422\" to \"__res_7420\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7420;
         }
@@ -137,7 +137,7 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7424 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7424\" to \"__marshalledValue_7423\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7423);
         }

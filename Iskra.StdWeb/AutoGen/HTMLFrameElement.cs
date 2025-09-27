@@ -124,7 +124,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6945 = (JSObject)__res_6944;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6945\" to \"__res_6943\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
             }
             return __res_6943;
         }
@@ -143,7 +143,7 @@ public partial class HTMLFrameElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6948 = (JSObject)__res_6947;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6948\" to \"__res_6946\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_6946;
         }

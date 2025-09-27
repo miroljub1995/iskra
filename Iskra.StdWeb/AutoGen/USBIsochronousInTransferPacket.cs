@@ -22,7 +22,7 @@ public partial class USBIsochronousInTransferPacket(JSObject obj): JSObjectProxy
             else
             {
                 JSObject __notNullable_4921 = (JSObject)__res_4920;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4921\" to \"__res_4919\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
             return __res_4919;
         }
@@ -34,7 +34,7 @@ public partial class USBIsochronousInTransferPacket(JSObject obj): JSObjectProxy
         {
             Iskra.StdWeb.USBTransferStatus __res_4922;
             JSObject __res_4923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from \"__res_4923\" to \"__res_4922\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBTransferStatus } not supported.");
             return __res_4922;
         }
     }

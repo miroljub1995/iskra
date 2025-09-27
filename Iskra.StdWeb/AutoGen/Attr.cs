@@ -99,7 +99,7 @@ public partial class Attr(JSObject obj): Node(obj)
             else
             {
                 JSObject __notNullable_3283 = (JSObject)__res_3282;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3283\" to \"__res_3281\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_3281;
         }

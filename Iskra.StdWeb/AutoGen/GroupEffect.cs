@@ -15,7 +15,7 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AnimationNodeList __res_5121;
             JSObject __res_5122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            throw new Exception("Marshaller ToManaged from \"__res_5122\" to \"__res_5121\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationNodeList } not supported.");
             return __res_5121;
         }
     }
@@ -33,7 +33,7 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_5125 = (JSObject)__res_5124;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5125\" to \"__res_5123\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } not supported.");
             }
             return __res_5123;
         }
@@ -52,7 +52,7 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_5128 = (JSObject)__res_5127;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5128\" to \"__res_5126\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } not supported.");
             }
             return __res_5126;
         }

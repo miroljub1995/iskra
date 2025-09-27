@@ -15,7 +15,7 @@ public partial class XRJointSpace(JSObject obj): XRSpace(obj)
         {
             Iskra.StdWeb.XRHandJoint __res_3692;
             JSObject __res_3693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "jointName");
-            throw new Exception("Marshaller ToManaged from \"__res_3693\" to \"__res_3692\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHandJoint } not supported.");
             return __res_3692;
         }
     }

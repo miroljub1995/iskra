@@ -15,13 +15,13 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.BiquadFilterType __res_8087;
             JSObject __res_8088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_8088\" to \"__res_8087\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BiquadFilterType } not supported.");
             return __res_8087;
         }
         set
         {
             JSObject __marshalledValue_8089;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8089\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BiquadFilterType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_8089);
         }
     }
@@ -32,7 +32,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8090;
             JSObject __res_8091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            throw new Exception("Marshaller ToManaged from \"__res_8091\" to \"__res_8090\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8090;
         }
     }
@@ -43,7 +43,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8092;
             JSObject __res_8093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            throw new Exception("Marshaller ToManaged from \"__res_8093\" to \"__res_8092\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8092;
         }
     }
@@ -54,7 +54,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8094;
             JSObject __res_8095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
-            throw new Exception("Marshaller ToManaged from \"__res_8095\" to \"__res_8094\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8094;
         }
     }
@@ -65,7 +65,7 @@ public partial class BiquadFilterNode(JSObject obj): AudioNode(obj)
         {
             Iskra.StdWeb.AudioParam __res_8096;
             JSObject __res_8097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
-            throw new Exception("Marshaller ToManaged from \"__res_8097\" to \"__res_8096\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
             return __res_8096;
         }
     }

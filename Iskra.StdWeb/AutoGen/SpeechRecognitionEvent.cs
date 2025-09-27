@@ -26,7 +26,7 @@ public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.SpeechRecognitionResultList __res_3983;
             JSObject __res_3984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
-            throw new Exception("Marshaller ToManaged from \"__res_3984\" to \"__res_3983\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechRecognitionResultList } not supported.");
             return __res_3983;
         }
     }

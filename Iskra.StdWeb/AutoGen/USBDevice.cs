@@ -200,7 +200,7 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_4966 = (JSObject)__res_4965;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4966\" to \"__res_4964\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBConfiguration } not supported.");
             }
             return __res_4964;
         }

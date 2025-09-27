@@ -22,7 +22,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_7058 = (JSObject)__res_7057;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7058\" to \"__res_7056\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FencedFrameConfig } not supported.");
             }
             return __res_7056;
         }
@@ -36,7 +36,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
             else
             {
                 Iskra.StdWeb.FencedFrameConfig __notNullable_7060 = (Iskra.StdWeb.FencedFrameConfig)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7060\" to \"__marshalledValue_7059\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FencedFrameConfig } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "config", __marshalledValue_7059);
         }
@@ -82,7 +82,7 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.DOMTokenList __res_7067;
             JSObject __res_7068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
-            throw new Exception("Marshaller ToManaged from \"__res_7068\" to \"__res_7067\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
             return __res_7067;
         }
     }

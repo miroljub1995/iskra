@@ -90,7 +90,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6130 = (JSObject)__res_6129;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6130\" to \"__res_6128\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_6128;
         }
@@ -305,7 +305,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.ValidityState __res_6167;
             JSObject __res_6168 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller ToManaged from \"__res_6168\" to \"__res_6167\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
             return __res_6167;
         }
     }
@@ -327,7 +327,7 @@ public partial class HTMLTextAreaElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.NodeList __res_6171;
             JSObject __res_6172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller ToManaged from \"__res_6172\" to \"__res_6171\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             return __res_6171;
         }
     }

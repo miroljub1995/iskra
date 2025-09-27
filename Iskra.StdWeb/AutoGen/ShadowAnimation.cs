@@ -15,7 +15,7 @@ public partial class ShadowAnimation(JSObject obj): Animation(obj)
         {
             Iskra.StdWeb.Animation __res_351;
             JSObject __res_352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceAnimation");
-            throw new Exception("Marshaller ToManaged from \"__res_352\" to \"__res_351\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Animation } not supported.");
             return __res_351;
         }
     }

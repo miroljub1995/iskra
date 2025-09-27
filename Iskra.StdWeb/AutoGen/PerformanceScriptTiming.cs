@@ -59,7 +59,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         {
             Iskra.StdWeb.ScriptInvokerType __res_7004;
             JSObject __res_7005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "invokerType");
-            throw new Exception("Marshaller ToManaged from \"__res_7005\" to \"__res_7004\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScriptInvokerType } not supported.");
             return __res_7004;
         }
     }
@@ -154,7 +154,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
             else
             {
                 JSObject __notNullable_7022 = (JSObject)__res_7021;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7022\" to \"__res_7020\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_7020;
         }
@@ -166,7 +166,7 @@ public partial class PerformanceScriptTiming(JSObject obj): PerformanceEntry(obj
         {
             Iskra.StdWeb.ScriptWindowAttribution __res_7023;
             JSObject __res_7024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "windowAttribution");
-            throw new Exception("Marshaller ToManaged from \"__res_7024\" to \"__res_7023\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScriptWindowAttribution } not supported.");
             return __res_7023;
         }
     }

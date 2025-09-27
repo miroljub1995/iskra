@@ -15,7 +15,7 @@ public partial class HIDConnectionEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.HIDDevice __res_1448;
             JSObject __res_1449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            throw new Exception("Marshaller ToManaged from \"__res_1449\" to \"__res_1448\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDDevice } not supported.");
             return __res_1448;
         }
     }

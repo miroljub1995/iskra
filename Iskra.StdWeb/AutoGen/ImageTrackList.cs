@@ -54,7 +54,7 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_2643 = (JSObject)__res_2642;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2643\" to \"__res_2641\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageTrack } not supported.");
             }
             return __res_2641;
         }

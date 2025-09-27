@@ -22,7 +22,7 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
             else
             {
                 JSObject __notNullable_5023 = (JSObject)__res_5022;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5023\" to \"__res_5021\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_5021;
         }
@@ -34,7 +34,7 @@ public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
         {
             Iskra.StdWeb.PointerAxis __res_5024;
             JSObject __res_5025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
-            throw new Exception("Marshaller ToManaged from \"__res_5025\" to \"__res_5024\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PointerAxis } not supported.");
             return __res_5024;
         }
     }

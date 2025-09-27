@@ -15,7 +15,7 @@ public partial class CSSMathInvert(JSObject obj): CSSMathValue(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_54;
             JSObject __res_55 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            throw new Exception("Marshaller ToManaged from \"__res_55\" to \"__res_54\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_54;
         }
     }

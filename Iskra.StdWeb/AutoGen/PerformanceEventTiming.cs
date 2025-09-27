@@ -55,7 +55,7 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
             else
             {
                 JSObject __notNullable_3721 = (JSObject)__res_3720;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3721\" to \"__res_3719\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_3719;
         }

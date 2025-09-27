@@ -32,13 +32,13 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AutomationRate __res_8015;
             JSObject __res_8016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "automationRate");
-            throw new Exception("Marshaller ToManaged from \"__res_8016\" to \"__res_8015\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutomationRate } not supported.");
             return __res_8015;
         }
         set
         {
             JSObject __marshalledValue_8017;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_8017\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutomationRate } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "automationRate", __marshalledValue_8017);
         }
     }

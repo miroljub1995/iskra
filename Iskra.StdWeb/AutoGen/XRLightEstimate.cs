@@ -15,7 +15,7 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.JSCore.Float32Array __res_915;
             JSObject __res_916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
-            throw new Exception("Marshaller ToManaged from \"__res_916\" to \"__res_915\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             return __res_915;
         }
     }
@@ -26,7 +26,7 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMPointReadOnly __res_917;
             JSObject __res_918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
-            throw new Exception("Marshaller ToManaged from \"__res_918\" to \"__res_917\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             return __res_917;
         }
     }
@@ -37,7 +37,7 @@ public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.DOMPointReadOnly __res_919;
             JSObject __res_920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
-            throw new Exception("Marshaller ToManaged from \"__res_920\" to \"__res_919\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             return __res_919;
         }
     }

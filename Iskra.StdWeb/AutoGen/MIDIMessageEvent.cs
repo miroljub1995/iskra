@@ -22,7 +22,7 @@ public partial class MIDIMessageEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_7432 = (JSObject)__res_7431;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7432\" to \"__res_7430\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Uint8Array } not supported.");
             }
             return __res_7430;
         }

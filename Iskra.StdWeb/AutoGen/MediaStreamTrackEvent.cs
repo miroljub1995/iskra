@@ -15,7 +15,7 @@ public partial class MediaStreamTrackEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.MediaStreamTrack __res_3779;
             JSObject __res_3780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from \"__res_3780\" to \"__res_3779\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
             return __res_3779;
         }
     }

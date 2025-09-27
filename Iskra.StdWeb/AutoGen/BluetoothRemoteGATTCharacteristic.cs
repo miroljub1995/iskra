@@ -15,7 +15,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
         {
             Iskra.StdWeb.BluetoothRemoteGATTService __res_2737;
             JSObject __res_2738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
-            throw new Exception("Marshaller ToManaged from \"__res_2738\" to \"__res_2737\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothRemoteGATTService } not supported.");
             return __res_2737;
         }
     }
@@ -37,7 +37,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
         {
             Iskra.StdWeb.BluetoothCharacteristicProperties __res_2741;
             JSObject __res_2742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
-            throw new Exception("Marshaller ToManaged from \"__res_2742\" to \"__res_2741\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothCharacteristicProperties } not supported.");
             return __res_2741;
         }
     }
@@ -55,7 +55,7 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
             else
             {
                 JSObject __notNullable_2745 = (JSObject)__res_2744;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2745\" to \"__res_2743\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
             return __res_2743;
         }

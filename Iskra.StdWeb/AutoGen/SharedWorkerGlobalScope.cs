@@ -33,7 +33,7 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
             else
             {
                 JSObject __notNullable_6847 = (JSObject)__res_6846;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6847\" to \"__res_6845\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_6845;
         }
@@ -47,7 +47,7 @@ public partial class SharedWorkerGlobalScope(JSObject obj): WorkerGlobalScope(ob
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_6849 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_6849\" to \"__marshalledValue_6848\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_6848);
         }

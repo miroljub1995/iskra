@@ -15,7 +15,7 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
         {
             Iskra.StdWeb.ForDebuggingOnly __res_3651;
             JSObject __res_3652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
-            throw new Exception("Marshaller ToManaged from \"__res_3652\" to \"__res_3651\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ForDebuggingOnly } not supported.");
             return __res_3651;
         }
     }
@@ -26,7 +26,7 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
         {
             Iskra.StdWeb.RealTimeReporting __res_3653;
             JSObject __res_3654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
-            throw new Exception("Marshaller ToManaged from \"__res_3654\" to \"__res_3653\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RealTimeReporting } not supported.");
             return __res_3653;
         }
     }

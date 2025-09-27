@@ -15,7 +15,7 @@ public partial class SVGElement(JSObject obj): Element(obj)
         {
             Iskra.StdWeb.SVGAnimatedString __res_230;
             JSObject __res_231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "className");
-            throw new Exception("Marshaller ToManaged from \"__res_231\" to \"__res_230\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
             return __res_230;
         }
     }
@@ -33,7 +33,7 @@ public partial class SVGElement(JSObject obj): Element(obj)
             else
             {
                 JSObject __notNullable_234 = (JSObject)__res_233;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_234\" to \"__res_232\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGSVGElement } not supported.");
             }
             return __res_232;
         }
@@ -52,7 +52,7 @@ public partial class SVGElement(JSObject obj): Element(obj)
             else
             {
                 JSObject __notNullable_237 = (JSObject)__res_236;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_237\" to \"__res_235\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGElement } not supported.");
             }
             return __res_235;
         }

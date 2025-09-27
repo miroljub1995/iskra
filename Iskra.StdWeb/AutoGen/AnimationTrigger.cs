@@ -15,13 +15,13 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AnimationTimeline __res_5133;
             JSObject __res_5134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "timeline");
-            throw new Exception("Marshaller ToManaged from \"__res_5134\" to \"__res_5133\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } not supported.");
             return __res_5133;
         }
         set
         {
             JSObject __marshalledValue_5135;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5135\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "timeline", __marshalledValue_5135);
         }
     }
@@ -32,13 +32,13 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.AnimationTriggerBehavior __res_5136;
             JSObject __res_5137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "behavior");
-            throw new Exception("Marshaller ToManaged from \"__res_5137\" to \"__res_5136\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTriggerBehavior } not supported.");
             return __res_5136;
         }
         set
         {
             JSObject __marshalledValue_5138;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5138\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTriggerBehavior } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "behavior", __marshalledValue_5138);
         }
     }
@@ -49,13 +49,13 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_5139;
             JSObject __res_5140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rangeStart");
-            throw new Exception("Marshaller ToManaged from \"__res_5140\" to \"__res_5139\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_5139;
         }
         set
         {
             JSObject __marshalledValue_5141;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5141\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "rangeStart", __marshalledValue_5141);
         }
     }
@@ -66,13 +66,13 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_5142;
             JSObject __res_5143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rangeEnd");
-            throw new Exception("Marshaller ToManaged from \"__res_5143\" to \"__res_5142\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_5142;
         }
         set
         {
             JSObject __marshalledValue_5144;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5144\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "rangeEnd", __marshalledValue_5144);
         }
     }
@@ -83,13 +83,13 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_5145;
             JSObject __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exitRangeStart");
-            throw new Exception("Marshaller ToManaged from \"__res_5146\" to \"__res_5145\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_5145;
         }
         set
         {
             JSObject __marshalledValue_5147;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5147\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "exitRangeStart", __marshalledValue_5147);
         }
     }
@@ -100,13 +100,13 @@ public partial class AnimationTrigger(JSObject obj): JSObjectProxy(obj)
         {
             object? __res_5148;
             JSObject __res_5149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exitRangeEnd");
-            throw new Exception("Marshaller ToManaged from \"__res_5149\" to \"__res_5148\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_5148;
         }
         set
         {
             JSObject __marshalledValue_5150;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5150\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "exitRangeEnd", __marshalledValue_5150);
         }
     }

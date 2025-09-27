@@ -22,7 +22,7 @@ public partial class PageRevealEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6686 = (JSObject)__res_6685;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6686\" to \"__res_6684\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransition } not supported.");
             }
             return __res_6684;
         }

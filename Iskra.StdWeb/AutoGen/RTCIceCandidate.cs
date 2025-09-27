@@ -90,7 +90,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1802 = (JSObject)__res_1801;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1802\" to \"__res_1800\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceComponent } not supported.");
             }
             return __res_1800;
         }
@@ -147,7 +147,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1811 = (JSObject)__res_1810;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1811\" to \"__res_1809\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceProtocol } not supported.");
             }
             return __res_1809;
         }
@@ -185,7 +185,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1817 = (JSObject)__res_1816;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1817\" to \"__res_1815\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidateType } not supported.");
             }
             return __res_1815;
         }
@@ -204,7 +204,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1820 = (JSObject)__res_1819;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1820\" to \"__res_1818\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceTcpCandidateType } not supported.");
             }
             return __res_1818;
         }
@@ -280,7 +280,7 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1832 = (JSObject)__res_1831;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1832\" to \"__res_1830\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceServerTransportProtocol } not supported.");
             }
             return __res_1830;
         }

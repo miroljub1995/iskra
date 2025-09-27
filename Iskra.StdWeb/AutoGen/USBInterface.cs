@@ -26,7 +26,7 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.USBAlternateInterface __res_4978;
             JSObject __res_4979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
-            throw new Exception("Marshaller ToManaged from \"__res_4979\" to \"__res_4978\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBAlternateInterface } not supported.");
             return __res_4978;
         }
     }

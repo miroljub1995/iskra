@@ -15,7 +15,7 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRRigidTransform __res_4219;
             JSObject __res_4220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller ToManaged from \"__res_4220\" to \"__res_4219\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
             return __res_4219;
         }
     }
@@ -33,7 +33,7 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_4223 = (JSObject)__res_4222;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4223\" to \"__res_4221\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             }
             return __res_4221;
         }
@@ -52,7 +52,7 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_4226 = (JSObject)__res_4225;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4226\" to \"__res_4224\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             }
             return __res_4224;
         }

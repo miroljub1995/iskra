@@ -59,7 +59,7 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
         {
             Iskra.StdWeb.MessagePort __res_8200;
             JSObject __res_8201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            throw new Exception("Marshaller ToManaged from \"__res_8201\" to \"__res_8200\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
             return __res_8200;
         }
     }

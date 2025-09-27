@@ -22,7 +22,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 JSObject __notNullable_810 = (JSObject)__res_809;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_810\" to \"__res_808\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGElement } not supported.");
             }
             return __res_808;
         }
@@ -41,7 +41,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 JSObject __notNullable_813 = (JSObject)__res_812;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_813\" to \"__res_811\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_811;
         }
@@ -55,7 +55,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_815 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_815\" to \"__marshalledValue_814\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onbegin", __marshalledValue_814);
         }
@@ -74,7 +74,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 JSObject __notNullable_818 = (JSObject)__res_817;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_818\" to \"__res_816\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_816;
         }
@@ -88,7 +88,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_820 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_820\" to \"__marshalledValue_819\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_819);
         }
@@ -107,7 +107,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 JSObject __notNullable_823 = (JSObject)__res_822;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_823\" to \"__res_821\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_821;
         }
@@ -121,7 +121,7 @@ public partial class SVGAnimationElement(JSObject obj): SVGElement(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_825 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_825\" to \"__marshalledValue_824\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrepeat", __marshalledValue_824);
         }

@@ -15,7 +15,7 @@ public partial class HTMLTableSectionElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.HTMLCollection __res_5783;
             JSObject __res_5784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
-            throw new Exception("Marshaller ToManaged from \"__res_5784\" to \"__res_5783\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
             return __res_5783;
         }
     }

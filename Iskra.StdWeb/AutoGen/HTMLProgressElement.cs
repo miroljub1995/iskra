@@ -60,7 +60,7 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.NodeList __res_6214;
             JSObject __res_6215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller ToManaged from \"__res_6215\" to \"__res_6214\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             return __res_6214;
         }
     }

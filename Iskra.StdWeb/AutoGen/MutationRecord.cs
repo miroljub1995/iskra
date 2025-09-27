@@ -26,7 +26,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Node __res_3130;
             JSObject __res_3131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from \"__res_3131\" to \"__res_3130\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             return __res_3130;
         }
     }
@@ -37,7 +37,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.NodeList __res_3132;
             JSObject __res_3133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedNodes");
-            throw new Exception("Marshaller ToManaged from \"__res_3133\" to \"__res_3132\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             return __res_3132;
         }
     }
@@ -48,7 +48,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.NodeList __res_3134;
             JSObject __res_3135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedNodes");
-            throw new Exception("Marshaller ToManaged from \"__res_3135\" to \"__res_3134\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             return __res_3134;
         }
     }
@@ -66,7 +66,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3138 = (JSObject)__res_3137;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3138\" to \"__res_3136\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_3136;
         }
@@ -85,7 +85,7 @@ public partial class MutationRecord(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3141 = (JSObject)__res_3140;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3141\" to \"__res_3139\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_3139;
         }

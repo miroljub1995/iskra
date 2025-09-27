@@ -15,7 +15,7 @@ public partial class PresentationConnectionAvailableEvent(JSObject obj): Event(o
         {
             Iskra.StdWeb.PresentationConnection __res_2226;
             JSObject __res_2227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            throw new Exception("Marshaller ToManaged from \"__res_2227\" to \"__res_2226\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnection } not supported.");
             return __res_2226;
         }
     }

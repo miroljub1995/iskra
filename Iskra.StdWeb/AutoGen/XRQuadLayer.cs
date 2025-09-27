@@ -15,13 +15,13 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
         {
             Iskra.StdWeb.XRSpace __res_1492;
             JSObject __res_1493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
-            throw new Exception("Marshaller ToManaged from \"__res_1493\" to \"__res_1492\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             return __res_1492;
         }
         set
         {
             JSObject __marshalledValue_1494;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1494\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_1494);
         }
     }
@@ -32,13 +32,13 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
         {
             Iskra.StdWeb.XRRigidTransform __res_1495;
             JSObject __res_1496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller ToManaged from \"__res_1496\" to \"__res_1495\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
             return __res_1495;
         }
         set
         {
             JSObject __marshalledValue_1497;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_1497\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_1497);
         }
     }
@@ -90,7 +90,7 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
             else
             {
                 JSObject __notNullable_1506 = (JSObject)__res_1505;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1506\" to \"__res_1504\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1504;
         }
@@ -104,7 +104,7 @@ public partial class XRQuadLayer(JSObject obj): XRCompositionLayer(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1508 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1508\" to \"__marshalledValue_1507\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_1507);
         }

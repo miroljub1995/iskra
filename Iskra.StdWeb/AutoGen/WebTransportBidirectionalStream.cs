@@ -15,7 +15,7 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
         {
             Iskra.StdWeb.WebTransportReceiveStream __res_2191;
             JSObject __res_2192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller ToManaged from \"__res_2192\" to \"__res_2191\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportReceiveStream } not supported.");
             return __res_2191;
         }
     }
@@ -26,7 +26,7 @@ public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProx
         {
             Iskra.StdWeb.WebTransportSendStream __res_2193;
             JSObject __res_2194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller ToManaged from \"__res_2194\" to \"__res_2193\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendStream } not supported.");
             return __res_2193;
         }
     }

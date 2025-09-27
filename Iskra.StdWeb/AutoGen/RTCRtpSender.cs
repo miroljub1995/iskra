@@ -22,7 +22,7 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1858 = (JSObject)__res_1857;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1858\" to \"__res_1856\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
             }
             return __res_1856;
         }
@@ -41,7 +41,7 @@ public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1861 = (JSObject)__res_1860;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1861\" to \"__res_1859\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDtlsTransport } not supported.");
             }
             return __res_1859;
         }

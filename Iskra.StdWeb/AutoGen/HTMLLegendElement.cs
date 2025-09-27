@@ -22,7 +22,7 @@ public partial class HTMLLegendElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6257 = (JSObject)__res_6256;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6257\" to \"__res_6255\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_6255;
         }

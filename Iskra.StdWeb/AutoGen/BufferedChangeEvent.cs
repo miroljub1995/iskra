@@ -15,7 +15,7 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.TimeRanges __res_7550;
             JSObject __res_7551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
-            throw new Exception("Marshaller ToManaged from \"__res_7551\" to \"__res_7550\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
             return __res_7550;
         }
     }
@@ -26,7 +26,7 @@ public partial class BufferedChangeEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.TimeRanges __res_7552;
             JSObject __res_7553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
-            throw new Exception("Marshaller ToManaged from \"__res_7553\" to \"__res_7552\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
             return __res_7552;
         }
     }

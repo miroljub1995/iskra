@@ -15,7 +15,7 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.SFrameTransformErrorEventType __res_988;
             JSObject __res_989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
-            throw new Exception("Marshaller ToManaged from \"__res_989\" to \"__res_988\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SFrameTransformErrorEventType } not supported.");
             return __res_988;
         }
     }
@@ -36,7 +36,7 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         {
             object? __res_991;
             JSObject __res_992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
-            throw new Exception("Marshaller ToManaged from \"__res_992\" to \"__res_991\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_991;
         }
     }

@@ -22,7 +22,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4419 = (JSObject)__res_4418;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4419\" to \"__res_4417\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
             }
             return __res_4417;
         }
@@ -41,7 +41,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4422 = (JSObject)__res_4421;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4422\" to \"__res_4420\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
             }
             return __res_4420;
         }
@@ -60,7 +60,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4425 = (JSObject)__res_4424;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4425\" to \"__res_4423\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
             }
             return __res_4423;
         }
@@ -72,7 +72,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.NavigationPreloadManager __res_4426;
             JSObject __res_4427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationPreload");
-            throw new Exception("Marshaller ToManaged from \"__res_4427\" to \"__res_4426\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationPreloadManager } not supported.");
             return __res_4426;
         }
     }
@@ -94,7 +94,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.ServiceWorkerUpdateViaCache __res_4430;
             JSObject __res_4431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "updateViaCache");
-            throw new Exception("Marshaller ToManaged from \"__res_4431\" to \"__res_4430\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorkerUpdateViaCache } not supported.");
             return __res_4430;
         }
     }
@@ -112,7 +112,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_4434 = (JSObject)__res_4433;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4434\" to \"__res_4432\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_4432;
         }
@@ -126,7 +126,7 @@ public partial class ServiceWorkerRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_4436 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_4436\" to \"__marshalledValue_4435\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onupdatefound", __marshalledValue_4435);
         }

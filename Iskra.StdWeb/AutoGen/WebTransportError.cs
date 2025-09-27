@@ -15,7 +15,7 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
         {
             Iskra.StdWeb.WebTransportErrorSource __res_2195;
             JSObject __res_2196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
-            throw new Exception("Marshaller ToManaged from \"__res_2196\" to \"__res_2195\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportErrorSource } not supported.");
             return __res_2195;
         }
     }

@@ -15,7 +15,7 @@ public partial class WebTransportDatagramDuplexStream(JSObject obj): JSObjectPro
         {
             Iskra.StdWeb.ReadableStream __res_2136;
             JSObject __res_2137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller ToManaged from \"__res_2137\" to \"__res_2136\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
             return __res_2136;
         }
     }

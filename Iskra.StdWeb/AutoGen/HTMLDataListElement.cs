@@ -15,7 +15,7 @@ public partial class HTMLDataListElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.HTMLCollection __res_6085;
             JSObject __res_6086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller ToManaged from \"__res_6086\" to \"__res_6085\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
             return __res_6085;
         }
     }

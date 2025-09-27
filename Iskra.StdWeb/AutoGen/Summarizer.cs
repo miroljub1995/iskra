@@ -26,7 +26,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.SummarizerType __res_153;
             JSObject __res_154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_154\" to \"__res_153\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerType } not supported.");
             return __res_153;
         }
     }
@@ -37,7 +37,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.SummarizerFormat __res_155;
             JSObject __res_156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller ToManaged from \"__res_156\" to \"__res_155\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerFormat } not supported.");
             return __res_155;
         }
     }
@@ -48,7 +48,7 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.SummarizerLength __res_157;
             JSObject __res_158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller ToManaged from \"__res_158\" to \"__res_157\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerLength } not supported.");
             return __res_157;
         }
     }

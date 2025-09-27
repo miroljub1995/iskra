@@ -39,7 +39,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6000 = (JSObject)__res_5999;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6000\" to \"__res_5998\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_5998;
         }
@@ -53,7 +53,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
             else
             {
                 Iskra.StdWeb.Element __notNullable_6002 = (Iskra.StdWeb.Element)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_6002\" to \"__marshalledValue_6001\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "commandForElement", __marshalledValue_6001);
         }
@@ -89,7 +89,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6008 = (JSObject)__res_6007;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6008\" to \"__res_6006\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_6006;
         }
@@ -248,7 +248,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.ValidityState __res_6035;
             JSObject __res_6036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller ToManaged from \"__res_6036\" to \"__res_6035\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
             return __res_6035;
         }
     }
@@ -270,7 +270,7 @@ public partial class HTMLButtonElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.NodeList __res_6039;
             JSObject __res_6040 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller ToManaged from \"__res_6040\" to \"__res_6039\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             return __res_6039;
         }
     }

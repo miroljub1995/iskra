@@ -22,7 +22,7 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
             else
             {
                 JSObject __notNullable_221 = (JSObject)__res_220;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_221\" to \"__res_219\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_219;
         }
@@ -34,7 +34,7 @@ public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
         {
             Iskra.StdWeb.ScrollAxis __res_222;
             JSObject __res_223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
-            throw new Exception("Marshaller ToManaged from \"__res_223\" to \"__res_222\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollAxis } not supported.");
             return __res_222;
         }
     }

@@ -26,7 +26,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
         {
             Iskra.StdWeb.MediaList __res_7210;
             JSObject __res_7211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            throw new Exception("Marshaller ToManaged from \"__res_7211\" to \"__res_7210\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaList } not supported.");
             return __res_7210;
         }
     }
@@ -44,7 +44,7 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
             else
             {
                 JSObject __notNullable_7214 = (JSObject)__res_7213;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7214\" to \"__res_7212\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleSheet } not supported.");
             }
             return __res_7212;
         }

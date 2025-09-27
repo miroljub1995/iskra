@@ -15,7 +15,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         {
             Iskra.StdWeb.TouchList __res_2954;
             JSObject __res_2955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
-            throw new Exception("Marshaller ToManaged from \"__res_2955\" to \"__res_2954\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
             return __res_2954;
         }
     }
@@ -26,7 +26,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         {
             Iskra.StdWeb.TouchList __res_2956;
             JSObject __res_2957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
-            throw new Exception("Marshaller ToManaged from \"__res_2957\" to \"__res_2956\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
             return __res_2956;
         }
     }
@@ -37,7 +37,7 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
         {
             Iskra.StdWeb.TouchList __res_2958;
             JSObject __res_2959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
-            throw new Exception("Marshaller ToManaged from \"__res_2959\" to \"__res_2958\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
             return __res_2958;
         }
     }

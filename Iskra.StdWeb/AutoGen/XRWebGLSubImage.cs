@@ -15,7 +15,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
         {
             Iskra.StdWeb.WebGLTexture __res_1565;
             JSObject __res_1566 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorTexture");
-            throw new Exception("Marshaller ToManaged from \"__res_1566\" to \"__res_1565\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
             return __res_1565;
         }
     }
@@ -33,7 +33,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
             else
             {
                 JSObject __notNullable_1569 = (JSObject)__res_1568;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1569\" to \"__res_1567\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
             }
             return __res_1567;
         }
@@ -52,7 +52,7 @@ public partial class XRWebGLSubImage(JSObject obj): XRSubImage(obj)
             else
             {
                 JSObject __notNullable_1572 = (JSObject)__res_1571;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1572\" to \"__res_1570\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
             }
             return __res_1570;
         }

@@ -99,7 +99,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
             else
             {
                 JSObject __notNullable_1489 = (JSObject)__res_1488;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1489\" to \"__res_1487\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
             }
             return __res_1487;
         }
@@ -113,7 +113,7 @@ public partial class XRProjectionLayer(JSObject obj): XRCompositionLayer(obj)
             else
             {
                 Iskra.StdWeb.XRRigidTransform __notNullable_1491 = (Iskra.StdWeb.XRRigidTransform)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1491\" to \"__marshalledValue_1490\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose", __marshalledValue_1490);
         }

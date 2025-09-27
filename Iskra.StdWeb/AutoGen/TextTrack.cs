@@ -15,7 +15,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.TextTrackKind __res_5676;
             JSObject __res_5677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
-            throw new Exception("Marshaller ToManaged from \"__res_5677\" to \"__res_5676\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackKind } not supported.");
             return __res_5676;
         }
     }
@@ -70,13 +70,13 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.TextTrackMode __res_5686;
             JSObject __res_5687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from \"__res_5687\" to \"__res_5686\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackMode } not supported.");
             return __res_5686;
         }
         set
         {
             JSObject __marshalledValue_5688;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_5688\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackMode } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "mode", __marshalledValue_5688);
         }
     }
@@ -94,7 +94,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_5691 = (JSObject)__res_5690;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5691\" to \"__res_5689\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackCueList } not supported.");
             }
             return __res_5689;
         }
@@ -113,7 +113,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_5694 = (JSObject)__res_5693;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5694\" to \"__res_5692\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackCueList } not supported.");
             }
             return __res_5692;
         }
@@ -132,7 +132,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_5697 = (JSObject)__res_5696;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5697\" to \"__res_5695\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_5695;
         }
@@ -146,7 +146,7 @@ public partial class TextTrack(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_5699 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_5699\" to \"__marshalledValue_5698\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange", __marshalledValue_5698);
         }

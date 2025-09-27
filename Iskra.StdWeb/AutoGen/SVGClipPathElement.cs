@@ -15,7 +15,7 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedEnumeration __res_2864;
             JSObject __res_2865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipPathUnits");
-            throw new Exception("Marshaller ToManaged from \"__res_2865\" to \"__res_2864\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
             return __res_2864;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedTransformList __res_2866;
             JSObject __res_2867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller ToManaged from \"__res_2867\" to \"__res_2866\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedTransformList } not supported.");
             return __res_2866;
         }
     }

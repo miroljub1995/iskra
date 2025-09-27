@@ -33,7 +33,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
             else
             {
                 JSObject __notNullable_7542 = (JSObject)__res_7541;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7542\" to \"__res_7540\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7540;
         }
@@ -47,7 +47,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7544 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7544\" to \"__marshalledValue_7543\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming", __marshalledValue_7543);
         }
@@ -66,7 +66,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
             else
             {
                 JSObject __notNullable_7547 = (JSObject)__res_7546;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7547\" to \"__res_7545\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7545;
         }
@@ -80,7 +80,7 @@ public partial class ManagedMediaSource(JSObject obj): MediaSource(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7549 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7549\" to \"__marshalledValue_7548\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming", __marshalledValue_7548);
         }

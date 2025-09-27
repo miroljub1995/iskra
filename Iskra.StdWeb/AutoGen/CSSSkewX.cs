@@ -15,13 +15,13 @@ public partial class CSSSkewX(JSObject obj): CSSTransformComponent(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_99;
             JSObject __res_100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
-            throw new Exception("Marshaller ToManaged from \"__res_100\" to \"__res_99\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_99;
         }
         set
         {
             JSObject __marshalledValue_101;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_101\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_101);
         }
     }

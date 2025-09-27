@@ -15,7 +15,7 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
         {
             Iskra.StdWeb.Request __res_4500;
             JSObject __res_4501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            throw new Exception("Marshaller ToManaged from \"__res_4501\" to \"__res_4500\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Request } not supported.");
             return __res_4500;
         }
     }

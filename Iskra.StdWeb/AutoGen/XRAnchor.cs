@@ -15,7 +15,7 @@ public partial class XRAnchor(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.XRSpace __res_1017;
             JSObject __res_1018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "anchorSpace");
-            throw new Exception("Marshaller ToManaged from \"__res_1018\" to \"__res_1017\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             return __res_1017;
         }
     }

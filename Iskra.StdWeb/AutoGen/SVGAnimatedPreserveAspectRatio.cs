@@ -15,7 +15,7 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
         {
             Iskra.StdWeb.SVGPreserveAspectRatio __res_382;
             JSObject __res_383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            throw new Exception("Marshaller ToManaged from \"__res_383\" to \"__res_382\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGPreserveAspectRatio } not supported.");
             return __res_382;
         }
     }
@@ -26,7 +26,7 @@ public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy
         {
             Iskra.StdWeb.SVGPreserveAspectRatio __res_384;
             JSObject __res_385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            throw new Exception("Marshaller ToManaged from \"__res_385\" to \"__res_384\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGPreserveAspectRatio } not supported.");
             return __res_384;
         }
     }

@@ -15,13 +15,13 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_75;
             JSObject __res_76 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            throw new Exception("Marshaller ToManaged from \"__res_76\" to \"__res_75\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_75;
         }
         set
         {
             JSObject __marshalledValue_77;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_77\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "x", __marshalledValue_77);
         }
     }
@@ -32,13 +32,13 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_78;
             JSObject __res_79 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            throw new Exception("Marshaller ToManaged from \"__res_79\" to \"__res_78\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_78;
         }
         set
         {
             JSObject __marshalledValue_80;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_80\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "y", __marshalledValue_80);
         }
     }
@@ -49,13 +49,13 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_81;
             JSObject __res_82 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
-            throw new Exception("Marshaller ToManaged from \"__res_82\" to \"__res_81\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_81;
         }
         set
         {
             JSObject __marshalledValue_83;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_83\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "z", __marshalledValue_83);
         }
     }

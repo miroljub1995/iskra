@@ -15,7 +15,7 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Node __res_3318;
             JSObject __res_3319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            throw new Exception("Marshaller ToManaged from \"__res_3319\" to \"__res_3318\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             return __res_3318;
         }
     }
@@ -44,7 +44,7 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_3324 = (JSObject)__res_3323;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3324\" to \"__res_3322\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeFilter } not supported.");
             }
             return __res_3322;
         }
@@ -56,13 +56,13 @@ public partial class TreeWalker(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Node __res_3325;
             JSObject __res_3326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
-            throw new Exception("Marshaller ToManaged from \"__res_3326\" to \"__res_3325\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             return __res_3325;
         }
         set
         {
             JSObject __marshalledValue_3327;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_3327\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_3327);
         }
     }

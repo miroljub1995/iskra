@@ -56,7 +56,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_6049 = (JSObject)__res_6048;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6049\" to \"__res_6047\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_6047;
         }
@@ -147,7 +147,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.HTMLOptionsCollection __res_6064;
             JSObject __res_6065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller ToManaged from \"__res_6065\" to \"__res_6064\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLOptionsCollection } not supported.");
             return __res_6064;
         }
     }
@@ -175,7 +175,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.HTMLCollection __res_6069;
             JSObject __res_6070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "selectedOptions");
-            throw new Exception("Marshaller ToManaged from \"__res_6070\" to \"__res_6069\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
             return __res_6069;
         }
     }
@@ -231,7 +231,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.ValidityState __res_6079;
             JSObject __res_6080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller ToManaged from \"__res_6080\" to \"__res_6079\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
             return __res_6079;
         }
     }
@@ -253,7 +253,7 @@ public partial class HTMLSelectElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.NodeList __res_6083;
             JSObject __res_6084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller ToManaged from \"__res_6084\" to \"__res_6083\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
             return __res_6083;
         }
     }

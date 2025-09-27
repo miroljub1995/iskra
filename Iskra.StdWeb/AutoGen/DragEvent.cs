@@ -22,7 +22,7 @@ public partial class DragEvent(JSObject obj): MouseEvent(obj)
             else
             {
                 JSObject __notNullable_6474 = (JSObject)__res_6473;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6474\" to \"__res_6472\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataTransfer } not supported.");
             }
             return __res_6472;
         }

@@ -15,7 +15,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.ConnectionType __res_3059;
             JSObject __res_3060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from \"__res_3060\" to \"__res_3059\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ConnectionType } not supported.");
             return __res_3059;
         }
     }
@@ -26,7 +26,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.EffectiveConnectionType __res_3061;
             JSObject __res_3062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effectiveType");
-            throw new Exception("Marshaller ToManaged from \"__res_3062\" to \"__res_3061\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EffectiveConnectionType } not supported.");
             return __res_3061;
         }
     }
@@ -77,7 +77,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_3071 = (JSObject)__res_3070;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3071\" to \"__res_3069\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_3069;
         }
@@ -91,7 +91,7 @@ public partial class NetworkInformation(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_3073 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_3073\" to \"__marshalledValue_3072\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_3072);
         }

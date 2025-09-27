@@ -22,7 +22,7 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
             else
             {
                 JSObject __notNullable_4888 = (JSObject)__res_4887;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4888\" to \"__res_4886\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushMessageData } not supported.");
             }
             return __res_4886;
         }
@@ -41,7 +41,7 @@ public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
             else
             {
                 JSObject __notNullable_4891 = (JSObject)__res_4890;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4891\" to \"__res_4889\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Notification } not supported.");
             }
             return __res_4889;
         }

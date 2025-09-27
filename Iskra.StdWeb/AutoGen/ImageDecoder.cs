@@ -47,7 +47,7 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ImageTrackList __res_2634;
             JSObject __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
-            throw new Exception("Marshaller ToManaged from \"__res_2635\" to \"__res_2634\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageTrackList } not supported.");
             return __res_2634;
         }
     }

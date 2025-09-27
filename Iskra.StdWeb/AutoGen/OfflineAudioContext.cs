@@ -33,7 +33,7 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
             else
             {
                 JSObject __notNullable_7984 = (JSObject)__res_7983;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7984\" to \"__res_7982\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7982;
         }
@@ -47,7 +47,7 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7986 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7986\" to \"__marshalledValue_7985\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete", __marshalledValue_7985);
         }

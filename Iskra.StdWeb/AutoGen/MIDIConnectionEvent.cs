@@ -22,7 +22,7 @@ public partial class MIDIConnectionEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_7435 = (JSObject)__res_7434;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7435\" to \"__res_7433\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPort } not supported.");
             }
             return __res_7433;
         }

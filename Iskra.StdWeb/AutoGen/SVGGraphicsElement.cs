@@ -15,7 +15,7 @@ public partial class SVGGraphicsElement(JSObject obj): SVGElement(obj)
         {
             Iskra.StdWeb.SVGAnimatedTransformList __res_238;
             JSObject __res_239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller ToManaged from \"__res_239\" to \"__res_238\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedTransformList } not supported.");
             return __res_238;
         }
     }

@@ -57,13 +57,13 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
         {
             Iskra.StdWeb.CSSNumericValue __res_87;
             JSObject __res_88 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
-            throw new Exception("Marshaller ToManaged from \"__res_88\" to \"__res_87\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_87;
         }
         set
         {
             JSObject __marshalledValue_89;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_89\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_89);
         }
     }

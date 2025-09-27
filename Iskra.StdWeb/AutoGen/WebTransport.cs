@@ -25,7 +25,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.WebTransportReliabilityMode __res_2157;
             JSObject __res_2158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reliability");
-            throw new Exception("Marshaller ToManaged from \"__res_2158\" to \"__res_2157\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportReliabilityMode } not supported.");
             return __res_2157;
         }
     }
@@ -36,7 +36,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.WebTransportCongestionControl __res_2159;
             JSObject __res_2160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "congestionControl");
-            throw new Exception("Marshaller ToManaged from \"__res_2160\" to \"__res_2159\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportCongestionControl } not supported.");
             return __res_2159;
         }
     }
@@ -144,7 +144,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.WebTransportDatagramDuplexStream __res_2175;
             JSObject __res_2176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
-            throw new Exception("Marshaller ToManaged from \"__res_2176\" to \"__res_2175\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportDatagramDuplexStream } not supported.");
             return __res_2175;
         }
     }
@@ -155,7 +155,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ReadableStream __res_2177;
             JSObject __res_2178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
-            throw new Exception("Marshaller ToManaged from \"__res_2178\" to \"__res_2177\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
             return __res_2177;
         }
     }
@@ -166,7 +166,7 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ReadableStream __res_2179;
             JSObject __res_2180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
-            throw new Exception("Marshaller ToManaged from \"__res_2180\" to \"__res_2179\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
             return __res_2179;
         }
     }

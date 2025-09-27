@@ -15,7 +15,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.NavigationType __res_6630;
             JSObject __res_6631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
-            throw new Exception("Marshaller ToManaged from \"__res_6631\" to \"__res_6630\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
             return __res_6630;
         }
     }
@@ -26,7 +26,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.NavigationDestination __res_6632;
             JSObject __res_6633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
-            throw new Exception("Marshaller ToManaged from \"__res_6633\" to \"__res_6632\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationDestination } not supported.");
             return __res_6632;
         }
     }
@@ -70,7 +70,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.AbortSignal __res_6640;
             JSObject __res_6641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            throw new Exception("Marshaller ToManaged from \"__res_6641\" to \"__res_6640\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AbortSignal } not supported.");
             return __res_6640;
         }
     }
@@ -88,7 +88,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6644 = (JSObject)__res_6643;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6644\" to \"__res_6642\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FormData } not supported.");
             }
             return __res_6642;
         }
@@ -119,7 +119,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
         {
             object? __res_6648;
             JSObject __res_6649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
-            throw new Exception("Marshaller ToManaged from \"__res_6649\" to \"__res_6648\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_6648;
         }
     }
@@ -148,7 +148,7 @@ public partial class NavigateEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_6654 = (JSObject)__res_6653;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_6654\" to \"__res_6652\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
             return __res_6652;
         }

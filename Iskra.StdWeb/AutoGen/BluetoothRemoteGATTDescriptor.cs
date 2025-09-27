@@ -15,7 +15,7 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
         {
             Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_2764;
             JSObject __res_2765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
-            throw new Exception("Marshaller ToManaged from \"__res_2765\" to \"__res_2764\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothRemoteGATTCharacteristic } not supported.");
             return __res_2764;
         }
     }
@@ -44,7 +44,7 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
             else
             {
                 JSObject __notNullable_2770 = (JSObject)__res_2769;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2770\" to \"__res_2768\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
             return __res_2768;
         }

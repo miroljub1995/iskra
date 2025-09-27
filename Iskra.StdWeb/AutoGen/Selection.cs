@@ -22,7 +22,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1073 = (JSObject)__res_1072;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1073\" to \"__res_1071\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_1071;
         }
@@ -52,7 +52,7 @@ public partial class Selection(JSObject obj): JSObjectProxy(obj)
             else
             {
                 JSObject __notNullable_1078 = (JSObject)__res_1077;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1078\" to \"__res_1076\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
             return __res_1076;
         }

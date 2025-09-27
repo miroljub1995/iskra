@@ -22,7 +22,7 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_2776 = (JSObject)__res_2775;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2776\" to \"__res_2774\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = UserIdleState } not supported.");
             }
             return __res_2774;
         }
@@ -41,7 +41,7 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_2779 = (JSObject)__res_2778;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2779\" to \"__res_2777\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScreenIdleState } not supported.");
             }
             return __res_2777;
         }
@@ -60,7 +60,7 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_2782 = (JSObject)__res_2781;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_2782\" to \"__res_2780\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_2780;
         }
@@ -74,7 +74,7 @@ public partial class IdleDetector(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_2784 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_2784\" to \"__marshalledValue_2783\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_2783);
         }

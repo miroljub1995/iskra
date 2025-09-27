@@ -77,7 +77,7 @@ public partial class XRWebGLLayer(JSObject obj): XRLayer(obj)
             else
             {
                 JSObject __notNullable_4255 = (JSObject)__res_4254;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4255\" to \"__res_4253\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLFramebuffer } not supported.");
             }
             return __res_4253;
         }

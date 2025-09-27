@@ -15,7 +15,7 @@ public partial class RTCDataChannelEvent(JSObject obj): Event(obj)
         {
             Iskra.StdWeb.RTCDataChannel __res_2004;
             JSObject __res_2005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
-            throw new Exception("Marshaller ToManaged from \"__res_2005\" to \"__res_2004\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDataChannel } not supported.");
             return __res_2004;
         }
     }

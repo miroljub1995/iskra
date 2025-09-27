@@ -15,7 +15,7 @@ public partial class GPUPipelineError(JSObject obj): DOMException(obj)
         {
             Iskra.StdWeb.GPUPipelineErrorReason __res_746;
             JSObject __res_747 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller ToManaged from \"__res_747\" to \"__res_746\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUPipelineErrorReason } not supported.");
             return __res_746;
         }
     }

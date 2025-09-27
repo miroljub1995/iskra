@@ -15,7 +15,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.ReadableStream __res_1003;
             JSObject __res_1004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller ToManaged from \"__res_1004\" to \"__res_1003\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
             return __res_1003;
         }
     }
@@ -26,7 +26,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.WritableStream __res_1005;
             JSObject __res_1006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller ToManaged from \"__res_1006\" to \"__res_1005\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
             return __res_1005;
         }
     }
@@ -44,7 +44,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1009 = (JSObject)__res_1008;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1009\" to \"__res_1007\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_1007;
         }
@@ -58,7 +58,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_1011 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_1011\" to \"__marshalledValue_1010\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest", __marshalledValue_1010);
         }
@@ -70,7 +70,7 @@ public partial class RTCRtpScriptTransformer(JSObject obj): EventTarget(obj)
         {
             object? __res_1012;
             JSObject __res_1013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller ToManaged from \"__res_1013\" to \"__res_1012\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_1012;
         }
     }

@@ -45,13 +45,13 @@ public partial class ViewTransition(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.ViewTransitionTypeSet __res_7158;
             JSObject __res_7159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            throw new Exception("Marshaller ToManaged from \"__res_7159\" to \"__res_7158\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransitionTypeSet } not supported.");
             return __res_7158;
         }
         set
         {
             JSObject __marshalledValue_7160;
-            throw new Exception("Marshaller ToJS from \"value\" to \"__marshalledValue_7160\" not supported.");
+            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransitionTypeSet } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_7160);
         }
     }

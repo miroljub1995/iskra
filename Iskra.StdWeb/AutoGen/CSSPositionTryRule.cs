@@ -26,7 +26,7 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
         {
             Iskra.StdWeb.CSSPositionTryDescriptors __res_2299;
             JSObject __res_2300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller ToManaged from \"__res_2300\" to \"__res_2299\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSPositionTryDescriptors } not supported.");
             return __res_2299;
         }
     }

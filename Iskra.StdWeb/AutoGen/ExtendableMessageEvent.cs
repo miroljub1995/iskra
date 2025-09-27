@@ -15,7 +15,7 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
         {
             object? __res_4510;
             JSObject __res_4511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new Exception("Marshaller ToManaged from \"__res_4511\" to \"__res_4510\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
             return __res_4510;
         }
     }

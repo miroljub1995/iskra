@@ -22,7 +22,7 @@ public partial class USBIsochronousInTransferResult(JSObject obj): JSObjectProxy
             else
             {
                 JSObject __notNullable_4926 = (JSObject)__res_4925;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_4926\" to \"__res_4924\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
             return __res_4924;
         }

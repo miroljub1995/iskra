@@ -73,7 +73,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5472 = (JSObject)__res_5471;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5472\" to \"__res_5470\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
             return __res_5470;
         }
@@ -126,7 +126,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5481 = (JSObject)__res_5480;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5481\" to \"__res_5479\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
             }
             return __res_5479;
         }
@@ -145,7 +145,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
             else
             {
                 JSObject __notNullable_5484 = (JSObject)__res_5483;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_5484\" to \"__res_5482\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_5482;
         }
@@ -168,7 +168,7 @@ public partial class HTMLObjectElement(JSObject obj): HTMLElement(obj)
         {
             Iskra.StdWeb.ValidityState __res_5487;
             JSObject __res_5488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller ToManaged from \"__res_5488\" to \"__res_5487\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
             return __res_5487;
         }
     }

@@ -22,7 +22,7 @@ public partial class UIEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_7797 = (JSObject)__res_7796;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7797\" to \"__res_7795\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
             return __res_7795;
         }

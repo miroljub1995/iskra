@@ -15,7 +15,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.MIDIInputMap __res_7392;
             JSObject __res_7393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
-            throw new Exception("Marshaller ToManaged from \"__res_7393\" to \"__res_7392\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIInputMap } not supported.");
             return __res_7392;
         }
     }
@@ -26,7 +26,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.MIDIOutputMap __res_7394;
             JSObject __res_7395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
-            throw new Exception("Marshaller ToManaged from \"__res_7395\" to \"__res_7394\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIOutputMap } not supported.");
             return __res_7394;
         }
     }
@@ -44,7 +44,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_7398 = (JSObject)__res_7397;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7398\" to \"__res_7396\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7396;
         }
@@ -58,7 +58,7 @@ public partial class MIDIAccess(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7400 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7400\" to \"__marshalledValue_7399\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7399);
         }

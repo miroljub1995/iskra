@@ -70,7 +70,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BackgroundFetchResult __res_3366;
             JSObject __res_3367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
-            throw new Exception("Marshaller ToManaged from \"__res_3367\" to \"__res_3366\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BackgroundFetchResult } not supported.");
             return __res_3366;
         }
     }
@@ -81,7 +81,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
         {
             Iskra.StdWeb.BackgroundFetchFailureReason __res_3368;
             JSObject __res_3369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "failureReason");
-            throw new Exception("Marshaller ToManaged from \"__res_3369\" to \"__res_3368\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BackgroundFetchFailureReason } not supported.");
             return __res_3368;
         }
     }
@@ -110,7 +110,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_3374 = (JSObject)__res_3373;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_3374\" to \"__res_3372\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_3372;
         }
@@ -124,7 +124,7 @@ public partial class BackgroundFetchRegistration(JSObject obj): EventTarget(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_3376 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_3376\" to \"__marshalledValue_3375\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_3375);
         }

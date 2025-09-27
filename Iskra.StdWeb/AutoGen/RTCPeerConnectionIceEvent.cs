@@ -22,7 +22,7 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
             else
             {
                 JSObject __notNullable_1838 = (JSObject)__res_1837;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_1838\" to \"__res_1836\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidate } not supported.");
             }
             return __res_1836;
         }

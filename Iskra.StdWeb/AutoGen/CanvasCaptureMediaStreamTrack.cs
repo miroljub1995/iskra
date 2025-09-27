@@ -15,7 +15,7 @@ public partial class CanvasCaptureMediaStreamTrack(JSObject obj): MediaStreamTra
         {
             Iskra.StdWeb.HTMLCanvasElement __res_1646;
             JSObject __res_1647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            throw new Exception("Marshaller ToManaged from \"__res_1647\" to \"__res_1646\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCanvasElement } not supported.");
             return __res_1646;
         }
     }

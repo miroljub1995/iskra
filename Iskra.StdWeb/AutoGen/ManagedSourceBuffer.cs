@@ -22,7 +22,7 @@ public partial class ManagedSourceBuffer(JSObject obj): SourceBuffer(obj)
             else
             {
                 JSObject __notNullable_7556 = (JSObject)__res_7555;
-                throw new Exception("Marshaller ToManaged from \"__notNullable_7556\" to \"__res_7554\" not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
             return __res_7554;
         }
@@ -36,7 +36,7 @@ public partial class ManagedSourceBuffer(JSObject obj): SourceBuffer(obj)
             else
             {
                 Iskra.StdWeb.EventHandlerNonNull __notNullable_7558 = (Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from \"__notNullable_7558\" to \"__marshalledValue_7557\" not supported.");
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedchange", __marshalledValue_7557);
         }

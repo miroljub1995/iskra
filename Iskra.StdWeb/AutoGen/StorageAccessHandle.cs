@@ -15,7 +15,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Storage __res_4372;
             JSObject __res_4373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
-            throw new Exception("Marshaller ToManaged from \"__res_4373\" to \"__res_4372\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Storage } not supported.");
             return __res_4372;
         }
     }
@@ -26,7 +26,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.Storage __res_4374;
             JSObject __res_4375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
-            throw new Exception("Marshaller ToManaged from \"__res_4375\" to \"__res_4374\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Storage } not supported.");
             return __res_4374;
         }
     }
@@ -37,7 +37,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.IDBFactory __res_4376;
             JSObject __res_4377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            throw new Exception("Marshaller ToManaged from \"__res_4377\" to \"__res_4376\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBFactory } not supported.");
             return __res_4376;
         }
     }
@@ -48,7 +48,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.LockManager __res_4378;
             JSObject __res_4379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
-            throw new Exception("Marshaller ToManaged from \"__res_4379\" to \"__res_4378\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LockManager } not supported.");
             return __res_4378;
         }
     }
@@ -59,7 +59,7 @@ public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
         {
             Iskra.StdWeb.CacheStorage __res_4380;
             JSObject __res_4381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            throw new Exception("Marshaller ToManaged from \"__res_4381\" to \"__res_4380\" not supported.");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CacheStorage } not supported.");
             return __res_4380;
         }
     }
