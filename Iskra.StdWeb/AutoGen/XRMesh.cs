@@ -20,14 +20,14 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13> Vertices
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vertices
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13> __res_1653;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1653;
             JSObject __propObject_1654;
             __propObject_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
-            __res_1653 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>(__propObject_1654);
+            __res_1653 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1654);
             return __res_1653;
         }
     }

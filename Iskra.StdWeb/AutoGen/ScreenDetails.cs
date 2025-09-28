@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenDetails(JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.Value_23> Screens
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Screens
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.Value_23> __res_2918;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2918;
             JSObject __propObject_2919;
             __propObject_2919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "screens");
-            __res_2918 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.Value_23>(__propObject_2919);
+            __res_2918 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2919);
             return __res_2918;
         }
     }

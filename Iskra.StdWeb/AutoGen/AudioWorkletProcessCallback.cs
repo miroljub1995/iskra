@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate bool AudioWorkletProcessCallback(global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>, global::Iskra.StdWeb.GenericMarshaller.Value_65> inputs, global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>, global::Iskra.StdWeb.GenericMarshaller.Value_65> outputs, JSObject parameters);
+public delegate bool AudioWorkletProcessCallback(global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> inputs, global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> outputs, JSObject parameters);
 
 #nullable disable

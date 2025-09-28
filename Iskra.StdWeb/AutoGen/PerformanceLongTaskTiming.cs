@@ -53,14 +53,14 @@ public partial class PerformanceLongTaskTiming(JSObject obj): PerformanceEntry(o
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.Value_56> Attribution
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Attribution
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.Value_56> __res_7119;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7119;
             JSObject __propObject_7120;
             __propObject_7120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
-            __res_7119 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.Value_56>(__propObject_7120);
+            __res_7119 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7120);
             return __res_7119;
         }
     }

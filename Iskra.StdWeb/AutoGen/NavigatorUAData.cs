@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.Value_21> Brands
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Brands
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.Value_21> __res_2711;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2711;
             JSObject __propObject_2712;
             __propObject_2712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
-            __res_2711 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.Value_21>(__propObject_2712);
+            __res_2711 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2712);
             return __res_2711;
         }
     }

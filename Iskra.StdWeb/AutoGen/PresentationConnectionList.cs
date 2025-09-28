@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionList(JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.Value_18> Connections
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Connections
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.Value_18> __res_2289;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2289;
             JSObject __propObject_2290;
             __propObject_2290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connections");
-            __res_2289 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.Value_18>(__propObject_2290);
+            __res_2289 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2290);
             return __res_2289;
         }
     }

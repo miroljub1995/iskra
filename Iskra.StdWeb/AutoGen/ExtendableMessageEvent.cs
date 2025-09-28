@@ -52,14 +52,14 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Value_35> Ports
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Ports
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Value_35> __res_4570;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4570;
             JSObject __propObject_4571;
             __propObject_4571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ports");
-            __res_4570 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Value_35>(__propObject_4571);
+            __res_4570 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4571);
             return __res_4570;
         }
     }

@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object RunFunctionForSharedStorageSelectURLOperation(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_30> urls, object? data);
+public delegate object RunFunctionForSharedStorageSelectURLOperation(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.Sequence> urls, object? data);
 
 #nullable disable

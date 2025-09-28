@@ -9,26 +9,26 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserQualifiedRule(JSObject obj): CSSParserRule(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> Prelude
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Prelude
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> __res_7528;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7528;
             JSObject __propObject_7529;
             __propObject_7529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
-            __res_7528 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>(__propObject_7529);
+            __res_7528 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7529);
             return __res_7528;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_59> Body
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Body
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_59> __res_7530;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7530;
             JSObject __propObject_7531;
             __propObject_7531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
-            __res_7530 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_59>(__propObject_7531);
+            __res_7530 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7531);
             return __res_7530;
         }
     }

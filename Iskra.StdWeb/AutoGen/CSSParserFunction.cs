@@ -20,14 +20,14 @@ public partial class CSSParserFunction(JSObject obj): CSSParserValue(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>, global::Iskra.StdWeb.GenericMarshaller.Value_60> Args
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Args
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>, global::Iskra.StdWeb.GenericMarshaller.Value_60> __res_7542;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7542;
             JSObject __propObject_7543;
             __propObject_7543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "args");
-            __res_7542 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>, global::Iskra.StdWeb.GenericMarshaller.Value_60>(__propObject_7543);
+            __res_7542 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7543);
             return __res_7542;
         }
     }

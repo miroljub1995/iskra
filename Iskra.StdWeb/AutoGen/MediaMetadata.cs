@@ -60,14 +60,14 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<JSObject, global::Iskra.StdWeb.GenericMarshaller.Value_2> Artwork
+    public global::Iskra.JSCore.Generics.FrozenArray<JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<JSObject, global::Iskra.StdWeb.GenericMarshaller.Value_2> __res_583;
+            global::Iskra.JSCore.Generics.FrozenArray<JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_583;
             JSObject __propObject_584;
             __propObject_584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
-            __res_583 = new global::Iskra.JSCore.Generics.FrozenArray<JSObject, global::Iskra.StdWeb.GenericMarshaller.Value_2>(__propObject_584);
+            __res_583 = new global::Iskra.JSCore.Generics.FrozenArray<JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_584);
             return __res_583;
         }
         set
@@ -77,14 +77,14 @@ public partial class MediaMetadata(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.Value_3> ChapterInfo
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ChapterInfo
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.Value_3> __res_586;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_586;
             JSObject __propObject_587;
             __propObject_587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "chapterInfo");
-            __res_586 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.Value_3>(__propObject_587);
+            __res_586 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_587);
             return __res_586;
         }
     }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRViewerPose(JSObject obj): XRPose(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.Value_31> Views
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Views
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.Value_31> __res_4272;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4272;
             JSObject __propObject_4273;
             __propObject_4273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "views");
-            __res_4272 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.Value_31>(__propObject_4273);
+            __res_4272 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4273);
             return __res_4272;
         }
     }

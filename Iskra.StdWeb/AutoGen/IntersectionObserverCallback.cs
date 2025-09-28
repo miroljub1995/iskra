@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void IntersectionObserverCallback(global::Iskra.JSCore.Generics.JSArray<Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.Value_19> entries, Iskra.StdWeb.IntersectionObserver observer);
+public delegate void IntersectionObserverCallback(global::Iskra.JSCore.Generics.JSArray<Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.Sequence> entries, Iskra.StdWeb.IntersectionObserver observer);
 
 #nullable disable

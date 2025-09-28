@@ -206,14 +206,14 @@ public partial class USBDevice(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.Value_47> Configurations
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Configurations
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.Value_47> __res_5039;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5039;
             JSObject __propObject_5040;
             __propObject_5040 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "configurations");
-            __res_5039 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.Value_47>(__propObject_5040);
+            __res_5039 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5040);
             return __res_5039;
         }
     }

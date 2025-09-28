@@ -42,14 +42,14 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.Value_24> Sources
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Sources
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.Value_24> __res_3027;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3027;
             JSObject __propObject_3028;
             __propObject_3028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sources");
-            __res_3027 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.Value_24>(__propObject_3028);
+            __res_3027 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3028);
             return __res_3027;
         }
     }

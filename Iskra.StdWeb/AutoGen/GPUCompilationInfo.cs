@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCompilationInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.Value_6> Messages
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Messages
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.Value_6> __res_757;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_757;
             JSObject __propObject_758;
             __propObject_758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messages");
-            __res_757 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.Value_6>(__propObject_758);
+            __res_757 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_758);
             return __res_757;
         }
     }

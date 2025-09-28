@@ -9,26 +9,26 @@ namespace Iskra.StdWeb;
 
 public partial class ExtendableCookieChangeEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.Value_12> Changed
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Changed
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.Value_12> __res_1626;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1626;
             JSObject __propObject_1627;
             __propObject_1627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changed");
-            __res_1626 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.Value_12>(__propObject_1627);
+            __res_1626 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1627);
             return __res_1626;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.Value_12> Deleted
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Deleted
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.Value_12> __res_1628;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1628;
             JSObject __propObject_1629;
             __propObject_1629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "deleted");
-            __res_1628 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.Value_12>(__propObject_1629);
+            __res_1628 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1629);
             return __res_1628;
         }
     }

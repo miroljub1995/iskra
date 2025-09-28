@@ -11,71 +11,73 @@ public static partial class GenericMarshaller
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
     private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructArray(JSObject obj, string constructorName, int length);
 
-    public class Value_0: global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>
+    public class FrozenArray:
+        global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>
     {
-        public static bool[] ToManaged(JSObject input)
+        static bool[] global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>.ToManaged(JSObject input)
         {
-            double __doubleLength_253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            int __length_254 = global::System.Convert.ToInt32(__doubleLength_253);
+                double __doubleLength_253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+                int __length_254 = global::System.Convert.ToInt32(__doubleLength_253);
 
-            bool[] __res_252 = new bool[__length_254];
-            for (int __i_255 = 0; __i_255 < __length_254; __i_255++)
-            {
-                bool __element_256;
-                bool __res_257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_255.ToString());
-                __element_256 = __res_257;
-                __res_252[__i_255] = __element_256;
-            }
+                bool[] __res_252 = new bool[__length_254];
+                for (int __i_255 = 0; __i_255 < __length_254; __i_255++)
+                {
+                    bool __element_256;
+                    bool __res_257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_255.ToString());
+                    __element_256 = __res_257;
+                    __res_252[__i_255] = __element_256;
+                }
 
-            return __res_252;
+                return __res_252;
         }
 
-        public static JSObject ToJS(bool[] input)
+        static JSObject global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>.ToJS(bool[] input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_258 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_258 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
 
-            for (int __i_259 = 0; __i_259 < input.Length; __i_259++)
-            {
-                bool __marshalledValue_260;
-                __marshalledValue_260 = input[__i_259];
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_258, __i_259.ToString(), __marshalledValue_260);
-            }
+                for (int __i_259 = 0; __i_259 < input.Length; __i_259++)
+                {
+                    bool __marshalledValue_260;
+                    __marshalledValue_260 = input[__i_259];
+                    Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_258, __i_259.ToString(), __marshalledValue_260);
+                }
 
-            return __res_258;
+                return __res_258;
         }
     }
 
-    public class Value_1: global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>
+    public class Sequence:
+        global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>
     {
-        public static bool[] ToManaged(JSObject input)
+        static bool[] global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>.ToManaged(JSObject input)
         {
-            double __doubleLength_262 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            int __length_263 = global::System.Convert.ToInt32(__doubleLength_262);
+                double __doubleLength_262 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+                int __length_263 = global::System.Convert.ToInt32(__doubleLength_262);
 
-            bool[] __res_261 = new bool[__length_263];
-            for (int __i_264 = 0; __i_264 < __length_263; __i_264++)
-            {
-                bool __element_265;
-                bool __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_264.ToString());
-                __element_265 = __res_266;
-                __res_261[__i_264] = __element_265;
-            }
+                bool[] __res_261 = new bool[__length_263];
+                for (int __i_264 = 0; __i_264 < __length_263; __i_264++)
+                {
+                    bool __element_265;
+                    bool __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_264.ToString());
+                    __element_265 = __res_266;
+                    __res_261[__i_264] = __element_265;
+                }
 
-            return __res_261;
+                return __res_261;
         }
 
-        public static JSObject ToJS(bool[] input)
+        static JSObject global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>.ToJS(bool[] input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_267 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_267 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
 
-            for (int __i_268 = 0; __i_268 < input.Length; __i_268++)
-            {
-                bool __marshalledValue_269;
-                __marshalledValue_269 = input[__i_268];
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_267, __i_268.ToString(), __marshalledValue_269);
-            }
+                for (int __i_268 = 0; __i_268 < input.Length; __i_268++)
+                {
+                    bool __marshalledValue_269;
+                    __marshalledValue_269 = input[__i_268];
+                    Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_267, __i_268.ToString(), __marshalledValue_269);
+                }
 
-            return __res_267;
+                return __res_267;
         }
     }
 }

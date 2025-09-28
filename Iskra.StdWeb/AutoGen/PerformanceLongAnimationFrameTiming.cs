@@ -97,14 +97,14 @@ public partial class PerformanceLongAnimationFrameTiming(JSObject obj): Performa
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.Value_55> Scripts
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Scripts
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.Value_55> __res_7078;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7078;
             JSObject __propObject_7079;
             __propObject_7079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scripts");
-            __res_7078 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.Value_55>(__propObject_7079);
+            __res_7078 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7079);
             return __res_7078;
         }
     }

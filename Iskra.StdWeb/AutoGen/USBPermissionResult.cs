@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class USBPermissionResult(JSObject obj): PermissionStatus(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.Value_51> Devices
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Devices
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.Value_51> __res_5079;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5079;
             JSObject __propObject_5080;
             __propObject_5080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devices");
-            __res_5079 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.Value_51>(__propObject_5080);
+            __res_5079 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5080);
             return __res_5079;
         }
         set

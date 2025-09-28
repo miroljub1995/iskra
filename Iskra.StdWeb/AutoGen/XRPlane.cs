@@ -20,14 +20,14 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0> Polygon
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Polygon
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0> __res_8;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_8;
             JSObject __propObject_9;
             __propObject_9 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "polygon");
-            __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0>(__propObject_9);
+            __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_9);
             return __res_8;
         }
     }

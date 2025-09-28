@@ -20,14 +20,14 @@ public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.Value_52> Results
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Results
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.Value_52> __res_5192;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5192;
             JSObject __propObject_5193;
             __propObject_5193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
-            __res_5192 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.Value_52>(__propObject_5193);
+            __res_5192 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5193);
             return __res_5192;
         }
     }

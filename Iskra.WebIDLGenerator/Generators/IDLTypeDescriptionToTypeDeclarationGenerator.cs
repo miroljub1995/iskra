@@ -54,16 +54,15 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
         if (marshalled)
         {
-            return $$"""
-                     {{elementManagedType}}[]
-                     """;
+            return MakeNullableIfNeeded($"{elementManagedType}[]", input.Nullable);
         }
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
 
-        return $$"""
-                 global::Iskra.JSCore.Generics.FrozenArray<{{elementManagedType}}, {{marshaller}}>
-                 """;
+        return MakeNullableIfNeeded(
+            $"global::Iskra.JSCore.Generics.FrozenArray<{elementManagedType}, {marshaller}>",
+            input.Nullable
+        );
     }
 
     private string MapSequenceToManagedType(SequenceTypeDescription input, bool marshalled)
@@ -73,16 +72,15 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
         if (marshalled)
         {
-            return $$"""
-                     {{elementManagedType}}[]
-                     """;
+            return MakeNullableIfNeeded($"{elementManagedType}[]", input.Nullable);
         }
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
 
-        return $$"""
-                 global::Iskra.JSCore.Generics.JSArray<{{elementManagedType}}, {{marshaller}}>
-                 """;
+        return MakeNullableIfNeeded(
+            $"global::Iskra.JSCore.Generics.JSArray<{elementManagedType}, {marshaller}>",
+            input.Nullable
+        );
     }
 
     private string MapToDotnetType(string input)

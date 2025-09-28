@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class PushManager(JSObject obj): JSObjectProxy(obj)
 {
-    public static global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> SupportedContentEncodings
+    public static global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> SupportedContentEncodings
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_4942;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4942;
             throw new Exception();
             return __res_4942;
         }

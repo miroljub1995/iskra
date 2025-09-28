@@ -199,8 +199,7 @@ public class GetPropertyValueGenerator(
     {
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
 
-        var arrayTypeDeclaration = toTypeDeclarationGenerator.Generate(type);
-
+        var constructor = toTypeDeclarationGenerator.Generate(type with { Nullable = false });
 
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
@@ -226,19 +225,19 @@ public class GetPropertyValueGenerator(
             return $$"""
                      JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                      {{getPropertyContent}}
-                     if ({{getPropertyContent}} is null)
+                     if ({{getPropertyVar}} is null)
                      {
                          return null;
                      }
 
-                     {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
+                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                      """;
         }
 
         return $$"""
                  JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                  {{getPropertyContent}}
-                 {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
+                 {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                  """;
     }
 
@@ -253,8 +252,7 @@ public class GetPropertyValueGenerator(
     {
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
 
-        var arrayTypeDeclaration = toTypeDeclarationGenerator.Generate(type);
-
+        var constructor = toTypeDeclarationGenerator.Generate(type with { Nullable = false });
 
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
@@ -280,19 +278,19 @@ public class GetPropertyValueGenerator(
             return $$"""
                      JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                      {{getPropertyContent}}
-                     if ({{getPropertyContent}} is null)
+                     if ({{getPropertyVar}} is null)
                      {
                          return null;
                      }
 
-                     {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
+                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                      """;
         }
 
         return $$"""
                  JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                  {{getPropertyContent}}
-                 {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
+                 {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                  """;
     }
 }

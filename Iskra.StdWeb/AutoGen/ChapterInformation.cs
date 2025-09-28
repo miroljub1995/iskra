@@ -31,14 +31,14 @@ public partial class ChapterInformation(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.Value_4> Artwork
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.Value_4> __res_592;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_592;
             JSObject __propObject_593;
             __propObject_593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
-            __res_592 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.Value_4>(__propObject_593);
+            __res_592 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_593);
             return __res_592;
         }
     }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.Value_63> ChildBreakTokens
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ChildBreakTokens
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.Value_63> __res_7869;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7869;
             JSObject __propObject_7870;
             __propObject_7870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
-            __res_7869 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.Value_63>(__propObject_7870);
+            __res_7869 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7870);
             return __res_7869;
         }
     }

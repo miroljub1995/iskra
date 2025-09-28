@@ -86,14 +86,14 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.Value_11> Collections
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Collections
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.Value_11> __res_1463;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1463;
             JSObject __propObject_1464;
             __propObject_1464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "collections");
-            __res_1463 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.Value_11>(__propObject_1464);
+            __res_1463 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1464);
             return __res_1463;
         }
     }

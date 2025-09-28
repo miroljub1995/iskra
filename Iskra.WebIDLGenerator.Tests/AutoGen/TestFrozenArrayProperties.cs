@@ -9,14 +9,14 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestFrozenArrayProperties(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Value_1> BoolArray
+    public global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.FrozenArray> BoolArray
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Value_1> __res_249;
+            global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.FrozenArray> __res_249;
             JSObject __propObject_250;
             __propObject_250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boolArray");
-            __res_249 = new global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Value_1>(__propObject_250);
+            __res_249 = new global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.FrozenArray>(__propObject_250);
             return __res_249;
         }
         set

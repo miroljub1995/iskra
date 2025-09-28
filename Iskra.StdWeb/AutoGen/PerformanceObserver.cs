@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceObserver(JSObject obj): JSObjectProxy(obj)
 {
-    public static global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> SupportedEntryTypes
+    public static global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> SupportedEntryTypes
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_3774;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3774;
             throw new Exception();
             return __res_3774;
         }
