@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void PressureUpdateCallback(object changes, Iskra.StdWeb.PressureObserver observer);
+public delegate void PressureUpdateCallback(global::Iskra.JSCore.Generics.JSArray<Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.Value_4> changes, Iskra.StdWeb.PressureObserver observer);
 
 #nullable disable

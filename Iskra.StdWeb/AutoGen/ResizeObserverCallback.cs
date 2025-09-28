@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ResizeObserverCallback(object entries, Iskra.StdWeb.ResizeObserver observer);
+public delegate void ResizeObserverCallback(global::Iskra.JSCore.Generics.JSArray<Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.Value_6> entries, Iskra.StdWeb.ResizeObserver observer);
 
 #nullable disable
