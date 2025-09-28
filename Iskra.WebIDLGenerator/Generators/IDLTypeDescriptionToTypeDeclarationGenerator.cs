@@ -5,14 +5,20 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class IDLTypeDescriptionToTypeDeclarationGenerator(
     ILogger<IDLTypeDescriptionToTypeDeclarationGenerator> logger,
-    GenTypeDescriptors genTypeDescriptors
+    GenTypeDescriptors genTypeDescriptors,
+    GenericMarshallerGenerator genericMarshallerGenerator
 )
 {
-    public string Generate(IDLTypeDescription input)
+    public string Generate(IDLTypeDescription input, bool marshalled = false)
     {
         if (input is SingleTypeDescription singleTypeDescription)
         {
             return MapSingleToManagedType(singleTypeDescription);
+        }
+
+        if (input is SequenceTypeDescription sequenceTypeDescription)
+        {
+            return MapSequenceToManagedType(sequenceTypeDescription, marshalled);
         }
 
         logger.LogWarning("Input type {input} is not handled, fallback to object.", input.GetType());
@@ -33,6 +39,25 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
     {
         var mapped = MapToDotnetType(input.IdlType);
         return MakeNullableIfNeeded(mapped, input.Nullable || input.IdlType == "any");
+    }
+
+    private string MapSequenceToManagedType(SequenceTypeDescription input, bool marshalled)
+    {
+        var elementType = input.IdlType.Single();
+        var elementManagedType = Generate(elementType);
+
+        if (marshalled)
+        {
+            return $$"""
+                     {{elementManagedType}}[]
+                     """;
+        }
+
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+
+        return $$"""
+                 global::Iskra.JSCore.Generics.JSArray<{{elementManagedType}}, {{marshaller}}>
+                 """;
     }
 
     private string MapToDotnetType(string input)

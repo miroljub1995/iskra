@@ -1,19 +1,20 @@
 using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class GetPropertyValueGenerator(
+    IServiceProvider provider,
     GeneratorContext generatorContext,
-    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
     IDLTypeDescriptionMarshaller marshaller
 )
 {
     public string Generate(
         string inputVar,
         IDLTypeDescription type,
-        string propertyName,
+        string propertyNameVar,
         bool isStatic,
         string containingTypeName,
         string outputVar
@@ -24,7 +25,19 @@ public class GetPropertyValueGenerator(
             return GenerateForSpecific(
                 inputVar: inputVar,
                 type: singleTypeDescription,
-                propertyName: propertyName,
+                propertyNameVar: propertyNameVar,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName,
+                outputVar: outputVar
+            );
+        }
+
+        if (type is SequenceTypeDescription sequenceTypeDescription)
+        {
+            return GenerateForSequence(
+                inputVar: inputVar,
+                type: sequenceTypeDescription,
+                propertyNameVar: propertyNameVar,
                 isStatic: isStatic,
                 containingTypeName: containingTypeName,
                 outputVar: outputVar
@@ -41,7 +54,7 @@ public class GetPropertyValueGenerator(
     private string GenerateForSpecific(
         string inputVar,
         SingleTypeDescription type,
-        string propertyName,
+        string propertyNameVar,
         bool isStatic,
         string containingTypeName,
         string outputVar
@@ -53,7 +66,6 @@ public class GetPropertyValueGenerator(
         var getPropertyVar = generatorContext.GetNextVariableName("res");
 
         string getPropertyContent;
-
         IDLTypeDescription inputType;
 
         if (type.IdlType is BuiltinTypes.Boolean)
@@ -74,7 +86,7 @@ public class GetPropertyValueGenerator(
                 };
 
                 getPropertyContent = $$"""
-                                       bool{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       bool{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                        """;
             }
         }
@@ -96,7 +108,7 @@ public class GetPropertyValueGenerator(
                 };
 
                 getPropertyContent = $$"""
-                                       string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                        """;
             }
         }
@@ -131,7 +143,7 @@ public class GetPropertyValueGenerator(
                 };
 
                 getPropertyContent = $$"""
-                                       double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                        """;
             }
         }
@@ -153,7 +165,7 @@ public class GetPropertyValueGenerator(
                 };
 
                 getPropertyContent = $$"""
-                                       JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}");
+                                       JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                        """;
             }
         }
@@ -161,6 +173,60 @@ public class GetPropertyValueGenerator(
         return $$"""
                  {{getPropertyContent}}
                  {{marshaller.ToManaged(inputType, getPropertyVar, type, outputVar)}}
+                 """;
+    }
+
+    private string GenerateForSequence(
+        string inputVar,
+        SequenceTypeDescription type,
+        string propertyNameVar,
+        bool isStatic,
+        string containingTypeName,
+        string outputVar
+    )
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        var arrayTypeDeclaration = toTypeDeclarationGenerator.Generate(type);
+
+
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        string getPropertyContent;
+        if (isStatic)
+        {
+            return $$"""
+                     throw new Exception();
+                     """;
+        }
+        else
+        {
+            getPropertyContent = $$"""
+                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+        }
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     {{getPropertyContent}}
+                     if ({{getPropertyContent}} is null)
+                     {
+                         return null;
+                     }
+
+                     {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
+                     """;
+        }
+
+        return $$"""
+                 JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 {{getPropertyContent}}
+                 {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
                  """;
     }
 }

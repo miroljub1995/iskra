@@ -7,7 +7,7 @@ namespace Iskra.WebIDLGenerator.Marshallers;
 
 public partial class IDLTypeDescriptionMarshaller
 {
-    public string ToManagedNullable(
+    private string ToManagedNullable(
         IDLTypeDescription input,
         string inputVar,
         IDLTypeDescription outputType,

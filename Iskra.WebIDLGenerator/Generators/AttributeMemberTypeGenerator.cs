@@ -33,7 +33,7 @@ public class AttributeMemberTypeGenerator(
             var getPropertyValue = getPropertyValueGenerator.Generate(
                 inputVar: "JSObject",
                 type: input.IdlType,
-                propertyName: input.Name,
+                propertyNameVar: $"\"{input.Name}\"",
                 isStatic: isStatic,
                 containingTypeName: containingTypeName,
                 outputVar: returnValueVar
@@ -56,8 +56,9 @@ public class AttributeMemberTypeGenerator(
         {
             var setPropertyValue = setPropertyValueGenerator.Generate(
                 inputVar: "JSObject",
+                valueVar: "value",
                 type: input.IdlType,
-                propertyName: input.Name,
+                propertyNameVar: $"\"{input.Name}\"",
                 isStatic: isStatic,
                 containingTypeName: containingTypeName
             );

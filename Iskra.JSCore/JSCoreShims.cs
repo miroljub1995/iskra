@@ -14,6 +14,7 @@ public static class JSCoreShims
         }
 
         const string moduleContent = """
+                                     export const construct = (obj, constructorName, ...args) => new obj[constructorName](...args);
                                      export const constructGlobalObject = (constructorName, ...args) => new globalThis[constructorName](...args);
                                      export const isGlobalConstructor = (constructorName, target) => globalThis[constructorName] === target.constructor;
                                      export const arrowFunctionProxy = (fun) => (...args) => fun(...args);

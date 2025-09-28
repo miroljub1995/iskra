@@ -12,8 +12,9 @@ public class SetPropertyValueGenerator(
 {
     public string Generate(
         string inputVar,
+        string valueVar,
         IDLTypeDescription type,
-        string propertyName,
+        string propertyNameVar,
         bool isStatic,
         string containingTypeName
     )
@@ -22,8 +23,21 @@ public class SetPropertyValueGenerator(
         {
             return GenerateForSpecific(
                 inputVar: inputVar,
+                valueVar: valueVar,
                 type: singleTypeDescription,
-                propertyName: propertyName,
+                propertyNameVar: propertyNameVar,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName
+            );
+        }
+
+        if (type is SequenceTypeDescription sequenceTypeDescription)
+        {
+            return GenerateForSequence(
+                inputVar: inputVar,
+                valueVar: valueVar,
+                type: sequenceTypeDescription,
+                propertyNameVar: propertyNameVar,
                 isStatic: isStatic,
                 containingTypeName: containingTypeName
             );
@@ -38,8 +52,9 @@ public class SetPropertyValueGenerator(
 
     private string GenerateForSpecific(
         string inputVar,
+        string valueVar,
         SingleTypeDescription type,
-        string propertyName,
+        string propertyNameVar,
         bool isStatic,
         string containingTypeName
     )
@@ -71,7 +86,7 @@ public class SetPropertyValueGenerator(
                 };
 
                 setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}", {{marshalledVar}});
+                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
                                        """;
             }
         }
@@ -93,7 +108,7 @@ public class SetPropertyValueGenerator(
                 };
 
                 setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}", {{marshalledVar}});
+                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
                                        """;
             }
         }
@@ -128,7 +143,7 @@ public class SetPropertyValueGenerator(
                 };
 
                 setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}", {{marshalledVar}});
+                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
                                        """;
             }
         }
@@ -150,7 +165,7 @@ public class SetPropertyValueGenerator(
                 };
 
                 setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, "{{propertyName}}", {{marshalledVar}});
+                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
                                        """;
             }
         }
@@ -159,7 +174,58 @@ public class SetPropertyValueGenerator(
 
         return $$"""
                  {{marshalledTypeDeclaration}} {{marshalledVar}};
-                 {{marshaller.ToJS(type, "value", marshalledType, marshalledVar)}}
+                 {{marshaller.ToJS(type, valueVar, marshalledType, marshalledVar)}}
+                 {{setPropertyContent}}
+                 """;
+    }
+
+    private string GenerateForSequence(
+        string inputVar,
+        string valueVar,
+        SequenceTypeDescription type,
+        string propertyNameVar,
+        bool isStatic,
+        string containingTypeName
+    )
+    {
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        string setPropertyContent;
+        if (isStatic)
+        {
+            return $$"""
+                     throw new Exception();
+                     """;
+        }
+        else
+        {
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
+                                   """;
+        }
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     if ({{valueVar}} is null)
+                     {
+                         {{setPropertyVar}} = null;
+                     }
+                     else
+                     {
+                         {{setPropertyVar}} = {{valueVar}}.JSObject;
+                     }
+
+                     {{setPropertyContent}}
+                     """;
+        }
+
+        return $$"""
+                 JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
                  {{setPropertyContent}}
                  """;
     }

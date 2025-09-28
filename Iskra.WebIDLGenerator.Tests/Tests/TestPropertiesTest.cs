@@ -1,17 +1,7 @@
-using Iskra.JSCore;
-
 namespace Iskra.WebIDLGenerator.Tests.Tests;
 
 public class TestPropertiesTest() : BaseTest<TestProperties>("testProperties")
 {
-    [Before(Class)]
-    public static async Task Before()
-    {
-        await JSCoreShims.InitializeAsync();
-        JSCoreProxyFactory.Initialize();
-        WebIDLGeneratorTestsProxyFactory.Initialize();
-    }
-
     // Bool
     [Test]
     public async Task TestBoolPropertyGet()

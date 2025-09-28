@@ -53,6 +53,7 @@ public class GenerateCommand : Command
                 .AddSingleton<CallbackInterfaceTypeGenerator>()
                 .AddSingleton<DictionaryTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
+                .AddSingleton<GenericMarshallerGenerator>()
                 .AddSingleton<GetPropertyValueGenerator>()
                 .AddSingleton<IDLTypeDescriptionToTypeDeclarationGenerator>()
                 .AddSingleton<InterfaceTypeGenerator>()
@@ -97,6 +98,9 @@ public class GenerateCommand : Command
 
             var jsProxyFactoryGenerator = provider.GetRequiredService<JSProxyFactoryGenerator>();
             await jsProxyFactoryGenerator.GenerateAsync(cancellationToken);
+
+            var genericMarshallerGenerator = provider.GetRequiredService<GenericMarshallerGenerator>();
+            await genericMarshallerGenerator.GenerateAsync(cancellationToken);
         });
     }
 

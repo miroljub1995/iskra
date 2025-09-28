@@ -64,7 +64,6 @@ public class JSProxyFactoryGenerator(
                         #nullable disable
                         """;
 
-
         var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, genSettings.ProxyFactoryName + ".cs"));
         if (File.Exists(outputFile))
         {
