@@ -13,10 +13,10 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.PermissionState __res_142;
-            JSObject __res_143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            Iskra.StdWeb.PermissionState __res_143;
+            JSObject __res_144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PermissionState } not supported.");
-            return __res_142;
+            return __res_143;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_144;
-            string __res_145 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_144 = __res_145;
-            return __res_144;
+            string __res_145;
+            string __res_146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_145 = __res_146;
+            return __res_145;
         }
     }
 
@@ -35,32 +35,32 @@ public partial class PermissionStatus(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_146;
-            JSObject? __res_147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_147 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_147;
+            JSObject? __res_148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_148 is null)
             {
-                __res_146 = null;
+                __res_147 = null;
             }
             else
             {
-                JSObject __notNullable_148 = (JSObject)__res_147;
+                JSObject __notNullable_149 = (JSObject)__res_148;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_146;
+            return __res_147;
         }
         set
         {
-            JSObject? __marshalledValue_149;
+            JSObject? __marshalledValue_150;
             if (value is null)
             {
-                __marshalledValue_149 = null;
+                __marshalledValue_150 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_150 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_151 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_149);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_150);
         }
     }
 }

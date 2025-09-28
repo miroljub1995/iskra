@@ -13,10 +13,10 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRFrame __res_4262;
-            JSObject __res_4263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            Iskra.StdWeb.XRFrame __res_4307;
+            JSObject __res_4308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRFrame } not supported.");
-            return __res_4262;
+            return __res_4307;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRInputSourceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRInputSource __res_4264;
-            JSObject __res_4265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            Iskra.StdWeb.XRInputSource __res_4309;
+            JSObject __res_4310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } not supported.");
-            return __res_4264;
+            return __res_4309;
         }
     }
 }

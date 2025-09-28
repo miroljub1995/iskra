@@ -32,6 +32,18 @@ public class GetPropertyValueGenerator(
             );
         }
 
+        if (type is FrozenArrayTypeDescription frozenArrayTypeDescription)
+        {
+            return GenerateForFrozenArray(
+                inputVar: inputVar,
+                type: frozenArrayTypeDescription,
+                propertyNameVar: propertyNameVar,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName,
+                outputVar: outputVar
+            );
+        }
+
         if (type is SequenceTypeDescription sequenceTypeDescription)
         {
             return GenerateForSequence(
@@ -173,6 +185,60 @@ public class GetPropertyValueGenerator(
         return $$"""
                  {{getPropertyContent}}
                  {{marshaller.ToManaged(inputType, getPropertyVar, type, outputVar)}}
+                 """;
+    }
+
+    private string GenerateForFrozenArray(
+        string inputVar,
+        FrozenArrayTypeDescription type,
+        string propertyNameVar,
+        bool isStatic,
+        string containingTypeName,
+        string outputVar
+    )
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        var arrayTypeDeclaration = toTypeDeclarationGenerator.Generate(type);
+
+
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        string getPropertyContent;
+        if (isStatic)
+        {
+            return $$"""
+                     throw new Exception();
+                     """;
+        }
+        else
+        {
+            getPropertyContent = $$"""
+                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+        }
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     {{getPropertyContent}}
+                     if ({{getPropertyContent}} is null)
+                     {
+                         return null;
+                     }
+
+                     {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
+                     """;
+        }
+
+        return $$"""
+                 JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 {{getPropertyContent}}
+                 {{outputVar}} = new {{arrayTypeDeclaration}}({{getPropertyVar}});
                  """;
     }
 

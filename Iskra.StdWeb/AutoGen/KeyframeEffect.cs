@@ -13,32 +13,32 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1411;
-            JSObject? __res_1412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_1412 is null)
+            Iskra.StdWeb.Element? __res_1427;
+            JSObject? __res_1428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_1428 is null)
             {
-                __res_1411 = null;
+                __res_1427 = null;
             }
             else
             {
-                JSObject __notNullable_1413 = (JSObject)__res_1412;
+                JSObject __notNullable_1429 = (JSObject)__res_1428;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_1411;
+            return __res_1427;
         }
         set
         {
-            JSObject? __marshalledValue_1414;
+            JSObject? __marshalledValue_1430;
             if (value is null)
             {
-                __marshalledValue_1414 = null;
+                __marshalledValue_1430 = null;
             }
             else
             {
-                Iskra.StdWeb.Element __notNullable_1415 = (Iskra.StdWeb.Element)value;
+                Iskra.StdWeb.Element __notNullable_1431 = (Iskra.StdWeb.Element)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_1414);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_1430);
         }
     }
 
@@ -46,32 +46,32 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            string? __res_1416;
-            string? __res_1417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
-            if (__res_1417 is null)
+            string? __res_1432;
+            string? __res_1433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
+            if (__res_1433 is null)
             {
-                __res_1416 = null;
+                __res_1432 = null;
             }
             else
             {
-                string __notNullable_1418 = (string)__res_1417;
-                __res_1416 = __notNullable_1418;
+                string __notNullable_1434 = (string)__res_1433;
+                __res_1432 = __notNullable_1434;
             }
-            return __res_1416;
+            return __res_1432;
         }
         set
         {
-            string? __marshalledValue_1419;
+            string? __marshalledValue_1435;
             if (value is null)
             {
-                __marshalledValue_1419 = null;
+                __marshalledValue_1435 = null;
             }
             else
             {
-                string __notNullable_1420 = (string)value;
-                __marshalledValue_1419 = __notNullable_1420;
+                string __notNullable_1436 = (string)value;
+                __marshalledValue_1435 = __notNullable_1436;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_1419);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_1435);
         }
     }
 
@@ -79,16 +79,16 @@ public partial class KeyframeEffect(JSObject obj): AnimationEffect(obj)
     {
         get
         {
-            Iskra.StdWeb.CompositeOperation __res_1421;
-            JSObject __res_1422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
+            Iskra.StdWeb.CompositeOperation __res_1437;
+            JSObject __res_1438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CompositeOperation } not supported.");
-            return __res_1421;
+            return __res_1437;
         }
         set
         {
-            JSObject __marshalledValue_1423;
+            JSObject __marshalledValue_1439;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CompositeOperation } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "composite", __marshalledValue_1423);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "composite", __marshalledValue_1439);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRHandedness __res_4230;
-            JSObject __res_4231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
+            Iskra.StdWeb.XRHandedness __res_4274;
+            JSObject __res_4275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHandedness } not supported.");
-            return __res_4230;
+            return __res_4274;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRTargetRayMode __res_4232;
-            JSObject __res_4233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
+            Iskra.StdWeb.XRTargetRayMode __res_4276;
+            JSObject __res_4277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRTargetRayMode } not supported.");
-            return __res_4232;
+            return __res_4276;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_4234;
-            JSObject __res_4235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
+            Iskra.StdWeb.XRSpace __res_4278;
+            JSObject __res_4279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
-            return __res_4234;
+            return __res_4278;
         }
     }
 
@@ -46,28 +46,30 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace? __res_4236;
-            JSObject? __res_4237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
-            if (__res_4237 is null)
+            Iskra.StdWeb.XRSpace? __res_4280;
+            JSObject? __res_4281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
+            if (__res_4281 is null)
             {
-                __res_4236 = null;
+                __res_4280 = null;
             }
             else
             {
-                JSObject __notNullable_4238 = (JSObject)__res_4237;
+                JSObject __notNullable_4282 = (JSObject)__res_4281;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             }
-            return __res_4236;
+            return __res_4280;
         }
     }
 
-    public object Profiles
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> Profiles
     {
         get
         {
-            object __res_4239;
-            throw new Exception();
-            return __res_4239;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_4283;
+            JSObject __propObject_4284;
+            __propObject_4284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "profiles");
+            __res_4283 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14>(__propObject_4284);
+            return __res_4283;
         }
     }
 
@@ -75,10 +77,10 @@ public partial class XRInputSource(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4240;
-            bool __res_4241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
-            __res_4240 = __res_4241;
-            return __res_4240;
+            bool __res_4285;
+            bool __res_4286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
+            __res_4285 = __res_4286;
+            return __res_4285;
         }
     }
 }

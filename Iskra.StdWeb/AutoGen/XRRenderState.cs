@@ -13,10 +13,10 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4175;
-            double __res_4176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthNear");
-            __res_4175 = __res_4176;
-            return __res_4175;
+            double __res_4217;
+            double __res_4218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthNear");
+            __res_4217 = __res_4218;
+            return __res_4217;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4177;
-            double __res_4178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthFar");
-            __res_4177 = __res_4178;
-            return __res_4177;
+            double __res_4219;
+            double __res_4220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthFar");
+            __res_4219 = __res_4220;
+            return __res_4219;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_4179;
-            bool? __res_4180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "passthroughFullyObscured");
-            if (__res_4180 is null)
+            bool? __res_4221;
+            bool? __res_4222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "passthroughFullyObscured");
+            if (__res_4222 is null)
             {
-                __res_4179 = null;
+                __res_4221 = null;
             }
             else
             {
-                bool __notNullable_4181 = (bool)__res_4180;
-                __res_4179 = __notNullable_4181;
+                bool __notNullable_4223 = (bool)__res_4222;
+                __res_4221 = __notNullable_4223;
             }
-            return __res_4179;
+            return __res_4221;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_4182;
-            double? __res_4183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "inlineVerticalFieldOfView");
-            if (__res_4183 is null)
+            double? __res_4224;
+            double? __res_4225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "inlineVerticalFieldOfView");
+            if (__res_4225 is null)
             {
-                __res_4182 = null;
+                __res_4224 = null;
             }
             else
             {
-                double __notNullable_4184 = (double)__res_4183;
-                __res_4182 = __notNullable_4184;
+                double __notNullable_4226 = (double)__res_4225;
+                __res_4224 = __notNullable_4226;
             }
-            return __res_4182;
+            return __res_4224;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class XRRenderState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRWebGLLayer? __res_4185;
-            JSObject? __res_4186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "baseLayer");
-            if (__res_4186 is null)
+            Iskra.StdWeb.XRWebGLLayer? __res_4227;
+            JSObject? __res_4228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "baseLayer");
+            if (__res_4228 is null)
             {
-                __res_4185 = null;
+                __res_4227 = null;
             }
             else
             {
-                JSObject __notNullable_4187 = (JSObject)__res_4186;
+                JSObject __notNullable_4229 = (JSObject)__res_4228;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRWebGLLayer } not supported.");
             }
-            return __res_4185;
+            return __res_4227;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_979;
-            double __res_980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_979 = Convert.ToUInt16(__res_980);
-            return __res_979;
+            ushort __res_995;
+            double __res_996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            __res_995 = Convert.ToUInt16(__res_996);
+            return __res_995;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GeolocationPositionError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_981;
-            string __res_982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_981 = __res_982;
-            return __res_981;
+            string __res_997;
+            string __res_998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_997 = __res_998;
+            return __res_997;
         }
     }
 }

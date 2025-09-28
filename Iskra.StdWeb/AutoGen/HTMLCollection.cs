@@ -13,10 +13,10 @@ public partial class HTMLCollection(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3126;
-            double __res_3127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3126 = Convert.ToUInt32(__res_3127);
-            return __res_3126;
+            uint __res_3162;
+            double __res_3163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3162 = Convert.ToUInt32(__res_3163);
+            return __res_3162;
         }
     }
 }

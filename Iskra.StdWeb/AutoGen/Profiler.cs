@@ -13,10 +13,10 @@ public partial class Profiler(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double __res_3352;
-            double __res_3353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleInterval");
-            __res_3352 = __res_3353;
-            return __res_3352;
+            double __res_3388;
+            double __res_3389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleInterval");
+            __res_3388 = __res_3389;
+            return __res_3388;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Profiler(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3354;
-            bool __res_3355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stopped");
-            __res_3354 = __res_3355;
-            return __res_3354;
+            bool __res_3390;
+            bool __res_3391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stopped");
+            __res_3390 = __res_3391;
+            return __res_3390;
         }
     }
 }

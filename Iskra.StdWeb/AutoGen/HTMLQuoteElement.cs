@@ -13,16 +13,16 @@ public partial class HTMLQuoteElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5293;
-            string __res_5294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_5293 = __res_5294;
-            return __res_5293;
+            string __res_5372;
+            string __res_5373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_5372 = __res_5373;
+            return __res_5372;
         }
         set
         {
-            string __marshalledValue_5295;
-            __marshalledValue_5295 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_5295);
+            string __marshalledValue_5374;
+            __marshalledValue_5374 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_5374);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class SensorErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMException __res_4561;
-            JSObject __res_4562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            Iskra.StdWeb.DOMException __res_4615;
+            JSObject __res_4616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMException } not supported.");
-            return __res_4561;
+            return __res_4615;
         }
     }
 }

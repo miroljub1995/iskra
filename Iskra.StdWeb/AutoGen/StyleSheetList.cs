@@ -13,10 +13,10 @@ public partial class StyleSheetList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7188;
-            double __res_7189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7188 = Convert.ToUInt32(__res_7189);
-            return __res_7188;
+            uint __res_7274;
+            double __res_7275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7274 = Convert.ToUInt32(__res_7275);
+            return __res_7274;
         }
     }
 }

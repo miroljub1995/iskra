@@ -13,10 +13,10 @@ public partial class Credential(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2511;
-            string __res_2512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_2511 = __res_2512;
-            return __res_2511;
+            string __res_2539;
+            string __res_2540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_2539 = __res_2540;
+            return __res_2539;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Credential(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2513;
-            string __res_2514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2513 = __res_2514;
-            return __res_2513;
+            string __res_2541;
+            string __res_2542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2541 = __res_2542;
+            return __res_2541;
         }
     }
 }

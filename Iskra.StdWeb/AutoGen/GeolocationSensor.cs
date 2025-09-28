@@ -13,18 +13,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4518;
-            double? __res_4519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "latitude");
-            if (__res_4519 is null)
+            double? __res_4572;
+            double? __res_4573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "latitude");
+            if (__res_4573 is null)
             {
-                __res_4518 = null;
+                __res_4572 = null;
             }
             else
             {
-                double __notNullable_4520 = (double)__res_4519;
-                __res_4518 = __notNullable_4520;
+                double __notNullable_4574 = (double)__res_4573;
+                __res_4572 = __notNullable_4574;
             }
-            return __res_4518;
+            return __res_4572;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4521;
-            double? __res_4522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "longitude");
-            if (__res_4522 is null)
+            double? __res_4575;
+            double? __res_4576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "longitude");
+            if (__res_4576 is null)
             {
-                __res_4521 = null;
+                __res_4575 = null;
             }
             else
             {
-                double __notNullable_4523 = (double)__res_4522;
-                __res_4521 = __notNullable_4523;
+                double __notNullable_4577 = (double)__res_4576;
+                __res_4575 = __notNullable_4577;
             }
-            return __res_4521;
+            return __res_4575;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4524;
-            double? __res_4525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
-            if (__res_4525 is null)
+            double? __res_4578;
+            double? __res_4579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
+            if (__res_4579 is null)
             {
-                __res_4524 = null;
+                __res_4578 = null;
             }
             else
             {
-                double __notNullable_4526 = (double)__res_4525;
-                __res_4524 = __notNullable_4526;
+                double __notNullable_4580 = (double)__res_4579;
+                __res_4578 = __notNullable_4580;
             }
-            return __res_4524;
+            return __res_4578;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4527;
-            double? __res_4528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "accuracy");
-            if (__res_4528 is null)
+            double? __res_4581;
+            double? __res_4582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "accuracy");
+            if (__res_4582 is null)
             {
-                __res_4527 = null;
+                __res_4581 = null;
             }
             else
             {
-                double __notNullable_4529 = (double)__res_4528;
-                __res_4527 = __notNullable_4529;
+                double __notNullable_4583 = (double)__res_4582;
+                __res_4581 = __notNullable_4583;
             }
-            return __res_4527;
+            return __res_4581;
         }
     }
 
@@ -89,18 +89,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4530;
-            double? __res_4531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
-            if (__res_4531 is null)
+            double? __res_4584;
+            double? __res_4585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
+            if (__res_4585 is null)
             {
-                __res_4530 = null;
+                __res_4584 = null;
             }
             else
             {
-                double __notNullable_4532 = (double)__res_4531;
-                __res_4530 = __notNullable_4532;
+                double __notNullable_4586 = (double)__res_4585;
+                __res_4584 = __notNullable_4586;
             }
-            return __res_4530;
+            return __res_4584;
         }
     }
 
@@ -108,18 +108,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4533;
-            double? __res_4534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
-            if (__res_4534 is null)
+            double? __res_4587;
+            double? __res_4588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
+            if (__res_4588 is null)
             {
-                __res_4533 = null;
+                __res_4587 = null;
             }
             else
             {
-                double __notNullable_4535 = (double)__res_4534;
-                __res_4533 = __notNullable_4535;
+                double __notNullable_4589 = (double)__res_4588;
+                __res_4587 = __notNullable_4589;
             }
-            return __res_4533;
+            return __res_4587;
         }
     }
 
@@ -127,18 +127,18 @@ public partial class GeolocationSensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_4536;
-            double? __res_4537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
-            if (__res_4537 is null)
+            double? __res_4590;
+            double? __res_4591 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
+            if (__res_4591 is null)
             {
-                __res_4536 = null;
+                __res_4590 = null;
             }
             else
             {
-                double __notNullable_4538 = (double)__res_4537;
-                __res_4536 = __notNullable_4538;
+                double __notNullable_4592 = (double)__res_4591;
+                __res_4590 = __notNullable_4592;
             }
-            return __res_4536;
+            return __res_4590;
         }
     }
 }

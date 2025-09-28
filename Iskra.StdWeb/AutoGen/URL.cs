@@ -13,16 +13,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3844;
-            string __res_3845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_3844 = __res_3845;
-            return __res_3844;
+            string __res_3885;
+            string __res_3886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_3885 = __res_3886;
+            return __res_3885;
         }
         set
         {
-            string __marshalledValue_3846;
-            __marshalledValue_3846 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_3846);
+            string __marshalledValue_3887;
+            __marshalledValue_3887 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_3887);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3847;
-            string __res_3848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_3847 = __res_3848;
-            return __res_3847;
+            string __res_3888;
+            string __res_3889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_3888 = __res_3889;
+            return __res_3888;
         }
     }
 
@@ -41,16 +41,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3849;
-            string __res_3850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_3849 = __res_3850;
-            return __res_3849;
+            string __res_3890;
+            string __res_3891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_3890 = __res_3891;
+            return __res_3890;
         }
         set
         {
-            string __marshalledValue_3851;
-            __marshalledValue_3851 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_3851);
+            string __marshalledValue_3892;
+            __marshalledValue_3892 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_3892);
         }
     }
 
@@ -58,16 +58,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3852;
-            string __res_3853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
-            __res_3852 = __res_3853;
-            return __res_3852;
+            string __res_3893;
+            string __res_3894 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_3893 = __res_3894;
+            return __res_3893;
         }
         set
         {
-            string __marshalledValue_3854;
-            __marshalledValue_3854 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_3854);
+            string __marshalledValue_3895;
+            __marshalledValue_3895 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_3895);
         }
     }
 
@@ -75,16 +75,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3855;
-            string __res_3856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_3855 = __res_3856;
-            return __res_3855;
+            string __res_3896;
+            string __res_3897 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_3896 = __res_3897;
+            return __res_3896;
         }
         set
         {
-            string __marshalledValue_3857;
-            __marshalledValue_3857 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_3857);
+            string __marshalledValue_3898;
+            __marshalledValue_3898 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_3898);
         }
     }
 
@@ -92,16 +92,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3858;
-            string __res_3859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
-            __res_3858 = __res_3859;
-            return __res_3858;
+            string __res_3899;
+            string __res_3900 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_3899 = __res_3900;
+            return __res_3899;
         }
         set
         {
-            string __marshalledValue_3860;
-            __marshalledValue_3860 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_3860);
+            string __marshalledValue_3901;
+            __marshalledValue_3901 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_3901);
         }
     }
 
@@ -109,16 +109,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3861;
-            string __res_3862 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_3861 = __res_3862;
-            return __res_3861;
+            string __res_3902;
+            string __res_3903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_3902 = __res_3903;
+            return __res_3902;
         }
         set
         {
-            string __marshalledValue_3863;
-            __marshalledValue_3863 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_3863);
+            string __marshalledValue_3904;
+            __marshalledValue_3904 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_3904);
         }
     }
 
@@ -126,16 +126,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3864;
-            string __res_3865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_3864 = __res_3865;
-            return __res_3864;
+            string __res_3905;
+            string __res_3906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_3905 = __res_3906;
+            return __res_3905;
         }
         set
         {
-            string __marshalledValue_3866;
-            __marshalledValue_3866 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_3866);
+            string __marshalledValue_3907;
+            __marshalledValue_3907 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_3907);
         }
     }
 
@@ -143,16 +143,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3867;
-            string __res_3868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_3867 = __res_3868;
-            return __res_3867;
+            string __res_3908;
+            string __res_3909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_3908 = __res_3909;
+            return __res_3908;
         }
         set
         {
-            string __marshalledValue_3869;
-            __marshalledValue_3869 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_3869);
+            string __marshalledValue_3910;
+            __marshalledValue_3910 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_3910);
         }
     }
 
@@ -160,16 +160,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3870;
-            string __res_3871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_3870 = __res_3871;
-            return __res_3870;
+            string __res_3911;
+            string __res_3912 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_3911 = __res_3912;
+            return __res_3911;
         }
         set
         {
-            string __marshalledValue_3872;
-            __marshalledValue_3872 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_3872);
+            string __marshalledValue_3913;
+            __marshalledValue_3913 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_3913);
         }
     }
 
@@ -177,10 +177,10 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.URLSearchParams __res_3873;
-            JSObject __res_3874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "searchParams");
+            Iskra.StdWeb.URLSearchParams __res_3914;
+            JSObject __res_3915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "searchParams");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = URLSearchParams } not supported.");
-            return __res_3873;
+            return __res_3914;
         }
     }
 
@@ -188,16 +188,16 @@ public partial class URL(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3875;
-            string __res_3876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_3875 = __res_3876;
-            return __res_3875;
+            string __res_3916;
+            string __res_3917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_3916 = __res_3917;
+            return __res_3916;
         }
         set
         {
-            string __marshalledValue_3877;
-            __marshalledValue_3877 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_3877);
+            string __marshalledValue_3918;
+            __marshalledValue_3918 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_3918);
         }
     }
 }

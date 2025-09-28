@@ -13,20 +13,22 @@ public partial class CSSViewTransitionRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_7152;
-            string __res_7153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigation");
-            __res_7152 = __res_7153;
-            return __res_7152;
+            string __res_7237;
+            string __res_7238 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigation");
+            __res_7237 = __res_7238;
+            return __res_7237;
         }
     }
 
-    public object Types
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> Types
     {
         get
         {
-            object __res_7154;
-            throw new Exception();
-            return __res_7154;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_7239;
+            JSObject __propObject_7240;
+            __propObject_7240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_7239 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14>(__propObject_7240);
+            return __res_7239;
         }
     }
 }

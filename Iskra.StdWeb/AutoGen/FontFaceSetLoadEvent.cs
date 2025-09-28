@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSetLoadEvent(JSObject obj): Event(obj)
 {
-    public object Fontfaces
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.Value_16> Fontfaces
     {
         get
         {
-            object __res_2109;
-            throw new Exception();
-            return __res_2109;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.Value_16> __res_2133;
+            JSObject __propObject_2134;
+            __propObject_2134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fontfaces");
+            __res_2133 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.Value_16>(__propObject_2134);
+            return __res_2133;
         }
     }
 }

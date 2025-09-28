@@ -13,10 +13,10 @@ public partial class ImageBitmap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6751;
-            double __res_6752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6751 = Convert.ToUInt32(__res_6752);
-            return __res_6751;
+            uint __res_6833;
+            double __res_6834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6833 = Convert.ToUInt32(__res_6834);
+            return __res_6833;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ImageBitmap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6753;
-            double __res_6754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_6753 = Convert.ToUInt32(__res_6754);
-            return __res_6753;
+            uint __res_6835;
+            double __res_6836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_6835 = Convert.ToUInt32(__res_6836);
+            return __res_6835;
         }
     }
 }

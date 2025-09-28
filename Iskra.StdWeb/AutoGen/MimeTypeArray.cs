@@ -13,10 +13,10 @@ public partial class MimeTypeArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6724;
-            double __res_6725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6724 = Convert.ToUInt32(__res_6725);
-            return __res_6724;
+            uint __res_6806;
+            double __res_6807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6806 = Convert.ToUInt32(__res_6807);
+            return __res_6806;
         }
     }
 }

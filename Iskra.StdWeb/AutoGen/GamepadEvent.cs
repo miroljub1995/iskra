@@ -13,10 +13,10 @@ public partial class GamepadEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Gamepad __res_4735;
-            JSObject __res_4736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
+            Iskra.StdWeb.Gamepad __res_4804;
+            JSObject __res_4805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Gamepad } not supported.");
-            return __res_4735;
+            return __res_4804;
         }
     }
 }

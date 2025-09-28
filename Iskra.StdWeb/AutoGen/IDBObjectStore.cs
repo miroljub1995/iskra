@@ -13,16 +13,16 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7621;
-            string __res_7622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7621 = __res_7622;
-            return __res_7621;
+            string __res_7714;
+            string __res_7715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7714 = __res_7715;
+            return __res_7714;
         }
         set
         {
-            string __marshalledValue_7623;
-            __marshalledValue_7623 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7623);
+            string __marshalledValue_7716;
+            __marshalledValue_7716 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7716);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7624;
-            JSObject __res_7625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            object? __res_7717;
+            JSObject __res_7718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7624;
+            return __res_7717;
         }
     }
 
@@ -41,10 +41,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMStringList __res_7626;
-            JSObject __res_7627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
+            Iskra.StdWeb.DOMStringList __res_7719;
+            JSObject __res_7720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMStringList } not supported.");
-            return __res_7626;
+            return __res_7719;
         }
     }
 
@@ -52,10 +52,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBTransaction __res_7628;
-            JSObject __res_7629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
+            Iskra.StdWeb.IDBTransaction __res_7721;
+            JSObject __res_7722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBTransaction } not supported.");
-            return __res_7628;
+            return __res_7721;
         }
     }
 
@@ -63,10 +63,10 @@ public partial class IDBObjectStore(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_7630;
-            bool __res_7631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
-            __res_7630 = __res_7631;
-            return __res_7630;
+            bool __res_7723;
+            bool __res_7724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
+            __res_7723 = __res_7724;
+            return __res_7723;
         }
     }
 }

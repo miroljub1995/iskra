@@ -13,10 +13,10 @@ public partial class FormDataEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.FormData __res_6283;
-            JSObject __res_6284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
+            Iskra.StdWeb.FormData __res_6362;
+            JSObject __res_6363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FormData } not supported.");
-            return __res_6283;
+            return __res_6362;
         }
     }
 }

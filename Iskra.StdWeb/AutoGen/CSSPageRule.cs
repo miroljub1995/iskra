@@ -13,16 +13,16 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_7265;
-            string __res_7266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_7265 = __res_7266;
-            return __res_7265;
+            string __res_7351;
+            string __res_7352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_7351 = __res_7352;
+            return __res_7351;
         }
         set
         {
-            string __marshalledValue_7267;
-            __marshalledValue_7267 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7267);
+            string __marshalledValue_7353;
+            __marshalledValue_7353 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7353);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class CSSPageRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSPageDescriptors __res_7268;
-            JSObject __res_7269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            Iskra.StdWeb.CSSPageDescriptors __res_7354;
+            JSObject __res_7355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSPageDescriptors } not supported.");
-            return __res_7268;
+            return __res_7354;
         }
     }
 }

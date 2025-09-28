@@ -13,10 +13,10 @@ public partial class TouchList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2952;
-            double __res_2953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2952 = Convert.ToUInt32(__res_2953);
-            return __res_2952;
+            uint __res_2987;
+            double __res_2988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2987 = Convert.ToUInt32(__res_2988);
+            return __res_2987;
         }
     }
 }

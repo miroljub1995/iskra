@@ -13,30 +13,34 @@ public partial class XRInputSourcesChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSession __res_4266;
-            JSObject __res_4267 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            Iskra.StdWeb.XRSession __res_4311;
+            JSObject __res_4312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSession } not supported.");
-            return __res_4266;
+            return __res_4311;
         }
     }
 
-    public object Added
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.Value_32> Added
     {
         get
         {
-            object __res_4268;
-            throw new Exception();
-            return __res_4268;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.Value_32> __res_4313;
+            JSObject __propObject_4314;
+            __propObject_4314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "added");
+            __res_4313 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.Value_32>(__propObject_4314);
+            return __res_4313;
         }
     }
 
-    public object Removed
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.Value_32> Removed
     {
         get
         {
-            object __res_4269;
-            throw new Exception();
-            return __res_4269;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.Value_32> __res_4315;
+            JSObject __propObject_4316;
+            __propObject_4316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removed");
+            __res_4315 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.Value_32>(__propObject_4316);
+            return __res_4315;
         }
     }
 }

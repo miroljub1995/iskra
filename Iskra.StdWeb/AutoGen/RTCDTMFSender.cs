@@ -13,32 +13,32 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2006;
-            JSObject? __res_2007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
-            if (__res_2007 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2030;
+            JSObject? __res_2031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
+            if (__res_2031 is null)
             {
-                __res_2006 = null;
+                __res_2030 = null;
             }
             else
             {
-                JSObject __notNullable_2008 = (JSObject)__res_2007;
+                JSObject __notNullable_2032 = (JSObject)__res_2031;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_2006;
+            return __res_2030;
         }
         set
         {
-            JSObject? __marshalledValue_2009;
+            JSObject? __marshalledValue_2033;
             if (value is null)
             {
-                __marshalledValue_2009 = null;
+                __marshalledValue_2033 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_2010 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2034 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_2009);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_2033);
         }
     }
 
@@ -46,10 +46,10 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2011;
-            bool __res_2012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
-            __res_2011 = __res_2012;
-            return __res_2011;
+            bool __res_2035;
+            bool __res_2036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
+            __res_2035 = __res_2036;
+            return __res_2035;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class RTCDTMFSender(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2013;
-            string __res_2014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
-            __res_2013 = __res_2014;
-            return __res_2013;
+            string __res_2037;
+            string __res_2038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
+            __res_2037 = __res_2038;
+            return __res_2037;
         }
     }
 }

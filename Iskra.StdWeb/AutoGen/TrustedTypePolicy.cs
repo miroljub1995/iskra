@@ -13,10 +13,10 @@ public partial class TrustedTypePolicy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1058;
-            string __res_1059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1058 = __res_1059;
-            return __res_1058;
+            string __res_1074;
+            string __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1074 = __res_1075;
+            return __res_1074;
         }
     }
 }

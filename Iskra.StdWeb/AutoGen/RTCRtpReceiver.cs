@@ -13,10 +13,10 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_1862;
-            JSObject __res_1863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            Iskra.StdWeb.MediaStreamTrack __res_1885;
+            JSObject __res_1886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
-            return __res_1862;
+            return __res_1885;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport? __res_1864;
-            JSObject? __res_1865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
-            if (__res_1865 is null)
+            Iskra.StdWeb.RTCDtlsTransport? __res_1887;
+            JSObject? __res_1888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_1888 is null)
             {
-                __res_1864 = null;
+                __res_1887 = null;
             }
             else
             {
-                JSObject __notNullable_1866 = (JSObject)__res_1865;
+                JSObject __notNullable_1889 = (JSObject)__res_1888;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDtlsTransport } not supported.");
             }
-            return __res_1864;
+            return __res_1887;
         }
     }
 
@@ -43,32 +43,32 @@ public partial class RTCRtpReceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_1867;
-            double? __res_1868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
-            if (__res_1868 is null)
+            double? __res_1890;
+            double? __res_1891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
+            if (__res_1891 is null)
             {
-                __res_1867 = null;
+                __res_1890 = null;
             }
             else
             {
-                double __notNullable_1869 = (double)__res_1868;
-                __res_1867 = __notNullable_1869;
+                double __notNullable_1892 = (double)__res_1891;
+                __res_1890 = __notNullable_1892;
             }
-            return __res_1867;
+            return __res_1890;
         }
         set
         {
-            double? __marshalledValue_1870;
+            double? __marshalledValue_1893;
             if (value is null)
             {
-                __marshalledValue_1870 = null;
+                __marshalledValue_1893 = null;
             }
             else
             {
-                double __notNullable_1871 = (double)value;
-                __marshalledValue_1870 = __notNullable_1871;
+                double __notNullable_1894 = (double)value;
+                __marshalledValue_1893 = __notNullable_1894;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_1870);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_1893);
         }
     }
 }

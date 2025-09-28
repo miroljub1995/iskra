@@ -13,18 +13,18 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_5844;
-            JSObject? __res_5845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_5845 is null)
+            Iskra.StdWeb.HTMLFormElement? __res_5923;
+            JSObject? __res_5924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_5924 is null)
             {
-                __res_5844 = null;
+                __res_5923 = null;
             }
             else
             {
-                JSObject __notNullable_5846 = (JSObject)__res_5845;
+                JSObject __notNullable_5925 = (JSObject)__res_5924;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
-            return __res_5844;
+            return __res_5923;
         }
     }
 
@@ -32,16 +32,16 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5847;
-            string __res_5848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
-            __res_5847 = __res_5848;
-            return __res_5847;
+            string __res_5926;
+            string __res_5927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
+            __res_5926 = __res_5927;
+            return __res_5926;
         }
         set
         {
-            string __marshalledValue_5849;
-            __marshalledValue_5849 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_5849);
+            string __marshalledValue_5928;
+            __marshalledValue_5928 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_5928);
         }
     }
 
@@ -49,18 +49,18 @@ public partial class HTMLLabelElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLElement? __res_5850;
-            JSObject? __res_5851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
-            if (__res_5851 is null)
+            Iskra.StdWeb.HTMLElement? __res_5929;
+            JSObject? __res_5930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
+            if (__res_5930 is null)
             {
-                __res_5850 = null;
+                __res_5929 = null;
             }
             else
             {
-                JSObject __notNullable_5852 = (JSObject)__res_5851;
+                JSObject __notNullable_5931 = (JSObject)__res_5930;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
             }
-            return __res_5850;
+            return __res_5929;
         }
     }
 }

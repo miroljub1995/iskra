@@ -13,20 +13,22 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_1630;
-            JSObject __res_1631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
+            Iskra.StdWeb.XRSpace __res_1651;
+            JSObject __res_1652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
-            return __res_1630;
+            return __res_1651;
         }
     }
 
-    public object Vertices
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13> Vertices
     {
         get
         {
-            object __res_1632;
-            throw new Exception();
-            return __res_1632;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13> __res_1653;
+            JSObject __propObject_1654;
+            __propObject_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
+            __res_1653 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>(__propObject_1654);
+            return __res_1653;
         }
     }
 
@@ -34,10 +36,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Uint32Array __res_1633;
-            JSObject __res_1634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
+            Iskra.JSCore.Uint32Array __res_1655;
+            JSObject __res_1656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Uint32Array } not supported.");
-            return __res_1633;
+            return __res_1655;
         }
     }
 
@@ -45,10 +47,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1635;
-            double __res_1636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
-            __res_1635 = __res_1636;
-            return __res_1635;
+            double __res_1657;
+            double __res_1658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            __res_1657 = __res_1658;
+            return __res_1657;
         }
     }
 
@@ -56,18 +58,18 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1637;
-            string? __res_1638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
-            if (__res_1638 is null)
+            string? __res_1659;
+            string? __res_1660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            if (__res_1660 is null)
             {
-                __res_1637 = null;
+                __res_1659 = null;
             }
             else
             {
-                string __notNullable_1639 = (string)__res_1638;
-                __res_1637 = __notNullable_1639;
+                string __notNullable_1661 = (string)__res_1660;
+                __res_1659 = __notNullable_1661;
             }
-            return __res_1637;
+            return __res_1659;
         }
     }
 }

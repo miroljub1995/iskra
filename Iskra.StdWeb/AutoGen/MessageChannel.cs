@@ -13,10 +13,10 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_6784;
-            JSObject __res_6785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
+            Iskra.StdWeb.MessagePort __res_6867;
+            JSObject __res_6868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_6784;
+            return __res_6867;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_6786;
-            JSObject __res_6787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
+            Iskra.StdWeb.MessagePort __res_6869;
+            JSObject __res_6870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_6786;
+            return __res_6869;
         }
     }
 }

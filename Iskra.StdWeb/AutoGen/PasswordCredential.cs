@@ -13,10 +13,10 @@ public partial class PasswordCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_2515;
-            string __res_2516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_2515 = __res_2516;
-            return __res_2515;
+            string __res_2543;
+            string __res_2544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_2543 = __res_2544;
+            return __res_2543;
         }
     }
 }

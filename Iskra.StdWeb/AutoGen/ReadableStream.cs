@@ -13,10 +13,10 @@ public partial class ReadableStream(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_921;
-            bool __res_922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            __res_921 = __res_922;
-            return __res_921;
+            bool __res_937;
+            bool __res_938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
+            __res_937 = __res_938;
+            return __res_937;
         }
     }
 }

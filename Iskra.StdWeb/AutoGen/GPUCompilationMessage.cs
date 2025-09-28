@@ -13,10 +13,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_733;
-            string __res_734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_733 = __res_734;
-            return __res_733;
+            string __res_745;
+            string __res_746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_745 = __res_746;
+            return __res_745;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUCompilationMessageType __res_735;
-            JSObject __res_736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.GPUCompilationMessageType __res_747;
+            JSObject __res_748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUCompilationMessageType } not supported.");
-            return __res_735;
+            return __res_747;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_737;
-            double __res_738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNum");
-            __res_737 = Convert.ToUInt64(__res_738);
-            return __res_737;
+            ulong __res_749;
+            double __res_750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNum");
+            __res_749 = Convert.ToUInt64(__res_750);
+            return __res_749;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_739;
-            double __res_740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "linePos");
-            __res_739 = Convert.ToUInt64(__res_740);
-            return __res_739;
+            ulong __res_751;
+            double __res_752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "linePos");
+            __res_751 = Convert.ToUInt64(__res_752);
+            return __res_751;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_741;
-            double __res_742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
-            __res_741 = Convert.ToUInt64(__res_742);
-            return __res_741;
+            ulong __res_753;
+            double __res_754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
+            __res_753 = Convert.ToUInt64(__res_754);
+            return __res_753;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class GPUCompilationMessage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_743;
-            double __res_744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_743 = Convert.ToUInt64(__res_744);
-            return __res_743;
+            ulong __res_755;
+            double __res_756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_755 = Convert.ToUInt64(__res_756);
+            return __res_755;
         }
     }
 }

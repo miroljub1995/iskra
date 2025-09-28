@@ -13,10 +13,10 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3115;
-            bool __res_3116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
-            __res_3115 = __res_3116;
-            return __res_3115;
+            bool __res_3151;
+            bool __res_3152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
+            __res_3151 = __res_3152;
+            return __res_3151;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object? __res_3117;
-            JSObject __res_3118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            object? __res_3153;
+            JSObject __res_3154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_3117;
+            return __res_3153;
         }
     }
 
@@ -35,32 +35,32 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3119;
-            JSObject? __res_3120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
-            if (__res_3120 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3155;
+            JSObject? __res_3156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
+            if (__res_3156 is null)
             {
-                __res_3119 = null;
+                __res_3155 = null;
             }
             else
             {
-                JSObject __notNullable_3121 = (JSObject)__res_3120;
+                JSObject __notNullable_3157 = (JSObject)__res_3156;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3119;
+            return __res_3155;
         }
         set
         {
-            JSObject? __marshalledValue_3122;
+            JSObject? __marshalledValue_3158;
             if (value is null)
             {
-                __marshalledValue_3122 = null;
+                __marshalledValue_3158 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_3123 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3159 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_3122);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_3158);
         }
     }
 }

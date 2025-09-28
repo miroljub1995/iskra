@@ -13,10 +13,10 @@ public partial class AudioWorkletProcessor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_8211;
-            JSObject __res_8212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            Iskra.StdWeb.MessagePort __res_8310;
+            JSObject __res_8311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_8211;
+            return __res_8310;
         }
     }
 }

@@ -13,20 +13,6 @@ public partial class CSSHSL(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_113;
-            throw new Exception();
-            return __res_113;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object S
-    {
-        get
-        {
             object __res_114;
             throw new Exception();
             return __res_114;
@@ -37,7 +23,7 @@ public partial class CSSHSL(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object L
+    public object S
     {
         get
         {
@@ -51,13 +37,27 @@ public partial class CSSHSL(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public object L
     {
         get
         {
             object __res_116;
             throw new Exception();
             return __res_116;
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Alpha
+    {
+        get
+        {
+            object __res_117;
+            throw new Exception();
+            return __res_117;
         }
         set
         {

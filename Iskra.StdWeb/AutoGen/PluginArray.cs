@@ -13,10 +13,10 @@ public partial class PluginArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6722;
-            double __res_6723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6722 = Convert.ToUInt32(__res_6723);
-            return __res_6722;
+            uint __res_6804;
+            double __res_6805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6804 = Convert.ToUInt32(__res_6805);
+            return __res_6804;
         }
     }
 }

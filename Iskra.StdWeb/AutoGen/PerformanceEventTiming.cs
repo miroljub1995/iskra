@@ -13,10 +13,10 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_3713;
-            double __res_3714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingStart");
-            __res_3713 = __res_3714;
-            return __res_3713;
+            double __res_3751;
+            double __res_3752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingStart");
+            __res_3751 = __res_3752;
+            return __res_3751;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_3715;
-            double __res_3716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingEnd");
-            __res_3715 = __res_3716;
-            return __res_3715;
+            double __res_3753;
+            double __res_3754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingEnd");
+            __res_3753 = __res_3754;
+            return __res_3753;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            bool __res_3717;
-            bool __res_3718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
-            __res_3717 = __res_3718;
-            return __res_3717;
+            bool __res_3755;
+            bool __res_3756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
+            __res_3755 = __res_3756;
+            return __res_3755;
         }
     }
 
@@ -46,18 +46,18 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3719;
-            JSObject? __res_3720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_3720 is null)
+            Iskra.StdWeb.Node? __res_3757;
+            JSObject? __res_3758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_3758 is null)
             {
-                __res_3719 = null;
+                __res_3757 = null;
             }
             else
             {
-                JSObject __notNullable_3721 = (JSObject)__res_3720;
+                JSObject __notNullable_3759 = (JSObject)__res_3758;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3719;
+            return __res_3757;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class PerformanceEventTiming(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            ulong __res_3722;
-            double __res_3723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
-            __res_3722 = Convert.ToUInt64(__res_3723);
-            return __res_3722;
+            ulong __res_3760;
+            double __res_3761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
+            __res_3760 = Convert.ToUInt64(__res_3761);
+            return __res_3760;
         }
     }
 }

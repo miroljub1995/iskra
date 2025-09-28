@@ -13,10 +13,10 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            bool __res_4671;
-            bool __res_4672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "wasClean");
-            __res_4671 = __res_4672;
-            return __res_4671;
+            bool __res_4730;
+            bool __res_4731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "wasClean");
+            __res_4730 = __res_4731;
+            return __res_4730;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort __res_4673;
-            double __res_4674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_4673 = Convert.ToUInt16(__res_4674);
-            return __res_4673;
+            ushort __res_4732;
+            double __res_4733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            __res_4732 = Convert.ToUInt16(__res_4733);
+            return __res_4732;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class CloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_4675;
-            string __res_4676 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_4675 = __res_4676;
-            return __res_4675;
+            string __res_4734;
+            string __res_4735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_4734 = __res_4735;
+            return __res_4734;
         }
     }
 }

@@ -13,18 +13,18 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_8223;
-            double? __res_8224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "distance");
-            if (__res_8224 is null)
+            double? __res_8322;
+            double? __res_8323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "distance");
+            if (__res_8323 is null)
             {
-                __res_8223 = null;
+                __res_8322 = null;
             }
             else
             {
-                double __notNullable_8225 = (double)__res_8224;
-                __res_8223 = __notNullable_8225;
+                double __notNullable_8324 = (double)__res_8323;
+                __res_8322 = __notNullable_8324;
             }
-            return __res_8223;
+            return __res_8322;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_8226;
-            double? __res_8227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "max");
-            if (__res_8227 is null)
+            double? __res_8325;
+            double? __res_8326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "max");
+            if (__res_8326 is null)
             {
-                __res_8226 = null;
+                __res_8325 = null;
             }
             else
             {
-                double __notNullable_8228 = (double)__res_8227;
-                __res_8226 = __notNullable_8228;
+                double __notNullable_8327 = (double)__res_8326;
+                __res_8325 = __notNullable_8327;
             }
-            return __res_8226;
+            return __res_8325;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class ProximitySensor(JSObject obj): Sensor(obj)
     {
         get
         {
-            bool? __res_8229;
-            bool? __res_8230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
-            if (__res_8230 is null)
+            bool? __res_8328;
+            bool? __res_8329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
+            if (__res_8329 is null)
             {
-                __res_8229 = null;
+                __res_8328 = null;
             }
             else
             {
-                bool __notNullable_8231 = (bool)__res_8230;
-                __res_8229 = __notNullable_8231;
+                bool __notNullable_8330 = (bool)__res_8329;
+                __res_8328 = __notNullable_8330;
             }
-            return __res_8229;
+            return __res_8328;
         }
     }
 }

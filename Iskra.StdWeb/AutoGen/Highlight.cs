@@ -13,16 +13,16 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1045;
-            double __res_1046 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
-            __res_1045 = Convert.ToInt32(__res_1046);
-            return __res_1045;
+            int __res_1061;
+            double __res_1062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
+            __res_1061 = Convert.ToInt32(__res_1062);
+            return __res_1061;
         }
         set
         {
-            double __marshalledValue_1047;
-            __marshalledValue_1047 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1047);
+            double __marshalledValue_1063;
+            __marshalledValue_1063 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1063);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class Highlight(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.HighlightType __res_1048;
-            JSObject __res_1049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.HighlightType __res_1064;
+            JSObject __res_1065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HighlightType } not supported.");
-            return __res_1048;
+            return __res_1064;
         }
         set
         {
-            JSObject __marshalledValue_1050;
+            JSObject __marshalledValue_1066;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HighlightType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_1050);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "type", __marshalledValue_1066);
         }
     }
 }

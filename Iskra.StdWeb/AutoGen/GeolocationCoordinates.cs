@@ -13,10 +13,10 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_961;
-            double __res_962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "accuracy");
-            __res_961 = __res_962;
-            return __res_961;
+            double __res_977;
+            double __res_978 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "accuracy");
+            __res_977 = __res_978;
+            return __res_977;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_963;
-            double __res_964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "latitude");
-            __res_963 = __res_964;
-            return __res_963;
+            double __res_979;
+            double __res_980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "latitude");
+            __res_979 = __res_980;
+            return __res_979;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_965;
-            double __res_966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "longitude");
-            __res_965 = __res_966;
-            return __res_965;
+            double __res_981;
+            double __res_982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "longitude");
+            __res_981 = __res_982;
+            return __res_981;
         }
     }
 
@@ -46,18 +46,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_967;
-            double? __res_968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
-            if (__res_968 is null)
+            double? __res_983;
+            double? __res_984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
+            if (__res_984 is null)
             {
-                __res_967 = null;
+                __res_983 = null;
             }
             else
             {
-                double __notNullable_969 = (double)__res_968;
-                __res_967 = __notNullable_969;
+                double __notNullable_985 = (double)__res_984;
+                __res_983 = __notNullable_985;
             }
-            return __res_967;
+            return __res_983;
         }
     }
 
@@ -65,18 +65,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_970;
-            double? __res_971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
-            if (__res_971 is null)
+            double? __res_986;
+            double? __res_987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
+            if (__res_987 is null)
             {
-                __res_970 = null;
+                __res_986 = null;
             }
             else
             {
-                double __notNullable_972 = (double)__res_971;
-                __res_970 = __notNullable_972;
+                double __notNullable_988 = (double)__res_987;
+                __res_986 = __notNullable_988;
             }
-            return __res_970;
+            return __res_986;
         }
     }
 
@@ -84,18 +84,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_973;
-            double? __res_974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
-            if (__res_974 is null)
+            double? __res_989;
+            double? __res_990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
+            if (__res_990 is null)
             {
-                __res_973 = null;
+                __res_989 = null;
             }
             else
             {
-                double __notNullable_975 = (double)__res_974;
-                __res_973 = __notNullable_975;
+                double __notNullable_991 = (double)__res_990;
+                __res_989 = __notNullable_991;
             }
-            return __res_973;
+            return __res_989;
         }
     }
 
@@ -103,18 +103,18 @@ public partial class GeolocationCoordinates(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_976;
-            double? __res_977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
-            if (__res_977 is null)
+            double? __res_992;
+            double? __res_993 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
+            if (__res_993 is null)
             {
-                __res_976 = null;
+                __res_992 = null;
             }
             else
             {
-                double __notNullable_978 = (double)__res_977;
-                __res_976 = __notNullable_978;
+                double __notNullable_994 = (double)__res_993;
+                __res_992 = __notNullable_994;
             }
-            return __res_976;
+            return __res_992;
         }
     }
 }

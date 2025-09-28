@@ -13,10 +13,10 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GeolocationCoordinates __res_957;
-            JSObject __res_958 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
+            Iskra.StdWeb.GeolocationCoordinates __res_973;
+            JSObject __res_974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GeolocationCoordinates } not supported.");
-            return __res_957;
+            return __res_973;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_959;
-            double __res_960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_959 = Convert.ToUInt64(__res_960);
-            return __res_959;
+            ulong __res_975;
+            double __res_976 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_975 = Convert.ToUInt64(__res_976);
+            return __res_975;
         }
     }
 }

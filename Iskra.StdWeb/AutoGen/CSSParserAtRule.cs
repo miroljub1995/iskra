@@ -13,30 +13,39 @@ public partial class CSSParserAtRule(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            string __res_7436;
-            string __res_7437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7436 = __res_7437;
-            return __res_7436;
+            string __res_7522;
+            string __res_7523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7522 = __res_7523;
+            return __res_7522;
         }
     }
 
-    public object Prelude
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> Prelude
     {
         get
         {
-            object __res_7438;
-            throw new Exception();
-            return __res_7438;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> __res_7524;
+            JSObject __propObject_7525;
+            __propObject_7525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
+            __res_7524 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>(__propObject_7525);
+            return __res_7524;
         }
     }
 
-    public object Body
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_58> Body
     {
         get
         {
-            object __res_7439;
-            throw new Exception();
-            return __res_7439;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_58> __res_7526;
+            JSObject? __propObject_7527;
+            __propObject_7527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
+            if (__propObject_7527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body"); is null)
+            {
+                return null;
+            }
+
+            __res_7526 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_58>(__propObject_7527);
+            return __res_7526;
         }
     }
 }

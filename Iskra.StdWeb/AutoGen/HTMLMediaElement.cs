@@ -13,18 +13,18 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaError? __res_5526;
-            JSObject? __res_5527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "error");
-            if (__res_5527 is null)
+            Iskra.StdWeb.MediaError? __res_5605;
+            JSObject? __res_5606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "error");
+            if (__res_5606 is null)
             {
-                __res_5526 = null;
+                __res_5605 = null;
             }
             else
             {
-                JSObject __notNullable_5528 = (JSObject)__res_5527;
+                JSObject __notNullable_5607 = (JSObject)__res_5606;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaError } not supported.");
             }
-            return __res_5526;
+            return __res_5605;
         }
     }
 
@@ -32,16 +32,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5529;
-            string __res_5530 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_5529 = __res_5530;
-            return __res_5529;
+            string __res_5608;
+            string __res_5609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_5608 = __res_5609;
+            return __res_5608;
         }
         set
         {
-            string __marshalledValue_5531;
-            __marshalledValue_5531 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5531);
+            string __marshalledValue_5610;
+            __marshalledValue_5610 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5610);
         }
     }
 
@@ -49,9 +49,9 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            object __res_5532;
+            object __res_5611;
             throw new Exception();
-            return __res_5532;
+            return __res_5611;
         }
         set
         {
@@ -63,10 +63,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5533;
-            string __res_5534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
-            __res_5533 = __res_5534;
-            return __res_5533;
+            string __res_5612;
+            string __res_5613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
+            __res_5612 = __res_5613;
+            return __res_5612;
         }
     }
 
@@ -74,32 +74,32 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string? __res_5535;
-            string? __res_5536 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_5536 is null)
+            string? __res_5614;
+            string? __res_5615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_5615 is null)
             {
-                __res_5535 = null;
+                __res_5614 = null;
             }
             else
             {
-                string __notNullable_5537 = (string)__res_5536;
-                __res_5535 = __notNullable_5537;
+                string __notNullable_5616 = (string)__res_5615;
+                __res_5614 = __notNullable_5616;
             }
-            return __res_5535;
+            return __res_5614;
         }
         set
         {
-            string? __marshalledValue_5538;
+            string? __marshalledValue_5617;
             if (value is null)
             {
-                __marshalledValue_5538 = null;
+                __marshalledValue_5617 = null;
             }
             else
             {
-                string __notNullable_5539 = (string)value;
-                __marshalledValue_5538 = __notNullable_5539;
+                string __notNullable_5618 = (string)value;
+                __marshalledValue_5617 = __notNullable_5618;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_5538);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_5617);
         }
     }
 
@@ -107,10 +107,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            ushort __res_5540;
-            double __res_5541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "networkState");
-            __res_5540 = Convert.ToUInt16(__res_5541);
-            return __res_5540;
+            ushort __res_5619;
+            double __res_5620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "networkState");
+            __res_5619 = Convert.ToUInt16(__res_5620);
+            return __res_5619;
         }
     }
 
@@ -118,16 +118,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5542;
-            string __res_5543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "preload");
-            __res_5542 = __res_5543;
-            return __res_5542;
+            string __res_5621;
+            string __res_5622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "preload");
+            __res_5621 = __res_5622;
+            return __res_5621;
         }
         set
         {
-            string __marshalledValue_5544;
-            __marshalledValue_5544 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "preload", __marshalledValue_5544);
+            string __marshalledValue_5623;
+            __marshalledValue_5623 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "preload", __marshalledValue_5623);
         }
     }
 
@@ -135,10 +135,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_5545;
-            JSObject __res_5546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
+            Iskra.StdWeb.TimeRanges __res_5624;
+            JSObject __res_5625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
-            return __res_5545;
+            return __res_5624;
         }
     }
 
@@ -146,10 +146,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            ushort __res_5547;
-            double __res_5548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            __res_5547 = Convert.ToUInt16(__res_5548);
-            return __res_5547;
+            ushort __res_5626;
+            double __res_5627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            __res_5626 = Convert.ToUInt16(__res_5627);
+            return __res_5626;
         }
     }
 
@@ -157,10 +157,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5549;
-            bool __res_5550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "seeking");
-            __res_5549 = __res_5550;
-            return __res_5549;
+            bool __res_5628;
+            bool __res_5629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "seeking");
+            __res_5628 = __res_5629;
+            return __res_5628;
         }
     }
 
@@ -168,16 +168,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_5551;
-            double __res_5552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
-            __res_5551 = __res_5552;
-            return __res_5551;
+            double __res_5630;
+            double __res_5631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
+            __res_5630 = __res_5631;
+            return __res_5630;
         }
         set
         {
-            double __marshalledValue_5553;
-            __marshalledValue_5553 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "currentTime", __marshalledValue_5553);
+            double __marshalledValue_5632;
+            __marshalledValue_5632 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "currentTime", __marshalledValue_5632);
         }
     }
 
@@ -185,10 +185,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_5554;
-            double __res_5555 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_5554 = __res_5555;
-            return __res_5554;
+            double __res_5633;
+            double __res_5634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_5633 = __res_5634;
+            return __res_5633;
         }
     }
 
@@ -196,10 +196,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5556;
-            bool __res_5557 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
-            __res_5556 = __res_5557;
-            return __res_5556;
+            bool __res_5635;
+            bool __res_5636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
+            __res_5635 = __res_5636;
+            return __res_5635;
         }
     }
 
@@ -207,16 +207,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_5558;
-            double __res_5559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate");
-            __res_5558 = __res_5559;
-            return __res_5558;
+            double __res_5637;
+            double __res_5638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate");
+            __res_5637 = __res_5638;
+            return __res_5637;
         }
         set
         {
-            double __marshalledValue_5560;
-            __marshalledValue_5560 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate", __marshalledValue_5560);
+            double __marshalledValue_5639;
+            __marshalledValue_5639 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate", __marshalledValue_5639);
         }
     }
 
@@ -224,16 +224,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_5561;
-            double __res_5562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
-            __res_5561 = __res_5562;
-            return __res_5561;
+            double __res_5640;
+            double __res_5641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
+            __res_5640 = __res_5641;
+            return __res_5640;
         }
         set
         {
-            double __marshalledValue_5563;
-            __marshalledValue_5563 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "playbackRate", __marshalledValue_5563);
+            double __marshalledValue_5642;
+            __marshalledValue_5642 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "playbackRate", __marshalledValue_5642);
         }
     }
 
@@ -241,16 +241,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5564;
-            bool __res_5565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "preservesPitch");
-            __res_5564 = __res_5565;
-            return __res_5564;
+            bool __res_5643;
+            bool __res_5644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "preservesPitch");
+            __res_5643 = __res_5644;
+            return __res_5643;
         }
         set
         {
-            bool __marshalledValue_5566;
-            __marshalledValue_5566 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "preservesPitch", __marshalledValue_5566);
+            bool __marshalledValue_5645;
+            __marshalledValue_5645 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "preservesPitch", __marshalledValue_5645);
         }
     }
 
@@ -258,10 +258,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_5567;
-            JSObject __res_5568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "played");
+            Iskra.StdWeb.TimeRanges __res_5646;
+            JSObject __res_5647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "played");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
-            return __res_5567;
+            return __res_5646;
         }
     }
 
@@ -269,10 +269,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_5569;
-            JSObject __res_5570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seekable");
+            Iskra.StdWeb.TimeRanges __res_5648;
+            JSObject __res_5649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seekable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
-            return __res_5569;
+            return __res_5648;
         }
     }
 
@@ -280,10 +280,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5571;
-            bool __res_5572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ended");
-            __res_5571 = __res_5572;
-            return __res_5571;
+            bool __res_5650;
+            bool __res_5651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ended");
+            __res_5650 = __res_5651;
+            return __res_5650;
         }
     }
 
@@ -291,16 +291,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5573;
-            bool __res_5574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoplay");
-            __res_5573 = __res_5574;
-            return __res_5573;
+            bool __res_5652;
+            bool __res_5653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoplay");
+            __res_5652 = __res_5653;
+            return __res_5652;
         }
         set
         {
-            bool __marshalledValue_5575;
-            __marshalledValue_5575 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "autoplay", __marshalledValue_5575);
+            bool __marshalledValue_5654;
+            __marshalledValue_5654 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "autoplay", __marshalledValue_5654);
         }
     }
 
@@ -308,16 +308,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5576;
-            bool __res_5577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
-            __res_5576 = __res_5577;
-            return __res_5576;
+            bool __res_5655;
+            bool __res_5656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
+            __res_5655 = __res_5656;
+            return __res_5655;
         }
         set
         {
-            bool __marshalledValue_5578;
-            __marshalledValue_5578 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_5578);
+            bool __marshalledValue_5657;
+            __marshalledValue_5657 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_5657);
         }
     }
 
@@ -325,16 +325,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5579;
-            bool __res_5580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "controls");
-            __res_5579 = __res_5580;
-            return __res_5579;
+            bool __res_5658;
+            bool __res_5659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "controls");
+            __res_5658 = __res_5659;
+            return __res_5658;
         }
         set
         {
-            bool __marshalledValue_5581;
-            __marshalledValue_5581 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "controls", __marshalledValue_5581);
+            bool __marshalledValue_5660;
+            __marshalledValue_5660 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "controls", __marshalledValue_5660);
         }
     }
 
@@ -342,16 +342,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_5582;
-            double __res_5583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "volume");
-            __res_5582 = __res_5583;
-            return __res_5582;
+            double __res_5661;
+            double __res_5662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "volume");
+            __res_5661 = __res_5662;
+            return __res_5661;
         }
         set
         {
-            double __marshalledValue_5584;
-            __marshalledValue_5584 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "volume", __marshalledValue_5584);
+            double __marshalledValue_5663;
+            __marshalledValue_5663 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "volume", __marshalledValue_5663);
         }
     }
 
@@ -359,16 +359,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5585;
-            bool __res_5586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_5585 = __res_5586;
-            return __res_5585;
+            bool __res_5664;
+            bool __res_5665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_5664 = __res_5665;
+            return __res_5664;
         }
         set
         {
-            bool __marshalledValue_5587;
-            __marshalledValue_5587 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_5587);
+            bool __marshalledValue_5666;
+            __marshalledValue_5666 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_5666);
         }
     }
 
@@ -376,16 +376,16 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5588;
-            bool __res_5589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultMuted");
-            __res_5588 = __res_5589;
-            return __res_5588;
+            bool __res_5667;
+            bool __res_5668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultMuted");
+            __res_5667 = __res_5668;
+            return __res_5667;
         }
         set
         {
-            bool __marshalledValue_5590;
-            __marshalledValue_5590 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "defaultMuted", __marshalledValue_5590);
+            bool __marshalledValue_5669;
+            __marshalledValue_5669 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "defaultMuted", __marshalledValue_5669);
         }
     }
 
@@ -393,10 +393,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioTrackList __res_5591;
-            JSObject __res_5592 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
+            Iskra.StdWeb.AudioTrackList __res_5670;
+            JSObject __res_5671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioTrackList } not supported.");
-            return __res_5591;
+            return __res_5670;
         }
     }
 
@@ -404,10 +404,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.VideoTrackList __res_5593;
-            JSObject __res_5594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
+            Iskra.StdWeb.VideoTrackList __res_5672;
+            JSObject __res_5673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoTrackList } not supported.");
-            return __res_5593;
+            return __res_5672;
         }
     }
 
@@ -415,10 +415,10 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.TextTrackList __res_5595;
-            JSObject __res_5596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
+            Iskra.StdWeb.TextTrackList __res_5674;
+            JSObject __res_5675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackList } not supported.");
-            return __res_5595;
+            return __res_5674;
         }
     }
 }

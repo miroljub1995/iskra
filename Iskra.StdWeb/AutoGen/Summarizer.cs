@@ -13,10 +13,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_151;
-            string __res_152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_151 = __res_152;
-            return __res_151;
+            string __res_152;
+            string __res_153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_152 = __res_153;
+            return __res_152;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SummarizerType __res_153;
-            JSObject __res_154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.SummarizerType __res_154;
+            JSObject __res_155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerType } not supported.");
-            return __res_153;
+            return __res_154;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SummarizerFormat __res_155;
-            JSObject __res_156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
+            Iskra.StdWeb.SummarizerFormat __res_156;
+            JSObject __res_157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerFormat } not supported.");
-            return __res_155;
+            return __res_156;
         }
     }
 
@@ -46,30 +46,44 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.SummarizerLength __res_157;
-            JSObject __res_158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            Iskra.StdWeb.SummarizerLength __res_158;
+            JSObject __res_159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerLength } not supported.");
-            return __res_157;
+            return __res_158;
         }
     }
 
-    public object ExpectedInputLanguages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1> ExpectedInputLanguages
     {
         get
         {
-            object __res_159;
-            throw new Exception();
-            return __res_159;
-        }
-    }
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1> __res_160;
+            JSObject? __propObject_161;
+            __propObject_161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages"); is null)
+            {
+                return null;
+            }
 
-    public object ExpectedContextLanguages
-    {
-        get
-        {
-            object __res_160;
-            throw new Exception();
+            __res_160 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1>(__propObject_161);
             return __res_160;
+        }
+    }
+
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1> ExpectedContextLanguages
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1> __res_162;
+            JSObject? __propObject_163;
+            __propObject_163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
+            if (__propObject_163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages"); is null)
+            {
+                return null;
+            }
+
+            __res_162 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1>(__propObject_163);
+            return __res_162;
         }
     }
 
@@ -77,18 +91,18 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_161;
-            string? __res_162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_162 is null)
+            string? __res_164;
+            string? __res_165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_165 is null)
             {
-                __res_161 = null;
+                __res_164 = null;
             }
             else
             {
-                string __notNullable_163 = (string)__res_162;
-                __res_161 = __notNullable_163;
+                string __notNullable_166 = (string)__res_165;
+                __res_164 = __notNullable_166;
             }
-            return __res_161;
+            return __res_164;
         }
     }
 
@@ -96,10 +110,10 @@ public partial class Summarizer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_164;
-            double __res_165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_164 = __res_165;
-            return __res_164;
+            double __res_167;
+            double __res_168 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_167 = __res_168;
+            return __res_167;
         }
     }
 }

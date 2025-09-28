@@ -20,12 +20,14 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Polygon
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0> Polygon
     {
         get
         {
-            object __res_8;
-            throw new Exception();
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0> __res_8;
+            JSObject __propObject_9;
+            __propObject_9 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "polygon");
+            __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0>(__propObject_9);
             return __res_8;
         }
     }
@@ -34,18 +36,18 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRPlaneOrientation? __res_9;
-            JSObject? __res_10 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
-            if (__res_10 is null)
+            Iskra.StdWeb.XRPlaneOrientation? __res_10;
+            JSObject? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
+            if (__res_11 is null)
             {
-                __res_9 = null;
+                __res_10 = null;
             }
             else
             {
-                JSObject __notNullable_11 = (JSObject)__res_10;
+                JSObject __notNullable_12 = (JSObject)__res_11;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRPlaneOrientation } not supported.");
             }
-            return __res_9;
+            return __res_10;
         }
     }
 
@@ -53,10 +55,10 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_12;
-            double __res_13 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
-            __res_12 = __res_13;
-            return __res_12;
+            double __res_13;
+            double __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            __res_13 = __res_14;
+            return __res_13;
         }
     }
 
@@ -64,18 +66,18 @@ public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_14;
-            string? __res_15 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
-            if (__res_15 is null)
+            string? __res_15;
+            string? __res_16 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            if (__res_16 is null)
             {
-                __res_14 = null;
+                __res_15 = null;
             }
             else
             {
-                string __notNullable_16 = (string)__res_15;
-                __res_14 = __notNullable_16;
+                string __notNullable_17 = (string)__res_16;
+                __res_15 = __notNullable_17;
             }
-            return __res_14;
+            return __res_15;
         }
     }
 }

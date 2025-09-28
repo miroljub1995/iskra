@@ -13,10 +13,10 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4335;
-            string __res_4336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4335 = __res_4336;
-            return __res_4335;
+            string __res_4386;
+            string __res_4387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4386 = __res_4387;
+            return __res_4386;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBFactory __res_4337;
-            JSObject __res_4338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            Iskra.StdWeb.IDBFactory __res_4388;
+            JSObject __res_4389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBFactory } not supported.");
-            return __res_4337;
+            return __res_4388;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class StorageBucket(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CacheStorage __res_4339;
-            JSObject __res_4340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            Iskra.StdWeb.CacheStorage __res_4390;
+            JSObject __res_4391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CacheStorage } not supported.");
-            return __res_4339;
+            return __res_4390;
         }
     }
 }

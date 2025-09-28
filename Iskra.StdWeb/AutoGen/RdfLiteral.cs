@@ -13,10 +13,10 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5033;
-            string __res_5034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_5033 = __res_5034;
-            return __res_5033;
+            string __res_5111;
+            string __res_5112 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5111 = __res_5112;
+            return __res_5111;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5035;
-            string __res_5036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "datatype");
-            __res_5035 = __res_5036;
-            return __res_5035;
+            string __res_5113;
+            string __res_5114 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "datatype");
+            __res_5113 = __res_5114;
+            return __res_5113;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class RdfLiteral(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_5037;
-            string? __res_5038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "language");
-            if (__res_5038 is null)
+            string? __res_5115;
+            string? __res_5116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "language");
+            if (__res_5116 is null)
             {
-                __res_5037 = null;
+                __res_5115 = null;
             }
             else
             {
-                string __notNullable_5039 = (string)__res_5038;
-                __res_5037 = __notNullable_5039;
+                string __notNullable_5117 = (string)__res_5116;
+                __res_5115 = __notNullable_5117;
             }
-            return __res_5037;
+            return __res_5115;
         }
     }
 }

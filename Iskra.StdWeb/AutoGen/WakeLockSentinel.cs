@@ -13,10 +13,10 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1060;
-            bool __res_1061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
-            __res_1060 = __res_1061;
-            return __res_1060;
+            bool __res_1076;
+            bool __res_1077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
+            __res_1076 = __res_1077;
+            return __res_1076;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.WakeLockType __res_1062;
-            JSObject __res_1063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.WakeLockType __res_1078;
+            JSObject __res_1079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WakeLockType } not supported.");
-            return __res_1062;
+            return __res_1078;
         }
     }
 
@@ -35,32 +35,32 @@ public partial class WakeLockSentinel(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1064;
-            JSObject? __res_1065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
-            if (__res_1065 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1080;
+            JSObject? __res_1081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
+            if (__res_1081 is null)
             {
-                __res_1064 = null;
+                __res_1080 = null;
             }
             else
             {
-                JSObject __notNullable_1066 = (JSObject)__res_1065;
+                JSObject __notNullable_1082 = (JSObject)__res_1081;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_1064;
+            return __res_1080;
         }
         set
         {
-            JSObject? __marshalledValue_1067;
+            JSObject? __marshalledValue_1083;
             if (value is null)
             {
-                __marshalledValue_1067 = null;
+                __marshalledValue_1083 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_1068 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1084 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease", __marshalledValue_1067);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease", __marshalledValue_1083);
         }
     }
 }

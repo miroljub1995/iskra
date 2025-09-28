@@ -9,23 +9,27 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserQualifiedRule(JSObject obj): CSSParserRule(obj)
 {
-    public object Prelude
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> Prelude
     {
         get
         {
-            object __res_7440;
-            throw new Exception();
-            return __res_7440;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> __res_7528;
+            JSObject __propObject_7529;
+            __propObject_7529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
+            __res_7528 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>(__propObject_7529);
+            return __res_7528;
         }
     }
 
-    public object Body
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_59> Body
     {
         get
         {
-            object __res_7441;
-            throw new Exception();
-            return __res_7441;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_59> __res_7530;
+            JSObject __propObject_7531;
+            __propObject_7531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
+            __res_7530 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.Value_59>(__propObject_7531);
+            return __res_7530;
         }
     }
 }

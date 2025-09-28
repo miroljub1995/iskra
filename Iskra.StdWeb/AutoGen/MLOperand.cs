@@ -13,20 +13,22 @@ public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MLOperandDataType __res_4678;
-            JSObject __res_4679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
+            Iskra.StdWeb.MLOperandDataType __res_4737;
+            JSObject __res_4738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MLOperandDataType } not supported.");
-            return __res_4678;
+            return __res_4737;
         }
     }
 
-    public object Shape
+    public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.Value_33> Shape
     {
         get
         {
-            object __res_4680;
-            throw new Exception();
-            return __res_4680;
+            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.Value_33> __res_4739;
+            JSObject __propObject_4740;
+            __propObject_4740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
+            __res_4739 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.Value_33>(__propObject_4740);
+            return __res_4739;
         }
     }
 }

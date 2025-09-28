@@ -13,18 +13,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2843;
-            JSObject? __res_2844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
-            if (__res_2844 is null)
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2877;
+            JSObject? __res_2878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
+            if (__res_2878 is null)
             {
-                __res_2843 = null;
+                __res_2877 = null;
             }
             else
             {
-                JSObject __notNullable_2845 = (JSObject)__res_2844;
+                JSObject __notNullable_2879 = (JSObject)__res_2878;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventAcceleration } not supported.");
             }
-            return __res_2843;
+            return __res_2877;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2846;
-            JSObject? __res_2847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
-            if (__res_2847 is null)
+            Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2880;
+            JSObject? __res_2881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
+            if (__res_2881 is null)
             {
-                __res_2846 = null;
+                __res_2880 = null;
             }
             else
             {
-                JSObject __notNullable_2848 = (JSObject)__res_2847;
+                JSObject __notNullable_2882 = (JSObject)__res_2881;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventAcceleration } not supported.");
             }
-            return __res_2846;
+            return __res_2880;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2849;
-            JSObject? __res_2850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
-            if (__res_2850 is null)
+            Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2883;
+            JSObject? __res_2884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
+            if (__res_2884 is null)
             {
-                __res_2849 = null;
+                __res_2883 = null;
             }
             else
             {
-                JSObject __notNullable_2851 = (JSObject)__res_2850;
+                JSObject __notNullable_2885 = (JSObject)__res_2884;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventRotationRate } not supported.");
             }
-            return __res_2849;
+            return __res_2883;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class DeviceMotionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_2852;
-            double __res_2853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
-            __res_2852 = __res_2853;
-            return __res_2852;
+            double __res_2886;
+            double __res_2887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
+            __res_2886 = __res_2887;
+            return __res_2886;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileSystemHandleKind __res_3885;
-            JSObject __res_3886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            Iskra.StdWeb.FileSystemHandleKind __res_3926;
+            JSObject __res_3927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemHandleKind } not supported.");
-            return __res_3885;
+            return __res_3926;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3887;
-            string __res_3888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3887 = __res_3888;
-            return __res_3887;
+            string __res_3928;
+            string __res_3929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3928 = __res_3929;
+            return __res_3928;
         }
     }
 }

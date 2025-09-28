@@ -13,10 +13,10 @@ public partial class URLSearchParams(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3878;
-            double __res_3879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_3878 = Convert.ToUInt32(__res_3879);
-            return __res_3878;
+            uint __res_3919;
+            double __res_3920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_3919 = Convert.ToUInt32(__res_3920);
+            return __res_3919;
         }
     }
 }

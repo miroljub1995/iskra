@@ -13,10 +13,10 @@ public partial class Attribution(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AttributionAggregationServices __res_1598;
-            JSObject __res_1599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
+            Iskra.StdWeb.AttributionAggregationServices __res_1615;
+            JSObject __res_1616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AttributionAggregationServices } not supported.");
-            return __res_1598;
+            return __res_1615;
         }
     }
 }

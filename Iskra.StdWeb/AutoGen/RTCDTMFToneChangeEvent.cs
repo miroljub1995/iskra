@@ -13,10 +13,10 @@ public partial class RTCDTMFToneChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2015;
-            string __res_2016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
-            __res_2015 = __res_2016;
-            return __res_2015;
+            string __res_2039;
+            string __res_2040 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
+            __res_2039 = __res_2040;
+            return __res_2039;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_6755;
-            JSObject __res_6756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            object? __res_6837;
+            JSObject __res_6838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6755;
+            return __res_6837;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6757;
-            string __res_6758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_6757 = __res_6758;
-            return __res_6757;
+            string __res_6839;
+            string __res_6840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_6839 = __res_6840;
+            return __res_6839;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6759;
-            string __res_6760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
-            __res_6759 = __res_6760;
-            return __res_6759;
+            string __res_6841;
+            string __res_6842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
+            __res_6841 = __res_6842;
+            return __res_6841;
         }
     }
 
@@ -46,19 +46,21 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_6761;
+            object __res_6843;
             throw new Exception();
-            return __res_6761;
+            return __res_6843;
         }
     }
 
-    public object Ports
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Value_35> Ports
     {
         get
         {
-            object __res_6762;
-            throw new Exception();
-            return __res_6762;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Value_35> __res_6844;
+            JSObject __propObject_6845;
+            __propObject_6845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ports");
+            __res_6844 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Value_35>(__propObject_6845);
+            return __res_6844;
         }
     }
 }

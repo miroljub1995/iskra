@@ -13,10 +13,10 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5107;
-            string __res_5108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
-            __res_5107 = __res_5108;
-            return __res_5107;
+            string __res_5185;
+            string __res_5186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
+            __res_5185 = __res_5186;
+            return __res_5185;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class MediaEncryptedEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_5109;
-            JSObject? __res_5110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
-            if (__res_5110 is null)
+            Iskra.JSCore.ArrayBuffer? __res_5187;
+            JSObject? __res_5188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
+            if (__res_5188 is null)
             {
-                __res_5109 = null;
+                __res_5187 = null;
             }
             else
             {
-                JSObject __notNullable_5111 = (JSObject)__res_5110;
+                JSObject __notNullable_5189 = (JSObject)__res_5188;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
-            return __res_5109;
+            return __res_5187;
         }
     }
 }

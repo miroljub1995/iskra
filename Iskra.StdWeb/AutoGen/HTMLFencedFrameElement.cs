@@ -13,32 +13,32 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.FencedFrameConfig? __res_7056;
-            JSObject? __res_7057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "config");
-            if (__res_7057 is null)
+            Iskra.StdWeb.FencedFrameConfig? __res_7141;
+            JSObject? __res_7142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "config");
+            if (__res_7142 is null)
             {
-                __res_7056 = null;
+                __res_7141 = null;
             }
             else
             {
-                JSObject __notNullable_7058 = (JSObject)__res_7057;
+                JSObject __notNullable_7143 = (JSObject)__res_7142;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FencedFrameConfig } not supported.");
             }
-            return __res_7056;
+            return __res_7141;
         }
         set
         {
-            JSObject? __marshalledValue_7059;
+            JSObject? __marshalledValue_7144;
             if (value is null)
             {
-                __marshalledValue_7059 = null;
+                __marshalledValue_7144 = null;
             }
             else
             {
-                Iskra.StdWeb.FencedFrameConfig __notNullable_7060 = (Iskra.StdWeb.FencedFrameConfig)value;
+                Iskra.StdWeb.FencedFrameConfig __notNullable_7145 = (Iskra.StdWeb.FencedFrameConfig)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FencedFrameConfig } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "config", __marshalledValue_7059);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "config", __marshalledValue_7144);
         }
     }
 
@@ -46,16 +46,16 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_7061;
-            string __res_7062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_7061 = __res_7062;
-            return __res_7061;
+            string __res_7146;
+            string __res_7147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_7146 = __res_7147;
+            return __res_7146;
         }
         set
         {
-            string __marshalledValue_7063;
-            __marshalledValue_7063 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_7063);
+            string __marshalledValue_7148;
+            __marshalledValue_7148 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_7148);
         }
     }
 
@@ -63,16 +63,16 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_7064;
-            string __res_7065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
-            __res_7064 = __res_7065;
-            return __res_7064;
+            string __res_7149;
+            string __res_7150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_7149 = __res_7150;
+            return __res_7149;
         }
         set
         {
-            string __marshalledValue_7066;
-            __marshalledValue_7066 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_7066);
+            string __marshalledValue_7151;
+            __marshalledValue_7151 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_7151);
         }
     }
 
@@ -80,10 +80,10 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMTokenList __res_7067;
-            JSObject __res_7068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
+            Iskra.StdWeb.DOMTokenList __res_7152;
+            JSObject __res_7153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
-            return __res_7067;
+            return __res_7152;
         }
     }
 
@@ -91,16 +91,16 @@ public partial class HTMLFencedFrameElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_7069;
-            string __res_7070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "allow");
-            __res_7069 = __res_7070;
-            return __res_7069;
+            string __res_7154;
+            string __res_7155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "allow");
+            __res_7154 = __res_7155;
+            return __res_7154;
         }
         set
         {
-            string __marshalledValue_7071;
-            __marshalledValue_7071 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "allow", __marshalledValue_7071);
+            string __marshalledValue_7156;
+            __marshalledValue_7156 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "allow", __marshalledValue_7156);
         }
     }
 }

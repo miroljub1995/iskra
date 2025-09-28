@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
 {
-    public object Brands
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.Value_21> Brands
     {
         get
         {
-            object __res_2682;
-            throw new Exception();
-            return __res_2682;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.Value_21> __res_2711;
+            JSObject __propObject_2712;
+            __propObject_2712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
+            __res_2711 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.Value_21>(__propObject_2712);
+            return __res_2711;
         }
     }
 
@@ -23,10 +25,10 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2683;
-            bool __res_2684 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
-            __res_2683 = __res_2684;
-            return __res_2683;
+            bool __res_2713;
+            bool __res_2714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
+            __res_2713 = __res_2714;
+            return __res_2713;
         }
     }
 
@@ -34,10 +36,10 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2685;
-            string __res_2686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_2685 = __res_2686;
-            return __res_2685;
+            string __res_2715;
+            string __res_2716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
+            __res_2715 = __res_2716;
+            return __res_2715;
         }
     }
 }

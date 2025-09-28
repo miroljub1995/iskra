@@ -13,10 +13,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4075;
-            string __res_4076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "voiceURI");
-            __res_4075 = __res_4076;
-            return __res_4075;
+            string __res_4116;
+            string __res_4117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "voiceURI");
+            __res_4116 = __res_4117;
+            return __res_4116;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4077;
-            string __res_4078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4077 = __res_4078;
-            return __res_4077;
+            string __res_4118;
+            string __res_4119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4118 = __res_4119;
+            return __res_4118;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4079;
-            string __res_4080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_4079 = __res_4080;
-            return __res_4079;
+            string __res_4120;
+            string __res_4121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_4120 = __res_4121;
+            return __res_4120;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4081;
-            bool __res_4082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
-            __res_4081 = __res_4082;
-            return __res_4081;
+            bool __res_4122;
+            bool __res_4123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
+            __res_4122 = __res_4123;
+            return __res_4122;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SpeechSynthesisVoice(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4083;
-            bool __res_4084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
-            __res_4083 = __res_4084;
-            return __res_4083;
+            bool __res_4124;
+            bool __res_4125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
+            __res_4124 = __res_4125;
+            return __res_4124;
         }
     }
 }

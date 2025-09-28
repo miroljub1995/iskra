@@ -13,10 +13,10 @@ public partial class RTCTransformEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpScriptTransformer __res_1001;
-            JSObject __res_1002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
+            Iskra.StdWeb.RTCRtpScriptTransformer __res_1017;
+            JSObject __res_1018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpScriptTransformer } not supported.");
-            return __res_1001;
+            return __res_1017;
         }
     }
 }

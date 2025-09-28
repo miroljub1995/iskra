@@ -13,10 +13,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4995;
-            double __res_4996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
-            __res_4995 = Convert.ToByte(__res_4996);
-            return __res_4995;
+            byte __res_5071;
+            double __res_5072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
+            __res_5071 = Convert.ToByte(__res_5072);
+            return __res_5071;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBDirection __res_4997;
-            JSObject __res_4998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            Iskra.StdWeb.USBDirection __res_5073;
+            JSObject __res_5074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBDirection } not supported.");
-            return __res_4997;
+            return __res_5073;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBEndpointType __res_4999;
-            JSObject __res_5000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.USBEndpointType __res_5075;
+            JSObject __res_5076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBEndpointType } not supported.");
-            return __res_4999;
+            return __res_5075;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class USBEndpoint(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_5001;
-            double __res_5002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
-            __res_5001 = Convert.ToUInt32(__res_5002);
-            return __res_5001;
+            uint __res_5077;
+            double __res_5078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
+            __res_5077 = Convert.ToUInt32(__res_5078);
+            return __res_5077;
         }
     }
 }

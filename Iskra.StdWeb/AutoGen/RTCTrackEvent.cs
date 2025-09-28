@@ -13,10 +13,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpReceiver __res_1926;
-            JSObject __res_1927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            Iskra.StdWeb.RTCRtpReceiver __res_1949;
+            JSObject __res_1950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpReceiver } not supported.");
-            return __res_1926;
+            return __res_1949;
         }
     }
 
@@ -24,20 +24,22 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_1928;
-            JSObject __res_1929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            Iskra.StdWeb.MediaStreamTrack __res_1951;
+            JSObject __res_1952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
-            return __res_1928;
+            return __res_1951;
         }
     }
 
-    public object Streams
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.Value_15> Streams
     {
         get
         {
-            object __res_1930;
-            throw new Exception();
-            return __res_1930;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.Value_15> __res_1953;
+            JSObject __propObject_1954;
+            __propObject_1954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "streams");
+            __res_1953 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.Value_15>(__propObject_1954);
+            return __res_1953;
         }
     }
 
@@ -45,10 +47,10 @@ public partial class RTCTrackEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiver __res_1931;
-            JSObject __res_1932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
+            Iskra.StdWeb.RTCRtpTransceiver __res_1955;
+            JSObject __res_1956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiver } not supported.");
-            return __res_1931;
+            return __res_1955;
         }
     }
 }

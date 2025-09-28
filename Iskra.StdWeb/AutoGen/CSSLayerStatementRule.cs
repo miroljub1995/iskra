@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class CSSLayerStatementRule(JSObject obj): CSSRule(obj)
 {
-    public object NameList
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> NameList
     {
         get
         {
-            object __res_2773;
-            throw new Exception();
-            return __res_2773;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_2806;
+            JSObject __propObject_2807;
+            __propObject_2807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "nameList");
+            __res_2806 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14>(__propObject_2807);
+            return __res_2806;
         }
     }
 }

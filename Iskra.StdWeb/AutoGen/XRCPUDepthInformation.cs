@@ -13,10 +13,10 @@ public partial class XRCPUDepthInformation(JSObject obj): XRDepthInformation(obj
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1036;
-            JSObject __res_1037 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            Iskra.JSCore.ArrayBuffer __res_1052;
+            JSObject __res_1053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_1036;
+            return __res_1052;
         }
     }
 }

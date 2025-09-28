@@ -13,16 +13,16 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_353;
-            string __res_354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_353 = __res_354;
-            return __res_353;
+            string __res_360;
+            string __res_361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_360 = __res_361;
+            return __res_360;
         }
         set
         {
-            string __marshalledValue_355;
-            __marshalledValue_355 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_355);
+            string __marshalledValue_362;
+            __marshalledValue_362 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_362);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_356;
-            string __res_357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_356 = __res_357;
-            return __res_356;
+            string __res_363;
+            string __res_364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_363 = __res_364;
+            return __res_363;
         }
         set
         {
-            string __marshalledValue_358;
-            __marshalledValue_358 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_358);
+            string __marshalledValue_365;
+            __marshalledValue_365 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_365);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class SVGStyleElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_359;
-            string __res_360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_359 = __res_360;
-            return __res_359;
+            string __res_366;
+            string __res_367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_366 = __res_367;
+            return __res_366;
         }
         set
         {
-            string __marshalledValue_361;
-            __marshalledValue_361 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_361);
+            string __marshalledValue_368;
+            __marshalledValue_368 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_368);
         }
     }
 }

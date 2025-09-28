@@ -13,10 +13,10 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_1344;
-            double __res_1345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_1344 = Convert.ToUInt16(__res_1345);
-            return __res_1344;
+            ushort __res_1360;
+            double __res_1361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_1360 = Convert.ToUInt16(__res_1361);
+            return __res_1360;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceNavigation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_1346;
-            double __res_1347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            __res_1346 = Convert.ToUInt16(__res_1347);
-            return __res_1346;
+            ushort __res_1362;
+            double __res_1363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
+            __res_1362 = Convert.ToUInt16(__res_1363);
+            return __res_1362;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class File(JSObject obj): Blob(obj)
     {
         get
         {
-            string __res_7873;
-            string __res_7874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7873 = __res_7874;
-            return __res_7873;
+            string __res_7970;
+            string __res_7971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7970 = __res_7971;
+            return __res_7970;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class File(JSObject obj): Blob(obj)
     {
         get
         {
-            long __res_7875;
-            double __res_7876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
-            __res_7875 = Convert.ToInt64(__res_7876);
-            return __res_7875;
+            long __res_7972;
+            double __res_7973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
+            __res_7972 = Convert.ToInt64(__res_7973);
+            return __res_7972;
         }
     }
 }

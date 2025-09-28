@@ -13,10 +13,10 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRSession __res_4188;
-            JSObject __res_4189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            Iskra.StdWeb.XRSession __res_4230;
+            JSObject __res_4231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSession } not supported.");
-            return __res_4188;
+            return __res_4230;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4190;
-            double __res_4191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
-            __res_4190 = __res_4191;
-            return __res_4190;
+            double __res_4232;
+            double __res_4233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
+            __res_4232 = __res_4233;
+            return __res_4232;
         }
     }
 }

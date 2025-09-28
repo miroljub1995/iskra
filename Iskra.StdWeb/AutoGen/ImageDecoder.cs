@@ -13,10 +13,10 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2629;
-            string __res_2630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2629 = __res_2630;
-            return __res_2629;
+            string __res_2657;
+            string __res_2658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2657 = __res_2658;
+            return __res_2657;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2631;
-            bool __res_2632 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            __res_2631 = __res_2632;
-            return __res_2631;
+            bool __res_2659;
+            bool __res_2660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            __res_2659 = __res_2660;
+            return __res_2659;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2633;
+            object __res_2661;
             throw new Exception();
-            return __res_2633;
+            return __res_2661;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class ImageDecoder(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ImageTrackList __res_2634;
-            JSObject __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
+            Iskra.StdWeb.ImageTrackList __res_2662;
+            JSObject __res_2663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageTrackList } not supported.");
-            return __res_2634;
+            return __res_2662;
         }
     }
 }

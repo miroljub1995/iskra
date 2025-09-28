@@ -13,32 +13,32 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaMetadata? __res_559;
-            JSObject? __res_560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
-            if (__res_560 is null)
+            Iskra.StdWeb.MediaMetadata? __res_566;
+            JSObject? __res_567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
+            if (__res_567 is null)
             {
-                __res_559 = null;
+                __res_566 = null;
             }
             else
             {
-                JSObject __notNullable_561 = (JSObject)__res_560;
+                JSObject __notNullable_568 = (JSObject)__res_567;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaMetadata } not supported.");
             }
-            return __res_559;
+            return __res_566;
         }
         set
         {
-            JSObject? __marshalledValue_562;
+            JSObject? __marshalledValue_569;
             if (value is null)
             {
-                __marshalledValue_562 = null;
+                __marshalledValue_569 = null;
             }
             else
             {
-                Iskra.StdWeb.MediaMetadata __notNullable_563 = (Iskra.StdWeb.MediaMetadata)value;
+                Iskra.StdWeb.MediaMetadata __notNullable_570 = (Iskra.StdWeb.MediaMetadata)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaMetadata } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "metadata", __marshalledValue_562);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "metadata", __marshalledValue_569);
         }
     }
 
@@ -46,16 +46,16 @@ public partial class MediaSession(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaSessionPlaybackState __res_564;
-            JSObject __res_565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackState");
+            Iskra.StdWeb.MediaSessionPlaybackState __res_571;
+            JSObject __res_572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackState");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaSessionPlaybackState } not supported.");
-            return __res_564;
+            return __res_571;
         }
         set
         {
-            JSObject __marshalledValue_566;
+            JSObject __marshalledValue_573;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaSessionPlaybackState } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "playbackState", __marshalledValue_566);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "playbackState", __marshalledValue_573);
         }
     }
 }

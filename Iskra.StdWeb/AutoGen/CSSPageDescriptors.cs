@@ -13,16 +13,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7223;
-            string __res_7224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin");
-            __res_7223 = __res_7224;
-            return __res_7223;
+            string __res_7309;
+            string __res_7310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin");
+            __res_7309 = __res_7310;
+            return __res_7309;
         }
         set
         {
-            string __marshalledValue_7225;
-            __marshalledValue_7225 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin", __marshalledValue_7225);
+            string __marshalledValue_7311;
+            __marshalledValue_7311 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin", __marshalledValue_7311);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7226;
-            string __res_7227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginTop");
-            __res_7226 = __res_7227;
-            return __res_7226;
+            string __res_7312;
+            string __res_7313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginTop");
+            __res_7312 = __res_7313;
+            return __res_7312;
         }
         set
         {
-            string __marshalledValue_7228;
-            __marshalledValue_7228 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginTop", __marshalledValue_7228);
+            string __marshalledValue_7314;
+            __marshalledValue_7314 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginTop", __marshalledValue_7314);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7229;
-            string __res_7230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginRight");
-            __res_7229 = __res_7230;
-            return __res_7229;
+            string __res_7315;
+            string __res_7316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginRight");
+            __res_7315 = __res_7316;
+            return __res_7315;
         }
         set
         {
-            string __marshalledValue_7231;
-            __marshalledValue_7231 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginRight", __marshalledValue_7231);
+            string __marshalledValue_7317;
+            __marshalledValue_7317 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginRight", __marshalledValue_7317);
         }
     }
 
@@ -64,16 +64,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7232;
-            string __res_7233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBottom");
-            __res_7232 = __res_7233;
-            return __res_7232;
+            string __res_7318;
+            string __res_7319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBottom");
+            __res_7318 = __res_7319;
+            return __res_7318;
         }
         set
         {
-            string __marshalledValue_7234;
-            __marshalledValue_7234 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBottom", __marshalledValue_7234);
+            string __marshalledValue_7320;
+            __marshalledValue_7320 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBottom", __marshalledValue_7320);
         }
     }
 
@@ -81,16 +81,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7235;
-            string __res_7236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginLeft");
-            __res_7235 = __res_7236;
-            return __res_7235;
+            string __res_7321;
+            string __res_7322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginLeft");
+            __res_7321 = __res_7322;
+            return __res_7321;
         }
         set
         {
-            string __marshalledValue_7237;
-            __marshalledValue_7237 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginLeft", __marshalledValue_7237);
+            string __marshalledValue_7323;
+            __marshalledValue_7323 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginLeft", __marshalledValue_7323);
         }
     }
 
@@ -98,16 +98,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7238;
-            string __res_7239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-top");
-            __res_7238 = __res_7239;
-            return __res_7238;
+            string __res_7324;
+            string __res_7325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-top");
+            __res_7324 = __res_7325;
+            return __res_7324;
         }
         set
         {
-            string __marshalledValue_7240;
-            __marshalledValue_7240 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-top", __marshalledValue_7240);
+            string __marshalledValue_7326;
+            __marshalledValue_7326 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-top", __marshalledValue_7326);
         }
     }
 
@@ -115,16 +115,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7241;
-            string __res_7242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-right");
-            __res_7241 = __res_7242;
-            return __res_7241;
+            string __res_7327;
+            string __res_7328 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-right");
+            __res_7327 = __res_7328;
+            return __res_7327;
         }
         set
         {
-            string __marshalledValue_7243;
-            __marshalledValue_7243 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-right", __marshalledValue_7243);
+            string __marshalledValue_7329;
+            __marshalledValue_7329 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-right", __marshalledValue_7329);
         }
     }
 
@@ -132,16 +132,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7244;
-            string __res_7245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-bottom");
-            __res_7244 = __res_7245;
-            return __res_7244;
+            string __res_7330;
+            string __res_7331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-bottom");
+            __res_7330 = __res_7331;
+            return __res_7330;
         }
         set
         {
-            string __marshalledValue_7246;
-            __marshalledValue_7246 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-bottom", __marshalledValue_7246);
+            string __marshalledValue_7332;
+            __marshalledValue_7332 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-bottom", __marshalledValue_7332);
         }
     }
 
@@ -149,16 +149,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7247;
-            string __res_7248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-left");
-            __res_7247 = __res_7248;
-            return __res_7247;
+            string __res_7333;
+            string __res_7334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-left");
+            __res_7333 = __res_7334;
+            return __res_7333;
         }
         set
         {
-            string __marshalledValue_7249;
-            __marshalledValue_7249 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-left", __marshalledValue_7249);
+            string __marshalledValue_7335;
+            __marshalledValue_7335 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-left", __marshalledValue_7335);
         }
     }
 
@@ -166,16 +166,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7250;
-            string __res_7251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
-            __res_7250 = __res_7251;
-            return __res_7250;
+            string __res_7336;
+            string __res_7337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
+            __res_7336 = __res_7337;
+            return __res_7336;
         }
         set
         {
-            string __marshalledValue_7252;
-            __marshalledValue_7252 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_7252);
+            string __marshalledValue_7338;
+            __marshalledValue_7338 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_7338);
         }
     }
 
@@ -183,16 +183,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7253;
-            string __res_7254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pageOrientation");
-            __res_7253 = __res_7254;
-            return __res_7253;
+            string __res_7339;
+            string __res_7340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pageOrientation");
+            __res_7339 = __res_7340;
+            return __res_7339;
         }
         set
         {
-            string __marshalledValue_7255;
-            __marshalledValue_7255 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pageOrientation", __marshalledValue_7255);
+            string __marshalledValue_7341;
+            __marshalledValue_7341 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pageOrientation", __marshalledValue_7341);
         }
     }
 
@@ -200,16 +200,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7256;
-            string __res_7257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "page-orientation");
-            __res_7256 = __res_7257;
-            return __res_7256;
+            string __res_7342;
+            string __res_7343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "page-orientation");
+            __res_7342 = __res_7343;
+            return __res_7342;
         }
         set
         {
-            string __marshalledValue_7258;
-            __marshalledValue_7258 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "page-orientation", __marshalledValue_7258);
+            string __marshalledValue_7344;
+            __marshalledValue_7344 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "page-orientation", __marshalledValue_7344);
         }
     }
 
@@ -217,16 +217,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7259;
-            string __res_7260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marks");
-            __res_7259 = __res_7260;
-            return __res_7259;
+            string __res_7345;
+            string __res_7346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marks");
+            __res_7345 = __res_7346;
+            return __res_7345;
         }
         set
         {
-            string __marshalledValue_7261;
-            __marshalledValue_7261 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marks", __marshalledValue_7261);
+            string __marshalledValue_7347;
+            __marshalledValue_7347 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marks", __marshalledValue_7347);
         }
     }
 
@@ -234,16 +234,16 @@ public partial class CSSPageDescriptors(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7262;
-            string __res_7263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bleed");
-            __res_7262 = __res_7263;
-            return __res_7262;
+            string __res_7348;
+            string __res_7349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bleed");
+            __res_7348 = __res_7349;
+            return __res_7348;
         }
         set
         {
-            string __marshalledValue_7264;
-            __marshalledValue_7264 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bleed", __marshalledValue_7264);
+            string __marshalledValue_7350;
+            __marshalledValue_7350 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bleed", __marshalledValue_7350);
         }
     }
 }

@@ -11,241 +11,2247 @@ public static partial class GenericMarshaller
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
     private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructArray(JSObject obj, string constructorName, int length);
 
-    public class Value_0: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.FileSystemEntry[]>
+    public class Value_0: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.DOMPointReadOnly[]>
     {
-        public static Iskra.StdWeb.FileSystemEntry[] ToManaged(JSObject input)
+        public static Iskra.StdWeb.DOMPointReadOnly[] ToManaged(JSObject input)
         {
-            double __doubleLength_8339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8340 = global::System.Convert.ToInt64(__doubleLength_8339);
+            double __doubleLength_8438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8439 = global::System.Convert.ToInt32(__doubleLength_8438);
 
-            Iskra.StdWeb.FileSystemEntry[] __res_8338 = new Iskra.StdWeb.FileSystemEntry[__length_8340];
-            for (long __i_8341 = 0; __i_8341 < __length_8340; __i_8341++)
+            Iskra.StdWeb.DOMPointReadOnly[] __res_8437 = new Iskra.StdWeb.DOMPointReadOnly[__length_8439];
+            for (int __i_8440 = 0; __i_8440 < __length_8439; __i_8440++)
             {
-                Iskra.StdWeb.FileSystemEntry __element_8342;
-                JSObject __res_8343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8341.ToString());
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemEntry } not supported.");
-                __res_8338[__i_8341] = __element_8342;
+                Iskra.StdWeb.DOMPointReadOnly __element_8441;
+                JSObject __res_8442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8440.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
+                __res_8437[__i_8440] = __element_8441;
             }
 
-            return __res_8338;
+            return __res_8437;
         }
 
-        public static JSObject ToJS(Iskra.StdWeb.FileSystemEntry[] input)
+        public static JSObject ToJS(Iskra.StdWeb.DOMPointReadOnly[] input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8344 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8443 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
 
-            for (int __i_8345 = 0; __i_8345 < input.Length; __i_8345++)
+            for (int __i_8444 = 0; __i_8444 < input.Length; __i_8444++)
             {
-                JSObject __marshalledValue_8346;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemEntry } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8344, __i_8345.ToString(), __marshalledValue_8346);
+                JSObject __marshalledValue_8445;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8443, __i_8444.ToString(), __marshalledValue_8445);
             }
 
-            return __res_8344;
+            return __res_8443;
         }
     }
 
-    public class Value_1: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.IntersectionObserverEntry[]>
-    {
-        public static Iskra.StdWeb.IntersectionObserverEntry[] ToManaged(JSObject input)
-        {
-            double __doubleLength_8348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8349 = global::System.Convert.ToInt64(__doubleLength_8348);
-
-            Iskra.StdWeb.IntersectionObserverEntry[] __res_8347 = new Iskra.StdWeb.IntersectionObserverEntry[__length_8349];
-            for (long __i_8350 = 0; __i_8350 < __length_8349; __i_8350++)
-            {
-                Iskra.StdWeb.IntersectionObserverEntry __element_8351;
-                JSObject __res_8352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8350.ToString());
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IntersectionObserverEntry } not supported.");
-                __res_8347[__i_8350] = __element_8351;
-            }
-
-            return __res_8347;
-        }
-
-        public static JSObject ToJS(Iskra.StdWeb.IntersectionObserverEntry[] input)
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8353 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
-
-            for (int __i_8354 = 0; __i_8354 < input.Length; __i_8354++)
-            {
-                JSObject __marshalledValue_8355;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IntersectionObserverEntry } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8353, __i_8354.ToString(), __marshalledValue_8355);
-            }
-
-            return __res_8353;
-        }
-    }
-
-    public class Value_2: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.MutationRecord[]>
-    {
-        public static Iskra.StdWeb.MutationRecord[] ToManaged(JSObject input)
-        {
-            double __doubleLength_8357 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8358 = global::System.Convert.ToInt64(__doubleLength_8357);
-
-            Iskra.StdWeb.MutationRecord[] __res_8356 = new Iskra.StdWeb.MutationRecord[__length_8358];
-            for (long __i_8359 = 0; __i_8359 < __length_8358; __i_8359++)
-            {
-                Iskra.StdWeb.MutationRecord __element_8360;
-                JSObject __res_8361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8359.ToString());
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MutationRecord } not supported.");
-                __res_8356[__i_8359] = __element_8360;
-            }
-
-            return __res_8356;
-        }
-
-        public static JSObject ToJS(Iskra.StdWeb.MutationRecord[] input)
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8362 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
-
-            for (int __i_8363 = 0; __i_8363 < input.Length; __i_8363++)
-            {
-                JSObject __marshalledValue_8364;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MutationRecord } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8362, __i_8363.ToString(), __marshalledValue_8364);
-            }
-
-            return __res_8362;
-        }
-    }
-
-    public class Value_3: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.Report[]>
-    {
-        public static Iskra.StdWeb.Report[] ToManaged(JSObject input)
-        {
-            double __doubleLength_8366 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8367 = global::System.Convert.ToInt64(__doubleLength_8366);
-
-            Iskra.StdWeb.Report[] __res_8365 = new Iskra.StdWeb.Report[__length_8367];
-            for (long __i_8368 = 0; __i_8368 < __length_8367; __i_8368++)
-            {
-                Iskra.StdWeb.Report __element_8369;
-                JSObject __res_8370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8368.ToString());
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Report } not supported.");
-                __res_8365[__i_8368] = __element_8369;
-            }
-
-            return __res_8365;
-        }
-
-        public static JSObject ToJS(Iskra.StdWeb.Report[] input)
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8371 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
-
-            for (int __i_8372 = 0; __i_8372 < input.Length; __i_8372++)
-            {
-                JSObject __marshalledValue_8373;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Report } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8371, __i_8372.ToString(), __marshalledValue_8373);
-            }
-
-            return __res_8371;
-        }
-    }
-
-    public class Value_4: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PressureRecord[]>
-    {
-        public static Iskra.StdWeb.PressureRecord[] ToManaged(JSObject input)
-        {
-            double __doubleLength_8375 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8376 = global::System.Convert.ToInt64(__doubleLength_8375);
-
-            Iskra.StdWeb.PressureRecord[] __res_8374 = new Iskra.StdWeb.PressureRecord[__length_8376];
-            for (long __i_8377 = 0; __i_8377 < __length_8376; __i_8377++)
-            {
-                Iskra.StdWeb.PressureRecord __element_8378;
-                JSObject __res_8379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8377.ToString());
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureRecord } not supported.");
-                __res_8374[__i_8377] = __element_8378;
-            }
-
-            return __res_8374;
-        }
-
-        public static JSObject ToJS(Iskra.StdWeb.PressureRecord[] input)
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8380 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
-
-            for (int __i_8381 = 0; __i_8381 < input.Length; __i_8381++)
-            {
-                JSObject __marshalledValue_8382;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureRecord } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8380, __i_8381.ToString(), __marshalledValue_8382);
-            }
-
-            return __res_8380;
-        }
-    }
-
-    public class Value_5: global::Iskra.JSCore.Generics.IGenericMarshaller<string[]>
+    public class Value_1: global::Iskra.JSCore.Generics.IGenericMarshaller<string[]>
     {
         public static string[] ToManaged(JSObject input)
         {
-            double __doubleLength_8384 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8385 = global::System.Convert.ToInt64(__doubleLength_8384);
+            double __doubleLength_8447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8448 = global::System.Convert.ToInt32(__doubleLength_8447);
 
-            string[] __res_8383 = new string[__length_8385];
-            for (long __i_8386 = 0; __i_8386 < __length_8385; __i_8386++)
+            string[] __res_8446 = new string[__length_8448];
+            for (int __i_8449 = 0; __i_8449 < __length_8448; __i_8449++)
             {
-                string __element_8387;
-                string __res_8388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, __i_8386.ToString());
-                __element_8387 = __res_8388;
-                __res_8383[__i_8386] = __element_8387;
+                string __element_8450;
+                string __res_8451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, __i_8449.ToString());
+                __element_8450 = __res_8451;
+                __res_8446[__i_8449] = __element_8450;
             }
 
-            return __res_8383;
+            return __res_8446;
         }
 
         public static JSObject ToJS(string[] input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8389 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8452 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
 
-            for (int __i_8390 = 0; __i_8390 < input.Length; __i_8390++)
+            for (int __i_8453 = 0; __i_8453 < input.Length; __i_8453++)
             {
-                string __marshalledValue_8391;
-                __marshalledValue_8391 = input[__i_8390];
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__res_8389, __i_8390.ToString(), __marshalledValue_8391);
+                string __marshalledValue_8454;
+                __marshalledValue_8454 = input[__i_8453];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__res_8452, __i_8453.ToString(), __marshalledValue_8454);
             }
 
-            return __res_8389;
+            return __res_8452;
         }
     }
 
-    public class Value_6: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.ResizeObserverEntry[]>
+    public class Value_2: global::Iskra.JSCore.Generics.IGenericMarshaller<JSObject[]>
+    {
+        public static JSObject[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8456 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8457 = global::System.Convert.ToInt32(__doubleLength_8456);
+
+            JSObject[] __res_8455 = new JSObject[__length_8457];
+            for (int __i_8458 = 0; __i_8458 < __length_8457; __i_8458++)
+            {
+                JSObject __element_8459;
+                JSObject __res_8460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8458.ToString());
+                __element_8459 = __res_8460;
+                __res_8455[__i_8458] = __element_8459;
+            }
+
+            return __res_8455;
+        }
+
+        public static JSObject ToJS(JSObject[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8461 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8462 = 0; __i_8462 < input.Length; __i_8462++)
+            {
+                JSObject __marshalledValue_8463;
+                __marshalledValue_8463 = input[__i_8462];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8461, __i_8462.ToString(), __marshalledValue_8463);
+            }
+
+            return __res_8461;
+        }
+    }
+
+    public class Value_3: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.ChapterInformation[]>
+    {
+        public static Iskra.StdWeb.ChapterInformation[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8465 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8466 = global::System.Convert.ToInt32(__doubleLength_8465);
+
+            Iskra.StdWeb.ChapterInformation[] __res_8464 = new Iskra.StdWeb.ChapterInformation[__length_8466];
+            for (int __i_8467 = 0; __i_8467 < __length_8466; __i_8467++)
+            {
+                Iskra.StdWeb.ChapterInformation __element_8468;
+                JSObject __res_8469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8467.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChapterInformation } not supported.");
+                __res_8464[__i_8467] = __element_8468;
+            }
+
+            return __res_8464;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.ChapterInformation[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8470 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8471 = 0; __i_8471 < input.Length; __i_8471++)
+            {
+                JSObject __marshalledValue_8472;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChapterInformation } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8470, __i_8471.ToString(), __marshalledValue_8472);
+            }
+
+            return __res_8470;
+        }
+    }
+
+    public class Value_4: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.MediaImage[]>
+    {
+        public static Iskra.StdWeb.MediaImage[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8474 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8475 = global::System.Convert.ToInt32(__doubleLength_8474);
+
+            Iskra.StdWeb.MediaImage[] __res_8473 = new Iskra.StdWeb.MediaImage[__length_8475];
+            for (int __i_8476 = 0; __i_8476 < __length_8475; __i_8476++)
+            {
+                Iskra.StdWeb.MediaImage __element_8477;
+                JSObject __res_8478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8476.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaImage } not supported.");
+                __res_8473[__i_8476] = __element_8477;
+            }
+
+            return __res_8473;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.MediaImage[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8479 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8480 = 0; __i_8480 < input.Length; __i_8480++)
+            {
+                JSObject __marshalledValue_8481;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaImage } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8479, __i_8480.ToString(), __marshalledValue_8481);
+            }
+
+            return __res_8479;
+        }
+    }
+
+    public class Value_5: global::Iskra.JSCore.Generics.IGenericMarshaller<double[]>
+    {
+        public static double[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8484 = global::System.Convert.ToInt32(__doubleLength_8483);
+
+            double[] __res_8482 = new double[__length_8484];
+            for (int __i_8485 = 0; __i_8485 < __length_8484; __i_8485++)
+            {
+                double __element_8486;
+                double __res_8487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, __i_8485.ToString());
+                __element_8486 = __res_8487;
+                __res_8482[__i_8485] = __element_8486;
+            }
+
+            return __res_8482;
+        }
+
+        public static JSObject ToJS(double[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8488 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8489 = 0; __i_8489 < input.Length; __i_8489++)
+            {
+                double __marshalledValue_8490;
+                __marshalledValue_8490 = input[__i_8489];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_8488, __i_8489.ToString(), __marshalledValue_8490);
+            }
+
+            return __res_8488;
+        }
+    }
+
+    public class Value_6: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.GPUCompilationMessage[]>
+    {
+        public static Iskra.StdWeb.GPUCompilationMessage[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8492 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8493 = global::System.Convert.ToInt32(__doubleLength_8492);
+
+            Iskra.StdWeb.GPUCompilationMessage[] __res_8491 = new Iskra.StdWeb.GPUCompilationMessage[__length_8493];
+            for (int __i_8494 = 0; __i_8494 < __length_8493; __i_8494++)
+            {
+                Iskra.StdWeb.GPUCompilationMessage __element_8495;
+                JSObject __res_8496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8494.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUCompilationMessage } not supported.");
+                __res_8491[__i_8494] = __element_8495;
+            }
+
+            return __res_8491;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.GPUCompilationMessage[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8497 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8498 = 0; __i_8498 < input.Length; __i_8498++)
+            {
+                JSObject __marshalledValue_8499;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUCompilationMessage } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8497, __i_8498.ToString(), __marshalledValue_8499);
+            }
+
+            return __res_8497;
+        }
+    }
+
+    public class Value_7: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PaymentMethodData[]>
+    {
+        public static Iskra.StdWeb.PaymentMethodData[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8501 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8502 = global::System.Convert.ToInt32(__doubleLength_8501);
+
+            Iskra.StdWeb.PaymentMethodData[] __res_8500 = new Iskra.StdWeb.PaymentMethodData[__length_8502];
+            for (int __i_8503 = 0; __i_8503 < __length_8502; __i_8503++)
+            {
+                Iskra.StdWeb.PaymentMethodData __element_8504;
+                JSObject __res_8505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8503.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentMethodData } not supported.");
+                __res_8500[__i_8503] = __element_8504;
+            }
+
+            return __res_8500;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PaymentMethodData[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8506 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8507 = 0; __i_8507 < input.Length; __i_8507++)
+            {
+                JSObject __marshalledValue_8508;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentMethodData } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8506, __i_8507.ToString(), __marshalledValue_8508);
+            }
+
+            return __res_8506;
+        }
+    }
+
+    public class Value_8: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PaymentDetailsModifier[]>
+    {
+        public static Iskra.StdWeb.PaymentDetailsModifier[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8510 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8511 = global::System.Convert.ToInt32(__doubleLength_8510);
+
+            Iskra.StdWeb.PaymentDetailsModifier[] __res_8509 = new Iskra.StdWeb.PaymentDetailsModifier[__length_8511];
+            for (int __i_8512 = 0; __i_8512 < __length_8511; __i_8512++)
+            {
+                Iskra.StdWeb.PaymentDetailsModifier __element_8513;
+                JSObject __res_8514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8512.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentDetailsModifier } not supported.");
+                __res_8509[__i_8512] = __element_8513;
+            }
+
+            return __res_8509;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PaymentDetailsModifier[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8515 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8516 = 0; __i_8516 < input.Length; __i_8516++)
+            {
+                JSObject __marshalledValue_8517;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentDetailsModifier } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8515, __i_8516.ToString(), __marshalledValue_8517);
+            }
+
+            return __res_8515;
+        }
+    }
+
+    public class Value_9: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PaymentShippingOption[]>
+    {
+        public static Iskra.StdWeb.PaymentShippingOption[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8520 = global::System.Convert.ToInt32(__doubleLength_8519);
+
+            Iskra.StdWeb.PaymentShippingOption[] __res_8518 = new Iskra.StdWeb.PaymentShippingOption[__length_8520];
+            for (int __i_8521 = 0; __i_8521 < __length_8520; __i_8521++)
+            {
+                Iskra.StdWeb.PaymentShippingOption __element_8522;
+                JSObject __res_8523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8521.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentShippingOption } not supported.");
+                __res_8518[__i_8521] = __element_8522;
+            }
+
+            return __res_8518;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PaymentShippingOption[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8524 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8525 = 0; __i_8525 < input.Length; __i_8525++)
+            {
+                JSObject __marshalledValue_8526;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentShippingOption } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8524, __i_8525.ToString(), __marshalledValue_8526);
+            }
+
+            return __res_8524;
+        }
+    }
+
+    public class Value_10: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.FileSystemEntry[]>
+    {
+        public static Iskra.StdWeb.FileSystemEntry[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8528 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8529 = global::System.Convert.ToInt32(__doubleLength_8528);
+
+            Iskra.StdWeb.FileSystemEntry[] __res_8527 = new Iskra.StdWeb.FileSystemEntry[__length_8529];
+            for (int __i_8530 = 0; __i_8530 < __length_8529; __i_8530++)
+            {
+                Iskra.StdWeb.FileSystemEntry __element_8531;
+                JSObject __res_8532 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8530.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemEntry } not supported.");
+                __res_8527[__i_8530] = __element_8531;
+            }
+
+            return __res_8527;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.FileSystemEntry[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8533 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8534 = 0; __i_8534 < input.Length; __i_8534++)
+            {
+                JSObject __marshalledValue_8535;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemEntry } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8533, __i_8534.ToString(), __marshalledValue_8535);
+            }
+
+            return __res_8533;
+        }
+    }
+
+    public class Value_11: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.HIDCollectionInfo[]>
+    {
+        public static Iskra.StdWeb.HIDCollectionInfo[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8537 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8538 = global::System.Convert.ToInt32(__doubleLength_8537);
+
+            Iskra.StdWeb.HIDCollectionInfo[] __res_8536 = new Iskra.StdWeb.HIDCollectionInfo[__length_8538];
+            for (int __i_8539 = 0; __i_8539 < __length_8538; __i_8539++)
+            {
+                Iskra.StdWeb.HIDCollectionInfo __element_8540;
+                JSObject __res_8541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8539.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDCollectionInfo } not supported.");
+                __res_8536[__i_8539] = __element_8540;
+            }
+
+            return __res_8536;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.HIDCollectionInfo[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8542 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8543 = 0; __i_8543 < input.Length; __i_8543++)
+            {
+                JSObject __marshalledValue_8544;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDCollectionInfo } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8542, __i_8543.ToString(), __marshalledValue_8544);
+            }
+
+            return __res_8542;
+        }
+    }
+
+    public class Value_12: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.CookieListItem[]>
+    {
+        public static Iskra.StdWeb.CookieListItem[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8546 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8547 = global::System.Convert.ToInt32(__doubleLength_8546);
+
+            Iskra.StdWeb.CookieListItem[] __res_8545 = new Iskra.StdWeb.CookieListItem[__length_8547];
+            for (int __i_8548 = 0; __i_8548 < __length_8547; __i_8548++)
+            {
+                Iskra.StdWeb.CookieListItem __element_8549;
+                JSObject __res_8550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8548.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CookieListItem } not supported.");
+                __res_8545[__i_8548] = __element_8549;
+            }
+
+            return __res_8545;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.CookieListItem[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8551 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8552 = 0; __i_8552 < input.Length; __i_8552++)
+            {
+                JSObject __marshalledValue_8553;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CookieListItem } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8551, __i_8552.ToString(), __marshalledValue_8553);
+            }
+
+            return __res_8551;
+        }
+    }
+
+    public class Value_13: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.JSCore.Float32Array[]>
+    {
+        public static Iskra.JSCore.Float32Array[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8555 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8556 = global::System.Convert.ToInt32(__doubleLength_8555);
+
+            Iskra.JSCore.Float32Array[] __res_8554 = new Iskra.JSCore.Float32Array[__length_8556];
+            for (int __i_8557 = 0; __i_8557 < __length_8556; __i_8557++)
+            {
+                Iskra.JSCore.Float32Array __element_8558;
+                JSObject __res_8559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8557.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_8554[__i_8557] = __element_8558;
+            }
+
+            return __res_8554;
+        }
+
+        public static JSObject ToJS(Iskra.JSCore.Float32Array[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8560 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8561 = 0; __i_8561 < input.Length; __i_8561++)
+            {
+                JSObject __marshalledValue_8562;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8560, __i_8561.ToString(), __marshalledValue_8562);
+            }
+
+            return __res_8560;
+        }
+    }
+
+    public class Value_14: global::Iskra.JSCore.Generics.IGenericMarshaller<string[]>
+    {
+        public static string[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8564 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8565 = global::System.Convert.ToInt32(__doubleLength_8564);
+
+            string[] __res_8563 = new string[__length_8565];
+            for (int __i_8566 = 0; __i_8566 < __length_8565; __i_8566++)
+            {
+                string __element_8567;
+                string __res_8568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, __i_8566.ToString());
+                __element_8567 = __res_8568;
+                __res_8563[__i_8566] = __element_8567;
+            }
+
+            return __res_8563;
+        }
+
+        public static JSObject ToJS(string[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8569 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8570 = 0; __i_8570 < input.Length; __i_8570++)
+            {
+                string __marshalledValue_8571;
+                __marshalledValue_8571 = input[__i_8570];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__res_8569, __i_8570.ToString(), __marshalledValue_8571);
+            }
+
+            return __res_8569;
+        }
+    }
+
+    public class Value_15: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.MediaStream[]>
+    {
+        public static Iskra.StdWeb.MediaStream[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8574 = global::System.Convert.ToInt32(__doubleLength_8573);
+
+            Iskra.StdWeb.MediaStream[] __res_8572 = new Iskra.StdWeb.MediaStream[__length_8574];
+            for (int __i_8575 = 0; __i_8575 < __length_8574; __i_8575++)
+            {
+                Iskra.StdWeb.MediaStream __element_8576;
+                JSObject __res_8577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8575.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStream } not supported.");
+                __res_8572[__i_8575] = __element_8576;
+            }
+
+            return __res_8572;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.MediaStream[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8578 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8579 = 0; __i_8579 < input.Length; __i_8579++)
+            {
+                JSObject __marshalledValue_8580;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStream } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8578, __i_8579.ToString(), __marshalledValue_8580);
+            }
+
+            return __res_8578;
+        }
+    }
+
+    public class Value_16: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.FontFace[]>
+    {
+        public static Iskra.StdWeb.FontFace[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8583 = global::System.Convert.ToInt32(__doubleLength_8582);
+
+            Iskra.StdWeb.FontFace[] __res_8581 = new Iskra.StdWeb.FontFace[__length_8583];
+            for (int __i_8584 = 0; __i_8584 < __length_8583; __i_8584++)
+            {
+                Iskra.StdWeb.FontFace __element_8585;
+                JSObject __res_8586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8584.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FontFace } not supported.");
+                __res_8581[__i_8584] = __element_8585;
+            }
+
+            return __res_8581;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.FontFace[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8587 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8588 = 0; __i_8588 < input.Length; __i_8588++)
+            {
+                JSObject __marshalledValue_8589;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FontFace } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8587, __i_8588.ToString(), __marshalledValue_8589);
+            }
+
+            return __res_8587;
+        }
+    }
+
+    public class Value_17: global::Iskra.JSCore.Generics.IGenericMarshaller<float[]>
+    {
+        public static float[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8592 = global::System.Convert.ToInt32(__doubleLength_8591);
+
+            float[] __res_8590 = new float[__length_8592];
+            for (int __i_8593 = 0; __i_8593 < __length_8592; __i_8593++)
+            {
+                float __element_8594;
+                double __res_8595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, __i_8593.ToString());
+                __element_8594 = Convert.ToSingle(__res_8595);
+                __res_8590[__i_8593] = __element_8594;
+            }
+
+            return __res_8590;
+        }
+
+        public static JSObject ToJS(float[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8596 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8597 = 0; __i_8597 < input.Length; __i_8597++)
+            {
+                double __marshalledValue_8598;
+                __marshalledValue_8598 = Convert.ToDouble(input[__i_8597]);
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_8596, __i_8597.ToString(), __marshalledValue_8598);
+            }
+
+            return __res_8596;
+        }
+    }
+
+    public class Value_18: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PresentationConnection[]>
+    {
+        public static Iskra.StdWeb.PresentationConnection[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8600 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8601 = global::System.Convert.ToInt32(__doubleLength_8600);
+
+            Iskra.StdWeb.PresentationConnection[] __res_8599 = new Iskra.StdWeb.PresentationConnection[__length_8601];
+            for (int __i_8602 = 0; __i_8602 < __length_8601; __i_8602++)
+            {
+                Iskra.StdWeb.PresentationConnection __element_8603;
+                JSObject __res_8604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8602.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnection } not supported.");
+                __res_8599[__i_8602] = __element_8603;
+            }
+
+            return __res_8599;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PresentationConnection[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8605 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8606 = 0; __i_8606 < input.Length; __i_8606++)
+            {
+                JSObject __marshalledValue_8607;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnection } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8605, __i_8606.ToString(), __marshalledValue_8607);
+            }
+
+            return __res_8605;
+        }
+    }
+
+    public class Value_19: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.IntersectionObserverEntry[]>
+    {
+        public static Iskra.StdWeb.IntersectionObserverEntry[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8609 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8610 = global::System.Convert.ToInt32(__doubleLength_8609);
+
+            Iskra.StdWeb.IntersectionObserverEntry[] __res_8608 = new Iskra.StdWeb.IntersectionObserverEntry[__length_8610];
+            for (int __i_8611 = 0; __i_8611 < __length_8610; __i_8611++)
+            {
+                Iskra.StdWeb.IntersectionObserverEntry __element_8612;
+                JSObject __res_8613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8611.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IntersectionObserverEntry } not supported.");
+                __res_8608[__i_8611] = __element_8612;
+            }
+
+            return __res_8608;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.IntersectionObserverEntry[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8614 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8615 = 0; __i_8615 < input.Length; __i_8615++)
+            {
+                JSObject __marshalledValue_8616;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IntersectionObserverEntry } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8614, __i_8615.ToString(), __marshalledValue_8616);
+            }
+
+            return __res_8614;
+        }
+    }
+
+    public class Value_20: global::Iskra.JSCore.Generics.IGenericMarshaller<double[]>
+    {
+        public static double[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8618 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8619 = global::System.Convert.ToInt32(__doubleLength_8618);
+
+            double[] __res_8617 = new double[__length_8619];
+            for (int __i_8620 = 0; __i_8620 < __length_8619; __i_8620++)
+            {
+                double __element_8621;
+                double __res_8622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, __i_8620.ToString());
+                __element_8621 = __res_8622;
+                __res_8617[__i_8620] = __element_8621;
+            }
+
+            return __res_8617;
+        }
+
+        public static JSObject ToJS(double[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8623 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8624 = 0; __i_8624 < input.Length; __i_8624++)
+            {
+                double __marshalledValue_8625;
+                __marshalledValue_8625 = input[__i_8624];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_8623, __i_8624.ToString(), __marshalledValue_8625);
+            }
+
+            return __res_8623;
+        }
+    }
+
+    public class Value_21: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.NavigatorUABrandVersion[]>
+    {
+        public static Iskra.StdWeb.NavigatorUABrandVersion[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8627 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8628 = global::System.Convert.ToInt32(__doubleLength_8627);
+
+            Iskra.StdWeb.NavigatorUABrandVersion[] __res_8626 = new Iskra.StdWeb.NavigatorUABrandVersion[__length_8628];
+            for (int __i_8629 = 0; __i_8629 < __length_8628; __i_8629++)
+            {
+                Iskra.StdWeb.NavigatorUABrandVersion __element_8630;
+                JSObject __res_8631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8629.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigatorUABrandVersion } not supported.");
+                __res_8626[__i_8629] = __element_8630;
+            }
+
+            return __res_8626;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.NavigatorUABrandVersion[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8632 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8633 = 0; __i_8633 < input.Length; __i_8633++)
+            {
+                JSObject __marshalledValue_8634;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigatorUABrandVersion } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8632, __i_8633.ToString(), __marshalledValue_8634);
+            }
+
+            return __res_8632;
+        }
+    }
+
+    public class Value_22: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.BluetoothDevice[]>
+    {
+        public static Iskra.StdWeb.BluetoothDevice[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8636 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8637 = global::System.Convert.ToInt32(__doubleLength_8636);
+
+            Iskra.StdWeb.BluetoothDevice[] __res_8635 = new Iskra.StdWeb.BluetoothDevice[__length_8637];
+            for (int __i_8638 = 0; __i_8638 < __length_8637; __i_8638++)
+            {
+                Iskra.StdWeb.BluetoothDevice __element_8639;
+                JSObject __res_8640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8638.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } not supported.");
+                __res_8635[__i_8638] = __element_8639;
+            }
+
+            return __res_8635;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.BluetoothDevice[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8641 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8642 = 0; __i_8642 < input.Length; __i_8642++)
+            {
+                JSObject __marshalledValue_8643;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8641, __i_8642.ToString(), __marshalledValue_8643);
+            }
+
+            return __res_8641;
+        }
+    }
+
+    public class Value_23: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.ScreenDetailed[]>
+    {
+        public static Iskra.StdWeb.ScreenDetailed[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8646 = global::System.Convert.ToInt32(__doubleLength_8645);
+
+            Iskra.StdWeb.ScreenDetailed[] __res_8644 = new Iskra.StdWeb.ScreenDetailed[__length_8646];
+            for (int __i_8647 = 0; __i_8647 < __length_8646; __i_8647++)
+            {
+                Iskra.StdWeb.ScreenDetailed __element_8648;
+                JSObject __res_8649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8647.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScreenDetailed } not supported.");
+                __res_8644[__i_8647] = __element_8648;
+            }
+
+            return __res_8644;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.ScreenDetailed[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8650 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8651 = 0; __i_8651 < input.Length; __i_8651++)
+            {
+                JSObject __marshalledValue_8652;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScreenDetailed } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8650, __i_8651.ToString(), __marshalledValue_8652);
+            }
+
+            return __res_8650;
+        }
+    }
+
+    public class Value_24: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.LayoutShiftAttribution[]>
+    {
+        public static Iskra.StdWeb.LayoutShiftAttribution[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8654 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8655 = global::System.Convert.ToInt32(__doubleLength_8654);
+
+            Iskra.StdWeb.LayoutShiftAttribution[] __res_8653 = new Iskra.StdWeb.LayoutShiftAttribution[__length_8655];
+            for (int __i_8656 = 0; __i_8656 < __length_8655; __i_8656++)
+            {
+                Iskra.StdWeb.LayoutShiftAttribution __element_8657;
+                JSObject __res_8658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8656.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LayoutShiftAttribution } not supported.");
+                __res_8653[__i_8656] = __element_8657;
+            }
+
+            return __res_8653;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.LayoutShiftAttribution[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8659 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8660 = 0; __i_8660 < input.Length; __i_8660++)
+            {
+                JSObject __marshalledValue_8661;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LayoutShiftAttribution } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8659, __i_8660.ToString(), __marshalledValue_8661);
+            }
+
+            return __res_8659;
+        }
+    }
+
+    public class Value_25: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.MutationRecord[]>
+    {
+        public static Iskra.StdWeb.MutationRecord[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8664 = global::System.Convert.ToInt32(__doubleLength_8663);
+
+            Iskra.StdWeb.MutationRecord[] __res_8662 = new Iskra.StdWeb.MutationRecord[__length_8664];
+            for (int __i_8665 = 0; __i_8665 < __length_8664; __i_8665++)
+            {
+                Iskra.StdWeb.MutationRecord __element_8666;
+                JSObject __res_8667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8665.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MutationRecord } not supported.");
+                __res_8662[__i_8665] = __element_8666;
+            }
+
+            return __res_8662;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.MutationRecord[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8668 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8669 = 0; __i_8669 < input.Length; __i_8669++)
+            {
+                JSObject __marshalledValue_8670;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MutationRecord } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8668, __i_8669.ToString(), __marshalledValue_8670);
+            }
+
+            return __res_8668;
+        }
+    }
+
+    public class Value_26: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.Report[]>
+    {
+        public static Iskra.StdWeb.Report[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8673 = global::System.Convert.ToInt32(__doubleLength_8672);
+
+            Iskra.StdWeb.Report[] __res_8671 = new Iskra.StdWeb.Report[__length_8673];
+            for (int __i_8674 = 0; __i_8674 < __length_8673; __i_8674++)
+            {
+                Iskra.StdWeb.Report __element_8675;
+                JSObject __res_8676 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8674.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Report } not supported.");
+                __res_8671[__i_8674] = __element_8675;
+            }
+
+            return __res_8671;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.Report[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8677 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8678 = 0; __i_8678 < input.Length; __i_8678++)
+            {
+                JSObject __marshalledValue_8679;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Report } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8677, __i_8678.ToString(), __marshalledValue_8679);
+            }
+
+            return __res_8677;
+        }
+    }
+
+    public class Value_27: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PressureRecord[]>
+    {
+        public static Iskra.StdWeb.PressureRecord[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8681 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8682 = global::System.Convert.ToInt32(__doubleLength_8681);
+
+            Iskra.StdWeb.PressureRecord[] __res_8680 = new Iskra.StdWeb.PressureRecord[__length_8682];
+            for (int __i_8683 = 0; __i_8683 < __length_8682; __i_8683++)
+            {
+                Iskra.StdWeb.PressureRecord __element_8684;
+                JSObject __res_8685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8683.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureRecord } not supported.");
+                __res_8680[__i_8683] = __element_8684;
+            }
+
+            return __res_8680;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PressureRecord[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8686 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8687 = 0; __i_8687 < input.Length; __i_8687++)
+            {
+                JSObject __marshalledValue_8688;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureRecord } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8686, __i_8687.ToString(), __marshalledValue_8688);
+            }
+
+            return __res_8686;
+        }
+    }
+
+    public class Value_28: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PressureSource[]>
+    {
+        public static Iskra.StdWeb.PressureSource[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8690 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8691 = global::System.Convert.ToInt32(__doubleLength_8690);
+
+            Iskra.StdWeb.PressureSource[] __res_8689 = new Iskra.StdWeb.PressureSource[__length_8691];
+            for (int __i_8692 = 0; __i_8692 < __length_8691; __i_8692++)
+            {
+                Iskra.StdWeb.PressureSource __element_8693;
+                JSObject __res_8694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8692.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } not supported.");
+                __res_8689[__i_8692] = __element_8693;
+            }
+
+            return __res_8689;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PressureSource[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8695 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8696 = 0; __i_8696 < input.Length; __i_8696++)
+            {
+                JSObject __marshalledValue_8697;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8695, __i_8696.ToString(), __marshalledValue_8697);
+            }
+
+            return __res_8695;
+        }
+    }
+
+    public class Value_29: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.MediaDeviceInfo[]>
+    {
+        public static Iskra.StdWeb.MediaDeviceInfo[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8700 = global::System.Convert.ToInt32(__doubleLength_8699);
+
+            Iskra.StdWeb.MediaDeviceInfo[] __res_8698 = new Iskra.StdWeb.MediaDeviceInfo[__length_8700];
+            for (int __i_8701 = 0; __i_8701 < __length_8700; __i_8701++)
+            {
+                Iskra.StdWeb.MediaDeviceInfo __element_8702;
+                JSObject __res_8703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8701.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaDeviceInfo } not supported.");
+                __res_8698[__i_8701] = __element_8702;
+            }
+
+            return __res_8698;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.MediaDeviceInfo[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8704 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8705 = 0; __i_8705 < input.Length; __i_8705++)
+            {
+                JSObject __marshalledValue_8706;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaDeviceInfo } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8704, __i_8705.ToString(), __marshalledValue_8706);
+            }
+
+            return __res_8704;
+        }
+    }
+
+    public class Value_30: global::Iskra.JSCore.Generics.IGenericMarshaller<string[]>
+    {
+        public static string[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8708 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8709 = global::System.Convert.ToInt32(__doubleLength_8708);
+
+            string[] __res_8707 = new string[__length_8709];
+            for (int __i_8710 = 0; __i_8710 < __length_8709; __i_8710++)
+            {
+                string __element_8711;
+                string __res_8712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, __i_8710.ToString());
+                __element_8711 = __res_8712;
+                __res_8707[__i_8710] = __element_8711;
+            }
+
+            return __res_8707;
+        }
+
+        public static JSObject ToJS(string[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8713 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8714 = 0; __i_8714 < input.Length; __i_8714++)
+            {
+                string __marshalledValue_8715;
+                __marshalledValue_8715 = input[__i_8714];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__res_8713, __i_8714.ToString(), __marshalledValue_8715);
+            }
+
+            return __res_8713;
+        }
+    }
+
+    public class Value_31: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.XRView[]>
+    {
+        public static Iskra.StdWeb.XRView[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8718 = global::System.Convert.ToInt32(__doubleLength_8717);
+
+            Iskra.StdWeb.XRView[] __res_8716 = new Iskra.StdWeb.XRView[__length_8718];
+            for (int __i_8719 = 0; __i_8719 < __length_8718; __i_8719++)
+            {
+                Iskra.StdWeb.XRView __element_8720;
+                JSObject __res_8721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8719.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRView } not supported.");
+                __res_8716[__i_8719] = __element_8720;
+            }
+
+            return __res_8716;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.XRView[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8722 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8723 = 0; __i_8723 < input.Length; __i_8723++)
+            {
+                JSObject __marshalledValue_8724;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRView } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8722, __i_8723.ToString(), __marshalledValue_8724);
+            }
+
+            return __res_8722;
+        }
+    }
+
+    public class Value_32: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.XRInputSource[]>
+    {
+        public static Iskra.StdWeb.XRInputSource[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8726 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8727 = global::System.Convert.ToInt32(__doubleLength_8726);
+
+            Iskra.StdWeb.XRInputSource[] __res_8725 = new Iskra.StdWeb.XRInputSource[__length_8727];
+            for (int __i_8728 = 0; __i_8728 < __length_8727; __i_8728++)
+            {
+                Iskra.StdWeb.XRInputSource __element_8729;
+                JSObject __res_8730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8728.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } not supported.");
+                __res_8725[__i_8728] = __element_8729;
+            }
+
+            return __res_8725;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.XRInputSource[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8731 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8732 = 0; __i_8732 < input.Length; __i_8732++)
+            {
+                JSObject __marshalledValue_8733;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8731, __i_8732.ToString(), __marshalledValue_8733);
+            }
+
+            return __res_8731;
+        }
+    }
+
+    public class Value_33: global::Iskra.JSCore.Generics.IGenericMarshaller<uint[]>
+    {
+        public static uint[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8736 = global::System.Convert.ToInt32(__doubleLength_8735);
+
+            uint[] __res_8734 = new uint[__length_8736];
+            for (int __i_8737 = 0; __i_8737 < __length_8736; __i_8737++)
+            {
+                uint __element_8738;
+                double __res_8739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, __i_8737.ToString());
+                __element_8738 = Convert.ToUInt32(__res_8739);
+                __res_8734[__i_8737] = __element_8738;
+            }
+
+            return __res_8734;
+        }
+
+        public static JSObject ToJS(uint[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8740 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8741 = 0; __i_8741 < input.Length; __i_8741++)
+            {
+                double __marshalledValue_8742;
+                __marshalledValue_8742 = Convert.ToDouble(input[__i_8741]);
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_8740, __i_8741.ToString(), __marshalledValue_8742);
+            }
+
+            return __res_8740;
+        }
+    }
+
+    public class Value_34: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.NotificationAction[]>
+    {
+        public static Iskra.StdWeb.NotificationAction[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8744 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8745 = global::System.Convert.ToInt32(__doubleLength_8744);
+
+            Iskra.StdWeb.NotificationAction[] __res_8743 = new Iskra.StdWeb.NotificationAction[__length_8745];
+            for (int __i_8746 = 0; __i_8746 < __length_8745; __i_8746++)
+            {
+                Iskra.StdWeb.NotificationAction __element_8747;
+                JSObject __res_8748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8746.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotificationAction } not supported.");
+                __res_8743[__i_8746] = __element_8747;
+            }
+
+            return __res_8743;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.NotificationAction[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8749 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8750 = 0; __i_8750 < input.Length; __i_8750++)
+            {
+                JSObject __marshalledValue_8751;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotificationAction } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8749, __i_8750.ToString(), __marshalledValue_8751);
+            }
+
+            return __res_8749;
+        }
+    }
+
+    public class Value_35: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.MessagePort[]>
+    {
+        public static Iskra.StdWeb.MessagePort[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8754 = global::System.Convert.ToInt32(__doubleLength_8753);
+
+            Iskra.StdWeb.MessagePort[] __res_8752 = new Iskra.StdWeb.MessagePort[__length_8754];
+            for (int __i_8755 = 0; __i_8755 < __length_8754; __i_8755++)
+            {
+                Iskra.StdWeb.MessagePort __element_8756;
+                JSObject __res_8757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8755.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
+                __res_8752[__i_8755] = __element_8756;
+            }
+
+            return __res_8752;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.MessagePort[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8758 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8759 = 0; __i_8759 < input.Length; __i_8759++)
+            {
+                JSObject __marshalledValue_8760;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8758, __i_8759.ToString(), __marshalledValue_8760);
+            }
+
+            return __res_8758;
+        }
+    }
+
+    public class Value_36: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.NDEFRecord[]>
+    {
+        public static Iskra.StdWeb.NDEFRecord[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8762 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8763 = global::System.Convert.ToInt32(__doubleLength_8762);
+
+            Iskra.StdWeb.NDEFRecord[] __res_8761 = new Iskra.StdWeb.NDEFRecord[__length_8763];
+            for (int __i_8764 = 0; __i_8764 < __length_8763; __i_8764++)
+            {
+                Iskra.StdWeb.NDEFRecord __element_8765;
+                JSObject __res_8766 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8764.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NDEFRecord } not supported.");
+                __res_8761[__i_8764] = __element_8765;
+            }
+
+            return __res_8761;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.NDEFRecord[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8767 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8768 = 0; __i_8768 < input.Length; __i_8768++)
+            {
+                JSObject __marshalledValue_8769;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NDEFRecord } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8767, __i_8768.ToString(), __marshalledValue_8769);
+            }
+
+            return __res_8767;
+        }
+    }
+
+    public class Value_37: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.FileSystemHandle[]>
+    {
+        public static Iskra.StdWeb.FileSystemHandle[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8771 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8772 = global::System.Convert.ToInt32(__doubleLength_8771);
+
+            Iskra.StdWeb.FileSystemHandle[] __res_8770 = new Iskra.StdWeb.FileSystemHandle[__length_8772];
+            for (int __i_8773 = 0; __i_8773 < __length_8772; __i_8773++)
+            {
+                Iskra.StdWeb.FileSystemHandle __element_8774;
+                JSObject __res_8775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8773.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemHandle } not supported.");
+                __res_8770[__i_8773] = __element_8774;
+            }
+
+            return __res_8770;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.FileSystemHandle[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8776 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8777 = 0; __i_8777 < input.Length; __i_8777++)
+            {
+                JSObject __marshalledValue_8778;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemHandle } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8776, __i_8777.ToString(), __marshalledValue_8778);
+            }
+
+            return __res_8776;
+        }
+    }
+
+    public class Value_38: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.ResizeObserverEntry[]>
     {
         public static Iskra.StdWeb.ResizeObserverEntry[] ToManaged(JSObject input)
         {
-            double __doubleLength_8393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_8394 = global::System.Convert.ToInt64(__doubleLength_8393);
+            double __doubleLength_8780 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8781 = global::System.Convert.ToInt32(__doubleLength_8780);
 
-            Iskra.StdWeb.ResizeObserverEntry[] __res_8392 = new Iskra.StdWeb.ResizeObserverEntry[__length_8394];
-            for (long __i_8395 = 0; __i_8395 < __length_8394; __i_8395++)
+            Iskra.StdWeb.ResizeObserverEntry[] __res_8779 = new Iskra.StdWeb.ResizeObserverEntry[__length_8781];
+            for (int __i_8782 = 0; __i_8782 < __length_8781; __i_8782++)
             {
-                Iskra.StdWeb.ResizeObserverEntry __element_8396;
-                JSObject __res_8397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8395.ToString());
+                Iskra.StdWeb.ResizeObserverEntry __element_8783;
+                JSObject __res_8784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8782.ToString());
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ResizeObserverEntry } not supported.");
-                __res_8392[__i_8395] = __element_8396;
+                __res_8779[__i_8782] = __element_8783;
             }
 
-            return __res_8392;
+            return __res_8779;
         }
 
         public static JSObject ToJS(Iskra.StdWeb.ResizeObserverEntry[] input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8398 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8785 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
 
-            for (int __i_8399 = 0; __i_8399 < input.Length; __i_8399++)
+            for (int __i_8786 = 0; __i_8786 < input.Length; __i_8786++)
             {
-                JSObject __marshalledValue_8400;
+                JSObject __marshalledValue_8787;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ResizeObserverEntry } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8398, __i_8399.ToString(), __marshalledValue_8400);
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8785, __i_8786.ToString(), __marshalledValue_8787);
             }
 
-            return __res_8398;
+            return __res_8785;
+        }
+    }
+
+    public class Value_39: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.ResizeObserverSize[]>
+    {
+        public static Iskra.StdWeb.ResizeObserverSize[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8789 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8790 = global::System.Convert.ToInt32(__doubleLength_8789);
+
+            Iskra.StdWeb.ResizeObserverSize[] __res_8788 = new Iskra.StdWeb.ResizeObserverSize[__length_8790];
+            for (int __i_8791 = 0; __i_8791 < __length_8790; __i_8791++)
+            {
+                Iskra.StdWeb.ResizeObserverSize __element_8792;
+                JSObject __res_8793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8791.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ResizeObserverSize } not supported.");
+                __res_8788[__i_8791] = __element_8792;
+            }
+
+            return __res_8788;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.ResizeObserverSize[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8794 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8795 = 0; __i_8795 < input.Length; __i_8795++)
+            {
+                JSObject __marshalledValue_8796;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ResizeObserverSize } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8794, __i_8795.ToString(), __marshalledValue_8796);
+            }
+
+            return __res_8794;
+        }
+    }
+
+    public class Value_40: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.BluetoothLEScanFilter[]>
+    {
+        public static Iskra.StdWeb.BluetoothLEScanFilter[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8798 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8799 = global::System.Convert.ToInt32(__doubleLength_8798);
+
+            Iskra.StdWeb.BluetoothLEScanFilter[] __res_8797 = new Iskra.StdWeb.BluetoothLEScanFilter[__length_8799];
+            for (int __i_8800 = 0; __i_8800 < __length_8799; __i_8800++)
+            {
+                Iskra.StdWeb.BluetoothLEScanFilter __element_8801;
+                JSObject __res_8802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8800.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothLEScanFilter } not supported.");
+                __res_8797[__i_8800] = __element_8801;
+            }
+
+            return __res_8797;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.BluetoothLEScanFilter[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8803 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8804 = 0; __i_8804 < input.Length; __i_8804++)
+            {
+                JSObject __marshalledValue_8805;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothLEScanFilter } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8803, __i_8804.ToString(), __marshalledValue_8805);
+            }
+
+            return __res_8803;
+        }
+    }
+
+    public class Value_41: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.BluetoothLEScan[]>
+    {
+        public static Iskra.StdWeb.BluetoothLEScan[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8808 = global::System.Convert.ToInt32(__doubleLength_8807);
+
+            Iskra.StdWeb.BluetoothLEScan[] __res_8806 = new Iskra.StdWeb.BluetoothLEScan[__length_8808];
+            for (int __i_8809 = 0; __i_8809 < __length_8808; __i_8809++)
+            {
+                Iskra.StdWeb.BluetoothLEScan __element_8810;
+                JSObject __res_8811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8809.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothLEScan } not supported.");
+                __res_8806[__i_8809] = __element_8810;
+            }
+
+            return __res_8806;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.BluetoothLEScan[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8812 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8813 = 0; __i_8813 < input.Length; __i_8813++)
+            {
+                JSObject __marshalledValue_8814;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothLEScan } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8812, __i_8813.ToString(), __marshalledValue_8814);
+            }
+
+            return __res_8812;
+        }
+    }
+
+    public class Value_42: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.GamepadButton[]>
+    {
+        public static Iskra.StdWeb.GamepadButton[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8816 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8817 = global::System.Convert.ToInt32(__doubleLength_8816);
+
+            Iskra.StdWeb.GamepadButton[] __res_8815 = new Iskra.StdWeb.GamepadButton[__length_8817];
+            for (int __i_8818 = 0; __i_8818 < __length_8817; __i_8818++)
+            {
+                Iskra.StdWeb.GamepadButton __element_8819;
+                JSObject __res_8820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8818.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadButton } not supported.");
+                __res_8815[__i_8818] = __element_8819;
+            }
+
+            return __res_8815;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.GamepadButton[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8821 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8822 = 0; __i_8822 < input.Length; __i_8822++)
+            {
+                JSObject __marshalledValue_8823;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadButton } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8821, __i_8822.ToString(), __marshalledValue_8823);
+            }
+
+            return __res_8821;
+        }
+    }
+
+    public class Value_43: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.GamepadTouch[]>
+    {
+        public static Iskra.StdWeb.GamepadTouch[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8826 = global::System.Convert.ToInt32(__doubleLength_8825);
+
+            Iskra.StdWeb.GamepadTouch[] __res_8824 = new Iskra.StdWeb.GamepadTouch[__length_8826];
+            for (int __i_8827 = 0; __i_8827 < __length_8826; __i_8827++)
+            {
+                Iskra.StdWeb.GamepadTouch __element_8828;
+                JSObject __res_8829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8827.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadTouch } not supported.");
+                __res_8824[__i_8827] = __element_8828;
+            }
+
+            return __res_8824;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.GamepadTouch[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8830 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8831 = 0; __i_8831 < input.Length; __i_8831++)
+            {
+                JSObject __marshalledValue_8832;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadTouch } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8830, __i_8831.ToString(), __marshalledValue_8832);
+            }
+
+            return __res_8830;
+        }
+    }
+
+    public class Value_44: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.GamepadHapticEffectType[]>
+    {
+        public static Iskra.StdWeb.GamepadHapticEffectType[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8835 = global::System.Convert.ToInt32(__doubleLength_8834);
+
+            Iskra.StdWeb.GamepadHapticEffectType[] __res_8833 = new Iskra.StdWeb.GamepadHapticEffectType[__length_8835];
+            for (int __i_8836 = 0; __i_8836 < __length_8835; __i_8836++)
+            {
+                Iskra.StdWeb.GamepadHapticEffectType __element_8837;
+                JSObject __res_8838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8836.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadHapticEffectType } not supported.");
+                __res_8833[__i_8836] = __element_8837;
+            }
+
+            return __res_8833;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.GamepadHapticEffectType[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8839 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8840 = 0; __i_8840 < input.Length; __i_8840++)
+            {
+                JSObject __marshalledValue_8841;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadHapticEffectType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8839, __i_8840.ToString(), __marshalledValue_8841);
+            }
+
+            return __res_8839;
+        }
+    }
+
+    public class Value_45: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBIsochronousInTransferPacket[]>
+    {
+        public static Iskra.StdWeb.USBIsochronousInTransferPacket[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8844 = global::System.Convert.ToInt32(__doubleLength_8843);
+
+            Iskra.StdWeb.USBIsochronousInTransferPacket[] __res_8842 = new Iskra.StdWeb.USBIsochronousInTransferPacket[__length_8844];
+            for (int __i_8845 = 0; __i_8845 < __length_8844; __i_8845++)
+            {
+                Iskra.StdWeb.USBIsochronousInTransferPacket __element_8846;
+                JSObject __res_8847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8845.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBIsochronousInTransferPacket } not supported.");
+                __res_8842[__i_8845] = __element_8846;
+            }
+
+            return __res_8842;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBIsochronousInTransferPacket[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8848 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8849 = 0; __i_8849 < input.Length; __i_8849++)
+            {
+                JSObject __marshalledValue_8850;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBIsochronousInTransferPacket } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8848, __i_8849.ToString(), __marshalledValue_8850);
+            }
+
+            return __res_8848;
+        }
+    }
+
+    public class Value_46: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBIsochronousOutTransferPacket[]>
+    {
+        public static Iskra.StdWeb.USBIsochronousOutTransferPacket[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8853 = global::System.Convert.ToInt32(__doubleLength_8852);
+
+            Iskra.StdWeb.USBIsochronousOutTransferPacket[] __res_8851 = new Iskra.StdWeb.USBIsochronousOutTransferPacket[__length_8853];
+            for (int __i_8854 = 0; __i_8854 < __length_8853; __i_8854++)
+            {
+                Iskra.StdWeb.USBIsochronousOutTransferPacket __element_8855;
+                JSObject __res_8856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8854.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBIsochronousOutTransferPacket } not supported.");
+                __res_8851[__i_8854] = __element_8855;
+            }
+
+            return __res_8851;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBIsochronousOutTransferPacket[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8857 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8858 = 0; __i_8858 < input.Length; __i_8858++)
+            {
+                JSObject __marshalledValue_8859;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBIsochronousOutTransferPacket } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8857, __i_8858.ToString(), __marshalledValue_8859);
+            }
+
+            return __res_8857;
+        }
+    }
+
+    public class Value_47: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBConfiguration[]>
+    {
+        public static Iskra.StdWeb.USBConfiguration[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8861 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8862 = global::System.Convert.ToInt32(__doubleLength_8861);
+
+            Iskra.StdWeb.USBConfiguration[] __res_8860 = new Iskra.StdWeb.USBConfiguration[__length_8862];
+            for (int __i_8863 = 0; __i_8863 < __length_8862; __i_8863++)
+            {
+                Iskra.StdWeb.USBConfiguration __element_8864;
+                JSObject __res_8865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8863.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBConfiguration } not supported.");
+                __res_8860[__i_8863] = __element_8864;
+            }
+
+            return __res_8860;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBConfiguration[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8866 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8867 = 0; __i_8867 < input.Length; __i_8867++)
+            {
+                JSObject __marshalledValue_8868;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBConfiguration } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8866, __i_8867.ToString(), __marshalledValue_8868);
+            }
+
+            return __res_8866;
+        }
+    }
+
+    public class Value_48: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBInterface[]>
+    {
+        public static Iskra.StdWeb.USBInterface[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8871 = global::System.Convert.ToInt32(__doubleLength_8870);
+
+            Iskra.StdWeb.USBInterface[] __res_8869 = new Iskra.StdWeb.USBInterface[__length_8871];
+            for (int __i_8872 = 0; __i_8872 < __length_8871; __i_8872++)
+            {
+                Iskra.StdWeb.USBInterface __element_8873;
+                JSObject __res_8874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8872.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBInterface } not supported.");
+                __res_8869[__i_8872] = __element_8873;
+            }
+
+            return __res_8869;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBInterface[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8875 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8876 = 0; __i_8876 < input.Length; __i_8876++)
+            {
+                JSObject __marshalledValue_8877;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBInterface } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8875, __i_8876.ToString(), __marshalledValue_8877);
+            }
+
+            return __res_8875;
+        }
+    }
+
+    public class Value_49: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBAlternateInterface[]>
+    {
+        public static Iskra.StdWeb.USBAlternateInterface[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8879 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8880 = global::System.Convert.ToInt32(__doubleLength_8879);
+
+            Iskra.StdWeb.USBAlternateInterface[] __res_8878 = new Iskra.StdWeb.USBAlternateInterface[__length_8880];
+            for (int __i_8881 = 0; __i_8881 < __length_8880; __i_8881++)
+            {
+                Iskra.StdWeb.USBAlternateInterface __element_8882;
+                JSObject __res_8883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8881.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBAlternateInterface } not supported.");
+                __res_8878[__i_8881] = __element_8882;
+            }
+
+            return __res_8878;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBAlternateInterface[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8884 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8885 = 0; __i_8885 < input.Length; __i_8885++)
+            {
+                JSObject __marshalledValue_8886;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBAlternateInterface } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8884, __i_8885.ToString(), __marshalledValue_8886);
+            }
+
+            return __res_8884;
+        }
+    }
+
+    public class Value_50: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBEndpoint[]>
+    {
+        public static Iskra.StdWeb.USBEndpoint[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8889 = global::System.Convert.ToInt32(__doubleLength_8888);
+
+            Iskra.StdWeb.USBEndpoint[] __res_8887 = new Iskra.StdWeb.USBEndpoint[__length_8889];
+            for (int __i_8890 = 0; __i_8890 < __length_8889; __i_8890++)
+            {
+                Iskra.StdWeb.USBEndpoint __element_8891;
+                JSObject __res_8892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8890.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBEndpoint } not supported.");
+                __res_8887[__i_8890] = __element_8891;
+            }
+
+            return __res_8887;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBEndpoint[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8893 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8894 = 0; __i_8894 < input.Length; __i_8894++)
+            {
+                JSObject __marshalledValue_8895;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBEndpoint } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8893, __i_8894.ToString(), __marshalledValue_8895);
+            }
+
+            return __res_8893;
+        }
+    }
+
+    public class Value_51: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.USBDevice[]>
+    {
+        public static Iskra.StdWeb.USBDevice[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8898 = global::System.Convert.ToInt32(__doubleLength_8897);
+
+            Iskra.StdWeb.USBDevice[] __res_8896 = new Iskra.StdWeb.USBDevice[__length_8898];
+            for (int __i_8899 = 0; __i_8899 < __length_8898; __i_8899++)
+            {
+                Iskra.StdWeb.USBDevice __element_8900;
+                JSObject __res_8901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8899.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBDevice } not supported.");
+                __res_8896[__i_8899] = __element_8900;
+            }
+
+            return __res_8896;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.USBDevice[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8902 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8903 = 0; __i_8903 < input.Length; __i_8903++)
+            {
+                JSObject __marshalledValue_8904;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBDevice } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8902, __i_8903.ToString(), __marshalledValue_8904);
+            }
+
+            return __res_8902;
+        }
+    }
+
+    public class Value_52: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.XRHitTestResult[]>
+    {
+        public static Iskra.StdWeb.XRHitTestResult[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8907 = global::System.Convert.ToInt32(__doubleLength_8906);
+
+            Iskra.StdWeb.XRHitTestResult[] __res_8905 = new Iskra.StdWeb.XRHitTestResult[__length_8907];
+            for (int __i_8908 = 0; __i_8908 < __length_8907; __i_8908++)
+            {
+                Iskra.StdWeb.XRHitTestResult __element_8909;
+                JSObject __res_8910 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8908.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHitTestResult } not supported.");
+                __res_8905[__i_8908] = __element_8909;
+            }
+
+            return __res_8905;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.XRHitTestResult[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8911 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8912 = 0; __i_8912 < input.Length; __i_8912++)
+            {
+                JSObject __marshalledValue_8913;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHitTestResult } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8911, __i_8912.ToString(), __marshalledValue_8913);
+            }
+
+            return __res_8911;
+        }
+    }
+
+    public class Value_53: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.NotRestoredReasonDetails[]>
+    {
+        public static Iskra.StdWeb.NotRestoredReasonDetails[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8916 = global::System.Convert.ToInt32(__doubleLength_8915);
+
+            Iskra.StdWeb.NotRestoredReasonDetails[] __res_8914 = new Iskra.StdWeb.NotRestoredReasonDetails[__length_8916];
+            for (int __i_8917 = 0; __i_8917 < __length_8916; __i_8917++)
+            {
+                Iskra.StdWeb.NotRestoredReasonDetails __element_8918;
+                JSObject __res_8919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8917.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotRestoredReasonDetails } not supported.");
+                __res_8914[__i_8917] = __element_8918;
+            }
+
+            return __res_8914;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.NotRestoredReasonDetails[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8920 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8921 = 0; __i_8921 < input.Length; __i_8921++)
+            {
+                JSObject __marshalledValue_8922;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotRestoredReasonDetails } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8920, __i_8921.ToString(), __marshalledValue_8922);
+            }
+
+            return __res_8920;
+        }
+    }
+
+    public class Value_54: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.NotRestoredReasons[]>
+    {
+        public static Iskra.StdWeb.NotRestoredReasons[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8925 = global::System.Convert.ToInt32(__doubleLength_8924);
+
+            Iskra.StdWeb.NotRestoredReasons[] __res_8923 = new Iskra.StdWeb.NotRestoredReasons[__length_8925];
+            for (int __i_8926 = 0; __i_8926 < __length_8925; __i_8926++)
+            {
+                Iskra.StdWeb.NotRestoredReasons __element_8927;
+                JSObject __res_8928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8926.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotRestoredReasons } not supported.");
+                __res_8923[__i_8926] = __element_8927;
+            }
+
+            return __res_8923;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.NotRestoredReasons[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8929 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8930 = 0; __i_8930 < input.Length; __i_8930++)
+            {
+                JSObject __marshalledValue_8931;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotRestoredReasons } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8929, __i_8930.ToString(), __marshalledValue_8931);
+            }
+
+            return __res_8929;
+        }
+    }
+
+    public class Value_55: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.PerformanceScriptTiming[]>
+    {
+        public static Iskra.StdWeb.PerformanceScriptTiming[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8933 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8934 = global::System.Convert.ToInt32(__doubleLength_8933);
+
+            Iskra.StdWeb.PerformanceScriptTiming[] __res_8932 = new Iskra.StdWeb.PerformanceScriptTiming[__length_8934];
+            for (int __i_8935 = 0; __i_8935 < __length_8934; __i_8935++)
+            {
+                Iskra.StdWeb.PerformanceScriptTiming __element_8936;
+                JSObject __res_8937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8935.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PerformanceScriptTiming } not supported.");
+                __res_8932[__i_8935] = __element_8936;
+            }
+
+            return __res_8932;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.PerformanceScriptTiming[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8938 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8939 = 0; __i_8939 < input.Length; __i_8939++)
+            {
+                JSObject __marshalledValue_8940;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PerformanceScriptTiming } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8938, __i_8939.ToString(), __marshalledValue_8940);
+            }
+
+            return __res_8938;
+        }
+    }
+
+    public class Value_56: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.TaskAttributionTiming[]>
+    {
+        public static Iskra.StdWeb.TaskAttributionTiming[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8942 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8943 = global::System.Convert.ToInt32(__doubleLength_8942);
+
+            Iskra.StdWeb.TaskAttributionTiming[] __res_8941 = new Iskra.StdWeb.TaskAttributionTiming[__length_8943];
+            for (int __i_8944 = 0; __i_8944 < __length_8943; __i_8944++)
+            {
+                Iskra.StdWeb.TaskAttributionTiming __element_8945;
+                JSObject __res_8946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8944.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskAttributionTiming } not supported.");
+                __res_8941[__i_8944] = __element_8945;
+            }
+
+            return __res_8941;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.TaskAttributionTiming[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8947 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8948 = 0; __i_8948 < input.Length; __i_8948++)
+            {
+                JSObject __marshalledValue_8949;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskAttributionTiming } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8947, __i_8948.ToString(), __marshalledValue_8949);
+            }
+
+            return __res_8947;
+        }
+    }
+
+    public class Value_57: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.CSSParserValue[]>
+    {
+        public static Iskra.StdWeb.CSSParserValue[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8951 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8952 = global::System.Convert.ToInt32(__doubleLength_8951);
+
+            Iskra.StdWeb.CSSParserValue[] __res_8950 = new Iskra.StdWeb.CSSParserValue[__length_8952];
+            for (int __i_8953 = 0; __i_8953 < __length_8952; __i_8953++)
+            {
+                Iskra.StdWeb.CSSParserValue __element_8954;
+                JSObject __res_8955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8953.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSParserValue } not supported.");
+                __res_8950[__i_8953] = __element_8954;
+            }
+
+            return __res_8950;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.CSSParserValue[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8956 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8957 = 0; __i_8957 < input.Length; __i_8957++)
+            {
+                JSObject __marshalledValue_8958;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSParserValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8956, __i_8957.ToString(), __marshalledValue_8958);
+            }
+
+            return __res_8956;
+        }
+    }
+
+    public class Value_58: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.CSSParserRule[]>
+    {
+        public static Iskra.StdWeb.CSSParserRule[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8961 = global::System.Convert.ToInt32(__doubleLength_8960);
+
+            Iskra.StdWeb.CSSParserRule[] __res_8959 = new Iskra.StdWeb.CSSParserRule[__length_8961];
+            for (int __i_8962 = 0; __i_8962 < __length_8961; __i_8962++)
+            {
+                Iskra.StdWeb.CSSParserRule __element_8963;
+                JSObject __res_8964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8962.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSParserRule } not supported.");
+                __res_8959[__i_8962] = __element_8963;
+            }
+
+            return __res_8959;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.CSSParserRule[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8965 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8966 = 0; __i_8966 < input.Length; __i_8966++)
+            {
+                JSObject __marshalledValue_8967;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSParserRule } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8965, __i_8966.ToString(), __marshalledValue_8967);
+            }
+
+            return __res_8965;
+        }
+    }
+
+    public class Value_59: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.CSSParserRule[]>
+    {
+        public static Iskra.StdWeb.CSSParserRule[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8969 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8970 = global::System.Convert.ToInt32(__doubleLength_8969);
+
+            Iskra.StdWeb.CSSParserRule[] __res_8968 = new Iskra.StdWeb.CSSParserRule[__length_8970];
+            for (int __i_8971 = 0; __i_8971 < __length_8970; __i_8971++)
+            {
+                Iskra.StdWeb.CSSParserRule __element_8972;
+                JSObject __res_8973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8971.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSParserRule } not supported.");
+                __res_8968[__i_8971] = __element_8972;
+            }
+
+            return __res_8968;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.CSSParserRule[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8974 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8975 = 0; __i_8975 < input.Length; __i_8975++)
+            {
+                JSObject __marshalledValue_8976;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSParserRule } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8974, __i_8975.ToString(), __marshalledValue_8976);
+            }
+
+            return __res_8974;
+        }
+    }
+
+    public class Value_60: global::Iskra.JSCore.Generics.IGenericMarshaller<global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>[]>
+    {
+        public static global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8979 = global::System.Convert.ToInt32(__doubleLength_8978);
+
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>[] __res_8977 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>[__length_8979];
+            for (int __i_8980 = 0; __i_8980 < __length_8979; __i_8980++)
+            {
+                global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> __element_8981;
+                JSObject __propObject_8982;
+                __propObject_8982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8980.ToString());
+                __element_8981 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>(__propObject_8982);
+                __res_8977[__i_8980] = __element_8981;
+            }
+
+            return __res_8977;
+        }
+
+        public static JSObject ToJS(global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8983 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8984 = 0; __i_8984 < input.Length; __i_8984++)
+            {
+                JSObject __propObject_8985 = input[__i_8984].JSObject;
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8983, __i_8984.ToString(), __propObject_8985);
+            }
+
+            return __res_8983;
+        }
+    }
+
+    public class Value_61: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.Baseline[]>
+    {
+        public static Iskra.StdWeb.Baseline[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8988 = global::System.Convert.ToInt32(__doubleLength_8987);
+
+            Iskra.StdWeb.Baseline[] __res_8986 = new Iskra.StdWeb.Baseline[__length_8988];
+            for (int __i_8989 = 0; __i_8989 < __length_8988; __i_8989++)
+            {
+                Iskra.StdWeb.Baseline __element_8990;
+                JSObject __res_8991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8989.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Baseline } not supported.");
+                __res_8986[__i_8989] = __element_8990;
+            }
+
+            return __res_8986;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.Baseline[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8992 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_8993 = 0; __i_8993 < input.Length; __i_8993++)
+            {
+                JSObject __marshalledValue_8994;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Baseline } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8992, __i_8993.ToString(), __marshalledValue_8994);
+            }
+
+            return __res_8992;
+        }
+    }
+
+    public class Value_62: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.Font[]>
+    {
+        public static Iskra.StdWeb.Font[] ToManaged(JSObject input)
+        {
+            double __doubleLength_8996 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_8997 = global::System.Convert.ToInt32(__doubleLength_8996);
+
+            Iskra.StdWeb.Font[] __res_8995 = new Iskra.StdWeb.Font[__length_8997];
+            for (int __i_8998 = 0; __i_8998 < __length_8997; __i_8998++)
+            {
+                Iskra.StdWeb.Font __element_8999;
+                JSObject __res_9000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8998.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Font } not supported.");
+                __res_8995[__i_8998] = __element_8999;
+            }
+
+            return __res_8995;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.Font[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9001 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_9002 = 0; __i_9002 < input.Length; __i_9002++)
+            {
+                JSObject __marshalledValue_9003;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Font } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_9001, __i_9002.ToString(), __marshalledValue_9003);
+            }
+
+            return __res_9001;
+        }
+    }
+
+    public class Value_63: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.ChildBreakToken[]>
+    {
+        public static Iskra.StdWeb.ChildBreakToken[] ToManaged(JSObject input)
+        {
+            double __doubleLength_9005 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_9006 = global::System.Convert.ToInt32(__doubleLength_9005);
+
+            Iskra.StdWeb.ChildBreakToken[] __res_9004 = new Iskra.StdWeb.ChildBreakToken[__length_9006];
+            for (int __i_9007 = 0; __i_9007 < __length_9006; __i_9007++)
+            {
+                Iskra.StdWeb.ChildBreakToken __element_9008;
+                JSObject __res_9009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_9007.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChildBreakToken } not supported.");
+                __res_9004[__i_9007] = __element_9008;
+            }
+
+            return __res_9004;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.ChildBreakToken[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9010 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_9011 = 0; __i_9011 < input.Length; __i_9011++)
+            {
+                JSObject __marshalledValue_9012;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChildBreakToken } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_9010, __i_9011.ToString(), __marshalledValue_9012);
+            }
+
+            return __res_9010;
+        }
+    }
+
+    public class Value_64: global::Iskra.JSCore.Generics.IGenericMarshaller<Iskra.StdWeb.DOMRect[]>
+    {
+        public static Iskra.StdWeb.DOMRect[] ToManaged(JSObject input)
+        {
+            double __doubleLength_9014 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_9015 = global::System.Convert.ToInt32(__doubleLength_9014);
+
+            Iskra.StdWeb.DOMRect[] __res_9013 = new Iskra.StdWeb.DOMRect[__length_9015];
+            for (int __i_9016 = 0; __i_9016 < __length_9015; __i_9016++)
+            {
+                Iskra.StdWeb.DOMRect __element_9017;
+                JSObject __res_9018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_9016.ToString());
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRect } not supported.");
+                __res_9013[__i_9016] = __element_9017;
+            }
+
+            return __res_9013;
+        }
+
+        public static JSObject ToJS(Iskra.StdWeb.DOMRect[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9019 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_9020 = 0; __i_9020 < input.Length; __i_9020++)
+            {
+                JSObject __marshalledValue_9021;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRect } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_9019, __i_9020.ToString(), __marshalledValue_9021);
+            }
+
+            return __res_9019;
+        }
+    }
+
+    public class Value_65: global::Iskra.JSCore.Generics.IGenericMarshaller<global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>[]>
+    {
+        public static global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>[] ToManaged(JSObject input)
+        {
+            double __doubleLength_9023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_9024 = global::System.Convert.ToInt32(__doubleLength_9023);
+
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>[] __res_9022 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>[__length_9024];
+            for (int __i_9025 = 0; __i_9025 < __length_9024; __i_9025++)
+            {
+                global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13> __element_9026;
+                JSObject __propObject_9027;
+                __propObject_9027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_9025.ToString());
+                __element_9026 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>(__propObject_9027);
+                __res_9022[__i_9025] = __element_9026;
+            }
+
+            return __res_9022;
+        }
+
+        public static JSObject ToJS(global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.Value_13>[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9028 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_9029 = 0; __i_9029 < input.Length; __i_9029++)
+            {
+                JSObject __propObject_9030 = input[__i_9029].JSObject;
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_9028, __i_9029.ToString(), __propObject_9030);
+            }
+
+            return __res_9028;
         }
     }
 }

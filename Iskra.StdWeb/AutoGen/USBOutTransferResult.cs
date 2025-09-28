@@ -13,10 +13,10 @@ public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_4915;
-            double __res_4916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytesWritten");
-            __res_4915 = Convert.ToUInt32(__res_4916);
-            return __res_4915;
+            uint __res_4985;
+            double __res_4986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytesWritten");
+            __res_4985 = Convert.ToUInt32(__res_4986);
+            return __res_4985;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class USBOutTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBTransferStatus __res_4917;
-            JSObject __res_4918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
+            Iskra.StdWeb.USBTransferStatus __res_4987;
+            JSObject __res_4988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBTransferStatus } not supported.");
-            return __res_4917;
+            return __res_4987;
         }
     }
 }

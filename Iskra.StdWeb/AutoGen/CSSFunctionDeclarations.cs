@@ -13,10 +13,10 @@ public partial class CSSFunctionDeclarations(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFunctionDescriptors __res_24;
-            JSObject __res_25 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            Iskra.StdWeb.CSSFunctionDescriptors __res_25;
+            JSObject __res_26 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFunctionDescriptors } not supported.");
-            return __res_24;
+            return __res_25;
         }
     }
 }

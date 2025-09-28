@@ -13,20 +13,22 @@ public partial class ClipboardItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PresentationStyle __res_1643;
-            JSObject __res_1644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "presentationStyle");
+            Iskra.StdWeb.PresentationStyle __res_1665;
+            JSObject __res_1666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "presentationStyle");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationStyle } not supported.");
-            return __res_1643;
+            return __res_1665;
         }
     }
 
-    public object Types
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> Types
     {
         get
         {
-            object __res_1645;
-            throw new Exception();
-            return __res_1645;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_1667;
+            JSObject __propObject_1668;
+            __propObject_1668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_1667 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14>(__propObject_1668);
+            return __res_1667;
         }
     }
 }

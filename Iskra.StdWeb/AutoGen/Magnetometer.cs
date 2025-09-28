@@ -13,18 +13,18 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_583;
-            double? __res_584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_584 is null)
+            double? __res_594;
+            double? __res_595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_595 is null)
             {
-                __res_583 = null;
+                __res_594 = null;
             }
             else
             {
-                double __notNullable_585 = (double)__res_584;
-                __res_583 = __notNullable_585;
+                double __notNullable_596 = (double)__res_595;
+                __res_594 = __notNullable_596;
             }
-            return __res_583;
+            return __res_594;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_586;
-            double? __res_587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_587 is null)
+            double? __res_597;
+            double? __res_598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_598 is null)
             {
-                __res_586 = null;
+                __res_597 = null;
             }
             else
             {
-                double __notNullable_588 = (double)__res_587;
-                __res_586 = __notNullable_588;
+                double __notNullable_599 = (double)__res_598;
+                __res_597 = __notNullable_599;
             }
-            return __res_586;
+            return __res_597;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class Magnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_589;
-            double? __res_590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_590 is null)
+            double? __res_600;
+            double? __res_601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_601 is null)
             {
-                __res_589 = null;
+                __res_600 = null;
             }
             else
             {
-                double __notNullable_591 = (double)__res_590;
-                __res_589 = __notNullable_591;
+                double __notNullable_602 = (double)__res_601;
+                __res_600 = __notNullable_602;
             }
-            return __res_589;
+            return __res_600;
         }
     }
 }

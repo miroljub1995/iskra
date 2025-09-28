@@ -13,10 +13,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2986;
-            double __res_2987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_2986 = __res_2987;
-            return __res_2986;
+            double __res_3021;
+            double __res_3022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_3021 = __res_3022;
+            return __res_3021;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            bool __res_2988;
-            bool __res_2989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
-            __res_2988 = __res_2989;
-            return __res_2988;
+            bool __res_3023;
+            bool __res_3024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
+            __res_3023 = __res_3024;
+            return __res_3023;
         }
     }
 
@@ -35,20 +35,22 @@ public partial class LayoutShift(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_2990;
-            double __res_2991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastInputTime");
-            __res_2990 = __res_2991;
-            return __res_2990;
+            double __res_3025;
+            double __res_3026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastInputTime");
+            __res_3025 = __res_3026;
+            return __res_3025;
         }
     }
 
-    public object Sources
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.Value_24> Sources
     {
         get
         {
-            object __res_2992;
-            throw new Exception();
-            return __res_2992;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.Value_24> __res_3027;
+            JSObject __propObject_3028;
+            __propObject_3028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sources");
+            __res_3027 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.Value_24>(__propObject_3028);
+            return __res_3027;
         }
     }
 }

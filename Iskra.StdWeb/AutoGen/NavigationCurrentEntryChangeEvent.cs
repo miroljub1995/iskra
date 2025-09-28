@@ -13,18 +13,18 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType? __res_6665;
-            JSObject? __res_6666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "navigationType");
-            if (__res_6666 is null)
+            Iskra.StdWeb.NavigationType? __res_6745;
+            JSObject? __res_6746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "navigationType");
+            if (__res_6746 is null)
             {
-                __res_6665 = null;
+                __res_6745 = null;
             }
             else
             {
-                JSObject __notNullable_6667 = (JSObject)__res_6666;
+                JSObject __notNullable_6747 = (JSObject)__res_6746;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
             }
-            return __res_6665;
+            return __res_6745;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_6668;
-            JSObject __res_6669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            Iskra.StdWeb.NavigationHistoryEntry __res_6748;
+            JSObject __res_6749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
-            return __res_6668;
+            return __res_6748;
         }
     }
 }

@@ -13,30 +13,33 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2208;
-            string __res_2209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2208 = __res_2209;
-            return __res_2208;
+            string __res_2233;
+            string __res_2234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2233 = __res_2234;
+            return __res_2233;
         }
         set
         {
-            string __marshalledValue_2210;
-            __marshalledValue_2210 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_2210);
+            string __marshalledValue_2235;
+            __marshalledValue_2235 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_2235);
         }
     }
 
-    public object Values
+    public global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.Value_17> Values
     {
         get
         {
-            object __res_2211;
-            throw new Exception();
-            return __res_2211;
+            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.Value_17> __res_2236;
+            JSObject __propObject_2237;
+            __propObject_2237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            __res_2236 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.Value_17>(__propObject_2237);
+            return __res_2236;
         }
         set
         {
-            throw new Exception();
+            JSObject __propObject_2238 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_2238);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class RTCIdentityProviderGlobalScope(JSObject obj): WorkerGlobalS
     {
         get
         {
-            Iskra.StdWeb.RTCIdentityProviderRegistrar __res_4085;
-            JSObject __res_4086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rtcIdentityProvider");
+            Iskra.StdWeb.RTCIdentityProviderRegistrar __res_4126;
+            JSObject __res_4127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rtcIdentityProvider");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIdentityProviderRegistrar } not supported.");
-            return __res_4085;
+            return __res_4126;
         }
     }
 }

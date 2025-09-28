@@ -13,32 +13,32 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1434;
-            JSObject? __res_1435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport");
-            if (__res_1435 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1450;
+            JSObject? __res_1451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport");
+            if (__res_1451 is null)
             {
-                __res_1434 = null;
+                __res_1450 = null;
             }
             else
             {
-                JSObject __notNullable_1436 = (JSObject)__res_1435;
+                JSObject __notNullable_1452 = (JSObject)__res_1451;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_1434;
+            return __res_1450;
         }
         set
         {
-            JSObject? __marshalledValue_1437;
+            JSObject? __marshalledValue_1453;
             if (value is null)
             {
-                __marshalledValue_1437 = null;
+                __marshalledValue_1453 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_1438 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1454 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport", __marshalledValue_1437);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport", __marshalledValue_1453);
         }
     }
 
@@ -46,10 +46,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_1439;
-            bool __res_1440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
-            __res_1439 = __res_1440;
-            return __res_1439;
+            bool __res_1455;
+            bool __res_1456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
+            __res_1455 = __res_1456;
+            return __res_1455;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_1441;
-            double __res_1442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            __res_1441 = Convert.ToUInt16(__res_1442);
-            return __res_1441;
+            ushort __res_1457;
+            double __res_1458 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
+            __res_1457 = Convert.ToUInt16(__res_1458);
+            return __res_1457;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_1443;
-            double __res_1444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            __res_1443 = Convert.ToUInt16(__res_1444);
-            return __res_1443;
+            ushort __res_1459;
+            double __res_1460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
+            __res_1459 = Convert.ToUInt16(__res_1460);
+            return __res_1459;
         }
     }
 
@@ -79,20 +79,22 @@ public partial class HIDDevice(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1445;
-            string __res_1446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productName");
-            __res_1445 = __res_1446;
-            return __res_1445;
+            string __res_1461;
+            string __res_1462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productName");
+            __res_1461 = __res_1462;
+            return __res_1461;
         }
     }
 
-    public object Collections
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.Value_11> Collections
     {
         get
         {
-            object __res_1447;
-            throw new Exception();
-            return __res_1447;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.Value_11> __res_1463;
+            JSObject __propObject_1464;
+            __propObject_1464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "collections");
+            __res_1463 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.Value_11>(__propObject_1464);
+            return __res_1463;
         }
     }
 }

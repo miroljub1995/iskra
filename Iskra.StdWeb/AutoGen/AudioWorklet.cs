@@ -13,10 +13,10 @@ public partial class AudioWorklet(JSObject obj): Worklet(obj)
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_8190;
-            JSObject __res_8191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            Iskra.StdWeb.MessagePort __res_8289;
+            JSObject __res_8290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_8190;
+            return __res_8289;
         }
     }
 }

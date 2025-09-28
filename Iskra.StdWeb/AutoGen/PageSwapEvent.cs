@@ -13,18 +13,18 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationActivation? __res_6678;
-            JSObject? __res_6679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
-            if (__res_6679 is null)
+            Iskra.StdWeb.NavigationActivation? __res_6758;
+            JSObject? __res_6759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
+            if (__res_6759 is null)
             {
-                __res_6678 = null;
+                __res_6758 = null;
             }
             else
             {
-                JSObject __notNullable_6680 = (JSObject)__res_6679;
+                JSObject __notNullable_6760 = (JSObject)__res_6759;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationActivation } not supported.");
             }
-            return __res_6678;
+            return __res_6758;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class PageSwapEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.ViewTransition? __res_6681;
-            JSObject? __res_6682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
-            if (__res_6682 is null)
+            Iskra.StdWeb.ViewTransition? __res_6761;
+            JSObject? __res_6762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
+            if (__res_6762 is null)
             {
-                __res_6681 = null;
+                __res_6761 = null;
             }
             else
             {
-                JSObject __notNullable_6683 = (JSObject)__res_6682;
+                JSObject __notNullable_6763 = (JSObject)__res_6762;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransition } not supported.");
             }
-            return __res_6681;
+            return __res_6761;
         }
     }
 }

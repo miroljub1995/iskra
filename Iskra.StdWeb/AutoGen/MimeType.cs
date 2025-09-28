@@ -13,10 +13,10 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6734;
-            string __res_6735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6734 = __res_6735;
-            return __res_6734;
+            string __res_6816;
+            string __res_6817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6816 = __res_6817;
+            return __res_6816;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6736;
-            string __res_6737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_6736 = __res_6737;
-            return __res_6736;
+            string __res_6818;
+            string __res_6819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_6818 = __res_6819;
+            return __res_6818;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6738;
-            string __res_6739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffixes");
-            __res_6738 = __res_6739;
-            return __res_6738;
+            string __res_6820;
+            string __res_6821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffixes");
+            __res_6820 = __res_6821;
+            return __res_6820;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class MimeType(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Plugin __res_6740;
-            JSObject __res_6741 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledPlugin");
+            Iskra.StdWeb.Plugin __res_6822;
+            JSObject __res_6823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledPlugin");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Plugin } not supported.");
-            return __res_6740;
+            return __res_6822;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5040;
-            string __res_5041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_5040 = __res_5041;
-            return __res_5040;
+            string __res_5118;
+            string __res_5119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_5118 = __res_5119;
+            return __res_5118;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5042;
-            string __res_5043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
-            __res_5042 = __res_5043;
-            return __res_5042;
+            string __res_5120;
+            string __res_5121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
+            __res_5120 = __res_5121;
+            return __res_5120;
         }
     }
 
@@ -35,16 +35,16 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_5044;
-            JSObject __res_5045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
+            object? __res_5122;
+            JSObject __res_5123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_5044;
+            return __res_5122;
         }
         set
         {
-            JSObject __marshalledValue_5046;
+            JSObject __marshalledValue_5124;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5046);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5124);
         }
     }
 
@@ -52,10 +52,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5047;
-            string __res_5048 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
-            __res_5047 = __res_5048;
-            return __res_5047;
+            string __res_5125;
+            string __res_5126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
+            __res_5125 = __res_5126;
+            return __res_5125;
         }
     }
 
@@ -63,10 +63,10 @@ public partial class RemoteDocument(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5049;
-            string __res_5050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
-            __res_5049 = __res_5050;
-            return __res_5049;
+            string __res_5127;
+            string __res_5128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
+            __res_5127 = __res_5128;
+            return __res_5127;
         }
     }
 }

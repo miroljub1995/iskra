@@ -13,10 +13,10 @@ public partial class SpeechRecognitionResultList(JSObject obj): JSObjectProxy(ob
     {
         get
         {
-            uint __res_3979;
-            double __res_3980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3979 = Convert.ToUInt32(__res_3980);
-            return __res_3979;
+            uint __res_4020;
+            double __res_4021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4020 = Convert.ToUInt32(__res_4021);
+            return __res_4020;
         }
     }
 }

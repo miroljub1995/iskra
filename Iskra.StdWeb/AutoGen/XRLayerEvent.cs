@@ -13,10 +13,10 @@ public partial class XRLayerEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.XRLayer __res_1596;
-            JSObject __res_1597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
+            Iskra.StdWeb.XRLayer __res_1613;
+            JSObject __res_1614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayer } not supported.");
-            return __res_1596;
+            return __res_1613;
         }
     }
 }

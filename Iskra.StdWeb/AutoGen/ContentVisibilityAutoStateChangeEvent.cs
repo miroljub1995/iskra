@@ -13,10 +13,10 @@ public partial class ContentVisibilityAutoStateChangeEvent(JSObject obj): Event(
     {
         get
         {
-            bool __res_3696;
-            bool __res_3697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipped");
-            __res_3696 = __res_3697;
-            return __res_3696;
+            bool __res_3733;
+            bool __res_3734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipped");
+            __res_3733 = __res_3734;
+            return __res_3733;
         }
     }
 }

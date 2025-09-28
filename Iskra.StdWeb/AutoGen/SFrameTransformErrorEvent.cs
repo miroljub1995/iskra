@@ -13,10 +13,10 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.SFrameTransformErrorEventType __res_988;
-            JSObject __res_989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
+            Iskra.StdWeb.SFrameTransformErrorEventType __res_1004;
+            JSObject __res_1005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SFrameTransformErrorEventType } not supported.");
-            return __res_988;
+            return __res_1004;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object __res_990;
+            object __res_1006;
             throw new Exception();
-            return __res_990;
+            return __res_1006;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_991;
-            JSObject __res_992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            object? __res_1007;
+            JSObject __res_1008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_991;
+            return __res_1007;
         }
     }
 }

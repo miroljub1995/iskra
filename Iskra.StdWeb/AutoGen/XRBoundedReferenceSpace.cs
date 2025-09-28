@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class XRBoundedReferenceSpace(JSObject obj): XRReferenceSpace(obj)
 {
-    public object BoundsGeometry
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0> BoundsGeometry
     {
         get
         {
-            object __res_4197;
-            throw new Exception();
-            return __res_4197;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0> __res_4239;
+            JSObject __propObject_4240;
+            __propObject_4240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundsGeometry");
+            __res_4239 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.Value_0>(__propObject_4240);
+            return __res_4239;
         }
     }
 }

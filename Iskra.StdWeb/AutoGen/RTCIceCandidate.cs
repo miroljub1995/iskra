@@ -13,10 +13,10 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1789;
-            string __res_1790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "candidate");
-            __res_1789 = __res_1790;
-            return __res_1789;
+            string __res_1812;
+            string __res_1813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "candidate");
+            __res_1812 = __res_1813;
+            return __res_1812;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1791;
-            string? __res_1792 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "sdpMid");
-            if (__res_1792 is null)
+            string? __res_1814;
+            string? __res_1815 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "sdpMid");
+            if (__res_1815 is null)
             {
-                __res_1791 = null;
+                __res_1814 = null;
             }
             else
             {
-                string __notNullable_1793 = (string)__res_1792;
-                __res_1791 = __notNullable_1793;
+                string __notNullable_1816 = (string)__res_1815;
+                __res_1814 = __notNullable_1816;
             }
-            return __res_1791;
+            return __res_1814;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_1794;
-            double? __res_1795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpMLineIndex");
-            if (__res_1795 is null)
+            ushort? __res_1817;
+            double? __res_1818 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpMLineIndex");
+            if (__res_1818 is null)
             {
-                __res_1794 = null;
+                __res_1817 = null;
             }
             else
             {
-                double __notNullable_1796 = (double)__res_1795;
-                __res_1794 = Convert.ToUInt16(__notNullable_1796);
+                double __notNullable_1819 = (double)__res_1818;
+                __res_1817 = Convert.ToUInt16(__notNullable_1819);
             }
-            return __res_1794;
+            return __res_1817;
         }
     }
 
@@ -62,18 +62,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1797;
-            string? __res_1798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "foundation");
-            if (__res_1798 is null)
+            string? __res_1820;
+            string? __res_1821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "foundation");
+            if (__res_1821 is null)
             {
-                __res_1797 = null;
+                __res_1820 = null;
             }
             else
             {
-                string __notNullable_1799 = (string)__res_1798;
-                __res_1797 = __notNullable_1799;
+                string __notNullable_1822 = (string)__res_1821;
+                __res_1820 = __notNullable_1822;
             }
-            return __res_1797;
+            return __res_1820;
         }
     }
 
@@ -81,18 +81,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceComponent? __res_1800;
-            JSObject? __res_1801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "component");
-            if (__res_1801 is null)
+            Iskra.StdWeb.RTCIceComponent? __res_1823;
+            JSObject? __res_1824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "component");
+            if (__res_1824 is null)
             {
-                __res_1800 = null;
+                __res_1823 = null;
             }
             else
             {
-                JSObject __notNullable_1802 = (JSObject)__res_1801;
+                JSObject __notNullable_1825 = (JSObject)__res_1824;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceComponent } not supported.");
             }
-            return __res_1800;
+            return __res_1823;
         }
     }
 
@@ -100,18 +100,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint? __res_1803;
-            double? __res_1804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "priority");
-            if (__res_1804 is null)
+            uint? __res_1826;
+            double? __res_1827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "priority");
+            if (__res_1827 is null)
             {
-                __res_1803 = null;
+                __res_1826 = null;
             }
             else
             {
-                double __notNullable_1805 = (double)__res_1804;
-                __res_1803 = Convert.ToUInt32(__notNullable_1805);
+                double __notNullable_1828 = (double)__res_1827;
+                __res_1826 = Convert.ToUInt32(__notNullable_1828);
             }
-            return __res_1803;
+            return __res_1826;
         }
     }
 
@@ -119,18 +119,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1806;
-            string? __res_1807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
-            if (__res_1807 is null)
+            string? __res_1829;
+            string? __res_1830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
+            if (__res_1830 is null)
             {
-                __res_1806 = null;
+                __res_1829 = null;
             }
             else
             {
-                string __notNullable_1808 = (string)__res_1807;
-                __res_1806 = __notNullable_1808;
+                string __notNullable_1831 = (string)__res_1830;
+                __res_1829 = __notNullable_1831;
             }
-            return __res_1806;
+            return __res_1829;
         }
     }
 
@@ -138,18 +138,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceProtocol? __res_1809;
-            JSObject? __res_1810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "protocol");
-            if (__res_1810 is null)
+            Iskra.StdWeb.RTCIceProtocol? __res_1832;
+            JSObject? __res_1833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "protocol");
+            if (__res_1833 is null)
             {
-                __res_1809 = null;
+                __res_1832 = null;
             }
             else
             {
-                JSObject __notNullable_1811 = (JSObject)__res_1810;
+                JSObject __notNullable_1834 = (JSObject)__res_1833;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceProtocol } not supported.");
             }
-            return __res_1809;
+            return __res_1832;
         }
     }
 
@@ -157,18 +157,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_1812;
-            double? __res_1813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
-            if (__res_1813 is null)
+            ushort? __res_1835;
+            double? __res_1836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
+            if (__res_1836 is null)
             {
-                __res_1812 = null;
+                __res_1835 = null;
             }
             else
             {
-                double __notNullable_1814 = (double)__res_1813;
-                __res_1812 = Convert.ToUInt16(__notNullable_1814);
+                double __notNullable_1837 = (double)__res_1836;
+                __res_1835 = Convert.ToUInt16(__notNullable_1837);
             }
-            return __res_1812;
+            return __res_1835;
         }
     }
 
@@ -176,18 +176,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidateType? __res_1815;
-            JSObject? __res_1816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "type");
-            if (__res_1816 is null)
+            Iskra.StdWeb.RTCIceCandidateType? __res_1838;
+            JSObject? __res_1839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "type");
+            if (__res_1839 is null)
             {
-                __res_1815 = null;
+                __res_1838 = null;
             }
             else
             {
-                JSObject __notNullable_1817 = (JSObject)__res_1816;
+                JSObject __notNullable_1840 = (JSObject)__res_1839;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidateType } not supported.");
             }
-            return __res_1815;
+            return __res_1838;
         }
     }
 
@@ -195,18 +195,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceTcpCandidateType? __res_1818;
-            JSObject? __res_1819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tcpType");
-            if (__res_1819 is null)
+            Iskra.StdWeb.RTCIceTcpCandidateType? __res_1841;
+            JSObject? __res_1842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tcpType");
+            if (__res_1842 is null)
             {
-                __res_1818 = null;
+                __res_1841 = null;
             }
             else
             {
-                JSObject __notNullable_1820 = (JSObject)__res_1819;
+                JSObject __notNullable_1843 = (JSObject)__res_1842;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceTcpCandidateType } not supported.");
             }
-            return __res_1818;
+            return __res_1841;
         }
     }
 
@@ -214,18 +214,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1821;
-            string? __res_1822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relatedAddress");
-            if (__res_1822 is null)
+            string? __res_1844;
+            string? __res_1845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relatedAddress");
+            if (__res_1845 is null)
             {
-                __res_1821 = null;
+                __res_1844 = null;
             }
             else
             {
-                string __notNullable_1823 = (string)__res_1822;
-                __res_1821 = __notNullable_1823;
+                string __notNullable_1846 = (string)__res_1845;
+                __res_1844 = __notNullable_1846;
             }
-            return __res_1821;
+            return __res_1844;
         }
     }
 
@@ -233,18 +233,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_1824;
-            double? __res_1825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "relatedPort");
-            if (__res_1825 is null)
+            ushort? __res_1847;
+            double? __res_1848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "relatedPort");
+            if (__res_1848 is null)
             {
-                __res_1824 = null;
+                __res_1847 = null;
             }
             else
             {
-                double __notNullable_1826 = (double)__res_1825;
-                __res_1824 = Convert.ToUInt16(__notNullable_1826);
+                double __notNullable_1849 = (double)__res_1848;
+                __res_1847 = Convert.ToUInt16(__notNullable_1849);
             }
-            return __res_1824;
+            return __res_1847;
         }
     }
 
@@ -252,18 +252,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1827;
-            string? __res_1828 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "usernameFragment");
-            if (__res_1828 is null)
+            string? __res_1850;
+            string? __res_1851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "usernameFragment");
+            if (__res_1851 is null)
             {
-                __res_1827 = null;
+                __res_1850 = null;
             }
             else
             {
-                string __notNullable_1829 = (string)__res_1828;
-                __res_1827 = __notNullable_1829;
+                string __notNullable_1852 = (string)__res_1851;
+                __res_1850 = __notNullable_1852;
             }
-            return __res_1827;
+            return __res_1850;
         }
     }
 
@@ -271,18 +271,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCIceServerTransportProtocol? __res_1830;
-            JSObject? __res_1831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relayProtocol");
-            if (__res_1831 is null)
+            Iskra.StdWeb.RTCIceServerTransportProtocol? __res_1853;
+            JSObject? __res_1854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relayProtocol");
+            if (__res_1854 is null)
             {
-                __res_1830 = null;
+                __res_1853 = null;
             }
             else
             {
-                JSObject __notNullable_1832 = (JSObject)__res_1831;
+                JSObject __notNullable_1855 = (JSObject)__res_1854;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceServerTransportProtocol } not supported.");
             }
-            return __res_1830;
+            return __res_1853;
         }
     }
 
@@ -290,18 +290,18 @@ public partial class RTCIceCandidate(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1833;
-            string? __res_1834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_1834 is null)
+            string? __res_1856;
+            string? __res_1857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_1857 is null)
             {
-                __res_1833 = null;
+                __res_1856 = null;
             }
             else
             {
-                string __notNullable_1835 = (string)__res_1834;
-                __res_1833 = __notNullable_1835;
+                string __notNullable_1858 = (string)__res_1857;
+                __res_1856 = __notNullable_1858;
             }
-            return __res_1833;
+            return __res_1856;
         }
     }
 }

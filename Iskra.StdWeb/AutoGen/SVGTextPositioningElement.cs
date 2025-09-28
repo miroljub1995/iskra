@@ -13,10 +13,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_428;
-            JSObject __res_429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            Iskra.StdWeb.SVGAnimatedLengthList __res_435;
+            JSObject __res_436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLengthList } not supported.");
-            return __res_428;
+            return __res_435;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_430;
-            JSObject __res_431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            Iskra.StdWeb.SVGAnimatedLengthList __res_437;
+            JSObject __res_438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLengthList } not supported.");
-            return __res_430;
+            return __res_437;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_432;
-            JSObject __res_433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
+            Iskra.StdWeb.SVGAnimatedLengthList __res_439;
+            JSObject __res_440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dx");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLengthList } not supported.");
-            return __res_432;
+            return __res_439;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLengthList __res_434;
-            JSObject __res_435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
+            Iskra.StdWeb.SVGAnimatedLengthList __res_441;
+            JSObject __res_442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dy");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLengthList } not supported.");
-            return __res_434;
+            return __res_441;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGTextPositioningElement(JSObject obj): SVGTextContentElem
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumberList __res_436;
-            JSObject __res_437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rotate");
+            Iskra.StdWeb.SVGAnimatedNumberList __res_443;
+            JSObject __res_444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rotate");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumberList } not supported.");
-            return __res_436;
+            return __res_443;
         }
     }
 }

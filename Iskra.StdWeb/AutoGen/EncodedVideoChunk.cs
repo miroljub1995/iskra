@@ -13,10 +13,10 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.EncodedVideoChunkType __res_2567;
-            JSObject __res_2568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.EncodedVideoChunkType __res_2595;
+            JSObject __res_2596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EncodedVideoChunkType } not supported.");
-            return __res_2567;
+            return __res_2595;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_2569;
-            double __res_2570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2569 = Convert.ToInt64(__res_2570);
-            return __res_2569;
+            long __res_2597;
+            double __res_2598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2597 = Convert.ToInt64(__res_2598);
+            return __res_2597;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_2571;
-            double? __res_2572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_2572 is null)
+            ulong? __res_2599;
+            double? __res_2600 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_2600 is null)
             {
-                __res_2571 = null;
+                __res_2599 = null;
             }
             else
             {
-                double __notNullable_2573 = (double)__res_2572;
-                __res_2571 = Convert.ToUInt64(__notNullable_2573);
+                double __notNullable_2601 = (double)__res_2600;
+                __res_2599 = Convert.ToUInt64(__notNullable_2601);
             }
-            return __res_2571;
+            return __res_2599;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class EncodedVideoChunk(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2574;
-            double __res_2575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
-            __res_2574 = Convert.ToUInt32(__res_2575);
-            return __res_2574;
+            uint __res_2602;
+            double __res_2603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
+            __res_2602 = Convert.ToUInt32(__res_2603);
+            return __res_2602;
         }
     }
 }

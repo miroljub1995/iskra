@@ -13,18 +13,18 @@ public partial class USBInTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.DataView? __res_4910;
-            JSObject? __res_4911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_4911 is null)
+            Iskra.JSCore.DataView? __res_4980;
+            JSObject? __res_4981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_4981 is null)
             {
-                __res_4910 = null;
+                __res_4980 = null;
             }
             else
             {
-                JSObject __notNullable_4912 = (JSObject)__res_4911;
+                JSObject __notNullable_4982 = (JSObject)__res_4981;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
-            return __res_4910;
+            return __res_4980;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class USBInTransferResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBTransferStatus __res_4913;
-            JSObject __res_4914 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
+            Iskra.StdWeb.USBTransferStatus __res_4983;
+            JSObject __res_4984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBTransferStatus } not supported.");
-            return __res_4913;
+            return __res_4983;
         }
     }
 }

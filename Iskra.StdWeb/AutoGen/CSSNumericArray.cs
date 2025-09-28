@@ -13,10 +13,10 @@ public partial class CSSNumericArray(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_66;
-            double __res_67 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_66 = Convert.ToUInt32(__res_67);
-            return __res_66;
+            uint __res_67;
+            double __res_68 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_67 = Convert.ToUInt32(__res_68);
+            return __res_67;
         }
     }
 }

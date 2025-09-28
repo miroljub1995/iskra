@@ -13,16 +13,16 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_8287;
-            string __res_8288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_8287 = __res_8288;
-            return __res_8287;
+            string __res_8386;
+            string __res_8387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_8386 = __res_8387;
+            return __res_8386;
         }
         set
         {
-            string __marshalledValue_8289;
-            __marshalledValue_8289 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_8289);
+            string __marshalledValue_8388;
+            __marshalledValue_8388 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_8388);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8290;
-            JSObject __res_8291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8389;
+            JSObject __res_8390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8290;
+            return __res_8389;
         }
     }
 
@@ -41,10 +41,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8292;
-            JSObject __res_8293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8391;
+            JSObject __res_8392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8292;
+            return __res_8391;
         }
     }
 
@@ -52,10 +52,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8294;
-            JSObject __res_8295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8393;
+            JSObject __res_8394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8294;
+            return __res_8393;
         }
     }
 
@@ -63,10 +63,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8296;
-            JSObject __res_8297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8395;
+            JSObject __res_8396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8296;
+            return __res_8395;
         }
     }
 
@@ -74,10 +74,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8298;
-            JSObject __res_8299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8397;
+            JSObject __res_8398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8298;
+            return __res_8397;
         }
     }
 
@@ -85,10 +85,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8300;
-            JSObject __res_8301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8399;
+            JSObject __res_8400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8300;
+            return __res_8399;
         }
     }
 
@@ -96,10 +96,10 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8302;
-            JSObject __res_8303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
+            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8401;
+            JSObject __res_8402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8302;
+            return __res_8401;
         }
     }
 }

@@ -186,6 +186,43 @@ public class GenericMarshallerGenerator(
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
 
+        if (input is FrozenArrayTypeDescription frozenArray)
+        {
+            var elementType = frozenArray.IdlType.Single();
+            var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
+            var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType);
+
+            var resVar = generatorContext.GetNextVariableName("res");
+            var doubleLengthVar = generatorContext.GetNextVariableName("doubleLength");
+            var lengthVar = generatorContext.GetNextVariableName("length");
+            var indexVar = generatorContext.GetNextVariableName("i");
+            var elementVar = generatorContext.GetNextVariableName("element");
+
+            var getElementContent = getPropertyValueGenerator.Generate(
+                inputVar: "input",
+                type: elementType,
+                propertyNameVar: $"{indexVar}.ToString()",
+                isStatic: false,
+                containingTypeName: "Array",
+                outputVar: elementVar
+            );
+
+            return $$"""
+                     double {{doubleLengthVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+                     int {{lengthVar}} = global::System.Convert.ToInt32({{doubleLengthVar}});
+
+                     {{returnTypeDeclaration}} {{resVar}} = new {{elementTypeDeclaration}}[{{lengthVar}}];
+                     for (int {{indexVar}} = 0; {{indexVar}} < {{lengthVar}}; {{indexVar}}++)
+                     {
+                         {{elementTypeDeclaration}} {{elementVar}};
+                     {{getElementContent.IndentLines(4)}}
+                         {{resVar}}[{{indexVar}}] = {{elementVar}};
+                     }
+
+                     return {{resVar}};
+                     """;
+        }
+
         if (input is SequenceTypeDescription sequence)
         {
             var elementType = sequence.IdlType.Single();
@@ -209,10 +246,10 @@ public class GenericMarshallerGenerator(
 
             return $$"""
                      double {{doubleLengthVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-                     long {{lengthVar}} = global::System.Convert.ToInt64({{doubleLengthVar}});
+                     int {{lengthVar}} = global::System.Convert.ToInt32({{doubleLengthVar}});
 
                      {{returnTypeDeclaration}} {{resVar}} = new {{elementTypeDeclaration}}[{{lengthVar}}];
-                     for (long {{indexVar}} = 0; {{indexVar}} < {{lengthVar}}; {{indexVar}}++)
+                     for (int {{indexVar}} = 0; {{indexVar}} < {{lengthVar}}; {{indexVar}}++)
                      {
                          {{elementTypeDeclaration}} {{elementVar}};
                      {{getElementContent.IndentLines(4)}}
@@ -230,6 +267,33 @@ public class GenericMarshallerGenerator(
     private string GenerateToJS(IDLTypeDescription input)
     {
         var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
+
+        if (input is FrozenArrayTypeDescription frozenArray)
+        {
+            var elementType = frozenArray.IdlType.Single();
+            var resVar = generatorContext.GetNextVariableName("res");
+            var indexVar = generatorContext.GetNextVariableName("i");
+
+            var setElementContent = setPropertyValueGenerator.Generate(
+                inputVar: resVar,
+                valueVar: $"input[{indexVar}]",
+                type: elementType,
+                propertyNameVar: $"{indexVar}.ToString()",
+                isStatic: false,
+                containingTypeName: "Array"
+            );
+
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+                     for (int {{indexVar}} = 0; {{indexVar}} < input.Length; {{indexVar}}++)
+                     {
+                     {{setElementContent.IndentLines(4)}}
+                     }
+
+                     return {{resVar}};
+                     """;
+        }
 
         if (input is SequenceTypeDescription sequence)
         {

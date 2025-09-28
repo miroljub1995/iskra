@@ -13,18 +13,18 @@ public partial class FocusEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_7800;
-            JSObject? __res_7801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_7801 is null)
+            Iskra.StdWeb.EventTarget? __res_7897;
+            JSObject? __res_7898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_7898 is null)
             {
-                __res_7800 = null;
+                __res_7897 = null;
             }
             else
             {
-                JSObject __notNullable_7802 = (JSObject)__res_7801;
+                JSObject __notNullable_7899 = (JSObject)__res_7898;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
-            return __res_7800;
+            return __res_7897;
         }
     }
 }

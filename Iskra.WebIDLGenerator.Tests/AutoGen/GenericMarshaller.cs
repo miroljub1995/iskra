@@ -15,33 +15,67 @@ public static partial class GenericMarshaller
     {
         public static bool[] ToManaged(JSObject input)
         {
-            double __doubleLength_250 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-            long __length_251 = global::System.Convert.ToInt64(__doubleLength_250);
+            double __doubleLength_253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_254 = global::System.Convert.ToInt32(__doubleLength_253);
 
-            bool[] __res_249 = new bool[__length_251];
-            for (long __i_252 = 0; __i_252 < __length_251; __i_252++)
+            bool[] __res_252 = new bool[__length_254];
+            for (int __i_255 = 0; __i_255 < __length_254; __i_255++)
             {
-                bool __element_253;
-                bool __res_254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_252.ToString());
-                __element_253 = __res_254;
-                __res_249[__i_252] = __element_253;
+                bool __element_256;
+                bool __res_257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_255.ToString());
+                __element_256 = __res_257;
+                __res_252[__i_255] = __element_256;
             }
 
-            return __res_249;
+            return __res_252;
         }
 
         public static JSObject ToJS(bool[] input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_255 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_258 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
 
-            for (int __i_256 = 0; __i_256 < input.Length; __i_256++)
+            for (int __i_259 = 0; __i_259 < input.Length; __i_259++)
             {
-                bool __marshalledValue_257;
-                __marshalledValue_257 = input[__i_256];
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_255, __i_256.ToString(), __marshalledValue_257);
+                bool __marshalledValue_260;
+                __marshalledValue_260 = input[__i_259];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_258, __i_259.ToString(), __marshalledValue_260);
             }
 
-            return __res_255;
+            return __res_258;
+        }
+    }
+
+    public class Value_1: global::Iskra.JSCore.Generics.IGenericMarshaller<bool[]>
+    {
+        public static bool[] ToManaged(JSObject input)
+        {
+            double __doubleLength_262 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
+            int __length_263 = global::System.Convert.ToInt32(__doubleLength_262);
+
+            bool[] __res_261 = new bool[__length_263];
+            for (int __i_264 = 0; __i_264 < __length_263; __i_264++)
+            {
+                bool __element_265;
+                bool __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_264.ToString());
+                __element_265 = __res_266;
+                __res_261[__i_264] = __element_265;
+            }
+
+            return __res_261;
+        }
+
+        public static JSObject ToJS(bool[] input)
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_267 = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+
+            for (int __i_268 = 0; __i_268 < input.Length; __i_268++)
+            {
+                bool __marshalledValue_269;
+                __marshalledValue_269 = input[__i_268];
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_267, __i_268.ToString(), __marshalledValue_269);
+            }
+
+            return __res_267;
         }
     }
 }

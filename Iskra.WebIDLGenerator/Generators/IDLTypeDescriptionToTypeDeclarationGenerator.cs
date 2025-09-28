@@ -16,6 +16,11 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MapSingleToManagedType(singleTypeDescription);
         }
 
+        if (input is FrozenArrayTypeDescription frozenArrayTypeDescription)
+        {
+            return MapFrozenArrayToManagedType(frozenArrayTypeDescription, marshalled);
+        }
+
         if (input is SequenceTypeDescription sequenceTypeDescription)
         {
             return MapSequenceToManagedType(sequenceTypeDescription, marshalled);
@@ -39,6 +44,26 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
     {
         var mapped = MapToDotnetType(input.IdlType);
         return MakeNullableIfNeeded(mapped, input.Nullable || input.IdlType == "any");
+    }
+
+
+    private string MapFrozenArrayToManagedType(FrozenArrayTypeDescription input, bool marshalled)
+    {
+        var elementType = input.IdlType.Single();
+        var elementManagedType = Generate(elementType);
+
+        if (marshalled)
+        {
+            return $$"""
+                     {{elementManagedType}}[]
+                     """;
+        }
+
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+
+        return $$"""
+                 global::Iskra.JSCore.Generics.FrozenArray<{{elementManagedType}}, {{marshaller}}>
+                 """;
     }
 
     private string MapSequenceToManagedType(SequenceTypeDescription input, bool marshalled)

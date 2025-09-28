@@ -31,6 +31,18 @@ public class SetPropertyValueGenerator(
             );
         }
 
+        if (type is FrozenArrayTypeDescription frozenArrayTypeDescription)
+        {
+            return GenerateForFrozenArray(
+                inputVar: inputVar,
+                valueVar: valueVar,
+                type: frozenArrayTypeDescription,
+                propertyNameVar: propertyNameVar,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName
+            );
+        }
+
         if (type is SequenceTypeDescription sequenceTypeDescription)
         {
             return GenerateForSequence(
@@ -175,6 +187,57 @@ public class SetPropertyValueGenerator(
         return $$"""
                  {{marshalledTypeDeclaration}} {{marshalledVar}};
                  {{marshaller.ToJS(type, valueVar, marshalledType, marshalledVar)}}
+                 {{setPropertyContent}}
+                 """;
+    }
+
+    private string GenerateForFrozenArray(
+        string inputVar,
+        string valueVar,
+        FrozenArrayTypeDescription type,
+        string propertyNameVar,
+        bool isStatic,
+        string containingTypeName
+    )
+    {
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        string setPropertyContent;
+        if (isStatic)
+        {
+            return $$"""
+                     throw new Exception();
+                     """;
+        }
+        else
+        {
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
+                                   """;
+        }
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     if ({{valueVar}} is null)
+                     {
+                         {{setPropertyVar}} = null;
+                     }
+                     else
+                     {
+                         {{setPropertyVar}} = {{valueVar}}.JSObject;
+                     }
+
+                     {{setPropertyContent}}
+                     """;
+        }
+
+        return $$"""
+                 JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
                  {{setPropertyContent}}
                  """;
     }

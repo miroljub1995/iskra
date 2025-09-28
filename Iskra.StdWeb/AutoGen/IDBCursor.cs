@@ -13,9 +13,9 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_7657;
+            object __res_7750;
             throw new Exception();
-            return __res_7657;
+            return __res_7750;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBCursorDirection __res_7658;
-            JSObject __res_7659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            Iskra.StdWeb.IDBCursorDirection __res_7751;
+            JSObject __res_7752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBCursorDirection } not supported.");
-            return __res_7658;
+            return __res_7751;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7660;
-            JSObject __res_7661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
+            object? __res_7753;
+            JSObject __res_7754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7660;
+            return __res_7753;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7662;
-            JSObject __res_7663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
+            object? __res_7755;
+            JSObject __res_7756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7662;
+            return __res_7755;
         }
     }
 
@@ -56,10 +56,10 @@ public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBRequest __res_7664;
-            JSObject __res_7665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            Iskra.StdWeb.IDBRequest __res_7757;
+            JSObject __res_7758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBRequest } not supported.");
-            return __res_7664;
+            return __res_7757;
         }
     }
 }

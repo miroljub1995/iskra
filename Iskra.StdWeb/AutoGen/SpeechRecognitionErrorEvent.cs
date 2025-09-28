@@ -13,10 +13,10 @@ public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.SpeechRecognitionErrorCode __res_3967;
-            JSObject __res_3968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            Iskra.StdWeb.SpeechRecognitionErrorCode __res_4008;
+            JSObject __res_4009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechRecognitionErrorCode } not supported.");
-            return __res_3967;
+            return __res_4008;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_3969;
-            string __res_3970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_3969 = __res_3970;
-            return __res_3969;
+            string __res_4010;
+            string __res_4011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_4010 = __res_4011;
+            return __res_4010;
         }
     }
 }

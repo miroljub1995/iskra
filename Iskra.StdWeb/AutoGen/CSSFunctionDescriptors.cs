@@ -13,16 +13,16 @@ public partial class CSSFunctionDescriptors(JSObject obj): CSSStyleDeclaration(o
     {
         get
         {
-            string __res_21;
-            string __res_22 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
-            __res_21 = __res_22;
-            return __res_21;
+            string __res_22;
+            string __res_23 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            __res_22 = __res_23;
+            return __res_22;
         }
         set
         {
-            string __marshalledValue_23;
-            __marshalledValue_23 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_23);
+            string __marshalledValue_24;
+            __marshalledValue_24 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_24);
         }
     }
 }

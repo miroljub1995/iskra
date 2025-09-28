@@ -13,10 +13,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PressureSource __res_3656;
-            JSObject __res_3657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            Iskra.StdWeb.PressureSource __res_3693;
+            JSObject __res_3694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } not supported.");
-            return __res_3656;
+            return __res_3693;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PressureState __res_3658;
-            JSObject __res_3659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            Iskra.StdWeb.PressureState __res_3695;
+            JSObject __res_3696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureState } not supported.");
-            return __res_3658;
+            return __res_3695;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3660;
-            double __res_3661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_3660 = __res_3661;
-            return __res_3660;
+            double __res_3697;
+            double __res_3698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_3697 = __res_3698;
+            return __res_3697;
         }
     }
 }

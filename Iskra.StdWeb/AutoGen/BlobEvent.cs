@@ -13,10 +13,10 @@ public partial class BlobEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Blob __res_3840;
-            JSObject __res_3841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            Iskra.StdWeb.Blob __res_3881;
+            JSObject __res_3882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Blob } not supported.");
-            return __res_3840;
+            return __res_3881;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BlobEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_3842;
-            double __res_3843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
-            __res_3842 = __res_3843;
-            return __res_3842;
+            double __res_3883;
+            double __res_3884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
+            __res_3883 = __res_3884;
+            return __res_3883;
         }
     }
 }

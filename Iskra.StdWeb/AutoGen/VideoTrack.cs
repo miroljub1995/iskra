@@ -13,10 +13,10 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5648;
-            string __res_5649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_5648 = __res_5649;
-            return __res_5648;
+            string __res_5727;
+            string __res_5728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_5727 = __res_5728;
+            return __res_5727;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5650;
-            string __res_5651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_5650 = __res_5651;
-            return __res_5650;
+            string __res_5729;
+            string __res_5730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_5729 = __res_5730;
+            return __res_5729;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5652;
-            string __res_5653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_5652 = __res_5653;
-            return __res_5652;
+            string __res_5731;
+            string __res_5732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_5731 = __res_5732;
+            return __res_5731;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5654;
-            string __res_5655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_5654 = __res_5655;
-            return __res_5654;
+            string __res_5733;
+            string __res_5734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_5733 = __res_5734;
+            return __res_5733;
         }
     }
 
@@ -57,16 +57,16 @@ public partial class VideoTrack(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_5656;
-            bool __res_5657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            __res_5656 = __res_5657;
-            return __res_5656;
+            bool __res_5735;
+            bool __res_5736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            __res_5735 = __res_5736;
+            return __res_5735;
         }
         set
         {
-            bool __marshalledValue_5658;
-            __marshalledValue_5658 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_5658);
+            bool __marshalledValue_5737;
+            __marshalledValue_5737 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_5737);
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class Baseline(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7719;
-            string __res_7720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7719 = __res_7720;
-            return __res_7719;
+            string __res_7815;
+            string __res_7816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7815 = __res_7816;
+            return __res_7815;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Baseline(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7721;
-            double __res_7722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_7721 = __res_7722;
-            return __res_7721;
+            double __res_7817;
+            double __res_7818 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_7817 = __res_7818;
+            return __res_7817;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class CSSCustomMediaRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_4341;
-            string __res_4342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4341 = __res_4342;
-            return __res_4341;
+            string __res_4392;
+            string __res_4393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4392 = __res_4393;
+            return __res_4392;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class CSSCustomMediaRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            object __res_4343;
+            object __res_4394;
             throw new Exception();
-            return __res_4343;
+            return __res_4394;
         }
     }
 }

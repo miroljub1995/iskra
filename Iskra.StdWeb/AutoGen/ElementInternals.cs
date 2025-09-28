@@ -13,18 +13,18 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ShadowRoot? __res_6405;
-            JSObject? __res_6406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
-            if (__res_6406 is null)
+            Iskra.StdWeb.ShadowRoot? __res_6484;
+            JSObject? __res_6485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
+            if (__res_6485 is null)
             {
-                __res_6405 = null;
+                __res_6484 = null;
             }
             else
             {
-                JSObject __notNullable_6407 = (JSObject)__res_6406;
+                JSObject __notNullable_6486 = (JSObject)__res_6485;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ShadowRoot } not supported.");
             }
-            return __res_6405;
+            return __res_6484;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_6408;
-            JSObject? __res_6409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6409 is null)
+            Iskra.StdWeb.HTMLFormElement? __res_6487;
+            JSObject? __res_6488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6488 is null)
             {
-                __res_6408 = null;
+                __res_6487 = null;
             }
             else
             {
-                JSObject __notNullable_6410 = (JSObject)__res_6409;
+                JSObject __notNullable_6489 = (JSObject)__res_6488;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
-            return __res_6408;
+            return __res_6487;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6411;
-            bool __res_6412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_6411 = __res_6412;
-            return __res_6411;
+            bool __res_6490;
+            bool __res_6491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_6490 = __res_6491;
+            return __res_6490;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ValidityState __res_6413;
-            JSObject __res_6414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            Iskra.StdWeb.ValidityState __res_6492;
+            JSObject __res_6493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
-            return __res_6413;
+            return __res_6492;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6415;
-            string __res_6416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_6415 = __res_6416;
-            return __res_6415;
+            string __res_6494;
+            string __res_6495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_6494 = __res_6495;
+            return __res_6494;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_6417;
-            JSObject __res_6418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            Iskra.StdWeb.NodeList __res_6496;
+            JSObject __res_6497 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
-            return __res_6417;
+            return __res_6496;
         }
     }
 
@@ -95,10 +95,10 @@ public partial class ElementInternals(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CustomStateSet __res_6419;
-            JSObject __res_6420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
+            Iskra.StdWeb.CustomStateSet __res_6498;
+            JSObject __res_6499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CustomStateSet } not supported.");
-            return __res_6419;
+            return __res_6498;
         }
     }
 }

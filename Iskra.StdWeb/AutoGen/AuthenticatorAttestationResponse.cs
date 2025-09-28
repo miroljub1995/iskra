@@ -13,10 +13,10 @@ public partial class AuthenticatorAttestationResponse(JSObject obj): Authenticat
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2805;
-            JSObject __res_2806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
+            Iskra.JSCore.ArrayBuffer __res_2839;
+            JSObject __res_2840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2805;
+            return __res_2839;
         }
     }
 }

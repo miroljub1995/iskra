@@ -13,10 +13,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            int __res_8312;
-            double __res_8313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pointerId");
-            __res_8312 = Convert.ToInt32(__res_8313);
-            return __res_8312;
+            int __res_8411;
+            double __res_8412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pointerId");
+            __res_8411 = Convert.ToInt32(__res_8412);
+            return __res_8411;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            double __res_8314;
-            double __res_8315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_8314 = __res_8315;
-            return __res_8314;
+            double __res_8413;
+            double __res_8414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_8413 = __res_8414;
+            return __res_8413;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            double __res_8316;
-            double __res_8317 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_8316 = __res_8317;
-            return __res_8316;
+            double __res_8415;
+            double __res_8416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_8415 = __res_8416;
+            return __res_8415;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            float __res_8318;
-            double __res_8319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pressure");
-            __res_8318 = Convert.ToSingle(__res_8319);
-            return __res_8318;
+            float __res_8417;
+            double __res_8418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pressure");
+            __res_8417 = Convert.ToSingle(__res_8418);
+            return __res_8417;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            float __res_8320;
-            double __res_8321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tangentialPressure");
-            __res_8320 = Convert.ToSingle(__res_8321);
-            return __res_8320;
+            float __res_8419;
+            double __res_8420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tangentialPressure");
+            __res_8419 = Convert.ToSingle(__res_8420);
+            return __res_8419;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            int __res_8322;
-            double __res_8323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltX");
-            __res_8322 = Convert.ToInt32(__res_8323);
-            return __res_8322;
+            int __res_8421;
+            double __res_8422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltX");
+            __res_8421 = Convert.ToInt32(__res_8422);
+            return __res_8421;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            int __res_8324;
-            double __res_8325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltY");
-            __res_8324 = Convert.ToInt32(__res_8325);
-            return __res_8324;
+            int __res_8423;
+            double __res_8424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltY");
+            __res_8423 = Convert.ToInt32(__res_8424);
+            return __res_8423;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            int __res_8326;
-            double __res_8327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "twist");
-            __res_8326 = Convert.ToInt32(__res_8327);
-            return __res_8326;
+            int __res_8425;
+            double __res_8426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "twist");
+            __res_8425 = Convert.ToInt32(__res_8426);
+            return __res_8425;
         }
     }
 
@@ -101,10 +101,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            double __res_8328;
-            double __res_8329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
-            __res_8328 = __res_8329;
-            return __res_8328;
+            double __res_8427;
+            double __res_8428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
+            __res_8427 = __res_8428;
+            return __res_8427;
         }
     }
 
@@ -112,10 +112,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            double __res_8330;
-            double __res_8331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
-            __res_8330 = __res_8331;
-            return __res_8330;
+            double __res_8429;
+            double __res_8430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
+            __res_8429 = __res_8430;
+            return __res_8429;
         }
     }
 
@@ -123,10 +123,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            string __res_8332;
-            string __res_8333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pointerType");
-            __res_8332 = __res_8333;
-            return __res_8332;
+            string __res_8431;
+            string __res_8432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pointerType");
+            __res_8431 = __res_8432;
+            return __res_8431;
         }
     }
 
@@ -134,10 +134,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            bool __res_8334;
-            bool __res_8335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            __res_8334 = __res_8335;
-            return __res_8334;
+            bool __res_8433;
+            bool __res_8434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            __res_8433 = __res_8434;
+            return __res_8433;
         }
     }
 
@@ -145,10 +145,10 @@ public partial class PointerEvent(JSObject obj): MouseEvent(obj)
     {
         get
         {
-            int __res_8336;
-            double __res_8337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "persistentDeviceId");
-            __res_8336 = Convert.ToInt32(__res_8337);
-            return __res_8336;
+            int __res_8435;
+            double __res_8436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "persistentDeviceId");
+            __res_8435 = Convert.ToInt32(__res_8436);
+            return __res_8435;
         }
     }
 }

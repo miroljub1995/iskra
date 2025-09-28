@@ -13,10 +13,10 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XREye __res_4198;
-            JSObject __res_4199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
+            Iskra.StdWeb.XREye __res_4241;
+            JSObject __res_4242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XREye } not supported.");
-            return __res_4198;
+            return __res_4241;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_4200;
-            double? __res_4201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
-            if (__res_4201 is null)
+            double? __res_4243;
+            double? __res_4244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
+            if (__res_4244 is null)
             {
-                __res_4200 = null;
+                __res_4243 = null;
             }
             else
             {
-                double __notNullable_4202 = (double)__res_4201;
-                __res_4200 = __notNullable_4202;
+                double __notNullable_4245 = (double)__res_4244;
+                __res_4243 = __notNullable_4245;
             }
-            return __res_4200;
+            return __res_4243;
         }
     }
 }

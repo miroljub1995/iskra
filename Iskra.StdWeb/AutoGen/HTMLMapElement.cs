@@ -13,16 +13,16 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5730;
-            string __res_5731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5730 = __res_5731;
-            return __res_5730;
+            string __res_5809;
+            string __res_5810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5809 = __res_5810;
+            return __res_5809;
         }
         set
         {
-            string __marshalledValue_5732;
-            __marshalledValue_5732 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5732);
+            string __marshalledValue_5811;
+            __marshalledValue_5811 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5811);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5733;
-            JSObject __res_5734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            Iskra.StdWeb.HTMLCollection __res_5812;
+            JSObject __res_5813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_5733;
+            return __res_5812;
         }
     }
 }

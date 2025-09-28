@@ -13,10 +13,10 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.DocumentFragment __res_6334;
-            JSObject __res_6335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "content");
+            Iskra.StdWeb.DocumentFragment __res_6413;
+            JSObject __res_6414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "content");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DocumentFragment } not supported.");
-            return __res_6334;
+            return __res_6413;
         }
     }
 
@@ -24,16 +24,16 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6336;
-            string __res_6337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowRootMode");
-            __res_6336 = __res_6337;
-            return __res_6336;
+            string __res_6415;
+            string __res_6416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowRootMode");
+            __res_6415 = __res_6416;
+            return __res_6415;
         }
         set
         {
-            string __marshalledValue_6338;
-            __marshalledValue_6338 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowRootMode", __marshalledValue_6338);
+            string __marshalledValue_6417;
+            __marshalledValue_6417 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowRootMode", __marshalledValue_6417);
         }
     }
 
@@ -41,16 +41,16 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6339;
-            bool __res_6340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus");
-            __res_6339 = __res_6340;
-            return __res_6339;
+            bool __res_6418;
+            bool __res_6419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus");
+            __res_6418 = __res_6419;
+            return __res_6418;
         }
         set
         {
-            bool __marshalledValue_6341;
-            __marshalledValue_6341 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus", __marshalledValue_6341);
+            bool __marshalledValue_6420;
+            __marshalledValue_6420 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus", __marshalledValue_6420);
         }
     }
 
@@ -58,16 +58,16 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6342;
-            bool __res_6343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootClonable");
-            __res_6342 = __res_6343;
-            return __res_6342;
+            bool __res_6421;
+            bool __res_6422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootClonable");
+            __res_6421 = __res_6422;
+            return __res_6421;
         }
         set
         {
-            bool __marshalledValue_6344;
-            __marshalledValue_6344 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootClonable", __marshalledValue_6344);
+            bool __marshalledValue_6423;
+            __marshalledValue_6423 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootClonable", __marshalledValue_6423);
         }
     }
 
@@ -75,16 +75,16 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6345;
-            bool __res_6346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootSerializable");
-            __res_6345 = __res_6346;
-            return __res_6345;
+            bool __res_6424;
+            bool __res_6425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootSerializable");
+            __res_6424 = __res_6425;
+            return __res_6424;
         }
         set
         {
-            bool __marshalledValue_6347;
-            __marshalledValue_6347 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootSerializable", __marshalledValue_6347);
+            bool __marshalledValue_6426;
+            __marshalledValue_6426 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootSerializable", __marshalledValue_6426);
         }
     }
 
@@ -92,16 +92,16 @@ public partial class HTMLTemplateElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6348;
-            string __res_6349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowRootCustomElementRegistry");
-            __res_6348 = __res_6349;
-            return __res_6348;
+            string __res_6427;
+            string __res_6428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowRootCustomElementRegistry");
+            __res_6427 = __res_6428;
+            return __res_6427;
         }
         set
         {
-            string __marshalledValue_6350;
-            __marshalledValue_6350 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowRootCustomElementRegistry", __marshalledValue_6350);
+            string __marshalledValue_6429;
+            __marshalledValue_6429 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowRootCustomElementRegistry", __marshalledValue_6429);
         }
     }
 }

@@ -13,18 +13,18 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Window? __res_7795;
-            JSObject? __res_7796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_7796 is null)
+            Iskra.StdWeb.Window? __res_7892;
+            JSObject? __res_7893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_7893 is null)
             {
-                __res_7795 = null;
+                __res_7892 = null;
             }
             else
             {
-                JSObject __notNullable_7797 = (JSObject)__res_7796;
+                JSObject __notNullable_7894 = (JSObject)__res_7893;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
-            return __res_7795;
+            return __res_7892;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_7798;
-            double __res_7799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_7798 = Convert.ToInt32(__res_7799);
-            return __res_7798;
+            int __res_7895;
+            double __res_7896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_7895 = Convert.ToInt32(__res_7896);
+            return __res_7895;
         }
     }
 }

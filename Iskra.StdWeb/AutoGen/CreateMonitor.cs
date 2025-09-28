@@ -13,32 +13,32 @@ public partial class CreateMonitor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_196;
-            JSObject? __res_197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress");
-            if (__res_197 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_203;
+            JSObject? __res_204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress");
+            if (__res_204 is null)
             {
-                __res_196 = null;
+                __res_203 = null;
             }
             else
             {
-                JSObject __notNullable_198 = (JSObject)__res_197;
+                JSObject __notNullable_205 = (JSObject)__res_204;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_196;
+            return __res_203;
         }
         set
         {
-            JSObject? __marshalledValue_199;
+            JSObject? __marshalledValue_206;
             if (value is null)
             {
-                __marshalledValue_199 = null;
+                __marshalledValue_206 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_200 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_207 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress", __marshalledValue_199);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress", __marshalledValue_206);
         }
     }
 }

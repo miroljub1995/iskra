@@ -13,16 +13,16 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_32;
-            string __res_33 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
-            __res_32 = __res_33;
-            return __res_32;
+            string __res_33;
+            string __res_34 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
+            __res_33 = __res_34;
+            return __res_33;
         }
         set
         {
-            string __marshalledValue_34;
-            __marshalledValue_34 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_34);
+            string __marshalledValue_35;
+            __marshalledValue_35 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_35);
         }
     }
 
@@ -30,18 +30,18 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSUnparsedValue? __res_35;
-            JSObject? __res_36 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
-            if (__res_36 is null)
+            Iskra.StdWeb.CSSUnparsedValue? __res_36;
+            JSObject? __res_37 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
+            if (__res_37 is null)
             {
-                __res_35 = null;
+                __res_36 = null;
             }
             else
             {
-                JSObject __notNullable_37 = (JSObject)__res_36;
+                JSObject __notNullable_38 = (JSObject)__res_37;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSUnparsedValue } not supported.");
             }
-            return __res_35;
+            return __res_36;
         }
     }
 }

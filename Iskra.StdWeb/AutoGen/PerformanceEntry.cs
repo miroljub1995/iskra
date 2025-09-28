@@ -13,10 +13,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_3724;
-            double __res_3725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "id");
-            __res_3724 = Convert.ToUInt64(__res_3725);
-            return __res_3724;
+            ulong __res_3762;
+            double __res_3763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "id");
+            __res_3762 = Convert.ToUInt64(__res_3763);
+            return __res_3762;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3726;
-            string __res_3727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3726 = __res_3727;
-            return __res_3726;
+            string __res_3764;
+            string __res_3765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3764 = __res_3765;
+            return __res_3764;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3728;
-            string __res_3729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_3728 = __res_3729;
-            return __res_3728;
+            string __res_3766;
+            string __res_3767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_3766 = __res_3767;
+            return __res_3766;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3730;
-            double __res_3731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_3730 = __res_3731;
-            return __res_3730;
+            double __res_3768;
+            double __res_3769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_3768 = __res_3769;
+            return __res_3768;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3732;
-            double __res_3733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_3732 = __res_3733;
-            return __res_3732;
+            double __res_3770;
+            double __res_3771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_3770 = __res_3771;
+            return __res_3770;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class PerformanceEntry(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_3734;
-            double __res_3735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationId");
-            __res_3734 = Convert.ToUInt64(__res_3735);
-            return __res_3734;
+            ulong __res_3772;
+            double __res_3773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationId");
+            __res_3772 = Convert.ToUInt64(__res_3773);
+            return __res_3772;
         }
     }
 }

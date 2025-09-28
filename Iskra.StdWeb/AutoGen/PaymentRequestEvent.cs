@@ -13,10 +13,10 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_764;
-            string __res_765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "topOrigin");
-            __res_764 = __res_765;
-            return __res_764;
+            string __res_777;
+            string __res_778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "topOrigin");
+            __res_777 = __res_778;
+            return __res_777;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_766;
-            string __res_767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestOrigin");
-            __res_766 = __res_767;
-            return __res_766;
+            string __res_779;
+            string __res_780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestOrigin");
+            __res_779 = __res_780;
+            return __res_779;
         }
     }
 
@@ -35,20 +35,22 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_768;
-            string __res_769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestId");
-            __res_768 = __res_769;
-            return __res_768;
+            string __res_781;
+            string __res_782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestId");
+            __res_781 = __res_782;
+            return __res_781;
         }
     }
 
-    public object MethodData
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.Value_7> MethodData
     {
         get
         {
-            object __res_770;
-            throw new Exception();
-            return __res_770;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.Value_7> __res_783;
+            JSObject __propObject_784;
+            __propObject_784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "methodData");
+            __res_783 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.Value_7>(__propObject_784);
+            return __res_783;
         }
     }
 
@@ -56,20 +58,22 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            JSObject __res_771;
-            JSObject __res_772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "total");
-            __res_771 = __res_772;
-            return __res_771;
+            JSObject __res_785;
+            JSObject __res_786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "total");
+            __res_785 = __res_786;
+            return __res_785;
         }
     }
 
-    public object Modifiers
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.Value_8> Modifiers
     {
         get
         {
-            object __res_773;
-            throw new Exception();
-            return __res_773;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.Value_8> __res_787;
+            JSObject __propObject_788;
+            __propObject_788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "modifiers");
+            __res_787 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.Value_8>(__propObject_788);
+            return __res_787;
         }
     }
 
@@ -77,28 +81,35 @@ public partial class PaymentRequestEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            JSObject? __res_774;
-            JSObject? __res_775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "paymentOptions");
-            if (__res_775 is null)
+            JSObject? __res_789;
+            JSObject? __res_790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "paymentOptions");
+            if (__res_790 is null)
             {
-                __res_774 = null;
+                __res_789 = null;
             }
             else
             {
-                JSObject __notNullable_776 = (JSObject)__res_775;
-                __res_774 = __notNullable_776;
+                JSObject __notNullable_791 = (JSObject)__res_790;
+                __res_789 = __notNullable_791;
             }
-            return __res_774;
+            return __res_789;
         }
     }
 
-    public object ShippingOptions
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.Value_9> ShippingOptions
     {
         get
         {
-            object __res_777;
-            throw new Exception();
-            return __res_777;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.Value_9> __res_792;
+            JSObject? __propObject_793;
+            __propObject_793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingOptions");
+            if (__propObject_793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingOptions"); is null)
+            {
+                return null;
+            }
+
+            __res_792 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.Value_9>(__propObject_793);
+            return __res_792;
         }
     }
 }

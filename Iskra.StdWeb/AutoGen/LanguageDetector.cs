@@ -9,13 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
 {
-    public object ExpectedInputLanguages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1> ExpectedInputLanguages
     {
         get
         {
-            object __res_3710;
-            throw new Exception();
-            return __res_3710;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1> __res_3747;
+            JSObject? __propObject_3748;
+            __propObject_3748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_3748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages"); is null)
+            {
+                return null;
+            }
+
+            __res_3747 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_1>(__propObject_3748);
+            return __res_3747;
         }
     }
 
@@ -23,10 +30,10 @@ public partial class LanguageDetector(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3711;
-            double __res_3712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_3711 = __res_3712;
-            return __res_3711;
+            double __res_3749;
+            double __res_3750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_3749 = __res_3750;
+            return __res_3749;
         }
     }
 }

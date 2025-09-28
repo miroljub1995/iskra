@@ -13,20 +13,22 @@ public partial class CSSParserDeclaration(JSObject obj): CSSParserRule(obj)
     {
         get
         {
-            string __res_7442;
-            string __res_7443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7442 = __res_7443;
-            return __res_7442;
+            string __res_7532;
+            string __res_7533 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7532 = __res_7533;
+            return __res_7532;
         }
     }
 
-    public object Body
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> Body
     {
         get
         {
-            object __res_7444;
-            throw new Exception();
-            return __res_7444;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57> __res_7534;
+            JSObject __propObject_7535;
+            __propObject_7535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
+            __res_7534 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Value_57>(__propObject_7535);
+            return __res_7534;
         }
     }
 }

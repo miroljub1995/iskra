@@ -13,10 +13,10 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUDeviceLostReason __res_753;
-            JSObject __res_754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            Iskra.StdWeb.GPUDeviceLostReason __res_766;
+            JSObject __res_767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUDeviceLostReason } not supported.");
-            return __res_753;
+            return __res_766;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUDeviceLostInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_755;
-            string __res_756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_755 = __res_756;
-            return __res_755;
+            string __res_768;
+            string __res_769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_768 = __res_769;
+            return __res_768;
         }
     }
 }

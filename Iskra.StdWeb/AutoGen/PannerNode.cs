@@ -13,16 +13,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.PanningModelType __res_8137;
-            JSObject __res_8138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "panningModel");
+            Iskra.StdWeb.PanningModelType __res_8236;
+            JSObject __res_8237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "panningModel");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PanningModelType } not supported.");
-            return __res_8137;
+            return __res_8236;
         }
         set
         {
-            JSObject __marshalledValue_8139;
+            JSObject __marshalledValue_8238;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PanningModelType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "panningModel", __marshalledValue_8139);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "panningModel", __marshalledValue_8238);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8140;
-            JSObject __res_8141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
+            Iskra.StdWeb.AudioParam __res_8239;
+            JSObject __res_8240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8140;
+            return __res_8239;
         }
     }
 
@@ -41,10 +41,10 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8142;
-            JSObject __res_8143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
+            Iskra.StdWeb.AudioParam __res_8241;
+            JSObject __res_8242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8142;
+            return __res_8241;
         }
     }
 
@@ -52,10 +52,10 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8144;
-            JSObject __res_8145 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
+            Iskra.StdWeb.AudioParam __res_8243;
+            JSObject __res_8244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8144;
+            return __res_8243;
         }
     }
 
@@ -63,10 +63,10 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8146;
-            JSObject __res_8147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationX");
+            Iskra.StdWeb.AudioParam __res_8245;
+            JSObject __res_8246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationX");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8146;
+            return __res_8245;
         }
     }
 
@@ -74,10 +74,10 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8148;
-            JSObject __res_8149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationY");
+            Iskra.StdWeb.AudioParam __res_8247;
+            JSObject __res_8248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationY");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8148;
+            return __res_8247;
         }
     }
 
@@ -85,10 +85,10 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8150;
-            JSObject __res_8151 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationZ");
+            Iskra.StdWeb.AudioParam __res_8249;
+            JSObject __res_8250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationZ");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8150;
+            return __res_8249;
         }
     }
 
@@ -96,16 +96,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.DistanceModelType __res_8152;
-            JSObject __res_8153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "distanceModel");
+            Iskra.StdWeb.DistanceModelType __res_8251;
+            JSObject __res_8252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "distanceModel");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DistanceModelType } not supported.");
-            return __res_8152;
+            return __res_8251;
         }
         set
         {
-            JSObject __marshalledValue_8154;
+            JSObject __marshalledValue_8253;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DistanceModelType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "distanceModel", __marshalledValue_8154);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "distanceModel", __marshalledValue_8253);
         }
     }
 
@@ -113,16 +113,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_8155;
-            double __res_8156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "refDistance");
-            __res_8155 = __res_8156;
-            return __res_8155;
+            double __res_8254;
+            double __res_8255 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "refDistance");
+            __res_8254 = __res_8255;
+            return __res_8254;
         }
         set
         {
-            double __marshalledValue_8157;
-            __marshalledValue_8157 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "refDistance", __marshalledValue_8157);
+            double __marshalledValue_8256;
+            __marshalledValue_8256 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "refDistance", __marshalledValue_8256);
         }
     }
 
@@ -130,16 +130,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_8158;
-            double __res_8159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDistance");
-            __res_8158 = __res_8159;
-            return __res_8158;
+            double __res_8257;
+            double __res_8258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDistance");
+            __res_8257 = __res_8258;
+            return __res_8257;
         }
         set
         {
-            double __marshalledValue_8160;
-            __marshalledValue_8160 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDistance", __marshalledValue_8160);
+            double __marshalledValue_8259;
+            __marshalledValue_8259 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDistance", __marshalledValue_8259);
         }
     }
 
@@ -147,16 +147,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_8161;
-            double __res_8162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rolloffFactor");
-            __res_8161 = __res_8162;
-            return __res_8161;
+            double __res_8260;
+            double __res_8261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rolloffFactor");
+            __res_8260 = __res_8261;
+            return __res_8260;
         }
         set
         {
-            double __marshalledValue_8163;
-            __marshalledValue_8163 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rolloffFactor", __marshalledValue_8163);
+            double __marshalledValue_8262;
+            __marshalledValue_8262 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rolloffFactor", __marshalledValue_8262);
         }
     }
 
@@ -164,16 +164,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_8164;
-            double __res_8165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneInnerAngle");
-            __res_8164 = __res_8165;
-            return __res_8164;
+            double __res_8263;
+            double __res_8264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneInnerAngle");
+            __res_8263 = __res_8264;
+            return __res_8263;
         }
         set
         {
-            double __marshalledValue_8166;
-            __marshalledValue_8166 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneInnerAngle", __marshalledValue_8166);
+            double __marshalledValue_8265;
+            __marshalledValue_8265 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneInnerAngle", __marshalledValue_8265);
         }
     }
 
@@ -181,16 +181,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_8167;
-            double __res_8168 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterAngle");
-            __res_8167 = __res_8168;
-            return __res_8167;
+            double __res_8266;
+            double __res_8267 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterAngle");
+            __res_8266 = __res_8267;
+            return __res_8266;
         }
         set
         {
-            double __marshalledValue_8169;
-            __marshalledValue_8169 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterAngle", __marshalledValue_8169);
+            double __marshalledValue_8268;
+            __marshalledValue_8268 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterAngle", __marshalledValue_8268);
         }
     }
 
@@ -198,16 +198,16 @@ public partial class PannerNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            double __res_8170;
-            double __res_8171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterGain");
-            __res_8170 = __res_8171;
-            return __res_8170;
+            double __res_8269;
+            double __res_8270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterGain");
+            __res_8269 = __res_8270;
+            return __res_8269;
         }
         set
         {
-            double __marshalledValue_8172;
-            __marshalledValue_8172 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterGain", __marshalledValue_8172);
+            double __marshalledValue_8271;
+            __marshalledValue_8271 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterGain", __marshalledValue_8271);
         }
     }
 }

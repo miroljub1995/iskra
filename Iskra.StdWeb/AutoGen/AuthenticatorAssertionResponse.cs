@@ -13,10 +13,10 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2807;
-            JSObject __res_2808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
+            Iskra.JSCore.ArrayBuffer __res_2841;
+            JSObject __res_2842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2807;
+            return __res_2841;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2809;
-            JSObject __res_2810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
+            Iskra.JSCore.ArrayBuffer __res_2843;
+            JSObject __res_2844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2809;
+            return __res_2843;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class AuthenticatorAssertionResponse(JSObject obj): Authenticator
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_2811;
-            JSObject? __res_2812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
-            if (__res_2812 is null)
+            Iskra.JSCore.ArrayBuffer? __res_2845;
+            JSObject? __res_2846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
+            if (__res_2846 is null)
             {
-                __res_2811 = null;
+                __res_2845 = null;
             }
             else
             {
-                JSObject __notNullable_2813 = (JSObject)__res_2812;
+                JSObject __notNullable_2847 = (JSObject)__res_2846;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
-            return __res_2811;
+            return __res_2845;
         }
     }
 }

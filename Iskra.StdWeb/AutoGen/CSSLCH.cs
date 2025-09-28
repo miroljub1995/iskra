@@ -13,20 +13,6 @@ public partial class CSSLCH(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_127;
-            throw new Exception();
-            return __res_127;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object C
-    {
-        get
-        {
             object __res_128;
             throw new Exception();
             return __res_128;
@@ -37,7 +23,7 @@ public partial class CSSLCH(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object H
+    public object C
     {
         get
         {
@@ -51,13 +37,27 @@ public partial class CSSLCH(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public object H
     {
         get
         {
             object __res_130;
             throw new Exception();
             return __res_130;
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Alpha
+    {
+        get
+        {
+            object __res_131;
+            throw new Exception();
+            return __res_131;
         }
         set
         {

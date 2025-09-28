@@ -13,18 +13,18 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1872;
-            string? __res_1873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
-            if (__res_1873 is null)
+            string? __res_1895;
+            string? __res_1896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
+            if (__res_1896 is null)
             {
-                __res_1872 = null;
+                __res_1895 = null;
             }
             else
             {
-                string __notNullable_1874 = (string)__res_1873;
-                __res_1872 = __notNullable_1874;
+                string __notNullable_1897 = (string)__res_1896;
+                __res_1895 = __notNullable_1897;
             }
-            return __res_1872;
+            return __res_1895;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpSender __res_1875;
-            JSObject __res_1876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
+            Iskra.StdWeb.RTCRtpSender __res_1898;
+            JSObject __res_1899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpSender } not supported.");
-            return __res_1875;
+            return __res_1898;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpReceiver __res_1877;
-            JSObject __res_1878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            Iskra.StdWeb.RTCRtpReceiver __res_1900;
+            JSObject __res_1901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpReceiver } not supported.");
-            return __res_1877;
+            return __res_1900;
         }
     }
 
@@ -54,16 +54,16 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiverDirection __res_1879;
-            JSObject __res_1880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            Iskra.StdWeb.RTCRtpTransceiverDirection __res_1902;
+            JSObject __res_1903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiverDirection } not supported.");
-            return __res_1879;
+            return __res_1902;
         }
         set
         {
-            JSObject __marshalledValue_1881;
+            JSObject __marshalledValue_1904;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiverDirection } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "direction", __marshalledValue_1881);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "direction", __marshalledValue_1904);
         }
     }
 
@@ -71,18 +71,18 @@ public partial class RTCRtpTransceiver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiverDirection? __res_1882;
-            JSObject? __res_1883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentDirection");
-            if (__res_1883 is null)
+            Iskra.StdWeb.RTCRtpTransceiverDirection? __res_1905;
+            JSObject? __res_1906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentDirection");
+            if (__res_1906 is null)
             {
-                __res_1882 = null;
+                __res_1905 = null;
             }
             else
             {
-                JSObject __notNullable_1884 = (JSObject)__res_1883;
+                JSObject __notNullable_1907 = (JSObject)__res_1906;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiverDirection } not supported.");
             }
-            return __res_1882;
+            return __res_1905;
         }
     }
 }

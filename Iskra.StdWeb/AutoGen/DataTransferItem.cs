@@ -13,10 +13,10 @@ public partial class DataTransferItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6468;
-            string __res_6469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_6468 = __res_6469;
-            return __res_6468;
+            string __res_6548;
+            string __res_6549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_6548 = __res_6549;
+            return __res_6548;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class DataTransferItem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6470;
-            string __res_6471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6470 = __res_6471;
-            return __res_6470;
+            string __res_6550;
+            string __res_6551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6550 = __res_6551;
+            return __res_6550;
         }
     }
 }

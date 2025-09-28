@@ -13,18 +13,18 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string? __res_3698;
-            string? __res_3699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "start");
-            if (__res_3699 is null)
+            string? __res_3735;
+            string? __res_3736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "start");
+            if (__res_3736 is null)
             {
-                __res_3698 = null;
+                __res_3735 = null;
             }
             else
             {
-                string __notNullable_3700 = (string)__res_3699;
-                __res_3698 = __notNullable_3700;
+                string __notNullable_3737 = (string)__res_3736;
+                __res_3735 = __notNullable_3737;
             }
-            return __res_3698;
+            return __res_3735;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class CSSScopeRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string? __res_3701;
-            string? __res_3702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "end");
-            if (__res_3702 is null)
+            string? __res_3738;
+            string? __res_3739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "end");
+            if (__res_3739 is null)
             {
-                __res_3701 = null;
+                __res_3738 = null;
             }
             else
             {
-                string __notNullable_3703 = (string)__res_3702;
-                __res_3701 = __notNullable_3703;
+                string __notNullable_3740 = (string)__res_3739;
+                __res_3738 = __notNullable_3740;
             }
-            return __res_3701;
+            return __res_3738;
         }
     }
 }

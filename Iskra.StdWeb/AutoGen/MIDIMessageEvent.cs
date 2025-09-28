@@ -13,18 +13,18 @@ public partial class MIDIMessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.Uint8Array? __res_7430;
-            JSObject? __res_7431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_7431 is null)
+            Iskra.JSCore.Uint8Array? __res_7516;
+            JSObject? __res_7517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_7517 is null)
             {
-                __res_7430 = null;
+                __res_7516 = null;
             }
             else
             {
-                JSObject __notNullable_7432 = (JSObject)__res_7431;
+                JSObject __notNullable_7518 = (JSObject)__res_7517;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Uint8Array } not supported.");
             }
-            return __res_7430;
+            return __res_7516;
         }
     }
 }

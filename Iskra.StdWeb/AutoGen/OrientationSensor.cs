@@ -9,13 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class OrientationSensor(JSObject obj): Sensor(obj)
 {
-    public object Quaternion
+    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.Value_5> Quaternion
     {
         get
         {
-            object __res_616;
-            throw new Exception();
-            return __res_616;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.Value_5> __res_627;
+            JSObject? __propObject_628;
+            __propObject_628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "quaternion");
+            if (__propObject_628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "quaternion"); is null)
+            {
+                return null;
+            }
+
+            __res_627 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.Value_5>(__propObject_628);
+            return __res_627;
         }
     }
 }

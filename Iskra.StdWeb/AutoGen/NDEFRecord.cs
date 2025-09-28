@@ -13,10 +13,10 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4564;
-            string __res_4565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recordType");
-            __res_4564 = __res_4565;
-            return __res_4564;
+            string __res_4619;
+            string __res_4620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recordType");
+            __res_4619 = __res_4620;
+            return __res_4619;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4566;
-            string? __res_4567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mediaType");
-            if (__res_4567 is null)
+            string? __res_4621;
+            string? __res_4622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mediaType");
+            if (__res_4622 is null)
             {
-                __res_4566 = null;
+                __res_4621 = null;
             }
             else
             {
-                string __notNullable_4568 = (string)__res_4567;
-                __res_4566 = __notNullable_4568;
+                string __notNullable_4623 = (string)__res_4622;
+                __res_4621 = __notNullable_4623;
             }
-            return __res_4566;
+            return __res_4621;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4569;
-            string? __res_4570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_4570 is null)
+            string? __res_4624;
+            string? __res_4625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
+            if (__res_4625 is null)
             {
-                __res_4569 = null;
+                __res_4624 = null;
             }
             else
             {
-                string __notNullable_4571 = (string)__res_4570;
-                __res_4569 = __notNullable_4571;
+                string __notNullable_4626 = (string)__res_4625;
+                __res_4624 = __notNullable_4626;
             }
-            return __res_4569;
+            return __res_4624;
         }
     }
 
@@ -62,18 +62,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.DataView? __res_4572;
-            JSObject? __res_4573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_4573 is null)
+            Iskra.JSCore.DataView? __res_4627;
+            JSObject? __res_4628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_4628 is null)
             {
-                __res_4572 = null;
+                __res_4627 = null;
             }
             else
             {
-                JSObject __notNullable_4574 = (JSObject)__res_4573;
+                JSObject __notNullable_4629 = (JSObject)__res_4628;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
-            return __res_4572;
+            return __res_4627;
         }
     }
 
@@ -81,18 +81,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4575;
-            string? __res_4576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "encoding");
-            if (__res_4576 is null)
+            string? __res_4630;
+            string? __res_4631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "encoding");
+            if (__res_4631 is null)
             {
-                __res_4575 = null;
+                __res_4630 = null;
             }
             else
             {
-                string __notNullable_4577 = (string)__res_4576;
-                __res_4575 = __notNullable_4577;
+                string __notNullable_4632 = (string)__res_4631;
+                __res_4630 = __notNullable_4632;
             }
-            return __res_4575;
+            return __res_4630;
         }
     }
 
@@ -100,18 +100,18 @@ public partial class NDEFRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4578;
-            string? __res_4579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "lang");
-            if (__res_4579 is null)
+            string? __res_4633;
+            string? __res_4634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "lang");
+            if (__res_4634 is null)
             {
-                __res_4578 = null;
+                __res_4633 = null;
             }
             else
             {
-                string __notNullable_4580 = (string)__res_4579;
-                __res_4578 = __notNullable_4580;
+                string __notNullable_4635 = (string)__res_4634;
+                __res_4633 = __notNullable_4635;
             }
-            return __res_4578;
+            return __res_4633;
         }
     }
 }

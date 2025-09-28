@@ -13,20 +13,6 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
     {
         get
         {
-            object __res_84;
-            throw new Exception();
-            return __res_84;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object Y
-    {
-        get
-        {
             object __res_85;
             throw new Exception();
             return __res_85;
@@ -37,7 +23,7 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Z
+    public object Y
     {
         get
         {
@@ -51,20 +37,34 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSNumericValue Angle
+    public object Z
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_87;
-            JSObject __res_88 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            object __res_87;
+            throw new Exception();
             return __res_87;
         }
         set
         {
-            JSObject __marshalledValue_89;
+            throw new Exception();
+        }
+    }
+
+    public Iskra.StdWeb.CSSNumericValue Angle
+    {
+        get
+        {
+            Iskra.StdWeb.CSSNumericValue __res_88;
+            JSObject __res_89 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            return __res_88;
+        }
+        set
+        {
+            JSObject __marshalledValue_90;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_89);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_90);
         }
     }
 }

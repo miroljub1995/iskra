@@ -13,10 +13,10 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.Clients __res_4456;
-            JSObject __res_4457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clients");
+            Iskra.StdWeb.Clients __res_4508;
+            JSObject __res_4509 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clients");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Clients } not supported.");
-            return __res_4456;
+            return __res_4508;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.ServiceWorkerRegistration __res_4458;
-            JSObject __res_4459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
+            Iskra.StdWeb.ServiceWorkerRegistration __res_4510;
+            JSObject __res_4511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorkerRegistration } not supported.");
-            return __res_4458;
+            return __res_4510;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.ServiceWorker __res_4460;
-            JSObject __res_4461 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
+            Iskra.StdWeb.ServiceWorker __res_4512;
+            JSObject __res_4513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
-            return __res_4460;
+            return __res_4512;
         }
     }
 
@@ -46,32 +46,32 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4462;
-            JSObject? __res_4463 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninstall");
-            if (__res_4463 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4514;
+            JSObject? __res_4515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninstall");
+            if (__res_4515 is null)
             {
-                __res_4462 = null;
+                __res_4514 = null;
             }
             else
             {
-                JSObject __notNullable_4464 = (JSObject)__res_4463;
+                JSObject __notNullable_4516 = (JSObject)__res_4515;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4462;
+            return __res_4514;
         }
         set
         {
-            JSObject? __marshalledValue_4465;
+            JSObject? __marshalledValue_4517;
             if (value is null)
             {
-                __marshalledValue_4465 = null;
+                __marshalledValue_4517 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4466 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4518 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninstall", __marshalledValue_4465);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninstall", __marshalledValue_4517);
         }
     }
 
@@ -79,32 +79,32 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4467;
-            JSObject? __res_4468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate");
-            if (__res_4468 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4519;
+            JSObject? __res_4520 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate");
+            if (__res_4520 is null)
             {
-                __res_4467 = null;
+                __res_4519 = null;
             }
             else
             {
-                JSObject __notNullable_4469 = (JSObject)__res_4468;
+                JSObject __notNullable_4521 = (JSObject)__res_4520;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4467;
+            return __res_4519;
         }
         set
         {
-            JSObject? __marshalledValue_4470;
+            JSObject? __marshalledValue_4522;
             if (value is null)
             {
-                __marshalledValue_4470 = null;
+                __marshalledValue_4522 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4471 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4523 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate", __marshalledValue_4470);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate", __marshalledValue_4522);
         }
     }
 
@@ -112,32 +112,32 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4472;
-            JSObject? __res_4473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onfetch");
-            if (__res_4473 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4524;
+            JSObject? __res_4525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onfetch");
+            if (__res_4525 is null)
             {
-                __res_4472 = null;
+                __res_4524 = null;
             }
             else
             {
-                JSObject __notNullable_4474 = (JSObject)__res_4473;
+                JSObject __notNullable_4526 = (JSObject)__res_4525;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4472;
+            return __res_4524;
         }
         set
         {
-            JSObject? __marshalledValue_4475;
+            JSObject? __marshalledValue_4527;
             if (value is null)
             {
-                __marshalledValue_4475 = null;
+                __marshalledValue_4527 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4476 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4528 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfetch", __marshalledValue_4475);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfetch", __marshalledValue_4527);
         }
     }
 
@@ -145,32 +145,32 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4477;
-            JSObject? __res_4478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
-            if (__res_4478 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4529;
+            JSObject? __res_4530 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_4530 is null)
             {
-                __res_4477 = null;
+                __res_4529 = null;
             }
             else
             {
-                JSObject __notNullable_4479 = (JSObject)__res_4478;
+                JSObject __notNullable_4531 = (JSObject)__res_4530;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4477;
+            return __res_4529;
         }
         set
         {
-            JSObject? __marshalledValue_4480;
+            JSObject? __marshalledValue_4532;
             if (value is null)
             {
-                __marshalledValue_4480 = null;
+                __marshalledValue_4532 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4481 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4533 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_4480);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_4532);
         }
     }
 
@@ -178,32 +178,32 @@ public partial class ServiceWorkerGlobalScope(JSObject obj): WorkerGlobalScope(o
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4482;
-            JSObject? __res_4483 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
-            if (__res_4483 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_4534;
+            JSObject? __res_4535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
+            if (__res_4535 is null)
             {
-                __res_4482 = null;
+                __res_4534 = null;
             }
             else
             {
-                JSObject __notNullable_4484 = (JSObject)__res_4483;
+                JSObject __notNullable_4536 = (JSObject)__res_4535;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4482;
+            return __res_4534;
         }
         set
         {
-            JSObject? __marshalledValue_4485;
+            JSObject? __marshalledValue_4537;
             if (value is null)
             {
-                __marshalledValue_4485 = null;
+                __marshalledValue_4537 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4486 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_4538 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror", __marshalledValue_4485);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror", __marshalledValue_4537);
         }
     }
 }

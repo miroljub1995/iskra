@@ -13,10 +13,10 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationNodeList __res_5121;
-            JSObject __res_5122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            Iskra.StdWeb.AnimationNodeList __res_5200;
+            JSObject __res_5201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationNodeList } not supported.");
-            return __res_5121;
+            return __res_5200;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_5123;
-            JSObject? __res_5124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
-            if (__res_5124 is null)
+            Iskra.StdWeb.AnimationEffect? __res_5202;
+            JSObject? __res_5203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_5203 is null)
             {
-                __res_5123 = null;
+                __res_5202 = null;
             }
             else
             {
-                JSObject __notNullable_5125 = (JSObject)__res_5124;
+                JSObject __notNullable_5204 = (JSObject)__res_5203;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } not supported.");
             }
-            return __res_5123;
+            return __res_5202;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class GroupEffect(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_5126;
-            JSObject? __res_5127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
-            if (__res_5127 is null)
+            Iskra.StdWeb.AnimationEffect? __res_5205;
+            JSObject? __res_5206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
+            if (__res_5206 is null)
             {
-                __res_5126 = null;
+                __res_5205 = null;
             }
             else
             {
-                JSObject __notNullable_5128 = (JSObject)__res_5127;
+                JSObject __notNullable_5207 = (JSObject)__res_5206;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } not supported.");
             }
-            return __res_5126;
+            return __res_5205;
         }
     }
 }

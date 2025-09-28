@@ -13,10 +13,10 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6433;
-            string __res_6434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oldState");
-            __res_6433 = __res_6434;
-            return __res_6433;
+            string __res_6512;
+            string __res_6513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oldState");
+            __res_6512 = __res_6513;
+            return __res_6512;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6435;
-            string __res_6436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "newState");
-            __res_6435 = __res_6436;
-            return __res_6435;
+            string __res_6514;
+            string __res_6515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "newState");
+            __res_6514 = __res_6515;
+            return __res_6514;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class ToggleEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.Element? __res_6437;
-            JSObject? __res_6438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_6438 is null)
+            Iskra.StdWeb.Element? __res_6516;
+            JSObject? __res_6517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_6517 is null)
             {
-                __res_6437 = null;
+                __res_6516 = null;
             }
             else
             {
-                JSObject __notNullable_6439 = (JSObject)__res_6438;
+                JSObject __notNullable_6518 = (JSObject)__res_6517;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_6437;
+            return __res_6516;
         }
     }
 }

@@ -13,16 +13,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3447;
-            double __res_3448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_3447 = __res_3448;
-            return __res_3447;
+            double __res_3483;
+            double __res_3484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_3483 = __res_3484;
+            return __res_3483;
         }
         set
         {
-            double __marshalledValue_3449;
-            __marshalledValue_3449 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_3449);
+            double __marshalledValue_3485;
+            __marshalledValue_3485 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_3485);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3450;
-            double __res_3451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_3450 = __res_3451;
-            return __res_3450;
+            double __res_3486;
+            double __res_3487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_3486 = __res_3487;
+            return __res_3486;
         }
         set
         {
-            double __marshalledValue_3452;
-            __marshalledValue_3452 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_3452);
+            double __marshalledValue_3488;
+            __marshalledValue_3488 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_3488);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3453;
-            double __res_3454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_3453 = __res_3454;
-            return __res_3453;
+            double __res_3489;
+            double __res_3490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3489 = __res_3490;
+            return __res_3489;
         }
         set
         {
-            double __marshalledValue_3455;
-            __marshalledValue_3455 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_3455);
+            double __marshalledValue_3491;
+            __marshalledValue_3491 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_3491);
         }
     }
 
@@ -64,16 +64,16 @@ public partial class DOMRect(JSObject obj): DOMRectReadOnly(obj)
     {
         get
         {
-            double __res_3456;
-            double __res_3457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_3456 = __res_3457;
-            return __res_3456;
+            double __res_3492;
+            double __res_3493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3492 = __res_3493;
+            return __res_3492;
         }
         set
         {
-            double __marshalledValue_3458;
-            __marshalledValue_3458 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_3458);
+            double __marshalledValue_3494;
+            __marshalledValue_3494 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_3494);
         }
     }
 }

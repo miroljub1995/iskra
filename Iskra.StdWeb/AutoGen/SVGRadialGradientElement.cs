@@ -13,10 +13,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_498;
-            JSObject __res_499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
+            Iskra.StdWeb.SVGAnimatedLength __res_505;
+            JSObject __res_506 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_498;
+            return __res_505;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_500;
-            JSObject __res_501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
+            Iskra.StdWeb.SVGAnimatedLength __res_507;
+            JSObject __res_508 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_500;
+            return __res_507;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_502;
-            JSObject __res_503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
+            Iskra.StdWeb.SVGAnimatedLength __res_509;
+            JSObject __res_510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_502;
+            return __res_509;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_504;
-            JSObject __res_505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fx");
+            Iskra.StdWeb.SVGAnimatedLength __res_511;
+            JSObject __res_512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fx");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_504;
+            return __res_511;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_506;
-            JSObject __res_507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fy");
+            Iskra.StdWeb.SVGAnimatedLength __res_513;
+            JSObject __res_514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fy");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_506;
+            return __res_513;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class SVGRadialGradientElement(JSObject obj): SVGGradientElement(
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_508;
-            JSObject __res_509 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fr");
+            Iskra.StdWeb.SVGAnimatedLength __res_515;
+            JSObject __res_516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fr");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_508;
+            return __res_515;
         }
     }
 }

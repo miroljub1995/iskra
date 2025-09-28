@@ -13,32 +13,32 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_8182;
-            JSObject? __res_8183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
-            if (__res_8183 is null)
+            Iskra.JSCore.Float32Array? __res_8281;
+            JSObject? __res_8282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
+            if (__res_8282 is null)
             {
-                __res_8182 = null;
+                __res_8281 = null;
             }
             else
             {
-                JSObject __notNullable_8184 = (JSObject)__res_8183;
+                JSObject __notNullable_8283 = (JSObject)__res_8282;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_8182;
+            return __res_8281;
         }
         set
         {
-            JSObject? __marshalledValue_8185;
+            JSObject? __marshalledValue_8284;
             if (value is null)
             {
-                __marshalledValue_8185 = null;
+                __marshalledValue_8284 = null;
             }
             else
             {
-                Iskra.JSCore.Float32Array __notNullable_8186 = (Iskra.JSCore.Float32Array)value;
+                Iskra.JSCore.Float32Array __notNullable_8285 = (Iskra.JSCore.Float32Array)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_8185);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_8284);
         }
     }
 
@@ -46,16 +46,16 @@ public partial class WaveShaperNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            Iskra.StdWeb.OverSampleType __res_8187;
-            JSObject __res_8188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
+            Iskra.StdWeb.OverSampleType __res_8286;
+            JSObject __res_8287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OverSampleType } not supported.");
-            return __res_8187;
+            return __res_8286;
         }
         set
         {
-            JSObject __marshalledValue_8189;
+            JSObject __marshalledValue_8288;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OverSampleType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "oversample", __marshalledValue_8189);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "oversample", __marshalledValue_8288);
         }
     }
 }

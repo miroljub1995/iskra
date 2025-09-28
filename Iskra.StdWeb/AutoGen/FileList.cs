@@ -13,10 +13,10 @@ public partial class FileList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7877;
-            double __res_7878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7877 = Convert.ToUInt32(__res_7878);
-            return __res_7877;
+            uint __res_7974;
+            double __res_7975 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7974 = Convert.ToUInt32(__res_7975);
+            return __res_7974;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class BackgroundFetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            Iskra.StdWeb.BackgroundFetchRegistration __res_3380;
-            JSObject __res_3381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
+            Iskra.StdWeb.BackgroundFetchRegistration __res_3416;
+            JSObject __res_3417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BackgroundFetchRegistration } not supported.");
-            return __res_3380;
+            return __res_3416;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2291;
-            string __res_2292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "propertyName");
-            __res_2291 = __res_2292;
-            return __res_2291;
+            string __res_2319;
+            string __res_2320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "propertyName");
+            __res_2319 = __res_2320;
+            return __res_2319;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_2293;
-            double __res_2294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
-            __res_2293 = __res_2294;
-            return __res_2293;
+            double __res_2321;
+            double __res_2322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
+            __res_2321 = __res_2322;
+            return __res_2321;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class TransitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2295;
-            string __res_2296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
-            __res_2295 = __res_2296;
-            return __res_2295;
+            string __res_2323;
+            string __res_2324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
+            __res_2323 = __res_2324;
+            return __res_2323;
         }
     }
 }

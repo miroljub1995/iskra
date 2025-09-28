@@ -13,32 +13,32 @@ public partial class MIDIInput(JSObject obj): MIDIPort(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_7425;
-            JSObject? __res_7426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage");
-            if (__res_7426 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7511;
+            JSObject? __res_7512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage");
+            if (__res_7512 is null)
             {
-                __res_7425 = null;
+                __res_7511 = null;
             }
             else
             {
-                JSObject __notNullable_7427 = (JSObject)__res_7426;
+                JSObject __notNullable_7513 = (JSObject)__res_7512;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7425;
+            return __res_7511;
         }
         set
         {
-            JSObject? __marshalledValue_7428;
+            JSObject? __marshalledValue_7514;
             if (value is null)
             {
-                __marshalledValue_7428 = null;
+                __marshalledValue_7514 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_7429 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7515 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage", __marshalledValue_7428);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage", __marshalledValue_7514);
         }
     }
 }

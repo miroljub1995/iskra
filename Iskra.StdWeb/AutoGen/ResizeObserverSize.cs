@@ -13,10 +13,10 @@ public partial class ResizeObserverSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4634;
-            double __res_4635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_4634 = __res_4635;
-            return __res_4634;
+            double __res_4693;
+            double __res_4694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
+            __res_4693 = __res_4694;
+            return __res_4693;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ResizeObserverSize(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4636;
-            double __res_4637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_4636 = __res_4637;
-            return __res_4636;
+            double __res_4695;
+            double __res_4696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
+            __res_4695 = __res_4696;
+            return __res_4695;
         }
     }
 }

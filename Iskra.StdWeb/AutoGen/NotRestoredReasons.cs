@@ -13,18 +13,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6694;
-            string? __res_6695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
-            if (__res_6695 is null)
+            string? __res_6774;
+            string? __res_6775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
+            if (__res_6775 is null)
             {
-                __res_6694 = null;
+                __res_6774 = null;
             }
             else
             {
-                string __notNullable_6696 = (string)__res_6695;
-                __res_6694 = __notNullable_6696;
+                string __notNullable_6776 = (string)__res_6775;
+                __res_6774 = __notNullable_6776;
             }
-            return __res_6694;
+            return __res_6774;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6697;
-            string? __res_6698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_6698 is null)
+            string? __res_6777;
+            string? __res_6778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
+            if (__res_6778 is null)
             {
-                __res_6697 = null;
+                __res_6777 = null;
             }
             else
             {
-                string __notNullable_6699 = (string)__res_6698;
-                __res_6697 = __notNullable_6699;
+                string __notNullable_6779 = (string)__res_6778;
+                __res_6777 = __notNullable_6779;
             }
-            return __res_6697;
+            return __res_6777;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6700;
-            string? __res_6701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_6701 is null)
+            string? __res_6780;
+            string? __res_6781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_6781 is null)
             {
-                __res_6700 = null;
+                __res_6780 = null;
             }
             else
             {
-                string __notNullable_6702 = (string)__res_6701;
-                __res_6700 = __notNullable_6702;
+                string __notNullable_6782 = (string)__res_6781;
+                __res_6780 = __notNullable_6782;
             }
-            return __res_6700;
+            return __res_6780;
         }
     }
 
@@ -70,38 +70,52 @@ public partial class NotRestoredReasons(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_6703;
-            string? __res_6704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_6704 is null)
+            string? __res_6783;
+            string? __res_6784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_6784 is null)
             {
-                __res_6703 = null;
+                __res_6783 = null;
             }
             else
             {
-                string __notNullable_6705 = (string)__res_6704;
-                __res_6703 = __notNullable_6705;
+                string __notNullable_6785 = (string)__res_6784;
+                __res_6783 = __notNullable_6785;
             }
-            return __res_6703;
+            return __res_6783;
         }
     }
 
-    public object Reasons
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.Value_53> Reasons
     {
         get
         {
-            object __res_6706;
-            throw new Exception();
-            return __res_6706;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.Value_53> __res_6786;
+            JSObject? __propObject_6787;
+            __propObject_6787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "reasons");
+            if (__propObject_6787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "reasons"); is null)
+            {
+                return null;
+            }
+
+            __res_6786 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.Value_53>(__propObject_6787);
+            return __res_6786;
         }
     }
 
-    public object Children
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.Value_54> Children
     {
         get
         {
-            object __res_6707;
-            throw new Exception();
-            return __res_6707;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.Value_54> __res_6788;
+            JSObject? __propObject_6789;
+            __propObject_6789 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "children");
+            if (__propObject_6789 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "children"); is null)
+            {
+                return null;
+            }
+
+            __res_6788 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.Value_54>(__propObject_6789);
+            return __res_6788;
         }
     }
 }

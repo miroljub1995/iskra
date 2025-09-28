@@ -13,10 +13,10 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.OrientationType __res_7916;
-            JSObject __res_7917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.OrientationType __res_8014;
+            JSObject __res_8015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OrientationType } not supported.");
-            return __res_7916;
+            return __res_8014;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_7918;
-            double __res_7919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_7918 = Convert.ToUInt16(__res_7919);
-            return __res_7918;
+            ushort __res_8016;
+            double __res_8017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_8016 = Convert.ToUInt16(__res_8017);
+            return __res_8016;
         }
     }
 
@@ -35,32 +35,32 @@ public partial class ScreenOrientation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_7920;
-            JSObject? __res_7921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_7921 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_8018;
+            JSObject? __res_8019 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_8019 is null)
             {
-                __res_7920 = null;
+                __res_8018 = null;
             }
             else
             {
-                JSObject __notNullable_7922 = (JSObject)__res_7921;
+                JSObject __notNullable_8020 = (JSObject)__res_8019;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7920;
+            return __res_8018;
         }
         set
         {
-            JSObject? __marshalledValue_7923;
+            JSObject? __marshalledValue_8021;
             if (value is null)
             {
-                __marshalledValue_7923 = null;
+                __marshalledValue_8021 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_7924 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_8022 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_7923);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_8021);
         }
     }
 }

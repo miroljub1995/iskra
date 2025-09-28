@@ -13,16 +13,16 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6919;
-            string __res_6920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
-            __res_6919 = __res_6920;
-            return __res_6919;
+            string __res_7002;
+            string __res_7003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
+            __res_7002 = __res_7003;
+            return __res_7002;
         }
         set
         {
-            string __marshalledValue_6921;
-            __marshalledValue_6921 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cols", __marshalledValue_6921);
+            string __marshalledValue_7004;
+            __marshalledValue_7004 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cols", __marshalledValue_7004);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLFrameSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6922;
-            string __res_6923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
-            __res_6922 = __res_6923;
-            return __res_6922;
+            string __res_7005;
+            string __res_7006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
+            __res_7005 = __res_7006;
+            return __res_7005;
         }
         set
         {
-            string __marshalledValue_6924;
-            __marshalledValue_6924 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rows", __marshalledValue_6924);
+            string __marshalledValue_7007;
+            __marshalledValue_7007 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rows", __marshalledValue_7007);
         }
     }
 }

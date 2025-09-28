@@ -13,16 +13,16 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6455;
-            string __res_6456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
-            __res_6455 = __res_6456;
-            return __res_6455;
+            string __res_6534;
+            string __res_6535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
+            __res_6534 = __res_6535;
+            return __res_6534;
         }
         set
         {
-            string __marshalledValue_6457;
-            __marshalledValue_6457 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_6457);
+            string __marshalledValue_6536;
+            __marshalledValue_6536 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_6536);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6458;
-            string __res_6459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
-            __res_6458 = __res_6459;
-            return __res_6458;
+            string __res_6537;
+            string __res_6538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
+            __res_6537 = __res_6538;
+            return __res_6537;
         }
         set
         {
-            string __marshalledValue_6460;
-            __marshalledValue_6460 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_6460);
+            string __marshalledValue_6539;
+            __marshalledValue_6539 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_6539);
         }
     }
 
@@ -47,20 +47,22 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DataTransferItemList __res_6461;
-            JSObject __res_6462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
+            Iskra.StdWeb.DataTransferItemList __res_6540;
+            JSObject __res_6541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataTransferItemList } not supported.");
-            return __res_6461;
+            return __res_6540;
         }
     }
 
-    public object Types
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> Types
     {
         get
         {
-            object __res_6463;
-            throw new Exception();
-            return __res_6463;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_6542;
+            JSObject __propObject_6543;
+            __propObject_6543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_6542 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14>(__propObject_6543);
+            return __res_6542;
         }
     }
 
@@ -68,10 +70,10 @@ public partial class DataTransfer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.FileList __res_6464;
-            JSObject __res_6465 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
+            Iskra.StdWeb.FileList __res_6544;
+            JSObject __res_6545 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileList } not supported.");
-            return __res_6464;
+            return __res_6544;
         }
     }
 }

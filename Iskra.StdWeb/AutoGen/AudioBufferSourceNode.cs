@@ -13,32 +13,32 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer? __res_8043;
-            JSObject? __res_8044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
-            if (__res_8044 is null)
+            Iskra.StdWeb.AudioBuffer? __res_8142;
+            JSObject? __res_8143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
+            if (__res_8143 is null)
             {
-                __res_8043 = null;
+                __res_8142 = null;
             }
             else
             {
-                JSObject __notNullable_8045 = (JSObject)__res_8044;
+                JSObject __notNullable_8144 = (JSObject)__res_8143;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
             }
-            return __res_8043;
+            return __res_8142;
         }
         set
         {
-            JSObject? __marshalledValue_8046;
+            JSObject? __marshalledValue_8145;
             if (value is null)
             {
-                __marshalledValue_8046 = null;
+                __marshalledValue_8145 = null;
             }
             else
             {
-                Iskra.StdWeb.AudioBuffer __notNullable_8047 = (Iskra.StdWeb.AudioBuffer)value;
+                Iskra.StdWeb.AudioBuffer __notNullable_8146 = (Iskra.StdWeb.AudioBuffer)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8046);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8145);
         }
     }
 
@@ -46,10 +46,10 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8048;
-            JSObject __res_8049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackRate");
+            Iskra.StdWeb.AudioParam __res_8147;
+            JSObject __res_8148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackRate");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8048;
+            return __res_8147;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8050;
-            JSObject __res_8051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
+            Iskra.StdWeb.AudioParam __res_8149;
+            JSObject __res_8150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8050;
+            return __res_8149;
         }
     }
 
@@ -68,16 +68,16 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            bool __res_8052;
-            bool __res_8053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
-            __res_8052 = __res_8053;
-            return __res_8052;
+            bool __res_8151;
+            bool __res_8152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
+            __res_8151 = __res_8152;
+            return __res_8151;
         }
         set
         {
-            bool __marshalledValue_8054;
-            __marshalledValue_8054 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_8054);
+            bool __marshalledValue_8153;
+            __marshalledValue_8153 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_8153);
         }
     }
 
@@ -85,16 +85,16 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            double __res_8055;
-            double __res_8056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loopStart");
-            __res_8055 = __res_8056;
-            return __res_8055;
+            double __res_8154;
+            double __res_8155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loopStart");
+            __res_8154 = __res_8155;
+            return __res_8154;
         }
         set
         {
-            double __marshalledValue_8057;
-            __marshalledValue_8057 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopStart", __marshalledValue_8057);
+            double __marshalledValue_8156;
+            __marshalledValue_8156 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopStart", __marshalledValue_8156);
         }
     }
 
@@ -102,16 +102,16 @@ public partial class AudioBufferSourceNode(JSObject obj): AudioScheduledSourceNo
     {
         get
         {
-            double __res_8058;
-            double __res_8059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loopEnd");
-            __res_8058 = __res_8059;
-            return __res_8058;
+            double __res_8157;
+            double __res_8158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loopEnd");
+            __res_8157 = __res_8158;
+            return __res_8157;
         }
         set
         {
-            double __marshalledValue_8060;
-            __marshalledValue_8060 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopEnd", __marshalledValue_8060);
+            double __marshalledValue_8159;
+            __marshalledValue_8159 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopEnd", __marshalledValue_8159);
         }
     }
 }

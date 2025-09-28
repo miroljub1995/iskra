@@ -13,18 +13,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_592;
-            double? __res_593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_593 is null)
+            double? __res_603;
+            double? __res_604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_604 is null)
             {
-                __res_592 = null;
+                __res_603 = null;
             }
             else
             {
-                double __notNullable_594 = (double)__res_593;
-                __res_592 = __notNullable_594;
+                double __notNullable_605 = (double)__res_604;
+                __res_603 = __notNullable_605;
             }
-            return __res_592;
+            return __res_603;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_595;
-            double? __res_596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_596 is null)
+            double? __res_606;
+            double? __res_607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_607 is null)
             {
-                __res_595 = null;
+                __res_606 = null;
             }
             else
             {
-                double __notNullable_597 = (double)__res_596;
-                __res_595 = __notNullable_597;
+                double __notNullable_608 = (double)__res_607;
+                __res_606 = __notNullable_608;
             }
-            return __res_595;
+            return __res_606;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_598;
-            double? __res_599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_599 is null)
+            double? __res_609;
+            double? __res_610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_610 is null)
             {
-                __res_598 = null;
+                __res_609 = null;
             }
             else
             {
-                double __notNullable_600 = (double)__res_599;
-                __res_598 = __notNullable_600;
+                double __notNullable_611 = (double)__res_610;
+                __res_609 = __notNullable_611;
             }
-            return __res_598;
+            return __res_609;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_601;
-            double? __res_602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
-            if (__res_602 is null)
+            double? __res_612;
+            double? __res_613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
+            if (__res_613 is null)
             {
-                __res_601 = null;
+                __res_612 = null;
             }
             else
             {
-                double __notNullable_603 = (double)__res_602;
-                __res_601 = __notNullable_603;
+                double __notNullable_614 = (double)__res_613;
+                __res_612 = __notNullable_614;
             }
-            return __res_601;
+            return __res_612;
         }
     }
 
@@ -89,18 +89,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_604;
-            double? __res_605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
-            if (__res_605 is null)
+            double? __res_615;
+            double? __res_616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
+            if (__res_616 is null)
             {
-                __res_604 = null;
+                __res_615 = null;
             }
             else
             {
-                double __notNullable_606 = (double)__res_605;
-                __res_604 = __notNullable_606;
+                double __notNullable_617 = (double)__res_616;
+                __res_615 = __notNullable_617;
             }
-            return __res_604;
+            return __res_615;
         }
     }
 
@@ -108,18 +108,18 @@ public partial class UncalibratedMagnetometer(JSObject obj): Sensor(obj)
     {
         get
         {
-            double? __res_607;
-            double? __res_608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
-            if (__res_608 is null)
+            double? __res_618;
+            double? __res_619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
+            if (__res_619 is null)
             {
-                __res_607 = null;
+                __res_618 = null;
             }
             else
             {
-                double __notNullable_609 = (double)__res_608;
-                __res_607 = __notNullable_609;
+                double __notNullable_620 = (double)__res_619;
+                __res_618 = __notNullable_620;
             }
-            return __res_607;
+            return __res_618;
         }
     }
 }

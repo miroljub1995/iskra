@@ -13,16 +13,16 @@ public partial class CSSKeywordValue(JSObject obj): CSSStyleValue(obj)
     {
         get
         {
-            string __res_38;
-            string __res_39 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_38 = __res_39;
-            return __res_38;
+            string __res_39;
+            string __res_40 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_39 = __res_40;
+            return __res_39;
         }
         set
         {
-            string __marshalledValue_40;
-            __marshalledValue_40 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_40);
+            string __marshalledValue_41;
+            __marshalledValue_41 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_41);
         }
     }
 }

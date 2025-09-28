@@ -13,10 +13,10 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_4219;
-            JSObject __res_4220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            Iskra.StdWeb.XRRigidTransform __res_4262;
+            JSObject __res_4263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
-            return __res_4219;
+            return __res_4262;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly? __res_4221;
-            JSObject? __res_4222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_4222 is null)
+            Iskra.StdWeb.DOMPointReadOnly? __res_4264;
+            JSObject? __res_4265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_4265 is null)
             {
-                __res_4221 = null;
+                __res_4264 = null;
             }
             else
             {
-                JSObject __notNullable_4223 = (JSObject)__res_4222;
+                JSObject __notNullable_4266 = (JSObject)__res_4265;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             }
-            return __res_4221;
+            return __res_4264;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly? __res_4224;
-            JSObject? __res_4225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_4225 is null)
+            Iskra.StdWeb.DOMPointReadOnly? __res_4267;
+            JSObject? __res_4268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_4268 is null)
             {
-                __res_4224 = null;
+                __res_4267 = null;
             }
             else
             {
-                JSObject __notNullable_4226 = (JSObject)__res_4225;
+                JSObject __notNullable_4269 = (JSObject)__res_4268;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
             }
-            return __res_4224;
+            return __res_4267;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class XRPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4227;
-            bool __res_4228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
-            __res_4227 = __res_4228;
-            return __res_4227;
+            bool __res_4270;
+            bool __res_4271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
+            __res_4270 = __res_4271;
+            return __res_4270;
         }
     }
 }

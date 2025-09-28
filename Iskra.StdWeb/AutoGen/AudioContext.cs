@@ -13,10 +13,10 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            double __res_7963;
-            double __res_7964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseLatency");
-            __res_7963 = __res_7964;
-            return __res_7963;
+            double __res_8062;
+            double __res_8063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseLatency");
+            __res_8062 = __res_8063;
+            return __res_8062;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            double __res_7965;
-            double __res_7966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outputLatency");
-            __res_7965 = __res_7966;
-            return __res_7965;
+            double __res_8064;
+            double __res_8065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outputLatency");
+            __res_8064 = __res_8065;
+            return __res_8064;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            object __res_7967;
+            object __res_8066;
             throw new Exception();
-            return __res_7967;
+            return __res_8066;
         }
     }
 
@@ -45,32 +45,32 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_7968;
-            JSObject? __res_7969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange");
-            if (__res_7969 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_8067;
+            JSObject? __res_8068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange");
+            if (__res_8068 is null)
             {
-                __res_7968 = null;
+                __res_8067 = null;
             }
             else
             {
-                JSObject __notNullable_7970 = (JSObject)__res_7969;
+                JSObject __notNullable_8069 = (JSObject)__res_8068;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7968;
+            return __res_8067;
         }
         set
         {
-            JSObject? __marshalledValue_7971;
+            JSObject? __marshalledValue_8070;
             if (value is null)
             {
-                __marshalledValue_7971 = null;
+                __marshalledValue_8070 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_7972 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_8071 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange", __marshalledValue_7971);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange", __marshalledValue_8070);
         }
     }
 
@@ -78,32 +78,32 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_7973;
-            JSObject? __res_7974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_7974 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_8072;
+            JSObject? __res_8073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_8073 is null)
             {
-                __res_7973 = null;
+                __res_8072 = null;
             }
             else
             {
-                JSObject __notNullable_7975 = (JSObject)__res_7974;
+                JSObject __notNullable_8074 = (JSObject)__res_8073;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7973;
+            return __res_8072;
         }
         set
         {
-            JSObject? __marshalledValue_7976;
+            JSObject? __marshalledValue_8075;
             if (value is null)
             {
-                __marshalledValue_7976 = null;
+                __marshalledValue_8075 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_7977 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_8076 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_7976);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_8075);
         }
     }
 }

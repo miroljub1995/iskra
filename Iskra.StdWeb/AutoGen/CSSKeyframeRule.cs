@@ -13,16 +13,16 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2974;
-            string __res_2975 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
-            __res_2974 = __res_2975;
-            return __res_2974;
+            string __res_3009;
+            string __res_3010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
+            __res_3009 = __res_3010;
+            return __res_3009;
         }
         set
         {
-            string __marshalledValue_2976;
-            __marshalledValue_2976 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_2976);
+            string __marshalledValue_3011;
+            __marshalledValue_3011 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_3011);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_2977;
-            JSObject __res_2978 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            Iskra.StdWeb.CSSStyleProperties __res_3012;
+            JSObject __res_3013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleProperties } not supported.");
-            return __res_2977;
+            return __res_3012;
         }
     }
 }

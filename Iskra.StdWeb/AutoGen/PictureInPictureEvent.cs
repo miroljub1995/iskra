@@ -13,10 +13,10 @@ public partial class PictureInPictureEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.PictureInPictureWindow __res_3057;
-            JSObject __res_3058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pictureInPictureWindow");
+            Iskra.StdWeb.PictureInPictureWindow __res_3093;
+            JSObject __res_3094 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pictureInPictureWindow");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PictureInPictureWindow } not supported.");
-            return __res_3057;
+            return __res_3093;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7643;
-            JSObject __res_7644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
+            object? __res_7736;
+            JSObject __res_7737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7643;
+            return __res_7736;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7645;
-            JSObject __res_7646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
+            object? __res_7738;
+            JSObject __res_7739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7645;
+            return __res_7738;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_7647;
-            bool __res_7648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_7647 = __res_7648;
-            return __res_7647;
+            bool __res_7740;
+            bool __res_7741 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_7740 = __res_7741;
+            return __res_7740;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class IDBKeyRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_7649;
-            bool __res_7650 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_7649 = __res_7650;
-            return __res_7649;
+            bool __res_7742;
+            bool __res_7743 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_7742 = __res_7743;
+            return __res_7742;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_953;
-            double __res_954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_953 = __res_954;
-            return __res_953;
+            double __res_969;
+            double __res_970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_969 = __res_970;
+            return __res_969;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Function __res_955;
-            JSObject __res_956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            Iskra.StdWeb.Function __res_971;
+            JSObject __res_972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
-            return __res_955;
+            return __res_971;
         }
     }
 }

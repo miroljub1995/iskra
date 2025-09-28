@@ -13,18 +13,18 @@ public partial class SubmitEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLElement? __res_6280;
-            JSObject? __res_6281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
-            if (__res_6281 is null)
+            Iskra.StdWeb.HTMLElement? __res_6359;
+            JSObject? __res_6360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
+            if (__res_6360 is null)
             {
-                __res_6280 = null;
+                __res_6359 = null;
             }
             else
             {
-                JSObject __notNullable_6282 = (JSObject)__res_6281;
+                JSObject __notNullable_6361 = (JSObject)__res_6360;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
             }
-            return __res_6280;
+            return __res_6359;
         }
     }
 }

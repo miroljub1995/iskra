@@ -13,10 +13,10 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3880;
-            string __res_3881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3880 = __res_3881;
-            return __res_3880;
+            string __res_3921;
+            string __res_3922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3921 = __res_3922;
+            return __res_3921;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.Element __res_3882;
-            JSObject __res_3883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
+            Iskra.StdWeb.Element __res_3923;
+            JSObject __res_3924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
-            return __res_3882;
+            return __res_3923;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object __res_3884;
+            object __res_3925;
             throw new Exception();
-            return __res_3884;
+            return __res_3925;
         }
     }
 }

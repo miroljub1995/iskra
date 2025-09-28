@@ -13,9 +13,9 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2655;
+            object __res_2683;
             throw new Exception();
-            return __res_2655;
+            return __res_2683;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2656;
-            string __res_2657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
-            __res_2656 = __res_2657;
-            return __res_2656;
+            string __res_2684;
+            string __res_2685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
+            __res_2684 = __res_2685;
+            return __res_2684;
         }
     }
 
@@ -34,20 +34,22 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2658;
-            string __res_2659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
-            __res_2658 = __res_2659;
-            return __res_2658;
+            string __res_2686;
+            string __res_2687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
+            __res_2686 = __res_2687;
+            return __res_2686;
         }
     }
 
-    public object Thresholds
+    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.Value_20> Thresholds
     {
         get
         {
-            object __res_2660;
-            throw new Exception();
-            return __res_2660;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.Value_20> __res_2688;
+            JSObject __propObject_2689;
+            __propObject_2689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "thresholds");
+            __res_2688 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.Value_20>(__propObject_2689);
+            return __res_2688;
         }
     }
 
@@ -55,10 +57,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_2661;
-            double __res_2662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
-            __res_2661 = Convert.ToInt32(__res_2662);
-            return __res_2661;
+            int __res_2690;
+            double __res_2691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
+            __res_2690 = Convert.ToInt32(__res_2691);
+            return __res_2690;
         }
     }
 
@@ -66,10 +68,10 @@ public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2663;
-            bool __res_2664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
-            __res_2663 = __res_2664;
-            return __res_2663;
+            bool __res_2692;
+            bool __res_2693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
+            __res_2692 = __res_2693;
+            return __res_2692;
         }
     }
 }

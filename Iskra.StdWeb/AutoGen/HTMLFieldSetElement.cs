@@ -13,16 +13,16 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6236;
-            bool __res_6237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_6236 = __res_6237;
-            return __res_6236;
+            bool __res_6315;
+            bool __res_6316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_6315 = __res_6316;
+            return __res_6315;
         }
         set
         {
-            bool __marshalledValue_6238;
-            __marshalledValue_6238 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6238);
+            bool __marshalledValue_6317;
+            __marshalledValue_6317 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6317);
         }
     }
 
@@ -30,18 +30,18 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_6239;
-            JSObject? __res_6240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6240 is null)
+            Iskra.StdWeb.HTMLFormElement? __res_6318;
+            JSObject? __res_6319 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6319 is null)
             {
-                __res_6239 = null;
+                __res_6318 = null;
             }
             else
             {
-                JSObject __notNullable_6241 = (JSObject)__res_6240;
+                JSObject __notNullable_6320 = (JSObject)__res_6319;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
-            return __res_6239;
+            return __res_6318;
         }
     }
 
@@ -49,16 +49,16 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6242;
-            string __res_6243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6242 = __res_6243;
-            return __res_6242;
+            string __res_6321;
+            string __res_6322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6321 = __res_6322;
+            return __res_6321;
         }
         set
         {
-            string __marshalledValue_6244;
-            __marshalledValue_6244 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6244);
+            string __marshalledValue_6323;
+            __marshalledValue_6323 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6323);
         }
     }
 
@@ -66,10 +66,10 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6245;
-            string __res_6246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6245 = __res_6246;
-            return __res_6245;
+            string __res_6324;
+            string __res_6325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6324 = __res_6325;
+            return __res_6324;
         }
     }
 
@@ -77,10 +77,10 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_6247;
-            JSObject __res_6248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elements");
+            Iskra.StdWeb.HTMLCollection __res_6326;
+            JSObject __res_6327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elements");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_6247;
+            return __res_6326;
         }
     }
 
@@ -88,10 +88,10 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6249;
-            bool __res_6250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_6249 = __res_6250;
-            return __res_6249;
+            bool __res_6328;
+            bool __res_6329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_6328 = __res_6329;
+            return __res_6328;
         }
     }
 
@@ -99,10 +99,10 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.ValidityState __res_6251;
-            JSObject __res_6252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            Iskra.StdWeb.ValidityState __res_6330;
+            JSObject __res_6331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
-            return __res_6251;
+            return __res_6330;
         }
     }
 
@@ -110,10 +110,10 @@ public partial class HTMLFieldSetElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6253;
-            string __res_6254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_6253 = __res_6254;
-            return __res_6253;
+            string __res_6332;
+            string __res_6333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_6332 = __res_6333;
+            return __res_6332;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            byte __res_4976;
-            double __res_4977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceNumber");
-            __res_4976 = Convert.ToByte(__res_4977);
-            return __res_4976;
+            byte __res_5050;
+            double __res_5051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceNumber");
+            __res_5050 = Convert.ToByte(__res_5051);
+            return __res_5050;
         }
     }
 
@@ -24,20 +24,22 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.USBAlternateInterface __res_4978;
-            JSObject __res_4979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
+            Iskra.StdWeb.USBAlternateInterface __res_5052;
+            JSObject __res_5053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBAlternateInterface } not supported.");
-            return __res_4978;
+            return __res_5052;
         }
     }
 
-    public object Alternates
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.Value_49> Alternates
     {
         get
         {
-            object __res_4980;
-            throw new Exception();
-            return __res_4980;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.Value_49> __res_5054;
+            JSObject __propObject_5055;
+            __propObject_5055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternates");
+            __res_5054 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.Value_49>(__propObject_5055);
+            return __res_5054;
         }
     }
 
@@ -45,10 +47,10 @@ public partial class USBInterface(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4981;
-            bool __res_4982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
-            __res_4981 = __res_4982;
-            return __res_4981;
+            bool __res_5056;
+            bool __res_5057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
+            __res_5056 = __res_5057;
+            return __res_5056;
         }
     }
 }

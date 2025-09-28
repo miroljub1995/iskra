@@ -13,10 +13,10 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BaseAudioContext __res_7997;
-            JSObject __res_7998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "context");
+            Iskra.StdWeb.BaseAudioContext __res_8096;
+            JSObject __res_8097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "context");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BaseAudioContext } not supported.");
-            return __res_7997;
+            return __res_8096;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_7999;
-            double __res_8000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfInputs");
-            __res_7999 = Convert.ToUInt32(__res_8000);
-            return __res_7999;
+            uint __res_8098;
+            double __res_8099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfInputs");
+            __res_8098 = Convert.ToUInt32(__res_8099);
+            return __res_8098;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_8001;
-            double __res_8002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfOutputs");
-            __res_8001 = Convert.ToUInt32(__res_8002);
-            return __res_8001;
+            uint __res_8100;
+            double __res_8101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfOutputs");
+            __res_8100 = Convert.ToUInt32(__res_8101);
+            return __res_8100;
         }
     }
 
@@ -46,16 +46,16 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            uint __res_8003;
-            double __res_8004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "channelCount");
-            __res_8003 = Convert.ToUInt32(__res_8004);
-            return __res_8003;
+            uint __res_8102;
+            double __res_8103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "channelCount");
+            __res_8102 = Convert.ToUInt32(__res_8103);
+            return __res_8102;
         }
         set
         {
-            double __marshalledValue_8005;
-            __marshalledValue_8005 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "channelCount", __marshalledValue_8005);
+            double __marshalledValue_8104;
+            __marshalledValue_8104 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "channelCount", __marshalledValue_8104);
         }
     }
 
@@ -63,16 +63,16 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ChannelCountMode __res_8006;
-            JSObject __res_8007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelCountMode");
+            Iskra.StdWeb.ChannelCountMode __res_8105;
+            JSObject __res_8106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelCountMode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChannelCountMode } not supported.");
-            return __res_8006;
+            return __res_8105;
         }
         set
         {
-            JSObject __marshalledValue_8008;
+            JSObject __marshalledValue_8107;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChannelCountMode } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channelCountMode", __marshalledValue_8008);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channelCountMode", __marshalledValue_8107);
         }
     }
 
@@ -80,16 +80,16 @@ public partial class AudioNode(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ChannelInterpretation __res_8009;
-            JSObject __res_8010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelInterpretation");
+            Iskra.StdWeb.ChannelInterpretation __res_8108;
+            JSObject __res_8109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelInterpretation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChannelInterpretation } not supported.");
-            return __res_8009;
+            return __res_8108;
         }
         set
         {
-            JSObject __marshalledValue_8011;
+            JSObject __marshalledValue_8110;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChannelInterpretation } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channelInterpretation", __marshalledValue_8011);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channelInterpretation", __marshalledValue_8110);
         }
     }
 }

@@ -13,20 +13,6 @@ public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_109;
-            throw new Exception();
-            return __res_109;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object G
-    {
-        get
-        {
             object __res_110;
             throw new Exception();
             return __res_110;
@@ -37,7 +23,7 @@ public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object B
+    public object G
     {
         get
         {
@@ -51,13 +37,27 @@ public partial class CSSRGB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public object B
     {
         get
         {
             object __res_112;
             throw new Exception();
             return __res_112;
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Alpha
+    {
+        get
+        {
+            object __res_113;
+            throw new Exception();
+            return __res_113;
         }
         set
         {

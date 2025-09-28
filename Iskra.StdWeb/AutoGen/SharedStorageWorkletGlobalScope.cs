@@ -13,10 +13,10 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
-            Iskra.StdWeb.SharedStorage __res_4095;
-            JSObject __res_4096 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
+            Iskra.StdWeb.SharedStorage __res_4136;
+            JSObject __res_4137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorage } not supported.");
-            return __res_4095;
+            return __res_4136;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation __res_4097;
-            JSObject __res_4098 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
+            Iskra.StdWeb.PrivateAggregation __res_4138;
+            JSObject __res_4139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
-            return __res_4097;
+            return __res_4138;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGloba
     {
         get
         {
-            Iskra.StdWeb.SharedStorageWorkletNavigator __res_4099;
-            JSObject __res_4100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            Iskra.StdWeb.SharedStorageWorkletNavigator __res_4140;
+            JSObject __res_4141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorageWorkletNavigator } not supported.");
-            return __res_4099;
+            return __res_4140;
         }
     }
 }

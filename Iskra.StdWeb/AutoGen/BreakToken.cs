@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
 {
-    public object ChildBreakTokens
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.Value_63> ChildBreakTokens
     {
         get
         {
-            object __res_7773;
-            throw new Exception();
-            return __res_7773;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.Value_63> __res_7869;
+            JSObject __propObject_7870;
+            __propObject_7870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
+            __res_7869 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.Value_63>(__propObject_7870);
+            return __res_7869;
         }
     }
 
@@ -23,10 +25,10 @@ public partial class BreakToken(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7774;
-            JSObject __res_7775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            object? __res_7871;
+            JSObject __res_7872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7774;
+            return __res_7871;
         }
     }
 }

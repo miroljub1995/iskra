@@ -13,10 +13,10 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            Iskra.StdWeb.WebGLTexture __res_1038;
-            JSObject __res_1039 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
+            Iskra.StdWeb.WebGLTexture __res_1054;
+            JSObject __res_1055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
-            return __res_1038;
+            return __res_1054;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            Iskra.StdWeb.XRTextureType __res_1040;
-            JSObject __res_1041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textureType");
+            Iskra.StdWeb.XRTextureType __res_1056;
+            JSObject __res_1057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textureType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRTextureType } not supported.");
-            return __res_1040;
+            return __res_1056;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            uint? __res_1042;
-            double? __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
-            if (__res_1043 is null)
+            uint? __res_1058;
+            double? __res_1059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
+            if (__res_1059 is null)
             {
-                __res_1042 = null;
+                __res_1058 = null;
             }
             else
             {
-                double __notNullable_1044 = (double)__res_1043;
-                __res_1042 = Convert.ToUInt32(__notNullable_1044);
+                double __notNullable_1060 = (double)__res_1059;
+                __res_1058 = Convert.ToUInt32(__notNullable_1060);
             }
-            return __res_1042;
+            return __res_1058;
         }
     }
 }

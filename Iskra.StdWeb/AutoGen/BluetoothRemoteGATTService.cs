@@ -13,10 +13,10 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothDevice __res_2731;
-            JSObject __res_2732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            Iskra.StdWeb.BluetoothDevice __res_2764;
+            JSObject __res_2765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } not supported.");
-            return __res_2731;
+            return __res_2764;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_2733;
-            string __res_2734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_2733 = __res_2734;
-            return __res_2733;
+            string __res_2766;
+            string __res_2767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2766 = __res_2767;
+            return __res_2766;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class BluetoothRemoteGATTService(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_2735;
-            bool __res_2736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            __res_2735 = __res_2736;
-            return __res_2735;
+            bool __res_2768;
+            bool __res_2769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            __res_2768 = __res_2769;
+            return __res_2768;
         }
     }
 }

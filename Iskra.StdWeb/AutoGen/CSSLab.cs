@@ -13,20 +13,6 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_123;
-            throw new Exception();
-            return __res_123;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object A
-    {
-        get
-        {
             object __res_124;
             throw new Exception();
             return __res_124;
@@ -37,7 +23,7 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object B
+    public object A
     {
         get
         {
@@ -51,13 +37,27 @@ public partial class CSSLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public object B
     {
         get
         {
             object __res_126;
             throw new Exception();
             return __res_126;
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Alpha
+    {
+        get
+        {
+            object __res_127;
+            throw new Exception();
+            return __res_127;
         }
         set
         {

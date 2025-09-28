@@ -13,10 +13,10 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6742;
-            double __res_6743 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6742 = Convert.ToUInt32(__res_6743);
-            return __res_6742;
+            uint __res_6824;
+            double __res_6825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6824 = Convert.ToUInt32(__res_6825);
+            return __res_6824;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6744;
-            double __res_6745 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_6744 = Convert.ToUInt32(__res_6745);
-            return __res_6744;
+            uint __res_6826;
+            double __res_6827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_6826 = Convert.ToUInt32(__res_6827);
+            return __res_6826;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6746;
+            object __res_6828;
             throw new Exception();
-            return __res_6746;
+            return __res_6828;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ImageDataPixelFormat __res_6747;
-            JSObject __res_6748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pixelFormat");
+            Iskra.StdWeb.ImageDataPixelFormat __res_6829;
+            JSObject __res_6830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pixelFormat");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageDataPixelFormat } not supported.");
-            return __res_6747;
+            return __res_6829;
         }
     }
 
@@ -56,10 +56,10 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.PredefinedColorSpace __res_6749;
-            JSObject __res_6750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
+            Iskra.StdWeb.PredefinedColorSpace __res_6831;
+            JSObject __res_6832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PredefinedColorSpace } not supported.");
-            return __res_6749;
+            return __res_6831;
         }
     }
 }

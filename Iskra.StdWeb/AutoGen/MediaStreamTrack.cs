@@ -13,10 +13,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3751;
-            string __res_3752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_3751 = __res_3752;
-            return __res_3751;
+            string __res_3790;
+            string __res_3791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_3790 = __res_3791;
+            return __res_3790;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3753;
-            string __res_3754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_3753 = __res_3754;
-            return __res_3753;
+            string __res_3792;
+            string __res_3793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3792 = __res_3793;
+            return __res_3792;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3755;
-            string __res_3756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_3755 = __res_3756;
-            return __res_3755;
+            string __res_3794;
+            string __res_3795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_3794 = __res_3795;
+            return __res_3794;
         }
     }
 
@@ -46,16 +46,16 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3757;
-            bool __res_3758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
-            __res_3757 = __res_3758;
-            return __res_3757;
+            bool __res_3796;
+            bool __res_3797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            __res_3796 = __res_3797;
+            return __res_3796;
         }
         set
         {
-            bool __marshalledValue_3759;
-            __marshalledValue_3759 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_3759);
+            bool __marshalledValue_3798;
+            __marshalledValue_3798 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_3798);
         }
     }
 
@@ -63,10 +63,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3760;
-            bool __res_3761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_3760 = __res_3761;
-            return __res_3760;
+            bool __res_3799;
+            bool __res_3800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_3799 = __res_3800;
+            return __res_3799;
         }
     }
 
@@ -74,32 +74,32 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3762;
-            JSObject? __res_3763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmute");
-            if (__res_3763 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3801;
+            JSObject? __res_3802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmute");
+            if (__res_3802 is null)
             {
-                __res_3762 = null;
+                __res_3801 = null;
             }
             else
             {
-                JSObject __notNullable_3764 = (JSObject)__res_3763;
+                JSObject __notNullable_3803 = (JSObject)__res_3802;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3762;
+            return __res_3801;
         }
         set
         {
-            JSObject? __marshalledValue_3765;
+            JSObject? __marshalledValue_3804;
             if (value is null)
             {
-                __marshalledValue_3765 = null;
+                __marshalledValue_3804 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_3766 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3805 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmute", __marshalledValue_3765);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmute", __marshalledValue_3804);
         }
     }
 
@@ -107,32 +107,32 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3767;
-            JSObject? __res_3768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute");
-            if (__res_3768 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3806;
+            JSObject? __res_3807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute");
+            if (__res_3807 is null)
             {
-                __res_3767 = null;
+                __res_3806 = null;
             }
             else
             {
-                JSObject __notNullable_3769 = (JSObject)__res_3768;
+                JSObject __notNullable_3808 = (JSObject)__res_3807;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3767;
+            return __res_3806;
         }
         set
         {
-            JSObject? __marshalledValue_3770;
+            JSObject? __marshalledValue_3809;
             if (value is null)
             {
-                __marshalledValue_3770 = null;
+                __marshalledValue_3809 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_3771 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3810 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute", __marshalledValue_3770);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute", __marshalledValue_3809);
         }
     }
 
@@ -140,10 +140,10 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrackState __res_3772;
-            JSObject __res_3773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
+            Iskra.StdWeb.MediaStreamTrackState __res_3811;
+            JSObject __res_3812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrackState } not supported.");
-            return __res_3772;
+            return __res_3811;
         }
     }
 
@@ -151,32 +151,32 @@ public partial class MediaStreamTrack(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3774;
-            JSObject? __res_3775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_3775 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_3813;
+            JSObject? __res_3814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_3814 is null)
             {
-                __res_3774 = null;
+                __res_3813 = null;
             }
             else
             {
-                JSObject __notNullable_3776 = (JSObject)__res_3775;
+                JSObject __notNullable_3815 = (JSObject)__res_3814;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3774;
+            return __res_3813;
         }
         set
         {
-            JSObject? __marshalledValue_3777;
+            JSObject? __marshalledValue_3816;
             if (value is null)
             {
-                __marshalledValue_3777 = null;
+                __marshalledValue_3816 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_3778 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_3817 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_3777);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_3816);
         }
     }
 }

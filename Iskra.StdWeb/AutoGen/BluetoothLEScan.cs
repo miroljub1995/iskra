@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
 {
-    public object Filters
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.Value_40> Filters
     {
         get
         {
-            object __res_4705;
-            throw new Exception();
-            return __res_4705;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.Value_40> __res_4767;
+            JSObject __propObject_4768;
+            __propObject_4768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filters");
+            __res_4767 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.Value_40>(__propObject_4768);
+            return __res_4767;
         }
     }
 
@@ -23,10 +25,10 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4706;
-            bool __res_4707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
-            __res_4706 = __res_4707;
-            return __res_4706;
+            bool __res_4769;
+            bool __res_4770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
+            __res_4769 = __res_4770;
+            return __res_4769;
         }
     }
 
@@ -34,10 +36,10 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4708;
-            bool __res_4709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
-            __res_4708 = __res_4709;
-            return __res_4708;
+            bool __res_4771;
+            bool __res_4772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
+            __res_4771 = __res_4772;
+            return __res_4771;
         }
     }
 
@@ -45,10 +47,10 @@ public partial class BluetoothLEScan(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4710;
-            bool __res_4711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_4710 = __res_4711;
-            return __res_4710;
+            bool __res_4773;
+            bool __res_4774 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_4773 = __res_4774;
+            return __res_4773;
         }
     }
 }

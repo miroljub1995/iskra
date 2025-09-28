@@ -13,18 +13,18 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation? __res_3646;
-            JSObject? __res_3647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
-            if (__res_3647 is null)
+            Iskra.StdWeb.PrivateAggregation? __res_3682;
+            JSObject? __res_3683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
+            if (__res_3683 is null)
             {
-                __res_3646 = null;
+                __res_3682 = null;
             }
             else
             {
-                JSObject __notNullable_3648 = (JSObject)__res_3647;
+                JSObject __notNullable_3684 = (JSObject)__res_3683;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
             }
-            return __res_3646;
+            return __res_3682;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjec
     {
         get
         {
-            Iskra.StdWeb.ProtectedAudienceUtilities __res_3649;
-            JSObject __res_3650 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            Iskra.StdWeb.ProtectedAudienceUtilities __res_3685;
+            JSObject __res_3686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ProtectedAudienceUtilities } not supported.");
-            return __res_3649;
+            return __res_3685;
         }
     }
 }

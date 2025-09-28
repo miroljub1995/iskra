@@ -13,16 +13,16 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_7203;
-            string __res_7204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_7203 = __res_7204;
-            return __res_7203;
+            string __res_7289;
+            string __res_7290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_7289 = __res_7290;
+            return __res_7289;
         }
         set
         {
-            string __marshalledValue_7205;
-            __marshalledValue_7205 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7205);
+            string __marshalledValue_7291;
+            __marshalledValue_7291 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7291);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class CSSStyleRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_7206;
-            JSObject __res_7207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            Iskra.StdWeb.CSSStyleProperties __res_7292;
+            JSObject __res_7293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleProperties } not supported.");
-            return __res_7206;
+            return __res_7292;
         }
     }
 }

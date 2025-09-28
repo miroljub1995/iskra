@@ -13,10 +13,10 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_610;
-            string __res_611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_610 = __res_611;
-            return __res_610;
+            string __res_621;
+            string __res_622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_621 = __res_622;
+            return __res_621;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_612;
-            double __res_613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_612 = __res_613;
-            return __res_612;
+            double __res_623;
+            double __res_624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_623 = __res_624;
+            return __res_623;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PerformanceServerTiming(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_614;
-            string __res_615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_614 = __res_615;
-            return __res_614;
+            string __res_625;
+            string __res_626 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_625 = __res_626;
+            return __res_625;
         }
     }
 }

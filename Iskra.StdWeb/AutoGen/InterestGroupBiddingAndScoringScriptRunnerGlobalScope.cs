@@ -13,10 +13,10 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
     {
         get
         {
-            Iskra.StdWeb.ForDebuggingOnly __res_3651;
-            JSObject __res_3652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
+            Iskra.StdWeb.ForDebuggingOnly __res_3687;
+            JSObject __res_3688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ForDebuggingOnly } not supported.");
-            return __res_3651;
+            return __res_3687;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObj
     {
         get
         {
-            Iskra.StdWeb.RealTimeReporting __res_3653;
-            JSObject __res_3654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
+            Iskra.StdWeb.RealTimeReporting __res_3689;
+            JSObject __res_3690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RealTimeReporting } not supported.");
-            return __res_3653;
+            return __res_3689;
         }
     }
 }

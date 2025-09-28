@@ -13,10 +13,10 @@ public partial class SpeechSynthesisErrorEvent(JSObject obj): SpeechSynthesisEve
     {
         get
         {
-            Iskra.StdWeb.SpeechSynthesisErrorCode __res_4073;
-            JSObject __res_4074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            Iskra.StdWeb.SpeechSynthesisErrorCode __res_4114;
+            JSObject __res_4115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechSynthesisErrorCode } not supported.");
-            return __res_4073;
+            return __res_4114;
         }
     }
 }

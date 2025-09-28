@@ -9,17 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class XRPermissionStatus(JSObject obj): PermissionStatus(obj)
 {
-    public object Granted
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> Granted
     {
         get
         {
-            object __res_4275;
-            throw new Exception();
-            return __res_4275;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14> __res_4322;
+            JSObject __propObject_4323;
+            __propObject_4323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "granted");
+            __res_4322 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.Value_14>(__propObject_4323);
+            return __res_4322;
         }
         set
         {
-            throw new Exception();
+            JSObject __propObject_4324 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "granted", __propObject_4324);
         }
     }
 }

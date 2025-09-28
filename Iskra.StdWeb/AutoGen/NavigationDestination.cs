@@ -13,10 +13,10 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6655;
-            string __res_6656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_6655 = __res_6656;
-            return __res_6655;
+            string __res_6735;
+            string __res_6736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_6735 = __res_6736;
+            return __res_6735;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6657;
-            string __res_6658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_6657 = __res_6658;
-            return __res_6657;
+            string __res_6737;
+            string __res_6738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
+            __res_6737 = __res_6738;
+            return __res_6737;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6659;
-            string __res_6660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_6659 = __res_6660;
-            return __res_6659;
+            string __res_6739;
+            string __res_6740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_6739 = __res_6740;
+            return __res_6739;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_6661;
-            double __res_6662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_6661 = Convert.ToInt64(__res_6662);
-            return __res_6661;
+            long __res_6741;
+            double __res_6742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_6741 = Convert.ToInt64(__res_6742);
+            return __res_6741;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class NavigationDestination(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6663;
-            bool __res_6664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
-            __res_6663 = __res_6664;
-            return __res_6663;
+            bool __res_6743;
+            bool __res_6744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            __res_6743 = __res_6744;
+            return __res_6743;
         }
     }
 }

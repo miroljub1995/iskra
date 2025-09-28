@@ -13,10 +13,10 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2796;
-            JSObject __res_2797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
+            Iskra.JSCore.ArrayBuffer __res_2830;
+            JSObject __res_2831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2796;
+            return __res_2830;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            Iskra.StdWeb.AuthenticatorResponse __res_2798;
-            JSObject __res_2799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            Iskra.StdWeb.AuthenticatorResponse __res_2832;
+            JSObject __res_2833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AuthenticatorResponse } not supported.");
-            return __res_2798;
+            return __res_2832;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class PublicKeyCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string? __res_2800;
-            string? __res_2801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
-            if (__res_2801 is null)
+            string? __res_2834;
+            string? __res_2835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
+            if (__res_2835 is null)
             {
-                __res_2800 = null;
+                __res_2834 = null;
             }
             else
             {
-                string __notNullable_2802 = (string)__res_2801;
-                __res_2800 = __notNullable_2802;
+                string __notNullable_2836 = (string)__res_2835;
+                __res_2834 = __notNullable_2836;
             }
-            return __res_2800;
+            return __res_2834;
         }
     }
 }

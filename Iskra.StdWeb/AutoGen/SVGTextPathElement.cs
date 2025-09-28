@@ -13,10 +13,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_438;
-            JSObject __res_439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            Iskra.StdWeb.SVGAnimatedLength __res_445;
+            JSObject __res_446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_438;
+            return __res_445;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_440;
-            JSObject __res_441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_447;
+            JSObject __res_448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_440;
+            return __res_447;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_442;
-            JSObject __res_443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
+            Iskra.StdWeb.SVGAnimatedEnumeration __res_449;
+            JSObject __res_450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_442;
+            return __res_449;
         }
     }
 }

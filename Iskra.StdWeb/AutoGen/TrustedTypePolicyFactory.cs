@@ -13,10 +13,10 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedHTML __res_1051;
-            JSObject __res_1052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
+            Iskra.StdWeb.TrustedHTML __res_1067;
+            JSObject __res_1068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TrustedHTML } not supported.");
-            return __res_1051;
+            return __res_1067;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedScript __res_1053;
-            JSObject __res_1054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
+            Iskra.StdWeb.TrustedScript __res_1069;
+            JSObject __res_1070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TrustedScript } not supported.");
-            return __res_1053;
+            return __res_1069;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class TrustedTypePolicyFactory(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.TrustedTypePolicy? __res_1055;
-            JSObject? __res_1056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
-            if (__res_1056 is null)
+            Iskra.StdWeb.TrustedTypePolicy? __res_1071;
+            JSObject? __res_1072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
+            if (__res_1072 is null)
             {
-                __res_1055 = null;
+                __res_1071 = null;
             }
             else
             {
-                JSObject __notNullable_1057 = (JSObject)__res_1056;
+                JSObject __notNullable_1073 = (JSObject)__res_1072;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TrustedTypePolicy } not supported.");
             }
-            return __res_1055;
+            return __res_1071;
         }
     }
 }

@@ -13,18 +13,18 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRule? __res_7183;
-            JSObject? __res_7184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
-            if (__res_7184 is null)
+            Iskra.StdWeb.CSSRule? __res_7269;
+            JSObject? __res_7270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
+            if (__res_7270 is null)
             {
-                __res_7183 = null;
+                __res_7269 = null;
             }
             else
             {
-                JSObject __notNullable_7185 = (JSObject)__res_7184;
+                JSObject __notNullable_7271 = (JSObject)__res_7270;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
             }
-            return __res_7183;
+            return __res_7269;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CSSStyleSheet(JSObject obj): StyleSheet(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_7186;
-            JSObject __res_7187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            Iskra.StdWeb.CSSRuleList __res_7272;
+            JSObject __res_7273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRuleList } not supported.");
-            return __res_7186;
+            return __res_7272;
         }
     }
 }

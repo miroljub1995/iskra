@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenDetails(JSObject obj): EventTarget(obj)
 {
-    public object Screens
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.Value_23> Screens
     {
         get
         {
-            object __res_2884;
-            throw new Exception();
-            return __res_2884;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.Value_23> __res_2918;
+            JSObject __propObject_2919;
+            __propObject_2919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "screens");
+            __res_2918 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.Value_23>(__propObject_2919);
+            return __res_2918;
         }
     }
 
@@ -23,10 +25,10 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.ScreenDetailed __res_2885;
-            JSObject __res_2886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentScreen");
+            Iskra.StdWeb.ScreenDetailed __res_2920;
+            JSObject __res_2921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentScreen");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScreenDetailed } not supported.");
-            return __res_2885;
+            return __res_2920;
         }
     }
 
@@ -34,32 +36,32 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2887;
-            JSObject? __res_2888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange");
-            if (__res_2888 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2922;
+            JSObject? __res_2923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange");
+            if (__res_2923 is null)
             {
-                __res_2887 = null;
+                __res_2922 = null;
             }
             else
             {
-                JSObject __notNullable_2889 = (JSObject)__res_2888;
+                JSObject __notNullable_2924 = (JSObject)__res_2923;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_2887;
+            return __res_2922;
         }
         set
         {
-            JSObject? __marshalledValue_2890;
+            JSObject? __marshalledValue_2925;
             if (value is null)
             {
-                __marshalledValue_2890 = null;
+                __marshalledValue_2925 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_2891 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2926 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange", __marshalledValue_2890);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange", __marshalledValue_2925);
         }
     }
 
@@ -67,32 +69,32 @@ public partial class ScreenDetails(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2892;
-            JSObject? __res_2893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange");
-            if (__res_2893 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2927;
+            JSObject? __res_2928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange");
+            if (__res_2928 is null)
             {
-                __res_2892 = null;
+                __res_2927 = null;
             }
             else
             {
-                JSObject __notNullable_2894 = (JSObject)__res_2893;
+                JSObject __notNullable_2929 = (JSObject)__res_2928;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_2892;
+            return __res_2927;
         }
         set
         {
-            JSObject? __marshalledValue_2895;
+            JSObject? __marshalledValue_2930;
             if (value is null)
             {
-                __marshalledValue_2895 = null;
+                __marshalledValue_2930 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_2896 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2931 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange", __marshalledValue_2895);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange", __marshalledValue_2930);
         }
     }
 }

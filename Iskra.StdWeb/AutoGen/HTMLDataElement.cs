@@ -13,16 +13,16 @@ public partial class HTMLDataElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5334;
-            string __res_5335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_5334 = __res_5335;
-            return __res_5334;
+            string __res_5413;
+            string __res_5414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5413 = __res_5414;
+            return __res_5413;
         }
         set
         {
-            string __marshalledValue_5336;
-            __marshalledValue_5336 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5336);
+            string __marshalledValue_5415;
+            __marshalledValue_5415 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5415);
         }
     }
 }

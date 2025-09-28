@@ -13,16 +13,16 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7632;
-            string __res_7633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7632 = __res_7633;
-            return __res_7632;
+            string __res_7725;
+            string __res_7726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7725 = __res_7726;
+            return __res_7725;
         }
         set
         {
-            string __marshalledValue_7634;
-            __marshalledValue_7634 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7634);
+            string __marshalledValue_7727;
+            __marshalledValue_7727 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7727);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.IDBObjectStore __res_7635;
-            JSObject __res_7636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
+            Iskra.StdWeb.IDBObjectStore __res_7728;
+            JSObject __res_7729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBObjectStore } not supported.");
-            return __res_7635;
+            return __res_7728;
         }
     }
 
@@ -41,10 +41,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_7637;
-            JSObject __res_7638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            object? __res_7730;
+            JSObject __res_7731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7637;
+            return __res_7730;
         }
     }
 
@@ -52,10 +52,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_7639;
-            bool __res_7640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
-            __res_7639 = __res_7640;
-            return __res_7639;
+            bool __res_7732;
+            bool __res_7733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
+            __res_7732 = __res_7733;
+            return __res_7732;
         }
     }
 
@@ -63,10 +63,10 @@ public partial class IDBIndex(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_7641;
-            bool __res_7642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
-            __res_7641 = __res_7642;
-            return __res_7641;
+            bool __res_7734;
+            bool __res_7735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
+            __res_7734 = __res_7735;
+            return __res_7734;
         }
     }
 }

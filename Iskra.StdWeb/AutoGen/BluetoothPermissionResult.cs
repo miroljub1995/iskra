@@ -9,17 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothPermissionResult(JSObject obj): PermissionStatus(obj)
 {
-    public object Devices
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.Value_22> Devices
     {
         get
         {
-            object __res_2695;
-            throw new Exception();
-            return __res_2695;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.Value_22> __res_2725;
+            JSObject __propObject_2726;
+            __propObject_2726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devices");
+            __res_2725 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.Value_22>(__propObject_2726);
+            return __res_2725;
         }
         set
         {
-            throw new Exception();
+            JSObject __propObject_2727 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "devices", __propObject_2727);
         }
     }
 }

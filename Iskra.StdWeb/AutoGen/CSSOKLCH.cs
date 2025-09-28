@@ -13,20 +13,6 @@ public partial class CSSOKLCH(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_135;
-            throw new Exception();
-            return __res_135;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object C
-    {
-        get
-        {
             object __res_136;
             throw new Exception();
             return __res_136;
@@ -37,7 +23,7 @@ public partial class CSSOKLCH(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object H
+    public object C
     {
         get
         {
@@ -51,13 +37,27 @@ public partial class CSSOKLCH(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public object H
     {
         get
         {
             object __res_138;
             throw new Exception();
             return __res_138;
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Alpha
+    {
+        get
+        {
+            object __res_139;
+            throw new Exception();
+            return __res_139;
         }
         set
         {

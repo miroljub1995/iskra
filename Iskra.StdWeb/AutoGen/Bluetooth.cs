@@ -13,32 +13,32 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_2687;
-            JSObject? __res_2688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
-            if (__res_2688 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_2717;
+            JSObject? __res_2718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
+            if (__res_2718 is null)
             {
-                __res_2687 = null;
+                __res_2717 = null;
             }
             else
             {
-                JSObject __notNullable_2689 = (JSObject)__res_2688;
+                JSObject __notNullable_2719 = (JSObject)__res_2718;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_2687;
+            return __res_2717;
         }
         set
         {
-            JSObject? __marshalledValue_2690;
+            JSObject? __marshalledValue_2720;
             if (value is null)
             {
-                __marshalledValue_2690 = null;
+                __marshalledValue_2720 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_2691 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_2721 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_2690);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_2720);
         }
     }
 
@@ -46,18 +46,18 @@ public partial class Bluetooth(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.BluetoothDevice? __res_2692;
-            JSObject? __res_2693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
-            if (__res_2693 is null)
+            Iskra.StdWeb.BluetoothDevice? __res_2722;
+            JSObject? __res_2723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
+            if (__res_2723 is null)
             {
-                __res_2692 = null;
+                __res_2722 = null;
             }
             else
             {
-                JSObject __notNullable_2694 = (JSObject)__res_2693;
+                JSObject __notNullable_2724 = (JSObject)__res_2723;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } not supported.");
             }
-            return __res_2692;
+            return __res_2722;
         }
     }
 }

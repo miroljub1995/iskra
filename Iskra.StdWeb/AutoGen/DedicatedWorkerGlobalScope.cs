@@ -13,10 +13,10 @@ public partial class DedicatedWorkerGlobalScope(JSObject obj): WorkerGlobalScope
     {
         get
         {
-            string __res_6841;
-            string __res_6842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6841 = __res_6842;
-            return __res_6841;
+            string __res_6924;
+            string __res_6925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6924 = __res_6925;
+            return __res_6924;
         }
     }
 }

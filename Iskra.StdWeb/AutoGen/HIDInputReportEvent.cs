@@ -13,10 +13,10 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.HIDDevice __res_1450;
-            JSObject __res_1451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            Iskra.StdWeb.HIDDevice __res_1467;
+            JSObject __res_1468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDDevice } not supported.");
-            return __res_1450;
+            return __res_1467;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
-            byte __res_1452;
-            double __res_1453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reportId");
-            __res_1452 = Convert.ToByte(__res_1453);
-            return __res_1452;
+            byte __res_1469;
+            double __res_1470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reportId");
+            __res_1469 = Convert.ToByte(__res_1470);
+            return __res_1469;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class HIDInputReportEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.JSCore.DataView __res_1454;
-            JSObject __res_1455 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            Iskra.JSCore.DataView __res_1471;
+            JSObject __res_1472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
-            return __res_1454;
+            return __res_1471;
         }
     }
 }

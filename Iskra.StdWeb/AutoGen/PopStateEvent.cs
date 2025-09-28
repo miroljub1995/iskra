@@ -13,10 +13,10 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_6670;
-            JSObject __res_6671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            object? __res_6750;
+            JSObject __res_6751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6670;
+            return __res_6750;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PopStateEvent(JSObject obj): Event(obj)
     {
         get
         {
-            bool __res_6672;
-            bool __res_6673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
-            __res_6672 = __res_6673;
-            return __res_6672;
+            bool __res_6752;
+            bool __res_6753 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            __res_6752 = __res_6753;
+            return __res_6752;
         }
     }
 }

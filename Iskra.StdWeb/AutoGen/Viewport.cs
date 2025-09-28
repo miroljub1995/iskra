@@ -9,13 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class Viewport(JSObject obj): JSObjectProxy(obj)
 {
-    public object Segments
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.Value_64> Segments
     {
         get
         {
-            object __res_7915;
-            throw new Exception();
-            return __res_7915;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.Value_64> __res_8012;
+            JSObject? __propObject_8013;
+            __propObject_8013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments");
+            if (__propObject_8013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments"); is null)
+            {
+                return null;
+            }
+
+            __res_8012 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.Value_64>(__propObject_8013);
+            return __res_8012;
         }
     }
 }

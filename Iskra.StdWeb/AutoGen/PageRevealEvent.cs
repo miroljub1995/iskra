@@ -13,18 +13,18 @@ public partial class PageRevealEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.ViewTransition? __res_6684;
-            JSObject? __res_6685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
-            if (__res_6685 is null)
+            Iskra.StdWeb.ViewTransition? __res_6764;
+            JSObject? __res_6765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
+            if (__res_6765 is null)
             {
-                __res_6684 = null;
+                __res_6764 = null;
             }
             else
             {
-                JSObject __notNullable_6686 = (JSObject)__res_6685;
+                JSObject __notNullable_6766 = (JSObject)__res_6765;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransition } not supported.");
             }
-            return __res_6684;
+            return __res_6764;
         }
     }
 }

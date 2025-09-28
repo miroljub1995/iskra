@@ -13,10 +13,10 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1663;
-            double __res_1664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availWidth");
-            __res_1663 = Convert.ToInt32(__res_1664);
-            return __res_1663;
+            int __res_1686;
+            double __res_1687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availWidth");
+            __res_1686 = Convert.ToInt32(__res_1687);
+            return __res_1686;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1665;
-            double __res_1666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availHeight");
-            __res_1665 = Convert.ToInt32(__res_1666);
-            return __res_1665;
+            int __res_1688;
+            double __res_1689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availHeight");
+            __res_1688 = Convert.ToInt32(__res_1689);
+            return __res_1688;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1667;
-            double __res_1668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1667 = Convert.ToInt32(__res_1668);
-            return __res_1667;
+            int __res_1690;
+            double __res_1691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1690 = Convert.ToInt32(__res_1691);
+            return __res_1690;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_1669;
-            double __res_1670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1669 = Convert.ToInt32(__res_1670);
-            return __res_1669;
+            int __res_1692;
+            double __res_1693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1692 = Convert.ToInt32(__res_1693);
+            return __res_1692;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1671;
-            double __res_1672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorDepth");
-            __res_1671 = Convert.ToUInt32(__res_1672);
-            return __res_1671;
+            uint __res_1694;
+            double __res_1695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorDepth");
+            __res_1694 = Convert.ToUInt32(__res_1695);
+            return __res_1694;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class Screen(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1673;
-            double __res_1674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pixelDepth");
-            __res_1673 = Convert.ToUInt32(__res_1674);
-            return __res_1673;
+            uint __res_1696;
+            double __res_1697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pixelDepth");
+            __res_1696 = Convert.ToUInt32(__res_1697);
+            return __res_1696;
         }
     }
 }

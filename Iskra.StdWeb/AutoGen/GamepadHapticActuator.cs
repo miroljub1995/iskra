@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadHapticActuator(JSObject obj): JSObjectProxy(obj)
 {
-    public object Effects
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.Value_44> Effects
     {
         get
         {
-            object __res_4734;
-            throw new Exception();
-            return __res_4734;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.Value_44> __res_4802;
+            JSObject __propObject_4803;
+            __propObject_4803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effects");
+            __res_4802 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.Value_44>(__propObject_4803);
+            return __res_4802;
         }
     }
 }

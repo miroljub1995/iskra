@@ -13,16 +13,16 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7278;
-            string __res_7279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
-            __res_7278 = __res_7279;
-            return __res_7278;
+            string __res_7364;
+            string __res_7365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
+            __res_7364 = __res_7365;
+            return __res_7364;
         }
         set
         {
-            string __marshalledValue_7280;
-            __marshalledValue_7280 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7280);
+            string __marshalledValue_7366;
+            __marshalledValue_7366 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7366);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7281;
-            double __res_7282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7281 = Convert.ToUInt32(__res_7282);
-            return __res_7281;
+            uint __res_7367;
+            double __res_7368 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7367 = Convert.ToUInt32(__res_7368);
+            return __res_7367;
         }
     }
 
@@ -41,18 +41,18 @@ public partial class CSSStyleDeclaration(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSRule? __res_7283;
-            JSObject? __res_7284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
-            if (__res_7284 is null)
+            Iskra.StdWeb.CSSRule? __res_7369;
+            JSObject? __res_7370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
+            if (__res_7370 is null)
             {
-                __res_7283 = null;
+                __res_7369 = null;
             }
             else
             {
-                JSObject __notNullable_7285 = (JSObject)__res_7284;
+                JSObject __notNullable_7371 = (JSObject)__res_7370;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
             }
-            return __res_7283;
+            return __res_7369;
         }
     }
 }

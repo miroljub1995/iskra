@@ -13,16 +13,16 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_1372;
-            string __res_1373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_1372 = __res_1373;
-            return __res_1372;
+            string __res_1388;
+            string __res_1389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_1388 = __res_1389;
+            return __res_1388;
         }
         set
         {
-            string __marshalledValue_1374;
-            __marshalledValue_1374 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_1374);
+            string __marshalledValue_1390;
+            __marshalledValue_1390 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_1390);
         }
     }
 
@@ -30,32 +30,32 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationEffect? __res_1375;
-            JSObject? __res_1376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "effect");
-            if (__res_1376 is null)
+            Iskra.StdWeb.AnimationEffect? __res_1391;
+            JSObject? __res_1392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "effect");
+            if (__res_1392 is null)
             {
-                __res_1375 = null;
+                __res_1391 = null;
             }
             else
             {
-                JSObject __notNullable_1377 = (JSObject)__res_1376;
+                JSObject __notNullable_1393 = (JSObject)__res_1392;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } not supported.");
             }
-            return __res_1375;
+            return __res_1391;
         }
         set
         {
-            JSObject? __marshalledValue_1378;
+            JSObject? __marshalledValue_1394;
             if (value is null)
             {
-                __marshalledValue_1378 = null;
+                __marshalledValue_1394 = null;
             }
             else
             {
-                Iskra.StdWeb.AnimationEffect __notNullable_1379 = (Iskra.StdWeb.AnimationEffect)value;
+                Iskra.StdWeb.AnimationEffect __notNullable_1395 = (Iskra.StdWeb.AnimationEffect)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "effect", __marshalledValue_1378);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "effect", __marshalledValue_1394);
         }
     }
 
@@ -63,111 +63,8 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.AnimationTimeline? __res_1380;
-            JSObject? __res_1381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "timeline");
-            if (__res_1381 is null)
-            {
-                __res_1380 = null;
-            }
-            else
-            {
-                JSObject __notNullable_1382 = (JSObject)__res_1381;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } not supported.");
-            }
-            return __res_1380;
-        }
-        set
-        {
-            JSObject? __marshalledValue_1383;
-            if (value is null)
-            {
-                __marshalledValue_1383 = null;
-            }
-            else
-            {
-                Iskra.StdWeb.AnimationTimeline __notNullable_1384 = (Iskra.StdWeb.AnimationTimeline)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "timeline", __marshalledValue_1383);
-        }
-    }
-
-    public double PlaybackRate
-    {
-        get
-        {
-            double __res_1385;
-            double __res_1386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
-            __res_1385 = __res_1386;
-            return __res_1385;
-        }
-        set
-        {
-            double __marshalledValue_1387;
-            __marshalledValue_1387 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "playbackRate", __marshalledValue_1387);
-        }
-    }
-
-    public Iskra.StdWeb.AnimationPlayState PlayState
-    {
-        get
-        {
-            Iskra.StdWeb.AnimationPlayState __res_1388;
-            JSObject __res_1389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationPlayState } not supported.");
-            return __res_1388;
-        }
-    }
-
-    public Iskra.StdWeb.AnimationReplaceState ReplaceState
-    {
-        get
-        {
-            Iskra.StdWeb.AnimationReplaceState __res_1390;
-            JSObject __res_1391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "replaceState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationReplaceState } not supported.");
-            return __res_1390;
-        }
-    }
-
-    public bool Pending
-    {
-        get
-        {
-            bool __res_1392;
-            bool __res_1393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
-            __res_1392 = __res_1393;
-            return __res_1392;
-        }
-    }
-
-    public object Ready
-    {
-        get
-        {
-            object __res_1394;
-            throw new Exception();
-            return __res_1394;
-        }
-    }
-
-    public object Finished
-    {
-        get
-        {
-            object __res_1395;
-            throw new Exception();
-            return __res_1395;
-        }
-    }
-
-    public Iskra.StdWeb.EventHandlerNonNull? Onfinish
-    {
-        get
-        {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1396;
-            JSObject? __res_1397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onfinish");
+            Iskra.StdWeb.AnimationTimeline? __res_1396;
+            JSObject? __res_1397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "timeline");
             if (__res_1397 is null)
             {
                 __res_1396 = null;
@@ -175,7 +72,7 @@ public partial class Animation(JSObject obj): EventTarget(obj)
             else
             {
                 JSObject __notNullable_1398 = (JSObject)__res_1397;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } not supported.");
             }
             return __res_1396;
         }
@@ -188,10 +85,113 @@ public partial class Animation(JSObject obj): EventTarget(obj)
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_1400 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.AnimationTimeline __notNullable_1400 = (Iskra.StdWeb.AnimationTimeline)value;
+                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "timeline", __marshalledValue_1399);
+        }
+    }
+
+    public double PlaybackRate
+    {
+        get
+        {
+            double __res_1401;
+            double __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
+            __res_1401 = __res_1402;
+            return __res_1401;
+        }
+        set
+        {
+            double __marshalledValue_1403;
+            __marshalledValue_1403 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "playbackRate", __marshalledValue_1403);
+        }
+    }
+
+    public Iskra.StdWeb.AnimationPlayState PlayState
+    {
+        get
+        {
+            Iskra.StdWeb.AnimationPlayState __res_1404;
+            JSObject __res_1405 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playState");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationPlayState } not supported.");
+            return __res_1404;
+        }
+    }
+
+    public Iskra.StdWeb.AnimationReplaceState ReplaceState
+    {
+        get
+        {
+            Iskra.StdWeb.AnimationReplaceState __res_1406;
+            JSObject __res_1407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "replaceState");
+            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationReplaceState } not supported.");
+            return __res_1406;
+        }
+    }
+
+    public bool Pending
+    {
+        get
+        {
+            bool __res_1408;
+            bool __res_1409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
+            __res_1408 = __res_1409;
+            return __res_1408;
+        }
+    }
+
+    public object Ready
+    {
+        get
+        {
+            object __res_1410;
+            throw new Exception();
+            return __res_1410;
+        }
+    }
+
+    public object Finished
+    {
+        get
+        {
+            object __res_1411;
+            throw new Exception();
+            return __res_1411;
+        }
+    }
+
+    public Iskra.StdWeb.EventHandlerNonNull? Onfinish
+    {
+        get
+        {
+            Iskra.StdWeb.EventHandlerNonNull? __res_1412;
+            JSObject? __res_1413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onfinish");
+            if (__res_1413 is null)
+            {
+                __res_1412 = null;
+            }
+            else
+            {
+                JSObject __notNullable_1414 = (JSObject)__res_1413;
+                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+            }
+            return __res_1412;
+        }
+        set
+        {
+            JSObject? __marshalledValue_1415;
+            if (value is null)
+            {
+                __marshalledValue_1415 = null;
+            }
+            else
+            {
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1416 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfinish", __marshalledValue_1399);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfinish", __marshalledValue_1415);
         }
     }
 
@@ -199,32 +199,32 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1401;
-            JSObject? __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncancel");
-            if (__res_1402 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1417;
+            JSObject? __res_1418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncancel");
+            if (__res_1418 is null)
             {
-                __res_1401 = null;
+                __res_1417 = null;
             }
             else
             {
-                JSObject __notNullable_1403 = (JSObject)__res_1402;
+                JSObject __notNullable_1419 = (JSObject)__res_1418;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_1401;
+            return __res_1417;
         }
         set
         {
-            JSObject? __marshalledValue_1404;
+            JSObject? __marshalledValue_1420;
             if (value is null)
             {
-                __marshalledValue_1404 = null;
+                __marshalledValue_1420 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_1405 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1421 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncancel", __marshalledValue_1404);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncancel", __marshalledValue_1420);
         }
     }
 
@@ -232,32 +232,32 @@ public partial class Animation(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1406;
-            JSObject? __res_1407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremove");
-            if (__res_1407 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_1422;
+            JSObject? __res_1423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremove");
+            if (__res_1423 is null)
             {
-                __res_1406 = null;
+                __res_1422 = null;
             }
             else
             {
-                JSObject __notNullable_1408 = (JSObject)__res_1407;
+                JSObject __notNullable_1424 = (JSObject)__res_1423;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_1406;
+            return __res_1422;
         }
         set
         {
-            JSObject? __marshalledValue_1409;
+            JSObject? __marshalledValue_1425;
             if (value is null)
             {
-                __marshalledValue_1409 = null;
+                __marshalledValue_1425 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_1410 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_1426 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremove", __marshalledValue_1409);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremove", __marshalledValue_1425);
         }
     }
 }

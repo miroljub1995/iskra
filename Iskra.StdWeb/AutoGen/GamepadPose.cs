@@ -13,10 +13,10 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2033;
-            bool __res_2034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
-            __res_2033 = __res_2034;
-            return __res_2033;
+            bool __res_2057;
+            bool __res_2058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
+            __res_2057 = __res_2058;
+            return __res_2057;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2035;
-            bool __res_2036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
-            __res_2035 = __res_2036;
-            return __res_2035;
+            bool __res_2059;
+            bool __res_2060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
+            __res_2059 = __res_2060;
+            return __res_2059;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_2037;
-            JSObject? __res_2038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
-            if (__res_2038 is null)
+            Iskra.JSCore.Float32Array? __res_2061;
+            JSObject? __res_2062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
+            if (__res_2062 is null)
             {
-                __res_2037 = null;
+                __res_2061 = null;
             }
             else
             {
-                JSObject __notNullable_2039 = (JSObject)__res_2038;
+                JSObject __notNullable_2063 = (JSObject)__res_2062;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_2037;
+            return __res_2061;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_2040;
-            JSObject? __res_2041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_2041 is null)
+            Iskra.JSCore.Float32Array? __res_2064;
+            JSObject? __res_2065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_2065 is null)
             {
-                __res_2040 = null;
+                __res_2064 = null;
             }
             else
             {
-                JSObject __notNullable_2042 = (JSObject)__res_2041;
+                JSObject __notNullable_2066 = (JSObject)__res_2065;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_2040;
+            return __res_2064;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_2043;
-            JSObject? __res_2044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
-            if (__res_2044 is null)
+            Iskra.JSCore.Float32Array? __res_2067;
+            JSObject? __res_2068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
+            if (__res_2068 is null)
             {
-                __res_2043 = null;
+                __res_2067 = null;
             }
             else
             {
-                JSObject __notNullable_2045 = (JSObject)__res_2044;
+                JSObject __notNullable_2069 = (JSObject)__res_2068;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_2043;
+            return __res_2067;
         }
     }
 
@@ -92,18 +92,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_2046;
-            JSObject? __res_2047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
-            if (__res_2047 is null)
+            Iskra.JSCore.Float32Array? __res_2070;
+            JSObject? __res_2071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
+            if (__res_2071 is null)
             {
-                __res_2046 = null;
+                __res_2070 = null;
             }
             else
             {
-                JSObject __notNullable_2048 = (JSObject)__res_2047;
+                JSObject __notNullable_2072 = (JSObject)__res_2071;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_2046;
+            return __res_2070;
         }
     }
 
@@ -111,18 +111,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_2049;
-            JSObject? __res_2050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_2050 is null)
+            Iskra.JSCore.Float32Array? __res_2073;
+            JSObject? __res_2074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_2074 is null)
             {
-                __res_2049 = null;
+                __res_2073 = null;
             }
             else
             {
-                JSObject __notNullable_2051 = (JSObject)__res_2050;
+                JSObject __notNullable_2075 = (JSObject)__res_2074;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_2049;
+            return __res_2073;
         }
     }
 
@@ -130,18 +130,18 @@ public partial class GamepadPose(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.JSCore.Float32Array? __res_2052;
-            JSObject? __res_2053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
-            if (__res_2053 is null)
+            Iskra.JSCore.Float32Array? __res_2076;
+            JSObject? __res_2077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
+            if (__res_2077 is null)
             {
-                __res_2052 = null;
+                __res_2076 = null;
             }
             else
             {
-                JSObject __notNullable_2054 = (JSObject)__res_2053;
+                JSObject __notNullable_2078 = (JSObject)__res_2077;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
             }
-            return __res_2052;
+            return __res_2076;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.Request __res_3377;
-            JSObject __res_3378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            Iskra.StdWeb.Request __res_3413;
+            JSObject __res_3414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Request } not supported.");
-            return __res_3377;
+            return __res_3413;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3379;
+            object __res_3415;
             throw new Exception();
-            return __res_3379;
+            return __res_3415;
         }
     }
 }

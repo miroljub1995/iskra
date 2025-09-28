@@ -13,10 +13,10 @@ public partial class WritableStreamDefaultController(JSObject obj): JSObjectProx
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_940;
-            JSObject __res_941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            Iskra.StdWeb.AbortSignal __res_956;
+            JSObject __res_957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AbortSignal } not supported.");
-            return __res_940;
+            return __res_956;
         }
     }
 }

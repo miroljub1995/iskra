@@ -13,10 +13,10 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_711;
-            double __res_712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_711 = Convert.ToUInt64(__res_712);
-            return __res_711;
+            ulong __res_723;
+            double __res_724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_723 = Convert.ToUInt64(__res_724);
+            return __res_723;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_713;
-            double __res_714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
-            __res_713 = Convert.ToUInt32(__res_714);
-            return __res_713;
+            uint __res_725;
+            double __res_726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
+            __res_725 = Convert.ToUInt32(__res_726);
+            return __res_725;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class GPUBuffer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.GPUBufferMapState __res_715;
-            JSObject __res_716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapState");
+            Iskra.StdWeb.GPUBufferMapState __res_727;
+            JSObject __res_728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapState");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUBufferMapState } not supported.");
-            return __res_715;
+            return __res_727;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationType __res_6617;
-            JSObject __res_6618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
+            Iskra.StdWeb.NavigationType __res_6697;
+            JSObject __res_6698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
-            return __res_6617;
+            return __res_6697;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_6619;
-            JSObject __res_6620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            Iskra.StdWeb.NavigationHistoryEntry __res_6699;
+            JSObject __res_6700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
-            return __res_6619;
+            return __res_6699;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6621;
+            object __res_6701;
             throw new Exception();
-            return __res_6621;
+            return __res_6701;
         }
     }
 
@@ -45,9 +45,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6622;
+            object __res_6702;
             throw new Exception();
-            return __res_6622;
+            return __res_6702;
         }
     }
 }

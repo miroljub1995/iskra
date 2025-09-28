@@ -13,10 +13,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_8304;
-            string __res_8305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8304 = __res_8305;
-            return __res_8304;
+            string __res_8403;
+            string __res_8404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_8403 = __res_8404;
+            return __res_8403;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_8306;
-            string __res_8307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_8306 = __res_8307;
-            return __res_8306;
+            string __res_8405;
+            string __res_8406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_8405 = __res_8406;
+            return __res_8405;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_8308;
-            string __res_8309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "basePalette");
-            __res_8308 = __res_8309;
-            return __res_8308;
+            string __res_8407;
+            string __res_8408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "basePalette");
+            __res_8407 = __res_8408;
+            return __res_8407;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class CSSFontPaletteValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_8310;
-            string __res_8311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "overrideColors");
-            __res_8310 = __res_8311;
-            return __res_8310;
+            string __res_8409;
+            string __res_8410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "overrideColors");
+            __res_8409 = __res_8410;
+            return __res_8409;
         }
     }
 }

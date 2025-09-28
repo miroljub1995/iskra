@@ -13,10 +13,10 @@ public partial class RTCErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            Iskra.StdWeb.RTCError __res_2031;
-            JSObject __res_2032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            Iskra.StdWeb.RTCError __res_2055;
+            JSObject __res_2056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCError } not supported.");
-            return __res_2031;
+            return __res_2055;
         }
     }
 }

@@ -13,34 +13,20 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_117;
-            JSObject __res_118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "h");
+            Iskra.StdWeb.CSSNumericValue __res_118;
+            JSObject __res_119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "h");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
-            return __res_117;
+            return __res_118;
         }
         set
         {
-            JSObject __marshalledValue_119;
+            JSObject __marshalledValue_120;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "h", __marshalledValue_119);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "h", __marshalledValue_120);
         }
     }
 
     public object W
-    {
-        get
-        {
-            object __res_120;
-            throw new Exception();
-            return __res_120;
-        }
-        set
-        {
-            throw new Exception();
-        }
-    }
-
-    public object B
     {
         get
         {
@@ -54,13 +40,27 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public object B
     {
         get
         {
             object __res_122;
             throw new Exception();
             return __res_122;
+        }
+        set
+        {
+            throw new Exception();
+        }
+    }
+
+    public object Alpha
+    {
+        get
+        {
+            object __res_123;
+            throw new Exception();
+            return __res_123;
         }
         set
         {

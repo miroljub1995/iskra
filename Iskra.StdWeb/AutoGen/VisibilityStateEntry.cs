@@ -13,10 +13,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_6421;
-            string __res_6422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6421 = __res_6422;
-            return __res_6421;
+            string __res_6500;
+            string __res_6501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6500 = __res_6501;
+            return __res_6500;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_6423;
-            string __res_6424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_6423 = __res_6424;
-            return __res_6423;
+            string __res_6502;
+            string __res_6503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_6502 = __res_6503;
+            return __res_6502;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_6425;
-            double __res_6426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_6425 = __res_6426;
-            return __res_6425;
+            double __res_6504;
+            double __res_6505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_6504 = __res_6505;
+            return __res_6504;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class VisibilityStateEntry(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            uint __res_6427;
-            double __res_6428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_6427 = Convert.ToUInt32(__res_6428);
-            return __res_6427;
+            uint __res_6506;
+            double __res_6507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_6506 = Convert.ToUInt32(__res_6507);
+            return __res_6506;
         }
     }
 }

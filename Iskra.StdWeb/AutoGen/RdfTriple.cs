@@ -13,10 +13,10 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5028;
-            string __res_5029 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
-            __res_5028 = __res_5029;
-            return __res_5028;
+            string __res_5106;
+            string __res_5107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
+            __res_5106 = __res_5107;
+            return __res_5106;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5030;
-            string __res_5031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
-            __res_5030 = __res_5031;
-            return __res_5030;
+            string __res_5108;
+            string __res_5109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
+            __res_5108 = __res_5109;
+            return __res_5108;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_5032;
+            object __res_5110;
             throw new Exception();
-            return __res_5032;
+            return __res_5110;
         }
     }
 }

@@ -13,18 +13,18 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
-            Iskra.StdWeb.PushSubscription? __res_4892;
-            JSObject? __res_4893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
-            if (__res_4893 is null)
+            Iskra.StdWeb.PushSubscription? __res_4962;
+            JSObject? __res_4963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
+            if (__res_4963 is null)
             {
-                __res_4892 = null;
+                __res_4962 = null;
             }
             else
             {
-                JSObject __notNullable_4894 = (JSObject)__res_4893;
+                JSObject __notNullable_4964 = (JSObject)__res_4963;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
             }
-            return __res_4892;
+            return __res_4962;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(
     {
         get
         {
-            Iskra.StdWeb.PushSubscription? __res_4895;
-            JSObject? __res_4896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
-            if (__res_4896 is null)
+            Iskra.StdWeb.PushSubscription? __res_4965;
+            JSObject? __res_4966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
+            if (__res_4966 is null)
             {
-                __res_4895 = null;
+                __res_4965 = null;
             }
             else
             {
-                JSObject __notNullable_4897 = (JSObject)__res_4896;
+                JSObject __notNullable_4967 = (JSObject)__res_4966;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
             }
-            return __res_4895;
+            return __res_4965;
         }
     }
 }

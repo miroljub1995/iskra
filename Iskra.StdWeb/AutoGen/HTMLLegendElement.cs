@@ -13,18 +13,18 @@ public partial class HTMLLegendElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_6255;
-            JSObject? __res_6256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6256 is null)
+            Iskra.StdWeb.HTMLFormElement? __res_6334;
+            JSObject? __res_6335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6335 is null)
             {
-                __res_6255 = null;
+                __res_6334 = null;
             }
             else
             {
-                JSObject __notNullable_6257 = (JSObject)__res_6256;
+                JSObject __notNullable_6336 = (JSObject)__res_6335;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
-            return __res_6255;
+            return __res_6334;
         }
     }
 }

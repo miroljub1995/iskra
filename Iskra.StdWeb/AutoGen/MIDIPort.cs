@@ -13,10 +13,10 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_7403;
-            string __res_7404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_7403 = __res_7404;
-            return __res_7403;
+            string __res_7489;
+            string __res_7490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_7489 = __res_7490;
+            return __res_7489;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7405;
-            string? __res_7406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturer");
-            if (__res_7406 is null)
+            string? __res_7491;
+            string? __res_7492 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturer");
+            if (__res_7492 is null)
             {
-                __res_7405 = null;
+                __res_7491 = null;
             }
             else
             {
-                string __notNullable_7407 = (string)__res_7406;
-                __res_7405 = __notNullable_7407;
+                string __notNullable_7493 = (string)__res_7492;
+                __res_7491 = __notNullable_7493;
             }
-            return __res_7405;
+            return __res_7491;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7408;
-            string? __res_7409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_7409 is null)
+            string? __res_7494;
+            string? __res_7495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_7495 is null)
             {
-                __res_7408 = null;
+                __res_7494 = null;
             }
             else
             {
-                string __notNullable_7410 = (string)__res_7409;
-                __res_7408 = __notNullable_7410;
+                string __notNullable_7496 = (string)__res_7495;
+                __res_7494 = __notNullable_7496;
             }
-            return __res_7408;
+            return __res_7494;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIPortType __res_7411;
-            JSObject __res_7412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            Iskra.StdWeb.MIDIPortType __res_7497;
+            JSObject __res_7498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortType } not supported.");
-            return __res_7411;
+            return __res_7497;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7413;
-            string? __res_7414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "version");
-            if (__res_7414 is null)
+            string? __res_7499;
+            string? __res_7500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "version");
+            if (__res_7500 is null)
             {
-                __res_7413 = null;
+                __res_7499 = null;
             }
             else
             {
-                string __notNullable_7415 = (string)__res_7414;
-                __res_7413 = __notNullable_7415;
+                string __notNullable_7501 = (string)__res_7500;
+                __res_7499 = __notNullable_7501;
             }
-            return __res_7413;
+            return __res_7499;
         }
     }
 
@@ -92,10 +92,10 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIPortDeviceState __res_7416;
-            JSObject __res_7417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            Iskra.StdWeb.MIDIPortDeviceState __res_7502;
+            JSObject __res_7503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortDeviceState } not supported.");
-            return __res_7416;
+            return __res_7502;
         }
     }
 
@@ -103,10 +103,10 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.MIDIPortConnectionState __res_7418;
-            JSObject __res_7419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
+            Iskra.StdWeb.MIDIPortConnectionState __res_7504;
+            JSObject __res_7505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortConnectionState } not supported.");
-            return __res_7418;
+            return __res_7504;
         }
     }
 
@@ -114,32 +114,32 @@ public partial class MIDIPort(JSObject obj): EventTarget(obj)
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_7420;
-            JSObject? __res_7421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_7421 is null)
+            Iskra.StdWeb.EventHandlerNonNull? __res_7506;
+            JSObject? __res_7507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_7507 is null)
             {
-                __res_7420 = null;
+                __res_7506 = null;
             }
             else
             {
-                JSObject __notNullable_7422 = (JSObject)__res_7421;
+                JSObject __notNullable_7508 = (JSObject)__res_7507;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7420;
+            return __res_7506;
         }
         set
         {
-            JSObject? __marshalledValue_7423;
+            JSObject? __marshalledValue_7509;
             if (value is null)
             {
-                __marshalledValue_7423 = null;
+                __marshalledValue_7509 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_7424 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                Iskra.StdWeb.EventHandlerNonNull __notNullable_7510 = (Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7423);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7509);
         }
     }
 }

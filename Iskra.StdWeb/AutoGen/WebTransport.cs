@@ -13,9 +13,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2156;
+            object __res_2181;
             throw new Exception();
-            return __res_2156;
+            return __res_2181;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportReliabilityMode __res_2157;
-            JSObject __res_2158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reliability");
+            Iskra.StdWeb.WebTransportReliabilityMode __res_2182;
+            JSObject __res_2183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reliability");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportReliabilityMode } not supported.");
-            return __res_2157;
+            return __res_2182;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportCongestionControl __res_2159;
-            JSObject __res_2160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "congestionControl");
+            Iskra.StdWeb.WebTransportCongestionControl __res_2184;
+            JSObject __res_2185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "congestionControl");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportCongestionControl } not supported.");
-            return __res_2159;
+            return __res_2184;
         }
     }
 
@@ -45,32 +45,32 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_2161;
-            double? __res_2162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams");
-            if (__res_2162 is null)
+            ushort? __res_2186;
+            double? __res_2187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams");
+            if (__res_2187 is null)
             {
-                __res_2161 = null;
+                __res_2186 = null;
             }
             else
             {
-                double __notNullable_2163 = (double)__res_2162;
-                __res_2161 = Convert.ToUInt16(__notNullable_2163);
+                double __notNullable_2188 = (double)__res_2187;
+                __res_2186 = Convert.ToUInt16(__notNullable_2188);
             }
-            return __res_2161;
+            return __res_2186;
         }
         set
         {
-            double? __marshalledValue_2164;
+            double? __marshalledValue_2189;
             if (value is null)
             {
-                __marshalledValue_2164 = null;
+                __marshalledValue_2189 = null;
             }
             else
             {
-                ushort __notNullable_2165 = (ushort)value;
-                __marshalledValue_2164 = Convert.ToDouble(__notNullable_2165);
+                ushort __notNullable_2190 = (ushort)value;
+                __marshalledValue_2189 = Convert.ToDouble(__notNullable_2190);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_2164);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_2189);
         }
     }
 
@@ -78,32 +78,32 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort? __res_2166;
-            double? __res_2167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams");
-            if (__res_2167 is null)
+            ushort? __res_2191;
+            double? __res_2192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams");
+            if (__res_2192 is null)
             {
-                __res_2166 = null;
+                __res_2191 = null;
             }
             else
             {
-                double __notNullable_2168 = (double)__res_2167;
-                __res_2166 = Convert.ToUInt16(__notNullable_2168);
+                double __notNullable_2193 = (double)__res_2192;
+                __res_2191 = Convert.ToUInt16(__notNullable_2193);
             }
-            return __res_2166;
+            return __res_2191;
         }
         set
         {
-            double? __marshalledValue_2169;
+            double? __marshalledValue_2194;
             if (value is null)
             {
-                __marshalledValue_2169 = null;
+                __marshalledValue_2194 = null;
             }
             else
             {
-                ushort __notNullable_2170 = (ushort)value;
-                __marshalledValue_2169 = Convert.ToDouble(__notNullable_2170);
+                ushort __notNullable_2195 = (ushort)value;
+                __marshalledValue_2194 = Convert.ToDouble(__notNullable_2195);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_2169);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_2194);
         }
     }
 
@@ -111,10 +111,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2171;
-            string __res_2172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_2171 = __res_2172;
-            return __res_2171;
+            string __res_2196;
+            string __res_2197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_2196 = __res_2197;
+            return __res_2196;
         }
     }
 
@@ -122,9 +122,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2173;
+            object __res_2198;
             throw new Exception();
-            return __res_2173;
+            return __res_2198;
         }
     }
 
@@ -132,9 +132,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2174;
+            object __res_2199;
             throw new Exception();
-            return __res_2174;
+            return __res_2199;
         }
     }
 
@@ -142,10 +142,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportDatagramDuplexStream __res_2175;
-            JSObject __res_2176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
+            Iskra.StdWeb.WebTransportDatagramDuplexStream __res_2200;
+            JSObject __res_2201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportDatagramDuplexStream } not supported.");
-            return __res_2175;
+            return __res_2200;
         }
     }
 
@@ -153,10 +153,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_2177;
-            JSObject __res_2178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
+            Iskra.StdWeb.ReadableStream __res_2202;
+            JSObject __res_2203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
-            return __res_2177;
+            return __res_2202;
         }
     }
 
@@ -164,10 +164,10 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_2179;
-            JSObject __res_2180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
+            Iskra.StdWeb.ReadableStream __res_2204;
+            JSObject __res_2205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
-            return __res_2179;
+            return __res_2204;
         }
     }
 
@@ -175,9 +175,9 @@ public partial class WebTransport(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2181;
+            bool __res_2206;
             throw new Exception();
-            return __res_2181;
+            return __res_2206;
         }
     }
 }

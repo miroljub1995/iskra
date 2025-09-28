@@ -13,10 +13,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_203;
-            JSObject __res_204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            Iskra.StdWeb.WritableStream __res_210;
+            JSObject __res_211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
-            return __res_203;
+            return __res_210;
         }
     }
 
@@ -24,16 +24,16 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_205;
-            bool __res_206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_205 = __res_206;
-            return __res_205;
+            bool __res_212;
+            bool __res_213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_212 = __res_213;
+            return __res_212;
         }
         set
         {
-            bool __marshalledValue_207;
-            __marshalledValue_207 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_207);
+            bool __marshalledValue_214;
+            __marshalledValue_214 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_214);
         }
     }
 
@@ -41,10 +41,10 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_208;
-            JSObject __res_209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            Iskra.StdWeb.MediaStreamTrack __res_215;
+            JSObject __res_216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
-            return __res_208;
+            return __res_215;
         }
     }
 }

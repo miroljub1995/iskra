@@ -13,9 +13,9 @@ public partial class ImageBitmapRenderingContext(JSObject obj): JSObjectProxy(ob
     {
         get
         {
-            object __res_6386;
+            object __res_6465;
             throw new Exception();
-            return __res_6386;
+            return __res_6465;
         }
     }
 }

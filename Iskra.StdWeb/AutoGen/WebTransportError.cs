@@ -13,10 +13,10 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            Iskra.StdWeb.WebTransportErrorSource __res_2195;
-            JSObject __res_2196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            Iskra.StdWeb.WebTransportErrorSource __res_2220;
+            JSObject __res_2221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportErrorSource } not supported.");
-            return __res_2195;
+            return __res_2220;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            uint? __res_2197;
-            double? __res_2198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
-            if (__res_2198 is null)
+            uint? __res_2222;
+            double? __res_2223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
+            if (__res_2223 is null)
             {
-                __res_2197 = null;
+                __res_2222 = null;
             }
             else
             {
-                double __notNullable_2199 = (double)__res_2198;
-                __res_2197 = Convert.ToUInt32(__notNullable_2199);
+                double __notNullable_2224 = (double)__res_2223;
+                __res_2222 = Convert.ToUInt32(__notNullable_2224);
             }
-            return __res_2197;
+            return __res_2222;
         }
     }
 }

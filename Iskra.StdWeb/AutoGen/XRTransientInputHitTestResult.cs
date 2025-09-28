@@ -13,20 +13,22 @@ public partial class XRTransientInputHitTestResult(JSObject obj): JSObjectProxy(
     {
         get
         {
-            Iskra.StdWeb.XRInputSource __res_5112;
-            JSObject __res_5113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            Iskra.StdWeb.XRInputSource __res_5190;
+            JSObject __res_5191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } not supported.");
-            return __res_5112;
+            return __res_5190;
         }
     }
 
-    public object Results
+    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.Value_52> Results
     {
         get
         {
-            object __res_5114;
-            throw new Exception();
-            return __res_5114;
+            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.Value_52> __res_5192;
+            JSObject __propObject_5193;
+            __propObject_5193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
+            __res_5192 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.Value_52>(__propObject_5193);
+            return __res_5192;
         }
     }
 }
