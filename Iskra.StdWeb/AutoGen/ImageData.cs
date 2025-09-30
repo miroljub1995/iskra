@@ -31,11 +31,11 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object Data
+    public global::Iskra.JSCore.Generics.Union<UnknownNamespace.Uint8ClampedArray, UnknownNamespace.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> Data
     {
         get
         {
-            object __res_6828;
+            global::Iskra.JSCore.Generics.Union<UnknownNamespace.Uint8ClampedArray, UnknownNamespace.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6828;
             throw new Exception();
             return __res_6828;
         }

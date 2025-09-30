@@ -42,11 +42,11 @@ public partial class ExtendableMessageEvent(JSObject obj): ExtendableEvent(obj)
         }
     }
 
-    public object Source
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Client, Iskra.StdWeb.ServiceWorker, Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
     {
         get
         {
-            object __res_4569;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Client, Iskra.StdWeb.ServiceWorker, Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4569;
             throw new Exception();
             return __res_4569;
         }

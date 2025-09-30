@@ -42,11 +42,11 @@ public partial class MessageEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object Source
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Window, Iskra.StdWeb.MessagePort, Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
     {
         get
         {
-            object __res_6843;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Window, Iskra.StdWeb.MessagePort, Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_6843;
             throw new Exception();
             return __res_6843;
         }

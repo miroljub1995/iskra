@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class IDBCursor(JSObject obj): JSObjectProxy(obj)
 {
-    public object Source
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.IDBObjectStore, Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union> Source
     {
         get
         {
-            object __res_7750;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.IDBObjectStore, Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7750;
             throw new Exception();
             return __res_7750;
         }

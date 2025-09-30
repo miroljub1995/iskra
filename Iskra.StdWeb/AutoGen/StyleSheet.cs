@@ -39,11 +39,11 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public object OwnerNode
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? OwnerNode
     {
         get
         {
-            object __res_7257;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7257;
             throw new Exception();
             return __res_7257;
         }

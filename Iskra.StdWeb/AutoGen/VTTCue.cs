@@ -76,11 +76,11 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Line
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Line
     {
         get
         {
-            object __res_7196;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7196;
             throw new Exception();
             return __res_7196;
         }
@@ -107,11 +107,11 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public object Position
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Position
     {
         get
         {
-            object __res_7200;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7200;
             throw new Exception();
             return __res_7200;
         }

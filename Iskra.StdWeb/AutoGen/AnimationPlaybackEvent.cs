@@ -9,21 +9,21 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationPlaybackEvent(JSObject obj): Event(obj)
 {
-    public object CurrentTime
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? CurrentTime
     {
         get
         {
-            object __res_5210;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5210;
             throw new Exception();
             return __res_5210;
         }
     }
 
-    public object TimelineTime
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? TimelineTime
     {
         get
         {
-            object __res_5211;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5211;
             throw new Exception();
             return __res_5211;
         }

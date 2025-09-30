@@ -39,11 +39,11 @@ public partial class IDBRequest(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Source
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.IDBObjectStore, Iskra.StdWeb.IDBIndex, Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
     {
         get
         {
-            object __res_7657;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.IDBObjectStore, Iskra.StdWeb.IDBIndex, Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7657;
             throw new Exception();
             return __res_7657;
         }

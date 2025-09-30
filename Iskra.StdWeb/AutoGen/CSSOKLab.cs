@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
 {
-    public object L
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> L
     {
         get
         {
-            object __res_132;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_132;
             throw new Exception();
             return __res_132;
         }
@@ -23,11 +23,11 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object A
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> A
     {
         get
         {
-            object __res_133;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_133;
             throw new Exception();
             return __res_133;
         }
@@ -37,11 +37,11 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object B
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> B
     {
         get
         {
-            object __res_134;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_134;
             throw new Exception();
             return __res_134;
         }
@@ -51,11 +51,11 @@ public partial class CSSOKLab(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
     {
         get
         {
-            object __res_135;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_135;
             throw new Exception();
             return __res_135;
         }

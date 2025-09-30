@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamBYOBRequest(JSObject obj): JSObjectProxy(obj)
 {
-    public object View
+    public global::Iskra.JSCore.Generics.Union<UnknownNamespace.Int8Array, UnknownNamespace.Int16Array, UnknownNamespace.Int32Array, Iskra.JSCore.Uint8Array, UnknownNamespace.Uint16Array, Iskra.JSCore.Uint32Array, UnknownNamespace.Uint8ClampedArray, UnknownNamespace.BigInt64Array, UnknownNamespace.BigUint64Array, UnknownNamespace.Float16Array, Iskra.JSCore.Float32Array, UnknownNamespace.Float64Array, Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? View
     {
         get
         {
-            object __res_948;
+            global::Iskra.JSCore.Generics.Union<UnknownNamespace.Int8Array, UnknownNamespace.Int16Array, UnknownNamespace.Int32Array, Iskra.JSCore.Uint8Array, UnknownNamespace.Uint16Array, Iskra.JSCore.Uint32Array, UnknownNamespace.Uint8ClampedArray, UnknownNamespace.BigInt64Array, UnknownNamespace.BigUint64Array, UnknownNamespace.Float16Array, Iskra.JSCore.Float32Array, UnknownNamespace.Float64Array, Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_948;
             throw new Exception();
             return __res_948;
         }

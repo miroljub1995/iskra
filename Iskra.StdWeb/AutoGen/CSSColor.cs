@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSColor(JSObject obj): CSSColorValue(obj)
 {
-    public object ColorSpace
+    public global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> ColorSpace
     {
         get
         {
-            object __res_140;
+            global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_140;
             throw new Exception();
             return __res_140;
         }
@@ -37,11 +37,11 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
     {
         get
         {
-            object __res_142;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_142;
             throw new Exception();
             return __res_142;
         }

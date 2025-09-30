@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserver(JSObject obj): JSObjectProxy(obj)
 {
-    public object Root
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? Root
     {
         get
         {
-            object __res_2683;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2683;
             throw new Exception();
             return __res_2683;
         }

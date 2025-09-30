@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
 {
-    public object X
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> X
     {
         get
         {
-            object __res_85;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_85;
             throw new Exception();
             return __res_85;
         }
@@ -23,11 +23,11 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Y
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Y
     {
         get
         {
-            object __res_86;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_86;
             throw new Exception();
             return __res_86;
         }
@@ -37,11 +37,11 @@ public partial class CSSRotate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Z
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Z
     {
         get
         {
-            object __res_87;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_87;
             throw new Exception();
             return __res_87;
         }

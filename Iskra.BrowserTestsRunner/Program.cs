@@ -78,8 +78,11 @@ page.Console += (_, args) =>
         case ConsoleType.Warning:
             app.Logger.LogWarning(args.Message.Text);
             break;
-        default:
+        case ConsoleType.Log:
             app.Logger.LogInformation(args.Message.Text);
+            break;
+        case ConsoleType.Trace:
+            app.Logger.LogTrace(args.Message.Text);
             break;
     }
 };

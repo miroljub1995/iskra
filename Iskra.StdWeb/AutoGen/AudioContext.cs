@@ -31,11 +31,11 @@ public partial class AudioContext(JSObject obj): BaseAudioContext(obj)
         }
     }
 
-    public object SinkId
+    public global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union> SinkId
     {
         get
         {
-            object __res_8066;
+            global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union> __res_8066;
             throw new Exception();
             return __res_8066;
         }

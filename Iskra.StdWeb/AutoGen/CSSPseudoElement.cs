@@ -31,11 +31,11 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Parent
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> Parent
     {
         get
         {
-            object __res_3925;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_3925;
             throw new Exception();
             return __res_3925;
         }

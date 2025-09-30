@@ -20,11 +20,11 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
         }
     }
 
-    public object KeyID
+    public global::Iskra.JSCore.Generics.Union<ulong, UnknownNamespace.bigint, global::Iskra.StdWeb.GenericMarshaller.Union>? KeyID
     {
         get
         {
-            object __res_1006;
+            global::Iskra.JSCore.Generics.Union<ulong, UnknownNamespace.bigint, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_1006;
             throw new Exception();
             return __res_1006;
         }

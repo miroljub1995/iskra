@@ -20,11 +20,11 @@ public partial class CSSCustomMediaRule(JSObject obj): CSSRule(obj)
         }
     }
 
-    public object Query
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> Query
     {
         get
         {
-            object __res_4394;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> __res_4394;
             throw new Exception();
             return __res_4394;
         }

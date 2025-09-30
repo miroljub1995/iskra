@@ -20,11 +20,11 @@ public partial class FileReader(JSObject obj): EventTarget(obj)
         }
     }
 
-    public object Result
+    public global::Iskra.JSCore.Generics.Union<string, Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? Result
     {
         get
         {
-            object __res_7978;
+            global::Iskra.JSCore.Generics.Union<string, Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7978;
             throw new Exception();
             return __res_7978;
         }

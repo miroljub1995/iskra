@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object UnderlyingSourcePullCallback(object controller);
+public delegate object UnderlyingSourcePullCallback(global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.ReadableStreamDefaultController, Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
 
 #nullable disable

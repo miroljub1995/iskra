@@ -26,11 +26,11 @@ public partial class HTMLIFrameElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object Srcdoc
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> Srcdoc
     {
         get
         {
-            object __res_5498;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5498;
             throw new Exception();
             return __res_5498;
         }

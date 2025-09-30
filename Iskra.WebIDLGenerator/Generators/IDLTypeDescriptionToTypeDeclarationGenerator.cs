@@ -26,6 +26,11 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MapSequenceToManagedType(sequenceTypeDescription, marshalled);
         }
 
+        if (input is UnionTypeDescription unionTypeDescription)
+        {
+            return MapUnionToManagedType(unionTypeDescription);
+        }
+
         logger.LogWarning("Input type {input} is not handled, fallback to object.", input.GetType());
         return "object";
     }
@@ -79,6 +84,21 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
         return MakeNullableIfNeeded(
             $"global::Iskra.JSCore.Generics.JSArray<{elementManagedType}, {marshaller}>",
+            input.Nullable
+        );
+    }
+
+    private string MapUnionToManagedType(UnionTypeDescription input)
+    {
+        var itemManagedTypes = input.IdlType
+            .Select(x => Generate(x))
+            .ToList();
+
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+        var genericArgs = string.Join(", ", [..itemManagedTypes, marshaller]);
+
+        return MakeNullableIfNeeded(
+            $"global::Iskra.JSCore.Generics.Union<{genericArgs}>",
             input.Nullable
         );
     }

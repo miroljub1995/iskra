@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
 {
-    public object X
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> X
     {
         get
         {
-            object __res_91;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_91;
             throw new Exception();
             return __res_91;
         }
@@ -23,11 +23,11 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Y
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Y
     {
         get
         {
-            object __res_92;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_92;
             throw new Exception();
             return __res_92;
         }
@@ -37,11 +37,11 @@ public partial class CSSScale(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public object Z
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Z
     {
         get
         {
-            object __res_93;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_93;
             throw new Exception();
             return __res_93;
         }

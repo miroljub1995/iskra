@@ -45,11 +45,11 @@ public partial class HTMLMediaElement(JSObject obj): HTMLElement(obj)
         }
     }
 
-    public object SrcObject
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.MediaStream, Iskra.StdWeb.MediaSource, Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>? SrcObject
     {
         get
         {
-            object __res_5611;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.MediaStream, Iskra.StdWeb.MediaSource, Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5611;
             throw new Exception();
             return __res_5611;
         }

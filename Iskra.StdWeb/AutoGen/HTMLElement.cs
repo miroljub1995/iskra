@@ -77,11 +77,11 @@ public partial class HTMLElement(JSObject obj): Element(obj)
         }
     }
 
-    public object Hidden
+    public global::Iskra.JSCore.Generics.Union<bool, double, string, global::Iskra.StdWeb.GenericMarshaller.Union>? Hidden
     {
         get
         {
-            object __res_5255;
+            global::Iskra.JSCore.Generics.Union<bool, double, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5255;
             throw new Exception();
             return __res_5255;
         }

@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPerspective(JSObject obj): CSSTransformComponent(obj)
 {
-    public object Length
+    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> Length
     {
         get
         {
-            object __res_106;
+            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_106;
             throw new Exception();
             return __res_106;
         }

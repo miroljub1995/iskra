@@ -34,6 +34,8 @@ public class GenericMarshallerGenerator(
                         {{GenerateFrozenArrayClass().IndentLines(4)}}
 
                         {{GenerateSequenceClass().IndentLines(4)}}
+
+                        {{GenerateUnionClass().IndentLines(4)}}
                         }
 
                         #nullable disable
@@ -61,6 +63,7 @@ public class GenericMarshallerGenerator(
         {
             FrozenArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.FrozenArray",
             SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Sequence",
+            UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
             _ => throw new NotSupportedException($"Type {input} is not supported.")
         };
 
@@ -109,7 +112,21 @@ public class GenericMarshallerGenerator(
 
         if (a is SingleTypeDescription singleA && b is SingleTypeDescription singleB)
         {
-            return singleA.IdlType == singleB.IdlType;
+            var typeA = singleA.IdlType switch
+            {
+                BuiltinTypes.UnrestrictedDouble => BuiltinTypes.Double,
+                BuiltinTypes.UnrestrictedFloat => BuiltinTypes.Float,
+                _ => singleA.IdlType
+            };
+
+            var typeB = singleB.IdlType switch
+            {
+                BuiltinTypes.UnrestrictedDouble => BuiltinTypes.Double,
+                BuiltinTypes.UnrestrictedFloat => BuiltinTypes.Float,
+                _ => singleB.IdlType
+            };
+
+            return typeA == typeB;
         }
 
         if (a is FrozenArrayTypeDescription frozenA && b is FrozenArrayTypeDescription frozenB)
@@ -183,12 +200,12 @@ public class GenericMarshallerGenerator(
             var bodyPart = $$"""
                              static {{marshalledType}} {{interfacePart}}.ToManaged(JSObject input)
                              {
-                             {{toManaged.IndentLines(8)}}
+                             {{toManaged.IndentLines(4)}}
                              }
 
                              static JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
                              {
-                             {{toJS.IndentLines(8)}}
+                             {{toJS.IndentLines(4)}}
                              }
                              """;
 
@@ -233,12 +250,12 @@ public class GenericMarshallerGenerator(
             var bodyPart = $$"""
                              static {{marshalledType}} {{interfacePart}}.ToManaged(JSObject input)
                              {
-                             {{toManaged.IndentLines(8)}}
+                             {{toManaged.IndentLines(4)}}
                              }
 
                              static JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
                              {
-                             {{toJS.IndentLines(8)}}
+                             {{toJS.IndentLines(4)}}
                              }
                              """;
 
@@ -250,6 +267,69 @@ public class GenericMarshallerGenerator(
 
         var content = $$"""
                         public class Sequence:
+                        {{interfaces.IndentLines(4)}}
+                        {
+                        {{body.IndentLines(4)}}
+                        }
+                        """;
+
+        return content;
+    }
+
+    private string GenerateUnionClass()
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        List<IDLTypeDescription> distinctItems = [];
+        List<string> interfaceParts = [];
+        List<string> bodyParts = [];
+        foreach (var marshaller in _marshallers)
+        {
+            if (marshaller.Key is not UnionTypeDescription unionTypeDescription)
+            {
+                continue;
+            }
+
+            foreach (var itemType in unionTypeDescription.IdlType)
+            {
+                if (distinctItems.Any(x => AreEqual(x, itemType)))
+                {
+                    continue;
+                }
+
+                distinctItems.Add(itemType);
+
+                // var toManaged = GenerateToManaged(marshaller.Key);
+                var toManaged = "throw new NotImplementedException();";
+                // var toJS = GenerateToJS(marshaller.Key);
+                var toJS = "throw new NotImplementedException();";
+
+                var marshalledType = toTypeDeclarationGenerator.Generate(itemType);
+
+                var interfacePart = $"global::Iskra.JSCore.Generics.IUnionTypeMarshaller<{marshalledType}>";
+                interfaceParts.Add(interfacePart);
+
+                var bodyPart = $$"""
+                                 static bool {{interfacePart}}.TryToManaged(JSObject input, [global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out {{marshalledType}} value)
+                                 {
+                                 {{toManaged.IndentLines(4)}}
+                                 }
+
+                                 static JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
+                                 {
+                                 {{toJS.IndentLines(4)}}
+                                 }
+                                 """;
+
+                bodyParts.Add(bodyPart);
+            }
+        }
+
+        var interfaces = string.Join(",\n", interfaceParts);
+        var body = string.Join("\n\n", bodyParts);
+
+        var content = $$"""
+                        public class Union:
                         {{interfaces.IndentLines(4)}}
                         {
                         {{body.IndentLines(4)}}

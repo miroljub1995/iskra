@@ -26,11 +26,11 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object W
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> W
     {
         get
         {
-            object __res_121;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_121;
             throw new Exception();
             return __res_121;
         }
@@ -40,11 +40,11 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object B
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> B
     {
         get
         {
-            object __res_122;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_122;
             throw new Exception();
             return __res_122;
         }
@@ -54,11 +54,11 @@ public partial class CSSHWB(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public object Alpha
+    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
     {
         get
         {
-            object __res_123;
+            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_123;
             throw new Exception();
             return __res_123;
         }
