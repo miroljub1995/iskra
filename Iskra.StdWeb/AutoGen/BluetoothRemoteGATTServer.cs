@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.BluetoothDevice Device
+    public global::Iskra.StdWeb.BluetoothDevice Device
     {
         get
         {
-            Iskra.StdWeb.BluetoothDevice __res_2760;
-            JSObject __res_2761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            global::Iskra.StdWeb.BluetoothDevice __res_2800;
+            JSObject __res_2801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } not supported.");
-            return __res_2760;
+            return __res_2800;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class BluetoothRemoteGATTServer(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2762;
-            bool __res_2763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
-            __res_2762 = __res_2763;
-            return __res_2762;
+            bool __res_2802;
+            bool __res_2803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            __res_2802 = __res_2803;
+            return __res_2802;
         }
     }
 }

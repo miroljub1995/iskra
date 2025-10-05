@@ -13,10 +13,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_6837;
-            JSObject __res_6838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            object? __res_6889;
+            JSObject __res_6890 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6837;
+            return __res_6889;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6839;
-            string __res_6840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_6839 = __res_6840;
-            return __res_6839;
+            string __res_6891;
+            string __res_6892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_6891 = __res_6892;
+            return __res_6891;
         }
     }
 
@@ -35,32 +35,39 @@ public partial class MessageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6841;
-            string __res_6842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
-            __res_6841 = __res_6842;
-            return __res_6841;
+            string __res_6893;
+            string __res_6894 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
+            __res_6893 = __res_6894;
+            return __res_6893;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Window, Iskra.StdWeb.MessagePort, Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Window, Iskra.StdWeb.MessagePort, Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_6843;
-            throw new Exception();
-            return __res_6843;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_6895;
+            JSObject? __propObject_6896;
+            __propObject_6896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "source");
+            if (__propObject_6896 is null)
+            {
+                return null;
+            }
+
+            __res_6895 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6896);
+            return __res_6895;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Ports
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Ports
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6844;
-            JSObject __propObject_6845;
-            __propObject_6845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ports");
-            __res_6844 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6845);
-            return __res_6844;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6897;
+            JSObject __propObject_6898;
+            __propObject_6898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ports");
+            __res_6897 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6898);
+            return __res_6897;
         }
     }
 }

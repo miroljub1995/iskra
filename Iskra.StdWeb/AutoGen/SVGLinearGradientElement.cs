@@ -9,47 +9,47 @@ namespace Iskra.StdWeb;
 
 public partial class SVGLinearGradientElement(JSObject obj): SVGGradientElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedLength X1
+    public global::Iskra.StdWeb.SVGAnimatedLength X1
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_497;
-            JSObject __res_498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_533;
+            JSObject __res_534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_497;
+            return __res_533;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedLength Y1
+    public global::Iskra.StdWeb.SVGAnimatedLength Y1
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_499;
-            JSObject __res_500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_535;
+            JSObject __res_536 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_499;
+            return __res_535;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedLength X2
+    public global::Iskra.StdWeb.SVGAnimatedLength X2
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_501;
-            JSObject __res_502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_537;
+            JSObject __res_538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_501;
+            return __res_537;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedLength Y2
+    public global::Iskra.StdWeb.SVGAnimatedLength Y2
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_503;
-            JSObject __res_504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_539;
+            JSObject __res_540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_503;
+            return __res_539;
         }
     }
 }

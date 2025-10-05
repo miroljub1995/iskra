@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLegendElement(JSObject obj): HTMLElement(obj)
 {
-    public Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
-            Iskra.StdWeb.HTMLFormElement? __res_6334;
-            JSObject? __res_6335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6335 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_6384;
+            JSObject? __res_6385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6385 is null)
             {
-                __res_6334 = null;
+                __res_6384 = null;
             }
             else
             {
-                JSObject __notNullable_6336 = (JSObject)__res_6335;
+                JSObject __notNullable_6386 = (JSObject)__res_6385;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
             }
-            return __res_6334;
+            return __res_6384;
         }
     }
 }

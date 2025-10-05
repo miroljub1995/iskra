@@ -9,47 +9,47 @@ namespace Iskra.StdWeb;
 
 public partial class XRRigidTransform(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.DOMPointReadOnly Position
+    public global::Iskra.StdWeb.DOMPointReadOnly Position
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_4254;
-            JSObject __res_4255 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "position");
+            global::Iskra.StdWeb.DOMPointReadOnly __res_4295;
+            JSObject __res_4296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "position");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
-            return __res_4254;
+            return __res_4295;
         }
     }
 
-    public Iskra.StdWeb.DOMPointReadOnly Orientation
+    public global::Iskra.StdWeb.DOMPointReadOnly Orientation
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_4256;
-            JSObject __res_4257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
+            global::Iskra.StdWeb.DOMPointReadOnly __res_4297;
+            JSObject __res_4298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
-            return __res_4256;
+            return __res_4297;
         }
     }
 
-    public Iskra.JSCore.Float32Array Matrix
+    public global::Iskra.JSCore.Float32Array Matrix
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_4258;
-            JSObject __res_4259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            global::Iskra.JSCore.Float32Array __res_4299;
+            JSObject __res_4300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
-            return __res_4258;
+            return __res_4299;
         }
     }
 
-    public Iskra.StdWeb.XRRigidTransform Inverse
+    public global::Iskra.StdWeb.XRRigidTransform Inverse
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_4260;
-            JSObject __res_4261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inverse");
+            global::Iskra.StdWeb.XRRigidTransform __res_4301;
+            JSObject __res_4302 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inverse");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
-            return __res_4260;
+            return __res_4301;
         }
     }
 }

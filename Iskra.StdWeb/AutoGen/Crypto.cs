@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class Crypto(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SubtleCrypto Subtle
+    public global::Iskra.StdWeb.SubtleCrypto Subtle
     {
         get
         {
-            Iskra.StdWeb.SubtleCrypto __res_1378;
-            JSObject __res_1379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subtle");
+            global::Iskra.StdWeb.SubtleCrypto __res_1417;
+            JSObject __res_1418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subtle");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SubtleCrypto } not supported.");
-            return __res_1378;
+            return __res_1417;
         }
     }
 }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.WritableStream Writable
+    public global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_210;
-            JSObject __res_211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            global::Iskra.StdWeb.WritableStream __res_246;
+            JSObject __res_247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
-            return __res_210;
+            return __res_246;
         }
     }
 
@@ -24,27 +24,27 @@ public partial class VideoTrackGenerator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_212;
-            bool __res_213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_212 = __res_213;
-            return __res_212;
+            bool __res_248;
+            bool __res_249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_248 = __res_249;
+            return __res_248;
         }
         set
         {
-            bool __marshalledValue_214;
-            __marshalledValue_214 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_214);
+            bool __marshalledValue_250;
+            __marshalledValue_250 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_250);
         }
     }
 
-    public Iskra.StdWeb.MediaStreamTrack Track
+    public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_215;
-            JSObject __res_216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            global::Iskra.StdWeb.MediaStreamTrack __res_251;
+            JSObject __res_252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
-            return __res_215;
+            return __res_251;
         }
     }
 }

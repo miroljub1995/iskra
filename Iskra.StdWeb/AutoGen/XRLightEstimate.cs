@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class XRLightEstimate(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.JSCore.Float32Array SphericalHarmonicsCoefficients
+    public global::Iskra.JSCore.Float32Array SphericalHarmonicsCoefficients
     {
         get
         {
-            Iskra.JSCore.Float32Array __res_931;
-            JSObject __res_932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
+            global::Iskra.JSCore.Float32Array __res_968;
+            JSObject __res_969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
-            return __res_931;
+            return __res_968;
         }
     }
 
-    public Iskra.StdWeb.DOMPointReadOnly PrimaryLightDirection
+    public global::Iskra.StdWeb.DOMPointReadOnly PrimaryLightDirection
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_933;
-            JSObject __res_934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
+            global::Iskra.StdWeb.DOMPointReadOnly __res_970;
+            JSObject __res_971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
-            return __res_933;
+            return __res_970;
         }
     }
 
-    public Iskra.StdWeb.DOMPointReadOnly PrimaryLightIntensity
+    public global::Iskra.StdWeb.DOMPointReadOnly PrimaryLightIntensity
     {
         get
         {
-            Iskra.StdWeb.DOMPointReadOnly __res_935;
-            JSObject __res_936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
+            global::Iskra.StdWeb.DOMPointReadOnly __res_972;
+            JSObject __res_973 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPointReadOnly } not supported.");
-            return __res_935;
+            return __res_972;
         }
     }
 }

@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class UIEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.Window? View
+    public global::Iskra.StdWeb.Window? View
     {
         get
         {
-            Iskra.StdWeb.Window? __res_7892;
-            JSObject? __res_7893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_7893 is null)
+            global::Iskra.StdWeb.Window? __res_7950;
+            JSObject? __res_7951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_7951 is null)
             {
-                __res_7892 = null;
+                __res_7950 = null;
             }
             else
             {
-                JSObject __notNullable_7894 = (JSObject)__res_7893;
+                JSObject __notNullable_7952 = (JSObject)__res_7951;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
-            return __res_7892;
+            return __res_7950;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class UIEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_7895;
-            double __res_7896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_7895 = Convert.ToInt32(__res_7896);
-            return __res_7895;
+            int __res_7953;
+            double __res_7954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_7953 = Convert.ToInt32(__res_7954);
+            return __res_7953;
         }
     }
 }

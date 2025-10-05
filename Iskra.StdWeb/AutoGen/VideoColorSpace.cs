@@ -9,60 +9,60 @@ namespace Iskra.StdWeb;
 
 public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.VideoColorPrimaries? Primaries
+    public global::Iskra.StdWeb.VideoColorPrimaries? Primaries
     {
         get
         {
-            Iskra.StdWeb.VideoColorPrimaries? __res_2645;
-            JSObject? __res_2646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "primaries");
-            if (__res_2646 is null)
+            global::Iskra.StdWeb.VideoColorPrimaries? __res_2684;
+            JSObject? __res_2685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "primaries");
+            if (__res_2685 is null)
             {
-                __res_2645 = null;
+                __res_2684 = null;
             }
             else
             {
-                JSObject __notNullable_2647 = (JSObject)__res_2646;
+                JSObject __notNullable_2686 = (JSObject)__res_2685;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoColorPrimaries } not supported.");
             }
-            return __res_2645;
+            return __res_2684;
         }
     }
 
-    public Iskra.StdWeb.VideoTransferCharacteristics? Transfer
+    public global::Iskra.StdWeb.VideoTransferCharacteristics? Transfer
     {
         get
         {
-            Iskra.StdWeb.VideoTransferCharacteristics? __res_2648;
-            JSObject? __res_2649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transfer");
-            if (__res_2649 is null)
+            global::Iskra.StdWeb.VideoTransferCharacteristics? __res_2687;
+            JSObject? __res_2688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transfer");
+            if (__res_2688 is null)
             {
-                __res_2648 = null;
+                __res_2687 = null;
             }
             else
             {
-                JSObject __notNullable_2650 = (JSObject)__res_2649;
+                JSObject __notNullable_2689 = (JSObject)__res_2688;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoTransferCharacteristics } not supported.");
             }
-            return __res_2648;
+            return __res_2687;
         }
     }
 
-    public Iskra.StdWeb.VideoMatrixCoefficients? Matrix
+    public global::Iskra.StdWeb.VideoMatrixCoefficients? Matrix
     {
         get
         {
-            Iskra.StdWeb.VideoMatrixCoefficients? __res_2651;
-            JSObject? __res_2652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "matrix");
-            if (__res_2652 is null)
+            global::Iskra.StdWeb.VideoMatrixCoefficients? __res_2690;
+            JSObject? __res_2691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "matrix");
+            if (__res_2691 is null)
             {
-                __res_2651 = null;
+                __res_2690 = null;
             }
             else
             {
-                JSObject __notNullable_2653 = (JSObject)__res_2652;
+                JSObject __notNullable_2692 = (JSObject)__res_2691;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoMatrixCoefficients } not supported.");
             }
-            return __res_2651;
+            return __res_2690;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class VideoColorSpace(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool? __res_2654;
-            bool? __res_2655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
-            if (__res_2655 is null)
+            bool? __res_2693;
+            bool? __res_2694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
+            if (__res_2694 is null)
             {
-                __res_2654 = null;
+                __res_2693 = null;
             }
             else
             {
-                bool __notNullable_2656 = (bool)__res_2655;
-                __res_2654 = __notNullable_2656;
+                bool __notNullable_2695 = (bool)__res_2694;
+                __res_2693 = __notNullable_2695;
             }
-            return __res_2654;
+            return __res_2693;
         }
     }
 }

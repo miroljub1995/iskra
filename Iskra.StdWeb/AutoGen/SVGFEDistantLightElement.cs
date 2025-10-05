@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDistantLightElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedNumber Azimuth
+    public global::Iskra.StdWeb.SVGAnimatedNumber Azimuth
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1193;
-            JSObject __res_1194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1232;
+            JSObject __res_1233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1193;
+            return __res_1232;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber Elevation
+    public global::Iskra.StdWeb.SVGAnimatedNumber Elevation
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1195;
-            JSObject __res_1196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1234;
+            JSObject __res_1235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1195;
+            return __res_1234;
         }
     }
 }

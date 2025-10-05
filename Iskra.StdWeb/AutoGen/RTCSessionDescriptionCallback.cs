@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void RTCSessionDescriptionCallback(Iskra.StdWeb.RTCSessionDescriptionInit description);
+public delegate void RTCSessionDescriptionCallback(global::Iskra.StdWeb.RTCSessionDescriptionInit description);
 
 #nullable disable

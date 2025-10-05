@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportError(JSObject obj): DOMException(obj)
 {
-    public Iskra.StdWeb.WebTransportErrorSource Source
+    public global::Iskra.StdWeb.WebTransportErrorSource Source
     {
         get
         {
-            Iskra.StdWeb.WebTransportErrorSource __res_2220;
-            JSObject __res_2221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            global::Iskra.StdWeb.WebTransportErrorSource __res_2259;
+            JSObject __res_2260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportErrorSource } not supported.");
-            return __res_2220;
+            return __res_2259;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class WebTransportError(JSObject obj): DOMException(obj)
     {
         get
         {
-            uint? __res_2222;
-            double? __res_2223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
-            if (__res_2223 is null)
+            uint? __res_2261;
+            double? __res_2262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
+            if (__res_2262 is null)
             {
-                __res_2222 = null;
+                __res_2261 = null;
             }
             else
             {
-                double __notNullable_2224 = (double)__res_2223;
-                __res_2222 = Convert.ToUInt32(__notNullable_2224);
+                double __notNullable_2263 = (double)__res_2262;
+                __res_2261 = Convert.ToUInt32(__notNullable_2263);
             }
-            return __res_2222;
+            return __res_2261;
         }
     }
 }

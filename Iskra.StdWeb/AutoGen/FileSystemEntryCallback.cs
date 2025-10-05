@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FileSystemEntryCallback(Iskra.StdWeb.FileSystemEntry entry);
+public delegate void FileSystemEntryCallback(global::Iskra.StdWeb.FileSystemEntry entry);
 
 #nullable disable

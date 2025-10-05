@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class HIDConnectionEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.HIDDevice Device
+    public global::Iskra.StdWeb.HIDDevice Device
     {
         get
         {
-            Iskra.StdWeb.HIDDevice __res_1465;
-            JSObject __res_1466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            global::Iskra.StdWeb.HIDDevice __res_1504;
+            JSObject __res_1505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDDevice } not supported.");
-            return __res_1465;
+            return __res_1504;
         }
     }
 }

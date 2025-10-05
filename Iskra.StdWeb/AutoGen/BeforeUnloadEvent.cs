@@ -13,16 +13,16 @@ public partial class BeforeUnloadEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6769;
-            string __res_6770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
-            __res_6769 = __res_6770;
-            return __res_6769;
+            string __res_6820;
+            string __res_6821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
+            __res_6820 = __res_6821;
+            return __res_6820;
         }
         set
         {
-            string __marshalledValue_6771;
-            __marshalledValue_6771 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_6771);
+            string __marshalledValue_6822;
+            __marshalledValue_6822 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_6822);
         }
     }
 }

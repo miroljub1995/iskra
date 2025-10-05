@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEComponentTransferElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1129;
-            JSObject __res_1130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            global::Iskra.StdWeb.SVGAnimatedString __res_1168;
+            JSObject __res_1169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
-            return __res_1129;
+            return __res_1168;
         }
     }
 }

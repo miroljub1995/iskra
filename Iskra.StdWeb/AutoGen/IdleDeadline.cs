@@ -13,10 +13,10 @@ public partial class IdleDeadline(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1085;
-            bool __res_1086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "didTimeout");
-            __res_1085 = __res_1086;
-            return __res_1085;
+            bool __res_1124;
+            bool __res_1125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "didTimeout");
+            __res_1124 = __res_1125;
+            return __res_1124;
         }
     }
 }

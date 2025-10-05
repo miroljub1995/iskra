@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.DataTransfer? ClipboardData
+    public global::Iskra.StdWeb.DataTransfer? ClipboardData
     {
         get
         {
-            Iskra.StdWeb.DataTransfer? __res_1662;
-            JSObject? __res_1663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "clipboardData");
-            if (__res_1663 is null)
+            global::Iskra.StdWeb.DataTransfer? __res_1701;
+            JSObject? __res_1702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "clipboardData");
+            if (__res_1702 is null)
             {
-                __res_1662 = null;
+                __res_1701 = null;
             }
             else
             {
-                JSObject __notNullable_1664 = (JSObject)__res_1663;
+                JSObject __notNullable_1703 = (JSObject)__res_1702;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataTransfer } not supported.");
             }
-            return __res_1662;
+            return __res_1701;
         }
     }
 }

@@ -13,29 +13,29 @@ public partial class PushSubscriptionOptions(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4944;
-            bool __res_4945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
-            __res_4944 = __res_4945;
-            return __res_4944;
+            bool __res_4987;
+            bool __res_4988 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
+            __res_4987 = __res_4988;
+            return __res_4987;
         }
     }
 
-    public Iskra.JSCore.ArrayBuffer? ApplicationServerKey
+    public global::Iskra.JSCore.ArrayBuffer? ApplicationServerKey
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_4946;
-            JSObject? __res_4947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
-            if (__res_4947 is null)
+            global::Iskra.JSCore.ArrayBuffer? __res_4989;
+            JSObject? __res_4990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
+            if (__res_4990 is null)
             {
-                __res_4946 = null;
+                __res_4989 = null;
             }
             else
             {
-                JSObject __notNullable_4948 = (JSObject)__res_4947;
+                JSObject __notNullable_4991 = (JSObject)__res_4990;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
-            return __res_4946;
+            return __res_4989;
         }
     }
 }

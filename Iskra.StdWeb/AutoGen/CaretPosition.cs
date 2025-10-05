@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.Node OffsetNode
+    public global::Iskra.StdWeb.Node OffsetNode
     {
         get
         {
-            Iskra.StdWeb.Node __res_1698;
-            JSObject __res_1699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
+            global::Iskra.StdWeb.Node __res_1737;
+            JSObject __res_1738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
-            return __res_1698;
+            return __res_1737;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CaretPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1700;
-            double __res_1701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
-            __res_1700 = Convert.ToUInt32(__res_1701);
-            return __res_1700;
+            uint __res_1739;
+            double __res_1740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
+            __res_1739 = Convert.ToUInt32(__res_1740);
+            return __res_1739;
         }
     }
 }

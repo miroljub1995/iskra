@@ -9,15 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSetLoadEvent(JSObject obj): Event(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fontfaces
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fontfaces
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2133;
-            JSObject __propObject_2134;
-            __propObject_2134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fontfaces");
-            __res_2133 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2134);
-            return __res_2133;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2172;
+            JSObject __propObject_2173;
+            __propObject_2173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fontfaces");
+            __res_2172 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2173);
+            return __res_2172;
         }
     }
 }

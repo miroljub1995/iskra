@@ -21,6 +21,16 @@
         "partial": false,
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView"
       },
+      "Int8Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Int8Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array"
+      },
       "Uint8Array": {
         "fragment": "",
         "type": "interface",
@@ -30,6 +40,46 @@
         "extAttrs": [],
         "partial": false,
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array"
+      },
+      "Uint8ClampedArray": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Uint8ClampedArray",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray"
+      },
+      "Int16Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Int16Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array"
+      },
+      "Uint16Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Uint16Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array"
+      },
+      "Int32Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Int32Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array"
       },
       "Uint32Array": {
         "fragment": "",
@@ -41,6 +91,16 @@
         "partial": false,
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array"
       },
+      "Float16Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Float16Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float16Array"
+      },
       "Float32Array": {
         "fragment": "",
         "type": "interface",
@@ -50,6 +110,36 @@
         "extAttrs": [],
         "partial": false,
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array"
+      },
+      "Float64Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Float64Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array"
+      },
+      "BigInt64Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "BigInt64Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array"
+      },
+      "BigUint64Array": {
+        "fragment": "",
+        "type": "interface",
+        "name": "BigUint64Array",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigUint64Array"
       }
     },
     "idlExtendedNames": {}

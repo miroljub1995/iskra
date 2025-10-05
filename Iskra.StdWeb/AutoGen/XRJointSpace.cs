@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointSpace(JSObject obj): XRSpace(obj)
 {
-    public Iskra.StdWeb.XRHandJoint JointName
+    public global::Iskra.StdWeb.XRHandJoint JointName
     {
         get
         {
-            Iskra.StdWeb.XRHandJoint __res_3729;
-            JSObject __res_3730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "jointName");
+            global::Iskra.StdWeb.XRHandJoint __res_3769;
+            JSObject __res_3770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "jointName");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHandJoint } not supported.");
-            return __res_3729;
+            return __res_3769;
         }
     }
 }

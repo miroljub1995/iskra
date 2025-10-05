@@ -13,10 +13,10 @@ public partial class Blob(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_7966;
-            double __res_7967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_7966 = Convert.ToUInt64(__res_7967);
-            return __res_7966;
+            ulong __res_8024;
+            double __res_8025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_8024 = Convert.ToUInt64(__res_8025);
+            return __res_8024;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Blob(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7968;
-            string __res_7969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7968 = __res_7969;
-            return __res_7968;
+            string __res_8026;
+            string __res_8027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8026 = __res_8027;
+            return __res_8026;
         }
     }
 }

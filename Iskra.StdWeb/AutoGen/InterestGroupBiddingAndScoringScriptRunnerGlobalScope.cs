@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(JSObject obj): InterestGroupScriptRunnerGlobalScope(obj)
 {
-    public Iskra.StdWeb.ForDebuggingOnly ForDebuggingOnly
+    public global::Iskra.StdWeb.ForDebuggingOnly ForDebuggingOnly
     {
         get
         {
-            Iskra.StdWeb.ForDebuggingOnly __res_3687;
-            JSObject __res_3688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
+            global::Iskra.StdWeb.ForDebuggingOnly __res_3727;
+            JSObject __res_3728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ForDebuggingOnly } not supported.");
-            return __res_3687;
+            return __res_3727;
         }
     }
 
-    public Iskra.StdWeb.RealTimeReporting RealTimeReporting
+    public global::Iskra.StdWeb.RealTimeReporting RealTimeReporting
     {
         get
         {
-            Iskra.StdWeb.RealTimeReporting __res_3689;
-            JSObject __res_3690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
+            global::Iskra.StdWeb.RealTimeReporting __res_3729;
+            JSObject __res_3730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RealTimeReporting } not supported.");
-            return __res_3689;
+            return __res_3729;
         }
     }
 }

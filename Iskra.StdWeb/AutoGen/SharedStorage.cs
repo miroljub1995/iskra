@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorage(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SharedStorageWorklet Worklet
+    public global::Iskra.StdWeb.SharedStorageWorklet Worklet
     {
         get
         {
-            Iskra.StdWeb.SharedStorageWorklet __res_4142;
-            JSObject __res_4143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "worklet");
+            global::Iskra.StdWeb.SharedStorageWorklet __res_4183;
+            JSObject __res_4184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "worklet");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorageWorklet } not supported.");
-            return __res_4142;
+            return __res_4183;
         }
     }
 }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CanvasRenderingContext2D(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.HTMLCanvasElement Canvas
+    public global::Iskra.StdWeb.HTMLCanvasElement Canvas
     {
         get
         {
-            Iskra.StdWeb.HTMLCanvasElement __res_6439;
-            JSObject __res_6440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            global::Iskra.StdWeb.HTMLCanvasElement __res_6489;
+            JSObject __res_6490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCanvasElement } not supported.");
-            return __res_6439;
+            return __res_6489;
         }
     }
 }

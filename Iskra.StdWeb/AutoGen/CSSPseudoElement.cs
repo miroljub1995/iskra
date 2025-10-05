@@ -13,31 +13,33 @@ public partial class CSSPseudoElement(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3921;
-            string __res_3922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3921 = __res_3922;
-            return __res_3921;
+            string __res_3961;
+            string __res_3962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3961 = __res_3962;
+            return __res_3961;
         }
     }
 
-    public Iskra.StdWeb.Element Element
+    public global::Iskra.StdWeb.Element Element
     {
         get
         {
-            Iskra.StdWeb.Element __res_3923;
-            JSObject __res_3924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
+            global::Iskra.StdWeb.Element __res_3963;
+            JSObject __res_3964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
-            return __res_3923;
+            return __res_3963;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> Parent
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> Parent
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_3925;
-            throw new Exception();
-            return __res_3925;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_3965;
+            JSObject __propObject_3966;
+            __propObject_3966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "parent");
+            __res_3965 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3966);
+            return __res_3965;
         }
     }
 }

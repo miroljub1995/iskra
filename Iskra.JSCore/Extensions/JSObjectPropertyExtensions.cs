@@ -83,6 +83,17 @@ public static partial class JSObjectPropertyExtensions
     [return: JSMarshalAs<JSType.Any>]
     private static partial object? GetPropertyAsObjectV2AsNullable_Bridge(JSObject obj, string propertyName);
 
+    public static JSObject GetPropertyAsUnionV2(this JSObject obj, string propertyName) =>
+        GetPropertyAsUnionV2AsNullable_Bridge(obj, propertyName) ??
+        throw new Exception($"Property {propertyName} is null or undefined.");
+
+    public static JSObject? GetPropertyAsUnionV2AsNullable(this JSObject obj, string propertyName) =>
+        GetPropertyAsUnionV2AsNullable_Bridge(obj, propertyName);
+
+    [JSImport("getPropertyAsUnion", "iskra")]
+    [return: JSMarshalAs<JSType.Object>]
+    private static partial JSObject? GetPropertyAsUnionV2AsNullable_Bridge(JSObject obj, string propertyName);
+
     // public static object GetPropertyAsOneOf(this JSObject obj, string propertyName)
     // {
     //     var propertyType = obj.GetTypeOfProperty(propertyName);
@@ -207,6 +218,20 @@ public static partial class JSObjectPropertyExtensions
             obj.SetProperty(propertyName, value.Value);
         }
     }
+
+    public static void SetPropertyAsUnion(this JSObject obj, string propertyName, JSObject value)
+    {
+        SetPropertyAsUnionV2AsNullable_Bridge(obj, propertyName, value);
+    }
+
+    public static void SetPropertyAsUnionAsNullable(this JSObject obj, string propertyName, JSObject? value)
+    {
+        SetPropertyAsUnionV2AsNullable_Bridge(obj, propertyName, value);
+    }
+
+    [JSImport("setPropertyAsUnion", "iskra")]
+    private static partial void SetPropertyAsUnionV2AsNullable_Bridge(JSObject obj, string propertyName,
+        JSObject? value);
 
     // public static void SetPropertyAsOneOf(this JSObject obj, string propertyName, OneOf? value)
     // {

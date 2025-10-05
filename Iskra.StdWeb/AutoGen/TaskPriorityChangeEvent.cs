@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class TaskPriorityChangeEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.TaskPriority PreviousPriority
+    public global::Iskra.StdWeb.TaskPriority PreviousPriority
     {
         get
         {
-            Iskra.StdWeb.TaskPriority __res_1035;
-            JSObject __res_1036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousPriority");
+            global::Iskra.StdWeb.TaskPriority __res_1074;
+            JSObject __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousPriority");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskPriority } not supported.");
-            return __res_1035;
+            return __res_1074;
         }
     }
 }

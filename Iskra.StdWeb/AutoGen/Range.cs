@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class Range(JSObject obj): AbstractRange(obj)
 {
-    public Iskra.StdWeb.Node CommonAncestorContainer
+    public global::Iskra.StdWeb.Node CommonAncestorContainer
     {
         get
         {
-            Iskra.StdWeb.Node __res_3341;
-            JSObject __res_3342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
+            global::Iskra.StdWeb.Node __res_3381;
+            JSObject __res_3382 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
-            return __res_3341;
+            return __res_3381;
         }
     }
 }

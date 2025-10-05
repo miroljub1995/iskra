@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class ImageCapture(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.MediaStreamTrack Track
+    public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_5153;
-            JSObject __res_5154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            global::Iskra.StdWeb.MediaStreamTrack __res_5197;
+            JSObject __res_5198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
-            return __res_5153;
+            return __res_5197;
         }
     }
 }

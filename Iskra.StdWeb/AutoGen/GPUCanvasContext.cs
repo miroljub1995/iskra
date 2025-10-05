@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCanvasContext(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.HTMLCanvasElement, Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.HTMLCanvasElement, Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_765;
-            throw new Exception();
-            return __res_765;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_801;
+            JSObject __propObject_802;
+            __propObject_802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
+            __res_801 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_802);
+            return __res_801;
         }
     }
 }

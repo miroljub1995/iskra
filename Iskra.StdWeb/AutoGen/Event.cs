@@ -13,67 +13,67 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3116;
-            string __res_3117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3116 = __res_3117;
-            return __res_3116;
+            string __res_3156;
+            string __res_3157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3156 = __res_3157;
+            return __res_3156;
         }
     }
 
-    public Iskra.StdWeb.EventTarget? Target
+    public global::Iskra.StdWeb.EventTarget? Target
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_3118;
-            JSObject? __res_3119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_3119 is null)
+            global::Iskra.StdWeb.EventTarget? __res_3158;
+            JSObject? __res_3159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_3159 is null)
             {
-                __res_3118 = null;
+                __res_3158 = null;
             }
             else
             {
-                JSObject __notNullable_3120 = (JSObject)__res_3119;
+                JSObject __notNullable_3160 = (JSObject)__res_3159;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
-            return __res_3118;
+            return __res_3158;
         }
     }
 
-    public Iskra.StdWeb.EventTarget? SrcElement
+    public global::Iskra.StdWeb.EventTarget? SrcElement
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_3121;
-            JSObject? __res_3122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "srcElement");
-            if (__res_3122 is null)
+            global::Iskra.StdWeb.EventTarget? __res_3161;
+            JSObject? __res_3162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "srcElement");
+            if (__res_3162 is null)
             {
-                __res_3121 = null;
+                __res_3161 = null;
             }
             else
             {
-                JSObject __notNullable_3123 = (JSObject)__res_3122;
+                JSObject __notNullable_3163 = (JSObject)__res_3162;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
-            return __res_3121;
+            return __res_3161;
         }
     }
 
-    public Iskra.StdWeb.EventTarget? CurrentTarget
+    public global::Iskra.StdWeb.EventTarget? CurrentTarget
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_3124;
-            JSObject? __res_3125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentTarget");
-            if (__res_3125 is null)
+            global::Iskra.StdWeb.EventTarget? __res_3164;
+            JSObject? __res_3165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentTarget");
+            if (__res_3165 is null)
             {
-                __res_3124 = null;
+                __res_3164 = null;
             }
             else
             {
-                JSObject __notNullable_3126 = (JSObject)__res_3125;
+                JSObject __notNullable_3166 = (JSObject)__res_3165;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
-            return __res_3124;
+            return __res_3164;
         }
     }
 
@@ -81,10 +81,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_3127;
-            double __res_3128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "eventPhase");
-            __res_3127 = Convert.ToUInt16(__res_3128);
-            return __res_3127;
+            ushort __res_3167;
+            double __res_3168 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "eventPhase");
+            __res_3167 = Convert.ToUInt16(__res_3168);
+            return __res_3167;
         }
     }
 
@@ -92,16 +92,16 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3129;
-            bool __res_3130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelBubble");
-            __res_3129 = __res_3130;
-            return __res_3129;
+            bool __res_3169;
+            bool __res_3170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelBubble");
+            __res_3169 = __res_3170;
+            return __res_3169;
         }
         set
         {
-            bool __marshalledValue_3131;
-            __marshalledValue_3131 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "cancelBubble", __marshalledValue_3131);
+            bool __marshalledValue_3171;
+            __marshalledValue_3171 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "cancelBubble", __marshalledValue_3171);
         }
     }
 
@@ -109,10 +109,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3132;
-            bool __res_3133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "bubbles");
-            __res_3132 = __res_3133;
-            return __res_3132;
+            bool __res_3172;
+            bool __res_3173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "bubbles");
+            __res_3172 = __res_3173;
+            return __res_3172;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3134;
-            bool __res_3135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
-            __res_3134 = __res_3135;
-            return __res_3134;
+            bool __res_3174;
+            bool __res_3175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
+            __res_3174 = __res_3175;
+            return __res_3174;
         }
     }
 
@@ -131,16 +131,16 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3136;
-            bool __res_3137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "returnValue");
-            __res_3136 = __res_3137;
-            return __res_3136;
+            bool __res_3176;
+            bool __res_3177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "returnValue");
+            __res_3176 = __res_3177;
+            return __res_3176;
         }
         set
         {
-            bool __marshalledValue_3138;
-            __marshalledValue_3138 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "returnValue", __marshalledValue_3138);
+            bool __marshalledValue_3178;
+            __marshalledValue_3178 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "returnValue", __marshalledValue_3178);
         }
     }
 
@@ -148,10 +148,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3139;
-            bool __res_3140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultPrevented");
-            __res_3139 = __res_3140;
-            return __res_3139;
+            bool __res_3179;
+            bool __res_3180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultPrevented");
+            __res_3179 = __res_3180;
+            return __res_3179;
         }
     }
 
@@ -159,10 +159,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3141;
-            bool __res_3142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "composed");
-            __res_3141 = __res_3142;
-            return __res_3141;
+            bool __res_3181;
+            bool __res_3182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "composed");
+            __res_3181 = __res_3182;
+            return __res_3181;
         }
     }
 
@@ -170,10 +170,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3143;
-            bool __res_3144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isTrusted");
-            __res_3143 = __res_3144;
-            return __res_3143;
+            bool __res_3183;
+            bool __res_3184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isTrusted");
+            __res_3183 = __res_3184;
+            return __res_3183;
         }
     }
 
@@ -181,10 +181,10 @@ public partial class Event(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3145;
-            double __res_3146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeStamp");
-            __res_3145 = __res_3146;
-            return __res_3145;
+            double __res_3185;
+            double __res_3186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeStamp");
+            __res_3185 = __res_3186;
+            return __res_3185;
         }
     }
 }

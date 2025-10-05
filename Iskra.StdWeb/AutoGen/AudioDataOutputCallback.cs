@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void AudioDataOutputCallback(Iskra.StdWeb.AudioData output);
+public delegate void AudioDataOutputCallback(global::Iskra.StdWeb.AudioData output);
 
 #nullable disable

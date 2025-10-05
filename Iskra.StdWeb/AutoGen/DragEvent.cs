@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class DragEvent(JSObject obj): MouseEvent(obj)
 {
-    public Iskra.StdWeb.DataTransfer? DataTransfer
+    public global::Iskra.StdWeb.DataTransfer? DataTransfer
     {
         get
         {
-            Iskra.StdWeb.DataTransfer? __res_6552;
-            JSObject? __res_6553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
-            if (__res_6553 is null)
+            global::Iskra.StdWeb.DataTransfer? __res_6603;
+            JSObject? __res_6604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
+            if (__res_6604 is null)
             {
-                __res_6552 = null;
+                __res_6603 = null;
             }
             else
             {
-                JSObject __notNullable_6554 = (JSObject)__res_6553;
+                JSObject __notNullable_6605 = (JSObject)__res_6604;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataTransfer } not supported.");
             }
-            return __res_6552;
+            return __res_6603;
         }
     }
 }

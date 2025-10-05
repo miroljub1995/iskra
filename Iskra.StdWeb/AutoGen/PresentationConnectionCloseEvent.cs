@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.PresentationConnectionCloseReason Reason
+    public global::Iskra.StdWeb.PresentationConnectionCloseReason Reason
     {
         get
         {
-            Iskra.StdWeb.PresentationConnectionCloseReason __res_2284;
-            JSObject __res_2285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            global::Iskra.StdWeb.PresentationConnectionCloseReason __res_2323;
+            JSObject __res_2324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnectionCloseReason } not supported.");
-            return __res_2284;
+            return __res_2323;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PresentationConnectionCloseEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_2286;
-            string __res_2287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_2286 = __res_2287;
-            return __res_2286;
+            string __res_2325;
+            string __res_2326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_2325 = __res_2326;
+            return __res_2325;
         }
     }
 }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class MediaElementAudioSourceNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.HTMLMediaElement MediaElement
+    public global::Iskra.StdWeb.HTMLMediaElement MediaElement
     {
         get
         {
-            Iskra.StdWeb.HTMLMediaElement __res_8223;
-            JSObject __res_8224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaElement");
+            global::Iskra.StdWeb.HTMLMediaElement __res_8283;
+            JSObject __res_8284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaElement");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLMediaElement } not supported.");
-            return __res_8223;
+            return __res_8283;
         }
     }
 }

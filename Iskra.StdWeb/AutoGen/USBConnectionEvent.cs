@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class USBConnectionEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.USBDevice Device
+    public global::Iskra.StdWeb.USBDevice Device
     {
         get
         {
-            Iskra.StdWeb.USBDevice __res_4978;
-            JSObject __res_4979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            global::Iskra.StdWeb.USBDevice __res_5021;
+            JSObject __res_5022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBDevice } not supported.");
-            return __res_4978;
+            return __res_5021;
         }
     }
 }

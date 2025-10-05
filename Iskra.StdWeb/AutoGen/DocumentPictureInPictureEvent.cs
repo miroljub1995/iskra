@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentPictureInPictureEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.Window Window
+    public global::Iskra.StdWeb.Window Window
     {
         get
         {
-            Iskra.StdWeb.Window __res_224;
-            JSObject __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
+            global::Iskra.StdWeb.Window __res_260;
+            JSObject __res_261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
-            return __res_224;
+            return __res_260;
         }
     }
 }

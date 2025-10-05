@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidatePair(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.RTCIceCandidate Local
+    public global::Iskra.StdWeb.RTCIceCandidate Local
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate __res_1945;
-            JSObject __res_1946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "local");
+            global::Iskra.StdWeb.RTCIceCandidate __res_1984;
+            JSObject __res_1985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "local");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidate } not supported.");
-            return __res_1945;
+            return __res_1984;
         }
     }
 
-    public Iskra.StdWeb.RTCIceCandidate Remote
+    public global::Iskra.StdWeb.RTCIceCandidate Remote
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate __res_1947;
-            JSObject __res_1948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
+            global::Iskra.StdWeb.RTCIceCandidate __res_1986;
+            JSObject __res_1987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidate } not supported.");
-            return __res_1947;
+            return __res_1986;
         }
     }
 }

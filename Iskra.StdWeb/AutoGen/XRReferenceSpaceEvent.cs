@@ -9,33 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpaceEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.XRReferenceSpace ReferenceSpace
+    public global::Iskra.StdWeb.XRReferenceSpace ReferenceSpace
     {
         get
         {
-            Iskra.StdWeb.XRReferenceSpace __res_4317;
-            JSObject __res_4318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
+            global::Iskra.StdWeb.XRReferenceSpace __res_4358;
+            JSObject __res_4359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRReferenceSpace } not supported.");
-            return __res_4317;
+            return __res_4358;
         }
     }
 
-    public Iskra.StdWeb.XRRigidTransform? Transform
+    public global::Iskra.StdWeb.XRRigidTransform? Transform
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform? __res_4319;
-            JSObject? __res_4320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transform");
-            if (__res_4320 is null)
+            global::Iskra.StdWeb.XRRigidTransform? __res_4360;
+            JSObject? __res_4361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transform");
+            if (__res_4361 is null)
             {
-                __res_4319 = null;
+                __res_4360 = null;
             }
             else
             {
-                JSObject __notNullable_4321 = (JSObject)__res_4320;
+                JSObject __notNullable_4362 = (JSObject)__res_4361;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
             }
-            return __res_4319;
+            return __res_4360;
         }
     }
 }

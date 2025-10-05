@@ -13,21 +13,21 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_369;
-            double __res_370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_369 = Convert.ToUInt16(__res_370);
-            return __res_369;
+            ushort __res_405;
+            double __res_406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_405 = Convert.ToUInt16(__res_406);
+            return __res_405;
         }
     }
 
-    public Iskra.StdWeb.DOMMatrix Matrix
+    public global::Iskra.StdWeb.DOMMatrix Matrix
     {
         get
         {
-            Iskra.StdWeb.DOMMatrix __res_371;
-            JSObject __res_372 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            global::Iskra.StdWeb.DOMMatrix __res_407;
+            JSObject __res_408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMMatrix } not supported.");
-            return __res_371;
+            return __res_407;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SVGTransform(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_373;
-            double __res_374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_373 = Convert.ToSingle(__res_374);
-            return __res_373;
+            float __res_409;
+            double __res_410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_409 = Convert.ToSingle(__res_410);
+            return __res_409;
         }
     }
 }

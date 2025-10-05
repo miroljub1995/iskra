@@ -13,21 +13,21 @@ public partial class ByteLengthQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_965;
-            double __res_966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_965 = __res_966;
-            return __res_965;
+            double __res_1003;
+            double __res_1004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1003 = __res_1004;
+            return __res_1003;
         }
     }
 
-    public Iskra.StdWeb.Function Size
+    public global::Iskra.StdWeb.Function Size
     {
         get
         {
-            Iskra.StdWeb.Function __res_967;
-            JSObject __res_968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            global::Iskra.StdWeb.Function __res_1005;
+            JSObject __res_1006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
-            return __res_967;
+            return __res_1005;
         }
     }
 }

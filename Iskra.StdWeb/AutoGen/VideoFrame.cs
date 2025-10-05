@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.VideoPixelFormat? Format
+    public global::Iskra.StdWeb.VideoPixelFormat? Format
     {
         get
         {
-            Iskra.StdWeb.VideoPixelFormat? __res_2617;
-            JSObject? __res_2618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
-            if (__res_2618 is null)
+            global::Iskra.StdWeb.VideoPixelFormat? __res_2656;
+            JSObject? __res_2657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
+            if (__res_2657 is null)
             {
-                __res_2617 = null;
+                __res_2656 = null;
             }
             else
             {
-                JSObject __notNullable_2619 = (JSObject)__res_2618;
+                JSObject __notNullable_2658 = (JSObject)__res_2657;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoPixelFormat } not supported.");
             }
-            return __res_2617;
+            return __res_2656;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2620;
-            double __res_2621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
-            __res_2620 = Convert.ToUInt32(__res_2621);
-            return __res_2620;
+            uint __res_2659;
+            double __res_2660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
+            __res_2659 = Convert.ToUInt32(__res_2660);
+            return __res_2659;
         }
     }
 
@@ -43,48 +43,48 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2622;
-            double __res_2623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
-            __res_2622 = Convert.ToUInt32(__res_2623);
-            return __res_2622;
+            uint __res_2661;
+            double __res_2662 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
+            __res_2661 = Convert.ToUInt32(__res_2662);
+            return __res_2661;
         }
     }
 
-    public Iskra.StdWeb.DOMRectReadOnly? CodedRect
+    public global::Iskra.StdWeb.DOMRectReadOnly? CodedRect
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly? __res_2624;
-            JSObject? __res_2625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
-            if (__res_2625 is null)
+            global::Iskra.StdWeb.DOMRectReadOnly? __res_2663;
+            JSObject? __res_2664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
+            if (__res_2664 is null)
             {
-                __res_2624 = null;
+                __res_2663 = null;
             }
             else
             {
-                JSObject __notNullable_2626 = (JSObject)__res_2625;
+                JSObject __notNullable_2665 = (JSObject)__res_2664;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             }
-            return __res_2624;
+            return __res_2663;
         }
     }
 
-    public Iskra.StdWeb.DOMRectReadOnly? VisibleRect
+    public global::Iskra.StdWeb.DOMRectReadOnly? VisibleRect
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly? __res_2627;
-            JSObject? __res_2628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
-            if (__res_2628 is null)
+            global::Iskra.StdWeb.DOMRectReadOnly? __res_2666;
+            JSObject? __res_2667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
+            if (__res_2667 is null)
             {
-                __res_2627 = null;
+                __res_2666 = null;
             }
             else
             {
-                JSObject __notNullable_2629 = (JSObject)__res_2628;
+                JSObject __notNullable_2668 = (JSObject)__res_2667;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
             }
-            return __res_2627;
+            return __res_2666;
         }
     }
 
@@ -92,10 +92,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2630;
-            double __res_2631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
-            __res_2630 = __res_2631;
-            return __res_2630;
+            double __res_2669;
+            double __res_2670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
+            __res_2669 = __res_2670;
+            return __res_2669;
         }
     }
 
@@ -103,10 +103,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2632;
-            bool __res_2633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
-            __res_2632 = __res_2633;
-            return __res_2632;
+            bool __res_2671;
+            bool __res_2672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
+            __res_2671 = __res_2672;
+            return __res_2671;
         }
     }
 
@@ -114,10 +114,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2634;
-            double __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
-            __res_2634 = Convert.ToUInt32(__res_2635);
-            return __res_2634;
+            uint __res_2673;
+            double __res_2674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
+            __res_2673 = Convert.ToUInt32(__res_2674);
+            return __res_2673;
         }
     }
 
@@ -125,10 +125,10 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2636;
-            double __res_2637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
-            __res_2636 = Convert.ToUInt32(__res_2637);
-            return __res_2636;
+            uint __res_2675;
+            double __res_2676 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
+            __res_2675 = Convert.ToUInt32(__res_2676);
+            return __res_2675;
         }
     }
 
@@ -136,18 +136,18 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_2638;
-            double? __res_2639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_2639 is null)
+            ulong? __res_2677;
+            double? __res_2678 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_2678 is null)
             {
-                __res_2638 = null;
+                __res_2677 = null;
             }
             else
             {
-                double __notNullable_2640 = (double)__res_2639;
-                __res_2638 = Convert.ToUInt64(__notNullable_2640);
+                double __notNullable_2679 = (double)__res_2678;
+                __res_2677 = Convert.ToUInt64(__notNullable_2679);
             }
-            return __res_2638;
+            return __res_2677;
         }
     }
 
@@ -155,21 +155,21 @@ public partial class VideoFrame(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_2641;
-            double __res_2642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2641 = Convert.ToInt64(__res_2642);
-            return __res_2641;
+            long __res_2680;
+            double __res_2681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2680 = Convert.ToInt64(__res_2681);
+            return __res_2680;
         }
     }
 
-    public Iskra.StdWeb.VideoColorSpace ColorSpace
+    public global::Iskra.StdWeb.VideoColorSpace ColorSpace
     {
         get
         {
-            Iskra.StdWeb.VideoColorSpace __res_2643;
-            JSObject __res_2644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
+            global::Iskra.StdWeb.VideoColorSpace __res_2682;
+            JSObject __res_2683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoColorSpace } not supported.");
-            return __res_2643;
+            return __res_2682;
         }
     }
 }

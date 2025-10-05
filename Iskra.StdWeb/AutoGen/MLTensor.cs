@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.MLOperandDataType DataType
+    public global::Iskra.StdWeb.MLOperandDataType DataType
     {
         get
         {
-            Iskra.StdWeb.MLOperandDataType __res_4741;
-            JSObject __res_4742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
+            global::Iskra.StdWeb.MLOperandDataType __res_4784;
+            JSObject __res_4785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MLOperandDataType } not supported.");
-            return __res_4741;
+            return __res_4784;
         }
     }
 
@@ -24,11 +24,11 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4743;
-            JSObject __propObject_4744;
-            __propObject_4744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
-            __res_4743 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4744);
-            return __res_4743;
+            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4786;
+            JSObject __propObject_4787;
+            __propObject_4787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
+            __res_4786 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4787);
+            return __res_4786;
         }
     }
 
@@ -36,10 +36,10 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4745;
-            bool __res_4746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readable");
-            __res_4745 = __res_4746;
-            return __res_4745;
+            bool __res_4788;
+            bool __res_4789 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readable");
+            __res_4788 = __res_4789;
+            return __res_4788;
         }
     }
 
@@ -47,10 +47,10 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4747;
-            bool __res_4748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writable");
-            __res_4747 = __res_4748;
-            return __res_4747;
+            bool __res_4790;
+            bool __res_4791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writable");
+            __res_4790 = __res_4791;
+            return __res_4790;
         }
     }
 
@@ -58,10 +58,10 @@ public partial class MLTensor(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4749;
-            bool __res_4750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "constant");
-            __res_4749 = __res_4750;
-            return __res_4749;
+            bool __res_4792;
+            bool __res_4793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "constant");
+            __res_4792 = __res_4793;
+            return __res_4792;
         }
     }
 }

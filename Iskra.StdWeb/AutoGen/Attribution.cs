@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class Attribution(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.AttributionAggregationServices AggregationServices
+    public global::Iskra.StdWeb.AttributionAggregationServices AggregationServices
     {
         get
         {
-            Iskra.StdWeb.AttributionAggregationServices __res_1615;
-            JSObject __res_1616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
+            global::Iskra.StdWeb.AttributionAggregationServices __res_1654;
+            JSObject __res_1655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AttributionAggregationServices } not supported.");
-            return __res_1615;
+            return __res_1654;
         }
     }
 }

@@ -9,53 +9,53 @@ namespace Iskra.StdWeb;
 
 public partial class VTTCue(JSObject obj): TextTrackCue(obj)
 {
-    public Iskra.StdWeb.VTTRegion? Region
+    public global::Iskra.StdWeb.VTTRegion? Region
     {
         get
         {
-            Iskra.StdWeb.VTTRegion? __res_7185;
-            JSObject? __res_7186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "region");
-            if (__res_7186 is null)
+            global::Iskra.StdWeb.VTTRegion? __res_7238;
+            JSObject? __res_7239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "region");
+            if (__res_7239 is null)
             {
-                __res_7185 = null;
+                __res_7238 = null;
             }
             else
             {
-                JSObject __notNullable_7187 = (JSObject)__res_7186;
+                JSObject __notNullable_7240 = (JSObject)__res_7239;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VTTRegion } not supported.");
             }
-            return __res_7185;
+            return __res_7238;
         }
         set
         {
-            JSObject? __marshalledValue_7188;
+            JSObject? __marshalledValue_7241;
             if (value is null)
             {
-                __marshalledValue_7188 = null;
+                __marshalledValue_7241 = null;
             }
             else
             {
-                Iskra.StdWeb.VTTRegion __notNullable_7189 = (Iskra.StdWeb.VTTRegion)value;
+                global::Iskra.StdWeb.VTTRegion __notNullable_7242 = (global::Iskra.StdWeb.VTTRegion)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VTTRegion } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "region", __marshalledValue_7188);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "region", __marshalledValue_7241);
         }
     }
 
-    public Iskra.StdWeb.DirectionSetting Vertical
+    public global::Iskra.StdWeb.DirectionSetting Vertical
     {
         get
         {
-            Iskra.StdWeb.DirectionSetting __res_7190;
-            JSObject __res_7191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertical");
+            global::Iskra.StdWeb.DirectionSetting __res_7243;
+            JSObject __res_7244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertical");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DirectionSetting } not supported.");
-            return __res_7190;
+            return __res_7243;
         }
         set
         {
-            JSObject __marshalledValue_7192;
+            JSObject __marshalledValue_7245;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DirectionSetting } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "vertical", __marshalledValue_7192);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "vertical", __marshalledValue_7245);
         }
     }
 
@@ -63,26 +63,28 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            bool __res_7193;
-            bool __res_7194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
-            __res_7193 = __res_7194;
-            return __res_7193;
+            bool __res_7246;
+            bool __res_7247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
+            __res_7246 = __res_7247;
+            return __res_7246;
         }
         set
         {
-            bool __marshalledValue_7195;
-            __marshalledValue_7195 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "snapToLines", __marshalledValue_7195);
+            bool __marshalledValue_7248;
+            __marshalledValue_7248 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "snapToLines", __marshalledValue_7248);
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Line
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Line
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7196;
-            throw new Exception();
-            return __res_7196;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7249;
+            JSObject __propObject_7250;
+            __propObject_7250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "line");
+            __res_7249 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7250);
+            return __res_7249;
         }
         set
         {
@@ -90,30 +92,32 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public Iskra.StdWeb.LineAlignSetting LineAlign
+    public global::Iskra.StdWeb.LineAlignSetting LineAlign
     {
         get
         {
-            Iskra.StdWeb.LineAlignSetting __res_7197;
-            JSObject __res_7198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lineAlign");
+            global::Iskra.StdWeb.LineAlignSetting __res_7251;
+            JSObject __res_7252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lineAlign");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LineAlignSetting } not supported.");
-            return __res_7197;
+            return __res_7251;
         }
         set
         {
-            JSObject __marshalledValue_7199;
+            JSObject __marshalledValue_7253;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LineAlignSetting } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "lineAlign", __marshalledValue_7199);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "lineAlign", __marshalledValue_7253);
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Position
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Position
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7200;
-            throw new Exception();
-            return __res_7200;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7254;
+            JSObject __propObject_7255;
+            __propObject_7255 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "position");
+            __res_7254 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7255);
+            return __res_7254;
         }
         set
         {
@@ -121,20 +125,20 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
         }
     }
 
-    public Iskra.StdWeb.PositionAlignSetting PositionAlign
+    public global::Iskra.StdWeb.PositionAlignSetting PositionAlign
     {
         get
         {
-            Iskra.StdWeb.PositionAlignSetting __res_7201;
-            JSObject __res_7202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionAlign");
+            global::Iskra.StdWeb.PositionAlignSetting __res_7256;
+            JSObject __res_7257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionAlign");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PositionAlignSetting } not supported.");
-            return __res_7201;
+            return __res_7256;
         }
         set
         {
-            JSObject __marshalledValue_7203;
+            JSObject __marshalledValue_7258;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PositionAlignSetting } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "positionAlign", __marshalledValue_7203);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "positionAlign", __marshalledValue_7258);
         }
     }
 
@@ -142,33 +146,33 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            double __res_7204;
-            double __res_7205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_7204 = __res_7205;
-            return __res_7204;
+            double __res_7259;
+            double __res_7260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_7259 = __res_7260;
+            return __res_7259;
         }
         set
         {
-            double __marshalledValue_7206;
-            __marshalledValue_7206 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_7206);
+            double __marshalledValue_7261;
+            __marshalledValue_7261 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_7261);
         }
     }
 
-    public Iskra.StdWeb.AlignSetting Align
+    public global::Iskra.StdWeb.AlignSetting Align
     {
         get
         {
-            Iskra.StdWeb.AlignSetting __res_7207;
-            JSObject __res_7208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "align");
+            global::Iskra.StdWeb.AlignSetting __res_7262;
+            JSObject __res_7263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "align");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AlignSetting } not supported.");
-            return __res_7207;
+            return __res_7262;
         }
         set
         {
-            JSObject __marshalledValue_7209;
+            JSObject __marshalledValue_7264;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AlignSetting } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "align", __marshalledValue_7209);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "align", __marshalledValue_7264);
         }
     }
 
@@ -176,16 +180,16 @@ public partial class VTTCue(JSObject obj): TextTrackCue(obj)
     {
         get
         {
-            string __res_7210;
-            string __res_7211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_7210 = __res_7211;
-            return __res_7210;
+            string __res_7265;
+            string __res_7266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_7265 = __res_7266;
+            return __res_7265;
         }
         set
         {
-            string __marshalledValue_7212;
-            __marshalledValue_7212 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_7212);
+            string __marshalledValue_7267;
+            __marshalledValue_7267 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_7267);
         }
     }
 }

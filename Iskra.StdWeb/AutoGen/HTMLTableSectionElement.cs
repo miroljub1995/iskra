@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableSectionElement(JSObject obj): HTMLElement(obj)
 {
-    public Iskra.StdWeb.HTMLCollection Rows
+    public global::Iskra.StdWeb.HTMLCollection Rows
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5862;
-            JSObject __res_5863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
+            global::Iskra.StdWeb.HTMLCollection __res_5912;
+            JSObject __res_5913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_5862;
+            return __res_5912;
         }
     }
 }

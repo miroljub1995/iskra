@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.Request Request
+    public global::Iskra.StdWeb.Request Request
     {
         get
         {
-            Iskra.StdWeb.Request __res_3413;
-            JSObject __res_3414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            global::Iskra.StdWeb.Request __res_3453;
+            JSObject __res_3454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Request } not supported.");
-            return __res_3413;
+            return __res_3453;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class BackgroundFetchRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_3415;
+            object __res_3455;
             throw new Exception();
-            return __res_3415;
+            return __res_3455;
         }
     }
 }

@@ -9,15 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Brands
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Brands
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2711;
-            JSObject __propObject_2712;
-            __propObject_2712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
-            __res_2711 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2712);
-            return __res_2711;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2751;
+            JSObject __propObject_2752;
+            __propObject_2752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
+            __res_2751 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2752);
+            return __res_2751;
         }
     }
 
@@ -25,10 +25,10 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_2713;
-            bool __res_2714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
-            __res_2713 = __res_2714;
-            return __res_2713;
+            bool __res_2753;
+            bool __res_2754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
+            __res_2753 = __res_2754;
+            return __res_2753;
         }
     }
 
@@ -36,10 +36,10 @@ public partial class NavigatorUAData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2715;
-            string __res_2716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_2715 = __res_2716;
-            return __res_2715;
+            string __res_2755;
+            string __res_2756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
+            __res_2755 = __res_2756;
+            return __res_2755;
         }
     }
 }

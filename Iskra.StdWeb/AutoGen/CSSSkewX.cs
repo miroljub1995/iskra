@@ -9,20 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSkewX(JSObject obj): CSSTransformComponent(obj)
 {
-    public Iskra.StdWeb.CSSNumericValue Ax
+    public global::Iskra.StdWeb.CSSNumericValue Ax
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_100;
-            JSObject __res_101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
+            global::Iskra.StdWeb.CSSNumericValue __res_106;
+            JSObject __res_107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
-            return __res_100;
+            return __res_106;
         }
         set
         {
-            JSObject __marshalledValue_102;
+            JSObject __marshalledValue_108;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_102);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_108);
         }
     }
 }

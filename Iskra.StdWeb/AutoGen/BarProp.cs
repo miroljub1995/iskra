@@ -13,10 +13,10 @@ public partial class BarProp(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6611;
-            bool __res_6612 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_6611 = __res_6612;
-            return __res_6611;
+            bool __res_6662;
+            bool __res_6663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_6662 = __res_6663;
+            return __res_6662;
         }
     }
 }

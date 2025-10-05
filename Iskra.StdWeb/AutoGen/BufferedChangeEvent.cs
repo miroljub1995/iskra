@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class BufferedChangeEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.TimeRanges AddedRanges
+    public global::Iskra.StdWeb.TimeRanges AddedRanges
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_7643;
-            JSObject __res_7644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
+            global::Iskra.StdWeb.TimeRanges __res_7699;
+            JSObject __res_7700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
-            return __res_7643;
+            return __res_7699;
         }
     }
 
-    public Iskra.StdWeb.TimeRanges RemovedRanges
+    public global::Iskra.StdWeb.TimeRanges RemovedRanges
     {
         get
         {
-            Iskra.StdWeb.TimeRanges __res_7645;
-            JSObject __res_7646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
+            global::Iskra.StdWeb.TimeRanges __res_7701;
+            JSObject __res_7702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
-            return __res_7645;
+            return __res_7701;
         }
     }
 }

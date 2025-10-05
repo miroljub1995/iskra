@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void MediaSessionActionHandler(Iskra.StdWeb.MediaSessionActionDetails details);
+public delegate void MediaSessionActionHandler(global::Iskra.StdWeb.MediaSessionActionDetails details);
 
 #nullable disable

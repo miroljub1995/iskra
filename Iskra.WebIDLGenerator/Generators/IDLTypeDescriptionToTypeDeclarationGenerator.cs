@@ -117,6 +117,7 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             BuiltinTypes.UnsignedInt32 => "uint",
             BuiltinTypes.Int64 => "long",
             BuiltinTypes.UnsignedInt64 => "ulong",
+            BuiltinTypes.BigInt => "global::System.Numerics.BigInteger",
             BuiltinTypes.Float => "float",
             BuiltinTypes.UnrestrictedFloat => "float",
             BuiltinTypes.Double => "double",
@@ -133,6 +134,6 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return $"UnknownNamespace.{input}";
         }
 
-        return $"{descriptor.Namespace}.{descriptor.Name}";
+        return $"global::{descriptor.Namespace}.{descriptor.Name}";
     }
 }

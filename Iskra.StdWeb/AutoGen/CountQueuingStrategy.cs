@@ -13,21 +13,21 @@ public partial class CountQueuingStrategy(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_969;
-            double __res_970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_969 = __res_970;
-            return __res_969;
+            double __res_1007;
+            double __res_1008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1007 = __res_1008;
+            return __res_1007;
         }
     }
 
-    public Iskra.StdWeb.Function Size
+    public global::Iskra.StdWeb.Function Size
     {
         get
         {
-            Iskra.StdWeb.Function __res_971;
-            JSObject __res_972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            global::Iskra.StdWeb.Function __res_1009;
+            JSObject __res_1010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
-            return __res_971;
+            return __res_1009;
         }
     }
 }

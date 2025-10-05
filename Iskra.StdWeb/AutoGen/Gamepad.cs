@@ -13,10 +13,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4778;
-            string __res_4779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4778 = __res_4779;
-            return __res_4778;
+            string __res_4821;
+            string __res_4822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4821 = __res_4822;
+            return __res_4821;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_4780;
-            double __res_4781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_4780 = Convert.ToInt32(__res_4781);
-            return __res_4780;
+            int __res_4823;
+            double __res_4824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_4823 = Convert.ToInt32(__res_4824);
+            return __res_4823;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4782;
-            bool __res_4783 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
-            __res_4782 = __res_4783;
-            return __res_4782;
+            bool __res_4825;
+            bool __res_4826 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            __res_4825 = __res_4826;
+            return __res_4825;
         }
     }
 
@@ -46,21 +46,21 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_4784;
-            double __res_4785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_4784 = __res_4785;
-            return __res_4784;
+            double __res_4827;
+            double __res_4828 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_4827 = __res_4828;
+            return __res_4827;
         }
     }
 
-    public Iskra.StdWeb.GamepadMappingType Mapping
+    public global::Iskra.StdWeb.GamepadMappingType Mapping
     {
         get
         {
-            Iskra.StdWeb.GamepadMappingType __res_4786;
-            JSObject __res_4787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapping");
+            global::Iskra.StdWeb.GamepadMappingType __res_4829;
+            JSObject __res_4830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapping");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadMappingType } not supported.");
-            return __res_4786;
+            return __res_4829;
         }
     }
 
@@ -68,46 +68,46 @@ public partial class Gamepad(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4788;
-            JSObject __propObject_4789;
-            __propObject_4789 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axes");
-            __res_4788 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4789);
-            return __res_4788;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4831;
+            JSObject __propObject_4832;
+            __propObject_4832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axes");
+            __res_4831 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4832);
+            return __res_4831;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Buttons
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Buttons
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4790;
-            JSObject __propObject_4791;
-            __propObject_4791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buttons");
-            __res_4790 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4791);
-            return __res_4790;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4833;
+            JSObject __propObject_4834;
+            __propObject_4834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buttons");
+            __res_4833 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4834);
+            return __res_4833;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Touches
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Touches
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4792;
-            JSObject __propObject_4793;
-            __propObject_4793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
-            __res_4792 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4793);
-            return __res_4792;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4835;
+            JSObject __propObject_4836;
+            __propObject_4836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
+            __res_4835 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4836);
+            return __res_4835;
         }
     }
 
-    public Iskra.StdWeb.GamepadHapticActuator VibrationActuator
+    public global::Iskra.StdWeb.GamepadHapticActuator VibrationActuator
     {
         get
         {
-            Iskra.StdWeb.GamepadHapticActuator __res_4794;
-            JSObject __res_4795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
+            global::Iskra.StdWeb.GamepadHapticActuator __res_4837;
+            JSObject __res_4838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadHapticActuator } not supported.");
-            return __res_4794;
+            return __res_4837;
         }
     }
 }

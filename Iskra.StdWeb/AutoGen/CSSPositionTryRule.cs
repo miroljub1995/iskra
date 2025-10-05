@@ -13,21 +13,21 @@ public partial class CSSPositionTryRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_2325;
-            string __res_2326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2325 = __res_2326;
-            return __res_2325;
+            string __res_2364;
+            string __res_2365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2364 = __res_2365;
+            return __res_2364;
         }
     }
 
-    public Iskra.StdWeb.CSSPositionTryDescriptors Style
+    public global::Iskra.StdWeb.CSSPositionTryDescriptors Style
     {
         get
         {
-            Iskra.StdWeb.CSSPositionTryDescriptors __res_2327;
-            JSObject __res_2328 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            global::Iskra.StdWeb.CSSPositionTryDescriptors __res_2366;
+            JSObject __res_2367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSPositionTryDescriptors } not supported.");
-            return __res_2327;
+            return __res_2366;
         }
     }
 }

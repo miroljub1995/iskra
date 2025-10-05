@@ -13,21 +13,21 @@ public partial class CSSMarginRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_7356;
-            string __res_7357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7356 = __res_7357;
-            return __res_7356;
+            string __res_7412;
+            string __res_7413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7412 = __res_7413;
+            return __res_7412;
         }
     }
 
-    public Iskra.StdWeb.CSSStyleDeclaration Style
+    public global::Iskra.StdWeb.CSSStyleDeclaration Style
     {
         get
         {
-            Iskra.StdWeb.CSSStyleDeclaration __res_7358;
-            JSObject __res_7359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            global::Iskra.StdWeb.CSSStyleDeclaration __res_7414;
+            JSObject __res_7415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleDeclaration } not supported.");
-            return __res_7358;
+            return __res_7414;
         }
     }
 }

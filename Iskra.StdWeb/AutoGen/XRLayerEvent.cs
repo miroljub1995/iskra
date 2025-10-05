@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRLayerEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.XRLayer Layer
+    public global::Iskra.StdWeb.XRLayer Layer
     {
         get
         {
-            Iskra.StdWeb.XRLayer __res_1613;
-            JSObject __res_1614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
+            global::Iskra.StdWeb.XRLayer __res_1652;
+            JSObject __res_1653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayer } not supported.");
-            return __res_1613;
+            return __res_1652;
         }
     }
 }

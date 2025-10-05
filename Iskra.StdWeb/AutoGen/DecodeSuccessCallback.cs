@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void DecodeSuccessCallback(Iskra.StdWeb.AudioBuffer decodedData);
+public delegate void DecodeSuccessCallback(global::Iskra.StdWeb.AudioBuffer decodedData);
 
 #nullable disable

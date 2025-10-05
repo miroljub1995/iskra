@@ -13,16 +13,16 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4128;
-            string __res_4129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
-            __res_4128 = __res_4129;
-            return __res_4128;
+            string __res_4169;
+            string __res_4170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
+            __res_4169 = __res_4170;
+            return __res_4169;
         }
         set
         {
-            string __marshalledValue_4130;
-            __marshalledValue_4130 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_4130);
+            string __marshalledValue_4171;
+            __marshalledValue_4171 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_4171);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class RTCIdentityAssertion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4131;
-            string __res_4132 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4131 = __res_4132;
-            return __res_4131;
+            string __res_4172;
+            string __res_4173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4172 = __res_4173;
+            return __res_4172;
         }
         set
         {
-            string __marshalledValue_4133;
-            __marshalledValue_4133 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_4133);
+            string __marshalledValue_4174;
+            __marshalledValue_4174 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_4174);
         }
     }
 }

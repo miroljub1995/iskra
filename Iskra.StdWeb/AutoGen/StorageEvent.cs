@@ -13,18 +13,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_6955;
-            string? __res_6956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "key");
-            if (__res_6956 is null)
+            string? __res_7008;
+            string? __res_7009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "key");
+            if (__res_7009 is null)
             {
-                __res_6955 = null;
+                __res_7008 = null;
             }
             else
             {
-                string __notNullable_6957 = (string)__res_6956;
-                __res_6955 = __notNullable_6957;
+                string __notNullable_7010 = (string)__res_7009;
+                __res_7008 = __notNullable_7010;
             }
-            return __res_6955;
+            return __res_7008;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_6958;
-            string? __res_6959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
-            if (__res_6959 is null)
+            string? __res_7011;
+            string? __res_7012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
+            if (__res_7012 is null)
             {
-                __res_6958 = null;
+                __res_7011 = null;
             }
             else
             {
-                string __notNullable_6960 = (string)__res_6959;
-                __res_6958 = __notNullable_6960;
+                string __notNullable_7013 = (string)__res_7012;
+                __res_7011 = __notNullable_7013;
             }
-            return __res_6958;
+            return __res_7011;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_6961;
-            string? __res_6962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "newValue");
-            if (__res_6962 is null)
+            string? __res_7014;
+            string? __res_7015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "newValue");
+            if (__res_7015 is null)
             {
-                __res_6961 = null;
+                __res_7014 = null;
             }
             else
             {
-                string __notNullable_6963 = (string)__res_6962;
-                __res_6961 = __notNullable_6963;
+                string __notNullable_7016 = (string)__res_7015;
+                __res_7014 = __notNullable_7016;
             }
-            return __res_6961;
+            return __res_7014;
         }
     }
 
@@ -70,29 +70,29 @@ public partial class StorageEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6964;
-            string __res_6965 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_6964 = __res_6965;
-            return __res_6964;
+            string __res_7017;
+            string __res_7018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_7017 = __res_7018;
+            return __res_7017;
         }
     }
 
-    public Iskra.StdWeb.Storage? StorageArea
+    public global::Iskra.StdWeb.Storage? StorageArea
     {
         get
         {
-            Iskra.StdWeb.Storage? __res_6966;
-            JSObject? __res_6967 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "storageArea");
-            if (__res_6967 is null)
+            global::Iskra.StdWeb.Storage? __res_7019;
+            JSObject? __res_7020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "storageArea");
+            if (__res_7020 is null)
             {
-                __res_6966 = null;
+                __res_7019 = null;
             }
             else
             {
-                JSObject __notNullable_6968 = (JSObject)__res_6967;
+                JSObject __notNullable_7021 = (JSObject)__res_7020;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Storage } not supported.");
             }
-            return __res_6966;
+            return __res_7019;
         }
     }
 }

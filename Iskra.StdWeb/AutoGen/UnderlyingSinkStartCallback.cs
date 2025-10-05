@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object? UnderlyingSinkStartCallback(Iskra.StdWeb.WritableStreamDefaultController controller);
+public delegate object? UnderlyingSinkStartCallback(global::Iskra.StdWeb.WritableStreamDefaultController controller);
 
 #nullable disable

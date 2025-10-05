@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void MutationCallback(global::Iskra.JSCore.Generics.JSArray<Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.Sequence> mutations, Iskra.StdWeb.MutationObserver observer);
+public delegate void MutationCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.Sequence> mutations, global::Iskra.StdWeb.MutationObserver observer);
 
 #nullable disable

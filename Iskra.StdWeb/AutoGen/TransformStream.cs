@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class TransformStream(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_958;
-            JSObject __res_959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            global::Iskra.StdWeb.ReadableStream __res_996;
+            JSObject __res_997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
-            return __res_958;
+            return __res_996;
         }
     }
 
-    public Iskra.StdWeb.WritableStream Writable
+    public global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {
-            Iskra.StdWeb.WritableStream __res_960;
-            JSObject __res_961 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            global::Iskra.StdWeb.WritableStream __res_998;
+            JSObject __res_999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
-            return __res_960;
+            return __res_998;
         }
     }
 }

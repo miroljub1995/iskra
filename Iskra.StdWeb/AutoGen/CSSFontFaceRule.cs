@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFaceRule(JSObject obj): CSSRule(obj)
 {
-    public Iskra.StdWeb.CSSFontFaceDescriptors Style
+    public global::Iskra.StdWeb.CSSFontFaceDescriptors Style
     {
         get
         {
-            Iskra.StdWeb.CSSFontFaceDescriptors __res_4936;
-            JSObject __res_4937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            global::Iskra.StdWeb.CSSFontFaceDescriptors __res_4979;
+            JSObject __res_4980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFaceDescriptors } not supported.");
-            return __res_4936;
+            return __res_4979;
         }
     }
 }

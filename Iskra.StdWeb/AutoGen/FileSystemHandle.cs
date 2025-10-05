@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.FileSystemHandleKind Kind
+    public global::Iskra.StdWeb.FileSystemHandleKind Kind
     {
         get
         {
-            Iskra.StdWeb.FileSystemHandleKind __res_3926;
-            JSObject __res_3927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            global::Iskra.StdWeb.FileSystemHandleKind __res_3967;
+            JSObject __res_3968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemHandleKind } not supported.");
-            return __res_3926;
+            return __res_3967;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class FileSystemHandle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3928;
-            string __res_3929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3928 = __res_3929;
-            return __res_3928;
+            string __res_3969;
+            string __res_3970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3969 = __res_3970;
+            return __res_3969;
         }
     }
 }

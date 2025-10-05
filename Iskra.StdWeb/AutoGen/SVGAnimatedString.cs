@@ -13,16 +13,16 @@ public partial class SVGAnimatedString(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_314;
-            string __res_315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "baseVal");
-            __res_314 = __res_315;
-            return __res_314;
+            string __res_350;
+            string __res_351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "baseVal");
+            __res_350 = __res_351;
+            return __res_350;
         }
         set
         {
-            string __marshalledValue_316;
-            __marshalledValue_316 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "baseVal", __marshalledValue_316);
+            string __marshalledValue_352;
+            __marshalledValue_352 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "baseVal", __marshalledValue_352);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class SVGAnimatedString(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_317;
-            string __res_318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
-            __res_317 = __res_318;
-            return __res_317;
+            string __res_353;
+            string __res_354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
+            __res_353 = __res_354;
+            return __res_353;
         }
     }
 }

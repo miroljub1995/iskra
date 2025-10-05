@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourceEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.XRFrame Frame
+    public global::Iskra.StdWeb.XRFrame Frame
     {
         get
         {
-            Iskra.StdWeb.XRFrame __res_4307;
-            JSObject __res_4308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            global::Iskra.StdWeb.XRFrame __res_4348;
+            JSObject __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRFrame } not supported.");
-            return __res_4307;
+            return __res_4348;
         }
     }
 
-    public Iskra.StdWeb.XRInputSource InputSource
+    public global::Iskra.StdWeb.XRInputSource InputSource
     {
         get
         {
-            Iskra.StdWeb.XRInputSource __res_4309;
-            JSObject __res_4310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            global::Iskra.StdWeb.XRInputSource __res_4350;
+            JSObject __res_4351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } not supported.");
-            return __res_4309;
+            return __res_4350;
         }
     }
 }

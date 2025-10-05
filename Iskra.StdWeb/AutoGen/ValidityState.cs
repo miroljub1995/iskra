@@ -13,10 +13,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6337;
-            bool __res_6338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "valueMissing");
-            __res_6337 = __res_6338;
-            return __res_6337;
+            bool __res_6387;
+            bool __res_6388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "valueMissing");
+            __res_6387 = __res_6388;
+            return __res_6387;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6339;
-            bool __res_6340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "typeMismatch");
-            __res_6339 = __res_6340;
-            return __res_6339;
+            bool __res_6389;
+            bool __res_6390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "typeMismatch");
+            __res_6389 = __res_6390;
+            return __res_6389;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6341;
-            bool __res_6342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "patternMismatch");
-            __res_6341 = __res_6342;
-            return __res_6341;
+            bool __res_6391;
+            bool __res_6392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "patternMismatch");
+            __res_6391 = __res_6392;
+            return __res_6391;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6343;
-            bool __res_6344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "tooLong");
-            __res_6343 = __res_6344;
-            return __res_6343;
+            bool __res_6393;
+            bool __res_6394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "tooLong");
+            __res_6393 = __res_6394;
+            return __res_6393;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6345;
-            bool __res_6346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "tooShort");
-            __res_6345 = __res_6346;
-            return __res_6345;
+            bool __res_6395;
+            bool __res_6396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "tooShort");
+            __res_6395 = __res_6396;
+            return __res_6395;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6347;
-            bool __res_6348 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "rangeUnderflow");
-            __res_6347 = __res_6348;
-            return __res_6347;
+            bool __res_6397;
+            bool __res_6398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "rangeUnderflow");
+            __res_6397 = __res_6398;
+            return __res_6397;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6349;
-            bool __res_6350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "rangeOverflow");
-            __res_6349 = __res_6350;
-            return __res_6349;
+            bool __res_6399;
+            bool __res_6400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "rangeOverflow");
+            __res_6399 = __res_6400;
+            return __res_6399;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6351;
-            bool __res_6352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stepMismatch");
-            __res_6351 = __res_6352;
-            return __res_6351;
+            bool __res_6401;
+            bool __res_6402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stepMismatch");
+            __res_6401 = __res_6402;
+            return __res_6401;
         }
     }
 
@@ -101,10 +101,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6353;
-            bool __res_6354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "badInput");
-            __res_6353 = __res_6354;
-            return __res_6353;
+            bool __res_6403;
+            bool __res_6404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "badInput");
+            __res_6403 = __res_6404;
+            return __res_6403;
         }
     }
 
@@ -112,10 +112,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6355;
-            bool __res_6356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "customError");
-            __res_6355 = __res_6356;
-            return __res_6355;
+            bool __res_6405;
+            bool __res_6406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "customError");
+            __res_6405 = __res_6406;
+            return __res_6405;
         }
     }
 
@@ -123,10 +123,10 @@ public partial class ValidityState(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_6357;
-            bool __res_6358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "valid");
-            __res_6357 = __res_6358;
-            return __res_6357;
+            bool __res_6407;
+            bool __res_6408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "valid");
+            __res_6407 = __res_6408;
+            return __res_6407;
         }
     }
 }

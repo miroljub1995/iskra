@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class RTCErrorEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.RTCError Error
+    public global::Iskra.StdWeb.RTCError Error
     {
         get
         {
-            Iskra.StdWeb.RTCError __res_2055;
-            JSObject __res_2056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            global::Iskra.StdWeb.RTCError __res_2094;
+            JSObject __res_2095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCError } not supported.");
-            return __res_2055;
+            return __res_2094;
         }
     }
 }

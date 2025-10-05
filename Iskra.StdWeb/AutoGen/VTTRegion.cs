@@ -13,16 +13,16 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7213;
-            string __res_7214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_7213 = __res_7214;
-            return __res_7213;
+            string __res_7268;
+            string __res_7269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_7268 = __res_7269;
+            return __res_7268;
         }
         set
         {
-            string __marshalledValue_7215;
-            __marshalledValue_7215 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_7215);
+            string __marshalledValue_7270;
+            __marshalledValue_7270 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_7270);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7216;
-            double __res_7217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_7216 = __res_7217;
-            return __res_7216;
+            double __res_7271;
+            double __res_7272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_7271 = __res_7272;
+            return __res_7271;
         }
         set
         {
-            double __marshalledValue_7218;
-            __marshalledValue_7218 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_7218);
+            double __marshalledValue_7273;
+            __marshalledValue_7273 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_7273);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7219;
-            double __res_7220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lines");
-            __res_7219 = Convert.ToUInt32(__res_7220);
-            return __res_7219;
+            uint __res_7274;
+            double __res_7275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lines");
+            __res_7274 = Convert.ToUInt32(__res_7275);
+            return __res_7274;
         }
         set
         {
-            double __marshalledValue_7221;
-            __marshalledValue_7221 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lines", __marshalledValue_7221);
+            double __marshalledValue_7276;
+            __marshalledValue_7276 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lines", __marshalledValue_7276);
         }
     }
 
@@ -64,16 +64,16 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7222;
-            double __res_7223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "regionAnchorX");
-            __res_7222 = __res_7223;
-            return __res_7222;
+            double __res_7277;
+            double __res_7278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "regionAnchorX");
+            __res_7277 = __res_7278;
+            return __res_7277;
         }
         set
         {
-            double __marshalledValue_7224;
-            __marshalledValue_7224 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorX", __marshalledValue_7224);
+            double __marshalledValue_7279;
+            __marshalledValue_7279 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorX", __marshalledValue_7279);
         }
     }
 
@@ -81,16 +81,16 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7225;
-            double __res_7226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "regionAnchorY");
-            __res_7225 = __res_7226;
-            return __res_7225;
+            double __res_7280;
+            double __res_7281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "regionAnchorY");
+            __res_7280 = __res_7281;
+            return __res_7280;
         }
         set
         {
-            double __marshalledValue_7227;
-            __marshalledValue_7227 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorY", __marshalledValue_7227);
+            double __marshalledValue_7282;
+            __marshalledValue_7282 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorY", __marshalledValue_7282);
         }
     }
 
@@ -98,16 +98,16 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7228;
-            double __res_7229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "viewportAnchorX");
-            __res_7228 = __res_7229;
-            return __res_7228;
+            double __res_7283;
+            double __res_7284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "viewportAnchorX");
+            __res_7283 = __res_7284;
+            return __res_7283;
         }
         set
         {
-            double __marshalledValue_7230;
-            __marshalledValue_7230 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorX", __marshalledValue_7230);
+            double __marshalledValue_7285;
+            __marshalledValue_7285 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorX", __marshalledValue_7285);
         }
     }
 
@@ -115,33 +115,33 @@ public partial class VTTRegion(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7231;
-            double __res_7232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "viewportAnchorY");
-            __res_7231 = __res_7232;
-            return __res_7231;
+            double __res_7286;
+            double __res_7287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "viewportAnchorY");
+            __res_7286 = __res_7287;
+            return __res_7286;
         }
         set
         {
-            double __marshalledValue_7233;
-            __marshalledValue_7233 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorY", __marshalledValue_7233);
+            double __marshalledValue_7288;
+            __marshalledValue_7288 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorY", __marshalledValue_7288);
         }
     }
 
-    public Iskra.StdWeb.ScrollSetting Scroll
+    public global::Iskra.StdWeb.ScrollSetting Scroll
     {
         get
         {
-            Iskra.StdWeb.ScrollSetting __res_7234;
-            JSObject __res_7235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scroll");
+            global::Iskra.StdWeb.ScrollSetting __res_7289;
+            JSObject __res_7290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scroll");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollSetting } not supported.");
-            return __res_7234;
+            return __res_7289;
         }
         set
         {
-            JSObject __marshalledValue_7236;
+            JSObject __marshalledValue_7291;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollSetting } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scroll", __marshalledValue_7236);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scroll", __marshalledValue_7291);
         }
     }
 }

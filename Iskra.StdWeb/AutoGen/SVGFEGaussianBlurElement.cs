@@ -9,47 +9,47 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEGaussianBlurElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1239;
-            JSObject __res_1240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            global::Iskra.StdWeb.SVGAnimatedString __res_1278;
+            JSObject __res_1279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
-            return __res_1239;
+            return __res_1278;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber StdDeviationX
+    public global::Iskra.StdWeb.SVGAnimatedNumber StdDeviationX
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1241;
-            JSObject __res_1242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1280;
+            JSObject __res_1281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationX");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1241;
+            return __res_1280;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber StdDeviationY
+    public global::Iskra.StdWeb.SVGAnimatedNumber StdDeviationY
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1243;
-            JSObject __res_1244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1282;
+            JSObject __res_1283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stdDeviationY");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1243;
+            return __res_1282;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration EdgeMode
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration EdgeMode
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1245;
-            JSObject __res_1246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1284;
+            JSObject __res_1285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_1245;
+            return __res_1284;
         }
     }
 }

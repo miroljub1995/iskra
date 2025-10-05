@@ -13,27 +13,27 @@ public partial class HTMLMapElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5809;
-            string __res_5810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5809 = __res_5810;
-            return __res_5809;
+            string __res_5859;
+            string __res_5860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5859 = __res_5860;
+            return __res_5859;
         }
         set
         {
-            string __marshalledValue_5811;
-            __marshalledValue_5811 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5811);
+            string __marshalledValue_5861;
+            __marshalledValue_5861 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5861);
         }
     }
 
-    public Iskra.StdWeb.HTMLCollection Areas
+    public global::Iskra.StdWeb.HTMLCollection Areas
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5812;
-            JSObject __res_5813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            global::Iskra.StdWeb.HTMLCollection __res_5862;
+            JSObject __res_5863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_5812;
+            return __res_5862;
         }
     }
 }

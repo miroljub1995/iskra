@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.GPUQueryType Type
+    public global::Iskra.StdWeb.GPUQueryType Type
     {
         get
         {
-            Iskra.StdWeb.GPUQueryType __res_761;
-            JSObject __res_762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.GPUQueryType __res_797;
+            JSObject __res_798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUQueryType } not supported.");
-            return __res_761;
+            return __res_797;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GPUQuerySet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_763;
-            double __res_764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
-            __res_763 = Convert.ToUInt32(__res_764);
-            return __res_763;
+            uint __res_799;
+            double __res_800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
+            __res_799 = Convert.ToUInt32(__res_800);
+            return __res_799;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class TextEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            string __res_7962;
-            string __res_7963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_7962 = __res_7963;
-            return __res_7962;
+            string __res_8020;
+            string __res_8021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_8020 = __res_8021;
+            return __res_8020;
         }
     }
 }

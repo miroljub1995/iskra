@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object? TransformerStartCallback(Iskra.StdWeb.TransformStreamDefaultController controller);
+public delegate object? TransformerStartCallback(global::Iskra.StdWeb.TransformStreamDefaultController controller);
 
 #nullable disable

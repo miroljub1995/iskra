@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextContentElement(JSObject obj): SVGGraphicsElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedLength TextLength
+    public global::Iskra.StdWeb.SVGAnimatedLength TextLength
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_431;
-            JSObject __res_432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_467;
+            JSObject __res_468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_431;
+            return __res_467;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration LengthAdjust
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration LengthAdjust
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_433;
-            JSObject __res_434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_469;
+            JSObject __res_470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_433;
+            return __res_469;
         }
     }
 }

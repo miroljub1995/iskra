@@ -13,27 +13,27 @@ public partial class CSSKeyframeRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3009;
-            string __res_3010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
-            __res_3009 = __res_3010;
-            return __res_3009;
+            string __res_3049;
+            string __res_3050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
+            __res_3049 = __res_3050;
+            return __res_3049;
         }
         set
         {
-            string __marshalledValue_3011;
-            __marshalledValue_3011 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_3011);
+            string __marshalledValue_3051;
+            __marshalledValue_3051 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_3051);
         }
     }
 
-    public Iskra.StdWeb.CSSStyleProperties Style
+    public global::Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_3012;
-            JSObject __res_3013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            global::Iskra.StdWeb.CSSStyleProperties __res_3052;
+            JSObject __res_3053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleProperties } not supported.");
-            return __res_3012;
+            return __res_3052;
         }
     }
 }

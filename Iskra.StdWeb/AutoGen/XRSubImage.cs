@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRSubImage(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.XRViewport Viewport
+    public global::Iskra.StdWeb.XRViewport Viewport
     {
         get
         {
-            Iskra.StdWeb.XRViewport __res_1580;
-            JSObject __res_1581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "viewport");
+            global::Iskra.StdWeb.XRViewport __res_1619;
+            JSObject __res_1620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "viewport");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRViewport } not supported.");
-            return __res_1580;
+            return __res_1619;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_5864;
-            double __res_5865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
-            __res_5864 = Convert.ToInt32(__res_5865);
-            return __res_5864;
+            int __res_5914;
+            double __res_5915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
+            __res_5914 = Convert.ToInt32(__res_5915);
+            return __res_5914;
         }
     }
 
@@ -24,21 +24,21 @@ public partial class HTMLTableRowElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_5866;
-            double __res_5867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
-            __res_5866 = Convert.ToInt32(__res_5867);
-            return __res_5866;
+            int __res_5916;
+            double __res_5917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
+            __res_5916 = Convert.ToInt32(__res_5917);
+            return __res_5916;
         }
     }
 
-    public Iskra.StdWeb.HTMLCollection Cells
+    public global::Iskra.StdWeb.HTMLCollection Cells
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5868;
-            JSObject __res_5869 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
+            global::Iskra.StdWeb.HTMLCollection __res_5918;
+            JSObject __res_5919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_5868;
+            return __res_5918;
         }
     }
 }

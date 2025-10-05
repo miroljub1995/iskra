@@ -26,11 +26,11 @@ public partial class CSSVariableReferenceValue(JSObject obj): JSObjectProxy(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSUnparsedValue? Fallback
+    public global::Iskra.StdWeb.CSSUnparsedValue? Fallback
     {
         get
         {
-            Iskra.StdWeb.CSSUnparsedValue? __res_36;
+            global::Iskra.StdWeb.CSSUnparsedValue? __res_36;
             JSObject? __res_37 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
             if (__res_37 is null)
             {

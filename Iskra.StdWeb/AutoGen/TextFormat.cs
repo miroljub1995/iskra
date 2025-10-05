@@ -13,10 +13,10 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_8374;
-            double __res_8375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
-            __res_8374 = Convert.ToUInt32(__res_8375);
-            return __res_8374;
+            uint __res_8434;
+            double __res_8435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
+            __res_8434 = Convert.ToUInt32(__res_8435);
+            return __res_8434;
         }
     }
 
@@ -24,32 +24,32 @@ public partial class TextFormat(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_8376;
-            double __res_8377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
-            __res_8376 = Convert.ToUInt32(__res_8377);
-            return __res_8376;
+            uint __res_8436;
+            double __res_8437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
+            __res_8436 = Convert.ToUInt32(__res_8437);
+            return __res_8436;
         }
     }
 
-    public Iskra.StdWeb.UnderlineStyle UnderlineStyle
+    public global::Iskra.StdWeb.UnderlineStyle UnderlineStyle
     {
         get
         {
-            Iskra.StdWeb.UnderlineStyle __res_8378;
-            JSObject __res_8379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineStyle");
+            global::Iskra.StdWeb.UnderlineStyle __res_8438;
+            JSObject __res_8439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineStyle");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = UnderlineStyle } not supported.");
-            return __res_8378;
+            return __res_8438;
         }
     }
 
-    public Iskra.StdWeb.UnderlineThickness UnderlineThickness
+    public global::Iskra.StdWeb.UnderlineThickness UnderlineThickness
     {
         get
         {
-            Iskra.StdWeb.UnderlineThickness __res_8380;
-            JSObject __res_8381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineThickness");
+            global::Iskra.StdWeb.UnderlineThickness __res_8440;
+            JSObject __res_8441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineThickness");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = UnderlineThickness } not supported.");
-            return __res_8380;
+            return __res_8440;
         }
     }
 }

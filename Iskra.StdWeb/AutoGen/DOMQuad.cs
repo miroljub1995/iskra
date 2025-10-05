@@ -9,47 +9,47 @@ namespace Iskra.StdWeb;
 
 public partial class DOMQuad(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.DOMPoint P1
+    public global::Iskra.StdWeb.DOMPoint P1
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_3497;
-            JSObject __res_3498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
+            global::Iskra.StdWeb.DOMPoint __res_3537;
+            JSObject __res_3538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
-            return __res_3497;
+            return __res_3537;
         }
     }
 
-    public Iskra.StdWeb.DOMPoint P2
+    public global::Iskra.StdWeb.DOMPoint P2
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_3499;
-            JSObject __res_3500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
+            global::Iskra.StdWeb.DOMPoint __res_3539;
+            JSObject __res_3540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
-            return __res_3499;
+            return __res_3539;
         }
     }
 
-    public Iskra.StdWeb.DOMPoint P3
+    public global::Iskra.StdWeb.DOMPoint P3
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_3501;
-            JSObject __res_3502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
+            global::Iskra.StdWeb.DOMPoint __res_3541;
+            JSObject __res_3542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
-            return __res_3501;
+            return __res_3541;
         }
     }
 
-    public Iskra.StdWeb.DOMPoint P4
+    public global::Iskra.StdWeb.DOMPoint P4
     {
         get
         {
-            Iskra.StdWeb.DOMPoint __res_3503;
-            JSObject __res_3504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
+            global::Iskra.StdWeb.DOMPoint __res_3543;
+            JSObject __res_3544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
-            return __res_3503;
+            return __res_3543;
         }
     }
 }

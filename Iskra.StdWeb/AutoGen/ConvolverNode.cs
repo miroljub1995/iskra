@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class ConvolverNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.AudioBuffer? Buffer
+    public global::Iskra.StdWeb.AudioBuffer? Buffer
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer? __res_8199;
-            JSObject? __res_8200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
-            if (__res_8200 is null)
+            global::Iskra.StdWeb.AudioBuffer? __res_8259;
+            JSObject? __res_8260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
+            if (__res_8260 is null)
             {
-                __res_8199 = null;
+                __res_8259 = null;
             }
             else
             {
-                JSObject __notNullable_8201 = (JSObject)__res_8200;
+                JSObject __notNullable_8261 = (JSObject)__res_8260;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
             }
-            return __res_8199;
+            return __res_8259;
         }
         set
         {
-            JSObject? __marshalledValue_8202;
+            JSObject? __marshalledValue_8262;
             if (value is null)
             {
-                __marshalledValue_8202 = null;
+                __marshalledValue_8262 = null;
             }
             else
             {
-                Iskra.StdWeb.AudioBuffer __notNullable_8203 = (Iskra.StdWeb.AudioBuffer)value;
+                global::Iskra.StdWeb.AudioBuffer __notNullable_8263 = (global::Iskra.StdWeb.AudioBuffer)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8202);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_8262);
         }
     }
 
@@ -46,16 +46,16 @@ public partial class ConvolverNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            bool __res_8204;
-            bool __res_8205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
-            __res_8204 = __res_8205;
-            return __res_8204;
+            bool __res_8264;
+            bool __res_8265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
+            __res_8264 = __res_8265;
+            return __res_8264;
         }
         set
         {
-            bool __marshalledValue_8206;
-            __marshalledValue_8206 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "normalize", __marshalledValue_8206);
+            bool __marshalledValue_8266;
+            __marshalledValue_8266 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "normalize", __marshalledValue_8266);
         }
     }
 }

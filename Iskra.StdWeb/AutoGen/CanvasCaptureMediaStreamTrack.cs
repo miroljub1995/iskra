@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CanvasCaptureMediaStreamTrack(JSObject obj): MediaStreamTrack(obj)
 {
-    public Iskra.StdWeb.HTMLCanvasElement Canvas
+    public global::Iskra.StdWeb.HTMLCanvasElement Canvas
     {
         get
         {
-            Iskra.StdWeb.HTMLCanvasElement __res_1669;
-            JSObject __res_1670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            global::Iskra.StdWeb.HTMLCanvasElement __res_1708;
+            JSObject __res_1709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCanvasElement } not supported.");
-            return __res_1669;
+            return __res_1708;
         }
     }
 }

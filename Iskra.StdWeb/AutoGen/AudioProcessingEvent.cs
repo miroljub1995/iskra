@@ -13,32 +13,32 @@ public partial class AudioProcessingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double __res_8180;
-            double __res_8181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackTime");
-            __res_8180 = __res_8181;
-            return __res_8180;
+            double __res_8240;
+            double __res_8241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackTime");
+            __res_8240 = __res_8241;
+            return __res_8240;
         }
     }
 
-    public Iskra.StdWeb.AudioBuffer InputBuffer
+    public global::Iskra.StdWeb.AudioBuffer InputBuffer
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_8182;
-            JSObject __res_8183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
+            global::Iskra.StdWeb.AudioBuffer __res_8242;
+            JSObject __res_8243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
-            return __res_8182;
+            return __res_8242;
         }
     }
 
-    public Iskra.StdWeb.AudioBuffer OutputBuffer
+    public global::Iskra.StdWeb.AudioBuffer OutputBuffer
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_8184;
-            JSObject __res_8185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
+            global::Iskra.StdWeb.AudioBuffer __res_8244;
+            JSObject __res_8245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
-            return __res_8184;
+            return __res_8244;
         }
     }
 }

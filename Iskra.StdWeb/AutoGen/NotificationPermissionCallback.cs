@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void NotificationPermissionCallback(Iskra.StdWeb.NotificationPermission permission);
+public delegate void NotificationPermissionCallback(global::Iskra.StdWeb.NotificationPermission permission);
 
 #nullable disable

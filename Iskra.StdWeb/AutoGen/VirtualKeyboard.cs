@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.DOMRect BoundingRect
+    public global::Iskra.StdWeb.DOMRect BoundingRect
     {
         get
         {
-            Iskra.StdWeb.DOMRect __res_842;
-            JSObject __res_843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
+            global::Iskra.StdWeb.DOMRect __res_879;
+            JSObject __res_880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRect } not supported.");
-            return __res_842;
+            return __res_879;
         }
     }
 
@@ -24,49 +24,49 @@ public partial class VirtualKeyboard(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_844;
-            bool __res_845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
-            __res_844 = __res_845;
-            return __res_844;
+            bool __res_881;
+            bool __res_882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
+            __res_881 = __res_882;
+            return __res_881;
         }
         set
         {
-            bool __marshalledValue_846;
-            __marshalledValue_846 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "overlaysContent", __marshalledValue_846);
+            bool __marshalledValue_883;
+            __marshalledValue_883 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "overlaysContent", __marshalledValue_883);
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_847;
-            JSObject? __res_848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_848 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_884;
+            JSObject? __res_885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_885 is null)
             {
-                __res_847 = null;
+                __res_884 = null;
             }
             else
             {
-                JSObject __notNullable_849 = (JSObject)__res_848;
+                JSObject __notNullable_886 = (JSObject)__res_885;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_847;
+            return __res_884;
         }
         set
         {
-            JSObject? __marshalledValue_850;
+            JSObject? __marshalledValue_887;
             if (value is null)
             {
-                __marshalledValue_850 = null;
+                __marshalledValue_887 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_851 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_888 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_850);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_887);
         }
     }
 }

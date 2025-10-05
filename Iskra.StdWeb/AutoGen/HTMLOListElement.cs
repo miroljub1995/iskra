@@ -13,16 +13,16 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_5375;
-            bool __res_5376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
-            __res_5375 = __res_5376;
-            return __res_5375;
+            bool __res_5422;
+            bool __res_5423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
+            __res_5422 = __res_5423;
+            return __res_5422;
         }
         set
         {
-            bool __marshalledValue_5377;
-            __marshalledValue_5377 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_5377);
+            bool __marshalledValue_5424;
+            __marshalledValue_5424 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_5424);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_5378;
-            double __res_5379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
-            __res_5378 = Convert.ToInt32(__res_5379);
-            return __res_5378;
+            int __res_5425;
+            double __res_5426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
+            __res_5425 = Convert.ToInt32(__res_5426);
+            return __res_5425;
         }
         set
         {
-            double __marshalledValue_5380;
-            __marshalledValue_5380 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_5380);
+            double __marshalledValue_5427;
+            __marshalledValue_5427 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_5427);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class HTMLOListElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5381;
-            string __res_5382 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5381 = __res_5382;
-            return __res_5381;
+            string __res_5428;
+            string __res_5429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5428 = __res_5429;
+            return __res_5428;
         }
         set
         {
-            string __marshalledValue_5383;
-            __marshalledValue_5383 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_5383);
+            string __marshalledValue_5430;
+            __marshalledValue_5430 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_5430);
         }
     }
 }

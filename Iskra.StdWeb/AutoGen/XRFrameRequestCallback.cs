@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void XRFrameRequestCallback(double time, Iskra.StdWeb.XRFrame frame);
+public delegate void XRFrameRequestCallback(double time, global::Iskra.StdWeb.XRFrame frame);
 
 #nullable disable

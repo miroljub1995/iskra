@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionDeclarations(JSObject obj): CSSRule(obj)
 {
-    public Iskra.StdWeb.CSSFunctionDescriptors Style
+    public global::Iskra.StdWeb.CSSFunctionDescriptors Style
     {
         get
         {
-            Iskra.StdWeb.CSSFunctionDescriptors __res_25;
+            global::Iskra.StdWeb.CSSFunctionDescriptors __res_25;
             JSObject __res_26 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFunctionDescriptors } not supported.");
             return __res_25;

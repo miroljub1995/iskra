@@ -13,18 +13,18 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_2859;
-            double? __res_2860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_2860 is null)
+            double? __res_2899;
+            double? __res_2900 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_2900 is null)
             {
-                __res_2859 = null;
+                __res_2899 = null;
             }
             else
             {
-                double __notNullable_2861 = (double)__res_2860;
-                __res_2859 = __notNullable_2861;
+                double __notNullable_2901 = (double)__res_2900;
+                __res_2899 = __notNullable_2901;
             }
-            return __res_2859;
+            return __res_2899;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_2862;
-            double? __res_2863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_2863 is null)
+            double? __res_2902;
+            double? __res_2903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_2903 is null)
             {
-                __res_2862 = null;
+                __res_2902 = null;
             }
             else
             {
-                double __notNullable_2864 = (double)__res_2863;
-                __res_2862 = __notNullable_2864;
+                double __notNullable_2904 = (double)__res_2903;
+                __res_2902 = __notNullable_2904;
             }
-            return __res_2862;
+            return __res_2902;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class DeviceMotionEventAcceleration(JSObject obj): JSObjectProxy(
     {
         get
         {
-            double? __res_2865;
-            double? __res_2866 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_2866 is null)
+            double? __res_2905;
+            double? __res_2906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_2906 is null)
             {
-                __res_2865 = null;
+                __res_2905 = null;
             }
             else
             {
-                double __notNullable_2867 = (double)__res_2866;
-                __res_2865 = __notNullable_2867;
+                double __notNullable_2907 = (double)__res_2906;
+                __res_2905 = __notNullable_2907;
             }
-            return __res_2865;
+            return __res_2905;
         }
     }
 }

@@ -9,41 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class PushEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public Iskra.StdWeb.PushMessageData? Data
+    public global::Iskra.StdWeb.PushMessageData? Data
     {
         get
         {
-            Iskra.StdWeb.PushMessageData? __res_4956;
-            JSObject? __res_4957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_4957 is null)
+            global::Iskra.StdWeb.PushMessageData? __res_4999;
+            JSObject? __res_5000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_5000 is null)
             {
-                __res_4956 = null;
+                __res_4999 = null;
             }
             else
             {
-                JSObject __notNullable_4958 = (JSObject)__res_4957;
+                JSObject __notNullable_5001 = (JSObject)__res_5000;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushMessageData } not supported.");
             }
-            return __res_4956;
+            return __res_4999;
         }
     }
 
-    public Iskra.StdWeb.Notification? Notification
+    public global::Iskra.StdWeb.Notification? Notification
     {
         get
         {
-            Iskra.StdWeb.Notification? __res_4959;
-            JSObject? __res_4960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
-            if (__res_4960 is null)
+            global::Iskra.StdWeb.Notification? __res_5002;
+            JSObject? __res_5003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
+            if (__res_5003 is null)
             {
-                __res_4959 = null;
+                __res_5002 = null;
             }
             else
             {
-                JSObject __notNullable_4961 = (JSObject)__res_4960;
+                JSObject __notNullable_5004 = (JSObject)__res_5003;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Notification } not supported.");
             }
-            return __res_4959;
+            return __res_5002;
         }
     }
 }

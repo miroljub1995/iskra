@@ -13,10 +13,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            ulong __res_8291;
-            double __res_8292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentFrame");
-            __res_8291 = Convert.ToUInt64(__res_8292);
-            return __res_8291;
+            ulong __res_8351;
+            double __res_8352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentFrame");
+            __res_8351 = Convert.ToUInt64(__res_8352);
+            return __res_8351;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            double __res_8293;
-            double __res_8294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
-            __res_8293 = __res_8294;
-            return __res_8293;
+            double __res_8353;
+            double __res_8354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
+            __res_8353 = __res_8354;
+            return __res_8353;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            float __res_8295;
-            double __res_8296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_8295 = Convert.ToSingle(__res_8296);
-            return __res_8295;
+            float __res_8355;
+            double __res_8356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_8355 = Convert.ToSingle(__res_8356);
+            return __res_8355;
         }
     }
 
@@ -46,21 +46,21 @@ public partial class AudioWorkletGlobalScope(JSObject obj): WorkletGlobalScope(o
     {
         get
         {
-            uint __res_8297;
-            double __res_8298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
-            __res_8297 = Convert.ToUInt32(__res_8298);
-            return __res_8297;
+            uint __res_8357;
+            double __res_8358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
+            __res_8357 = Convert.ToUInt32(__res_8358);
+            return __res_8357;
         }
     }
 
-    public Iskra.StdWeb.MessagePort Port
+    public global::Iskra.StdWeb.MessagePort Port
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_8299;
-            JSObject __res_8300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            global::Iskra.StdWeb.MessagePort __res_8359;
+            JSObject __res_8360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_8299;
+            return __res_8359;
         }
     }
 }

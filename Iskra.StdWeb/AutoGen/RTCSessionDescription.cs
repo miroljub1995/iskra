@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.RTCSdpType Type
+    public global::Iskra.StdWeb.RTCSdpType Type
     {
         get
         {
-            Iskra.StdWeb.RTCSdpType __res_1808;
-            JSObject __res_1809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.RTCSdpType __res_1847;
+            JSObject __res_1848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSdpType } not supported.");
-            return __res_1808;
+            return __res_1847;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class RTCSessionDescription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1810;
-            string __res_1811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
-            __res_1810 = __res_1811;
-            return __res_1810;
+            string __res_1849;
+            string __res_1850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
+            __res_1849 = __res_1850;
+            return __res_1849;
         }
     }
 }

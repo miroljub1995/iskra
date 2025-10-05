@@ -9,48 +9,48 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTrackEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.RTCRtpReceiver Receiver
+    public global::Iskra.StdWeb.RTCRtpReceiver Receiver
     {
         get
         {
-            Iskra.StdWeb.RTCRtpReceiver __res_1949;
-            JSObject __res_1950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            global::Iskra.StdWeb.RTCRtpReceiver __res_1988;
+            JSObject __res_1989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpReceiver } not supported.");
-            return __res_1949;
+            return __res_1988;
         }
     }
 
-    public Iskra.StdWeb.MediaStreamTrack Track
+    public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack __res_1951;
-            JSObject __res_1952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            global::Iskra.StdWeb.MediaStreamTrack __res_1990;
+            JSObject __res_1991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
-            return __res_1951;
+            return __res_1990;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Streams
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Streams
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1953;
-            JSObject __propObject_1954;
-            __propObject_1954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "streams");
-            __res_1953 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1954);
-            return __res_1953;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1992;
+            JSObject __propObject_1993;
+            __propObject_1993 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "streams");
+            __res_1992 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1993);
+            return __res_1992;
         }
     }
 
-    public Iskra.StdWeb.RTCRtpTransceiver Transceiver
+    public global::Iskra.StdWeb.RTCRtpTransceiver Transceiver
     {
         get
         {
-            Iskra.StdWeb.RTCRtpTransceiver __res_1955;
-            JSObject __res_1956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
+            global::Iskra.StdWeb.RTCRtpTransceiver __res_1994;
+            JSObject __res_1995 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiver } not supported.");
-            return __res_1955;
+            return __res_1994;
         }
     }
 }

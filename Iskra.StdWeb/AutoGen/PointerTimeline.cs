@@ -9,33 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class PointerTimeline(JSObject obj): AnimationTimeline(obj)
 {
-    public Iskra.StdWeb.Element? Source
+    public global::Iskra.StdWeb.Element? Source
     {
         get
         {
-            Iskra.StdWeb.Element? __res_5099;
-            JSObject? __res_5100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_5100 is null)
+            global::Iskra.StdWeb.Element? __res_5142;
+            JSObject? __res_5143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_5143 is null)
             {
-                __res_5099 = null;
+                __res_5142 = null;
             }
             else
             {
-                JSObject __notNullable_5101 = (JSObject)__res_5100;
+                JSObject __notNullable_5144 = (JSObject)__res_5143;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_5099;
+            return __res_5142;
         }
     }
 
-    public Iskra.StdWeb.PointerAxis Axis
+    public global::Iskra.StdWeb.PointerAxis Axis
     {
         get
         {
-            Iskra.StdWeb.PointerAxis __res_5102;
-            JSObject __res_5103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
+            global::Iskra.StdWeb.PointerAxis __res_5145;
+            JSObject __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PointerAxis } not supported.");
-            return __res_5102;
+            return __res_5145;
         }
     }
 }

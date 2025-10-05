@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGraphicsElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedTransformList Transform
+    public global::Iskra.StdWeb.SVGAnimatedTransformList Transform
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedTransformList __res_245;
-            JSObject __res_246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            global::Iskra.StdWeb.SVGAnimatedTransformList __res_281;
+            JSObject __res_282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedTransformList } not supported.");
-            return __res_245;
+            return __res_281;
         }
     }
 }

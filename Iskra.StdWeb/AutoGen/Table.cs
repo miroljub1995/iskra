@@ -13,10 +13,10 @@ public partial class Table(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_4654;
-            double __res_4655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4654 = Convert.ToUInt32(__res_4655);
-            return __res_4654;
+            uint __res_4697;
+            double __res_4698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4697 = Convert.ToUInt32(__res_4698);
+            return __res_4697;
         }
     }
 }

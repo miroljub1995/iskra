@@ -13,10 +13,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7787;
-            double __res_7788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_7787 = __res_7788;
-            return __res_7787;
+            double __res_7845;
+            double __res_7846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_7845 = __res_7846;
+            return __res_7845;
         }
     }
 
@@ -24,11 +24,11 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7789;
-            JSObject __propObject_7790;
-            __propObject_7790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "advances");
-            __res_7789 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7790);
-            return __res_7789;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7847;
+            JSObject __propObject_7848;
+            __propObject_7848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "advances");
+            __res_7847 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7848);
+            return __res_7847;
         }
     }
 
@@ -36,10 +36,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7791;
-            double __res_7792 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxLeft");
-            __res_7791 = __res_7792;
-            return __res_7791;
+            double __res_7849;
+            double __res_7850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxLeft");
+            __res_7849 = __res_7850;
+            return __res_7849;
         }
     }
 
@@ -47,10 +47,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7793;
-            double __res_7794 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxRight");
-            __res_7793 = __res_7794;
-            return __res_7793;
+            double __res_7851;
+            double __res_7852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxRight");
+            __res_7851 = __res_7852;
+            return __res_7851;
         }
     }
 
@@ -58,10 +58,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7795;
-            double __res_7796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_7795 = __res_7796;
-            return __res_7795;
+            double __res_7853;
+            double __res_7854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_7853 = __res_7854;
+            return __res_7853;
         }
     }
 
@@ -69,10 +69,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7797;
-            double __res_7798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightAscent");
-            __res_7797 = __res_7798;
-            return __res_7797;
+            double __res_7855;
+            double __res_7856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightAscent");
+            __res_7855 = __res_7856;
+            return __res_7855;
         }
     }
 
@@ -80,10 +80,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7799;
-            double __res_7800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightDescent");
-            __res_7799 = __res_7800;
-            return __res_7799;
+            double __res_7857;
+            double __res_7858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightDescent");
+            __res_7857 = __res_7858;
+            return __res_7857;
         }
     }
 
@@ -91,10 +91,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7801;
-            double __res_7802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxAscent");
-            __res_7801 = __res_7802;
-            return __res_7801;
+            double __res_7859;
+            double __res_7860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxAscent");
+            __res_7859 = __res_7860;
+            return __res_7859;
         }
     }
 
@@ -102,10 +102,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7803;
-            double __res_7804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxDescent");
-            __res_7803 = __res_7804;
-            return __res_7803;
+            double __res_7861;
+            double __res_7862 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boundingBoxDescent");
+            __res_7861 = __res_7862;
+            return __res_7861;
         }
     }
 
@@ -113,10 +113,10 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7805;
-            double __res_7806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxAscent");
-            __res_7805 = __res_7806;
-            return __res_7805;
+            double __res_7863;
+            double __res_7864 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxAscent");
+            __res_7863 = __res_7864;
+            return __res_7863;
         }
     }
 
@@ -124,45 +124,45 @@ public partial class FontMetrics(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7807;
-            double __res_7808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxDescent");
-            __res_7807 = __res_7808;
-            return __res_7807;
+            double __res_7865;
+            double __res_7866 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxDescent");
+            __res_7865 = __res_7866;
+            return __res_7865;
         }
     }
 
-    public Iskra.StdWeb.Baseline DominantBaseline
+    public global::Iskra.StdWeb.Baseline DominantBaseline
     {
         get
         {
-            Iskra.StdWeb.Baseline __res_7809;
-            JSObject __res_7810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dominantBaseline");
+            global::Iskra.StdWeb.Baseline __res_7867;
+            JSObject __res_7868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dominantBaseline");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Baseline } not supported.");
-            return __res_7809;
+            return __res_7867;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Baselines
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Baselines
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7811;
-            JSObject __propObject_7812;
-            __propObject_7812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baselines");
-            __res_7811 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7812);
-            return __res_7811;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7869;
+            JSObject __propObject_7870;
+            __propObject_7870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baselines");
+            __res_7869 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7870);
+            return __res_7869;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fonts
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fonts
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7813;
-            JSObject __propObject_7814;
-            __propObject_7814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fonts");
-            __res_7813 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7814);
-            return __res_7813;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7871;
+            JSObject __propObject_7872;
+            __propObject_7872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fonts");
+            __res_7871 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7872);
+            return __res_7871;
         }
     }
 }

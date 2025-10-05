@@ -13,10 +13,10 @@ public partial class CSSTransition(JSObject obj): Animation(obj)
     {
         get
         {
-            string __res_4134;
-            string __res_4135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transitionProperty");
-            __res_4134 = __res_4135;
-            return __res_4134;
+            string __res_4175;
+            string __res_4176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transitionProperty");
+            __res_4175 = __res_4176;
+            return __res_4175;
         }
     }
 }

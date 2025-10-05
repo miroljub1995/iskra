@@ -13,10 +13,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_3369;
-            double __res_3370 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
-            __res_3369 = Convert.ToUInt16(__res_3370);
-            return __res_3369;
+            ushort __res_3409;
+            double __res_3410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
+            __res_3409 = Convert.ToUInt16(__res_3410);
+            return __res_3409;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3371;
-            double __res_3372 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberValue");
-            __res_3371 = __res_3372;
-            return __res_3371;
+            double __res_3411;
+            double __res_3412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberValue");
+            __res_3411 = __res_3412;
+            return __res_3411;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3373;
-            string __res_3374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringValue");
-            __res_3373 = __res_3374;
-            return __res_3373;
+            string __res_3413;
+            string __res_3414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringValue");
+            __res_3413 = __res_3414;
+            return __res_3413;
         }
     }
 
@@ -46,29 +46,29 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3375;
-            bool __res_3376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
-            __res_3375 = __res_3376;
-            return __res_3375;
+            bool __res_3415;
+            bool __res_3416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
+            __res_3415 = __res_3416;
+            return __res_3415;
         }
     }
 
-    public Iskra.StdWeb.Node? SingleNodeValue
+    public global::Iskra.StdWeb.Node? SingleNodeValue
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3377;
-            JSObject? __res_3378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "singleNodeValue");
-            if (__res_3378 is null)
+            global::Iskra.StdWeb.Node? __res_3417;
+            JSObject? __res_3418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "singleNodeValue");
+            if (__res_3418 is null)
             {
-                __res_3377 = null;
+                __res_3417 = null;
             }
             else
             {
-                JSObject __notNullable_3379 = (JSObject)__res_3378;
+                JSObject __notNullable_3419 = (JSObject)__res_3418;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3377;
+            return __res_3417;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3380;
-            bool __res_3381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
-            __res_3380 = __res_3381;
-            return __res_3380;
+            bool __res_3420;
+            bool __res_3421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
+            __res_3420 = __res_3421;
+            return __res_3420;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class XPathResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3382;
-            double __res_3383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "snapshotLength");
-            __res_3382 = Convert.ToUInt32(__res_3383);
-            return __res_3382;
+            uint __res_3422;
+            double __res_3423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "snapshotLength");
+            __res_3422 = Convert.ToUInt32(__res_3423);
+            return __res_3422;
         }
     }
 }

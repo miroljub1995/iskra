@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class DelayNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.AudioParam DelayTime
+    public global::Iskra.StdWeb.AudioParam DelayTime
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8207;
-            JSObject __res_8208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "delayTime");
+            global::Iskra.StdWeb.AudioParam __res_8267;
+            JSObject __res_8268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "delayTime");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8207;
+            return __res_8267;
         }
     }
 }

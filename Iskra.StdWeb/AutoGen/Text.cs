@@ -13,10 +13,10 @@ public partial class Text(JSObject obj): CharacterData(obj)
     {
         get
         {
-            string __res_3327;
-            string __res_3328 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
-            __res_3327 = __res_3328;
-            return __res_3327;
+            string __res_3367;
+            string __res_3368 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
+            __res_3367 = __res_3368;
+            return __res_3367;
         }
     }
 }

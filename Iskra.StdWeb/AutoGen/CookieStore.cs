@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class CookieStore(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_1617;
-            JSObject? __res_1618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_1618 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_1656;
+            JSObject? __res_1657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_1657 is null)
             {
-                __res_1617 = null;
+                __res_1656 = null;
             }
             else
             {
-                JSObject __notNullable_1619 = (JSObject)__res_1618;
+                JSObject __notNullable_1658 = (JSObject)__res_1657;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_1617;
+            return __res_1656;
         }
         set
         {
-            JSObject? __marshalledValue_1620;
+            JSObject? __marshalledValue_1659;
             if (value is null)
             {
-                __marshalledValue_1620 = null;
+                __marshalledValue_1659 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_1621 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1660 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_1620);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_1659);
         }
     }
 }

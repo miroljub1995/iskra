@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object? LaunchConsumer(Iskra.StdWeb.LaunchParams @params);
+public delegate object? LaunchConsumer(global::Iskra.StdWeb.LaunchParams @params);
 
 #nullable disable

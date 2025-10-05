@@ -9,52 +9,52 @@ namespace Iskra.StdWeb;
 
 public partial class SVGElement(JSObject obj): Element(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedString ClassName
+    public global::Iskra.StdWeb.SVGAnimatedString ClassName
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_237;
-            JSObject __res_238 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "className");
+            global::Iskra.StdWeb.SVGAnimatedString __res_273;
+            JSObject __res_274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "className");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
-            return __res_237;
+            return __res_273;
         }
     }
 
-    public Iskra.StdWeb.SVGSVGElement? OwnerSVGElement
+    public global::Iskra.StdWeb.SVGSVGElement? OwnerSVGElement
     {
         get
         {
-            Iskra.StdWeb.SVGSVGElement? __res_239;
-            JSObject? __res_240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerSVGElement");
-            if (__res_240 is null)
+            global::Iskra.StdWeb.SVGSVGElement? __res_275;
+            JSObject? __res_276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerSVGElement");
+            if (__res_276 is null)
             {
-                __res_239 = null;
+                __res_275 = null;
             }
             else
             {
-                JSObject __notNullable_241 = (JSObject)__res_240;
+                JSObject __notNullable_277 = (JSObject)__res_276;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGSVGElement } not supported.");
             }
-            return __res_239;
+            return __res_275;
         }
     }
 
-    public Iskra.StdWeb.SVGElement? ViewportElement
+    public global::Iskra.StdWeb.SVGElement? ViewportElement
     {
         get
         {
-            Iskra.StdWeb.SVGElement? __res_242;
-            JSObject? __res_243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewportElement");
-            if (__res_243 is null)
+            global::Iskra.StdWeb.SVGElement? __res_278;
+            JSObject? __res_279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewportElement");
+            if (__res_279 is null)
             {
-                __res_242 = null;
+                __res_278 = null;
             }
             else
             {
-                JSObject __notNullable_244 = (JSObject)__res_243;
+                JSObject __notNullable_280 = (JSObject)__res_279;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGElement } not supported.");
             }
-            return __res_242;
+            return __res_278;
         }
     }
 }

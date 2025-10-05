@@ -13,16 +13,16 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6370;
-            bool __res_6371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_6370 = __res_6371;
-            return __res_6370;
+            bool __res_6420;
+            bool __res_6421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_6420 = __res_6421;
+            return __res_6420;
         }
         set
         {
-            bool __marshalledValue_6372;
-            __marshalledValue_6372 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6372);
+            bool __marshalledValue_6422;
+            __marshalledValue_6422 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6422);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6373;
-            string __res_6374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
-            __res_6373 = __res_6374;
-            return __res_6373;
+            string __res_6423;
+            string __res_6424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
+            __res_6423 = __res_6424;
+            return __res_6423;
         }
         set
         {
-            string __marshalledValue_6375;
-            __marshalledValue_6375 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_6375);
+            string __marshalledValue_6425;
+            __marshalledValue_6425 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_6425);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class HTMLDialogElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6376;
-            string __res_6377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "closedBy");
-            __res_6376 = __res_6377;
-            return __res_6376;
+            string __res_6426;
+            string __res_6427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "closedBy");
+            __res_6426 = __res_6427;
+            return __res_6426;
         }
         set
         {
-            string __marshalledValue_6378;
-            __marshalledValue_6378 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "closedBy", __marshalledValue_6378);
+            string __marshalledValue_6428;
+            __marshalledValue_6428 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "closedBy", __marshalledValue_6428);
         }
     }
 }

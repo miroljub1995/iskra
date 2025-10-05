@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorker(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.MessagePort Port
+    public global::Iskra.StdWeb.MessagePort Port
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_6933;
-            JSObject __res_6934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            global::Iskra.StdWeb.MessagePort __res_6986;
+            JSObject __res_6987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_6933;
+            return __res_6986;
         }
     }
 }

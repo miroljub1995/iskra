@@ -9,41 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpSender(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.MediaStreamTrack? Track
+    public global::Iskra.StdWeb.MediaStreamTrack? Track
     {
         get
         {
-            Iskra.StdWeb.MediaStreamTrack? __res_1879;
-            JSObject? __res_1880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
-            if (__res_1880 is null)
+            global::Iskra.StdWeb.MediaStreamTrack? __res_1918;
+            JSObject? __res_1919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "track");
+            if (__res_1919 is null)
             {
-                __res_1879 = null;
+                __res_1918 = null;
             }
             else
             {
-                JSObject __notNullable_1881 = (JSObject)__res_1880;
+                JSObject __notNullable_1920 = (JSObject)__res_1919;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
             }
-            return __res_1879;
+            return __res_1918;
         }
     }
 
-    public Iskra.StdWeb.RTCDtlsTransport? Transport
+    public global::Iskra.StdWeb.RTCDtlsTransport? Transport
     {
         get
         {
-            Iskra.StdWeb.RTCDtlsTransport? __res_1882;
-            JSObject? __res_1883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
-            if (__res_1883 is null)
+            global::Iskra.StdWeb.RTCDtlsTransport? __res_1921;
+            JSObject? __res_1922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_1922 is null)
             {
-                __res_1882 = null;
+                __res_1921 = null;
             }
             else
             {
-                JSObject __notNullable_1884 = (JSObject)__res_1883;
+                JSObject __notNullable_1923 = (JSObject)__res_1922;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDtlsTransport } not supported.");
             }
-            return __res_1882;
+            return __res_1921;
         }
     }
 }

@@ -9,33 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class ScrollTimeline(JSObject obj): AnimationTimeline(obj)
 {
-    public Iskra.StdWeb.Element? Source
+    public global::Iskra.StdWeb.Element? Source
     {
         get
         {
-            Iskra.StdWeb.Element? __res_226;
-            JSObject? __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_227 is null)
+            global::Iskra.StdWeb.Element? __res_262;
+            JSObject? __res_263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_263 is null)
             {
-                __res_226 = null;
+                __res_262 = null;
             }
             else
             {
-                JSObject __notNullable_228 = (JSObject)__res_227;
+                JSObject __notNullable_264 = (JSObject)__res_263;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_226;
+            return __res_262;
         }
     }
 
-    public Iskra.StdWeb.ScrollAxis Axis
+    public global::Iskra.StdWeb.ScrollAxis Axis
     {
         get
         {
-            Iskra.StdWeb.ScrollAxis __res_229;
-            JSObject __res_230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
+            global::Iskra.StdWeb.ScrollAxis __res_265;
+            JSObject __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollAxis } not supported.");
-            return __res_229;
+            return __res_265;
         }
     }
 }

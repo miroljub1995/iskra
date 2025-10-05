@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void BlobCallback(Iskra.StdWeb.Blob? blob);
+public delegate void BlobCallback(global::Iskra.StdWeb.Blob? blob);
 
 #nullable disable

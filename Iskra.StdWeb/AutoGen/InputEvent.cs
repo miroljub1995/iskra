@@ -13,18 +13,18 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            string? __res_7935;
-            string? __res_7936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
-            if (__res_7936 is null)
+            string? __res_7993;
+            string? __res_7994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
+            if (__res_7994 is null)
             {
-                __res_7935 = null;
+                __res_7993 = null;
             }
             else
             {
-                string __notNullable_7937 = (string)__res_7936;
-                __res_7935 = __notNullable_7937;
+                string __notNullable_7995 = (string)__res_7994;
+                __res_7993 = __notNullable_7995;
             }
-            return __res_7935;
+            return __res_7993;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_7938;
-            bool __res_7939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
-            __res_7938 = __res_7939;
-            return __res_7938;
+            bool __res_7996;
+            bool __res_7997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            __res_7996 = __res_7997;
+            return __res_7996;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class InputEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            string __res_7940;
-            string __res_7941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
-            __res_7940 = __res_7941;
-            return __res_7940;
+            string __res_7998;
+            string __res_7999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
+            __res_7998 = __res_7999;
+            return __res_7998;
         }
     }
 }

@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream(obj)
 {
-    public Iskra.StdWeb.WebTransportSendGroup? SendGroup
+    public global::Iskra.StdWeb.WebTransportSendGroup? SendGroup
     {
         get
         {
-            Iskra.StdWeb.WebTransportSendGroup? __res_2153;
-            JSObject? __res_2154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
-            if (__res_2154 is null)
+            global::Iskra.StdWeb.WebTransportSendGroup? __res_2192;
+            JSObject? __res_2193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
+            if (__res_2193 is null)
             {
-                __res_2153 = null;
+                __res_2192 = null;
             }
             else
             {
-                JSObject __notNullable_2155 = (JSObject)__res_2154;
+                JSObject __notNullable_2194 = (JSObject)__res_2193;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendGroup } not supported.");
             }
-            return __res_2153;
+            return __res_2192;
         }
         set
         {
-            JSObject? __marshalledValue_2156;
+            JSObject? __marshalledValue_2195;
             if (value is null)
             {
-                __marshalledValue_2156 = null;
+                __marshalledValue_2195 = null;
             }
             else
             {
-                Iskra.StdWeb.WebTransportSendGroup __notNullable_2157 = (Iskra.StdWeb.WebTransportSendGroup)value;
+                global::Iskra.StdWeb.WebTransportSendGroup __notNullable_2196 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendGroup } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_2156);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_2195);
         }
     }
 
@@ -46,16 +46,16 @@ public partial class WebTransportDatagramsWritable(JSObject obj): WritableStream
     {
         get
         {
-            long __res_2158;
-            double __res_2159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
-            __res_2158 = Convert.ToInt64(__res_2159);
-            return __res_2158;
+            long __res_2197;
+            double __res_2198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
+            __res_2197 = Convert.ToInt64(__res_2198);
+            return __res_2197;
         }
         set
         {
-            double __marshalledValue_2160;
-            __marshalledValue_2160 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_2160);
+            double __marshalledValue_2199;
+            __marshalledValue_2199 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_2199);
         }
     }
 }

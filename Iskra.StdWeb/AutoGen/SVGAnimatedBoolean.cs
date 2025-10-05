@@ -13,16 +13,16 @@ public partial class SVGAnimatedBoolean(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_286;
-            bool __res_287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "baseVal");
-            __res_286 = __res_287;
-            return __res_286;
+            bool __res_322;
+            bool __res_323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "baseVal");
+            __res_322 = __res_323;
+            return __res_322;
         }
         set
         {
-            bool __marshalledValue_288;
-            __marshalledValue_288 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "baseVal", __marshalledValue_288);
+            bool __marshalledValue_324;
+            __marshalledValue_324 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "baseVal", __marshalledValue_324);
         }
     }
 
@@ -30,10 +30,10 @@ public partial class SVGAnimatedBoolean(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_289;
-            bool __res_290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animVal");
-            __res_289 = __res_290;
-            return __res_289;
+            bool __res_325;
+            bool __res_326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animVal");
+            __res_325 = __res_326;
+            return __res_325;
         }
     }
 }

@@ -9,37 +9,37 @@ namespace Iskra.StdWeb;
 
 public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.XRSpace MeshSpace
+    public global::Iskra.StdWeb.XRSpace MeshSpace
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_1651;
-            JSObject __res_1652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
+            global::Iskra.StdWeb.XRSpace __res_1690;
+            JSObject __res_1691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
-            return __res_1651;
+            return __res_1690;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vertices
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vertices
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1653;
-            JSObject __propObject_1654;
-            __propObject_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
-            __res_1653 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1654);
-            return __res_1653;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1692;
+            JSObject __propObject_1693;
+            __propObject_1693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
+            __res_1692 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1693);
+            return __res_1692;
         }
     }
 
-    public Iskra.JSCore.Uint32Array Indices
+    public global::Iskra.JSCore.Uint32Array Indices
     {
         get
         {
-            Iskra.JSCore.Uint32Array __res_1655;
-            JSObject __res_1656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
+            global::Iskra.JSCore.Uint32Array __res_1694;
+            JSObject __res_1695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Uint32Array } not supported.");
-            return __res_1655;
+            return __res_1694;
         }
     }
 
@@ -47,10 +47,10 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_1657;
-            double __res_1658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
-            __res_1657 = __res_1658;
-            return __res_1657;
+            double __res_1696;
+            double __res_1697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            __res_1696 = __res_1697;
+            return __res_1696;
         }
     }
 
@@ -58,18 +58,18 @@ public partial class XRMesh(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_1659;
-            string? __res_1660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
-            if (__res_1660 is null)
+            string? __res_1698;
+            string? __res_1699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            if (__res_1699 is null)
             {
-                __res_1659 = null;
+                __res_1698 = null;
             }
             else
             {
-                string __notNullable_1661 = (string)__res_1660;
-                __res_1659 = __notNullable_1661;
+                string __notNullable_1700 = (string)__res_1699;
+                __res_1698 = __notNullable_1700;
             }
-            return __res_1659;
+            return __res_1698;
         }
     }
 }

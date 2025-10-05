@@ -9,41 +9,41 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionChangeEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public Iskra.StdWeb.PushSubscription? NewSubscription
+    public global::Iskra.StdWeb.PushSubscription? NewSubscription
     {
         get
         {
-            Iskra.StdWeb.PushSubscription? __res_4962;
-            JSObject? __res_4963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
-            if (__res_4963 is null)
+            global::Iskra.StdWeb.PushSubscription? __res_5005;
+            JSObject? __res_5006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
+            if (__res_5006 is null)
             {
-                __res_4962 = null;
+                __res_5005 = null;
             }
             else
             {
-                JSObject __notNullable_4964 = (JSObject)__res_4963;
+                JSObject __notNullable_5007 = (JSObject)__res_5006;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
             }
-            return __res_4962;
+            return __res_5005;
         }
     }
 
-    public Iskra.StdWeb.PushSubscription? OldSubscription
+    public global::Iskra.StdWeb.PushSubscription? OldSubscription
     {
         get
         {
-            Iskra.StdWeb.PushSubscription? __res_4965;
-            JSObject? __res_4966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
-            if (__res_4966 is null)
+            global::Iskra.StdWeb.PushSubscription? __res_5008;
+            JSObject? __res_5009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
+            if (__res_5009 is null)
             {
-                __res_4965 = null;
+                __res_5008 = null;
             }
             else
             {
-                JSObject __notNullable_4967 = (JSObject)__res_4966;
+                JSObject __notNullable_5010 = (JSObject)__res_5009;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
             }
-            return __res_4965;
+            return __res_5008;
         }
     }
 }

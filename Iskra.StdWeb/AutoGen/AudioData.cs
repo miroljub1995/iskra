@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class AudioData(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.AudioSampleFormat? Format
+    public global::Iskra.StdWeb.AudioSampleFormat? Format
     {
         get
         {
-            Iskra.StdWeb.AudioSampleFormat? __res_2604;
-            JSObject? __res_2605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
-            if (__res_2605 is null)
+            global::Iskra.StdWeb.AudioSampleFormat? __res_2643;
+            JSObject? __res_2644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
+            if (__res_2644 is null)
             {
-                __res_2604 = null;
+                __res_2643 = null;
             }
             else
             {
-                JSObject __notNullable_2606 = (JSObject)__res_2605;
+                JSObject __notNullable_2645 = (JSObject)__res_2644;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioSampleFormat } not supported.");
             }
-            return __res_2604;
+            return __res_2643;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_2607;
-            double __res_2608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_2607 = Convert.ToSingle(__res_2608);
-            return __res_2607;
+            float __res_2646;
+            double __res_2647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_2646 = Convert.ToSingle(__res_2647);
+            return __res_2646;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2609;
-            double __res_2610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfFrames");
-            __res_2609 = Convert.ToUInt32(__res_2610);
-            return __res_2609;
+            uint __res_2648;
+            double __res_2649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfFrames");
+            __res_2648 = Convert.ToUInt32(__res_2649);
+            return __res_2648;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2611;
-            double __res_2612 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
-            __res_2611 = Convert.ToUInt32(__res_2612);
-            return __res_2611;
+            uint __res_2650;
+            double __res_2651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
+            __res_2650 = Convert.ToUInt32(__res_2651);
+            return __res_2650;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_2613;
-            double __res_2614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_2613 = Convert.ToUInt64(__res_2614);
-            return __res_2613;
+            ulong __res_2652;
+            double __res_2653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_2652 = Convert.ToUInt64(__res_2653);
+            return __res_2652;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class AudioData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            long __res_2615;
-            double __res_2616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2615 = Convert.ToInt64(__res_2616);
-            return __res_2615;
+            long __res_2654;
+            double __res_2655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_2654 = Convert.ToInt64(__res_2655);
+            return __res_2654;
         }
     }
 }

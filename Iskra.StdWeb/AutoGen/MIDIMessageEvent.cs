@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIMessageEvent(JSObject obj): Event(obj)
 {
-    public Iskra.JSCore.Uint8Array? Data
+    public global::Iskra.JSCore.Uint8Array? Data
     {
         get
         {
-            Iskra.JSCore.Uint8Array? __res_7516;
-            JSObject? __res_7517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_7517 is null)
+            global::Iskra.JSCore.Uint8Array? __res_7572;
+            JSObject? __res_7573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_7573 is null)
             {
-                __res_7516 = null;
+                __res_7572 = null;
             }
             else
             {
-                JSObject __notNullable_7518 = (JSObject)__res_7517;
+                JSObject __notNullable_7574 = (JSObject)__res_7573;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Uint8Array } not supported.");
             }
-            return __res_7516;
+            return __res_7572;
         }
     }
 }

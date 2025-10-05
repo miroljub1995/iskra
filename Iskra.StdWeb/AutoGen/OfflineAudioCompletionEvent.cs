@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class OfflineAudioCompletionEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.AudioBuffer RenderedBuffer
+    public global::Iskra.StdWeb.AudioBuffer RenderedBuffer
     {
         get
         {
-            Iskra.StdWeb.AudioBuffer __res_8086;
-            JSObject __res_8087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderedBuffer");
+            global::Iskra.StdWeb.AudioBuffer __res_8146;
+            JSObject __res_8147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderedBuffer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
-            return __res_8086;
+            return __res_8146;
         }
     }
 }

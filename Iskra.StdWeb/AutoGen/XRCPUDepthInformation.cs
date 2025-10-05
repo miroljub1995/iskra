@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRCPUDepthInformation(JSObject obj): XRDepthInformation(obj)
 {
-    public Iskra.JSCore.ArrayBuffer Data
+    public global::Iskra.JSCore.ArrayBuffer Data
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1052;
-            JSObject __res_1053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            global::Iskra.JSCore.ArrayBuffer __res_1091;
+            JSObject __res_1092 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_1052;
+            return __res_1091;
         }
     }
 }

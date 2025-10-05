@@ -13,10 +13,10 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_263;
-            double __res_264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            __res_263 = Convert.ToUInt16(__res_264);
-            return __res_263;
+            ushort __res_299;
+            double __res_300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
+            __res_299 = Convert.ToUInt16(__res_300);
+            return __res_299;
         }
     }
 
@@ -24,16 +24,16 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_265;
-            double __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_265 = Convert.ToSingle(__res_266);
-            return __res_265;
+            float __res_301;
+            double __res_302 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_301 = Convert.ToSingle(__res_302);
+            return __res_301;
         }
         set
         {
-            double __marshalledValue_267;
-            __marshalledValue_267 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_267);
+            double __marshalledValue_303;
+            __marshalledValue_303 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_303);
         }
     }
 
@@ -41,16 +41,16 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_268;
-            double __res_269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
-            __res_268 = Convert.ToSingle(__res_269);
-            return __res_268;
+            float __res_304;
+            double __res_305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
+            __res_304 = Convert.ToSingle(__res_305);
+            return __res_304;
         }
         set
         {
-            double __marshalledValue_270;
-            __marshalledValue_270 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_270);
+            double __marshalledValue_306;
+            __marshalledValue_306 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_306);
         }
     }
 
@@ -58,16 +58,16 @@ public partial class SVGAngle(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_271;
-            string __res_272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
-            __res_271 = __res_272;
-            return __res_271;
+            string __res_307;
+            string __res_308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
+            __res_307 = __res_308;
+            return __res_307;
         }
         set
         {
-            string __marshalledValue_273;
-            __marshalledValue_273 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_273);
+            string __marshalledValue_309;
+            __marshalledValue_309 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_309);
         }
     }
 }

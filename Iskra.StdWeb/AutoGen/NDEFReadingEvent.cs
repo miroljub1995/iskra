@@ -13,21 +13,21 @@ public partial class NDEFReadingEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_4646;
-            string __res_4647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "serialNumber");
-            __res_4646 = __res_4647;
-            return __res_4646;
+            string __res_4689;
+            string __res_4690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "serialNumber");
+            __res_4689 = __res_4690;
+            return __res_4689;
         }
     }
 
-    public Iskra.StdWeb.NDEFMessage Message
+    public global::Iskra.StdWeb.NDEFMessage Message
     {
         get
         {
-            Iskra.StdWeb.NDEFMessage __res_4648;
-            JSObject __res_4649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            global::Iskra.StdWeb.NDEFMessage __res_4691;
+            JSObject __res_4692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NDEFMessage } not supported.");
-            return __res_4648;
+            return __res_4691;
         }
     }
 }

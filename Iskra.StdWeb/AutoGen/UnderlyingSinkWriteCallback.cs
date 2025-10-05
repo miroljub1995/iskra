@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object UnderlyingSinkWriteCallback(object? chunk, Iskra.StdWeb.WritableStreamDefaultController controller);
+public delegate object UnderlyingSinkWriteCallback(object? chunk, global::Iskra.StdWeb.WritableStreamDefaultController controller);
 
 #nullable disable

@@ -13,10 +13,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6790;
-            string __res_6791 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_6790 = __res_6791;
-            return __res_6790;
+            string __res_6841;
+            string __res_6842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_6841 = __res_6842;
+            return __res_6841;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6792;
-            string __res_6793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
-            __res_6792 = __res_6793;
-            return __res_6792;
+            string __res_6843;
+            string __res_6844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
+            __res_6843 = __res_6844;
+            return __res_6843;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_6794;
-            double __res_6795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineno");
-            __res_6794 = Convert.ToUInt32(__res_6795);
-            return __res_6794;
+            uint __res_6845;
+            double __res_6846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineno");
+            __res_6845 = Convert.ToUInt32(__res_6846);
+            return __res_6845;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_6796;
-            double __res_6797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colno");
-            __res_6796 = Convert.ToUInt32(__res_6797);
-            return __res_6796;
+            uint __res_6847;
+            double __res_6848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colno");
+            __res_6847 = Convert.ToUInt32(__res_6848);
+            return __res_6847;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class ErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_6798;
-            JSObject __res_6799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            object? __res_6849;
+            JSObject __res_6850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6798;
+            return __res_6849;
         }
     }
 }

@@ -13,27 +13,27 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_3014;
-            string __res_3015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3014 = __res_3015;
-            return __res_3014;
+            string __res_3054;
+            string __res_3055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3054 = __res_3055;
+            return __res_3054;
         }
         set
         {
-            string __marshalledValue_3016;
-            __marshalledValue_3016 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_3016);
+            string __marshalledValue_3056;
+            __marshalledValue_3056 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_3056);
         }
     }
 
-    public Iskra.StdWeb.CSSRuleList CssRules
+    public global::Iskra.StdWeb.CSSRuleList CssRules
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_3017;
-            JSObject __res_3018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            global::Iskra.StdWeb.CSSRuleList __res_3057;
+            JSObject __res_3058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRuleList } not supported.");
-            return __res_3017;
+            return __res_3057;
         }
     }
 
@@ -41,10 +41,10 @@ public partial class CSSKeyframesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            uint __res_3019;
-            double __res_3020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3019 = Convert.ToUInt32(__res_3020);
-            return __res_3019;
+            uint __res_3059;
+            double __res_3060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3059 = Convert.ToUInt32(__res_3060);
+            return __res_3059;
         }
     }
 }

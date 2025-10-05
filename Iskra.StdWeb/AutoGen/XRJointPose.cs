@@ -13,10 +13,10 @@ public partial class XRJointPose(JSObject obj): XRPose(obj)
     {
         get
         {
-            float __res_3731;
-            double __res_3732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radius");
-            __res_3731 = Convert.ToSingle(__res_3732);
-            return __res_3731;
+            float __res_3771;
+            double __res_3772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radius");
+            __res_3771 = Convert.ToSingle(__res_3772);
+            return __res_3771;
         }
     }
 }

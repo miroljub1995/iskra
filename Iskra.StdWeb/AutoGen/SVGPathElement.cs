@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPathElement(JSObject obj): SVGGeometryElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedNumber PathLength
+    public global::Iskra.StdWeb.SVGAnimatedNumber PathLength
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_2239;
-            JSObject __res_2240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_2278;
+            JSObject __res_2279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_2239;
+            return __res_2278;
         }
     }
 }

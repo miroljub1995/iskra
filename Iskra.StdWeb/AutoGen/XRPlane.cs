@@ -9,34 +9,34 @@ namespace Iskra.StdWeb;
 
 public partial class XRPlane(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.XRSpace PlaneSpace
+    public global::Iskra.StdWeb.XRSpace PlaneSpace
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_6;
+            global::Iskra.StdWeb.XRSpace __res_6;
             JSObject __res_7 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
             return __res_6;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Polygon
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Polygon
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_8;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_8;
             JSObject __propObject_9;
             __propObject_9 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "polygon");
-            __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_9);
+            __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_9);
             return __res_8;
         }
     }
 
-    public Iskra.StdWeb.XRPlaneOrientation? Orientation
+    public global::Iskra.StdWeb.XRPlaneOrientation? Orientation
     {
         get
         {
-            Iskra.StdWeb.XRPlaneOrientation? __res_10;
+            global::Iskra.StdWeb.XRPlaneOrientation? __res_10;
             JSObject? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
             if (__res_11 is null)
             {

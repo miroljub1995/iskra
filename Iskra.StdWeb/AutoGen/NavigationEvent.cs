@@ -9,33 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationEvent(JSObject obj): UIEvent(obj)
 {
-    public Iskra.StdWeb.SpatialNavigationDirection Dir
+    public global::Iskra.StdWeb.SpatialNavigationDirection Dir
     {
         get
         {
-            Iskra.StdWeb.SpatialNavigationDirection __res_5155;
-            JSObject __res_5156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
+            global::Iskra.StdWeb.SpatialNavigationDirection __res_5199;
+            JSObject __res_5200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpatialNavigationDirection } not supported.");
-            return __res_5155;
+            return __res_5199;
         }
     }
 
-    public Iskra.StdWeb.EventTarget? RelatedTarget
+    public global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_5157;
-            JSObject? __res_5158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_5158 is null)
+            global::Iskra.StdWeb.EventTarget? __res_5201;
+            JSObject? __res_5202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_5202 is null)
             {
-                __res_5157 = null;
+                __res_5201 = null;
             }
             else
             {
-                JSObject __notNullable_5159 = (JSObject)__res_5158;
+                JSObject __notNullable_5203 = (JSObject)__res_5202;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
-            return __res_5157;
+            return __res_5201;
         }
     }
 }

@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void EncodedVideoChunkOutputCallback(Iskra.StdWeb.EncodedVideoChunk chunk, Iskra.StdWeb.EncodedVideoChunkMetadata metadata);
+public delegate void EncodedVideoChunkOutputCallback(global::Iskra.StdWeb.EncodedVideoChunk chunk, global::Iskra.StdWeb.EncodedVideoChunkMetadata metadata);
 
 #nullable disable

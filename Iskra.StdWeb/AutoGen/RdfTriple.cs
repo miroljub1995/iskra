@@ -13,10 +13,10 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5106;
-            string __res_5107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
-            __res_5106 = __res_5107;
-            return __res_5106;
+            string __res_5149;
+            string __res_5150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
+            __res_5149 = __res_5150;
+            return __res_5149;
         }
     }
 
@@ -24,20 +24,22 @@ public partial class RdfTriple(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_5108;
-            string __res_5109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
-            __res_5108 = __res_5109;
-            return __res_5108;
+            string __res_5151;
+            string __res_5152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
+            __res_5151 = __res_5152;
+            return __res_5151;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> Object
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> Object
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5110;
-            throw new Exception();
-            return __res_5110;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5153;
+            JSObject __propObject_5154;
+            __propObject_5154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "object");
+            __res_5153 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5154);
+            return __res_5153;
         }
     }
 }

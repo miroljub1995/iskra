@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.BluetoothRemoteGATTCharacteristic Characteristic
+    public global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic Characteristic
     {
         get
         {
-            Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_2797;
-            JSObject __res_2798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
+            global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_2837;
+            JSObject __res_2838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothRemoteGATTCharacteristic } not supported.");
-            return __res_2797;
+            return __res_2837;
         }
     }
 
@@ -24,29 +24,29 @@ public partial class BluetoothRemoteGATTDescriptor(JSObject obj): JSObjectProxy(
     {
         get
         {
-            string __res_2799;
-            string __res_2800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_2799 = __res_2800;
-            return __res_2799;
+            string __res_2839;
+            string __res_2840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2839 = __res_2840;
+            return __res_2839;
         }
     }
 
-    public Iskra.JSCore.DataView? Value
+    public global::Iskra.JSCore.DataView? Value
     {
         get
         {
-            Iskra.JSCore.DataView? __res_2801;
-            JSObject? __res_2802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_2802 is null)
+            global::Iskra.JSCore.DataView? __res_2841;
+            JSObject? __res_2842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_2842 is null)
             {
-                __res_2801 = null;
+                __res_2841 = null;
             }
             else
             {
-                JSObject __notNullable_2803 = (JSObject)__res_2802;
+                JSObject __notNullable_2843 = (JSObject)__res_2842;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
-            return __res_2801;
+            return __res_2841;
         }
     }
 }

@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedLength(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SVGLength BaseVal
+    public global::Iskra.StdWeb.SVGLength BaseVal
     {
         get
         {
-            Iskra.StdWeb.SVGLength __res_306;
-            JSObject __res_307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            global::Iskra.StdWeb.SVGLength __res_342;
+            JSObject __res_343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGLength } not supported.");
-            return __res_306;
+            return __res_342;
         }
     }
 
-    public Iskra.StdWeb.SVGLength AnimVal
+    public global::Iskra.StdWeb.SVGLength AnimVal
     {
         get
         {
-            Iskra.StdWeb.SVGLength __res_308;
-            JSObject __res_309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            global::Iskra.StdWeb.SVGLength __res_344;
+            JSObject __res_345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGLength } not supported.");
-            return __res_308;
+            return __res_344;
         }
     }
 }

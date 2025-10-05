@@ -13,33 +13,33 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_8111;
-            double __res_8112 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_8111 = Convert.ToSingle(__res_8112);
-            return __res_8111;
+            float __res_8171;
+            double __res_8172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_8171 = Convert.ToSingle(__res_8172);
+            return __res_8171;
         }
         set
         {
-            double __marshalledValue_8113;
-            __marshalledValue_8113 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_8113);
+            double __marshalledValue_8173;
+            __marshalledValue_8173 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_8173);
         }
     }
 
-    public Iskra.StdWeb.AutomationRate AutomationRate
+    public global::Iskra.StdWeb.AutomationRate AutomationRate
     {
         get
         {
-            Iskra.StdWeb.AutomationRate __res_8114;
-            JSObject __res_8115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "automationRate");
+            global::Iskra.StdWeb.AutomationRate __res_8174;
+            JSObject __res_8175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "automationRate");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutomationRate } not supported.");
-            return __res_8114;
+            return __res_8174;
         }
         set
         {
-            JSObject __marshalledValue_8116;
+            JSObject __marshalledValue_8176;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutomationRate } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "automationRate", __marshalledValue_8116);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "automationRate", __marshalledValue_8176);
         }
     }
 
@@ -47,10 +47,10 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_8117;
-            double __res_8118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
-            __res_8117 = Convert.ToSingle(__res_8118);
-            return __res_8117;
+            float __res_8177;
+            double __res_8178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
+            __res_8177 = Convert.ToSingle(__res_8178);
+            return __res_8177;
         }
     }
 
@@ -58,10 +58,10 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_8119;
-            double __res_8120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minValue");
-            __res_8119 = Convert.ToSingle(__res_8120);
-            return __res_8119;
+            float __res_8179;
+            double __res_8180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minValue");
+            __res_8179 = Convert.ToSingle(__res_8180);
+            return __res_8179;
         }
     }
 
@@ -69,10 +69,10 @@ public partial class AudioParam(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_8121;
-            double __res_8122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxValue");
-            __res_8121 = Convert.ToSingle(__res_8122);
-            return __res_8121;
+            float __res_8181;
+            double __res_8182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxValue");
+            __res_8181 = Convert.ToSingle(__res_8182);
+            return __res_8181;
         }
     }
 }

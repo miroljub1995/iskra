@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class CSSColor(JSObject obj): CSSColorValue(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> ColorSpace
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> ColorSpace
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_140;
-            throw new Exception();
-            return __res_140;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_174;
+            JSObject __propObject_175;
+            __propObject_175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "colorSpace");
+            __res_174 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_175);
+            return __res_174;
         }
         set
         {
@@ -27,9 +29,9 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
     {
         get
         {
-            object __res_141;
+            object __res_176;
             throw new Exception();
-            return __res_141;
+            return __res_176;
         }
         set
         {
@@ -37,13 +39,15 @@ public partial class CSSColor(JSObject obj): CSSColorValue(obj)
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_142;
-            throw new Exception();
-            return __res_142;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_177;
+            JSObject __propObject_178;
+            __propObject_178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "alpha");
+            __res_177 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_178);
+            return __res_177;
         }
         set
         {

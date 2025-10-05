@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class Memory(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.JSCore.ArrayBuffer Buffer
+    public global::Iskra.JSCore.ArrayBuffer Buffer
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4652;
-            JSObject __res_4653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
+            global::Iskra.JSCore.ArrayBuffer __res_4695;
+            JSObject __res_4696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_4652;
+            return __res_4695;
         }
     }
 }

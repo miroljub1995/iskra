@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedLengthList(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SVGLengthList BaseVal
+    public global::Iskra.StdWeb.SVGLengthList BaseVal
     {
         get
         {
-            Iskra.StdWeb.SVGLengthList __res_327;
-            JSObject __res_328 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            global::Iskra.StdWeb.SVGLengthList __res_363;
+            JSObject __res_364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGLengthList } not supported.");
-            return __res_327;
+            return __res_363;
         }
     }
 
-    public Iskra.StdWeb.SVGLengthList AnimVal
+    public global::Iskra.StdWeb.SVGLengthList AnimVal
     {
         get
         {
-            Iskra.StdWeb.SVGLengthList __res_329;
-            JSObject __res_330 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            global::Iskra.StdWeb.SVGLengthList __res_365;
+            JSObject __res_366 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGLengthList } not supported.");
-            return __res_329;
+            return __res_365;
         }
     }
 }

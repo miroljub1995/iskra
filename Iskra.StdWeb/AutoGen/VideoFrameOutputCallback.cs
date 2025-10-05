@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void VideoFrameOutputCallback(Iskra.StdWeb.VideoFrame output);
+public delegate void VideoFrameOutputCallback(global::Iskra.StdWeb.VideoFrame output);
 
 #nullable disable

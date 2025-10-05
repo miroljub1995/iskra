@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class ChildBreakToken(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.BreakType BreakType
+    public global::Iskra.StdWeb.BreakType BreakType
     {
         get
         {
-            Iskra.StdWeb.BreakType __res_7865;
-            JSObject __res_7866 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "breakType");
+            global::Iskra.StdWeb.BreakType __res_7923;
+            JSObject __res_7924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "breakType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BreakType } not supported.");
-            return __res_7865;
+            return __res_7923;
         }
     }
 
-    public Iskra.StdWeb.LayoutChild Child
+    public global::Iskra.StdWeb.LayoutChild Child
     {
         get
         {
-            Iskra.StdWeb.LayoutChild __res_7867;
-            JSObject __res_7868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
+            global::Iskra.StdWeb.LayoutChild __res_7925;
+            JSObject __res_7926 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LayoutChild } not supported.");
-            return __res_7867;
+            return __res_7925;
         }
     }
 }

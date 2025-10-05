@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class GPUAdapter(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.GPUSupportedFeatures Features
+    public global::Iskra.StdWeb.GPUSupportedFeatures Features
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedFeatures __res_709;
-            JSObject __res_710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            global::Iskra.StdWeb.GPUSupportedFeatures __res_745;
+            JSObject __res_746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUSupportedFeatures } not supported.");
-            return __res_709;
+            return __res_745;
         }
     }
 
-    public Iskra.StdWeb.GPUSupportedLimits Limits
+    public global::Iskra.StdWeb.GPUSupportedLimits Limits
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedLimits __res_711;
-            JSObject __res_712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            global::Iskra.StdWeb.GPUSupportedLimits __res_747;
+            JSObject __res_748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUSupportedLimits } not supported.");
-            return __res_711;
+            return __res_747;
         }
     }
 
-    public Iskra.StdWeb.GPUAdapterInfo Info
+    public global::Iskra.StdWeb.GPUAdapterInfo Info
     {
         get
         {
-            Iskra.StdWeb.GPUAdapterInfo __res_713;
-            JSObject __res_714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
+            global::Iskra.StdWeb.GPUAdapterInfo __res_749;
+            JSObject __res_750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUAdapterInfo } not supported.");
-            return __res_713;
+            return __res_749;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            double __res_4664;
-            double __res_4665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
-            __res_4664 = __res_4665;
-            return __res_4664;
+            double __res_4707;
+            double __res_4708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_4707 = __res_4708;
+            return __res_4707;
         }
     }
 
@@ -24,21 +24,21 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            double __res_4666;
-            double __res_4667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
-            __res_4666 = __res_4667;
-            return __res_4666;
+            double __res_4709;
+            double __res_4710 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_4709 = __res_4710;
+            return __res_4709;
         }
     }
 
-    public Iskra.StdWeb.DOMRectReadOnly IntersectionRect
+    public global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_4668;
-            JSObject __res_4669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
+            global::Iskra.StdWeb.DOMRectReadOnly __res_4711;
+            JSObject __res_4712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
-            return __res_4668;
+            return __res_4711;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            string __res_4670;
-            string __res_4671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "identifier");
-            __res_4670 = __res_4671;
-            return __res_4670;
+            string __res_4713;
+            string __res_4714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "identifier");
+            __res_4713 = __res_4714;
+            return __res_4713;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            uint __res_4672;
-            double __res_4673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
-            __res_4672 = Convert.ToUInt32(__res_4673);
-            return __res_4672;
+            uint __res_4715;
+            double __res_4716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
+            __res_4715 = Convert.ToUInt32(__res_4716);
+            return __res_4715;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            uint __res_4674;
-            double __res_4675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
-            __res_4674 = Convert.ToUInt32(__res_4675);
-            return __res_4674;
+            uint __res_4717;
+            double __res_4718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
+            __res_4717 = Convert.ToUInt32(__res_4718);
+            return __res_4717;
         }
     }
 
@@ -79,29 +79,29 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            string __res_4676;
-            string __res_4677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4676 = __res_4677;
-            return __res_4676;
+            string __res_4719;
+            string __res_4720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4719 = __res_4720;
+            return __res_4719;
         }
     }
 
-    public Iskra.StdWeb.Element? Element
+    public global::Iskra.StdWeb.Element? Element
     {
         get
         {
-            Iskra.StdWeb.Element? __res_4678;
-            JSObject? __res_4679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
-            if (__res_4679 is null)
+            global::Iskra.StdWeb.Element? __res_4721;
+            JSObject? __res_4722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_4722 is null)
             {
-                __res_4678 = null;
+                __res_4721 = null;
             }
             else
             {
-                JSObject __notNullable_4680 = (JSObject)__res_4679;
+                JSObject __notNullable_4723 = (JSObject)__res_4722;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_4678;
+            return __res_4721;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class PerformanceElementTiming(JSObject obj): PerformanceEntry(ob
     {
         get
         {
-            string __res_4681;
-            string __res_4682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_4681 = __res_4682;
-            return __res_4681;
+            string __res_4724;
+            string __res_4725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_4724 = __res_4725;
+            return __res_4724;
         }
     }
 }

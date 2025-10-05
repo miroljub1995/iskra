@@ -13,10 +13,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5129;
-            string __res_5130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
-            __res_5129 = __res_5130;
-            return __res_5129;
+            string __res_5173;
+            string __res_5174 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
+            __res_5173 = __res_5174;
+            return __res_5173;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5131;
-            string __res_5132 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrer");
-            __res_5131 = __res_5132;
-            return __res_5131;
+            string __res_5175;
+            string __res_5176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrer");
+            __res_5175 = __res_5176;
+            return __res_5175;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5133;
-            string __res_5134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockedURI");
-            __res_5133 = __res_5134;
-            return __res_5133;
+            string __res_5177;
+            string __res_5178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockedURI");
+            __res_5177 = __res_5178;
+            return __res_5177;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5135;
-            string __res_5136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectiveDirective");
-            __res_5135 = __res_5136;
-            return __res_5135;
+            string __res_5179;
+            string __res_5180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectiveDirective");
+            __res_5179 = __res_5180;
+            return __res_5179;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5137;
-            string __res_5138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "violatedDirective");
-            __res_5137 = __res_5138;
-            return __res_5137;
+            string __res_5181;
+            string __res_5182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "violatedDirective");
+            __res_5181 = __res_5182;
+            return __res_5181;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5139;
-            string __res_5140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "originalPolicy");
-            __res_5139 = __res_5140;
-            return __res_5139;
+            string __res_5183;
+            string __res_5184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "originalPolicy");
+            __res_5183 = __res_5184;
+            return __res_5183;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5141;
-            string __res_5142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceFile");
-            __res_5141 = __res_5142;
-            return __res_5141;
+            string __res_5185;
+            string __res_5186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceFile");
+            __res_5185 = __res_5186;
+            return __res_5185;
         }
     }
 
@@ -90,21 +90,21 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_5143;
-            string __res_5144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sample");
-            __res_5143 = __res_5144;
-            return __res_5143;
+            string __res_5187;
+            string __res_5188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sample");
+            __res_5187 = __res_5188;
+            return __res_5187;
         }
     }
 
-    public Iskra.StdWeb.SecurityPolicyViolationEventDisposition Disposition
+    public global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition Disposition
     {
         get
         {
-            Iskra.StdWeb.SecurityPolicyViolationEventDisposition __res_5145;
-            JSObject __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "disposition");
+            global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition __res_5189;
+            JSObject __res_5190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "disposition");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SecurityPolicyViolationEventDisposition } not supported.");
-            return __res_5145;
+            return __res_5189;
         }
     }
 
@@ -112,10 +112,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            ushort __res_5147;
-            double __res_5148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "statusCode");
-            __res_5147 = Convert.ToUInt16(__res_5148);
-            return __res_5147;
+            ushort __res_5191;
+            double __res_5192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "statusCode");
+            __res_5191 = Convert.ToUInt16(__res_5192);
+            return __res_5191;
         }
     }
 
@@ -123,10 +123,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_5149;
-            double __res_5150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNumber");
-            __res_5149 = Convert.ToUInt32(__res_5150);
-            return __res_5149;
+            uint __res_5193;
+            double __res_5194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNumber");
+            __res_5193 = Convert.ToUInt32(__res_5194);
+            return __res_5193;
         }
     }
 
@@ -134,10 +134,10 @@ public partial class SecurityPolicyViolationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_5151;
-            double __res_5152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "columnNumber");
-            __res_5151 = Convert.ToUInt32(__res_5152);
-            return __res_5151;
+            uint __res_5195;
+            double __res_5196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "columnNumber");
+            __res_5195 = Convert.ToUInt32(__res_5196);
+            return __res_5195;
         }
     }
 }

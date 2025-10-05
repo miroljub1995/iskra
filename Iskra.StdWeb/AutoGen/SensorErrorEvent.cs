@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SensorErrorEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.DOMException Error
+    public global::Iskra.StdWeb.DOMException Error
     {
         get
         {
-            Iskra.StdWeb.DOMException __res_4615;
-            JSObject __res_4616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            global::Iskra.StdWeb.DOMException __res_4658;
+            JSObject __res_4659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMException } not supported.");
-            return __res_4615;
+            return __res_4658;
         }
     }
 }

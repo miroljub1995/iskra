@@ -13,10 +13,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_1731;
-            double __res_1732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
-            __res_1731 = __res_1732;
-            return __res_1731;
+            double __res_1770;
+            double __res_1771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_1770 = __res_1771;
+            return __res_1770;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            double __res_1733;
-            double __res_1734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
-            __res_1733 = __res_1734;
-            return __res_1733;
+            double __res_1772;
+            double __res_1773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_1772 = __res_1773;
+            return __res_1772;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            uint __res_1735;
-            double __res_1736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_1735 = Convert.ToUInt32(__res_1736);
-            return __res_1735;
+            uint __res_1774;
+            double __res_1775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_1774 = Convert.ToUInt32(__res_1775);
+            return __res_1774;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_1737;
-            string __res_1738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_1737 = __res_1738;
-            return __res_1737;
+            string __res_1776;
+            string __res_1777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_1776 = __res_1777;
+            return __res_1776;
         }
     }
 
@@ -57,29 +57,29 @@ public partial class LargestContentfulPaint(JSObject obj): PerformanceEntry(obj)
     {
         get
         {
-            string __res_1739;
-            string __res_1740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_1739 = __res_1740;
-            return __res_1739;
+            string __res_1778;
+            string __res_1779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_1778 = __res_1779;
+            return __res_1778;
         }
     }
 
-    public Iskra.StdWeb.Element? Element
+    public global::Iskra.StdWeb.Element? Element
     {
         get
         {
-            Iskra.StdWeb.Element? __res_1741;
-            JSObject? __res_1742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
-            if (__res_1742 is null)
+            global::Iskra.StdWeb.Element? __res_1780;
+            JSObject? __res_1781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_1781 is null)
             {
-                __res_1741 = null;
+                __res_1780 = null;
             }
             else
             {
-                JSObject __notNullable_1743 = (JSObject)__res_1742;
+                JSObject __notNullable_1782 = (JSObject)__res_1781;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_1741;
+            return __res_1780;
         }
     }
 }

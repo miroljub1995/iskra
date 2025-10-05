@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class Response(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.ResponseType Type
+    public global::Iskra.StdWeb.ResponseType Type
     {
         get
         {
-            Iskra.StdWeb.ResponseType __res_3666;
-            JSObject __res_3667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.ResponseType __res_3706;
+            JSObject __res_3707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ResponseType } not supported.");
-            return __res_3666;
+            return __res_3706;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3668;
-            string __res_3669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_3668 = __res_3669;
-            return __res_3668;
+            string __res_3708;
+            string __res_3709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_3708 = __res_3709;
+            return __res_3708;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3670;
-            bool __res_3671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "redirected");
-            __res_3670 = __res_3671;
-            return __res_3670;
+            bool __res_3710;
+            bool __res_3711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "redirected");
+            __res_3710 = __res_3711;
+            return __res_3710;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_3672;
-            double __res_3673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
-            __res_3672 = Convert.ToUInt16(__res_3673);
-            return __res_3672;
+            ushort __res_3712;
+            double __res_3713 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
+            __res_3712 = Convert.ToUInt16(__res_3713);
+            return __res_3712;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3674;
-            bool __res_3675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ok");
-            __res_3674 = __res_3675;
-            return __res_3674;
+            bool __res_3714;
+            bool __res_3715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ok");
+            __res_3714 = __res_3715;
+            return __res_3714;
         }
     }
 
@@ -68,21 +68,21 @@ public partial class Response(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3676;
-            string __res_3677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
-            __res_3676 = __res_3677;
-            return __res_3676;
+            string __res_3716;
+            string __res_3717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
+            __res_3716 = __res_3717;
+            return __res_3716;
         }
     }
 
-    public Iskra.StdWeb.Headers Headers
+    public global::Iskra.StdWeb.Headers Headers
     {
         get
         {
-            Iskra.StdWeb.Headers __res_3678;
-            JSObject __res_3679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "headers");
+            global::Iskra.StdWeb.Headers __res_3718;
+            JSObject __res_3719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "headers");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Headers } not supported.");
-            return __res_3678;
+            return __res_3718;
         }
     }
 }

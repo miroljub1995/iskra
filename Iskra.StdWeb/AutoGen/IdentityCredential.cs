@@ -13,10 +13,10 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            object? __res_2309;
-            JSObject __res_2310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
+            object? __res_2348;
+            JSObject __res_2349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_2309;
+            return __res_2348;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            bool __res_2311;
-            bool __res_2312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
-            __res_2311 = __res_2312;
-            return __res_2311;
+            bool __res_2350;
+            bool __res_2351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
+            __res_2350 = __res_2351;
+            return __res_2350;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class IdentityCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_2313;
-            string __res_2314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
-            __res_2313 = __res_2314;
-            return __res_2313;
+            string __res_2352;
+            string __res_2353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
+            __res_2352 = __res_2353;
+            return __res_2352;
         }
     }
 }

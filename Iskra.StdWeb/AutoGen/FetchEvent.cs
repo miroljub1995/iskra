@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public Iskra.StdWeb.Request Request
+    public global::Iskra.StdWeb.Request Request
     {
         get
         {
-            Iskra.StdWeb.Request __res_4553;
-            JSObject __res_4554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            global::Iskra.StdWeb.Request __res_4595;
+            JSObject __res_4596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Request } not supported.");
-            return __res_4553;
+            return __res_4595;
         }
     }
 
@@ -24,9 +24,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_4555;
+            object __res_4597;
             throw new Exception();
-            return __res_4555;
+            return __res_4597;
         }
     }
 
@@ -34,10 +34,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_4556;
-            string __res_4557 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
-            __res_4556 = __res_4557;
-            return __res_4556;
+            string __res_4598;
+            string __res_4599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
+            __res_4598 = __res_4599;
+            return __res_4598;
         }
     }
 
@@ -45,10 +45,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_4558;
-            string __res_4559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
-            __res_4558 = __res_4559;
-            return __res_4558;
+            string __res_4600;
+            string __res_4601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
+            __res_4600 = __res_4601;
+            return __res_4600;
         }
     }
 
@@ -56,10 +56,10 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_4560;
-            string __res_4561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
-            __res_4560 = __res_4561;
-            return __res_4560;
+            string __res_4602;
+            string __res_4603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
+            __res_4602 = __res_4603;
+            return __res_4602;
         }
     }
 
@@ -67,9 +67,9 @@ public partial class FetchEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            object __res_4562;
+            object __res_4604;
             throw new Exception();
-            return __res_4562;
+            return __res_4604;
         }
     }
 }

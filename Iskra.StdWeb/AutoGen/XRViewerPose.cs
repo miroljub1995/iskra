@@ -9,15 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class XRViewerPose(JSObject obj): XRPose(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Views
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Views
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4272;
-            JSObject __propObject_4273;
-            __propObject_4273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "views");
-            __res_4272 = new global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4273);
-            return __res_4272;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4313;
+            JSObject __propObject_4314;
+            __propObject_4314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "views");
+            __res_4313 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4314);
+            return __res_4313;
         }
     }
 }

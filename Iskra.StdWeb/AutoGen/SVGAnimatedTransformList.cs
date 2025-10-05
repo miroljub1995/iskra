@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedTransformList(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SVGTransformList BaseVal
+    public global::Iskra.StdWeb.SVGTransformList BaseVal
     {
         get
         {
-            Iskra.StdWeb.SVGTransformList __res_379;
-            JSObject __res_380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            global::Iskra.StdWeb.SVGTransformList __res_415;
+            JSObject __res_416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGTransformList } not supported.");
-            return __res_379;
+            return __res_415;
         }
     }
 
-    public Iskra.StdWeb.SVGTransformList AnimVal
+    public global::Iskra.StdWeb.SVGTransformList AnimVal
     {
         get
         {
-            Iskra.StdWeb.SVGTransformList __res_381;
-            JSObject __res_382 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            global::Iskra.StdWeb.SVGTransformList __res_417;
+            JSObject __res_418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGTransformList } not supported.");
-            return __res_381;
+            return __res_417;
         }
     }
 }

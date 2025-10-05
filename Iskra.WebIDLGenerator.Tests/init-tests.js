@@ -1,6 +1,7 @@
 import {TestProperties} from "./Tests/TestProperties.js";
 import {TestArrayProperties} from "./Tests/TestArrayProperties.js";
 import {TestFrozenArrayProperties} from "./Tests/TestFrozenArrayProperties.js";
+import {TestUnionProperties} from "./Tests/TestUnionProperties.js";
 
 globalThis.tests = {
     get testProperties() {
@@ -12,4 +13,7 @@ globalThis.tests = {
     get testFrozenArrayProperties() {
         return new TestFrozenArrayProperties();
     },
+    get testUnionProperties() {
+        return new TestUnionProperties();
+    }
 };

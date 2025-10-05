@@ -9,20 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class RTCEncodedAudioFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.JSCore.ArrayBuffer Data
+    public global::Iskra.JSCore.ArrayBuffer Data
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1014;
-            JSObject __res_1015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            global::Iskra.JSCore.ArrayBuffer __res_1053;
+            JSObject __res_1054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_1014;
+            return __res_1053;
         }
         set
         {
-            JSObject __marshalledValue_1016;
+            JSObject __marshalledValue_1055;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1016);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1055);
         }
     }
 }

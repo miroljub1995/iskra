@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPathElement(JSObject obj): SVGTextContentElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedLength StartOffset
+    public global::Iskra.StdWeb.SVGAnimatedLength StartOffset
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_445;
-            JSObject __res_446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_481;
+            JSObject __res_482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_445;
+            return __res_481;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration Method
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration Method
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_447;
-            JSObject __res_448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_483;
+            JSObject __res_484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_447;
+            return __res_483;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration Spacing
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration Spacing
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_449;
-            JSObject __res_450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_485;
+            JSObject __res_486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_449;
+            return __res_485;
         }
     }
 }

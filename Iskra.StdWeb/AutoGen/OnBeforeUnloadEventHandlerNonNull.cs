@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate string? OnBeforeUnloadEventHandlerNonNull(Iskra.StdWeb.Event @event);
+public delegate string? OnBeforeUnloadEventHandlerNonNull(global::Iskra.StdWeb.Event @event);
 
 #nullable disable

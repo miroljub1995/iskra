@@ -13,9 +13,9 @@ public partial class PerformanceObserver(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3774;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3814;
             throw new Exception();
-            return __res_3774;
+            return __res_3814;
         }
     }
 }

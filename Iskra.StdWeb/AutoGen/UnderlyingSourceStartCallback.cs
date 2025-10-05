@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object? UnderlyingSourceStartCallback(global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.ReadableStreamDefaultController, Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
+public delegate object? UnderlyingSourceStartCallback(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
 
 #nullable disable

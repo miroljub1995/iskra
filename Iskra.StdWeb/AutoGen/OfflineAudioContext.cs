@@ -13,43 +13,43 @@ public partial class OfflineAudioContext(JSObject obj): BaseAudioContext(obj)
     {
         get
         {
-            uint __res_8079;
-            double __res_8080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8079 = Convert.ToUInt32(__res_8080);
-            return __res_8079;
+            uint __res_8139;
+            double __res_8140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_8139 = Convert.ToUInt32(__res_8140);
+            return __res_8139;
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Oncomplete
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncomplete
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_8081;
-            JSObject? __res_8082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete");
-            if (__res_8082 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8141;
+            JSObject? __res_8142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete");
+            if (__res_8142 is null)
             {
-                __res_8081 = null;
+                __res_8141 = null;
             }
             else
             {
-                JSObject __notNullable_8083 = (JSObject)__res_8082;
+                JSObject __notNullable_8143 = (JSObject)__res_8142;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_8081;
+            return __res_8141;
         }
         set
         {
-            JSObject? __marshalledValue_8084;
+            JSObject? __marshalledValue_8144;
             if (value is null)
             {
-                __marshalledValue_8084 = null;
+                __marshalledValue_8144 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_8085 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8145 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete", __marshalledValue_8084);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncomplete", __marshalledValue_8144);
         }
     }
 }

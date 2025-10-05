@@ -13,10 +13,10 @@ public partial class DataTransferItemList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6546;
-            double __res_6547 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6546 = Convert.ToUInt32(__res_6547);
-            return __res_6546;
+            uint __res_6597;
+            double __res_6598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6597 = Convert.ToUInt32(__res_6598);
+            return __res_6597;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4949;
-            string __res_4950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "endpoint");
-            __res_4949 = __res_4950;
-            return __res_4949;
+            string __res_4992;
+            string __res_4993 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "endpoint");
+            __res_4992 = __res_4993;
+            return __res_4992;
         }
     }
 
@@ -24,29 +24,29 @@ public partial class PushSubscription(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong? __res_4951;
-            double? __res_4952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "expirationTime");
-            if (__res_4952 is null)
+            ulong? __res_4994;
+            double? __res_4995 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "expirationTime");
+            if (__res_4995 is null)
             {
-                __res_4951 = null;
+                __res_4994 = null;
             }
             else
             {
-                double __notNullable_4953 = (double)__res_4952;
-                __res_4951 = Convert.ToUInt64(__notNullable_4953);
+                double __notNullable_4996 = (double)__res_4995;
+                __res_4994 = Convert.ToUInt64(__notNullable_4996);
             }
-            return __res_4951;
+            return __res_4994;
         }
     }
 
-    public Iskra.StdWeb.PushSubscriptionOptions Options
+    public global::Iskra.StdWeb.PushSubscriptionOptions Options
     {
         get
         {
-            Iskra.StdWeb.PushSubscriptionOptions __res_4954;
-            JSObject __res_4955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            global::Iskra.StdWeb.PushSubscriptionOptions __res_4997;
+            JSObject __res_4998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscriptionOptions } not supported.");
-            return __res_4954;
+            return __res_4997;
         }
     }
 }

@@ -9,33 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupScriptRunnerGlobalScope(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.PrivateAggregation? PrivateAggregation
+    public global::Iskra.StdWeb.PrivateAggregation? PrivateAggregation
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation? __res_3682;
-            JSObject? __res_3683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
-            if (__res_3683 is null)
+            global::Iskra.StdWeb.PrivateAggregation? __res_3722;
+            JSObject? __res_3723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
+            if (__res_3723 is null)
             {
-                __res_3682 = null;
+                __res_3722 = null;
             }
             else
             {
-                JSObject __notNullable_3684 = (JSObject)__res_3683;
+                JSObject __notNullable_3724 = (JSObject)__res_3723;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
             }
-            return __res_3682;
+            return __res_3722;
         }
     }
 
-    public Iskra.StdWeb.ProtectedAudienceUtilities ProtectedAudience
+    public global::Iskra.StdWeb.ProtectedAudienceUtilities ProtectedAudience
     {
         get
         {
-            Iskra.StdWeb.ProtectedAudienceUtilities __res_3685;
-            JSObject __res_3686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            global::Iskra.StdWeb.ProtectedAudienceUtilities __res_3725;
+            JSObject __res_3726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ProtectedAudienceUtilities } not supported.");
-            return __res_3685;
+            return __res_3725;
         }
     }
 }

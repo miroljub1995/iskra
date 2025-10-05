@@ -13,16 +13,16 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_6285;
-            double __res_6286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_6285 = __res_6286;
-            return __res_6285;
+            double __res_6335;
+            double __res_6336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_6335 = __res_6336;
+            return __res_6335;
         }
         set
         {
-            double __marshalledValue_6287;
-            __marshalledValue_6287 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_6287);
+            double __marshalledValue_6337;
+            __marshalledValue_6337 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_6337);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_6288;
-            double __res_6289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "max");
-            __res_6288 = __res_6289;
-            return __res_6288;
+            double __res_6338;
+            double __res_6339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "max");
+            __res_6338 = __res_6339;
+            return __res_6338;
         }
         set
         {
-            double __marshalledValue_6290;
-            __marshalledValue_6290 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_6290);
+            double __marshalledValue_6340;
+            __marshalledValue_6340 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_6340);
         }
     }
 
@@ -47,21 +47,21 @@ public partial class HTMLProgressElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            double __res_6291;
-            double __res_6292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "position");
-            __res_6291 = __res_6292;
-            return __res_6291;
+            double __res_6341;
+            double __res_6342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "position");
+            __res_6341 = __res_6342;
+            return __res_6341;
         }
     }
 
-    public Iskra.StdWeb.NodeList Labels
+    public global::Iskra.StdWeb.NodeList Labels
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_6293;
-            JSObject __res_6294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            global::Iskra.StdWeb.NodeList __res_6343;
+            JSObject __res_6344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
-            return __res_6293;
+            return __res_6343;
         }
     }
 }

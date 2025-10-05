@@ -13,18 +13,18 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4755;
-            string? __res_4756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_4756 is null)
+            string? __res_4798;
+            string? __res_4799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_4799 is null)
             {
-                __res_4755 = null;
+                __res_4798 = null;
             }
             else
             {
-                string __notNullable_4757 = (string)__res_4756;
-                __res_4755 = __notNullable_4757;
+                string __notNullable_4800 = (string)__res_4799;
+                __res_4798 = __notNullable_4800;
             }
-            return __res_4755;
+            return __res_4798;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_4758;
-            string? __res_4759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
-            if (__res_4759 is null)
+            string? __res_4801;
+            string? __res_4802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
+            if (__res_4802 is null)
             {
-                __res_4758 = null;
+                __res_4801 = null;
             }
             else
             {
-                string __notNullable_4760 = (string)__res_4759;
-                __res_4758 = __notNullable_4760;
+                string __notNullable_4803 = (string)__res_4802;
+                __res_4801 = __notNullable_4803;
             }
-            return __res_4758;
+            return __res_4801;
         }
     }
 
@@ -51,33 +51,33 @@ public partial class BluetoothLEScanFilter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4761;
-            JSObject __propObject_4762;
-            __propObject_4762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "services");
-            __res_4761 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4762);
-            return __res_4761;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4804;
+            JSObject __propObject_4805;
+            __propObject_4805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "services");
+            __res_4804 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4805);
+            return __res_4804;
         }
     }
 
-    public Iskra.StdWeb.BluetoothManufacturerDataFilter ManufacturerData
+    public global::Iskra.StdWeb.BluetoothManufacturerDataFilter ManufacturerData
     {
         get
         {
-            Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4763;
-            JSObject __res_4764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
+            global::Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4806;
+            JSObject __res_4807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothManufacturerDataFilter } not supported.");
-            return __res_4763;
+            return __res_4806;
         }
     }
 
-    public Iskra.StdWeb.BluetoothServiceDataFilter ServiceData
+    public global::Iskra.StdWeb.BluetoothServiceDataFilter ServiceData
     {
         get
         {
-            Iskra.StdWeb.BluetoothServiceDataFilter __res_4765;
-            JSObject __res_4766 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
+            global::Iskra.StdWeb.BluetoothServiceDataFilter __res_4808;
+            JSObject __res_4809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothServiceDataFilter } not supported.");
-            return __res_4765;
+            return __res_4808;
         }
     }
 }

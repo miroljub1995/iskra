@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object LockGrantedCallback(Iskra.StdWeb.Lock? @lock);
+public delegate object LockGrantedCallback(global::Iskra.StdWeb.Lock? @lock);
 
 #nullable disable

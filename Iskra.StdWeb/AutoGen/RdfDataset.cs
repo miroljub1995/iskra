@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class RdfDataset(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.RdfGraph DefaultGraph
+    public global::Iskra.StdWeb.RdfGraph DefaultGraph
     {
         get
         {
-            Iskra.StdWeb.RdfGraph __res_5104;
-            JSObject __res_5105 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
+            global::Iskra.StdWeb.RdfGraph __res_5147;
+            JSObject __res_5148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RdfGraph } not supported.");
-            return __res_5104;
+            return __res_5147;
         }
     }
 }

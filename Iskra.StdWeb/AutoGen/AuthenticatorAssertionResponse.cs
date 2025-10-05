@@ -9,44 +9,44 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorAssertionResponse(JSObject obj): AuthenticatorResponse(obj)
 {
-    public Iskra.JSCore.ArrayBuffer AuthenticatorData
+    public global::Iskra.JSCore.ArrayBuffer AuthenticatorData
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2841;
-            JSObject __res_2842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
+            global::Iskra.JSCore.ArrayBuffer __res_2881;
+            JSObject __res_2882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2841;
+            return __res_2881;
         }
     }
 
-    public Iskra.JSCore.ArrayBuffer Signature
+    public global::Iskra.JSCore.ArrayBuffer Signature
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2843;
-            JSObject __res_2844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
+            global::Iskra.JSCore.ArrayBuffer __res_2883;
+            JSObject __res_2884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2843;
+            return __res_2883;
         }
     }
 
-    public Iskra.JSCore.ArrayBuffer? UserHandle
+    public global::Iskra.JSCore.ArrayBuffer? UserHandle
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer? __res_2845;
-            JSObject? __res_2846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
-            if (__res_2846 is null)
+            global::Iskra.JSCore.ArrayBuffer? __res_2885;
+            JSObject? __res_2886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
+            if (__res_2886 is null)
             {
-                __res_2845 = null;
+                __res_2885 = null;
             }
             else
             {
-                JSObject __notNullable_2847 = (JSObject)__res_2846;
+                JSObject __notNullable_2887 = (JSObject)__res_2886;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
             }
-            return __res_2845;
+            return __res_2885;
         }
     }
 }

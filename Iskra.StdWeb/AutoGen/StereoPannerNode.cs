@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class StereoPannerNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.AudioParam Pan
+    public global::Iskra.StdWeb.AudioParam Pan
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8279;
-            JSObject __res_8280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pan");
+            global::Iskra.StdWeb.AudioParam __res_8339;
+            JSObject __res_8340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pan");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8279;
+            return __res_8339;
         }
     }
 }

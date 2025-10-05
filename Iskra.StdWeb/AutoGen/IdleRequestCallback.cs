@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void IdleRequestCallback(Iskra.StdWeb.IdleDeadline deadline);
+public delegate void IdleRequestCallback(global::Iskra.StdWeb.IdleDeadline deadline);
 
 #nullable disable

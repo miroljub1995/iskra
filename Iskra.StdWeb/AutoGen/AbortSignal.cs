@@ -13,10 +13,10 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3151;
-            bool __res_3152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
-            __res_3151 = __res_3152;
-            return __res_3151;
+            bool __res_3191;
+            bool __res_3192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
+            __res_3191 = __res_3192;
+            return __res_3191;
         }
     }
 
@@ -24,43 +24,43 @@ public partial class AbortSignal(JSObject obj): EventTarget(obj)
     {
         get
         {
-            object? __res_3153;
-            JSObject __res_3154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            object? __res_3193;
+            JSObject __res_3194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_3153;
+            return __res_3193;
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3155;
-            JSObject? __res_3156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
-            if (__res_3156 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3195;
+            JSObject? __res_3196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
+            if (__res_3196 is null)
             {
-                __res_3155 = null;
+                __res_3195 = null;
             }
             else
             {
-                JSObject __notNullable_3157 = (JSObject)__res_3156;
+                JSObject __notNullable_3197 = (JSObject)__res_3196;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3155;
+            return __res_3195;
         }
         set
         {
-            JSObject? __marshalledValue_3158;
+            JSObject? __marshalledValue_3198;
             if (value is null)
             {
-                __marshalledValue_3158 = null;
+                __marshalledValue_3198 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_3159 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3199 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_3158);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_3198);
         }
     }
 }

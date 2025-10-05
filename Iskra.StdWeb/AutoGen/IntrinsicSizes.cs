@@ -13,10 +13,10 @@ public partial class IntrinsicSizes(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7840;
-            double __res_7841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minContentSize");
-            __res_7840 = __res_7841;
-            return __res_7840;
+            double __res_7898;
+            double __res_7899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minContentSize");
+            __res_7898 = __res_7899;
+            return __res_7898;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class IntrinsicSizes(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7842;
-            double __res_7843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxContentSize");
-            __res_7842 = __res_7843;
-            return __res_7842;
+            double __res_7900;
+            double __res_7901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxContentSize");
+            __res_7900 = __res_7901;
+            return __res_7900;
         }
     }
 }

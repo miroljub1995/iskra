@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void CreateMonitorCallback(Iskra.StdWeb.CreateMonitor monitor);
+public delegate void CreateMonitorCallback(global::Iskra.StdWeb.CreateMonitor monitor);
 
 #nullable disable

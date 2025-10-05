@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
 {
-    public Iskra.StdWeb.MediaList Media
+    public global::Iskra.StdWeb.MediaList Media
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_3429;
-            JSObject __res_3430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            global::Iskra.StdWeb.MediaList __res_3469;
+            JSObject __res_3470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaList } not supported.");
-            return __res_3429;
+            return __res_3469;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CSSMediaRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            bool __res_3431;
-            bool __res_3432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_3431 = __res_3432;
-            return __res_3431;
+            bool __res_3471;
+            bool __res_3472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_3471 = __res_3472;
+            return __res_3471;
         }
     }
 }

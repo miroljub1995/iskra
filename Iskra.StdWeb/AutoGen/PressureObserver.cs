@@ -9,13 +9,13 @@ namespace Iskra.StdWeb;
 
 public partial class PressureObserver(JSObject obj): JSObjectProxy(obj)
 {
-    public static global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> KnownSources
+    public static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> KnownSources
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3691;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3731;
             throw new Exception();
-            return __res_3691;
+            return __res_3731;
         }
     }
 }

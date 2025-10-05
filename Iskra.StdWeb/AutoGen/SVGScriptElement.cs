@@ -13,16 +13,16 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_533;
-            string __res_534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_533 = __res_534;
-            return __res_533;
+            string __res_569;
+            string __res_570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_569 = __res_570;
+            return __res_569;
         }
         set
         {
-            string __marshalledValue_535;
-            __marshalledValue_535 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_535);
+            string __marshalledValue_571;
+            __marshalledValue_571 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_571);
         }
     }
 
@@ -30,32 +30,32 @@ public partial class SVGScriptElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string? __res_536;
-            string? __res_537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_537 is null)
+            string? __res_572;
+            string? __res_573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_573 is null)
             {
-                __res_536 = null;
+                __res_572 = null;
             }
             else
             {
-                string __notNullable_538 = (string)__res_537;
-                __res_536 = __notNullable_538;
+                string __notNullable_574 = (string)__res_573;
+                __res_572 = __notNullable_574;
             }
-            return __res_536;
+            return __res_572;
         }
         set
         {
-            string? __marshalledValue_539;
+            string? __marshalledValue_575;
             if (value is null)
             {
-                __marshalledValue_539 = null;
+                __marshalledValue_575 = null;
             }
             else
             {
-                string __notNullable_540 = (string)value;
-                __marshalledValue_539 = __notNullable_540;
+                string __notNullable_576 = (string)value;
+                __marshalledValue_575 = __notNullable_576;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_539);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_575);
         }
     }
 }

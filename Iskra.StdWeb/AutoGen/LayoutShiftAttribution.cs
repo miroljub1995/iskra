@@ -9,44 +9,44 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShiftAttribution(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.Node? Node
+    public global::Iskra.StdWeb.Node? Node
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3029;
-            JSObject? __res_3030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
-            if (__res_3030 is null)
+            global::Iskra.StdWeb.Node? __res_3069;
+            JSObject? __res_3070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
+            if (__res_3070 is null)
             {
-                __res_3029 = null;
+                __res_3069 = null;
             }
             else
             {
-                JSObject __notNullable_3031 = (JSObject)__res_3030;
+                JSObject __notNullable_3071 = (JSObject)__res_3070;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3029;
+            return __res_3069;
         }
     }
 
-    public Iskra.StdWeb.DOMRectReadOnly PreviousRect
+    public global::Iskra.StdWeb.DOMRectReadOnly PreviousRect
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_3032;
-            JSObject __res_3033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
+            global::Iskra.StdWeb.DOMRectReadOnly __res_3072;
+            JSObject __res_3073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
-            return __res_3032;
+            return __res_3072;
         }
     }
 
-    public Iskra.StdWeb.DOMRectReadOnly CurrentRect
+    public global::Iskra.StdWeb.DOMRectReadOnly CurrentRect
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_3034;
-            JSObject __res_3035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
+            global::Iskra.StdWeb.DOMRectReadOnly __res_3074;
+            JSObject __res_3075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
-            return __res_3034;
+            return __res_3074;
         }
     }
 }

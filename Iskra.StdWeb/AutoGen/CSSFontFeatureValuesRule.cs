@@ -13,93 +13,93 @@ public partial class CSSFontFeatureValuesRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_8386;
-            string __res_8387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_8386 = __res_8387;
-            return __res_8386;
+            string __res_8446;
+            string __res_8447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_8446 = __res_8447;
+            return __res_8446;
         }
         set
         {
-            string __marshalledValue_8388;
-            __marshalledValue_8388 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_8388);
+            string __marshalledValue_8448;
+            __marshalledValue_8448 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_8448);
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap Annotation
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Annotation
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8389;
-            JSObject __res_8390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8449;
+            JSObject __res_8450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8389;
+            return __res_8449;
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap Ornaments
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Ornaments
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8391;
-            JSObject __res_8392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8451;
+            JSObject __res_8452 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8391;
+            return __res_8451;
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap Stylistic
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Stylistic
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8393;
-            JSObject __res_8394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8453;
+            JSObject __res_8454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8393;
+            return __res_8453;
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap Swash
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Swash
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8395;
-            JSObject __res_8396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8455;
+            JSObject __res_8456 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8395;
+            return __res_8455;
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap CharacterVariant
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap CharacterVariant
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8397;
-            JSObject __res_8398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8457;
+            JSObject __res_8458 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8397;
+            return __res_8457;
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap Styleset
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Styleset
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8399;
-            JSObject __res_8400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8459;
+            JSObject __res_8460 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8399;
+            return __res_8459;
         }
     }
 
-    public Iskra.StdWeb.CSSFontFeatureValuesMap HistoricalForms
+    public global::Iskra.StdWeb.CSSFontFeatureValuesMap HistoricalForms
     {
         get
         {
-            Iskra.StdWeb.CSSFontFeatureValuesMap __res_8401;
-            JSObject __res_8402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_8461;
+            JSObject __res_8462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFeatureValuesMap } not supported.");
-            return __res_8401;
+            return __res_8461;
         }
     }
 }

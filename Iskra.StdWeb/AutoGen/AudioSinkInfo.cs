@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class AudioSinkInfo(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.AudioSinkType Type
+    public global::Iskra.StdWeb.AudioSinkType Type
     {
         get
         {
-            Iskra.StdWeb.AudioSinkType __res_8077;
-            JSObject __res_8078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.AudioSinkType __res_8137;
+            JSObject __res_8138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioSinkType } not supported.");
-            return __res_8077;
+            return __res_8137;
         }
     }
 }

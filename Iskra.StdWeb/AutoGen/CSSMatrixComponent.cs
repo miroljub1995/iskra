@@ -9,20 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMatrixComponent(JSObject obj): CSSTransformComponent(obj)
 {
-    public Iskra.StdWeb.DOMMatrix Matrix
+    public global::Iskra.StdWeb.DOMMatrix Matrix
     {
         get
         {
-            Iskra.StdWeb.DOMMatrix __res_107;
-            JSObject __res_108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            global::Iskra.StdWeb.DOMMatrix __res_114;
+            JSObject __res_115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMMatrix } not supported.");
-            return __res_107;
+            return __res_114;
         }
         set
         {
-            JSObject __marshalledValue_109;
+            JSObject __marshalledValue_116;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMMatrix } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_109);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_116);
         }
     }
 }

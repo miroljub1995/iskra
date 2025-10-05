@@ -13,10 +13,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1293;
-            double __res_1294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventStart");
-            __res_1293 = __res_1294;
-            return __res_1293;
+            double __res_1332;
+            double __res_1333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventStart");
+            __res_1332 = __res_1333;
+            return __res_1332;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1295;
-            double __res_1296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventEnd");
-            __res_1295 = __res_1296;
-            return __res_1295;
+            double __res_1334;
+            double __res_1335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventEnd");
+            __res_1334 = __res_1335;
+            return __res_1334;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1297;
-            double __res_1298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domInteractive");
-            __res_1297 = __res_1298;
-            return __res_1297;
+            double __res_1336;
+            double __res_1337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domInteractive");
+            __res_1336 = __res_1337;
+            return __res_1336;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1299;
-            double __res_1300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventStart");
-            __res_1299 = __res_1300;
-            return __res_1299;
+            double __res_1338;
+            double __res_1339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventStart");
+            __res_1338 = __res_1339;
+            return __res_1338;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1301;
-            double __res_1302 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventEnd");
-            __res_1301 = __res_1302;
-            return __res_1301;
+            double __res_1340;
+            double __res_1341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventEnd");
+            __res_1340 = __res_1341;
+            return __res_1340;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1303;
-            double __res_1304 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domComplete");
-            __res_1303 = __res_1304;
-            return __res_1303;
+            double __res_1342;
+            double __res_1343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domComplete");
+            __res_1342 = __res_1343;
+            return __res_1342;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1305;
-            double __res_1306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventStart");
-            __res_1305 = __res_1306;
-            return __res_1305;
+            double __res_1344;
+            double __res_1345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventStart");
+            __res_1344 = __res_1345;
+            return __res_1344;
         }
     }
 
@@ -90,21 +90,21 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1307;
-            double __res_1308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventEnd");
-            __res_1307 = __res_1308;
-            return __res_1307;
+            double __res_1346;
+            double __res_1347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventEnd");
+            __res_1346 = __res_1347;
+            return __res_1346;
         }
     }
 
-    public Iskra.StdWeb.NavigationTimingType Type
+    public global::Iskra.StdWeb.NavigationTimingType Type
     {
         get
         {
-            Iskra.StdWeb.NavigationTimingType __res_1309;
-            JSObject __res_1310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.NavigationTimingType __res_1348;
+            JSObject __res_1349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationTimingType } not supported.");
-            return __res_1309;
+            return __res_1348;
         }
     }
 
@@ -112,10 +112,10 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            ushort __res_1311;
-            double __res_1312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            __res_1311 = Convert.ToUInt16(__res_1312);
-            return __res_1311;
+            ushort __res_1350;
+            double __res_1351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
+            __res_1350 = Convert.ToUInt16(__res_1351);
+            return __res_1350;
         }
     }
 
@@ -123,29 +123,29 @@ public partial class PerformanceNavigationTiming(JSObject obj): PerformanceResou
     {
         get
         {
-            double __res_1313;
-            double __res_1314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "criticalCHRestart");
-            __res_1313 = __res_1314;
-            return __res_1313;
+            double __res_1352;
+            double __res_1353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "criticalCHRestart");
+            __res_1352 = __res_1353;
+            return __res_1352;
         }
     }
 
-    public Iskra.StdWeb.NotRestoredReasons? NotRestoredReasons
+    public global::Iskra.StdWeb.NotRestoredReasons? NotRestoredReasons
     {
         get
         {
-            Iskra.StdWeb.NotRestoredReasons? __res_1315;
-            JSObject? __res_1316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notRestoredReasons");
-            if (__res_1316 is null)
+            global::Iskra.StdWeb.NotRestoredReasons? __res_1354;
+            JSObject? __res_1355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notRestoredReasons");
+            if (__res_1355 is null)
             {
-                __res_1315 = null;
+                __res_1354 = null;
             }
             else
             {
-                JSObject __notNullable_1317 = (JSObject)__res_1316;
+                JSObject __notNullable_1356 = (JSObject)__res_1355;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotRestoredReasons } not supported.");
             }
-            return __res_1315;
+            return __res_1354;
         }
     }
 }

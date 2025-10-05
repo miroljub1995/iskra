@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class FormDataEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.FormData FormData
+    public global::Iskra.StdWeb.FormData FormData
     {
         get
         {
-            Iskra.StdWeb.FormData __res_6362;
-            JSObject __res_6363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
+            global::Iskra.StdWeb.FormData __res_6412;
+            JSObject __res_6413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FormData } not supported.");
-            return __res_6362;
+            return __res_6412;
         }
     }
 }

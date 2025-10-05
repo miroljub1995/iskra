@@ -13,16 +13,16 @@ public partial class RadioNodeList(JSObject obj): NodeList(obj)
     {
         get
         {
-            string __res_5232;
-            string __res_5233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_5232 = __res_5233;
-            return __res_5232;
+            string __res_5278;
+            string __res_5279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5278 = __res_5279;
+            return __res_5278;
         }
         set
         {
-            string __marshalledValue_5234;
-            __marshalledValue_5234 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5234);
+            string __marshalledValue_5280;
+            __marshalledValue_5280 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5280);
         }
     }
 }

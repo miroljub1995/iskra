@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GPUUncapturedErrorEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.GPUError Error
+    public global::Iskra.StdWeb.GPUError Error
     {
         get
         {
-            Iskra.StdWeb.GPUError __res_772;
-            JSObject __res_773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            global::Iskra.StdWeb.GPUError __res_809;
+            JSObject __res_810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUError } not supported.");
-            return __res_772;
+            return __res_809;
         }
     }
 }

@@ -9,124 +9,124 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableElement(JSObject obj): HTMLElement(obj)
 {
-    public Iskra.StdWeb.HTMLTableCaptionElement? Caption
+    public global::Iskra.StdWeb.HTMLTableCaptionElement? Caption
     {
         get
         {
-            Iskra.StdWeb.HTMLTableCaptionElement? __res_5840;
-            JSObject? __res_5841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "caption");
-            if (__res_5841 is null)
+            global::Iskra.StdWeb.HTMLTableCaptionElement? __res_5890;
+            JSObject? __res_5891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "caption");
+            if (__res_5891 is null)
             {
-                __res_5840 = null;
+                __res_5890 = null;
             }
             else
             {
-                JSObject __notNullable_5842 = (JSObject)__res_5841;
+                JSObject __notNullable_5892 = (JSObject)__res_5891;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLTableCaptionElement } not supported.");
             }
-            return __res_5840;
+            return __res_5890;
         }
         set
         {
-            JSObject? __marshalledValue_5843;
+            JSObject? __marshalledValue_5893;
             if (value is null)
             {
-                __marshalledValue_5843 = null;
+                __marshalledValue_5893 = null;
             }
             else
             {
-                Iskra.StdWeb.HTMLTableCaptionElement __notNullable_5844 = (Iskra.StdWeb.HTMLTableCaptionElement)value;
+                global::Iskra.StdWeb.HTMLTableCaptionElement __notNullable_5894 = (global::Iskra.StdWeb.HTMLTableCaptionElement)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLTableCaptionElement } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "caption", __marshalledValue_5843);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "caption", __marshalledValue_5893);
         }
     }
 
-    public Iskra.StdWeb.HTMLTableSectionElement? THead
+    public global::Iskra.StdWeb.HTMLTableSectionElement? THead
     {
         get
         {
-            Iskra.StdWeb.HTMLTableSectionElement? __res_5845;
-            JSObject? __res_5846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tHead");
-            if (__res_5846 is null)
+            global::Iskra.StdWeb.HTMLTableSectionElement? __res_5895;
+            JSObject? __res_5896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tHead");
+            if (__res_5896 is null)
             {
-                __res_5845 = null;
+                __res_5895 = null;
             }
             else
             {
-                JSObject __notNullable_5847 = (JSObject)__res_5846;
+                JSObject __notNullable_5897 = (JSObject)__res_5896;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLTableSectionElement } not supported.");
             }
-            return __res_5845;
+            return __res_5895;
         }
         set
         {
-            JSObject? __marshalledValue_5848;
+            JSObject? __marshalledValue_5898;
             if (value is null)
             {
-                __marshalledValue_5848 = null;
+                __marshalledValue_5898 = null;
             }
             else
             {
-                Iskra.StdWeb.HTMLTableSectionElement __notNullable_5849 = (Iskra.StdWeb.HTMLTableSectionElement)value;
+                global::Iskra.StdWeb.HTMLTableSectionElement __notNullable_5899 = (global::Iskra.StdWeb.HTMLTableSectionElement)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLTableSectionElement } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "tHead", __marshalledValue_5848);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "tHead", __marshalledValue_5898);
         }
     }
 
-    public Iskra.StdWeb.HTMLTableSectionElement? TFoot
+    public global::Iskra.StdWeb.HTMLTableSectionElement? TFoot
     {
         get
         {
-            Iskra.StdWeb.HTMLTableSectionElement? __res_5850;
-            JSObject? __res_5851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot");
-            if (__res_5851 is null)
+            global::Iskra.StdWeb.HTMLTableSectionElement? __res_5900;
+            JSObject? __res_5901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot");
+            if (__res_5901 is null)
             {
-                __res_5850 = null;
+                __res_5900 = null;
             }
             else
             {
-                JSObject __notNullable_5852 = (JSObject)__res_5851;
+                JSObject __notNullable_5902 = (JSObject)__res_5901;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLTableSectionElement } not supported.");
             }
-            return __res_5850;
+            return __res_5900;
         }
         set
         {
-            JSObject? __marshalledValue_5853;
+            JSObject? __marshalledValue_5903;
             if (value is null)
             {
-                __marshalledValue_5853 = null;
+                __marshalledValue_5903 = null;
             }
             else
             {
-                Iskra.StdWeb.HTMLTableSectionElement __notNullable_5854 = (Iskra.StdWeb.HTMLTableSectionElement)value;
+                global::Iskra.StdWeb.HTMLTableSectionElement __notNullable_5904 = (global::Iskra.StdWeb.HTMLTableSectionElement)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLTableSectionElement } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot", __marshalledValue_5853);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "tFoot", __marshalledValue_5903);
         }
     }
 
-    public Iskra.StdWeb.HTMLCollection TBodies
+    public global::Iskra.StdWeb.HTMLCollection TBodies
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5855;
-            JSObject __res_5856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tBodies");
+            global::Iskra.StdWeb.HTMLCollection __res_5905;
+            JSObject __res_5906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tBodies");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_5855;
+            return __res_5905;
         }
     }
 
-    public Iskra.StdWeb.HTMLCollection Rows
+    public global::Iskra.StdWeb.HTMLCollection Rows
     {
         get
         {
-            Iskra.StdWeb.HTMLCollection __res_5857;
-            JSObject __res_5858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
+            global::Iskra.StdWeb.HTMLCollection __res_5907;
+            JSObject __res_5908 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
-            return __res_5857;
+            return __res_5907;
         }
     }
 }

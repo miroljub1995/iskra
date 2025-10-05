@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void RTCPeerConnectionErrorCallback(Iskra.StdWeb.DOMException error);
+public delegate void RTCPeerConnectionErrorCallback(global::Iskra.StdWeb.DOMException error);
 
 #nullable disable

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.SpeechRecognitionErrorCode Error
+    public global::Iskra.StdWeb.SpeechRecognitionErrorCode Error
     {
         get
         {
-            Iskra.StdWeb.SpeechRecognitionErrorCode __res_4008;
-            JSObject __res_4009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            global::Iskra.StdWeb.SpeechRecognitionErrorCode __res_4049;
+            JSObject __res_4050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechRecognitionErrorCode } not supported.");
-            return __res_4008;
+            return __res_4049;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SpeechRecognitionErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_4010;
-            string __res_4011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_4010 = __res_4011;
-            return __res_4010;
+            string __res_4051;
+            string __res_4052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_4051 = __res_4052;
+            return __res_4051;
         }
     }
 }

@@ -13,16 +13,16 @@ public partial class PaymentManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_774;
-            string __res_775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userHint");
-            __res_774 = __res_775;
-            return __res_774;
+            string __res_811;
+            string __res_812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userHint");
+            __res_811 = __res_812;
+            return __res_811;
         }
         set
         {
-            string __marshalledValue_776;
-            __marshalledValue_776 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_776);
+            string __marshalledValue_813;
+            __marshalledValue_813 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_813);
         }
     }
 }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTransformEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.RTCRtpScriptTransformer Transformer
+    public global::Iskra.StdWeb.RTCRtpScriptTransformer Transformer
     {
         get
         {
-            Iskra.StdWeb.RTCRtpScriptTransformer __res_1017;
-            JSObject __res_1018 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
+            global::Iskra.StdWeb.RTCRtpScriptTransformer __res_1056;
+            JSObject __res_1057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpScriptTransformer } not supported.");
-            return __res_1017;
+            return __res_1056;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class TextTrackCueList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_5779;
-            double __res_5780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5779 = Convert.ToUInt32(__res_5780);
-            return __res_5779;
+            uint __res_5828;
+            double __res_5829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5828 = Convert.ToUInt32(__res_5829);
+            return __res_5828;
         }
     }
 }

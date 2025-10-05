@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannelEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.RTCDataChannel Channel
+    public global::Iskra.StdWeb.RTCDataChannel Channel
     {
         get
         {
-            Iskra.StdWeb.RTCDataChannel __res_2028;
-            JSObject __res_2029 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
+            global::Iskra.StdWeb.RTCDataChannel __res_2067;
+            JSObject __res_2068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDataChannel } not supported.");
-            return __res_2028;
+            return __res_2067;
         }
     }
 }

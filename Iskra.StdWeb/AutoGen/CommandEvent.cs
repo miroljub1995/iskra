@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class CommandEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.Element? Source
+    public global::Iskra.StdWeb.Element? Source
     {
         get
         {
-            Iskra.StdWeb.Element? __res_6519;
-            JSObject? __res_6520 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_6520 is null)
+            global::Iskra.StdWeb.Element? __res_6570;
+            JSObject? __res_6571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_6571 is null)
             {
-                __res_6519 = null;
+                __res_6570 = null;
             }
             else
             {
-                JSObject __notNullable_6521 = (JSObject)__res_6520;
+                JSObject __notNullable_6572 = (JSObject)__res_6571;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_6519;
+            return __res_6570;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CommandEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string __res_6522;
-            string __res_6523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_6522 = __res_6523;
-            return __res_6522;
+            string __res_6573;
+            string __res_6574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_6573 = __res_6574;
+            return __res_6573;
         }
     }
 }

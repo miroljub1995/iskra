@@ -13,10 +13,10 @@ public partial class Font(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7819;
-            string __res_7820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7819 = __res_7820;
-            return __res_7819;
+            string __res_7877;
+            string __res_7878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7877 = __res_7878;
+            return __res_7877;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Font(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_7821;
-            double __res_7822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "glyphsRendered");
-            __res_7821 = Convert.ToUInt32(__res_7822);
-            return __res_7821;
+            uint __res_7879;
+            double __res_7880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "glyphsRendered");
+            __res_7879 = Convert.ToUInt32(__res_7880);
+            return __res_7879;
         }
     }
 }

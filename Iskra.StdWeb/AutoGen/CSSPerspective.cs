@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPerspective(JSObject obj): CSSTransformComponent(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> Length
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> Length
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.CSSNumericValue, string, Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_106;
-            throw new Exception();
-            return __res_106;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_112;
+            JSObject __propObject_113;
+            __propObject_113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "length");
+            __res_112 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_113);
+            return __res_112;
         }
         set
         {

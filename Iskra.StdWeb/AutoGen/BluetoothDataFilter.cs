@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothDataFilter(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.JSCore.ArrayBuffer DataPrefix
+    public global::Iskra.JSCore.ArrayBuffer DataPrefix
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4751;
-            JSObject __res_4752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
+            global::Iskra.JSCore.ArrayBuffer __res_4794;
+            JSObject __res_4795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_4751;
+            return __res_4794;
         }
     }
 
-    public Iskra.JSCore.ArrayBuffer Mask
+    public global::Iskra.JSCore.ArrayBuffer Mask
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_4753;
-            JSObject __res_4754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
+            global::Iskra.JSCore.ArrayBuffer __res_4796;
+            JSObject __res_4797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_4753;
+            return __res_4796;
         }
     }
 }

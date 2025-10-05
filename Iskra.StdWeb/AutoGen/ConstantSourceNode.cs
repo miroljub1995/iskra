@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class ConstantSourceNode(JSObject obj): AudioScheduledSourceNode(obj)
 {
-    public Iskra.StdWeb.AudioParam Offset
+    public global::Iskra.StdWeb.AudioParam Offset
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8197;
-            JSObject __res_8198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            global::Iskra.StdWeb.AudioParam __res_8257;
+            JSObject __res_8258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8197;
+            return __res_8257;
         }
     }
 }

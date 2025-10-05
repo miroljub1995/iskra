@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object? OnErrorEventHandlerNonNull(global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Event, string, global::Iskra.StdWeb.GenericMarshaller.Union> @event, string source, uint lineno, uint colno, object? error);
+public delegate object? OnErrorEventHandlerNonNull(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Event, string, global::Iskra.StdWeb.GenericMarshaller.Union> @event, string source, uint lineno, uint colno, object? error);
 
 #nullable disable

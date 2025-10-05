@@ -9,33 +9,33 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationCurrentEntryChangeEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.NavigationType? NavigationType
+    public global::Iskra.StdWeb.NavigationType? NavigationType
     {
         get
         {
-            Iskra.StdWeb.NavigationType? __res_6745;
-            JSObject? __res_6746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "navigationType");
-            if (__res_6746 is null)
+            global::Iskra.StdWeb.NavigationType? __res_6796;
+            JSObject? __res_6797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "navigationType");
+            if (__res_6797 is null)
             {
-                __res_6745 = null;
+                __res_6796 = null;
             }
             else
             {
-                JSObject __notNullable_6747 = (JSObject)__res_6746;
+                JSObject __notNullable_6798 = (JSObject)__res_6797;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
             }
-            return __res_6745;
+            return __res_6796;
         }
     }
 
-    public Iskra.StdWeb.NavigationHistoryEntry From
+    public global::Iskra.StdWeb.NavigationHistoryEntry From
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_6748;
-            JSObject __res_6749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_6799;
+            JSObject __res_6800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
-            return __res_6748;
+            return __res_6799;
         }
     }
 }

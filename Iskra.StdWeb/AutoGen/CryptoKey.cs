@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.KeyType Type
+    public global::Iskra.StdWeb.KeyType Type
     {
         get
         {
-            Iskra.StdWeb.KeyType __res_1380;
-            JSObject __res_1381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.KeyType __res_1419;
+            JSObject __res_1420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = KeyType } not supported.");
-            return __res_1380;
+            return __res_1419;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1382;
-            bool __res_1383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
-            __res_1382 = __res_1383;
-            return __res_1382;
+            bool __res_1421;
+            bool __res_1422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
+            __res_1421 = __res_1422;
+            return __res_1421;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            JSObject __res_1384;
-            JSObject __res_1385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "algorithm");
-            __res_1384 = __res_1385;
-            return __res_1384;
+            JSObject __res_1423;
+            JSObject __res_1424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "algorithm");
+            __res_1423 = __res_1424;
+            return __res_1423;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class CryptoKey(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            JSObject __res_1386;
-            JSObject __res_1387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usages");
-            __res_1386 = __res_1387;
-            return __res_1386;
+            JSObject __res_1425;
+            JSObject __res_1426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usages");
+            __res_1425 = __res_1426;
+            return __res_1425;
         }
     }
 }

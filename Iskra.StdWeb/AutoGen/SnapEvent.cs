@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class SnapEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.Node? SnapTargetBlock
+    public global::Iskra.StdWeb.Node? SnapTargetBlock
     {
         get
         {
-            Iskra.StdWeb.Node? __res_0;
+            global::Iskra.StdWeb.Node? __res_0;
             JSObject? __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetBlock");
             if (__res_1 is null)
             {
@@ -28,11 +28,11 @@ public partial class SnapEvent(JSObject obj): Event(obj)
         }
     }
 
-    public Iskra.StdWeb.Node? SnapTargetInline
+    public global::Iskra.StdWeb.Node? SnapTargetInline
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3;
+            global::Iskra.StdWeb.Node? __res_3;
             JSObject? __res_4 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetInline");
             if (__res_4 is null)
             {

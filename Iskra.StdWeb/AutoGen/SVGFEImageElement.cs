@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEImageElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
+    public global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1247;
-            JSObject __res_1248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
+            global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1286;
+            JSObject __res_1287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedPreserveAspectRatio } not supported.");
-            return __res_1247;
+            return __res_1286;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedString CrossOrigin
+    public global::Iskra.StdWeb.SVGAnimatedString CrossOrigin
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1249;
-            JSObject __res_1250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "crossOrigin");
+            global::Iskra.StdWeb.SVGAnimatedString __res_1288;
+            JSObject __res_1289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "crossOrigin");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
-            return __res_1249;
+            return __res_1288;
         }
     }
 }

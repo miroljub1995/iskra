@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedRect(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.DOMRect BaseVal
+    public global::Iskra.StdWeb.DOMRect BaseVal
     {
         get
         {
-            Iskra.StdWeb.DOMRect __res_319;
-            JSObject __res_320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            global::Iskra.StdWeb.DOMRect __res_355;
+            JSObject __res_356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRect } not supported.");
-            return __res_319;
+            return __res_355;
         }
     }
 
-    public Iskra.StdWeb.DOMRectReadOnly AnimVal
+    public global::Iskra.StdWeb.DOMRectReadOnly AnimVal
     {
         get
         {
-            Iskra.StdWeb.DOMRectReadOnly __res_321;
-            JSObject __res_322 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            global::Iskra.StdWeb.DOMRectReadOnly __res_357;
+            JSObject __res_358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
-            return __res_321;
+            return __res_357;
         }
     }
 }

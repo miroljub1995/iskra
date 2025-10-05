@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void EncodedAudioChunkOutputCallback(Iskra.StdWeb.EncodedAudioChunk output, Iskra.StdWeb.EncodedAudioChunkMetadata metadata);
+public delegate void EncodedAudioChunkOutputCallback(global::Iskra.StdWeb.EncodedAudioChunk output, global::Iskra.StdWeb.EncodedAudioChunkMetadata metadata);
 
 #nullable disable

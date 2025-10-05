@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.Node StartContainer
+    public global::Iskra.StdWeb.Node StartContainer
     {
         get
         {
-            Iskra.StdWeb.Node __res_3331;
-            JSObject __res_3332 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startContainer");
+            global::Iskra.StdWeb.Node __res_3371;
+            JSObject __res_3372 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startContainer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
-            return __res_3331;
+            return __res_3371;
         }
     }
 
@@ -24,21 +24,21 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3333;
-            double __res_3334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startOffset");
-            __res_3333 = Convert.ToUInt32(__res_3334);
-            return __res_3333;
+            uint __res_3373;
+            double __res_3374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startOffset");
+            __res_3373 = Convert.ToUInt32(__res_3374);
+            return __res_3373;
         }
     }
 
-    public Iskra.StdWeb.Node EndContainer
+    public global::Iskra.StdWeb.Node EndContainer
     {
         get
         {
-            Iskra.StdWeb.Node __res_3335;
-            JSObject __res_3336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endContainer");
+            global::Iskra.StdWeb.Node __res_3375;
+            JSObject __res_3376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endContainer");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
-            return __res_3335;
+            return __res_3375;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3337;
-            double __res_3338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endOffset");
-            __res_3337 = Convert.ToUInt32(__res_3338);
-            return __res_3337;
+            uint __res_3377;
+            double __res_3378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endOffset");
+            __res_3377 = Convert.ToUInt32(__res_3378);
+            return __res_3377;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class AbstractRange(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3339;
-            bool __res_3340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "collapsed");
-            __res_3339 = __res_3340;
-            return __res_3339;
+            bool __res_3379;
+            bool __res_3380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "collapsed");
+            __res_3379 = __res_3380;
+            return __res_3379;
         }
     }
 }

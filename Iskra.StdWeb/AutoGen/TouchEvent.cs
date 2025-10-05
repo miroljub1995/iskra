@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class TouchEvent(JSObject obj): UIEvent(obj)
 {
-    public Iskra.StdWeb.TouchList Touches
+    public global::Iskra.StdWeb.TouchList Touches
     {
         get
         {
-            Iskra.StdWeb.TouchList __res_2989;
-            JSObject __res_2990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
+            global::Iskra.StdWeb.TouchList __res_3029;
+            JSObject __res_3030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
-            return __res_2989;
+            return __res_3029;
         }
     }
 
-    public Iskra.StdWeb.TouchList TargetTouches
+    public global::Iskra.StdWeb.TouchList TargetTouches
     {
         get
         {
-            Iskra.StdWeb.TouchList __res_2991;
-            JSObject __res_2992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
+            global::Iskra.StdWeb.TouchList __res_3031;
+            JSObject __res_3032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
-            return __res_2991;
+            return __res_3031;
         }
     }
 
-    public Iskra.StdWeb.TouchList ChangedTouches
+    public global::Iskra.StdWeb.TouchList ChangedTouches
     {
         get
         {
-            Iskra.StdWeb.TouchList __res_2993;
-            JSObject __res_2994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
+            global::Iskra.StdWeb.TouchList __res_3033;
+            JSObject __res_3034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
-            return __res_2993;
+            return __res_3033;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_2995;
-            bool __res_2996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
-            __res_2995 = __res_2996;
-            return __res_2995;
+            bool __res_3035;
+            bool __res_3036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            __res_3035 = __res_3036;
+            return __res_3035;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_2997;
-            bool __res_2998 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
-            __res_2997 = __res_2998;
-            return __res_2997;
+            bool __res_3037;
+            bool __res_3038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            __res_3037 = __res_3038;
+            return __res_3037;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_2999;
-            bool __res_3000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
-            __res_2999 = __res_3000;
-            return __res_2999;
+            bool __res_3039;
+            bool __res_3040 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            __res_3039 = __res_3040;
+            return __res_3039;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class TouchEvent(JSObject obj): UIEvent(obj)
     {
         get
         {
-            bool __res_3001;
-            bool __res_3002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
-            __res_3001 = __res_3002;
-            return __res_3001;
+            bool __res_3041;
+            bool __res_3042 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            __res_3041 = __res_3042;
+            return __res_3041;
         }
     }
 }

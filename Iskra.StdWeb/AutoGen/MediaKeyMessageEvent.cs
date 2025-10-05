@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeyMessageEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.MediaKeyMessageType MessageType
+    public global::Iskra.StdWeb.MediaKeyMessageType MessageType
     {
         get
         {
-            Iskra.StdWeb.MediaKeyMessageType __res_5181;
-            JSObject __res_5182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
+            global::Iskra.StdWeb.MediaKeyMessageType __res_5225;
+            JSObject __res_5226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaKeyMessageType } not supported.");
-            return __res_5181;
+            return __res_5225;
         }
     }
 
-    public Iskra.JSCore.ArrayBuffer Message
+    public global::Iskra.JSCore.ArrayBuffer Message
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_5183;
-            JSObject __res_5184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            global::Iskra.JSCore.ArrayBuffer __res_5227;
+            JSObject __res_5228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_5183;
+            return __res_5227;
         }
     }
 }

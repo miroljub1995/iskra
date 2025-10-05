@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class ViewTimeline(JSObject obj): ScrollTimeline(obj)
 {
-    public Iskra.StdWeb.Element Subject
+    public global::Iskra.StdWeb.Element Subject
     {
         get
         {
-            Iskra.StdWeb.Element __res_231;
-            JSObject __res_232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
+            global::Iskra.StdWeb.Element __res_267;
+            JSObject __res_268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
-            return __res_231;
+            return __res_267;
         }
     }
 
-    public Iskra.StdWeb.CSSNumericValue StartOffset
+    public global::Iskra.StdWeb.CSSNumericValue StartOffset
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_233;
-            JSObject __res_234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            global::Iskra.StdWeb.CSSNumericValue __res_269;
+            JSObject __res_270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
-            return __res_233;
+            return __res_269;
         }
     }
 
-    public Iskra.StdWeb.CSSNumericValue EndOffset
+    public global::Iskra.StdWeb.CSSNumericValue EndOffset
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_235;
-            JSObject __res_236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
+            global::Iskra.StdWeb.CSSNumericValue __res_271;
+            JSObject __res_272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
-            return __res_235;
+            return __res_271;
         }
     }
 }

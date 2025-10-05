@@ -9,80 +9,80 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedLength RefX
+    public global::Iskra.StdWeb.SVGAnimatedLength RefX
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_474;
-            JSObject __res_475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refX");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_510;
+            JSObject __res_511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refX");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_474;
+            return __res_510;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedLength RefY
+    public global::Iskra.StdWeb.SVGAnimatedLength RefY
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_476;
-            JSObject __res_477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refY");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_512;
+            JSObject __res_513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refY");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_476;
+            return __res_512;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration MarkerUnits
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration MarkerUnits
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_478;
-            JSObject __res_479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerUnits");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_514;
+            JSObject __res_515 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerUnits");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_478;
+            return __res_514;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedLength MarkerWidth
+    public global::Iskra.StdWeb.SVGAnimatedLength MarkerWidth
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_480;
-            JSObject __res_481 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerWidth");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_516;
+            JSObject __res_517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerWidth");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_480;
+            return __res_516;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedLength MarkerHeight
+    public global::Iskra.StdWeb.SVGAnimatedLength MarkerHeight
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedLength __res_482;
-            JSObject __res_483 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerHeight");
+            global::Iskra.StdWeb.SVGAnimatedLength __res_518;
+            JSObject __res_519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerHeight");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedLength } not supported.");
-            return __res_482;
+            return __res_518;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration OrientType
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration OrientType
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_484;
-            JSObject __res_485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientType");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_520;
+            JSObject __res_521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_484;
+            return __res_520;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedAngle OrientAngle
+    public global::Iskra.StdWeb.SVGAnimatedAngle OrientAngle
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedAngle __res_486;
-            JSObject __res_487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientAngle");
+            global::Iskra.StdWeb.SVGAnimatedAngle __res_522;
+            JSObject __res_523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientAngle");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedAngle } not supported.");
-            return __res_486;
+            return __res_522;
         }
     }
 
@@ -90,16 +90,16 @@ public partial class SVGMarkerElement(JSObject obj): SVGElement(obj)
     {
         get
         {
-            string __res_488;
-            string __res_489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "orient");
-            __res_488 = __res_489;
-            return __res_488;
+            string __res_524;
+            string __res_525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "orient");
+            __res_524 = __res_525;
+            return __res_524;
         }
         set
         {
-            string __marshalledValue_490;
-            __marshalledValue_490 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "orient", __marshalledValue_490);
+            string __marshalledValue_526;
+            __marshalledValue_526 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "orient", __marshalledValue_526);
         }
     }
 }

@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.RTCIceCandidate? Candidate
+    public global::Iskra.StdWeb.RTCIceCandidate? Candidate
     {
         get
         {
-            Iskra.StdWeb.RTCIceCandidate? __res_1859;
-            JSObject? __res_1860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
-            if (__res_1860 is null)
+            global::Iskra.StdWeb.RTCIceCandidate? __res_1898;
+            JSObject? __res_1899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
+            if (__res_1899 is null)
             {
-                __res_1859 = null;
+                __res_1898 = null;
             }
             else
             {
-                JSObject __notNullable_1861 = (JSObject)__res_1860;
+                JSObject __notNullable_1900 = (JSObject)__res_1899;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidate } not supported.");
             }
-            return __res_1859;
+            return __res_1898;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class RTCPeerConnectionIceEvent(JSObject obj): Event(obj)
     {
         get
         {
-            string? __res_1862;
-            string? __res_1863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_1863 is null)
+            string? __res_1901;
+            string? __res_1902 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_1902 is null)
             {
-                __res_1862 = null;
+                __res_1901 = null;
             }
             else
             {
-                string __notNullable_1864 = (string)__res_1863;
-                __res_1862 = __notNullable_1864;
+                string __notNullable_1903 = (string)__res_1902;
+                __res_1901 = __notNullable_1903;
             }
-            return __res_1862;
+            return __res_1901;
         }
     }
 }

@@ -13,10 +13,10 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            JSObject __res_6800;
-            JSObject __res_6801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
-            __res_6800 = __res_6801;
-            return __res_6800;
+            JSObject __res_6851;
+            JSObject __res_6852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
+            __res_6851 = __res_6852;
+            return __res_6851;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PromiseRejectionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_6802;
-            JSObject __res_6803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            object? __res_6853;
+            JSObject __res_6854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6802;
+            return __res_6853;
         }
     }
 }

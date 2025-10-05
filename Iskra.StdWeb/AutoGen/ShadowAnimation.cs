@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowAnimation(JSObject obj): Animation(obj)
 {
-    public Iskra.StdWeb.Animation SourceAnimation
+    public global::Iskra.StdWeb.Animation SourceAnimation
     {
         get
         {
-            Iskra.StdWeb.Animation __res_358;
-            JSObject __res_359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceAnimation");
+            global::Iskra.StdWeb.Animation __res_394;
+            JSObject __res_395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceAnimation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Animation } not supported.");
-            return __res_358;
+            return __res_394;
         }
     }
 }

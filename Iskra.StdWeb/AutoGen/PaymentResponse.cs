@@ -13,10 +13,10 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_7410;
-            string __res_7411 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "requestId");
-            __res_7410 = __res_7411;
-            return __res_7410;
+            string __res_7466;
+            string __res_7467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "requestId");
+            __res_7466 = __res_7467;
+            return __res_7466;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_7412;
-            string __res_7413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
-            __res_7412 = __res_7413;
-            return __res_7412;
+            string __res_7468;
+            string __res_7469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
+            __res_7468 = __res_7469;
+            return __res_7468;
         }
     }
 
@@ -35,29 +35,29 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            JSObject __res_7414;
-            JSObject __res_7415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "details");
-            __res_7414 = __res_7415;
-            return __res_7414;
+            JSObject __res_7470;
+            JSObject __res_7471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "details");
+            __res_7470 = __res_7471;
+            return __res_7470;
         }
     }
 
-    public Iskra.StdWeb.ContactAddress? ShippingAddress
+    public global::Iskra.StdWeb.ContactAddress? ShippingAddress
     {
         get
         {
-            Iskra.StdWeb.ContactAddress? __res_7416;
-            JSObject? __res_7417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
-            if (__res_7417 is null)
+            global::Iskra.StdWeb.ContactAddress? __res_7472;
+            JSObject? __res_7473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
+            if (__res_7473 is null)
             {
-                __res_7416 = null;
+                __res_7472 = null;
             }
             else
             {
-                JSObject __notNullable_7418 = (JSObject)__res_7417;
+                JSObject __notNullable_7474 = (JSObject)__res_7473;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ContactAddress } not supported.");
             }
-            return __res_7416;
+            return __res_7472;
         }
     }
 
@@ -65,18 +65,18 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7419;
-            string? __res_7420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
-            if (__res_7420 is null)
+            string? __res_7475;
+            string? __res_7476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
+            if (__res_7476 is null)
             {
-                __res_7419 = null;
+                __res_7475 = null;
             }
             else
             {
-                string __notNullable_7421 = (string)__res_7420;
-                __res_7419 = __notNullable_7421;
+                string __notNullable_7477 = (string)__res_7476;
+                __res_7475 = __notNullable_7477;
             }
-            return __res_7419;
+            return __res_7475;
         }
     }
 
@@ -84,18 +84,18 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7422;
-            string? __res_7423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerName");
-            if (__res_7423 is null)
+            string? __res_7478;
+            string? __res_7479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerName");
+            if (__res_7479 is null)
             {
-                __res_7422 = null;
+                __res_7478 = null;
             }
             else
             {
-                string __notNullable_7424 = (string)__res_7423;
-                __res_7422 = __notNullable_7424;
+                string __notNullable_7480 = (string)__res_7479;
+                __res_7478 = __notNullable_7480;
             }
-            return __res_7422;
+            return __res_7478;
         }
     }
 
@@ -103,18 +103,18 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7425;
-            string? __res_7426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerEmail");
-            if (__res_7426 is null)
+            string? __res_7481;
+            string? __res_7482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerEmail");
+            if (__res_7482 is null)
             {
-                __res_7425 = null;
+                __res_7481 = null;
             }
             else
             {
-                string __notNullable_7427 = (string)__res_7426;
-                __res_7425 = __notNullable_7427;
+                string __notNullable_7483 = (string)__res_7482;
+                __res_7481 = __notNullable_7483;
             }
-            return __res_7425;
+            return __res_7481;
         }
     }
 
@@ -122,51 +122,51 @@ public partial class PaymentResponse(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_7428;
-            string? __res_7429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerPhone");
-            if (__res_7429 is null)
+            string? __res_7484;
+            string? __res_7485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerPhone");
+            if (__res_7485 is null)
             {
-                __res_7428 = null;
+                __res_7484 = null;
             }
             else
             {
-                string __notNullable_7430 = (string)__res_7429;
-                __res_7428 = __notNullable_7430;
+                string __notNullable_7486 = (string)__res_7485;
+                __res_7484 = __notNullable_7486;
             }
-            return __res_7428;
+            return __res_7484;
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_7431;
-            JSObject? __res_7432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange");
-            if (__res_7432 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7487;
+            JSObject? __res_7488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange");
+            if (__res_7488 is null)
             {
-                __res_7431 = null;
+                __res_7487 = null;
             }
             else
             {
-                JSObject __notNullable_7433 = (JSObject)__res_7432;
+                JSObject __notNullable_7489 = (JSObject)__res_7488;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7431;
+            return __res_7487;
         }
         set
         {
-            JSObject? __marshalledValue_7434;
+            JSObject? __marshalledValue_7490;
             if (value is null)
             {
-                __marshalledValue_7434 = null;
+                __marshalledValue_7490 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_7435 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7491 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange", __marshalledValue_7434);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange", __marshalledValue_7490);
         }
     }
 }

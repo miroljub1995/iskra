@@ -13,16 +13,16 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5419;
-            string __res_5420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_5419 = __res_5420;
-            return __res_5419;
+            string __res_5466;
+            string __res_5467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_5466 = __res_5467;
+            return __res_5466;
         }
         set
         {
-            string __marshalledValue_5421;
-            __marshalledValue_5421 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_5421);
+            string __marshalledValue_5468;
+            __marshalledValue_5468 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_5468);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLModElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5422;
-            string __res_5423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_5422 = __res_5423;
-            return __res_5422;
+            string __res_5469;
+            string __res_5470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_5469 = __res_5470;
+            return __res_5469;
         }
         set
         {
-            string __marshalledValue_5424;
-            __marshalledValue_5424 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_5424);
+            string __marshalledValue_5471;
+            __marshalledValue_5471 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_5471);
         }
     }
 }

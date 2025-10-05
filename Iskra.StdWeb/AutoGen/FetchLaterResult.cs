@@ -13,10 +13,10 @@ public partial class FetchLaterResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3680;
-            bool __res_3681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "activated");
-            __res_3680 = __res_3681;
-            return __res_3680;
+            bool __res_3720;
+            bool __res_3721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "activated");
+            __res_3720 = __res_3721;
+            return __res_3720;
         }
     }
 }

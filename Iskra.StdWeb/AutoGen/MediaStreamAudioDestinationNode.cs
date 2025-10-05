@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamAudioDestinationNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.MediaStream Stream
+    public global::Iskra.StdWeb.MediaStream Stream
     {
         get
         {
-            Iskra.StdWeb.MediaStream __res_8225;
-            JSObject __res_8226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
+            global::Iskra.StdWeb.MediaStream __res_8285;
+            JSObject __res_8286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStream } not supported.");
-            return __res_8225;
+            return __res_8285;
         }
     }
 }

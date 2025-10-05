@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SVGStopElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedNumber Offset
+    public global::Iskra.StdWeb.SVGAnimatedNumber Offset
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_517;
-            JSObject __res_518 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_553;
+            JSObject __res_554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_517;
+            return __res_553;
         }
     }
 }

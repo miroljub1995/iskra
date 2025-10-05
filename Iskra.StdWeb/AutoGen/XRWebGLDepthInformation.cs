@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(obj)
 {
-    public Iskra.StdWeb.WebGLTexture Texture
+    public global::Iskra.StdWeb.WebGLTexture Texture
     {
         get
         {
-            Iskra.StdWeb.WebGLTexture __res_1054;
-            JSObject __res_1055 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
+            global::Iskra.StdWeb.WebGLTexture __res_1093;
+            JSObject __res_1094 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
-            return __res_1054;
+            return __res_1093;
         }
     }
 
-    public Iskra.StdWeb.XRTextureType TextureType
+    public global::Iskra.StdWeb.XRTextureType TextureType
     {
         get
         {
-            Iskra.StdWeb.XRTextureType __res_1056;
-            JSObject __res_1057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textureType");
+            global::Iskra.StdWeb.XRTextureType __res_1095;
+            JSObject __res_1096 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textureType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRTextureType } not supported.");
-            return __res_1056;
+            return __res_1095;
         }
     }
 
@@ -35,18 +35,18 @@ public partial class XRWebGLDepthInformation(JSObject obj): XRDepthInformation(o
     {
         get
         {
-            uint? __res_1058;
-            double? __res_1059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
-            if (__res_1059 is null)
+            uint? __res_1097;
+            double? __res_1098 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
+            if (__res_1098 is null)
             {
-                __res_1058 = null;
+                __res_1097 = null;
             }
             else
             {
-                double __notNullable_1060 = (double)__res_1059;
-                __res_1058 = Convert.ToUInt32(__notNullable_1060);
+                double __notNullable_1099 = (double)__res_1098;
+                __res_1097 = Convert.ToUInt32(__notNullable_1099);
             }
-            return __res_1058;
+            return __res_1097;
         }
     }
 }

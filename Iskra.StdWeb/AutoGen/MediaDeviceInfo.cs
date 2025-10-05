@@ -13,21 +13,21 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3827;
-            string __res_3828 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
-            __res_3827 = __res_3828;
-            return __res_3827;
+            string __res_3867;
+            string __res_3868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
+            __res_3867 = __res_3868;
+            return __res_3867;
         }
     }
 
-    public Iskra.StdWeb.MediaDeviceKind Kind
+    public global::Iskra.StdWeb.MediaDeviceKind Kind
     {
         get
         {
-            Iskra.StdWeb.MediaDeviceKind __res_3829;
-            JSObject __res_3830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
+            global::Iskra.StdWeb.MediaDeviceKind __res_3869;
+            JSObject __res_3870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaDeviceKind } not supported.");
-            return __res_3829;
+            return __res_3869;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3831;
-            string __res_3832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_3831 = __res_3832;
-            return __res_3831;
+            string __res_3871;
+            string __res_3872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_3871 = __res_3872;
+            return __res_3871;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class MediaDeviceInfo(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3833;
-            string __res_3834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
-            __res_3833 = __res_3834;
-            return __res_3833;
+            string __res_3873;
+            string __res_3874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
+            __res_3873 = __res_3874;
+            return __res_3873;
         }
     }
 }

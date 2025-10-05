@@ -13,10 +13,10 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6824;
-            double __res_6825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6824 = Convert.ToUInt32(__res_6825);
-            return __res_6824;
+            uint __res_6875;
+            double __res_6876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6875 = Convert.ToUInt32(__res_6876);
+            return __res_6875;
         }
     }
 
@@ -24,42 +24,44 @@ public partial class ImageData(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6826;
-            double __res_6827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_6826 = Convert.ToUInt32(__res_6827);
-            return __res_6826;
+            uint __res_6877;
+            double __res_6878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_6877 = Convert.ToUInt32(__res_6878);
+            return __res_6877;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<UnknownNamespace.Uint8ClampedArray, UnknownNamespace.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> Data
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> Data
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<UnknownNamespace.Uint8ClampedArray, UnknownNamespace.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6828;
-            throw new Exception();
-            return __res_6828;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6879;
+            JSObject __propObject_6880;
+            __propObject_6880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "data");
+            __res_6879 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6880);
+            return __res_6879;
         }
     }
 
-    public Iskra.StdWeb.ImageDataPixelFormat PixelFormat
+    public global::Iskra.StdWeb.ImageDataPixelFormat PixelFormat
     {
         get
         {
-            Iskra.StdWeb.ImageDataPixelFormat __res_6829;
-            JSObject __res_6830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pixelFormat");
+            global::Iskra.StdWeb.ImageDataPixelFormat __res_6881;
+            JSObject __res_6882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pixelFormat");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageDataPixelFormat } not supported.");
-            return __res_6829;
+            return __res_6881;
         }
     }
 
-    public Iskra.StdWeb.PredefinedColorSpace ColorSpace
+    public global::Iskra.StdWeb.PredefinedColorSpace ColorSpace
     {
         get
         {
-            Iskra.StdWeb.PredefinedColorSpace __res_6831;
-            JSObject __res_6832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
+            global::Iskra.StdWeb.PredefinedColorSpace __res_6883;
+            JSObject __res_6884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PredefinedColorSpace } not supported.");
-            return __res_6831;
+            return __res_6883;
         }
     }
 }

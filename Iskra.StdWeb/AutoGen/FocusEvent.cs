@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class FocusEvent(JSObject obj): UIEvent(obj)
 {
-    public Iskra.StdWeb.EventTarget? RelatedTarget
+    public global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {
-            Iskra.StdWeb.EventTarget? __res_7897;
-            JSObject? __res_7898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_7898 is null)
+            global::Iskra.StdWeb.EventTarget? __res_7955;
+            JSObject? __res_7956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_7956 is null)
             {
-                __res_7897 = null;
+                __res_7955 = null;
             }
             else
             {
-                JSObject __notNullable_7899 = (JSObject)__res_7898;
+                JSObject __notNullable_7957 = (JSObject)__res_7956;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
             }
-            return __res_7897;
+            return __res_7955;
         }
     }
 }

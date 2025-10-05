@@ -13,10 +13,10 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3441;
-            string __res_3442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3441 = __res_3442;
-            return __res_3441;
+            string __res_3481;
+            string __res_3482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3481 = __res_3482;
+            return __res_3481;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3443;
-            string __res_3444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_3443 = __res_3444;
-            return __res_3443;
+            string __res_3483;
+            string __res_3484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_3483 = __res_3484;
+            return __res_3483;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class DOMException(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_3445;
-            double __res_3446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_3445 = Convert.ToUInt16(__res_3446);
-            return __res_3445;
+            ushort __res_3485;
+            double __res_3486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            __res_3485 = Convert.ToUInt16(__res_3486);
+            return __res_3485;
         }
     }
 }

@@ -13,21 +13,21 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4539;
-            string __res_4540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_4539 = __res_4540;
-            return __res_4539;
+            string __res_4581;
+            string __res_4582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_4581 = __res_4582;
+            return __res_4581;
         }
     }
 
-    public Iskra.StdWeb.FrameType FrameType
+    public global::Iskra.StdWeb.FrameType FrameType
     {
         get
         {
-            Iskra.StdWeb.FrameType __res_4541;
-            JSObject __res_4542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frameType");
+            global::Iskra.StdWeb.FrameType __res_4583;
+            JSObject __res_4584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frameType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FrameType } not supported.");
-            return __res_4541;
+            return __res_4583;
         }
     }
 
@@ -35,21 +35,21 @@ public partial class Client(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_4543;
-            string __res_4544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4543 = __res_4544;
-            return __res_4543;
+            string __res_4585;
+            string __res_4586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4585 = __res_4586;
+            return __res_4585;
         }
     }
 
-    public Iskra.StdWeb.ClientType Type
+    public global::Iskra.StdWeb.ClientType Type
     {
         get
         {
-            Iskra.StdWeb.ClientType __res_4545;
-            JSObject __res_4546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.ClientType __res_4587;
+            JSObject __res_4588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ClientType } not supported.");
-            return __res_4545;
+            return __res_4587;
         }
     }
 }

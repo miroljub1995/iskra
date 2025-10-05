@@ -13,10 +13,10 @@ public partial class GPUError(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_770;
-            string __res_771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_770 = __res_771;
-            return __res_770;
+            string __res_807;
+            string __res_808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_807 = __res_808;
+            return __res_807;
         }
     }
 }

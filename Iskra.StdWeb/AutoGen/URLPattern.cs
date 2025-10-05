@@ -13,10 +13,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1633;
-            string __res_1634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_1633 = __res_1634;
-            return __res_1633;
+            string __res_1672;
+            string __res_1673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_1672 = __res_1673;
+            return __res_1672;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1635;
-            string __res_1636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
-            __res_1635 = __res_1636;
-            return __res_1635;
+            string __res_1674;
+            string __res_1675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_1674 = __res_1675;
+            return __res_1674;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1637;
-            string __res_1638 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_1637 = __res_1638;
-            return __res_1637;
+            string __res_1676;
+            string __res_1677 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_1676 = __res_1677;
+            return __res_1676;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1639;
-            string __res_1640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_1639 = __res_1640;
-            return __res_1639;
+            string __res_1678;
+            string __res_1679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_1678 = __res_1679;
+            return __res_1678;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1641;
-            string __res_1642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_1641 = __res_1642;
-            return __res_1641;
+            string __res_1680;
+            string __res_1681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_1680 = __res_1681;
+            return __res_1680;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1643;
-            string __res_1644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_1643 = __res_1644;
-            return __res_1643;
+            string __res_1682;
+            string __res_1683 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_1682 = __res_1683;
+            return __res_1682;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1645;
-            string __res_1646 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_1645 = __res_1646;
-            return __res_1645;
+            string __res_1684;
+            string __res_1685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_1684 = __res_1685;
+            return __res_1684;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1647;
-            string __res_1648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_1647 = __res_1648;
-            return __res_1647;
+            string __res_1686;
+            string __res_1687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_1686 = __res_1687;
+            return __res_1686;
         }
     }
 
@@ -101,10 +101,10 @@ public partial class URLPattern(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_1649;
-            bool __res_1650 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
-            __res_1649 = __res_1650;
-            return __res_1649;
+            bool __res_1688;
+            bool __res_1689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
+            __res_1688 = __res_1689;
+            return __res_1688;
         }
     }
 }

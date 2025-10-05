@@ -13,21 +13,21 @@ public partial class Lock(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2888;
-            string __res_2889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2888 = __res_2889;
-            return __res_2888;
+            string __res_2928;
+            string __res_2929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2928 = __res_2929;
+            return __res_2928;
         }
     }
 
-    public Iskra.StdWeb.LockMode Mode
+    public global::Iskra.StdWeb.LockMode Mode
     {
         get
         {
-            Iskra.StdWeb.LockMode __res_2890;
-            JSObject __res_2891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            global::Iskra.StdWeb.LockMode __res_2930;
+            JSObject __res_2931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LockMode } not supported.");
-            return __res_2890;
+            return __res_2930;
         }
     }
 }

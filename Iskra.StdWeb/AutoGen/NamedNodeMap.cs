@@ -13,10 +13,10 @@ public partial class NamedNodeMap(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3302;
-            double __res_3303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3302 = Convert.ToUInt32(__res_3303);
-            return __res_3302;
+            uint __res_3342;
+            double __res_3343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3342 = Convert.ToUInt32(__res_3343);
+            return __res_3342;
         }
     }
 }

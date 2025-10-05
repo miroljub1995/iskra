@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisErrorEvent(JSObject obj): SpeechSynthesisEvent(obj)
 {
-    public Iskra.StdWeb.SpeechSynthesisErrorCode Error
+    public global::Iskra.StdWeb.SpeechSynthesisErrorCode Error
     {
         get
         {
-            Iskra.StdWeb.SpeechSynthesisErrorCode __res_4114;
-            JSObject __res_4115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            global::Iskra.StdWeb.SpeechSynthesisErrorCode __res_4155;
+            JSObject __res_4156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechSynthesisErrorCode } not supported.");
-            return __res_4114;
+            return __res_4155;
         }
     }
 }

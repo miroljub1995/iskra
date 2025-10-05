@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.BluetoothRemoteGATTService Service
+    public global::Iskra.StdWeb.BluetoothRemoteGATTService Service
     {
         get
         {
-            Iskra.StdWeb.BluetoothRemoteGATTService __res_2770;
-            JSObject __res_2771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
+            global::Iskra.StdWeb.BluetoothRemoteGATTService __res_2810;
+            JSObject __res_2811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothRemoteGATTService } not supported.");
-            return __res_2770;
+            return __res_2810;
         }
     }
 
@@ -24,40 +24,40 @@ public partial class BluetoothRemoteGATTCharacteristic(JSObject obj): EventTarge
     {
         get
         {
-            string __res_2772;
-            string __res_2773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_2772 = __res_2773;
-            return __res_2772;
+            string __res_2812;
+            string __res_2813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2812 = __res_2813;
+            return __res_2812;
         }
     }
 
-    public Iskra.StdWeb.BluetoothCharacteristicProperties Properties
+    public global::Iskra.StdWeb.BluetoothCharacteristicProperties Properties
     {
         get
         {
-            Iskra.StdWeb.BluetoothCharacteristicProperties __res_2774;
-            JSObject __res_2775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
+            global::Iskra.StdWeb.BluetoothCharacteristicProperties __res_2814;
+            JSObject __res_2815 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothCharacteristicProperties } not supported.");
-            return __res_2774;
+            return __res_2814;
         }
     }
 
-    public Iskra.JSCore.DataView? Value
+    public global::Iskra.JSCore.DataView? Value
     {
         get
         {
-            Iskra.JSCore.DataView? __res_2776;
-            JSObject? __res_2777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_2777 is null)
+            global::Iskra.JSCore.DataView? __res_2816;
+            JSObject? __res_2817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_2817 is null)
             {
-                __res_2776 = null;
+                __res_2816 = null;
             }
             else
             {
-                JSObject __notNullable_2778 = (JSObject)__res_2777;
+                JSObject __notNullable_2818 = (JSObject)__res_2817;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
             }
-            return __res_2776;
+            return __res_2816;
         }
     }
 }

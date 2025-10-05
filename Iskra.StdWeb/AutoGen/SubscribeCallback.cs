@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void SubscribeCallback(Iskra.StdWeb.Subscriber subscriber);
+public delegate void SubscribeCallback(global::Iskra.StdWeb.Subscriber subscriber);
 
 #nullable disable

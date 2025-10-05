@@ -13,10 +13,10 @@ public partial class FragmentResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7885;
-            double __res_7886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_7885 = __res_7886;
-            return __res_7885;
+            double __res_7943;
+            double __res_7944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
+            __res_7943 = __res_7944;
+            return __res_7943;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class FragmentResult(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_7887;
-            double __res_7888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_7887 = __res_7888;
-            return __res_7887;
+            double __res_7945;
+            double __res_7946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
+            __res_7945 = __res_7946;
+            return __res_7945;
         }
     }
 }

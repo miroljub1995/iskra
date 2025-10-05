@@ -13,10 +13,10 @@ public partial class Storage(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6953;
-            double __res_6954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6953 = Convert.ToUInt32(__res_6954);
-            return __res_6953;
+            uint __res_7006;
+            double __res_7007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7006 = Convert.ToUInt32(__res_7007);
+            return __res_7006;
         }
     }
 }

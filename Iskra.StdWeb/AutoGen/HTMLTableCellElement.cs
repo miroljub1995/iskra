@@ -13,16 +13,16 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_5870;
-            double __res_5871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colSpan");
-            __res_5870 = Convert.ToUInt32(__res_5871);
-            return __res_5870;
+            uint __res_5920;
+            double __res_5921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colSpan");
+            __res_5920 = Convert.ToUInt32(__res_5921);
+            return __res_5920;
         }
         set
         {
-            double __marshalledValue_5872;
-            __marshalledValue_5872 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "colSpan", __marshalledValue_5872);
+            double __marshalledValue_5922;
+            __marshalledValue_5922 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "colSpan", __marshalledValue_5922);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            uint __res_5873;
-            double __res_5874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowSpan");
-            __res_5873 = Convert.ToUInt32(__res_5874);
-            return __res_5873;
+            uint __res_5923;
+            double __res_5924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowSpan");
+            __res_5923 = Convert.ToUInt32(__res_5924);
+            return __res_5923;
         }
         set
         {
-            double __marshalledValue_5875;
-            __marshalledValue_5875 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rowSpan", __marshalledValue_5875);
+            double __marshalledValue_5925;
+            __marshalledValue_5925 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rowSpan", __marshalledValue_5925);
         }
     }
 
@@ -47,16 +47,16 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5876;
-            string __res_5877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "headers");
-            __res_5876 = __res_5877;
-            return __res_5876;
+            string __res_5926;
+            string __res_5927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "headers");
+            __res_5926 = __res_5927;
+            return __res_5926;
         }
         set
         {
-            string __marshalledValue_5878;
-            __marshalledValue_5878 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "headers", __marshalledValue_5878);
+            string __marshalledValue_5928;
+            __marshalledValue_5928 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "headers", __marshalledValue_5928);
         }
     }
 
@@ -64,10 +64,10 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            int __res_5879;
-            double __res_5880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "cellIndex");
-            __res_5879 = Convert.ToInt32(__res_5880);
-            return __res_5879;
+            int __res_5929;
+            double __res_5930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "cellIndex");
+            __res_5929 = Convert.ToInt32(__res_5930);
+            return __res_5929;
         }
     }
 
@@ -75,16 +75,16 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5881;
-            string __res_5882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scope");
-            __res_5881 = __res_5882;
-            return __res_5881;
+            string __res_5931;
+            string __res_5932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scope");
+            __res_5931 = __res_5932;
+            return __res_5931;
         }
         set
         {
-            string __marshalledValue_5883;
-            __marshalledValue_5883 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scope", __marshalledValue_5883);
+            string __marshalledValue_5933;
+            __marshalledValue_5933 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scope", __marshalledValue_5933);
         }
     }
 
@@ -92,16 +92,16 @@ public partial class HTMLTableCellElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_5884;
-            string __res_5885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "abbr");
-            __res_5884 = __res_5885;
-            return __res_5884;
+            string __res_5934;
+            string __res_5935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "abbr");
+            __res_5934 = __res_5935;
+            return __res_5934;
         }
         set
         {
-            string __marshalledValue_5886;
-            __marshalledValue_5886 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "abbr", __marshalledValue_5886);
+            string __marshalledValue_5936;
+            __marshalledValue_5936 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "abbr", __marshalledValue_5936);
         }
     }
 }

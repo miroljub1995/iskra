@@ -13,40 +13,40 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string __res_7294;
-            string __res_7295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_7294 = __res_7295;
-            return __res_7294;
+            string __res_7350;
+            string __res_7351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_7350 = __res_7351;
+            return __res_7350;
         }
     }
 
-    public Iskra.StdWeb.MediaList Media
+    public global::Iskra.StdWeb.MediaList Media
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_7296;
-            JSObject __res_7297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            global::Iskra.StdWeb.MediaList __res_7352;
+            JSObject __res_7353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaList } not supported.");
-            return __res_7296;
+            return __res_7352;
         }
     }
 
-    public Iskra.StdWeb.CSSStyleSheet? StyleSheet
+    public global::Iskra.StdWeb.CSSStyleSheet? StyleSheet
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_7298;
-            JSObject? __res_7299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
-            if (__res_7299 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_7354;
+            JSObject? __res_7355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
+            if (__res_7355 is null)
             {
-                __res_7298 = null;
+                __res_7354 = null;
             }
             else
             {
-                JSObject __notNullable_7300 = (JSObject)__res_7299;
+                JSObject __notNullable_7356 = (JSObject)__res_7355;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleSheet } not supported.");
             }
-            return __res_7298;
+            return __res_7354;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_7301;
-            string? __res_7302 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
-            if (__res_7302 is null)
+            string? __res_7357;
+            string? __res_7358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
+            if (__res_7358 is null)
             {
-                __res_7301 = null;
+                __res_7357 = null;
             }
             else
             {
-                string __notNullable_7303 = (string)__res_7302;
-                __res_7301 = __notNullable_7303;
+                string __notNullable_7359 = (string)__res_7358;
+                __res_7357 = __notNullable_7359;
             }
-            return __res_7301;
+            return __res_7357;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class CSSImportRule(JSObject obj): CSSRule(obj)
     {
         get
         {
-            string? __res_7304;
-            string? __res_7305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
-            if (__res_7305 is null)
+            string? __res_7360;
+            string? __res_7361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
+            if (__res_7361 is null)
             {
-                __res_7304 = null;
+                __res_7360 = null;
             }
             else
             {
-                string __notNullable_7306 = (string)__res_7305;
-                __res_7304 = __notNullable_7306;
+                string __notNullable_7362 = (string)__res_7361;
+                __res_7360 = __notNullable_7362;
             }
-            return __res_7304;
+            return __res_7360;
         }
     }
 }

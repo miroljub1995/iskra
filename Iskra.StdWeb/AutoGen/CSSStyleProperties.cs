@@ -13,16 +13,16 @@ public partial class CSSStyleProperties(JSObject obj): CSSStyleDeclaration(obj)
     {
         get
         {
-            string __res_7372;
-            string __res_7373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssFloat");
-            __res_7372 = __res_7373;
-            return __res_7372;
+            string __res_7428;
+            string __res_7429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssFloat");
+            __res_7428 = __res_7429;
+            return __res_7428;
         }
         set
         {
-            string __marshalledValue_7374;
-            __marshalledValue_7374 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_7374);
+            string __marshalledValue_7430;
+            __marshalledValue_7430 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_7430);
         }
     }
 }

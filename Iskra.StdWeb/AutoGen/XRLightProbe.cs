@@ -9,47 +9,47 @@ namespace Iskra.StdWeb;
 
 public partial class XRLightProbe(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.XRSpace ProbeSpace
+    public global::Iskra.StdWeb.XRSpace ProbeSpace
     {
         get
         {
-            Iskra.StdWeb.XRSpace __res_924;
-            JSObject __res_925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
+            global::Iskra.StdWeb.XRSpace __res_961;
+            JSObject __res_962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
-            return __res_924;
+            return __res_961;
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onreflectionchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onreflectionchange
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_926;
-            JSObject? __res_927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
-            if (__res_927 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_963;
+            JSObject? __res_964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
+            if (__res_964 is null)
             {
-                __res_926 = null;
+                __res_963 = null;
             }
             else
             {
-                JSObject __notNullable_928 = (JSObject)__res_927;
+                JSObject __notNullable_965 = (JSObject)__res_964;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_926;
+            return __res_963;
         }
         set
         {
-            JSObject? __marshalledValue_929;
+            JSObject? __marshalledValue_966;
             if (value is null)
             {
-                __marshalledValue_929 = null;
+                __marshalledValue_966 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_930 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_967 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange", __marshalledValue_929);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange", __marshalledValue_966);
         }
     }
 }

@@ -9,24 +9,31 @@ namespace Iskra.StdWeb;
 
 public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.SFrameTransformErrorEventType ErrorType
+    public global::Iskra.StdWeb.SFrameTransformErrorEventType ErrorType
     {
         get
         {
-            Iskra.StdWeb.SFrameTransformErrorEventType __res_1004;
-            JSObject __res_1005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
+            global::Iskra.StdWeb.SFrameTransformErrorEventType __res_1042;
+            JSObject __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SFrameTransformErrorEventType } not supported.");
-            return __res_1004;
+            return __res_1042;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<ulong, UnknownNamespace.bigint, global::Iskra.StdWeb.GenericMarshaller.Union>? KeyID
+    public global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>? KeyID
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<ulong, UnknownNamespace.bigint, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_1006;
-            throw new Exception();
-            return __res_1006;
+            global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_1044;
+            JSObject? __propObject_1045;
+            __propObject_1045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "keyID");
+            if (__propObject_1045 is null)
+            {
+                return null;
+            }
+
+            __res_1044 = new global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1045);
+            return __res_1044;
         }
     }
 
@@ -34,10 +41,10 @@ public partial class SFrameTransformErrorEvent(JSObject obj): Event(obj)
     {
         get
         {
-            object? __res_1007;
-            JSObject __res_1008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            object? __res_1046;
+            JSObject __res_1047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_1007;
+            return __res_1046;
         }
     }
 }

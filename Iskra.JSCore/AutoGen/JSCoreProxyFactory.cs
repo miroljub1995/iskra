@@ -19,9 +19,18 @@ public static class JSCoreProxyFactory
 
         Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "ArrayBuffer", obj => new ArrayBuffer(obj) );
         Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "DataView", obj => new DataView(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Int8Array", obj => new Int8Array(obj) );
         Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint8Array", obj => new Uint8Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint8ClampedArray", obj => new Uint8ClampedArray(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Int16Array", obj => new Int16Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint16Array", obj => new Uint16Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Int32Array", obj => new Int32Array(obj) );
         Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Uint32Array", obj => new Uint32Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Float16Array", obj => new Float16Array(obj) );
         Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Float32Array", obj => new Float32Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "Float64Array", obj => new Float64Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "BigInt64Array", obj => new BigInt64Array(obj) );
+        Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(JSHost.GlobalThis, "BigUint64Array", obj => new BigUint64Array(obj) );
     }
 }
 

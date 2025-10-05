@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate Iskra.StdWeb.HTMLElement CustomElementConstructor();
+public delegate global::Iskra.StdWeb.HTMLElement CustomElementConstructor();
 
 #nullable disable

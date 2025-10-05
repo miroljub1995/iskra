@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.GeolocationCoordinates Coords
+    public global::Iskra.StdWeb.GeolocationCoordinates Coords
     {
         get
         {
-            Iskra.StdWeb.GeolocationCoordinates __res_973;
-            JSObject __res_974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
+            global::Iskra.StdWeb.GeolocationCoordinates __res_1011;
+            JSObject __res_1012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GeolocationCoordinates } not supported.");
-            return __res_973;
+            return __res_1011;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class GeolocationPosition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ulong __res_975;
-            double __res_976 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_975 = Convert.ToUInt64(__res_976);
-            return __res_975;
+            ulong __res_1013;
+            double __res_1014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_1013 = Convert.ToUInt64(__res_1014);
+            return __res_1013;
         }
     }
 }

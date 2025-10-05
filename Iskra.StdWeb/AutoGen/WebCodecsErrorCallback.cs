@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void WebCodecsErrorCallback(Iskra.StdWeb.DOMException error);
+public delegate void WebCodecsErrorCallback(global::Iskra.StdWeb.DOMException error);
 
 #nullable disable

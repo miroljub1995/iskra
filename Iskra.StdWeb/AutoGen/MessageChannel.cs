@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class MessageChannel(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.MessagePort Port1
+    public global::Iskra.StdWeb.MessagePort Port1
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_6867;
-            JSObject __res_6868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
+            global::Iskra.StdWeb.MessagePort __res_6920;
+            JSObject __res_6921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_6867;
+            return __res_6920;
         }
     }
 
-    public Iskra.StdWeb.MessagePort Port2
+    public global::Iskra.StdWeb.MessagePort Port2
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_6869;
-            JSObject __res_6870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
+            global::Iskra.StdWeb.MessagePort __res_6922;
+            JSObject __res_6923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_6869;
+            return __res_6922;
         }
     }
 }

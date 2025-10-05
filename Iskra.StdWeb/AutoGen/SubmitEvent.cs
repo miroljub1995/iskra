@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class SubmitEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.HTMLElement? Submitter
+    public global::Iskra.StdWeb.HTMLElement? Submitter
     {
         get
         {
-            Iskra.StdWeb.HTMLElement? __res_6359;
-            JSObject? __res_6360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
-            if (__res_6360 is null)
+            global::Iskra.StdWeb.HTMLElement? __res_6409;
+            JSObject? __res_6410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
+            if (__res_6410 is null)
             {
-                __res_6359 = null;
+                __res_6409 = null;
             }
             else
             {
-                JSObject __notNullable_6361 = (JSObject)__res_6360;
+                JSObject __notNullable_6411 = (JSObject)__res_6410;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
             }
-            return __res_6359;
+            return __res_6409;
         }
     }
 }

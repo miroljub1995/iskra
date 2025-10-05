@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrackProcessor(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
-            Iskra.StdWeb.ReadableStream __res_208;
-            JSObject __res_209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            global::Iskra.StdWeb.ReadableStream __res_244;
+            JSObject __res_245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
-            return __res_208;
+            return __res_244;
         }
     }
 }

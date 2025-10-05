@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.PressureSource Source
+    public global::Iskra.StdWeb.PressureSource Source
     {
         get
         {
-            Iskra.StdWeb.PressureSource __res_3693;
-            JSObject __res_3694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
+            global::Iskra.StdWeb.PressureSource __res_3733;
+            JSObject __res_3734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } not supported.");
-            return __res_3693;
+            return __res_3733;
         }
     }
 
-    public Iskra.StdWeb.PressureState State
+    public global::Iskra.StdWeb.PressureState State
     {
         get
         {
-            Iskra.StdWeb.PressureState __res_3695;
-            JSObject __res_3696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            global::Iskra.StdWeb.PressureState __res_3735;
+            JSObject __res_3736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureState } not supported.");
-            return __res_3695;
+            return __res_3735;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class PressureRecord(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3697;
-            double __res_3698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_3697 = __res_3698;
-            return __res_3697;
+            double __res_3737;
+            double __res_3738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_3737 = __res_3738;
+            return __res_3737;
         }
     }
 }

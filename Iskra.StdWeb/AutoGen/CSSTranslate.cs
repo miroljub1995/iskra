@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
 {
-    public Iskra.StdWeb.CSSNumericValue X
+    public global::Iskra.StdWeb.CSSNumericValue X
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_76;
+            global::Iskra.StdWeb.CSSNumericValue __res_76;
             JSObject __res_77 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_76;
@@ -26,11 +26,11 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSNumericValue Y
+    public global::Iskra.StdWeb.CSSNumericValue Y
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_79;
+            global::Iskra.StdWeb.CSSNumericValue __res_79;
             JSObject __res_80 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_79;
@@ -43,11 +43,11 @@ public partial class CSSTranslate(JSObject obj): CSSTransformComponent(obj)
         }
     }
 
-    public Iskra.StdWeb.CSSNumericValue Z
+    public global::Iskra.StdWeb.CSSNumericValue Z
     {
         get
         {
-            Iskra.StdWeb.CSSNumericValue __res_82;
+            global::Iskra.StdWeb.CSSNumericValue __res_82;
             JSObject __res_83 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
             return __res_82;

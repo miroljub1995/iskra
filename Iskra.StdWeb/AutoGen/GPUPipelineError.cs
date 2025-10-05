@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GPUPipelineError(JSObject obj): DOMException(obj)
 {
-    public Iskra.StdWeb.GPUPipelineErrorReason Reason
+    public global::Iskra.StdWeb.GPUPipelineErrorReason Reason
     {
         get
         {
-            Iskra.StdWeb.GPUPipelineErrorReason __res_759;
-            JSObject __res_760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            global::Iskra.StdWeb.GPUPipelineErrorReason __res_795;
+            JSObject __res_796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUPipelineErrorReason } not supported.");
-            return __res_759;
+            return __res_795;
         }
     }
 }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CSSGroupingRule(JSObject obj): CSSRule(obj)
 {
-    public Iskra.StdWeb.CSSRuleList CssRules
+    public global::Iskra.StdWeb.CSSRuleList CssRules
     {
         get
         {
-            Iskra.StdWeb.CSSRuleList __res_7307;
-            JSObject __res_7308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            global::Iskra.StdWeb.CSSRuleList __res_7363;
+            JSObject __res_7364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRuleList } not supported.");
-            return __res_7307;
+            return __res_7363;
         }
     }
 }

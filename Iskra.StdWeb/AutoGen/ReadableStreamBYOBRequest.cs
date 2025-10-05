@@ -9,13 +9,20 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamBYOBRequest(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<UnknownNamespace.Int8Array, UnknownNamespace.Int16Array, UnknownNamespace.Int32Array, Iskra.JSCore.Uint8Array, UnknownNamespace.Uint16Array, Iskra.JSCore.Uint32Array, UnknownNamespace.Uint8ClampedArray, UnknownNamespace.BigInt64Array, UnknownNamespace.BigUint64Array, UnknownNamespace.Float16Array, Iskra.JSCore.Float32Array, UnknownNamespace.Float64Array, Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? View
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? View
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<UnknownNamespace.Int8Array, UnknownNamespace.Int16Array, UnknownNamespace.Int32Array, Iskra.JSCore.Uint8Array, UnknownNamespace.Uint16Array, Iskra.JSCore.Uint32Array, UnknownNamespace.Uint8ClampedArray, UnknownNamespace.BigInt64Array, UnknownNamespace.BigUint64Array, UnknownNamespace.Float16Array, Iskra.JSCore.Float32Array, UnknownNamespace.Float64Array, Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_948;
-            throw new Exception();
-            return __res_948;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_985;
+            JSObject? __propObject_986;
+            __propObject_986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "view");
+            if (__propObject_986 is null)
+            {
+                return null;
+            }
+
+            __res_985 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_986);
+            return __res_985;
         }
     }
 }

@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class WindowClient(JSObject obj): Client(obj)
 {
-    public Iskra.StdWeb.DocumentVisibilityState VisibilityState
+    public global::Iskra.StdWeb.DocumentVisibilityState VisibilityState
     {
         get
         {
-            Iskra.StdWeb.DocumentVisibilityState __res_4547;
-            JSObject __res_4548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "visibilityState");
+            global::Iskra.StdWeb.DocumentVisibilityState __res_4589;
+            JSObject __res_4590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "visibilityState");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DocumentVisibilityState } not supported.");
-            return __res_4547;
+            return __res_4589;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
-            bool __res_4549;
-            bool __res_4550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
-            __res_4549 = __res_4550;
-            return __res_4549;
+            bool __res_4591;
+            bool __res_4592 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
+            __res_4591 = __res_4592;
+            return __res_4591;
         }
     }
 
@@ -35,11 +35,11 @@ public partial class WindowClient(JSObject obj): Client(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4551;
-            JSObject __propObject_4552;
-            __propObject_4552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ancestorOrigins");
-            __res_4551 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4552);
-            return __res_4551;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4593;
+            JSObject __propObject_4594;
+            __propObject_4594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ancestorOrigins");
+            __res_4593 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4594);
+            return __res_4593;
         }
     }
 }

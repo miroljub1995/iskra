@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CSSNestedDeclarations(JSObject obj): CSSRule(obj)
 {
-    public Iskra.StdWeb.CSSStyleProperties Style
+    public global::Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {
-            Iskra.StdWeb.CSSStyleProperties __res_2681;
-            JSObject __res_2682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            global::Iskra.StdWeb.CSSStyleProperties __res_2720;
+            JSObject __res_2721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleProperties } not supported.");
-            return __res_2681;
+            return __res_2720;
         }
     }
 }

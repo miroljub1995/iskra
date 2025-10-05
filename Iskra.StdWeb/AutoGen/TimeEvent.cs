@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class TimeEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.Window? View
+    public global::Iskra.StdWeb.Window? View
     {
         get
         {
-            Iskra.StdWeb.Window? __res_819;
-            JSObject? __res_820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_820 is null)
+            global::Iskra.StdWeb.Window? __res_856;
+            JSObject? __res_857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_857 is null)
             {
-                __res_819 = null;
+                __res_856 = null;
             }
             else
             {
-                JSObject __notNullable_821 = (JSObject)__res_820;
+                JSObject __notNullable_858 = (JSObject)__res_857;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
             }
-            return __res_819;
+            return __res_856;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TimeEvent(JSObject obj): Event(obj)
     {
         get
         {
-            int __res_822;
-            double __res_823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_822 = Convert.ToInt32(__res_823);
-            return __res_822;
+            int __res_859;
+            double __res_860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_859 = Convert.ToInt32(__res_860);
+            return __res_859;
         }
     }
 }

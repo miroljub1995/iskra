@@ -13,10 +13,10 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            string __res_3418;
-            string __res_3419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_3418 = __res_3419;
-            return __res_3418;
+            string __res_3458;
+            string __res_3459 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_3458 = __res_3459;
+            return __res_3458;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class DigitalCredential(JSObject obj): Credential(obj)
     {
         get
         {
-            JSObject __res_3420;
-            JSObject __res_3421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_3420 = __res_3421;
-            return __res_3420;
+            JSObject __res_3460;
+            JSObject __res_3461 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_3460 = __res_3461;
+            return __res_3460;
         }
     }
 }

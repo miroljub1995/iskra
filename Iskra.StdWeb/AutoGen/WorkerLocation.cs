@@ -13,10 +13,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6935;
-            string __res_6936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_6935 = __res_6936;
-            return __res_6935;
+            string __res_6988;
+            string __res_6989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_6988 = __res_6989;
+            return __res_6988;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6937;
-            string __res_6938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_6937 = __res_6938;
-            return __res_6937;
+            string __res_6990;
+            string __res_6991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_6990 = __res_6991;
+            return __res_6990;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6939;
-            string __res_6940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_6939 = __res_6940;
-            return __res_6939;
+            string __res_6992;
+            string __res_6993 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_6992 = __res_6993;
+            return __res_6992;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6941;
-            string __res_6942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
-            __res_6941 = __res_6942;
-            return __res_6941;
+            string __res_6994;
+            string __res_6995 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_6994 = __res_6995;
+            return __res_6994;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6943;
-            string __res_6944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_6943 = __res_6944;
-            return __res_6943;
+            string __res_6996;
+            string __res_6997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_6996 = __res_6997;
+            return __res_6996;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6945;
-            string __res_6946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_6945 = __res_6946;
-            return __res_6945;
+            string __res_6998;
+            string __res_6999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_6998 = __res_6999;
+            return __res_6998;
         }
     }
 
@@ -79,10 +79,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6947;
-            string __res_6948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_6947 = __res_6948;
-            return __res_6947;
+            string __res_7000;
+            string __res_7001 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_7000 = __res_7001;
+            return __res_7000;
         }
     }
 
@@ -90,10 +90,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6949;
-            string __res_6950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_6949 = __res_6950;
-            return __res_6949;
+            string __res_7002;
+            string __res_7003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_7002 = __res_7003;
+            return __res_7002;
         }
     }
 
@@ -101,10 +101,10 @@ public partial class WorkerLocation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_6951;
-            string __res_6952 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_6951 = __res_6952;
-            return __res_6951;
+            string __res_7004;
+            string __res_7005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_7004 = __res_7005;
+            return __res_7004;
         }
     }
 }

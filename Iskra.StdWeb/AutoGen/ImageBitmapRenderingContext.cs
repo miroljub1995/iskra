@@ -9,13 +9,15 @@ namespace Iskra.StdWeb;
 
 public partial class ImageBitmapRenderingContext(JSObject obj): JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.HTMLCanvasElement, Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.HTMLCanvasElement, Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6465;
-            throw new Exception();
-            return __res_6465;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6515;
+            JSObject __propObject_6516;
+            __propObject_6516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
+            __res_6515 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6516);
+            return __res_6515;
         }
     }
 }

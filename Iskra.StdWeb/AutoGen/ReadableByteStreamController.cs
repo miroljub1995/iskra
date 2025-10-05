@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.ReadableStreamBYOBRequest? ByobRequest
+    public global::Iskra.StdWeb.ReadableStreamBYOBRequest? ByobRequest
     {
         get
         {
-            Iskra.StdWeb.ReadableStreamBYOBRequest? __res_942;
-            JSObject? __res_943 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
-            if (__res_943 is null)
+            global::Iskra.StdWeb.ReadableStreamBYOBRequest? __res_979;
+            JSObject? __res_980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
+            if (__res_980 is null)
             {
-                __res_942 = null;
+                __res_979 = null;
             }
             else
             {
-                JSObject __notNullable_944 = (JSObject)__res_943;
+                JSObject __notNullable_981 = (JSObject)__res_980;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStreamBYOBRequest } not supported.");
             }
-            return __res_942;
+            return __res_979;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class ReadableByteStreamController(JSObject obj): JSObjectProxy(o
     {
         get
         {
-            double? __res_945;
-            double? __res_946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_946 is null)
+            double? __res_982;
+            double? __res_983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_983 is null)
             {
-                __res_945 = null;
+                __res_982 = null;
             }
             else
             {
-                double __notNullable_947 = (double)__res_946;
-                __res_945 = __notNullable_947;
+                double __notNullable_984 = (double)__res_983;
+                __res_982 = __notNullable_984;
             }
-            return __res_945;
+            return __res_982;
         }
     }
 }

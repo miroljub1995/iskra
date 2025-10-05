@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRSessionEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.XRSession Session
+    public global::Iskra.StdWeb.XRSession Session
     {
         get
         {
-            Iskra.StdWeb.XRSession __res_4305;
-            JSObject __res_4306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            global::Iskra.StdWeb.XRSession __res_4346;
+            JSObject __res_4347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSession } not supported.");
-            return __res_4305;
+            return __res_4346;
         }
     }
 }

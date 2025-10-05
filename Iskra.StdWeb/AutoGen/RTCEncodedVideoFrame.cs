@@ -9,31 +9,31 @@ namespace Iskra.StdWeb;
 
 public partial class RTCEncodedVideoFrame(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.RTCEncodedVideoFrameType Type
+    public global::Iskra.StdWeb.RTCEncodedVideoFrameType Type
     {
         get
         {
-            Iskra.StdWeb.RTCEncodedVideoFrameType __res_1009;
-            JSObject __res_1010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            global::Iskra.StdWeb.RTCEncodedVideoFrameType __res_1048;
+            JSObject __res_1049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCEncodedVideoFrameType } not supported.");
-            return __res_1009;
+            return __res_1048;
         }
     }
 
-    public Iskra.JSCore.ArrayBuffer Data
+    public global::Iskra.JSCore.ArrayBuffer Data
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_1011;
-            JSObject __res_1012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            global::Iskra.JSCore.ArrayBuffer __res_1050;
+            JSObject __res_1051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_1011;
+            return __res_1050;
         }
         set
         {
-            JSObject __marshalledValue_1013;
+            JSObject __marshalledValue_1052;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1013);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1052);
         }
     }
 }

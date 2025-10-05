@@ -9,47 +9,47 @@ namespace Iskra.StdWeb;
 
 public partial class GPUDevice(JSObject obj): EventTarget(obj)
 {
-    public Iskra.StdWeb.GPUSupportedFeatures Features
+    public global::Iskra.StdWeb.GPUSupportedFeatures Features
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedFeatures __res_715;
-            JSObject __res_716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            global::Iskra.StdWeb.GPUSupportedFeatures __res_751;
+            JSObject __res_752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUSupportedFeatures } not supported.");
-            return __res_715;
+            return __res_751;
         }
     }
 
-    public Iskra.StdWeb.GPUSupportedLimits Limits
+    public global::Iskra.StdWeb.GPUSupportedLimits Limits
     {
         get
         {
-            Iskra.StdWeb.GPUSupportedLimits __res_717;
-            JSObject __res_718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            global::Iskra.StdWeb.GPUSupportedLimits __res_753;
+            JSObject __res_754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUSupportedLimits } not supported.");
-            return __res_717;
+            return __res_753;
         }
     }
 
-    public Iskra.StdWeb.GPUAdapterInfo AdapterInfo
+    public global::Iskra.StdWeb.GPUAdapterInfo AdapterInfo
     {
         get
         {
-            Iskra.StdWeb.GPUAdapterInfo __res_719;
-            JSObject __res_720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
+            global::Iskra.StdWeb.GPUAdapterInfo __res_755;
+            JSObject __res_756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUAdapterInfo } not supported.");
-            return __res_719;
+            return __res_755;
         }
     }
 
-    public Iskra.StdWeb.GPUQueue Queue
+    public global::Iskra.StdWeb.GPUQueue Queue
     {
         get
         {
-            Iskra.StdWeb.GPUQueue __res_721;
-            JSObject __res_722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
+            global::Iskra.StdWeb.GPUQueue __res_757;
+            JSObject __res_758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUQueue } not supported.");
-            return __res_721;
+            return __res_757;
         }
     }
 }

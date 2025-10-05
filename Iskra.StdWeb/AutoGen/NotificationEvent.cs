@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
 {
-    public Iskra.StdWeb.Notification Notification
+    public global::Iskra.StdWeb.Notification Notification
     {
         get
         {
-            Iskra.StdWeb.Notification __res_4382;
-            JSObject __res_4383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
+            global::Iskra.StdWeb.Notification __res_4423;
+            JSObject __res_4424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Notification } not supported.");
-            return __res_4382;
+            return __res_4423;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class NotificationEvent(JSObject obj): ExtendableEvent(obj)
     {
         get
         {
-            string __res_4384;
-            string __res_4385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
-            __res_4384 = __res_4385;
-            return __res_4384;
+            string __res_4425;
+            string __res_4426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
+            __res_4425 = __res_4426;
+            return __res_4425;
         }
     }
 }

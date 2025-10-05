@@ -13,27 +13,27 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_6641;
-            double __res_6642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6641 = Convert.ToUInt32(__res_6642);
-            return __res_6641;
+            uint __res_6692;
+            double __res_6693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6692 = Convert.ToUInt32(__res_6693);
+            return __res_6692;
         }
     }
 
-    public Iskra.StdWeb.ScrollRestoration ScrollRestoration
+    public global::Iskra.StdWeb.ScrollRestoration ScrollRestoration
     {
         get
         {
-            Iskra.StdWeb.ScrollRestoration __res_6643;
-            JSObject __res_6644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollRestoration");
+            global::Iskra.StdWeb.ScrollRestoration __res_6694;
+            JSObject __res_6695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollRestoration");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollRestoration } not supported.");
-            return __res_6643;
+            return __res_6694;
         }
         set
         {
-            JSObject __marshalledValue_6645;
+            JSObject __marshalledValue_6696;
             throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollRestoration } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scrollRestoration", __marshalledValue_6645);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scrollRestoration", __marshalledValue_6696);
         }
     }
 
@@ -41,10 +41,10 @@ public partial class History(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object? __res_6646;
-            JSObject __res_6647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            object? __res_6697;
+            JSObject __res_6698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6646;
+            return __res_6697;
         }
     }
 }

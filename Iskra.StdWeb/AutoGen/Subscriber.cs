@@ -13,21 +13,21 @@ public partial class Subscriber(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_4938;
-            bool __res_4939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_4938 = __res_4939;
-            return __res_4938;
+            bool __res_4981;
+            bool __res_4982 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_4981 = __res_4982;
+            return __res_4981;
         }
     }
 
-    public Iskra.StdWeb.AbortSignal Signal
+    public global::Iskra.StdWeb.AbortSignal Signal
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_4940;
-            JSObject __res_4941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            global::Iskra.StdWeb.AbortSignal __res_4983;
+            JSObject __res_4984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AbortSignal } not supported.");
-            return __res_4940;
+            return __res_4983;
         }
     }
 }

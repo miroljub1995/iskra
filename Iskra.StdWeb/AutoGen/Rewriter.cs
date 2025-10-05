@@ -13,43 +13,43 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_186;
-            string __res_187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_186 = __res_187;
-            return __res_186;
+            string __res_222;
+            string __res_223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_222 = __res_223;
+            return __res_222;
         }
     }
 
-    public Iskra.StdWeb.RewriterTone Tone
+    public global::Iskra.StdWeb.RewriterTone Tone
     {
         get
         {
-            Iskra.StdWeb.RewriterTone __res_188;
-            JSObject __res_189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
+            global::Iskra.StdWeb.RewriterTone __res_224;
+            JSObject __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterTone } not supported.");
-            return __res_188;
+            return __res_224;
         }
     }
 
-    public Iskra.StdWeb.RewriterFormat Format
+    public global::Iskra.StdWeb.RewriterFormat Format
     {
         get
         {
-            Iskra.StdWeb.RewriterFormat __res_190;
-            JSObject __res_191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
+            global::Iskra.StdWeb.RewriterFormat __res_226;
+            JSObject __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterFormat } not supported.");
-            return __res_190;
+            return __res_226;
         }
     }
 
-    public Iskra.StdWeb.RewriterLength Length
+    public global::Iskra.StdWeb.RewriterLength Length
     {
         get
         {
-            Iskra.StdWeb.RewriterLength __res_192;
-            JSObject __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            global::Iskra.StdWeb.RewriterLength __res_228;
+            JSObject __res_229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterLength } not supported.");
-            return __res_192;
+            return __res_228;
         }
     }
 
@@ -57,16 +57,16 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_194;
-            JSObject? __propObject_195;
-            __propObject_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_195 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_230;
+            JSObject? __propObject_231;
+            __propObject_231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_231 is null)
             {
                 return null;
             }
 
-            __res_194 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_195);
-            return __res_194;
+            __res_230 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_231);
+            return __res_230;
         }
     }
 
@@ -74,16 +74,16 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_196;
-            JSObject? __propObject_197;
-            __propObject_197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
-            if (__propObject_197 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_232;
+            JSObject? __propObject_233;
+            __propObject_233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
+            if (__propObject_233 is null)
             {
                 return null;
             }
 
-            __res_196 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_197);
-            return __res_196;
+            __res_232 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_233);
+            return __res_232;
         }
     }
 
@@ -91,18 +91,18 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_198;
-            string? __res_199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_199 is null)
+            string? __res_234;
+            string? __res_235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_235 is null)
             {
-                __res_198 = null;
+                __res_234 = null;
             }
             else
             {
-                string __notNullable_200 = (string)__res_199;
-                __res_198 = __notNullable_200;
+                string __notNullable_236 = (string)__res_235;
+                __res_234 = __notNullable_236;
             }
-            return __res_198;
+            return __res_234;
         }
     }
 
@@ -110,10 +110,10 @@ public partial class Rewriter(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_201;
-            double __res_202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_201 = __res_202;
-            return __res_201;
+            double __res_237;
+            double __res_238 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_237 = __res_238;
+            return __res_237;
         }
     }
 }

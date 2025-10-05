@@ -13,10 +13,10 @@ public partial class SVGTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_375;
-            double __res_376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_375 = Convert.ToUInt32(__res_376);
-            return __res_375;
+            uint __res_411;
+            double __res_412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_411 = Convert.ToUInt32(__res_412);
+            return __res_411;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class SVGTransformList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_377;
-            double __res_378 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_377 = Convert.ToUInt32(__res_378);
-            return __res_377;
+            uint __res_413;
+            double __res_414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_413 = Convert.ToUInt32(__res_414);
+            return __res_413;
         }
     }
 }

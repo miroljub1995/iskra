@@ -56,6 +56,18 @@ public class GetPropertyValueGenerator(
             );
         }
 
+        if (type is UnionTypeDescription unionTypeDescription)
+        {
+            return GenerateForUnion(
+                inputVar: inputVar,
+                type: unionTypeDescription,
+                propertyNameVar: propertyNameVar,
+                isStatic: isStatic,
+                containingTypeName: containingTypeName,
+                outputVar: outputVar
+            );
+        }
+
         var content = $$"""
                         throw new Exception();
                         """;
@@ -270,6 +282,60 @@ public class GetPropertyValueGenerator(
         {
             getPropertyContent = $$"""
                                    {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+        }
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     {{getPropertyContent}}
+                     if ({{getPropertyVar}} is null)
+                     {
+                         return null;
+                     }
+
+                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     """;
+        }
+
+        return $$"""
+                 JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 {{getPropertyContent}}
+                 {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                 """;
+    }
+
+
+    private string GenerateForUnion(
+        string inputVar,
+        UnionTypeDescription type,
+        string propertyNameVar,
+        bool isStatic,
+        string containingTypeName,
+        string outputVar
+    )
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        var constructor = toTypeDeclarationGenerator.Generate(type with { Nullable = false });
+
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        string getPropertyContent;
+        if (isStatic)
+        {
+            return $$"""
+                     throw new Exception();
+                     """;
+        }
+        else
+        {
+            getPropertyContent = $$"""
+                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
 

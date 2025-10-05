@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorklet(JSObject obj): Worklet(obj)
 {
-    public Iskra.StdWeb.MessagePort Port
+    public global::Iskra.StdWeb.MessagePort Port
     {
         get
         {
-            Iskra.StdWeb.MessagePort __res_8289;
-            JSObject __res_8290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            global::Iskra.StdWeb.MessagePort __res_8349;
+            JSObject __res_8350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
-            return __res_8289;
+            return __res_8349;
         }
     }
 }

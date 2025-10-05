@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGClipPathElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedEnumeration ClipPathUnits
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration ClipPathUnits
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_2898;
-            JSObject __res_2899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipPathUnits");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2938;
+            JSObject __res_2939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipPathUnits");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_2898;
+            return __res_2938;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedTransformList Transform
+    public global::Iskra.StdWeb.SVGAnimatedTransformList Transform
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedTransformList __res_2900;
-            JSObject __res_2901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            global::Iskra.StdWeb.SVGAnimatedTransformList __res_2940;
+            JSObject __res_2941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedTransformList } not supported.");
-            return __res_2900;
+            return __res_2940;
         }
     }
 }

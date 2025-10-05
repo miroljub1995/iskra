@@ -13,10 +13,10 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            ushort __res_3187;
-            double __res_3188 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nodeType");
-            __res_3187 = Convert.ToUInt16(__res_3188);
-            return __res_3187;
+            ushort __res_3227;
+            double __res_3228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nodeType");
+            __res_3227 = Convert.ToUInt16(__res_3228);
+            return __res_3227;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3189;
-            string __res_3190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "nodeName");
-            __res_3189 = __res_3190;
-            return __res_3189;
+            string __res_3229;
+            string __res_3230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "nodeName");
+            __res_3229 = __res_3230;
+            return __res_3229;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string __res_3191;
-            string __res_3192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "baseURI");
-            __res_3191 = __res_3192;
-            return __res_3191;
+            string __res_3231;
+            string __res_3232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "baseURI");
+            __res_3231 = __res_3232;
+            return __res_3231;
         }
     }
 
@@ -46,154 +46,154 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_3193;
-            bool __res_3194 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isConnected");
-            __res_3193 = __res_3194;
-            return __res_3193;
+            bool __res_3233;
+            bool __res_3234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isConnected");
+            __res_3233 = __res_3234;
+            return __res_3233;
         }
     }
 
-    public Iskra.StdWeb.Document? OwnerDocument
+    public global::Iskra.StdWeb.Document? OwnerDocument
     {
         get
         {
-            Iskra.StdWeb.Document? __res_3195;
-            JSObject? __res_3196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerDocument");
-            if (__res_3196 is null)
+            global::Iskra.StdWeb.Document? __res_3235;
+            JSObject? __res_3236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerDocument");
+            if (__res_3236 is null)
             {
-                __res_3195 = null;
+                __res_3235 = null;
             }
             else
             {
-                JSObject __notNullable_3197 = (JSObject)__res_3196;
+                JSObject __notNullable_3237 = (JSObject)__res_3236;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
             }
-            return __res_3195;
+            return __res_3235;
         }
     }
 
-    public Iskra.StdWeb.Node? ParentNode
+    public global::Iskra.StdWeb.Node? ParentNode
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3198;
-            JSObject? __res_3199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentNode");
-            if (__res_3199 is null)
+            global::Iskra.StdWeb.Node? __res_3238;
+            JSObject? __res_3239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentNode");
+            if (__res_3239 is null)
             {
-                __res_3198 = null;
+                __res_3238 = null;
             }
             else
             {
-                JSObject __notNullable_3200 = (JSObject)__res_3199;
+                JSObject __notNullable_3240 = (JSObject)__res_3239;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3198;
+            return __res_3238;
         }
     }
 
-    public Iskra.StdWeb.Element? ParentElement
+    public global::Iskra.StdWeb.Element? ParentElement
     {
         get
         {
-            Iskra.StdWeb.Element? __res_3201;
-            JSObject? __res_3202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentElement");
-            if (__res_3202 is null)
+            global::Iskra.StdWeb.Element? __res_3241;
+            JSObject? __res_3242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentElement");
+            if (__res_3242 is null)
             {
-                __res_3201 = null;
+                __res_3241 = null;
             }
             else
             {
-                JSObject __notNullable_3203 = (JSObject)__res_3202;
+                JSObject __notNullable_3243 = (JSObject)__res_3242;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
             }
-            return __res_3201;
+            return __res_3241;
         }
     }
 
-    public Iskra.StdWeb.NodeList ChildNodes
+    public global::Iskra.StdWeb.NodeList ChildNodes
     {
         get
         {
-            Iskra.StdWeb.NodeList __res_3204;
-            JSObject __res_3205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childNodes");
+            global::Iskra.StdWeb.NodeList __res_3244;
+            JSObject __res_3245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childNodes");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
-            return __res_3204;
+            return __res_3244;
         }
     }
 
-    public Iskra.StdWeb.Node? FirstChild
+    public global::Iskra.StdWeb.Node? FirstChild
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3206;
-            JSObject? __res_3207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
-            if (__res_3207 is null)
+            global::Iskra.StdWeb.Node? __res_3246;
+            JSObject? __res_3247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_3247 is null)
             {
-                __res_3206 = null;
+                __res_3246 = null;
             }
             else
             {
-                JSObject __notNullable_3208 = (JSObject)__res_3207;
+                JSObject __notNullable_3248 = (JSObject)__res_3247;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3206;
+            return __res_3246;
         }
     }
 
-    public Iskra.StdWeb.Node? LastChild
+    public global::Iskra.StdWeb.Node? LastChild
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3209;
-            JSObject? __res_3210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
-            if (__res_3210 is null)
+            global::Iskra.StdWeb.Node? __res_3249;
+            JSObject? __res_3250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
+            if (__res_3250 is null)
             {
-                __res_3209 = null;
+                __res_3249 = null;
             }
             else
             {
-                JSObject __notNullable_3211 = (JSObject)__res_3210;
+                JSObject __notNullable_3251 = (JSObject)__res_3250;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3209;
+            return __res_3249;
         }
     }
 
-    public Iskra.StdWeb.Node? PreviousSibling
+    public global::Iskra.StdWeb.Node? PreviousSibling
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3212;
-            JSObject? __res_3213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
-            if (__res_3213 is null)
+            global::Iskra.StdWeb.Node? __res_3252;
+            JSObject? __res_3253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
+            if (__res_3253 is null)
             {
-                __res_3212 = null;
+                __res_3252 = null;
             }
             else
             {
-                JSObject __notNullable_3214 = (JSObject)__res_3213;
+                JSObject __notNullable_3254 = (JSObject)__res_3253;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3212;
+            return __res_3252;
         }
     }
 
-    public Iskra.StdWeb.Node? NextSibling
+    public global::Iskra.StdWeb.Node? NextSibling
     {
         get
         {
-            Iskra.StdWeb.Node? __res_3215;
-            JSObject? __res_3216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
-            if (__res_3216 is null)
+            global::Iskra.StdWeb.Node? __res_3255;
+            JSObject? __res_3256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
+            if (__res_3256 is null)
             {
-                __res_3215 = null;
+                __res_3255 = null;
             }
             else
             {
-                JSObject __notNullable_3217 = (JSObject)__res_3216;
+                JSObject __notNullable_3257 = (JSObject)__res_3256;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
             }
-            return __res_3215;
+            return __res_3255;
         }
     }
 
@@ -201,32 +201,32 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_3218;
-            string? __res_3219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "nodeValue");
-            if (__res_3219 is null)
+            string? __res_3258;
+            string? __res_3259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "nodeValue");
+            if (__res_3259 is null)
             {
-                __res_3218 = null;
+                __res_3258 = null;
             }
             else
             {
-                string __notNullable_3220 = (string)__res_3219;
-                __res_3218 = __notNullable_3220;
+                string __notNullable_3260 = (string)__res_3259;
+                __res_3258 = __notNullable_3260;
             }
-            return __res_3218;
+            return __res_3258;
         }
         set
         {
-            string? __marshalledValue_3221;
+            string? __marshalledValue_3261;
             if (value is null)
             {
-                __marshalledValue_3221 = null;
+                __marshalledValue_3261 = null;
             }
             else
             {
-                string __notNullable_3222 = (string)value;
-                __marshalledValue_3221 = __notNullable_3222;
+                string __notNullable_3262 = (string)value;
+                __marshalledValue_3261 = __notNullable_3262;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "nodeValue", __marshalledValue_3221);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "nodeValue", __marshalledValue_3261);
         }
     }
 
@@ -234,32 +234,32 @@ public partial class Node(JSObject obj): EventTarget(obj)
     {
         get
         {
-            string? __res_3223;
-            string? __res_3224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "textContent");
-            if (__res_3224 is null)
+            string? __res_3263;
+            string? __res_3264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "textContent");
+            if (__res_3264 is null)
             {
-                __res_3223 = null;
+                __res_3263 = null;
             }
             else
             {
-                string __notNullable_3225 = (string)__res_3224;
-                __res_3223 = __notNullable_3225;
+                string __notNullable_3265 = (string)__res_3264;
+                __res_3263 = __notNullable_3265;
             }
-            return __res_3223;
+            return __res_3263;
         }
         set
         {
-            string? __marshalledValue_3226;
+            string? __marshalledValue_3266;
             if (value is null)
             {
-                __marshalledValue_3226 = null;
+                __marshalledValue_3266 = null;
             }
             else
             {
-                string __notNullable_3227 = (string)value;
-                __marshalledValue_3226 = __notNullable_3227;
+                string __notNullable_3267 = (string)value;
+                __marshalledValue_3266 = __notNullable_3267;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "textContent", __marshalledValue_3226);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "textContent", __marshalledValue_3266);
         }
     }
 }

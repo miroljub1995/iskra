@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorAttestationResponse(JSObject obj): AuthenticatorResponse(obj)
 {
-    public Iskra.JSCore.ArrayBuffer AttestationObject
+    public global::Iskra.JSCore.ArrayBuffer AttestationObject
     {
         get
         {
-            Iskra.JSCore.ArrayBuffer __res_2839;
-            JSObject __res_2840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
+            global::Iskra.JSCore.ArrayBuffer __res_2879;
+            JSObject __res_2880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
-            return __res_2839;
+            return __res_2879;
         }
     }
 }

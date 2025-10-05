@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionAvailableEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.PresentationConnection Connection
+    public global::Iskra.StdWeb.PresentationConnection Connection
     {
         get
         {
-            Iskra.StdWeb.PresentationConnection __res_2253;
-            JSObject __res_2254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
+            global::Iskra.StdWeb.PresentationConnection __res_2292;
+            JSObject __res_2293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnection } not supported.");
-            return __res_2253;
+            return __res_2292;
         }
     }
 }

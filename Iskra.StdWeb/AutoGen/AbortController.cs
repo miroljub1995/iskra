@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class AbortController(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.AbortSignal Signal
+    public global::Iskra.StdWeb.AbortSignal Signal
     {
         get
         {
-            Iskra.StdWeb.AbortSignal __res_3149;
-            JSObject __res_3150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            global::Iskra.StdWeb.AbortSignal __res_3189;
+            JSObject __res_3190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AbortSignal } not supported.");
-            return __res_3149;
+            return __res_3189;
         }
     }
 }

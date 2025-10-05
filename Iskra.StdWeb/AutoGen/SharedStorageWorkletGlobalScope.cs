@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorkletGlobalScope(JSObject obj): WorkletGlobalScope(obj)
 {
-    public Iskra.StdWeb.SharedStorage SharedStorage
+    public global::Iskra.StdWeb.SharedStorage SharedStorage
     {
         get
         {
-            Iskra.StdWeb.SharedStorage __res_4136;
-            JSObject __res_4137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
+            global::Iskra.StdWeb.SharedStorage __res_4177;
+            JSObject __res_4178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorage } not supported.");
-            return __res_4136;
+            return __res_4177;
         }
     }
 
-    public Iskra.StdWeb.PrivateAggregation PrivateAggregation
+    public global::Iskra.StdWeb.PrivateAggregation PrivateAggregation
     {
         get
         {
-            Iskra.StdWeb.PrivateAggregation __res_4138;
-            JSObject __res_4139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
+            global::Iskra.StdWeb.PrivateAggregation __res_4179;
+            JSObject __res_4180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
-            return __res_4138;
+            return __res_4179;
         }
     }
 
-    public Iskra.StdWeb.SharedStorageWorkletNavigator Navigator
+    public global::Iskra.StdWeb.SharedStorageWorkletNavigator Navigator
     {
         get
         {
-            Iskra.StdWeb.SharedStorageWorkletNavigator __res_4140;
-            JSObject __res_4141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            global::Iskra.StdWeb.SharedStorageWorkletNavigator __res_4181;
+            JSObject __res_4182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorageWorkletNavigator } not supported.");
-            return __res_4140;
+            return __res_4181;
         }
     }
 }

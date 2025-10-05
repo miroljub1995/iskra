@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
 {
-    public Iskra.StdWeb.ShadowRootMode Mode
+    public global::Iskra.StdWeb.ShadowRootMode Mode
     {
         get
         {
-            Iskra.StdWeb.ShadowRootMode __res_3256;
-            JSObject __res_3257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
+            global::Iskra.StdWeb.ShadowRootMode __res_3296;
+            JSObject __res_3297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ShadowRootMode } not supported.");
-            return __res_3256;
+            return __res_3296;
         }
     }
 
@@ -24,21 +24,21 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_3258;
-            bool __res_3259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
-            __res_3258 = __res_3259;
-            return __res_3258;
+            bool __res_3298;
+            bool __res_3299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
+            __res_3298 = __res_3299;
+            return __res_3298;
         }
     }
 
-    public Iskra.StdWeb.SlotAssignmentMode SlotAssignment
+    public global::Iskra.StdWeb.SlotAssignmentMode SlotAssignment
     {
         get
         {
-            Iskra.StdWeb.SlotAssignmentMode __res_3260;
-            JSObject __res_3261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slotAssignment");
+            global::Iskra.StdWeb.SlotAssignmentMode __res_3300;
+            JSObject __res_3301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slotAssignment");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SlotAssignmentMode } not supported.");
-            return __res_3260;
+            return __res_3300;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_3262;
-            bool __res_3263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
-            __res_3262 = __res_3263;
-            return __res_3262;
+            bool __res_3302;
+            bool __res_3303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
+            __res_3302 = __res_3303;
+            return __res_3302;
         }
     }
 
@@ -57,54 +57,54 @@ public partial class ShadowRoot(JSObject obj): DocumentFragment(obj)
     {
         get
         {
-            bool __res_3264;
-            bool __res_3265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
-            __res_3264 = __res_3265;
-            return __res_3264;
+            bool __res_3304;
+            bool __res_3305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
+            __res_3304 = __res_3305;
+            return __res_3304;
         }
     }
 
-    public Iskra.StdWeb.Element Host
+    public global::Iskra.StdWeb.Element Host
     {
         get
         {
-            Iskra.StdWeb.Element __res_3266;
-            JSObject __res_3267 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
+            global::Iskra.StdWeb.Element __res_3306;
+            JSObject __res_3307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
-            return __res_3266;
+            return __res_3306;
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onslotchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onslotchange
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_3268;
-            JSObject? __res_3269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
-            if (__res_3269 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3308;
+            JSObject? __res_3309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
+            if (__res_3309 is null)
             {
-                __res_3268 = null;
+                __res_3308 = null;
             }
             else
             {
-                JSObject __notNullable_3270 = (JSObject)__res_3269;
+                JSObject __notNullable_3310 = (JSObject)__res_3309;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3268;
+            return __res_3308;
         }
         set
         {
-            JSObject? __marshalledValue_3271;
+            JSObject? __marshalledValue_3311;
             if (value is null)
             {
-                __marshalledValue_3271 = null;
+                __marshalledValue_3311 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_3272 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3312 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_3271);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_3311);
         }
     }
 }

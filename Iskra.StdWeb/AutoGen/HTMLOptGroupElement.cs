@@ -13,16 +13,16 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6166;
-            bool __res_6167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_6166 = __res_6167;
-            return __res_6166;
+            bool __res_6216;
+            bool __res_6217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_6216 = __res_6217;
+            return __res_6216;
         }
         set
         {
-            bool __marshalledValue_6168;
-            __marshalledValue_6168 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6168);
+            bool __marshalledValue_6218;
+            __marshalledValue_6218 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6218);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLOptGroupElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6169;
-            string __res_6170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_6169 = __res_6170;
-            return __res_6169;
+            string __res_6219;
+            string __res_6220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_6219 = __res_6220;
+            return __res_6219;
         }
         set
         {
-            string __marshalledValue_6171;
-            __marshalledValue_6171 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_6171);
+            string __marshalledValue_6221;
+            __marshalledValue_6221 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_6221);
         }
     }
 }

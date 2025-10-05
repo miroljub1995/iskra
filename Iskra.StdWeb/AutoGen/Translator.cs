@@ -13,10 +13,10 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3741;
-            string __res_3742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceLanguage");
-            __res_3741 = __res_3742;
-            return __res_3741;
+            string __res_3781;
+            string __res_3782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceLanguage");
+            __res_3781 = __res_3782;
+            return __res_3781;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_3743;
-            string __res_3744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetLanguage");
-            __res_3743 = __res_3744;
-            return __res_3743;
+            string __res_3783;
+            string __res_3784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetLanguage");
+            __res_3783 = __res_3784;
+            return __res_3783;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class Translator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_3745;
-            double __res_3746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_3745 = __res_3746;
-            return __res_3745;
+            double __res_3785;
+            double __res_3786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_3785 = __res_3786;
+            return __res_3785;
         }
     }
 }

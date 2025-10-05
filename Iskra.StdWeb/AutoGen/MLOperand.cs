@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.MLOperandDataType DataType
+    public global::Iskra.StdWeb.MLOperandDataType DataType
     {
         get
         {
-            Iskra.StdWeb.MLOperandDataType __res_4737;
-            JSObject __res_4738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
+            global::Iskra.StdWeb.MLOperandDataType __res_4780;
+            JSObject __res_4781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MLOperandDataType } not supported.");
-            return __res_4737;
+            return __res_4780;
         }
     }
 
@@ -24,11 +24,11 @@ public partial class MLOperand(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4739;
-            JSObject __propObject_4740;
-            __propObject_4740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
-            __res_4739 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4740);
-            return __res_4739;
+            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4782;
+            JSObject __propObject_4783;
+            __propObject_4783 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
+            __res_4782 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4783);
+            return __res_4782;
         }
     }
 }

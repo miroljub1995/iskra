@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void PositionCallback(Iskra.StdWeb.GeolocationPosition position);
+public delegate void PositionCallback(global::Iskra.StdWeb.GeolocationPosition position);
 
 #nullable disable

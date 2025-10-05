@@ -13,18 +13,18 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double? __res_2848;
-            double? __res_2849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
-            if (__res_2849 is null)
+            double? __res_2888;
+            double? __res_2889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            if (__res_2889 is null)
             {
-                __res_2848 = null;
+                __res_2888 = null;
             }
             else
             {
-                double __notNullable_2850 = (double)__res_2849;
-                __res_2848 = __notNullable_2850;
+                double __notNullable_2890 = (double)__res_2889;
+                __res_2888 = __notNullable_2890;
             }
-            return __res_2848;
+            return __res_2888;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double? __res_2851;
-            double? __res_2852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_2852 is null)
+            double? __res_2891;
+            double? __res_2892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
+            if (__res_2892 is null)
             {
-                __res_2851 = null;
+                __res_2891 = null;
             }
             else
             {
-                double __notNullable_2853 = (double)__res_2852;
-                __res_2851 = __notNullable_2853;
+                double __notNullable_2893 = (double)__res_2892;
+                __res_2891 = __notNullable_2893;
             }
-            return __res_2851;
+            return __res_2891;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            double? __res_2854;
-            double? __res_2855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_2855 is null)
+            double? __res_2894;
+            double? __res_2895 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
+            if (__res_2895 is null)
             {
-                __res_2854 = null;
+                __res_2894 = null;
             }
             else
             {
-                double __notNullable_2856 = (double)__res_2855;
-                __res_2854 = __notNullable_2856;
+                double __notNullable_2896 = (double)__res_2895;
+                __res_2894 = __notNullable_2896;
             }
-            return __res_2854;
+            return __res_2894;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class DeviceOrientationEvent(JSObject obj): Event(obj)
     {
         get
         {
-            bool __res_2857;
-            bool __res_2858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "absolute");
-            __res_2857 = __res_2858;
-            return __res_2857;
+            bool __res_2897;
+            bool __res_2898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "absolute");
+            __res_2897 = __res_2898;
+            return __res_2897;
         }
     }
 }

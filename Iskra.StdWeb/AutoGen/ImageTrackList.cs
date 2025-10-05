@@ -13,9 +13,9 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_2664;
+            object __res_2703;
             throw new Exception();
-            return __res_2664;
+            return __res_2703;
         }
     }
 
@@ -23,10 +23,10 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_2665;
-            double __res_2666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2665 = Convert.ToUInt32(__res_2666);
-            return __res_2665;
+            uint __res_2704;
+            double __res_2705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2704 = Convert.ToUInt32(__res_2705);
+            return __res_2704;
         }
     }
 
@@ -34,29 +34,29 @@ public partial class ImageTrackList(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            int __res_2667;
-            double __res_2668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_2667 = Convert.ToInt32(__res_2668);
-            return __res_2667;
+            int __res_2706;
+            double __res_2707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_2706 = Convert.ToInt32(__res_2707);
+            return __res_2706;
         }
     }
 
-    public Iskra.StdWeb.ImageTrack? SelectedTrack
+    public global::Iskra.StdWeb.ImageTrack? SelectedTrack
     {
         get
         {
-            Iskra.StdWeb.ImageTrack? __res_2669;
-            JSObject? __res_2670 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
-            if (__res_2670 is null)
+            global::Iskra.StdWeb.ImageTrack? __res_2708;
+            JSObject? __res_2709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
+            if (__res_2709 is null)
             {
-                __res_2669 = null;
+                __res_2708 = null;
             }
             else
             {
-                JSObject __notNullable_2671 = (JSObject)__res_2670;
+                JSObject __notNullable_2710 = (JSObject)__res_2709;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageTrack } not supported.");
             }
-            return __res_2669;
+            return __res_2708;
         }
     }
 }

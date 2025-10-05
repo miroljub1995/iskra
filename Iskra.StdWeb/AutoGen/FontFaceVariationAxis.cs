@@ -13,10 +13,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2115;
-            string __res_2116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2115 = __res_2116;
-            return __res_2115;
+            string __res_2154;
+            string __res_2155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2154 = __res_2155;
+            return __res_2154;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2117;
-            string __res_2118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axisTag");
-            __res_2117 = __res_2118;
-            return __res_2117;
+            string __res_2156;
+            string __res_2157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axisTag");
+            __res_2156 = __res_2157;
+            return __res_2156;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2119;
-            double __res_2120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minimumValue");
-            __res_2119 = __res_2120;
-            return __res_2119;
+            double __res_2158;
+            double __res_2159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minimumValue");
+            __res_2158 = __res_2159;
+            return __res_2158;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2121;
-            double __res_2122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maximumValue");
-            __res_2121 = __res_2122;
-            return __res_2121;
+            double __res_2160;
+            double __res_2161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maximumValue");
+            __res_2160 = __res_2161;
+            return __res_2160;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class FontFaceVariationAxis(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double __res_2123;
-            double __res_2124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
-            __res_2123 = __res_2124;
-            return __res_2123;
+            double __res_2162;
+            double __res_2163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
+            __res_2162 = __res_2163;
+            return __res_2162;
         }
     }
 }

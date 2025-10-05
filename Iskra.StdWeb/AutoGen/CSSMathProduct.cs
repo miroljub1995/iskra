@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathProduct(JSObject obj): CSSMathValue(obj)
 {
-    public Iskra.StdWeb.CSSNumericArray Values
+    public global::Iskra.StdWeb.CSSNumericArray Values
     {
         get
         {
-            Iskra.StdWeb.CSSNumericArray __res_51;
+            global::Iskra.StdWeb.CSSNumericArray __res_51;
             JSObject __res_52 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericArray } not supported.");
             return __res_51;

@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate Iskra.StdWeb.AudioWorkletProcessor AudioWorkletProcessorConstructor(JSObject options);
+public delegate global::Iskra.StdWeb.AudioWorkletProcessor AudioWorkletProcessorConstructor(JSObject options);
 
 #nullable disable

@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void EffectCallback(double? progress, global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> currentTarget, Iskra.StdWeb.Animation animation);
+public delegate void EffectCallback(double? progress, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> currentTarget, global::Iskra.StdWeb.Animation animation);
 
 #nullable disable

@@ -13,10 +13,10 @@ public partial class CSSSupportsRule(JSObject obj): CSSConditionRule(obj)
     {
         get
         {
-            bool __res_3433;
-            bool __res_3434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_3433 = __res_3434;
-            return __res_3433;
+            bool __res_3473;
+            bool __res_3474 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_3473 = __res_3474;
+            return __res_3473;
         }
     }
 }

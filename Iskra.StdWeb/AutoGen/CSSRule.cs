@@ -13,54 +13,54 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7278;
-            string __res_7279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
-            __res_7278 = __res_7279;
-            return __res_7278;
+            string __res_7334;
+            string __res_7335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
+            __res_7334 = __res_7335;
+            return __res_7334;
         }
         set
         {
-            string __marshalledValue_7280;
-            __marshalledValue_7280 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7280);
+            string __marshalledValue_7336;
+            __marshalledValue_7336 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7336);
         }
     }
 
-    public Iskra.StdWeb.CSSRule? ParentRule
+    public global::Iskra.StdWeb.CSSRule? ParentRule
     {
         get
         {
-            Iskra.StdWeb.CSSRule? __res_7281;
-            JSObject? __res_7282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
-            if (__res_7282 is null)
+            global::Iskra.StdWeb.CSSRule? __res_7337;
+            JSObject? __res_7338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
+            if (__res_7338 is null)
             {
-                __res_7281 = null;
+                __res_7337 = null;
             }
             else
             {
-                JSObject __notNullable_7283 = (JSObject)__res_7282;
+                JSObject __notNullable_7339 = (JSObject)__res_7338;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
             }
-            return __res_7281;
+            return __res_7337;
         }
     }
 
-    public Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
+    public global::Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
     {
         get
         {
-            Iskra.StdWeb.CSSStyleSheet? __res_7284;
-            JSObject? __res_7285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
-            if (__res_7285 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_7340;
+            JSObject? __res_7341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
+            if (__res_7341 is null)
             {
-                __res_7284 = null;
+                __res_7340 = null;
             }
             else
             {
-                JSObject __notNullable_7286 = (JSObject)__res_7285;
+                JSObject __notNullable_7342 = (JSObject)__res_7341;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleSheet } not supported.");
             }
-            return __res_7284;
+            return __res_7340;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class CSSRule(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            ushort __res_7287;
-            double __res_7288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_7287 = Convert.ToUInt16(__res_7288);
-            return __res_7287;
+            ushort __res_7343;
+            double __res_7344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_7343 = Convert.ToUInt16(__res_7344);
+            return __res_7343;
         }
     }
 }

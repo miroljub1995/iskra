@@ -13,21 +13,21 @@ public partial class SpeechRecognitionEvent(JSObject obj): Event(obj)
     {
         get
         {
-            uint __res_4022;
-            double __res_4023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultIndex");
-            __res_4022 = Convert.ToUInt32(__res_4023);
-            return __res_4022;
+            uint __res_4063;
+            double __res_4064 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultIndex");
+            __res_4063 = Convert.ToUInt32(__res_4064);
+            return __res_4063;
         }
     }
 
-    public Iskra.StdWeb.SpeechRecognitionResultList Results
+    public global::Iskra.StdWeb.SpeechRecognitionResultList Results
     {
         get
         {
-            Iskra.StdWeb.SpeechRecognitionResultList __res_4024;
-            JSObject __res_4025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
+            global::Iskra.StdWeb.SpeechRecognitionResultList __res_4065;
+            JSObject __res_4066 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechRecognitionResultList } not supported.");
-            return __res_4024;
+            return __res_4065;
         }
     }
 }

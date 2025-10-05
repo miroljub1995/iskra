@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.Node Root
+    public global::Iskra.StdWeb.Node Root
     {
         get
         {
-            Iskra.StdWeb.Node __res_3343;
-            JSObject __res_3344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            global::Iskra.StdWeb.Node __res_3383;
+            JSObject __res_3384 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
-            return __res_3343;
+            return __res_3383;
         }
     }
 
-    public Iskra.StdWeb.Node ReferenceNode
+    public global::Iskra.StdWeb.Node ReferenceNode
     {
         get
         {
-            Iskra.StdWeb.Node __res_3345;
-            JSObject __res_3346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
+            global::Iskra.StdWeb.Node __res_3385;
+            JSObject __res_3386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
-            return __res_3345;
+            return __res_3385;
         }
     }
 
@@ -35,10 +35,10 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_3347;
-            bool __res_3348 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
-            __res_3347 = __res_3348;
-            return __res_3347;
+            bool __res_3387;
+            bool __res_3388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
+            __res_3387 = __res_3388;
+            return __res_3387;
         }
     }
 
@@ -46,29 +46,29 @@ public partial class NodeIterator(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_3349;
-            double __res_3350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_3349 = Convert.ToUInt32(__res_3350);
-            return __res_3349;
+            uint __res_3389;
+            double __res_3390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
+            __res_3389 = Convert.ToUInt32(__res_3390);
+            return __res_3389;
         }
     }
 
-    public Iskra.StdWeb.NodeFilter? Filter
+    public global::Iskra.StdWeb.NodeFilter? Filter
     {
         get
         {
-            Iskra.StdWeb.NodeFilter? __res_3351;
-            JSObject? __res_3352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_3352 is null)
+            global::Iskra.StdWeb.NodeFilter? __res_3391;
+            JSObject? __res_3392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
+            if (__res_3392 is null)
             {
-                __res_3351 = null;
+                __res_3391 = null;
             }
             else
             {
-                JSObject __notNullable_3353 = (JSObject)__res_3352;
+                JSObject __notNullable_3393 = (JSObject)__res_3392;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeFilter } not supported.");
             }
-            return __res_3351;
+            return __res_3391;
         }
     }
 }

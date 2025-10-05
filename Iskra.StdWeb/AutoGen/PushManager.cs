@@ -13,9 +13,9 @@ public partial class PushManager(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4942;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4985;
             throw new Exception();
-            return __res_4942;
+            return __res_4985;
         }
     }
 }

@@ -9,36 +9,36 @@ namespace Iskra.StdWeb;
 
 public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.EventHandlerNonNull? Onaudioprocess
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onaudioprocess
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_8272;
-            JSObject? __res_8273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
-            if (__res_8273 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8332;
+            JSObject? __res_8333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
+            if (__res_8333 is null)
             {
-                __res_8272 = null;
+                __res_8332 = null;
             }
             else
             {
-                JSObject __notNullable_8274 = (JSObject)__res_8273;
+                JSObject __notNullable_8334 = (JSObject)__res_8333;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_8272;
+            return __res_8332;
         }
         set
         {
-            JSObject? __marshalledValue_8275;
+            JSObject? __marshalledValue_8335;
             if (value is null)
             {
-                __marshalledValue_8275 = null;
+                __marshalledValue_8335 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_8276 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8336 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_8275);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_8335);
         }
     }
 
@@ -46,10 +46,10 @@ public partial class ScriptProcessorNode(JSObject obj): AudioNode(obj)
     {
         get
         {
-            int __res_8277;
-            double __res_8278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
-            __res_8277 = Convert.ToInt32(__res_8278);
-            return __res_8277;
+            int __res_8337;
+            double __res_8338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
+            __res_8337 = Convert.ToInt32(__res_8338);
+            return __res_8337;
         }
     }
 }

@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.NavigationType NavigationType
+    public global::Iskra.StdWeb.NavigationType NavigationType
     {
         get
         {
-            Iskra.StdWeb.NavigationType __res_6697;
-            JSObject __res_6698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
+            global::Iskra.StdWeb.NavigationType __res_6748;
+            JSObject __res_6749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationType");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
-            return __res_6697;
+            return __res_6748;
         }
     }
 
-    public Iskra.StdWeb.NavigationHistoryEntry From
+    public global::Iskra.StdWeb.NavigationHistoryEntry From
     {
         get
         {
-            Iskra.StdWeb.NavigationHistoryEntry __res_6699;
-            JSObject __res_6700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_6750;
+            JSObject __res_6751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
-            return __res_6699;
+            return __res_6750;
         }
     }
 
@@ -35,9 +35,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6701;
+            object __res_6752;
             throw new Exception();
-            return __res_6701;
+            return __res_6752;
         }
     }
 
@@ -45,9 +45,9 @@ public partial class NavigationTransition(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            object __res_6702;
+            object __res_6753;
             throw new Exception();
-            return __res_6702;
+            return __res_6753;
         }
     }
 }

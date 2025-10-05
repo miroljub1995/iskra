@@ -13,16 +13,16 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_2233;
-            string __res_2234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2233 = __res_2234;
-            return __res_2233;
+            string __res_2272;
+            string __res_2273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2272 = __res_2273;
+            return __res_2272;
         }
         set
         {
-            string __marshalledValue_2235;
-            __marshalledValue_2235 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_2235);
+            string __marshalledValue_2274;
+            __marshalledValue_2274 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_2274);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class SVGPathSegment(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2236;
-            JSObject __propObject_2237;
-            __propObject_2237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            __res_2236 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2237);
-            return __res_2236;
+            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2275;
+            JSObject __propObject_2276;
+            __propObject_2276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            __res_2275 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2276);
+            return __res_2275;
         }
         set
         {
-            JSObject __propObject_2238 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_2238);
+            JSObject __propObject_2277 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_2277);
         }
     }
 }

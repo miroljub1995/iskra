@@ -13,10 +13,10 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_4593;
-            bool __res_4594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "activated");
-            __res_4593 = __res_4594;
-            return __res_4593;
+            bool __res_4636;
+            bool __res_4637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "activated");
+            __res_4636 = __res_4637;
+            return __res_4636;
         }
     }
 
@@ -24,10 +24,10 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            bool __res_4595;
-            bool __res_4596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasReading");
-            __res_4595 = __res_4596;
-            return __res_4595;
+            bool __res_4638;
+            bool __res_4639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasReading");
+            __res_4638 = __res_4639;
+            return __res_4638;
         }
     }
 
@@ -35,117 +35,117 @@ public partial class Sensor(JSObject obj): EventTarget(obj)
     {
         get
         {
-            double? __res_4597;
-            double? __res_4598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "timestamp");
-            if (__res_4598 is null)
+            double? __res_4640;
+            double? __res_4641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "timestamp");
+            if (__res_4641 is null)
             {
-                __res_4597 = null;
+                __res_4640 = null;
             }
             else
             {
-                double __notNullable_4599 = (double)__res_4598;
-                __res_4597 = __notNullable_4599;
+                double __notNullable_4642 = (double)__res_4641;
+                __res_4640 = __notNullable_4642;
             }
-            return __res_4597;
+            return __res_4640;
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onreading
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onreading
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4600;
-            JSObject? __res_4601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
-            if (__res_4601 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4643;
+            JSObject? __res_4644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
+            if (__res_4644 is null)
             {
-                __res_4600 = null;
+                __res_4643 = null;
             }
             else
             {
-                JSObject __notNullable_4602 = (JSObject)__res_4601;
+                JSObject __notNullable_4645 = (JSObject)__res_4644;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4600;
+            return __res_4643;
         }
         set
         {
-            JSObject? __marshalledValue_4603;
+            JSObject? __marshalledValue_4646;
             if (value is null)
             {
-                __marshalledValue_4603 = null;
+                __marshalledValue_4646 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4604 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4647 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_4603);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_4646);
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onactivate
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onactivate
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4605;
-            JSObject? __res_4606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate");
-            if (__res_4606 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4648;
+            JSObject? __res_4649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate");
+            if (__res_4649 is null)
             {
-                __res_4605 = null;
+                __res_4648 = null;
             }
             else
             {
-                JSObject __notNullable_4607 = (JSObject)__res_4606;
+                JSObject __notNullable_4650 = (JSObject)__res_4649;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4605;
+            return __res_4648;
         }
         set
         {
-            JSObject? __marshalledValue_4608;
+            JSObject? __marshalledValue_4651;
             if (value is null)
             {
-                __marshalledValue_4608 = null;
+                __marshalledValue_4651 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4609 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4652 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate", __marshalledValue_4608);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onactivate", __marshalledValue_4651);
         }
     }
 
-    public Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
-            Iskra.StdWeb.EventHandlerNonNull? __res_4610;
-            JSObject? __res_4611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_4611 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4653;
+            JSObject? __res_4654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_4654 is null)
             {
-                __res_4610 = null;
+                __res_4653 = null;
             }
             else
             {
-                JSObject __notNullable_4612 = (JSObject)__res_4611;
+                JSObject __notNullable_4655 = (JSObject)__res_4654;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4610;
+            return __res_4653;
         }
         set
         {
-            JSObject? __marshalledValue_4613;
+            JSObject? __marshalledValue_4656;
             if (value is null)
             {
-                __marshalledValue_4613 = null;
+                __marshalledValue_4656 = null;
             }
             else
             {
-                Iskra.StdWeb.EventHandlerNonNull __notNullable_4614 = (Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4657 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_4613);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_4656);
         }
     }
 }

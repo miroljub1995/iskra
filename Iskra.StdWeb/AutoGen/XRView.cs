@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRView(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.XREye Eye
+    public global::Iskra.StdWeb.XREye Eye
     {
         get
         {
-            Iskra.StdWeb.XREye __res_4241;
-            JSObject __res_4242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
+            global::Iskra.StdWeb.XREye __res_4282;
+            JSObject __res_4283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XREye } not supported.");
-            return __res_4241;
+            return __res_4282;
         }
     }
 
@@ -24,18 +24,18 @@ public partial class XRView(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            double? __res_4243;
-            double? __res_4244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
-            if (__res_4244 is null)
+            double? __res_4284;
+            double? __res_4285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
+            if (__res_4285 is null)
             {
-                __res_4243 = null;
+                __res_4284 = null;
             }
             else
             {
-                double __notNullable_4245 = (double)__res_4244;
-                __res_4243 = __notNullable_4245;
+                double __notNullable_4286 = (double)__res_4285;
+                __res_4284 = __notNullable_4286;
             }
-            return __res_4243;
+            return __res_4284;
         }
     }
 }

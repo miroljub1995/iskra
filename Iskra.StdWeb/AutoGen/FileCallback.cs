@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FileCallback(Iskra.StdWeb.File file);
+public delegate void FileCallback(global::Iskra.StdWeb.File file);
 
 #nullable disable

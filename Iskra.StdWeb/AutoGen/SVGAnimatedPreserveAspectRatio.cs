@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedPreserveAspectRatio(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SVGPreserveAspectRatio BaseVal
+    public global::Iskra.StdWeb.SVGPreserveAspectRatio BaseVal
     {
         get
         {
-            Iskra.StdWeb.SVGPreserveAspectRatio __res_389;
-            JSObject __res_390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            global::Iskra.StdWeb.SVGPreserveAspectRatio __res_425;
+            JSObject __res_426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGPreserveAspectRatio } not supported.");
-            return __res_389;
+            return __res_425;
         }
     }
 
-    public Iskra.StdWeb.SVGPreserveAspectRatio AnimVal
+    public global::Iskra.StdWeb.SVGPreserveAspectRatio AnimVal
     {
         get
         {
-            Iskra.StdWeb.SVGPreserveAspectRatio __res_391;
-            JSObject __res_392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            global::Iskra.StdWeb.SVGPreserveAspectRatio __res_427;
+            JSObject __res_428 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGPreserveAspectRatio } not supported.");
-            return __res_391;
+            return __res_427;
         }
     }
 }

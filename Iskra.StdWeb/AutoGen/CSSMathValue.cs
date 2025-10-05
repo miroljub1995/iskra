@@ -9,11 +9,11 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathValue(JSObject obj): CSSNumericValue(obj)
 {
-    public Iskra.StdWeb.CSSMathOperator Operator
+    public global::Iskra.StdWeb.CSSMathOperator Operator
     {
         get
         {
-            Iskra.StdWeb.CSSMathOperator __res_47;
+            global::Iskra.StdWeb.CSSMathOperator __res_47;
             JSObject __res_48 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSMathOperator } not supported.");
             return __res_47;

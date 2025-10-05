@@ -13,10 +13,10 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_7252;
-            string __res_7253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7252 = __res_7253;
-            return __res_7252;
+            string __res_7307;
+            string __res_7308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_7307 = __res_7308;
+            return __res_7307;
         }
     }
 
@@ -24,47 +24,54 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_7254;
-            string? __res_7255 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "href");
-            if (__res_7255 is null)
+            string? __res_7309;
+            string? __res_7310 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "href");
+            if (__res_7310 is null)
             {
-                __res_7254 = null;
+                __res_7309 = null;
             }
             else
             {
-                string __notNullable_7256 = (string)__res_7255;
-                __res_7254 = __notNullable_7256;
+                string __notNullable_7311 = (string)__res_7310;
+                __res_7309 = __notNullable_7311;
             }
-            return __res_7254;
+            return __res_7309;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? OwnerNode
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? OwnerNode
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<Iskra.StdWeb.Element, Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7257;
-            throw new Exception();
-            return __res_7257;
-        }
-    }
-
-    public Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
-    {
-        get
-        {
-            Iskra.StdWeb.CSSStyleSheet? __res_7258;
-            JSObject? __res_7259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
-            if (__res_7259 is null)
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7312;
+            JSObject? __propObject_7313;
+            __propObject_7313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "ownerNode");
+            if (__propObject_7313 is null)
             {
-                __res_7258 = null;
+                return null;
+            }
+
+            __res_7312 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7313);
+            return __res_7312;
+        }
+    }
+
+    public global::Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
+    {
+        get
+        {
+            global::Iskra.StdWeb.CSSStyleSheet? __res_7314;
+            JSObject? __res_7315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
+            if (__res_7315 is null)
+            {
+                __res_7314 = null;
             }
             else
             {
-                JSObject __notNullable_7260 = (JSObject)__res_7259;
+                JSObject __notNullable_7316 = (JSObject)__res_7315;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSStyleSheet } not supported.");
             }
-            return __res_7258;
+            return __res_7314;
         }
     }
 
@@ -72,29 +79,29 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string? __res_7261;
-            string? __res_7262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "title");
-            if (__res_7262 is null)
+            string? __res_7317;
+            string? __res_7318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "title");
+            if (__res_7318 is null)
             {
-                __res_7261 = null;
+                __res_7317 = null;
             }
             else
             {
-                string __notNullable_7263 = (string)__res_7262;
-                __res_7261 = __notNullable_7263;
+                string __notNullable_7319 = (string)__res_7318;
+                __res_7317 = __notNullable_7319;
             }
-            return __res_7261;
+            return __res_7317;
         }
     }
 
-    public Iskra.StdWeb.MediaList Media
+    public global::Iskra.StdWeb.MediaList Media
     {
         get
         {
-            Iskra.StdWeb.MediaList __res_7264;
-            JSObject __res_7265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            global::Iskra.StdWeb.MediaList __res_7320;
+            JSObject __res_7321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaList } not supported.");
-            return __res_7264;
+            return __res_7320;
         }
     }
 
@@ -102,16 +109,16 @@ public partial class StyleSheet(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            bool __res_7266;
-            bool __res_7267 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_7266 = __res_7267;
-            return __res_7266;
+            bool __res_7322;
+            bool __res_7323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_7322 = __res_7323;
+            return __res_7322;
         }
         set
         {
-            bool __marshalledValue_7268;
-            __marshalledValue_7268 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_7268);
+            bool __marshalledValue_7324;
+            __marshalledValue_7324 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_7324);
         }
     }
 }

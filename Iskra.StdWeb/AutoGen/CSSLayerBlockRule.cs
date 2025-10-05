@@ -13,10 +13,10 @@ public partial class CSSLayerBlockRule(JSObject obj): CSSGroupingRule(obj)
     {
         get
         {
-            string __res_2804;
-            string __res_2805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2804 = __res_2805;
-            return __res_2804;
+            string __res_2844;
+            string __res_2845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2844 = __res_2845;
+            return __res_2844;
         }
     }
 }

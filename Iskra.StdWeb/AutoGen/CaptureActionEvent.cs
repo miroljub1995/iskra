@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class CaptureActionEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.CaptureAction Action
+    public global::Iskra.StdWeb.CaptureAction Action
     {
         get
         {
-            Iskra.StdWeb.CaptureAction __res_7109;
-            JSObject __res_7110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "action");
+            global::Iskra.StdWeb.CaptureAction __res_7162;
+            JSObject __res_7163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "action");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CaptureAction } not supported.");
-            return __res_7109;
+            return __res_7162;
         }
     }
 }

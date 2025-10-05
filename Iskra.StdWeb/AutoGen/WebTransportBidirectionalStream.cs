@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportBidirectionalStream(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.WebTransportReceiveStream Readable
+    public global::Iskra.StdWeb.WebTransportReceiveStream Readable
     {
         get
         {
-            Iskra.StdWeb.WebTransportReceiveStream __res_2216;
-            JSObject __res_2217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            global::Iskra.StdWeb.WebTransportReceiveStream __res_2255;
+            JSObject __res_2256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportReceiveStream } not supported.");
-            return __res_2216;
+            return __res_2255;
         }
     }
 
-    public Iskra.StdWeb.WebTransportSendStream Writable
+    public global::Iskra.StdWeb.WebTransportSendStream Writable
     {
         get
         {
-            Iskra.StdWeb.WebTransportSendStream __res_2218;
-            JSObject __res_2219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            global::Iskra.StdWeb.WebTransportSendStream __res_2257;
+            JSObject __res_2258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendStream } not supported.");
-            return __res_2218;
+            return __res_2257;
         }
     }
 }

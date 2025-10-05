@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void PerformanceObserverCallback(Iskra.StdWeb.PerformanceObserverEntryList entries, Iskra.StdWeb.PerformanceObserver observer, Iskra.StdWeb.PerformanceObserverCallbackOptions options);
+public delegate void PerformanceObserverCallback(global::Iskra.StdWeb.PerformanceObserverEntryList entries, global::Iskra.StdWeb.PerformanceObserver observer, global::Iskra.StdWeb.PerformanceObserverCallbackOptions options);
 
 #nullable disable

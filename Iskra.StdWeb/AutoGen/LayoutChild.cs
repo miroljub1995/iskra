@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutChild(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.StylePropertyMapReadOnly StyleMap
+    public global::Iskra.StdWeb.StylePropertyMapReadOnly StyleMap
     {
         get
         {
-            Iskra.StdWeb.StylePropertyMapReadOnly __res_7823;
-            JSObject __res_7824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
+            global::Iskra.StdWeb.StylePropertyMapReadOnly __res_7881;
+            JSObject __res_7882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = StylePropertyMapReadOnly } not supported.");
-            return __res_7823;
+            return __res_7881;
         }
     }
 }

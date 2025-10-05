@@ -9,58 +9,58 @@ namespace Iskra.StdWeb;
 
 public partial class StorageAccessHandle(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.Storage SessionStorage
+    public global::Iskra.StdWeb.Storage SessionStorage
     {
         get
         {
-            Iskra.StdWeb.Storage __res_4424;
-            JSObject __res_4425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
+            global::Iskra.StdWeb.Storage __res_4466;
+            JSObject __res_4467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Storage } not supported.");
-            return __res_4424;
+            return __res_4466;
         }
     }
 
-    public Iskra.StdWeb.Storage LocalStorage
+    public global::Iskra.StdWeb.Storage LocalStorage
     {
         get
         {
-            Iskra.StdWeb.Storage __res_4426;
-            JSObject __res_4427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
+            global::Iskra.StdWeb.Storage __res_4468;
+            JSObject __res_4469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Storage } not supported.");
-            return __res_4426;
+            return __res_4468;
         }
     }
 
-    public Iskra.StdWeb.IDBFactory IndexedDB
+    public global::Iskra.StdWeb.IDBFactory IndexedDB
     {
         get
         {
-            Iskra.StdWeb.IDBFactory __res_4428;
-            JSObject __res_4429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            global::Iskra.StdWeb.IDBFactory __res_4470;
+            JSObject __res_4471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBFactory } not supported.");
-            return __res_4428;
+            return __res_4470;
         }
     }
 
-    public Iskra.StdWeb.LockManager Locks
+    public global::Iskra.StdWeb.LockManager Locks
     {
         get
         {
-            Iskra.StdWeb.LockManager __res_4430;
-            JSObject __res_4431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            global::Iskra.StdWeb.LockManager __res_4472;
+            JSObject __res_4473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LockManager } not supported.");
-            return __res_4430;
+            return __res_4472;
         }
     }
 
-    public Iskra.StdWeb.CacheStorage Caches
+    public global::Iskra.StdWeb.CacheStorage Caches
     {
         get
         {
-            Iskra.StdWeb.CacheStorage __res_4432;
-            JSObject __res_4433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            global::Iskra.StdWeb.CacheStorage __res_4474;
+            JSObject __res_4475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CacheStorage } not supported.");
-            return __res_4432;
+            return __res_4474;
         }
     }
 }

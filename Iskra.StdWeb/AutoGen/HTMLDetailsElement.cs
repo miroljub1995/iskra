@@ -13,16 +13,16 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            string __res_6364;
-            string __res_6365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6364 = __res_6365;
-            return __res_6364;
+            string __res_6414;
+            string __res_6415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6414 = __res_6415;
+            return __res_6414;
         }
         set
         {
-            string __marshalledValue_6366;
-            __marshalledValue_6366 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6366);
+            string __marshalledValue_6416;
+            __marshalledValue_6416 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6416);
         }
     }
 
@@ -30,16 +30,16 @@ public partial class HTMLDetailsElement(JSObject obj): HTMLElement(obj)
     {
         get
         {
-            bool __res_6367;
-            bool __res_6368 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_6367 = __res_6368;
-            return __res_6367;
+            bool __res_6417;
+            bool __res_6418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_6417 = __res_6418;
+            return __res_6417;
         }
         set
         {
-            bool __marshalledValue_6369;
-            __marshalledValue_6369 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6369);
+            bool __marshalledValue_6419;
+            __marshalledValue_6419 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6419);
         }
     }
 }

@@ -9,80 +9,80 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFECompositeElement(JSObject obj): SVGElement(obj)
 {
-    public Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1145;
-            JSObject __res_1146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            global::Iskra.StdWeb.SVGAnimatedString __res_1184;
+            JSObject __res_1185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
-            return __res_1145;
+            return __res_1184;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedString In2
+    public global::Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedString __res_1147;
-            JSObject __res_1148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
+            global::Iskra.StdWeb.SVGAnimatedString __res_1186;
+            JSObject __res_1187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
-            return __res_1147;
+            return __res_1186;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedEnumeration Operator
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration Operator
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedEnumeration __res_1149;
-            JSObject __res_1150 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1188;
+            JSObject __res_1189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
-            return __res_1149;
+            return __res_1188;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber K1
+    public global::Iskra.StdWeb.SVGAnimatedNumber K1
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1151;
-            JSObject __res_1152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k1");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1190;
+            JSObject __res_1191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k1");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1151;
+            return __res_1190;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber K2
+    public global::Iskra.StdWeb.SVGAnimatedNumber K2
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1153;
-            JSObject __res_1154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k2");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1192;
+            JSObject __res_1193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k2");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1153;
+            return __res_1192;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber K3
+    public global::Iskra.StdWeb.SVGAnimatedNumber K3
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1155;
-            JSObject __res_1156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k3");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1194;
+            JSObject __res_1195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k3");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1155;
+            return __res_1194;
         }
     }
 
-    public Iskra.StdWeb.SVGAnimatedNumber K4
+    public global::Iskra.StdWeb.SVGAnimatedNumber K4
     {
         get
         {
-            Iskra.StdWeb.SVGAnimatedNumber __res_1157;
-            JSObject __res_1158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k4");
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1196;
+            JSObject __res_1197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "k4");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
-            return __res_1157;
+            return __res_1196;
         }
     }
 }

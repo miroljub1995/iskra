@@ -9,22 +9,22 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIConnectionEvent(JSObject obj): Event(obj)
 {
-    public Iskra.StdWeb.MIDIPort? Port
+    public global::Iskra.StdWeb.MIDIPort? Port
     {
         get
         {
-            Iskra.StdWeb.MIDIPort? __res_7519;
-            JSObject? __res_7520 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "port");
-            if (__res_7520 is null)
+            global::Iskra.StdWeb.MIDIPort? __res_7575;
+            JSObject? __res_7576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "port");
+            if (__res_7576 is null)
             {
-                __res_7519 = null;
+                __res_7575 = null;
             }
             else
             {
-                JSObject __notNullable_7521 = (JSObject)__res_7520;
+                JSObject __notNullable_7577 = (JSObject)__res_7576;
                 throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPort } not supported.");
             }
-            return __res_7519;
+            return __res_7575;
         }
     }
 }

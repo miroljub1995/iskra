@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object GenerateAssertionCallback(string contents, string origin, Iskra.StdWeb.RTCIdentityProviderOptions options);
+public delegate object GenerateAssertionCallback(string contents, string origin, global::Iskra.StdWeb.RTCIdentityProviderOptions options);
 
 #nullable disable

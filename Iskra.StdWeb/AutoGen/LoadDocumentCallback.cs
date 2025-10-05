@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object LoadDocumentCallback(string url, Iskra.StdWeb.LoadDocumentOptions options);
+public delegate object LoadDocumentCallback(string url, global::Iskra.StdWeb.LoadDocumentOptions options);
 
 #nullable disable

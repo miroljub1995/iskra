@@ -31,6 +31,9 @@ public class GenericMarshallerGenerator(
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructArray(JSObject obj, string constructorName, int length);
 
+                            [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
+                            private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(JSObject obj, string constructorName);
+
                         {{GenerateFrozenArrayClass().IndentLines(4)}}
 
                         {{GenerateSequenceClass().IndentLines(4)}}
@@ -215,9 +218,15 @@ public class GenericMarshallerGenerator(
         var interfaces = string.Join(",\n", interfaceParts);
         var body = string.Join("\n\n", bodyParts);
 
+        var inheritance = interfaceParts.Count > 0
+            ? $$"""
+                :
+                {{interfaces.IndentLines(4)}}
+                """
+            : string.Empty;
+
         var content = $$"""
-                        public class FrozenArray:
-                        {{interfaces.IndentLines(4)}}
+                        public class FrozenArray{{inheritance}}
                         {
                         {{body.IndentLines(4)}}
                         }
@@ -265,9 +274,15 @@ public class GenericMarshallerGenerator(
         var interfaces = string.Join(",\n", interfaceParts);
         var body = string.Join("\n\n", bodyParts);
 
+        var inheritance = interfaceParts.Count > 0
+            ? $$"""
+                :
+                {{interfaces.IndentLines(4)}}
+                """
+            : string.Empty;
+
         var content = $$"""
-                        public class Sequence:
-                        {{interfaces.IndentLines(4)}}
+                        public class Sequence{{inheritance}}
                         {
                         {{body.IndentLines(4)}}
                         }
@@ -299,10 +314,8 @@ public class GenericMarshallerGenerator(
 
                 distinctItems.Add(itemType);
 
-                // var toManaged = GenerateToManaged(marshaller.Key);
-                var toManaged = "throw new NotImplementedException();";
-                // var toJS = GenerateToJS(marshaller.Key);
-                var toJS = "throw new NotImplementedException();";
+                var toManaged = GenerateToManagedUnion(itemType);
+                var toJS = GenerateToJSUnion(itemType);
 
                 var marshalledType = toTypeDeclarationGenerator.Generate(itemType);
 
@@ -310,7 +323,7 @@ public class GenericMarshallerGenerator(
                 interfaceParts.Add(interfacePart);
 
                 var bodyPart = $$"""
-                                 static bool {{interfacePart}}.TryToManaged(JSObject input, [global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out {{marshalledType}} value)
+                                 static bool {{interfacePart}}.TryToManaged(JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out {{marshalledType}} value)
                                  {
                                  {{toManaged.IndentLines(4)}}
                                  }
@@ -328,9 +341,15 @@ public class GenericMarshallerGenerator(
         var interfaces = string.Join(",\n", interfaceParts);
         var body = string.Join("\n\n", bodyParts);
 
+        var inheritance = interfaceParts.Count > 0
+            ? $$"""
+                :
+                {{interfaces.IndentLines(4)}}
+                """
+            : string.Empty;
+
         var content = $$"""
-                        public class Union:
-                        {{interfaces.IndentLines(4)}}
+                        public class Union{{inheritance}}
                         {
                         {{body.IndentLines(4)}}
                         }
@@ -482,5 +501,131 @@ public class GenericMarshallerGenerator(
 
         logger.LogWarning("GenericMarshaller ToJS for type {input} not supported.", input);
         return "throw new NotImplementedException();";
+    }
+
+
+    private string GenerateToManagedUnion(IDLTypeDescription input)
+    {
+        var typeVar = generatorContext.GetNextVariableName("type");
+        string typeCheckContent;
+        if (input is SingleTypeDescription { IdlType: BuiltinTypes.Boolean })
+        {
+            typeCheckContent = $$"""
+                                 if ({{typeVar}} != 1)
+                                 {
+                                     value = default;
+                                     return false;
+                                 }
+                                 """;
+        }
+        else if (input is SingleTypeDescription
+                 {
+                     IdlType: BuiltinTypes.Byte or
+                     BuiltinTypes.SignedByte or
+                     BuiltinTypes.Short or
+                     BuiltinTypes.UnsignedShort or
+                     BuiltinTypes.Int32 or
+                     BuiltinTypes.UnsignedInt32 or
+                     BuiltinTypes.Int64 or
+                     BuiltinTypes.UnsignedInt64 or
+                     BuiltinTypes.Float or
+                     BuiltinTypes.UnrestrictedFloat or
+                     BuiltinTypes.Double or
+                     BuiltinTypes.UnrestrictedDouble
+                 })
+        {
+            typeCheckContent = $$"""
+                                 if ({{typeVar}} != 2)
+                                 {
+                                     value = default;
+                                     return false;
+                                 }
+                                 """;
+        }
+        else if (input is SingleTypeDescription { IdlType: BuiltinTypes.BigInt })
+        {
+            typeCheckContent = $$"""
+                                 if ({{typeVar}} != 3)
+                                 {
+                                     value = default;
+                                     return false;
+                                 }
+                                 """;
+        }
+        else if (input is SingleTypeDescription { IdlType: BuiltinTypes.String })
+        {
+            typeCheckContent = $$"""
+                                 if ({{typeVar}} != 4)
+                                 {
+                                     value = default;
+                                     return false;
+                                 }
+                                 """;
+        }
+        else
+        {
+            typeCheckContent = $$"""
+                                 if ({{typeVar}} != 7)
+                                 {
+                                     value = default;
+                                     return false;
+                                 }
+                                 """;
+        }
+
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
+
+        var valueVar = generatorContext.GetNextVariableName("value");
+        var getElementContent = getPropertyValueGenerator.Generate(
+            inputVar: "input",
+            type: input,
+            propertyNameVar: "\"value\"",
+            isStatic: false,
+            containingTypeName: "Union",
+            outputVar: valueVar
+        );
+
+        var typeDeclaration = toTypeDeclarationGenerator.Generate(input);
+
+        return $$"""
+                 double {{typeVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+                 {{typeCheckContent}}
+
+                 try
+                 {
+                     {{typeDeclaration}} {{valueVar}};
+                 {{getElementContent.IndentLines(4)}}
+
+                     value = {{valueVar}};
+                     return true;
+                 }
+                 catch
+                 {
+                     value = default;
+                     return false;
+                 }
+                 """;
+    }
+
+    private string GenerateToJSUnion(IDLTypeDescription input)
+    {
+        var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
+        var jsUnionVar = generatorContext.GetNextVariableName("jsUnion");
+
+        var setValueContent = setPropertyValueGenerator.Generate(
+            inputVar: jsUnionVar,
+            valueVar: "input",
+            type: input,
+            propertyNameVar: "\"value\"",
+            isStatic: false,
+            containingTypeName: "Union"
+        );
+
+        return $$"""
+                 global::System.Runtime.InteropServices.JavaScript.JSObject {{jsUnionVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+                 {{setValueContent}}
+                 return {{jsUnionVar}};
+                 """;
     }
 }

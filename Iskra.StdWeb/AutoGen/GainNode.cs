@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GainNode(JSObject obj): AudioNode(obj)
 {
-    public Iskra.StdWeb.AudioParam Gain
+    public global::Iskra.StdWeb.AudioParam Gain
     {
         get
         {
-            Iskra.StdWeb.AudioParam __res_8221;
-            JSObject __res_8222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
+            global::Iskra.StdWeb.AudioParam __res_8281;
+            JSObject __res_8282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
-            return __res_8221;
+            return __res_8281;
         }
     }
 }

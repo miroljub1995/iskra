@@ -9,14 +9,14 @@ namespace Iskra.StdWeb;
 
 public partial class GPU(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.WGSLLanguageFeatures WgslLanguageFeatures
+    public global::Iskra.StdWeb.WGSLLanguageFeatures WgslLanguageFeatures
     {
         get
         {
-            Iskra.StdWeb.WGSLLanguageFeatures __res_707;
-            JSObject __res_708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wgslLanguageFeatures");
+            global::Iskra.StdWeb.WGSLLanguageFeatures __res_743;
+            JSObject __res_744 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wgslLanguageFeatures");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WGSLLanguageFeatures } not supported.");
-            return __res_707;
+            return __res_743;
         }
     }
 }

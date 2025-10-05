@@ -6,6 +6,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ErrorCallback(Iskra.StdWeb.DOMException err);
+public delegate void ErrorCallback(global::Iskra.StdWeb.DOMException err);
 
 #nullable disable

@@ -13,10 +13,10 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1044;
-            double __res_1045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1044 = Convert.ToUInt32(__res_1045);
-            return __res_1044;
+            uint __res_1083;
+            double __res_1084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1083 = Convert.ToUInt32(__res_1084);
+            return __res_1083;
         }
     }
 
@@ -24,21 +24,21 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            uint __res_1046;
-            double __res_1047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1046 = Convert.ToUInt32(__res_1047);
-            return __res_1046;
+            uint __res_1085;
+            double __res_1086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1085 = Convert.ToUInt32(__res_1086);
+            return __res_1085;
         }
     }
 
-    public Iskra.StdWeb.XRRigidTransform NormDepthBufferFromNormView
+    public global::Iskra.StdWeb.XRRigidTransform NormDepthBufferFromNormView
     {
         get
         {
-            Iskra.StdWeb.XRRigidTransform __res_1048;
-            JSObject __res_1049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "normDepthBufferFromNormView");
+            global::Iskra.StdWeb.XRRigidTransform __res_1087;
+            JSObject __res_1088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "normDepthBufferFromNormView");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
-            return __res_1048;
+            return __res_1087;
         }
     }
 
@@ -46,10 +46,10 @@ public partial class XRDepthInformation(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            float __res_1050;
-            double __res_1051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rawValueToMeters");
-            __res_1050 = Convert.ToSingle(__res_1051);
-            return __res_1050;
+            float __res_1089;
+            double __res_1090 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rawValueToMeters");
+            __res_1089 = Convert.ToSingle(__res_1090);
+            return __res_1089;
         }
     }
 }

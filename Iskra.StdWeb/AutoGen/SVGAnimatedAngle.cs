@@ -9,25 +9,25 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedAngle(JSObject obj): JSObjectProxy(obj)
 {
-    public Iskra.StdWeb.SVGAngle BaseVal
+    public global::Iskra.StdWeb.SVGAngle BaseVal
     {
         get
         {
-            Iskra.StdWeb.SVGAngle __res_310;
-            JSObject __res_311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            global::Iskra.StdWeb.SVGAngle __res_346;
+            JSObject __res_347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAngle } not supported.");
-            return __res_310;
+            return __res_346;
         }
     }
 
-    public Iskra.StdWeb.SVGAngle AnimVal
+    public global::Iskra.StdWeb.SVGAngle AnimVal
     {
         get
         {
-            Iskra.StdWeb.SVGAngle __res_312;
-            JSObject __res_313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            global::Iskra.StdWeb.SVGAngle __res_348;
+            JSObject __res_349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAngle } not supported.");
-            return __res_312;
+            return __res_348;
         }
     }
 }

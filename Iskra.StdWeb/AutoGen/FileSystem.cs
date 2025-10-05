@@ -13,21 +13,21 @@ public partial class FileSystem(JSObject obj): JSObjectProxy(obj)
     {
         get
         {
-            string __res_1374;
-            string __res_1375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1374 = __res_1375;
-            return __res_1374;
+            string __res_1413;
+            string __res_1414 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1413 = __res_1414;
+            return __res_1413;
         }
     }
 
-    public Iskra.StdWeb.FileSystemDirectoryEntry Root
+    public global::Iskra.StdWeb.FileSystemDirectoryEntry Root
     {
         get
         {
-            Iskra.StdWeb.FileSystemDirectoryEntry __res_1376;
-            JSObject __res_1377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            global::Iskra.StdWeb.FileSystemDirectoryEntry __res_1415;
+            JSObject __res_1416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
             throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemDirectoryEntry } not supported.");
-            return __res_1376;
+            return __res_1415;
         }
     }
 }
