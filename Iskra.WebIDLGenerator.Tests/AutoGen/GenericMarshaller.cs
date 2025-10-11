@@ -26,7 +26,7 @@ public static partial class GenericMarshaller
             for (int __i_257 = 0; __i_257 < __length_256; __i_257++)
             {
                 bool __element_258;
-                bool __res_259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_257.ToString());
+                bool __res_259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_257);
                 __element_258 = __res_259;
                 __res_254[__i_257] = __element_258;
             }
@@ -61,7 +61,7 @@ public static partial class GenericMarshaller
             for (int __i_266 = 0; __i_266 < __length_265; __i_266++)
             {
                 bool __element_267;
-                bool __res_268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_266.ToString());
+                bool __res_268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, __i_266);
                 __element_267 = __res_268;
                 __res_263[__i_266] = __element_267;
             }

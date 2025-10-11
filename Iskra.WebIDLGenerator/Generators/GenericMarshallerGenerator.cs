@@ -378,7 +378,7 @@ public class GenericMarshallerGenerator(
             var getElementContent = getPropertyValueGenerator.Generate(
                 inputVar: "input",
                 type: elementType,
-                propertyNameVar: $"{indexVar}.ToString()",
+                propertyNameVar: indexVar,
                 isStatic: false,
                 containingTypeName: "Array",
                 outputVar: elementVar
@@ -415,7 +415,7 @@ public class GenericMarshallerGenerator(
             var getElementContent = getPropertyValueGenerator.Generate(
                 inputVar: "input",
                 type: elementType,
-                propertyNameVar: $"{indexVar}.ToString()",
+                propertyNameVar: indexVar,
                 isStatic: false,
                 containingTypeName: "Array",
                 outputVar: elementVar
