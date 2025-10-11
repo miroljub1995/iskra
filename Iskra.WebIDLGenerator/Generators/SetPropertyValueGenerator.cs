@@ -222,7 +222,7 @@ public class SetPropertyValueGenerator(
         if (type.Nullable)
         {
             return $$"""
-                     JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
                      if ({{valueVar}} is null)
                      {
                          {{setPropertyVar}} = null;
@@ -237,7 +237,7 @@ public class SetPropertyValueGenerator(
         }
 
         return $$"""
-                 JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
                  {{setPropertyContent}}
                  """;
     }
@@ -273,7 +273,7 @@ public class SetPropertyValueGenerator(
         if (type.Nullable)
         {
             return $$"""
-                     JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
                      if ({{valueVar}} is null)
                      {
                          {{setPropertyVar}} = null;
@@ -288,7 +288,7 @@ public class SetPropertyValueGenerator(
         }
 
         return $$"""
-                 JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
                  {{setPropertyContent}}
                  """;
     }

@@ -60,6 +60,7 @@ public class GenerateCommand : Command
                 .AddSingleton<JSProxyFactoryGenerator>()
                 .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<ModuleGenerator>()
+                .AddSingleton<OperationMemberTypeGenerator>()
                 .AddSingleton<SetPropertyValueGenerator>()
                 // Marshaller
                 .AddSingleton<IDLTypeDescriptionMarshaller>();

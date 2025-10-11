@@ -8,7 +8,7 @@ public record OperationMemberType : IDLInterfaceMemberType
 
     [JsonPropertyName("idlType")] public IDLTypeDescription? IdlType { get; set; } = null;
 
-    [JsonPropertyName("name")] public required string? Name { get; set; }
+    [JsonPropertyName("name")] public required string Name { get; set; }
 
     [JsonPropertyName("arguments")] public required List<Argument> Arguments { get; set; }
 }

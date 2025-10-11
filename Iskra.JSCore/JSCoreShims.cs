@@ -78,6 +78,31 @@ public static class JSCoreShims
                                          throw new Error(`Unknown type of ${propertyName} on ${obj}`);
                                      }
                                      export const setPropertyAsUnion = (obj, propertyName, value) => obj[propertyName] = (value === null ? null : value.value);
+
+                                     export const createArgsArray = () => {
+                                         const array = [];
+                                         const target = { length: array.length };
+                                         return const myObj = new Proxy(target, {
+                                             get(target, prop) {
+                                                 if (Number.isInteger(prop)) {
+                                                     return Reflect.get(array, prop);
+                                                 }
+
+                                                 return Reflect.get(target, prop);
+                                             },
+                                             set(target, prop, value) {
+                                                 if (Number.isInteger(prop)) {
+                                                     Reflect.set(array, prop, value);
+                                                 }
+
+                                                 if (prop === 'length' && value > array.length) {
+                                                     array.length = value;
+                                                 }
+
+                                                 return Reflect.set(target, prop, value);
+                                             }
+                                         });
+                                     }
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

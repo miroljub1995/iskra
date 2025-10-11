@@ -123,7 +123,7 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             BuiltinTypes.Double => "double",
             BuiltinTypes.UnrestrictedDouble => "double",
             BuiltinTypes.String => "string",
-            BuiltinTypes.Object => "JSObject",
+            BuiltinTypes.Object => "global::System.Runtime.InteropServices.JavaScript.JSObject",
             _ => MapReferenceToDotnetType(input),
         };
 

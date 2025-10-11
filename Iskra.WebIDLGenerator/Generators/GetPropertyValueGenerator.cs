@@ -189,7 +189,7 @@ public class GetPropertyValueGenerator(
                 };
 
                 getPropertyContent = $$"""
-                                       JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                       global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                        """;
             }
         }
@@ -235,7 +235,7 @@ public class GetPropertyValueGenerator(
         if (type.Nullable)
         {
             return $$"""
-                     JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
@@ -247,7 +247,7 @@ public class GetPropertyValueGenerator(
         }
 
         return $$"""
-                 JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                  {{getPropertyContent}}
                  {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                  """;
@@ -288,7 +288,7 @@ public class GetPropertyValueGenerator(
         if (type.Nullable)
         {
             return $$"""
-                     JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
@@ -300,7 +300,7 @@ public class GetPropertyValueGenerator(
         }
 
         return $$"""
-                 JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                  {{getPropertyContent}}
                  {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                  """;
@@ -342,7 +342,7 @@ public class GetPropertyValueGenerator(
         if (type.Nullable)
         {
             return $$"""
-                     JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
@@ -354,7 +354,7 @@ public class GetPropertyValueGenerator(
         }
 
         return $$"""
-                 JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
                  {{getPropertyContent}}
                  {{outputVar}} = new {{constructor}}({{getPropertyVar}});
                  """;
