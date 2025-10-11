@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public int Size
+    public new int Size
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public uint Type
+    public new uint Type
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.StdWeb.IDBObjectStore ObjectStore
+    public new global::Iskra.StdWeb.IDBObjectStore ObjectStore
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public object? KeyPath
+    public new object? KeyPath
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public bool MultiEntry
+    public new bool MultiEntry
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public bool Unique
+    public new bool Unique
     {
         get
         {

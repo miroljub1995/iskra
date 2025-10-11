@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IntrinsicSizes(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double MinContentSize
+    public new double MinContentSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IntrinsicSizes(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double MaxContentSize
+    public new double MaxContentSize
     {
         get
         {

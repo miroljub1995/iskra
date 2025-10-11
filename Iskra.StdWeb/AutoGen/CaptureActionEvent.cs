@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CaptureActionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.CaptureAction Action
+    public new global::Iskra.StdWeb.CaptureAction Action
     {
         get
         {

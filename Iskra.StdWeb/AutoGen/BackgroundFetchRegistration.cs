@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchRegistration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public ulong UploadTotal
+    public new ulong UploadTotal
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public ulong Uploaded
+    public new ulong Uploaded
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public ulong DownloadTotal
+    public new ulong DownloadTotal
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public ulong Downloaded
+    public new ulong Downloaded
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public global::Iskra.StdWeb.BackgroundFetchResult Result
+    public new global::Iskra.StdWeb.BackgroundFetchResult Result
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public global::Iskra.StdWeb.BackgroundFetchFailureReason FailureReason
+    public new global::Iskra.StdWeb.BackgroundFetchFailureReason FailureReason
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public bool RecordsAvailable
+    public new bool RecordsAvailable
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
         get
         {

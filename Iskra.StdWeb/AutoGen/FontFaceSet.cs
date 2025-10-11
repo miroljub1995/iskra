@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onloading
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloading
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onloadingdone
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloadingdone
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onloadingerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloadingerror
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public object Ready
+    public new object Ready
     {
         get
         {
@@ -115,7 +115,7 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.FontFaceSetLoadStatus Status
+    public new global::Iskra.StdWeb.FontFaceSetLoadStatus Status
     {
         get
         {

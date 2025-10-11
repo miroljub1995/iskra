@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ushort UnitType
+    public new ushort UnitType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public float Value
+    public new float Value
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public float ValueInSpecifiedUnits
+    public new float ValueInSpecifiedUnits
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string ValueAsString
+    public new string ValueAsString
     {
         get
         {

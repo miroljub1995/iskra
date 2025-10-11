@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public string Url
+    public new string Url
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.PresentationConnectionState State
+    public new global::Iskra.StdWeb.PresentationConnectionState State
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onclose
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onterminate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onterminate
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.BinaryType BinaryType
+    public new global::Iskra.StdWeb.BinaryType BinaryType
     {
         get
         {
@@ -155,7 +155,7 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {

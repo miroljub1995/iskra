@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DragEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MouseEvent(obj)
 {
-    public global::Iskra.StdWeb.DataTransfer? DataTransfer
+    public new global::Iskra.StdWeb.DataTransfer? DataTransfer
     {
         get
         {

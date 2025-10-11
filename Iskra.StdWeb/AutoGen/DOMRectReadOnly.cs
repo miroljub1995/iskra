@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double X
+    public new double X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Y
+    public new double Y
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Width
+    public new double Width
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Height
+    public new double Height
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Top
+    public new double Top
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Right
+    public new double Right
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Bottom
+    public new double Bottom
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Left
+    public new double Left
     {
         get
         {

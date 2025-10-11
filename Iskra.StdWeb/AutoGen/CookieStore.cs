@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CookieStore(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

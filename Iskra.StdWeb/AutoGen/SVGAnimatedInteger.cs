@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedInteger(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public int BaseVal
+    public new int BaseVal
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SVGAnimatedInteger(global::System.Runtime.InteropServices.J
         }
     }
 
-    public int AnimVal
+    public new int AnimVal
     {
         get
         {

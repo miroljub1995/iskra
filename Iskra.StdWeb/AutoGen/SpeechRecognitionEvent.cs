@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public uint ResultIndex
+    public new uint ResultIndex
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionEvent(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.SpeechRecognitionResultList Results
+    public new global::Iskra.StdWeb.SpeechRecognitionResultList Results
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.Element? Source
+    public new global::Iskra.StdWeb.Element? Source
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string Command
+    public new string Command
     {
         get
         {

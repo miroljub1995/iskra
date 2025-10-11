@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public global::Iskra.StdWeb.PushSubscription? NewSubscription
+    public new global::Iskra.StdWeb.PushSubscription? NewSubscription
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PushSubscriptionChangeEvent(global::System.Runtime.InteropS
         }
     }
 
-    public global::Iskra.StdWeb.PushSubscription? OldSubscription
+    public new global::Iskra.StdWeb.PushSubscription? OldSubscription
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCompositionLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRLayer(obj)
 {
-    public global::Iskra.StdWeb.XRLayerLayout Layout
+    public new global::Iskra.StdWeb.XRLayerLayout Layout
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         }
     }
 
-    public bool BlendTextureSourceAlpha
+    public new bool BlendTextureSourceAlpha
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         }
     }
 
-    public bool ForceMonoPresentation
+    public new bool ForceMonoPresentation
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         }
     }
 
-    public float Opacity
+    public new float Opacity
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         }
     }
 
-    public uint MipLevels
+    public new uint MipLevels
     {
         get
         {
@@ -79,7 +79,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.StdWeb.XRLayerQuality Quality
+    public new global::Iskra.StdWeb.XRLayerQuality Quality
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         }
     }
 
-    public bool NeedsRedraw
+    public new bool NeedsRedraw
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public bool Aborted
+    public new bool Aborted
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public object? Reason
+    public new object? Reason
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {

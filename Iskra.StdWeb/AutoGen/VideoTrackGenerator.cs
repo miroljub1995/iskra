@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.WritableStream Writable
+    public new global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool Muted
+    public new bool Muted
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.MediaStreamTrack Track
+    public new global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {

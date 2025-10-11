@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLParamElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Value
+    public new string Value
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string ValueType
+    public new string ValueType
     {
         get
         {

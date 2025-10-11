@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenOrientation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.OrientationType Type
+    public new global::Iskra.StdWeb.OrientationType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public ushort Angle
+    public new ushort Angle
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

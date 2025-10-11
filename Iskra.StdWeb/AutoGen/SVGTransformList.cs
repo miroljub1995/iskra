@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTransformList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Length
+    public new uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public uint NumberOfItems
+    public new uint NumberOfItems
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
 {
-    public global::Iskra.StdWeb.XRSpace Space
+    public new global::Iskra.StdWeb.XRSpace Space
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.XRRigidTransform Transform
+    public new global::Iskra.StdWeb.XRRigidTransform Transform
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public float Width
+    public new float Width
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public float Height
+    public new float Height
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
         get
         {

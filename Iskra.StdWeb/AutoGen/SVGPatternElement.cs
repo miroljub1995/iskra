@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPatternElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration PatternUnits
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration PatternUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGPatternElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration PatternContentUnits
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration PatternContentUnits
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGPatternElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedTransformList PatternTransform
+    public new global::Iskra.StdWeb.SVGAnimatedTransformList PatternTransform
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGPatternElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength X
+    public new global::Iskra.StdWeb.SVGAnimatedLength X
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGPatternElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength Y
+    public new global::Iskra.StdWeb.SVGAnimatedLength Y
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGPatternElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength Width
+    public new global::Iskra.StdWeb.SVGAnimatedLength Width
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SVGPatternElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength Height
+    public new global::Iskra.StdWeb.SVGAnimatedLength Height
     {
         get
         {

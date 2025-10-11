@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MLContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object Lost
+    public new object Lost
     {
         get
         {

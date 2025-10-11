@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Global(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object? Value
+    public new object? Value
     {
         get
         {

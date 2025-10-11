@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.KeyType Type
+    public new global::Iskra.StdWeb.KeyType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public bool Extractable
+    public new bool Extractable
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::System.Runtime.InteropServices.JavaScript.JSObject Algorithm
+    public new global::System.Runtime.InteropServices.JavaScript.JSObject Algorithm
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::System.Runtime.InteropServices.JavaScript.JSObject Usages
+    public new global::System.Runtime.InteropServices.JavaScript.JSObject Usages
     {
         get
         {

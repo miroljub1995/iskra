@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DelegatedInkTrailPresenter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.Element? PresentationArea
+    public new global::Iskra.StdWeb.Element? PresentationArea
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BeforeUnloadEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string ReturnValue
+    public new string ReturnValue
     {
         get
         {

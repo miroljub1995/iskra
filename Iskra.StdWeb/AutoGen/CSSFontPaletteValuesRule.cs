@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontPaletteValuesRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSFontPaletteValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public string FontFamily
+    public new string FontFamily
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class CSSFontPaletteValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public string BasePalette
+    public new string BasePalette
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class CSSFontPaletteValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public string OverrideColors
+    public new string OverrideColors
     {
         get
         {

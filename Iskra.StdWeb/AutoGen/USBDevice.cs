@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public byte UsbVersionMajor
+    public new byte UsbVersionMajor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte UsbVersionMinor
+    public new byte UsbVersionMinor
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte UsbVersionSubminor
+    public new byte UsbVersionSubminor
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte DeviceClass
+    public new byte DeviceClass
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte DeviceSubclass
+    public new byte DeviceSubclass
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte DeviceProtocol
+    public new byte DeviceProtocol
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public ushort VendorId
+    public new ushort VendorId
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public ushort ProductId
+    public new ushort ProductId
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte DeviceVersionMajor
+    public new byte DeviceVersionMajor
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte DeviceVersionMinor
+    public new byte DeviceVersionMinor
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public byte DeviceVersionSubminor
+    public new byte DeviceVersionSubminor
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public string? ManufacturerName
+    public new string? ManufacturerName
     {
         get
         {
@@ -146,7 +146,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public string? ProductName
+    public new string? ProductName
     {
         get
         {
@@ -165,7 +165,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public string? SerialNumber
+    public new string? SerialNumber
     {
         get
         {
@@ -184,7 +184,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.USBConfiguration? Configuration
+    public new global::Iskra.StdWeb.USBConfiguration? Configuration
     {
         get
         {
@@ -203,7 +203,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Configurations
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Configurations
     {
         get
         {
@@ -215,7 +215,7 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public bool Opened
+    public new bool Opened
     {
         get
         {

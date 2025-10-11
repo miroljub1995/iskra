@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.NavigationType NavigationType
+    public new global::Iskra.StdWeb.NavigationType NavigationType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.NavigationDestination Destination
+    public new global::Iskra.StdWeb.NavigationDestination Destination
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool CanIntercept
+    public new bool CanIntercept
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool UserInitiated
+    public new bool UserInitiated
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool HashChange
+    public new bool HashChange
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.AbortSignal Signal
+    public new global::Iskra.StdWeb.AbortSignal Signal
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.FormData? FormData
+    public new global::Iskra.StdWeb.FormData? FormData
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string? DownloadRequest
+    public new string? DownloadRequest
     {
         get
         {
@@ -110,7 +110,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public object? Info
+    public new object? Info
     {
         get
         {
@@ -121,7 +121,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool HasUAVisualTransition
+    public new bool HasUAVisualTransition
     {
         get
         {
@@ -132,7 +132,7 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.Element? SourceElement
+    public new global::Iskra.StdWeb.Element? SourceElement
     {
         get
         {

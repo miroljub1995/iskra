@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Kind
+    public new string Kind
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Label
+    public new string Label
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Language
+    public new string Language
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public bool Enabled
+    public new bool Enabled
     {
         get
         {

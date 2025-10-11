@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.SharedStorageWorklet Worklet
+    public new global::Iskra.StdWeb.SharedStorageWorklet Worklet
     {
         get
         {

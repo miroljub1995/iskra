@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScanFilter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string? Name
+    public new string? Name
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
         }
     }
 
-    public string? NamePrefix
+    public new string? NamePrefix
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Services
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Services
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.BluetoothManufacturerDataFilter ManufacturerData
+    public new global::Iskra.StdWeb.BluetoothManufacturerDataFilter ManufacturerData
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.BluetoothServiceDataFilter ServiceData
+    public new global::Iskra.StdWeb.BluetoothServiceDataFilter ServiceData
     {
         get
         {

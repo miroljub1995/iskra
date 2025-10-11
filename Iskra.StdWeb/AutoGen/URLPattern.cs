@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class URLPattern(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Protocol
+    public new string Protocol
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Username
+    public new string Username
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Password
+    public new string Password
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Hostname
+    public new string Hostname
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Port
+    public new string Port
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Pathname
+    public new string Pathname
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Search
+    public new string Search
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Hash
+    public new string Hash
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public bool HasRegExpGroups
+    public new bool HasRegExpGroups
     {
         get
         {

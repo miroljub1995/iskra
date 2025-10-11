@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRTransientInputHitTestResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.XRInputSource InputSource
+    public new global::Iskra.StdWeb.XRInputSource InputSource
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRTransientInputHitTestResult(global::System.Runtime.Intero
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Results
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Results
     {
         get
         {

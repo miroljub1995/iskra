@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): TextTrackCue(obj)
 {
-    public global::Iskra.StdWeb.VTTRegion? Region
+    public new global::Iskra.StdWeb.VTTRegion? Region
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.DirectionSetting Vertical
+    public new global::Iskra.StdWeb.DirectionSetting Vertical
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public bool SnapToLines
+    public new bool SnapToLines
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Line
+    public new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Line
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.LineAlignSetting LineAlign
+    public new global::Iskra.StdWeb.LineAlignSetting LineAlign
     {
         get
         {
@@ -106,7 +106,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Position
+    public new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> Position
     {
         get
         {
@@ -122,7 +122,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.PositionAlignSetting PositionAlign
+    public new global::Iskra.StdWeb.PositionAlignSetting PositionAlign
     {
         get
         {
@@ -139,7 +139,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public double Size
+    public new double Size
     {
         get
         {
@@ -156,7 +156,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.AlignSetting Align
+    public new global::Iskra.StdWeb.AlignSetting Align
     {
         get
         {
@@ -173,7 +173,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public string Text
+    public new string Text
     {
         get
         {

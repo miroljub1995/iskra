@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WakeLockSentinel(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public bool Released
+    public new bool Released
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.WakeLockType Type
+    public new global::Iskra.StdWeb.WakeLockType Type
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onrelease
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onrelease
     {
         get
         {

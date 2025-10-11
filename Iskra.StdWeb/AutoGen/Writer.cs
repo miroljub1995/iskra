@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string SharedContext
+    public new string SharedContext
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.WriterTone Tone
+    public new global::Iskra.StdWeb.WriterTone Tone
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.WriterFormat Format
+    public new global::Iskra.StdWeb.WriterFormat Format
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.WriterLength Length
+    public new global::Iskra.StdWeb.WriterLength Length
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public string? OutputLanguage
+    public new string? OutputLanguage
     {
         get
         {
@@ -103,7 +103,7 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public double InputQuota
+    public new double InputQuota
     {
         get
         {

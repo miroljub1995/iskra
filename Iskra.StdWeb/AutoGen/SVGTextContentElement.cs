@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextContentElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGraphicsElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedLength TextLength
+    public new global::Iskra.StdWeb.SVGAnimatedLength TextLength
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTextContentElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration LengthAdjust
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration LengthAdjust
     {
         get
         {

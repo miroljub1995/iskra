@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionAlternative(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Transcript
+    public new string Transcript
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionAlternative(global::System.Runtime.Interop
         }
     }
 
-    public float Confidence
+    public new float Confidence
     {
         get
         {

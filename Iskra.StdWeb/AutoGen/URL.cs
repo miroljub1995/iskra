@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Href
+    public new string Href
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Origin
+    public new string Origin
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Protocol
+    public new string Protocol
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Username
+    public new string Username
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Password
+    public new string Password
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Host
+    public new string Host
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Hostname
+    public new string Hostname
     {
         get
         {
@@ -119,7 +119,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Port
+    public new string Port
     {
         get
         {
@@ -136,7 +136,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Pathname
+    public new string Pathname
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Search
+    public new string Search
     {
         get
         {
@@ -170,7 +170,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public global::Iskra.StdWeb.URLSearchParams SearchParams
+    public new global::Iskra.StdWeb.URLSearchParams SearchParams
     {
         get
         {
@@ -181,7 +181,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public string Hash
+    public new string Hash
     {
         get
         {

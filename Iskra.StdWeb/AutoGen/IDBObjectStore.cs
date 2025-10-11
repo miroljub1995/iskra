@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public object? KeyPath
+    public new object? KeyPath
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.DOMStringList IndexNames
+    public new global::Iskra.StdWeb.DOMStringList IndexNames
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.IDBTransaction Transaction
+    public new global::Iskra.StdWeb.IDBTransaction Transaction
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public bool AutoIncrement
+    public new bool AutoIncrement
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Autocomplete
+    public new string Autocomplete
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public uint Cols
+    public new uint Cols
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string DirName
+    public new string DirName
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool Disabled
+    public new bool Disabled
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.HTMLFormElement? Form
+    public new global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public int MaxLength
+    public new int MaxLength
     {
         get
         {
@@ -110,7 +110,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public int MinLength
+    public new int MinLength
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -144,7 +144,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Placeholder
+    public new string Placeholder
     {
         get
         {
@@ -161,7 +161,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool ReadOnly
+    public new bool ReadOnly
     {
         get
         {
@@ -178,7 +178,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool Required
+    public new bool Required
     {
         get
         {
@@ -195,7 +195,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public uint Rows
+    public new uint Rows
     {
         get
         {
@@ -212,7 +212,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Wrap
+    public new string Wrap
     {
         get
         {
@@ -229,7 +229,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -240,7 +240,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string DefaultValue
+    public new string DefaultValue
     {
         get
         {
@@ -257,7 +257,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Value
+    public new string Value
     {
         get
         {
@@ -274,7 +274,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public uint TextLength
+    public new uint TextLength
     {
         get
         {
@@ -285,7 +285,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool WillValidate
+    public new bool WillValidate
     {
         get
         {
@@ -296,7 +296,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.ValidityState Validity
+    public new global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -307,7 +307,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string ValidationMessage
+    public new string ValidationMessage
     {
         get
         {
@@ -318,7 +318,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.NodeList Labels
+    public new global::Iskra.StdWeb.NodeList Labels
     {
         get
         {
@@ -329,7 +329,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public uint SelectionStart
+    public new uint SelectionStart
     {
         get
         {
@@ -346,7 +346,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public uint SelectionEnd
+    public new uint SelectionEnd
     {
         get
         {
@@ -363,7 +363,7 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string SelectionDirection
+    public new string SelectionDirection
     {
         get
         {

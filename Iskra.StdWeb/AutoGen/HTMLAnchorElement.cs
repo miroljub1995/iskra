@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Target
+    public new string Target
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Download
+    public new string Download
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Ping
+    public new string Ping
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Rel
+    public new string Rel
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList RelList
+    public new global::Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Hreflang
+    public new string Hreflang
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -119,7 +119,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Text
+    public new string Text
     {
         get
         {
@@ -136,7 +136,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string ReferrerPolicy
+    public new string ReferrerPolicy
     {
         get
         {

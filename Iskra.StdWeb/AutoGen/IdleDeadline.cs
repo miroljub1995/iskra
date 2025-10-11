@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdleDeadline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool DidTimeout
+    public new bool DidTimeout
     {
         get
         {

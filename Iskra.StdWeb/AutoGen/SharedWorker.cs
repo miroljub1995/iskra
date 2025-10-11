@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorker(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.MessagePort Port
+    public new global::Iskra.StdWeb.MessagePort Port
     {
         get
         {

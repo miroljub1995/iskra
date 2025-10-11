@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCamera(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Width
+    public new uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRCamera(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public uint Height
+    public new uint Height
     {
         get
         {

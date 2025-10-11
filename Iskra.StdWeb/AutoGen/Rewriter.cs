@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string SharedContext
+    public new string SharedContext
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.StdWeb.RewriterTone Tone
+    public new global::Iskra.StdWeb.RewriterTone Tone
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.StdWeb.RewriterFormat Format
+    public new global::Iskra.StdWeb.RewriterFormat Format
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.StdWeb.RewriterLength Length
+    public new global::Iskra.StdWeb.RewriterLength Length
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string? OutputLanguage
+    public new string? OutputLanguage
     {
         get
         {
@@ -103,7 +103,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public double InputQuota
+    public new double InputQuota
     {
         get
         {

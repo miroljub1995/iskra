@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public byte EndpointNumber
+    public new byte EndpointNumber
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.USBDirection Direction
+    public new global::Iskra.StdWeb.USBDirection Direction
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.USBEndpointType Type
+    public new global::Iskra.StdWeb.USBEndpointType Type
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint PacketSize
+    public new uint PacketSize
     {
         get
         {

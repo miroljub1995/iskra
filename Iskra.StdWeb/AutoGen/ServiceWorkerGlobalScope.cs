@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkerGlobalScope(obj)
 {
-    public global::Iskra.StdWeb.Clients Clients
+    public new global::Iskra.StdWeb.Clients Clients
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.ServiceWorkerRegistration Registration
+    public new global::Iskra.StdWeb.ServiceWorkerRegistration Registration
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.ServiceWorker ServiceWorker
+    public new global::Iskra.StdWeb.ServiceWorker ServiceWorker
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oninstall
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oninstall
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onactivate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onactivate
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onfetch
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onfetch
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

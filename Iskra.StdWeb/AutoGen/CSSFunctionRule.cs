@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSGroupingRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSFunctionRule(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string ReturnType
+    public new string ReturnType
     {
         get
         {

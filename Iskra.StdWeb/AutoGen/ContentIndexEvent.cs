@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ContentIndexEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {

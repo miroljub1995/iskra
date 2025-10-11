@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onreading
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onreading
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onreadingerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onreadingerror
     {
         get
         {

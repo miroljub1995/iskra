@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.VideoPixelFormat? Format
+    public new global::Iskra.StdWeb.VideoPixelFormat? Format
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint CodedWidth
+    public new uint CodedWidth
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint CodedHeight
+    public new uint CodedHeight
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.DOMRectReadOnly? CodedRect
+    public new global::Iskra.StdWeb.DOMRectReadOnly? CodedRect
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.DOMRectReadOnly? VisibleRect
+    public new global::Iskra.StdWeb.DOMRectReadOnly? VisibleRect
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public double Rotation
+    public new double Rotation
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public bool Flip
+    public new bool Flip
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint DisplayWidth
+    public new uint DisplayWidth
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint DisplayHeight
+    public new uint DisplayHeight
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public ulong? Duration
+    public new ulong? Duration
     {
         get
         {
@@ -148,7 +148,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public long Timestamp
+    public new long Timestamp
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.VideoColorSpace ColorSpace
+    public new global::Iskra.StdWeb.VideoColorSpace ColorSpace
     {
         get
         {

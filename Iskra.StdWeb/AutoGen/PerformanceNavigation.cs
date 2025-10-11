@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ushort Type
+    public new ushort Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceNavigation(global::System.Runtime.InteropService
         }
     }
 
-    public ushort RedirectCount
+    public new ushort RedirectCount
     {
         get
         {

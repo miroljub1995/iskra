@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscription(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Endpoint
+    public new string Endpoint
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public ulong? ExpirationTime
+    public new ulong? ExpirationTime
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.PushSubscriptionOptions Options
+    public new global::Iskra.StdWeb.PushSubscriptionOptions Options
     {
         get
         {

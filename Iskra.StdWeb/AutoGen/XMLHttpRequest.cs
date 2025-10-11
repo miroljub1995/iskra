@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XMLHttpRequestEventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onreadystatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onreadystatechange
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public ushort ReadyState
+    public new ushort ReadyState
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public uint Timeout
+    public new uint Timeout
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public bool WithCredentials
+    public new bool WithCredentials
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.XMLHttpRequestUpload Upload
+    public new global::Iskra.StdWeb.XMLHttpRequestUpload Upload
     {
         get
         {
@@ -95,7 +95,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string ResponseURL
+    public new string ResponseURL
     {
         get
         {
@@ -106,7 +106,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public ushort Status
+    public new ushort Status
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string StatusText
+    public new string StatusText
     {
         get
         {
@@ -128,7 +128,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.XMLHttpRequestResponseType ResponseType
+    public new global::Iskra.StdWeb.XMLHttpRequestResponseType ResponseType
     {
         get
         {
@@ -145,7 +145,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public object? Response
+    public new object? Response
     {
         get
         {
@@ -156,7 +156,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string ResponseText
+    public new string ResponseText
     {
         get
         {
@@ -167,7 +167,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.Document? ResponseXML
+    public new global::Iskra.StdWeb.Document? ResponseXML
     {
         get
         {

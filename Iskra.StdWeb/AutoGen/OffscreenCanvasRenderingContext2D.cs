@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OffscreenCanvasRenderingContext2D(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.OffscreenCanvas Canvas
+    public new global::Iskra.StdWeb.OffscreenCanvas Canvas
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.HTMLCollection Areas
+    public new global::Iskra.StdWeb.HTMLCollection Areas
     {
         get
         {

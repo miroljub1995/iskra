@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ulong Size
+    public new ulong Size
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint Usage
+    public new uint Usage
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.GPUBufferMapState MapState
+    public new global::Iskra.StdWeb.GPUBufferMapState MapState
     {
         get
         {

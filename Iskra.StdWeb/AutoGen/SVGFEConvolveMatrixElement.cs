@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString In1
+    public new global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedInteger OrderX
+    public new global::Iskra.StdWeb.SVGAnimatedInteger OrderX
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedInteger OrderY
+    public new global::Iskra.StdWeb.SVGAnimatedInteger OrderY
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumberList KernelMatrix
+    public new global::Iskra.StdWeb.SVGAnimatedNumberList KernelMatrix
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Divisor
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Divisor
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Bias
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Bias
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedInteger TargetX
+    public new global::Iskra.StdWeb.SVGAnimatedInteger TargetX
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedInteger TargetY
+    public new global::Iskra.StdWeb.SVGAnimatedInteger TargetY
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration EdgeMode
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration EdgeMode
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
+    public new global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
+    public new global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedBoolean PreserveAlpha
+    public new global::Iskra.StdWeb.SVGAnimatedBoolean PreserveAlpha
     {
         get
         {

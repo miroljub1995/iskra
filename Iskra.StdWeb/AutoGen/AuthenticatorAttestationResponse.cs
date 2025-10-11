@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorAttestationResponse(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AuthenticatorResponse(obj)
 {
-    public global::Iskra.JSCore.ArrayBuffer AttestationObject
+    public new global::Iskra.JSCore.ArrayBuffer AttestationObject
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VisibilityStateEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VisibilityStateEntry(global::System.Runtime.InteropServices
         }
     }
 
-    public string EntryType
+    public new string EntryType
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class VisibilityStateEntry(global::System.Runtime.InteropServices
         }
     }
 
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class VisibilityStateEntry(global::System.Runtime.InteropServices
         }
     }
 
-    public uint Duration
+    public new uint Duration
     {
         get
         {

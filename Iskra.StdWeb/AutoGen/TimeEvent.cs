@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.Window? View
+    public new global::Iskra.StdWeb.Window? View
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public int Detail
+    public new int Detail
     {
         get
         {

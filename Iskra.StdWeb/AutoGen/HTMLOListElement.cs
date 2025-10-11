@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOListElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public bool Reversed
+    public new bool Reversed
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public int Start
+    public new int Start
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {

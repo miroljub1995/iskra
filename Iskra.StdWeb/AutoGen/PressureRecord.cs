@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PressureRecord(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.PressureSource Source
+    public new global::Iskra.StdWeb.PressureSource Source
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.PressureState State
+    public new global::Iskra.StdWeb.PressureState State
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double Time
+    public new double Time
     {
         get
         {

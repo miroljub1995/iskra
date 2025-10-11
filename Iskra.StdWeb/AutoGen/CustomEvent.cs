@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CustomEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public object? Detail
+    public new object? Detail
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidate(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Candidate
+    public new string Candidate
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? SdpMid
+    public new string? SdpMid
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public ushort? SdpMLineIndex
+    public new ushort? SdpMLineIndex
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? Foundation
+    public new string? Foundation
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceComponent? Component
+    public new global::Iskra.StdWeb.RTCIceComponent? Component
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public uint? Priority
+    public new uint? Priority
     {
         get
         {
@@ -112,7 +112,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? Address
+    public new string? Address
     {
         get
         {
@@ -131,7 +131,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceProtocol? Protocol
+    public new global::Iskra.StdWeb.RTCIceProtocol? Protocol
     {
         get
         {
@@ -150,7 +150,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public ushort? Port
+    public new ushort? Port
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceCandidateType? Type
+    public new global::Iskra.StdWeb.RTCIceCandidateType? Type
     {
         get
         {
@@ -188,7 +188,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceTcpCandidateType? TcpType
+    public new global::Iskra.StdWeb.RTCIceTcpCandidateType? TcpType
     {
         get
         {
@@ -207,7 +207,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? RelatedAddress
+    public new string? RelatedAddress
     {
         get
         {
@@ -226,7 +226,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public ushort? RelatedPort
+    public new ushort? RelatedPort
     {
         get
         {
@@ -245,7 +245,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? UsernameFragment
+    public new string? UsernameFragment
     {
         get
         {
@@ -264,7 +264,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceServerTransportProtocol? RelayProtocol
+    public new global::Iskra.StdWeb.RTCIceServerTransportProtocol? RelayProtocol
     {
         get
         {
@@ -283,7 +283,7 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? Url
+    public new string? Url
     {
         get
         {

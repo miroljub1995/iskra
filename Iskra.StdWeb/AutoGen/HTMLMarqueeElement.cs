@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Behavior
+    public new string Behavior
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string BgColor
+    public new string BgColor
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Direction
+    public new string Direction
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Height
+    public new string Height
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public uint Hspace
+    public new uint Hspace
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public int Loop
+    public new int Loop
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public uint ScrollAmount
+    public new uint ScrollAmount
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public uint ScrollDelay
+    public new uint ScrollDelay
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public bool TrueSpeed
+    public new bool TrueSpeed
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public uint Vspace
+    public new uint Vspace
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Width
+    public new string Width
     {
         get
         {

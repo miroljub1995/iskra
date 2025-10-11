@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTService(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.BluetoothDevice Device
+    public new global::Iskra.StdWeb.BluetoothDevice Device
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTService(global::System.Runtime.InteropSe
         }
     }
 
-    public string Uuid
+    public new string Uuid
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class BluetoothRemoteGATTService(global::System.Runtime.InteropSe
         }
     }
 
-    public bool IsPrimary
+    public new bool IsPrimary
     {
         get
         {

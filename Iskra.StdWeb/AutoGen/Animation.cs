@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Animation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.AnimationEffect? Effect
+    public new global::Iskra.StdWeb.AnimationEffect? Effect
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.AnimationTimeline? Timeline
+    public new global::Iskra.StdWeb.AnimationTimeline? Timeline
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public double PlaybackRate
+    public new double PlaybackRate
     {
         get
         {
@@ -106,7 +106,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.AnimationPlayState PlayState
+    public new global::Iskra.StdWeb.AnimationPlayState PlayState
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.AnimationReplaceState ReplaceState
+    public new global::Iskra.StdWeb.AnimationReplaceState ReplaceState
     {
         get
         {
@@ -128,7 +128,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public bool Pending
+    public new bool Pending
     {
         get
         {
@@ -139,7 +139,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public object Ready
+    public new object Ready
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public object Finished
+    public new object Finished
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onfinish
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onfinish
     {
         get
         {
@@ -192,7 +192,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oncancel
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncancel
     {
         get
         {
@@ -225,7 +225,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onremove
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onremove
     {
         get
         {

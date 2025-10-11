@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TransitionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string PropertyName
+    public new string PropertyName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TransitionEvent(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double ElapsedTime
+    public new double ElapsedTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TransitionEvent(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string PseudoElement
+    public new string PseudoElement
     {
         get
         {

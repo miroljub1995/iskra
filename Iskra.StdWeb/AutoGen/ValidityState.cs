@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ValidityState(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool ValueMissing
+    public new bool ValueMissing
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool TypeMismatch
+    public new bool TypeMismatch
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool PatternMismatch
+    public new bool PatternMismatch
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool TooLong
+    public new bool TooLong
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool TooShort
+    public new bool TooShort
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool RangeUnderflow
+    public new bool RangeUnderflow
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool RangeOverflow
+    public new bool RangeOverflow
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool StepMismatch
+    public new bool StepMismatch
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool BadInput
+    public new bool BadInput
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool CustomError
+    public new bool CustomError
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class ValidityState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool Valid
+    public new bool Valid
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGraphicsElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString Target
+    public new global::Iskra.StdWeb.SVGAnimatedString Target
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string Download
+    public new string Download
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string Ping
+    public new string Ping
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string Rel
+    public new string Rel
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList RelList
+    public new global::Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -79,7 +79,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string Hreflang
+    public new string Hreflang
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string Text
+    public new string Text
     {
         get
         {
@@ -130,7 +130,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string ReferrerPolicy
+    public new string ReferrerPolicy
     {
         get
         {

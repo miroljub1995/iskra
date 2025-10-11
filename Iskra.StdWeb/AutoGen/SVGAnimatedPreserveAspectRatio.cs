@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedPreserveAspectRatio(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.SVGPreserveAspectRatio BaseVal
+    public new global::Iskra.StdWeb.SVGPreserveAspectRatio BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedPreserveAspectRatio(global::System.Runtime.Inter
         }
     }
 
-    public global::Iskra.StdWeb.SVGPreserveAspectRatio AnimVal
+    public new global::Iskra.StdWeb.SVGPreserveAspectRatio AnimVal
     {
         get
         {

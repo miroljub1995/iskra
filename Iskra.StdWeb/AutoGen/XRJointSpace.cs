@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRSpace(obj)
 {
-    public global::Iskra.StdWeb.XRHandJoint JointName
+    public new global::Iskra.StdWeb.XRHandJoint JointName
     {
         get
         {

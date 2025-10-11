@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationHistoryEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string? Url
+    public new string? Url
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
         }
     }
 
-    public string Key
+    public new string Key
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
         }
     }
 
-    public string Id
+    public new string Id
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
         }
     }
 
-    public long Index
+    public new long Index
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
         }
     }
 
-    public bool SameDocument
+    public new bool SameDocument
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ondispose
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondispose
     {
         get
         {

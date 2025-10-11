@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ManagedMediaSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MediaSource(obj)
 {
-    public bool Streaming
+    public new bool Streaming
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ManagedMediaSource(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onstartstreaming
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstartstreaming
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class ManagedMediaSource(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onendstreaming
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onendstreaming
     {
         get
         {

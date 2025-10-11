@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystem(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FileSystem(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.FileSystemDirectoryEntry Root
+    public new global::Iskra.StdWeb.FileSystemDirectoryEntry Root
     {
         get
         {

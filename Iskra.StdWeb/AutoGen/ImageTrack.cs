@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool Animated
+    public new bool Animated
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint FrameCount
+    public new uint FrameCount
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public float RepetitionCount
+    public new float RepetitionCount
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public bool Selected
+    public new bool Selected
     {
         get
         {

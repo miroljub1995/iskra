@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string System
+    public new string System
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Symbols
+    public new string Symbols
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string AdditiveSymbols
+    public new string AdditiveSymbols
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Negative
+    public new string Negative
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Prefix
+    public new string Prefix
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Suffix
+    public new string Suffix
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Range
+    public new string Range
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Pad
+    public new string Pad
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string SpeakAs
+    public new string SpeakAs
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Fallback
+    public new string Fallback
     {
         get
         {

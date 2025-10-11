@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.SpeechRecognitionErrorCode Error
+    public new global::Iskra.StdWeb.SpeechRecognitionErrorCode Error
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionErrorEvent(global::System.Runtime.InteropS
         }
     }
 
-    public string Message
+    public new string Message
     {
         get
         {

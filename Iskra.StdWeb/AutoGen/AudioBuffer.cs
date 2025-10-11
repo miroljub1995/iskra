@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public float SampleRate
+    public new float SampleRate
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint Length
+    public new uint Length
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint NumberOfChannels
+    public new uint NumberOfChannels
     {
         get
         {

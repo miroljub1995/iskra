@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LaunchParams(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string? TargetURL
+    public new string? TargetURL
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LaunchParams(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Files
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Files
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PictureInPictureEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.PictureInPictureWindow PictureInPictureWindow
+    public new global::Iskra.StdWeb.PictureInPictureWindow PictureInPictureWindow
     {
         get
         {

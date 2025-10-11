@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ChildBreakToken(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.BreakType BreakType
+    public new global::Iskra.StdWeb.BreakType BreakType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ChildBreakToken(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.LayoutChild Child
+    public new global::Iskra.StdWeb.LayoutChild Child
     {
         get
         {

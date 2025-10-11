@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpaceEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.XRReferenceSpace ReferenceSpace
+    public new global::Iskra.StdWeb.XRReferenceSpace ReferenceSpace
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRReferenceSpaceEvent(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.XRRigidTransform? Transform
+    public new global::Iskra.StdWeb.XRRigidTransform? Transform
     {
         get
         {

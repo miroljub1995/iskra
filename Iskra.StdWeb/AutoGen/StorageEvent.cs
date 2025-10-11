@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string? Key
+    public new string? Key
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string? OldValue
+    public new string? OldValue
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string? NewValue
+    public new string? NewValue
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string Url
+    public new string Url
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.Storage? StorageArea
+    public new global::Iskra.StdWeb.Storage? StorageArea
     {
         get
         {

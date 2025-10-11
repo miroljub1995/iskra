@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public int Index
+    public new int Index
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public bool Connected
+    public new bool Connected
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public double Timestamp
+    public new double Timestamp
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.StdWeb.GamepadMappingType Mapping
+    public new global::Iskra.StdWeb.GamepadMappingType Mapping
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Axes
+    public new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Axes
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Buttons
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Buttons
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Touches
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Touches
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.StdWeb.GamepadHapticActuator VibrationActuator
+    public new global::Iskra.StdWeb.GamepadHapticActuator VibrationActuator
     {
         get
         {

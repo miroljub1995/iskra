@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationPosition(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.GeolocationCoordinates Coords
+    public new global::Iskra.StdWeb.GeolocationCoordinates Coords
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationPosition(global::System.Runtime.InteropServices.
         }
     }
 
-    public ulong Timestamp
+    public new ulong Timestamp
     {
         get
         {

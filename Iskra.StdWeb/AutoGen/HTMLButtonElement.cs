@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLButtonElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Command
+    public new string Command
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.Element? CommandForElement
+    public new global::Iskra.StdWeb.Element? CommandForElement
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool Disabled
+    public new bool Disabled
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.HTMLFormElement? Form
+    public new global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -92,7 +92,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string FormAction
+    public new string FormAction
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string FormEnctype
+    public new string FormEnctype
     {
         get
         {
@@ -126,7 +126,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string FormMethod
+    public new string FormMethod
     {
         get
         {
@@ -143,7 +143,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool FormNoValidate
+    public new bool FormNoValidate
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string FormTarget
+    public new string FormTarget
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -194,7 +194,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -211,7 +211,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Value
+    public new string Value
     {
         get
         {
@@ -228,7 +228,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool WillValidate
+    public new bool WillValidate
     {
         get
         {
@@ -239,7 +239,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.ValidityState Validity
+    public new global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -250,7 +250,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string ValidationMessage
+    public new string ValidationMessage
     {
         get
         {
@@ -261,7 +261,7 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.NodeList Labels
+    public new global::Iskra.StdWeb.NodeList Labels
     {
         get
         {

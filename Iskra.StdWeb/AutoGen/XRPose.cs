@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.XRRigidTransform Transform
+    public new global::Iskra.StdWeb.XRRigidTransform Transform
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.DOMPointReadOnly? LinearVelocity
+    public new global::Iskra.StdWeb.DOMPointReadOnly? LinearVelocity
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.DOMPointReadOnly? AngularVelocity
+    public new global::Iskra.StdWeb.DOMPointReadOnly? AngularVelocity
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public bool EmulatedPosition
+    public new bool EmulatedPosition
     {
         get
         {

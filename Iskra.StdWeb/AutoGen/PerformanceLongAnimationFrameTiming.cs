@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public string EntryType
+    public new string EntryType
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public double RenderStart
+    public new double RenderStart
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public double StyleAndLayoutStart
+    public new double StyleAndLayoutStart
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public double BlockingDuration
+    public new double BlockingDuration
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public double FirstUIEventTimestamp
+    public new double FirstUIEventTimestamp
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Scripts
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Scripts
     {
         get
         {

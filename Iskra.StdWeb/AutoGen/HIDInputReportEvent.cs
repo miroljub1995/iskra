@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.HIDDevice Device
+    public new global::Iskra.StdWeb.HIDDevice Device
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public byte ReportId
+    public new byte ReportId
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.JSCore.DataView Data
+    public new global::Iskra.JSCore.DataView Data
     {
         get
         {

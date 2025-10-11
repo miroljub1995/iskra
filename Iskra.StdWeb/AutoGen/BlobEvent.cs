@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.Blob Data
+    public new global::Iskra.StdWeb.Blob Data
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public double Timecode
+    public new double Timecode
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCCertificate(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ulong Expires
+    public new ulong Expires
     {
         get
         {

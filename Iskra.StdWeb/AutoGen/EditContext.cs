@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class EditContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Text
+    public new string Text
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint SelectionStart
+    public new uint SelectionStart
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint SelectionEnd
+    public new uint SelectionEnd
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint CharacterBoundsRangeStart
+    public new uint CharacterBoundsRangeStart
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ontextupdate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ontextupdate
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ontextformatupdate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ontextformatupdate
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oncharacterboundsupdate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncharacterboundsupdate
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oncompositionstart
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncompositionstart
     {
         get
         {
@@ -182,7 +182,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oncompositionend
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncompositionend
     {
         get
         {

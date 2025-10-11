@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnectionavailable
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnectionavailable
     {
         get
         {

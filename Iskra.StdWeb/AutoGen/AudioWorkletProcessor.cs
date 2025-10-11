@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletProcessor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.MessagePort Port
+    public new global::Iskra.StdWeb.MessagePort Port
     {
         get
         {

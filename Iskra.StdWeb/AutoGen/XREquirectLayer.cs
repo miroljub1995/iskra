@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XREquirectLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
 {
-    public global::Iskra.StdWeb.XRSpace Space
+    public new global::Iskra.StdWeb.XRSpace Space
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.XRRigidTransform Transform
+    public new global::Iskra.StdWeb.XRRigidTransform Transform
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public float Radius
+    public new float Radius
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public float CentralHorizontalAngle
+    public new float CentralHorizontalAngle
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public float UpperVerticalAngle
+    public new float UpperVerticalAngle
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public float LowerVerticalAngle
+    public new float LowerVerticalAngle
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
         get
         {

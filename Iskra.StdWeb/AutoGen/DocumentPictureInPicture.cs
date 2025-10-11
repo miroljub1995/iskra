@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentPictureInPicture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.Window Window
+    public new global::Iskra.StdWeb.Window Window
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DocumentPictureInPicture(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onenter
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onenter
     {
         get
         {

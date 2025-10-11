@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionDeclarations(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public global::Iskra.StdWeb.CSSFunctionDescriptors Style
+    public new global::Iskra.StdWeb.CSSFunctionDescriptors Style
     {
         get
         {

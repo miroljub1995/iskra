@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableSectionElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public global::Iskra.StdWeb.HTMLCollection Rows
+    public new global::Iskra.StdWeb.HTMLCollection Rows
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRLayerEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.XRLayer Layer
+    public new global::Iskra.StdWeb.XRLayer Layer
     {
         get
         {

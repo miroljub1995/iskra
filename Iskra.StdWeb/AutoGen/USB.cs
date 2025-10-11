@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USB(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class USB(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
         get
         {

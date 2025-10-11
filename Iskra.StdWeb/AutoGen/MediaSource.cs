@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.MediaSourceHandle Handle
+    public new global::Iskra.StdWeb.MediaSourceHandle Handle
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.SourceBufferList SourceBuffers
+    public new global::Iskra.StdWeb.SourceBufferList SourceBuffers
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.SourceBufferList ActiveSourceBuffers
+    public new global::Iskra.StdWeb.SourceBufferList ActiveSourceBuffers
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.ReadyState ReadyState
+    public new global::Iskra.StdWeb.ReadyState ReadyState
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onsourceopen
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsourceopen
     {
         get
         {
@@ -100,7 +100,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onsourceended
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsourceended
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onsourceclose
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsourceclose
     {
         get
         {
@@ -166,7 +166,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public static bool CanConstructInDedicatedWorker
+    public static new bool CanConstructInDedicatedWorker
     {
         get
         {

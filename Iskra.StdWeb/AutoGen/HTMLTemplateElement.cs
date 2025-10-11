@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public global::Iskra.StdWeb.DocumentFragment Content
+    public new global::Iskra.StdWeb.DocumentFragment Content
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string ShadowRootMode
+    public new string ShadowRootMode
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool ShadowRootDelegatesFocus
+    public new bool ShadowRootDelegatesFocus
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool ShadowRootClonable
+    public new bool ShadowRootClonable
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool ShadowRootSerializable
+    public new bool ShadowRootSerializable
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string ShadowRootCustomElementRegistry
+    public new string ShadowRootCustomElementRegistry
     {
         get
         {

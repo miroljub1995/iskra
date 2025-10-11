@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRDepthInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Width
+    public new uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public uint Height
+    public new uint Height
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.StdWeb.XRRigidTransform NormDepthBufferFromNormView
+    public new global::Iskra.StdWeb.XRRigidTransform NormDepthBufferFromNormView
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public float RawValueToMeters
+    public new float RawValueToMeters
     {
         get
         {

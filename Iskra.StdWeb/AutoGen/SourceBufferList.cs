@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBufferList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public uint Length
+    public new uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SourceBufferList(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onaddsourcebuffer
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaddsourcebuffer
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SourceBufferList(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onremovesourcebuffer
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onremovesourcebuffer
     {
         get
         {

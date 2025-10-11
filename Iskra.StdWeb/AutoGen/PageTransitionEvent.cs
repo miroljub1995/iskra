@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PageTransitionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public bool Persisted
+    public new bool Persisted
     {
         get
         {

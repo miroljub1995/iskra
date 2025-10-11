@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class File(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Blob(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class File(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public long LastModified
+    public new long LastModified
     {
         get
         {

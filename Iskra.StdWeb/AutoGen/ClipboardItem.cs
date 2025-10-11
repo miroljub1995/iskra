@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.PresentationStyle PresentationStyle
+    public new global::Iskra.StdWeb.PresentationStyle PresentationStyle
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Types
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Types
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ProcessingInstruction(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CharacterData(obj)
 {
-    public string Target
+    public new string Target
     {
         get
         {

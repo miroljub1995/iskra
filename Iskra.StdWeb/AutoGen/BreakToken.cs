@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BreakToken(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ChildBreakTokens
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ChildBreakTokens
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class BreakToken(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public object? Data
+    public new object? Data
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRBoundedReferenceSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRReferenceSpace(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> BoundsGeometry
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> BoundsGeometry
     {
         get
         {

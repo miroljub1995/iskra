@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLQuoteElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Cite
+    public new string Cite
     {
         get
         {

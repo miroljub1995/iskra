@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oninputreport
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oninputreport
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public bool Opened
+    public new bool Opened
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public ushort VendorId
+    public new ushort VendorId
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public ushort ProductId
+    public new ushort ProductId
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public string ProductName
+    public new string ProductName
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Collections
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Collections
     {
         get
         {

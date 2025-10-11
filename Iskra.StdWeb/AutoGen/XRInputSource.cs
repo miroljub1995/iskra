@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.XRHandedness Handedness
+    public new global::Iskra.StdWeb.XRHandedness Handedness
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.XRTargetRayMode TargetRayMode
+    public new global::Iskra.StdWeb.XRTargetRayMode TargetRayMode
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.XRSpace TargetRaySpace
+    public new global::Iskra.StdWeb.XRSpace TargetRaySpace
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.XRSpace? GripSpace
+    public new global::Iskra.StdWeb.XRSpace? GripSpace
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Profiles
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Profiles
     {
         get
         {
@@ -70,7 +70,7 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool SkipRendering
+    public new bool SkipRendering
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Element(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString ClassName
+    public new global::Iskra.StdWeb.SVGAnimatedString ClassName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.SVGSVGElement? OwnerSVGElement
+    public new global::Iskra.StdWeb.SVGSVGElement? OwnerSVGElement
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.SVGElement? ViewportElement
+    public new global::Iskra.StdWeb.SVGElement? ViewportElement
     {
         get
         {

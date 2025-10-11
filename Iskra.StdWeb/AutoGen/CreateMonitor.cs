@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CreateMonitor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ondownloadprogress
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondownloadprogress
     {
         get
         {

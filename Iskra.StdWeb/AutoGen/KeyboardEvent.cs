@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public string Key
+    public new string Key
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string Code
+    public new string Code
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public uint Location
+    public new uint Location
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool CtrlKey
+    public new bool CtrlKey
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool ShiftKey
+    public new bool ShiftKey
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool AltKey
+    public new bool AltKey
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool MetaKey
+    public new bool MetaKey
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool Repeat
+    public new bool Repeat
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool IsComposing
+    public new bool IsComposing
     {
         get
         {

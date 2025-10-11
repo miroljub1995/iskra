@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class QuotaExceededError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMException(obj)
 {
-    public double? Quota
+    public new double? Quota
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class QuotaExceededError(global::System.Runtime.InteropServices.J
         }
     }
 
-    public double? Requested
+    public new double? Requested
     {
         get
         {

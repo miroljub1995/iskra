@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FormDataEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.FormData FormData
+    public new global::Iskra.StdWeb.FormData FormData
     {
         get
         {

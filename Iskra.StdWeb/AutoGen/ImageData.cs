@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Width
+    public new uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint Height
+    public new uint Height
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> Data
+    public new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> Data
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.ImageDataPixelFormat PixelFormat
+    public new global::Iskra.StdWeb.ImageDataPixelFormat PixelFormat
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.PredefinedColorSpace ColorSpace
+    public new global::Iskra.StdWeb.PredefinedColorSpace ColorSpace
     {
         get
         {

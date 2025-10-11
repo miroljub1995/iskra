@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceMotionEventAcceleration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double? X
+    public new double? X
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
         }
     }
 
-    public double? Y
+    public new double? Y
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
         }
     }
 
-    public double? Z
+    public new double? Z
     {
         get
         {

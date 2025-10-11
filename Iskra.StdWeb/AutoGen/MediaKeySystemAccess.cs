@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeySystemAccess(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string KeySystem
+    public new string KeySystem
     {
         get
         {

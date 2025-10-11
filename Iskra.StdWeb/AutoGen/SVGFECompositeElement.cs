@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFECompositeElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString In1
+    public new global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFECompositeElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedString In2
+    public new global::Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFECompositeElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration Operator
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration Operator
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFECompositeElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber K1
+    public new global::Iskra.StdWeb.SVGAnimatedNumber K1
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFECompositeElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber K2
+    public new global::Iskra.StdWeb.SVGAnimatedNumber K2
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGFECompositeElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber K3
+    public new global::Iskra.StdWeb.SVGAnimatedNumber K3
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SVGFECompositeElement(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber K4
+    public new global::Iskra.StdWeb.SVGAnimatedNumber K4
     {
         get
         {

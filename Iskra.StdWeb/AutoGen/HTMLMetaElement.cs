@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMetaElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string HttpEquiv
+    public new string HttpEquiv
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Content
+    public new string Content
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Media
+    public new string Media
     {
         get
         {

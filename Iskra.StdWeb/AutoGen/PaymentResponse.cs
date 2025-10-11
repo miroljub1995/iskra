@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentResponse(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string RequestId
+    public new string RequestId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string MethodName
+    public new string MethodName
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::System.Runtime.InteropServices.JavaScript.JSObject Details
+    public new global::System.Runtime.InteropServices.JavaScript.JSObject Details
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.ContactAddress? ShippingAddress
+    public new global::Iskra.StdWeb.ContactAddress? ShippingAddress
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? ShippingOption
+    public new string? ShippingOption
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? PayerName
+    public new string? PayerName
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? PayerEmail
+    public new string? PayerEmail
     {
         get
         {
@@ -115,7 +115,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? PayerPhone
+    public new string? PayerPhone
     {
         get
         {
@@ -134,7 +134,7 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
     {
         get
         {

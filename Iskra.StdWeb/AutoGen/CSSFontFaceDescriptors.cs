@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleDeclaration(obj)
 {
-    public string Src
+    public new string Src
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontFamily
+    public new string FontFamily
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_family
+    public new string Font_family
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontStyle
+    public new string FontStyle
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_style
+    public new string Font_style
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontWeight
+    public new string FontWeight
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_weight
+    public new string Font_weight
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontStretch
+    public new string FontStretch
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_stretch
+    public new string Font_stretch
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontWidth
+    public new string FontWidth
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_width
+    public new string Font_width
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontSize
+    public new string FontSize
     {
         get
         {
@@ -210,7 +210,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_size
+    public new string Font_size
     {
         get
         {
@@ -227,7 +227,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string SizeAdjust
+    public new string SizeAdjust
     {
         get
         {
@@ -244,7 +244,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Size_adjust
+    public new string Size_adjust
     {
         get
         {
@@ -261,7 +261,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string UnicodeRange
+    public new string UnicodeRange
     {
         get
         {
@@ -278,7 +278,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Unicode_range
+    public new string Unicode_range
     {
         get
         {
@@ -295,7 +295,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontFeatureSettings
+    public new string FontFeatureSettings
     {
         get
         {
@@ -312,7 +312,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_feature_settings
+    public new string Font_feature_settings
     {
         get
         {
@@ -329,7 +329,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontVariationSettings
+    public new string FontVariationSettings
     {
         get
         {
@@ -346,7 +346,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_variation_settings
+    public new string Font_variation_settings
     {
         get
         {
@@ -363,7 +363,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontNamedInstance
+    public new string FontNamedInstance
     {
         get
         {
@@ -380,7 +380,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_named_instance
+    public new string Font_named_instance
     {
         get
         {
@@ -397,7 +397,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontDisplay
+    public new string FontDisplay
     {
         get
         {
@@ -414,7 +414,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_display
+    public new string Font_display
     {
         get
         {
@@ -431,7 +431,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string FontLanguageOverride
+    public new string FontLanguageOverride
     {
         get
         {
@@ -448,7 +448,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Font_language_override
+    public new string Font_language_override
     {
         get
         {
@@ -465,7 +465,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string AscentOverride
+    public new string AscentOverride
     {
         get
         {
@@ -482,7 +482,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Ascent_override
+    public new string Ascent_override
     {
         get
         {
@@ -499,7 +499,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string DescentOverride
+    public new string DescentOverride
     {
         get
         {
@@ -516,7 +516,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Descent_override
+    public new string Descent_override
     {
         get
         {
@@ -533,7 +533,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string LineGapOverride
+    public new string LineGapOverride
     {
         get
         {
@@ -550,7 +550,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Line_gap_override
+    public new string Line_gap_override
     {
         get
         {
@@ -567,7 +567,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string SuperscriptPositionOverride
+    public new string SuperscriptPositionOverride
     {
         get
         {
@@ -584,7 +584,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Superscript_position_override
+    public new string Superscript_position_override
     {
         get
         {
@@ -601,7 +601,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string SubscriptPositionOverride
+    public new string SubscriptPositionOverride
     {
         get
         {
@@ -618,7 +618,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Subscript_position_override
+    public new string Subscript_position_override
     {
         get
         {
@@ -635,7 +635,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string SuperscriptSizeOverride
+    public new string SuperscriptSizeOverride
     {
         get
         {
@@ -652,7 +652,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Superscript_size_override
+    public new string Superscript_size_override
     {
         get
         {
@@ -669,7 +669,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string SubscriptSizeOverride
+    public new string SubscriptSizeOverride
     {
         get
         {
@@ -686,7 +686,7 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
         }
     }
 
-    public string Subscript_size_override
+    public new string Subscript_size_override
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string KeyText
+    public new string KeyText
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.CSSStyleProperties Style
+    public new global::Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {

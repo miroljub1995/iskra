@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Crypto(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.SubtleCrypto Subtle
+    public new global::Iskra.StdWeb.SubtleCrypto Subtle
     {
         get
         {

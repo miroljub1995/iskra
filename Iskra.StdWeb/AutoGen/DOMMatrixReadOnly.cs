@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double A
+    public new double A
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double B
+    public new double B
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double C
+    public new double C
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double D
+    public new double D
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double E
+    public new double E
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double F
+    public new double F
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M11
+    public new double M11
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M12
+    public new double M12
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M13
+    public new double M13
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M14
+    public new double M14
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M21
+    public new double M21
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M22
+    public new double M22
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M23
+    public new double M23
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M24
+    public new double M24
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M31
+    public new double M31
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M32
+    public new double M32
     {
         get
         {
@@ -182,7 +182,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M33
+    public new double M33
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M34
+    public new double M34
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M41
+    public new double M41
     {
         get
         {
@@ -215,7 +215,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M42
+    public new double M42
     {
         get
         {
@@ -226,7 +226,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M43
+    public new double M43
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double M44
+    public new double M44
     {
         get
         {
@@ -248,7 +248,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool Is2D
+    public new bool Is2D
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool IsIdentity
+    public new bool IsIdentity
     {
         get
         {

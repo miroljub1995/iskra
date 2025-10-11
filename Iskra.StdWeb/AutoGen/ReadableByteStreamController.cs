@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableByteStreamController(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.ReadableStreamBYOBRequest? ByobRequest
+    public new global::Iskra.StdWeb.ReadableStreamBYOBRequest? ByobRequest
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ReadableByteStreamController(global::System.Runtime.Interop
         }
     }
 
-    public double? DesiredSize
+    public new double? DesiredSize
     {
         get
         {

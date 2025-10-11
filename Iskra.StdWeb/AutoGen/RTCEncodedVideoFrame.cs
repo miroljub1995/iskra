@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCEncodedVideoFrame(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.RTCEncodedVideoFrameType Type
+    public new global::Iskra.StdWeb.RTCEncodedVideoFrameType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCEncodedVideoFrame(global::System.Runtime.InteropServices
         }
     }
 
-    public global::Iskra.JSCore.ArrayBuffer Data
+    public new global::Iskra.JSCore.ArrayBuffer Data
     {
         get
         {

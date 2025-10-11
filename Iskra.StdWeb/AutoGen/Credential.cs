@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Credential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Credential(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {

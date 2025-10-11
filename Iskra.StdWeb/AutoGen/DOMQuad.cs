@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.DOMPoint P1
+    public new global::Iskra.StdWeb.DOMPoint P1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.StdWeb.DOMPoint P2
+    public new global::Iskra.StdWeb.DOMPoint P2
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.StdWeb.DOMPoint P3
+    public new global::Iskra.StdWeb.DOMPoint P3
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.StdWeb.DOMPoint P4
+    public new global::Iskra.StdWeb.DOMPoint P4
     {
         get
         {

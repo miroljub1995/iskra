@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceScriptTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public string EntryType
+    public new string EntryType
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public global::Iskra.StdWeb.ScriptInvokerType InvokerType
+    public new global::Iskra.StdWeb.ScriptInvokerType InvokerType
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public string Invoker
+    public new string Invoker
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public double ExecutionStart
+    public new double ExecutionStart
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public string SourceURL
+    public new string SourceURL
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public string SourceFunctionName
+    public new string SourceFunctionName
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public long SourceCharPosition
+    public new long SourceCharPosition
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public double PauseDuration
+    public new double PauseDuration
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public double ForcedStyleAndLayoutDuration
+    public new double ForcedStyleAndLayoutDuration
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public global::Iskra.StdWeb.Window? Window
+    public new global::Iskra.StdWeb.Window? Window
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public global::Iskra.StdWeb.ScriptWindowAttribution WindowAttribution
+    public new global::Iskra.StdWeb.ScriptWindowAttribution WindowAttribution
     {
         get
         {

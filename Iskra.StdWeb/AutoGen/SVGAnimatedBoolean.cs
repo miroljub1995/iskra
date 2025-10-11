@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedBoolean(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool BaseVal
+    public new bool BaseVal
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SVGAnimatedBoolean(global::System.Runtime.InteropServices.J
         }
     }
 
-    public bool AnimVal
+    public new bool AnimVal
     {
         get
         {

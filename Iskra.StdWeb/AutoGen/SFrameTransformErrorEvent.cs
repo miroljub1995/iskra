@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.SFrameTransformErrorEventType ErrorType
+    public new global::Iskra.StdWeb.SFrameTransformErrorEventType ErrorType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>? KeyID
+    public new global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>? KeyID
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public object? Frame
+    public new object? Frame
     {
         get
         {

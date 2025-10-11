@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGClipPathElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration ClipPathUnits
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration ClipPathUnits
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGClipPathElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedTransformList Transform
+    public new global::Iskra.StdWeb.SVGAnimatedTransformList Transform
     {
         get
         {

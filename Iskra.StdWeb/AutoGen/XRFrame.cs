@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.XRSession Session
+    public new global::Iskra.StdWeb.XRSession Session
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public double PredictedDisplayTime
+    public new double PredictedDisplayTime
     {
         get
         {

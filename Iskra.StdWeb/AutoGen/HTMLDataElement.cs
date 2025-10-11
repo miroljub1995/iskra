@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDataElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Value
+    public new string Value
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeySession(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string SessionId
+    public new string SessionId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public double Expiration
+    public new double Expiration
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public object Closed
+    public new object Closed
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.MediaKeyStatusMap KeyStatuses
+    public new global::Iskra.StdWeb.MediaKeyStatusMap KeyStatuses
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onkeystatuseschange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onkeystatuseschange
     {
         get
         {
@@ -82,7 +82,7 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {

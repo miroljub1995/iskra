@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.AudioSampleFormat? Format
+    public new global::Iskra.StdWeb.AudioSampleFormat? Format
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public float SampleRate
+    public new float SampleRate
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint NumberOfFrames
+    public new uint NumberOfFrames
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint NumberOfChannels
+    public new uint NumberOfChannels
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public ulong Duration
+    public new ulong Duration
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public long Timestamp
+    public new long Timestamp
     {
         get
         {

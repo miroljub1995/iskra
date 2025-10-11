@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class History(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Length
+    public new uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.StdWeb.ScrollRestoration ScrollRestoration
+    public new global::Iskra.StdWeb.ScrollRestoration ScrollRestoration
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public object? State
+    public new object? State
     {
         get
         {

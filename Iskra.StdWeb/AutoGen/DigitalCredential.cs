@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DigitalCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public string Protocol
+    public new string Protocol
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DigitalCredential(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::System.Runtime.InteropServices.JavaScript.JSObject Data
+    public new global::System.Runtime.InteropServices.JavaScript.JSObject Data
     {
         get
         {

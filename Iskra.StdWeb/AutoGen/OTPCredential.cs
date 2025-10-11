@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OTPCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public string Code
+    public new string Code
     {
         get
         {

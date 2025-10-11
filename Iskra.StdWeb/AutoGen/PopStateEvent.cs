@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PopStateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public object? State
+    public new object? State
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PopStateEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool HasUAVisualTransition
+    public new bool HasUAVisualTransition
     {
         get
         {

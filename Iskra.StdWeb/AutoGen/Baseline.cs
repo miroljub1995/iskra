@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Baseline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Baseline(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public double Value
+    public new double Value
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDtlsTransport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.RTCIceTransport IceTransport
+    public new global::Iskra.StdWeb.RTCIceTransport IceTransport
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCDtlsTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.RTCDtlsTransportState State
+    public new global::Iskra.StdWeb.RTCDtlsTransportState State
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RTCDtlsTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class RTCDtlsTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

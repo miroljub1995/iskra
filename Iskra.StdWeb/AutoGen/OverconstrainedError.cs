@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OverconstrainedError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMException(obj)
 {
-    public string Constraint
+    public new string Constraint
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGEllipseElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGeometryElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedLength Cx
+    public new global::Iskra.StdWeb.SVGAnimatedLength Cx
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength Cy
+    public new global::Iskra.StdWeb.SVGAnimatedLength Cy
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength Rx
+    public new global::Iskra.StdWeb.SVGAnimatedLength Rx
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLength Ry
+    public new global::Iskra.StdWeb.SVGAnimatedLength Ry
     {
         get
         {

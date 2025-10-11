@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimationElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGElement? TargetElement
+    public new global::Iskra.StdWeb.SVGElement? TargetElement
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onbegin
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onbegin
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onend
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onend
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onrepeat
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onrepeat
     {
         get
         {

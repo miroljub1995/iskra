@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPositioningElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGTextContentElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedLengthList X
+    public new global::Iskra.StdWeb.SVGAnimatedLengthList X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTextPositioningElement(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLengthList Y
+    public new global::Iskra.StdWeb.SVGAnimatedLengthList Y
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGTextPositioningElement(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLengthList Dx
+    public new global::Iskra.StdWeb.SVGAnimatedLengthList Dx
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGTextPositioningElement(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedLengthList Dy
+    public new global::Iskra.StdWeb.SVGAnimatedLengthList Dy
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGTextPositioningElement(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumberList Rotate
+    public new global::Iskra.StdWeb.SVGAnimatedNumberList Rotate
     {
         get
         {

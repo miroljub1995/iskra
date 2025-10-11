@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Accelerometer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public double? X
+    public new double? X
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public double? Y
+    public new double? Y
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public double? Z
+    public new double? Z
     {
         get
         {

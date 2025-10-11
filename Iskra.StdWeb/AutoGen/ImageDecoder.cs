@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Type
+    public new string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public bool Complete
+    public new bool Complete
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public object Completed
+    public new object Completed
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.ImageTrackList Tracks
+    public new global::Iskra.StdWeb.ImageTrackList Tracks
     {
         get
         {

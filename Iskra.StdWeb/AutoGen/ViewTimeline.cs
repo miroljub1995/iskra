@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ScrollTimeline(obj)
 {
-    public global::Iskra.StdWeb.Element Subject
+    public new global::Iskra.StdWeb.Element Subject
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.CSSNumericValue StartOffset
+    public new global::Iskra.StdWeb.CSSNumericValue StartOffset
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.CSSNumericValue EndOffset
+    public new global::Iskra.StdWeb.CSSNumericValue EndOffset
     {
         get
         {

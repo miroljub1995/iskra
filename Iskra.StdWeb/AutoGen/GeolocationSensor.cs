@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public double? Latitude
+    public new double? Latitude
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double? Longitude
+    public new double? Longitude
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double? Altitude
+    public new double? Altitude
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double? Accuracy
+    public new double? Accuracy
     {
         get
         {
@@ -82,7 +82,7 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double? AltitudeAccuracy
+    public new double? AltitudeAccuracy
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double? Heading
+    public new double? Heading
     {
         get
         {
@@ -120,7 +120,7 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public double? Speed
+    public new double? Speed
     {
         get
         {

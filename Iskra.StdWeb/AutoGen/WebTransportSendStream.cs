@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportSendStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WritableStream(obj)
 {
-    public global::Iskra.StdWeb.WebTransportSendGroup? SendGroup
+    public new global::Iskra.StdWeb.WebTransportSendGroup? SendGroup
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
         }
     }
 
-    public long SendOrder
+    public new long SendOrder
     {
         get
         {

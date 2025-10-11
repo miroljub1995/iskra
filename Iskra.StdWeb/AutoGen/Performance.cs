@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Performance(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public double TimeOrigin
+    public new double TimeOrigin
     {
         get
         {

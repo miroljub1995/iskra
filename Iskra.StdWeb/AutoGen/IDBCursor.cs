@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union> Source
+    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union> Source
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.IDBCursorDirection Direction
+    public new global::Iskra.StdWeb.IDBCursorDirection Direction
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public object? Key
+    public new object? Key
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public object? PrimaryKey
+    public new object? PrimaryKey
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.IDBRequest Request
+    public new global::Iskra.StdWeb.IDBRequest Request
     {
         get
         {

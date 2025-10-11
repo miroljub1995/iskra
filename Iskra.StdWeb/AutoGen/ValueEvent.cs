@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ValueEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public object? Value
+    public new object? Value
     {
         get
         {

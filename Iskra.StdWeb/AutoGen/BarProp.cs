@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BarProp(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool Visible
+    public new bool Visible
     {
         get
         {

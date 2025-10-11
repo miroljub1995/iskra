@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string Href
+    public new string Href
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.MediaList Media
+    public new global::Iskra.StdWeb.MediaList Media
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.CSSStyleSheet? StyleSheet
+    public new global::Iskra.StdWeb.CSSStyleSheet? StyleSheet
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string? LayerName
+    public new string? LayerName
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string? SupportsText
+    public new string? SupportsText
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionAvailableEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.PresentationConnection Connection
+    public new global::Iskra.StdWeb.PresentationConnection Connection
     {
         get
         {

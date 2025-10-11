@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public ulong Version
+    public new ulong Version
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.DOMStringList ObjectStoreNames
+    public new global::Iskra.StdWeb.DOMStringList ObjectStoreNames
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onclose
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onversionchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onversionchange
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSNumericValue(obj)
 {
-    public double Value
+    public new double Value
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string Unit
+    public new string Unit
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TransformStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.ReadableStream Readable
+    public new global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TransformStream(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.WritableStream Writable
+    public new global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaintSize(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double Width
+    public new double Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaintSize(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public double Height
+    public new double Height
     {
         get
         {

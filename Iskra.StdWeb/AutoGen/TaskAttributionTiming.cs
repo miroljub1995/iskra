@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskAttributionTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public string EntryType
+    public new string EntryType
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public string ContainerType
+    public new string ContainerType
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public string ContainerSrc
+    public new string ContainerSrc
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public string ContainerId
+    public new string ContainerId
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public string ContainerName
+    public new string ContainerName
     {
         get
         {

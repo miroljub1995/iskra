@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOutputElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public global::Iskra.StdWeb.DOMTokenList HtmlFor
+    public new global::Iskra.StdWeb.DOMTokenList HtmlFor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.HTMLFormElement? Form
+    public new global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -64,7 +64,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string DefaultValue
+    public new string DefaultValue
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string Value
+    public new string Value
     {
         get
         {
@@ -98,7 +98,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool WillValidate
+    public new bool WillValidate
     {
         get
         {
@@ -109,7 +109,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.ValidityState Validity
+    public new global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -120,7 +120,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string ValidationMessage
+    public new string ValidationMessage
     {
         get
         {
@@ -131,7 +131,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.NodeList Labels
+    public new global::Iskra.StdWeb.NodeList Labels
     {
         get
         {

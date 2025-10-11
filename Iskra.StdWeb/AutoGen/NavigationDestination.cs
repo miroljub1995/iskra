@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationDestination(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Url
+    public new string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
         }
     }
 
-    public string Key
+    public new string Key
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
         }
     }
 
-    public string Id
+    public new string Id
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
         }
     }
 
-    public long Index
+    public new long Index
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
         }
     }
 
-    public bool SameDocument
+    public new bool SameDocument
     {
         get
         {

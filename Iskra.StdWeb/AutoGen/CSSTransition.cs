@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransition(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Animation(obj)
 {
-    public string TransitionProperty
+    public new string TransitionProperty
     {
         get
         {

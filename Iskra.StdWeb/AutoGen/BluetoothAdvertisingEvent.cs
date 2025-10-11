@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.BluetoothDevice Device
+    public new global::Iskra.StdWeb.BluetoothDevice Device
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Uuids
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Uuids
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public string? Name
+    public new string? Name
     {
         get
         {
@@ -48,7 +48,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public ushort? Appearance
+    public new ushort? Appearance
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public sbyte? TxPower
+    public new sbyte? TxPower
     {
         get
         {
@@ -86,7 +86,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public sbyte? Rssi
+    public new sbyte? Rssi
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.BluetoothManufacturerDataMap ManufacturerData
+    public new global::Iskra.StdWeb.BluetoothManufacturerDataMap ManufacturerData
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.BluetoothServiceDataMap ServiceData
+    public new global::Iskra.StdWeb.BluetoothServiceDataMap ServiceData
     {
         get
         {

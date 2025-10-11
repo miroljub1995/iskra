@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public global::Iskra.StdWeb.Request Request
+    public new global::Iskra.StdWeb.Request Request
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public object PreloadResponse
+    public new object PreloadResponse
     {
         get
         {
@@ -27,7 +27,7 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string ClientId
+    public new string ClientId
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string ResultingClientId
+    public new string ResultingClientId
     {
         get
         {
@@ -49,7 +49,7 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string ReplacesClientId
+    public new string ReplacesClientId
     {
         get
         {
@@ -60,7 +60,7 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public object Handled
+    public new object Handled
     {
         get
         {

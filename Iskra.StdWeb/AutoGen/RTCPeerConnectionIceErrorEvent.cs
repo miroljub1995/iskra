@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string? Address
+    public new string? Address
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
         }
     }
 
-    public ushort? Port
+    public new ushort? Port
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
         }
     }
 
-    public string Url
+    public new string Url
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
         }
     }
 
-    public ushort ErrorCode
+    public new ushort ErrorCode
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
         }
     }
 
-    public string ErrorText
+    public new string ErrorText
     {
         get
         {

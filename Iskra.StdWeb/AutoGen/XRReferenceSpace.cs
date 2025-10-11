@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRReferenceSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRSpace(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onreset
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onreset
     {
         get
         {

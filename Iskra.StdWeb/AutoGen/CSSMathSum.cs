@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathSum(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSMathValue(obj)
 {
-    public global::Iskra.StdWeb.CSSNumericArray Values
+    public new global::Iskra.StdWeb.CSSNumericArray Values
     {
         get
         {

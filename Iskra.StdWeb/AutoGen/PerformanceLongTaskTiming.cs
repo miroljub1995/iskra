@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public string EntryType
+    public new string EntryType
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Attribution
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Attribution
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerRegistration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.ServiceWorker? Installing
+    public new global::Iskra.StdWeb.ServiceWorker? Installing
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.ServiceWorker? Waiting
+    public new global::Iskra.StdWeb.ServiceWorker? Waiting
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.ServiceWorker? Active
+    public new global::Iskra.StdWeb.ServiceWorker? Active
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.NavigationPreloadManager NavigationPreload
+    public new global::Iskra.StdWeb.NavigationPreloadManager NavigationPreload
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         }
     }
 
-    public string Scope
+    public new string Scope
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.ServiceWorkerUpdateViaCache UpdateViaCache
+    public new global::Iskra.StdWeb.ServiceWorkerUpdateViaCache UpdateViaCache
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onupdatefound
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onupdatefound
     {
         get
         {

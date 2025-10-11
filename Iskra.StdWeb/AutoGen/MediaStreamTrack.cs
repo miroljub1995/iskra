@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Kind
+    public new string Kind
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Id
+    public new string Id
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Label
+    public new string Label
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Enabled
+    public new bool Enabled
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Muted
+    public new bool Muted
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmute
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmute
     {
         get
         {
@@ -100,7 +100,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onunmute
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onunmute
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.MediaStreamTrackState ReadyState
+    public new global::Iskra.StdWeb.MediaStreamTrackState ReadyState
     {
         get
         {
@@ -144,7 +144,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onended
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onended
     {
         get
         {

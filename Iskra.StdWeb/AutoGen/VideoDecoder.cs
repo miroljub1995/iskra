@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoDecoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.CodecState State
+    public new global::Iskra.StdWeb.CodecState State
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoDecoder(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public uint DecodeQueueSize
+    public new uint DecodeQueueSize
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class VideoDecoder(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ondequeue
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondequeue
     {
         get
         {

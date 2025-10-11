@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public static global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> SupportedContentEncodings
+    public static new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> SupportedContentEncodings
     {
         get
         {

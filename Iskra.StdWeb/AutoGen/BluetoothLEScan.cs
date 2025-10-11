@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScan(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Filters
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Filters
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool KeepRepeatedDevices
+    public new bool KeepRepeatedDevices
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool AcceptAllAdvertisements
+    public new bool AcceptAllAdvertisements
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool Active
+    public new bool Active
     {
         get
         {

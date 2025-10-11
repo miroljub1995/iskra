@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string VoiceURI
+    public new string VoiceURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
         }
     }
 
-    public string Lang
+    public new string Lang
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
         }
     }
 
-    public bool LocalService
+    public new bool LocalService
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
         }
     }
 
-    public bool Default
+    public new bool Default
     {
         get
         {

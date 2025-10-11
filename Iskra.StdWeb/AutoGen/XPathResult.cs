@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XPathResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ushort ResultType
+    public new ushort ResultType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double NumberValue
+    public new double NumberValue
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public string StringValue
+    public new string StringValue
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public bool BooleanValue
+    public new bool BooleanValue
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.Node? SingleNodeValue
+    public new global::Iskra.StdWeb.Node? SingleNodeValue
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public bool InvalidIteratorState
+    public new bool InvalidIteratorState
     {
         get
         {
@@ -80,7 +80,7 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public uint SnapshotLength
+    public new uint SnapshotLength
     {
         get
         {

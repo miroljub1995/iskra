@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRJointPose(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRPose(obj)
 {
-    public float Radius
+    public new float Radius
     {
         get
         {

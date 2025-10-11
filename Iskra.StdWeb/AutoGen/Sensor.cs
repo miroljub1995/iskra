@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public bool Activated
+    public new bool Activated
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public bool HasReading
+    public new bool HasReading
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public double? Timestamp
+    public new double? Timestamp
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onreading
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onreading
     {
         get
         {
@@ -80,7 +80,7 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onactivate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onactivate
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

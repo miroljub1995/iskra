@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaQueryListEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string Media
+    public new string Media
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaQueryListEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public bool Matches
+    public new bool Matches
     {
         get
         {

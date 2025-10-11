@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.SpeechSynthesisUtterance Utterance
+    public new global::Iskra.StdWeb.SpeechSynthesisUtterance Utterance
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public uint CharIndex
+    public new uint CharIndex
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public uint CharLength
+    public new uint CharLength
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public float ElapsedTime
+    public new float ElapsedTime
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {

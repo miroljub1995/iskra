@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string MediaText
+    public new string MediaText
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint Length
+    public new uint Length
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.GPUSupportedFeatures Features
+    public new global::Iskra.StdWeb.GPUSupportedFeatures Features
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.GPUSupportedLimits Limits
+    public new global::Iskra.StdWeb.GPUSupportedLimits Limits
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.GPUAdapterInfo Info
+    public new global::Iskra.StdWeb.GPUAdapterInfo Info
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSVariableReferenceValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Variable
+    public new string Variable
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.CSSUnparsedValue? Fallback
+    public new global::Iskra.StdWeb.CSSUnparsedValue? Fallback
     {
         get
         {

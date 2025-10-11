@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationPositionError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ushort Code
+    public new ushort Code
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationPositionError(global::System.Runtime.InteropServ
         }
     }
 
-    public string Message
+    public new string Message
     {
         get
         {

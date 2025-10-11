@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTransformEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.RTCRtpScriptTransformer Transformer
+    public new global::Iskra.StdWeb.RTCRtpScriptTransformer Transformer
     {
         get
         {

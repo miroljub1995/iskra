@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFunctionDescriptors(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleDeclaration(obj)
 {
-    public string Result
+    public new string Result
     {
         get
         {

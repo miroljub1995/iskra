@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WritableStreamDefaultController(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.AbortSignal Signal
+    public new global::Iskra.StdWeb.AbortSignal Signal
     {
         get
         {

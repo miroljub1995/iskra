@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Family
+    public new string Family
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string Style
+    public new string Style
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string Weight
+    public new string Weight
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string Stretch
+    public new string Stretch
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string UnicodeRange
+    public new string UnicodeRange
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string FeatureSettings
+    public new string FeatureSettings
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string VariationSettings
+    public new string VariationSettings
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string Display
+    public new string Display
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string AscentOverride
+    public new string AscentOverride
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string DescentOverride
+    public new string DescentOverride
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public string LineGapOverride
+    public new string LineGapOverride
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.StdWeb.FontFaceLoadStatus Status
+    public new global::Iskra.StdWeb.FontFaceLoadStatus Status
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public object Loaded
+    public new object Loaded
     {
         get
         {

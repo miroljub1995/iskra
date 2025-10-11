@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioScheduledSourceNode(obj)
 {
-    public global::Iskra.StdWeb.OscillatorType Type
+    public new global::Iskra.StdWeb.OscillatorType Type
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.AudioParam Frequency
+    public new global::Iskra.StdWeb.AudioParam Frequency
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.AudioParam Detune
+    public new global::Iskra.StdWeb.AudioParam Detune
     {
         get
         {

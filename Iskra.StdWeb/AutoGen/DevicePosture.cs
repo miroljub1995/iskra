@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DevicePosture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.DevicePostureType Type
+    public new global::Iskra.StdWeb.DevicePostureType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DevicePosture(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

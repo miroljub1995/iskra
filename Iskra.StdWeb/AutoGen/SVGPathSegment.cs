@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Type
+    public new string Type
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Values
+    public new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Values
     {
         get
         {

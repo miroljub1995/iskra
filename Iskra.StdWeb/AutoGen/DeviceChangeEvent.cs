@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Devices
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Devices
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class DeviceChangeEvent(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> UserInsertedDevices
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> UserInsertedDevices
     {
         get
         {

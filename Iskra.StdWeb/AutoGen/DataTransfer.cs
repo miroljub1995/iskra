@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string DropEffect
+    public new string DropEffect
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string EffectAllowed
+    public new string EffectAllowed
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.DataTransferItemList Items
+    public new global::Iskra.StdWeb.DataTransferItemList Items
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Types
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Types
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.FileList Files
+    public new global::Iskra.StdWeb.FileList Files
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PreferenceManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.PreferenceObject ColorScheme
+    public new global::Iskra.StdWeb.PreferenceObject ColorScheme
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.PreferenceObject Contrast
+    public new global::Iskra.StdWeb.PreferenceObject Contrast
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.PreferenceObject ReducedMotion
+    public new global::Iskra.StdWeb.PreferenceObject ReducedMotion
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.PreferenceObject ReducedTransparency
+    public new global::Iskra.StdWeb.PreferenceObject ReducedTransparency
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.PreferenceObject ReducedData
+    public new global::Iskra.StdWeb.PreferenceObject ReducedData
     {
         get
         {

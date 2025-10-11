@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMPointReadOnly(obj)
 {
-    public double X
+    public new double X
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public double Y
+    public new double Y
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public double Z
+    public new double Z
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public double W
+    public new double W
     {
         get
         {

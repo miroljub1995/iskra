@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double InlineSize
+    public new double InlineSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double BlockSize
+    public new double BlockSize
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double InlineOffset
+    public new double InlineOffset
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double BlockOffset
+    public new double BlockOffset
     {
         get
         {
@@ -62,7 +62,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public object? Data
+    public new object? Data
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.ChildBreakToken? BreakToken
+    public new global::Iskra.StdWeb.ChildBreakToken? BreakToken
     {
         get
         {

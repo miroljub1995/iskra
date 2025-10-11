@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ulong Id
+    public new ulong Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceEntry(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceEntry(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string EntryType
+    public new string EntryType
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceEntry(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceEntry(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceEntry(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public ulong NavigationId
+    public new ulong NavigationId
     {
         get
         {

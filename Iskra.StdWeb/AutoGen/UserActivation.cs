@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class UserActivation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool HasBeenActive
+    public new bool HasBeenActive
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class UserActivation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public bool IsActive
+    public new bool IsActive
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DedicatedWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkerGlobalScope(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {

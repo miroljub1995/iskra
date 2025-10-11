@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSLayerBlockRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSGroupingRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {

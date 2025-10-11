@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.BaseAudioContext Context
+    public new global::Iskra.StdWeb.BaseAudioContext Context
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint NumberOfInputs
+    public new uint NumberOfInputs
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint NumberOfOutputs
+    public new uint NumberOfOutputs
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public uint ChannelCount
+    public new uint ChannelCount
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.ChannelCountMode ChannelCountMode
+    public new global::Iskra.StdWeb.ChannelCountMode ChannelCountMode
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.StdWeb.ChannelInterpretation ChannelInterpretation
+    public new global::Iskra.StdWeb.ChannelInterpretation ChannelInterpretation
     {
         get
         {

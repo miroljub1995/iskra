@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoColorSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.VideoColorPrimaries? Primaries
+    public new global::Iskra.StdWeb.VideoColorPrimaries? Primaries
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.VideoTransferCharacteristics? Transfer
+    public new global::Iskra.StdWeb.VideoTransferCharacteristics? Transfer
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.VideoMatrixCoefficients? Matrix
+    public new global::Iskra.StdWeb.VideoMatrixCoefficients? Matrix
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool? FullRange
+    public new bool? FullRange
     {
         get
         {

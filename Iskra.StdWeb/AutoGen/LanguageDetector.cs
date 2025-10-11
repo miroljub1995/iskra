@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LanguageDetector(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
+    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double InputQuota
+    public new double InputQuota
     {
         get
         {

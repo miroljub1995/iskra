@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Title
+    public new string Title
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string Artist
+    public new string Artist
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string Album
+    public new string Album
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ChapterInfo
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ChapterInfo
     {
         get
         {

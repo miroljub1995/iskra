@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableCellElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public uint ColSpan
+    public new uint ColSpan
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLTableCellElement(global::System.Runtime.InteropServices
         }
     }
 
-    public uint RowSpan
+    public new uint RowSpan
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLTableCellElement(global::System.Runtime.InteropServices
         }
     }
 
-    public string Headers
+    public new string Headers
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLTableCellElement(global::System.Runtime.InteropServices
         }
     }
 
-    public int CellIndex
+    public new int CellIndex
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class HTMLTableCellElement(global::System.Runtime.InteropServices
         }
     }
 
-    public string Scope
+    public new string Scope
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class HTMLTableCellElement(global::System.Runtime.InteropServices
         }
     }
 
-    public string Abbr
+    public new string Abbr
     {
         get
         {

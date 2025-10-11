@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class EventSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Url
+    public new string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class EventSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public bool WithCredentials
+    public new bool WithCredentials
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class EventSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public ushort ReadyState
+    public new ushort ReadyState
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class EventSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onopen
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onopen
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class EventSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class EventSource(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

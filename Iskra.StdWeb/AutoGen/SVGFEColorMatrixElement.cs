@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString In1
+    public new global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration Type
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration Type
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumberList Values
+    public new global::Iskra.StdWeb.SVGAnimatedNumberList Values
     {
         get
         {

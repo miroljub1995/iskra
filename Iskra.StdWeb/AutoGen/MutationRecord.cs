@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MutationRecord(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Type
+    public new string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.Node Target
+    public new global::Iskra.StdWeb.Node Target
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.NodeList AddedNodes
+    public new global::Iskra.StdWeb.NodeList AddedNodes
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.NodeList RemovedNodes
+    public new global::Iskra.StdWeb.NodeList RemovedNodes
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.Node? PreviousSibling
+    public new global::Iskra.StdWeb.Node? PreviousSibling
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.Node? NextSibling
+    public new global::Iskra.StdWeb.Node? NextSibling
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string? AttributeName
+    public new string? AttributeName
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string? AttributeNamespace
+    public new string? AttributeNamespace
     {
         get
         {
@@ -126,7 +126,7 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string? OldValue
+    public new string? OldValue
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLAreaElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Alt
+    public new string Alt
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Coords
+    public new string Coords
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Shape
+    public new string Shape
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Target
+    public new string Target
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Download
+    public new string Download
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Ping
+    public new string Ping
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Rel
+    public new string Rel
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList RelList
+    public new global::Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -136,7 +136,7 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string ReferrerPolicy
+    public new string ReferrerPolicy
     {
         get
         {

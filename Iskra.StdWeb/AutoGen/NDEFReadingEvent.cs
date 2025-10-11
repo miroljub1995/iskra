@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFReadingEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string SerialNumber
+    public new string SerialNumber
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NDEFReadingEvent(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.NDEFMessage Message
+    public new global::Iskra.StdWeb.NDEFMessage Message
     {
         get
         {

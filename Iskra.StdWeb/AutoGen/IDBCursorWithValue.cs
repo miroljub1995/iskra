@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBCursorWithValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): IDBCursor(obj)
 {
-    public object? Value
+    public new object? Value
     {
         get
         {

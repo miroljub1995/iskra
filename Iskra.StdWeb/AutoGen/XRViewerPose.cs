@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRViewerPose(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRPose(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Views
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Views
     {
         get
         {

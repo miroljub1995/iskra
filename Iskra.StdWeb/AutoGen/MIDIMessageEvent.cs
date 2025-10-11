@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIMessageEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.JSCore.Uint8Array? Data
+    public new global::Iskra.JSCore.Uint8Array? Data
     {
         get
         {

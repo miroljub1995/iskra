@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AuthenticatorResponse(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.ArrayBuffer ClientDataJSON
+    public new global::Iskra.JSCore.ArrayBuffer ClientDataJSON
     {
         get
         {

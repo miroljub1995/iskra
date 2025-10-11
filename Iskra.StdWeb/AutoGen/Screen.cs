@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public int AvailWidth
+    public new int AvailWidth
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public int AvailHeight
+    public new int AvailHeight
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public int Width
+    public new int Width
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public int Height
+    public new int Height
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public uint ColorDepth
+    public new uint ColorDepth
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public uint PixelDepth
+    public new uint PixelDepth
     {
         get
         {

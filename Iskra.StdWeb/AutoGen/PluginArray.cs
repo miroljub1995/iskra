@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PluginArray(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Length
+    public new uint Length
     {
         get
         {

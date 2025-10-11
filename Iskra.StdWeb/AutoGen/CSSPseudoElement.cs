@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPseudoElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Type
+    public new string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.Element Element
+    public new global::Iskra.StdWeb.Element Element
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> Parent
+    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> Parent
     {
         get
         {

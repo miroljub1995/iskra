@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationTrigger(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.AnimationTimeline Timeline
+    public new global::Iskra.StdWeb.AnimationTimeline Timeline
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.AnimationTriggerBehavior Behavior
+    public new global::Iskra.StdWeb.AnimationTriggerBehavior Behavior
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public object? RangeStart
+    public new object? RangeStart
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public object? RangeEnd
+    public new object? RangeEnd
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public object? ExitRangeStart
+    public new object? ExitRangeStart
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public object? ExitRangeEnd
+    public new object? ExitRangeEnd
     {
         get
         {

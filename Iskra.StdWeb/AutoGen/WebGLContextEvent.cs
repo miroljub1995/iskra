@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLContextEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string StatusMessage
+    public new string StatusMessage
     {
         get
         {

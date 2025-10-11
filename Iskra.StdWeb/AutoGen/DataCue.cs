@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataCue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): TextTrackCue(obj)
 {
-    public object? Value
+    public new object? Value
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class DataCue(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {

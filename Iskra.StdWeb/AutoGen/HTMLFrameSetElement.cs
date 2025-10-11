@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFrameSetElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Cols
+    public new string Cols
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLFrameSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public string Rows
+    public new string Rows
     {
         get
         {

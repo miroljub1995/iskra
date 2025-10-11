@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUUncapturedErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.GPUError Error
+    public new global::Iskra.StdWeb.GPUError Error
     {
         get
         {

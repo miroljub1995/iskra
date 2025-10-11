@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMException(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DOMException(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string Message
+    public new string Message
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class DOMException(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public ushort Code
+    public new ushort Code
     {
         get
         {

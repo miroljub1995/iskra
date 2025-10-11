@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannelEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.RTCDataChannel Channel
+    public new global::Iskra.StdWeb.RTCDataChannel Channel
     {
         get
         {

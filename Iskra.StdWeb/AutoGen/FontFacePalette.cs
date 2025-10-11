@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFacePalette(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Length
+    public new uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontFacePalette(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool UsableWithLightBackground
+    public new bool UsableWithLightBackground
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class FontFacePalette(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool UsableWithDarkBackground
+    public new bool UsableWithDarkBackground
     {
         get
         {

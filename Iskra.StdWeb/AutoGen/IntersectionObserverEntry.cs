@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserverEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double Time
+    public new double Time
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.DOMRectReadOnly? RootBounds
+    public new global::Iskra.StdWeb.DOMRectReadOnly? RootBounds
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.DOMRectReadOnly BoundingClientRect
+    public new global::Iskra.StdWeb.DOMRectReadOnly BoundingClientRect
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
+    public new global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public bool IsIntersecting
+    public new bool IsIntersecting
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public bool IsVisible
+    public new bool IsVisible
     {
         get
         {
@@ -80,7 +80,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public double IntersectionRatio
+    public new double IntersectionRatio
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.StdWeb.Element Target
+    public new global::Iskra.StdWeb.Element Target
     {
         get
         {

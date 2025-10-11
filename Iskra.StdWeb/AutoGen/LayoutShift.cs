@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShift(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double Value
+    public new double Value
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutShift(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public bool HadRecentInput
+    public new bool HadRecentInput
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class LayoutShift(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double LastInputTime
+    public new double LastInputTime
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class LayoutShift(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Sources
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Sources
     {
         get
         {

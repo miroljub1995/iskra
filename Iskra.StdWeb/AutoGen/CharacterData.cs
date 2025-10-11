@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CharacterData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
-    public string Data
+    public new string Data
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public uint Length
+    public new uint Length
     {
         get
         {

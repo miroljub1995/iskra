@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
 {
-    public global::Iskra.StdWeb.SharedStorage SharedStorage
+    public new global::Iskra.StdWeb.SharedStorage SharedStorage
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
         }
     }
 
-    public global::Iskra.StdWeb.PrivateAggregation PrivateAggregation
+    public new global::Iskra.StdWeb.PrivateAggregation PrivateAggregation
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
         }
     }
 
-    public global::Iskra.StdWeb.SharedStorageWorkletNavigator Navigator
+    public new global::Iskra.StdWeb.SharedStorageWorkletNavigator Navigator
     {
         get
         {

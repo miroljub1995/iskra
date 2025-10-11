@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMException(obj)
 {
-    public global::Iskra.StdWeb.RTCErrorDetailType ErrorDetail
+    public new global::Iskra.StdWeb.RTCErrorDetailType ErrorDetail
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public int? SdpLineNumber
+    public new int? SdpLineNumber
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public int? SctpCauseCode
+    public new int? SctpCauseCode
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public uint? ReceivedAlert
+    public new uint? ReceivedAlert
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public uint? SentAlert
+    public new uint? SentAlert
     {
         get
         {

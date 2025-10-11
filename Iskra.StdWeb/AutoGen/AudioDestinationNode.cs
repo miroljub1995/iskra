@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioDestinationNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public uint MaxChannelCount
+    public new uint MaxChannelCount
     {
         get
         {

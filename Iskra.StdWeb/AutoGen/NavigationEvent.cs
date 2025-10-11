@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public global::Iskra.StdWeb.SpatialNavigationDirection Dir
+    public new global::Iskra.StdWeb.SpatialNavigationDirection Dir
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationEvent(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventTarget? RelatedTarget
+    public new global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFESpecularLightingElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString In1
+    public new global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFESpecularLightingElement(global::System.Runtime.Interop
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber SurfaceScale
+    public new global::Iskra.StdWeb.SVGAnimatedNumber SurfaceScale
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFESpecularLightingElement(global::System.Runtime.Interop
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber SpecularConstant
+    public new global::Iskra.StdWeb.SVGAnimatedNumber SpecularConstant
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFESpecularLightingElement(global::System.Runtime.Interop
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber SpecularExponent
+    public new global::Iskra.StdWeb.SVGAnimatedNumber SpecularExponent
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFESpecularLightingElement(global::System.Runtime.Interop
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
+    public new global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGFESpecularLightingElement(global::System.Runtime.Interop
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
+    public new global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMediaElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public global::Iskra.StdWeb.MediaError? Error
+    public new global::Iskra.StdWeb.MediaError? Error
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Src
+    public new string Src
     {
         get
         {
@@ -42,7 +42,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>? SrcObject
+    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>? SrcObject
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string CurrentSrc
+    public new string CurrentSrc
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string? CrossOrigin
+    public new string? CrossOrigin
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public ushort NetworkState
+    public new ushort NetworkState
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Preload
+    public new string Preload
     {
         get
         {
@@ -135,7 +135,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.TimeRanges Buffered
+    public new global::Iskra.StdWeb.TimeRanges Buffered
     {
         get
         {
@@ -146,7 +146,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public ushort ReadyState
+    public new ushort ReadyState
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Seeking
+    public new bool Seeking
     {
         get
         {
@@ -168,7 +168,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double CurrentTime
+    public new double CurrentTime
     {
         get
         {
@@ -185,7 +185,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double Duration
+    public new double Duration
     {
         get
         {
@@ -196,7 +196,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Paused
+    public new bool Paused
     {
         get
         {
@@ -207,7 +207,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double DefaultPlaybackRate
+    public new double DefaultPlaybackRate
     {
         get
         {
@@ -224,7 +224,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double PlaybackRate
+    public new double PlaybackRate
     {
         get
         {
@@ -241,7 +241,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool PreservesPitch
+    public new bool PreservesPitch
     {
         get
         {
@@ -258,7 +258,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.TimeRanges Played
+    public new global::Iskra.StdWeb.TimeRanges Played
     {
         get
         {
@@ -269,7 +269,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.TimeRanges Seekable
+    public new global::Iskra.StdWeb.TimeRanges Seekable
     {
         get
         {
@@ -280,7 +280,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Ended
+    public new bool Ended
     {
         get
         {
@@ -291,7 +291,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Autoplay
+    public new bool Autoplay
     {
         get
         {
@@ -308,7 +308,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Loop
+    public new bool Loop
     {
         get
         {
@@ -325,7 +325,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Controls
+    public new bool Controls
     {
         get
         {
@@ -342,7 +342,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public double Volume
+    public new double Volume
     {
         get
         {
@@ -359,7 +359,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool Muted
+    public new bool Muted
     {
         get
         {
@@ -376,7 +376,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public bool DefaultMuted
+    public new bool DefaultMuted
     {
         get
         {
@@ -393,7 +393,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.AudioTrackList AudioTracks
+    public new global::Iskra.StdWeb.AudioTrackList AudioTracks
     {
         get
         {
@@ -404,7 +404,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.VideoTrackList VideoTracks
+    public new global::Iskra.StdWeb.VideoTrackList VideoTracks
     {
         get
         {
@@ -415,7 +415,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.TextTrackList TextTracks
+    public new global::Iskra.StdWeb.TextTrackList TextTracks
     {
         get
         {

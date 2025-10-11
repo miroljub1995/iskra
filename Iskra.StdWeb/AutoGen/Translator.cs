@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Translator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string SourceLanguage
+    public new string SourceLanguage
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Translator(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string TargetLanguage
+    public new string TargetLanguage
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Translator(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public double InputQuota
+    public new double InputQuota
     {
         get
         {

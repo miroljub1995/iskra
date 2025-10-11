@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Text
+    public new string Text
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public string Lang
+    public new string Lang
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.SpeechSynthesisVoice? Voice
+    public new global::Iskra.StdWeb.SpeechSynthesisVoice? Voice
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public float Volume
+    public new float Volume
     {
         get
         {
@@ -90,7 +90,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public float Rate
+    public new float Rate
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public float Pitch
+    public new float Pitch
     {
         get
         {
@@ -124,7 +124,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onstart
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstart
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onend
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onend
     {
         get
         {
@@ -190,7 +190,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -223,7 +223,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onpause
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onpause
     {
         get
         {
@@ -256,7 +256,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onresume
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onresume
     {
         get
         {
@@ -289,7 +289,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmark
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmark
     {
         get
         {
@@ -322,7 +322,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onboundary
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onboundary
     {
         get
         {

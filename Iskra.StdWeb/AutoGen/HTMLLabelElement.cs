@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLabelElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public global::Iskra.StdWeb.HTMLFormElement? Form
+    public new global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string HtmlFor
+    public new string HtmlFor
     {
         get
         {
@@ -42,7 +42,7 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.HTMLElement? Control
+    public new global::Iskra.StdWeb.HTMLElement? Control
     {
         get
         {

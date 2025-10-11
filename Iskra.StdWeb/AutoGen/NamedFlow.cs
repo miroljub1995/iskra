@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public bool Overset
+    public new bool Overset
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public short FirstEmptyRegionIndex
+    public new short FirstEmptyRegionIndex
     {
         get
         {

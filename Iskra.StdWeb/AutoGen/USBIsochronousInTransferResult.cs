@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBIsochronousInTransferResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.DataView? Data
+    public new global::Iskra.JSCore.DataView? Data
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class USBIsochronousInTransferResult(global::System.Runtime.Inter
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Packets
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Packets
     {
         get
         {

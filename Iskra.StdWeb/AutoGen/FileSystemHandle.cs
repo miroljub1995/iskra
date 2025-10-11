@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.FileSystemHandleKind Kind
+    public new global::Iskra.StdWeb.FileSystemHandleKind Kind
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {

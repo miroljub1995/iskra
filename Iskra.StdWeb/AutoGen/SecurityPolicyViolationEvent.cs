@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SecurityPolicyViolationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string DocumentURI
+    public new string DocumentURI
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string Referrer
+    public new string Referrer
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string BlockedURI
+    public new string BlockedURI
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string EffectiveDirective
+    public new string EffectiveDirective
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string ViolatedDirective
+    public new string ViolatedDirective
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string OriginalPolicy
+    public new string OriginalPolicy
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string SourceFile
+    public new string SourceFile
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public string Sample
+    public new string Sample
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition Disposition
+    public new global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition Disposition
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public ushort StatusCode
+    public new ushort StatusCode
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public uint LineNumber
+    public new uint LineNumber
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         }
     }
 
-    public uint ColumnNumber
+    public new uint ColumnNumber
     {
         get
         {

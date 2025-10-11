@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ResizeObserverSize(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double InlineSize
+    public new double InlineSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ResizeObserverSize(global::System.Runtime.InteropServices.J
         }
     }
 
-    public double BlockSize
+    public new double BlockSize
     {
         get
         {

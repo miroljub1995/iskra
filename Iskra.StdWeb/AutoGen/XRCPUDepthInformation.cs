@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCPUDepthInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRDepthInformation(obj)
 {
-    public global::Iskra.JSCore.ArrayBuffer Data
+    public new global::Iskra.JSCore.ArrayBuffer Data
     {
         get
         {

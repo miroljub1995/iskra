@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGComponentTransferFunctionElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration Type
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGComponentTransferFunctionElement(global::System.Runtime.
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumberList TableValues
+    public new global::Iskra.StdWeb.SVGAnimatedNumberList TableValues
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGComponentTransferFunctionElement(global::System.Runtime.
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Slope
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Slope
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGComponentTransferFunctionElement(global::System.Runtime.
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Intercept
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Intercept
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGComponentTransferFunctionElement(global::System.Runtime.
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Amplitude
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Amplitude
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGComponentTransferFunctionElement(global::System.Runtime.
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Exponent
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Exponent
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SVGComponentTransferFunctionElement(global::System.Runtime.
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Offset
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Offset
     {
         get
         {

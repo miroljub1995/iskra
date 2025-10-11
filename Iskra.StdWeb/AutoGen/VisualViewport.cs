@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VisualViewport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public double OffsetLeft
+    public new double OffsetLeft
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double OffsetTop
+    public new double OffsetTop
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double PageLeft
+    public new double PageLeft
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double PageTop
+    public new double PageTop
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double Width
+    public new double Width
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double Height
+    public new double Height
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double Scale
+    public new double Scale
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onresize
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onresize
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onscroll
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onscroll
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class VisualViewport(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onscrollend
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onscrollend
     {
         get
         {

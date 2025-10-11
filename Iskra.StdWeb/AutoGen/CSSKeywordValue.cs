@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSKeywordValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleValue(obj)
 {
-    public string Value
+    public new string Value
     {
         get
         {

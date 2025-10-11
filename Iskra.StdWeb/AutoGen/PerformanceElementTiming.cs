@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceElementTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double RenderTime
+    public new double RenderTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public double LoadTime
+    public new double LoadTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
+    public new global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public string Identifier
+    public new string Identifier
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public uint NaturalWidth
+    public new uint NaturalWidth
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public uint NaturalHeight
+    public new uint NaturalHeight
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public string Id
+    public new string Id
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.Element? Element
+    public new global::Iskra.StdWeb.Element? Element
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public string Url
+    public new string Url
     {
         get
         {

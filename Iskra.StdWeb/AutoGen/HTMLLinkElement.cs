@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLinkElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Href
+    public new string Href
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string? CrossOrigin
+    public new string? CrossOrigin
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Rel
+    public new string Rel
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string As
+    public new string As
     {
         get
         {
@@ -90,7 +90,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList RelList
+    public new global::Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Media
+    public new string Media
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Integrity
+    public new string Integrity
     {
         get
         {
@@ -135,7 +135,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Hreflang
+    public new string Hreflang
     {
         get
         {
@@ -152,7 +152,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Type
+    public new string Type
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList Sizes
+    public new global::Iskra.StdWeb.DOMTokenList Sizes
     {
         get
         {
@@ -180,7 +180,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string ImageSrcset
+    public new string ImageSrcset
     {
         get
         {
@@ -197,7 +197,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string ImageSizes
+    public new string ImageSizes
     {
         get
         {
@@ -214,7 +214,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string ReferrerPolicy
+    public new string ReferrerPolicy
     {
         get
         {
@@ -231,7 +231,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList Blocking
+    public new global::Iskra.StdWeb.DOMTokenList Blocking
     {
         get
         {
@@ -242,7 +242,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool Disabled
+    public new bool Disabled
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string FetchPriority
+    public new string FetchPriority
     {
         get
         {

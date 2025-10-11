@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDataListElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public global::Iskra.StdWeb.HTMLCollection Options
+    public new global::Iskra.StdWeb.HTMLCollection Options
     {
         get
         {

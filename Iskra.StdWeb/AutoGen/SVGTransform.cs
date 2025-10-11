@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public ushort Type
+    public new ushort Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.DOMMatrix Matrix
+    public new global::Iskra.StdWeb.DOMMatrix Matrix
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public float Angle
+    public new float Angle
     {
         get
         {

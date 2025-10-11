@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public string Id
+    public new string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.ContactAddress? ShippingAddress
+    public new global::Iskra.StdWeb.ContactAddress? ShippingAddress
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string? ShippingOption
+    public new string? ShippingOption
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.PaymentShippingType? ShippingType
+    public new global::Iskra.StdWeb.PaymentShippingType? ShippingType
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onshippingaddresschange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onshippingaddresschange
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onshippingoptionchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onshippingoptionchange
     {
         get
         {
@@ -140,7 +140,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onpaymentmethodchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onpaymentmethodchange
     {
         get
         {

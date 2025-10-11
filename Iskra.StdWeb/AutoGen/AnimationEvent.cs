@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string AnimationName
+    public new string AnimationName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AnimationEvent(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public double ElapsedTime
+    public new double ElapsedTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AnimationEvent(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string PseudoElement
+    public new string PseudoElement
     {
         get
         {

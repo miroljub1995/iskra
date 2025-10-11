@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Length
+    public new uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionResult(global::System.Runtime.InteropServi
         }
     }
 
-    public bool IsFinal
+    public new bool IsFinal
     {
         get
         {

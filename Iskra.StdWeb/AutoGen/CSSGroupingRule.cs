@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSGroupingRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public global::Iskra.StdWeb.CSSRuleList CssRules
+    public new global::Iskra.StdWeb.CSSRuleList CssRules
     {
         get
         {

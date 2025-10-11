@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceVariationAxis(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
         }
     }
 
-    public string AxisTag
+    public new string AxisTag
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
         }
     }
 
-    public double MinimumValue
+    public new double MinimumValue
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
         }
     }
 
-    public double MaximumValue
+    public new double MaximumValue
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
         }
     }
 
-    public double DefaultValue
+    public new double DefaultValue
     {
         get
         {

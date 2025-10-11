@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WindowControlsOverlayGeometryChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.DOMRect TitlebarAreaRect
+    public new global::Iskra.StdWeb.DOMRect TitlebarAreaRect
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WindowControlsOverlayGeometryChangeEvent(global::System.Run
         }
     }
 
-    public bool Visible
+    public new bool Visible
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TrustedTypePolicy(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {

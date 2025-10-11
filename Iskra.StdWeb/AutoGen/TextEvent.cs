@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public string Data
+    public new string Data
     {
         get
         {

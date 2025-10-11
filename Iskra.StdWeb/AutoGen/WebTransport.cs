@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object Ready
+    public new object Ready
     {
         get
         {
@@ -16,7 +16,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.WebTransportReliabilityMode Reliability
+    public new global::Iskra.StdWeb.WebTransportReliabilityMode Reliability
     {
         get
         {
@@ -27,7 +27,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.WebTransportCongestionControl CongestionControl
+    public new global::Iskra.StdWeb.WebTransportCongestionControl CongestionControl
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public ushort? AnticipatedConcurrentIncomingUnidirectionalStreams
+    public new ushort? AnticipatedConcurrentIncomingUnidirectionalStreams
     {
         get
         {
@@ -71,7 +71,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public ushort? AnticipatedConcurrentIncomingBidirectionalStreams
+    public new ushort? AnticipatedConcurrentIncomingBidirectionalStreams
     {
         get
         {
@@ -104,7 +104,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string Protocol
+    public new string Protocol
     {
         get
         {
@@ -115,7 +115,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public object Closed
+    public new object Closed
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public object Draining
+    public new object Draining
     {
         get
         {
@@ -135,7 +135,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.WebTransportDatagramDuplexStream Datagrams
+    public new global::Iskra.StdWeb.WebTransportDatagramDuplexStream Datagrams
     {
         get
         {
@@ -146,7 +146,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.ReadableStream IncomingBidirectionalStreams
+    public new global::Iskra.StdWeb.ReadableStream IncomingBidirectionalStreams
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.ReadableStream IncomingUnidirectionalStreams
+    public new global::Iskra.StdWeb.ReadableStream IncomingUnidirectionalStreams
     {
         get
         {
@@ -168,7 +168,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public static bool SupportsReliableOnly
+    public static new bool SupportsReliableOnly
     {
         get
         {

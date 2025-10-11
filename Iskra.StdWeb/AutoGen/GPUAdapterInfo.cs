@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Vendor
+    public new string Vendor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Architecture
+    public new string Architecture
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Device
+    public new string Device
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Description
+    public new string Description
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public uint SubgroupMinSize
+    public new uint SubgroupMinSize
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public uint SubgroupMaxSize
+    public new uint SubgroupMaxSize
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public bool IsFallbackAdapter
+    public new bool IsFallbackAdapter
     {
         get
         {

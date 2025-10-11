@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceTransport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.RTCIceRole Role
+    public new global::Iskra.StdWeb.RTCIceRole Role
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceComponent Component
+    public new global::Iskra.StdWeb.RTCIceComponent Component
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceTransportState State
+    public new global::Iskra.StdWeb.RTCIceTransportState State
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceGathererState GatheringState
+    public new global::Iskra.StdWeb.RTCIceGathererState GatheringState
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ongatheringstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ongatheringstatechange
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onselectedcandidatepairchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onselectedcandidatepairchange
     {
         get
         {

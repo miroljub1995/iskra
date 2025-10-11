@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLStyleElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public bool Disabled
+    public new bool Disabled
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Media
+    public new string Media
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.DOMTokenList Blocking
+    public new global::Iskra.StdWeb.DOMTokenList Blocking
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioParam(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public float Value
+    public new float Value
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.AutomationRate AutomationRate
+    public new global::Iskra.StdWeb.AutomationRate AutomationRate
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public float DefaultValue
+    public new float DefaultValue
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public float MinValue
+    public new float MinValue
     {
         get
         {
@@ -62,7 +62,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public float MaxValue
+    public new float MaxValue
     {
         get
         {

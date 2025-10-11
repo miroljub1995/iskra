@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamAudioSourceNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public global::Iskra.StdWeb.MediaStream MediaStream
+    public new global::Iskra.StdWeb.MediaStream MediaStream
     {
         get
         {

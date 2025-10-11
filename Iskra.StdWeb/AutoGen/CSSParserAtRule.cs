@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserAtRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSParserRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSParserAtRule(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Prelude
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Prelude
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class CSSParserAtRule(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Body
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Body
     {
         get
         {

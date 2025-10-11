@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string Message
+    public new string Message
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ErrorEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Filename
+    public new string Filename
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ErrorEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint Lineno
+    public new uint Lineno
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ErrorEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public uint Colno
+    public new uint Colno
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class ErrorEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public object? Error
+    public new object? Error
     {
         get
         {

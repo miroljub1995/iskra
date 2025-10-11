@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleDeclaration(obj)
 {
-    public string Margin
+    public new string Margin
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string MarginTop
+    public new string MarginTop
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string MarginRight
+    public new string MarginRight
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string MarginBottom
+    public new string MarginBottom
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string MarginLeft
+    public new string MarginLeft
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Margin_top
+    public new string Margin_top
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Margin_right
+    public new string Margin_right
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Margin_bottom
+    public new string Margin_bottom
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Margin_left
+    public new string Margin_left
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Size
+    public new string Size
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string PageOrientation
+    public new string PageOrientation
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Page_orientation
+    public new string Page_orientation
     {
         get
         {
@@ -210,7 +210,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Marks
+    public new string Marks
     {
         get
         {
@@ -227,7 +227,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         }
     }
 
-    public string Bleed
+    public new string Bleed
     {
         get
         {

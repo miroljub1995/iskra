@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onaudioprocess
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaudioprocess
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.
         }
     }
 
-    public int BufferSize
+    public new int BufferSize
     {
         get
         {

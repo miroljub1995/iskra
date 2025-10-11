@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SyncEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public string Tag
+    public new string Tag
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SyncEvent(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public bool LastChance
+    public new bool LastChance
     {
         get
         {

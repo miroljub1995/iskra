@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRRigidTransform(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.DOMPointReadOnly Position
+    public new global::Iskra.StdWeb.DOMPointReadOnly Position
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRRigidTransform(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.DOMPointReadOnly Orientation
+    public new global::Iskra.StdWeb.DOMPointReadOnly Orientation
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRRigidTransform(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.JSCore.Float32Array Matrix
+    public new global::Iskra.JSCore.Float32Array Matrix
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XRRigidTransform(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.XRRigidTransform Inverse
+    public new global::Iskra.StdWeb.XRRigidTransform Inverse
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public double Width
+    public new double Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Advances
+    public new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Advances
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double BoundingBoxLeft
+    public new double BoundingBoxLeft
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double BoundingBoxRight
+    public new double BoundingBoxRight
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double Height
+    public new double Height
     {
         get
         {
@@ -62,7 +62,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double EmHeightAscent
+    public new double EmHeightAscent
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double EmHeightDescent
+    public new double EmHeightDescent
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double BoundingBoxAscent
+    public new double BoundingBoxAscent
     {
         get
         {
@@ -95,7 +95,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double BoundingBoxDescent
+    public new double BoundingBoxDescent
     {
         get
         {
@@ -106,7 +106,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double FontBoundingBoxAscent
+    public new double FontBoundingBoxAscent
     {
         get
         {
@@ -117,7 +117,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public double FontBoundingBoxDescent
+    public new double FontBoundingBoxDescent
     {
         get
         {
@@ -128,7 +128,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.StdWeb.Baseline DominantBaseline
+    public new global::Iskra.StdWeb.Baseline DominantBaseline
     {
         get
         {
@@ -139,7 +139,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Baselines
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Baselines
     {
         get
         {
@@ -151,7 +151,7 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fonts
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fonts
     {
         get
         {

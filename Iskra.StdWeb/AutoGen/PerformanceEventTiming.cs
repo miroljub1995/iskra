@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceEventTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public double ProcessingStart
+    public new double ProcessingStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
         }
     }
 
-    public double ProcessingEnd
+    public new double ProcessingEnd
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
         }
     }
 
-    public bool Cancelable
+    public new bool Cancelable
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.Node? Target
+    public new global::Iskra.StdWeb.Node? Target
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
         }
     }
 
-    public ulong InteractionId
+    public new ulong InteractionId
     {
         get
         {

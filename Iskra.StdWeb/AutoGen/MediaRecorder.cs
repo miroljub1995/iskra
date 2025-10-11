@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.MediaStream Stream
+    public new global::Iskra.StdWeb.MediaStream Stream
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public string MimeType
+    public new string MimeType
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.RecordingState State
+    public new global::Iskra.StdWeb.RecordingState State
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onstart
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstart
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onstop
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstop
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Ondataavailable
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondataavailable
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onpause
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onpause
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onresume
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onresume
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public uint VideoBitsPerSecond
+    public new uint VideoBitsPerSecond
     {
         get
         {
@@ -248,7 +248,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public uint AudioBitsPerSecond
+    public new uint AudioBitsPerSecond
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.BitrateMode AudioBitrateMode
+    public new global::Iskra.StdWeb.BitrateMode AudioBitrateMode
     {
         get
         {

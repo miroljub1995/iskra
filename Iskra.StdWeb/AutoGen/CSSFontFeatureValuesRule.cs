@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string FontFamily
+    public new string FontFamily
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Annotation
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap Annotation
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Ornaments
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap Ornaments
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Stylistic
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap Stylistic
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Swash
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap Swash
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap CharacterVariant
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap CharacterVariant
     {
         get
         {
@@ -78,7 +78,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap Styleset
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap Styleset
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.CSSFontFeatureValuesMap HistoricalForms
+    public new global::Iskra.StdWeb.CSSFontFeatureValuesMap HistoricalForms
     {
         get
         {

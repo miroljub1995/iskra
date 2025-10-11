@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.Gamepad Gamepad
+    public new global::Iskra.StdWeb.Gamepad Gamepad
     {
         get
         {

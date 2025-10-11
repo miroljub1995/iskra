@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CloseWatcher(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oncancel
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncancel
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class CloseWatcher(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onclose
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {

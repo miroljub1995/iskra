@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.PrivateAggregation? PrivateAggregation
+    public new global::Iskra.StdWeb.PrivateAggregation? PrivateAggregation
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class InterestGroupScriptRunnerGlobalScope(global::System.Runtime
         }
     }
 
-    public global::Iskra.StdWeb.ProtectedAudienceUtilities ProtectedAudience
+    public new global::Iskra.StdWeb.ProtectedAudienceUtilities ProtectedAudience
     {
         get
         {

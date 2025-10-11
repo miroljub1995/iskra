@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AbstractRange(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.Node StartContainer
+    public new global::Iskra.StdWeb.Node StartContainer
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public uint StartOffset
+    public new uint StartOffset
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.Node EndContainer
+    public new global::Iskra.StdWeb.Node EndContainer
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public uint EndOffset
+    public new uint EndOffset
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public bool Collapsed
+    public new bool Collapsed
     {
         get
         {

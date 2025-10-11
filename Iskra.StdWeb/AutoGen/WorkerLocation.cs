@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Href
+    public new string Href
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Origin
+    public new string Origin
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Protocol
+    public new string Protocol
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Host
+    public new string Host
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Hostname
+    public new string Hostname
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Port
+    public new string Port
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Pathname
+    public new string Pathname
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Search
+    public new string Search
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public string Hash
+    public new string Hash
     {
         get
         {

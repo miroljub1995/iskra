@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSessionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.XRSession Session
+    public new global::Iskra.StdWeb.XRSession Session
     {
         get
         {

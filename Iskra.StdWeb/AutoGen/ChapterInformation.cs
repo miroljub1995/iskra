@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ChapterInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Title
+    public new string Title
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public double StartTime
+    public new double StartTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PointerTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AnimationTimeline(obj)
 {
-    public global::Iskra.StdWeb.Element? Source
+    public new global::Iskra.StdWeb.Element? Source
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PointerTimeline(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.PointerAxis Axis
+    public new global::Iskra.StdWeb.PointerAxis Axis
     {
         get
         {

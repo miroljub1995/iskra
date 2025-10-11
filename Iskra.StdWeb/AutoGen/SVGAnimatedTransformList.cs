@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedTransformList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.SVGTransformList BaseVal
+    public new global::Iskra.StdWeb.SVGTransformList BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedTransformList(global::System.Runtime.InteropServ
         }
     }
 
-    public global::Iskra.StdWeb.SVGTransformList AnimVal
+    public new global::Iskra.StdWeb.SVGTransformList AnimVal
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PermissionStatus(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.PermissionState State
+    public new global::Iskra.StdWeb.PermissionState State
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PermissionStatus(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PermissionStatus(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

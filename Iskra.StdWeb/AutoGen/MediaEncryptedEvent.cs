@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaEncryptedEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string InitDataType
+    public new string InitDataType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaEncryptedEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.JSCore.ArrayBuffer? InitData
+    public new global::Iskra.JSCore.ArrayBuffer? InitData
     {
         get
         {

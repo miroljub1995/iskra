@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ManagedSourceBuffer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SourceBuffer(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onbufferedchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onbufferedchange
     {
         get
         {

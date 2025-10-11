@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransformComponent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool Is2D
+    public new bool Is2D
     {
         get
         {

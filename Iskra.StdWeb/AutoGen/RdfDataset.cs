@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RdfDataset(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.RdfGraph DefaultGraph
+    public new global::Iskra.StdWeb.RdfGraph DefaultGraph
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.RTCSessionDescription? LocalDescription
+    public new global::Iskra.StdWeb.RTCSessionDescription? LocalDescription
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCSessionDescription? CurrentLocalDescription
+    public new global::Iskra.StdWeb.RTCSessionDescription? CurrentLocalDescription
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCSessionDescription? PendingLocalDescription
+    public new global::Iskra.StdWeb.RTCSessionDescription? PendingLocalDescription
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCSessionDescription? RemoteDescription
+    public new global::Iskra.StdWeb.RTCSessionDescription? RemoteDescription
     {
         get
         {
@@ -82,7 +82,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCSessionDescription? CurrentRemoteDescription
+    public new global::Iskra.StdWeb.RTCSessionDescription? CurrentRemoteDescription
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCSessionDescription? PendingRemoteDescription
+    public new global::Iskra.StdWeb.RTCSessionDescription? PendingRemoteDescription
     {
         get
         {
@@ -120,7 +120,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCSignalingState SignalingState
+    public new global::Iskra.StdWeb.RTCSignalingState SignalingState
     {
         get
         {
@@ -131,7 +131,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceGatheringState IceGatheringState
+    public new global::Iskra.StdWeb.RTCIceGatheringState IceGatheringState
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCIceConnectionState IceConnectionState
+    public new global::Iskra.StdWeb.RTCIceConnectionState IceConnectionState
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.RTCPeerConnectionState ConnectionState
+    public new global::Iskra.StdWeb.RTCPeerConnectionState ConnectionState
     {
         get
         {
@@ -164,7 +164,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public bool? CanTrickleIceCandidates
+    public new bool? CanTrickleIceCandidates
     {
         get
         {
@@ -183,7 +183,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onnegotiationneeded
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onnegotiationneeded
     {
         get
         {
@@ -216,7 +216,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onicecandidate
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onicecandidate
     {
         get
         {
@@ -249,7 +249,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onicecandidateerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onicecandidateerror
     {
         get
         {
@@ -282,7 +282,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onsignalingstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsignalingstatechange
     {
         get
         {
@@ -315,7 +315,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Oniceconnectionstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Oniceconnectionstatechange
     {
         get
         {
@@ -348,7 +348,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onicegatheringstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onicegatheringstatechange
     {
         get
         {
@@ -381,7 +381,7 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnectionstatechange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnectionstatechange
     {
         get
         {

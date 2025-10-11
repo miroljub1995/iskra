@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ClipboardEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.StdWeb.DataTransfer? ClipboardData
+    public new global::Iskra.StdWeb.DataTransfer? ClipboardData
     {
         get
         {

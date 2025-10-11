@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorManagedData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onmanagedconfigurationchange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmanagedconfigurationchange
     {
         get
         {

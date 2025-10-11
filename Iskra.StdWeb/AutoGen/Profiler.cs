@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Profiler(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public double SampleInterval
+    public new double SampleInterval
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Profiler(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public bool Stopped
+    public new bool Stopped
     {
         get
         {

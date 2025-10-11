@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public ushort ReadyState
+    public new ushort ReadyState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? Result
+    public new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? Result
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.DOMException? Error
+    public new global::Iskra.StdWeb.DOMException? Error
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onloadstart
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloadstart
     {
         get
         {
@@ -86,7 +86,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
         get
         {
@@ -119,7 +119,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onload
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onload
     {
         get
         {
@@ -152,7 +152,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -185,7 +185,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -218,7 +218,7 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onloadend
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloadend
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IntersectionObserver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? Root
+    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? Root
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
         }
     }
 
-    public string RootMargin
+    public new string RootMargin
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
         }
     }
 
-    public string ScrollMargin
+    public new string ScrollMargin
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Thresholds
+    public new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Thresholds
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
         }
     }
 
-    public int Delay
+    public new int Delay
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
         }
     }
 
-    public bool TrackVisibility
+    public new bool TrackVisibility
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEPointLightElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedNumber X
+    public new global::Iskra.StdWeb.SVGAnimatedNumber X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEPointLightElement(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Y
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Y
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEPointLightElement(global::System.Runtime.InteropServic
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedNumber Z
+    public new global::Iskra.StdWeb.SVGAnimatedNumber Z
     {
         get
         {

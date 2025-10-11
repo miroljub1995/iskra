@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HashChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string OldURL
+    public new string OldURL
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HashChangeEvent(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string NewURL
+    public new string NewURL
     {
         get
         {

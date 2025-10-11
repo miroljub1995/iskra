@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object Closed
+    public new object Closed
     {
         get
         {
@@ -16,7 +16,7 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
         }
     }
 
-    public double? DesiredSize
+    public new double? DesiredSize
     {
         get
         {
@@ -35,7 +35,7 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
         }
     }
 
-    public object Ready
+    public new object Ready
     {
         get
         {

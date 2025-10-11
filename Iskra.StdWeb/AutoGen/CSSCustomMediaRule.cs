@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSCustomMediaRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSCustomMediaRule(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> Query
+    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> Query
     {
         get
         {

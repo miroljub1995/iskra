@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathInvert(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSMathValue(obj)
 {
-    public global::Iskra.StdWeb.CSSNumericValue Value
+    public new global::Iskra.StdWeb.CSSNumericValue Value
     {
         get
         {

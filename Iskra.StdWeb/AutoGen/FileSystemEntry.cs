@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public bool IsFile
+    public new bool IsFile
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public bool IsDirectory
+    public new bool IsDirectory
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public string FullPath
+    public new string FullPath
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public global::Iskra.StdWeb.FileSystem Filesystem
+    public new global::Iskra.StdWeb.FileSystem Filesystem
     {
         get
         {

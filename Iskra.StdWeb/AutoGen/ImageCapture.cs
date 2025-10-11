@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageCapture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.StdWeb.MediaStreamTrack Track
+    public new global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {

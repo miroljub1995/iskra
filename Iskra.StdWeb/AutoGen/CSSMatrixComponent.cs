@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMatrixComponent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSTransformComponent(obj)
 {
-    public global::Iskra.StdWeb.DOMMatrix Matrix
+    public new global::Iskra.StdWeb.DOMMatrix Matrix
     {
         get
         {

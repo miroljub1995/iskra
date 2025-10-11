@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioProcessingEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public double PlaybackTime
+    public new double PlaybackTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioProcessingEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public global::Iskra.StdWeb.AudioBuffer InputBuffer
+    public new global::Iskra.StdWeb.AudioBuffer InputBuffer
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioProcessingEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public global::Iskra.StdWeb.AudioBuffer OutputBuffer
+    public new global::Iskra.StdWeb.AudioBuffer OutputBuffer
     {
         get
         {

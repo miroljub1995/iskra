@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBInTransferResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.DataView? Data
+    public new global::Iskra.JSCore.DataView? Data
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class USBInTransferResult(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.StdWeb.USBTransferStatus Status
+    public new global::Iskra.StdWeb.USBTransferStatus Status
     {
         get
         {

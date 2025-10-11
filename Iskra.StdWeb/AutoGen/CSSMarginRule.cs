@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMarginRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSMarginRule(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.CSSStyleDeclaration Style
+    public new global::Iskra.StdWeb.CSSStyleDeclaration Style
     {
         get
         {

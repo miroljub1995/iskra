@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkerGlobalScope(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SharedWorkerGlobalScope(global::System.Runtime.InteropServi
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {

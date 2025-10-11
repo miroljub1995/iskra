@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbortSignal(obj)
 {
-    public global::Iskra.StdWeb.TaskPriority Priority
+    public new global::Iskra.StdWeb.TaskPriority Priority
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onprioritychange
+    public new global::Iskra.StdWeb.EventHandlerNonNull? Onprioritychange
     {
         get
         {

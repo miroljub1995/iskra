@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
-    public string? NamespaceURI
+    public new string? NamespaceURI
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public string? Prefix
+    public new string? Prefix
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public string LocalName
+    public new string LocalName
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public string Name
+    public new string Name
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public string Value
+    public new string Value
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public global::Iskra.StdWeb.Element? OwnerElement
+    public new global::Iskra.StdWeb.Element? OwnerElement
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public bool Specified
+    public new bool Specified
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMRectReadOnly(obj)
 {
-    public double X
+    public new double X
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public double Y
+    public new double Y
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public double Width
+    public new double Width
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public double Height
+    public new double Height
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RdfLiteral(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Value
+    public new string Value
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RdfLiteral(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string Datatype
+    public new string Datatype
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RdfLiteral(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public string? Language
+    public new string? Language
     {
         get
         {

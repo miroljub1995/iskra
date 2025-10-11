@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserBlock(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSParserValue(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSParserBlock(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Body
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Body
     {
         get
         {

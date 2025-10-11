@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDTMFToneChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public string Tone
+    public new string Tone
     {
         get
         {

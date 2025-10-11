@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MouseEvent(obj)
 {
-    public int PointerId
+    public new int PointerId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public double Width
+    public new double Width
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public double Height
+    public new double Height
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public float Pressure
+    public new float Pressure
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public float TangentialPressure
+    public new float TangentialPressure
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public int TiltX
+    public new int TiltX
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public int TiltY
+    public new int TiltY
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public int Twist
+    public new int Twist
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public double AltitudeAngle
+    public new double AltitudeAngle
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public double AzimuthAngle
+    public new double AzimuthAngle
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public string PointerType
+    public new string PointerType
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public bool IsPrimary
+    public new bool IsPrimary
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public int PersistentDeviceId
+    public new int PersistentDeviceId
     {
         get
         {

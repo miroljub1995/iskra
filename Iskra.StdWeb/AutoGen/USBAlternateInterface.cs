@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBAlternateInterface(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public byte AlternateSetting
+    public new byte AlternateSetting
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBAlternateInterface(global::System.Runtime.InteropService
         }
     }
 
-    public byte InterfaceClass
+    public new byte InterfaceClass
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class USBAlternateInterface(global::System.Runtime.InteropService
         }
     }
 
-    public byte InterfaceSubclass
+    public new byte InterfaceSubclass
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class USBAlternateInterface(global::System.Runtime.InteropService
         }
     }
 
-    public byte InterfaceProtocol
+    public new byte InterfaceProtocol
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class USBAlternateInterface(global::System.Runtime.InteropService
         }
     }
 
-    public string? InterfaceName
+    public new string? InterfaceName
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class USBAlternateInterface(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Endpoints
+    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Endpoints
     {
         get
         {

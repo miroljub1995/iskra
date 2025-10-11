@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEBlendElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public global::Iskra.StdWeb.SVGAnimatedString In1
+    public new global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEBlendElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedString In2
+    public new global::Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEBlendElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public global::Iskra.StdWeb.SVGAnimatedEnumeration Mode
+    public new global::Iskra.StdWeb.SVGAnimatedEnumeration Mode
     {
         get
         {

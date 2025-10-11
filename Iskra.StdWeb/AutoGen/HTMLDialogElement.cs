@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDialogElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public bool Open
+    public new bool Open
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLDialogElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string ReturnValue
+    public new string ReturnValue
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLDialogElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public string ClosedBy
+    public new string ClosedBy
     {
         get
         {

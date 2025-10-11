@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class StorageBucket(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.IDBFactory IndexedDB
+    public new global::Iskra.StdWeb.IDBFactory IndexedDB
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.StdWeb.CacheStorage Caches
+    public new global::Iskra.StdWeb.CacheStorage Caches
     {
         get
         {

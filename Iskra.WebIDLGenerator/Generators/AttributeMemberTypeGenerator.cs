@@ -76,7 +76,7 @@ public class AttributeMemberTypeGenerator(
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
-                        public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}
+                        public{{staticKeyword}} new {{returnTypeDeclaration}} {{name}}
                         {
                         {{body.IndentLines(4)}}
                         }

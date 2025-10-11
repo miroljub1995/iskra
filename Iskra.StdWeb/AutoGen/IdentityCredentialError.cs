@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredentialError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMException(obj)
 {
-    public string Error
+    public new string Error
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IdentityCredentialError(global::System.Runtime.InteropServi
         }
     }
 
-    public string Url
+    public new string Url
     {
         get
         {

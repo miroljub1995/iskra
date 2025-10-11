@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSlotElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public string Name
+    public new string Name
     {
         get
         {
