@@ -82,7 +82,7 @@ public static class JSCoreShims
                                      export const createArgsArray = () => {
                                          const array = [];
                                          const target = { length: array.length };
-                                         return const myObj = new Proxy(target, {
+                                         return new Proxy(target, {
                                              get(target, prop) {
                                                  if (Number.isInteger(prop)) {
                                                      return Reflect.get(array, prop);

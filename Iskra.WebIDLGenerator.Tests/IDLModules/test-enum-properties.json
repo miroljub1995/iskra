@@ -1,0 +1,122 @@
+{
+  "spec": {
+    "title": "HTML Standard",
+    "url": "https://html.spec.whatwg.org/multipage/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestEnumProperties": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestEnumProperties",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "value",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "TestEnumPropertiesEnum"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": "https://fetch.spec.whatwg.org/#dom-request-destination"
+          },
+          {
+            "type": "attribute",
+            "name": "valueNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestEnumPropertiesEnum"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": "https://fetch.spec.whatwg.org/#dom-request-destination"
+          },
+          {
+            "type": "attribute",
+            "name": "valueNullableReadonlyAsNotNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestEnumPropertiesEnum"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": "https://fetch.spec.whatwg.org/#dom-request-destination"
+          },
+          {
+            "type": "attribute",
+            "name": "valueNullableReadonlyAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestEnumPropertiesEnum"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": "https://fetch.spec.whatwg.org/#dom-request-destination"
+          },
+          {
+            "type": "attribute",
+            "name": "valueInvalid",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestEnumPropertiesEnum"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": "https://fetch.spec.whatwg.org/#dom-request-destination"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      },
+      "TestEnumPropertiesEnum": {
+        "fragment": "",
+        "type": "enum",
+        "name": "TestEnumPropertiesEnum",
+        "values": [
+          {
+            "value": "enum-value-1",
+            "href": ""
+          },
+          {
+            "value": "enum-value-2",
+            "href": ""
+          },
+          {
+            "value": "enum-value-3",
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "href": ""
+      }
+    }
+  }
+}

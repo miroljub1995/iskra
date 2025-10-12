@@ -5,6 +5,7 @@ using Iskra.WebIDLGenerator.Models;
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class SetPropertyValueGenerator(
+    GenTypeDescriptors descriptors,
     GeneratorContext generatorContext,
     IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
     IDLTypeDescriptionMarshaller marshaller
@@ -156,6 +157,28 @@ public class SetPropertyValueGenerator(
 
                 setPropertyContent = $$"""
                                        Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                       """;
+            }
+        }
+        else if (descriptors.TryGet(type.IdlType, out var descriptor) && descriptor.RootType is EnumType)
+        {
+            if (isStatic)
+            {
+                return $$"""
+                         throw new Exception();
+                         """;
+            }
+            else
+            {
+                marshalledType = new SingleTypeDescription
+                {
+                    ExtAttrs = [],
+                    IdlType = BuiltinTypes.String,
+                    Nullable = type.Nullable,
+                };
+
+                setPropertyContent = $$"""
+                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
                                        """;
             }
         }

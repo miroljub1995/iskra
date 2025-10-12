@@ -106,8 +106,8 @@ public partial class IDLTypeDescriptionMarshaller(
                 if (descriptor.RootType is EnumType)
                 {
                     return $$"""
-                           {{outputVar}} = global::{{descriptor.Namespace}}.{{descriptor.Name}}.Create({{inputVar}});
-                           """;
+                             {{outputVar}} = global::{{descriptor.Namespace}}.{{descriptor.Name}}.Create({{inputVar}});
+                             """;
                 }
             }
         }
@@ -162,6 +162,16 @@ public partial class IDLTypeDescriptionMarshaller(
                 return $$"""
                          {{outputVar}} = Convert.ToDouble({{inputVar}});
                          """;
+            }
+
+            if (descriptors.TryGet(singleTypeDescription.IdlType, out var descriptor))
+            {
+                if (descriptor.RootType is EnumType)
+                {
+                    return $$"""
+                             {{outputVar}} = {{inputVar}}.ToString();
+                             """;
+                }
             }
         }
 

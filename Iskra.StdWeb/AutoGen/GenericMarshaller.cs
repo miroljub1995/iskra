@@ -744,9 +744,9 @@ public static partial class GenericMarshaller
 
             for (int __i_8693 = 0; __i_8693 < input.Length; __i_8693++)
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_8694;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8692, __i_8693.ToString(), __marshalledValue_8694);
+                string __marshalledValue_8694;
+                __marshalledValue_8694 = input[__i_8693].ToString();
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__res_8692, __i_8693.ToString(), __marshalledValue_8694);
             }
 
             return __res_8692;
@@ -1178,9 +1178,9 @@ public static partial class GenericMarshaller
 
             for (int __i_8819 = 0; __i_8819 < input.Length; __i_8819++)
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_8820;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadHapticEffectType } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8818, __i_8819.ToString(), __marshalledValue_8820);
+                string __marshalledValue_8820;
+                __marshalledValue_8820 = input[__i_8819].ToString();
+                Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__res_8818, __i_8819.ToString(), __marshalledValue_8820);
             }
 
             return __res_8818;
@@ -3506,9 +3506,9 @@ public static partial class GenericMarshaller
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>.ToJS(global::Iskra.StdWeb.AutoKeyword input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_9272 = global::Iskra.StdWeb.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_9273;
-            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutoKeyword } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__jsUnion_9272, "value", __marshalledValue_9273);
+            string __marshalledValue_9273;
+            __marshalledValue_9273 = input.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__jsUnion_9272, "value", __marshalledValue_9273);
             return __jsUnion_9272;
         }
 
