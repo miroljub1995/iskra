@@ -44,8 +44,8 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.OverSampleType __res_8346;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "oversample");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OverSampleType } not supported.");
+            string __res_8347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oversample");
+            __res_8346 = global::Iskra.StdWeb.OverSampleType.Create(__res_8347);
             return __res_8346;
         }
         set

@@ -11,8 +11,8 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.StdWeb.XRLayerLayout __res_1512;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layout");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayerLayout } not supported.");
+            string __res_1513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "layout");
+            __res_1512 = global::Iskra.StdWeb.XRLayerLayout.Create(__res_1513);
             return __res_1512;
         }
     }
@@ -84,8 +84,8 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.StdWeb.XRLayerQuality __res_1525;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1526 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "quality");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayerQuality } not supported.");
+            string __res_1526 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "quality");
+            __res_1525 = global::Iskra.StdWeb.XRLayerQuality.Create(__res_1526);
             return __res_1525;
         }
         set

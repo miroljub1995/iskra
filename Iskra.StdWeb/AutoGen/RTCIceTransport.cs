@@ -11,8 +11,8 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceRole __res_1961;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "role");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceRole } not supported.");
+            string __res_1962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "role");
+            __res_1961 = global::Iskra.StdWeb.RTCIceRole.Create(__res_1962);
             return __res_1961;
         }
     }
@@ -22,8 +22,8 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceComponent __res_1963;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "component");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceComponent } not supported.");
+            string __res_1964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "component");
+            __res_1963 = global::Iskra.StdWeb.RTCIceComponent.Create(__res_1964);
             return __res_1963;
         }
     }
@@ -33,8 +33,8 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceTransportState __res_1965;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceTransportState } not supported.");
+            string __res_1966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_1965 = global::Iskra.StdWeb.RTCIceTransportState.Create(__res_1966);
             return __res_1965;
         }
     }
@@ -44,8 +44,8 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceGathererState __res_1967;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gatheringState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceGathererState } not supported.");
+            string __res_1968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "gatheringState");
+            __res_1967 = global::Iskra.StdWeb.RTCIceGathererState.Create(__res_1968);
             return __res_1967;
         }
     }

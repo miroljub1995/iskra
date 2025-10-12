@@ -198,8 +198,8 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.BinaryType __res_4770;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BinaryType } not supported.");
+            string __res_4771 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "binaryType");
+            __res_4770 = global::Iskra.StdWeb.BinaryType.Create(__res_4771);
             return __res_4770;
         }
         set

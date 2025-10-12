@@ -28,8 +28,8 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.AutomationRate __res_8174;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "automationRate");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutomationRate } not supported.");
+            string __res_8175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "automationRate");
+            __res_8174 = global::Iskra.StdWeb.AutomationRate.Create(__res_8175);
             return __res_8174;
         }
         set

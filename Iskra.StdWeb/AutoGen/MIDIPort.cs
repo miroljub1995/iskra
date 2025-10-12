@@ -60,8 +60,8 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.MIDIPortType __res_7553;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortType } not supported.");
+            string __res_7554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_7553 = global::Iskra.StdWeb.MIDIPortType.Create(__res_7554);
             return __res_7553;
         }
     }
@@ -90,8 +90,8 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.MIDIPortDeviceState __res_7558;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortDeviceState } not supported.");
+            string __res_7559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_7558 = global::Iskra.StdWeb.MIDIPortDeviceState.Create(__res_7559);
             return __res_7558;
         }
     }
@@ -101,8 +101,8 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.MIDIPortConnectionState __res_7560;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIPortConnectionState } not supported.");
+            string __res_7561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connection");
+            __res_7560 = global::Iskra.StdWeb.MIDIPortConnectionState.Create(__res_7561);
             return __res_7560;
         }
     }

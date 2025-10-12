@@ -11,8 +11,8 @@ public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.TaskPriority __res_1076;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "priority");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskPriority } not supported.");
+            string __res_1077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "priority");
+            __res_1076 = global::Iskra.StdWeb.TaskPriority.Create(__res_1077);
             return __res_1076;
         }
     }

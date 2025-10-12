@@ -174,8 +174,8 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.NotificationDirection __res_4392;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotificationDirection } not supported.");
+            string __res_4393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dir");
+            __res_4392 = global::Iskra.StdWeb.NotificationDirection.Create(__res_4393);
             return __res_4392;
         }
     }

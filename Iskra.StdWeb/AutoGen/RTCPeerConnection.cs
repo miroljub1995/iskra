@@ -125,8 +125,8 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.RTCSignalingState __res_1801;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signalingState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSignalingState } not supported.");
+            string __res_1802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "signalingState");
+            __res_1801 = global::Iskra.StdWeb.RTCSignalingState.Create(__res_1802);
             return __res_1801;
         }
     }
@@ -136,8 +136,8 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.RTCIceGatheringState __res_1803;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceGatheringState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceGatheringState } not supported.");
+            string __res_1804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iceGatheringState");
+            __res_1803 = global::Iskra.StdWeb.RTCIceGatheringState.Create(__res_1804);
             return __res_1803;
         }
     }
@@ -147,8 +147,8 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.RTCIceConnectionState __res_1805;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "iceConnectionState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceConnectionState } not supported.");
+            string __res_1806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iceConnectionState");
+            __res_1805 = global::Iskra.StdWeb.RTCIceConnectionState.Create(__res_1806);
             return __res_1805;
         }
     }
@@ -158,8 +158,8 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.RTCPeerConnectionState __res_1807;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCPeerConnectionState } not supported.");
+            string __res_1808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connectionState");
+            __res_1807 = global::Iskra.StdWeb.RTCPeerConnectionState.Create(__res_1808);
             return __res_1807;
         }
     }

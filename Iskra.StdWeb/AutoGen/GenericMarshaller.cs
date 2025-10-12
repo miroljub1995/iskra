@@ -730,8 +730,8 @@ public static partial class GenericMarshaller
             for (int __i_8689 = 0; __i_8689 < __length_8688; __i_8689++)
             {
                 global::Iskra.StdWeb.PressureSource __element_8690;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8689);
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } not supported.");
+                string __res_8691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, __i_8689);
+                __element_8690 = global::Iskra.StdWeb.PressureSource.Create(__res_8691);
                 __res_8686[__i_8689] = __element_8690;
             }
 
@@ -1164,8 +1164,8 @@ public static partial class GenericMarshaller
             for (int __i_8815 = 0; __i_8815 < __length_8814; __i_8815++)
             {
                 global::Iskra.StdWeb.GamepadHapticEffectType __element_8816;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, __i_8815);
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadHapticEffectType } not supported.");
+                string __res_8817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, __i_8815);
+                __element_8816 = global::Iskra.StdWeb.GamepadHapticEffectType.Create(__res_8817);
                 __res_8812[__i_8815] = __element_8816;
             }
 
@@ -3490,8 +3490,8 @@ public static partial class GenericMarshaller
             try
             {
                 global::Iskra.StdWeb.AutoKeyword __value_9270;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_9271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AutoKeyword } not supported.");
+                string __res_9271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, "value");
+                __value_9270 = global::Iskra.StdWeb.AutoKeyword.Create(__res_9271);
 
                 value = __value_9270;
                 return true;

@@ -11,8 +11,8 @@ public partial class NavigationEvent(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.SpatialNavigationDirection __res_5199;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dir");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpatialNavigationDirection } not supported.");
+            string __res_5200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dir");
+            __res_5199 = global::Iskra.StdWeb.SpatialNavigationDirection.Create(__res_5200);
             return __res_5199;
         }
     }

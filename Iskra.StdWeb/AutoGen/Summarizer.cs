@@ -22,8 +22,8 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.SummarizerType __res_190;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerType } not supported.");
+            string __res_191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_190 = global::Iskra.StdWeb.SummarizerType.Create(__res_191);
             return __res_190;
         }
     }
@@ -33,8 +33,8 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.SummarizerFormat __res_192;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerFormat } not supported.");
+            string __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_192 = global::Iskra.StdWeb.SummarizerFormat.Create(__res_193);
             return __res_192;
         }
     }
@@ -44,8 +44,8 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.SummarizerLength __res_194;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SummarizerLength } not supported.");
+            string __res_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
+            __res_194 = global::Iskra.StdWeb.SummarizerLength.Create(__res_195);
             return __res_194;
         }
     }

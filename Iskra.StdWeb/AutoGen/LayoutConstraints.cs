@@ -112,8 +112,8 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.BlockFragmentationType __res_7919;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blockFragmentationType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BlockFragmentationType } not supported.");
+            string __res_7920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockFragmentationType");
+            __res_7919 = global::Iskra.StdWeb.BlockFragmentationType.Create(__res_7920);
             return __res_7919;
         }
     }

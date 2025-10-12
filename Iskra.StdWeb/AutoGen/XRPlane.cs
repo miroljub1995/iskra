@@ -34,15 +34,15 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.XRPlaneOrientation? __res_10;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
+            string? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "orientation");
             if (__res_11 is null)
             {
                 __res_10 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRPlaneOrientation } not supported.");
+                string __notNullable_12 = (string)__res_11;
+                __res_10 = global::Iskra.StdWeb.XRPlaneOrientation.Create(__notNullable_12);
             }
             return __res_10;
         }

@@ -11,8 +11,8 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.OscillatorType __res_8289;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OscillatorType } not supported.");
+            string __res_8290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8289 = global::Iskra.StdWeb.OscillatorType.Create(__res_8290);
             return __res_8289;
         }
         set

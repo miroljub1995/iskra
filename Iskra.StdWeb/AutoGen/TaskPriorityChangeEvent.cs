@@ -11,8 +11,8 @@ public partial class TaskPriorityChangeEvent(global::System.Runtime.InteropServi
         get
         {
             global::Iskra.StdWeb.TaskPriority __res_1074;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousPriority");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TaskPriority } not supported.");
+            string __res_1075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "previousPriority");
+            __res_1074 = global::Iskra.StdWeb.TaskPriority.Create(__res_1075);
             return __res_1074;
         }
     }

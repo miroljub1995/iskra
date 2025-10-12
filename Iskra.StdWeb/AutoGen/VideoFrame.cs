@@ -11,15 +11,15 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.VideoPixelFormat? __res_2656;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
+            string? __res_2657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
             if (__res_2657 is null)
             {
                 __res_2656 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2658 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2657;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoPixelFormat } not supported.");
+                string __notNullable_2658 = (string)__res_2657;
+                __res_2656 = global::Iskra.StdWeb.VideoPixelFormat.Create(__notNullable_2658);
             }
             return __res_2656;
         }

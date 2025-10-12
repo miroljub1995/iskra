@@ -120,8 +120,8 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
         get
         {
             global::Iskra.StdWeb.FontFaceSetLoadStatus __res_2190;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FontFaceSetLoadStatus } not supported.");
+            string __res_2191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_2190 = global::Iskra.StdWeb.FontFaceSetLoadStatus.Create(__res_2191);
             return __res_2190;
         }
     }

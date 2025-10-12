@@ -21,8 +21,8 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.WebTransportReliabilityMode __res_2221;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reliability");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportReliabilityMode } not supported.");
+            string __res_2222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reliability");
+            __res_2221 = global::Iskra.StdWeb.WebTransportReliabilityMode.Create(__res_2222);
             return __res_2221;
         }
     }
@@ -32,8 +32,8 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.WebTransportCongestionControl __res_2223;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "congestionControl");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportCongestionControl } not supported.");
+            string __res_2224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "congestionControl");
+            __res_2223 = global::Iskra.StdWeb.WebTransportCongestionControl.Create(__res_2224);
             return __res_2223;
         }
     }

@@ -198,8 +198,8 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.FontFaceLoadStatus __res_2151;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FontFaceLoadStatus } not supported.");
+            string __res_2152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_2151 = global::Iskra.StdWeb.FontFaceLoadStatus.Create(__res_2152);
             return __res_2151;
         }
     }

@@ -11,8 +11,8 @@ public partial class MLOperand(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.MLOperandDataType __res_4780;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MLOperandDataType } not supported.");
+            string __res_4781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dataType");
+            __res_4780 = global::Iskra.StdWeb.MLOperandDataType.Create(__res_4781);
             return __res_4780;
         }
     }

@@ -11,8 +11,8 @@ public partial class CSSMathValue(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.CSSMathOperator __res_47;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_48 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "operator");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSMathOperator } not supported.");
+            string __res_48 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "operator");
+            __res_47 = global::Iskra.StdWeb.CSSMathOperator.Create(__res_48);
             return __res_47;
         }
     }

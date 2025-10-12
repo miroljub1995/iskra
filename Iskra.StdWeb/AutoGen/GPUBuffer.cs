@@ -33,8 +33,8 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.GPUBufferMapState __res_763;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUBufferMapState } not supported.");
+            string __res_764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
+            __res_763 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_764);
             return __res_763;
         }
     }

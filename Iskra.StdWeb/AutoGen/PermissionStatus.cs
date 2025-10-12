@@ -11,8 +11,8 @@ public partial class PermissionStatus(global::System.Runtime.InteropServices.Jav
         get
         {
             global::Iskra.StdWeb.PermissionState __res_179;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PermissionState } not supported.");
+            string __res_180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_179 = global::Iskra.StdWeb.PermissionState.Create(__res_180);
             return __res_179;
         }
     }

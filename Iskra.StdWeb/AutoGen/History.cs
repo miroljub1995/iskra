@@ -22,8 +22,8 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.ScrollRestoration __res_6694;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scrollRestoration");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollRestoration } not supported.");
+            string __res_6695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
+            __res_6694 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_6695);
             return __res_6694;
         }
         set

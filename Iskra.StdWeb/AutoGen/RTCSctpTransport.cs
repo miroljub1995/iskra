@@ -22,8 +22,8 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
         get
         {
             global::Iskra.StdWeb.RTCSctpTransportState __res_1998;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSctpTransportState } not supported.");
+            string __res_1999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_1998 = global::Iskra.StdWeb.RTCSctpTransportState.Create(__res_1999);
             return __res_1998;
         }
     }

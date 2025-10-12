@@ -11,15 +11,15 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
         get
         {
             global::Iskra.StdWeb.NavigationType? __res_6796;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "navigationType");
+            string? __res_6797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "navigationType");
             if (__res_6797 is null)
             {
                 __res_6796 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6798 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6797;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationType } not supported.");
+                string __notNullable_6798 = (string)__res_6797;
+                __res_6796 = global::Iskra.StdWeb.NavigationType.Create(__notNullable_6798);
             }
             return __res_6796;
         }

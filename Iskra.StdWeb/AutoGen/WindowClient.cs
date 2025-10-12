@@ -11,8 +11,8 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.DocumentVisibilityState __res_4589;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "visibilityState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DocumentVisibilityState } not supported.");
+            string __res_4590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "visibilityState");
+            __res_4589 = global::Iskra.StdWeb.DocumentVisibilityState.Create(__res_4590);
             return __res_4589;
         }
     }

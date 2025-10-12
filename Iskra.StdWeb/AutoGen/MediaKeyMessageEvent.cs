@@ -11,8 +11,8 @@ public partial class MediaKeyMessageEvent(global::System.Runtime.InteropServices
         get
         {
             global::Iskra.StdWeb.MediaKeyMessageType __res_5225;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messageType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaKeyMessageType } not supported.");
+            string __res_5226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "messageType");
+            __res_5225 = global::Iskra.StdWeb.MediaKeyMessageType.Create(__res_5226);
             return __res_5225;
         }
     }

@@ -99,8 +99,8 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
         get
         {
             global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition __res_5189;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "disposition");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SecurityPolicyViolationEventDisposition } not supported.");
+            string __res_5190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "disposition");
+            __res_5189 = global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition.Create(__res_5190);
             return __res_5189;
         }
     }

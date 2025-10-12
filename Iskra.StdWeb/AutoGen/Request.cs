@@ -44,8 +44,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.RequestDestination __res_3680;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RequestDestination } not supported.");
+            string __res_3681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "destination");
+            __res_3680 = global::Iskra.StdWeb.RequestDestination.Create(__res_3681);
             return __res_3680;
         }
     }
@@ -66,8 +66,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.ReferrerPolicy __res_3684;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referrerPolicy");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReferrerPolicy } not supported.");
+            string __res_3685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_3684 = global::Iskra.StdWeb.ReferrerPolicy.Create(__res_3685);
             return __res_3684;
         }
     }
@@ -77,8 +77,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.RequestMode __res_3686;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RequestMode } not supported.");
+            string __res_3687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_3686 = global::Iskra.StdWeb.RequestMode.Create(__res_3687);
             return __res_3686;
         }
     }
@@ -88,8 +88,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.RequestCredentials __res_3688;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "credentials");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RequestCredentials } not supported.");
+            string __res_3689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "credentials");
+            __res_3688 = global::Iskra.StdWeb.RequestCredentials.Create(__res_3689);
             return __res_3688;
         }
     }
@@ -99,8 +99,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.RequestCache __res_3690;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cache");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RequestCache } not supported.");
+            string __res_3691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cache");
+            __res_3690 = global::Iskra.StdWeb.RequestCache.Create(__res_3691);
             return __res_3690;
         }
     }
@@ -110,8 +110,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.RequestRedirect __res_3692;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "redirect");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RequestRedirect } not supported.");
+            string __res_3693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "redirect");
+            __res_3692 = global::Iskra.StdWeb.RequestRedirect.Create(__res_3693);
             return __res_3692;
         }
     }
@@ -176,8 +176,8 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.RequestDuplex __res_3704;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "duplex");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RequestDuplex } not supported.");
+            string __res_3705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "duplex");
+            __res_3704 = global::Iskra.StdWeb.RequestDuplex.Create(__res_3705);
             return __res_3704;
         }
     }

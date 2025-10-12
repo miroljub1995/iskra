@@ -11,8 +11,8 @@ public partial class DevicePosture(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.DevicePostureType __res_4849;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DevicePostureType } not supported.");
+            string __res_4850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4849 = global::Iskra.StdWeb.DevicePostureType.Create(__res_4850);
             return __res_4849;
         }
     }

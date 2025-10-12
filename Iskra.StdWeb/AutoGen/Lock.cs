@@ -22,8 +22,8 @@ public partial class Lock(global::System.Runtime.InteropServices.JavaScript.JSOb
         get
         {
             global::Iskra.StdWeb.LockMode __res_2930;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LockMode } not supported.");
+            string __res_2931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_2930 = global::Iskra.StdWeb.LockMode.Create(__res_2931);
             return __res_2930;
         }
     }

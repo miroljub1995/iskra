@@ -11,15 +11,15 @@ public partial class IdleDetector(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.UserIdleState? __res_2848;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userState");
+            string? __res_2849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "userState");
             if (__res_2849 is null)
             {
                 __res_2848 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2850 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2849;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = UserIdleState } not supported.");
+                string __notNullable_2850 = (string)__res_2849;
+                __res_2848 = global::Iskra.StdWeb.UserIdleState.Create(__notNullable_2850);
             }
             return __res_2848;
         }
@@ -30,15 +30,15 @@ public partial class IdleDetector(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.ScreenIdleState? __res_2851;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "screenState");
+            string? __res_2852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "screenState");
             if (__res_2852 is null)
             {
                 __res_2851 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2853 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2852;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScreenIdleState } not supported.");
+                string __notNullable_2853 = (string)__res_2852;
+                __res_2851 = global::Iskra.StdWeb.ScreenIdleState.Create(__notNullable_2853);
             }
             return __res_2851;
         }

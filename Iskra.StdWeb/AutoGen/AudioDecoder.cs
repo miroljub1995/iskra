@@ -11,8 +11,8 @@ public partial class AudioDecoder(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.CodecState __res_2589;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CodecState } not supported.");
+            string __res_2590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_2589 = global::Iskra.StdWeb.CodecState.Create(__res_2590);
             return __res_2589;
         }
     }

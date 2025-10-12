@@ -28,8 +28,8 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         get
         {
             global::Iskra.StdWeb.AnimationTriggerBehavior __res_5261;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "behavior");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTriggerBehavior } not supported.");
+            string __res_5262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "behavior");
+            __res_5261 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(__res_5262);
             return __res_5261;
         }
         set

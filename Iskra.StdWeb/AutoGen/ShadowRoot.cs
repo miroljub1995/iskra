@@ -11,8 +11,8 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.ShadowRootMode __res_3296;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ShadowRootMode } not supported.");
+            string __res_3297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_3296 = global::Iskra.StdWeb.ShadowRootMode.Create(__res_3297);
             return __res_3296;
         }
     }
@@ -33,8 +33,8 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.SlotAssignmentMode __res_3300;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "slotAssignment");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SlotAssignmentMode } not supported.");
+            string __res_3301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "slotAssignment");
+            __res_3300 = global::Iskra.StdWeb.SlotAssignmentMode.Create(__res_3301);
             return __res_3300;
         }
     }

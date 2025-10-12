@@ -30,8 +30,8 @@ public partial class USBIsochronousInTransferPacket(global::System.Runtime.Inter
         get
         {
             global::Iskra.StdWeb.USBTransferStatus __res_5035;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBTransferStatus } not supported.");
+            string __res_5036 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_5035 = global::Iskra.StdWeb.USBTransferStatus.Create(__res_5036);
             return __res_5035;
         }
     }

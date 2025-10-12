@@ -11,8 +11,8 @@ public partial class GPUDeviceLostInfo(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.GPUDeviceLostReason __res_803;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUDeviceLostReason } not supported.");
+            string __res_804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_803 = global::Iskra.StdWeb.GPUDeviceLostReason.Create(__res_804);
             return __res_803;
         }
     }

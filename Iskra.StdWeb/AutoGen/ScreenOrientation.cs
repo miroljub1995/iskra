@@ -11,8 +11,8 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.OrientationType __res_8073;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = OrientationType } not supported.");
+            string __res_8074 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8073 = global::Iskra.StdWeb.OrientationType.Create(__res_8074);
             return __res_8073;
         }
     }

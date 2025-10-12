@@ -22,8 +22,8 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.RewriterTone __res_224;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterTone } not supported.");
+            string __res_225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
+            __res_224 = global::Iskra.StdWeb.RewriterTone.Create(__res_225);
             return __res_224;
         }
     }
@@ -33,8 +33,8 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.RewriterFormat __res_226;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterFormat } not supported.");
+            string __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_226 = global::Iskra.StdWeb.RewriterFormat.Create(__res_227);
             return __res_226;
         }
     }
@@ -44,8 +44,8 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             global::Iskra.StdWeb.RewriterLength __res_228;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RewriterLength } not supported.");
+            string __res_229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
+            __res_228 = global::Iskra.StdWeb.RewriterLength.Create(__res_229);
             return __res_228;
         }
     }

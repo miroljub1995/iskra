@@ -11,8 +11,8 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.XREye __res_4282;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eye");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XREye } not supported.");
+            string __res_4283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
+            __res_4282 = global::Iskra.StdWeb.XREye.Create(__res_4283);
             return __res_4282;
         }
     }

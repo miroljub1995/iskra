@@ -33,8 +33,8 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.UnderlineStyle __res_8438;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineStyle");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = UnderlineStyle } not supported.");
+            string __res_8439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineStyle");
+            __res_8438 = global::Iskra.StdWeb.UnderlineStyle.Create(__res_8439);
             return __res_8438;
         }
     }
@@ -44,8 +44,8 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.UnderlineThickness __res_8440;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "underlineThickness");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = UnderlineThickness } not supported.");
+            string __res_8441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineThickness");
+            __res_8440 = global::Iskra.StdWeb.UnderlineThickness.Create(__res_8441);
             return __res_8440;
         }
     }

@@ -112,8 +112,8 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.RTCDataChannelState __res_2027;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDataChannelState } not supported.");
+            string __res_2028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
+            __res_2027 = global::Iskra.StdWeb.RTCDataChannelState.Create(__res_2028);
             return __res_2027;
         }
     }
@@ -349,8 +349,8 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.BinaryType __res_2064;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BinaryType } not supported.");
+            string __res_2065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "binaryType");
+            __res_2064 = global::Iskra.StdWeb.BinaryType.Create(__res_2065);
             return __res_2064;
         }
         set

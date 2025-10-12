@@ -30,8 +30,8 @@ public partial class PointerTimeline(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.PointerAxis __res_5145;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PointerAxis } not supported.");
+            string __res_5146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axis");
+            __res_5145 = global::Iskra.StdWeb.PointerAxis.Create(__res_5146);
             return __res_5145;
         }
     }

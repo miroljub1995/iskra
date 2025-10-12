@@ -22,8 +22,8 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
         get
         {
             global::Iskra.StdWeb.USBDirection __res_5116;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBDirection } not supported.");
+            string __res_5117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_5116 = global::Iskra.StdWeb.USBDirection.Create(__res_5117);
             return __res_5116;
         }
     }
@@ -33,8 +33,8 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
         get
         {
             global::Iskra.StdWeb.USBEndpointType __res_5118;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBEndpointType } not supported.");
+            string __res_5119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5118 = global::Iskra.StdWeb.USBEndpointType.Create(__res_5119);
             return __res_5118;
         }
     }

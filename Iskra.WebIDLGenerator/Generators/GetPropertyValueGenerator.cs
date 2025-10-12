@@ -7,6 +7,7 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class GetPropertyValueGenerator(
     IServiceProvider provider,
+    GenTypeDescriptors descriptors,
     GeneratorContext generatorContext,
     IDLTypeDescriptionMarshaller marshaller
 )
@@ -168,6 +169,28 @@ public class GetPropertyValueGenerator(
 
                 getPropertyContent = $$"""
                                        double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                       """;
+            }
+        }
+        else if (descriptors.TryGet(type.IdlType, out var descriptor) && descriptor.RootType is EnumType)
+        {
+            if (isStatic)
+            {
+                return $$"""
+                         throw new Exception();
+                         """;
+            }
+            else
+            {
+                inputType = new SingleTypeDescription
+                {
+                    ExtAttrs = [],
+                    IdlType = BuiltinTypes.String,
+                    Nullable = type.Nullable,
+                };
+
+                getPropertyContent = $$"""
+                                       string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                        """;
             }
         }

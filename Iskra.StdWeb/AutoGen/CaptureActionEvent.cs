@@ -11,8 +11,8 @@ public partial class CaptureActionEvent(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.StdWeb.CaptureAction __res_7162;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "action");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CaptureAction } not supported.");
+            string __res_7163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
+            __res_7162 = global::Iskra.StdWeb.CaptureAction.Create(__res_7163);
             return __res_7162;
         }
     }

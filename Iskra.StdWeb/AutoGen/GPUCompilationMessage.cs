@@ -22,8 +22,8 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
         get
         {
             global::Iskra.StdWeb.GPUCompilationMessageType __res_783;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUCompilationMessageType } not supported.");
+            string __res_784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_783 = global::Iskra.StdWeb.GPUCompilationMessageType.Create(__res_784);
             return __res_783;
         }
     }

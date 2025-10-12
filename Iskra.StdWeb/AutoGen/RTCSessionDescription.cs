@@ -11,8 +11,8 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
         get
         {
             global::Iskra.StdWeb.RTCSdpType __res_1847;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCSdpType } not supported.");
+            string __res_1848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1847 = global::Iskra.StdWeb.RTCSdpType.Create(__res_1848);
             return __res_1847;
         }
     }

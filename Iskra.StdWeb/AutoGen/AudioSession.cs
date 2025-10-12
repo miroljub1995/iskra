@@ -11,8 +11,8 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.AudioSessionType __res_8372;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioSessionType } not supported.");
+            string __res_8373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8372 = global::Iskra.StdWeb.AudioSessionType.Create(__res_8373);
             return __res_8372;
         }
         set
@@ -28,8 +28,8 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.AudioSessionState __res_8375;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioSessionState } not supported.");
+            string __res_8376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_8375 = global::Iskra.StdWeb.AudioSessionState.Create(__res_8376);
             return __res_8375;
         }
     }

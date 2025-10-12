@@ -99,8 +99,8 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         get
         {
             global::Iskra.StdWeb.NavigationTimingType __res_1348;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationTimingType } not supported.");
+            string __res_1349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1348 = global::Iskra.StdWeb.NavigationTimingType.Create(__res_1349);
             return __res_1348;
         }
     }

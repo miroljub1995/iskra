@@ -11,8 +11,8 @@ public partial class XRJointSpace(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.XRHandJoint __res_3769;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "jointName");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHandJoint } not supported.");
+            string __res_3770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "jointName");
+            __res_3769 = global::Iskra.StdWeb.XRHandJoint.Create(__res_3770);
             return __res_3769;
         }
     }

@@ -22,8 +22,8 @@ public partial class ServiceWorker(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.ServiceWorkerState __res_4504;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorkerState } not supported.");
+            string __res_4505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_4504 = global::Iskra.StdWeb.ServiceWorkerState.Create(__res_4505);
             return __res_4504;
         }
     }

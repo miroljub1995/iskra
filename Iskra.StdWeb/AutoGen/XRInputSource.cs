@@ -11,8 +11,8 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.XRHandedness __res_4315;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handedness");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRHandedness } not supported.");
+            string __res_4316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "handedness");
+            __res_4315 = global::Iskra.StdWeb.XRHandedness.Create(__res_4316);
             return __res_4315;
         }
     }
@@ -22,8 +22,8 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.XRTargetRayMode __res_4317;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRayMode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRTargetRayMode } not supported.");
+            string __res_4318 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetRayMode");
+            __res_4317 = global::Iskra.StdWeb.XRTargetRayMode.Create(__res_4318);
             return __res_4317;
         }
     }

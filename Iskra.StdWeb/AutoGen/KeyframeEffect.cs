@@ -77,8 +77,8 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.CompositeOperation __res_1476;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "composite");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CompositeOperation } not supported.");
+            string __res_1477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "composite");
+            __res_1476 = global::Iskra.StdWeb.CompositeOperation.Create(__res_1477);
             return __res_1476;
         }
         set

@@ -22,8 +22,8 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.WriterTone __res_207;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tone");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WriterTone } not supported.");
+            string __res_208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
+            __res_207 = global::Iskra.StdWeb.WriterTone.Create(__res_208);
             return __res_207;
         }
     }
@@ -33,8 +33,8 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.WriterFormat __res_209;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WriterFormat } not supported.");
+            string __res_210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_209 = global::Iskra.StdWeb.WriterFormat.Create(__res_210);
             return __res_209;
         }
     }
@@ -44,8 +44,8 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.WriterLength __res_211;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WriterLength } not supported.");
+            string __res_212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
+            __res_211 = global::Iskra.StdWeb.WriterLength.Create(__res_212);
             return __res_211;
         }
     }

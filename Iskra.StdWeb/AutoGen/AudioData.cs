@@ -11,15 +11,15 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.AudioSampleFormat? __res_2643;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "format");
+            string? __res_2644 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
             if (__res_2644 is null)
             {
                 __res_2643 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2645 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2644;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioSampleFormat } not supported.");
+                string __notNullable_2645 = (string)__res_2644;
+                __res_2643 = global::Iskra.StdWeb.AudioSampleFormat.Create(__notNullable_2645);
             }
             return __res_2643;
         }

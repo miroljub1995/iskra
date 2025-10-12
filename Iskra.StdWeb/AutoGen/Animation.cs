@@ -111,8 +111,8 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.AnimationPlayState __res_1443;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationPlayState } not supported.");
+            string __res_1444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "playState");
+            __res_1443 = global::Iskra.StdWeb.AnimationPlayState.Create(__res_1444);
             return __res_1443;
         }
     }
@@ -122,8 +122,8 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.AnimationReplaceState __res_1445;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "replaceState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationReplaceState } not supported.");
+            string __res_1446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replaceState");
+            __res_1445 = global::Iskra.StdWeb.AnimationReplaceState.Create(__res_1446);
             return __res_1445;
         }
     }

@@ -79,15 +79,15 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceComponent? __res_1862;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "component");
+            string? __res_1863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "component");
             if (__res_1863 is null)
             {
                 __res_1862 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1864 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1863;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceComponent } not supported.");
+                string __notNullable_1864 = (string)__res_1863;
+                __res_1862 = global::Iskra.StdWeb.RTCIceComponent.Create(__notNullable_1864);
             }
             return __res_1862;
         }
@@ -136,15 +136,15 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceProtocol? __res_1871;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "protocol");
+            string? __res_1872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
             if (__res_1872 is null)
             {
                 __res_1871 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1873 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1872;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceProtocol } not supported.");
+                string __notNullable_1873 = (string)__res_1872;
+                __res_1871 = global::Iskra.StdWeb.RTCIceProtocol.Create(__notNullable_1873);
             }
             return __res_1871;
         }
@@ -174,15 +174,15 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceCandidateType? __res_1877;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "type");
+            string? __res_1878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "type");
             if (__res_1878 is null)
             {
                 __res_1877 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1879 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1878;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceCandidateType } not supported.");
+                string __notNullable_1879 = (string)__res_1878;
+                __res_1877 = global::Iskra.StdWeb.RTCIceCandidateType.Create(__notNullable_1879);
             }
             return __res_1877;
         }
@@ -193,15 +193,15 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceTcpCandidateType? __res_1880;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "tcpType");
+            string? __res_1881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "tcpType");
             if (__res_1881 is null)
             {
                 __res_1880 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1882 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1881;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceTcpCandidateType } not supported.");
+                string __notNullable_1882 = (string)__res_1881;
+                __res_1880 = global::Iskra.StdWeb.RTCIceTcpCandidateType.Create(__notNullable_1882);
             }
             return __res_1880;
         }
@@ -269,15 +269,15 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.RTCIceServerTransportProtocol? __res_1892;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relayProtocol");
+            string? __res_1893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relayProtocol");
             if (__res_1893 is null)
             {
                 __res_1892 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1894 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1893;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIceServerTransportProtocol } not supported.");
+                string __notNullable_1894 = (string)__res_1893;
+                __res_1892 = global::Iskra.StdWeb.RTCIceServerTransportProtocol.Create(__notNullable_1894);
             }
             return __res_1892;
         }

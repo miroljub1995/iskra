@@ -11,8 +11,8 @@ public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropSer
         get
         {
             global::Iskra.StdWeb.SFrameTransformErrorEventType __res_1042;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "errorType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SFrameTransformErrorEventType } not supported.");
+            string __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorType");
+            __res_1042 = global::Iskra.StdWeb.SFrameTransformErrorEventType.Create(__res_1043);
             return __res_1042;
         }
     }

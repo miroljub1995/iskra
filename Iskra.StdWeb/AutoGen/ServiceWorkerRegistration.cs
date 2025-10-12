@@ -90,8 +90,8 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         get
         {
             global::Iskra.StdWeb.ServiceWorkerUpdateViaCache __res_4524;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "updateViaCache");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorkerUpdateViaCache } not supported.");
+            string __res_4525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "updateViaCache");
+            __res_4524 = global::Iskra.StdWeb.ServiceWorkerUpdateViaCache.Create(__res_4525);
             return __res_4524;
         }
     }

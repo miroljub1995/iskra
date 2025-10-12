@@ -22,8 +22,8 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.IDBTransactionMode __res_7821;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBTransactionMode } not supported.");
+            string __res_7822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_7821 = global::Iskra.StdWeb.IDBTransactionMode.Create(__res_7822);
             return __res_7821;
         }
     }
@@ -33,8 +33,8 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.IDBTransactionDurability __res_7823;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "durability");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBTransactionDurability } not supported.");
+            string __res_7824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "durability");
+            __res_7823 = global::Iskra.StdWeb.IDBTransactionDurability.Create(__res_7824);
             return __res_7823;
         }
     }

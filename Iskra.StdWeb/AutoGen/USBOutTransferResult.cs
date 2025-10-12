@@ -22,8 +22,8 @@ public partial class USBOutTransferResult(global::System.Runtime.InteropServices
         get
         {
             global::Iskra.StdWeb.USBTransferStatus __res_5030;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "status");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBTransferStatus } not supported.");
+            string __res_5031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_5030 = global::Iskra.StdWeb.USBTransferStatus.Create(__res_5031);
             return __res_5030;
         }
     }

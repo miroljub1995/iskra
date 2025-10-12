@@ -61,8 +61,8 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.ChannelCountMode __res_8165;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8166 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelCountMode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChannelCountMode } not supported.");
+            string __res_8166 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "channelCountMode");
+            __res_8165 = global::Iskra.StdWeb.ChannelCountMode.Create(__res_8166);
             return __res_8165;
         }
         set
@@ -78,8 +78,8 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.ChannelInterpretation __res_8168;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channelInterpretation");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ChannelInterpretation } not supported.");
+            string __res_8169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "channelInterpretation");
+            __res_8168 = global::Iskra.StdWeb.ChannelInterpretation.Create(__res_8169);
             return __res_8168;
         }
         set

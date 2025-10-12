@@ -165,8 +165,8 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         get
         {
             global::Iskra.StdWeb.TouchType __res_3025;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touchType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchType } not supported.");
+            string __res_3026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "touchType");
+            __res_3025 = global::Iskra.StdWeb.TouchType.Create(__res_3026);
             return __res_3025;
         }
     }

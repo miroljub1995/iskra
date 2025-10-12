@@ -11,8 +11,8 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.AppendMode __res_7628;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AppendMode } not supported.");
+            string __res_7629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_7628 = global::Iskra.StdWeb.AppendMode.Create(__res_7629);
             return __res_7628;
         }
         set

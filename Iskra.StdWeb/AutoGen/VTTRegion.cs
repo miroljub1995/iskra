@@ -130,8 +130,8 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.ScrollSetting __res_7289;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scroll");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollSetting } not supported.");
+            string __res_7290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scroll");
+            __res_7289 = global::Iskra.StdWeb.ScrollSetting.Create(__res_7290);
             return __res_7289;
         }
         set

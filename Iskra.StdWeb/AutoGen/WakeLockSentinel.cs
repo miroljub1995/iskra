@@ -22,8 +22,8 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
         get
         {
             global::Iskra.StdWeb.WakeLockType __res_1117;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WakeLockType } not supported.");
+            string __res_1118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1117 = global::Iskra.StdWeb.WakeLockType.Create(__res_1118);
             return __res_1117;
         }
     }

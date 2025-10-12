@@ -44,8 +44,8 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.MediaSessionPlaybackState __res_607;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaSessionPlaybackState } not supported.");
+            string __res_608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "playbackState");
+            __res_607 = global::Iskra.StdWeb.MediaSessionPlaybackState.Create(__res_608);
             return __res_607;
         }
         set

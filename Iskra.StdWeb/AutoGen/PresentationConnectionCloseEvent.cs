@@ -11,8 +11,8 @@ public partial class PresentationConnectionCloseEvent(global::System.Runtime.Int
         get
         {
             global::Iskra.StdWeb.PresentationConnectionCloseReason __res_2323;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnectionCloseReason } not supported.");
+            string __res_2324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_2323 = global::Iskra.StdWeb.PresentationConnectionCloseReason.Create(__res_2324);
             return __res_2323;
         }
     }

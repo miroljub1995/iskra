@@ -11,8 +11,8 @@ public partial class ChildBreakToken(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.BreakType __res_7923;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "breakType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BreakType } not supported.");
+            string __res_7924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "breakType");
+            __res_7923 = global::Iskra.StdWeb.BreakType.Create(__res_7924);
             return __res_7923;
         }
     }

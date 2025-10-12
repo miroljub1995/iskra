@@ -55,8 +55,8 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         get
         {
             global::Iskra.StdWeb.ScriptInvokerType __res_7141;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "invokerType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScriptInvokerType } not supported.");
+            string __res_7142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "invokerType");
+            __res_7141 = global::Iskra.StdWeb.ScriptInvokerType.Create(__res_7142);
             return __res_7141;
         }
     }
@@ -162,8 +162,8 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         get
         {
             global::Iskra.StdWeb.ScriptWindowAttribution __res_7160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "windowAttribution");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScriptWindowAttribution } not supported.");
+            string __res_7161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "windowAttribution");
+            __res_7160 = global::Iskra.StdWeb.ScriptWindowAttribution.Create(__res_7161);
             return __res_7160;
         }
     }

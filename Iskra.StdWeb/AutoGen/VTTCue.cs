@@ -44,8 +44,8 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.DirectionSetting __res_7243;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertical");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DirectionSetting } not supported.");
+            string __res_7244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vertical");
+            __res_7243 = global::Iskra.StdWeb.DirectionSetting.Create(__res_7244);
             return __res_7243;
         }
         set
@@ -94,8 +94,8 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.LineAlignSetting __res_7251;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lineAlign");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = LineAlignSetting } not supported.");
+            string __res_7252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineAlign");
+            __res_7251 = global::Iskra.StdWeb.LineAlignSetting.Create(__res_7252);
             return __res_7251;
         }
         set
@@ -127,8 +127,8 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.PositionAlignSetting __res_7256;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionAlign");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PositionAlignSetting } not supported.");
+            string __res_7257 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionAlign");
+            __res_7256 = global::Iskra.StdWeb.PositionAlignSetting.Create(__res_7257);
             return __res_7256;
         }
         set
@@ -161,8 +161,8 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.AlignSetting __res_7262;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "align");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AlignSetting } not supported.");
+            string __res_7263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_7262 = global::Iskra.StdWeb.AlignSetting.Create(__res_7263);
             return __res_7262;
         }
         set

@@ -22,8 +22,8 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.FrameType __res_4583;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frameType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FrameType } not supported.");
+            string __res_4584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameType");
+            __res_4583 = global::Iskra.StdWeb.FrameType.Create(__res_4584);
             return __res_4583;
         }
     }
@@ -44,8 +44,8 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
         get
         {
             global::Iskra.StdWeb.ClientType __res_4587;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ClientType } not supported.");
+            string __res_4588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4587 = global::Iskra.StdWeb.ClientType.Create(__res_4588);
             return __res_4587;
         }
     }

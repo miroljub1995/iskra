@@ -33,8 +33,8 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.RecordingState __res_3883;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RecordingState } not supported.");
+            string __res_3884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_3883 = global::Iskra.StdWeb.RecordingState.Create(__res_3884);
             return __res_3883;
         }
     }
@@ -264,8 +264,8 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.BitrateMode __res_3919;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioBitrateMode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BitrateMode } not supported.");
+            string __res_3920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "audioBitrateMode");
+            __res_3919 = global::Iskra.StdWeb.BitrateMode.Create(__res_3920);
             return __res_3919;
         }
     }

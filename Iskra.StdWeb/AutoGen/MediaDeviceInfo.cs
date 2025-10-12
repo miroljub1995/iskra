@@ -22,8 +22,8 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
         get
         {
             global::Iskra.StdWeb.MediaDeviceKind __res_3869;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kind");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaDeviceKind } not supported.");
+            string __res_3870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_3869 = global::Iskra.StdWeb.MediaDeviceKind.Create(__res_3870);
             return __res_3869;
         }
     }

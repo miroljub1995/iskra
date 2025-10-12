@@ -11,8 +11,8 @@ public partial class EncodedVideoChunk(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.EncodedVideoChunkType __res_2634;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EncodedVideoChunkType } not supported.");
+            string __res_2635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2634 = global::Iskra.StdWeb.EncodedVideoChunkType.Create(__res_2635);
             return __res_2634;
         }
     }

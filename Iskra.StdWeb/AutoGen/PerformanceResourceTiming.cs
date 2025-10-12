@@ -242,8 +242,8 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         get
         {
             global::Iskra.StdWeb.RenderBlockingStatusType __res_3118;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderBlockingStatus");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RenderBlockingStatusType } not supported.");
+            string __res_3119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "renderBlockingStatus");
+            __res_3118 = global::Iskra.StdWeb.RenderBlockingStatusType.Create(__res_3119);
             return __res_3118;
         }
     }

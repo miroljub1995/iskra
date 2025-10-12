@@ -55,8 +55,8 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.GamepadMappingType __res_4829;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mapping");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadMappingType } not supported.");
+            string __res_4830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapping");
+            __res_4829 = global::Iskra.StdWeb.GamepadMappingType.Create(__res_4830);
             return __res_4829;
         }
     }

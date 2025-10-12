@@ -30,8 +30,8 @@ public partial class ScrollTimeline(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.ScrollAxis __res_265;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axis");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ScrollAxis } not supported.");
+            string __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axis");
+            __res_265 = global::Iskra.StdWeb.ScrollAxis.Create(__res_266);
             return __res_265;
         }
     }

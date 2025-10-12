@@ -28,8 +28,8 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.HighlightType __res_1103;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HighlightType } not supported.");
+            string __res_1104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1103 = global::Iskra.StdWeb.HighlightType.Create(__res_1104);
             return __res_1103;
         }
         set

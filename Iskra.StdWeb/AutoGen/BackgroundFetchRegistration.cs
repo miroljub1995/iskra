@@ -66,8 +66,8 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         get
         {
             global::Iskra.StdWeb.BackgroundFetchResult __res_3442;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BackgroundFetchResult } not supported.");
+            string __res_3443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            __res_3442 = global::Iskra.StdWeb.BackgroundFetchResult.Create(__res_3443);
             return __res_3442;
         }
     }
@@ -77,8 +77,8 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
         get
         {
             global::Iskra.StdWeb.BackgroundFetchFailureReason __res_3444;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "failureReason");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BackgroundFetchFailureReason } not supported.");
+            string __res_3445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "failureReason");
+            __res_3444 = global::Iskra.StdWeb.BackgroundFetchFailureReason.Create(__res_3445);
             return __res_3444;
         }
     }

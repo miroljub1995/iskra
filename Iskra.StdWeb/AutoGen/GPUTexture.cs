@@ -66,8 +66,8 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.GPUTextureDimension __res_775;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_776 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dimension");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUTextureDimension } not supported.");
+            string __res_776 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dimension");
+            __res_775 = global::Iskra.StdWeb.GPUTextureDimension.Create(__res_776);
             return __res_775;
         }
     }
@@ -77,8 +77,8 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.GPUTextureFormat __res_777;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "format");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GPUTextureFormat } not supported.");
+            string __res_778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_777 = global::Iskra.StdWeb.GPUTextureFormat.Create(__res_778);
             return __res_777;
         }
     }

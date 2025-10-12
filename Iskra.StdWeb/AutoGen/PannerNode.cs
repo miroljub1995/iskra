@@ -11,8 +11,8 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.PanningModelType __res_8296;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "panningModel");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PanningModelType } not supported.");
+            string __res_8297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "panningModel");
+            __res_8296 = global::Iskra.StdWeb.PanningModelType.Create(__res_8297);
             return __res_8296;
         }
         set
@@ -94,8 +94,8 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.DistanceModelType __res_8311;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "distanceModel");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DistanceModelType } not supported.");
+            string __res_8312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "distanceModel");
+            __res_8311 = global::Iskra.StdWeb.DistanceModelType.Create(__res_8312);
             return __res_8311;
         }
         set

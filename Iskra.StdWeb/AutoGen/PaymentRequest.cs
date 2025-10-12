@@ -60,15 +60,15 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.PaymentShippingType? __res_7448;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingType");
+            string? __res_7449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingType");
             if (__res_7449 is null)
             {
                 __res_7448 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7450 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7449;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentShippingType } not supported.");
+                string __notNullable_7450 = (string)__res_7449;
+                __res_7448 = global::Iskra.StdWeb.PaymentShippingType.Create(__notNullable_7450);
             }
             return __res_7448;
         }

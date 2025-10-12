@@ -100,6 +100,16 @@ public partial class IDLTypeDescriptionMarshaller(
                          {{outputVar}} = Convert.ToSingle({{inputVar}});
                          """;
             }
+
+            if (descriptors.TryGet(singleTypeDescription.IdlType, out var descriptor))
+            {
+                if (descriptor.RootType is EnumType)
+                {
+                    return $$"""
+                           {{outputVar}} = global::{{descriptor.Namespace}}.{{descriptor.Name}}.Create({{inputVar}});
+                           """;
+                }
+            }
         }
 
         return $$"""

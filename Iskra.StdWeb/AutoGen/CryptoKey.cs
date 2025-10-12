@@ -11,8 +11,8 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.KeyType __res_1419;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = KeyType } not supported.");
+            string __res_1420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1419 = global::Iskra.StdWeb.KeyType.Create(__res_1420);
             return __res_1419;
         }
     }

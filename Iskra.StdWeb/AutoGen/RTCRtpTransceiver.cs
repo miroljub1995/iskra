@@ -52,8 +52,8 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.RTCRtpTransceiverDirection __res_1941;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiverDirection } not supported.");
+            string __res_1942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_1941 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__res_1942);
             return __res_1941;
         }
         set
@@ -69,15 +69,15 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.RTCRtpTransceiverDirection? __res_1944;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentDirection");
+            string? __res_1945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "currentDirection");
             if (__res_1945 is null)
             {
                 __res_1944 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1946 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1945;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiverDirection } not supported.");
+                string __notNullable_1946 = (string)__res_1945;
+                __res_1944 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__notNullable_1946);
             }
             return __res_1944;
         }

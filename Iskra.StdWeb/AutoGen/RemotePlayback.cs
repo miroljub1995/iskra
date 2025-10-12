@@ -11,8 +11,8 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.RemotePlaybackState __res_5125;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RemotePlaybackState } not supported.");
+            string __res_5126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_5125 = global::Iskra.StdWeb.RemotePlaybackState.Create(__res_5126);
             return __res_5125;
         }
     }

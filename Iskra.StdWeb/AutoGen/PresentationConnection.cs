@@ -33,8 +33,8 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         get
         {
             global::Iskra.StdWeb.PresentationConnectionState __res_2298;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnectionState } not supported.");
+            string __res_2299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_2298 = global::Iskra.StdWeb.PresentationConnectionState.Create(__res_2299);
             return __res_2298;
         }
     }
@@ -143,8 +143,8 @@ public partial class PresentationConnection(global::System.Runtime.InteropServic
         get
         {
             global::Iskra.StdWeb.BinaryType __res_2315;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "binaryType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BinaryType } not supported.");
+            string __res_2316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "binaryType");
+            __res_2315 = global::Iskra.StdWeb.BinaryType.Create(__res_2316);
             return __res_2315;
         }
         set

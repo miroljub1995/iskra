@@ -11,8 +11,8 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.PressureSource __res_3733;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureSource } not supported.");
+            string __res_3734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
+            __res_3733 = global::Iskra.StdWeb.PressureSource.Create(__res_3734);
             return __res_3733;
         }
     }
@@ -22,8 +22,8 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.PressureState __res_3735;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PressureState } not supported.");
+            string __res_3736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_3735 = global::Iskra.StdWeb.PressureState.Create(__res_3736);
             return __res_3735;
         }
     }

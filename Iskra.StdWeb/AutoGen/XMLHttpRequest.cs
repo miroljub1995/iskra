@@ -133,8 +133,8 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.XMLHttpRequestResponseType __res_945;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XMLHttpRequestResponseType } not supported.");
+            string __res_946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseType");
+            __res_945 = global::Iskra.StdWeb.XMLHttpRequestResponseType.Create(__res_946);
             return __res_945;
         }
         set

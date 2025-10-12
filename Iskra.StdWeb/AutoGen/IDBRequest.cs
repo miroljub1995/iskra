@@ -77,8 +77,8 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.IDBRequestReadyState __res_7718;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readyState");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBRequestReadyState } not supported.");
+            string __res_7719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
+            __res_7718 = global::Iskra.StdWeb.IDBRequestReadyState.Create(__res_7719);
             return __res_7718;
         }
     }

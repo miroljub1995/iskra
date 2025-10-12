@@ -11,8 +11,8 @@ public partial class WebTransportError(global::System.Runtime.InteropServices.Ja
         get
         {
             global::Iskra.StdWeb.WebTransportErrorSource __res_2259;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "source");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportErrorSource } not supported.");
+            string __res_2260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
+            __res_2259 = global::Iskra.StdWeb.WebTransportErrorSource.Create(__res_2260);
             return __res_2259;
         }
     }

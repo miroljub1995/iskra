@@ -45,8 +45,8 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.ImageDataPixelFormat __res_6881;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pixelFormat");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageDataPixelFormat } not supported.");
+            string __res_6882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pixelFormat");
+            __res_6881 = global::Iskra.StdWeb.ImageDataPixelFormat.Create(__res_6882);
             return __res_6881;
         }
     }
@@ -56,8 +56,8 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.PredefinedColorSpace __res_6883;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PredefinedColorSpace } not supported.");
+            string __res_6884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "colorSpace");
+            __res_6883 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_6884);
             return __res_6883;
         }
     }

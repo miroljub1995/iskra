@@ -55,8 +55,8 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         get
         {
             global::Iskra.StdWeb.AudioContextState __res_8110;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioContextState } not supported.");
+            string __res_8111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_8110 = global::Iskra.StdWeb.AudioContextState.Create(__res_8111);
             return __res_8110;
         }
     }

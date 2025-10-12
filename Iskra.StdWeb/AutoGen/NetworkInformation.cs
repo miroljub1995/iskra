@@ -11,8 +11,8 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.StdWeb.ConnectionType __res_3135;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ConnectionType } not supported.");
+            string __res_3136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3135 = global::Iskra.StdWeb.ConnectionType.Create(__res_3136);
             return __res_3135;
         }
     }
@@ -22,8 +22,8 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.StdWeb.EffectiveConnectionType __res_3137;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effectiveType");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EffectiveConnectionType } not supported.");
+            string __res_3138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectiveType");
+            __res_3137 = global::Iskra.StdWeb.EffectiveConnectionType.Create(__res_3138);
             return __res_3137;
         }
     }
