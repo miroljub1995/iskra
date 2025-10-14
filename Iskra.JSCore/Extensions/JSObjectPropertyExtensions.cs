@@ -4,6 +4,16 @@ namespace Iskra.JSCore.Extensions;
 
 public static partial class JSObjectPropertyExtensions
 {
+    #region Constructor
+
+    public static JSObject GetPropertyAsConstructorProxy(this JSObject obj, string constructorName) =>
+        GetConstructorProxy_Bridge(obj, constructorName);
+
+    [JSImport("getPropertyAsConstructorProxy", "iskra")]
+    private static partial JSObject GetConstructorProxy_Bridge(JSObject obj, string constructorName);
+
+    #endregion
+
     #region Boolean Get
 
     public static bool? GetPropertyAsBooleanV2AsNullable(this JSObject obj, string propertyName) =>

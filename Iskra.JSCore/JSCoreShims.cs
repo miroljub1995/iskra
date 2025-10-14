@@ -103,6 +103,23 @@ public static class JSCoreShims
                                              }
                                          });
                                      }
+
+                                     // We need this to support dotnet < 10
+                                     // https://github.com/dotnet/runtime/issues/110716
+                                     export const getPropertyAsConstructorProxy = (obj, constructorName) => {
+                                         return new Proxy({ value: Reflect.get(obj, constructorName) }, {
+                                             get(target, prop, receiver) {
+                                               const value = Reflect.get(target.value, prop, receiver);
+                                               return typeof value === 'function' ? value.bind(target.value) : value;
+                                             },
+                                             set(target, prop, newValue) {
+                                                 return Reflect.set(target.value, prop, newValue);
+                                             },
+                                             construct(target, args) {
+                                                 return Reflect.construct(target.value, args);
+                                             },
+                                         })
+                                     }
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

@@ -377,8 +377,6 @@ public class GenericMarshallerGenerator(
                 inputVar: "input",
                 type: elementType,
                 propertyNameVar: indexVar,
-                isStatic: false,
-                containingTypeName: "Array",
                 outputVar: elementVar
             );
 
@@ -414,8 +412,6 @@ public class GenericMarshallerGenerator(
                 inputVar: "input",
                 type: elementType,
                 propertyNameVar: indexVar,
-                isStatic: false,
-                containingTypeName: "Array",
                 outputVar: elementVar
             );
 
@@ -453,9 +449,7 @@ public class GenericMarshallerGenerator(
                 inputVar: resVar,
                 valueVar: $"input[{indexVar}]",
                 type: elementType,
-                propertyNameVar: $"{indexVar}.ToString()",
-                isStatic: false,
-                containingTypeName: "Array"
+                propertyNameVar: indexVar
             );
 
             return $$"""
@@ -480,9 +474,7 @@ public class GenericMarshallerGenerator(
                 inputVar: resVar,
                 valueVar: $"input[{indexVar}]",
                 type: elementType,
-                propertyNameVar: $"{indexVar}.ToString()",
-                isStatic: false,
-                containingTypeName: "Array"
+                propertyNameVar: indexVar
             );
 
             return $$"""
@@ -579,8 +571,6 @@ public class GenericMarshallerGenerator(
             inputVar: "input",
             type: input,
             propertyNameVar: "\"value\"",
-            isStatic: false,
-            containingTypeName: "Union",
             outputVar: valueVar
         );
 
@@ -615,9 +605,7 @@ public class GenericMarshallerGenerator(
             inputVar: jsUnionVar,
             valueVar: "input",
             type: input,
-            propertyNameVar: "\"value\"",
-            isStatic: false,
-            containingTypeName: "Union"
+            propertyNameVar: "\"value\""
         );
 
         return $$"""

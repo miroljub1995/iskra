@@ -173,7 +173,8 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         get
         {
             bool __res_2245;
-            throw new Exception();
+            bool __res_2246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebTransport"), "supportsReliableOnly");
+            __res_2245 = __res_2246;
             return __res_2245;
         }
     }

@@ -28,14 +28,17 @@ public class AttributeMemberTypeGenerator(
 
         // Getter
         {
+            var inputVar = isStatic
+                ? "global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy" +
+                  $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
+                : "JSObject";
+
             var returnValueVar = generatorContext.GetNextVariableName("res");
 
             var getPropertyValue = getPropertyValueGenerator.Generate(
-                inputVar: "JSObject",
+                inputVar: inputVar,
                 type: input.IdlType,
                 propertyNameVar: $"\"{input.Name}\"",
-                isStatic: isStatic,
-                containingTypeName: containingTypeName,
                 outputVar: returnValueVar
             );
 
@@ -54,13 +57,16 @@ public class AttributeMemberTypeGenerator(
         // Setter
         if (!input.Readonly)
         {
+            var inputVar = isStatic
+                ? "global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy" +
+                  $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
+                : "JSObject";
+
             var setPropertyValue = setPropertyValueGenerator.Generate(
-                inputVar: "JSObject",
+                inputVar: inputVar,
                 valueVar: "value",
                 type: input.IdlType,
-                propertyNameVar: $"\"{input.Name}\"",
-                isStatic: isStatic,
-                containingTypeName: containingTypeName
+                propertyNameVar: $"\"{input.Name}\""
             );
 
             var setter = $$"""

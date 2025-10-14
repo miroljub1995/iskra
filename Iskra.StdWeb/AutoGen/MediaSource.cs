@@ -171,7 +171,8 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         get
         {
             bool __res_7626;
-            throw new Exception();
+            bool __res_7627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource"), "canConstructInDedicatedWorker");
+            __res_7626 = __res_7627;
             return __res_7626;
         }
     }

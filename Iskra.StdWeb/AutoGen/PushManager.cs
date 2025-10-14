@@ -11,7 +11,9 @@ public partial class PushManager(global::System.Runtime.InteropServices.JavaScri
         get
         {
             global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4985;
-            throw new Exception();
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4986;
+            __propObject_4986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PushManager"), "supportedContentEncodings");
+            __res_4985 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4986);
             return __res_4985;
         }
     }

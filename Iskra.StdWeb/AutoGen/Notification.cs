@@ -11,7 +11,8 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.NotificationPermission __res_4366;
-            throw new Exception();
+            string __res_4367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Notification"), "permission");
+            __res_4366 = global::Iskra.StdWeb.NotificationPermission.Create(__res_4367);
             return __res_4366;
         }
     }
@@ -21,7 +22,8 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         get
         {
             uint __res_4368;
-            throw new Exception();
+            double __res_4369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Notification"), "maxActions");
+            __res_4368 = Convert.ToUInt32(__res_4369);
             return __res_4368;
         }
     }

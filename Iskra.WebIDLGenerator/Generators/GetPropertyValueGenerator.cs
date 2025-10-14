@@ -16,8 +16,6 @@ public class GetPropertyValueGenerator(
         string inputVar,
         IDLTypeDescription type,
         string propertyNameVar,
-        bool isStatic,
-        string containingTypeName,
         string outputVar
     )
     {
@@ -27,8 +25,6 @@ public class GetPropertyValueGenerator(
                 inputVar: inputVar,
                 type: singleTypeDescription,
                 propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName,
                 outputVar: outputVar
             );
         }
@@ -39,8 +35,6 @@ public class GetPropertyValueGenerator(
                 inputVar: inputVar,
                 type: frozenArrayTypeDescription,
                 propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName,
                 outputVar: outputVar
             );
         }
@@ -51,8 +45,6 @@ public class GetPropertyValueGenerator(
                 inputVar: inputVar,
                 type: sequenceTypeDescription,
                 propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName,
                 outputVar: outputVar
             );
         }
@@ -63,8 +55,6 @@ public class GetPropertyValueGenerator(
                 inputVar: inputVar,
                 type: unionTypeDescription,
                 propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName,
                 outputVar: outputVar
             );
         }
@@ -80,8 +70,6 @@ public class GetPropertyValueGenerator(
         string inputVar,
         SingleTypeDescription type,
         string propertyNameVar,
-        bool isStatic,
-        string containingTypeName,
         string outputVar
     )
     {
@@ -95,47 +83,29 @@ public class GetPropertyValueGenerator(
 
         if (type.IdlType is BuiltinTypes.Boolean)
         {
-            if (isStatic)
+            inputType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                inputType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.Boolean,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.Boolean,
+                Nullable = type.Nullable,
+            };
 
-                getPropertyContent = $$"""
-                                       bool{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
-                                       """;
-            }
+            getPropertyContent = $$"""
+                                   bool{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
         }
         else if (type.IdlType is BuiltinTypes.String)
         {
-            if (isStatic)
+            inputType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                inputType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.String,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.String,
+                Nullable = type.Nullable,
+            };
 
-                getPropertyContent = $$"""
-                                       string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
-                                       """;
-            }
+            getPropertyContent = $$"""
+                                   string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
         }
         else if (type.IdlType is
                  BuiltinTypes.Byte or
@@ -152,69 +122,42 @@ public class GetPropertyValueGenerator(
                  BuiltinTypes.UnrestrictedDouble
                 )
         {
-            if (isStatic)
+            inputType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                inputType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.Double,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.Double,
+                Nullable = type.Nullable,
+            };
 
-                getPropertyContent = $$"""
-                                       double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
-                                       """;
-            }
+            getPropertyContent = $$"""
+                                   double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
         }
         else if (descriptors.TryGet(type.IdlType, out var descriptor) && descriptor.RootType is EnumType)
         {
-            if (isStatic)
+            inputType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                inputType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.String,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.String,
+                Nullable = type.Nullable,
+            };
 
-                getPropertyContent = $$"""
-                                       string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
-                                       """;
-            }
+            getPropertyContent = $$"""
+                                   string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
         }
         else
         {
-            if (isStatic)
+            inputType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                inputType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.Object,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.Object,
+                Nullable = type.Nullable,
+            };
 
-                getPropertyContent = $$"""
-                                       global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
-                                       """;
-            }
+            getPropertyContent = $$"""
+                                   global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
         }
 
         return $$"""
@@ -227,8 +170,6 @@ public class GetPropertyValueGenerator(
         string inputVar,
         FrozenArrayTypeDescription type,
         string propertyNameVar,
-        bool isStatic,
-        string containingTypeName,
         string outputVar
     )
     {
@@ -241,19 +182,9 @@ public class GetPropertyValueGenerator(
 
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
-        string getPropertyContent;
-        if (isStatic)
-        {
-            return $$"""
-                     throw new Exception();
-                     """;
-        }
-        else
-        {
-            getPropertyContent = $$"""
+        var getPropertyContent = $$"""
                                    {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
-        }
 
         if (type.Nullable)
         {
@@ -280,8 +211,6 @@ public class GetPropertyValueGenerator(
         string inputVar,
         SequenceTypeDescription type,
         string propertyNameVar,
-        bool isStatic,
-        string containingTypeName,
         string outputVar
     )
     {
@@ -294,19 +223,9 @@ public class GetPropertyValueGenerator(
 
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
-        string getPropertyContent;
-        if (isStatic)
-        {
-            return $$"""
-                     throw new Exception();
-                     """;
-        }
-        else
-        {
-            getPropertyContent = $$"""
+        var getPropertyContent = $$"""
                                    {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
-        }
 
         if (type.Nullable)
         {
@@ -334,8 +253,6 @@ public class GetPropertyValueGenerator(
         string inputVar,
         UnionTypeDescription type,
         string propertyNameVar,
-        bool isStatic,
-        string containingTypeName,
         string outputVar
     )
     {
@@ -348,19 +265,9 @@ public class GetPropertyValueGenerator(
 
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
-        string getPropertyContent;
-        if (isStatic)
-        {
-            return $$"""
-                     throw new Exception();
-                     """;
-        }
-        else
-        {
-            getPropertyContent = $$"""
+        var getPropertyContent = $$"""
                                    {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
-        }
 
         if (type.Nullable)
         {

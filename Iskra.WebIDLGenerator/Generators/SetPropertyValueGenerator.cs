@@ -15,9 +15,7 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         IDLTypeDescription type,
-        string propertyNameVar,
-        bool isStatic,
-        string containingTypeName
+        string propertyNameVar
     )
     {
         if (type is SingleTypeDescription singleTypeDescription)
@@ -26,9 +24,7 @@ public class SetPropertyValueGenerator(
                 inputVar: inputVar,
                 valueVar: valueVar,
                 type: singleTypeDescription,
-                propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName
+                propertyNameVar: propertyNameVar
             );
         }
 
@@ -38,9 +34,7 @@ public class SetPropertyValueGenerator(
                 inputVar: inputVar,
                 valueVar: valueVar,
                 type: frozenArrayTypeDescription,
-                propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName
+                propertyNameVar: propertyNameVar
             );
         }
 
@@ -50,9 +44,7 @@ public class SetPropertyValueGenerator(
                 inputVar: inputVar,
                 valueVar: valueVar,
                 type: sequenceTypeDescription,
-                propertyNameVar: propertyNameVar,
-                isStatic: isStatic,
-                containingTypeName: containingTypeName
+                propertyNameVar: propertyNameVar
             );
         }
 
@@ -67,9 +59,7 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         SingleTypeDescription type,
-        string propertyNameVar,
-        bool isStatic,
-        string containingTypeName
+        string propertyNameVar
     )
     {
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
@@ -83,47 +73,29 @@ public class SetPropertyValueGenerator(
 
         if (type.IdlType is BuiltinTypes.Boolean)
         {
-            if (isStatic)
+            marshalledType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                marshalledType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.Boolean,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.Boolean,
+                Nullable = type.Nullable,
+            };
 
-                setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
-                                       """;
-            }
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
         }
         else if (type.IdlType is BuiltinTypes.String)
         {
-            if (isStatic)
+            marshalledType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                marshalledType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.String,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.String,
+                Nullable = type.Nullable,
+            };
 
-                setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
-                                       """;
-            }
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
         }
         else if (type.IdlType is
                  BuiltinTypes.Byte or
@@ -140,69 +112,42 @@ public class SetPropertyValueGenerator(
                  BuiltinTypes.UnrestrictedDouble
                 )
         {
-            if (isStatic)
+            marshalledType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                marshalledType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.Double,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.Double,
+                Nullable = type.Nullable,
+            };
 
-                setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
-                                       """;
-            }
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
         }
         else if (descriptors.TryGet(type.IdlType, out var descriptor) && descriptor.RootType is EnumType)
         {
-            if (isStatic)
+            marshalledType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                marshalledType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.String,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.String,
+                Nullable = type.Nullable,
+            };
 
-                setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
-                                       """;
-            }
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
         }
         else
         {
-            if (isStatic)
+            marshalledType = new SingleTypeDescription
             {
-                return $$"""
-                         throw new Exception();
-                         """;
-            }
-            else
-            {
-                marshalledType = new SingleTypeDescription
-                {
-                    ExtAttrs = [],
-                    IdlType = BuiltinTypes.Object,
-                    Nullable = type.Nullable,
-                };
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.Object,
+                Nullable = type.Nullable,
+            };
 
-                setPropertyContent = $$"""
-                                       Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
-                                       """;
-            }
+            setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
         }
 
         var marshalledTypeDeclaration = descriptionToTypeDeclarationGenerator.Generate(marshalledType);
@@ -218,9 +163,7 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         FrozenArrayTypeDescription type,
-        string propertyNameVar,
-        bool isStatic,
-        string containingTypeName
+        string propertyNameVar
     )
     {
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
@@ -228,19 +171,9 @@ public class SetPropertyValueGenerator(
 
         var setPropertyVar = generatorContext.GetNextVariableName("propObject");
 
-        string setPropertyContent;
-        if (isStatic)
-        {
-            return $$"""
-                     throw new Exception();
-                     """;
-        }
-        else
-        {
-            setPropertyContent = $$"""
+        var setPropertyContent = $$"""
                                    Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
                                    """;
-        }
 
         if (type.Nullable)
         {
@@ -269,9 +202,7 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         SequenceTypeDescription type,
-        string propertyNameVar,
-        bool isStatic,
-        string containingTypeName
+        string propertyNameVar
     )
     {
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
@@ -279,19 +210,9 @@ public class SetPropertyValueGenerator(
 
         var setPropertyVar = generatorContext.GetNextVariableName("propObject");
 
-        string setPropertyContent;
-        if (isStatic)
-        {
-            return $$"""
-                     throw new Exception();
-                     """;
-        }
-        else
-        {
-            setPropertyContent = $$"""
+        var setPropertyContent = $$"""
                                    Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
                                    """;
-        }
 
         if (type.Nullable)
         {
