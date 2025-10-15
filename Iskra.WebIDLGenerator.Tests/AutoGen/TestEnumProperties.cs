@@ -6,7 +6,7 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestEnumProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum Value
+    public global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum Value
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueNullable
+    public global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueNullable
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueNullableReadonlyAsNotNull
+    public global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueNullableReadonlyAsNotNull
     {
         get
         {
@@ -75,7 +75,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueNullableReadonlyAsNull
+    public global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueNullableReadonlyAsNull
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueInvalid
+    public global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? ValueInvalid
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestFrozenArrayProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.FrozenArray> BoolArray
+    public global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.FrozenArray> BoolArray
     {
         get
         {

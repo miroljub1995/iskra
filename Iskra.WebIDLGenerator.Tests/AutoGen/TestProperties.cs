@@ -6,7 +6,7 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool BoolProperty
+    public bool BoolProperty
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool BoolPropertyReadOnly
+    public bool BoolPropertyReadOnly
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool? BoolPropertyNullable
+    public bool? BoolPropertyNullable
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool? BoolPropertyReadOnlyNullableAsNull
+    public bool? BoolPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -86,7 +86,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool? BoolPropertyReadOnlyNullableAsTrue
+    public bool? BoolPropertyReadOnlyNullableAsTrue
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool? BoolPropertyReadOnlyNullableAsFalse
+    public bool? BoolPropertyReadOnlyNullableAsFalse
     {
         get
         {
@@ -124,7 +124,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new byte ByteProperty
+    public byte ByteProperty
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new byte BytePropertyReadOnly
+    public byte BytePropertyReadOnly
     {
         get
         {
@@ -152,7 +152,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new byte? BytePropertyNullable
+    public byte? BytePropertyNullable
     {
         get
         {
@@ -185,7 +185,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new byte? BytePropertyReadOnlyNullableAsNull
+    public byte? BytePropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new byte? BytePropertyReadOnlyNullableAsNotNull
+    public byte? BytePropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -223,7 +223,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new sbyte SignedByteProperty
+    public sbyte SignedByteProperty
     {
         get
         {
@@ -240,7 +240,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new sbyte SignedBytePropertyReadOnly
+    public sbyte SignedBytePropertyReadOnly
     {
         get
         {
@@ -251,7 +251,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new sbyte? SignedBytePropertyNullable
+    public sbyte? SignedBytePropertyNullable
     {
         get
         {
@@ -284,7 +284,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new sbyte? SignedBytePropertyReadOnlyNullableAsNull
+    public sbyte? SignedBytePropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -303,7 +303,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new sbyte? SignedBytePropertyReadOnlyNullableAsNotNull
+    public sbyte? SignedBytePropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -322,7 +322,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new short ShortProperty
+    public short ShortProperty
     {
         get
         {
@@ -339,7 +339,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new short ShortPropertyReadOnly
+    public short ShortPropertyReadOnly
     {
         get
         {
@@ -350,7 +350,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new short? ShortPropertyNullable
+    public short? ShortPropertyNullable
     {
         get
         {
@@ -383,7 +383,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new short? ShortPropertyReadOnlyNullableAsNull
+    public short? ShortPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -402,7 +402,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new short? ShortPropertyReadOnlyNullableAsNotNull
+    public short? ShortPropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -421,7 +421,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort UnsignedShortProperty
+    public ushort UnsignedShortProperty
     {
         get
         {
@@ -438,7 +438,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort UnsignedShortPropertyReadOnly
+    public ushort UnsignedShortPropertyReadOnly
     {
         get
         {
@@ -449,7 +449,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort? UnsignedShortPropertyNullable
+    public ushort? UnsignedShortPropertyNullable
     {
         get
         {
@@ -482,7 +482,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort? UnsignedShortPropertyReadOnlyNullableAsNull
+    public ushort? UnsignedShortPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -501,7 +501,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort? UnsignedShortPropertyReadOnlyNullableAsNotNull
+    public ushort? UnsignedShortPropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -520,7 +520,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int Int32Property
+    public int Int32Property
     {
         get
         {
@@ -537,7 +537,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int Int32PropertyReadOnly
+    public int Int32PropertyReadOnly
     {
         get
         {
@@ -548,7 +548,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int? Int32PropertyNullable
+    public int? Int32PropertyNullable
     {
         get
         {
@@ -581,7 +581,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int? Int32PropertyReadOnlyNullableAsNull
+    public int? Int32PropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -600,7 +600,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int? Int32PropertyReadOnlyNullableAsNotNull
+    public int? Int32PropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -619,7 +619,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint UnsignedInt32Property
+    public uint UnsignedInt32Property
     {
         get
         {
@@ -636,7 +636,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint UnsignedInt32PropertyReadOnly
+    public uint UnsignedInt32PropertyReadOnly
     {
         get
         {
@@ -647,7 +647,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint? UnsignedInt32PropertyNullable
+    public uint? UnsignedInt32PropertyNullable
     {
         get
         {
@@ -680,7 +680,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint? UnsignedInt32PropertyReadOnlyNullableAsNull
+    public uint? UnsignedInt32PropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -699,7 +699,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint? UnsignedInt32PropertyReadOnlyNullableAsNotNull
+    public uint? UnsignedInt32PropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -718,7 +718,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new long Int64Property
+    public long Int64Property
     {
         get
         {
@@ -735,7 +735,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new long Int64PropertyReadOnly
+    public long Int64PropertyReadOnly
     {
         get
         {
@@ -746,7 +746,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new long? Int64PropertyNullable
+    public long? Int64PropertyNullable
     {
         get
         {
@@ -779,7 +779,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new long? Int64PropertyReadOnlyNullableAsNull
+    public long? Int64PropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -798,7 +798,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new long? Int64PropertyReadOnlyNullableAsNotNull
+    public long? Int64PropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -817,7 +817,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ulong UnsignedInt64Property
+    public ulong UnsignedInt64Property
     {
         get
         {
@@ -834,7 +834,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ulong UnsignedInt64PropertyReadOnly
+    public ulong UnsignedInt64PropertyReadOnly
     {
         get
         {
@@ -845,7 +845,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ulong? UnsignedInt64PropertyNullable
+    public ulong? UnsignedInt64PropertyNullable
     {
         get
         {
@@ -878,7 +878,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ulong? UnsignedInt64PropertyReadOnlyNullableAsNull
+    public ulong? UnsignedInt64PropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -897,7 +897,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ulong? UnsignedInt64PropertyReadOnlyNullableAsNotNull
+    public ulong? UnsignedInt64PropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -916,7 +916,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float FloatProperty
+    public float FloatProperty
     {
         get
         {
@@ -933,7 +933,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float FloatPropertyReadOnly
+    public float FloatPropertyReadOnly
     {
         get
         {
@@ -944,7 +944,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float? FloatPropertyNullable
+    public float? FloatPropertyNullable
     {
         get
         {
@@ -977,7 +977,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float? FloatPropertyReadOnlyNullableAsNull
+    public float? FloatPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -996,7 +996,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float? FloatPropertyReadOnlyNullableAsNotNull
+    public float? FloatPropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -1015,7 +1015,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float UnrestrictedFloatProperty
+    public float UnrestrictedFloatProperty
     {
         get
         {
@@ -1032,7 +1032,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float UnrestrictedFloatPropertyReadOnly
+    public float UnrestrictedFloatPropertyReadOnly
     {
         get
         {
@@ -1043,7 +1043,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float? UnrestrictedFloatPropertyNullable
+    public float? UnrestrictedFloatPropertyNullable
     {
         get
         {
@@ -1076,7 +1076,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float? UnrestrictedFloatPropertyReadOnlyNullableAsNull
+    public float? UnrestrictedFloatPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -1095,7 +1095,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float? UnrestrictedFloatPropertyReadOnlyNullableAsNotNull
+    public float? UnrestrictedFloatPropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -1114,7 +1114,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double DoubleProperty
+    public double DoubleProperty
     {
         get
         {
@@ -1131,7 +1131,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double DoublePropertyReadOnly
+    public double DoublePropertyReadOnly
     {
         get
         {
@@ -1142,7 +1142,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double? DoublePropertyNullable
+    public double? DoublePropertyNullable
     {
         get
         {
@@ -1175,7 +1175,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double? DoublePropertyReadOnlyNullableAsNull
+    public double? DoublePropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -1194,7 +1194,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double? DoublePropertyReadOnlyNullableAsNotNull
+    public double? DoublePropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -1213,7 +1213,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double UnrestrictedDoubleProperty
+    public double UnrestrictedDoubleProperty
     {
         get
         {
@@ -1230,7 +1230,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double UnrestrictedDoublePropertyReadOnly
+    public double UnrestrictedDoublePropertyReadOnly
     {
         get
         {
@@ -1241,7 +1241,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double? UnrestrictedDoublePropertyNullable
+    public double? UnrestrictedDoublePropertyNullable
     {
         get
         {
@@ -1274,7 +1274,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double? UnrestrictedDoublePropertyReadOnlyNullableAsNull
+    public double? UnrestrictedDoublePropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -1293,7 +1293,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double? UnrestrictedDoublePropertyReadOnlyNullableAsNotNull
+    public double? UnrestrictedDoublePropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -1312,7 +1312,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string StringProperty
+    public string StringProperty
     {
         get
         {
@@ -1329,7 +1329,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string StringPropertyReadOnly
+    public string StringPropertyReadOnly
     {
         get
         {
@@ -1340,7 +1340,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string? StringPropertyNullable
+    public string? StringPropertyNullable
     {
         get
         {
@@ -1373,7 +1373,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string? StringPropertyReadOnlyNullableAsNull
+    public string? StringPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -1392,7 +1392,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string? StringPropertyReadOnlyNullableAsNotNull
+    public string? StringPropertyReadOnlyNullableAsNotNull
     {
         get
         {
@@ -1411,7 +1411,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string? StringPropertyReadOnlyNullableAsEmpty
+    public string? StringPropertyReadOnlyNullableAsEmpty
     {
         get
         {
@@ -1430,7 +1430,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject ObjectProperty
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ObjectProperty
     {
         get
         {
@@ -1447,7 +1447,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject ObjectPropertyReadOnly
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ObjectPropertyReadOnly
     {
         get
         {
@@ -1458,7 +1458,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject? ObjectPropertyNullable
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? ObjectPropertyNullable
     {
         get
         {
@@ -1491,7 +1491,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject? ObjectPropertyReadOnlyNullableAsNull
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? ObjectPropertyReadOnlyNullableAsNull
     {
         get
         {
@@ -1510,7 +1510,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject? ObjectPropertyReadOnlyNullableAsNotNull
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? ObjectPropertyReadOnlyNullableAsNotNull
     {
         get
         {

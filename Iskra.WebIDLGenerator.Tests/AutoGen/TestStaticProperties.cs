@@ -6,7 +6,7 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestStaticProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public static new int SimpleProp
+    public static int SimpleProp
     {
         get
         {
