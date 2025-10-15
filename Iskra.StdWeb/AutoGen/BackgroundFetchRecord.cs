@@ -10,10 +10,10 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.Request __res_3453;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            __res_3453 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_3454);
-            return __res_3453;
+            global::Iskra.StdWeb.Request __res_3447;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            __res_3447 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_3448);
+            return __res_3447;
         }
     }
 
@@ -21,9 +21,9 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
     {
         get
         {
-            object __res_3455;
-            throw new Exception();
-            return __res_3455;
+            object __res_3449;
+            throw new global::System.Exception();
+            return __res_3449;
         }
     }
 }

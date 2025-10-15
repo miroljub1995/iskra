@@ -127,7 +127,7 @@ public partial class IDLTypeDescriptionMarshaller(
         }
 
         return $$"""
-                 throw new Exception("Marshaller ToManaged from {{inputType}} to {{outputType}} not supported.");
+                 throw new global::System.Exception("Marshaller ToManaged from {{inputType}} to {{outputType}} not supported.");
                  """;
     }
 
@@ -204,7 +204,7 @@ public partial class IDLTypeDescriptionMarshaller(
         }
 
         return $$"""
-                 throw new Exception("Marshaller ToJS from {{inputType}} to {{outputType}} not supported.");
+                 throw new global::System.Exception("Marshaller ToJS from {{inputType}} to {{outputType}} not supported.");
                  """;
     }
 }

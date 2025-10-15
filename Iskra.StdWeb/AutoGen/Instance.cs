@@ -10,10 +10,10 @@ public partial class Instance(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4693;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exports");
-            __res_4693 = __res_4694;
-            return __res_4693;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4703;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "exports");
+            __res_4703 = __res_4704;
+            return __res_4703;
         }
     }
 }

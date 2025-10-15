@@ -17,6 +17,7 @@ public sealed partial class ImportExportKind
     public static readonly ImportExportKind Table = new("table");
     public static readonly ImportExportKind Memory = new("memory");
     public static readonly ImportExportKind Global = new("global");
+    public static readonly ImportExportKind Tag = new("tag");
 
     public override string ToString() => _value;
 
@@ -26,6 +27,7 @@ public sealed partial class ImportExportKind
         "table" => Table,
         "memory" => Memory,
         "global" => Global,
+        "tag" => Tag,
         _ => throw new ArgumentException($"Invalid value \"{value}\" for ImportExportKind", nameof(value)),
     };
 }

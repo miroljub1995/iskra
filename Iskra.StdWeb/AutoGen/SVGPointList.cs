@@ -10,10 +10,10 @@ public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_463;
-            double __res_464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_463 = Convert.ToUInt32(__res_464);
-            return __res_463;
+            uint __res_465;
+            double __res_466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_465 = Convert.ToUInt32(__res_466);
+            return __res_465;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_465;
-            double __res_466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_465 = Convert.ToUInt32(__res_466);
-            return __res_465;
+            uint __res_467;
+            double __res_468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_467 = Convert.ToUInt32(__res_468);
+            return __res_467;
         }
     }
 }

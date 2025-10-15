@@ -10,10 +10,10 @@ public partial class PerformanceNavigation(global::System.Runtime.InteropService
     {
         get
         {
-            ushort __res_1399;
-            double __res_1400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_1399 = Convert.ToUInt16(__res_1400);
-            return __res_1399;
+            ushort __res_1393;
+            double __res_1394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_1393 = Convert.ToUInt16(__res_1394);
+            return __res_1393;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceNavigation(global::System.Runtime.InteropService
     {
         get
         {
-            ushort __res_1401;
-            double __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            __res_1401 = Convert.ToUInt16(__res_1402);
-            return __res_1401;
+            ushort __res_1395;
+            double __res_1396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
+            __res_1395 = Convert.ToUInt16(__res_1396);
+            return __res_1395;
         }
     }
 }

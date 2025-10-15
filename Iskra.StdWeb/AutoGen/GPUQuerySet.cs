@@ -10,10 +10,10 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.GPUQueryType __res_797;
-            string __res_798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_797 = global::Iskra.StdWeb.GPUQueryType.Create(__res_798);
-            return __res_797;
+            global::Iskra.StdWeb.GPUQueryType __res_796;
+            string __res_797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_796 = global::Iskra.StdWeb.GPUQueryType.Create(__res_797);
+            return __res_796;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_799;
-            double __res_800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
-            __res_799 = Convert.ToUInt32(__res_800);
-            return __res_799;
+            uint __res_798;
+            double __res_799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
+            __res_798 = Convert.ToUInt32(__res_799);
+            return __res_798;
         }
     }
 }

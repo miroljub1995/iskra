@@ -18,7 +18,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 
@@ -34,7 +34,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 
@@ -50,7 +50,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 

@@ -10,10 +10,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRSession __res_4271;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_4271 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_4272);
-            return __res_4271;
+            global::Iskra.StdWeb.XRSession __res_4265;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            __res_4265 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_4266);
+            return __res_4265;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            double __res_4273;
-            double __res_4274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
-            __res_4273 = __res_4274;
-            return __res_4273;
+            double __res_4267;
+            double __res_4268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
+            __res_4267 = __res_4268;
+            return __res_4267;
         }
     }
 }

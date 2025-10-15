@@ -10,10 +10,10 @@ public partial class AudioWorklet(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_8349;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_8349 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8350);
-            return __res_8349;
+            global::Iskra.StdWeb.MessagePort __res_8364;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            __res_8364 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8365);
+            return __res_8364;
         }
     }
 }

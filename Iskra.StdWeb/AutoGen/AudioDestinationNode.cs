@@ -10,10 +10,10 @@ public partial class AudioDestinationNode(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_8220;
-            double __res_8221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxChannelCount");
-            __res_8220 = Convert.ToUInt32(__res_8221);
-            return __res_8220;
+            uint __res_8235;
+            double __res_8236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxChannelCount");
+            __res_8235 = Convert.ToUInt32(__res_8236);
+            return __res_8235;
         }
     }
 }

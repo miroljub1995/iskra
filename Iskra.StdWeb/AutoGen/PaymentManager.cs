@@ -10,16 +10,16 @@ public partial class PaymentManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_811;
-            string __res_812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userHint");
-            __res_811 = __res_812;
-            return __res_811;
+            string __res_810;
+            string __res_811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userHint");
+            __res_810 = __res_811;
+            return __res_810;
         }
         set
         {
-            string __marshalledValue_813;
-            __marshalledValue_813 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_813);
+            string __marshalledValue_812;
+            __marshalledValue_812 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_812);
         }
     }
 }

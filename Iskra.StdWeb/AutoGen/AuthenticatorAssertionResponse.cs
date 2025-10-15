@@ -10,10 +10,10 @@ public partial class AuthenticatorAssertionResponse(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_2881;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
-            __res_2881 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2882);
-            return __res_2881;
+            global::Iskra.JSCore.ArrayBuffer __res_2875;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
+            __res_2875 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2876);
+            return __res_2875;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AuthenticatorAssertionResponse(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_2883;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
-            __res_2883 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2884);
-            return __res_2883;
+            global::Iskra.JSCore.ArrayBuffer __res_2877;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
+            __res_2877 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2878);
+            return __res_2877;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class AuthenticatorAssertionResponse(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer? __res_2885;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2886 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
-            if (__res_2886 is null)
+            global::Iskra.JSCore.ArrayBuffer? __res_2879;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
+            if (__res_2880 is null)
             {
-                __res_2885 = null;
+                __res_2879 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2887 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2886;
-                __res_2885 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_2887);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2881 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2880;
+                __res_2879 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_2881);
             }
-            return __res_2885;
+            return __res_2879;
         }
     }
 }

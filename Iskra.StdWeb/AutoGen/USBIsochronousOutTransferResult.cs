@@ -10,11 +10,11 @@ public partial class USBIsochronousOutTransferResult(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousOutTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5046;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5047;
-            __propObject_5047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "packets");
-            __res_5046 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousOutTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5047);
-            return __res_5046;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousOutTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5059;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5060;
+            __propObject_5060 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "packets");
+            __res_5059 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousOutTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5060);
+            return __res_5059;
         }
     }
 }

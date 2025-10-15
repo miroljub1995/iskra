@@ -10,10 +10,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_4581;
-            string __res_4582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_4581 = __res_4582;
-            return __res_4581;
+            string __res_4591;
+            string __res_4592 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_4591 = __res_4592;
+            return __res_4591;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.FrameType __res_4583;
-            string __res_4584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameType");
-            __res_4583 = global::Iskra.StdWeb.FrameType.Create(__res_4584);
-            return __res_4583;
+            global::Iskra.StdWeb.FrameType __res_4593;
+            string __res_4594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameType");
+            __res_4593 = global::Iskra.StdWeb.FrameType.Create(__res_4594);
+            return __res_4593;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_4585;
-            string __res_4586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4585 = __res_4586;
-            return __res_4585;
+            string __res_4595;
+            string __res_4596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4595 = __res_4596;
+            return __res_4595;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.ClientType __res_4587;
-            string __res_4588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4587 = global::Iskra.StdWeb.ClientType.Create(__res_4588);
-            return __res_4587;
+            global::Iskra.StdWeb.ClientType __res_4597;
+            string __res_4598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4597 = global::Iskra.StdWeb.ClientType.Create(__res_4598);
+            return __res_4597;
         }
     }
 }

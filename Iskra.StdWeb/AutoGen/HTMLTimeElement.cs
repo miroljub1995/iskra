@@ -10,16 +10,16 @@ public partial class HTMLTimeElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5463;
-            string __res_5464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_5463 = __res_5464;
-            return __res_5463;
+            string __res_5476;
+            string __res_5477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_5476 = __res_5477;
+            return __res_5476;
         }
         set
         {
-            string __marshalledValue_5465;
-            __marshalledValue_5465 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_5465);
+            string __marshalledValue_5478;
+            __marshalledValue_5478 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_5478);
         }
     }
 }

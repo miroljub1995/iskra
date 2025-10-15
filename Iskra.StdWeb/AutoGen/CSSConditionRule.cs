@@ -10,10 +10,10 @@ public partial class CSSConditionRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_3467;
-            string __res_3468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "conditionText");
-            __res_3467 = __res_3468;
-            return __res_3467;
+            string __res_3461;
+            string __res_3462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "conditionText");
+            __res_3461 = __res_3462;
+            return __res_3461;
         }
     }
 }

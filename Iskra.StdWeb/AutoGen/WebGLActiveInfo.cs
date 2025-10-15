@@ -10,10 +10,10 @@ public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            int __res_842;
-            double __res_843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_842 = Convert.ToInt32(__res_843);
-            return __res_842;
+            int __res_841;
+            double __res_842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_841 = Convert.ToInt32(__res_842);
+            return __res_841;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_844;
-            double __res_845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_844 = Convert.ToUInt32(__res_845);
-            return __res_844;
+            uint __res_843;
+            double __res_844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_843 = Convert.ToUInt32(__res_844);
+            return __res_843;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_846;
-            string __res_847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_846 = __res_847;
-            return __res_846;
+            string __res_845;
+            string __res_846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_845 = __res_846;
+            return __res_845;
         }
     }
 }

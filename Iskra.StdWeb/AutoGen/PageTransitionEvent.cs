@@ -10,10 +10,10 @@ public partial class PageTransitionEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_6818;
-            bool __res_6819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "persisted");
-            __res_6818 = __res_6819;
-            return __res_6818;
+            bool __res_6831;
+            bool __res_6832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "persisted");
+            __res_6831 = __res_6832;
+            return __res_6831;
         }
     }
 }

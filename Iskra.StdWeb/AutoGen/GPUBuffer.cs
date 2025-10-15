@@ -10,10 +10,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ulong __res_759;
-            double __res_760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_759 = Convert.ToUInt64(__res_760);
-            return __res_759;
+            ulong __res_758;
+            double __res_759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_758 = Convert.ToUInt64(__res_759);
+            return __res_758;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_761;
-            double __res_762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
-            __res_761 = Convert.ToUInt32(__res_762);
-            return __res_761;
+            uint __res_760;
+            double __res_761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
+            __res_760 = Convert.ToUInt32(__res_761);
+            return __res_760;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUBufferMapState __res_763;
-            string __res_764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
-            __res_763 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_764);
-            return __res_763;
+            global::Iskra.StdWeb.GPUBufferMapState __res_762;
+            string __res_763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
+            __res_762 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_763);
+            return __res_762;
         }
     }
 }

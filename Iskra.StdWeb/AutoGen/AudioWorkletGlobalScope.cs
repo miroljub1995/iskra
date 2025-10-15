@@ -10,10 +10,10 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
     {
         get
         {
-            ulong __res_8351;
-            double __res_8352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentFrame");
-            __res_8351 = Convert.ToUInt64(__res_8352);
-            return __res_8351;
+            ulong __res_8366;
+            double __res_8367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentFrame");
+            __res_8366 = Convert.ToUInt64(__res_8367);
+            return __res_8366;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
     {
         get
         {
-            double __res_8353;
-            double __res_8354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
-            __res_8353 = __res_8354;
-            return __res_8353;
+            double __res_8368;
+            double __res_8369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
+            __res_8368 = __res_8369;
+            return __res_8368;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
     {
         get
         {
-            float __res_8355;
-            double __res_8356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_8355 = Convert.ToSingle(__res_8356);
-            return __res_8355;
+            float __res_8370;
+            double __res_8371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_8370 = Convert.ToSingle(__res_8371);
+            return __res_8370;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
     {
         get
         {
-            uint __res_8357;
-            double __res_8358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
-            __res_8357 = Convert.ToUInt32(__res_8358);
-            return __res_8357;
+            uint __res_8372;
+            double __res_8373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
+            __res_8372 = Convert.ToUInt32(__res_8373);
+            return __res_8372;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_8359;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_8359 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8360);
-            return __res_8359;
+            global::Iskra.StdWeb.MessagePort __res_8374;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            __res_8374 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8375);
+            return __res_8374;
         }
     }
 }

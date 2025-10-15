@@ -10,10 +10,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8082;
-            string __res_8083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "city");
-            __res_8082 = __res_8083;
-            return __res_8082;
+            string __res_8097;
+            string __res_8098 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "city");
+            __res_8097 = __res_8098;
+            return __res_8097;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8084;
-            string __res_8085 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "country");
-            __res_8084 = __res_8085;
-            return __res_8084;
+            string __res_8099;
+            string __res_8100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "country");
+            __res_8099 = __res_8100;
+            return __res_8099;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8086;
-            string __res_8087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dependentLocality");
-            __res_8086 = __res_8087;
-            return __res_8086;
+            string __res_8101;
+            string __res_8102 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dependentLocality");
+            __res_8101 = __res_8102;
+            return __res_8101;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8088;
-            string __res_8089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "organization");
-            __res_8088 = __res_8089;
-            return __res_8088;
+            string __res_8103;
+            string __res_8104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "organization");
+            __res_8103 = __res_8104;
+            return __res_8103;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8090;
-            string __res_8091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "phone");
-            __res_8090 = __res_8091;
-            return __res_8090;
+            string __res_8105;
+            string __res_8106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "phone");
+            __res_8105 = __res_8106;
+            return __res_8105;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8092;
-            string __res_8093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postalCode");
-            __res_8092 = __res_8093;
-            return __res_8092;
+            string __res_8107;
+            string __res_8108 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postalCode");
+            __res_8107 = __res_8108;
+            return __res_8107;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8094;
-            string __res_8095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recipient");
-            __res_8094 = __res_8095;
-            return __res_8094;
+            string __res_8109;
+            string __res_8110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recipient");
+            __res_8109 = __res_8110;
+            return __res_8109;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8096;
-            string __res_8097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "region");
-            __res_8096 = __res_8097;
-            return __res_8096;
+            string __res_8111;
+            string __res_8112 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "region");
+            __res_8111 = __res_8112;
+            return __res_8111;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8098;
-            string __res_8099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sortingCode");
-            __res_8098 = __res_8099;
-            return __res_8098;
+            string __res_8113;
+            string __res_8114 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sortingCode");
+            __res_8113 = __res_8114;
+            return __res_8113;
         }
     }
 
@@ -109,11 +109,11 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_8100;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8101;
-            __propObject_8101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addressLine");
-            __res_8100 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_8101);
-            return __res_8100;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_8115;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8116;
+            __propObject_8116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addressLine");
+            __res_8115 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_8116);
+            return __res_8115;
         }
     }
 }

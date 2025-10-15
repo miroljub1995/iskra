@@ -10,10 +10,10 @@ public partial class AudioWorkletProcessor(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_8370;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_8370 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8371);
-            return __res_8370;
+            global::Iskra.StdWeb.MessagePort __res_8385;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8386 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            __res_8385 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8386);
+            return __res_8385;
         }
     }
 }

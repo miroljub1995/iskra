@@ -10,10 +10,10 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            uint __res_6692;
-            double __res_6693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6692 = Convert.ToUInt32(__res_6693);
-            return __res_6692;
+            uint __res_6705;
+            double __res_6706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6705 = Convert.ToUInt32(__res_6706);
+            return __res_6705;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.ScrollRestoration __res_6694;
-            string __res_6695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
-            __res_6694 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_6695);
-            return __res_6694;
+            global::Iskra.StdWeb.ScrollRestoration __res_6707;
+            string __res_6708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
+            __res_6707 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_6708);
+            return __res_6707;
         }
         set
         {
-            string __marshalledValue_6696;
-            __marshalledValue_6696 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_6696);
+            string __marshalledValue_6709;
+            __marshalledValue_6709 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_6709);
         }
     }
 
@@ -38,10 +38,10 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            object? __res_6697;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6697;
+            object? __res_6710;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "state");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            return __res_6710;
         }
     }
 }

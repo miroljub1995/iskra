@@ -10,10 +10,10 @@ public partial class PaintSize(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            double __res_2934;
-            double __res_2935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_2934 = __res_2935;
-            return __res_2934;
+            double __res_2928;
+            double __res_2929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_2928 = __res_2929;
+            return __res_2928;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PaintSize(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            double __res_2936;
-            double __res_2937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_2936 = __res_2937;
-            return __res_2936;
+            double __res_2930;
+            double __res_2931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_2930 = __res_2931;
+            return __res_2930;
         }
     }
 }

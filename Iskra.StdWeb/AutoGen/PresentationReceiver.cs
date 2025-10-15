@@ -10,9 +10,9 @@ public partial class PresentationReceiver(global::System.Runtime.InteropServices
     {
         get
         {
-            object __res_2327;
-            throw new Exception();
-            return __res_2327;
+            object __res_2321;
+            throw new global::System.Exception();
+            return __res_2321;
         }
     }
 }

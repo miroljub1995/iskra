@@ -10,18 +10,18 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double? __res_630;
-            double? __res_631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_631 is null)
+            double? __res_629;
+            double? __res_630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_630 is null)
             {
-                __res_630 = null;
+                __res_629 = null;
             }
             else
             {
-                double __notNullable_632 = (double)__res_631;
-                __res_630 = __notNullable_632;
+                double __notNullable_631 = (double)__res_630;
+                __res_629 = __notNullable_631;
             }
-            return __res_630;
+            return __res_629;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double? __res_633;
-            double? __res_634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_634 is null)
+            double? __res_632;
+            double? __res_633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_633 is null)
             {
-                __res_633 = null;
+                __res_632 = null;
             }
             else
             {
-                double __notNullable_635 = (double)__res_634;
-                __res_633 = __notNullable_635;
+                double __notNullable_634 = (double)__res_633;
+                __res_632 = __notNullable_634;
             }
-            return __res_633;
+            return __res_632;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double? __res_636;
-            double? __res_637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_637 is null)
+            double? __res_635;
+            double? __res_636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_636 is null)
             {
-                __res_636 = null;
+                __res_635 = null;
             }
             else
             {
-                double __notNullable_638 = (double)__res_637;
-                __res_636 = __notNullable_638;
+                double __notNullable_637 = (double)__res_636;
+                __res_635 = __notNullable_637;
             }
-            return __res_636;
+            return __res_635;
         }
     }
 }

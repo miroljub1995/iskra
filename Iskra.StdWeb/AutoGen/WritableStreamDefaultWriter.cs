@@ -10,9 +10,9 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            object __res_989;
-            throw new Exception();
-            return __res_989;
+            object __res_988;
+            throw new global::System.Exception();
+            return __res_988;
         }
     }
 
@@ -20,18 +20,18 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            double? __res_990;
-            double? __res_991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_991 is null)
+            double? __res_989;
+            double? __res_990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_990 is null)
             {
-                __res_990 = null;
+                __res_989 = null;
             }
             else
             {
-                double __notNullable_992 = (double)__res_991;
-                __res_990 = __notNullable_992;
+                double __notNullable_991 = (double)__res_990;
+                __res_989 = __notNullable_991;
             }
-            return __res_990;
+            return __res_989;
         }
     }
 
@@ -39,9 +39,9 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            object __res_993;
-            throw new Exception();
-            return __res_993;
+            object __res_992;
+            throw new global::System.Exception();
+            return __res_992;
         }
     }
 }

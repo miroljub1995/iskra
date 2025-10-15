@@ -10,10 +10,10 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_4157;
-            string __res_4158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "voiceURI");
-            __res_4157 = __res_4158;
-            return __res_4157;
+            string __res_4151;
+            string __res_4152 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "voiceURI");
+            __res_4151 = __res_4152;
+            return __res_4151;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_4159;
-            string __res_4160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4159 = __res_4160;
-            return __res_4159;
+            string __res_4153;
+            string __res_4154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4153 = __res_4154;
+            return __res_4153;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_4161;
-            string __res_4162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_4161 = __res_4162;
-            return __res_4161;
+            string __res_4155;
+            string __res_4156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_4155 = __res_4156;
+            return __res_4155;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
     {
         get
         {
-            bool __res_4163;
-            bool __res_4164 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
-            __res_4163 = __res_4164;
-            return __res_4163;
+            bool __res_4157;
+            bool __res_4158 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
+            __res_4157 = __res_4158;
+            return __res_4157;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
     {
         get
         {
-            bool __res_4165;
-            bool __res_4166 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
-            __res_4165 = __res_4166;
-            return __res_4165;
+            bool __res_4159;
+            bool __res_4160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
+            __res_4159 = __res_4160;
+            return __res_4159;
         }
     }
 }

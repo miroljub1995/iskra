@@ -10,10 +10,10 @@ public partial class BackgroundFetchEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.BackgroundFetchRegistration __res_3456;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3457 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
-            __res_3456 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchRegistration>(__res_3457);
-            return __res_3456;
+            global::Iskra.StdWeb.BackgroundFetchRegistration __res_3450;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "registration");
+            __res_3450 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchRegistration>(__res_3451);
+            return __res_3450;
         }
     }
 }

@@ -49,7 +49,7 @@ public class SetPropertyValueGenerator(
         }
 
         var content = $$"""
-                        throw new Exception();
+                        throw new global::System.Exception();
                         """;
 
         return content;

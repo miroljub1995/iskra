@@ -10,10 +10,10 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_7466;
-            string __res_7467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "requestId");
-            __res_7466 = __res_7467;
-            return __res_7466;
+            string __res_7481;
+            string __res_7482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "requestId");
+            __res_7481 = __res_7482;
+            return __res_7481;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_7468;
-            string __res_7469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
-            __res_7468 = __res_7469;
-            return __res_7468;
+            string __res_7483;
+            string __res_7484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
+            __res_7483 = __res_7484;
+            return __res_7483;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7470;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "details");
-            __res_7470 = __res_7471;
-            return __res_7470;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7485;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "details");
+            __res_7485 = __res_7486;
+            return __res_7485;
         }
     }
 
@@ -43,103 +43,8 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.ContactAddress? __res_7472;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
-            if (__res_7473 is null)
-            {
-                __res_7472 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7474 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7473;
-                __res_7472 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(__notNullable_7474);
-            }
-            return __res_7472;
-        }
-    }
-
-    public string? ShippingOption
-    {
-        get
-        {
-            string? __res_7475;
-            string? __res_7476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
-            if (__res_7476 is null)
-            {
-                __res_7475 = null;
-            }
-            else
-            {
-                string __notNullable_7477 = (string)__res_7476;
-                __res_7475 = __notNullable_7477;
-            }
-            return __res_7475;
-        }
-    }
-
-    public string? PayerName
-    {
-        get
-        {
-            string? __res_7478;
-            string? __res_7479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerName");
-            if (__res_7479 is null)
-            {
-                __res_7478 = null;
-            }
-            else
-            {
-                string __notNullable_7480 = (string)__res_7479;
-                __res_7478 = __notNullable_7480;
-            }
-            return __res_7478;
-        }
-    }
-
-    public string? PayerEmail
-    {
-        get
-        {
-            string? __res_7481;
-            string? __res_7482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerEmail");
-            if (__res_7482 is null)
-            {
-                __res_7481 = null;
-            }
-            else
-            {
-                string __notNullable_7483 = (string)__res_7482;
-                __res_7481 = __notNullable_7483;
-            }
-            return __res_7481;
-        }
-    }
-
-    public string? PayerPhone
-    {
-        get
-        {
-            string? __res_7484;
-            string? __res_7485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerPhone");
-            if (__res_7485 is null)
-            {
-                __res_7484 = null;
-            }
-            else
-            {
-                string __notNullable_7486 = (string)__res_7485;
-                __res_7484 = __notNullable_7486;
-            }
-            return __res_7484;
-        }
-    }
-
-    public global::Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
-    {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7487;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange");
+            global::Iskra.StdWeb.ContactAddress? __res_7487;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
             if (__res_7488 is null)
             {
                 __res_7487 = null;
@@ -147,23 +52,118 @@ public partial class PaymentResponse(global::System.Runtime.InteropServices.Java
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7489 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7488;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                __res_7487 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(__notNullable_7489);
             }
             return __res_7487;
         }
-        set
+    }
+
+    public string? ShippingOption
+    {
+        get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7490;
-            if (value is null)
+            string? __res_7490;
+            string? __res_7491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
+            if (__res_7491 is null)
             {
-                __marshalledValue_7490 = null;
+                __res_7490 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7491 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                string __notNullable_7492 = (string)__res_7491;
+                __res_7490 = __notNullable_7492;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange", __marshalledValue_7490);
+            return __res_7490;
+        }
+    }
+
+    public string? PayerName
+    {
+        get
+        {
+            string? __res_7493;
+            string? __res_7494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerName");
+            if (__res_7494 is null)
+            {
+                __res_7493 = null;
+            }
+            else
+            {
+                string __notNullable_7495 = (string)__res_7494;
+                __res_7493 = __notNullable_7495;
+            }
+            return __res_7493;
+        }
+    }
+
+    public string? PayerEmail
+    {
+        get
+        {
+            string? __res_7496;
+            string? __res_7497 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerEmail");
+            if (__res_7497 is null)
+            {
+                __res_7496 = null;
+            }
+            else
+            {
+                string __notNullable_7498 = (string)__res_7497;
+                __res_7496 = __notNullable_7498;
+            }
+            return __res_7496;
+        }
+    }
+
+    public string? PayerPhone
+    {
+        get
+        {
+            string? __res_7499;
+            string? __res_7500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "payerPhone");
+            if (__res_7500 is null)
+            {
+                __res_7499 = null;
+            }
+            else
+            {
+                string __notNullable_7501 = (string)__res_7500;
+                __res_7499 = __notNullable_7501;
+            }
+            return __res_7499;
+        }
+    }
+
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onpayerdetailchange
+    {
+        get
+        {
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7502;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7503 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange");
+            if (__res_7503 is null)
+            {
+                __res_7502 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7504 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7503;
+                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+            }
+            return __res_7502;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7505;
+            if (value is null)
+            {
+                __marshalledValue_7505 = null;
+            }
+            else
+            {
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7506 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpayerdetailchange", __marshalledValue_7505);
         }
     }
 }

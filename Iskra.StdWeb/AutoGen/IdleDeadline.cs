@@ -10,10 +10,10 @@ public partial class IdleDeadline(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_1124;
-            bool __res_1125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "didTimeout");
-            __res_1124 = __res_1125;
-            return __res_1124;
+            bool __res_1118;
+            bool __res_1119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "didTimeout");
+            __res_1118 = __res_1119;
+            return __res_1118;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class OrientationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_663;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_664;
-            __propObject_664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "quaternion");
-            if (__propObject_664 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_662;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_663;
+            __propObject_663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "quaternion");
+            if (__propObject_663 is null)
             {
                 return null;
             }
 
-            __res_663 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_664);
-            return __res_663;
+            __res_662 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_663);
+            return __res_662;
         }
     }
 }

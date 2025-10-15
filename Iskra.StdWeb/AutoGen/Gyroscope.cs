@@ -10,8 +10,46 @@ public partial class Gyroscope(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
+            double? __res_2982;
+            double? __res_2983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_2983 is null)
+            {
+                __res_2982 = null;
+            }
+            else
+            {
+                double __notNullable_2984 = (double)__res_2983;
+                __res_2982 = __notNullable_2984;
+            }
+            return __res_2982;
+        }
+    }
+
+    public double? Y
+    {
+        get
+        {
+            double? __res_2985;
+            double? __res_2986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_2986 is null)
+            {
+                __res_2985 = null;
+            }
+            else
+            {
+                double __notNullable_2987 = (double)__res_2986;
+                __res_2985 = __notNullable_2987;
+            }
+            return __res_2985;
+        }
+    }
+
+    public double? Z
+    {
+        get
+        {
             double? __res_2988;
-            double? __res_2989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            double? __res_2989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
             if (__res_2989 is null)
             {
                 __res_2988 = null;
@@ -22,44 +60,6 @@ public partial class Gyroscope(global::System.Runtime.InteropServices.JavaScript
                 __res_2988 = __notNullable_2990;
             }
             return __res_2988;
-        }
-    }
-
-    public double? Y
-    {
-        get
-        {
-            double? __res_2991;
-            double? __res_2992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_2992 is null)
-            {
-                __res_2991 = null;
-            }
-            else
-            {
-                double __notNullable_2993 = (double)__res_2992;
-                __res_2991 = __notNullable_2993;
-            }
-            return __res_2991;
-        }
-    }
-
-    public double? Z
-    {
-        get
-        {
-            double? __res_2994;
-            double? __res_2995 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_2995 is null)
-            {
-                __res_2994 = null;
-            }
-            else
-            {
-                double __notNullable_2996 = (double)__res_2995;
-                __res_2994 = __notNullable_2996;
-            }
-            return __res_2994;
         }
     }
 }

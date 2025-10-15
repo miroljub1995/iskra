@@ -10,10 +10,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            string __res_3432;
-            string __res_3433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_3432 = __res_3433;
-            return __res_3432;
+            string __res_3426;
+            string __res_3427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3426 = __res_3427;
+            return __res_3426;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_3434;
-            double __res_3435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
-            __res_3434 = Convert.ToUInt64(__res_3435);
-            return __res_3434;
+            ulong __res_3428;
+            double __res_3429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
+            __res_3428 = Convert.ToUInt64(__res_3429);
+            return __res_3428;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_3436;
-            double __res_3437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
-            __res_3436 = Convert.ToUInt64(__res_3437);
-            return __res_3436;
+            ulong __res_3430;
+            double __res_3431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
+            __res_3430 = Convert.ToUInt64(__res_3431);
+            return __res_3430;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_3438;
-            double __res_3439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
-            __res_3438 = Convert.ToUInt64(__res_3439);
-            return __res_3438;
+            ulong __res_3432;
+            double __res_3433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
+            __res_3432 = Convert.ToUInt64(__res_3433);
+            return __res_3432;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_3440;
-            double __res_3441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
-            __res_3440 = Convert.ToUInt64(__res_3441);
-            return __res_3440;
+            ulong __res_3434;
+            double __res_3435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
+            __res_3434 = Convert.ToUInt64(__res_3435);
+            return __res_3434;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.BackgroundFetchResult __res_3442;
-            string __res_3443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
-            __res_3442 = global::Iskra.StdWeb.BackgroundFetchResult.Create(__res_3443);
-            return __res_3442;
+            global::Iskra.StdWeb.BackgroundFetchResult __res_3436;
+            string __res_3437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            __res_3436 = global::Iskra.StdWeb.BackgroundFetchResult.Create(__res_3437);
+            return __res_3436;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.BackgroundFetchFailureReason __res_3444;
-            string __res_3445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "failureReason");
-            __res_3444 = global::Iskra.StdWeb.BackgroundFetchFailureReason.Create(__res_3445);
-            return __res_3444;
+            global::Iskra.StdWeb.BackgroundFetchFailureReason __res_3438;
+            string __res_3439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "failureReason");
+            __res_3438 = global::Iskra.StdWeb.BackgroundFetchFailureReason.Create(__res_3439);
+            return __res_3438;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            bool __res_3446;
-            bool __res_3447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
-            __res_3446 = __res_3447;
-            return __res_3446;
+            bool __res_3440;
+            bool __res_3441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
+            __res_3440 = __res_3441;
+            return __res_3440;
         }
     }
 
@@ -98,32 +98,32 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3448;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
-            if (__res_3449 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3442;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
+            if (__res_3443 is null)
             {
-                __res_3448 = null;
+                __res_3442 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3450 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3449;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3444 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3443;
+                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3448;
+            return __res_3442;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3451;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3445;
             if (value is null)
             {
-                __marshalledValue_3451 = null;
+                __marshalledValue_3445 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3452 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3446 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_3451);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_3445);
         }
     }
 }

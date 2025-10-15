@@ -10,16 +10,16 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
     {
         get
         {
-            uint __res_5281;
-            double __res_5282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5281 = Convert.ToUInt32(__res_5282);
-            return __res_5281;
+            uint __res_5294;
+            double __res_5295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5294 = Convert.ToUInt32(__res_5295);
+            return __res_5294;
         }
         set
         {
-            double __marshalledValue_5283;
-            __marshalledValue_5283 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_5283);
+            double __marshalledValue_5296;
+            __marshalledValue_5296 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_5296);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_5284;
-            double __res_5285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_5284 = Convert.ToInt32(__res_5285);
-            return __res_5284;
+            int __res_5297;
+            double __res_5298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_5297 = Convert.ToInt32(__res_5298);
+            return __res_5297;
         }
         set
         {
-            double __marshalledValue_5286;
-            __marshalledValue_5286 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_5286);
+            double __marshalledValue_5299;
+            __marshalledValue_5299 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_5299);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class BluetoothRemoteGATTService(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothDevice __res_2804;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_2804 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_2805);
-            return __res_2804;
+            global::Iskra.StdWeb.BluetoothDevice __res_2798;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            __res_2798 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_2799);
+            return __res_2798;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BluetoothRemoteGATTService(global::System.Runtime.InteropSe
     {
         get
         {
-            string __res_2806;
-            string __res_2807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_2806 = __res_2807;
-            return __res_2806;
+            string __res_2800;
+            string __res_2801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2800 = __res_2801;
+            return __res_2800;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BluetoothRemoteGATTService(global::System.Runtime.InteropSe
     {
         get
         {
-            bool __res_2808;
-            bool __res_2809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            __res_2808 = __res_2809;
-            return __res_2808;
+            bool __res_2802;
+            bool __res_2803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            __res_2802 = __res_2803;
+            return __res_2802;
         }
     }
 }

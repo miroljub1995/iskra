@@ -18,7 +18,7 @@ public partial class TestUnionProperties(global::System.Runtime.InteropServices.
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 }

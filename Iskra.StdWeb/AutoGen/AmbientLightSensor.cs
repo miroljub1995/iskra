@@ -10,18 +10,18 @@ public partial class AmbientLightSensor(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double? __res_7947;
-            double? __res_7948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "illuminance");
-            if (__res_7948 is null)
+            double? __res_7962;
+            double? __res_7963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "illuminance");
+            if (__res_7963 is null)
             {
-                __res_7947 = null;
+                __res_7962 = null;
             }
             else
             {
-                double __notNullable_7949 = (double)__res_7948;
-                __res_7947 = __notNullable_7949;
+                double __notNullable_7964 = (double)__res_7963;
+                __res_7962 = __notNullable_7964;
             }
-            return __res_7947;
+            return __res_7962;
         }
     }
 }

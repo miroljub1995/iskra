@@ -60,7 +60,7 @@ public class GetPropertyValueGenerator(
         }
 
         var content = $$"""
-                        throw new Exception();
+                        throw new global::System.Exception();
                         """;
 
         return content;

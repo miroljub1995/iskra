@@ -10,18 +10,18 @@ public partial class PushSubscriptionChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.PushSubscription? __res_5005;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
-            if (__res_5006 is null)
+            global::Iskra.StdWeb.PushSubscription? __res_5018;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5019 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "newSubscription");
+            if (__res_5019 is null)
             {
-                __res_5005 = null;
+                __res_5018 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5007 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5006;
-                __res_5005 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(__notNullable_5007);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5020 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5019;
+                __res_5018 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(__notNullable_5020);
             }
-            return __res_5005;
+            return __res_5018;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class PushSubscriptionChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.PushSubscription? __res_5008;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
-            if (__res_5009 is null)
+            global::Iskra.StdWeb.PushSubscription? __res_5021;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5022 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oldSubscription");
+            if (__res_5022 is null)
             {
-                __res_5008 = null;
+                __res_5021 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5010 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5009;
-                __res_5008 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(__notNullable_5010);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5023 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5022;
+                __res_5021 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(__notNullable_5023);
             }
-            return __res_5008;
+            return __res_5021;
         }
     }
 }

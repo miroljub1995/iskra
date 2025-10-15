@@ -10,11 +10,11 @@ public partial class GamepadHapticActuator(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4845;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4846;
-            __propObject_4846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effects");
-            __res_4845 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4846);
-            return __res_4845;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4858;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4859;
+            __propObject_4859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effects");
+            __res_4858 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4859);
+            return __res_4858;
         }
     }
 }

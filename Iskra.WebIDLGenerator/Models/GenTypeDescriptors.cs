@@ -1,4 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Iskra.WebIDLGenerator.Models;
 
@@ -280,7 +281,7 @@ public class GenTypeDescriptors
         throw new Exception($"Unknown IDL type: {input.GetType()}");
     }
 
-    private static UnionTypeDescription FlattenUnionTypeDescription(UnionTypeDescription input)
+    private static IDLTypeDescription FlattenUnionTypeDescription(UnionTypeDescription input)
     {
         var nullable = input.Nullable;
         List<IDLTypeDescription> flattenedIdlType = [];
@@ -289,14 +290,31 @@ public class GenTypeDescriptors
             if (type is UnionTypeDescription unionTypeDescription)
             {
                 var flattenedNestedType = FlattenUnionTypeDescription(unionTypeDescription);
-                flattenedIdlType.AddRange(flattenedNestedType.IdlType);
+                if (flattenedNestedType is UnionTypeDescription nestedUnionTypeDescription)
+                {
+                    flattenedIdlType.AddRange(nestedUnionTypeDescription.IdlType);
+                }
+                else
+                {
+                    flattenedIdlType.Add(flattenedNestedType);
+                }
+
                 nullable |= flattenedNestedType.Nullable;
+            }
+            else if (type is SingleTypeDescription { IdlType: BuiltinTypes.Undefined })
+            {
+                nullable = true;
             }
             else
             {
                 flattenedIdlType.Add(type);
                 nullable |= type.Nullable;
             }
+        }
+
+        if (flattenedIdlType.Count == 1)
+        {
+            return flattenedIdlType[0] with { Nullable = flattenedIdlType[0].Nullable || nullable };
         }
 
         return new UnionTypeDescription

@@ -10,9 +10,9 @@ public partial class MLContext(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            object __res_4779;
-            throw new Exception();
-            return __res_4779;
+            object __res_4792;
+            throw new global::System.Exception();
+            return __res_4792;
         }
     }
 }

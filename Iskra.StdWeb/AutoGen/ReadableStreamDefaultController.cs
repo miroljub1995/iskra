@@ -10,18 +10,18 @@ public partial class ReadableStreamDefaultController(global::System.Runtime.Inte
     {
         get
         {
-            double? __res_976;
-            double? __res_977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_977 is null)
+            double? __res_975;
+            double? __res_976 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_976 is null)
             {
-                __res_976 = null;
+                __res_975 = null;
             }
             else
             {
-                double __notNullable_978 = (double)__res_977;
-                __res_976 = __notNullable_978;
+                double __notNullable_977 = (double)__res_976;
+                __res_975 = __notNullable_977;
             }
-            return __res_976;
+            return __res_975;
         }
     }
 }

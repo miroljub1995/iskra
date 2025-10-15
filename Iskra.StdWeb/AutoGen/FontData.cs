@@ -10,10 +10,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_3666;
-            string __res_3667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postscriptName");
-            __res_3666 = __res_3667;
-            return __res_3666;
+            string __res_3660;
+            string __res_3661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postscriptName");
+            __res_3660 = __res_3661;
+            return __res_3660;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_3668;
-            string __res_3669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullName");
-            __res_3668 = __res_3669;
-            return __res_3668;
+            string __res_3662;
+            string __res_3663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullName");
+            __res_3662 = __res_3663;
+            return __res_3662;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_3670;
-            string __res_3671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "family");
-            __res_3670 = __res_3671;
-            return __res_3670;
+            string __res_3664;
+            string __res_3665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "family");
+            __res_3664 = __res_3665;
+            return __res_3664;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_3672;
-            string __res_3673 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "style");
-            __res_3672 = __res_3673;
-            return __res_3672;
+            string __res_3666;
+            string __res_3667 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "style");
+            __res_3666 = __res_3667;
+            return __res_3666;
         }
     }
 }

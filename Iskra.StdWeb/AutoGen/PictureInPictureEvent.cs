@@ -10,10 +10,10 @@ public partial class PictureInPictureEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PictureInPictureWindow __res_3133;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pictureInPictureWindow");
-            __res_3133 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PictureInPictureWindow>(__res_3134);
-            return __res_3133;
+            global::Iskra.StdWeb.PictureInPictureWindow __res_3127;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pictureInPictureWindow");
+            __res_3127 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PictureInPictureWindow>(__res_3128);
+            return __res_3127;
         }
     }
 }

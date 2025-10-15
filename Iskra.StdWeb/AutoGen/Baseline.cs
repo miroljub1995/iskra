@@ -10,10 +10,10 @@ public partial class Baseline(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_7873;
-            string __res_7874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7873 = __res_7874;
-            return __res_7873;
+            string __res_7888;
+            string __res_7889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7888 = __res_7889;
+            return __res_7888;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Baseline(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            double __res_7875;
-            double __res_7876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_7875 = __res_7876;
-            return __res_7875;
+            double __res_7890;
+            double __res_7891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_7890 = __res_7891;
+            return __res_7890;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class ResizeObserverSize(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double __res_4736;
-            double __res_4737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_4736 = __res_4737;
-            return __res_4736;
+            double __res_4749;
+            double __res_4750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
+            __res_4749 = __res_4750;
+            return __res_4749;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ResizeObserverSize(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double __res_4738;
-            double __res_4739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_4738 = __res_4739;
-            return __res_4738;
+            double __res_4751;
+            double __res_4752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
+            __res_4751 = __res_4752;
+            return __res_4751;
         }
     }
 }

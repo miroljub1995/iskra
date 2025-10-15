@@ -10,10 +10,10 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_2696;
-            string __res_2697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2696 = __res_2697;
-            return __res_2696;
+            string __res_2690;
+            string __res_2691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2690 = __res_2691;
+            return __res_2690;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_2698;
-            bool __res_2699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            __res_2698 = __res_2699;
-            return __res_2698;
+            bool __res_2692;
+            bool __res_2693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            __res_2692 = __res_2693;
+            return __res_2692;
         }
     }
 
@@ -32,9 +32,9 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            object __res_2700;
-            throw new Exception();
-            return __res_2700;
+            object __res_2694;
+            throw new global::System.Exception();
+            return __res_2694;
         }
     }
 
@@ -42,10 +42,10 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.ImageTrackList __res_2701;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
-            __res_2701 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrackList>(__res_2702);
-            return __res_2701;
+            global::Iskra.StdWeb.ImageTrackList __res_2695;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
+            __res_2695 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrackList>(__res_2696);
+            return __res_2695;
         }
     }
 }

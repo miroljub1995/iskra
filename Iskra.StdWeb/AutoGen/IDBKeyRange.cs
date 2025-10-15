@@ -10,10 +10,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            object? __res_7793;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7794 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7793;
+            object? __res_7808;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            return __res_7808;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            object? __res_7795;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7795;
+            object? __res_7810;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            return __res_7810;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_7797;
-            bool __res_7798 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_7797 = __res_7798;
-            return __res_7797;
+            bool __res_7812;
+            bool __res_7813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_7812 = __res_7813;
+            return __res_7812;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_7799;
-            bool __res_7800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_7799 = __res_7800;
-            return __res_7799;
+            bool __res_7814;
+            bool __res_7815 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_7814 = __res_7815;
+            return __res_7814;
         }
     }
 }

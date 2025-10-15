@@ -10,10 +10,10 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6851;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
-            __res_6851 = __res_6852;
-            return __res_6851;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6864;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6865 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
+            __res_6864 = __res_6865;
+            return __res_6864;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            object? __res_6853;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6853;
+            object? __res_6866;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            return __res_6866;
         }
     }
 }

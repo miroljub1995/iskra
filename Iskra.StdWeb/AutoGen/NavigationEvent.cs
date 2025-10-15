@@ -10,10 +10,10 @@ public partial class NavigationEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.SpatialNavigationDirection __res_5199;
-            string __res_5200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dir");
-            __res_5199 = global::Iskra.StdWeb.SpatialNavigationDirection.Create(__res_5200);
-            return __res_5199;
+            global::Iskra.StdWeb.SpatialNavigationDirection __res_5212;
+            string __res_5213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dir");
+            __res_5212 = global::Iskra.StdWeb.SpatialNavigationDirection.Create(__res_5213);
+            return __res_5212;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class NavigationEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventTarget? __res_5201;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_5202 is null)
+            global::Iskra.StdWeb.EventTarget? __res_5214;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_5215 is null)
             {
-                __res_5201 = null;
+                __res_5214 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5203 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5202;
-                __res_5201 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_5203);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5216 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5215;
+                __res_5214 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_5216);
             }
-            return __res_5201;
+            return __res_5214;
         }
     }
 }

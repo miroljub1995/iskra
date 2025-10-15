@@ -10,10 +10,10 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.GPUSupportedFeatures __res_745;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_746 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
-            __res_745 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedFeatures>(__res_746);
-            return __res_745;
+            global::Iskra.StdWeb.GPUSupportedFeatures __res_744;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_745 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            __res_744 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedFeatures>(__res_745);
+            return __res_744;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.GPUSupportedLimits __res_747;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
-            __res_747 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedLimits>(__res_748);
-            return __res_747;
+            global::Iskra.StdWeb.GPUSupportedLimits __res_746;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_747 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            __res_746 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedLimits>(__res_747);
+            return __res_746;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.GPUAdapterInfo __res_749;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
-            __res_749 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUAdapterInfo>(__res_750);
-            return __res_749;
+            global::Iskra.StdWeb.GPUAdapterInfo __res_748;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
+            __res_748 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUAdapterInfo>(__res_749);
+            return __res_748;
         }
     }
 }

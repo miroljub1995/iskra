@@ -10,8 +10,46 @@ public partial class DeviceMotionEventRotationRate(global::System.Runtime.Intero
     {
         get
         {
+            double? __res_2902;
+            double? __res_2903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            if (__res_2903 is null)
+            {
+                __res_2902 = null;
+            }
+            else
+            {
+                double __notNullable_2904 = (double)__res_2903;
+                __res_2902 = __notNullable_2904;
+            }
+            return __res_2902;
+        }
+    }
+
+    public double? Beta
+    {
+        get
+        {
+            double? __res_2905;
+            double? __res_2906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
+            if (__res_2906 is null)
+            {
+                __res_2905 = null;
+            }
+            else
+            {
+                double __notNullable_2907 = (double)__res_2906;
+                __res_2905 = __notNullable_2907;
+            }
+            return __res_2905;
+        }
+    }
+
+    public double? Gamma
+    {
+        get
+        {
             double? __res_2908;
-            double? __res_2909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            double? __res_2909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
             if (__res_2909 is null)
             {
                 __res_2908 = null;
@@ -22,44 +60,6 @@ public partial class DeviceMotionEventRotationRate(global::System.Runtime.Intero
                 __res_2908 = __notNullable_2910;
             }
             return __res_2908;
-        }
-    }
-
-    public double? Beta
-    {
-        get
-        {
-            double? __res_2911;
-            double? __res_2912 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_2912 is null)
-            {
-                __res_2911 = null;
-            }
-            else
-            {
-                double __notNullable_2913 = (double)__res_2912;
-                __res_2911 = __notNullable_2913;
-            }
-            return __res_2911;
-        }
-    }
-
-    public double? Gamma
-    {
-        get
-        {
-            double? __res_2914;
-            double? __res_2915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_2915 is null)
-            {
-                __res_2914 = null;
-            }
-            else
-            {
-                double __notNullable_2916 = (double)__res_2915;
-                __res_2914 = __notNullable_2916;
-            }
-            return __res_2914;
         }
     }
 }

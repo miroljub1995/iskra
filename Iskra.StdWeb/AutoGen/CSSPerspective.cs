@@ -18,7 +18,7 @@ public partial class CSSPerspective(global::System.Runtime.InteropServices.JavaS
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 }

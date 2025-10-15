@@ -10,10 +10,10 @@ public partial class NDEFReadingEvent(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_4689;
-            string __res_4690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "serialNumber");
-            __res_4689 = __res_4690;
-            return __res_4689;
+            string __res_4699;
+            string __res_4700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "serialNumber");
+            __res_4699 = __res_4700;
+            return __res_4699;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NDEFReadingEvent(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.NDEFMessage __res_4691;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
-            __res_4691 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NDEFMessage>(__res_4692);
-            return __res_4691;
+            global::Iskra.StdWeb.NDEFMessage __res_4701;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            __res_4701 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NDEFMessage>(__res_4702);
+            return __res_4701;
         }
     }
 }

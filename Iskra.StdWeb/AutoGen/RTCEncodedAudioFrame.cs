@@ -10,16 +10,16 @@ public partial class RTCEncodedAudioFrame(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_1053;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_1053 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_1054);
-            return __res_1053;
+            global::Iskra.JSCore.ArrayBuffer __res_1047;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1048 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_1047 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_1048);
+            return __res_1047;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1055;
-            __marshalledValue_1055 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1055);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1049;
+            __marshalledValue_1049 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1049);
         }
     }
 }

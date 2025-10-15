@@ -10,10 +10,10 @@ public partial class XRInputSourceEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.XRFrame __res_4348;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
-            __res_4348 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_4349);
-            return __res_4348;
+            global::Iskra.StdWeb.XRFrame __res_4344;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
+            __res_4344 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_4345);
+            return __res_4344;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRInputSourceEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.XRInputSource __res_4350;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
-            __res_4350 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSource>(__res_4351);
-            return __res_4350;
+            global::Iskra.StdWeb.XRInputSource __res_4346;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            __res_4346 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSource>(__res_4347);
+            return __res_4346;
         }
     }
 }

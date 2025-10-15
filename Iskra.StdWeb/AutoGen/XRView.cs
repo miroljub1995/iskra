@@ -10,10 +10,21 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.XREye __res_4282;
-            string __res_4283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
-            __res_4282 = global::Iskra.StdWeb.XREye.Create(__res_4283);
-            return __res_4282;
+            global::Iskra.StdWeb.XREye __res_4276;
+            string __res_4277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
+            __res_4276 = global::Iskra.StdWeb.XREye.Create(__res_4277);
+            return __res_4276;
+        }
+    }
+
+    public uint Index
+    {
+        get
+        {
+            uint __res_4278;
+            double __res_4279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_4278 = Convert.ToUInt32(__res_4279);
+            return __res_4278;
         }
     }
 
@@ -21,18 +32,18 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            double? __res_4284;
-            double? __res_4285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
-            if (__res_4285 is null)
+            double? __res_4280;
+            double? __res_4281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
+            if (__res_4281 is null)
             {
-                __res_4284 = null;
+                __res_4280 = null;
             }
             else
             {
-                double __notNullable_4286 = (double)__res_4285;
-                __res_4284 = __notNullable_4286;
+                double __notNullable_4282 = (double)__res_4281;
+                __res_4280 = __notNullable_4282;
             }
-            return __res_4284;
+            return __res_4280;
         }
     }
 }

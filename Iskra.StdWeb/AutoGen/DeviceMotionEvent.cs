@@ -10,18 +10,18 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2917;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
-            if (__res_2918 is null)
+            global::Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2911;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2912 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
+            if (__res_2912 is null)
             {
-                __res_2917 = null;
+                __res_2911 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2919 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2918;
-                __res_2917 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_2919);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2913 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2912;
+                __res_2911 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_2913);
             }
-            return __res_2917;
+            return __res_2911;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2920;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
-            if (__res_2921 is null)
+            global::Iskra.StdWeb.DeviceMotionEventAcceleration? __res_2914;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
+            if (__res_2915 is null)
             {
-                __res_2920 = null;
+                __res_2914 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2922 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2921;
-                __res_2920 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_2922);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2916 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2915;
+                __res_2914 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_2916);
             }
-            return __res_2920;
+            return __res_2914;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2923;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
-            if (__res_2924 is null)
+            global::Iskra.StdWeb.DeviceMotionEventRotationRate? __res_2917;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
+            if (__res_2918 is null)
             {
-                __res_2923 = null;
+                __res_2917 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2925 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2924;
-                __res_2923 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(__notNullable_2925);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2919 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2918;
+                __res_2917 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(__notNullable_2919);
             }
-            return __res_2923;
+            return __res_2917;
         }
     }
 
@@ -67,10 +67,10 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_2926;
-            double __res_2927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
-            __res_2926 = __res_2927;
-            return __res_2926;
+            double __res_2920;
+            double __res_2921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
+            __res_2920 = __res_2921;
+            return __res_2920;
         }
     }
 }

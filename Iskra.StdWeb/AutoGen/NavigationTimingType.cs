@@ -16,7 +16,6 @@ public sealed partial class NavigationTimingType
     public static readonly NavigationTimingType Navigate = new("navigate");
     public static readonly NavigationTimingType Reload = new("reload");
     public static readonly NavigationTimingType Back_forward = new("back_forward");
-    public static readonly NavigationTimingType Prerender = new("prerender");
 
     public override string ToString() => _value;
 
@@ -25,7 +24,6 @@ public sealed partial class NavigationTimingType
         "navigate" => Navigate,
         "reload" => Reload,
         "back_forward" => Back_forward,
-        "prerender" => Prerender,
         _ => throw new ArgumentException($"Invalid value \"{value}\" for NavigationTimingType", nameof(value)),
     };
 }

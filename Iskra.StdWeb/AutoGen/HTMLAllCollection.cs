@@ -10,10 +10,10 @@ public partial class HTMLAllCollection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_5276;
-            double __res_5277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5276 = Convert.ToUInt32(__res_5277);
-            return __res_5276;
+            uint __res_5289;
+            double __res_5290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5289 = Convert.ToUInt32(__res_5290);
+            return __res_5289;
         }
     }
 }

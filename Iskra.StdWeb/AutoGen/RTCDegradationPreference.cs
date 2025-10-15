@@ -16,6 +16,7 @@ public sealed partial class RTCDegradationPreference
     public static readonly RTCDegradationPreference Maintain_framerate = new("maintain-framerate");
     public static readonly RTCDegradationPreference Maintain_resolution = new("maintain-resolution");
     public static readonly RTCDegradationPreference Balanced = new("balanced");
+    public static readonly RTCDegradationPreference Maintain_framerate_and_resolution = new("maintain-framerate-and-resolution");
 
     public override string ToString() => _value;
 
@@ -24,6 +25,7 @@ public sealed partial class RTCDegradationPreference
         "maintain-framerate" => Maintain_framerate,
         "maintain-resolution" => Maintain_resolution,
         "balanced" => Balanced,
+        "maintain-framerate-and-resolution" => Maintain_framerate_and_resolution,
         _ => throw new ArgumentException($"Invalid value \"{value}\" for RTCDegradationPreference", nameof(value)),
     };
 }

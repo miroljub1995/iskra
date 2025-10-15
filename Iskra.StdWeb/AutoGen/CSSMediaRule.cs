@@ -10,10 +10,10 @@ public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MediaList __res_3469;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3470 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            __res_3469 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_3470);
-            return __res_3469;
+            global::Iskra.StdWeb.MediaList __res_3463;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            __res_3463 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_3464);
+            return __res_3463;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_3471;
-            bool __res_3472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_3471 = __res_3472;
-            return __res_3471;
+            bool __res_3465;
+            bool __res_3466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_3465 = __res_3466;
+            return __res_3465;
         }
     }
 }

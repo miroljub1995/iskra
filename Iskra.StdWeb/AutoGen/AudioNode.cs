@@ -10,10 +10,10 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.BaseAudioContext __res_8156;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "context");
-            __res_8156 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BaseAudioContext>(__res_8157);
-            return __res_8156;
+            global::Iskra.StdWeb.BaseAudioContext __res_8171;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "context");
+            __res_8171 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BaseAudioContext>(__res_8172);
+            return __res_8171;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_8158;
-            double __res_8159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfInputs");
-            __res_8158 = Convert.ToUInt32(__res_8159);
-            return __res_8158;
+            uint __res_8173;
+            double __res_8174 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfInputs");
+            __res_8173 = Convert.ToUInt32(__res_8174);
+            return __res_8173;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_8160;
-            double __res_8161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfOutputs");
-            __res_8160 = Convert.ToUInt32(__res_8161);
-            return __res_8160;
+            uint __res_8175;
+            double __res_8176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfOutputs");
+            __res_8175 = Convert.ToUInt32(__res_8176);
+            return __res_8175;
         }
     }
 
@@ -43,16 +43,16 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_8162;
-            double __res_8163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "channelCount");
-            __res_8162 = Convert.ToUInt32(__res_8163);
-            return __res_8162;
+            uint __res_8177;
+            double __res_8178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "channelCount");
+            __res_8177 = Convert.ToUInt32(__res_8178);
+            return __res_8177;
         }
         set
         {
-            double __marshalledValue_8164;
-            __marshalledValue_8164 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "channelCount", __marshalledValue_8164);
+            double __marshalledValue_8179;
+            __marshalledValue_8179 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "channelCount", __marshalledValue_8179);
         }
     }
 
@@ -60,16 +60,16 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.ChannelCountMode __res_8165;
-            string __res_8166 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "channelCountMode");
-            __res_8165 = global::Iskra.StdWeb.ChannelCountMode.Create(__res_8166);
-            return __res_8165;
+            global::Iskra.StdWeb.ChannelCountMode __res_8180;
+            string __res_8181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "channelCountMode");
+            __res_8180 = global::Iskra.StdWeb.ChannelCountMode.Create(__res_8181);
+            return __res_8180;
         }
         set
         {
-            string __marshalledValue_8167;
-            __marshalledValue_8167 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "channelCountMode", __marshalledValue_8167);
+            string __marshalledValue_8182;
+            __marshalledValue_8182 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "channelCountMode", __marshalledValue_8182);
         }
     }
 
@@ -77,16 +77,16 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.ChannelInterpretation __res_8168;
-            string __res_8169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "channelInterpretation");
-            __res_8168 = global::Iskra.StdWeb.ChannelInterpretation.Create(__res_8169);
-            return __res_8168;
+            global::Iskra.StdWeb.ChannelInterpretation __res_8183;
+            string __res_8184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "channelInterpretation");
+            __res_8183 = global::Iskra.StdWeb.ChannelInterpretation.Create(__res_8184);
+            return __res_8183;
         }
         set
         {
-            string __marshalledValue_8170;
-            __marshalledValue_8170 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "channelInterpretation", __marshalledValue_8170);
+            string __marshalledValue_8185;
+            __marshalledValue_8185 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "channelInterpretation", __marshalledValue_8185);
         }
     }
 }

@@ -6,20 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedString(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public string BaseVal
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> BaseVal
     {
         get
         {
-            string __res_350;
-            string __res_351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "baseVal");
-            __res_350 = __res_351;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> __res_350;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_351;
+            __propObject_351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "baseVal");
+            __res_350 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_351);
             return __res_350;
         }
         set
         {
-            string __marshalledValue_352;
-            __marshalledValue_352 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "baseVal", __marshalledValue_352);
+            throw new global::System.Exception();
         }
     }
 
@@ -27,10 +26,10 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_353;
-            string __res_354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
-            __res_353 = __res_354;
-            return __res_353;
+            string __res_352;
+            string __res_353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
+            __res_352 = __res_353;
+            return __res_352;
         }
     }
 }

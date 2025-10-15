@@ -10,93 +10,8 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_7497;
-            string __res_7498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7497 = __res_7498;
-            return __res_7497;
-        }
-        set
-        {
-            string __marshalledValue_7499;
-            __marshalledValue_7499 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7499);
-        }
-    }
-
-    public string System
-    {
-        get
-        {
-            string __res_7500;
-            string __res_7501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "system");
-            __res_7500 = __res_7501;
-            return __res_7500;
-        }
-        set
-        {
-            string __marshalledValue_7502;
-            __marshalledValue_7502 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "system", __marshalledValue_7502);
-        }
-    }
-
-    public string Symbols
-    {
-        get
-        {
-            string __res_7503;
-            string __res_7504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "symbols");
-            __res_7503 = __res_7504;
-            return __res_7503;
-        }
-        set
-        {
-            string __marshalledValue_7505;
-            __marshalledValue_7505 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "symbols", __marshalledValue_7505);
-        }
-    }
-
-    public string AdditiveSymbols
-    {
-        get
-        {
-            string __res_7506;
-            string __res_7507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "additiveSymbols");
-            __res_7506 = __res_7507;
-            return __res_7506;
-        }
-        set
-        {
-            string __marshalledValue_7508;
-            __marshalledValue_7508 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "additiveSymbols", __marshalledValue_7508);
-        }
-    }
-
-    public string Negative
-    {
-        get
-        {
-            string __res_7509;
-            string __res_7510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "negative");
-            __res_7509 = __res_7510;
-            return __res_7509;
-        }
-        set
-        {
-            string __marshalledValue_7511;
-            __marshalledValue_7511 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "negative", __marshalledValue_7511);
-        }
-    }
-
-    public string Prefix
-    {
-        get
-        {
             string __res_7512;
-            string __res_7513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
+            string __res_7513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
             __res_7512 = __res_7513;
             return __res_7512;
         }
@@ -104,16 +19,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_7514;
             __marshalledValue_7514 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "prefix", __marshalledValue_7514);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7514);
         }
     }
 
-    public string Suffix
+    public string System
     {
         get
         {
             string __res_7515;
-            string __res_7516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffix");
+            string __res_7516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "system");
             __res_7515 = __res_7516;
             return __res_7515;
         }
@@ -121,16 +36,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_7517;
             __marshalledValue_7517 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "suffix", __marshalledValue_7517);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "system", __marshalledValue_7517);
         }
     }
 
-    public string Range
+    public string Symbols
     {
         get
         {
             string __res_7518;
-            string __res_7519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "range");
+            string __res_7519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "symbols");
             __res_7518 = __res_7519;
             return __res_7518;
         }
@@ -138,16 +53,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_7520;
             __marshalledValue_7520 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "range", __marshalledValue_7520);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "symbols", __marshalledValue_7520);
         }
     }
 
-    public string Pad
+    public string AdditiveSymbols
     {
         get
         {
             string __res_7521;
-            string __res_7522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pad");
+            string __res_7522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "additiveSymbols");
             __res_7521 = __res_7522;
             return __res_7521;
         }
@@ -155,16 +70,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_7523;
             __marshalledValue_7523 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pad", __marshalledValue_7523);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "additiveSymbols", __marshalledValue_7523);
         }
     }
 
-    public string SpeakAs
+    public string Negative
     {
         get
         {
             string __res_7524;
-            string __res_7525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "speakAs");
+            string __res_7525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "negative");
             __res_7524 = __res_7525;
             return __res_7524;
         }
@@ -172,16 +87,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_7526;
             __marshalledValue_7526 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "speakAs", __marshalledValue_7526);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "negative", __marshalledValue_7526);
         }
     }
 
-    public string Fallback
+    public string Prefix
     {
         get
         {
             string __res_7527;
-            string __res_7528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fallback");
+            string __res_7528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
             __res_7527 = __res_7528;
             return __res_7527;
         }
@@ -189,7 +104,92 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_7529;
             __marshalledValue_7529 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fallback", __marshalledValue_7529);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "prefix", __marshalledValue_7529);
+        }
+    }
+
+    public string Suffix
+    {
+        get
+        {
+            string __res_7530;
+            string __res_7531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffix");
+            __res_7530 = __res_7531;
+            return __res_7530;
+        }
+        set
+        {
+            string __marshalledValue_7532;
+            __marshalledValue_7532 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "suffix", __marshalledValue_7532);
+        }
+    }
+
+    public string Range
+    {
+        get
+        {
+            string __res_7533;
+            string __res_7534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "range");
+            __res_7533 = __res_7534;
+            return __res_7533;
+        }
+        set
+        {
+            string __marshalledValue_7535;
+            __marshalledValue_7535 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "range", __marshalledValue_7535);
+        }
+    }
+
+    public string Pad
+    {
+        get
+        {
+            string __res_7536;
+            string __res_7537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pad");
+            __res_7536 = __res_7537;
+            return __res_7536;
+        }
+        set
+        {
+            string __marshalledValue_7538;
+            __marshalledValue_7538 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pad", __marshalledValue_7538);
+        }
+    }
+
+    public string SpeakAs
+    {
+        get
+        {
+            string __res_7539;
+            string __res_7540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "speakAs");
+            __res_7539 = __res_7540;
+            return __res_7539;
+        }
+        set
+        {
+            string __marshalledValue_7541;
+            __marshalledValue_7541 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "speakAs", __marshalledValue_7541);
+        }
+    }
+
+    public string Fallback
+    {
+        get
+        {
+            string __res_7542;
+            string __res_7543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fallback");
+            __res_7542 = __res_7543;
+            return __res_7542;
+        }
+        set
+        {
+            string __marshalledValue_7544;
+            __marshalledValue_7544 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fallback", __marshalledValue_7544);
         }
     }
 }

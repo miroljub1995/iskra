@@ -34,7 +34,7 @@ public class OperationMemberTypeGenerator(
 
         var argsArrayVar = generatorContext.GetNextVariableName("args");
 
-        var body = "throw new Exception();";
+        var body = "throw new global::System.Exception();";
 
         var content = $$"""
                         public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}()

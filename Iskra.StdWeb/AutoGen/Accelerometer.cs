@@ -10,8 +10,46 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
+            double? __res_2329;
+            double? __res_2330 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_2330 is null)
+            {
+                __res_2329 = null;
+            }
+            else
+            {
+                double __notNullable_2331 = (double)__res_2330;
+                __res_2329 = __notNullable_2331;
+            }
+            return __res_2329;
+        }
+    }
+
+    public double? Y
+    {
+        get
+        {
+            double? __res_2332;
+            double? __res_2333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_2333 is null)
+            {
+                __res_2332 = null;
+            }
+            else
+            {
+                double __notNullable_2334 = (double)__res_2333;
+                __res_2332 = __notNullable_2334;
+            }
+            return __res_2332;
+        }
+    }
+
+    public double? Z
+    {
+        get
+        {
             double? __res_2335;
-            double? __res_2336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            double? __res_2336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
             if (__res_2336 is null)
             {
                 __res_2335 = null;
@@ -22,44 +60,6 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
                 __res_2335 = __notNullable_2337;
             }
             return __res_2335;
-        }
-    }
-
-    public double? Y
-    {
-        get
-        {
-            double? __res_2338;
-            double? __res_2339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_2339 is null)
-            {
-                __res_2338 = null;
-            }
-            else
-            {
-                double __notNullable_2340 = (double)__res_2339;
-                __res_2338 = __notNullable_2340;
-            }
-            return __res_2338;
-        }
-    }
-
-    public double? Z
-    {
-        get
-        {
-            double? __res_2341;
-            double? __res_2342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_2342 is null)
-            {
-                __res_2341 = null;
-            }
-            else
-            {
-                double __notNullable_2343 = (double)__res_2342;
-                __res_2341 = __notNullable_2343;
-            }
-            return __res_2341;
         }
     }
 }

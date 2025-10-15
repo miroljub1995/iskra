@@ -10,32 +10,32 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MediaMetadata? __res_602;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
-            if (__res_603 is null)
+            global::Iskra.StdWeb.MediaMetadata? __res_601;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "metadata");
+            if (__res_602 is null)
             {
-                __res_602 = null;
+                __res_601 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_604 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_603;
-                __res_602 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaMetadata>(__notNullable_604);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_603 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_602;
+                __res_601 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaMetadata>(__notNullable_603);
             }
-            return __res_602;
+            return __res_601;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_605;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_604;
             if (value is null)
             {
-                __marshalledValue_605 = null;
+                __marshalledValue_604 = null;
             }
             else
             {
-                global::Iskra.StdWeb.MediaMetadata __notNullable_606 = (global::Iskra.StdWeb.MediaMetadata)value;
-                __marshalledValue_605 = __notNullable_606.JSObject;
+                global::Iskra.StdWeb.MediaMetadata __notNullable_605 = (global::Iskra.StdWeb.MediaMetadata)value;
+                __marshalledValue_604 = __notNullable_605.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "metadata", __marshalledValue_605);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "metadata", __marshalledValue_604);
         }
     }
 
@@ -43,16 +43,16 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MediaSessionPlaybackState __res_607;
-            string __res_608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "playbackState");
-            __res_607 = global::Iskra.StdWeb.MediaSessionPlaybackState.Create(__res_608);
-            return __res_607;
+            global::Iskra.StdWeb.MediaSessionPlaybackState __res_606;
+            string __res_607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "playbackState");
+            __res_606 = global::Iskra.StdWeb.MediaSessionPlaybackState.Create(__res_607);
+            return __res_606;
         }
         set
         {
-            string __marshalledValue_609;
-            __marshalledValue_609 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "playbackState", __marshalledValue_609);
+            string __marshalledValue_608;
+            __marshalledValue_608 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "playbackState", __marshalledValue_608);
         }
     }
 }

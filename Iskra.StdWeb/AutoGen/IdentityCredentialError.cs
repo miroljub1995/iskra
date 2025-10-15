@@ -10,10 +10,10 @@ public partial class IdentityCredentialError(global::System.Runtime.InteropServi
     {
         get
         {
-            string __res_2354;
-            string __res_2355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
-            __res_2354 = __res_2355;
-            return __res_2354;
+            string __res_2348;
+            string __res_2349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
+            __res_2348 = __res_2349;
+            return __res_2348;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class IdentityCredentialError(global::System.Runtime.InteropServi
     {
         get
         {
-            string __res_2356;
-            string __res_2357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_2356 = __res_2357;
-            return __res_2356;
+            string __res_2350;
+            string __res_2351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_2350 = __res_2351;
+            return __res_2350;
         }
     }
 }

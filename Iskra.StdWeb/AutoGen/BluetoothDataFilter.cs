@@ -10,10 +10,10 @@ public partial class BluetoothDataFilter(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_4794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
-            __res_4794 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4795);
-            return __res_4794;
+            global::Iskra.JSCore.ArrayBuffer __res_4807;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
+            __res_4807 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4808);
+            return __res_4807;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BluetoothDataFilter(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_4796;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
-            __res_4796 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4797);
-            return __res_4796;
+            global::Iskra.JSCore.ArrayBuffer __res_4809;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
+            __res_4809 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4810);
+            return __res_4809;
         }
     }
 }

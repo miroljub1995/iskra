@@ -10,10 +10,10 @@ public partial class AuthenticatorAttestationResponse(global::System.Runtime.Int
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_2879;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
-            __res_2879 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2880);
-            return __res_2879;
+            global::Iskra.JSCore.ArrayBuffer __res_2873;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attestationObject");
+            __res_2873 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2874);
+            return __res_2873;
         }
     }
 }

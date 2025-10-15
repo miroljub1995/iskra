@@ -10,10 +10,10 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_1003;
-            double __res_1004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_1003 = __res_1004;
-            return __res_1003;
+            double __res_1002;
+            double __res_1003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1002 = __res_1003;
+            return __res_1002;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.Function __res_1005;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
-            return __res_1005;
+            global::Iskra.StdWeb.Function __res_1004;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
+            return __res_1004;
         }
     }
 }

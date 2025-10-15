@@ -10,10 +10,10 @@ public partial class ContentVisibilityAutoStateChangeEvent(global::System.Runtim
     {
         get
         {
-            bool __res_3773;
-            bool __res_3774 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipped");
-            __res_3773 = __res_3774;
-            return __res_3773;
+            bool __res_3767;
+            bool __res_3768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipped");
+            __res_3767 = __res_3768;
+            return __res_3767;
         }
     }
 }

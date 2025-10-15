@@ -10,18 +10,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.VideoColorPrimaries? __res_2684;
-            string? __res_2685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "primaries");
-            if (__res_2685 is null)
+            global::Iskra.StdWeb.VideoColorPrimaries? __res_2678;
+            string? __res_2679 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "primaries");
+            if (__res_2679 is null)
             {
-                __res_2684 = null;
+                __res_2678 = null;
             }
             else
             {
-                string __notNullable_2686 = (string)__res_2685;
-                __res_2684 = global::Iskra.StdWeb.VideoColorPrimaries.Create(__notNullable_2686);
+                string __notNullable_2680 = (string)__res_2679;
+                __res_2678 = global::Iskra.StdWeb.VideoColorPrimaries.Create(__notNullable_2680);
             }
-            return __res_2684;
+            return __res_2678;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.VideoTransferCharacteristics? __res_2687;
-            string? __res_2688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "transfer");
-            if (__res_2688 is null)
+            global::Iskra.StdWeb.VideoTransferCharacteristics? __res_2681;
+            string? __res_2682 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "transfer");
+            if (__res_2682 is null)
             {
-                __res_2687 = null;
+                __res_2681 = null;
             }
             else
             {
-                string __notNullable_2689 = (string)__res_2688;
-                __res_2687 = global::Iskra.StdWeb.VideoTransferCharacteristics.Create(__notNullable_2689);
+                string __notNullable_2683 = (string)__res_2682;
+                __res_2681 = global::Iskra.StdWeb.VideoTransferCharacteristics.Create(__notNullable_2683);
             }
-            return __res_2687;
+            return __res_2681;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.VideoMatrixCoefficients? __res_2690;
-            string? __res_2691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "matrix");
-            if (__res_2691 is null)
+            global::Iskra.StdWeb.VideoMatrixCoefficients? __res_2684;
+            string? __res_2685 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "matrix");
+            if (__res_2685 is null)
             {
-                __res_2690 = null;
+                __res_2684 = null;
             }
             else
             {
-                string __notNullable_2692 = (string)__res_2691;
-                __res_2690 = global::Iskra.StdWeb.VideoMatrixCoefficients.Create(__notNullable_2692);
+                string __notNullable_2686 = (string)__res_2685;
+                __res_2684 = global::Iskra.StdWeb.VideoMatrixCoefficients.Create(__notNullable_2686);
             }
-            return __res_2690;
+            return __res_2684;
         }
     }
 
@@ -67,18 +67,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool? __res_2693;
-            bool? __res_2694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
-            if (__res_2694 is null)
+            bool? __res_2687;
+            bool? __res_2688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
+            if (__res_2688 is null)
             {
-                __res_2693 = null;
+                __res_2687 = null;
             }
             else
             {
-                bool __notNullable_2695 = (bool)__res_2694;
-                __res_2693 = __notNullable_2695;
+                bool __notNullable_2689 = (bool)__res_2688;
+                __res_2687 = __notNullable_2689;
             }
-            return __res_2693;
+            return __res_2687;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5162;
-            string __res_5163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_5162 = __res_5163;
-            return __res_5162;
+            string __res_5175;
+            string __res_5176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_5175 = __res_5176;
+            return __res_5175;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5164;
-            string __res_5165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
-            __res_5164 = __res_5165;
-            return __res_5164;
+            string __res_5177;
+            string __res_5178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
+            __res_5177 = __res_5178;
+            return __res_5177;
         }
     }
 
@@ -32,16 +32,16 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            object? __res_5166;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_5166;
+            object? __res_5179;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            return __res_5179;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_5168;
-            throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5168);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_5181;
+            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5181);
         }
     }
 
@@ -49,10 +49,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5169;
-            string __res_5170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
-            __res_5169 = __res_5170;
-            return __res_5169;
+            string __res_5182;
+            string __res_5183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
+            __res_5182 = __res_5183;
+            return __res_5182;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5171;
-            string __res_5172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
-            __res_5171 = __res_5172;
-            return __res_5171;
+            string __res_5184;
+            string __res_5185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
+            __res_5184 = __res_5185;
+            return __res_5184;
         }
     }
 }

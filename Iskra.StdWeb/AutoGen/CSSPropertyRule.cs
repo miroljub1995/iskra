@@ -10,10 +10,10 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_7431;
-            string __res_7432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7431 = __res_7432;
-            return __res_7431;
+            string __res_7446;
+            string __res_7447 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7446 = __res_7447;
+            return __res_7446;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_7433;
-            string __res_7434 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "syntax");
-            __res_7433 = __res_7434;
-            return __res_7433;
+            string __res_7448;
+            string __res_7449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "syntax");
+            __res_7448 = __res_7449;
+            return __res_7448;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_7435;
-            bool __res_7436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
-            __res_7435 = __res_7436;
-            return __res_7435;
+            bool __res_7450;
+            bool __res_7451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
+            __res_7450 = __res_7451;
+            return __res_7450;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_7437;
-            string? __res_7438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "initialValue");
-            if (__res_7438 is null)
+            string? __res_7452;
+            string? __res_7453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "initialValue");
+            if (__res_7453 is null)
             {
-                __res_7437 = null;
+                __res_7452 = null;
             }
             else
             {
-                string __notNullable_7439 = (string)__res_7438;
-                __res_7437 = __notNullable_7439;
+                string __notNullable_7454 = (string)__res_7453;
+                __res_7452 = __notNullable_7454;
             }
-            return __res_7437;
+            return __res_7452;
         }
     }
 }

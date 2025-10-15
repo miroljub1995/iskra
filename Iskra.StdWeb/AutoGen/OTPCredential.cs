@@ -10,10 +10,10 @@ public partial class OTPCredential(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_8022;
-            string __res_8023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
-            __res_8022 = __res_8023;
-            return __res_8022;
+            string __res_8037;
+            string __res_8038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
+            __res_8037 = __res_8038;
+            return __res_8037;
         }
     }
 }

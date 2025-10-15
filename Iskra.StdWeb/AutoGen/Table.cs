@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class Table(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public uint Length
+    public object? Length
     {
         get
         {
-            uint __res_4697;
-            double __res_4698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4697 = Convert.ToUInt32(__res_4698);
-            return __res_4697;
+            object? __res_4707;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            return __res_4707;
         }
     }
 }

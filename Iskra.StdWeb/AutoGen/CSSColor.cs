@@ -18,7 +18,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 
@@ -27,12 +27,12 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         get
         {
             object __res_176;
-            throw new Exception();
+            throw new global::System.Exception();
             return __res_176;
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 
@@ -48,7 +48,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new Exception();
+            throw new global::System.Exception();
         }
     }
 }

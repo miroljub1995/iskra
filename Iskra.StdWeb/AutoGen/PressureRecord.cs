@@ -10,10 +10,10 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.PressureSource __res_3733;
-            string __res_3734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
-            __res_3733 = global::Iskra.StdWeb.PressureSource.Create(__res_3734);
-            return __res_3733;
+            global::Iskra.StdWeb.PressureSource __res_3727;
+            string __res_3728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
+            __res_3727 = global::Iskra.StdWeb.PressureSource.Create(__res_3728);
+            return __res_3727;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.PressureState __res_3735;
-            string __res_3736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_3735 = global::Iskra.StdWeb.PressureState.Create(__res_3736);
-            return __res_3735;
+            global::Iskra.StdWeb.PressureState __res_3729;
+            string __res_3730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_3729 = global::Iskra.StdWeb.PressureState.Create(__res_3730);
+            return __res_3729;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_3737;
-            double __res_3738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_3737 = __res_3738;
-            return __res_3737;
+            double __res_3731;
+            double __res_3732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_3731 = __res_3732;
+            return __res_3731;
         }
     }
 }

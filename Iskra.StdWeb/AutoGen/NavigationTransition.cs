@@ -10,10 +10,10 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationType __res_6748;
-            string __res_6749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
-            __res_6748 = global::Iskra.StdWeb.NavigationType.Create(__res_6749);
-            return __res_6748;
+            global::Iskra.StdWeb.NavigationType __res_6761;
+            string __res_6762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
+            __res_6761 = global::Iskra.StdWeb.NavigationType.Create(__res_6762);
+            return __res_6761;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationHistoryEntry __res_6750;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            __res_6750 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6751);
-            return __res_6750;
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_6763;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            __res_6763 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6764);
+            return __res_6763;
         }
     }
 
@@ -32,9 +32,9 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            object __res_6752;
-            throw new Exception();
-            return __res_6752;
+            object __res_6765;
+            throw new global::System.Exception();
+            return __res_6765;
         }
     }
 
@@ -42,9 +42,9 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            object __res_6753;
-            throw new Exception();
-            return __res_6753;
+            object __res_6766;
+            throw new global::System.Exception();
+            return __res_6766;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class DynamicsCompressorNode(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8269;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "threshold");
-            __res_8269 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8270);
-            return __res_8269;
+            global::Iskra.StdWeb.AudioParam __res_8284;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "threshold");
+            __res_8284 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8285);
+            return __res_8284;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DynamicsCompressorNode(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8271;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "knee");
-            __res_8271 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8272);
-            return __res_8271;
+            global::Iskra.StdWeb.AudioParam __res_8286;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "knee");
+            __res_8286 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8287);
+            return __res_8286;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class DynamicsCompressorNode(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8273;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ratio");
-            __res_8273 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8274);
-            return __res_8273;
+            global::Iskra.StdWeb.AudioParam __res_8288;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ratio");
+            __res_8288 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8289);
+            return __res_8288;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class DynamicsCompressorNode(global::System.Runtime.InteropServic
     {
         get
         {
-            float __res_8275;
-            double __res_8276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reduction");
-            __res_8275 = Convert.ToSingle(__res_8276);
-            return __res_8275;
+            float __res_8290;
+            double __res_8291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reduction");
+            __res_8290 = Convert.ToSingle(__res_8291);
+            return __res_8290;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class DynamicsCompressorNode(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8277;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attack");
-            __res_8277 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8278);
-            return __res_8277;
+            global::Iskra.StdWeb.AudioParam __res_8292;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attack");
+            __res_8292 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8293);
+            return __res_8292;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class DynamicsCompressorNode(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8279;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "release");
-            __res_8279 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8280);
-            return __res_8279;
+            global::Iskra.StdWeb.AudioParam __res_8294;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "release");
+            __res_8294 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8295);
+            return __res_8294;
         }
     }
 }

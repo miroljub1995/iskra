@@ -10,18 +10,18 @@ public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceCandidate? __res_1898;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
-            if (__res_1899 is null)
+            global::Iskra.StdWeb.RTCIceCandidate? __res_1892;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
+            if (__res_1893 is null)
             {
-                __res_1898 = null;
+                __res_1892 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1900 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1899;
-                __res_1898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__notNullable_1900);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1894 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1893;
+                __res_1892 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__notNullable_1894);
             }
-            return __res_1898;
+            return __res_1892;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            string? __res_1901;
-            string? __res_1902 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_1902 is null)
+            string? __res_1895;
+            string? __res_1896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_1896 is null)
             {
-                __res_1901 = null;
+                __res_1895 = null;
             }
             else
             {
-                string __notNullable_1903 = (string)__res_1902;
-                __res_1901 = __notNullable_1903;
+                string __notNullable_1897 = (string)__res_1896;
+                __res_1895 = __notNullable_1897;
             }
-            return __res_1901;
+            return __res_1895;
         }
     }
 }

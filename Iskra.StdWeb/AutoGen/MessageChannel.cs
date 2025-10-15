@@ -10,10 +10,10 @@ public partial class MessageChannel(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_6920;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
-            __res_6920 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_6921);
-            return __res_6920;
+            global::Iskra.StdWeb.MessagePort __res_6933;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port1");
+            __res_6933 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_6934);
+            return __res_6933;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MessageChannel(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_6922;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
-            __res_6922 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_6923);
-            return __res_6922;
+            global::Iskra.StdWeb.MessagePort __res_6935;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port2");
+            __res_6935 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_6936);
+            return __res_6935;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class MediaStreamAudioDestinationNode(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.StdWeb.MediaStream __res_8285;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
-            __res_8285 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStream>(__res_8286);
-            return __res_8285;
+            global::Iskra.StdWeb.MediaStream __res_8300;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
+            __res_8300 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStream>(__res_8301);
+            return __res_8300;
         }
     }
 }

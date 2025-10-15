@@ -10,10 +10,10 @@ public partial class CSSContainerRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_7190;
-            string __res_7191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerName");
-            __res_7190 = __res_7191;
-            return __res_7190;
+            string __res_7203;
+            string __res_7204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerName");
+            __res_7203 = __res_7204;
+            return __res_7203;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSContainerRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_7192;
-            string __res_7193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerQuery");
-            __res_7192 = __res_7193;
-            return __res_7192;
+            string __res_7205;
+            string __res_7206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerQuery");
+            __res_7205 = __res_7206;
+            return __res_7205;
         }
     }
 }
