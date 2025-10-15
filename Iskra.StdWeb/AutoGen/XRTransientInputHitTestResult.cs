@@ -12,7 +12,7 @@ public partial class XRTransientInputHitTestResult(global::System.Runtime.Intero
         {
             global::Iskra.StdWeb.XRInputSource __res_5234;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } not supported.");
+            __res_5234 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSource>(__res_5235);
             return __res_5234;
         }
     }

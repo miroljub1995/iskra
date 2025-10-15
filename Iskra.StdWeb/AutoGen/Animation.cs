@@ -36,7 +36,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1432 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1431;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } not supported.");
+                __res_1430 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_1432);
             }
             return __res_1430;
         }
@@ -50,7 +50,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
             else
             {
                 global::Iskra.StdWeb.AnimationEffect __notNullable_1434 = (global::Iskra.StdWeb.AnimationEffect)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationEffect } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_1433 = __notNullable_1434.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "effect", __marshalledValue_1433);
         }
@@ -69,7 +69,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1437 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1436;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } not supported.");
+                __res_1435 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationTimeline>(__notNullable_1437);
             }
             return __res_1435;
         }
@@ -83,7 +83,7 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
             else
             {
                 global::Iskra.StdWeb.AnimationTimeline __notNullable_1439 = (global::Iskra.StdWeb.AnimationTimeline)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AnimationTimeline } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_1438 = __notNullable_1439.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "timeline", __marshalledValue_1438);
         }

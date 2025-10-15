@@ -46,7 +46,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.DataTransferItemList __res_6591;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6592 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataTransferItemList } not supported.");
+            __res_6591 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItemList>(__res_6592);
             return __res_6591;
         }
     }
@@ -69,7 +69,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.FileList __res_6595;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileList } not supported.");
+            __res_6595 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileList>(__res_6596);
             return __res_6595;
         }
     }

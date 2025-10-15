@@ -23,7 +23,7 @@ public partial class USBInterface(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.USBAlternateInterface __res_5095;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5096 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = USBAlternateInterface } not supported.");
+            __res_5095 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBAlternateInterface>(__res_5096);
             return __res_5095;
         }
     }

@@ -12,7 +12,7 @@ public partial class ShadowAnimation(global::System.Runtime.InteropServices.Java
         {
             global::Iskra.StdWeb.Animation __res_394;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceAnimation");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Animation } not supported.");
+            __res_394 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_395);
             return __res_394;
         }
     }

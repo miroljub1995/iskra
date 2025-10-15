@@ -12,7 +12,7 @@ public partial class CSSFontFaceRule(global::System.Runtime.InteropServices.Java
         {
             global::Iskra.StdWeb.CSSFontFaceDescriptors __res_4979;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFontFaceDescriptors } not supported.");
+            __res_4979 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFaceDescriptors>(__res_4980);
             return __res_4979;
         }
     }

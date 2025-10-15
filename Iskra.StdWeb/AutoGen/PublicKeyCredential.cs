@@ -12,7 +12,7 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
         {
             global::Iskra.JSCore.ArrayBuffer __res_2870;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
+            __res_2870 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2871);
             return __res_2870;
         }
     }
@@ -23,7 +23,7 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.AuthenticatorResponse __res_2872;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AuthenticatorResponse } not supported.");
+            __res_2872 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AuthenticatorResponse>(__res_2873);
             return __res_2872;
         }
     }

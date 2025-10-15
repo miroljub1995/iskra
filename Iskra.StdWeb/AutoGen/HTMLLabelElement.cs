@@ -19,7 +19,7 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5975 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5974;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
+                __res_5973 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_5975);
             }
             return __res_5973;
         }
@@ -55,7 +55,7 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5981 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5980;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
+                __res_5979 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_5981);
             }
             return __res_5979;
         }

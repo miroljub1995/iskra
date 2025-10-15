@@ -12,7 +12,7 @@ public partial class SVGPathElement(global::System.Runtime.InteropServices.JavaS
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_2278;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_2278 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_2279);
             return __res_2278;
         }
     }

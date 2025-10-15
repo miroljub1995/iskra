@@ -12,7 +12,7 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.AudioParamMap __res_8361;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "parameters");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParamMap } not supported.");
+            __res_8361 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParamMap>(__res_8362);
             return __res_8361;
         }
     }
@@ -23,7 +23,7 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.MessagePort __res_8363;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MessagePort } not supported.");
+            __res_8363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_8364);
             return __res_8363;
         }
     }

@@ -12,7 +12,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.SVGAnimatedString __res_577;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_578 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
+            __res_577 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_578);
             return __res_577;
         }
     }
@@ -74,7 +74,7 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.DOMTokenList __res_588;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
+            __res_588 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_589);
             return __res_588;
         }
     }

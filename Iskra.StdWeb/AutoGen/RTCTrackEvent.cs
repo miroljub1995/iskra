@@ -12,7 +12,7 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.RTCRtpReceiver __res_1988;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpReceiver } not supported.");
+            __res_1988 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpReceiver>(__res_1989);
             return __res_1988;
         }
     }
@@ -23,7 +23,7 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.MediaStreamTrack __res_1990;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
+            __res_1990 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_1991);
             return __res_1990;
         }
     }
@@ -46,7 +46,7 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.RTCRtpTransceiver __res_1994;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1995 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpTransceiver } not supported.");
+            __res_1994 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpTransceiver>(__res_1995);
             return __res_1994;
         }
     }

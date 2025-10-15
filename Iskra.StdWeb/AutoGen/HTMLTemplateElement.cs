@@ -12,7 +12,7 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.DocumentFragment __res_6463;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "content");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DocumentFragment } not supported.");
+            __res_6463 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DocumentFragment>(__res_6464);
             return __res_6463;
         }
     }

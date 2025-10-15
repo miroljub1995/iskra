@@ -12,7 +12,7 @@ public partial class XRInputSourceEvent(global::System.Runtime.InteropServices.J
         {
             global::Iskra.StdWeb.XRFrame __res_4348;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frame");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRFrame } not supported.");
+            __res_4348 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_4349);
             return __res_4348;
         }
     }
@@ -23,7 +23,7 @@ public partial class XRInputSourceEvent(global::System.Runtime.InteropServices.J
         {
             global::Iskra.StdWeb.XRInputSource __res_4350;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRInputSource } not supported.");
+            __res_4350 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSource>(__res_4351);
             return __res_4350;
         }
     }

@@ -19,7 +19,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4513 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4512;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
+                __res_4511 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_4513);
             }
             return __res_4511;
         }
@@ -38,7 +38,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4516 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4515;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
+                __res_4514 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_4516);
             }
             return __res_4514;
         }
@@ -57,7 +57,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4519 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4518;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ServiceWorker } not supported.");
+                __res_4517 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_4519);
             }
             return __res_4517;
         }
@@ -69,7 +69,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         {
             global::Iskra.StdWeb.NavigationPreloadManager __res_4520;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationPreload");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationPreloadManager } not supported.");
+            __res_4520 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationPreloadManager>(__res_4521);
             return __res_4520;
         }
     }

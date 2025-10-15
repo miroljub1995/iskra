@@ -19,7 +19,7 @@ public partial class ScrollTimeline(global::System.Runtime.InteropServices.JavaS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_264 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_263;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+                __res_262 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_264);
             }
             return __res_262;
         }

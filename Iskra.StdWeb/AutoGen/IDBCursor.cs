@@ -57,7 +57,7 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
         {
             global::Iskra.StdWeb.IDBRequest __res_7815;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBRequest } not supported.");
+            __res_7815 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBRequest>(__res_7816);
             return __res_7815;
         }
     }

@@ -12,7 +12,7 @@ public partial class XRAnchor(global::System.Runtime.InteropServices.JavaScript.
         {
             global::Iskra.StdWeb.XRSpace __res_1072;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "anchorSpace");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
+            __res_1072 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_1073);
             return __res_1072;
         }
     }

@@ -34,7 +34,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.HTMLCollection __res_5918;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
+            __res_5918 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5919);
             return __res_5918;
         }
     }

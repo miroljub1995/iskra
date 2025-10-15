@@ -90,7 +90,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         {
             global::Iskra.StdWeb.XMLHttpRequestUpload __res_937;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XMLHttpRequestUpload } not supported.");
+            __res_937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XMLHttpRequestUpload>(__res_938);
             return __res_937;
         }
     }
@@ -180,7 +180,7 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_954 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_953;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Document } not supported.");
+                __res_952 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Document>(__notNullable_954);
             }
             return __res_952;
         }

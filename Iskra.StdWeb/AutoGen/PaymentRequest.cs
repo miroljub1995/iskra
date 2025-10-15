@@ -30,7 +30,7 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7444 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7443;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ContactAddress } not supported.");
+                __res_7442 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(__notNullable_7444);
             }
             return __res_7442;
         }

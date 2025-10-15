@@ -12,7 +12,7 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
         {
             global::Iskra.StdWeb.XRSpace __res_1690;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
+            __res_1690 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_1691);
             return __res_1690;
         }
     }
@@ -35,7 +35,7 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
         {
             global::Iskra.JSCore.Uint32Array __res_1694;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Uint32Array } not supported.");
+            __res_1694 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint32Array>(__res_1695);
             return __res_1694;
         }
     }

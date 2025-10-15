@@ -19,7 +19,7 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2919 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2918;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventAcceleration } not supported.");
+                __res_2917 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_2919);
             }
             return __res_2917;
         }
@@ -38,7 +38,7 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2922 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2921;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventAcceleration } not supported.");
+                __res_2920 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_2922);
             }
             return __res_2920;
         }
@@ -57,7 +57,7 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2925 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2924;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DeviceMotionEventRotationRate } not supported.");
+                __res_2923 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(__notNullable_2925);
             }
             return __res_2923;
         }

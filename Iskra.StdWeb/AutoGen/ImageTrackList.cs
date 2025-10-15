@@ -51,7 +51,7 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2710 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2709;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageTrack } not supported.");
+                __res_2708 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrack>(__notNullable_2710);
             }
             return __res_2708;
         }

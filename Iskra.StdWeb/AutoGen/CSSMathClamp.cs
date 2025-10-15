@@ -12,7 +12,7 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.CSSNumericValue __res_61;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_62 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            __res_61 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_62);
             return __res_61;
         }
     }
@@ -23,7 +23,7 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.CSSNumericValue __res_63;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_64 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            __res_63 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_64);
             return __res_63;
         }
     }
@@ -34,7 +34,7 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.CSSNumericValue __res_65;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_66 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            __res_65 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_66);
             return __res_65;
         }
     }

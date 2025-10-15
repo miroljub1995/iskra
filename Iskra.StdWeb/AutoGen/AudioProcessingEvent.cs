@@ -23,7 +23,7 @@ public partial class AudioProcessingEvent(global::System.Runtime.InteropServices
         {
             global::Iskra.StdWeb.AudioBuffer __res_8242;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
+            __res_8242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_8243);
             return __res_8242;
         }
     }
@@ -34,7 +34,7 @@ public partial class AudioProcessingEvent(global::System.Runtime.InteropServices
         {
             global::Iskra.StdWeb.AudioBuffer __res_8244;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioBuffer } not supported.");
+            __res_8244 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_8245);
             return __res_8244;
         }
     }

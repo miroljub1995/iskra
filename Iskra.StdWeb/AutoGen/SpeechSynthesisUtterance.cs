@@ -53,7 +53,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4098 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4097;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechSynthesisVoice } not supported.");
+                __res_4096 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(__notNullable_4098);
             }
             return __res_4096;
         }
@@ -67,7 +67,7 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
             else
             {
                 global::Iskra.StdWeb.SpeechSynthesisVoice __notNullable_4100 = (global::Iskra.StdWeb.SpeechSynthesisVoice)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechSynthesisVoice } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_4099 = __notNullable_4100.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "voice", __marshalledValue_4099);
         }

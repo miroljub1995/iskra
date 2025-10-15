@@ -19,7 +19,7 @@ public partial class PageRevealEvent(global::System.Runtime.InteropServices.Java
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6817 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6816;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ViewTransition } not supported.");
+                __res_6815 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransition>(__notNullable_6817);
             }
             return __res_6815;
         }

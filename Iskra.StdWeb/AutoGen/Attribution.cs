@@ -12,7 +12,7 @@ public partial class Attribution(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.AttributionAggregationServices __res_1654;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AttributionAggregationServices } not supported.");
+            __res_1654 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AttributionAggregationServices>(__res_1655);
             return __res_1654;
         }
     }

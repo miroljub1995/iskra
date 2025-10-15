@@ -12,7 +12,7 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
         {
             global::Iskra.StdWeb.WebGLTexture __res_1093;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1094 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
+            __res_1093 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__res_1094);
             return __res_1093;
         }
     }

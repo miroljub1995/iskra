@@ -10,16 +10,16 @@ public partial class TestArrayProperties(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence> __res_268;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_269;
-            __propObject_269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boolArray");
-            __res_268 = new global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence>(__propObject_269);
-            return __res_268;
+            global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence> __res_285;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_286;
+            __propObject_286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boolArray");
+            __res_285 = new global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence>(__propObject_286);
+            return __res_285;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_270 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolArray", __propObject_270);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_287 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolArray", __propObject_287);
         }
     }
 }

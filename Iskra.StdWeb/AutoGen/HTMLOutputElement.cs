@@ -12,7 +12,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.DOMTokenList __res_6311;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "htmlFor");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
+            __res_6311 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_6312);
             return __res_6311;
         }
     }
@@ -30,7 +30,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6315 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6314;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLFormElement } not supported.");
+                __res_6313 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6315);
             }
             return __res_6313;
         }
@@ -115,7 +115,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.ValidityState __res_6329;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6330 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ValidityState } not supported.");
+            __res_6329 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_6330);
             return __res_6329;
         }
     }
@@ -137,7 +137,7 @@ public partial class HTMLOutputElement(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.NodeList __res_6333;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6334 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
+            __res_6333 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_6334);
             return __res_6333;
         }
     }

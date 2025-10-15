@@ -31,7 +31,7 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
         {
             global::Iskra.StdWeb.NavigationHistoryEntry __res_6799;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6800 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
+            __res_6799 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6800);
             return __res_6799;
         }
     }

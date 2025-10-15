@@ -12,7 +12,7 @@ public partial class PictureInPictureEvent(global::System.Runtime.InteropService
         {
             global::Iskra.StdWeb.PictureInPictureWindow __res_3133;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3134 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pictureInPictureWindow");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PictureInPictureWindow } not supported.");
+            __res_3133 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PictureInPictureWindow>(__res_3134);
             return __res_3133;
         }
     }

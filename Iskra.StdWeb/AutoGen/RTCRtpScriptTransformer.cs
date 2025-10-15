@@ -12,7 +12,7 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
         {
             global::Iskra.StdWeb.ReadableStream __res_1058;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
+            __res_1058 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_1059);
             return __res_1058;
         }
     }
@@ -23,7 +23,7 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
         {
             global::Iskra.StdWeb.WritableStream __res_1060;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1061 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
+            __res_1060 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_1061);
             return __res_1060;
         }
     }

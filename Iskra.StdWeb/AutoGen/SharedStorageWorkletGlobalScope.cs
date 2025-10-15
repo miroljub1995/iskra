@@ -12,7 +12,7 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
         {
             global::Iskra.StdWeb.SharedStorage __res_4177;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorage } not supported.");
+            __res_4177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorage>(__res_4178);
             return __res_4177;
         }
     }
@@ -23,7 +23,7 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
         {
             global::Iskra.StdWeb.PrivateAggregation __res_4179;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
+            __res_4179 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__res_4180);
             return __res_4179;
         }
     }
@@ -34,7 +34,7 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
         {
             global::Iskra.StdWeb.SharedStorageWorkletNavigator __res_4181;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorageWorkletNavigator } not supported.");
+            __res_4181 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorkletNavigator>(__res_4182);
             return __res_4181;
         }
     }

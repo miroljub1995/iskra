@@ -12,7 +12,7 @@ public partial class GamepadEvent(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.Gamepad __res_4847;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Gamepad } not supported.");
+            __res_4847 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Gamepad>(__res_4848);
             return __res_4847;
         }
     }

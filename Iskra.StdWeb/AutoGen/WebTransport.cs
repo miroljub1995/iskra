@@ -141,7 +141,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.WebTransportDatagramDuplexStream __res_2239;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportDatagramDuplexStream } not supported.");
+            __res_2239 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportDatagramDuplexStream>(__res_2240);
             return __res_2239;
         }
     }
@@ -152,7 +152,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.ReadableStream __res_2241;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
+            __res_2241 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2242);
             return __res_2241;
         }
     }
@@ -163,7 +163,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.ReadableStream __res_2243;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
+            __res_2243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2244);
             return __res_2243;
         }
     }

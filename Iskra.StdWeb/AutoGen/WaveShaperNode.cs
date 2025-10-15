@@ -19,7 +19,7 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8343 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8342;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_8341 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_8343);
             }
             return __res_8341;
         }
@@ -33,7 +33,7 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
             else
             {
                 global::Iskra.JSCore.Float32Array __notNullable_8345 = (global::Iskra.JSCore.Float32Array)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_8344 = __notNullable_8345.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_8344);
         }

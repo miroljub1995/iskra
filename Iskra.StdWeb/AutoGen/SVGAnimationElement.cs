@@ -19,7 +19,7 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_863 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_862;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGElement } not supported.");
+                __res_861 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGElement>(__notNullable_863);
             }
             return __res_861;
         }

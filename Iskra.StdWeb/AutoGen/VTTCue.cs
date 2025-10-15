@@ -19,7 +19,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7240 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7239;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VTTRegion } not supported.");
+                __res_7238 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(__notNullable_7240);
             }
             return __res_7238;
         }
@@ -33,7 +33,7 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
             else
             {
                 global::Iskra.StdWeb.VTTRegion __notNullable_7242 = (global::Iskra.StdWeb.VTTRegion)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VTTRegion } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_7241 = __notNullable_7242.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "region", __marshalledValue_7241);
         }

@@ -12,7 +12,7 @@ public partial class RTCTransformEvent(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.RTCRtpScriptTransformer __res_1056;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1057 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCRtpScriptTransformer } not supported.");
+            __res_1056 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpScriptTransformer>(__res_1057);
             return __res_1056;
         }
     }

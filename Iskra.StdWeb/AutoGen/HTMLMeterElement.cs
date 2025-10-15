@@ -114,7 +114,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.NodeList __res_6363;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NodeList } not supported.");
+            __res_6363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_6364);
             return __res_6363;
         }
     }

@@ -40,7 +40,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         {
             global::Iskra.StdWeb.DOMStringList __res_7776;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMStringList } not supported.");
+            __res_7776 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMStringList>(__res_7777);
             return __res_7776;
         }
     }
@@ -51,7 +51,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         {
             global::Iskra.StdWeb.IDBTransaction __res_7778;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBTransaction } not supported.");
+            __res_7778 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(__res_7779);
             return __res_7778;
         }
     }

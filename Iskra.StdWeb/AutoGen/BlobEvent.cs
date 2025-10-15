@@ -12,7 +12,7 @@ public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript
         {
             global::Iskra.StdWeb.Blob __res_3921;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Blob } not supported.");
+            __res_3921 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__res_3922);
             return __res_3921;
         }
     }

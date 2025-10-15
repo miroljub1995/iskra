@@ -12,7 +12,7 @@ public partial class RTCDataChannelEvent(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.RTCDataChannel __res_2067;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDataChannel } not supported.");
+            __res_2067 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDataChannel>(__res_2068);
             return __res_2067;
         }
     }

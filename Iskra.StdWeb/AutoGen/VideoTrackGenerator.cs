@@ -12,7 +12,7 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.WritableStream __res_246;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
+            __res_246 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_247);
             return __res_246;
         }
     }
@@ -40,7 +40,7 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.MediaStreamTrack __res_251;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
+            __res_251 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_252);
             return __res_251;
         }
     }

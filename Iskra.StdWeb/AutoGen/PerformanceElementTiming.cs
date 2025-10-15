@@ -34,7 +34,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         {
             global::Iskra.StdWeb.DOMRectReadOnly __res_4711;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4712 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
+            __res_4711 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_4712);
             return __res_4711;
         }
     }
@@ -96,7 +96,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4723 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4722;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+                __res_4721 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_4723);
             }
             return __res_4721;
         }

@@ -12,7 +12,7 @@ public partial class RdfDataset(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.RdfGraph __res_5147;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5148 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RdfGraph } not supported.");
+            __res_5147 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RdfGraph>(__res_5148);
             return __res_5147;
         }
     }

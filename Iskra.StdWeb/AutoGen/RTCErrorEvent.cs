@@ -12,7 +12,7 @@ public partial class RTCErrorEvent(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.RTCError __res_2094;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCError } not supported.");
+            __res_2094 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCError>(__res_2095);
             return __res_2094;
         }
     }

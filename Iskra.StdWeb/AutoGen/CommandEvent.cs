@@ -19,7 +19,7 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6572 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6571;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+                __res_6570 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6572);
             }
             return __res_6570;
         }

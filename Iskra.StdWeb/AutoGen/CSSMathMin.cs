@@ -12,7 +12,7 @@ public partial class CSSMathMin(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.CSSNumericArray __res_57;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_58 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericArray } not supported.");
+            __res_57 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericArray>(__res_58);
             return __res_57;
         }
     }

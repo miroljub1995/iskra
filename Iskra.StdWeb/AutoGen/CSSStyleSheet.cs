@@ -19,7 +19,7 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7327 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7326;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
+                __res_7325 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_7327);
             }
             return __res_7325;
         }
@@ -31,7 +31,7 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.CSSRuleList __res_7328;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRuleList } not supported.");
+            __res_7328 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_7329);
             return __res_7328;
         }
     }

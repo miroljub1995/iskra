@@ -19,7 +19,7 @@ public partial class SubmitEvent(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6411 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6410;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLElement } not supported.");
+                __res_6409 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_6411);
             }
             return __res_6409;
         }

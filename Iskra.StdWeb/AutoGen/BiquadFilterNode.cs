@@ -29,7 +29,7 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.AudioParam __res_8249;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
+            __res_8249 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8250);
             return __res_8249;
         }
     }
@@ -40,7 +40,7 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.AudioParam __res_8251;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
+            __res_8251 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8252);
             return __res_8251;
         }
     }
@@ -51,7 +51,7 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.AudioParam __res_8253;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
+            __res_8253 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8254);
             return __res_8253;
         }
     }
@@ -62,7 +62,7 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.AudioParam __res_8255;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioParam } not supported.");
+            __res_8255 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8256);
             return __res_8255;
         }
     }

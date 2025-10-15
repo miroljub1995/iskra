@@ -12,7 +12,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::Iskra.StdWeb.XRSpace __res_6;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSpace } not supported.");
+            __res_6 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_7);
             return __res_6;
         }
     }

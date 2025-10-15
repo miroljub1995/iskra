@@ -12,7 +12,7 @@ public partial class HTMLDataListElement(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.HTMLCollection __res_6214;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
+            __res_6214 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_6215);
             return __res_6214;
         }
     }

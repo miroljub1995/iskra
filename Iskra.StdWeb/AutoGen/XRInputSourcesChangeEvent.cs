@@ -12,7 +12,7 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
         {
             global::Iskra.StdWeb.XRSession __res_4352;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRSession } not supported.");
+            __res_4352 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_4353);
             return __res_4352;
         }
     }

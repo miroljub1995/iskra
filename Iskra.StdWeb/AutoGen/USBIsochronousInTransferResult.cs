@@ -19,7 +19,7 @@ public partial class USBIsochronousInTransferResult(global::System.Runtime.Inter
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5039 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5038;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
+                __res_5037 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_5039);
             }
             return __res_5037;
         }

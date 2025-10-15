@@ -12,7 +12,7 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.MIDIInputMap __res_7534;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIInputMap } not supported.");
+            __res_7534 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIInputMap>(__res_7535);
             return __res_7534;
         }
     }
@@ -23,7 +23,7 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.MIDIOutputMap __res_7536;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MIDIOutputMap } not supported.");
+            __res_7536 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIOutputMap>(__res_7537);
             return __res_7536;
         }
     }

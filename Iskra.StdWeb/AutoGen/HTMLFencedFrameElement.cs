@@ -19,7 +19,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7196 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7195;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FencedFrameConfig } not supported.");
+                __res_7194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FencedFrameConfig>(__notNullable_7196);
             }
             return __res_7194;
         }
@@ -33,7 +33,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
             else
             {
                 global::Iskra.StdWeb.FencedFrameConfig __notNullable_7198 = (global::Iskra.StdWeb.FencedFrameConfig)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FencedFrameConfig } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_7197 = __notNullable_7198.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "config", __marshalledValue_7197);
         }
@@ -79,7 +79,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.DOMTokenList __res_7205;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sandbox");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMTokenList } not supported.");
+            __res_7205 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_7206);
             return __res_7205;
         }
     }

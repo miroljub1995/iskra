@@ -12,7 +12,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.MediaSourceHandle __res_7600;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handle");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaSourceHandle } not supported.");
+            __res_7600 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSourceHandle>(__res_7601);
             return __res_7600;
         }
     }
@@ -23,7 +23,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.SourceBufferList __res_7602;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceBuffers");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SourceBufferList } not supported.");
+            __res_7602 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_7603);
             return __res_7602;
         }
     }
@@ -34,7 +34,7 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.SourceBufferList __res_7604;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "activeSourceBuffers");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SourceBufferList } not supported.");
+            __res_7604 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_7605);
             return __res_7604;
         }
     }

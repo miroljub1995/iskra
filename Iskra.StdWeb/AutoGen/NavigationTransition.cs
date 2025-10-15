@@ -23,7 +23,7 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
         {
             global::Iskra.StdWeb.NavigationHistoryEntry __res_6750;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigationHistoryEntry } not supported.");
+            __res_6750 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6751);
             return __res_6750;
         }
     }

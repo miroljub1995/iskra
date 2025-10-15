@@ -19,7 +19,7 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_604 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_603;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaMetadata } not supported.");
+                __res_602 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaMetadata>(__notNullable_604);
             }
             return __res_602;
         }
@@ -33,7 +33,7 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
             else
             {
                 global::Iskra.StdWeb.MediaMetadata __notNullable_606 = (global::Iskra.StdWeb.MediaMetadata)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaMetadata } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_605 = __notNullable_606.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "metadata", __marshalledValue_605);
         }

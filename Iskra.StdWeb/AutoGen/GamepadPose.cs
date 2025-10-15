@@ -41,7 +41,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2102 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2101;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_2100 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2102);
             }
             return __res_2100;
         }
@@ -60,7 +60,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2105 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2104;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_2103 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2105);
             }
             return __res_2103;
         }
@@ -79,7 +79,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2108 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2107;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_2106 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2108);
             }
             return __res_2106;
         }
@@ -98,7 +98,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2111 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2110;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_2109 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2111);
             }
             return __res_2109;
         }
@@ -117,7 +117,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2114 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2113;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_2112 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2114);
             }
             return __res_2112;
         }
@@ -136,7 +136,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2117 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2116;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Float32Array } not supported.");
+                __res_2115 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2117);
             }
             return __res_2115;
         }

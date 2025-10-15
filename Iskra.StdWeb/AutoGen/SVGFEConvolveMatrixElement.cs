@@ -12,7 +12,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedString __res_1198;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedString } not supported.");
+            __res_1198 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1199);
             return __res_1198;
         }
     }
@@ -23,7 +23,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedInteger __res_1200;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orderX");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedInteger } not supported.");
+            __res_1200 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedInteger>(__res_1201);
             return __res_1200;
         }
     }
@@ -34,7 +34,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedInteger __res_1202;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orderY");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedInteger } not supported.");
+            __res_1202 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedInteger>(__res_1203);
             return __res_1202;
         }
     }
@@ -45,7 +45,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedNumberList __res_1204;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelMatrix");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumberList } not supported.");
+            __res_1204 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumberList>(__res_1205);
             return __res_1204;
         }
     }
@@ -56,7 +56,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1206;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "divisor");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1206 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1207);
             return __res_1206;
         }
     }
@@ -67,7 +67,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1208;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "bias");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1208 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1209);
             return __res_1208;
         }
     }
@@ -78,7 +78,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedInteger __res_1210;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetX");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedInteger } not supported.");
+            __res_1210 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedInteger>(__res_1211);
             return __res_1210;
         }
     }
@@ -89,7 +89,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedInteger __res_1212;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetY");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedInteger } not supported.");
+            __res_1212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedInteger>(__res_1213);
             return __res_1212;
         }
     }
@@ -100,7 +100,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1214;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "edgeMode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
+            __res_1214 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1215);
             return __res_1214;
         }
     }
@@ -111,7 +111,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1216;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthX");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1216 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1217);
             return __res_1216;
         }
     }
@@ -122,7 +122,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1218;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "kernelUnitLengthY");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1218 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1219);
             return __res_1218;
         }
     }
@@ -133,7 +133,7 @@ public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropSe
         {
             global::Iskra.StdWeb.SVGAnimatedBoolean __res_1220;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAlpha");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedBoolean } not supported.");
+            __res_1220 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedBoolean>(__res_1221);
             return __res_1220;
         }
     }

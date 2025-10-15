@@ -19,7 +19,7 @@ public partial class RTCRtpSender(global::System.Runtime.InteropServices.JavaScr
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1920 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1919;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaStreamTrack } not supported.");
+                __res_1918 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__notNullable_1920);
             }
             return __res_1918;
         }
@@ -38,7 +38,7 @@ public partial class RTCRtpSender(global::System.Runtime.InteropServices.JavaScr
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1923 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1922;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCDtlsTransport } not supported.");
+                __res_1921 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDtlsTransport>(__notNullable_1923);
             }
             return __res_1921;
         }

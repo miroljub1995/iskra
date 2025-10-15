@@ -12,7 +12,7 @@ public partial class SVGAnimatedTransformList(global::System.Runtime.InteropServ
         {
             global::Iskra.StdWeb.SVGTransformList __res_415;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGTransformList } not supported.");
+            __res_415 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGTransformList>(__res_416);
             return __res_415;
         }
     }
@@ -23,7 +23,7 @@ public partial class SVGAnimatedTransformList(global::System.Runtime.InteropServ
         {
             global::Iskra.StdWeb.SVGTransformList __res_417;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGTransformList } not supported.");
+            __res_417 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGTransformList>(__res_418);
             return __res_417;
         }
     }

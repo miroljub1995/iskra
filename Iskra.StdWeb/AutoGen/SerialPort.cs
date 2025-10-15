@@ -89,7 +89,7 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.ReadableStream __res_4498;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStream } not supported.");
+            __res_4498 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_4499);
             return __res_4498;
         }
     }
@@ -100,7 +100,7 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.WritableStream __res_4500;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WritableStream } not supported.");
+            __res_4500 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_4501);
             return __res_4500;
         }
     }

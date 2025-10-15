@@ -12,7 +12,7 @@ public partial class XRReferenceSpaceEvent(global::System.Runtime.InteropService
         {
             global::Iskra.StdWeb.XRReferenceSpace __res_4358;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRReferenceSpace } not supported.");
+            __res_4358 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRReferenceSpace>(__res_4359);
             return __res_4358;
         }
     }
@@ -30,7 +30,7 @@ public partial class XRReferenceSpaceEvent(global::System.Runtime.InteropService
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4362 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4361;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRRigidTransform } not supported.");
+                __res_4360 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__notNullable_4362);
             }
             return __res_4360;
         }

@@ -23,7 +23,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         {
             global::Iskra.StdWeb.EventTarget __res_2999;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
+            __res_2999 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__res_3000);
             return __res_2999;
         }
     }

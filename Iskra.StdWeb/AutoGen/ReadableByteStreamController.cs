@@ -19,7 +19,7 @@ public partial class ReadableByteStreamController(global::System.Runtime.Interop
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_981 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_980;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ReadableStreamBYOBRequest } not supported.");
+                __res_979 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStreamBYOBRequest>(__notNullable_981);
             }
             return __res_979;
         }

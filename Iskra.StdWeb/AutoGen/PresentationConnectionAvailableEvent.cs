@@ -12,7 +12,7 @@ public partial class PresentationConnectionAvailableEvent(global::System.Runtime
         {
             global::Iskra.StdWeb.PresentationConnection __res_2292;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PresentationConnection } not supported.");
+            __res_2292 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PresentationConnection>(__res_2293);
             return __res_2292;
         }
     }

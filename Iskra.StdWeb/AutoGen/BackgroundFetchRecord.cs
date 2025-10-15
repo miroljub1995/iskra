@@ -12,7 +12,7 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
         {
             global::Iskra.StdWeb.Request __res_3453;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3454 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Request } not supported.");
+            __res_3453 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_3454);
             return __res_3453;
         }
     }

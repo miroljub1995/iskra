@@ -12,7 +12,7 @@ public partial class XRLayerEvent(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.XRLayer __res_1652;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRLayer } not supported.");
+            __res_1652 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRLayer>(__res_1653);
             return __res_1652;
         }
     }

@@ -67,7 +67,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.Element __res_3306;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+            __res_3306 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_3307);
             return __res_3306;
         }
     }

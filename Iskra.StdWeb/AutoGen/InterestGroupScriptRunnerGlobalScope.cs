@@ -19,7 +19,7 @@ public partial class InterestGroupScriptRunnerGlobalScope(global::System.Runtime
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3724 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3723;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PrivateAggregation } not supported.");
+                __res_3722 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__notNullable_3724);
             }
             return __res_3722;
         }
@@ -31,7 +31,7 @@ public partial class InterestGroupScriptRunnerGlobalScope(global::System.Runtime
         {
             global::Iskra.StdWeb.ProtectedAudienceUtilities __res_3725;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ProtectedAudienceUtilities } not supported.");
+            __res_3725 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProtectedAudienceUtilities>(__res_3726);
             return __res_3725;
         }
     }

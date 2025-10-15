@@ -30,7 +30,7 @@ public partial class NavigationEvent(global::System.Runtime.InteropServices.Java
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5203 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5202;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
+                __res_5201 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_5203);
             }
             return __res_5201;
         }

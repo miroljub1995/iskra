@@ -12,7 +12,7 @@ public partial class CSSMathProduct(global::System.Runtime.InteropServices.JavaS
         {
             global::Iskra.StdWeb.CSSNumericArray __res_51;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_52 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericArray } not supported.");
+            __res_51 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericArray>(__res_52);
             return __res_51;
         }
     }

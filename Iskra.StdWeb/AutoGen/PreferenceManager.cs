@@ -12,7 +12,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.PreferenceObject __res_4437;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorScheme");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PreferenceObject } not supported.");
+            __res_4437 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_4438);
             return __res_4437;
         }
     }
@@ -23,7 +23,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.PreferenceObject __res_4439;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contrast");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PreferenceObject } not supported.");
+            __res_4439 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_4440);
             return __res_4439;
         }
     }
@@ -34,7 +34,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.PreferenceObject __res_4441;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedMotion");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PreferenceObject } not supported.");
+            __res_4441 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_4442);
             return __res_4441;
         }
     }
@@ -45,7 +45,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.PreferenceObject __res_4443;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4444 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedTransparency");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PreferenceObject } not supported.");
+            __res_4443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_4444);
             return __res_4443;
         }
     }
@@ -56,7 +56,7 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.PreferenceObject __res_4445;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedData");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PreferenceObject } not supported.");
+            __res_4445 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_4446);
             return __res_4445;
         }
     }

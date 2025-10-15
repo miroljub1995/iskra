@@ -12,7 +12,7 @@ public partial class CaretPosition(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.Node __res_1737;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
+            __res_1737 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_1738);
             return __res_1737;
         }
     }

@@ -12,7 +12,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.WorkerGlobalScope __res_6941;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "self");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WorkerGlobalScope } not supported.");
+            __res_6941 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WorkerGlobalScope>(__res_6942);
             return __res_6941;
         }
     }
@@ -23,7 +23,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.WorkerLocation __res_6943;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "location");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WorkerLocation } not supported.");
+            __res_6943 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WorkerLocation>(__res_6944);
             return __res_6943;
         }
     }
@@ -34,7 +34,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.WorkerNavigator __res_6945;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_6946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WorkerNavigator } not supported.");
+            __res_6945 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WorkerNavigator>(__res_6946);
             return __res_6945;
         }
     }

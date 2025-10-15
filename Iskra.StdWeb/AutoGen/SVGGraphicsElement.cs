@@ -12,7 +12,7 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
         {
             global::Iskra.StdWeb.SVGAnimatedTransformList __res_281;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_282 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedTransformList } not supported.");
+            __res_281 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_282);
             return __res_281;
         }
     }

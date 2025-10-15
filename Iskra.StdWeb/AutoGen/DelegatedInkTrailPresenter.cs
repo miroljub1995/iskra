@@ -19,7 +19,7 @@ public partial class DelegatedInkTrailPresenter(global::System.Runtime.InteropSe
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1671 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1670;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+                __res_1669 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_1671);
             }
             return __res_1669;
         }

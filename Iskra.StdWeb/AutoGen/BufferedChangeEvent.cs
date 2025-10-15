@@ -12,7 +12,7 @@ public partial class BufferedChangeEvent(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.TimeRanges __res_7699;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
+            __res_7699 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_7700);
             return __res_7699;
         }
     }
@@ -23,7 +23,7 @@ public partial class BufferedChangeEvent(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.TimeRanges __res_7701;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
+            __res_7701 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_7702);
             return __res_7701;
         }
     }

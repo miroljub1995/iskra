@@ -19,7 +19,7 @@ public partial class PushSubscriptionChangeEvent(global::System.Runtime.InteropS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5007 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5006;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
+                __res_5005 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(__notNullable_5007);
             }
             return __res_5005;
         }
@@ -38,7 +38,7 @@ public partial class PushSubscriptionChangeEvent(global::System.Runtime.InteropS
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5010 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5009;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PushSubscription } not supported.");
+                __res_5008 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(__notNullable_5010);
             }
             return __res_5008;
         }

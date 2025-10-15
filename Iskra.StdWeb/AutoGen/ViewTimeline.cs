@@ -12,7 +12,7 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.Element __res_267;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+            __res_267 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_268);
             return __res_267;
         }
     }
@@ -23,7 +23,7 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.CSSNumericValue __res_269;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            __res_269 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_270);
             return __res_269;
         }
     }
@@ -34,7 +34,7 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.CSSNumericValue __res_271;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSNumericValue } not supported.");
+            __res_271 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_272);
             return __res_271;
         }
     }

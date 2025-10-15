@@ -12,7 +12,7 @@ public partial class HIDConnectionEvent(global::System.Runtime.InteropServices.J
         {
             global::Iskra.StdWeb.HIDDevice __res_1504;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDDevice } not supported.");
+            __res_1504 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_1505);
             return __res_1504;
         }
     }

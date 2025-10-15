@@ -12,7 +12,7 @@ public partial class MediaElementAudioSourceNode(global::System.Runtime.InteropS
         {
             global::Iskra.StdWeb.HTMLMediaElement __res_8283;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_8284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaElement");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLMediaElement } not supported.");
+            __res_8283 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLMediaElement>(__res_8284);
             return __res_8283;
         }
     }

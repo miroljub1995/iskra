@@ -30,7 +30,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3160 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3159;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
+                __res_3158 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_3160);
             }
             return __res_3158;
         }
@@ -49,7 +49,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3163 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3162;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
+                __res_3161 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_3163);
             }
             return __res_3161;
         }
@@ -68,7 +68,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3166 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3165;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventTarget } not supported.");
+                __res_3164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_3166);
             }
             return __res_3164;
         }

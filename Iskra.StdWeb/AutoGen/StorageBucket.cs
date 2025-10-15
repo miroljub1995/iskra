@@ -23,7 +23,7 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.IDBFactory __res_4429;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4430 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = IDBFactory } not supported.");
+            __res_4429 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_4430);
             return __res_4429;
         }
     }
@@ -34,7 +34,7 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.CacheStorage __res_4431;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CacheStorage } not supported.");
+            __res_4431 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_4432);
             return __res_4431;
         }
     }

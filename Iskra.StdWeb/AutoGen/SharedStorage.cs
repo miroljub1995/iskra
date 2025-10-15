@@ -12,7 +12,7 @@ public partial class SharedStorage(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.SharedStorageWorklet __res_4183;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "worklet");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SharedStorageWorklet } not supported.");
+            __res_4183 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorklet>(__res_4184);
             return __res_4183;
         }
     }

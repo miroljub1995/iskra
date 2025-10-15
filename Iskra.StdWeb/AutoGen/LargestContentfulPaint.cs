@@ -74,7 +74,7 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1782 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1781;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+                __res_1780 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_1782);
             }
             return __res_1780;
         }

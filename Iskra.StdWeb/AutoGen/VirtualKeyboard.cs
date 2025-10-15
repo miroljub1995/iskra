@@ -12,7 +12,7 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
         {
             global::Iskra.StdWeb.DOMRect __res_879;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRect } not supported.");
+            __res_879 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_880);
             return __res_879;
         }
     }

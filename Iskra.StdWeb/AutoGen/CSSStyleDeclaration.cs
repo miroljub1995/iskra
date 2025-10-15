@@ -47,7 +47,7 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7427 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7426;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRule } not supported.");
+                __res_7425 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_7427);
             }
             return __res_7425;
         }

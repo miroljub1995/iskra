@@ -23,7 +23,7 @@ public partial class FileSystem(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.FileSystemDirectoryEntry __res_1415;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = FileSystemDirectoryEntry } not supported.");
+            __res_1415 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemDirectoryEntry>(__res_1416);
             return __res_1415;
         }
     }

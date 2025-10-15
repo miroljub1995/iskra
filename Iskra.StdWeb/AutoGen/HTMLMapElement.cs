@@ -29,7 +29,7 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
         {
             global::Iskra.StdWeb.HTMLCollection __res_5862;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5863 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HTMLCollection } not supported.");
+            __res_5862 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5863);
             return __res_5862;
         }
     }

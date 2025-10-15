@@ -44,7 +44,7 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
         {
             global::Iskra.StdWeb.MediaKeyStatusMap __res_5211;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyStatuses");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaKeyStatusMap } not supported.");
+            __res_5211 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaKeyStatusMap>(__res_5212);
             return __res_5211;
         }
     }

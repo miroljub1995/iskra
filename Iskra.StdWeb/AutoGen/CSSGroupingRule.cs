@@ -12,7 +12,7 @@ public partial class CSSGroupingRule(global::System.Runtime.InteropServices.Java
         {
             global::Iskra.StdWeb.CSSRuleList __res_7363;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRuleList } not supported.");
+            __res_7363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_7364);
             return __res_7363;
         }
     }

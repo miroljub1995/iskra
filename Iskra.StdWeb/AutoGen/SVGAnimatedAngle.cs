@@ -12,7 +12,7 @@ public partial class SVGAnimatedAngle(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.SVGAngle __res_346;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAngle } not supported.");
+            __res_346 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAngle>(__res_347);
             return __res_346;
         }
     }
@@ -23,7 +23,7 @@ public partial class SVGAnimatedAngle(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.SVGAngle __res_348;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAngle } not supported.");
+            __res_348 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAngle>(__res_349);
             return __res_348;
         }
     }

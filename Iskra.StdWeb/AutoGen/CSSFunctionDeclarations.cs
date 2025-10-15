@@ -12,7 +12,7 @@ public partial class CSSFunctionDeclarations(global::System.Runtime.InteropServi
         {
             global::Iskra.StdWeb.CSSFunctionDescriptors __res_25;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_26 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSFunctionDescriptors } not supported.");
+            __res_25 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFunctionDescriptors>(__res_26);
             return __res_25;
         }
     }

@@ -12,7 +12,7 @@ public partial class GeolocationPosition(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.GeolocationCoordinates __res_1011;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GeolocationCoordinates } not supported.");
+            __res_1011 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationCoordinates>(__res_1012);
             return __res_1011;
         }
     }

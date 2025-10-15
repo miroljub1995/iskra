@@ -109,6 +109,20 @@ public partial class IDLTypeDescriptionMarshaller(
                              {{outputVar}} = global::{{descriptor.Namespace}}.{{descriptor.Name}}.Create({{inputVar}});
                              """;
                 }
+
+                if (descriptor.RootType is InterfaceType)
+                {
+                    return $$"""
+                             {{outputVar}} = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::{{descriptor.Namespace}}.{{descriptor.Name}}>({{inputVar}});
+                             """;
+                }
+
+                if (descriptor.RootType is CallbackInterfaceType)
+                {
+                    return $$"""
+                             {{outputVar}} = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::{{descriptor.Namespace}}.{{descriptor.Name}}>({{inputVar}});
+                             """;
+                }
             }
         }
 
@@ -170,6 +184,20 @@ public partial class IDLTypeDescriptionMarshaller(
                 {
                     return $$"""
                              {{outputVar}} = {{inputVar}}.ToString();
+                             """;
+                }
+
+                if (descriptor.RootType is InterfaceType)
+                {
+                    return $$"""
+                             {{outputVar}} = {{inputVar}}.JSObject;
+                             """;
+                }
+
+                if (descriptor.RootType is CallbackInterfaceType)
+                {
+                    return $$"""
+                             {{outputVar}} = {{inputVar}}.JSObject;
                              """;
                 }
             }

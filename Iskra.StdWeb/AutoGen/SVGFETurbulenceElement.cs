@@ -12,7 +12,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1320;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseFrequencyX");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1320 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1321);
             return __res_1320;
         }
     }
@@ -23,7 +23,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1322;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseFrequencyY");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1322 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1323);
             return __res_1322;
         }
     }
@@ -34,7 +34,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SVGAnimatedInteger __res_1324;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "numOctaves");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedInteger } not supported.");
+            __res_1324 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedInteger>(__res_1325);
             return __res_1324;
         }
     }
@@ -45,7 +45,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SVGAnimatedNumber __res_1326;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seed");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedNumber } not supported.");
+            __res_1326 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1327);
             return __res_1326;
         }
     }
@@ -56,7 +56,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1328;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stitchTiles");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
+            __res_1328 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1329);
             return __res_1328;
         }
     }
@@ -67,7 +67,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1330;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SVGAnimatedEnumeration } not supported.");
+            __res_1330 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1331);
             return __res_1330;
         }
     }

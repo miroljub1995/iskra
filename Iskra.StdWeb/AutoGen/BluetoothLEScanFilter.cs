@@ -62,7 +62,7 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
         {
             global::Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4806;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothManufacturerDataFilter } not supported.");
+            __res_4806 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothManufacturerDataFilter>(__res_4807);
             return __res_4806;
         }
     }
@@ -73,7 +73,7 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
         {
             global::Iskra.StdWeb.BluetoothServiceDataFilter __res_4808;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothServiceDataFilter } not supported.");
+            __res_4808 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothServiceDataFilter>(__res_4809);
             return __res_4808;
         }
     }

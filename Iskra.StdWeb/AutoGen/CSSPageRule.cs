@@ -29,7 +29,7 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
         {
             global::Iskra.StdWeb.CSSPageDescriptors __res_7410;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_7411 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSPageDescriptors } not supported.");
+            __res_7410 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_7411);
             return __res_7410;
         }
     }

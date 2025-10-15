@@ -108,7 +108,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.TextTrack __res_5651;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrack } not supported.");
+            __res_5651 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(__res_5652);
             return __res_5651;
         }
     }

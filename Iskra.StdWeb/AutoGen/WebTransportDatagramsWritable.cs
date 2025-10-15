@@ -19,7 +19,7 @@ public partial class WebTransportDatagramsWritable(global::System.Runtime.Intero
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2194 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2193;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendGroup } not supported.");
+                __res_2192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportSendGroup>(__notNullable_2194);
             }
             return __res_2192;
         }
@@ -33,7 +33,7 @@ public partial class WebTransportDatagramsWritable(global::System.Runtime.Intero
             else
             {
                 global::Iskra.StdWeb.WebTransportSendGroup __notNullable_2196 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
-                throw new Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportSendGroup } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_2195 = __notNullable_2196.JSObject;
             }
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_2195);
         }

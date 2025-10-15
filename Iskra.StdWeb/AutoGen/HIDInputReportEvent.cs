@@ -12,7 +12,7 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.HIDDevice __res_1506;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDDevice } not supported.");
+            __res_1506 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_1507);
             return __res_1506;
         }
     }
@@ -34,7 +34,7 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
         {
             global::Iskra.JSCore.DataView __res_1510;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DataView } not supported.");
+            __res_1510 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__res_1511);
             return __res_1510;
         }
     }

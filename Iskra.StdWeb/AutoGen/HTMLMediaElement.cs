@@ -19,7 +19,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5655 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5654;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaError } not supported.");
+                __res_5653 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaError>(__notNullable_5655);
             }
             return __res_5653;
         }
@@ -141,7 +141,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.TimeRanges __res_5673;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5674 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
+            __res_5673 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_5674);
             return __res_5673;
         }
     }
@@ -264,7 +264,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.TimeRanges __res_5695;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "played");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
+            __res_5695 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_5696);
             return __res_5695;
         }
     }
@@ -275,7 +275,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.TimeRanges __res_5697;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seekable");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TimeRanges } not supported.");
+            __res_5697 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_5698);
             return __res_5697;
         }
     }
@@ -399,7 +399,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.AudioTrackList __res_5719;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = AudioTrackList } not supported.");
+            __res_5719 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrackList>(__res_5720);
             return __res_5719;
         }
     }
@@ -410,7 +410,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.VideoTrackList __res_5721;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = VideoTrackList } not supported.");
+            __res_5721 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrackList>(__res_5722);
             return __res_5721;
         }
     }
@@ -421,7 +421,7 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.TextTrackList __res_5723;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_5724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TextTrackList } not supported.");
+            __res_5723 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackList>(__res_5724);
             return __res_5723;
         }
     }

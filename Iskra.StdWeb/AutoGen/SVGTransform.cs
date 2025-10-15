@@ -23,7 +23,7 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.DOMMatrix __res_407;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMMatrix } not supported.");
+            __res_407 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_408);
             return __res_407;
         }
     }

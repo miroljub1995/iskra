@@ -12,7 +12,7 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.Node __res_3371;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3372 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startContainer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
+            __res_3371 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3372);
             return __res_3371;
         }
     }
@@ -34,7 +34,7 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
         {
             global::Iskra.StdWeb.Node __res_3375;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endContainer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
+            __res_3375 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3376);
             return __res_3375;
         }
     }

@@ -19,7 +19,7 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3071 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3070;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
+                __res_3069 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3071);
             }
             return __res_3069;
         }
@@ -31,7 +31,7 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.DOMRectReadOnly __res_3072;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
+            __res_3072 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_3073);
             return __res_3072;
         }
     }
@@ -42,7 +42,7 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.DOMRectReadOnly __res_3074;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
+            __res_3074 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_3075);
             return __res_3074;
         }
     }

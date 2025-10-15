@@ -12,7 +12,7 @@ public partial class NotificationEvent(global::System.Runtime.InteropServices.Ja
         {
             global::Iskra.StdWeb.Notification __res_4423;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4424 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Notification } not supported.");
+            __res_4423 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__res_4424);
             return __res_4423;
         }
     }

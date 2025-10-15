@@ -19,7 +19,7 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7952 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7951;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Window } not supported.");
+                __res_7950 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_7952);
             }
             return __res_7950;
         }

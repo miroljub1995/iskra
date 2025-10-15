@@ -12,7 +12,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         {
             global::Iskra.StdWeb.WebGLTexture __res_1621;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_1622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorTexture");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
+            __res_1621 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__res_1622);
             return __res_1621;
         }
     }
@@ -30,7 +30,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1625 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1624;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
+                __res_1623 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__notNullable_1625);
             }
             return __res_1623;
         }
@@ -49,7 +49,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1628 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1627;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLTexture } not supported.");
+                __res_1626 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__notNullable_1628);
             }
             return __res_1626;
         }

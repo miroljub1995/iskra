@@ -176,7 +176,7 @@ public partial class URL(global::System.Runtime.InteropServices.JavaScript.JSObj
         {
             global::Iskra.StdWeb.URLSearchParams __res_3954;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "searchParams");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = URLSearchParams } not supported.");
+            __res_3954 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.URLSearchParams>(__res_3955);
             return __res_3954;
         }
     }

@@ -36,7 +36,7 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_38 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_37;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSUnparsedValue } not supported.");
+                __res_36 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSUnparsedValue>(__notNullable_38);
             }
             return __res_36;
         }

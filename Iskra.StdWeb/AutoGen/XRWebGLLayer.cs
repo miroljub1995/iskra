@@ -74,7 +74,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4341 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4340;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebGLFramebuffer } not supported.");
+                __res_4339 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(__notNullable_4341);
             }
             return __res_4339;
         }

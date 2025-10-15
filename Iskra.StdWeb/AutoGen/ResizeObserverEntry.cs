@@ -12,7 +12,7 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.Element __res_4726;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Element } not supported.");
+            __res_4726 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_4727);
             return __res_4726;
         }
     }
@@ -23,7 +23,7 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         {
             global::Iskra.StdWeb.DOMRectReadOnly __res_4728;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentRect");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMRectReadOnly } not supported.");
+            __res_4728 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_4729);
             return __res_4728;
         }
     }

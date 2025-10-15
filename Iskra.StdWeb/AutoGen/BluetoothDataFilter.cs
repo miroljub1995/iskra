@@ -12,7 +12,7 @@ public partial class BluetoothDataFilter(global::System.Runtime.InteropServices.
         {
             global::Iskra.JSCore.ArrayBuffer __res_4794;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "dataPrefix");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
+            __res_4794 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4795);
             return __res_4794;
         }
     }
@@ -23,7 +23,7 @@ public partial class BluetoothDataFilter(global::System.Runtime.InteropServices.
         {
             global::Iskra.JSCore.ArrayBuffer __res_4796;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mask");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
+            __res_4796 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4797);
             return __res_4796;
         }
     }

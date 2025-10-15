@@ -49,7 +49,7 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2777 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2776;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothRemoteGATTServer } not supported.");
+                __res_2775 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTServer>(__notNullable_2777);
             }
             return __res_2775;
         }

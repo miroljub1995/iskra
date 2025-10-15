@@ -12,7 +12,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         {
             global::Iskra.StdWeb.BluetoothDevice __res_2780;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothDevice } not supported.");
+            __res_2780 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_2781);
             return __res_2780;
         }
     }
@@ -111,7 +111,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         {
             global::Iskra.StdWeb.BluetoothManufacturerDataMap __res_2796;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothManufacturerDataMap } not supported.");
+            __res_2796 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothManufacturerDataMap>(__res_2797);
             return __res_2796;
         }
     }
@@ -122,7 +122,7 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
         {
             global::Iskra.StdWeb.BluetoothServiceDataMap __res_2798;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = BluetoothServiceDataMap } not supported.");
+            __res_2798 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothServiceDataMap>(__res_2799);
             return __res_2798;
         }
     }

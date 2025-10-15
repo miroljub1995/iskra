@@ -44,7 +44,7 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
         {
             global::Iskra.StdWeb.ImageTrackList __res_2701;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ImageTrackList } not supported.");
+            __res_2701 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrackList>(__res_2702);
             return __res_2701;
         }
     }

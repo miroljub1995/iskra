@@ -12,7 +12,7 @@ public partial class AuthenticatorResponse(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.ArrayBuffer __res_2877;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_2878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clientDataJSON");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
+            __res_2877 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2878);
             return __res_2877;
         }
     }

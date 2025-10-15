@@ -23,7 +23,7 @@ public partial class SpeechRecognitionEvent(global::System.Runtime.InteropServic
         {
             global::Iskra.StdWeb.SpeechRecognitionResultList __res_4065;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_4066 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = SpeechRecognitionResultList } not supported.");
+            __res_4065 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechRecognitionResultList>(__res_4066);
             return __res_4065;
         }
     }

@@ -12,7 +12,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.TouchList __res_3029;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
+            __res_3029 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_3030);
             return __res_3029;
         }
     }
@@ -23,7 +23,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.TouchList __res_3031;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
+            __res_3031 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_3032);
             return __res_3031;
         }
     }
@@ -34,7 +34,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         {
             global::Iskra.StdWeb.TouchList __res_3033;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = TouchList } not supported.");
+            __res_3033 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_3034);
             return __res_3033;
         }
     }

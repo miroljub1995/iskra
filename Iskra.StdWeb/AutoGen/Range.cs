@@ -12,7 +12,7 @@ public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSO
         {
             global::Iskra.StdWeb.Node __res_3381;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3382 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Node } not supported.");
+            __res_3381 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3382);
             return __res_3381;
         }
     }

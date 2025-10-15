@@ -12,7 +12,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::Iskra.StdWeb.DOMPoint __res_3537;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
+            __res_3537 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3538);
             return __res_3537;
         }
     }
@@ -23,7 +23,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::Iskra.StdWeb.DOMPoint __res_3539;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
+            __res_3539 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3540);
             return __res_3539;
         }
     }
@@ -34,7 +34,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::Iskra.StdWeb.DOMPoint __res_3541;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
+            __res_3541 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3542);
             return __res_3541;
         }
     }
@@ -45,7 +45,7 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::Iskra.StdWeb.DOMPoint __res_3543;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = DOMPoint } not supported.");
+            __res_3543 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3544);
             return __res_3543;
         }
     }

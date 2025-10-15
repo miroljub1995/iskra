@@ -29,7 +29,7 @@ public partial class CSSKeyframesRule(global::System.Runtime.InteropServices.Jav
         {
             global::Iskra.StdWeb.CSSRuleList __res_3057;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_3058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CSSRuleList } not supported.");
+            __res_3057 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_3058);
             return __res_3057;
         }
     }

@@ -30,7 +30,7 @@ public partial class PushSubscriptionOptions(global::System.Runtime.InteropServi
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4991 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4990;
-                throw new Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = ArrayBuffer } not supported.");
+                __res_4989 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_4991);
             }
             return __res_4989;
         }

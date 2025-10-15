@@ -1,0 +1,112 @@
+{
+  "spec": {
+    "title": "Test Interface Properties",
+    "url": ""
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestInterfaceProperties": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestInterfaceProperties",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "value",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "TestInterfacePropertiesInterface"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "valueNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestInterfacePropertiesInterface"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "valueNullableReadonlyAsNotNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestInterfacePropertiesInterface"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "valueNullableReadonlyAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "TestInterfacePropertiesInterface"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      },
+      "TestInterfacePropertiesInterface": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestInterfacePropertiesInterface",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "value",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}
