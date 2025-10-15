@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double HighWaterMark
+    public double HighWaterMark
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.Function Size
+    public global::Iskra.StdWeb.Function Size
     {
         get
         {

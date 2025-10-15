@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedTransformList Transform
+    public global::Iskra.StdWeb.SVGAnimatedTransformList Transform
     {
         get
         {

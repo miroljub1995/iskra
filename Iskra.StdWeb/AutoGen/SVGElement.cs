@@ -17,7 +17,7 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.SVGSVGElement? OwnerSVGElement
+    public global::Iskra.StdWeb.SVGSVGElement? OwnerSVGElement
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.SVGElement? ViewportElement
+    public global::Iskra.StdWeb.SVGElement? ViewportElement
     {
         get
         {

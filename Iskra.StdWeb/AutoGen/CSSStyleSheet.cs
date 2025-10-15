@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): StyleSheet(obj)
 {
-    public new global::Iskra.StdWeb.CSSRule? OwnerRule
+    public global::Iskra.StdWeb.CSSRule? OwnerRule
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.CSSRuleList CssRules
+    public global::Iskra.StdWeb.CSSRuleList CssRules
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLBaseElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Href
+    public string Href
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Target
+    public string Target
     {
         get
         {

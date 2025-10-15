@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CloseEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new bool WasClean
+    public bool WasClean
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CloseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new ushort Code
+    public ushort Code
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class CloseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string Reason
+    public string Reason
     {
         get
         {

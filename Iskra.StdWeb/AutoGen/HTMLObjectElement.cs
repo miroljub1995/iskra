@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLObjectElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Data
+    public string Data
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -76,7 +76,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Width
+    public string Width
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Height
+    public string Height
     {
         get
         {
@@ -110,7 +110,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.Document? ContentDocument
+    public global::Iskra.StdWeb.Document? ContentDocument
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.Window? ContentWindow
+    public global::Iskra.StdWeb.Window? ContentWindow
     {
         get
         {
@@ -148,7 +148,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.ValidityState Validity
+    public global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -170,7 +170,7 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string ValidationMessage
+    public string ValidationMessage
     {
         get
         {

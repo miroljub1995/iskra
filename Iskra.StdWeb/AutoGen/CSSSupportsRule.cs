@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSupportsRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSConditionRule(obj)
 {
-    public new bool Matches
+    public bool Matches
     {
         get
         {

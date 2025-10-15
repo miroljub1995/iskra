@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSNestedDeclarations(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public new global::Iskra.StdWeb.CSSStyleProperties Style
+    public global::Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {

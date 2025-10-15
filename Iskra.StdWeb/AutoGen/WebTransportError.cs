@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMException(obj)
 {
-    public new global::Iskra.StdWeb.WebTransportErrorSource Source
+    public global::Iskra.StdWeb.WebTransportErrorSource Source
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebTransportError(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint? StreamErrorCode
+    public uint? StreamErrorCode
     {
         get
         {

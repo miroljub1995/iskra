@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string DeviceId
+    public string DeviceId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.MediaDeviceKind Kind
+    public global::Iskra.StdWeb.MediaDeviceKind Kind
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string GroupId
+    public string GroupId
     {
         get
         {

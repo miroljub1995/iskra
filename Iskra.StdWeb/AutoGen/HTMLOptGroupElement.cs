@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new bool Disabled
+    public bool Disabled
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {

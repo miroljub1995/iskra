@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Src
+    public string Src
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new float Weight
+    public float Weight
     {
         get
         {

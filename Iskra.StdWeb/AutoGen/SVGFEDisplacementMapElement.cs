@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDisplacementMapElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDisplacementMapElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedString In2
+    public global::Iskra.StdWeb.SVGAnimatedString In2
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEDisplacementMapElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Scale
+    public global::Iskra.StdWeb.SVGAnimatedNumber Scale
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFEDisplacementMapElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration XChannelSelector
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration XChannelSelector
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFEDisplacementMapElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration YChannelSelector
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration YChannelSelector
     {
         get
         {

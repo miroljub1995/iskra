@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ConvolverNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.StdWeb.AudioBuffer? Buffer
+    public global::Iskra.StdWeb.AudioBuffer? Buffer
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ConvolverNode(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new bool Normalize
+    public bool Normalize
     {
         get
         {

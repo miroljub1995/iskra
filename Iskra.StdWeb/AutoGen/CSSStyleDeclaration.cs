@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string CssText
+    public string CssText
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
         }
     }
 
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.CSSRule? ParentRule
+    public global::Iskra.StdWeb.CSSRule? ParentRule
     {
         get
         {

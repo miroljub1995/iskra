@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class EncodedAudioChunk(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.EncodedAudioChunkType Type
+    public global::Iskra.StdWeb.EncodedAudioChunkType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class EncodedAudioChunk(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new long Timestamp
+    public long Timestamp
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class EncodedAudioChunk(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong? Duration
+    public ulong? Duration
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class EncodedAudioChunk(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint ByteLength
+    public uint ByteLength
     {
         get
         {

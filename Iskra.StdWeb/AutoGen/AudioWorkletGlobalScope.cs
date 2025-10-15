@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
 {
-    public new ulong CurrentFrame
+    public ulong CurrentFrame
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
         }
     }
 
-    public new double CurrentTime
+    public double CurrentTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
         }
     }
 
-    public new float SampleRate
+    public float SampleRate
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
         }
     }
 
-    public new uint RenderQuantumSize
+    public uint RenderQuantumSize
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.MessagePort Port
+    public global::Iskra.StdWeb.MessagePort Port
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class StorageAccessHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Storage SessionStorage
+    public global::Iskra.StdWeb.Storage SessionStorage
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.Storage LocalStorage
+    public global::Iskra.StdWeb.Storage LocalStorage
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.IDBFactory IndexedDB
+    public global::Iskra.StdWeb.IDBFactory IndexedDB
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.LockManager Locks
+    public global::Iskra.StdWeb.LockManager Locks
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.CacheStorage Caches
+    public global::Iskra.StdWeb.CacheStorage Caches
     {
         get
         {

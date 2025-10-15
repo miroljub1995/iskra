@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Highlight(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new int Priority
+    public int Priority
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.HighlightType Type
+    public global::Iskra.StdWeb.HighlightType Type
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new ushort NodeType
+    public ushort NodeType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new string NodeName
+    public string NodeName
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new string BaseURI
+    public string BaseURI
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new bool IsConnected
+    public bool IsConnected
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Document? OwnerDocument
+    public global::Iskra.StdWeb.Document? OwnerDocument
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Node? ParentNode
+    public global::Iskra.StdWeb.Node? ParentNode
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Element? ParentElement
+    public global::Iskra.StdWeb.Element? ParentElement
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.NodeList ChildNodes
+    public global::Iskra.StdWeb.NodeList ChildNodes
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Node? FirstChild
+    public global::Iskra.StdWeb.Node? FirstChild
     {
         get
         {
@@ -137,7 +137,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Node? LastChild
+    public global::Iskra.StdWeb.Node? LastChild
     {
         get
         {
@@ -156,7 +156,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Node? PreviousSibling
+    public global::Iskra.StdWeb.Node? PreviousSibling
     {
         get
         {
@@ -175,7 +175,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.Node? NextSibling
+    public global::Iskra.StdWeb.Node? NextSibling
     {
         get
         {
@@ -194,7 +194,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new string? NodeValue
+    public string? NodeValue
     {
         get
         {
@@ -227,7 +227,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new string? TextContent
+    public string? TextContent
     {
         get
         {

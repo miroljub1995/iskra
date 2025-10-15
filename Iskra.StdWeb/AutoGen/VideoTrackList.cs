@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrackList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int SelectedIndex
+    public int SelectedIndex
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class VideoTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class VideoTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class VideoTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
     {
         get
         {

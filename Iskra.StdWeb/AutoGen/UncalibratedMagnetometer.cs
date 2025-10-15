@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public new double? X
+    public double? X
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
         }
     }
 
-    public new double? Y
+    public double? Y
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
         }
     }
 
-    public new double? Z
+    public double? Z
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
         }
     }
 
-    public new double? XBias
+    public double? XBias
     {
         get
         {
@@ -82,7 +82,7 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
         }
     }
 
-    public new double? YBias
+    public double? YBias
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
         }
     }
 
-    public new double? ZBias
+    public double? ZBias
     {
         get
         {

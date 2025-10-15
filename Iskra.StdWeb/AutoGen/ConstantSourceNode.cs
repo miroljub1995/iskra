@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ConstantSourceNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioScheduledSourceNode(obj)
 {
-    public new global::Iskra.StdWeb.AudioParam Offset
+    public global::Iskra.StdWeb.AudioParam Offset
     {
         get
         {

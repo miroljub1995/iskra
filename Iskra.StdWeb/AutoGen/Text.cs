@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CharacterData(obj)
 {
-    public new string WholeText
+    public string WholeText
     {
         get
         {

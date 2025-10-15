@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.GPUSupportedFeatures Features
+    public global::Iskra.StdWeb.GPUSupportedFeatures Features
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.GPUSupportedLimits Limits
+    public global::Iskra.StdWeb.GPUSupportedLimits Limits
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.GPUAdapterInfo AdapterInfo
+    public global::Iskra.StdWeb.GPUAdapterInfo AdapterInfo
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.GPUQueue Queue
+    public global::Iskra.StdWeb.GPUQueue Queue
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Src
+    public string Src
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> Srcdoc
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> Srcdoc
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.DOMTokenList Sandbox
+    public global::Iskra.StdWeb.DOMTokenList Sandbox
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Allow
+    public string Allow
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool AllowFullscreen
+    public bool AllowFullscreen
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Width
+    public string Width
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Height
+    public string Height
     {
         get
         {
@@ -135,7 +135,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string ReferrerPolicy
+    public string ReferrerPolicy
     {
         get
         {
@@ -152,7 +152,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Loading
+    public string Loading
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.Document? ContentDocument
+    public global::Iskra.StdWeb.Document? ContentDocument
     {
         get
         {
@@ -188,7 +188,7 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.Window? ContentWindow
+    public global::Iskra.StdWeb.Window? ContentWindow
     {
         get
         {

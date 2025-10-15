@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransferItemList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorker(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string ScriptURL
+    public string ScriptURL
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ServiceWorker(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.ServiceWorkerState State
+    public global::Iskra.StdWeb.ServiceWorkerState State
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ServiceWorker(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

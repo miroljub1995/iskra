@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ExtendableCookieChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Changed
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Changed
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class ExtendableCookieChangeEvent(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Deleted
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CookieListItem, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Deleted
     {
         get
         {

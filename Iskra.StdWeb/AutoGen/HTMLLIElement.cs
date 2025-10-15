@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLIElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new int Value
+    public int Value
     {
         get
         {

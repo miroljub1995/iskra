@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LargestContentfulPaint(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public new double LoadTime
+    public double LoadTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
         }
     }
 
-    public new double RenderTime
+    public double RenderTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
         }
     }
 
-    public new uint Size
+    public uint Size
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
         }
     }
 
-    public new string Url
+    public string Url
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.Element? Element
+    public global::Iskra.StdWeb.Element? Element
     {
         get
         {

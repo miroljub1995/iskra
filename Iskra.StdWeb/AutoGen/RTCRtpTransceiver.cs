@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string? Mid
+    public string? Mid
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.RTCRtpSender Sender
+    public global::Iskra.StdWeb.RTCRtpSender Sender
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.RTCRtpReceiver Receiver
+    public global::Iskra.StdWeb.RTCRtpReceiver Receiver
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.RTCRtpTransceiverDirection Direction
+    public global::Iskra.StdWeb.RTCRtpTransceiverDirection Direction
     {
         get
         {
@@ -64,7 +64,7 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.RTCRtpTransceiverDirection? CurrentDirection
+    public global::Iskra.StdWeb.RTCRtpTransceiverDirection? CurrentDirection
     {
         get
         {

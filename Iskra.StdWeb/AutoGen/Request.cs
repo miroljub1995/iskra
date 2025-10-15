@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Request(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Method
+    public string Method
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string Url
+    public string Url
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.Headers Headers
+    public global::Iskra.StdWeb.Headers Headers
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.RequestDestination Destination
+    public global::Iskra.StdWeb.RequestDestination Destination
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string Referrer
+    public string Referrer
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.ReferrerPolicy ReferrerPolicy
+    public global::Iskra.StdWeb.ReferrerPolicy ReferrerPolicy
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.RequestMode Mode
+    public global::Iskra.StdWeb.RequestMode Mode
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.RequestCredentials Credentials
+    public global::Iskra.StdWeb.RequestCredentials Credentials
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.RequestCache Cache
+    public global::Iskra.StdWeb.RequestCache Cache
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.RequestRedirect Redirect
+    public global::Iskra.StdWeb.RequestRedirect Redirect
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string Integrity
+    public string Integrity
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new bool Keepalive
+    public bool Keepalive
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new bool IsReloadNavigation
+    public bool IsReloadNavigation
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new bool IsHistoryNavigation
+    public bool IsHistoryNavigation
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.AbortSignal Signal
+    public global::Iskra.StdWeb.AbortSignal Signal
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class Request(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.RequestDuplex Duplex
+    public global::Iskra.StdWeb.RequestDuplex Duplex
     {
         get
         {

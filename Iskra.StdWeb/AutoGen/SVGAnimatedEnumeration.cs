@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedEnumeration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new ushort BaseVal
+    public ushort BaseVal
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SVGAnimatedEnumeration(global::System.Runtime.InteropServic
         }
     }
 
-    public new ushort AnimVal
+    public ushort AnimVal
     {
         get
         {

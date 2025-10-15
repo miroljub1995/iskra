@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskPriorityChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.TaskPriority PreviousPriority
+    public global::Iskra.StdWeb.TaskPriority PreviousPriority
     {
         get
         {

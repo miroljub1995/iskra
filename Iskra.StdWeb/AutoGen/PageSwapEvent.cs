@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PageSwapEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.NavigationActivation? Activation
+    public global::Iskra.StdWeb.NavigationActivation? Activation
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PageSwapEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.ViewTransition? ViewTransition
+    public global::Iskra.StdWeb.ViewTransition? ViewTransition
     {
         get
         {

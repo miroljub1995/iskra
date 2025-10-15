@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Notification(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public static new global::Iskra.StdWeb.NotificationPermission Permission
+    public static global::Iskra.StdWeb.NotificationPermission Permission
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public static new uint MaxActions
+    public static uint MaxActions
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclick
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onclick
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onshow
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onshow
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclose
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Title
+    public string Title
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.NotificationDirection Dir
+    public global::Iskra.StdWeb.NotificationDirection Dir
     {
         get
         {
@@ -182,7 +182,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Lang
+    public string Lang
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Body
+    public string Body
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Navigate
+    public string Navigate
     {
         get
         {
@@ -215,7 +215,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Tag
+    public string Tag
     {
         get
         {
@@ -226,7 +226,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Image
+    public string Image
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Icon
+    public string Icon
     {
         get
         {
@@ -248,7 +248,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Badge
+    public string Badge
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vibrate
+    public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vibrate
     {
         get
         {
@@ -271,7 +271,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new ulong Timestamp
+    public ulong Timestamp
     {
         get
         {
@@ -282,7 +282,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool Renotify
+    public bool Renotify
     {
         get
         {
@@ -293,7 +293,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool? Silent
+    public bool? Silent
     {
         get
         {
@@ -312,7 +312,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool RequireInteraction
+    public bool RequireInteraction
     {
         get
         {
@@ -323,7 +323,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new object? Data
+    public object? Data
     {
         get
         {
@@ -334,7 +334,7 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Actions
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Actions
     {
         get
         {

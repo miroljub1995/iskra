@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Idp
+    public string Idp
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {

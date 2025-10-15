@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutShiftAttribution(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Node? Node
+    public global::Iskra.StdWeb.Node? Node
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.DOMRectReadOnly PreviousRect
+    public global::Iskra.StdWeb.DOMRectReadOnly PreviousRect
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.DOMRectReadOnly CurrentRect
+    public global::Iskra.StdWeb.DOMRectReadOnly CurrentRect
     {
         get
         {

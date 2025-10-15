@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSViewTransitionRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public new string Navigation
+    public string Navigation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSViewTransitionRule(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Types
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Types
     {
         get
         {

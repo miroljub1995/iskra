@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdleDetector(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.UserIdleState? UserState
+    public global::Iskra.StdWeb.UserIdleState? UserState
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class IdleDetector(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.ScreenIdleState? ScreenState
+    public global::Iskra.StdWeb.ScreenIdleState? ScreenState
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class IdleDetector(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

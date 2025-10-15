@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FederatedCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public new string Provider
+    public string Provider
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string? Protocol
+    public string? Protocol
     {
         get
         {

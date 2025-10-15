@@ -50,7 +50,7 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Attribution
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Attribution
     {
         get
         {

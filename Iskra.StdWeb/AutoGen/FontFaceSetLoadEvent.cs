@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSetLoadEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fontfaces
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fontfaces
     {
         get
         {

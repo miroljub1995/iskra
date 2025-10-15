@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRLayer(obj)
 {
-    public new bool Antialias
+    public bool Antialias
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool IgnoreDepthValues
+    public bool IgnoreDepthValues
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new float? FixedFoveation
+    public float? FixedFoveation
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.WebGLFramebuffer? Framebuffer
+    public global::Iskra.StdWeb.WebGLFramebuffer? Framebuffer
     {
         get
         {
@@ -80,7 +80,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new uint FramebufferWidth
+    public uint FramebufferWidth
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new uint FramebufferHeight
+    public uint FramebufferHeight
     {
         get
         {

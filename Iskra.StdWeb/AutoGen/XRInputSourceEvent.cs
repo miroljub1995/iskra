@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourceEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.XRFrame Frame
+    public global::Iskra.StdWeb.XRFrame Frame
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRInputSourceEvent(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.StdWeb.XRInputSource InputSource
+    public global::Iskra.StdWeb.XRInputSource InputSource
     {
         get
         {

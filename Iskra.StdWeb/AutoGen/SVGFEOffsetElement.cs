@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEOffsetElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEOffsetElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Dx
+    public global::Iskra.StdWeb.SVGAnimatedNumber Dx
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEOffsetElement(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Dy
+    public global::Iskra.StdWeb.SVGAnimatedNumber Dy
     {
         get
         {

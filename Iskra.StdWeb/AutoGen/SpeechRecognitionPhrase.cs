@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognitionPhrase(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Phrase
+    public string Phrase
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechRecognitionPhrase(global::System.Runtime.InteropServi
         }
     }
 
-    public new float Boost
+    public float Boost
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PasswordCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public new string Password
+    public string Password
     {
         get
         {

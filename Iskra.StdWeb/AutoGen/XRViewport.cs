@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRViewport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new int X
+    public int X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int Y
+    public int Y
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int Width
+    public int Width
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int Height
+    public int Height
     {
         get
         {

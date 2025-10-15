@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Summarizer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string SharedContext
+    public string SharedContext
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.SummarizerType Type
+    public global::Iskra.StdWeb.SummarizerType Type
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.SummarizerFormat Format
+    public global::Iskra.StdWeb.SummarizerFormat Format
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.SummarizerLength Length
+    public global::Iskra.StdWeb.SummarizerLength Length
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? OutputLanguage
+    public string? OutputLanguage
     {
         get
         {
@@ -103,7 +103,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double InputQuota
+    public double InputQuota
     {
         get
         {

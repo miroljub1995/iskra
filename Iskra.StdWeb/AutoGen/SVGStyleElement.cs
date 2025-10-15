@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGStyleElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new string Type
+    public string Type
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Media
+    public string Media
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Title
+    public string Title
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Response(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.ResponseType Type
+    public global::Iskra.StdWeb.ResponseType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Url
+    public string Url
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new bool Redirected
+    public bool Redirected
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new ushort Status
+    public ushort Status
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new bool Ok
+    public bool Ok
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string StatusText
+    public string StatusText
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.Headers Headers
+    public global::Iskra.StdWeb.Headers Headers
     {
         get
         {

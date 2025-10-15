@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FocusEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public new global::Iskra.StdWeb.EventTarget? RelatedTarget
+    public global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {

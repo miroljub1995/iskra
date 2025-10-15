@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OffscreenCanvas(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new ulong Width
+    public ulong Width
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new ulong Height
+    public ulong Height
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncontextlost
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncontextlost
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncontextrestored
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncontextrestored
     {
         get
         {

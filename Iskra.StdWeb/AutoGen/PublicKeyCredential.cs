@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PublicKeyCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public new global::Iskra.JSCore.ArrayBuffer RawId
+    public global::Iskra.JSCore.ArrayBuffer RawId
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.AuthenticatorResponse Response
+    public global::Iskra.StdWeb.AuthenticatorResponse Response
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string? AuthenticatorAttachment
+    public string? AuthenticatorAttachment
     {
         get
         {

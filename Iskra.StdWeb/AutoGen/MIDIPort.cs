@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string? Manufacturer
+    public string? Manufacturer
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string? Name
+    public string? Name
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.MIDIPortType Type
+    public global::Iskra.StdWeb.MIDIPortType Type
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string? Version
+    public string? Version
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.MIDIPortDeviceState State
+    public global::Iskra.StdWeb.MIDIPortDeviceState State
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.MIDIPortConnectionState Connection
+    public global::Iskra.StdWeb.MIDIPortConnectionState Connection
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

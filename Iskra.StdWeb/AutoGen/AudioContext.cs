@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): BaseAudioContext(obj)
 {
-    public new double BaseLatency
+    public double BaseLatency
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double OutputLatency
+    public double OutputLatency
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union> SinkId
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union> SinkId
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsinkchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsinkchange
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

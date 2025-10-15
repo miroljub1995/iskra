@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SerialPort(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool Connected
+    public bool Connected
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.WritableStream Writable
+    public global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {

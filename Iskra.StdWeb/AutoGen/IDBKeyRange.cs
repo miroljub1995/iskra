@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new object? Lower
+    public object? Lower
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new object? Upper
+    public object? Upper
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool LowerOpen
+    public bool LowerOpen
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool UpperOpen
+    public bool UpperOpen
     {
         get
         {

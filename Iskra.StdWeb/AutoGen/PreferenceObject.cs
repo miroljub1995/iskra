@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PreferenceObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string? Override
+    public string? Override
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Value
+    public string Value
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ValidValues
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ValidValues
     {
         get
         {
@@ -48,7 +48,7 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

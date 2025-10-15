@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothCharacteristicProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool Broadcast
+    public bool Broadcast
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool Read
+    public bool Read
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool WriteWithoutResponse
+    public bool WriteWithoutResponse
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool Write
+    public bool Write
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool Notify
+    public bool Notify
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool Indicate
+    public bool Indicate
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool AuthenticatedSignedWrites
+    public bool AuthenticatedSignedWrites
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool ReliableWrite
+    public bool ReliableWrite
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
         }
     }
 
-    public new bool WritableAuxiliaries
+    public bool WritableAuxiliaries
     {
         get
         {

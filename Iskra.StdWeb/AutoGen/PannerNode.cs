@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PannerNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.StdWeb.PanningModelType PanningModel
+    public global::Iskra.StdWeb.PanningModelType PanningModel
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam PositionX
+    public global::Iskra.StdWeb.AudioParam PositionX
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam PositionY
+    public global::Iskra.StdWeb.AudioParam PositionY
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam PositionZ
+    public global::Iskra.StdWeb.AudioParam PositionZ
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam OrientationX
+    public global::Iskra.StdWeb.AudioParam OrientationX
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam OrientationY
+    public global::Iskra.StdWeb.AudioParam OrientationY
     {
         get
         {
@@ -78,7 +78,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam OrientationZ
+    public global::Iskra.StdWeb.AudioParam OrientationZ
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.DistanceModelType DistanceModel
+    public global::Iskra.StdWeb.DistanceModelType DistanceModel
     {
         get
         {
@@ -106,7 +106,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double RefDistance
+    public double RefDistance
     {
         get
         {
@@ -123,7 +123,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double MaxDistance
+    public double MaxDistance
     {
         get
         {
@@ -140,7 +140,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double RolloffFactor
+    public double RolloffFactor
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double ConeInnerAngle
+    public double ConeInnerAngle
     {
         get
         {
@@ -174,7 +174,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double ConeOuterAngle
+    public double ConeOuterAngle
     {
         get
         {
@@ -191,7 +191,7 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double ConeOuterGain
+    public double ConeOuterGain
     {
         get
         {

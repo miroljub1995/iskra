@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationAvailability(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new bool Value
+    public bool Value
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PresentationAvailability(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ontonechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ontonechange
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new bool CanInsertDTMF
+    public bool CanInsertDTMF
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new string ToneBuffer
+    public string ToneBuffer
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Screens
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Screens
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.ScreenDetailed CurrentScreen
+    public global::Iskra.StdWeb.ScreenDetailed CurrentScreen
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onscreenschange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onscreenschange
     {
         get
         {
@@ -62,7 +62,7 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncurrentscreenchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncurrentscreenchange
     {
         get
         {

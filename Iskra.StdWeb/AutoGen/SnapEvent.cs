@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SnapEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.Node? SnapTargetBlock
+    public global::Iskra.StdWeb.Node? SnapTargetBlock
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class SnapEvent(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.Node? SnapTargetInline
+    public global::Iskra.StdWeb.Node? SnapTargetInline
     {
         get
         {

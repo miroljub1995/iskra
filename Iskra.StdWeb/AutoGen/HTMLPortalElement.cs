@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLPortalElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Src
+    public string Src
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLPortalElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string ReferrerPolicy
+    public string ReferrerPolicy
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLPortalElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class HTMLPortalElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

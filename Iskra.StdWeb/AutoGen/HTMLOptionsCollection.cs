@@ -23,7 +23,7 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
         }
     }
 
-    public new int SelectedIndex
+    public int SelectedIndex
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Document(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
-    public new global::Iskra.StdWeb.DOMImplementation Implementation
+    public global::Iskra.StdWeb.DOMImplementation Implementation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string URL
+    public string URL
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string DocumentURI
+    public string DocumentURI
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string CompatMode
+    public string CompatMode
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string CharacterSet
+    public string CharacterSet
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Charset
+    public string Charset
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string InputEncoding
+    public string InputEncoding
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string ContentType
+    public string ContentType
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.DocumentType? Doctype
+    public global::Iskra.StdWeb.DocumentType? Doctype
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.Element? DocumentElement
+    public global::Iskra.StdWeb.Element? DocumentElement
     {
         get
         {

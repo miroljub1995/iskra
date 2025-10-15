@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MouseEvent(obj)
 {
-    public new double DeltaX
+    public double DeltaX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double DeltaY
+    public double DeltaY
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new double DeltaZ
+    public double DeltaZ
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint DeltaMode
+    public uint DeltaMode
     {
         get
         {

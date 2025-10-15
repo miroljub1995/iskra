@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransformValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleValue(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSTransformValue(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Is2D
+    public bool Is2D
     {
         get
         {

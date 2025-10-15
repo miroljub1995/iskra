@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTrackElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Kind
+    public string Kind
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Src
+    public string Src
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Srclang
+    public string Srclang
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Default
+    public bool Default
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new ushort ReadyState
+    public ushort ReadyState
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.TextTrack Track
+    public global::Iskra.StdWeb.TextTrack Track
     {
         get
         {

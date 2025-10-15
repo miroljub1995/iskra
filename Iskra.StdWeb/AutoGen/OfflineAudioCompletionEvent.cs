@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OfflineAudioCompletionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.AudioBuffer RenderedBuffer
+    public global::Iskra.StdWeb.AudioBuffer RenderedBuffer
     {
         get
         {

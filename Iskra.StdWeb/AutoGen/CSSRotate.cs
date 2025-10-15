@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSTransformComponent(obj)
 {
-    public new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> X
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> X
     {
         get
         {
@@ -22,7 +22,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Y
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Y
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Z
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Z
     {
         get
         {
@@ -54,7 +54,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.CSSNumericValue Angle
+    public global::Iskra.StdWeb.CSSNumericValue Angle
     {
         get
         {

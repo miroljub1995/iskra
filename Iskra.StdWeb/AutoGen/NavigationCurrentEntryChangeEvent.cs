@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.NavigationType? NavigationType
+    public global::Iskra.StdWeb.NavigationType? NavigationType
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
         }
     }
 
-    public new global::Iskra.StdWeb.NavigationHistoryEntry From
+    public global::Iskra.StdWeb.NavigationHistoryEntry From
     {
         get
         {

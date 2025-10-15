@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new ulong Size
+    public ulong Size
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {

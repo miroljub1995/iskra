@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSConditionRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSGroupingRule(obj)
 {
-    public new string ConditionText
+    public string ConditionText
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchRecord(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Request Request
+    public global::Iskra.StdWeb.Request Request
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
         }
     }
 
-    public new object ResponseReady
+    public object ResponseReady
     {
         get
         {

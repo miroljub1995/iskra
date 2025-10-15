@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFormElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string AcceptCharset
+    public string AcceptCharset
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Action
+    public string Action
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Enctype
+    public string Enctype
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Encoding
+    public string Encoding
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Method
+    public string Method
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool NoValidate
+    public bool NoValidate
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Target
+    public string Target
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Rel
+    public string Rel
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.DOMTokenList RelList
+    public global::Iskra.StdWeb.DOMTokenList RelList
     {
         get
         {
@@ -187,7 +187,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormControlsCollection Elements
+    public global::Iskra.StdWeb.HTMLFormControlsCollection Elements
     {
         get
         {
@@ -198,7 +198,7 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint Length
+    public uint Length
     {
         get
         {

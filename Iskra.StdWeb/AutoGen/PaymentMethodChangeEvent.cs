@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PaymentRequestUpdateEvent(obj)
 {
-    public new string MethodName
+    public string MethodName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject? MethodDetails
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? MethodDetails
     {
         get
         {

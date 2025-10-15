@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLShaderPrecisionFormat(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new int RangeMin
+    public int RangeMin
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebGLShaderPrecisionFormat(global::System.Runtime.InteropSe
         }
     }
 
-    public new int RangeMax
+    public int RangeMax
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WebGLShaderPrecisionFormat(global::System.Runtime.InteropSe
         }
     }
 
-    public new int Precision
+    public int Precision
     {
         get
         {

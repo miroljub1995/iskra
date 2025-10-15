@@ -50,7 +50,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.ScriptInvokerType InvokerType
+    public global::Iskra.StdWeb.ScriptInvokerType InvokerType
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new string Invoker
+    public string Invoker
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new double ExecutionStart
+    public double ExecutionStart
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new string SourceURL
+    public string SourceURL
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new string SourceFunctionName
+    public string SourceFunctionName
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new long SourceCharPosition
+    public long SourceCharPosition
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new double PauseDuration
+    public double PauseDuration
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new double ForcedStyleAndLayoutDuration
+    public double ForcedStyleAndLayoutDuration
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.Window? Window
+    public global::Iskra.StdWeb.Window? Window
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class PerformanceScriptTiming(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.ScriptWindowAttribution WindowAttribution
+    public global::Iskra.StdWeb.ScriptWindowAttribution WindowAttribution
     {
         get
         {

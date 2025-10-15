@@ -50,7 +50,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public new double RenderStart
+    public double RenderStart
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public new double StyleAndLayoutStart
+    public double StyleAndLayoutStart
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public new double BlockingDuration
+    public double BlockingDuration
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public new double FirstUIEventTimestamp
+    public double FirstUIEventTimestamp
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Scripts
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Scripts
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaStream(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool Active
+    public bool Active
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MediaStream(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class MediaStream(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
     {
         get
         {

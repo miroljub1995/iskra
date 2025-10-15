@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class FontData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string PostscriptName
+    public string PostscriptName
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string FullName
+    public string FullName
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Family
+    public string Family
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Style
+    public string Style
     {
         get
         {

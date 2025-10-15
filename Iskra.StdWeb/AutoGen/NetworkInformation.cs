@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NetworkInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.ConnectionType Type
+    public global::Iskra.StdWeb.ConnectionType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.StdWeb.EffectiveConnectionType EffectiveType
+    public global::Iskra.StdWeb.EffectiveConnectionType EffectiveType
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new double DownlinkMax
+    public double DownlinkMax
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new double Downlink
+    public double Downlink
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new ulong Rtt
+    public ulong Rtt
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {

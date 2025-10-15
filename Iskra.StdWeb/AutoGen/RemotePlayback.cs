@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.RemotePlaybackState State
+    public global::Iskra.StdWeb.RemotePlaybackState State
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnecting
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnecting
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
         get
         {

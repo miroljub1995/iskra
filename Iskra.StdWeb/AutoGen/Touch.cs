@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new int Identifier
+    public int Identifier
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new global::Iskra.StdWeb.EventTarget Target
+    public global::Iskra.StdWeb.EventTarget Target
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double ScreenX
+    public double ScreenX
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double ScreenY
+    public double ScreenY
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double ClientX
+    public double ClientX
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double ClientY
+    public double ClientY
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double PageX
+    public double PageX
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double PageY
+    public double PageY
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new float RadiusX
+    public float RadiusX
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new float RadiusY
+    public float RadiusY
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new float RotationAngle
+    public float RotationAngle
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new float Force
+    public float Force
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new float AltitudeAngle
+    public float AltitudeAngle
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new float AzimuthAngle
+    public float AzimuthAngle
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new global::Iskra.StdWeb.TouchType TouchType
+    public global::Iskra.StdWeb.TouchType TouchType
     {
         get
         {

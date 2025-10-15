@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new global::Iskra.StdWeb.HTMLTableCaptionElement? Caption
+    public global::Iskra.StdWeb.HTMLTableCaptionElement? Caption
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLTableSectionElement? THead
+    public global::Iskra.StdWeb.HTMLTableSectionElement? THead
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLTableSectionElement? TFoot
+    public global::Iskra.StdWeb.HTMLTableSectionElement? TFoot
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLCollection TBodies
+    public global::Iskra.StdWeb.HTMLCollection TBodies
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLCollection Rows
+    public global::Iskra.StdWeb.HTMLCollection Rows
     {
         get
         {

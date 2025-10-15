@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUDeviceLostInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.GPUDeviceLostReason Reason
+    public global::Iskra.StdWeb.GPUDeviceLostReason Reason
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUDeviceLostInfo(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Message
+    public string Message
     {
         get
         {

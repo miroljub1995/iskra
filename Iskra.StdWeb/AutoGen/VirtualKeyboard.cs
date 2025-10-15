@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VirtualKeyboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.DOMRect BoundingRect
+    public global::Iskra.StdWeb.DOMRect BoundingRect
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool OverlaysContent
+    public bool OverlaysContent
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
     {
         get
         {

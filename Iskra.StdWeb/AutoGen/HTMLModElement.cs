@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Cite
+    public string Cite
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string DateTime
+    public string DateTime
     {
         get
         {

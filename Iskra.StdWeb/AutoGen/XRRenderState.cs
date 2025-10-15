@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRRenderState(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double DepthNear
+    public double DepthNear
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRRenderState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new double DepthFar
+    public double DepthFar
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRRenderState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new bool? PassthroughFullyObscured
+    public bool? PassthroughFullyObscured
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class XRRenderState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new double? InlineVerticalFieldOfView
+    public double? InlineVerticalFieldOfView
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class XRRenderState(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.XRWebGLLayer? BaseLayer
+    public global::Iskra.StdWeb.XRWebGLLayer? BaseLayer
     {
         get
         {

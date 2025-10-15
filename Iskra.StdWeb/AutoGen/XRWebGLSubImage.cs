@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRSubImage(obj)
 {
-    public new global::Iskra.StdWeb.WebGLTexture ColorTexture
+    public global::Iskra.StdWeb.WebGLTexture ColorTexture
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.WebGLTexture? DepthStencilTexture
+    public global::Iskra.StdWeb.WebGLTexture? DepthStencilTexture
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.WebGLTexture? MotionVectorTexture
+    public global::Iskra.StdWeb.WebGLTexture? MotionVectorTexture
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint? ImageIndex
+    public uint? ImageIndex
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint ColorTextureWidth
+    public uint ColorTextureWidth
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint ColorTextureHeight
+    public uint ColorTextureHeight
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint? DepthStencilTextureWidth
+    public uint? DepthStencilTextureWidth
     {
         get
         {
@@ -115,7 +115,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint? DepthStencilTextureHeight
+    public uint? DepthStencilTextureHeight
     {
         get
         {
@@ -134,7 +134,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint? MotionVectorTextureWidth
+    public uint? MotionVectorTextureWidth
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new uint? MotionVectorTextureHeight
+    public uint? MotionVectorTextureHeight
     {
         get
         {

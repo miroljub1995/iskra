@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ToggleEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new string OldState
+    public string OldState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ToggleEvent(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string NewState
+    public string NewState
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ToggleEvent(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.Element? Source
+    public global::Iskra.StdWeb.Element? Source
     {
         get
         {

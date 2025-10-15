@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class InputEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public new string? Data
+    public string? Data
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool IsComposing
+    public bool IsComposing
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string InputType
+    public string InputType
     {
         get
         {

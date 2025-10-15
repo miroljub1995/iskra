@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PageRevealEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.ViewTransition? ViewTransition
+    public global::Iskra.StdWeb.ViewTransition? ViewTransition
     {
         get
         {

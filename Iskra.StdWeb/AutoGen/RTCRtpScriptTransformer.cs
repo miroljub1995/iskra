@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.WritableStream Writable
+    public global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onkeyframerequest
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onkeyframerequest
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
         }
     }
 
-    public new object? Options
+    public object? Options
     {
         get
         {

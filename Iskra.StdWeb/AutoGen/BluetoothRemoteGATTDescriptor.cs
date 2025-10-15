@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic Characteristic
+    public global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic Characteristic
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.Intero
         }
     }
 
-    public new string Uuid
+    public string Uuid
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.Intero
         }
     }
 
-    public new global::Iskra.JSCore.DataView? Value
+    public global::Iskra.JSCore.DataView? Value
     {
         get
         {

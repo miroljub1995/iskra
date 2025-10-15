@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public new int ScreenX
+    public int ScreenX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int ScreenY
+    public int ScreenY
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int ClientX
+    public int ClientX
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int ClientY
+    public int ClientY
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int LayerX
+    public int LayerX
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new int LayerY
+    public int LayerY
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool CtrlKey
+    public bool CtrlKey
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool ShiftKey
+    public bool ShiftKey
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool AltKey
+    public bool AltKey
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool MetaKey
+    public bool MetaKey
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new short Button
+    public short Button
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new ushort Buttons
+    public ushort Buttons
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventTarget? RelatedTarget
+    public global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
         get
         {

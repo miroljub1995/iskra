@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RadioNodeList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): NodeList(obj)
 {
-    public new string Value
+    public string Value
     {
         get
         {

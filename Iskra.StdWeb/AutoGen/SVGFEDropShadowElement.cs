@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDropShadowElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDropShadowElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Dx
+    public global::Iskra.StdWeb.SVGAnimatedNumber Dx
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEDropShadowElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Dy
+    public global::Iskra.StdWeb.SVGAnimatedNumber Dy
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFEDropShadowElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber StdDeviationX
+    public global::Iskra.StdWeb.SVGAnimatedNumber StdDeviationX
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFEDropShadowElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber StdDeviationY
+    public global::Iskra.StdWeb.SVGAnimatedNumber StdDeviationY
     {
         get
         {

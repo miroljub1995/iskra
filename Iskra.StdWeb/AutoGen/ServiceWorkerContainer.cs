@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ServiceWorkerContainer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.ServiceWorker? Controller
+    public global::Iskra.StdWeb.ServiceWorker? Controller
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
         }
     }
 
-    public new object Ready
+    public object Ready
     {
         get
         {
@@ -35,7 +35,7 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncontrollerchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncontrollerchange
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -101,7 +101,7 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

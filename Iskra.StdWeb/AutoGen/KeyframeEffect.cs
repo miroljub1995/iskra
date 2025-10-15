@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AnimationEffect(obj)
 {
-    public new global::Iskra.StdWeb.Element? Target
+    public global::Iskra.StdWeb.Element? Target
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string? PseudoElement
+    public string? PseudoElement
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.CompositeOperation Composite
+    public global::Iskra.StdWeb.CompositeOperation Composite
     {
         get
         {

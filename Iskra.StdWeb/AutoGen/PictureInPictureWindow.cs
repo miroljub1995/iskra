@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PictureInPictureWindow(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new int Width
+    public int Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PictureInPictureWindow(global::System.Runtime.InteropServic
         }
     }
 
-    public new int Height
+    public int Height
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PictureInPictureWindow(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onresize
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onresize
     {
         get
         {

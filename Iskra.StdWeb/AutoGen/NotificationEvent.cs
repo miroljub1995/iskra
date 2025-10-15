@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NotificationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public new global::Iskra.StdWeb.Notification Notification
+    public global::Iskra.StdWeb.Notification Notification
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NotificationEvent(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Action
+    public string Action
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSourceElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Src
+    public string Src
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLSourceElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLSourceElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Srcset
+    public string Srcset
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLSourceElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Sizes
+    public string Sizes
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLSourceElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Media
+    public string Media
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLSourceElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint Width
+    public uint Width
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLSourceElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint Height
+    public uint Height
     {
         get
         {

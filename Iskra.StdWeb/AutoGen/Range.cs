@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbstractRange(obj)
 {
-    public new global::Iskra.StdWeb.Node CommonAncestorContainer
+    public global::Iskra.StdWeb.Node CommonAncestorContainer
     {
         get
         {

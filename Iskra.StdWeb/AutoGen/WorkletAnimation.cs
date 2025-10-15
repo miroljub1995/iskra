@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Animation(obj)
 {
-    public new string AnimatorName
+    public string AnimatorName
     {
         get
         {

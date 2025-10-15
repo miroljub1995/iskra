@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrackProcessor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {

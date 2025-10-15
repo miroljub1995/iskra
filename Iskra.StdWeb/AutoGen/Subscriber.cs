@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Subscriber(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool Active
+    public bool Active
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Subscriber(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.AbortSignal Signal
+    public global::Iskra.StdWeb.AbortSignal Signal
     {
         get
         {

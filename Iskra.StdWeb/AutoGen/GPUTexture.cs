@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint Width
+    public uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint Height
+    public uint Height
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint DepthOrArrayLayers
+    public uint DepthOrArrayLayers
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint MipLevelCount
+    public uint MipLevelCount
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint SampleCount
+    public uint SampleCount
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.GPUTextureDimension Dimension
+    public global::Iskra.StdWeb.GPUTextureDimension Dimension
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.GPUTextureFormat Format
+    public global::Iskra.StdWeb.GPUTextureFormat Format
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint Usage
+    public uint Usage
     {
         get
         {

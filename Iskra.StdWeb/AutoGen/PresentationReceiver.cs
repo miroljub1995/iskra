@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationReceiver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new object ConnectionList
+    public object ConnectionList
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Lock(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Lock(global::System.Runtime.InteropServices.JavaScript.JSOb
         }
     }
 
-    public new global::Iskra.StdWeb.LockMode Mode
+    public global::Iskra.StdWeb.LockMode Mode
     {
         get
         {

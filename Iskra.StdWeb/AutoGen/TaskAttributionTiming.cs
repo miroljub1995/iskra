@@ -50,7 +50,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public new string ContainerType
+    public string ContainerType
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public new string ContainerSrc
+    public string ContainerSrc
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public new string ContainerId
+    public string ContainerId
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class TaskAttributionTiming(global::System.Runtime.InteropService
         }
     }
 
-    public new string ContainerName
+    public string ContainerName
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.HTMLCanvasElement Canvas
+    public global::Iskra.StdWeb.HTMLCanvasElement Canvas
     {
         get
         {

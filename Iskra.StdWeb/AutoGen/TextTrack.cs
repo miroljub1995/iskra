@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.TextTrackKind Kind
+    public global::Iskra.StdWeb.TextTrackKind Kind
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Language
+    public string Language
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Id
+    public string Id
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string InBandMetadataTrackDispatchType
+    public string InBandMetadataTrackDispatchType
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.TextTrackMode Mode
+    public global::Iskra.StdWeb.TextTrackMode Mode
     {
         get
         {
@@ -78,7 +78,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.TextTrackCueList? Cues
+    public global::Iskra.StdWeb.TextTrackCueList? Cues
     {
         get
         {
@@ -97,7 +97,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.TextTrackCueList? ActiveCues
+    public global::Iskra.StdWeb.TextTrackCueList? ActiveCues
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncuechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncuechange
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageBitmap(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint Width
+    public uint Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ImageBitmap(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new uint Height
+    public uint Height
     {
         get
         {

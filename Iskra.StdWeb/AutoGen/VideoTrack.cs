@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string Kind
+    public string Kind
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string Language
+    public string Language
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool Selected
+    public bool Selected
     {
         get
         {

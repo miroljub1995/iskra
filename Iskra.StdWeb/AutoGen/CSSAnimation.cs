@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Animation(obj)
 {
-    public new string AnimationName
+    public string AnimationName
     {
         get
         {

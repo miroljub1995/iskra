@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSScopeRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSGroupingRule(obj)
 {
-    public new string? Start
+    public string? Start
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class CSSScopeRule(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string? End
+    public string? End
     {
         get
         {

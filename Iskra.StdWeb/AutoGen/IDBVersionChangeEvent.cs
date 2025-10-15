@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBVersionChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new ulong OldVersion
+    public ulong OldVersion
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBVersionChangeEvent(global::System.Runtime.InteropService
         }
     }
 
-    public new ulong? NewVersion
+    public ulong? NewVersion
     {
         get
         {

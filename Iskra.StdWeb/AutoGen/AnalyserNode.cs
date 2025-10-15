@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new uint FftSize
+    public uint FftSize
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new uint FrequencyBinCount
+    public uint FrequencyBinCount
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double MinDecibels
+    public double MinDecibels
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double MaxDecibels
+    public double MaxDecibels
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double SmoothingTimeConstant
+    public double SmoothingTimeConstant
     {
         get
         {

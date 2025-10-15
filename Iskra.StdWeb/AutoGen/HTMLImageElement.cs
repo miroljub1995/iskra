@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLImageElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Alt
+    public string Alt
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Src
+    public string Src
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Srcset
+    public string Srcset
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Sizes
+    public string Sizes
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string? CrossOrigin
+    public string? CrossOrigin
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string UseMap
+    public string UseMap
     {
         get
         {
@@ -124,7 +124,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool IsMap
+    public bool IsMap
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint Width
+    public uint Width
     {
         get
         {
@@ -158,7 +158,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint Height
+    public uint Height
     {
         get
         {
@@ -175,7 +175,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint NaturalWidth
+    public uint NaturalWidth
     {
         get
         {
@@ -186,7 +186,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint NaturalHeight
+    public uint NaturalHeight
     {
         get
         {
@@ -197,7 +197,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Complete
+    public bool Complete
     {
         get
         {
@@ -208,7 +208,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string CurrentSrc
+    public string CurrentSrc
     {
         get
         {
@@ -219,7 +219,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string ReferrerPolicy
+    public string ReferrerPolicy
     {
         get
         {
@@ -236,7 +236,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Decoding
+    public string Decoding
     {
         get
         {
@@ -253,7 +253,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Loading
+    public string Loading
     {
         get
         {
@@ -270,7 +270,7 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string FetchPriority
+    public string FetchPriority
     {
         get
         {

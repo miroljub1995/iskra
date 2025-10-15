@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.XREye Eye
+    public global::Iskra.StdWeb.XREye Eye
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new double? RecommendedViewportScale
+    public double? RecommendedViewportScale
     {
         get
         {

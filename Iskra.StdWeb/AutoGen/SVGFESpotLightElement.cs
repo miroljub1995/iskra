@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFESpotLightElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedNumber X
+    public global::Iskra.StdWeb.SVGAnimatedNumber X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Y
+    public global::Iskra.StdWeb.SVGAnimatedNumber Y
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Z
+    public global::Iskra.StdWeb.SVGAnimatedNumber Z
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber PointsAtX
+    public global::Iskra.StdWeb.SVGAnimatedNumber PointsAtX
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber PointsAtY
+    public global::Iskra.StdWeb.SVGAnimatedNumber PointsAtY
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber PointsAtZ
+    public global::Iskra.StdWeb.SVGAnimatedNumber PointsAtZ
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber SpecularExponent
+    public global::Iskra.StdWeb.SVGAnimatedNumber SpecularExponent
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class SVGFESpotLightElement(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber LimitingConeAngle
+    public global::Iskra.StdWeb.SVGAnimatedNumber LimitingConeAngle
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.MLOperandDataType DataType
+    public global::Iskra.StdWeb.MLOperandDataType DataType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Shape
+    public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Shape
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new bool Readable
+    public bool Readable
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new bool Writable
+    public bool Writable
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new bool Constant
+    public bool Constant
     {
         get
         {

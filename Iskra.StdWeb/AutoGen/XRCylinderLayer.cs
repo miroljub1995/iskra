@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCylinderLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
 {
-    public new global::Iskra.StdWeb.XRSpace Space
+    public global::Iskra.StdWeb.XRSpace Space
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class XRCylinderLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.XRRigidTransform Transform
+    public global::Iskra.StdWeb.XRRigidTransform Transform
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class XRCylinderLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new float Radius
+    public float Radius
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class XRCylinderLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new float CentralAngle
+    public float CentralAngle
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class XRCylinderLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new float AspectRatio
+    public float AspectRatio
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class XRCylinderLayer(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSFontFaceRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public new global::Iskra.StdWeb.CSSFontFaceDescriptors Style
+    public global::Iskra.StdWeb.CSSFontFaceDescriptors Style
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new global::Iskra.StdWeb.EventTarget? Target
+    public global::Iskra.StdWeb.EventTarget? Target
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new global::Iskra.StdWeb.EventTarget? SrcElement
+    public global::Iskra.StdWeb.EventTarget? SrcElement
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new global::Iskra.StdWeb.EventTarget? CurrentTarget
+    public global::Iskra.StdWeb.EventTarget? CurrentTarget
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new ushort EventPhase
+    public ushort EventPhase
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool CancelBubble
+    public bool CancelBubble
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool Bubbles
+    public bool Bubbles
     {
         get
         {
@@ -113,7 +113,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool Cancelable
+    public bool Cancelable
     {
         get
         {
@@ -124,7 +124,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool ReturnValue
+    public bool ReturnValue
     {
         get
         {
@@ -141,7 +141,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool DefaultPrevented
+    public bool DefaultPrevented
     {
         get
         {
@@ -152,7 +152,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool Composed
+    public bool Composed
     {
         get
         {
@@ -163,7 +163,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new bool IsTrusted
+    public bool IsTrusted
     {
         get
         {
@@ -174,7 +174,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         }
     }
 
-    public new double TimeStamp
+    public double TimeStamp
     {
         get
         {

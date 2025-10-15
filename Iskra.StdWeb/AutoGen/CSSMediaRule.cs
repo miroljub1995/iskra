@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSConditionRule(obj)
 {
-    public new global::Iskra.StdWeb.MediaList Media
+    public global::Iskra.StdWeb.MediaList Media
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool Matches
+    public bool Matches
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRDepthInformation(obj)
 {
-    public new global::Iskra.StdWeb.WebGLTexture Texture
+    public global::Iskra.StdWeb.WebGLTexture Texture
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.StdWeb.XRTextureType TextureType
+    public global::Iskra.StdWeb.XRTextureType TextureType
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
         }
     }
 
-    public new uint? ImageIndex
+    public uint? ImageIndex
     {
         get
         {

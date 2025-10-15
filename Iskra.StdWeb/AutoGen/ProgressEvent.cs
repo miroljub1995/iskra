@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new bool LengthComputable
+    public bool LengthComputable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new double Loaded
+    public double Loaded
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new double Total
+    public double Total
     {
         get
         {

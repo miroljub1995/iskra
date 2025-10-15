@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFrameElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Name
+    public string Name
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Scrolling
+    public string Scrolling
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Src
+    public string Src
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string FrameBorder
+    public string FrameBorder
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string LongDesc
+    public string LongDesc
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool NoResize
+    public bool NoResize
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.Document? ContentDocument
+    public global::Iskra.StdWeb.Document? ContentDocument
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.Window? ContentWindow
+    public global::Iskra.StdWeb.Window? ContentWindow
     {
         get
         {
@@ -146,7 +146,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string MarginHeight
+    public string MarginHeight
     {
         get
         {
@@ -163,7 +163,7 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string MarginWidth
+    public string MarginWidth
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSelectElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Disabled
+    public bool Disabled
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -59,7 +59,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Multiple
+    public bool Multiple
     {
         get
         {
@@ -76,7 +76,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Required
+    public bool Required
     {
         get
         {
@@ -110,7 +110,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint Size
+    public uint Size
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLOptionsCollection Options
+    public global::Iskra.StdWeb.HTMLOptionsCollection Options
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -166,7 +166,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLCollection SelectedOptions
+    public global::Iskra.StdWeb.HTMLCollection SelectedOptions
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new int SelectedIndex
+    public int SelectedIndex
     {
         get
         {
@@ -194,7 +194,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Value
+    public string Value
     {
         get
         {
@@ -211,7 +211,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -222,7 +222,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.ValidityState Validity
+    public global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -233,7 +233,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -244,7 +244,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.NodeList Labels
+    public global::Iskra.StdWeb.NodeList Labels
     {
         get
         {

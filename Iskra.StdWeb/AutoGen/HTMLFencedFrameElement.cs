@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new global::Iskra.StdWeb.FencedFrameConfig? Config
+    public global::Iskra.StdWeb.FencedFrameConfig? Config
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new string Width
+    public string Width
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new string Height
+    public string Height
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.DOMTokenList Sandbox
+    public global::Iskra.StdWeb.DOMTokenList Sandbox
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new string Allow
+    public string Allow
     {
         get
         {

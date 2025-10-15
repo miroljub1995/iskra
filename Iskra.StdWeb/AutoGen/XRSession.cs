@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSession(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.XRVisibilityState VisibilityState
+    public global::Iskra.StdWeb.XRVisibilityState VisibilityState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new float? FrameRate
+    public float? FrameRate
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? SupportedFrameRates
+    public global::Iskra.JSCore.Float32Array? SupportedFrameRates
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.XRRenderState RenderState
+    public global::Iskra.StdWeb.XRRenderState RenderState
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.XRInputSourceArray InputSources
+    public global::Iskra.StdWeb.XRInputSourceArray InputSources
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.XRInputSourceArray TrackedSources
+    public global::Iskra.StdWeb.XRInputSourceArray TrackedSources
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> EnabledFeatures
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> EnabledFeatures
     {
         get
         {
@@ -100,7 +100,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new bool IsSystemKeyboardSupported
+    public bool IsSystemKeyboardSupported
     {
         get
         {
@@ -111,7 +111,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onend
     {
         get
         {
@@ -144,7 +144,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oninputsourceschange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oninputsourceschange
     {
         get
         {
@@ -177,7 +177,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onselect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onselect
     {
         get
         {
@@ -210,7 +210,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onselectstart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onselectstart
     {
         get
         {
@@ -243,7 +243,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onselectend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onselectend
     {
         get
         {
@@ -276,7 +276,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsqueeze
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsqueeze
     {
         get
         {
@@ -309,7 +309,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsqueezestart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsqueezestart
     {
         get
         {
@@ -342,7 +342,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsqueezeend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsqueezeend
     {
         get
         {
@@ -375,7 +375,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onvisibilitychange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onvisibilitychange
     {
         get
         {
@@ -408,7 +408,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onframeratechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onframeratechange
     {
         get
         {

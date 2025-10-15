@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Subject
+    public string Subject
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Predicate
+    public string Predicate
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> Object
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> Object
     {
         get
         {

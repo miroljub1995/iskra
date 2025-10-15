@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ProximitySensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public new double? Distance
+    public double? Distance
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ProximitySensor(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new double? Max
+    public double? Max
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class ProximitySensor(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool? Near
+    public bool? Near
     {
         get
         {

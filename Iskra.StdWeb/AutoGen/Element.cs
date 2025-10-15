@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Element(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
-    public new string? NamespaceURI
+    public string? NamespaceURI
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string? Prefix
+    public string? Prefix
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string LocalName
+    public string LocalName
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string TagName
+    public string TagName
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string Id
+    public string Id
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string ClassName
+    public string ClassName
     {
         get
         {
@@ -100,7 +100,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.DOMTokenList ClassList
+    public global::Iskra.StdWeb.DOMTokenList ClassList
     {
         get
         {
@@ -111,7 +111,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string Slot
+    public string Slot
     {
         get
         {
@@ -128,7 +128,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.NamedNodeMap Attributes
+    public global::Iskra.StdWeb.NamedNodeMap Attributes
     {
         get
         {
@@ -139,7 +139,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.ShadowRoot? ShadowRoot
+    public global::Iskra.StdWeb.ShadowRoot? ShadowRoot
     {
         get
         {
@@ -158,7 +158,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.CustomElementRegistry? CustomElementRegistry
+    public global::Iskra.StdWeb.CustomElementRegistry? CustomElementRegistry
     {
         get
         {

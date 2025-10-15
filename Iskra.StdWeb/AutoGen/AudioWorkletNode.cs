@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.StdWeb.AudioParamMap Parameters
+    public global::Iskra.StdWeb.AudioParamMap Parameters
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.MessagePort Port
+    public global::Iskra.StdWeb.MessagePort Port
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onprocessorerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onprocessorerror
     {
         get
         {

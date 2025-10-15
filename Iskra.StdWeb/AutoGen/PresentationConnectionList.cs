@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Connections
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Connections
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class PresentationConnectionList(global::System.Runtime.InteropSe
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnectionavailable
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnectionavailable
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBIsochronousOutTransferPacket(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint BytesWritten
+    public uint BytesWritten
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class USBIsochronousOutTransferPacket(global::System.Runtime.Inte
         }
     }
 
-    public new global::Iskra.StdWeb.USBTransferStatus Status
+    public global::Iskra.StdWeb.USBTransferStatus Status
     {
         get
         {

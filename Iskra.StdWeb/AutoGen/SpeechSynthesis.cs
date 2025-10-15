@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesis(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new bool Pending
+    public bool Pending
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool Speaking
+    public bool Speaking
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool Paused
+    public bool Paused
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onvoiceschanged
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onvoiceschanged
     {
         get
         {

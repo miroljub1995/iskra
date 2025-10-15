@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Selection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Node? AnchorNode
+    public global::Iskra.StdWeb.Node? AnchorNode
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new uint AnchorOffset
+    public uint AnchorOffset
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.Node? FocusNode
+    public global::Iskra.StdWeb.Node? FocusNode
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new uint FocusOffset
+    public uint FocusOffset
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new bool IsCollapsed
+    public bool IsCollapsed
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new uint RangeCount
+    public uint RangeCount
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -99,7 +99,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Direction
+    public string Direction
     {
         get
         {

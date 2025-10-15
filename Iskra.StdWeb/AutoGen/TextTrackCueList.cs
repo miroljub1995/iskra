@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextTrackCueList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEImageElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
+    public global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEImageElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedString CrossOrigin
+    public global::Iskra.StdWeb.SVGAnimatedString CrossOrigin
     {
         get
         {

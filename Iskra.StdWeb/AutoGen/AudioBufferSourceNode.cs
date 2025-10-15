@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioBufferSourceNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioScheduledSourceNode(obj)
 {
-    public new global::Iskra.StdWeb.AudioBuffer? Buffer
+    public global::Iskra.StdWeb.AudioBuffer? Buffer
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam PlaybackRate
+    public global::Iskra.StdWeb.AudioParam PlaybackRate
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam Detune
+    public global::Iskra.StdWeb.AudioParam Detune
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         }
     }
 
-    public new bool Loop
+    public bool Loop
     {
         get
         {
@@ -78,7 +78,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         }
     }
 
-    public new double LoopStart
+    public double LoopStart
     {
         get
         {
@@ -95,7 +95,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         }
     }
 
-    public new double LoopEnd
+    public double LoopEnd
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PortalActivateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new object? Data
+    public object? Data
     {
         get
         {

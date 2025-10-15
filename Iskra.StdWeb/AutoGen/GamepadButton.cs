@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadButton(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool Pressed
+    public bool Pressed
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GamepadButton(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new bool Touched
+    public bool Touched
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GamepadButton(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new double Value
+    public double Value
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPositionTryRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public new string Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSPositionTryRule(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.StdWeb.CSSPositionTryDescriptors Style
+    public global::Iskra.StdWeb.CSSPositionTryDescriptors Style
     {
         get
         {

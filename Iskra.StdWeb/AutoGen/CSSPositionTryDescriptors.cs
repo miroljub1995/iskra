@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleDeclaration(obj)
 {
-    public new string Margin
+    public string Margin
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginTop
+    public string MarginTop
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginRight
+    public string MarginRight
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginBottom
+    public string MarginBottom
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginLeft
+    public string MarginLeft
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginBlock
+    public string MarginBlock
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginBlockStart
+    public string MarginBlockStart
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginBlockEnd
+    public string MarginBlockEnd
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginInline
+    public string MarginInline
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginInlineStart
+    public string MarginInlineStart
     {
         get
         {
@@ -176,7 +176,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MarginInlineEnd
+    public string MarginInlineEnd
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_top
+    public string Margin_top
     {
         get
         {
@@ -210,7 +210,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_right
+    public string Margin_right
     {
         get
         {
@@ -227,7 +227,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_bottom
+    public string Margin_bottom
     {
         get
         {
@@ -244,7 +244,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_left
+    public string Margin_left
     {
         get
         {
@@ -261,7 +261,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_block
+    public string Margin_block
     {
         get
         {
@@ -278,7 +278,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_block_start
+    public string Margin_block_start
     {
         get
         {
@@ -295,7 +295,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_block_end
+    public string Margin_block_end
     {
         get
         {
@@ -312,7 +312,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_inline
+    public string Margin_inline
     {
         get
         {
@@ -329,7 +329,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_inline_start
+    public string Margin_inline_start
     {
         get
         {
@@ -346,7 +346,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Margin_inline_end
+    public string Margin_inline_end
     {
         get
         {
@@ -363,7 +363,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset
+    public string Inset
     {
         get
         {
@@ -380,7 +380,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InsetBlock
+    public string InsetBlock
     {
         get
         {
@@ -397,7 +397,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InsetBlockStart
+    public string InsetBlockStart
     {
         get
         {
@@ -414,7 +414,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InsetBlockEnd
+    public string InsetBlockEnd
     {
         get
         {
@@ -431,7 +431,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InsetInline
+    public string InsetInline
     {
         get
         {
@@ -448,7 +448,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InsetInlineStart
+    public string InsetInlineStart
     {
         get
         {
@@ -465,7 +465,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InsetInlineEnd
+    public string InsetInlineEnd
     {
         get
         {
@@ -482,7 +482,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Top
+    public string Top
     {
         get
         {
@@ -499,7 +499,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Left
+    public string Left
     {
         get
         {
@@ -516,7 +516,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Right
+    public string Right
     {
         get
         {
@@ -533,7 +533,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Bottom
+    public string Bottom
     {
         get
         {
@@ -550,7 +550,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset_block
+    public string Inset_block
     {
         get
         {
@@ -567,7 +567,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset_block_start
+    public string Inset_block_start
     {
         get
         {
@@ -584,7 +584,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset_block_end
+    public string Inset_block_end
     {
         get
         {
@@ -601,7 +601,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset_inline
+    public string Inset_inline
     {
         get
         {
@@ -618,7 +618,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset_inline_start
+    public string Inset_inline_start
     {
         get
         {
@@ -635,7 +635,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inset_inline_end
+    public string Inset_inline_end
     {
         get
         {
@@ -652,7 +652,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Width
+    public string Width
     {
         get
         {
@@ -669,7 +669,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MinWidth
+    public string MinWidth
     {
         get
         {
@@ -686,7 +686,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MaxWidth
+    public string MaxWidth
     {
         get
         {
@@ -703,7 +703,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Height
+    public string Height
     {
         get
         {
@@ -720,7 +720,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MinHeight
+    public string MinHeight
     {
         get
         {
@@ -737,7 +737,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MaxHeight
+    public string MaxHeight
     {
         get
         {
@@ -754,7 +754,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string BlockSize
+    public string BlockSize
     {
         get
         {
@@ -771,7 +771,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MinBlockSize
+    public string MinBlockSize
     {
         get
         {
@@ -788,7 +788,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MaxBlockSize
+    public string MaxBlockSize
     {
         get
         {
@@ -805,7 +805,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string InlineSize
+    public string InlineSize
     {
         get
         {
@@ -822,7 +822,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MinInlineSize
+    public string MinInlineSize
     {
         get
         {
@@ -839,7 +839,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string MaxInlineSize
+    public string MaxInlineSize
     {
         get
         {
@@ -856,7 +856,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Min_width
+    public string Min_width
     {
         get
         {
@@ -873,7 +873,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Max_width
+    public string Max_width
     {
         get
         {
@@ -890,7 +890,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Min_height
+    public string Min_height
     {
         get
         {
@@ -907,7 +907,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Max_height
+    public string Max_height
     {
         get
         {
@@ -924,7 +924,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Block_size
+    public string Block_size
     {
         get
         {
@@ -941,7 +941,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Min_block_size
+    public string Min_block_size
     {
         get
         {
@@ -958,7 +958,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Max_block_size
+    public string Max_block_size
     {
         get
         {
@@ -975,7 +975,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Inline_size
+    public string Inline_size
     {
         get
         {
@@ -992,7 +992,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Min_inline_size
+    public string Min_inline_size
     {
         get
         {
@@ -1009,7 +1009,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Max_inline_size
+    public string Max_inline_size
     {
         get
         {
@@ -1026,7 +1026,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string PlaceSelf
+    public string PlaceSelf
     {
         get
         {
@@ -1043,7 +1043,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string AlignSelf
+    public string AlignSelf
     {
         get
         {
@@ -1060,7 +1060,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string JustifySelf
+    public string JustifySelf
     {
         get
         {
@@ -1077,7 +1077,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Place_self
+    public string Place_self
     {
         get
         {
@@ -1094,7 +1094,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Align_self
+    public string Align_self
     {
         get
         {
@@ -1111,7 +1111,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Justify_self
+    public string Justify_self
     {
         get
         {
@@ -1128,7 +1128,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string PositionAnchor
+    public string PositionAnchor
     {
         get
         {
@@ -1145,7 +1145,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Position_anchor
+    public string Position_anchor
     {
         get
         {
@@ -1162,7 +1162,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string PositionArea
+    public string PositionArea
     {
         get
         {
@@ -1179,7 +1179,7 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
         }
     }
 
-    public new string Position_area
+    public string Position_area
     {
         get
         {

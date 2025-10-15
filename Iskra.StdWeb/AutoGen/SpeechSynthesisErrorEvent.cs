@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SpeechSynthesisEvent(obj)
 {
-    public new global::Iskra.StdWeb.SpeechSynthesisErrorCode Error
+    public global::Iskra.StdWeb.SpeechSynthesisErrorCode Error
     {
         get
         {

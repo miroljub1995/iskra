@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDirectoryElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new bool Compact
+    public bool Compact
     {
         get
         {

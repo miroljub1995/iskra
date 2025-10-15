@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MessageEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new object? Data
+    public object? Data
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MessageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Origin
+    public string Origin
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MessageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string LastEventId
+    public string LastEventId
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MessageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class MessageEvent(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Ports
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Ports
     {
         get
         {

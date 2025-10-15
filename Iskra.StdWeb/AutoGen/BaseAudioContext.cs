@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BaseAudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.AudioDestinationNode Destination
+    public global::Iskra.StdWeb.AudioDestinationNode Destination
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new float SampleRate
+    public float SampleRate
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double CurrentTime
+    public double CurrentTime
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.AudioListener Listener
+    public global::Iskra.StdWeb.AudioListener Listener
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.AudioContextState State
+    public global::Iskra.StdWeb.AudioContextState State
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint RenderQuantumSize
+    public uint RenderQuantumSize
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.AudioWorklet AudioWorklet
+    public global::Iskra.StdWeb.AudioWorklet AudioWorklet
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

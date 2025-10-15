@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DelayNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.StdWeb.AudioParam DelayTime
+    public global::Iskra.StdWeb.AudioParam DelayTime
     {
         get
         {

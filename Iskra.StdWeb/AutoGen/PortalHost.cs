@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PortalHost(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PortalHost(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessageerror
     {
         get
         {

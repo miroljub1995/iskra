@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Label
+    public string Label
     {
         get
         {

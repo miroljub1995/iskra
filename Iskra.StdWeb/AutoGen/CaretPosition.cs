@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CaretPosition(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Node OffsetNode
+    public global::Iskra.StdWeb.Node OffsetNode
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CaretPosition(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new uint Offset
+    public uint Offset
     {
         get
         {

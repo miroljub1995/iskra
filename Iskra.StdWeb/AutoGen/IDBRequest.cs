@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new object? Result
+    public object? Result
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.DOMException? Error
+    public global::Iskra.StdWeb.DOMException? Error
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? Source
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.IDBTransaction? Transaction
+    public global::Iskra.StdWeb.IDBTransaction? Transaction
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.IDBRequestReadyState ReadyState
+    public global::Iskra.StdWeb.IDBRequestReadyState ReadyState
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsuccess
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsuccess
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {

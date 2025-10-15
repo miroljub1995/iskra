@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechRecognition(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.SpeechGrammarList Grammars
+    public global::Iskra.StdWeb.SpeechGrammarList Grammars
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Lang
+    public string Lang
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Continuous
+    public bool Continuous
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool InterimResults
+    public bool InterimResults
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint MaxAlternatives
+    public uint MaxAlternatives
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool ProcessLocally
+    public bool ProcessLocally
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new object Phrases
+    public object Phrases
     {
         get
         {
@@ -122,7 +122,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaudiostart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onaudiostart
     {
         get
         {
@@ -155,7 +155,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsoundstart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsoundstart
     {
         get
         {
@@ -188,7 +188,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onspeechstart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onspeechstart
     {
         get
         {
@@ -221,7 +221,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onspeechend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onspeechend
     {
         get
         {
@@ -254,7 +254,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onsoundend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onsoundend
     {
         get
         {
@@ -287,7 +287,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaudioend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onaudioend
     {
         get
         {
@@ -320,7 +320,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onresult
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onresult
     {
         get
         {
@@ -353,7 +353,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onnomatch
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onnomatch
     {
         get
         {
@@ -386,7 +386,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -419,7 +419,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstart
     {
         get
         {
@@ -452,7 +452,7 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onend
     {
         get
         {

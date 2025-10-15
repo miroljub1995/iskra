@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class StereoPannerNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.StdWeb.AudioParam Pan
+    public global::Iskra.StdWeb.AudioParam Pan
     {
         get
         {

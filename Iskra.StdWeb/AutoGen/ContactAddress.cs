@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ContactAddress(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string City
+    public string City
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Country
+    public string Country
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string DependentLocality
+    public string DependentLocality
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Organization
+    public string Organization
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Phone
+    public string Phone
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string PostalCode
+    public string PostalCode
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Recipient
+    public string Recipient
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Region
+    public string Region
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string SortingCode
+    public string SortingCode
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> AddressLine
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> AddressLine
     {
         get
         {

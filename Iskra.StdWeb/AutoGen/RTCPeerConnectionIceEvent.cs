@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.RTCIceCandidate? Candidate
+    public global::Iskra.StdWeb.RTCIceCandidate? Candidate
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public new string? Url
+    public string? Url
     {
         get
         {

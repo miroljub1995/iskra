@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ViewTransition(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new object UpdateCallbackDone
+    public object UpdateCallbackDone
     {
         get
         {
@@ -16,7 +16,7 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new object Ready
+    public object Ready
     {
         get
         {
@@ -26,7 +26,7 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new object Finished
+    public object Finished
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.ViewTransitionTypeSet Types
+    public global::Iskra.StdWeb.ViewTransitionTypeSet Types
     {
         get
         {

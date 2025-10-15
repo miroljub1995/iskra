@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRAnchor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.XRSpace AnchorSpace
+    public global::Iskra.StdWeb.XRSpace AnchorSpace
     {
         get
         {

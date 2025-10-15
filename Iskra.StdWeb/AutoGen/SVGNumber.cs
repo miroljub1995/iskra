@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGNumber(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new float Value
+    public float Value
     {
         get
         {

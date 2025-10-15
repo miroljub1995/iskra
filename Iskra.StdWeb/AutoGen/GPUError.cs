@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Message
+    public string Message
     {
         get
         {

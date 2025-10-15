@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutConstraints(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double AvailableInlineSize
+    public double AvailableInlineSize
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double AvailableBlockSize
+    public double AvailableBlockSize
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double? FixedInlineSize
+    public double? FixedInlineSize
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double? FixedBlockSize
+    public double? FixedBlockSize
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double PercentageInlineSize
+    public double PercentageInlineSize
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double PercentageBlockSize
+    public double PercentageBlockSize
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double? BlockFragmentationOffset
+    public double? BlockFragmentationOffset
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.BlockFragmentationType BlockFragmentationType
+    public global::Iskra.StdWeb.BlockFragmentationType BlockFragmentationType
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class LayoutConstraints(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new object? Data
+    public object? Data
     {
         get
         {

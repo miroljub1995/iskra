@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public new global::Iskra.StdWeb.PushMessageData? Data
+    public global::Iskra.StdWeb.PushMessageData? Data
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class PushEvent(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.Notification? Notification
+    public global::Iskra.StdWeb.Notification? Notification
     {
         get
         {

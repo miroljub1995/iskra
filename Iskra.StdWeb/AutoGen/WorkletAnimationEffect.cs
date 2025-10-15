@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletAnimationEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double? LocalTime
+    public double? LocalTime
     {
         get
         {

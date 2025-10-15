@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDiffuseLightingElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEDiffuseLightingElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber SurfaceScale
+    public global::Iskra.StdWeb.SVGAnimatedNumber SurfaceScale
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEDiffuseLightingElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber DiffuseConstant
+    public global::Iskra.StdWeb.SVGAnimatedNumber DiffuseConstant
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFEDiffuseLightingElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
+    public global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthX
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFEDiffuseLightingElement(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
+    public global::Iskra.StdWeb.SVGAnimatedNumber KernelUnitLengthY
     {
         get
         {

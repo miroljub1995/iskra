@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportBidirectionalStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.WebTransportReceiveStream Readable
+    public global::Iskra.StdWeb.WebTransportReceiveStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebTransportBidirectionalStream(global::System.Runtime.Inte
         }
     }
 
-    public new global::Iskra.StdWeb.WebTransportSendStream Writable
+    public global::Iskra.StdWeb.WebTransportSendStream Writable
     {
         get
         {

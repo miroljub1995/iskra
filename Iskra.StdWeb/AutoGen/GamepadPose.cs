@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool HasOrientation
+    public bool HasOrientation
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool HasPosition
+    public bool HasPosition
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? Position
+    public global::Iskra.JSCore.Float32Array? Position
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? LinearVelocity
+    public global::Iskra.JSCore.Float32Array? LinearVelocity
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? LinearAcceleration
+    public global::Iskra.JSCore.Float32Array? LinearAcceleration
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? Orientation
+    public global::Iskra.JSCore.Float32Array? Orientation
     {
         get
         {
@@ -104,7 +104,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? AngularVelocity
+    public global::Iskra.JSCore.Float32Array? AngularVelocity
     {
         get
         {
@@ -123,7 +123,7 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Float32Array? AngularAcceleration
+    public global::Iskra.JSCore.Float32Array? AngularAcceleration
     {
         get
         {

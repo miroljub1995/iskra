@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MLOperand(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.MLOperandDataType DataType
+    public global::Iskra.StdWeb.MLOperandDataType DataType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MLOperand(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Shape
+    public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Shape
     {
         get
         {

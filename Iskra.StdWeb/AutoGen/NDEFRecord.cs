@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string RecordType
+    public string RecordType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? MediaType
+    public string? MediaType
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? Id
+    public string? Id
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.JSCore.DataView? Data
+    public global::Iskra.JSCore.DataView? Data
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? Encoding
+    public string? Encoding
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? Lang
+    public string? Lang
     {
         get
         {

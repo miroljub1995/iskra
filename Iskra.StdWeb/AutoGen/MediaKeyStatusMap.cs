@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeyStatusMap(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint Size
+    public uint Size
     {
         get
         {

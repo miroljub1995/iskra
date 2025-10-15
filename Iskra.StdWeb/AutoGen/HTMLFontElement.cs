@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFontElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Color
+    public string Color
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Face
+    public string Face
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Size
+    public string Size
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new object Ready
+    public object Ready
     {
         get
         {
@@ -16,7 +16,7 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -27,7 +27,7 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int SelectedIndex
+    public int SelectedIndex
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.ImageTrack? SelectedTrack
+    public global::Iskra.StdWeb.ImageTrack? SelectedTrack
     {
         get
         {

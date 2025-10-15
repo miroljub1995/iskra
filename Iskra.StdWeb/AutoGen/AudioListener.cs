@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioListener(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.AudioParam PositionX
+    public global::Iskra.StdWeb.AudioParam PositionX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam PositionY
+    public global::Iskra.StdWeb.AudioParam PositionY
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam PositionZ
+    public global::Iskra.StdWeb.AudioParam PositionZ
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam ForwardX
+    public global::Iskra.StdWeb.AudioParam ForwardX
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam ForwardY
+    public global::Iskra.StdWeb.AudioParam ForwardY
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam ForwardZ
+    public global::Iskra.StdWeb.AudioParam ForwardZ
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam UpX
+    public global::Iskra.StdWeb.AudioParam UpX
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam UpY
+    public global::Iskra.StdWeb.AudioParam UpY
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.AudioParam UpZ
+    public global::Iskra.StdWeb.AudioParam UpZ
     {
         get
         {

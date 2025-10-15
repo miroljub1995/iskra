@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
     {
         get
         {

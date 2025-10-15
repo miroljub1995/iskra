@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AmbientLightSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public new double? Illuminance
+    public double? Illuminance
     {
         get
         {

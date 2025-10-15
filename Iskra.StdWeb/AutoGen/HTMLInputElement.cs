@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLInputElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Accept
+    public string Accept
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Alpha
+    public bool Alpha
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Alt
+    public string Alt
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Autocomplete
+    public string Autocomplete
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool DefaultChecked
+    public bool DefaultChecked
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Checked
+    public bool Checked
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string ColorSpace
+    public string ColorSpace
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string DirName
+    public string DirName
     {
         get
         {
@@ -142,7 +142,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Disabled
+    public bool Disabled
     {
         get
         {
@@ -159,7 +159,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -178,7 +178,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.FileList? Files
+    public global::Iskra.StdWeb.FileList? Files
     {
         get
         {
@@ -211,7 +211,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string FormAction
+    public string FormAction
     {
         get
         {
@@ -228,7 +228,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string FormEnctype
+    public string FormEnctype
     {
         get
         {
@@ -245,7 +245,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string FormMethod
+    public string FormMethod
     {
         get
         {
@@ -262,7 +262,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool FormNoValidate
+    public bool FormNoValidate
     {
         get
         {
@@ -279,7 +279,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string FormTarget
+    public string FormTarget
     {
         get
         {
@@ -296,7 +296,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint Height
+    public uint Height
     {
         get
         {
@@ -313,7 +313,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Indeterminate
+    public bool Indeterminate
     {
         get
         {
@@ -330,7 +330,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLDataListElement? List
+    public global::Iskra.StdWeb.HTMLDataListElement? List
     {
         get
         {
@@ -349,7 +349,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Max
+    public string Max
     {
         get
         {
@@ -366,7 +366,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new int MaxLength
+    public int MaxLength
     {
         get
         {
@@ -383,7 +383,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Min
+    public string Min
     {
         get
         {
@@ -400,7 +400,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new int MinLength
+    public int MinLength
     {
         get
         {
@@ -417,7 +417,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Multiple
+    public bool Multiple
     {
         get
         {
@@ -434,7 +434,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -451,7 +451,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Pattern
+    public string Pattern
     {
         get
         {
@@ -468,7 +468,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Placeholder
+    public string Placeholder
     {
         get
         {
@@ -485,7 +485,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool ReadOnly
+    public bool ReadOnly
     {
         get
         {
@@ -502,7 +502,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool Required
+    public bool Required
     {
         get
         {
@@ -519,7 +519,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint Size
+    public uint Size
     {
         get
         {
@@ -536,7 +536,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Src
+    public string Src
     {
         get
         {
@@ -553,7 +553,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Step
+    public string Step
     {
         get
         {
@@ -570,7 +570,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -587,7 +587,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string DefaultValue
+    public string DefaultValue
     {
         get
         {
@@ -604,7 +604,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Value
+    public string Value
     {
         get
         {
@@ -621,7 +621,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject? ValueAsDate
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? ValueAsDate
     {
         get
         {
@@ -654,7 +654,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double ValueAsNumber
+    public double ValueAsNumber
     {
         get
         {
@@ -671,7 +671,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint Width
+    public uint Width
     {
         get
         {
@@ -688,7 +688,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -699,7 +699,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.ValidityState Validity
+    public global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -710,7 +710,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -721,7 +721,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.NodeList? Labels
+    public global::Iskra.StdWeb.NodeList? Labels
     {
         get
         {
@@ -740,7 +740,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint? SelectionStart
+    public uint? SelectionStart
     {
         get
         {
@@ -773,7 +773,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new uint? SelectionEnd
+    public uint? SelectionEnd
     {
         get
         {
@@ -806,7 +806,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string? SelectionDirection
+    public string? SelectionDirection
     {
         get
         {

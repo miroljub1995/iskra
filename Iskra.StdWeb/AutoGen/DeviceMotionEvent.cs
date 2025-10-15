@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.DeviceMotionEventAcceleration? Acceleration
+    public global::Iskra.StdWeb.DeviceMotionEventAcceleration? Acceleration
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.DeviceMotionEventAcceleration? AccelerationIncludingGravity
+    public global::Iskra.StdWeb.DeviceMotionEventAcceleration? AccelerationIncludingGravity
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.DeviceMotionEventRotationRate? RotationRate
+    public global::Iskra.StdWeb.DeviceMotionEventRotationRate? RotationRate
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new double Interval
+    public double Interval
     {
         get
         {

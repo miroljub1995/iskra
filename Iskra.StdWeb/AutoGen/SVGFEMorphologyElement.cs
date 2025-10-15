@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEMorphologyElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedString In1
+    public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFEMorphologyElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration Operator
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration Operator
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFEMorphologyElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber RadiusX
+    public global::Iskra.StdWeb.SVGAnimatedNumber RadiusX
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFEMorphologyElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber RadiusY
+    public global::Iskra.StdWeb.SVGAnimatedNumber RadiusY
     {
         get
         {

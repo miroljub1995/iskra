@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMeterElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new double Value
+    public double Value
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double Min
+    public double Min
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double Max
+    public double Max
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double Low
+    public double Low
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double High
+    public double High
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double Optimum
+    public double Optimum
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.NodeList Labels
+    public global::Iskra.StdWeb.NodeList Labels
     {
         get
         {

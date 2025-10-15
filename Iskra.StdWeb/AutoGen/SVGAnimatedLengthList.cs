@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAnimatedLengthList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.SVGLengthList BaseVal
+    public global::Iskra.StdWeb.SVGLengthList BaseVal
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGAnimatedLengthList(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.SVGLengthList AnimVal
+    public global::Iskra.StdWeb.SVGLengthList AnimVal
     {
         get
         {

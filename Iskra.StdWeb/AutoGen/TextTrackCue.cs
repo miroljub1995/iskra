@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.TextTrack? Track
+    public global::Iskra.StdWeb.TextTrack? Track
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string Id
+    public string Id
     {
         get
         {
@@ -42,7 +42,7 @@ public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double StartTime
+    public double StartTime
     {
         get
         {
@@ -59,7 +59,7 @@ public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double EndTime
+    public double EndTime
     {
         get
         {
@@ -76,7 +76,7 @@ public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool PauseOnExit
+    public bool PauseOnExit
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onenter
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onenter
     {
         get
         {
@@ -126,7 +126,7 @@ public partial class TextTrackCue(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onexit
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onexit
     {
         get
         {

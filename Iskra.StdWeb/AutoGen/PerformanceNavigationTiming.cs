@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigationTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceResourceTiming(obj)
 {
-    public new double UnloadEventStart
+    public double UnloadEventStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double UnloadEventEnd
+    public double UnloadEventEnd
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double DomInteractive
+    public double DomInteractive
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double DomContentLoadedEventStart
+    public double DomContentLoadedEventStart
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double DomContentLoadedEventEnd
+    public double DomContentLoadedEventEnd
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double DomComplete
+    public double DomComplete
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double LoadEventStart
+    public double LoadEventStart
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double LoadEventEnd
+    public double LoadEventEnd
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.NavigationTimingType Type
+    public global::Iskra.StdWeb.NavigationTimingType Type
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new ushort RedirectCount
+    public ushort RedirectCount
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new double CriticalCHRestart
+    public double CriticalCHRestart
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         }
     }
 
-    public new global::Iskra.StdWeb.NotRestoredReasons? NotRestoredReasons
+    public global::Iskra.StdWeb.NotRestoredReasons? NotRestoredReasons
     {
         get
         {

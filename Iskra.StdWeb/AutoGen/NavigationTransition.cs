@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationTransition(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.NavigationType NavigationType
+    public global::Iskra.StdWeb.NavigationType NavigationType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
         }
     }
 
-    public new global::Iskra.StdWeb.NavigationHistoryEntry From
+    public global::Iskra.StdWeb.NavigationHistoryEntry From
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
         }
     }
 
-    public new object Committed
+    public object Committed
     {
         get
         {
@@ -38,7 +38,7 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
         }
     }
 
-    public new object Finished
+    public object Finished
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new uint NumberOfItems
+    public uint NumberOfItems
     {
         get
         {

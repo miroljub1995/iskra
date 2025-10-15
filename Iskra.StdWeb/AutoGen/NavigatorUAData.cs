@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Brands
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Brands
     {
         get
         {
@@ -18,7 +18,7 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool Mobile
+    public bool Mobile
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string Platform
+    public string Platform
     {
         get
         {

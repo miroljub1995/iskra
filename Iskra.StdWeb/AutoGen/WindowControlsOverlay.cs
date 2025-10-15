@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WindowControlsOverlay(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new bool Visible
+    public bool Visible
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSessionDescription(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.RTCSdpType Type
+    public global::Iskra.StdWeb.RTCSdpType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
         }
     }
 
-    public new string Sdp
+    public string Sdp
     {
         get
         {

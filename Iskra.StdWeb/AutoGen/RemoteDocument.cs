@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string ContentType
+    public string ContentType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string ContextUrl
+    public string ContextUrl
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new object? Document
+    public object? Document
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string DocumentUrl
+    public string DocumentUrl
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Profile
+    public string Profile
     {
         get
         {

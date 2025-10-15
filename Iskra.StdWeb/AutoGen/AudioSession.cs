@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioSession(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.AudioSessionType Type
+    public global::Iskra.StdWeb.AudioSessionType Type
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.AudioSessionState State
+    public global::Iskra.StdWeb.AudioSessionState State
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

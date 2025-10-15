@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSctpTransport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.RTCDtlsTransport Transport
+    public global::Iskra.StdWeb.RTCDtlsTransport Transport
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.RTCSctpTransportState State
+    public global::Iskra.StdWeb.RTCSctpTransportState State
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new double MaxMessageSize
+    public double MaxMessageSize
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new ushort? MaxChannels
+    public ushort? MaxChannels
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {

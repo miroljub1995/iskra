@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceElementTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public new double RenderTime
+    public double RenderTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new double LoadTime
+    public double LoadTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
+    public global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new string Identifier
+    public string Identifier
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new uint NaturalWidth
+    public uint NaturalWidth
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new uint NaturalHeight
+    public uint NaturalHeight
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.Element? Element
+    public global::Iskra.StdWeb.Element? Element
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
         }
     }
 
-    public new string Url
+    public string Url
     {
         get
         {

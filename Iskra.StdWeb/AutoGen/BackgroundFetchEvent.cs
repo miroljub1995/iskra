@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BackgroundFetchEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public new global::Iskra.StdWeb.BackgroundFetchRegistration Registration
+    public global::Iskra.StdWeb.BackgroundFetchRegistration Registration
     {
         get
         {

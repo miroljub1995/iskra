@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.RTCError Error
+    public global::Iskra.StdWeb.RTCError Error
     {
         get
         {

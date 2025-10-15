@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Element(obj)
 {
-    public new string Title
+    public string Title
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string Lang
+    public string Lang
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool Translate
+    public bool Translate
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string Dir
+    public string Dir
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<bool, double, string, global::Iskra.StdWeb.GenericMarshaller.Union>? Hidden
+    public global::Iskra.JSCore.Generics.Union<bool, double, string, global::Iskra.StdWeb.GenericMarshaller.Union>? Hidden
     {
         get
         {
@@ -95,7 +95,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool Inert
+    public bool Inert
     {
         get
         {
@@ -112,7 +112,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string AccessKey
+    public string AccessKey
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string AccessKeyLabel
+    public string AccessKeyLabel
     {
         get
         {
@@ -140,7 +140,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool Draggable
+    public bool Draggable
     {
         get
         {
@@ -157,7 +157,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool Spellcheck
+    public bool Spellcheck
     {
         get
         {
@@ -174,7 +174,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string WritingSuggestions
+    public string WritingSuggestions
     {
         get
         {
@@ -191,7 +191,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string Autocapitalize
+    public string Autocapitalize
     {
         get
         {
@@ -208,7 +208,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool Autocorrect
+    public bool Autocorrect
     {
         get
         {
@@ -225,7 +225,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string InnerText
+    public string InnerText
     {
         get
         {
@@ -242,7 +242,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string OuterText
+    public string OuterText
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new string? Popover
+    public string? Popover
     {
         get
         {
@@ -292,7 +292,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new uint HeadingOffset
+    public uint HeadingOffset
     {
         get
         {
@@ -309,7 +309,7 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new bool HeadingReset
+    public bool HeadingReset
     {
         get
         {

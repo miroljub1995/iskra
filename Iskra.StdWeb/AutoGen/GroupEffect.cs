@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.AnimationNodeList Children
+    public global::Iskra.StdWeb.AnimationNodeList Children
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.AnimationEffect? FirstChild
+    public global::Iskra.StdWeb.AnimationEffect? FirstChild
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.AnimationEffect? LastChild
+    public global::Iskra.StdWeb.AnimationEffect? LastChild
     {
         get
         {

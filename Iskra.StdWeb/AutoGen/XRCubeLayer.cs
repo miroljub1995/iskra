@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRCubeLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
 {
-    public new global::Iskra.StdWeb.XRSpace Space
+    public global::Iskra.StdWeb.XRSpace Space
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class XRCubeLayer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.DOMPointReadOnly Orientation
+    public global::Iskra.StdWeb.DOMPointReadOnly Orientation
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class XRCubeLayer(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
         get
         {

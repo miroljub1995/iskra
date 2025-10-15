@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DeviceOrientationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new double? Alpha
+    public double? Alpha
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
         }
     }
 
-    public new double? Beta
+    public double? Beta
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
         }
     }
 
-    public new double? Gamma
+    public double? Gamma
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
         }
     }
 
-    public new bool Absolute
+    public bool Absolute
     {
         get
         {

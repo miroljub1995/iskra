@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public new string TopOrigin
+    public string TopOrigin
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string PaymentRequestOrigin
+    public string PaymentRequestOrigin
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string PaymentRequestId
+    public string PaymentRequestId
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> MethodData
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> MethodData
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject Total
+    public global::System.Runtime.InteropServices.JavaScript.JSObject Total
     {
         get
         {
@@ -62,7 +62,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Modifiers
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Modifiers
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject? PaymentOptions
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? PaymentOptions
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ShippingOptions
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ShippingOptions
     {
         get
         {

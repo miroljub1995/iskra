@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string Url
+    public string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new ushort ReadyState
+    public ushort ReadyState
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new ulong BufferedAmount
+    public ulong BufferedAmount
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onopen
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onopen
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclose
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Extensions
+    public string Extensions
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new string Protocol
+    public string Protocol
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.BinaryType BinaryType
+    public global::Iskra.StdWeb.BinaryType BinaryType
     {
         get
         {

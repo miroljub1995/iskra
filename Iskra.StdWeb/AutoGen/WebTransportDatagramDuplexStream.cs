@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportDatagramDuplexStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream Readable
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         }
     }
 
-    public new uint MaxDatagramSize
+    public uint MaxDatagramSize
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         }
     }
 
-    public new double? IncomingMaxAge
+    public double? IncomingMaxAge
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         }
     }
 
-    public new double? OutgoingMaxAge
+    public double? OutgoingMaxAge
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         }
     }
 
-    public new double IncomingHighWaterMark
+    public double IncomingHighWaterMark
     {
         get
         {
@@ -111,7 +111,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         }
     }
 
-    public new double OutgoingHighWaterMark
+    public double OutgoingHighWaterMark
     {
         get
         {

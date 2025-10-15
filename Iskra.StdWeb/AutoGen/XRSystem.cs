@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRSystem(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondevicechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ondevicechange
     {
         get
         {

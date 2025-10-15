@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.XRSpace MeshSpace
+    public global::Iskra.StdWeb.XRSpace MeshSpace
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vertices
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vertices
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.JSCore.Uint32Array Indices
+    public global::Iskra.JSCore.Uint32Array Indices
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new double LastChangedTime
+    public double LastChangedTime
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new string? SemanticLabel
+    public string? SemanticLabel
     {
         get
         {

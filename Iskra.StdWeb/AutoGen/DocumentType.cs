@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentType(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
-    public new string Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string PublicId
+    public string PublicId
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new string SystemId
+    public string SystemId
     {
         get
         {

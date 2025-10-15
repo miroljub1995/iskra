@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public new string Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string Src
+    public string Src
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string RenderingIntent
+    public string RenderingIntent
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string Components
+    public string Components
     {
         get
         {

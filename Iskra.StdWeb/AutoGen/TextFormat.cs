@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextFormat(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint RangeStart
+    public uint RangeStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint RangeEnd
+    public uint RangeEnd
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.UnderlineStyle UnderlineStyle
+    public global::Iskra.StdWeb.UnderlineStyle UnderlineStyle
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.UnderlineThickness UnderlineThickness
+    public global::Iskra.StdWeb.UnderlineThickness UnderlineThickness
     {
         get
         {

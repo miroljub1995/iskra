@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ElementInternals(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.ShadowRoot? ShadowRoot
+    public global::Iskra.StdWeb.ShadowRoot? ShadowRoot
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new bool WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.ValidityState Validity
+    public global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string ValidationMessage
+    public string ValidationMessage
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.NodeList Labels
+    public global::Iskra.StdWeb.NodeList Labels
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.CustomStateSet States
+    public global::Iskra.StdWeb.CustomStateSet States
     {
         get
         {

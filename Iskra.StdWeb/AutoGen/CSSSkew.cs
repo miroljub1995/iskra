@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSkew(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSTransformComponent(obj)
 {
-    public new global::Iskra.StdWeb.CSSNumericValue Ax
+    public global::Iskra.StdWeb.CSSNumericValue Ax
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSSkew(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.CSSNumericValue Ay
+    public global::Iskra.StdWeb.CSSNumericValue Ay
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string Label
+    public string Label
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool Ordered
+    public bool Ordered
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort? MaxPacketLifeTime
+    public ushort? MaxPacketLifeTime
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort? MaxRetransmits
+    public ushort? MaxRetransmits
     {
         get
         {
@@ -66,7 +66,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Protocol
+    public string Protocol
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool Negotiated
+    public bool Negotiated
     {
         get
         {
@@ -88,7 +88,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new ushort? Id
+    public ushort? Id
     {
         get
         {
@@ -107,7 +107,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.RTCDataChannelState ReadyState
+    public global::Iskra.StdWeb.RTCDataChannelState ReadyState
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint BufferedAmount
+    public uint BufferedAmount
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new uint BufferedAmountLowThreshold
+    public uint BufferedAmountLowThreshold
     {
         get
         {
@@ -146,7 +146,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onopen
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onopen
     {
         get
         {
@@ -179,7 +179,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onbufferedamountlow
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onbufferedamountlow
     {
         get
         {
@@ -212,7 +212,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -245,7 +245,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclosing
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onclosing
     {
         get
         {
@@ -278,7 +278,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onclose
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onclose
     {
         get
         {
@@ -311,7 +311,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
         get
         {
@@ -344,7 +344,7 @@ public partial class RTCDataChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.BinaryType BinaryType
+    public global::Iskra.StdWeb.BinaryType BinaryType
     {
         get
         {

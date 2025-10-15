@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double NativeProjectionScaleFactor
+    public double NativeProjectionScaleFactor
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool UsesDepthValues
+    public bool UsesDepthValues
     {
         get
         {

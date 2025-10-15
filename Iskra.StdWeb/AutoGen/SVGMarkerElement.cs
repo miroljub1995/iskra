@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMarkerElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedLength RefX
+    public global::Iskra.StdWeb.SVGAnimatedLength RefX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength RefY
+    public global::Iskra.StdWeb.SVGAnimatedLength RefY
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration MarkerUnits
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration MarkerUnits
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength MarkerWidth
+    public global::Iskra.StdWeb.SVGAnimatedLength MarkerWidth
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength MarkerHeight
+    public global::Iskra.StdWeb.SVGAnimatedLength MarkerHeight
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration OrientType
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration OrientType
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedAngle OrientAngle
+    public global::Iskra.StdWeb.SVGAnimatedAngle OrientAngle
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Orient
+    public string Orient
     {
         get
         {

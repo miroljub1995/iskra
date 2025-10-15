@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamTrackEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.MediaStreamTrack Track
+    public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.XRSpace PlaneSpace
+    public global::Iskra.StdWeb.XRSpace PlaneSpace
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Polygon
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Polygon
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new global::Iskra.StdWeb.XRPlaneOrientation? Orientation
+    public global::Iskra.StdWeb.XRPlaneOrientation? Orientation
     {
         get
         {
@@ -48,7 +48,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new double LastChangedTime
+    public double LastChangedTime
     {
         get
         {
@@ -59,7 +59,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public new string? SemanticLabel
+    public string? SemanticLabel
     {
         get
         {

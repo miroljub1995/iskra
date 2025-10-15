@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class InputDeviceCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool FiresTouchEvents
+    public bool FiresTouchEvents
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class InputDeviceCapabilities(global::System.Runtime.InteropServi
         }
     }
 
-    public new bool PointerMovementScrolls
+    public bool PointerMovementScrolls
     {
         get
         {

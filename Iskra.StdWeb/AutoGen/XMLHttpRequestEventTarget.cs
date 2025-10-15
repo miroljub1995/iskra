@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloadstart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onloadstart
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onload
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onload
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ontimeout
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ontimeout
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onloadend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onloadend
     {
         get
         {

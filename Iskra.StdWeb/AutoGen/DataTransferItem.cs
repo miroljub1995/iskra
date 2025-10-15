@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransferItem(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Kind
+    public string Kind
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {

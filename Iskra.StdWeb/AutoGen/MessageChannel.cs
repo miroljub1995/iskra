@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MessageChannel(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.MessagePort Port1
+    public global::Iskra.StdWeb.MessagePort Port1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MessageChannel(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.MessagePort Port2
+    public global::Iskra.StdWeb.MessagePort Port2
     {
         get
         {

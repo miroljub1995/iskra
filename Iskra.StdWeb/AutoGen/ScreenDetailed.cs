@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Screen(obj)
 {
-    public new int AvailLeft
+    public int AvailLeft
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int AvailTop
+    public int AvailTop
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int Left
+    public int Left
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new int Top
+    public int Top
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool IsPrimary
+    public bool IsPrimary
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new bool IsInternal
+    public bool IsInternal
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new float DevicePixelRatio
+    public float DevicePixelRatio
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {

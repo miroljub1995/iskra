@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGImageElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGraphicsElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedLength X
+    public global::Iskra.StdWeb.SVGAnimatedLength X
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGImageElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength Y
+    public global::Iskra.StdWeb.SVGAnimatedLength Y
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGImageElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength Width
+    public global::Iskra.StdWeb.SVGAnimatedLength Width
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGImageElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength Height
+    public global::Iskra.StdWeb.SVGAnimatedLength Height
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGImageElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
+    public global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGImageElement(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string? CrossOrigin
+    public string? CrossOrigin
     {
         get
         {

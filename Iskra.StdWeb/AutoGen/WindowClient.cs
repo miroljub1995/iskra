@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WindowClient(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Client(obj)
 {
-    public new global::Iskra.StdWeb.DocumentVisibilityState VisibilityState
+    public global::Iskra.StdWeb.DocumentVisibilityState VisibilityState
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool Focused
+    public bool Focused
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> AncestorOrigins
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> AncestorOrigins
     {
         get
         {

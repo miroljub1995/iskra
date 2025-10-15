@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class USBConnectionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.USBDevice Device
+    public global::Iskra.StdWeb.USBDevice Device
     {
         get
         {

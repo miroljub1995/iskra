@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.XRSession Session
+    public global::Iskra.StdWeb.XRSession Session
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Added
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Added
     {
         get
         {
@@ -29,7 +29,7 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Removed
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Removed
     {
         get
         {

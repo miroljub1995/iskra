@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? Href
+    public string? Href
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? OwnerNode
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? OwnerNode
     {
         get
         {
@@ -53,7 +53,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
+    public global::Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new string? Title
+    public string? Title
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.MediaList Media
+    public global::Iskra.StdWeb.MediaList Media
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool Disabled
+    public bool Disabled
     {
         get
         {

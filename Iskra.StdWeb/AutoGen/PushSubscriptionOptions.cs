@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PushSubscriptionOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new bool UserVisibleOnly
+    public bool UserVisibleOnly
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PushSubscriptionOptions(global::System.Runtime.InteropServi
         }
     }
 
-    public new global::Iskra.JSCore.ArrayBuffer? ApplicationServerKey
+    public global::Iskra.JSCore.ArrayBuffer? ApplicationServerKey
     {
         get
         {

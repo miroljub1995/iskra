@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public new object? Token
+    public object? Token
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new bool IsAutoSelected
+    public bool IsAutoSelected
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new string ConfigURL
+    public string ConfigURL
     {
         get
         {

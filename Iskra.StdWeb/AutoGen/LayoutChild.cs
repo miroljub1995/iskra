@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutChild(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.StylePropertyMapReadOnly StyleMap
+    public global::Iskra.StdWeb.StylePropertyMapReadOnly StyleMap
     {
         get
         {

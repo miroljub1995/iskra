@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.RTCRtpReceiver Receiver
+    public global::Iskra.StdWeb.RTCRtpReceiver Receiver
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.MediaStreamTrack Track
+    public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Streams
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Streams
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public new global::Iskra.StdWeb.RTCRtpTransceiver Transceiver
+    public global::Iskra.StdWeb.RTCRtpTransceiver Transceiver
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Client(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Url
+    public string Url
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.FrameType FrameType
+    public global::Iskra.StdWeb.FrameType FrameType
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new string Id
+    public string Id
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.ClientType Type
+    public global::Iskra.StdWeb.ClientType Type
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.AppendMode Mode
+    public global::Iskra.StdWeb.AppendMode Mode
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool Updating
+    public bool Updating
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.TimeRanges Buffered
+    public global::Iskra.StdWeb.TimeRanges Buffered
     {
         get
         {
@@ -45,7 +45,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double TimestampOffset
+    public double TimestampOffset
     {
         get
         {
@@ -62,7 +62,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.AudioTrackList AudioTracks
+    public global::Iskra.StdWeb.AudioTrackList AudioTracks
     {
         get
         {
@@ -73,7 +73,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.VideoTrackList VideoTracks
+    public global::Iskra.StdWeb.VideoTrackList VideoTracks
     {
         get
         {
@@ -84,7 +84,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.TextTrackList TextTracks
+    public global::Iskra.StdWeb.TextTrackList TextTracks
     {
         get
         {
@@ -95,7 +95,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double AppendWindowStart
+    public double AppendWindowStart
     {
         get
         {
@@ -112,7 +112,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new double AppendWindowEnd
+    public double AppendWindowEnd
     {
         get
         {
@@ -129,7 +129,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onupdatestart
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onupdatestart
     {
         get
         {
@@ -162,7 +162,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onupdate
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onupdate
     {
         get
         {
@@ -195,7 +195,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onupdateend
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onupdateend
     {
         get
         {
@@ -228,7 +228,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
@@ -261,7 +261,7 @@ public partial class SourceBuffer(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {

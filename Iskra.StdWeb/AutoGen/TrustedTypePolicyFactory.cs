@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TrustedTypePolicyFactory(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.TrustedHTML EmptyHTML
+    public global::Iskra.StdWeb.TrustedHTML EmptyHTML
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TrustedTypePolicyFactory(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.TrustedScript EmptyScript
+    public global::Iskra.StdWeb.TrustedScript EmptyScript
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TrustedTypePolicyFactory(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.TrustedTypePolicy? DefaultPolicy
+    public global::Iskra.StdWeb.TrustedTypePolicy? DefaultPolicy
     {
         get
         {

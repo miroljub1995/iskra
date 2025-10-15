@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationCoordinates(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double Accuracy
+    public double Accuracy
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
         }
     }
 
-    public new double Latitude
+    public double Latitude
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
         }
     }
 
-    public new double Longitude
+    public double Longitude
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
         }
     }
 
-    public new double? Altitude
+    public double? Altitude
     {
         get
         {
@@ -58,7 +58,7 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
         }
     }
 
-    public new double? AltitudeAccuracy
+    public double? AltitudeAccuracy
     {
         get
         {
@@ -77,7 +77,7 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
         }
     }
 
-    public new double? Heading
+    public double? Heading
     {
         get
         {
@@ -96,7 +96,7 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
         }
     }
 
-    public new double? Speed
+    public double? Speed
     {
         get
         {

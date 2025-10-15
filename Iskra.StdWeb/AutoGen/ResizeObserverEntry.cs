@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Element Target
+    public global::Iskra.StdWeb.Element Target
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.DOMRectReadOnly ContentRect
+    public global::Iskra.StdWeb.DOMRectReadOnly ContentRect
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> BorderBoxSize
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> BorderBoxSize
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ContentBoxSize
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ContentBoxSize
     {
         get
         {
@@ -52,7 +52,7 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> DevicePixelContentBoxSize
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> DevicePixelContentBoxSize
     {
         get
         {

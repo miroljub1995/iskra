@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Window(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.Window Window_
+    public global::Iskra.StdWeb.Window Window_
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Window Self
+    public global::Iskra.StdWeb.Window Self
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Document Document
+    public global::Iskra.StdWeb.Document Document
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -56,7 +56,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Location Location
+    public global::Iskra.StdWeb.Location Location
     {
         get
         {
@@ -67,7 +67,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.History History
+    public global::Iskra.StdWeb.History History
     {
         get
         {
@@ -78,7 +78,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Navigation Navigation
+    public global::Iskra.StdWeb.Navigation Navigation
     {
         get
         {
@@ -89,7 +89,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.CustomElementRegistry CustomElements
+    public global::Iskra.StdWeb.CustomElementRegistry CustomElements
     {
         get
         {
@@ -100,7 +100,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.BarProp Locationbar
+    public global::Iskra.StdWeb.BarProp Locationbar
     {
         get
         {
@@ -111,7 +111,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.BarProp Menubar
+    public global::Iskra.StdWeb.BarProp Menubar
     {
         get
         {
@@ -122,7 +122,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.BarProp Personalbar
+    public global::Iskra.StdWeb.BarProp Personalbar
     {
         get
         {
@@ -133,7 +133,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.BarProp Scrollbars
+    public global::Iskra.StdWeb.BarProp Scrollbars
     {
         get
         {
@@ -144,7 +144,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.BarProp Statusbar
+    public global::Iskra.StdWeb.BarProp Statusbar
     {
         get
         {
@@ -155,7 +155,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.BarProp Toolbar
+    public global::Iskra.StdWeb.BarProp Toolbar
     {
         get
         {
@@ -166,7 +166,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new string Status
+    public string Status
     {
         get
         {
@@ -183,7 +183,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new bool Closed
+    public bool Closed
     {
         get
         {
@@ -194,7 +194,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Window Frames
+    public global::Iskra.StdWeb.Window Frames
     {
         get
         {
@@ -205,7 +205,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -216,7 +216,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Window? Top
+    public global::Iskra.StdWeb.Window? Top
     {
         get
         {
@@ -235,7 +235,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new object? Opener
+    public object? Opener
     {
         get
         {
@@ -252,7 +252,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Window? Parent
+    public global::Iskra.StdWeb.Window? Parent
     {
         get
         {
@@ -271,7 +271,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Element? FrameElement
+    public global::Iskra.StdWeb.Element? FrameElement
     {
         get
         {
@@ -290,7 +290,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Navigator Navigator
+    public global::Iskra.StdWeb.Navigator Navigator
     {
         get
         {
@@ -301,7 +301,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new global::Iskra.StdWeb.Navigator ClientInformation
+    public global::Iskra.StdWeb.Navigator ClientInformation
     {
         get
         {
@@ -312,7 +312,7 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new bool OriginAgentCluster
+    public bool OriginAgentCluster
     {
         get
         {

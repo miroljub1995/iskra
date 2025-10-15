@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.WorkerGlobalScope Self
+    public global::Iskra.StdWeb.WorkerGlobalScope Self
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.WorkerLocation Location
+    public global::Iskra.StdWeb.WorkerLocation Location
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.WorkerNavigator Navigator
+    public global::Iskra.StdWeb.WorkerNavigator Navigator
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.OnErrorEventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.OnErrorEventHandlerNonNull? Onerror
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onlanguagechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onlanguagechange
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onoffline
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onoffline
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ononline
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ononline
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onrejectionhandled
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onrejectionhandled
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class WorkerGlobalScope(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onunhandledrejection
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onunhandledrejection
     {
         get
         {

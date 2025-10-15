@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLScriptElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Type
+    public string Type
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Src
+    public string Src
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool NoModule
+    public bool NoModule
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Async
+    public bool Async
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Defer
+    public bool Defer
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.DOMTokenList Blocking
+    public global::Iskra.StdWeb.DOMTokenList Blocking
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string? CrossOrigin
+    public string? CrossOrigin
     {
         get
         {
@@ -135,7 +135,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string ReferrerPolicy
+    public string ReferrerPolicy
     {
         get
         {
@@ -152,7 +152,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Integrity
+    public string Integrity
     {
         get
         {
@@ -169,7 +169,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string FetchPriority
+    public string FetchPriority
     {
         get
         {
@@ -186,7 +186,7 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Text
+    public string Text
     {
         get
         {

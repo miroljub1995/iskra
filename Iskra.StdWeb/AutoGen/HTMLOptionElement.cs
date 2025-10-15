@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptionElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new bool Disabled
+    public bool Disabled
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -42,7 +42,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Label
+    public string Label
     {
         get
         {
@@ -59,7 +59,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool DefaultSelected
+    public bool DefaultSelected
     {
         get
         {
@@ -76,7 +76,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool Selected
+    public bool Selected
     {
         get
         {
@@ -93,7 +93,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Value
+    public string Value
     {
         get
         {
@@ -110,7 +110,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new string Text
+    public string Text
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class HTMLOptionElement(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new int Index
+    public int Index
     {
         get
         {

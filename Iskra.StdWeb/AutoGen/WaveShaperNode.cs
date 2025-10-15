@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.JSCore.Float32Array? Curve
+    public global::Iskra.JSCore.Float32Array? Curve
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.OverSampleType Oversample
+    public global::Iskra.StdWeb.OverSampleType Oversample
     {
         get
         {

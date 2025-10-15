@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double CreationTime
+    public double CreationTime
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
         }
     }
 
-    public new uint DroppedVideoFrames
+    public uint DroppedVideoFrames
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
         }
     }
 
-    public new uint TotalVideoFrames
+    public uint TotalVideoFrames
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
         }
     }
 
-    public new uint CorruptedVideoFrames
+    public uint CorruptedVideoFrames
     {
         get
         {

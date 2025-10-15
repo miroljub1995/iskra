@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCompilationMessage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Message
+    public string Message
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
         }
     }
 
-    public new global::Iskra.StdWeb.GPUCompilationMessageType Type
+    public global::Iskra.StdWeb.GPUCompilationMessageType Type
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
         }
     }
 
-    public new ulong LineNum
+    public ulong LineNum
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
         }
     }
 
-    public new ulong LinePos
+    public ulong LinePos
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
         }
     }
 
-    public new ulong Offset
+    public ulong Offset
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
         }
     }
 
-    public new ulong Length
+    public ulong Length
     {
         get
         {

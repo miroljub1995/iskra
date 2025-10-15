@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CompositionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public new string Data
+    public string Data
     {
         get
         {

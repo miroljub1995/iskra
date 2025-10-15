@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PeriodicSyncEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-    public new string Tag
+    public string Tag
     {
         get
         {

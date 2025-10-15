@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceResourceTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public new string InitiatorType
+    public string InitiatorType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new string DeliveryType
+    public string DeliveryType
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new string NextHopProtocol
+    public string NextHopProtocol
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double WorkerStart
+    public double WorkerStart
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double RedirectStart
+    public double RedirectStart
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double RedirectEnd
+    public double RedirectEnd
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double FetchStart
+    public double FetchStart
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double DomainLookupStart
+    public double DomainLookupStart
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double DomainLookupEnd
+    public double DomainLookupEnd
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double ConnectStart
+    public double ConnectStart
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double ConnectEnd
+    public double ConnectEnd
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double SecureConnectionStart
+    public double SecureConnectionStart
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double RequestStart
+    public double RequestStart
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double FinalResponseHeadersStart
+    public double FinalResponseHeadersStart
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double FirstInterimResponseStart
+    public double FirstInterimResponseStart
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double ResponseStart
+    public double ResponseStart
     {
         get
         {
@@ -182,7 +182,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new double ResponseEnd
+    public double ResponseEnd
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new ulong TransferSize
+    public ulong TransferSize
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new ulong EncodedBodySize
+    public ulong EncodedBodySize
     {
         get
         {
@@ -215,7 +215,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new ulong DecodedBodySize
+    public ulong DecodedBodySize
     {
         get
         {
@@ -226,7 +226,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new ushort ResponseStatus
+    public ushort ResponseStatus
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new global::Iskra.StdWeb.RenderBlockingStatusType RenderBlockingStatus
+    public global::Iskra.StdWeb.RenderBlockingStatusType RenderBlockingStatus
     {
         get
         {
@@ -248,7 +248,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new string ContentType
+    public string ContentType
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public new string ContentEncoding
+    public string ContentEncoding
     {
         get
         {

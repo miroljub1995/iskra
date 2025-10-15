@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaSession(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.MediaMetadata? Metadata
+    public global::Iskra.StdWeb.MediaMetadata? Metadata
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.MediaSessionPlaybackState PlaybackState
+    public global::Iskra.StdWeb.MediaSessionPlaybackState PlaybackState
     {
         get
         {

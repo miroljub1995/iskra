@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SubmitEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.HTMLElement? Submitter
+    public global::Iskra.StdWeb.HTMLElement? Submitter
     {
         get
         {

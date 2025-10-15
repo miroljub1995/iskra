@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CharacterBoundsUpdateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new uint RangeStart
+    public uint RangeStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class CharacterBoundsUpdateEvent(global::System.Runtime.InteropSe
         }
     }
 
-    public new uint RangeEnd
+    public uint RangeEnd
     {
         get
         {

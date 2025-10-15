@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Id
+    public string Id
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new double Width
+    public double Width
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new uint Lines
+    public uint Lines
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new double RegionAnchorX
+    public double RegionAnchorX
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new double RegionAnchorY
+    public double RegionAnchorY
     {
         get
         {
@@ -91,7 +91,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new double ViewportAnchorX
+    public double ViewportAnchorX
     {
         get
         {
@@ -108,7 +108,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new double ViewportAnchorY
+    public double ViewportAnchorY
     {
         get
         {
@@ -125,7 +125,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new global::Iskra.StdWeb.ScrollSetting Scroll
+    public global::Iskra.StdWeb.ScrollSetting Scroll
     {
         get
         {

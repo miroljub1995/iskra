@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGLinearGradientElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGradientElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedLength X1
+    public global::Iskra.StdWeb.SVGAnimatedLength X1
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGLinearGradientElement(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength Y1
+    public global::Iskra.StdWeb.SVGAnimatedLength Y1
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGLinearGradientElement(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength X2
+    public global::Iskra.StdWeb.SVGAnimatedLength X2
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGLinearGradientElement(global::System.Runtime.InteropServ
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedLength Y2
+    public global::Iskra.StdWeb.SVGAnimatedLength Y2
     {
         get
         {

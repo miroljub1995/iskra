@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PromiseRejectionEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::System.Runtime.InteropServices.JavaScript.JSObject Promise
+    public global::System.Runtime.InteropServices.JavaScript.JSObject Promise
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
         }
     }
 
-    public new object? Reason
+    public object? Reason
     {
         get
         {

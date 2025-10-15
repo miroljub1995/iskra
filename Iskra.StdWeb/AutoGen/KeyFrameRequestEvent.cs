@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class KeyFrameRequestEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new string? Rid
+    public string? Rid
     {
         get
         {

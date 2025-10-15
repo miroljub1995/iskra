@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BatteryManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new bool Charging
+    public bool Charging
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double ChargingTime
+    public double ChargingTime
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double DischargingTime
+    public double DischargingTime
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new double Level
+    public double Level
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchargingchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchargingchange
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onchargingtimechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchargingtimechange
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondischargingtimechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ondischargingtimechange
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onlevelchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onlevelchange
     {
         get
         {

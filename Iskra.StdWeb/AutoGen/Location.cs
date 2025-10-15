@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Location(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Href
+    public string Href
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Origin
+    public string Origin
     {
         get
         {
@@ -34,7 +34,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Protocol
+    public string Protocol
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Host
+    public string Host
     {
         get
         {
@@ -68,7 +68,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Hostname
+    public string Hostname
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Port
+    public string Port
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Pathname
+    public string Pathname
     {
         get
         {
@@ -119,7 +119,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Search
+    public string Search
     {
         get
         {
@@ -136,7 +136,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Hash
+    public string Hash
     {
         get
         {
@@ -153,7 +153,7 @@ public partial class Location(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.DOMStringList AncestorOrigins
+    public global::Iskra.StdWeb.DOMStringList AncestorOrigins
     {
         get
         {

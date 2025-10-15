@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class XRProjectionLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
 {
-    public new uint TextureWidth
+    public uint TextureWidth
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint TextureHeight
+    public uint TextureHeight
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new uint TextureArrayLength
+    public uint TextureArrayLength
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new bool IgnoreDepthValues
+    public bool IgnoreDepthValues
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new float? FixedFoveation
+    public float? FixedFoveation
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new global::Iskra.StdWeb.XRRigidTransform? DeltaPose
+    public global::Iskra.StdWeb.XRRigidTransform? DeltaPose
     {
         get
         {

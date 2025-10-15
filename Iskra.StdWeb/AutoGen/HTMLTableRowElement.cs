@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new int RowIndex
+    public int RowIndex
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new int SectionRowIndex
+    public int SectionRowIndex
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLCollection Cells
+    public global::Iskra.StdWeb.HTMLCollection Cells
     {
         get
         {

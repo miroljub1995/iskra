@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double InlineStart
+    public double InlineStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double InlineEnd
+    public double InlineEnd
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double BlockStart
+    public double BlockStart
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double BlockEnd
+    public double BlockEnd
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double Inline
+    public double Inline
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double Block
+    public double Block
     {
         get
         {

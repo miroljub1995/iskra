@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string UserHint
+    public string UserHint
     {
         get
         {

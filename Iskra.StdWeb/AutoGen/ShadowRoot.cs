@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DocumentFragment(obj)
 {
-    public new global::Iskra.StdWeb.ShadowRootMode Mode
+    public global::Iskra.StdWeb.ShadowRootMode Mode
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool DelegatesFocus
+    public bool DelegatesFocus
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.SlotAssignmentMode SlotAssignment
+    public global::Iskra.StdWeb.SlotAssignmentMode SlotAssignment
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool Clonable
+    public bool Clonable
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool Serializable
+    public bool Serializable
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.Element Host
+    public global::Iskra.StdWeb.Element Host
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onslotchange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onslotchange
     {
         get
         {

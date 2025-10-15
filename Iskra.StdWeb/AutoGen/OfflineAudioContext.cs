@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OfflineAudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): BaseAudioContext(obj)
 {
-    public new uint Length
+    public uint Length
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class OfflineAudioContext(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncomplete
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncomplete
     {
         get
         {

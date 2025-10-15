@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new string Src
+    public string Src
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Width
+    public string Width
     {
         get
         {
@@ -57,7 +57,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public new string Height
+    public string Height
     {
         get
         {

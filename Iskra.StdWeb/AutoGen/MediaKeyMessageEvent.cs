@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MediaKeyMessageEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.MediaKeyMessageType MessageType
+    public global::Iskra.StdWeb.MediaKeyMessageType MessageType
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MediaKeyMessageEvent(global::System.Runtime.InteropServices
         }
     }
 
-    public new global::Iskra.JSCore.ArrayBuffer Message
+    public global::Iskra.JSCore.ArrayBuffer Message
     {
         get
         {

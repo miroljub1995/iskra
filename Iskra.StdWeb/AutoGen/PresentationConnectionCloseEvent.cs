@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionCloseEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new global::Iskra.StdWeb.PresentationConnectionCloseReason Reason
+    public global::Iskra.StdWeb.PresentationConnectionCloseReason Reason
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PresentationConnectionCloseEvent(global::System.Runtime.Int
         }
     }
 
-    public new string Message
+    public string Message
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double Width
+    public double Width
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double ActualBoundingBoxLeft
+    public double ActualBoundingBoxLeft
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double ActualBoundingBoxRight
+    public double ActualBoundingBoxRight
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double FontBoundingBoxAscent
+    public double FontBoundingBoxAscent
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double FontBoundingBoxDescent
+    public double FontBoundingBoxDescent
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double ActualBoundingBoxAscent
+    public double ActualBoundingBoxAscent
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double ActualBoundingBoxDescent
+    public double ActualBoundingBoxDescent
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double EmHeightAscent
+    public double EmHeightAscent
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double EmHeightDescent
+    public double EmHeightDescent
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double HangingBaseline
+    public double HangingBaseline
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double AlphabeticBaseline
+    public double AlphabeticBaseline
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new double IdeographicBaseline
+    public double IdeographicBaseline
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothDevice(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new string Id
+    public string Id
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new string? Name
+    public string? Name
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new global::Iskra.StdWeb.BluetoothRemoteGATTServer? Gatt
+    public global::Iskra.StdWeb.BluetoothRemoteGATTServer? Gatt
     {
         get
         {
@@ -55,7 +55,7 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
         }
     }
 
-    public new bool WatchingAdvertisements
+    public bool WatchingAdvertisements
     {
         get
         {

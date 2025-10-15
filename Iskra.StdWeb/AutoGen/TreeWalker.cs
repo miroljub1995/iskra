@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Node Root
+    public global::Iskra.StdWeb.Node Root
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new uint WhatToShow
+    public uint WhatToShow
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.NodeFilter? Filter
+    public global::Iskra.StdWeb.NodeFilter? Filter
     {
         get
         {
@@ -47,7 +47,7 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.Node CurrentNode
+    public global::Iskra.StdWeb.Node CurrentNode
     {
         get
         {

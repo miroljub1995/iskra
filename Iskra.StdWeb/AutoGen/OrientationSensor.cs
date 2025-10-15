@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OrientationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Quaternion
+    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Quaternion
     {
         get
         {

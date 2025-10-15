@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new ulong NavigationStart
+    public ulong NavigationStart
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong UnloadEventStart
+    public ulong UnloadEventStart
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong UnloadEventEnd
+    public ulong UnloadEventEnd
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong RedirectStart
+    public ulong RedirectStart
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong RedirectEnd
+    public ulong RedirectEnd
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong FetchStart
+    public ulong FetchStart
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomainLookupStart
+    public ulong DomainLookupStart
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomainLookupEnd
+    public ulong DomainLookupEnd
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong ConnectStart
+    public ulong ConnectStart
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong ConnectEnd
+    public ulong ConnectEnd
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong SecureConnectionStart
+    public ulong SecureConnectionStart
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong RequestStart
+    public ulong RequestStart
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong ResponseStart
+    public ulong ResponseStart
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong ResponseEnd
+    public ulong ResponseEnd
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomLoading
+    public ulong DomLoading
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomInteractive
+    public ulong DomInteractive
     {
         get
         {
@@ -182,7 +182,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomContentLoadedEventStart
+    public ulong DomContentLoadedEventStart
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomContentLoadedEventEnd
+    public ulong DomContentLoadedEventEnd
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong DomComplete
+    public ulong DomComplete
     {
         get
         {
@@ -215,7 +215,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong LoadEventStart
+    public ulong LoadEventStart
     {
         get
         {
@@ -226,7 +226,7 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
         }
     }
 
-    public new ulong LoadEventEnd
+    public ulong LoadEventEnd
     {
         get
         {

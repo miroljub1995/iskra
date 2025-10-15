@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new uint MaxTextureDimension1D
+    public uint MaxTextureDimension1D
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxTextureDimension2D
+    public uint MaxTextureDimension2D
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxTextureDimension3D
+    public uint MaxTextureDimension3D
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxTextureArrayLayers
+    public uint MaxTextureArrayLayers
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxBindGroups
+    public uint MaxBindGroups
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxBindGroupsPlusVertexBuffers
+    public uint MaxBindGroupsPlusVertexBuffers
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxBindingsPerBindGroup
+    public uint MaxBindingsPerBindGroup
     {
         get
         {
@@ -83,7 +83,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxDynamicUniformBuffersPerPipelineLayout
+    public uint MaxDynamicUniformBuffersPerPipelineLayout
     {
         get
         {
@@ -94,7 +94,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxDynamicStorageBuffersPerPipelineLayout
+    public uint MaxDynamicStorageBuffersPerPipelineLayout
     {
         get
         {
@@ -105,7 +105,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxSampledTexturesPerShaderStage
+    public uint MaxSampledTexturesPerShaderStage
     {
         get
         {
@@ -116,7 +116,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxSamplersPerShaderStage
+    public uint MaxSamplersPerShaderStage
     {
         get
         {
@@ -127,7 +127,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxStorageBuffersPerShaderStage
+    public uint MaxStorageBuffersPerShaderStage
     {
         get
         {
@@ -138,7 +138,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxStorageTexturesPerShaderStage
+    public uint MaxStorageTexturesPerShaderStage
     {
         get
         {
@@ -149,7 +149,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxUniformBuffersPerShaderStage
+    public uint MaxUniformBuffersPerShaderStage
     {
         get
         {
@@ -160,7 +160,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new ulong MaxUniformBufferBindingSize
+    public ulong MaxUniformBufferBindingSize
     {
         get
         {
@@ -171,7 +171,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new ulong MaxStorageBufferBindingSize
+    public ulong MaxStorageBufferBindingSize
     {
         get
         {
@@ -182,7 +182,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MinUniformBufferOffsetAlignment
+    public uint MinUniformBufferOffsetAlignment
     {
         get
         {
@@ -193,7 +193,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MinStorageBufferOffsetAlignment
+    public uint MinStorageBufferOffsetAlignment
     {
         get
         {
@@ -204,7 +204,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxVertexBuffers
+    public uint MaxVertexBuffers
     {
         get
         {
@@ -215,7 +215,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new ulong MaxBufferSize
+    public ulong MaxBufferSize
     {
         get
         {
@@ -226,7 +226,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxVertexAttributes
+    public uint MaxVertexAttributes
     {
         get
         {
@@ -237,7 +237,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxVertexBufferArrayStride
+    public uint MaxVertexBufferArrayStride
     {
         get
         {
@@ -248,7 +248,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxInterStageShaderVariables
+    public uint MaxInterStageShaderVariables
     {
         get
         {
@@ -259,7 +259,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxColorAttachments
+    public uint MaxColorAttachments
     {
         get
         {
@@ -270,7 +270,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxColorAttachmentBytesPerSample
+    public uint MaxColorAttachmentBytesPerSample
     {
         get
         {
@@ -281,7 +281,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxComputeWorkgroupStorageSize
+    public uint MaxComputeWorkgroupStorageSize
     {
         get
         {
@@ -292,7 +292,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxComputeInvocationsPerWorkgroup
+    public uint MaxComputeInvocationsPerWorkgroup
     {
         get
         {
@@ -303,7 +303,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxComputeWorkgroupSizeX
+    public uint MaxComputeWorkgroupSizeX
     {
         get
         {
@@ -314,7 +314,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxComputeWorkgroupSizeY
+    public uint MaxComputeWorkgroupSizeY
     {
         get
         {
@@ -325,7 +325,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxComputeWorkgroupSizeZ
+    public uint MaxComputeWorkgroupSizeZ
     {
         get
         {
@@ -336,7 +336,7 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new uint MaxComputeWorkgroupsPerDimension
+    public uint MaxComputeWorkgroupsPerDimension
     {
         get
         {

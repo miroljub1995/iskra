@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.Node Root
+    public global::Iskra.StdWeb.Node Root
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.Node ReferenceNode
+    public global::Iskra.StdWeb.Node ReferenceNode
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new bool PointerBeforeReferenceNode
+    public bool PointerBeforeReferenceNode
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new uint WhatToShow
+    public uint WhatToShow
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.NodeFilter? Filter
+    public global::Iskra.StdWeb.NodeFilter? Filter
     {
         get
         {

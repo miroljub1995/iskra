@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLProgressElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new double Value
+    public double Value
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new double Max
+    public double Max
     {
         get
         {
@@ -40,7 +40,7 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new double Position
+    public double Position
     {
         get
         {
@@ -51,7 +51,7 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.NodeList Labels
+    public global::Iskra.StdWeb.NodeList Labels
     {
         get
         {

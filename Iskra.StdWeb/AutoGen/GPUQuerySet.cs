@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.GPUQueryType Type
+    public global::Iskra.StdWeb.GPUQueryType Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public new uint Count
+    public uint Count
     {
         get
         {

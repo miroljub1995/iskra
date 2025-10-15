@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Type
+    public string Type
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Description
+    public string Description
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new string Suffixes
+    public string Suffixes
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.StdWeb.Plugin EnabledPlugin
+    public global::Iskra.StdWeb.Plugin EnabledPlugin
     {
         get
         {

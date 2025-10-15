@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidatePair(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new global::Iskra.StdWeb.RTCIceCandidate Local
+    public global::Iskra.StdWeb.RTCIceCandidate Local
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class RTCIceCandidatePair(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.RTCIceCandidate Remote
+    public global::Iskra.StdWeb.RTCIceCandidate Remote
     {
         get
         {

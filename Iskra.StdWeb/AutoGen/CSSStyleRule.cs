@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSGroupingRule(obj)
 {
-    public new string SelectorText
+    public string SelectorText
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public new global::Iskra.StdWeb.CSSStyleProperties Style
+    public global::Iskra.StdWeb.CSSStyleProperties Style
     {
         get
         {

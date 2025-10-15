@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.MIDIInputMap Inputs
+    public global::Iskra.StdWeb.MIDIInputMap Inputs
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.MIDIOutputMap Outputs
+    public global::Iskra.StdWeb.MIDIOutputMap Outputs
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool SysexEnabled
+    public bool SysexEnabled
     {
         get
         {

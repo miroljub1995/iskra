@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceMark(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public new object? Detail
+    public object? Detail
     {
         get
         {

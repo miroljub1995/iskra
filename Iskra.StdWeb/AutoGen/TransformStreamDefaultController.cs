@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TransformStreamDefaultController(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new double? DesiredSize
+    public double? DesiredSize
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedNumber BaseFrequencyX
+    public global::Iskra.StdWeb.SVGAnimatedNumber BaseFrequencyX
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber BaseFrequencyY
+    public global::Iskra.StdWeb.SVGAnimatedNumber BaseFrequencyY
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedInteger NumOctaves
+    public global::Iskra.StdWeb.SVGAnimatedInteger NumOctaves
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedNumber Seed
+    public global::Iskra.StdWeb.SVGAnimatedNumber Seed
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration StitchTiles
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration StitchTiles
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServic
         }
     }
 
-    public new global::Iskra.StdWeb.SVGAnimatedEnumeration Type
+    public global::Iskra.StdWeb.SVGAnimatedEnumeration Type
     {
         get
         {

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
 {
-    public new global::Iskra.StdWeb.TouchList Touches
+    public global::Iskra.StdWeb.TouchList Touches
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.TouchList TargetTouches
+    public global::Iskra.StdWeb.TouchList TargetTouches
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.TouchList ChangedTouches
+    public global::Iskra.StdWeb.TouchList ChangedTouches
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool AltKey
+    public bool AltKey
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool MetaKey
+    public bool MetaKey
     {
         get
         {
@@ -61,7 +61,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool CtrlKey
+    public bool CtrlKey
     {
         get
         {
@@ -72,7 +72,7 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool ShiftKey
+    public bool ShiftKey
     {
         get
         {

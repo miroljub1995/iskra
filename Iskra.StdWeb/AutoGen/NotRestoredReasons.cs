@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NotRestoredReasons(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string? Src
+    public string? Src
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new string? Id
+    public string? Id
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new string? Name
+    public string? Name
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new string? Url
+    public string? Url
     {
         get
         {
@@ -82,7 +82,7 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Reasons
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Reasons
     {
         get
         {
@@ -99,7 +99,7 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
         }
     }
 
-    public new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Children
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Children
     {
         get
         {

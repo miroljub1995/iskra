@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new string Name
+    public string Name
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new string Description
+    public string Description
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new string Filename
+    public string Filename
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
-    public new uint Length
+    public uint Length
     {
         get
         {

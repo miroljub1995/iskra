@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleDeclaration(obj)
 {
-    public new string CssFloat
+    public string CssFloat
     {
         get
         {

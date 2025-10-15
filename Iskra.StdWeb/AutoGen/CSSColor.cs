@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSColorValue(obj)
 {
-    public new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> ColorSpace
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> ColorSpace
     {
         get
         {
@@ -22,7 +22,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new object Channels
+    public object Channels
     {
         get
         {
@@ -36,7 +36,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> Alpha
     {
         get
         {

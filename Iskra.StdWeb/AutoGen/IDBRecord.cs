@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRecord(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public new object? Key
+    public object? Key
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBRecord(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new object? PrimaryKey
+    public object? PrimaryKey
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class IDBRecord(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public new object? Value
+    public object? Value
     {
         get
         {

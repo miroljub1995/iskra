@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-    public new bool Disabled
+    public bool Disabled
     {
         get
         {
@@ -23,7 +23,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLFormElement? Form
+    public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get
         {
@@ -42,7 +42,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string Name
+    public string Name
     {
         get
         {
@@ -59,7 +59,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string Type
+    public string Type
     {
         get
         {
@@ -70,7 +70,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.HTMLCollection Elements
+    public global::Iskra.StdWeb.HTMLCollection Elements
     {
         get
         {
@@ -81,7 +81,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new bool WillValidate
+    public bool WillValidate
     {
         get
         {
@@ -92,7 +92,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new global::Iskra.StdWeb.ValidityState Validity
+    public global::Iskra.StdWeb.ValidityState Validity
     {
         get
         {
@@ -103,7 +103,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         }
     }
 
-    public new string ValidationMessage
+    public string ValidationMessage
     {
         get
         {

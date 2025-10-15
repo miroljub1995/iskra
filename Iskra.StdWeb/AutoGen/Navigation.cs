@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Navigation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.NavigationHistoryEntry? CurrentEntry
+    public global::Iskra.StdWeb.NavigationHistoryEntry? CurrentEntry
     {
         get
         {
@@ -25,7 +25,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.NavigationTransition? Transition
+    public global::Iskra.StdWeb.NavigationTransition? Transition
     {
         get
         {
@@ -44,7 +44,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.NavigationActivation? Activation
+    public global::Iskra.StdWeb.NavigationActivation? Activation
     {
         get
         {
@@ -63,7 +63,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool CanGoBack
+    public bool CanGoBack
     {
         get
         {
@@ -74,7 +74,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new bool CanGoForward
+    public bool CanGoForward
     {
         get
         {
@@ -85,7 +85,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onnavigate
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onnavigate
     {
         get
         {
@@ -118,7 +118,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onnavigatesuccess
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onnavigatesuccess
     {
         get
         {
@@ -151,7 +151,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onnavigateerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onnavigateerror
     {
         get
         {
@@ -184,7 +184,7 @@ public partial class Navigation(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncurrententrychange
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncurrententrychange
     {
         get
         {

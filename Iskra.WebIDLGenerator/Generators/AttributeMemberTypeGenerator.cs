@@ -5,6 +5,7 @@ using Iskra.WebIDLGenerator.Models;
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class AttributeMemberTypeGenerator(
+    GenTypeDescriptors descriptors,
     IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
     GetPropertyValueGenerator getPropertyValueGenerator,
     SetPropertyValueGenerator setPropertyValueGenerator,
@@ -17,12 +18,9 @@ public class AttributeMemberTypeGenerator(
 
         var isStatic = input.Special == AttributeSpecial.Static;
         var staticKeyword = isStatic ? " static" : "";
+        var newKeyword = HidesAccessibleMember(input, containingTypeName, isStatic) ? " new" : "";
 
-        var name = input.Name.Replace('-', '_').CapitalizeFirstLetter();
-        if (name == containingTypeName)
-        {
-            name += "_";
-        }
+        var name = GetValidPropertyName(input.Name, containingTypeName);
 
         var returnTypeDeclaration = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
@@ -82,12 +80,71 @@ public class AttributeMemberTypeGenerator(
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
-                        public{{staticKeyword}} new {{returnTypeDeclaration}} {{name}}
+                        public{{staticKeyword}}{{newKeyword}} {{returnTypeDeclaration}} {{name}}
                         {
                         {{body.IndentLines(4)}}
                         }
                         """;
 
         return content;
+    }
+
+    private static string GetValidPropertyName(string name, string containingTypeName)
+    {
+        name = name.Replace('-', '_').CapitalizeFirstLetter();
+        if (name == containingTypeName)
+        {
+            name += "_";
+        }
+
+        return name;
+    }
+
+    private bool HidesAccessibleMember(AttributeMemberType input, string containingTypeName, bool isStatic)
+    {
+        if (!descriptors.TryGet(containingTypeName, out var desc))
+        {
+            return false;
+        }
+
+        if (desc.RootType is not InterfaceType interfaceType)
+        {
+            return false;
+        }
+
+        if (interfaceType.Inheritance is null)
+        {
+            return false;
+        }
+
+        return TypeHasProperty(interfaceType.Inheritance, input.Name, isStatic);
+    }
+
+    private bool TypeHasProperty(string typeName, string propertyName, bool isStatic)
+    {
+        if (!descriptors.TryGet(typeName, out var desc))
+        {
+            return false;
+        }
+
+        if (desc.RootType is not InterfaceType interfaceType)
+        {
+            return false;
+        }
+
+        if (interfaceType.Members.Any(x =>
+                x is AttributeMemberType attr && (isStatic && attr.Special == AttributeSpecial.Static ||
+                                                  !isStatic && attr.Special != AttributeSpecial.Static) &&
+                attr.Name == propertyName))
+        {
+            return true;
+        }
+
+        if (interfaceType.Inheritance is not null)
+        {
+            return TypeHasProperty(interfaceType.Inheritance, propertyName, isStatic);
+        }
+
+        return false;
     }
 }

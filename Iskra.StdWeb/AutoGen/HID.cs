@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class HID(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class HID(global::System.Runtime.InteropServices.JavaScript.JSObj
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
         get
         {

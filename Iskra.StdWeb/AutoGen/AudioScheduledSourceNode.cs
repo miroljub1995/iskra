@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class AudioScheduledSourceNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onended
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onended
     {
         get
         {

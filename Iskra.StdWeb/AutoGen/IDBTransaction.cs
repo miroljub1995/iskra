@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public new global::Iskra.StdWeb.DOMStringList ObjectStoreNames
+    public global::Iskra.StdWeb.DOMStringList ObjectStoreNames
     {
         get
         {
@@ -17,7 +17,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.IDBTransactionMode Mode
+    public global::Iskra.StdWeb.IDBTransactionMode Mode
     {
         get
         {
@@ -28,7 +28,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.IDBTransactionDurability Durability
+    public global::Iskra.StdWeb.IDBTransactionDurability Durability
     {
         get
         {
@@ -39,7 +39,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.IDBDatabase Db
+    public global::Iskra.StdWeb.IDBDatabase Db
     {
         get
         {
@@ -50,7 +50,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.DOMException? Error
+    public global::Iskra.StdWeb.DOMException? Error
     {
         get
         {
@@ -69,7 +69,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onabort
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
         get
         {
@@ -102,7 +102,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Oncomplete
+    public global::Iskra.StdWeb.EventHandlerNonNull? Oncomplete
     {
         get
         {
@@ -135,7 +135,7 @@ public partial class IDBTransaction(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public new global::Iskra.StdWeb.EventHandlerNonNull? Onerror
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
         get
         {
