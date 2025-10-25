@@ -10,10 +10,10 @@ public partial class MediaError(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            ushort __res_5738;
-            double __res_5739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_5738 = Convert.ToUInt16(__res_5739);
-            return __res_5738;
+            ushort __res_5756;
+            double __res_5757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            __res_5756 = Convert.ToUInt16(__res_5757);
+            return __res_5756;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaError(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_5740;
-            string __res_5741 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_5740 = __res_5741;
-            return __res_5740;
+            string __res_5758;
+            string __res_5759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_5758 = __res_5759;
+            return __res_5758;
         }
     }
 }

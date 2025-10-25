@@ -10,18 +10,18 @@ public partial class PointerTimeline(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5155;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5156 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_5156 is null)
+            global::Iskra.StdWeb.Element? __res_5172;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_5173 is null)
             {
-                __res_5155 = null;
+                __res_5172 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5157 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5156;
-                __res_5155 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5157);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5174 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5173;
+                __res_5172 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5174);
             }
-            return __res_5155;
+            return __res_5172;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class PointerTimeline(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.PointerAxis __res_5158;
-            string __res_5159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axis");
-            __res_5158 = global::Iskra.StdWeb.PointerAxis.Create(__res_5159);
-            return __res_5158;
+            global::Iskra.StdWeb.PointerAxis __res_5175;
+            string __res_5176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axis");
+            __res_5175 = global::Iskra.StdWeb.PointerAxis.Create(__res_5176);
+            return __res_5175;
         }
     }
 }

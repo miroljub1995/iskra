@@ -10,16 +10,16 @@ public partial class HTMLFrameSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_7068;
-            string __res_7069 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
-            __res_7068 = __res_7069;
-            return __res_7068;
+            string __res_7088;
+            string __res_7089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cols");
+            __res_7088 = __res_7089;
+            return __res_7088;
         }
         set
         {
-            string __marshalledValue_7070;
-            __marshalledValue_7070 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cols", __marshalledValue_7070);
+            string __marshalledValue_7090;
+            __marshalledValue_7090 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cols", __marshalledValue_7090);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLFrameSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_7071;
-            string __res_7072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
-            __res_7071 = __res_7072;
-            return __res_7071;
+            string __res_7091;
+            string __res_7092 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rows");
+            __res_7091 = __res_7092;
+            return __res_7091;
         }
         set
         {
-            string __marshalledValue_7073;
-            __marshalledValue_7073 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rows", __marshalledValue_7073);
+            string __marshalledValue_7093;
+            __marshalledValue_7093 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rows", __marshalledValue_7093);
         }
     }
 }

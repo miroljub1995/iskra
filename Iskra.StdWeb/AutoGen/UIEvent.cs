@@ -10,18 +10,18 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.Window? __res_7965;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_7966 is null)
+            global::Iskra.StdWeb.Window? __res_7988;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_7989 is null)
             {
-                __res_7965 = null;
+                __res_7988 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7967 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7966;
-                __res_7965 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_7967);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7990 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7989;
+                __res_7988 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_7990);
             }
-            return __res_7965;
+            return __res_7988;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            int __res_7968;
-            double __res_7969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_7968 = Convert.ToInt32(__res_7969);
-            return __res_7968;
+            int __res_7991;
+            double __res_7992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_7991 = Convert.ToInt32(__res_7992);
+            return __res_7991;
         }
     }
 }

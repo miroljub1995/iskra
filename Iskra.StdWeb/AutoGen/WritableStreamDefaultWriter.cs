@@ -6,12 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object Closed
+    public global::Iskra.JSCore.Promise Closed
     {
         get
         {
-            object __res_988;
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Promise __res_988;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_989;
+            __propObject_989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_988 = new global::Iskra.JSCore.Promise(__propObject_989);
             return __res_988;
         }
     }
@@ -20,28 +22,30 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            double? __res_989;
-            double? __res_990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_990 is null)
+            double? __res_990;
+            double? __res_991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_991 is null)
             {
-                __res_989 = null;
+                __res_990 = null;
             }
             else
             {
-                double __notNullable_991 = (double)__res_990;
-                __res_989 = __notNullable_991;
+                double __notNullable_992 = (double)__res_991;
+                __res_990 = __notNullable_992;
             }
-            return __res_989;
+            return __res_990;
         }
     }
 
-    public object Ready
+    public global::Iskra.JSCore.Promise Ready
     {
         get
         {
-            object __res_992;
-            throw new global::System.Exception();
-            return __res_992;
+            global::Iskra.JSCore.Promise __res_993;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_994;
+            __propObject_994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_993 = new global::Iskra.JSCore.Promise(__propObject_994);
+            return __res_993;
         }
     }
 }

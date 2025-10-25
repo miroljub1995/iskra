@@ -3,6 +3,7 @@ import {TestArrayProperties} from "./Tests/TestArrayProperties.js";
 import {TestEnumProperties} from "./Tests/TestEnumProperties.js";
 import {TestFrozenArrayProperties} from "./Tests/TestFrozenArrayProperties.js";
 import {TestInterfaceProperties} from "./Tests/TestInterfaceProperties.js";
+import {TestPromiseProperties} from "./Tests/TestPromiseProperties.js";
 import {TestStaticProperties} from "./Tests/TestStaticProperties.js";
 import {TestUnionProperties} from "./Tests/TestUnionProperties.js";
 
@@ -21,6 +22,9 @@ globalThis.tests = {
     },
     get testInterfaceProperties() {
         return new TestInterfaceProperties();
+    },
+    get testPromiseProperties() {
+        return new TestPromiseProperties();
     },
     get testStaticProperties() {
         return new TestStaticProperties();

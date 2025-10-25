@@ -10,10 +10,10 @@ public partial class SVGFETileElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1312;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            __res_1312 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1313);
-            return __res_1312;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1314;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            __res_1314 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1315);
+            return __res_1314;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_1704;
-            double __res_1705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeOrigin");
-            __res_1704 = __res_1705;
-            return __res_1704;
+            double __res_1708;
+            double __res_1709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeOrigin");
+            __res_1708 = __res_1709;
+            return __res_1708;
         }
     }
 }

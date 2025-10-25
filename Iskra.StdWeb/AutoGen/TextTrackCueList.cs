@@ -10,10 +10,10 @@ public partial class TextTrackCueList(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5841;
-            double __res_5842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5841 = Convert.ToUInt32(__res_5842);
-            return __res_5841;
+            uint __res_5859;
+            double __res_5860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5859 = Convert.ToUInt32(__res_5860);
+            return __res_5859;
         }
     }
 }

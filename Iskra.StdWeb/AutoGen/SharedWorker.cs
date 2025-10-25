@@ -10,10 +10,10 @@ public partial class SharedWorker(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_6999;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7000 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_6999 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_7000);
-            return __res_6999;
+            global::Iskra.StdWeb.MessagePort __res_7019;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            __res_7019 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_7020);
+            return __res_7019;
         }
     }
 }

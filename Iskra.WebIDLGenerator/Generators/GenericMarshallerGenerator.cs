@@ -32,9 +32,17 @@ public class GenericMarshallerGenerator(
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
+                            [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("wrapPromiseValue", "iskra")]
+                            private static partial global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> WrapPromiseValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj);
+
+                            [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("unwrapPromiseValue", "iskra")]
+                            private static partial global::System.Runtime.InteropServices.JavaScript.JSObject UnwrapPromiseValue(global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> task);
+
                         {{GenerateFrozenArrayClass().IndentLines(4)}}
 
                         {{GenerateSequenceClass().IndentLines(4)}}
+
+                        {{GeneratePromiseClass().IndentLines(4)}}
 
                         {{GenerateUnionClass().IndentLines(4)}}
                         }
@@ -64,6 +72,7 @@ public class GenericMarshallerGenerator(
         {
             FrozenArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.FrozenArray",
             SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Sequence",
+            PromiseTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Promise",
             UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
             _ => throw new NotSupportedException($"Type {input} is not supported.")
         };
@@ -289,6 +298,62 @@ public class GenericMarshallerGenerator(
         return content;
     }
 
+    private string GeneratePromiseClass()
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        List<string> interfaceParts = [];
+        List<string> bodyParts = [];
+        foreach (var marshaller in _marshallers)
+        {
+            if (marshaller.Key is not PromiseTypeDescription)
+            {
+                continue;
+            }
+
+            var toManaged = GenerateToManaged(marshaller.Key);
+            var toJS = GenerateToJS(marshaller.Key);
+
+            var marshalledType = toTypeDeclarationGenerator.Generate(marshaller.Key, true);
+
+            var interfacePart = $"global::Iskra.JSCore.Generics.IGenericMarshaller<{marshalledType}>";
+            interfaceParts.Add(interfacePart);
+
+            var bodyPart = $$"""
+                             static async {{marshalledType}} {{interfacePart}}.ToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input)
+                             {
+                             {{toManaged.IndentLines(4)}}
+                             }
+
+                             static global::System.Runtime.InteropServices.JavaScript.JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
+                             {
+                             {{toJS.IndentLines(4)}}
+                             }
+                             """;
+
+            bodyParts.Add(bodyPart);
+        }
+
+        var interfaces = string.Join(",\n", interfaceParts);
+        var body = string.Join("\n\n", bodyParts);
+
+        var inheritance = interfaceParts.Count > 0
+            ? $$"""
+                :
+                {{interfaces.IndentLines(4)}}
+                """
+            : string.Empty;
+
+        var content = $$"""
+                        public class Promise{{inheritance}}
+                        {
+                        {{body.IndentLines(4)}}
+                        }
+                        """;
+
+        return content;
+    }
+
     private string GenerateUnionClass()
     {
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
@@ -431,6 +496,29 @@ public class GenericMarshallerGenerator(
                      """;
         }
 
+        if (input is PromiseTypeDescription promise)
+        {
+            var elementType = promise.IdlType.Single();
+            var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
+
+            var taskVar = generatorContext.GetNextVariableName("task");
+            var resVar = generatorContext.GetNextVariableName("res");
+
+            var getValueContent = getPropertyValueGenerator.Generate(
+                inputVar: taskVar,
+                type: elementType,
+                propertyNameVar: "\"value\"",
+                outputVar: resVar
+            );
+
+            return $$"""
+                     using global::System.Runtime.InteropServices.JavaScript.JSObject {{taskVar}} = await global::{{genSettings.Namespace}}.GenericMarshaller.WrapPromiseValue(input);
+                     {{returnTypeDeclaration}} {{resVar}};
+                     {{getValueContent}}
+                     return {{resVar}};
+                     """;
+        }
+
         logger.LogWarning("GenericMarshaller ToManaged for type {input} not supported.", input);
         return "throw new NotImplementedException();";
     }
@@ -485,6 +573,41 @@ public class GenericMarshallerGenerator(
                      {{setElementContent.IndentLines(4)}}
                      }
 
+                     return {{resVar}};
+                     """;
+        }
+
+        if (input is PromiseTypeDescription promise)
+        {
+            var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+            var elementType = promise.IdlType.Single();
+            var wrapperObjectVar = generatorContext.GetNextVariableName("wrapperObject");
+            var resVar = generatorContext.GetNextVariableName("res");
+            var taskVar = generatorContext.GetNextVariableName("task");
+            var awaitedValueVar = generatorContext.GetNextVariableName("awaitedValue");
+            var setValueFunctionName = generatorContext.GetNextVariableName("WrapTask");
+            
+            var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
+            var taskTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
+
+            var setValueContent = setPropertyValueGenerator.Generate(
+                inputVar: wrapperObjectVar,
+                valueVar: awaitedValueVar,
+                type: elementType,
+                propertyNameVar: "\"value\""
+            );
+
+            return $$"""
+                     static async global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> {{setValueFunctionName}}({{taskTypeDeclaration}} {{taskVar}})
+                     {
+                         global::System.Runtime.InteropServices.JavaScript.JSObject {{wrapperObjectVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+                         {{elementTypeDeclaration}} {{awaitedValueVar}} = await {{taskVar}};
+                         {{setValueContent.IndentLines(4)}}
+                         return {{wrapperObjectVar}};
+                     }
+                     
+                     global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.UnwrapPromiseValue({{setValueFunctionName}}(input));
                      return {{resVar}};
                      """;
         }
@@ -609,7 +732,7 @@ public class GenericMarshallerGenerator(
         );
 
         return $$"""
-                 global::System.Runtime.InteropServices.JavaScript.JSObject {{jsUnionVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+                 global::System.Runtime.InteropServices.JavaScript.JSObject {{jsUnionVar}} = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
                  {{setValueContent}}
                  return {{jsUnionVar}};
                  """;

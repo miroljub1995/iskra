@@ -10,10 +10,10 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3388;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            __res_3388 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3389);
-            return __res_3388;
+            global::Iskra.StdWeb.Node __res_3400;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3401 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            __res_3400 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3401);
+            return __res_3400;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_3390;
-            double __res_3391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_3390 = Convert.ToUInt32(__res_3391);
-            return __res_3390;
+            uint __res_3402;
+            double __res_3403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
+            __res_3402 = Convert.ToUInt32(__res_3403);
+            return __res_3402;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.NodeFilter? __res_3392;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_3393 is null)
+            global::Iskra.StdWeb.NodeFilter? __res_3404;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3405 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
+            if (__res_3405 is null)
             {
-                __res_3392 = null;
+                __res_3404 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3394 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3393;
-                __res_3392 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(__notNullable_3394);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3406 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3405;
+                __res_3404 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(__notNullable_3406);
             }
-            return __res_3392;
+            return __res_3404;
         }
     }
 
@@ -51,16 +51,16 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3395;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
-            __res_3395 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3396);
-            return __res_3395;
+            global::Iskra.StdWeb.Node __res_3407;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
+            __res_3407 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3408);
+            return __res_3407;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3397;
-            __marshalledValue_3397 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_3397);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3409;
+            __marshalledValue_3409 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_3409);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_4720;
-            double __res_4721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
-            __res_4720 = __res_4721;
-            return __res_4720;
+            double __res_4736;
+            double __res_4737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_4736 = __res_4737;
+            return __res_4736;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_4722;
-            double __res_4723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
-            __res_4722 = __res_4723;
-            return __res_4722;
+            double __res_4738;
+            double __res_4739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_4738 = __res_4739;
+            return __res_4738;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_4724;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
-            __res_4724 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_4725);
-            return __res_4724;
+            global::Iskra.StdWeb.DOMRectReadOnly __res_4740;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4741 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
+            __res_4740 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_4741);
+            return __res_4740;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_4726;
-            string __res_4727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "identifier");
-            __res_4726 = __res_4727;
-            return __res_4726;
+            string __res_4742;
+            string __res_4743 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "identifier");
+            __res_4742 = __res_4743;
+            return __res_4742;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            uint __res_4728;
-            double __res_4729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
-            __res_4728 = Convert.ToUInt32(__res_4729);
-            return __res_4728;
+            uint __res_4744;
+            double __res_4745 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
+            __res_4744 = Convert.ToUInt32(__res_4745);
+            return __res_4744;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            uint __res_4730;
-            double __res_4731 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
-            __res_4730 = Convert.ToUInt32(__res_4731);
-            return __res_4730;
+            uint __res_4746;
+            double __res_4747 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
+            __res_4746 = Convert.ToUInt32(__res_4747);
+            return __res_4746;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_4732;
-            string __res_4733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4732 = __res_4733;
-            return __res_4732;
+            string __res_4748;
+            string __res_4749 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4748 = __res_4749;
+            return __res_4748;
         }
     }
 
@@ -87,18 +87,18 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_4734;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
-            if (__res_4735 is null)
+            global::Iskra.StdWeb.Element? __res_4750;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_4751 is null)
             {
-                __res_4734 = null;
+                __res_4750 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4736 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4735;
-                __res_4734 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_4736);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4752 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4751;
+                __res_4750 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_4752);
             }
-            return __res_4734;
+            return __res_4750;
         }
     }
 
@@ -106,10 +106,10 @@ public partial class PerformanceElementTiming(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_4737;
-            string __res_4738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_4737 = __res_4738;
-            return __res_4737;
+            string __res_4753;
+            string __res_4754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_4753 = __res_4754;
+            return __res_4753;
         }
     }
 }

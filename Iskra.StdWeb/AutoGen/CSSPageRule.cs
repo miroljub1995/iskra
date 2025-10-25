@@ -10,16 +10,16 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_7422;
-            string __res_7423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_7422 = __res_7423;
-            return __res_7422;
+            string __res_7445;
+            string __res_7446 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_7445 = __res_7446;
+            return __res_7445;
         }
         set
         {
-            string __marshalledValue_7424;
-            __marshalledValue_7424 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7424);
+            string __marshalledValue_7447;
+            __marshalledValue_7447 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7447);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.CSSPageDescriptors __res_7425;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7426 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_7425 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_7426);
-            return __res_7425;
+            global::Iskra.StdWeb.CSSPageDescriptors __res_7448;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7449 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_7448 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_7449);
+            return __res_7448;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class XRJointSpace(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.XRHandJoint __res_3763;
-            string __res_3764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "jointName");
-            __res_3763 = global::Iskra.StdWeb.XRHandJoint.Create(__res_3764);
-            return __res_3763;
+            global::Iskra.StdWeb.XRHandJoint __res_3776;
+            string __res_3777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "jointName");
+            __res_3776 = global::Iskra.StdWeb.XRHandJoint.Create(__res_3777);
+            return __res_3776;
         }
     }
 }

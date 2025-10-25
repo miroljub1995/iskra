@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object TransformerCancelCallback(object? reason);
+public delegate global::Iskra.JSCore.Promise TransformerCancelCallback(object? reason);
 
 #nullable disable

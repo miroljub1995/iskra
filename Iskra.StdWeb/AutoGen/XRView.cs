@@ -10,10 +10,10 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.XREye __res_4276;
-            string __res_4277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
-            __res_4276 = global::Iskra.StdWeb.XREye.Create(__res_4277);
-            return __res_4276;
+            global::Iskra.StdWeb.XREye __res_4289;
+            string __res_4290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
+            __res_4289 = global::Iskra.StdWeb.XREye.Create(__res_4290);
+            return __res_4289;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_4278;
-            double __res_4279 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_4278 = Convert.ToUInt32(__res_4279);
-            return __res_4278;
+            uint __res_4291;
+            double __res_4292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_4291 = Convert.ToUInt32(__res_4292);
+            return __res_4291;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            double? __res_4280;
-            double? __res_4281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
-            if (__res_4281 is null)
+            double? __res_4293;
+            double? __res_4294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
+            if (__res_4294 is null)
             {
-                __res_4280 = null;
+                __res_4293 = null;
             }
             else
             {
-                double __notNullable_4282 = (double)__res_4281;
-                __res_4280 = __notNullable_4282;
+                double __notNullable_4295 = (double)__res_4294;
+                __res_4293 = __notNullable_4295;
             }
-            return __res_4280;
+            return __res_4293;
         }
     }
 }

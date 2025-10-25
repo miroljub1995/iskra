@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object LoadDocumentCallback(string url, global::Iskra.StdWeb.LoadDocumentOptions options);
+public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.GenericMarshaller.Promise> LoadDocumentCallback(string url, global::Iskra.StdWeb.LoadDocumentOptions options);
 
 #nullable disable

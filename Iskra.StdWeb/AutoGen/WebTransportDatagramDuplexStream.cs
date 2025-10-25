@@ -10,10 +10,10 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_2194;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_2194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2195);
-            return __res_2194;
+            global::Iskra.StdWeb.ReadableStream __res_2200;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_2200 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2201);
+            return __res_2200;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
     {
         get
         {
-            uint __res_2196;
-            double __res_2197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDatagramSize");
-            __res_2196 = Convert.ToUInt32(__res_2197);
-            return __res_2196;
+            uint __res_2202;
+            double __res_2203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDatagramSize");
+            __res_2202 = Convert.ToUInt32(__res_2203);
+            return __res_2202;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
     {
         get
         {
-            double? __res_2198;
-            double? __res_2199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge");
-            if (__res_2199 is null)
+            double? __res_2204;
+            double? __res_2205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge");
+            if (__res_2205 is null)
             {
-                __res_2198 = null;
+                __res_2204 = null;
             }
             else
             {
-                double __notNullable_2200 = (double)__res_2199;
-                __res_2198 = __notNullable_2200;
+                double __notNullable_2206 = (double)__res_2205;
+                __res_2204 = __notNullable_2206;
             }
-            return __res_2198;
+            return __res_2204;
         }
         set
         {
-            double? __marshalledValue_2201;
+            double? __marshalledValue_2207;
             if (value is null)
             {
-                __marshalledValue_2201 = null;
+                __marshalledValue_2207 = null;
             }
             else
             {
-                double __notNullable_2202 = (double)value;
-                __marshalledValue_2201 = __notNullable_2202;
+                double __notNullable_2208 = (double)value;
+                __marshalledValue_2207 = __notNullable_2208;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge", __marshalledValue_2201);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge", __marshalledValue_2207);
         }
     }
 
@@ -65,32 +65,32 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
     {
         get
         {
-            double? __res_2203;
-            double? __res_2204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge");
-            if (__res_2204 is null)
+            double? __res_2209;
+            double? __res_2210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge");
+            if (__res_2210 is null)
             {
-                __res_2203 = null;
+                __res_2209 = null;
             }
             else
             {
-                double __notNullable_2205 = (double)__res_2204;
-                __res_2203 = __notNullable_2205;
+                double __notNullable_2211 = (double)__res_2210;
+                __res_2209 = __notNullable_2211;
             }
-            return __res_2203;
+            return __res_2209;
         }
         set
         {
-            double? __marshalledValue_2206;
+            double? __marshalledValue_2212;
             if (value is null)
             {
-                __marshalledValue_2206 = null;
+                __marshalledValue_2212 = null;
             }
             else
             {
-                double __notNullable_2207 = (double)value;
-                __marshalledValue_2206 = __notNullable_2207;
+                double __notNullable_2213 = (double)value;
+                __marshalledValue_2212 = __notNullable_2213;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge", __marshalledValue_2206);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge", __marshalledValue_2212);
         }
     }
 
@@ -98,16 +98,16 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
     {
         get
         {
-            double __res_2208;
-            double __res_2209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark");
-            __res_2208 = __res_2209;
-            return __res_2208;
+            double __res_2214;
+            double __res_2215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark");
+            __res_2214 = __res_2215;
+            return __res_2214;
         }
         set
         {
-            double __marshalledValue_2210;
-            __marshalledValue_2210 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark", __marshalledValue_2210);
+            double __marshalledValue_2216;
+            __marshalledValue_2216 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark", __marshalledValue_2216);
         }
     }
 
@@ -115,16 +115,16 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
     {
         get
         {
-            double __res_2211;
-            double __res_2212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark");
-            __res_2211 = __res_2212;
-            return __res_2211;
+            double __res_2217;
+            double __res_2218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark");
+            __res_2217 = __res_2218;
+            return __res_2217;
         }
         set
         {
-            double __marshalledValue_2213;
-            __marshalledValue_2213 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark", __marshalledValue_2213);
+            double __marshalledValue_2219;
+            __marshalledValue_2219 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark", __marshalledValue_2219);
         }
     }
 }

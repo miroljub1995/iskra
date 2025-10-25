@@ -10,16 +10,16 @@ public partial class TestInterfacePropertiesInterface(global::System.Runtime.Int
     {
         get
         {
-            int __res_279;
-            double __res_280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_279 = Convert.ToInt32(__res_280);
-            return __res_279;
+            int __res_306;
+            double __res_307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_306 = Convert.ToInt32(__res_307);
+            return __res_306;
         }
         set
         {
-            double __marshalledValue_281;
-            __marshalledValue_281 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_281);
+            double __marshalledValue_308;
+            __marshalledValue_308 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_308);
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class InterestGroupScriptRunnerGlobalScope(global::System.Runtime
     {
         get
         {
-            global::Iskra.StdWeb.PrivateAggregation? __res_3716;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
-            if (__res_3717 is null)
+            global::Iskra.StdWeb.PrivateAggregation? __res_3729;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "privateAggregation");
+            if (__res_3730 is null)
             {
-                __res_3716 = null;
+                __res_3729 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3718 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3717;
-                __res_3716 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__notNullable_3718);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3731 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3730;
+                __res_3729 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__notNullable_3731);
             }
-            return __res_3716;
+            return __res_3729;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class InterestGroupScriptRunnerGlobalScope(global::System.Runtime
     {
         get
         {
-            global::Iskra.StdWeb.ProtectedAudienceUtilities __res_3719;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
-            __res_3719 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProtectedAudienceUtilities>(__res_3720);
-            return __res_3719;
+            global::Iskra.StdWeb.ProtectedAudienceUtilities __res_3732;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            __res_3732 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProtectedAudienceUtilities>(__res_3733);
+            return __res_3732;
         }
     }
 }

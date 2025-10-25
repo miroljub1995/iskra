@@ -10,16 +10,16 @@ public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            string __res_7349;
-            string __res_7350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
-            __res_7349 = __res_7350;
-            return __res_7349;
+            string __res_7372;
+            string __res_7373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
+            __res_7372 = __res_7373;
+            return __res_7372;
         }
         set
         {
-            string __marshalledValue_7351;
-            __marshalledValue_7351 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7351);
+            string __marshalledValue_7374;
+            __marshalledValue_7374 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_7374);
         }
     }
 
@@ -27,18 +27,18 @@ public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.CSSRule? __res_7352;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
-            if (__res_7353 is null)
+            global::Iskra.StdWeb.CSSRule? __res_7375;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
+            if (__res_7376 is null)
             {
-                __res_7352 = null;
+                __res_7375 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7354 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7353;
-                __res_7352 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_7354);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7377 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7376;
+                __res_7375 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_7377);
             }
-            return __res_7352;
+            return __res_7375;
         }
     }
 
@@ -46,18 +46,18 @@ public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_7355;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7356 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
-            if (__res_7356 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_7378;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
+            if (__res_7379 is null)
             {
-                __res_7355 = null;
+                __res_7378 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7357 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7356;
-                __res_7355 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_7357);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7380 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7379;
+                __res_7378 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_7380);
             }
-            return __res_7355;
+            return __res_7378;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            ushort __res_7358;
-            double __res_7359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_7358 = Convert.ToUInt16(__res_7359);
-            return __res_7358;
+            ushort __res_7381;
+            double __res_7382 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_7381 = Convert.ToUInt16(__res_7382);
+            return __res_7381;
         }
     }
 }

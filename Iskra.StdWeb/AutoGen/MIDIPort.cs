@@ -10,10 +10,10 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_7560;
-            string __res_7561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_7560 = __res_7561;
-            return __res_7560;
+            string __res_7583;
+            string __res_7584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_7583 = __res_7584;
+            return __res_7583;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string? __res_7562;
-            string? __res_7563 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturer");
-            if (__res_7563 is null)
+            string? __res_7585;
+            string? __res_7586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturer");
+            if (__res_7586 is null)
             {
-                __res_7562 = null;
+                __res_7585 = null;
             }
             else
             {
-                string __notNullable_7564 = (string)__res_7563;
-                __res_7562 = __notNullable_7564;
+                string __notNullable_7587 = (string)__res_7586;
+                __res_7585 = __notNullable_7587;
             }
-            return __res_7562;
+            return __res_7585;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string? __res_7565;
-            string? __res_7566 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_7566 is null)
+            string? __res_7588;
+            string? __res_7589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_7589 is null)
             {
-                __res_7565 = null;
+                __res_7588 = null;
             }
             else
             {
-                string __notNullable_7567 = (string)__res_7566;
-                __res_7565 = __notNullable_7567;
+                string __notNullable_7590 = (string)__res_7589;
+                __res_7588 = __notNullable_7590;
             }
-            return __res_7565;
+            return __res_7588;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.MIDIPortType __res_7568;
-            string __res_7569 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7568 = global::Iskra.StdWeb.MIDIPortType.Create(__res_7569);
-            return __res_7568;
+            global::Iskra.StdWeb.MIDIPortType __res_7591;
+            string __res_7592 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_7591 = global::Iskra.StdWeb.MIDIPortType.Create(__res_7592);
+            return __res_7591;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string? __res_7570;
-            string? __res_7571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "version");
-            if (__res_7571 is null)
+            string? __res_7593;
+            string? __res_7594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "version");
+            if (__res_7594 is null)
             {
-                __res_7570 = null;
+                __res_7593 = null;
             }
             else
             {
-                string __notNullable_7572 = (string)__res_7571;
-                __res_7570 = __notNullable_7572;
+                string __notNullable_7595 = (string)__res_7594;
+                __res_7593 = __notNullable_7595;
             }
-            return __res_7570;
+            return __res_7593;
         }
     }
 
@@ -89,10 +89,10 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.MIDIPortDeviceState __res_7573;
-            string __res_7574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_7573 = global::Iskra.StdWeb.MIDIPortDeviceState.Create(__res_7574);
-            return __res_7573;
+            global::Iskra.StdWeb.MIDIPortDeviceState __res_7596;
+            string __res_7597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_7596 = global::Iskra.StdWeb.MIDIPortDeviceState.Create(__res_7597);
+            return __res_7596;
         }
     }
 
@@ -100,10 +100,10 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.MIDIPortConnectionState __res_7575;
-            string __res_7576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connection");
-            __res_7575 = global::Iskra.StdWeb.MIDIPortConnectionState.Create(__res_7576);
-            return __res_7575;
+            global::Iskra.StdWeb.MIDIPortConnectionState __res_7598;
+            string __res_7599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connection");
+            __res_7598 = global::Iskra.StdWeb.MIDIPortConnectionState.Create(__res_7599);
+            return __res_7598;
         }
     }
 
@@ -111,32 +111,32 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7577;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7578 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_7578 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7600;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_7601 is null)
             {
-                __res_7577 = null;
+                __res_7600 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7579 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7578;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7602 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7601;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7577;
+            return __res_7600;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7580;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7603;
             if (value is null)
             {
-                __marshalledValue_7580 = null;
+                __marshalledValue_7603 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7581 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7604 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7580);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_7603);
         }
     }
 }

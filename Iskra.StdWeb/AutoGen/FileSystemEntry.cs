@@ -10,10 +10,10 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_1397;
-            bool __res_1398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFile");
-            __res_1397 = __res_1398;
-            return __res_1397;
+            bool __res_1399;
+            bool __res_1400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFile");
+            __res_1399 = __res_1400;
+            return __res_1399;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_1399;
-            bool __res_1400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isDirectory");
-            __res_1399 = __res_1400;
-            return __res_1399;
+            bool __res_1401;
+            bool __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isDirectory");
+            __res_1401 = __res_1402;
+            return __res_1401;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_1401;
-            string __res_1402 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1401 = __res_1402;
-            return __res_1401;
+            string __res_1403;
+            string __res_1404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1403 = __res_1404;
+            return __res_1403;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_1403;
-            string __res_1404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullPath");
-            __res_1403 = __res_1404;
-            return __res_1403;
+            string __res_1405;
+            string __res_1406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullPath");
+            __res_1405 = __res_1406;
+            return __res_1405;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.FileSystem __res_1405;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filesystem");
-            __res_1405 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystem>(__res_1406);
-            return __res_1405;
+            global::Iskra.StdWeb.FileSystem __res_1407;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1408 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filesystem");
+            __res_1407 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystem>(__res_1408);
+            return __res_1407;
         }
     }
 }

@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object TransformerFlushCallback(global::Iskra.StdWeb.TransformStreamDefaultController controller);
+public delegate global::Iskra.JSCore.Promise TransformerFlushCallback(global::Iskra.StdWeb.TransformStreamDefaultController controller);
 
 #nullable disable

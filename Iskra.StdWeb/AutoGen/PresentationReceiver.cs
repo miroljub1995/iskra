@@ -6,13 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationReceiver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object ConnectionList
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise> ConnectionList
     {
         get
         {
-            object __res_2321;
-            throw new global::System.Exception();
-            return __res_2321;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_2330;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2331;
+            __propObject_2331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionList");
+            __res_2330 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_2331);
+            return __res_2330;
         }
     }
 }

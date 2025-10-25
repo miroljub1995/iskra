@@ -10,10 +10,10 @@ public partial class PasswordCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_2576;
-            string __res_2577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_2576 = __res_2577;
-            return __res_2576;
+            string __res_2586;
+            string __res_2587 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_2586 = __res_2587;
+            return __res_2586;
         }
     }
 }

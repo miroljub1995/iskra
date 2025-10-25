@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object UnderlyingSinkAbortCallback(object? reason);
+public delegate global::Iskra.JSCore.Promise UnderlyingSinkAbortCallback(object? reason);
 
 #nullable disable

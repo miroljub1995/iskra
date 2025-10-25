@@ -14,6 +14,7 @@ public static class JSCoreShims
         }
 
         const string moduleContent = """
+                                     export const getSelf = (obj) => obj;
                                      export const construct = (obj, constructorName, ...args) => new obj[constructorName](...args);
                                      export const isGlobalConstructor = (constructorName, target) => globalThis[constructorName] === target.constructor;
                                      export const arrowFunctionProxy = (fun) => (...args) => fun(...args);
@@ -120,6 +121,9 @@ public static class JSCoreShims
                                              },
                                          })
                                      }
+
+                                     export const wrapPromiseValue = (obj) => obj.then(x => ({ value: x }));
+                                     export const unwrapPromiseValue = (obj) => obj.then(x => x.value);
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

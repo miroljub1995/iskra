@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object LockGrantedCallback(global::Iskra.StdWeb.Lock? @lock);
+public delegate global::Iskra.JSCore.Generics.Promise<object?, global::Iskra.StdWeb.GenericMarshaller.Promise> LockGrantedCallback(global::Iskra.StdWeb.Lock? @lock);
 
 #nullable disable

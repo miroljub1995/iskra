@@ -10,16 +10,16 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_3356;
-            string __res_3357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_3356 = __res_3357;
-            return __res_3356;
+            string __res_3368;
+            string __res_3369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_3368 = __res_3369;
+            return __res_3368;
         }
         set
         {
-            string __marshalledValue_3358;
-            __marshalledValue_3358 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_3358);
+            string __marshalledValue_3370;
+            __marshalledValue_3370 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_3370);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_3359;
-            double __res_3360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3359 = Convert.ToUInt32(__res_3360);
-            return __res_3359;
+            uint __res_3371;
+            double __res_3372 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3371 = Convert.ToUInt32(__res_3372);
+            return __res_3371;
         }
     }
 }

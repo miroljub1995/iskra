@@ -10,10 +10,10 @@ public partial class Memory(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_4705;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
-            __res_4705 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4706);
-            return __res_4705;
+            global::Iskra.JSCore.ArrayBuffer __res_4721;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
+            __res_4721 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4722);
+            return __res_4721;
         }
     }
 }

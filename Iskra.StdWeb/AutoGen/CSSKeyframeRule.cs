@@ -10,16 +10,16 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3043;
-            string __res_3044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
-            __res_3043 = __res_3044;
-            return __res_3043;
+            string __res_3055;
+            string __res_3056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
+            __res_3055 = __res_3056;
+            return __res_3055;
         }
         set
         {
-            string __marshalledValue_3045;
-            __marshalledValue_3045 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_3045);
+            string __marshalledValue_3057;
+            __marshalledValue_3057 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_3057);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleProperties __res_3046;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_3046 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_3047);
-            return __res_3046;
+            global::Iskra.StdWeb.CSSStyleProperties __res_3058;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_3058 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_3059);
+            return __res_3058;
         }
     }
 }

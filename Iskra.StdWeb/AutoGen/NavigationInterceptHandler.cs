@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object NavigationInterceptHandler();
+public delegate global::Iskra.JSCore.Promise NavigationInterceptHandler();
 
 #nullable disable

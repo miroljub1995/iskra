@@ -10,16 +10,16 @@ public partial class Viewport(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_8086;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8087;
-            __propObject_8087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments");
-            if (__propObject_8087 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_8109;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8110;
+            __propObject_8110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments");
+            if (__propObject_8110 is null)
             {
                 return null;
             }
 
-            __res_8086 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_8087);
-            return __res_8086;
+            __res_8109 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_8110);
+            return __res_8109;
         }
     }
 }

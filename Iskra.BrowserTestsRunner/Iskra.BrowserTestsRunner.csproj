@@ -14,4 +14,8 @@
         <Content Include="index.html" CopyToOutputDirectory="PreserveNewest"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Iskra.WebIDLGenerator.Tests\Iskra.WebIDLGenerator.Tests.csproj" ReferenceOutputAssembly="false"/>
+    </ItemGroup>
+
 </Project>

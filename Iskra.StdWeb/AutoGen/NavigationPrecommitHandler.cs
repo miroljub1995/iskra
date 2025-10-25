@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object NavigationPrecommitHandler(global::Iskra.StdWeb.NavigationPrecommitController controller);
+public delegate global::Iskra.JSCore.Promise NavigationPrecommitHandler(global::Iskra.StdWeb.NavigationPrecommitController controller);
 
 #nullable disable

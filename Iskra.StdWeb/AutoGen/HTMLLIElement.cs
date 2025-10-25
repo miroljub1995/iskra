@@ -10,16 +10,16 @@ public partial class HTMLLIElement(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            int __res_5444;
-            double __res_5445 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_5444 = Convert.ToInt32(__res_5445);
-            return __res_5444;
+            int __res_5462;
+            double __res_5463 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_5462 = Convert.ToInt32(__res_5463);
+            return __res_5462;
         }
         set
         {
-            double __marshalledValue_5446;
-            __marshalledValue_5446 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_5446);
+            double __marshalledValue_5464;
+            __marshalledValue_5464 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_5464);
         }
     }
 }

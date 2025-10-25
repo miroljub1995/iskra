@@ -10,18 +10,18 @@ public partial class HTMLLegendElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_6397;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6398 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_6415;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6416 is null)
             {
-                __res_6397 = null;
+                __res_6415 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6399 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6398;
-                __res_6397 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6399);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6417 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6416;
+                __res_6415 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6417);
             }
-            return __res_6397;
+            return __res_6415;
         }
     }
 }

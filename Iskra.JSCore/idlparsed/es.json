@@ -140,6 +140,16 @@
         "extAttrs": [],
         "partial": false,
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigUint64Array"
+      },
+      "Promise": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Promise",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
       }
     },
     "idlExtendedNames": {}

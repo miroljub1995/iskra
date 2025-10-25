@@ -10,10 +10,10 @@ public partial class Attribution(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AttributionAggregationServices __res_1648;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
-            __res_1648 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AttributionAggregationServices>(__res_1649);
-            return __res_1648;
+            global::Iskra.StdWeb.AttributionAggregationServices __res_1652;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1653 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
+            __res_1652 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AttributionAggregationServices>(__res_1653);
+            return __res_1652;
         }
     }
 }

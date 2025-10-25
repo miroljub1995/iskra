@@ -10,32 +10,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2751;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2752 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
-            if (__res_2752 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2763;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2764 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
+            if (__res_2764 is null)
             {
-                __res_2751 = null;
+                __res_2763 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2753 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2752;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2765 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2764;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_2751;
+            return __res_2763;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2754;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2766;
             if (value is null)
             {
-                __marshalledValue_2754 = null;
+                __marshalledValue_2766 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2755 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2767 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_2754);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_2766);
         }
     }
 
@@ -43,18 +43,18 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothDevice? __res_2756;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
-            if (__res_2757 is null)
+            global::Iskra.StdWeb.BluetoothDevice? __res_2768;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
+            if (__res_2769 is null)
             {
-                __res_2756 = null;
+                __res_2768 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2758 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2757;
-                __res_2756 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__notNullable_2758);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2770 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2769;
+                __res_2768 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__notNullable_2770);
             }
-            return __res_2756;
+            return __res_2768;
         }
     }
 }

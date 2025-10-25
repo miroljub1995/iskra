@@ -10,10 +10,10 @@ public partial class PortalActivateEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            object? __res_3759;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            object? __res_3772;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_3759;
+            return __res_3772;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class SVGClipPathElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2932;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipPathUnits");
-            __res_2932 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2933);
-            return __res_2932;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2944;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipPathUnits");
+            __res_2944 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2945);
+            return __res_2944;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGClipPathElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedTransformList __res_2934;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_2934 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_2935);
-            return __res_2934;
+            global::Iskra.StdWeb.SVGAnimatedTransformList __res_2946;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            __res_2946 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_2947);
+            return __res_2946;
         }
     }
 }

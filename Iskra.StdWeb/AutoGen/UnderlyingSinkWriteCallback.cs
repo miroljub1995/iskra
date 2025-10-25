@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object UnderlyingSinkWriteCallback(object? chunk, global::Iskra.StdWeb.WritableStreamDefaultController controller);
+public delegate global::Iskra.JSCore.Promise UnderlyingSinkWriteCallback(object? chunk, global::Iskra.StdWeb.WritableStreamDefaultController controller);
 
 #nullable disable

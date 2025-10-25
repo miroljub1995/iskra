@@ -10,18 +10,18 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
     {
         get
         {
-            string? __res_4811;
-            string? __res_4812 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_4812 is null)
+            string? __res_4828;
+            string? __res_4829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_4829 is null)
             {
-                __res_4811 = null;
+                __res_4828 = null;
             }
             else
             {
-                string __notNullable_4813 = (string)__res_4812;
-                __res_4811 = __notNullable_4813;
+                string __notNullable_4830 = (string)__res_4829;
+                __res_4828 = __notNullable_4830;
             }
-            return __res_4811;
+            return __res_4828;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
     {
         get
         {
-            string? __res_4814;
-            string? __res_4815 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
-            if (__res_4815 is null)
+            string? __res_4831;
+            string? __res_4832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namePrefix");
+            if (__res_4832 is null)
             {
-                __res_4814 = null;
+                __res_4831 = null;
             }
             else
             {
-                string __notNullable_4816 = (string)__res_4815;
-                __res_4814 = __notNullable_4816;
+                string __notNullable_4833 = (string)__res_4832;
+                __res_4831 = __notNullable_4833;
             }
-            return __res_4814;
+            return __res_4831;
         }
     }
 
@@ -48,11 +48,11 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4817;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4818;
-            __propObject_4818 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "services");
-            __res_4817 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4818);
-            return __res_4817;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4834;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4835;
+            __propObject_4835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "services");
+            __res_4834 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4835);
+            return __res_4834;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4819;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4820 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
-            __res_4819 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothManufacturerDataFilter>(__res_4820);
-            return __res_4819;
+            global::Iskra.StdWeb.BluetoothManufacturerDataFilter __res_4836;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
+            __res_4836 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothManufacturerDataFilter>(__res_4837);
+            return __res_4836;
         }
     }
 
@@ -71,10 +71,10 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothServiceDataFilter __res_4821;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
-            __res_4821 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothServiceDataFilter>(__res_4822);
-            return __res_4821;
+            global::Iskra.StdWeb.BluetoothServiceDataFilter __res_4838;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4839 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
+            __res_4838 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothServiceDataFilter>(__res_4839);
+            return __res_4838;
         }
     }
 }

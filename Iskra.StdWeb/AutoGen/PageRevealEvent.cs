@@ -10,18 +10,18 @@ public partial class PageRevealEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.ViewTransition? __res_6828;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
-            if (__res_6829 is null)
+            global::Iskra.StdWeb.ViewTransition? __res_6848;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
+            if (__res_6849 is null)
             {
-                __res_6828 = null;
+                __res_6848 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6830 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6829;
-                __res_6828 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransition>(__notNullable_6830);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6850 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6849;
+                __res_6848 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransition>(__notNullable_6850);
             }
-            return __res_6828;
+            return __res_6848;
         }
     }
 }

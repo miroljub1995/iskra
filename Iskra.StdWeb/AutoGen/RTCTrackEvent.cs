@@ -10,10 +10,10 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.RTCRtpReceiver __res_1982;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            __res_1982 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpReceiver>(__res_1983);
-            return __res_1982;
+            global::Iskra.StdWeb.RTCRtpReceiver __res_1986;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            __res_1986 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpReceiver>(__res_1987);
+            return __res_1986;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrack __res_1984;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_1984 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_1985);
-            return __res_1984;
+            global::Iskra.StdWeb.MediaStreamTrack __res_1988;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_1988 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_1989);
+            return __res_1988;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1986;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1987;
-            __propObject_1987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "streams");
-            __res_1986 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1987);
-            return __res_1986;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1990;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1991;
+            __propObject_1991 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "streams");
+            __res_1990 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1991);
+            return __res_1990;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.RTCRtpTransceiver __res_1988;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
-            __res_1988 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpTransceiver>(__res_1989);
-            return __res_1988;
+            global::Iskra.StdWeb.RTCRtpTransceiver __res_1992;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1993 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transceiver");
+            __res_1992 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpTransceiver>(__res_1993);
+            return __res_1992;
         }
     }
 }

@@ -1,4 +1,5 @@
 using Iskra.StdWebGenerator.GeneratorContexts;
+using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
 
@@ -34,6 +35,16 @@ public class SetPropertyValueGenerator(
                 inputVar: inputVar,
                 valueVar: valueVar,
                 type: frozenArrayTypeDescription,
+                propertyNameVar: propertyNameVar
+            );
+        }
+
+        if (type is PromiseTypeDescription promiseTypeDescription)
+        {
+            return GenerateForPromise(
+                inputVar: inputVar,
+                valueVar: valueVar,
+                type: promiseTypeDescription,
                 propertyNameVar: propertyNameVar
             );
         }
@@ -163,6 +174,45 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         FrozenArrayTypeDescription type,
+        string propertyNameVar
+    )
+    {
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        var setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
+                                   """;
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     if ({{valueVar}} is null)
+                     {
+                         {{setPropertyVar}} = null;
+                     }
+                     else
+                     {
+                         {{setPropertyVar}} = {{valueVar}}.JSObject;
+                     }
+
+                     {{setPropertyContent}}
+                     """;
+        }
+
+        return $$"""
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
+                 {{setPropertyContent}}
+                 """;
+    }
+
+    private string GenerateForPromise(
+        string inputVar,
+        string valueVar,
+        PromiseTypeDescription type,
         string propertyNameVar
     )
     {

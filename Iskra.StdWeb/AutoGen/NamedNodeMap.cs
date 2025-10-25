@@ -10,10 +10,10 @@ public partial class NamedNodeMap(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_3336;
-            double __res_3337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3336 = Convert.ToUInt32(__res_3337);
-            return __res_3336;
+            uint __res_3348;
+            double __res_3349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3348 = Convert.ToUInt32(__res_3349);
+            return __res_3348;
         }
     }
 }

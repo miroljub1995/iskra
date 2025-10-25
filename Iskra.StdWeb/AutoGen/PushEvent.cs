@@ -10,18 +10,18 @@ public partial class PushEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.PushMessageData? __res_5012;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_5013 is null)
+            global::Iskra.StdWeb.PushMessageData? __res_5029;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_5030 is null)
             {
-                __res_5012 = null;
+                __res_5029 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5014 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5013;
-                __res_5012 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(__notNullable_5014);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5031 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5030;
+                __res_5029 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(__notNullable_5031);
             }
-            return __res_5012;
+            return __res_5029;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class PushEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Notification? __res_5015;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
-            if (__res_5016 is null)
+            global::Iskra.StdWeb.Notification? __res_5032;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
+            if (__res_5033 is null)
             {
-                __res_5015 = null;
+                __res_5032 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5017 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5016;
-                __res_5015 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__notNullable_5017);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5034 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5033;
+                __res_5032 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__notNullable_5034);
             }
-            return __res_5015;
+            return __res_5032;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class Lock(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_2922;
-            string __res_2923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2922 = __res_2923;
-            return __res_2922;
+            string __res_2934;
+            string __res_2935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2934 = __res_2935;
+            return __res_2934;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Lock(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            global::Iskra.StdWeb.LockMode __res_2924;
-            string __res_2925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
-            __res_2924 = global::Iskra.StdWeb.LockMode.Create(__res_2925);
-            return __res_2924;
+            global::Iskra.StdWeb.LockMode __res_2936;
+            string __res_2937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_2936 = global::Iskra.StdWeb.LockMode.Create(__res_2937);
+            return __res_2936;
         }
     }
 }

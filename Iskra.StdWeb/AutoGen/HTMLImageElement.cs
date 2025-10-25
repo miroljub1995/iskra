@@ -10,16 +10,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5506;
-            string __res_5507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alt");
-            __res_5506 = __res_5507;
-            return __res_5506;
+            string __res_5524;
+            string __res_5525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alt");
+            __res_5524 = __res_5525;
+            return __res_5524;
         }
         set
         {
-            string __marshalledValue_5508;
-            __marshalledValue_5508 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alt", __marshalledValue_5508);
+            string __marshalledValue_5526;
+            __marshalledValue_5526 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alt", __marshalledValue_5526);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5509;
-            string __res_5510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_5509 = __res_5510;
-            return __res_5509;
+            string __res_5527;
+            string __res_5528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_5527 = __res_5528;
+            return __res_5527;
         }
         set
         {
-            string __marshalledValue_5511;
-            __marshalledValue_5511 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5511);
+            string __marshalledValue_5529;
+            __marshalledValue_5529 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5529);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5512;
-            string __res_5513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "srcset");
-            __res_5512 = __res_5513;
-            return __res_5512;
+            string __res_5530;
+            string __res_5531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "srcset");
+            __res_5530 = __res_5531;
+            return __res_5530;
         }
         set
         {
-            string __marshalledValue_5514;
-            __marshalledValue_5514 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "srcset", __marshalledValue_5514);
+            string __marshalledValue_5532;
+            __marshalledValue_5532 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "srcset", __marshalledValue_5532);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5515;
-            string __res_5516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizes");
-            __res_5515 = __res_5516;
-            return __res_5515;
+            string __res_5533;
+            string __res_5534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizes");
+            __res_5533 = __res_5534;
+            return __res_5533;
         }
         set
         {
-            string __marshalledValue_5517;
-            __marshalledValue_5517 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "sizes", __marshalledValue_5517);
+            string __marshalledValue_5535;
+            __marshalledValue_5535 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "sizes", __marshalledValue_5535);
         }
     }
 
@@ -78,32 +78,32 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_5518;
-            string? __res_5519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_5519 is null)
+            string? __res_5536;
+            string? __res_5537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_5537 is null)
             {
-                __res_5518 = null;
+                __res_5536 = null;
             }
             else
             {
-                string __notNullable_5520 = (string)__res_5519;
-                __res_5518 = __notNullable_5520;
+                string __notNullable_5538 = (string)__res_5537;
+                __res_5536 = __notNullable_5538;
             }
-            return __res_5518;
+            return __res_5536;
         }
         set
         {
-            string? __marshalledValue_5521;
+            string? __marshalledValue_5539;
             if (value is null)
             {
-                __marshalledValue_5521 = null;
+                __marshalledValue_5539 = null;
             }
             else
             {
-                string __notNullable_5522 = (string)value;
-                __marshalledValue_5521 = __notNullable_5522;
+                string __notNullable_5540 = (string)value;
+                __marshalledValue_5539 = __notNullable_5540;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_5521);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_5539);
         }
     }
 
@@ -111,16 +111,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5523;
-            string __res_5524 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "useMap");
-            __res_5523 = __res_5524;
-            return __res_5523;
+            string __res_5541;
+            string __res_5542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "useMap");
+            __res_5541 = __res_5542;
+            return __res_5541;
         }
         set
         {
-            string __marshalledValue_5525;
-            __marshalledValue_5525 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "useMap", __marshalledValue_5525);
+            string __marshalledValue_5543;
+            __marshalledValue_5543 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "useMap", __marshalledValue_5543);
         }
     }
 
@@ -128,16 +128,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_5526;
-            bool __res_5527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isMap");
-            __res_5526 = __res_5527;
-            return __res_5526;
+            bool __res_5544;
+            bool __res_5545 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isMap");
+            __res_5544 = __res_5545;
+            return __res_5544;
         }
         set
         {
-            bool __marshalledValue_5528;
-            __marshalledValue_5528 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "isMap", __marshalledValue_5528);
+            bool __marshalledValue_5546;
+            __marshalledValue_5546 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "isMap", __marshalledValue_5546);
         }
     }
 
@@ -145,16 +145,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5529;
-            double __res_5530 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_5529 = Convert.ToUInt32(__res_5530);
-            return __res_5529;
+            uint __res_5547;
+            double __res_5548 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_5547 = Convert.ToUInt32(__res_5548);
+            return __res_5547;
         }
         set
         {
-            double __marshalledValue_5531;
-            __marshalledValue_5531 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_5531);
+            double __marshalledValue_5549;
+            __marshalledValue_5549 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_5549);
         }
     }
 
@@ -162,16 +162,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5532;
-            double __res_5533 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_5532 = Convert.ToUInt32(__res_5533);
-            return __res_5532;
+            uint __res_5550;
+            double __res_5551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_5550 = Convert.ToUInt32(__res_5551);
+            return __res_5550;
         }
         set
         {
-            double __marshalledValue_5534;
-            __marshalledValue_5534 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_5534);
+            double __marshalledValue_5552;
+            __marshalledValue_5552 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_5552);
         }
     }
 
@@ -179,10 +179,10 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5535;
-            double __res_5536 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
-            __res_5535 = Convert.ToUInt32(__res_5536);
-            return __res_5535;
+            uint __res_5553;
+            double __res_5554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalWidth");
+            __res_5553 = Convert.ToUInt32(__res_5554);
+            return __res_5553;
         }
     }
 
@@ -190,10 +190,10 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5537;
-            double __res_5538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
-            __res_5537 = Convert.ToUInt32(__res_5538);
-            return __res_5537;
+            uint __res_5555;
+            double __res_5556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "naturalHeight");
+            __res_5555 = Convert.ToUInt32(__res_5556);
+            return __res_5555;
         }
     }
 
@@ -201,10 +201,10 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_5539;
-            bool __res_5540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            __res_5539 = __res_5540;
-            return __res_5539;
+            bool __res_5557;
+            bool __res_5558 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            __res_5557 = __res_5558;
+            return __res_5557;
         }
     }
 
@@ -212,10 +212,10 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5541;
-            string __res_5542 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
-            __res_5541 = __res_5542;
-            return __res_5541;
+            string __res_5559;
+            string __res_5560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
+            __res_5559 = __res_5560;
+            return __res_5559;
         }
     }
 
@@ -223,16 +223,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5543;
-            string __res_5544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
-            __res_5543 = __res_5544;
-            return __res_5543;
+            string __res_5561;
+            string __res_5562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_5561 = __res_5562;
+            return __res_5561;
         }
         set
         {
-            string __marshalledValue_5545;
-            __marshalledValue_5545 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_5545);
+            string __marshalledValue_5563;
+            __marshalledValue_5563 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_5563);
         }
     }
 
@@ -240,16 +240,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5546;
-            string __res_5547 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "decoding");
-            __res_5546 = __res_5547;
-            return __res_5546;
+            string __res_5564;
+            string __res_5565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "decoding");
+            __res_5564 = __res_5565;
+            return __res_5564;
         }
         set
         {
-            string __marshalledValue_5548;
-            __marshalledValue_5548 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "decoding", __marshalledValue_5548);
+            string __marshalledValue_5566;
+            __marshalledValue_5566 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "decoding", __marshalledValue_5566);
         }
     }
 
@@ -257,16 +257,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5549;
-            string __res_5550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "loading");
-            __res_5549 = __res_5550;
-            return __res_5549;
+            string __res_5567;
+            string __res_5568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "loading");
+            __res_5567 = __res_5568;
+            return __res_5567;
         }
         set
         {
-            string __marshalledValue_5551;
-            __marshalledValue_5551 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "loading", __marshalledValue_5551);
+            string __marshalledValue_5569;
+            __marshalledValue_5569 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "loading", __marshalledValue_5569);
         }
     }
 
@@ -274,16 +274,16 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5552;
-            string __res_5553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fetchPriority");
-            __res_5552 = __res_5553;
-            return __res_5552;
+            string __res_5570;
+            string __res_5571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fetchPriority");
+            __res_5570 = __res_5571;
+            return __res_5570;
         }
         set
         {
-            string __marshalledValue_5554;
-            __marshalledValue_5554 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fetchPriority", __marshalledValue_5554);
+            string __marshalledValue_5572;
+            __marshalledValue_5572 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fetchPriority", __marshalledValue_5572);
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string? __res_8008;
-            string? __res_8009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
-            if (__res_8009 is null)
+            string? __res_8031;
+            string? __res_8032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
+            if (__res_8032 is null)
             {
-                __res_8008 = null;
+                __res_8031 = null;
             }
             else
             {
-                string __notNullable_8010 = (string)__res_8009;
-                __res_8008 = __notNullable_8010;
+                string __notNullable_8033 = (string)__res_8032;
+                __res_8031 = __notNullable_8033;
             }
-            return __res_8008;
+            return __res_8031;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_8011;
-            bool __res_8012 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
-            __res_8011 = __res_8012;
-            return __res_8011;
+            bool __res_8034;
+            bool __res_8035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            __res_8034 = __res_8035;
+            return __res_8034;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_8013;
-            string __res_8014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
-            __res_8013 = __res_8014;
-            return __res_8013;
+            string __res_8036;
+            string __res_8037 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
+            __res_8036 = __res_8037;
+            return __res_8036;
         }
     }
 }

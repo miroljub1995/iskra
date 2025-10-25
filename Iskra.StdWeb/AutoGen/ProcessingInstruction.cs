@@ -10,10 +10,10 @@ public partial class ProcessingInstruction(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_3363;
-            string __res_3364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_3363 = __res_3364;
-            return __res_3363;
+            string __res_3375;
+            string __res_3376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_3375 = __res_3376;
+            return __res_3375;
         }
     }
 }

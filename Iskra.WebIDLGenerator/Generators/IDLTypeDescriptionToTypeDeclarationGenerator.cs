@@ -21,6 +21,11 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MapFrozenArrayToManagedType(frozenArrayTypeDescription, marshalled);
         }
 
+        if (input is PromiseTypeDescription promiseTypeDescription)
+        {
+            return MapPromiseToManagedType(promiseTypeDescription, marshalled);
+        }
+
         if (input is SequenceTypeDescription sequenceTypeDescription)
         {
             return MapSequenceToManagedType(sequenceTypeDescription, marshalled);
@@ -66,6 +71,29 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
         return MakeNullableIfNeeded(
             $"global::Iskra.JSCore.Generics.FrozenArray<{elementManagedType}, {marshaller}>",
+            input.Nullable
+        );
+    }
+
+    private string MapPromiseToManagedType(PromiseTypeDescription input, bool marshalled)
+    {
+        var elementType = input.IdlType.Single();
+        if (elementType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined })
+        {
+            return MakeNullableIfNeeded("global::Iskra.JSCore.Promise", input.Nullable);
+        }
+
+        var elementManagedType = Generate(elementType);
+
+        if (marshalled)
+        {
+            return MakeNullableIfNeeded($"global::System.Threading.Tasks.Task<{elementManagedType}>", input.Nullable);
+        }
+
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
+
+        return MakeNullableIfNeeded(
+            $"global::Iskra.JSCore.Generics.Promise<{elementManagedType}, {marshaller}>",
             input.Nullable
         );
     }

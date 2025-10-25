@@ -10,10 +10,10 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3284;
-            string __res_3285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3284 = __res_3285;
-            return __res_3284;
+            string __res_3296;
+            string __res_3297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3296 = __res_3297;
+            return __res_3296;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3286;
-            string __res_3287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
-            __res_3286 = __res_3287;
-            return __res_3286;
+            string __res_3298;
+            string __res_3299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
+            __res_3298 = __res_3299;
+            return __res_3298;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3288;
-            string __res_3289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
-            __res_3288 = __res_3289;
-            return __res_3288;
+            string __res_3300;
+            string __res_3301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
+            __res_3300 = __res_3301;
+            return __res_3300;
         }
     }
 }

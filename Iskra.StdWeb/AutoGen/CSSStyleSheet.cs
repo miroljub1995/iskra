@@ -10,18 +10,18 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRule? __res_7340;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
-            if (__res_7341 is null)
+            global::Iskra.StdWeb.CSSRule? __res_7363;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
+            if (__res_7364 is null)
             {
-                __res_7340 = null;
+                __res_7363 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7342 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7341;
-                __res_7340 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_7342);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7365 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7364;
+                __res_7363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_7365);
             }
-            return __res_7340;
+            return __res_7363;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_7343;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_7343 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_7344);
-            return __res_7343;
+            global::Iskra.StdWeb.CSSRuleList __res_7366;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            __res_7366 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_7367);
+            return __res_7366;
         }
     }
 }

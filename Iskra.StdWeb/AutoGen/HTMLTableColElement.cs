@@ -10,16 +10,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_5922;
-            double __res_5923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "span");
-            __res_5922 = Convert.ToUInt32(__res_5923);
-            return __res_5922;
+            uint __res_5940;
+            double __res_5941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "span");
+            __res_5940 = Convert.ToUInt32(__res_5941);
+            return __res_5940;
         }
         set
         {
-            double __marshalledValue_5924;
-            __marshalledValue_5924 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "span", __marshalledValue_5924);
+            double __marshalledValue_5942;
+            __marshalledValue_5942 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "span", __marshalledValue_5942);
         }
     }
 }

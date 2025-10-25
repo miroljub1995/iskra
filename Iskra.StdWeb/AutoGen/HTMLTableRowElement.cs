@@ -10,10 +10,10 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            int __res_5927;
-            double __res_5928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
-            __res_5927 = Convert.ToInt32(__res_5928);
-            return __res_5927;
+            int __res_5945;
+            double __res_5946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
+            __res_5945 = Convert.ToInt32(__res_5946);
+            return __res_5945;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            int __res_5929;
-            double __res_5930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
-            __res_5929 = Convert.ToInt32(__res_5930);
-            return __res_5929;
+            int __res_5947;
+            double __res_5948 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
+            __res_5947 = Convert.ToInt32(__res_5948);
+            return __res_5947;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_5931;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
-            __res_5931 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5932);
-            return __res_5931;
+            global::Iskra.StdWeb.HTMLCollection __res_5949;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5950 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
+            __res_5949 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5950);
+            return __res_5949;
         }
     }
 }

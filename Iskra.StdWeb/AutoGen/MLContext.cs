@@ -6,13 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class MLContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object Lost
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> Lost
     {
         get
         {
-            object __res_4792;
-            throw new global::System.Exception();
-            return __res_4792;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_4808;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4809;
+            __propObject_4809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
+            __res_4808 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_4809);
+            return __res_4808;
         }
     }
 }

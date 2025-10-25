@@ -10,110 +10,8 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5950;
-            string __res_5951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "acceptCharset");
-            __res_5950 = __res_5951;
-            return __res_5950;
-        }
-        set
-        {
-            string __marshalledValue_5952;
-            __marshalledValue_5952 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "acceptCharset", __marshalledValue_5952);
-        }
-    }
-
-    public string Action
-    {
-        get
-        {
-            string __res_5953;
-            string __res_5954 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
-            __res_5953 = __res_5954;
-            return __res_5953;
-        }
-        set
-        {
-            string __marshalledValue_5955;
-            __marshalledValue_5955 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "action", __marshalledValue_5955);
-        }
-    }
-
-    public string Autocomplete
-    {
-        get
-        {
-            string __res_5956;
-            string __res_5957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "autocomplete");
-            __res_5956 = __res_5957;
-            return __res_5956;
-        }
-        set
-        {
-            string __marshalledValue_5958;
-            __marshalledValue_5958 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_5958);
-        }
-    }
-
-    public string Enctype
-    {
-        get
-        {
-            string __res_5959;
-            string __res_5960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "enctype");
-            __res_5959 = __res_5960;
-            return __res_5959;
-        }
-        set
-        {
-            string __marshalledValue_5961;
-            __marshalledValue_5961 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "enctype", __marshalledValue_5961);
-        }
-    }
-
-    public string Encoding
-    {
-        get
-        {
-            string __res_5962;
-            string __res_5963 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_5962 = __res_5963;
-            return __res_5962;
-        }
-        set
-        {
-            string __marshalledValue_5964;
-            __marshalledValue_5964 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "encoding", __marshalledValue_5964);
-        }
-    }
-
-    public string Method
-    {
-        get
-        {
-            string __res_5965;
-            string __res_5966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "method");
-            __res_5965 = __res_5966;
-            return __res_5965;
-        }
-        set
-        {
-            string __marshalledValue_5967;
-            __marshalledValue_5967 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "method", __marshalledValue_5967);
-        }
-    }
-
-    public string Name
-    {
-        get
-        {
             string __res_5968;
-            string __res_5969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            string __res_5969 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "acceptCharset");
             __res_5968 = __res_5969;
             return __res_5968;
         }
@@ -121,33 +19,33 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_5970;
             __marshalledValue_5970 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5970);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "acceptCharset", __marshalledValue_5970);
         }
     }
 
-    public bool NoValidate
+    public string Action
     {
         get
         {
-            bool __res_5971;
-            bool __res_5972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noValidate");
+            string __res_5971;
+            string __res_5972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
             __res_5971 = __res_5972;
             return __res_5971;
         }
         set
         {
-            bool __marshalledValue_5973;
+            string __marshalledValue_5973;
             __marshalledValue_5973 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noValidate", __marshalledValue_5973);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "action", __marshalledValue_5973);
         }
     }
 
-    public string Target
+    public string Autocomplete
     {
         get
         {
             string __res_5974;
-            string __res_5975 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            string __res_5975 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "autocomplete");
             __res_5974 = __res_5975;
             return __res_5974;
         }
@@ -155,16 +53,16 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_5976;
             __marshalledValue_5976 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5976);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_5976);
         }
     }
 
-    public string Rel
+    public string Enctype
     {
         get
         {
             string __res_5977;
-            string __res_5978 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            string __res_5978 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "enctype");
             __res_5977 = __res_5978;
             return __res_5977;
         }
@@ -172,7 +70,109 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_5979;
             __marshalledValue_5979 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_5979);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "enctype", __marshalledValue_5979);
+        }
+    }
+
+    public string Encoding
+    {
+        get
+        {
+            string __res_5980;
+            string __res_5981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_5980 = __res_5981;
+            return __res_5980;
+        }
+        set
+        {
+            string __marshalledValue_5982;
+            __marshalledValue_5982 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "encoding", __marshalledValue_5982);
+        }
+    }
+
+    public string Method
+    {
+        get
+        {
+            string __res_5983;
+            string __res_5984 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "method");
+            __res_5983 = __res_5984;
+            return __res_5983;
+        }
+        set
+        {
+            string __marshalledValue_5985;
+            __marshalledValue_5985 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "method", __marshalledValue_5985);
+        }
+    }
+
+    public string Name
+    {
+        get
+        {
+            string __res_5986;
+            string __res_5987 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5986 = __res_5987;
+            return __res_5986;
+        }
+        set
+        {
+            string __marshalledValue_5988;
+            __marshalledValue_5988 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5988);
+        }
+    }
+
+    public bool NoValidate
+    {
+        get
+        {
+            bool __res_5989;
+            bool __res_5990 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noValidate");
+            __res_5989 = __res_5990;
+            return __res_5989;
+        }
+        set
+        {
+            bool __marshalledValue_5991;
+            __marshalledValue_5991 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noValidate", __marshalledValue_5991);
+        }
+    }
+
+    public string Target
+    {
+        get
+        {
+            string __res_5992;
+            string __res_5993 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_5992 = __res_5993;
+            return __res_5992;
+        }
+        set
+        {
+            string __marshalledValue_5994;
+            __marshalledValue_5994 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5994);
+        }
+    }
+
+    public string Rel
+    {
+        get
+        {
+            string __res_5995;
+            string __res_5996 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_5995 = __res_5996;
+            return __res_5995;
+        }
+        set
+        {
+            string __marshalledValue_5997;
+            __marshalledValue_5997 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_5997);
         }
     }
 
@@ -180,10 +180,10 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMTokenList __res_5980;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
-            __res_5980 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_5981);
-            return __res_5980;
+            global::Iskra.StdWeb.DOMTokenList __res_5998;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            __res_5998 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_5999);
+            return __res_5998;
         }
     }
 
@@ -191,10 +191,10 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormControlsCollection __res_5982;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elements");
-            __res_5982 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormControlsCollection>(__res_5983);
-            return __res_5982;
+            global::Iskra.StdWeb.HTMLFormControlsCollection __res_6000;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6001 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elements");
+            __res_6000 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormControlsCollection>(__res_6001);
+            return __res_6000;
         }
     }
 
@@ -202,10 +202,10 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_5984;
-            double __res_5985 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5984 = Convert.ToUInt32(__res_5985);
-            return __res_5984;
+            uint __res_6002;
+            double __res_6003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6002 = Convert.ToUInt32(__res_6003);
+            return __res_6002;
         }
     }
 }

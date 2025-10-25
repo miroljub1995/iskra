@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object ValidateAssertionCallback(string assertion, string origin);
+public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityValidationResult, global::Iskra.StdWeb.GenericMarshaller.Promise> ValidateAssertionCallback(string assertion, string origin);
 
 #nullable disable

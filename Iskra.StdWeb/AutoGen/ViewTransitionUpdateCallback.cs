@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object ViewTransitionUpdateCallback();
+public delegate global::Iskra.JSCore.Generics.Promise<object?, global::Iskra.StdWeb.GenericMarshaller.Promise> ViewTransitionUpdateCallback();
 
 #nullable disable

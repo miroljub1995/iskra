@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object UnderlyingSinkCloseCallback();
+public delegate global::Iskra.JSCore.Promise UnderlyingSinkCloseCallback();
 
 #nullable disable

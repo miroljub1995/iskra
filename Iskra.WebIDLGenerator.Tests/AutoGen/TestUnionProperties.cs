@@ -10,11 +10,11 @@ public partial class TestUnionProperties(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union> __res_263;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_264;
-            __propObject_264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "value");
-            __res_263 = new global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(__propObject_264);
-            return __res_263;
+            global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union> __res_290;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_291;
+            __propObject_291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "value");
+            __res_290 = new global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(__propObject_291);
+            return __res_290;
         }
         set
         {

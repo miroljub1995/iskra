@@ -10,10 +10,10 @@ public partial class PaintWorkletGlobalScope(global::System.Runtime.InteropServi
     {
         get
         {
-            double __res_2926;
-            double __res_2927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
-            __res_2926 = __res_2927;
-            return __res_2926;
+            double __res_2938;
+            double __res_2939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
+            __res_2938 = __res_2939;
+            return __res_2938;
         }
     }
 }

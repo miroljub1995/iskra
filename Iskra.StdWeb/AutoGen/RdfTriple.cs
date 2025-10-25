@@ -10,10 +10,10 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_5162;
-            string __res_5163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
-            __res_5162 = __res_5163;
-            return __res_5162;
+            string __res_5179;
+            string __res_5180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
+            __res_5179 = __res_5180;
+            return __res_5179;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_5164;
-            string __res_5165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
-            __res_5164 = __res_5165;
-            return __res_5164;
+            string __res_5181;
+            string __res_5182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
+            __res_5181 = __res_5182;
+            return __res_5181;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5166;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5167;
-            __propObject_5167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "object");
-            __res_5166 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5167);
-            return __res_5166;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5183;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5184;
+            __propObject_5184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "object");
+            __res_5183 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5184);
+            return __res_5183;
         }
     }
 }

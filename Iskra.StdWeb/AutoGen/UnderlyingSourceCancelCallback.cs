@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate object UnderlyingSourceCancelCallback(object? reason);
+public delegate global::Iskra.JSCore.Promise UnderlyingSourceCancelCallback(object? reason);
 
 #nullable disable

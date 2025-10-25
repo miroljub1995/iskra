@@ -10,10 +10,10 @@ public partial class MediaEncryptedEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_5242;
-            string __res_5243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
-            __res_5242 = __res_5243;
-            return __res_5242;
+            string __res_5260;
+            string __res_5261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
+            __res_5260 = __res_5261;
+            return __res_5260;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class MediaEncryptedEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer? __res_5244;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
-            if (__res_5245 is null)
+            global::Iskra.JSCore.ArrayBuffer? __res_5262;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
+            if (__res_5263 is null)
             {
-                __res_5244 = null;
+                __res_5262 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5246 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5245;
-                __res_5244 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_5246);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5264 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5263;
+                __res_5262 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_5264);
             }
-            return __res_5244;
+            return __res_5262;
         }
     }
 }

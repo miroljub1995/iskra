@@ -10,10 +10,10 @@ public partial class RTCCertificate(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            ulong __res_1910;
-            double __res_1911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expires");
-            __res_1910 = Convert.ToUInt64(__res_1911);
-            return __res_1910;
+            ulong __res_1914;
+            double __res_1915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expires");
+            __res_1914 = Convert.ToUInt64(__res_1915);
+            return __res_1914;
         }
     }
 }

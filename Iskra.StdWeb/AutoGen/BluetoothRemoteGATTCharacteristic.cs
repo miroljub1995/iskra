@@ -10,10 +10,10 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothRemoteGATTService __res_2804;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
-            __res_2804 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTService>(__res_2805);
-            return __res_2804;
+            global::Iskra.StdWeb.BluetoothRemoteGATTService __res_2816;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
+            __res_2816 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTService>(__res_2817);
+            return __res_2816;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            string __res_2806;
-            string __res_2807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_2806 = __res_2807;
-            return __res_2806;
+            string __res_2818;
+            string __res_2819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_2818 = __res_2819;
+            return __res_2818;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothCharacteristicProperties __res_2808;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
-            __res_2808 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothCharacteristicProperties>(__res_2809);
-            return __res_2808;
+            global::Iskra.StdWeb.BluetoothCharacteristicProperties __res_2820;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
+            __res_2820 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothCharacteristicProperties>(__res_2821);
+            return __res_2820;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.JSCore.DataView? __res_2810;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_2811 is null)
+            global::Iskra.JSCore.DataView? __res_2822;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_2823 is null)
             {
-                __res_2810 = null;
+                __res_2822 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2812 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2811;
-                __res_2810 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_2812);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2824 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2823;
+                __res_2822 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_2824);
             }
-            return __res_2810;
+            return __res_2822;
         }
     }
 }

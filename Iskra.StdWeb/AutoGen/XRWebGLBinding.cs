@@ -10,10 +10,10 @@ public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_1642;
-            double __res_1643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
-            __res_1642 = __res_1643;
-            return __res_1642;
+            double __res_1646;
+            double __res_1647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
+            __res_1646 = __res_1647;
+            return __res_1646;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_1644;
-            bool __res_1645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
-            __res_1644 = __res_1645;
-            return __res_1644;
+            bool __res_1648;
+            bool __res_1649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
+            __res_1648 = __res_1649;
+            return __res_1648;
         }
     }
 }

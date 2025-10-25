@@ -10,10 +10,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_4326;
-            bool __res_4327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "antialias");
-            __res_4326 = __res_4327;
-            return __res_4326;
+            bool __res_4339;
+            bool __res_4340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "antialias");
+            __res_4339 = __res_4340;
+            return __res_4339;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_4328;
-            bool __res_4329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
-            __res_4328 = __res_4329;
-            return __res_4328;
+            bool __res_4341;
+            bool __res_4342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
+            __res_4341 = __res_4342;
+            return __res_4341;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            float? __res_4330;
-            double? __res_4331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
-            if (__res_4331 is null)
+            float? __res_4343;
+            double? __res_4344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
+            if (__res_4344 is null)
             {
-                __res_4330 = null;
+                __res_4343 = null;
             }
             else
             {
-                double __notNullable_4332 = (double)__res_4331;
-                __res_4330 = Convert.ToSingle(__notNullable_4332);
+                double __notNullable_4345 = (double)__res_4344;
+                __res_4343 = Convert.ToSingle(__notNullable_4345);
             }
-            return __res_4330;
+            return __res_4343;
         }
         set
         {
-            double? __marshalledValue_4333;
+            double? __marshalledValue_4346;
             if (value is null)
             {
-                __marshalledValue_4333 = null;
+                __marshalledValue_4346 = null;
             }
             else
             {
-                float __notNullable_4334 = (float)value;
-                __marshalledValue_4333 = Convert.ToDouble(__notNullable_4334);
+                float __notNullable_4347 = (float)value;
+                __marshalledValue_4346 = Convert.ToDouble(__notNullable_4347);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_4333);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_4346);
         }
     }
 
@@ -65,18 +65,18 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.WebGLFramebuffer? __res_4335;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4336 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "framebuffer");
-            if (__res_4336 is null)
+            global::Iskra.StdWeb.WebGLFramebuffer? __res_4348;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "framebuffer");
+            if (__res_4349 is null)
             {
-                __res_4335 = null;
+                __res_4348 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4337 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4336;
-                __res_4335 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(__notNullable_4337);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4350 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4349;
+                __res_4348 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(__notNullable_4350);
             }
-            return __res_4335;
+            return __res_4348;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_4338;
-            double __res_4339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferWidth");
-            __res_4338 = Convert.ToUInt32(__res_4339);
-            return __res_4338;
+            uint __res_4351;
+            double __res_4352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferWidth");
+            __res_4351 = Convert.ToUInt32(__res_4352);
+            return __res_4351;
         }
     }
 
@@ -95,10 +95,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_4340;
-            double __res_4341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferHeight");
-            __res_4340 = Convert.ToUInt32(__res_4341);
-            return __res_4340;
+            uint __res_4353;
+            double __res_4354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferHeight");
+            __res_4353 = Convert.ToUInt32(__res_4354);
+            return __res_4353;
         }
     }
 }
