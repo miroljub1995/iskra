@@ -2,15 +2,13 @@ using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class GenericMarshallerGenerator(
     IServiceProvider provider,
     GenSettings genSettings,
-    GeneratorContext generatorContext,
-    ILogger<GenericMarshallerGenerator> logger
+    GeneratorContext generatorContext
 )
 {
     private readonly List<KeyValuePair<IDLTypeDescription, string>> _marshallers = [];
@@ -288,13 +286,13 @@ public class GenericMarshallerGenerator(
         List<string> bodyParts = [];
         foreach (var marshaller in _marshallers)
         {
-            if (marshaller.Key is not PromiseTypeDescription)
+            if (marshaller.Key is not PromiseTypeDescription promiseTypeDescription)
             {
                 continue;
             }
 
-            var toManaged = GenerateToManaged(marshaller.Key);
-            var toJS = GenerateToJS(marshaller.Key);
+            var toManaged = GenerateToManagedPromise(promiseTypeDescription);
+            var toJS = GenerateToJSPromise(promiseTypeDescription);
 
             var marshalledType = toTypeDeclarationGenerator.Generate(marshaller.Key, true);
 
@@ -403,200 +401,68 @@ public class GenericMarshallerGenerator(
         return content;
     }
 
-    private string GenerateToManaged(IDLTypeDescription input)
+    private string GenerateToManagedPromise(PromiseTypeDescription inpuit)
     {
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
 
-        if (input is FrozenArrayTypeDescription frozenArray)
-        {
-            var elementType = frozenArray.IdlType.Single();
-            var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
-            var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType);
+        var elementType = inpuit.IdlType.Single();
+        var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
 
-            var resVar = generatorContext.GetNextVariableName("res");
-            var doubleLengthVar = generatorContext.GetNextVariableName("doubleLength");
-            var lengthVar = generatorContext.GetNextVariableName("length");
-            var indexVar = generatorContext.GetNextVariableName("i");
-            var elementVar = generatorContext.GetNextVariableName("element");
+        var taskVar = generatorContext.GetNextVariableName("task");
+        var resVar = generatorContext.GetNextVariableName("res");
 
-            var getElementContent = getPropertyValueGenerator.Generate(
-                inputVar: "input",
-                type: elementType,
-                propertyNameVar: indexVar,
-                outputVar: elementVar
-            );
+        var getValueContent = getPropertyValueGenerator.Generate(
+            inputVar: taskVar,
+            type: elementType,
+            propertyNameVar: "\"value\"",
+            outputVar: resVar
+        );
 
-            return $$"""
-                     double {{doubleLengthVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-                     int {{lengthVar}} = global::System.Convert.ToInt32({{doubleLengthVar}});
-
-                     {{returnTypeDeclaration}} {{resVar}} = new {{elementTypeDeclaration}}[{{lengthVar}}];
-                     for (int {{indexVar}} = 0; {{indexVar}} < {{lengthVar}}; {{indexVar}}++)
-                     {
-                         {{elementTypeDeclaration}} {{elementVar}};
-                     {{getElementContent.IndentLines(4)}}
-                         {{resVar}}[{{indexVar}}] = {{elementVar}};
-                     }
-
-                     return {{resVar}};
-                     """;
-        }
-
-        if (input is SequenceTypeDescription sequence)
-        {
-            var elementType = sequence.IdlType.Single();
-            var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
-            var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType);
-
-            var resVar = generatorContext.GetNextVariableName("res");
-            var doubleLengthVar = generatorContext.GetNextVariableName("doubleLength");
-            var lengthVar = generatorContext.GetNextVariableName("length");
-            var indexVar = generatorContext.GetNextVariableName("i");
-            var elementVar = generatorContext.GetNextVariableName("element");
-
-            var getElementContent = getPropertyValueGenerator.Generate(
-                inputVar: "input",
-                type: elementType,
-                propertyNameVar: indexVar,
-                outputVar: elementVar
-            );
-
-            return $$"""
-                     double {{doubleLengthVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "length");
-                     int {{lengthVar}} = global::System.Convert.ToInt32({{doubleLengthVar}});
-
-                     {{returnTypeDeclaration}} {{resVar}} = new {{elementTypeDeclaration}}[{{lengthVar}}];
-                     for (int {{indexVar}} = 0; {{indexVar}} < {{lengthVar}}; {{indexVar}}++)
-                     {
-                         {{elementTypeDeclaration}} {{elementVar}};
-                     {{getElementContent.IndentLines(4)}}
-                         {{resVar}}[{{indexVar}}] = {{elementVar}};
-                     }
-
-                     return {{resVar}};
-                     """;
-        }
-
-        if (input is PromiseTypeDescription promise)
-        {
-            var elementType = promise.IdlType.Single();
-            var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
-
-            var taskVar = generatorContext.GetNextVariableName("task");
-            var resVar = generatorContext.GetNextVariableName("res");
-
-            var getValueContent = getPropertyValueGenerator.Generate(
-                inputVar: taskVar,
-                type: elementType,
-                propertyNameVar: "\"value\"",
-                outputVar: resVar
-            );
-
-            return $$"""
-                     using global::System.Runtime.InteropServices.JavaScript.JSObject {{taskVar}} = await global::{{genSettings.Namespace}}.GenericMarshaller.WrapPromiseValue(input);
-                     {{returnTypeDeclaration}} {{resVar}};
-                     {{getValueContent}}
-                     return {{resVar}};
-                     """;
-        }
-
-        logger.LogWarning("GenericMarshaller ToManaged for type {input} not supported.", input);
-        return "throw new NotImplementedException();";
+        return $$"""
+                 using global::System.Runtime.InteropServices.JavaScript.JSObject {{taskVar}} = await global::{{genSettings.Namespace}}.GenericMarshaller.WrapPromiseValue(input);
+                 {{returnTypeDeclaration}} {{resVar}};
+                 {{getValueContent}}
+                 return {{resVar}};
+                 """;
     }
 
-    private string GenerateToJS(IDLTypeDescription input)
+    private string GenerateToJSPromise(PromiseTypeDescription input)
     {
         var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
 
-        if (input is FrozenArrayTypeDescription frozenArray)
-        {
-            var elementType = frozenArray.IdlType.Single();
-            var resVar = generatorContext.GetNextVariableName("res");
-            var indexVar = generatorContext.GetNextVariableName("i");
+        var toTypeDeclarationGenerator =
+            provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
 
-            var setElementContent = setPropertyValueGenerator.Generate(
-                inputVar: resVar,
-                valueVar: $"input[{indexVar}]",
-                type: elementType,
-                propertyNameVar: indexVar
-            );
+        var elementType = input.IdlType.Single();
+        var wrapperObjectVar = generatorContext.GetNextVariableName("wrapperObject");
+        var resVar = generatorContext.GetNextVariableName("res");
+        var taskVar = generatorContext.GetNextVariableName("task");
+        var awaitedValueVar = generatorContext.GetNextVariableName("awaitedValue");
+        var setValueFunctionName = generatorContext.GetNextVariableName("WrapTask");
 
-            return $$"""
-                     global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
+        var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
+        var taskTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
 
-                     for (int {{indexVar}} = 0; {{indexVar}} < input.Length; {{indexVar}}++)
-                     {
-                     {{setElementContent.IndentLines(4)}}
-                     }
+        var setValueContent = setPropertyValueGenerator.Generate(
+            inputVar: wrapperObjectVar,
+            valueVar: awaitedValueVar,
+            type: elementType,
+            propertyNameVar: "\"value\""
+        );
 
-                     return {{resVar}};
-                     """;
-        }
+        return $$"""
+                 static async global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> {{setValueFunctionName}}({{taskTypeDeclaration}} {{taskVar}})
+                 {
+                     global::System.Runtime.InteropServices.JavaScript.JSObject {{wrapperObjectVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+                     {{elementTypeDeclaration}} {{awaitedValueVar}} = await {{taskVar}};
+                     {{setValueContent.IndentLines(4)}}
+                     return {{wrapperObjectVar}};
+                 }
 
-        if (input is SequenceTypeDescription sequence)
-        {
-            var elementType = sequence.IdlType.Single();
-            var resVar = generatorContext.GetNextVariableName("res");
-            var indexVar = generatorContext.GetNextVariableName("i");
-
-            var setElementContent = setPropertyValueGenerator.Generate(
-                inputVar: resVar,
-                valueVar: $"input[{indexVar}]",
-                type: elementType,
-                propertyNameVar: indexVar
-            );
-
-            return $$"""
-                     global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Array", input.Length);
-
-                     for (int {{indexVar}} = 0; {{indexVar}} < input.Length; {{indexVar}}++)
-                     {
-                     {{setElementContent.IndentLines(4)}}
-                     }
-
-                     return {{resVar}};
-                     """;
-        }
-
-        if (input is PromiseTypeDescription promise)
-        {
-            var toTypeDeclarationGenerator =
-                provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-
-            var elementType = promise.IdlType.Single();
-            var wrapperObjectVar = generatorContext.GetNextVariableName("wrapperObject");
-            var resVar = generatorContext.GetNextVariableName("res");
-            var taskVar = generatorContext.GetNextVariableName("task");
-            var awaitedValueVar = generatorContext.GetNextVariableName("awaitedValue");
-            var setValueFunctionName = generatorContext.GetNextVariableName("WrapTask");
-
-            var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
-            var taskTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
-
-            var setValueContent = setPropertyValueGenerator.Generate(
-                inputVar: wrapperObjectVar,
-                valueVar: awaitedValueVar,
-                type: elementType,
-                propertyNameVar: "\"value\""
-            );
-
-            return $$"""
-                     static async global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> {{setValueFunctionName}}({{taskTypeDeclaration}} {{taskVar}})
-                     {
-                         global::System.Runtime.InteropServices.JavaScript.JSObject {{wrapperObjectVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-                         {{elementTypeDeclaration}} {{awaitedValueVar}} = await {{taskVar}};
-                         {{setValueContent.IndentLines(4)}}
-                         return {{wrapperObjectVar}};
-                     }
-
-                     global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.UnwrapPromiseValue({{setValueFunctionName}}(input));
-                     return {{resVar}};
-                     """;
-        }
-
-        logger.LogWarning("GenericMarshaller ToJS for type {input} not supported.", input);
-        return "throw new NotImplementedException();";
+                 global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.UnwrapPromiseValue({{setValueFunctionName}}(input));
+                 return {{resVar}};
+                 """;
     }
 
 
