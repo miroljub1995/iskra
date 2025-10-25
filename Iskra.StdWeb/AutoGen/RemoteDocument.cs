@@ -10,10 +10,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5192;
-            string __res_5193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_5192 = __res_5193;
-            return __res_5192;
+            string __res_5194;
+            string __res_5195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_5194 = __res_5195;
+            return __res_5194;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5194;
-            string __res_5195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
-            __res_5194 = __res_5195;
-            return __res_5194;
+            string __res_5196;
+            string __res_5197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
+            __res_5196 = __res_5197;
+            return __res_5196;
         }
     }
 
@@ -32,16 +32,16 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            object? __res_5196;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
+            object? __res_5198;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "document");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_5196;
+            return __res_5198;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_5198;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_5200;
             throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5198);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "document", __marshalledValue_5200);
         }
     }
 
@@ -49,10 +49,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5199;
-            string __res_5200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
-            __res_5199 = __res_5200;
-            return __res_5199;
+            string __res_5201;
+            string __res_5202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
+            __res_5201 = __res_5202;
+            return __res_5201;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5201;
-            string __res_5202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
-            __res_5201 = __res_5202;
-            return __res_5201;
+            string __res_5203;
+            string __res_5204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
+            __res_5203 = __res_5204;
+            return __res_5203;
         }
     }
 }

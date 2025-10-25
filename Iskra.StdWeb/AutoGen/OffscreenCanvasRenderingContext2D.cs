@@ -10,10 +10,10 @@ public partial class OffscreenCanvasRenderingContext2D(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.OffscreenCanvas __res_6564;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            __res_6564 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.OffscreenCanvas>(__res_6565);
-            return __res_6564;
+            global::Iskra.StdWeb.OffscreenCanvas __res_6566;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            __res_6566 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.OffscreenCanvas>(__res_6567);
+            return __res_6566;
         }
     }
 }

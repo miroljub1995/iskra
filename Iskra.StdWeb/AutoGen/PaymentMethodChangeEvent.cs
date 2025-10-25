@@ -10,10 +10,10 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_7530;
-            string __res_7531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
-            __res_7530 = __res_7531;
-            return __res_7530;
+            string __res_7534;
+            string __res_7535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
+            __res_7534 = __res_7535;
+            return __res_7534;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7532;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7533 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
-            if (__res_7533 is null)
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7536;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
+            if (__res_7537 is null)
             {
-                __res_7532 = null;
+                __res_7536 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7534 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7533;
-                __res_7532 = __notNullable_7534;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7538 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7537;
+                __res_7536 = __notNullable_7538;
             }
-            return __res_7532;
+            return __res_7536;
         }
     }
 }

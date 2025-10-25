@@ -10,10 +10,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_5777;
-            string __res_5778 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_5777 = __res_5778;
-            return __res_5777;
+            string __res_5779;
+            string __res_5780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_5779 = __res_5780;
+            return __res_5779;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_5779;
-            string __res_5780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_5779 = __res_5780;
-            return __res_5779;
+            string __res_5781;
+            string __res_5782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_5781 = __res_5782;
+            return __res_5781;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_5781;
-            string __res_5782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_5781 = __res_5782;
-            return __res_5781;
+            string __res_5783;
+            string __res_5784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_5783 = __res_5784;
+            return __res_5783;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_5783;
-            string __res_5784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_5783 = __res_5784;
-            return __res_5783;
+            string __res_5785;
+            string __res_5786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_5785 = __res_5786;
+            return __res_5785;
         }
     }
 
@@ -54,16 +54,16 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_5785;
-            bool __res_5786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
-            __res_5785 = __res_5786;
-            return __res_5785;
+            bool __res_5787;
+            bool __res_5788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            __res_5787 = __res_5788;
+            return __res_5787;
         }
         set
         {
-            bool __marshalledValue_5787;
-            __marshalledValue_5787 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_5787);
+            bool __marshalledValue_5789;
+            __marshalledValue_5789 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_5789);
         }
     }
 }

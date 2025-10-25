@@ -981,6 +981,7 @@ public static class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PerformanceLongTaskTiming", obj => new PerformanceLongTaskTiming(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TaskAttributionTiming", obj => new TaskAttributionTiming(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSContainerRule", obj => new CSSContainerRule(obj) );
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSSupportsConditionRule", obj => new CSSSupportsConditionRule(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFencedFrameElement", obj => new HTMLFencedFrameElement(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FencedFrameConfig", obj => new FencedFrameConfig(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Fence", obj => new Fence(obj) );

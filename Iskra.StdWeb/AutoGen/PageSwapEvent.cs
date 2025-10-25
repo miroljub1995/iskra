@@ -10,18 +10,18 @@ public partial class PageSwapEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.NavigationActivation? __res_6842;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
-            if (__res_6843 is null)
+            global::Iskra.StdWeb.NavigationActivation? __res_6844;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activation");
+            if (__res_6845 is null)
             {
-                __res_6842 = null;
+                __res_6844 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6844 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6843;
-                __res_6842 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationActivation>(__notNullable_6844);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6846 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6845;
+                __res_6844 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationActivation>(__notNullable_6846);
             }
-            return __res_6842;
+            return __res_6844;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class PageSwapEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.ViewTransition? __res_6845;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
-            if (__res_6846 is null)
+            global::Iskra.StdWeb.ViewTransition? __res_6847;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
+            if (__res_6848 is null)
             {
-                __res_6845 = null;
+                __res_6847 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6847 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6846;
-                __res_6845 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransition>(__notNullable_6847);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6849 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6848;
+                __res_6847 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransition>(__notNullable_6849);
             }
-            return __res_6845;
+            return __res_6847;
         }
     }
 }

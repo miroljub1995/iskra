@@ -10,10 +10,10 @@ public partial class USBConfiguration(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            byte __res_5116;
-            double __res_5117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "configurationValue");
-            __res_5116 = Convert.ToByte(__res_5117);
-            return __res_5116;
+            byte __res_5118;
+            double __res_5119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "configurationValue");
+            __res_5118 = Convert.ToByte(__res_5119);
+            return __res_5118;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class USBConfiguration(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_5118;
-            string? __res_5119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "configurationName");
-            if (__res_5119 is null)
+            string? __res_5120;
+            string? __res_5121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "configurationName");
+            if (__res_5121 is null)
             {
-                __res_5118 = null;
+                __res_5120 = null;
             }
             else
             {
-                string __notNullable_5120 = (string)__res_5119;
-                __res_5118 = __notNullable_5120;
+                string __notNullable_5122 = (string)__res_5121;
+                __res_5120 = __notNullable_5122;
             }
-            return __res_5118;
+            return __res_5120;
         }
     }
 
@@ -40,11 +40,11 @@ public partial class USBConfiguration(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5121;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5122;
-            __propObject_5122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "interfaces");
-            __res_5121 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5122);
-            return __res_5121;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5123;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5124;
+            __propObject_5124 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "interfaces");
+            __res_5123 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5124);
+            return __res_5123;
         }
     }
 }

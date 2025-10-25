@@ -10,16 +10,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5895;
-            string __res_5896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alt");
-            __res_5895 = __res_5896;
-            return __res_5895;
+            string __res_5897;
+            string __res_5898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alt");
+            __res_5897 = __res_5898;
+            return __res_5897;
         }
         set
         {
-            string __marshalledValue_5897;
-            __marshalledValue_5897 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alt", __marshalledValue_5897);
+            string __marshalledValue_5899;
+            __marshalledValue_5899 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alt", __marshalledValue_5899);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5898;
-            string __res_5899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "coords");
-            __res_5898 = __res_5899;
-            return __res_5898;
+            string __res_5900;
+            string __res_5901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "coords");
+            __res_5900 = __res_5901;
+            return __res_5900;
         }
         set
         {
-            string __marshalledValue_5900;
-            __marshalledValue_5900 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "coords", __marshalledValue_5900);
+            string __marshalledValue_5902;
+            __marshalledValue_5902 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "coords", __marshalledValue_5902);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5901;
-            string __res_5902 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shape");
-            __res_5901 = __res_5902;
-            return __res_5901;
+            string __res_5903;
+            string __res_5904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shape");
+            __res_5903 = __res_5904;
+            return __res_5903;
         }
         set
         {
-            string __marshalledValue_5903;
-            __marshalledValue_5903 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shape", __marshalledValue_5903);
+            string __marshalledValue_5905;
+            __marshalledValue_5905 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shape", __marshalledValue_5905);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5904;
-            string __res_5905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_5904 = __res_5905;
-            return __res_5904;
+            string __res_5906;
+            string __res_5907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_5906 = __res_5907;
+            return __res_5906;
         }
         set
         {
-            string __marshalledValue_5906;
-            __marshalledValue_5906 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5906);
+            string __marshalledValue_5908;
+            __marshalledValue_5908 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5908);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5907;
-            string __res_5908 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
-            __res_5907 = __res_5908;
-            return __res_5907;
+            string __res_5909;
+            string __res_5910 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
+            __res_5909 = __res_5910;
+            return __res_5909;
         }
         set
         {
-            string __marshalledValue_5909;
-            __marshalledValue_5909 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_5909);
+            string __marshalledValue_5911;
+            __marshalledValue_5911 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_5911);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5910;
-            string __res_5911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
-            __res_5910 = __res_5911;
-            return __res_5910;
+            string __res_5912;
+            string __res_5913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
+            __res_5912 = __res_5913;
+            return __res_5912;
         }
         set
         {
-            string __marshalledValue_5912;
-            __marshalledValue_5912 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_5912);
+            string __marshalledValue_5914;
+            __marshalledValue_5914 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_5914);
         }
     }
 
@@ -112,16 +112,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5913;
-            string __res_5914 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
-            __res_5913 = __res_5914;
-            return __res_5913;
+            string __res_5915;
+            string __res_5916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_5915 = __res_5916;
+            return __res_5915;
         }
         set
         {
-            string __marshalledValue_5915;
-            __marshalledValue_5915 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_5915);
+            string __marshalledValue_5917;
+            __marshalledValue_5917 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_5917);
         }
     }
 
@@ -129,10 +129,10 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMTokenList __res_5916;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
-            __res_5916 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_5917);
-            return __res_5916;
+            global::Iskra.StdWeb.DOMTokenList __res_5918;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            __res_5918 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_5919);
+            return __res_5918;
         }
     }
 
@@ -140,16 +140,16 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5918;
-            string __res_5919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
-            __res_5918 = __res_5919;
-            return __res_5918;
+            string __res_5920;
+            string __res_5921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_5920 = __res_5921;
+            return __res_5920;
         }
         set
         {
-            string __marshalledValue_5920;
-            __marshalledValue_5920 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_5920);
+            string __marshalledValue_5922;
+            __marshalledValue_5922 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_5922);
         }
     }
 }

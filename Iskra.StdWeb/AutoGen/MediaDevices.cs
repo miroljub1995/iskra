@@ -10,32 +10,32 @@ public partial class MediaDevices(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3869;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
-            if (__res_3870 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3871;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_3872 is null)
             {
-                __res_3869 = null;
+                __res_3871 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3871 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3870;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3873 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3872;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3869;
+            return __res_3871;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3872;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3874;
             if (value is null)
             {
-                __marshalledValue_3872 = null;
+                __marshalledValue_3874 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3873 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3875 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_3872);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_3874);
         }
     }
 }

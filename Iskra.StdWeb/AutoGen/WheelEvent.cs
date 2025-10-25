@@ -10,10 +10,10 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_8023;
-            double __res_8024 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaX");
-            __res_8023 = __res_8024;
-            return __res_8023;
+            double __res_8027;
+            double __res_8028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaX");
+            __res_8027 = __res_8028;
+            return __res_8027;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_8025;
-            double __res_8026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaY");
-            __res_8025 = __res_8026;
-            return __res_8025;
+            double __res_8029;
+            double __res_8030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaY");
+            __res_8029 = __res_8030;
+            return __res_8029;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_8027;
-            double __res_8028 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaZ");
-            __res_8027 = __res_8028;
-            return __res_8027;
+            double __res_8031;
+            double __res_8032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaZ");
+            __res_8031 = __res_8032;
+            return __res_8031;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_8029;
-            double __res_8030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaMode");
-            __res_8029 = Convert.ToUInt32(__res_8030);
-            return __res_8029;
+            uint __res_8033;
+            double __res_8034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deltaMode");
+            __res_8033 = Convert.ToUInt32(__res_8034);
+            return __res_8033;
         }
     }
 }

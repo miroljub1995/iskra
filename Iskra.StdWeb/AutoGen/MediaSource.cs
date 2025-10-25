@@ -10,10 +10,10 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.MediaSourceHandle __res_7638;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handle");
-            __res_7638 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSourceHandle>(__res_7639);
-            return __res_7638;
+            global::Iskra.StdWeb.MediaSourceHandle __res_7642;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handle");
+            __res_7642 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSourceHandle>(__res_7643);
+            return __res_7642;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.SourceBufferList __res_7640;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7641 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceBuffers");
-            __res_7640 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_7641);
-            return __res_7640;
+            global::Iskra.StdWeb.SourceBufferList __res_7644;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceBuffers");
+            __res_7644 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_7645);
+            return __res_7644;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.SourceBufferList __res_7642;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "activeSourceBuffers");
-            __res_7642 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_7643);
-            return __res_7642;
+            global::Iskra.StdWeb.SourceBufferList __res_7646;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "activeSourceBuffers");
+            __res_7646 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_7647);
+            return __res_7646;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.ReadyState __res_7644;
-            string __res_7645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
-            __res_7644 = global::Iskra.StdWeb.ReadyState.Create(__res_7645);
-            return __res_7644;
+            global::Iskra.StdWeb.ReadyState __res_7648;
+            string __res_7649 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
+            __res_7648 = global::Iskra.StdWeb.ReadyState.Create(__res_7649);
+            return __res_7648;
         }
     }
 
@@ -54,16 +54,16 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_7646;
-            double __res_7647 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_7646 = __res_7647;
-            return __res_7646;
+            double __res_7650;
+            double __res_7651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_7650 = __res_7651;
+            return __res_7650;
         }
         set
         {
-            double __marshalledValue_7648;
-            __marshalledValue_7648 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "duration", __marshalledValue_7648);
+            double __marshalledValue_7652;
+            __marshalledValue_7652 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "duration", __marshalledValue_7652);
         }
     }
 
@@ -71,32 +71,32 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7649;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7650 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen");
-            if (__res_7650 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7653;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen");
+            if (__res_7654 is null)
             {
-                __res_7649 = null;
+                __res_7653 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7651 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7650;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7655 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7654;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7649;
+            return __res_7653;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7652;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7656;
             if (value is null)
             {
-                __marshalledValue_7652 = null;
+                __marshalledValue_7656 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7653 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7657 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen", __marshalledValue_7652);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen", __marshalledValue_7656);
         }
     }
 
@@ -104,32 +104,32 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7654;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7655 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended");
-            if (__res_7655 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7658;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended");
+            if (__res_7659 is null)
             {
-                __res_7654 = null;
+                __res_7658 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7656 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7655;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7660 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7659;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7654;
+            return __res_7658;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7657;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7661;
             if (value is null)
             {
-                __marshalledValue_7657 = null;
+                __marshalledValue_7661 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7658 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7662 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended", __marshalledValue_7657);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended", __marshalledValue_7661);
         }
     }
 
@@ -137,32 +137,32 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7659;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose");
-            if (__res_7660 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7663;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7664 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose");
+            if (__res_7664 is null)
             {
-                __res_7659 = null;
+                __res_7663 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7661 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7660;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7665 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7664;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7659;
+            return __res_7663;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7662;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7666;
             if (value is null)
             {
-                __marshalledValue_7662 = null;
+                __marshalledValue_7666 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7663 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7667 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose", __marshalledValue_7662);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose", __marshalledValue_7666);
         }
     }
 
@@ -170,10 +170,10 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_7664;
-            bool __res_7665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource"), "canConstructInDedicatedWorker");
-            __res_7664 = __res_7665;
-            return __res_7664;
+            bool __res_7668;
+            bool __res_7669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource"), "canConstructInDedicatedWorker");
+            __res_7668 = __res_7669;
+            return __res_7668;
         }
     }
 }

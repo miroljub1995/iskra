@@ -10,16 +10,16 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.BiquadFilterType __res_8284;
-            string __res_8285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_8284 = global::Iskra.StdWeb.BiquadFilterType.Create(__res_8285);
-            return __res_8284;
+            global::Iskra.StdWeb.BiquadFilterType __res_8288;
+            string __res_8289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8288 = global::Iskra.StdWeb.BiquadFilterType.Create(__res_8289);
+            return __res_8288;
         }
         set
         {
-            string __marshalledValue_8286;
-            __marshalledValue_8286 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8286);
+            string __marshalledValue_8290;
+            __marshalledValue_8290 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8290);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8287;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            __res_8287 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8288);
-            return __res_8287;
+            global::Iskra.StdWeb.AudioParam __res_8291;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
+            __res_8291 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8292);
+            return __res_8291;
         }
     }
 
@@ -38,10 +38,10 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8289;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            __res_8289 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8290);
-            return __res_8289;
+            global::Iskra.StdWeb.AudioParam __res_8293;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
+            __res_8293 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8294);
+            return __res_8293;
         }
     }
 
@@ -49,10 +49,10 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8291;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
-            __res_8291 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8292);
-            return __res_8291;
+            global::Iskra.StdWeb.AudioParam __res_8295;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "Q");
+            __res_8295 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8296);
+            return __res_8295;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8293;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
-            __res_8293 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8294);
-            return __res_8293;
+            global::Iskra.StdWeb.AudioParam __res_8297;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
+            __res_8297 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8298);
+            return __res_8297;
         }
     }
 }

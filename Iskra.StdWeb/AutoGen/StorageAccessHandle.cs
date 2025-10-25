@@ -10,10 +10,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.Storage __res_4489;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
-            __res_4489 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_4490);
-            return __res_4489;
+            global::Iskra.StdWeb.Storage __res_4491;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4492 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
+            __res_4491 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_4492);
+            return __res_4491;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.Storage __res_4491;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4492 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
-            __res_4491 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_4492);
-            return __res_4491;
+            global::Iskra.StdWeb.Storage __res_4493;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
+            __res_4493 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_4494);
+            return __res_4493;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.IDBFactory __res_4493;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            __res_4493 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_4494);
-            return __res_4493;
+            global::Iskra.StdWeb.IDBFactory __res_4495;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            __res_4495 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_4496);
+            return __res_4495;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.LockManager __res_4495;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
-            __res_4495 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_4496);
-            return __res_4495;
+            global::Iskra.StdWeb.LockManager __res_4497;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            __res_4497 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_4498);
+            return __res_4497;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.CacheStorage __res_4497;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            __res_4497 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_4498);
-            return __res_4497;
+            global::Iskra.StdWeb.CacheStorage __res_4499;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            __res_4499 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_4500);
+            return __res_4499;
         }
     }
 }

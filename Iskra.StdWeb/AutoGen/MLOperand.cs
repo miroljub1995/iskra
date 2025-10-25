@@ -10,10 +10,10 @@ public partial class MLOperand(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.MLOperandDataType __res_4810;
-            string __res_4811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dataType");
-            __res_4810 = global::Iskra.StdWeb.MLOperandDataType.Create(__res_4811);
-            return __res_4810;
+            global::Iskra.StdWeb.MLOperandDataType __res_4812;
+            string __res_4813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dataType");
+            __res_4812 = global::Iskra.StdWeb.MLOperandDataType.Create(__res_4813);
+            return __res_4812;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class MLOperand(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4812;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4813;
-            __propObject_4813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
-            __res_4812 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4813);
-            return __res_4812;
+            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4814;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4815;
+            __propObject_4815 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
+            __res_4814 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4815);
+            return __res_4814;
         }
     }
 }

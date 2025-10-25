@@ -10,10 +10,10 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationType __res_6779;
-            string __res_6780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
-            __res_6779 = global::Iskra.StdWeb.NavigationType.Create(__res_6780);
-            return __res_6779;
+            global::Iskra.StdWeb.NavigationType __res_6781;
+            string __res_6782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
+            __res_6781 = global::Iskra.StdWeb.NavigationType.Create(__res_6782);
+            return __res_6781;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationHistoryEntry __res_6781;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            __res_6781 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6782);
-            return __res_6781;
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_6783;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            __res_6783 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6784);
+            return __res_6783;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_6783;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6784;
-            __propObject_6784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "committed");
-            __res_6783 = new global::Iskra.JSCore.Promise(__propObject_6784);
-            return __res_6783;
+            global::Iskra.JSCore.Promise __res_6785;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6786;
+            __propObject_6786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "committed");
+            __res_6785 = new global::Iskra.JSCore.Promise(__propObject_6786);
+            return __res_6785;
         }
     }
 
@@ -44,11 +44,11 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_6785;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6786;
-            __propObject_6786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "finished");
-            __res_6785 = new global::Iskra.JSCore.Promise(__propObject_6786);
-            return __res_6785;
+            global::Iskra.JSCore.Promise __res_6787;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6788;
+            __propObject_6788 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "finished");
+            __res_6787 = new global::Iskra.JSCore.Promise(__propObject_6788);
+            return __res_6787;
         }
     }
 }

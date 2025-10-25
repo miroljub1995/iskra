@@ -10,16 +10,16 @@ public partial class HTMLSlotElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_6511;
-            string __res_6512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6511 = __res_6512;
-            return __res_6511;
+            string __res_6513;
+            string __res_6514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6513 = __res_6514;
+            return __res_6513;
         }
         set
         {
-            string __marshalledValue_6513;
-            __marshalledValue_6513 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6513);
+            string __marshalledValue_6515;
+            __marshalledValue_6515 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6515);
         }
     }
 }

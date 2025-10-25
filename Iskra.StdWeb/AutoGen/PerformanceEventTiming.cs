@@ -58,14 +58,25 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
         }
     }
 
+    public string TargetSelector
+    {
+        get
+        {
+            string __res_3807;
+            string __res_3808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetSelector");
+            __res_3807 = __res_3808;
+            return __res_3807;
+        }
+    }
+
     public ulong InteractionId
     {
         get
         {
-            ulong __res_3807;
-            double __res_3808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
-            __res_3807 = Convert.ToUInt64(__res_3808);
-            return __res_3807;
+            ulong __res_3809;
+            double __res_3810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
+            __res_3809 = Convert.ToUInt64(__res_3810);
+            return __res_3809;
         }
     }
 }

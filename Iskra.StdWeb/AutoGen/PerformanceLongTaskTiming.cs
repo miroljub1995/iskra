@@ -10,10 +10,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_7197;
-            double __res_7198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_7197 = __res_7198;
-            return __res_7197;
+            double __res_7199;
+            double __res_7200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_7199 = __res_7200;
+            return __res_7199;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_7199;
-            double __res_7200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_7199 = __res_7200;
-            return __res_7199;
+            double __res_7201;
+            double __res_7202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_7201 = __res_7202;
+            return __res_7201;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_7201;
-            string __res_7202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7201 = __res_7202;
-            return __res_7201;
+            string __res_7203;
+            string __res_7204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7203 = __res_7204;
+            return __res_7203;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_7203;
-            string __res_7204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_7203 = __res_7204;
-            return __res_7203;
+            string __res_7205;
+            string __res_7206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_7205 = __res_7206;
+            return __res_7205;
         }
     }
 
@@ -54,11 +54,11 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7205;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7206;
-            __propObject_7206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
-            __res_7205 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7206);
-            return __res_7205;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7207;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7208;
+            __propObject_7208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
+            __res_7207 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7208);
+            return __res_7207;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.SpeechSynthesisUtterance __res_4152;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4153 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "utterance");
-            __res_4152 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisUtterance>(__res_4153);
-            return __res_4152;
+            global::Iskra.StdWeb.SpeechSynthesisUtterance __res_4154;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "utterance");
+            __res_4154 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisUtterance>(__res_4155);
+            return __res_4154;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_4154;
-            double __res_4155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charIndex");
-            __res_4154 = Convert.ToUInt32(__res_4155);
-            return __res_4154;
+            uint __res_4156;
+            double __res_4157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charIndex");
+            __res_4156 = Convert.ToUInt32(__res_4157);
+            return __res_4156;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_4156;
-            double __res_4157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charLength");
-            __res_4156 = Convert.ToUInt32(__res_4157);
-            return __res_4156;
+            uint __res_4158;
+            double __res_4159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charLength");
+            __res_4158 = Convert.ToUInt32(__res_4159);
+            return __res_4158;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            float __res_4158;
-            double __res_4159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
-            __res_4158 = Convert.ToSingle(__res_4159);
-            return __res_4158;
+            float __res_4160;
+            double __res_4161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
+            __res_4160 = Convert.ToSingle(__res_4161);
+            return __res_4160;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_4160;
-            string __res_4161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4160 = __res_4161;
-            return __res_4160;
+            string __res_4162;
+            string __res_4163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4162 = __res_4163;
+            return __res_4162;
         }
     }
 }

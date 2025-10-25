@@ -10,10 +10,10 @@ public partial class SpeechSynthesisErrorEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.SpeechSynthesisErrorCode __res_4162;
-            string __res_4163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
-            __res_4162 = global::Iskra.StdWeb.SpeechSynthesisErrorCode.Create(__res_4163);
-            return __res_4162;
+            global::Iskra.StdWeb.SpeechSynthesisErrorCode __res_4164;
+            string __res_4165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
+            __res_4164 = global::Iskra.StdWeb.SpeechSynthesisErrorCode.Create(__res_4165);
+            return __res_4164;
         }
     }
 }

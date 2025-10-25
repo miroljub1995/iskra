@@ -10,10 +10,10 @@ public partial class MediaKeySystemAccess(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_5234;
-            string __res_5235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
-            __res_5234 = __res_5235;
-            return __res_5234;
+            string __res_5236;
+            string __res_5237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
+            __res_5236 = __res_5237;
+            return __res_5236;
         }
     }
 }

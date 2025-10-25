@@ -10,10 +10,10 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCanvasElement __res_6520;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            __res_6520 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCanvasElement>(__res_6521);
-            return __res_6520;
+            global::Iskra.StdWeb.HTMLCanvasElement __res_6522;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            __res_6522 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCanvasElement>(__res_6523);
+            return __res_6522;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5607;
-            string __res_5608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_5607 = __res_5608;
-            return __res_5607;
+            string __res_5609;
+            string __res_5610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_5609 = __res_5610;
+            return __res_5609;
         }
         set
         {
-            string __marshalledValue_5609;
-            __marshalledValue_5609 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5609);
+            string __marshalledValue_5611;
+            __marshalledValue_5611 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_5611);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5610;
-            string __res_5611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5610 = __res_5611;
-            return __res_5610;
+            string __res_5612;
+            string __res_5613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5612 = __res_5613;
+            return __res_5612;
         }
         set
         {
-            string __marshalledValue_5612;
-            __marshalledValue_5612 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_5612);
+            string __marshalledValue_5614;
+            __marshalledValue_5614 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_5614);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5613;
-            string __res_5614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_5613 = __res_5614;
-            return __res_5613;
+            string __res_5615;
+            string __res_5616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_5615 = __res_5616;
+            return __res_5615;
         }
         set
         {
-            string __marshalledValue_5615;
-            __marshalledValue_5615 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_5615);
+            string __marshalledValue_5617;
+            __marshalledValue_5617 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_5617);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5616;
-            string __res_5617 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
-            __res_5616 = __res_5617;
-            return __res_5616;
+            string __res_5618;
+            string __res_5619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_5618 = __res_5619;
+            return __res_5618;
         }
         set
         {
-            string __marshalledValue_5618;
-            __marshalledValue_5618 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_5618);
+            string __marshalledValue_5620;
+            __marshalledValue_5620 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_5620);
         }
     }
 }

@@ -10,11 +10,11 @@ public partial class PerformanceObserver(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3821;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3822;
-            __propObject_3822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PerformanceObserver"), "supportedEntryTypes");
-            __res_3821 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3822);
-            return __res_3821;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3823;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3824;
+            __propObject_3824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PerformanceObserver"), "supportedEntryTypes");
+            __res_3823 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3824);
+            return __res_3823;
         }
     }
 }

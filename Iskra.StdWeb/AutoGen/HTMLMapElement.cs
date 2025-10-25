@@ -10,16 +10,16 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_5890;
-            string __res_5891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5890 = __res_5891;
-            return __res_5890;
+            string __res_5892;
+            string __res_5893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5892 = __res_5893;
+            return __res_5892;
         }
         set
         {
-            string __marshalledValue_5892;
-            __marshalledValue_5892 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5892);
+            string __marshalledValue_5894;
+            __marshalledValue_5894 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5894);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_5893;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5894 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            __res_5893 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5894);
-            return __res_5893;
+            global::Iskra.StdWeb.HTMLCollection __res_5895;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            __res_5895 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5896);
+            return __res_5895;
         }
     }
 }

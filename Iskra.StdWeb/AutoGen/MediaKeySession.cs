@@ -10,10 +10,10 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5236;
-            string __res_5237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sessionId");
-            __res_5236 = __res_5237;
-            return __res_5236;
+            string __res_5238;
+            string __res_5239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sessionId");
+            __res_5238 = __res_5239;
+            return __res_5238;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_5238;
-            double __res_5239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expiration");
-            __res_5238 = __res_5239;
-            return __res_5238;
+            double __res_5240;
+            double __res_5241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expiration");
+            __res_5240 = __res_5241;
+            return __res_5240;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_5240;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5241;
-            __propObject_5241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_5240 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_5241);
-            return __res_5240;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_5242;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5243;
+            __propObject_5243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_5242 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_5243);
+            return __res_5242;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.MediaKeyStatusMap __res_5242;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyStatuses");
-            __res_5242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaKeyStatusMap>(__res_5243);
-            return __res_5242;
+            global::Iskra.StdWeb.MediaKeyStatusMap __res_5244;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyStatuses");
+            __res_5244 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaKeyStatusMap>(__res_5245);
+            return __res_5244;
         }
     }
 
@@ -55,32 +55,32 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5244;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange");
-            if (__res_5245 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_5246;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange");
+            if (__res_5247 is null)
             {
-                __res_5244 = null;
+                __res_5246 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5246 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5245;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5248 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5247;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_5244;
+            return __res_5246;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5247;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5249;
             if (value is null)
             {
-                __marshalledValue_5247 = null;
+                __marshalledValue_5249 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5248 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5250 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange", __marshalledValue_5247);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange", __marshalledValue_5249);
         }
     }
 
@@ -88,32 +88,32 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5249;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
-            if (__res_5250 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_5251;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_5252 is null)
             {
-                __res_5249 = null;
+                __res_5251 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5251 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5250;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5253 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5252;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_5249;
+            return __res_5251;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5252;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5254;
             if (value is null)
             {
-                __marshalledValue_5252 = null;
+                __marshalledValue_5254 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5253 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5255 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_5252);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_5254);
         }
     }
 }

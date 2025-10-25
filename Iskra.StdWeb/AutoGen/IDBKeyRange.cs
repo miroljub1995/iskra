@@ -10,10 +10,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            object? __res_7831;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
+            object? __res_7835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7831;
+            return __res_7835;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            object? __res_7833;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
+            object? __res_7837;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7833;
+            return __res_7837;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_7835;
-            bool __res_7836 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_7835 = __res_7836;
-            return __res_7835;
+            bool __res_7839;
+            bool __res_7840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_7839 = __res_7840;
+            return __res_7839;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_7837;
-            bool __res_7838 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_7837 = __res_7838;
-            return __res_7837;
+            bool __res_7841;
+            bool __res_7842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_7841 = __res_7842;
+            return __res_7841;
         }
     }
 }

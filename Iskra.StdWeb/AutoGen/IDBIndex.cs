@@ -10,16 +10,16 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_7820;
-            string __res_7821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7820 = __res_7821;
-            return __res_7820;
+            string __res_7824;
+            string __res_7825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7824 = __res_7825;
+            return __res_7824;
         }
         set
         {
-            string __marshalledValue_7822;
-            __marshalledValue_7822 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7822);
+            string __marshalledValue_7826;
+            __marshalledValue_7826 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7826);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.IDBObjectStore __res_7823;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
-            __res_7823 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBObjectStore>(__res_7824);
-            return __res_7823;
+            global::Iskra.StdWeb.IDBObjectStore __res_7827;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7828 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
+            __res_7827 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBObjectStore>(__res_7828);
+            return __res_7827;
         }
     }
 
@@ -38,10 +38,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            object? __res_7825;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7826 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
+            object? __res_7829;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyPath");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7825;
+            return __res_7829;
         }
     }
 
@@ -49,10 +49,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_7827;
-            bool __res_7828 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
-            __res_7827 = __res_7828;
-            return __res_7827;
+            bool __res_7831;
+            bool __res_7832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
+            __res_7831 = __res_7832;
+            return __res_7831;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_7829;
-            bool __res_7830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
-            __res_7829 = __res_7830;
-            return __res_7829;
+            bool __res_7833;
+            bool __res_7834 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
+            __res_7833 = __res_7834;
+            return __res_7833;
         }
     }
 }

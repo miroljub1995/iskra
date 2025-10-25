@@ -10,10 +10,10 @@ public partial class ChildBreakToken(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.BreakType __res_7961;
-            string __res_7962 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "breakType");
-            __res_7961 = global::Iskra.StdWeb.BreakType.Create(__res_7962);
-            return __res_7961;
+            global::Iskra.StdWeb.BreakType __res_7965;
+            string __res_7966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "breakType");
+            __res_7965 = global::Iskra.StdWeb.BreakType.Create(__res_7966);
+            return __res_7965;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ChildBreakToken(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.LayoutChild __res_7963;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7964 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
-            __res_7963 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LayoutChild>(__res_7964);
-            return __res_7963;
+            global::Iskra.StdWeb.LayoutChild __res_7967;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
+            __res_7967 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LayoutChild>(__res_7968);
+            return __res_7967;
         }
     }
 }

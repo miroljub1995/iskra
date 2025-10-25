@@ -10,10 +10,10 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_8472;
-            double __res_8473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
-            __res_8472 = Convert.ToUInt32(__res_8473);
-            return __res_8472;
+            uint __res_8476;
+            double __res_8477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
+            __res_8476 = Convert.ToUInt32(__res_8477);
+            return __res_8476;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_8474;
-            double __res_8475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
-            __res_8474 = Convert.ToUInt32(__res_8475);
-            return __res_8474;
+            uint __res_8478;
+            double __res_8479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
+            __res_8478 = Convert.ToUInt32(__res_8479);
+            return __res_8478;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.UnderlineStyle __res_8476;
-            string __res_8477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineStyle");
-            __res_8476 = global::Iskra.StdWeb.UnderlineStyle.Create(__res_8477);
-            return __res_8476;
+            global::Iskra.StdWeb.UnderlineStyle __res_8480;
+            string __res_8481 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineStyle");
+            __res_8480 = global::Iskra.StdWeb.UnderlineStyle.Create(__res_8481);
+            return __res_8480;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.UnderlineThickness __res_8478;
-            string __res_8479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineThickness");
-            __res_8478 = global::Iskra.StdWeb.UnderlineThickness.Create(__res_8479);
-            return __res_8478;
+            global::Iskra.StdWeb.UnderlineThickness __res_8482;
+            string __res_8483 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineThickness");
+            __res_8482 = global::Iskra.StdWeb.UnderlineThickness.Create(__res_8483);
+            return __res_8482;
         }
     }
 }

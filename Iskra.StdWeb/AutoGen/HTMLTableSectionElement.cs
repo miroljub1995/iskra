@@ -10,10 +10,10 @@ public partial class HTMLTableSectionElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_5943;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5944 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
-            __res_5943 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5944);
-            return __res_5943;
+            global::Iskra.StdWeb.HTMLCollection __res_5945;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
+            __res_5945 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5946);
+            return __res_5945;
         }
     }
 }

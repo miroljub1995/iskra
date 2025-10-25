@@ -10,16 +10,16 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ulong __res_6548;
-            double __res_6549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6548 = Convert.ToUInt64(__res_6549);
-            return __res_6548;
+            ulong __res_6550;
+            double __res_6551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6550 = Convert.ToUInt64(__res_6551);
+            return __res_6550;
         }
         set
         {
-            double __marshalledValue_6550;
-            __marshalledValue_6550 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_6550);
+            double __marshalledValue_6552;
+            __marshalledValue_6552 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_6552);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ulong __res_6551;
-            double __res_6552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_6551 = Convert.ToUInt64(__res_6552);
-            return __res_6551;
+            ulong __res_6553;
+            double __res_6554 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_6553 = Convert.ToUInt64(__res_6554);
+            return __res_6553;
         }
         set
         {
-            double __marshalledValue_6553;
-            __marshalledValue_6553 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_6553);
+            double __marshalledValue_6555;
+            __marshalledValue_6555 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_6555);
         }
     }
 
@@ -44,32 +44,32 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6554;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6555 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
-            if (__res_6555 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6556;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6557 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
+            if (__res_6557 is null)
             {
-                __res_6554 = null;
+                __res_6556 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6556 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6555;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6558 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6557;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6554;
+            return __res_6556;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6557;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6559;
             if (value is null)
             {
-                __marshalledValue_6557 = null;
+                __marshalledValue_6559 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6558 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6560 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost", __marshalledValue_6557);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost", __marshalledValue_6559);
         }
     }
 
@@ -77,32 +77,32 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6559;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6560 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
-            if (__res_6560 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6561;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
+            if (__res_6562 is null)
             {
-                __res_6559 = null;
+                __res_6561 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6561 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6560;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6563 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6562;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6559;
+            return __res_6561;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6562;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6564;
             if (value is null)
             {
-                __marshalledValue_6562 = null;
+                __marshalledValue_6564 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6563 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6565 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored", __marshalledValue_6562);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored", __marshalledValue_6564);
         }
     }
 }

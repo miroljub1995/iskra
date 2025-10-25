@@ -10,18 +10,18 @@ public partial class USBIsochronousInTransferResult(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.JSCore.DataView? __res_5067;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_5068 is null)
+            global::Iskra.JSCore.DataView? __res_5069;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_5070 is null)
             {
-                __res_5067 = null;
+                __res_5069 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5069 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5068;
-                __res_5067 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_5069);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5071 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5070;
+                __res_5069 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_5071);
             }
-            return __res_5067;
+            return __res_5069;
         }
     }
 
@@ -29,11 +29,11 @@ public partial class USBIsochronousInTransferResult(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5070;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5071;
-            __propObject_5071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "packets");
-            __res_5070 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5071);
-            return __res_5070;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5072;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5073;
+            __propObject_5073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "packets");
+            __res_5072 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5073);
+            return __res_5072;
         }
     }
 }

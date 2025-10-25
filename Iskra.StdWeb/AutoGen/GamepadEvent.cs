@@ -10,10 +10,10 @@ public partial class GamepadEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Gamepad __res_4877;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
-            __res_4877 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Gamepad>(__res_4878);
-            return __res_4877;
+            global::Iskra.StdWeb.Gamepad __res_4879;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gamepad");
+            __res_4879 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Gamepad>(__res_4880);
+            return __res_4879;
         }
     }
 }

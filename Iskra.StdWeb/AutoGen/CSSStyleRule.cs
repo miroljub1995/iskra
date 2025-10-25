@@ -10,16 +10,16 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_7383;
-            string __res_7384 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_7383 = __res_7384;
-            return __res_7383;
+            string __res_7387;
+            string __res_7388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_7387 = __res_7388;
+            return __res_7387;
         }
         set
         {
-            string __marshalledValue_7385;
-            __marshalledValue_7385 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7385);
+            string __marshalledValue_7389;
+            __marshalledValue_7389 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7389);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleProperties __res_7386;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_7386 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_7387);
-            return __res_7386;
+            global::Iskra.StdWeb.CSSStyleProperties __res_7390;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_7390 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_7391);
+            return __res_7390;
         }
     }
 }

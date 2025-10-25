@@ -10,18 +10,18 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_6004;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6005 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_6006;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_6007 is null)
             {
-                __res_6004 = null;
+                __res_6006 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6006 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6005;
-                __res_6004 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6006);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6008 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6007;
+                __res_6006 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6008);
             }
-            return __res_6004;
+            return __res_6006;
         }
     }
 
@@ -29,16 +29,16 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6007;
-            string __res_6008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
-            __res_6007 = __res_6008;
-            return __res_6007;
+            string __res_6009;
+            string __res_6010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
+            __res_6009 = __res_6010;
+            return __res_6009;
         }
         set
         {
-            string __marshalledValue_6009;
-            __marshalledValue_6009 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_6009);
+            string __marshalledValue_6011;
+            __marshalledValue_6011 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_6011);
         }
     }
 
@@ -46,18 +46,18 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLElement? __res_6010;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
-            if (__res_6011 is null)
+            global::Iskra.StdWeb.HTMLElement? __res_6012;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
+            if (__res_6013 is null)
             {
-                __res_6010 = null;
+                __res_6012 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6012 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6011;
-                __res_6010 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_6012);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6014 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6013;
+                __res_6012 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_6014);
             }
-            return __res_6010;
+            return __res_6012;
         }
     }
 }

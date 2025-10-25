@@ -10,32 +10,32 @@ public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8370;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
-            if (__res_8371 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8374;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
+            if (__res_8375 is null)
             {
-                __res_8370 = null;
+                __res_8374 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8372 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8371;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8376 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8375;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_8370;
+            return __res_8374;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8373;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8377;
             if (value is null)
             {
-                __marshalledValue_8373 = null;
+                __marshalledValue_8377 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8374 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8378 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_8373);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_8377);
         }
     }
 
@@ -43,10 +43,10 @@ public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.
     {
         get
         {
-            int __res_8375;
-            double __res_8376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
-            __res_8375 = Convert.ToInt32(__res_8376);
-            return __res_8375;
+            int __res_8379;
+            double __res_8380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
+            __res_8379 = Convert.ToInt32(__res_8380);
+            return __res_8379;
         }
     }
 }

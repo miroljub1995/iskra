@@ -10,10 +10,10 @@ public partial class DataTransferItemList(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_6628;
-            double __res_6629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6628 = Convert.ToUInt32(__res_6629);
-            return __res_6628;
+            uint __res_6630;
+            double __res_6631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6630 = Convert.ToUInt32(__res_6631);
+            return __res_6630;
         }
     }
 }

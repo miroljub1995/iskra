@@ -10,10 +10,10 @@ public partial class FileList(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            uint __res_8070;
-            double __res_8071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8070 = Convert.ToUInt32(__res_8071);
-            return __res_8070;
+            uint __res_8074;
+            double __res_8075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_8074 = Convert.ToUInt32(__res_8075);
+            return __res_8074;
         }
     }
 }

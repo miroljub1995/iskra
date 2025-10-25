@@ -10,10 +10,10 @@ public partial class IDBCursorWithValue(global::System.Runtime.InteropServices.J
     {
         get
         {
-            object? __res_7855;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            object? __res_7859;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7855;
+            return __res_7859;
         }
     }
 }

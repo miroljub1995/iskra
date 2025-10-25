@@ -10,10 +10,10 @@ public partial class CSSParserAtRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_7616;
-            string __res_7617 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7616 = __res_7617;
-            return __res_7616;
+            string __res_7620;
+            string __res_7621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7620 = __res_7621;
+            return __res_7620;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class CSSParserAtRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7618;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7619;
-            __propObject_7619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
-            __res_7618 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7619);
-            return __res_7618;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7622;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7623;
+            __propObject_7623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
+            __res_7622 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7623);
+            return __res_7622;
         }
     }
 
@@ -33,16 +33,16 @@ public partial class CSSParserAtRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_7620;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7621;
-            __propObject_7621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
-            if (__propObject_7621 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_7624;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7625;
+            __propObject_7625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
+            if (__propObject_7625 is null)
             {
                 return null;
             }
 
-            __res_7620 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7621);
-            return __res_7620;
+            __res_7624 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7625);
+            return __res_7624;
         }
     }
 }

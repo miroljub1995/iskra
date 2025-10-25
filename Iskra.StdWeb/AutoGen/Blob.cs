@@ -10,10 +10,10 @@ public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            ulong __res_8062;
-            double __res_8063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_8062 = Convert.ToUInt64(__res_8063);
-            return __res_8062;
+            ulong __res_8066;
+            double __res_8067 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_8066 = Convert.ToUInt64(__res_8067);
+            return __res_8066;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_8064;
-            string __res_8065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_8064 = __res_8065;
-            return __res_8064;
+            string __res_8068;
+            string __res_8069 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8068 = __res_8069;
+            return __res_8068;
         }
     }
 }

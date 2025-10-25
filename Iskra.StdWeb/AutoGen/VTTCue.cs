@@ -10,32 +10,32 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.VTTRegion? __res_7271;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "region");
-            if (__res_7272 is null)
+            global::Iskra.StdWeb.VTTRegion? __res_7275;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "region");
+            if (__res_7276 is null)
             {
-                __res_7271 = null;
+                __res_7275 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7273 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7272;
-                __res_7271 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(__notNullable_7273);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7277 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7276;
+                __res_7275 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(__notNullable_7277);
             }
-            return __res_7271;
+            return __res_7275;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7274;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7278;
             if (value is null)
             {
-                __marshalledValue_7274 = null;
+                __marshalledValue_7278 = null;
             }
             else
             {
-                global::Iskra.StdWeb.VTTRegion __notNullable_7275 = (global::Iskra.StdWeb.VTTRegion)value;
-                __marshalledValue_7274 = __notNullable_7275.JSObject;
+                global::Iskra.StdWeb.VTTRegion __notNullable_7279 = (global::Iskra.StdWeb.VTTRegion)value;
+                __marshalledValue_7278 = __notNullable_7279.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "region", __marshalledValue_7274);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "region", __marshalledValue_7278);
         }
     }
 
@@ -43,16 +43,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.DirectionSetting __res_7276;
-            string __res_7277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vertical");
-            __res_7276 = global::Iskra.StdWeb.DirectionSetting.Create(__res_7277);
-            return __res_7276;
+            global::Iskra.StdWeb.DirectionSetting __res_7280;
+            string __res_7281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vertical");
+            __res_7280 = global::Iskra.StdWeb.DirectionSetting.Create(__res_7281);
+            return __res_7280;
         }
         set
         {
-            string __marshalledValue_7278;
-            __marshalledValue_7278 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vertical", __marshalledValue_7278);
+            string __marshalledValue_7282;
+            __marshalledValue_7282 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vertical", __marshalledValue_7282);
         }
     }
 
@@ -60,16 +60,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            bool __res_7279;
-            bool __res_7280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
-            __res_7279 = __res_7280;
-            return __res_7279;
+            bool __res_7283;
+            bool __res_7284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "snapToLines");
+            __res_7283 = __res_7284;
+            return __res_7283;
         }
         set
         {
-            bool __marshalledValue_7281;
-            __marshalledValue_7281 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "snapToLines", __marshalledValue_7281);
+            bool __marshalledValue_7285;
+            __marshalledValue_7285 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "snapToLines", __marshalledValue_7285);
         }
     }
 
@@ -77,11 +77,11 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7282;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7283;
-            __propObject_7283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "line");
-            __res_7282 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7283);
-            return __res_7282;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7286;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7287;
+            __propObject_7287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "line");
+            __res_7286 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7287);
+            return __res_7286;
         }
         set
         {
@@ -93,16 +93,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.LineAlignSetting __res_7284;
-            string __res_7285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineAlign");
-            __res_7284 = global::Iskra.StdWeb.LineAlignSetting.Create(__res_7285);
-            return __res_7284;
+            global::Iskra.StdWeb.LineAlignSetting __res_7288;
+            string __res_7289 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineAlign");
+            __res_7288 = global::Iskra.StdWeb.LineAlignSetting.Create(__res_7289);
+            return __res_7288;
         }
         set
         {
-            string __marshalledValue_7286;
-            __marshalledValue_7286 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineAlign", __marshalledValue_7286);
+            string __marshalledValue_7290;
+            __marshalledValue_7290 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineAlign", __marshalledValue_7290);
         }
     }
 
@@ -110,11 +110,11 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7287;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7288;
-            __propObject_7288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "position");
-            __res_7287 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7288);
-            return __res_7287;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7291;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7292;
+            __propObject_7292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "position");
+            __res_7291 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.AutoKeyword, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7292);
+            return __res_7291;
         }
         set
         {
@@ -126,16 +126,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.PositionAlignSetting __res_7289;
-            string __res_7290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionAlign");
-            __res_7289 = global::Iskra.StdWeb.PositionAlignSetting.Create(__res_7290);
-            return __res_7289;
+            global::Iskra.StdWeb.PositionAlignSetting __res_7293;
+            string __res_7294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionAlign");
+            __res_7293 = global::Iskra.StdWeb.PositionAlignSetting.Create(__res_7294);
+            return __res_7293;
         }
         set
         {
-            string __marshalledValue_7291;
-            __marshalledValue_7291 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "positionAlign", __marshalledValue_7291);
+            string __marshalledValue_7295;
+            __marshalledValue_7295 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "positionAlign", __marshalledValue_7295);
         }
     }
 
@@ -143,16 +143,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            double __res_7292;
-            double __res_7293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_7292 = __res_7293;
-            return __res_7292;
+            double __res_7296;
+            double __res_7297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_7296 = __res_7297;
+            return __res_7296;
         }
         set
         {
-            double __marshalledValue_7294;
-            __marshalledValue_7294 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_7294);
+            double __marshalledValue_7298;
+            __marshalledValue_7298 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_7298);
         }
     }
 
@@ -160,16 +160,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.AlignSetting __res_7295;
-            string __res_7296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_7295 = global::Iskra.StdWeb.AlignSetting.Create(__res_7296);
-            return __res_7295;
+            global::Iskra.StdWeb.AlignSetting __res_7299;
+            string __res_7300 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_7299 = global::Iskra.StdWeb.AlignSetting.Create(__res_7300);
+            return __res_7299;
         }
         set
         {
-            string __marshalledValue_7297;
-            __marshalledValue_7297 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_7297);
+            string __marshalledValue_7301;
+            __marshalledValue_7301 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_7301);
         }
     }
 
@@ -177,16 +177,16 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_7298;
-            string __res_7299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_7298 = __res_7299;
-            return __res_7298;
+            string __res_7302;
+            string __res_7303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_7302 = __res_7303;
+            return __res_7302;
         }
         set
         {
-            string __marshalledValue_7300;
-            __marshalledValue_7300 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_7300);
+            string __marshalledValue_7304;
+            __marshalledValue_7304 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_7304);
         }
     }
 }

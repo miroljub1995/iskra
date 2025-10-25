@@ -10,10 +10,10 @@ public partial class RTCIdentityProviderGlobalScope(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.StdWeb.RTCIdentityProviderRegistrar __res_4174;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rtcIdentityProvider");
-            __res_4174 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIdentityProviderRegistrar>(__res_4175);
-            return __res_4174;
+            global::Iskra.StdWeb.RTCIdentityProviderRegistrar __res_4176;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rtcIdentityProvider");
+            __res_4176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIdentityProviderRegistrar>(__res_4177);
+            return __res_4176;
         }
     }
 }

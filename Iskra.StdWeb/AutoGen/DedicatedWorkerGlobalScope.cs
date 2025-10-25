@@ -10,10 +10,10 @@ public partial class DedicatedWorkerGlobalScope(global::System.Runtime.InteropSe
     {
         get
         {
-            string __res_7010;
-            string __res_7011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7010 = __res_7011;
-            return __res_7010;
+            string __res_7012;
+            string __res_7013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7012 = __res_7013;
+            return __res_7012;
         }
     }
 }

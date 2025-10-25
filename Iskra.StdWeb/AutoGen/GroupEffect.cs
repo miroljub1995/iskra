@@ -10,10 +10,10 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationNodeList __res_5275;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            __res_5275 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationNodeList>(__res_5276);
-            return __res_5275;
+            global::Iskra.StdWeb.AnimationNodeList __res_5277;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            __res_5277 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationNodeList>(__res_5278);
+            return __res_5277;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationEffect? __res_5277;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
-            if (__res_5278 is null)
+            global::Iskra.StdWeb.AnimationEffect? __res_5279;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_5280 is null)
             {
-                __res_5277 = null;
+                __res_5279 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5279 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5278;
-                __res_5277 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_5279);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5281 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5280;
+                __res_5279 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_5281);
             }
-            return __res_5277;
+            return __res_5279;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationEffect? __res_5280;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
-            if (__res_5281 is null)
+            global::Iskra.StdWeb.AnimationEffect? __res_5282;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
+            if (__res_5283 is null)
             {
-                __res_5280 = null;
+                __res_5282 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5282 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5281;
-                __res_5280 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_5282);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5284 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5283;
+                __res_5282 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_5284);
             }
-            return __res_5280;
+            return __res_5282;
         }
     }
 }
