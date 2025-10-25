@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceResourceTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ServerTiming
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ServerTiming
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4384;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4384;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4385;
             __propObject_4385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serverTiming");
-            __res_4384 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4385);
+            __res_4384 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4385);
             return __res_4384;
         }
     }

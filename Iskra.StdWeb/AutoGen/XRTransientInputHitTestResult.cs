@@ -17,14 +17,14 @@ public partial class XRTransientInputHitTestResult(global::System.Runtime.Intero
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Results
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Results
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7845;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7845;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7846;
             __propObject_7846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
-            __res_7845 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7846);
+            __res_7845 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7846);
             return __res_7845;
         }
     }

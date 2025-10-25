@@ -28,38 +28,38 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> BorderBoxSize
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> BorderBoxSize
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7330;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7330;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7331;
             __propObject_7331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "borderBoxSize");
-            __res_7330 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7331);
+            __res_7330 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7331);
             return __res_7330;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> ContentBoxSize
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ContentBoxSize
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7332;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7332;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7333;
             __propObject_7333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentBoxSize");
-            __res_7332 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7333);
+            __res_7332 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7333);
             return __res_7332;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> DevicePixelContentBoxSize
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> DevicePixelContentBoxSize
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7334;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7334;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7335;
             __propObject_7335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devicePixelContentBoxSize");
-            __res_7334 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7335);
+            __res_7334 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7335);
             return __res_7334;
         }
     }

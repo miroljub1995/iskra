@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRPermissionStatus(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PermissionStatus(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Granted
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Granted
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6842;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6842;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6843;
             __propObject_6843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "granted");
-            __res_6842 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6843);
+            __res_6842 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6843);
             return __res_6842;
         }
         set

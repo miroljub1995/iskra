@@ -82,11 +82,11 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Reasons
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Reasons
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_11750;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_11750;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11751;
             __propObject_11751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "reasons");
             if (__propObject_11751 is null)
@@ -94,16 +94,16 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
                 return null;
             }
 
-            __res_11750 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_11751);
+            __res_11750 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_11751);
             return __res_11750;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Children
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Children
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_11752;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_11752;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11753;
             __propObject_11753 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "children");
             if (__propObject_11753 is null)
@@ -111,7 +111,7 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
                 return null;
             }
 
-            __res_11752 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_11753);
+            __res_11752 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_11753);
             return __res_11752;
         }
     }

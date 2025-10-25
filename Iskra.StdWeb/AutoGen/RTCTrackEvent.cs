@@ -28,14 +28,14 @@ public partial class RTCTrackEvent(global::System.Runtime.InteropServices.JavaSc
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Streams
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Streams
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3132;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3132;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3133;
             __propObject_3133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "streams");
-            __res_3132 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3133);
+            __res_3132 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3133);
             return __res_3132;
         }
     }

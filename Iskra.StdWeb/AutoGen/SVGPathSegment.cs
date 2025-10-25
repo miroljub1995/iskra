@@ -23,14 +23,14 @@ public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaS
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Values
+    public global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Values
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3431;
+            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3431;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3432;
             __propObject_3432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            __res_3431 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3432);
+            __res_3431 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3432);
             return __res_3431;
         }
         set

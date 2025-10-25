@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Brands
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Brands
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3926;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3926;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3927;
             __propObject_3927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
-            __res_3926 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3927);
+            __res_3926 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3927);
             return __res_3926;
         }
     }

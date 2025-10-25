@@ -69,14 +69,14 @@ public partial class USBAlternateInterface(global::System.Runtime.InteropService
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Endpoints
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Endpoints
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7720;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7720;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7721;
             __propObject_7721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endpoints");
-            __res_7720 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7721);
+            __res_7720 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBEndpoint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7721);
             return __res_7720;
         }
     }

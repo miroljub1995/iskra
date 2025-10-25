@@ -83,14 +83,14 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Collections
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Collections
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2577;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_2577;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2578;
             __propObject_2578 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "collections");
-            __res_2577 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2578);
+            __res_2577 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2578);
             return __res_2577;
         }
     }

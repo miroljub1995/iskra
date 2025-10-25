@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationConnectionList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Connections
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Connections
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3493;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3493;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3494;
             __propObject_3494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connections");
-            __res_3493 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3494);
+            __res_3493 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3494);
             return __res_3493;
         }
     }

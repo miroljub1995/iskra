@@ -6,11 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class Viewport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Segments
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Segments
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_13392;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_13392;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13393;
             __propObject_13393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments");
             if (__propObject_13393 is null)
@@ -18,7 +18,7 @@ public partial class Viewport(global::System.Runtime.InteropServices.JavaScript.
                 return null;
             }
 
-            __res_13392 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_13393);
+            __res_13392 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13393);
             return __res_13392;
         }
     }

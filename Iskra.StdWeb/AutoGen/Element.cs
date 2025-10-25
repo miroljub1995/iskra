@@ -957,11 +957,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaControlsElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaControlsElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5512;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5512;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5513;
             __propObject_5513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements");
             if (__propObject_5513 is null)
@@ -969,7 +969,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5512 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5513);
+            __res_5512 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5513);
             return __res_5512;
         }
         set
@@ -1021,11 +1021,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaDescribedByElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaDescribedByElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5520;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5520;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5521;
             __propObject_5521 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements");
             if (__propObject_5521 is null)
@@ -1033,7 +1033,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5520 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5521);
+            __res_5520 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5521);
             return __res_5520;
         }
         set
@@ -1085,11 +1085,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaDetailsElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaDetailsElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5528;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5528;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5529;
             __propObject_5529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements");
             if (__propObject_5529 is null)
@@ -1097,7 +1097,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5528 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5529);
+            __res_5528 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5529);
             return __res_5528;
         }
         set
@@ -1149,11 +1149,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaErrorMessageElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaErrorMessageElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5536;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5536;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5537;
             __propObject_5537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements");
             if (__propObject_5537 is null)
@@ -1161,7 +1161,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5536 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5537);
+            __res_5536 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5537);
             return __res_5536;
         }
         set
@@ -1213,11 +1213,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaFlowToElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaFlowToElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5544;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5544;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5545;
             __propObject_5545 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements");
             if (__propObject_5545 is null)
@@ -1225,7 +1225,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5544 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5545);
+            __res_5544 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5545);
             return __res_5544;
         }
         set
@@ -1409,11 +1409,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaLabelledByElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaLabelledByElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5572;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5572;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5573;
             __propObject_5573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements");
             if (__propObject_5573 is null)
@@ -1421,7 +1421,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5572 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5573);
+            __res_5572 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5573);
             return __res_5572;
         }
         set
@@ -1638,11 +1638,11 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? AriaOwnsElements
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? AriaOwnsElements
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_5605;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_5605;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5606;
             __propObject_5606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements");
             if (__propObject_5606 is null)
@@ -1650,7 +1650,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 return null;
             }
 
-            __res_5605 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5606);
+            __res_5605 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5606);
             return __res_5605;
         }
         set

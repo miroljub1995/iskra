@@ -25,14 +25,14 @@ public partial class LaunchParams(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Files
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Files
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7300;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7300;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7301;
             __propObject_7301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
-            __res_7300 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7301);
+            __res_7300 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7301);
             return __res_7300;
         }
     }

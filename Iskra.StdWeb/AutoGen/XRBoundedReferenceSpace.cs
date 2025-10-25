@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRBoundedReferenceSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRReferenceSpace(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> BoundsGeometry
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> BoundsGeometry
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6732;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6732;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6733;
             __propObject_6733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundsGeometry");
-            __res_6732 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6733);
+            __res_6732 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6733);
             return __res_6732;
         }
     }

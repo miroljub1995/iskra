@@ -17,26 +17,26 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Added
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Added
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6823;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6823;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6824;
             __propObject_6824 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "added");
-            __res_6823 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6824);
+            __res_6823 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6824);
             return __res_6823;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Removed
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Removed
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6825;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6825;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6826;
             __propObject_6826 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removed");
-            __res_6825 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6826);
+            __res_6825 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6826);
             return __res_6825;
         }
     }

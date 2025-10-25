@@ -28,14 +28,14 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Artwork
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Artwork
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_1358;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1358;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1359;
             __propObject_1359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
-            __res_1358 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1359);
+            __res_1358 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1359);
             return __res_1358;
         }
     }

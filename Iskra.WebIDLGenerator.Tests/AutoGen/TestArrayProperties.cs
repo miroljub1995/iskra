@@ -6,14 +6,14 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestArrayProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence> BoolArray
+    public global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement> BoolArray
     {
         get
         {
-            global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence> __res_315;
+            global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement> __res_315;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_316;
             __propObject_316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boolArray");
-            __res_315 = new global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Sequence>(__propObject_316);
+            __res_315 = new global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>(__propObject_316);
             return __res_315;
         }
         set

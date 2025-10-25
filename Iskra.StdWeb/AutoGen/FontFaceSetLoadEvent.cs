@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class FontFaceSetLoadEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fontfaces
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Fontfaces
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3324;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3324;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3325;
             __propObject_3325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fontfaces");
-            __res_3324 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3325);
+            __res_3324 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3325);
             return __res_3324;
         }
     }

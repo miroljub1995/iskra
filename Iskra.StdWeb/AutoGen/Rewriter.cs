@@ -50,11 +50,11 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedInputLanguages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedInputLanguages
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_232;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_232;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_233;
             __propObject_233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
             if (__propObject_233 is null)
@@ -62,16 +62,16 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
                 return null;
             }
 
-            __res_232 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_233);
+            __res_232 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_233);
             return __res_232;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedContextLanguages
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_234;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_234;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_235;
             __propObject_235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
             if (__propObject_235 is null)
@@ -79,7 +79,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
                 return null;
             }
 
-            __res_234 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_235);
+            __res_234 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_235);
             return __res_234;
         }
     }

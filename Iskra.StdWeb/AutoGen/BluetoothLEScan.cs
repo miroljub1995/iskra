@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothLEScan(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Filters
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Filters
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7411;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7411;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7412;
             __propObject_7412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filters");
-            __res_7411 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7412);
+            __res_7411 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7412);
             return __res_7411;
         }
     }

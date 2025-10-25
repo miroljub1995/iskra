@@ -50,14 +50,14 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Attribution
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Attribution
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_12438;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12438;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12439;
             __propObject_12439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
-            __res_12438 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_12439);
+            __res_12438 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12439);
             return __res_12438;
         }
     }

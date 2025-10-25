@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothPermissionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PermissionStatus(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Devices
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Devices
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3970;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3970;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3971;
             __propObject_3971 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devices");
-            __res_3970 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3971);
+            __res_3970 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3971);
             return __res_3970;
         }
         set

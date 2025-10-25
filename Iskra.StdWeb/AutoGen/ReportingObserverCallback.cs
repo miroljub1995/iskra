@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ReportingObserverCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.Sequence> reports, global::Iskra.StdWeb.ReportingObserver observer);
+public delegate void ReportingObserverCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> reports, global::Iskra.StdWeb.ReportingObserver observer);
 
 #nullable disable

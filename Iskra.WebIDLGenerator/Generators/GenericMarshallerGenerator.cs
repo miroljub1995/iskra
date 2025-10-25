@@ -27,9 +27,6 @@ public class GenericMarshallerGenerator(
                         public static partial class GenericMarshaller
                         {
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
-                            private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName, int length);
-
-                            [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("wrapPromiseValue", "iskra")]
@@ -39,10 +36,6 @@ public class GenericMarshallerGenerator(
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject UnwrapPromiseValue(global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> task);
 
                         {{GenerateArrayLikeElementClass().IndentLines(4)}}
-
-                        {{GenerateFrozenArrayClass().IndentLines(4)}}
-
-                        {{GenerateSequenceClass().IndentLines(4)}}
 
                         {{GeneratePromiseClass().IndentLines(4)}}
 
@@ -72,9 +65,9 @@ public class GenericMarshallerGenerator(
 
         var name = input switch
         {
-            FrozenArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.FrozenArray",
+            FrozenArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
             ObservableArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
-            SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Sequence",
+            SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
             PromiseTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Promise",
             UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
             _ => throw new NotSupportedException($"Type {input} is not supported.")
@@ -279,118 +272,6 @@ public class GenericMarshallerGenerator(
 
         var content = $$"""
                         public class ArrayLikeElement{{inheritance}}
-                        {
-                        {{body.IndentLines(4)}}
-                        }
-                        """;
-
-        return content;
-    }
-
-    private string GenerateFrozenArrayClass()
-    {
-        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-
-        List<string> interfaceParts = [];
-        List<string> bodyParts = [];
-        foreach (var marshaller in _marshallers)
-        {
-            if (marshaller.Key is not FrozenArrayTypeDescription)
-            {
-                continue;
-            }
-
-            var toManaged = GenerateToManaged(marshaller.Key);
-            var toJS = GenerateToJS(marshaller.Key);
-
-            var marshalledType = toTypeDeclarationGenerator.Generate(marshaller.Key, true);
-
-            var interfacePart = $"global::Iskra.JSCore.Generics.IGenericMarshaller<{marshalledType}>";
-            interfaceParts.Add(interfacePart);
-
-            var bodyPart = $$"""
-                             static {{marshalledType}} {{interfacePart}}.ToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input)
-                             {
-                             {{toManaged.IndentLines(4)}}
-                             }
-
-                             static global::System.Runtime.InteropServices.JavaScript.JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
-                             {
-                             {{toJS.IndentLines(4)}}
-                             }
-                             """;
-
-            bodyParts.Add(bodyPart);
-        }
-
-        var interfaces = string.Join(",\n", interfaceParts);
-        var body = string.Join("\n\n", bodyParts);
-
-        var inheritance = interfaceParts.Count > 0
-            ? $$"""
-                :
-                {{interfaces.IndentLines(4)}}
-                """
-            : string.Empty;
-
-        var content = $$"""
-                        public class FrozenArray{{inheritance}}
-                        {
-                        {{body.IndentLines(4)}}
-                        }
-                        """;
-
-        return content;
-    }
-
-    private string GenerateSequenceClass()
-    {
-        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-
-        List<string> interfaceParts = [];
-        List<string> bodyParts = [];
-        foreach (var marshaller in _marshallers)
-        {
-            if (marshaller.Key is not SequenceTypeDescription)
-            {
-                continue;
-            }
-
-            var toManaged = GenerateToManaged(marshaller.Key);
-            var toJS = GenerateToJS(marshaller.Key);
-
-            var marshalledType = toTypeDeclarationGenerator.Generate(marshaller.Key, true);
-
-            var interfacePart = $"global::Iskra.JSCore.Generics.IGenericMarshaller<{marshalledType}>";
-            interfaceParts.Add(interfacePart);
-
-            var bodyPart = $$"""
-                             static {{marshalledType}} {{interfacePart}}.ToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input)
-                             {
-                             {{toManaged.IndentLines(4)}}
-                             }
-
-                             static global::System.Runtime.InteropServices.JavaScript.JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
-                             {
-                             {{toJS.IndentLines(4)}}
-                             }
-                             """;
-
-            bodyParts.Add(bodyPart);
-        }
-
-        var interfaces = string.Join(",\n", interfaceParts);
-        var body = string.Join("\n\n", bodyParts);
-
-        var inheritance = interfaceParts.Count > 0
-            ? $$"""
-                :
-                {{interfaces.IndentLines(4)}}
-                """
-            : string.Empty;
-
-        var content = $$"""
-                        public class Sequence{{inheritance}}
                         {
                         {{body.IndentLines(4)}}
                         }

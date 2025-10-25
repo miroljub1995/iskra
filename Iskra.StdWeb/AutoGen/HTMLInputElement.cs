@@ -23,14 +23,14 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> WebkitEntries
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> WebkitEntries
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_9704;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9704;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9705;
             __propObject_9705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "webkitEntries");
-            __res_9704 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_9705);
+            __res_9704 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9705);
             return __res_9704;
         }
     }

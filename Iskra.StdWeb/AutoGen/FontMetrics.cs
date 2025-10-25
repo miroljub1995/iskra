@@ -17,14 +17,14 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Advances
+    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Advances
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_13138;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13138;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13139;
             __propObject_13139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "advances");
-            __res_13138 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_13139);
+            __res_13138 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13139);
             return __res_13138;
         }
     }
@@ -139,26 +139,26 @@ public partial class FontMetrics(global::System.Runtime.InteropServices.JavaScri
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Baselines
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Baselines
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_13160;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13160;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13161;
             __propObject_13161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baselines");
-            __res_13160 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_13161);
+            __res_13160 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Baseline, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13161);
             return __res_13160;
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Fonts
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Fonts
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_13162;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13162;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13163;
             __propObject_13163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fonts");
-            __res_13162 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_13163);
+            __res_13162 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Font, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13163);
             return __res_13162;
         }
     }

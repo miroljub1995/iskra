@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FileSystemEntriesCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.Sequence> entries);
+public delegate void FileSystemEntriesCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries);
 
 #nullable disable

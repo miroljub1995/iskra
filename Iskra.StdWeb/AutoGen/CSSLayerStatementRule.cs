@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class CSSLayerStatementRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> NameList
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> NameList
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4106;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4106;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4107;
             __propObject_4107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "nameList");
-            __res_4106 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4107);
+            __res_4106 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4107);
             return __res_4106;
         }
     }

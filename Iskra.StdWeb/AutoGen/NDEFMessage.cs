@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class NDEFMessage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Records
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Records
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7252;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7252;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7253;
             __propObject_7253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "records");
-            __res_7252 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7253);
+            __res_7252 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7253);
             return __res_7252;
         }
     }

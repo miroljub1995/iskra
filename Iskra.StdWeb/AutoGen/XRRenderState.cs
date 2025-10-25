@@ -6,14 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class XRRenderState(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Layers
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Layers
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6699;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6699;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6700;
             __propObject_6700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layers");
-            __res_6699 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6700);
+            __res_6699 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6700);
             return __res_6699;
         }
     }

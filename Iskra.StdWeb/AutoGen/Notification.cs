@@ -259,14 +259,14 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Vibrate
+    public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Vibrate
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6887;
+            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6887;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6888;
             __propObject_6888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrate");
-            __res_6887 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6888);
+            __res_6887 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6888);
             return __res_6887;
         }
     }
@@ -334,14 +334,14 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Actions
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Actions
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_6900;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6900;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6901;
             __propObject_6901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "actions");
-            __res_6900 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_6901);
+            __res_6900 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotificationAction, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6901);
             return __res_6900;
         }
     }

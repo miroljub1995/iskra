@@ -45,14 +45,14 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Thresholds
+    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Thresholds
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_3903;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3903;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3904;
             __propObject_3904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "thresholds");
-            __res_3903 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3904);
+            __res_3903 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3904);
             return __res_3903;
         }
     }

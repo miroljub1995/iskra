@@ -94,14 +94,14 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
         }
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> Scripts
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Scripts
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_12392;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12392;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12393;
             __propObject_12393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scripts");
-            __res_12392 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_12393);
+            __res_12392 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12393);
             return __res_12392;
         }
     }

@@ -6,11 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class OrientationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? Quaternion
+    public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Quaternion
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_1393;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_1393;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1394;
             __propObject_1394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "quaternion");
             if (__propObject_1394 is null)
@@ -18,7 +18,7 @@ public partial class OrientationSensor(global::System.Runtime.InteropServices.Ja
                 return null;
             }
 
-            __res_1393 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_1394);
+            __res_1393 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1394);
             return __res_1393;
         }
     }
