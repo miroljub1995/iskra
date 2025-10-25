@@ -19,7 +19,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         {
             bool __marshalledValue_10109;
             __marshalledValue_10109 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10109);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10109);
         }
     }
 
@@ -55,7 +55,7 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_10115;
             __marshalledValue_10115 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10115);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10115);
         }
     }
 

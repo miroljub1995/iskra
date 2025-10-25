@@ -12,4 +12,16 @@ public class TestUnionPropertiesTest() : BaseTest<TestUnionProperties>("testUnio
         await Assert.That(sut.Value.TryCast(out int val)).IsTrue();
         await Assert.That(val).IsEqualTo(3);
     }
+
+    [Test]
+    public async Task TestBoolPropertySet()
+    {
+        var sut = GetSut();
+
+        sut.Value = true;
+
+        await Assert.That(sut.Value.TryCast(out int _)).IsFalse();
+        await Assert.That(sut.Value.TryCast(out bool val)).IsTrue();
+        await Assert.That(val).IsEqualTo(true);
+    }
 }

@@ -19,7 +19,7 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
         {
             bool __marshalledValue_9960;
             __marshalledValue_9960 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_9960);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_9960);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_9963;
             __marshalledValue_9963 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_9963);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_9963);
         }
     }
 }

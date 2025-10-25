@@ -223,7 +223,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
                 string __notNullable_4574 = (string)value;
                 __marshalledValue_4573 = __notNullable_4574;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "nodeValue", __marshalledValue_4573);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "nodeValue", __marshalledValue_4573);
         }
     }
 
@@ -256,7 +256,7 @@ public partial class Node(global::System.Runtime.InteropServices.JavaScript.JSOb
                 string __notNullable_4579 = (string)value;
                 __marshalledValue_4578 = __notNullable_4579;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "textContent", __marshalledValue_4578);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "textContent", __marshalledValue_4578);
         }
     }
 }

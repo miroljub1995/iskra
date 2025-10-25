@@ -19,7 +19,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8591;
             __marshalledValue_8591 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_8591);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_8591);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8594;
             __marshalledValue_8594 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "httpEquiv", __marshalledValue_8594);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "httpEquiv", __marshalledValue_8594);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8597;
             __marshalledValue_8597 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "content", __marshalledValue_8597);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "content", __marshalledValue_8597);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8600;
             __marshalledValue_8600 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_8600);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_8600);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8603;
             __marshalledValue_8603 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scheme", __marshalledValue_8603);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scheme", __marshalledValue_8603);
         }
     }
 }

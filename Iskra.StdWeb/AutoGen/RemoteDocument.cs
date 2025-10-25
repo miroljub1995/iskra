@@ -45,7 +45,7 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "document", value.JSObject);
         }
     }
 

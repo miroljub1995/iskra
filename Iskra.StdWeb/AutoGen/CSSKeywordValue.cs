@@ -19,7 +19,7 @@ public partial class CSSKeywordValue(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_41;
             __marshalledValue_41 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_41);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_41);
         }
     }
 }

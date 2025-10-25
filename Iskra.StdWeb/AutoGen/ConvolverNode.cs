@@ -35,7 +35,7 @@ public partial class ConvolverNode(global::System.Runtime.InteropServices.JavaSc
                 global::Iskra.StdWeb.AudioBuffer __notNullable_13576 = (global::Iskra.StdWeb.AudioBuffer)value;
                 __marshalledValue_13575 = __notNullable_13576.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_13575);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_13575);
         }
     }
 
@@ -52,7 +52,7 @@ public partial class ConvolverNode(global::System.Runtime.InteropServices.JavaSc
         {
             bool __marshalledValue_13579;
             __marshalledValue_13579 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "normalize", __marshalledValue_13579);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "normalize", __marshalledValue_13579);
         }
     }
 }

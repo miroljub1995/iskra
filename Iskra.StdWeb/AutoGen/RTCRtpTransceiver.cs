@@ -60,7 +60,7 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_3073;
             __marshalledValue_3073 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_3073);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_3073);
         }
     }
 

@@ -79,7 +79,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
                 float __notNullable_2617 = (float)value;
                 __marshalledValue_2616 = Convert.ToDouble(__notNullable_2617);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_2616);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_2616);
         }
     }
 
@@ -112,7 +112,7 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
                 global::Iskra.StdWeb.XRRigidTransform __notNullable_2622 = (global::Iskra.StdWeb.XRRigidTransform)value;
                 __marshalledValue_2621 = __notNullable_2622.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose", __marshalledValue_2621);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose", __marshalledValue_2621);
         }
     }
 }

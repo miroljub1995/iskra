@@ -90,7 +90,7 @@ public partial class SVGImageElement(global::System.Runtime.InteropServices.Java
                 string __notNullable_1183 = (string)value;
                 __marshalledValue_1182 = __notNullable_1183;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1182);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1182);
         }
     }
 

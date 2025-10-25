@@ -107,7 +107,7 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         {
             string __marshalledValue_1526;
             __marshalledValue_1526 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1526);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1526);
         }
     }
 }

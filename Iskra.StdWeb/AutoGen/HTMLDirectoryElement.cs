@@ -19,7 +19,7 @@ public partial class HTMLDirectoryElement(global::System.Runtime.InteropServices
         {
             bool __marshalledValue_12346;
             __marshalledValue_12346 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_12346);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_12346);
         }
     }
 }

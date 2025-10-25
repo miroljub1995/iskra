@@ -19,7 +19,7 @@ public partial class CSSTransformComponent(global::System.Runtime.InteropService
         {
             bool __marshalledValue_75;
             __marshalledValue_75 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "is2D", __marshalledValue_75);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "is2D", __marshalledValue_75);
         }
     }
 }

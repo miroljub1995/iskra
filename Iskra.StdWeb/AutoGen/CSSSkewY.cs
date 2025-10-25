@@ -19,7 +19,7 @@ public partial class CSSSkewY(global::System.Runtime.InteropServices.JavaScript.
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_111;
             __marshalledValue_111 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_111);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_111);
         }
     }
 }

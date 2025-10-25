@@ -19,7 +19,7 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
         {
             double __marshalledValue_10079;
             __marshalledValue_10079 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_10079);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_10079);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
         {
             double __marshalledValue_10082;
             __marshalledValue_10082 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_10082);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_10082);
         }
     }
 

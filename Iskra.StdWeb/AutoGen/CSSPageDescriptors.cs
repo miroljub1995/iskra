@@ -19,7 +19,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12650;
             __marshalledValue_12650 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin", __marshalledValue_12650);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin", __marshalledValue_12650);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12653;
             __marshalledValue_12653 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginTop", __marshalledValue_12653);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginTop", __marshalledValue_12653);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12656;
             __marshalledValue_12656 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginRight", __marshalledValue_12656);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginRight", __marshalledValue_12656);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12659;
             __marshalledValue_12659 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBottom", __marshalledValue_12659);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBottom", __marshalledValue_12659);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12662;
             __marshalledValue_12662 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginLeft", __marshalledValue_12662);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginLeft", __marshalledValue_12662);
         }
     }
 
@@ -104,7 +104,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12665;
             __marshalledValue_12665 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-top", __marshalledValue_12665);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-top", __marshalledValue_12665);
         }
     }
 
@@ -121,7 +121,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12668;
             __marshalledValue_12668 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-right", __marshalledValue_12668);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-right", __marshalledValue_12668);
         }
     }
 
@@ -138,7 +138,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12671;
             __marshalledValue_12671 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-bottom", __marshalledValue_12671);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-bottom", __marshalledValue_12671);
         }
     }
 
@@ -155,7 +155,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12674;
             __marshalledValue_12674 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-left", __marshalledValue_12674);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-left", __marshalledValue_12674);
         }
     }
 
@@ -172,7 +172,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12677;
             __marshalledValue_12677 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_12677);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_12677);
         }
     }
 
@@ -189,7 +189,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12680;
             __marshalledValue_12680 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pageOrientation", __marshalledValue_12680);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pageOrientation", __marshalledValue_12680);
         }
     }
 
@@ -206,7 +206,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12683;
             __marshalledValue_12683 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "page-orientation", __marshalledValue_12683);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "page-orientation", __marshalledValue_12683);
         }
     }
 
@@ -223,7 +223,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12686;
             __marshalledValue_12686 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marks", __marshalledValue_12686);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marks", __marshalledValue_12686);
         }
     }
 
@@ -240,7 +240,7 @@ public partial class CSSPageDescriptors(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12689;
             __marshalledValue_12689 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bleed", __marshalledValue_12689);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bleed", __marshalledValue_12689);
         }
     }
 }

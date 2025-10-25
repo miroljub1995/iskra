@@ -19,7 +19,7 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_10161;
             __marshalledValue_10161 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10161);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10161);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
         {
             bool __marshalledValue_10164;
             __marshalledValue_10164 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_10164);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_10164);
         }
     }
 }

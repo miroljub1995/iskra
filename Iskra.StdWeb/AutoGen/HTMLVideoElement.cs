@@ -35,7 +35,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
                 global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9155 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onenterpictureinpicture", __marshalledValue_9154);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onenterpictureinpicture", __marshalledValue_9154);
         }
     }
 
@@ -68,7 +68,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
                 global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9160 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onleavepictureinpicture", __marshalledValue_9159);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onleavepictureinpicture", __marshalledValue_9159);
         }
     }
 
@@ -85,7 +85,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9163;
             __marshalledValue_9163 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disablePictureInPicture", __marshalledValue_9163);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disablePictureInPicture", __marshalledValue_9163);
         }
     }
 
@@ -102,7 +102,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9166;
             __marshalledValue_9166 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_9166);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_9166);
         }
     }
 
@@ -119,7 +119,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9169;
             __marshalledValue_9169 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_9169);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_9169);
         }
     }
 
@@ -158,7 +158,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9176;
             __marshalledValue_9176 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "poster", __marshalledValue_9176);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "poster", __marshalledValue_9176);
         }
     }
 
@@ -175,7 +175,7 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9179;
             __marshalledValue_9179 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "playsInline", __marshalledValue_9179);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "playsInline", __marshalledValue_9179);
         }
     }
 }

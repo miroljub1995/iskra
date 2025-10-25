@@ -19,7 +19,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         {
             double __marshalledValue_13486;
             __marshalledValue_13486 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_13486);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_13486);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         {
             string __marshalledValue_13489;
             __marshalledValue_13489 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "automationRate", __marshalledValue_13489);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "automationRate", __marshalledValue_13489);
         }
     }
 

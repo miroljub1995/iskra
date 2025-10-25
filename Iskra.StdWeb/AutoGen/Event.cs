@@ -98,7 +98,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         {
             bool __marshalledValue_4483;
             __marshalledValue_4483 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "cancelBubble", __marshalledValue_4483);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "cancelBubble", __marshalledValue_4483);
         }
     }
 
@@ -137,7 +137,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         {
             bool __marshalledValue_4490;
             __marshalledValue_4490 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "returnValue", __marshalledValue_4490);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "returnValue", __marshalledValue_4490);
         }
     }
 

@@ -19,7 +19,7 @@ public partial class USBPermissionResult(global::System.Runtime.InteropServices.
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7730 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "devices", __propObject_7730);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "devices", __propObject_7730);
         }
     }
 }

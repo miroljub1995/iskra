@@ -19,7 +19,7 @@ public partial class GPUComputePassEncoder(global::System.Runtime.InteropService
         {
             string __marshalledValue_1578;
             __marshalledValue_1578 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1578);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1578);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         {
             double __marshalledValue_5866;
             __marshalledValue_5866 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_5866);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_5866);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         {
             double __marshalledValue_5869;
             __marshalledValue_5869 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_5869);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_5869);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         {
             double __marshalledValue_5872;
             __marshalledValue_5872 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "z", __marshalledValue_5872);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "z", __marshalledValue_5872);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
         {
             double __marshalledValue_5875;
             __marshalledValue_5875 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "w", __marshalledValue_5875);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "w", __marshalledValue_5875);
         }
     }
 }

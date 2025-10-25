@@ -19,7 +19,7 @@ public partial class XRPermissionStatus(global::System.Runtime.InteropServices.J
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6843 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "granted", __propObject_6843);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "granted", __propObject_6843);
         }
     }
 }

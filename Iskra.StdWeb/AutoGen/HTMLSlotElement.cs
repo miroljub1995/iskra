@@ -19,7 +19,7 @@ public partial class HTMLSlotElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_10239;
             __marshalledValue_10239 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10239);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10239);
         }
     }
 }

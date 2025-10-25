@@ -19,7 +19,7 @@ public partial class RadioNodeList(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_7882;
             __marshalledValue_7882 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_7882);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_7882);
         }
     }
 }

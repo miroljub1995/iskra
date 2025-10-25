@@ -19,7 +19,7 @@ public partial class BeforeUnloadEvent(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_11727;
             __marshalledValue_11727 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_11727);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_11727);
         }
     }
 }

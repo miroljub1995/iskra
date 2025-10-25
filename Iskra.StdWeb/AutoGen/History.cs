@@ -30,7 +30,7 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
         {
             string __marshalledValue_11599;
             __marshalledValue_11599 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_11599);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_11599);
         }
     }
 

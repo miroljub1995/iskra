@@ -57,7 +57,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
                 double __notNullable_3361 = (double)value;
                 __marshalledValue_3360 = __notNullable_3361;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge", __marshalledValue_3360);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge", __marshalledValue_3360);
         }
     }
 
@@ -90,7 +90,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
                 double __notNullable_3366 = (double)value;
                 __marshalledValue_3365 = __notNullable_3366;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge", __marshalledValue_3365);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge", __marshalledValue_3365);
         }
     }
 
@@ -107,7 +107,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         {
             double __marshalledValue_3369;
             __marshalledValue_3369 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark", __marshalledValue_3369);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark", __marshalledValue_3369);
         }
     }
 
@@ -124,7 +124,7 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         {
             double __marshalledValue_3372;
             __marshalledValue_3372 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark", __marshalledValue_3372);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark", __marshalledValue_3372);
         }
     }
 }

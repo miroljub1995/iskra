@@ -19,7 +19,7 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_12705;
             __marshalledValue_12705 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_12705);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_12705);
         }
     }
 

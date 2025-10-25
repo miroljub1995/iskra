@@ -19,7 +19,7 @@ public partial class HTMLDListElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_8802;
             __marshalledValue_8802 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8802);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8802);
         }
     }
 }

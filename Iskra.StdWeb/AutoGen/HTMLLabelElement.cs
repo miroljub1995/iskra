@@ -38,7 +38,7 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9690;
             __marshalledValue_9690 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_9690);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_9690);
         }
     }
 

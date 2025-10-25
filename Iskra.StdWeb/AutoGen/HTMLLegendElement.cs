@@ -38,7 +38,7 @@ public partial class HTMLLegendElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_10131;
             __marshalledValue_10131 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_10131);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_10131);
         }
     }
 }

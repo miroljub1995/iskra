@@ -19,7 +19,7 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_1971;
             __marshalledValue_1971 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1971);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1971);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
         {
             string __marshalledValue_1974;
             __marshalledValue_1974 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1974);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1974);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class HTMLMenuElement(global::System.Runtime.InteropServices.Java
         {
             bool __marshalledValue_8793;
             __marshalledValue_8793 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8793);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8793);
         }
     }
 }

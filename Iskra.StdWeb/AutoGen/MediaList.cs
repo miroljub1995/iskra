@@ -19,7 +19,7 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
         {
             string __marshalledValue_12583;
             __marshalledValue_12583 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_12583);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_12583);
         }
     }
 

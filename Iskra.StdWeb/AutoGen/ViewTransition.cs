@@ -55,7 +55,7 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_12578;
             __marshalledValue_12578 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_12578);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_12578);
         }
     }
 

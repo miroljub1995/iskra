@@ -23,7 +23,7 @@ public partial class RTCRtpSender(global::System.Runtime.InteropServices.JavaScr
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "transform", value.JSObject);
         }
     }
 

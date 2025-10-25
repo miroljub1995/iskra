@@ -19,7 +19,7 @@ public partial class HTMLTitleElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_8523;
             __marshalledValue_8523 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_8523);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_8523);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_8775;
             __marshalledValue_8775 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_8775);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_8775);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_8778;
             __marshalledValue_8778 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_8778);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_8778);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_8781;
             __marshalledValue_8781 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8781);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8781);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_8784;
             __marshalledValue_8784 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8784);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8784);
         }
     }
 }

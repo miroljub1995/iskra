@@ -19,7 +19,7 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_13604;
             __marshalledValue_13604 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_13604);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_13604);
         }
     }
 

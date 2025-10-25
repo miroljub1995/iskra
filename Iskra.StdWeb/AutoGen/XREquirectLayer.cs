@@ -19,7 +19,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2662;
             __marshalledValue_2662 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_2662);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_2662);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2665;
             __marshalledValue_2665 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_2665);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_2665);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         {
             double __marshalledValue_2668;
             __marshalledValue_2668 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "radius", __marshalledValue_2668);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "radius", __marshalledValue_2668);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         {
             double __marshalledValue_2671;
             __marshalledValue_2671 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "centralHorizontalAngle", __marshalledValue_2671);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "centralHorizontalAngle", __marshalledValue_2671);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         {
             double __marshalledValue_2674;
             __marshalledValue_2674 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "upperVerticalAngle", __marshalledValue_2674);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "upperVerticalAngle", __marshalledValue_2674);
         }
     }
 
@@ -104,7 +104,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
         {
             double __marshalledValue_2677;
             __marshalledValue_2677 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lowerVerticalAngle", __marshalledValue_2677);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lowerVerticalAngle", __marshalledValue_2677);
         }
     }
 
@@ -137,7 +137,7 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
                 global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2682 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_2681);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_2681);
         }
     }
 }

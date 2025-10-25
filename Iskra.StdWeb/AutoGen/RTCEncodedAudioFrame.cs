@@ -19,7 +19,7 @@ public partial class RTCEncodedAudioFrame(global::System.Runtime.InteropServices
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1896;
             __marshalledValue_1896 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1896);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1896);
         }
     }
 }

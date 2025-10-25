@@ -19,7 +19,7 @@ public partial class GPUBindGroup(global::System.Runtime.InteropServices.JavaScr
         {
             string __marshalledValue_1541;
             __marshalledValue_1541 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1541);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1541);
         }
     }
 }

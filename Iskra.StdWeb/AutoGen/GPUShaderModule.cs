@@ -19,7 +19,7 @@ public partial class GPUShaderModule(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_1547;
             __marshalledValue_1547 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1547);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1547);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class GPURenderBundle(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_1584;
             __marshalledValue_1584 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1584);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1584);
         }
     }
 }

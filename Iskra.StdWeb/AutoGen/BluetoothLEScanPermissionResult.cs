@@ -19,7 +19,7 @@ public partial class BluetoothLEScanPermissionResult(global::System.Runtime.Inte
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7419 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scans", __propObject_7419);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scans", __propObject_7419);
         }
     }
 }

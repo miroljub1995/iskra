@@ -35,7 +35,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
                 global::Iskra.StdWeb.AudioBuffer __notNullable_13519 = (global::Iskra.StdWeb.AudioBuffer)value;
                 __marshalledValue_13518 = __notNullable_13519.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_13518);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_13518);
         }
     }
 
@@ -74,7 +74,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         {
             bool __marshalledValue_13526;
             __marshalledValue_13526 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_13526);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_13526);
         }
     }
 
@@ -91,7 +91,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         {
             double __marshalledValue_13529;
             __marshalledValue_13529 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopStart", __marshalledValue_13529);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopStart", __marshalledValue_13529);
         }
     }
 
@@ -108,7 +108,7 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
         {
             double __marshalledValue_13532;
             __marshalledValue_13532 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopEnd", __marshalledValue_13532);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopEnd", __marshalledValue_13532);
         }
     }
 }

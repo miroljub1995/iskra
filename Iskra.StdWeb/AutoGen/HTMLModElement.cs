@@ -19,7 +19,7 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_8896;
             __marshalledValue_8896 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_8896);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_8896);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_8899;
             __marshalledValue_8899 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_8899);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_8899);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
         {
             double __marshalledValue_44;
             __marshalledValue_44 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_44);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_44);
         }
     }
 

@@ -19,7 +19,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_12358;
             __marshalledValue_12358 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12358);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12358);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_12361;
             __marshalledValue_12361 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_12361);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_12361);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_12364;
             __marshalledValue_12364 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_12364);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_12364);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_12367;
             __marshalledValue_12367 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueType", __marshalledValue_12367);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueType", __marshalledValue_12367);
         }
     }
 }

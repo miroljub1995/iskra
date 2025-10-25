@@ -19,7 +19,7 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_4359;
             __marshalledValue_4359 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_4359);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_4359);
         }
     }
 

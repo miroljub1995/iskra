@@ -19,7 +19,7 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
         {
             string __marshalledValue_14301;
             __marshalledValue_14301 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_14301);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_14301);
         }
     }
 

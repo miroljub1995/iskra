@@ -35,7 +35,7 @@ public partial class WorkletAnimationEffect(global::System.Runtime.InteropServic
                 double __notNullable_6958 = (double)value;
                 __marshalledValue_6957 = __notNullable_6958;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "localTime", __marshalledValue_6957);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "localTime", __marshalledValue_6957);
         }
     }
 }

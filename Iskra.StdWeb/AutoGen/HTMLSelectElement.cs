@@ -19,7 +19,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_9914;
             __marshalledValue_9914 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_9914);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_9914);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             bool __marshalledValue_9917;
             __marshalledValue_9917 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_9917);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_9917);
         }
     }
 
@@ -72,7 +72,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             bool __marshalledValue_9923;
             __marshalledValue_9923 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "multiple", __marshalledValue_9923);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "multiple", __marshalledValue_9923);
         }
     }
 
@@ -89,7 +89,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_9926;
             __marshalledValue_9926 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9926);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9926);
         }
     }
 
@@ -106,7 +106,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             bool __marshalledValue_9929;
             __marshalledValue_9929 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_9929);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_9929);
         }
     }
 
@@ -123,7 +123,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_9932;
             __marshalledValue_9932 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_9932);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_9932);
         }
     }
 
@@ -162,7 +162,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_9939;
             __marshalledValue_9939 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_9939);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_9939);
         }
     }
 
@@ -190,7 +190,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_9944;
             __marshalledValue_9944 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_9944);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_9944);
         }
     }
 
@@ -207,7 +207,7 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_9947;
             __marshalledValue_9947 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_9947);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_9947);
         }
     }
 

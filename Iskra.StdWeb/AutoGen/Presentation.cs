@@ -35,7 +35,7 @@ public partial class Presentation(global::System.Runtime.InteropServices.JavaScr
                 global::Iskra.StdWeb.PresentationRequest __notNullable_3440 = (global::Iskra.StdWeb.PresentationRequest)value;
                 __marshalledValue_3439 = __notNullable_3440.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "defaultRequest", __marshalledValue_3439);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "defaultRequest", __marshalledValue_3439);
         }
     }
 

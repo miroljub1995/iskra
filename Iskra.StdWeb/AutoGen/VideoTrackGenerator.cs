@@ -30,7 +30,7 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
         {
             bool __marshalledValue_252;
             __marshalledValue_252 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_252);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_252);
         }
     }
 

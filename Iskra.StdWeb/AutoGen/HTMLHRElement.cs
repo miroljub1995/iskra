@@ -19,7 +19,7 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_8754;
             __marshalledValue_8754 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_8754);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_8754);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_8757;
             __marshalledValue_8757 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_8757);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_8757);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
         {
             bool __marshalledValue_8760;
             __marshalledValue_8760 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noShade", __marshalledValue_8760);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noShade", __marshalledValue_8760);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_8763;
             __marshalledValue_8763 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_8763);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_8763);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_8766;
             __marshalledValue_8766 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_8766);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_8766);
         }
     }
 }

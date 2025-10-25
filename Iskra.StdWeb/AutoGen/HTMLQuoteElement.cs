@@ -19,7 +19,7 @@ public partial class HTMLQuoteElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_8772;
             __marshalledValue_8772 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_8772);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_8772);
         }
     }
 }

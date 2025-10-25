@@ -19,7 +19,7 @@ public partial class HTMLUListElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_8787;
             __marshalledValue_8787 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8787);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8787);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLUListElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_8790;
             __marshalledValue_8790 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8790);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8790);
         }
     }
 }

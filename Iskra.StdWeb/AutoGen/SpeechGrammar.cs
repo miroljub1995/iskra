@@ -19,7 +19,7 @@ public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_6486;
             __marshalledValue_6486 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_6486);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_6486);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaSc
         {
             double __marshalledValue_6489;
             __marshalledValue_6489 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "weight", __marshalledValue_6489);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "weight", __marshalledValue_6489);
         }
     }
 }

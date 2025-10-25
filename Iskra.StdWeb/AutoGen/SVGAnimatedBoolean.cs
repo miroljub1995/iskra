@@ -19,7 +19,7 @@ public partial class SVGAnimatedBoolean(global::System.Runtime.InteropServices.J
         {
             bool __marshalledValue_876;
             __marshalledValue_876 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "baseVal", __marshalledValue_876);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "baseVal", __marshalledValue_876);
         }
     }
 

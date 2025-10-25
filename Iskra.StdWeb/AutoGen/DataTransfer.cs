@@ -19,7 +19,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         {
             string __marshalledValue_10748;
             __marshalledValue_10748 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_10748);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_10748);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
         {
             string __marshalledValue_10751;
             __marshalledValue_10751 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_10751);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_10751);
         }
     }
 

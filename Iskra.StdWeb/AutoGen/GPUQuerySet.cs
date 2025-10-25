@@ -41,7 +41,7 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
         {
             string __marshalledValue_1597;
             __marshalledValue_1597 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1597);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1597);
         }
     }
 }

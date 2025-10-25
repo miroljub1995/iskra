@@ -19,7 +19,7 @@ public partial class WebGLObject(global::System.Runtime.InteropServices.JavaScri
         {
             string __marshalledValue_1638;
             __marshalledValue_1638 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1638);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1638);
         }
     }
 }

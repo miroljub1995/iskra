@@ -19,7 +19,7 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8526;
             __marshalledValue_8526 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_8526);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_8526);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8529;
             __marshalledValue_8529 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_8529);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_8529);
         }
     }
 }

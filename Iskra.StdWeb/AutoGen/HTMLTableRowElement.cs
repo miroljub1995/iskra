@@ -52,7 +52,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_9592;
             __marshalledValue_9592 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9592);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9592);
         }
     }
 
@@ -69,7 +69,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_9595;
             __marshalledValue_9595 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ch", __marshalledValue_9595);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ch", __marshalledValue_9595);
         }
     }
 
@@ -86,7 +86,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_9598;
             __marshalledValue_9598 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "chOff", __marshalledValue_9598);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "chOff", __marshalledValue_9598);
         }
     }
 
@@ -103,7 +103,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_9601;
             __marshalledValue_9601 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vAlign", __marshalledValue_9601);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vAlign", __marshalledValue_9601);
         }
     }
 
@@ -120,7 +120,7 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
         {
             string __marshalledValue_9604;
             __marshalledValue_9604 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bgColor", __marshalledValue_9604);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bgColor", __marshalledValue_9604);
         }
     }
 }

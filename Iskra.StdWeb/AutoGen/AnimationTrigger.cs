@@ -19,7 +19,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_7866;
             __marshalledValue_7866 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "timeline", __marshalledValue_7866);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "timeline", __marshalledValue_7866);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_7869;
             __marshalledValue_7869 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "behavior", __marshalledValue_7869);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "behavior", __marshalledValue_7869);
         }
     }
 
@@ -57,7 +57,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "rangeStart", value.JSObject);
         }
     }
 
@@ -78,7 +78,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "rangeEnd", value.JSObject);
         }
     }
 
@@ -99,7 +99,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "exitRangeStart", value.JSObject);
         }
     }
 
@@ -120,7 +120,7 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "exitRangeEnd", value.JSObject);
         }
     }
 }

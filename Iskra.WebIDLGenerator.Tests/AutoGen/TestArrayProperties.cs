@@ -19,7 +19,7 @@ public partial class TestArrayProperties(global::System.Runtime.InteropServices.
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_317 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolArray", __propObject_317);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolArray", __propObject_317);
         }
     }
 }

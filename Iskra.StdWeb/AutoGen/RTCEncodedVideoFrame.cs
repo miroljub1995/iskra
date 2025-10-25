@@ -30,7 +30,7 @@ public partial class RTCEncodedVideoFrame(global::System.Runtime.InteropServices
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1893;
             __marshalledValue_1893 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1893);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1893);
         }
     }
 }

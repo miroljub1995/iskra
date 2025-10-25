@@ -19,7 +19,7 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_12349;
             __marshalledValue_12349 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_12349);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_12349);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_12352;
             __marshalledValue_12352 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "face", __marshalledValue_12352);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "face", __marshalledValue_12352);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_12355;
             __marshalledValue_12355 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_12355);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_12355);
         }
     }
 }

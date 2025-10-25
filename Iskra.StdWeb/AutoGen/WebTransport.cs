@@ -69,7 +69,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
                 ushort __notNullable_3383 = (ushort)value;
                 __marshalledValue_3382 = Convert.ToDouble(__notNullable_3383);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_3382);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_3382);
         }
     }
 
@@ -102,7 +102,7 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
                 ushort __notNullable_3388 = (ushort)value;
                 __marshalledValue_3387 = Convert.ToDouble(__notNullable_3388);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_3387);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_3387);
         }
     }
 

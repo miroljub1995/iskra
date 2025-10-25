@@ -19,7 +19,7 @@ public partial class GPUComputePipeline(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_1566;
             __marshalledValue_1566 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1566);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1566);
         }
     }
 }

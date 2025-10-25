@@ -19,7 +19,7 @@ public partial class SVGAnimatedEnumeration(global::System.Runtime.InteropServic
         {
             double __marshalledValue_881;
             __marshalledValue_881 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_881);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_881);
         }
     }
 

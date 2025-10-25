@@ -19,7 +19,7 @@ public partial class TestObservableArrayProperties(global::System.Runtime.Intero
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_311 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolObservableArray", __propObject_311);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolObservableArray", __propObject_311);
         }
     }
 }

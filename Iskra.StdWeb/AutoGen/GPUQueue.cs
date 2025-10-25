@@ -19,7 +19,7 @@ public partial class GPUQueue(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_1590;
             __marshalledValue_1590 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1590);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1590);
         }
     }
 }

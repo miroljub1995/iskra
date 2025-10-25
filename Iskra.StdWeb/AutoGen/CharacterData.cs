@@ -19,7 +19,7 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_5720;
             __marshalledValue_5720 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_5720);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_5720);
         }
     }
 

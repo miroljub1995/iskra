@@ -19,7 +19,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_13056;
             __marshalledValue_13056 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13056);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13056);
         }
     }
 

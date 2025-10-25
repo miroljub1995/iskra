@@ -30,7 +30,7 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
         {
             string __marshalledValue_12630;
             __marshalledValue_12630 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_12630);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_12630);
         }
     }
 

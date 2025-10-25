@@ -96,7 +96,7 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_1210;
             __marshalledValue_1210 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "orient", __marshalledValue_1210);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "orient", __marshalledValue_1210);
         }
     }
 

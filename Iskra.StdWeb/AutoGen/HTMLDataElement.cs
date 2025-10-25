@@ -19,7 +19,7 @@ public partial class HTMLDataElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8887;
             __marshalledValue_8887 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_8887);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_8887);
         }
     }
 }

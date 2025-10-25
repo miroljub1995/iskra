@@ -63,7 +63,7 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
         {
             bool __marshalledValue_9355;
             __marshalledValue_9355 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_9355);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_9355);
         }
     }
 

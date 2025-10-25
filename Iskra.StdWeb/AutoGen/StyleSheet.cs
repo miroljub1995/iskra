@@ -115,7 +115,7 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
         {
             bool __marshalledValue_12603;
             __marshalledValue_12603 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_12603);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_12603);
         }
     }
 }

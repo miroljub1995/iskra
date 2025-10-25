@@ -19,7 +19,7 @@ public partial class CSSHWB(global::System.Runtime.InteropServices.JavaScript.JS
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_135;
             __marshalledValue_135 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "h", __marshalledValue_135);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "h", __marshalledValue_135);
         }
     }
 
@@ -35,7 +35,7 @@ public partial class CSSHWB(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "w", value.JSObject);
         }
     }
 
@@ -51,7 +51,7 @@ public partial class CSSHWB(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "b", value.JSObject);
         }
     }
 
@@ -67,7 +67,7 @@ public partial class CSSHWB(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "alpha", value.JSObject);
         }
     }
 }

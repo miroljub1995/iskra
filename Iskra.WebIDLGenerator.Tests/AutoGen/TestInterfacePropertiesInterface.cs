@@ -19,7 +19,7 @@ public partial class TestInterfacePropertiesInterface(global::System.Runtime.Int
         {
             double __marshalledValue_308;
             __marshalledValue_308 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_308);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_308);
         }
     }
 }

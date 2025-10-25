@@ -19,7 +19,7 @@ public partial class BiquadFilterNode(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_13561;
             __marshalledValue_13561 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_13561);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_13561);
         }
     }
 

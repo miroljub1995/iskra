@@ -19,7 +19,7 @@ public partial class CSSTranslate(global::System.Runtime.InteropServices.JavaScr
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_78;
             __marshalledValue_78 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "x", __marshalledValue_78);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "x", __marshalledValue_78);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class CSSTranslate(global::System.Runtime.InteropServices.JavaScr
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_81;
             __marshalledValue_81 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "y", __marshalledValue_81);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "y", __marshalledValue_81);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class CSSTranslate(global::System.Runtime.InteropServices.JavaScr
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_84;
             __marshalledValue_84 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "z", __marshalledValue_84);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "z", __marshalledValue_84);
         }
     }
 }

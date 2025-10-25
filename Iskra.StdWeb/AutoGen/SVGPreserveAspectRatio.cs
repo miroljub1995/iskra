@@ -19,7 +19,7 @@ public partial class SVGPreserveAspectRatio(global::System.Runtime.InteropServic
         {
             double __marshalledValue_1093;
             __marshalledValue_1093 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "align", __marshalledValue_1093);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "align", __marshalledValue_1093);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class SVGPreserveAspectRatio(global::System.Runtime.InteropServic
         {
             double __marshalledValue_1096;
             __marshalledValue_1096 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "meetOrSlice", __marshalledValue_1096);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "meetOrSlice", __marshalledValue_1096);
         }
     }
 }

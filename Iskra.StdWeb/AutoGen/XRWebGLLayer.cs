@@ -57,7 +57,7 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
                 float __notNullable_6806 = (float)value;
                 __marshalledValue_6805 = Convert.ToDouble(__notNullable_6806);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_6805);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_6805);
         }
     }
 

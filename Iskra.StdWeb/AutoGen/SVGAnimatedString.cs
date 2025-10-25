@@ -18,7 +18,7 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "baseVal", value.JSObject);
         }
     }
 

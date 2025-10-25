@@ -18,7 +18,7 @@ public partial class CSSPerspective(global::System.Runtime.InteropServices.JavaS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "length", value.JSObject);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9182;
             __marshalledValue_9182 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "kind", __marshalledValue_9182);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "kind", __marshalledValue_9182);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9185;
             __marshalledValue_9185 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9185);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9185);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9188;
             __marshalledValue_9188 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "srclang", __marshalledValue_9188);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "srclang", __marshalledValue_9188);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9191;
             __marshalledValue_9191 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_9191);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_9191);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9194;
             __marshalledValue_9194 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "default", __marshalledValue_9194);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "default", __marshalledValue_9194);
         }
     }
 

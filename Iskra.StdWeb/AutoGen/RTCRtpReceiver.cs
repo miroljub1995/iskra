@@ -23,7 +23,7 @@ public partial class RTCRtpReceiver(global::System.Runtime.InteropServices.JavaS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "transform", value.JSObject);
         }
     }
 
@@ -86,7 +86,7 @@ public partial class RTCRtpReceiver(global::System.Runtime.InteropServices.JavaS
                 double __notNullable_3063 = (double)value;
                 __marshalledValue_3062 = __notNullable_3063;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_3062);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_3062);
         }
     }
 }

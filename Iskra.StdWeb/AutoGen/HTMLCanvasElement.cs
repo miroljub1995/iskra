@@ -19,7 +19,7 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_10242;
             __marshalledValue_10242 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_10242);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_10242);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_10245;
             __marshalledValue_10245 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_10245);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_10245);
         }
     }
 }

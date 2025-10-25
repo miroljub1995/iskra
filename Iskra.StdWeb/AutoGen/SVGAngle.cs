@@ -30,7 +30,7 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
         {
             double __marshalledValue_855;
             __marshalledValue_855 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_855);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_855);
         }
     }
 
@@ -47,7 +47,7 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
         {
             double __marshalledValue_858;
             __marshalledValue_858 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_858);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_858);
         }
     }
 
@@ -64,7 +64,7 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_861;
             __marshalledValue_861 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_861);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_861);
         }
     }
 }

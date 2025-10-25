@@ -30,7 +30,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         {
             bool __marshalledValue_2591;
             __marshalledValue_2591 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha", __marshalledValue_2591);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha", __marshalledValue_2591);
         }
     }
 
@@ -47,7 +47,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         {
             bool __marshalledValue_2594;
             __marshalledValue_2594 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "forceMonoPresentation", __marshalledValue_2594);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "forceMonoPresentation", __marshalledValue_2594);
         }
     }
 
@@ -64,7 +64,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         {
             double __marshalledValue_2597;
             __marshalledValue_2597 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "opacity", __marshalledValue_2597);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "opacity", __marshalledValue_2597);
         }
     }
 
@@ -92,7 +92,7 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_2602;
             __marshalledValue_2602 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "quality", __marshalledValue_2602);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "quality", __marshalledValue_2602);
         }
     }
 

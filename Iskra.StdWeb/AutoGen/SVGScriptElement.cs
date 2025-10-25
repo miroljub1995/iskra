@@ -19,7 +19,7 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_1267;
             __marshalledValue_1267 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1267);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1267);
         }
     }
 
@@ -52,7 +52,7 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
                 string __notNullable_1272 = (string)value;
                 __marshalledValue_1271 = __notNullable_1272;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1271);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1271);
         }
     }
 

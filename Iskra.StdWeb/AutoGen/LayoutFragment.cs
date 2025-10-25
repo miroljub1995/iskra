@@ -41,7 +41,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         {
             double __marshalledValue_13172;
             __marshalledValue_13172 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "inlineOffset", __marshalledValue_13172);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "inlineOffset", __marshalledValue_13172);
         }
     }
 
@@ -58,7 +58,7 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
         {
             double __marshalledValue_13175;
             __marshalledValue_13175 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "blockOffset", __marshalledValue_13175);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "blockOffset", __marshalledValue_13175);
         }
     }
 

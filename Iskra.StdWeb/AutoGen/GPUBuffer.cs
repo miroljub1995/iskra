@@ -52,7 +52,7 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
         {
             string __marshalledValue_1507;
             __marshalledValue_1507 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1507);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1507);
         }
     }
 }

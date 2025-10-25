@@ -19,7 +19,7 @@ public partial class BluetoothPermissionResult(global::System.Runtime.InteropSer
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3972 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "devices", __propObject_3972);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "devices", __propObject_3972);
         }
     }
 }

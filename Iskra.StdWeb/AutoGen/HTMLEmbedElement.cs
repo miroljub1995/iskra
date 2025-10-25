@@ -19,7 +19,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9072;
             __marshalledValue_9072 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9072);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9072);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9075;
             __marshalledValue_9075 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9075);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9075);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9078;
             __marshalledValue_9078 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_9078);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_9078);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9081;
             __marshalledValue_9081 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_9081);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_9081);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9084;
             __marshalledValue_9084 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9084);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9084);
         }
     }
 
@@ -104,7 +104,7 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9087;
             __marshalledValue_9087 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9087);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9087);
         }
     }
 }

@@ -19,7 +19,7 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
         {
             double __marshalledValue_7885;
             __marshalledValue_7885 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_7885);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_7885);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
         {
             double __marshalledValue_7888;
             __marshalledValue_7888 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_7888);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_7888);
         }
     }
 }

@@ -18,7 +18,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "x", value.JSObject);
         }
     }
 
@@ -34,7 +34,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "y", value.JSObject);
         }
     }
 
@@ -50,7 +50,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "z", value.JSObject);
         }
     }
 
@@ -67,7 +67,7 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_93;
             __marshalledValue_93 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_93);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_93);
         }
     }
 }

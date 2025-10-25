@@ -35,7 +35,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
                 global::Iskra.StdWeb.Element __notNullable_2542 = (global::Iskra.StdWeb.Element)value;
                 __marshalledValue_2541 = __notNullable_2542.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_2541);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_2541);
         }
     }
 
@@ -68,7 +68,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
                 string __notNullable_2547 = (string)value;
                 __marshalledValue_2546 = __notNullable_2547;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_2546);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_2546);
         }
     }
 
@@ -85,7 +85,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_2550;
             __marshalledValue_2550 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "composite", __marshalledValue_2550);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "composite", __marshalledValue_2550);
         }
     }
 
@@ -102,7 +102,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_2553;
             __marshalledValue_2553 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "iterationComposite", __marshalledValue_2553);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "iterationComposite", __marshalledValue_2553);
         }
     }
 }

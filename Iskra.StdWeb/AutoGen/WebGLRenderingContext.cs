@@ -64,7 +64,7 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
         {
             string __marshalledValue_1661;
             __marshalledValue_1661 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1661);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1661);
         }
     }
 
@@ -81,7 +81,7 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
         {
             string __marshalledValue_1664;
             __marshalledValue_1664 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1664);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1664);
         }
     }
 }

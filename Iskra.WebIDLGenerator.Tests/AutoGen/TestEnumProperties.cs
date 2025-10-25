@@ -19,7 +19,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_2;
             __marshalledValue_2 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_2);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_2);
         }
     }
 
@@ -52,7 +52,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
                 global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum __notNullable_7 = (global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum)value;
                 __marshalledValue_6 = __notNullable_7.ToString();
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "valueNullable", __marshalledValue_6);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "valueNullable", __marshalledValue_6);
         }
     }
 

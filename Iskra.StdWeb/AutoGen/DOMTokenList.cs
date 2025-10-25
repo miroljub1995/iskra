@@ -30,7 +30,7 @@ public partial class DOMTokenList(global::System.Runtime.InteropServices.JavaScr
         {
             string __marshalledValue_5776;
             __marshalledValue_5776 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5776);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5776);
         }
     }
 }

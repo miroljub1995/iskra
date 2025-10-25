@@ -19,7 +19,7 @@ public partial class CSSFunctionDescriptors(global::System.Runtime.InteropServic
         {
             string __marshalledValue_24;
             __marshalledValue_24 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_24);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_24);
         }
     }
 }

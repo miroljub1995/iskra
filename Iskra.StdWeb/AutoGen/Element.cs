@@ -19,7 +19,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         {
             double __marshalledValue_5362;
             __marshalledValue_5362 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollTop", __marshalledValue_5362);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollTop", __marshalledValue_5362);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         {
             double __marshalledValue_5365;
             __marshalledValue_5365 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollLeft", __marshalledValue_5365);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollLeft", __marshalledValue_5365);
         }
     }
 
@@ -146,7 +146,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5384 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfullscreenchange", __marshalledValue_5383);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfullscreenchange", __marshalledValue_5383);
         }
     }
 
@@ -179,7 +179,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5389 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfullscreenerror", __marshalledValue_5388);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onfullscreenerror", __marshalledValue_5388);
         }
     }
 
@@ -256,7 +256,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         {
             string __marshalledValue_5402;
             __marshalledValue_5402 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_5402);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_5402);
         }
     }
 
@@ -273,7 +273,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         {
             string __marshalledValue_5405;
             __marshalledValue_5405 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "className", __marshalledValue_5405);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "className", __marshalledValue_5405);
         }
     }
 
@@ -301,7 +301,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         {
             string __marshalledValue_5410;
             __marshalledValue_5410 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "slot", __marshalledValue_5410);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "slot", __marshalledValue_5410);
         }
     }
 
@@ -367,7 +367,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         {
             string __marshalledValue_5421;
             __marshalledValue_5421 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "elementTiming", __marshalledValue_5421);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "elementTiming", __marshalledValue_5421);
         }
     }
 
@@ -383,7 +383,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "innerHTML", value.JSObject);
         }
     }
 
@@ -399,7 +399,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "outerHTML", value.JSObject);
         }
     }
 
@@ -590,7 +590,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5456 = (string)value;
                 __marshalledValue_5455 = __notNullable_5456;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "role", __marshalledValue_5455);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "role", __marshalledValue_5455);
         }
     }
 
@@ -623,7 +623,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 global::Iskra.StdWeb.Element __notNullable_5461 = (global::Iskra.StdWeb.Element)value;
                 __marshalledValue_5460 = __notNullable_5461.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaActiveDescendantElement", __marshalledValue_5460);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaActiveDescendantElement", __marshalledValue_5460);
         }
     }
 
@@ -656,7 +656,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5466 = (string)value;
                 __marshalledValue_5465 = __notNullable_5466;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAtomic", __marshalledValue_5465);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAtomic", __marshalledValue_5465);
         }
     }
 
@@ -689,7 +689,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5471 = (string)value;
                 __marshalledValue_5470 = __notNullable_5471;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAutoComplete", __marshalledValue_5470);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAutoComplete", __marshalledValue_5470);
         }
     }
 
@@ -722,7 +722,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5476 = (string)value;
                 __marshalledValue_5475 = __notNullable_5476;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleLabel", __marshalledValue_5475);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleLabel", __marshalledValue_5475);
         }
     }
 
@@ -755,7 +755,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5481 = (string)value;
                 __marshalledValue_5480 = __notNullable_5481;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleRoleDescription", __marshalledValue_5480);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleRoleDescription", __marshalledValue_5480);
         }
     }
 
@@ -788,7 +788,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5486 = (string)value;
                 __marshalledValue_5485 = __notNullable_5486;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBusy", __marshalledValue_5485);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBusy", __marshalledValue_5485);
         }
     }
 
@@ -821,7 +821,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5491 = (string)value;
                 __marshalledValue_5490 = __notNullable_5491;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaChecked", __marshalledValue_5490);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaChecked", __marshalledValue_5490);
         }
     }
 
@@ -854,7 +854,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5496 = (string)value;
                 __marshalledValue_5495 = __notNullable_5496;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColCount", __marshalledValue_5495);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColCount", __marshalledValue_5495);
         }
     }
 
@@ -887,7 +887,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5501 = (string)value;
                 __marshalledValue_5500 = __notNullable_5501;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndex", __marshalledValue_5500);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndex", __marshalledValue_5500);
         }
     }
 
@@ -920,7 +920,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5506 = (string)value;
                 __marshalledValue_5505 = __notNullable_5506;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndexText", __marshalledValue_5505);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndexText", __marshalledValue_5505);
         }
     }
 
@@ -953,7 +953,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5511 = (string)value;
                 __marshalledValue_5510 = __notNullable_5511;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColSpan", __marshalledValue_5510);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColSpan", __marshalledValue_5510);
         }
     }
 
@@ -984,7 +984,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5514 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements", __propObject_5514);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements", __propObject_5514);
         }
     }
 
@@ -1017,7 +1017,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5519 = (string)value;
                 __marshalledValue_5518 = __notNullable_5519;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaCurrent", __marshalledValue_5518);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaCurrent", __marshalledValue_5518);
         }
     }
 
@@ -1048,7 +1048,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5522 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements", __propObject_5522);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements", __propObject_5522);
         }
     }
 
@@ -1081,7 +1081,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5527 = (string)value;
                 __marshalledValue_5526 = __notNullable_5527;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDescription", __marshalledValue_5526);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDescription", __marshalledValue_5526);
         }
     }
 
@@ -1112,7 +1112,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5530 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements", __propObject_5530);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements", __propObject_5530);
         }
     }
 
@@ -1145,7 +1145,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5535 = (string)value;
                 __marshalledValue_5534 = __notNullable_5535;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDisabled", __marshalledValue_5534);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDisabled", __marshalledValue_5534);
         }
     }
 
@@ -1176,7 +1176,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5538 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements", __propObject_5538);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements", __propObject_5538);
         }
     }
 
@@ -1209,7 +1209,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5543 = (string)value;
                 __marshalledValue_5542 = __notNullable_5543;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaExpanded", __marshalledValue_5542);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaExpanded", __marshalledValue_5542);
         }
     }
 
@@ -1240,7 +1240,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5546 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements", __propObject_5546);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements", __propObject_5546);
         }
     }
 
@@ -1273,7 +1273,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5551 = (string)value;
                 __marshalledValue_5550 = __notNullable_5551;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHasPopup", __marshalledValue_5550);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHasPopup", __marshalledValue_5550);
         }
     }
 
@@ -1306,7 +1306,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5556 = (string)value;
                 __marshalledValue_5555 = __notNullable_5556;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHidden", __marshalledValue_5555);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHidden", __marshalledValue_5555);
         }
     }
 
@@ -1339,7 +1339,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5561 = (string)value;
                 __marshalledValue_5560 = __notNullable_5561;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaInvalid", __marshalledValue_5560);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaInvalid", __marshalledValue_5560);
         }
     }
 
@@ -1372,7 +1372,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5566 = (string)value;
                 __marshalledValue_5565 = __notNullable_5566;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaKeyShortcuts", __marshalledValue_5565);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaKeyShortcuts", __marshalledValue_5565);
         }
     }
 
@@ -1405,7 +1405,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5571 = (string)value;
                 __marshalledValue_5570 = __notNullable_5571;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLabel", __marshalledValue_5570);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLabel", __marshalledValue_5570);
         }
     }
 
@@ -1436,7 +1436,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5574 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements", __propObject_5574);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements", __propObject_5574);
         }
     }
 
@@ -1469,7 +1469,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5579 = (string)value;
                 __marshalledValue_5578 = __notNullable_5579;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLevel", __marshalledValue_5578);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLevel", __marshalledValue_5578);
         }
     }
 
@@ -1502,7 +1502,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5584 = (string)value;
                 __marshalledValue_5583 = __notNullable_5584;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLive", __marshalledValue_5583);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLive", __marshalledValue_5583);
         }
     }
 
@@ -1535,7 +1535,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5589 = (string)value;
                 __marshalledValue_5588 = __notNullable_5589;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaModal", __marshalledValue_5588);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaModal", __marshalledValue_5588);
         }
     }
 
@@ -1568,7 +1568,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5594 = (string)value;
                 __marshalledValue_5593 = __notNullable_5594;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiLine", __marshalledValue_5593);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiLine", __marshalledValue_5593);
         }
     }
 
@@ -1601,7 +1601,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5599 = (string)value;
                 __marshalledValue_5598 = __notNullable_5599;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiSelectable", __marshalledValue_5598);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiSelectable", __marshalledValue_5598);
         }
     }
 
@@ -1634,7 +1634,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5604 = (string)value;
                 __marshalledValue_5603 = __notNullable_5604;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaOrientation", __marshalledValue_5603);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaOrientation", __marshalledValue_5603);
         }
     }
 
@@ -1665,7 +1665,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 __propObject_5607 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements", __propObject_5607);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements", __propObject_5607);
         }
     }
 
@@ -1698,7 +1698,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5612 = (string)value;
                 __marshalledValue_5611 = __notNullable_5612;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPlaceholder", __marshalledValue_5611);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPlaceholder", __marshalledValue_5611);
         }
     }
 
@@ -1731,7 +1731,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5617 = (string)value;
                 __marshalledValue_5616 = __notNullable_5617;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPosInSet", __marshalledValue_5616);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPosInSet", __marshalledValue_5616);
         }
     }
 
@@ -1764,7 +1764,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5622 = (string)value;
                 __marshalledValue_5621 = __notNullable_5622;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPressed", __marshalledValue_5621);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPressed", __marshalledValue_5621);
         }
     }
 
@@ -1797,7 +1797,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5627 = (string)value;
                 __marshalledValue_5626 = __notNullable_5627;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaReadOnly", __marshalledValue_5626);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaReadOnly", __marshalledValue_5626);
         }
     }
 
@@ -1830,7 +1830,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5632 = (string)value;
                 __marshalledValue_5631 = __notNullable_5632;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRelevant", __marshalledValue_5631);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRelevant", __marshalledValue_5631);
         }
     }
 
@@ -1863,7 +1863,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5637 = (string)value;
                 __marshalledValue_5636 = __notNullable_5637;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRequired", __marshalledValue_5636);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRequired", __marshalledValue_5636);
         }
     }
 
@@ -1896,7 +1896,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5642 = (string)value;
                 __marshalledValue_5641 = __notNullable_5642;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRoleDescription", __marshalledValue_5641);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRoleDescription", __marshalledValue_5641);
         }
     }
 
@@ -1929,7 +1929,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5647 = (string)value;
                 __marshalledValue_5646 = __notNullable_5647;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowCount", __marshalledValue_5646);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowCount", __marshalledValue_5646);
         }
     }
 
@@ -1962,7 +1962,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5652 = (string)value;
                 __marshalledValue_5651 = __notNullable_5652;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndex", __marshalledValue_5651);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndex", __marshalledValue_5651);
         }
     }
 
@@ -1995,7 +1995,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5657 = (string)value;
                 __marshalledValue_5656 = __notNullable_5657;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndexText", __marshalledValue_5656);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndexText", __marshalledValue_5656);
         }
     }
 
@@ -2028,7 +2028,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5662 = (string)value;
                 __marshalledValue_5661 = __notNullable_5662;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowSpan", __marshalledValue_5661);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowSpan", __marshalledValue_5661);
         }
     }
 
@@ -2061,7 +2061,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5667 = (string)value;
                 __marshalledValue_5666 = __notNullable_5667;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSelected", __marshalledValue_5666);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSelected", __marshalledValue_5666);
         }
     }
 
@@ -2094,7 +2094,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5672 = (string)value;
                 __marshalledValue_5671 = __notNullable_5672;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSetSize", __marshalledValue_5671);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSetSize", __marshalledValue_5671);
         }
     }
 
@@ -2127,7 +2127,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5677 = (string)value;
                 __marshalledValue_5676 = __notNullable_5677;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSort", __marshalledValue_5676);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSort", __marshalledValue_5676);
         }
     }
 
@@ -2160,7 +2160,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5682 = (string)value;
                 __marshalledValue_5681 = __notNullable_5682;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMax", __marshalledValue_5681);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMax", __marshalledValue_5681);
         }
     }
 
@@ -2193,7 +2193,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5687 = (string)value;
                 __marshalledValue_5686 = __notNullable_5687;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMin", __marshalledValue_5686);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMin", __marshalledValue_5686);
         }
     }
 
@@ -2226,7 +2226,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5692 = (string)value;
                 __marshalledValue_5691 = __notNullable_5692;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueNow", __marshalledValue_5691);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueNow", __marshalledValue_5691);
         }
     }
 
@@ -2259,7 +2259,7 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
                 string __notNullable_5697 = (string)value;
                 __marshalledValue_5696 = __notNullable_5697;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueText", __marshalledValue_5696);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueText", __marshalledValue_5696);
         }
     }
 }

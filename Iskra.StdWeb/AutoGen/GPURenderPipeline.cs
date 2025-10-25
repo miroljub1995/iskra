@@ -19,7 +19,7 @@ public partial class GPURenderPipeline(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_1569;
             __marshalledValue_1569 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1569);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1569);
         }
     }
 }

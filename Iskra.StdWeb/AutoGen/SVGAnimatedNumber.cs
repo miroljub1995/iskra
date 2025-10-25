@@ -19,7 +19,7 @@ public partial class SVGAnimatedNumber(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_891;
             __marshalledValue_891 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_891);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_891);
         }
     }
 

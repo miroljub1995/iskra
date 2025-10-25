@@ -19,7 +19,7 @@ public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices
         {
             string __marshalledValue_6588;
             __marshalledValue_6588 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_6588);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_6588);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices
         {
             string __marshalledValue_6591;
             __marshalledValue_6591 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6591);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6591);
         }
     }
 }

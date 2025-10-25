@@ -19,7 +19,7 @@ public partial class HTMLPreElement(global::System.Runtime.InteropServices.JavaS
         {
             double __marshalledValue_8769;
             __marshalledValue_8769 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_8769);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_8769);
         }
     }
 }

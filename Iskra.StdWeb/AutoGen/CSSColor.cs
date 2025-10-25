@@ -18,7 +18,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "colorSpace", value.JSObject);
         }
     }
 
@@ -35,7 +35,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_178 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channels", __propObject_178);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channels", __propObject_178);
         }
     }
 
@@ -51,7 +51,7 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "alpha", value.JSObject);
         }
     }
 }

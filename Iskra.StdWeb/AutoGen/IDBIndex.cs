@@ -19,7 +19,7 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_13067;
             __marshalledValue_13067 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13067);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13067);
         }
     }
 

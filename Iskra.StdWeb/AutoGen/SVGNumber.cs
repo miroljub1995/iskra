@@ -19,7 +19,7 @@ public partial class SVGNumber(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_839;
             __marshalledValue_839 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_839);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_839);
         }
     }
 }

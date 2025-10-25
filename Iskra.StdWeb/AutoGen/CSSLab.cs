@@ -18,7 +18,7 @@ public partial class CSSLab(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "l", value.JSObject);
         }
     }
 
@@ -34,7 +34,7 @@ public partial class CSSLab(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "a", value.JSObject);
         }
     }
 
@@ -50,7 +50,7 @@ public partial class CSSLab(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "b", value.JSObject);
         }
     }
 
@@ -66,7 +66,7 @@ public partial class CSSLab(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "alpha", value.JSObject);
         }
     }
 }

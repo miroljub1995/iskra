@@ -19,7 +19,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_19 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "promisePropertyLong", __propObject_19);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "promisePropertyLong", __propObject_19);
         }
     }
 
@@ -62,7 +62,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
                 __propObject_24 = value.JSObject;
             }
 
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongNullable", __propObject_24);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongNullable", __propObject_24);
         }
     }
 
@@ -113,7 +113,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_31 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "promisePropertyString", __propObject_31);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "promisePropertyString", __propObject_31);
         }
     }
 
@@ -154,7 +154,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_38 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "testTaskToPromise", __propObject_38);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "testTaskToPromise", __propObject_38);
         }
     }
 
@@ -187,7 +187,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
                 int __notNullable_43 = (int)value;
                 __marshalledValue_42 = Convert.ToDouble(__notNullable_43);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "testTaskToPromiseValue", __marshalledValue_42);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "testTaskToPromiseValue", __marshalledValue_42);
         }
     }
 }

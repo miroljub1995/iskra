@@ -18,7 +18,7 @@ public partial class CSSScale(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "x", value.JSObject);
         }
     }
 
@@ -34,7 +34,7 @@ public partial class CSSScale(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "y", value.JSObject);
         }
     }
 
@@ -50,7 +50,7 @@ public partial class CSSScale(global::System.Runtime.InteropServices.JavaScript.
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "z", value.JSObject);
         }
     }
 }

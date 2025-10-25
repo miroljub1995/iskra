@@ -19,7 +19,7 @@ public partial class PaymentManager(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_1610;
             __marshalledValue_1610 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_1610);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_1610);
         }
     }
 }

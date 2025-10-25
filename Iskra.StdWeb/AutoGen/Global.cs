@@ -23,7 +23,7 @@ public partial class Global(global::System.Runtime.InteropServices.JavaScript.JS
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "value", value.JSObject);
         }
     }
 }

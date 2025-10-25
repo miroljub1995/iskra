@@ -19,7 +19,7 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_9436;
             __marshalledValue_9436 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9436);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9436);
         }
     }
 

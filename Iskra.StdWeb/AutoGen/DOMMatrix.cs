@@ -19,7 +19,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5964;
             __marshalledValue_5964 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "a", __marshalledValue_5964);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "a", __marshalledValue_5964);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5967;
             __marshalledValue_5967 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "b", __marshalledValue_5967);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "b", __marshalledValue_5967);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5970;
             __marshalledValue_5970 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "c", __marshalledValue_5970);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "c", __marshalledValue_5970);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5973;
             __marshalledValue_5973 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "d", __marshalledValue_5973);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "d", __marshalledValue_5973);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5976;
             __marshalledValue_5976 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "e", __marshalledValue_5976);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "e", __marshalledValue_5976);
         }
     }
 
@@ -104,7 +104,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5979;
             __marshalledValue_5979 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "f", __marshalledValue_5979);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "f", __marshalledValue_5979);
         }
     }
 
@@ -121,7 +121,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5982;
             __marshalledValue_5982 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m11", __marshalledValue_5982);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m11", __marshalledValue_5982);
         }
     }
 
@@ -138,7 +138,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5985;
             __marshalledValue_5985 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m12", __marshalledValue_5985);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m12", __marshalledValue_5985);
         }
     }
 
@@ -155,7 +155,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5988;
             __marshalledValue_5988 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m13", __marshalledValue_5988);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m13", __marshalledValue_5988);
         }
     }
 
@@ -172,7 +172,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5991;
             __marshalledValue_5991 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m14", __marshalledValue_5991);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m14", __marshalledValue_5991);
         }
     }
 
@@ -189,7 +189,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5994;
             __marshalledValue_5994 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m21", __marshalledValue_5994);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m21", __marshalledValue_5994);
         }
     }
 
@@ -206,7 +206,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_5997;
             __marshalledValue_5997 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m22", __marshalledValue_5997);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m22", __marshalledValue_5997);
         }
     }
 
@@ -223,7 +223,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6000;
             __marshalledValue_6000 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m23", __marshalledValue_6000);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m23", __marshalledValue_6000);
         }
     }
 
@@ -240,7 +240,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6003;
             __marshalledValue_6003 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m24", __marshalledValue_6003);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m24", __marshalledValue_6003);
         }
     }
 
@@ -257,7 +257,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6006;
             __marshalledValue_6006 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m31", __marshalledValue_6006);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m31", __marshalledValue_6006);
         }
     }
 
@@ -274,7 +274,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6009;
             __marshalledValue_6009 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m32", __marshalledValue_6009);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m32", __marshalledValue_6009);
         }
     }
 
@@ -291,7 +291,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6012;
             __marshalledValue_6012 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m33", __marshalledValue_6012);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m33", __marshalledValue_6012);
         }
     }
 
@@ -308,7 +308,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6015;
             __marshalledValue_6015 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m34", __marshalledValue_6015);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m34", __marshalledValue_6015);
         }
     }
 
@@ -325,7 +325,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6018;
             __marshalledValue_6018 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m41", __marshalledValue_6018);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m41", __marshalledValue_6018);
         }
     }
 
@@ -342,7 +342,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6021;
             __marshalledValue_6021 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m42", __marshalledValue_6021);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m42", __marshalledValue_6021);
         }
     }
 
@@ -359,7 +359,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6024;
             __marshalledValue_6024 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m43", __marshalledValue_6024);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m43", __marshalledValue_6024);
         }
     }
 
@@ -376,7 +376,7 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6027;
             __marshalledValue_6027 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m44", __marshalledValue_6027);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m44", __marshalledValue_6027);
         }
     }
 }

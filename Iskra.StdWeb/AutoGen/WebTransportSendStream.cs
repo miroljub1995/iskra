@@ -35,7 +35,7 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
                 global::Iskra.StdWeb.WebTransportSendGroup __notNullable_3407 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
                 __marshalledValue_3406 = __notNullable_3407.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_3406);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_3406);
         }
     }
 
@@ -52,7 +52,7 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
         {
             double __marshalledValue_3410;
             __marshalledValue_3410 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_3410);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_3410);
         }
     }
 }

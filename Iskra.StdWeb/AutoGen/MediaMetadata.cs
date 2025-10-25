@@ -19,7 +19,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_1342;
             __marshalledValue_1342 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_1342);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_1342);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_1345;
             __marshalledValue_1345 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "artist", __marshalledValue_1345);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "artist", __marshalledValue_1345);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_1348;
             __marshalledValue_1348 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "album", __marshalledValue_1348);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "album", __marshalledValue_1348);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1351 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "artwork", __propObject_1351);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "artwork", __propObject_1351);
         }
     }
 

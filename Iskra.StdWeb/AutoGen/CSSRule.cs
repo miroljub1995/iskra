@@ -19,7 +19,7 @@ public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.J
         {
             string __marshalledValue_12617;
             __marshalledValue_12617 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_12617);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_12617);
         }
     }
 

@@ -19,7 +19,7 @@ public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaS
         {
             string __marshalledValue_3430;
             __marshalledValue_3430 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_3430);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_3430);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaS
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3433 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_3433);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_3433);
         }
     }
 }

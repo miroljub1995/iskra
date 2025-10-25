@@ -19,7 +19,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2625;
             __marshalledValue_2625 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_2625);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_2625);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2628;
             __marshalledValue_2628 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_2628);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_2628);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         {
             double __marshalledValue_2631;
             __marshalledValue_2631 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_2631);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_2631);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
         {
             double __marshalledValue_2634;
             __marshalledValue_2634 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_2634);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_2634);
         }
     }
 
@@ -103,7 +103,7 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
                 global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2639 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_2638);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_2638);
         }
     }
 }

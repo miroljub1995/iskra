@@ -19,7 +19,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9696;
             __marshalledValue_9696 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "webkitdirectory", __marshalledValue_9696);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "webkitdirectory", __marshalledValue_9696);
         }
     }
 
@@ -48,7 +48,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9701;
             __marshalledValue_9701 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "capture", __marshalledValue_9701);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "capture", __marshalledValue_9701);
         }
     }
 
@@ -65,7 +65,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9704;
             __marshalledValue_9704 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "accept", __marshalledValue_9704);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "accept", __marshalledValue_9704);
         }
     }
 
@@ -82,7 +82,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9707;
             __marshalledValue_9707 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "alpha", __marshalledValue_9707);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "alpha", __marshalledValue_9707);
         }
     }
 
@@ -99,7 +99,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9710;
             __marshalledValue_9710 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alt", __marshalledValue_9710);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alt", __marshalledValue_9710);
         }
     }
 
@@ -116,7 +116,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9713;
             __marshalledValue_9713 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_9713);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_9713);
         }
     }
 
@@ -133,7 +133,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9716;
             __marshalledValue_9716 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "defaultChecked", __marshalledValue_9716);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "defaultChecked", __marshalledValue_9716);
         }
     }
 
@@ -150,7 +150,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9719;
             __marshalledValue_9719 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "checked", __marshalledValue_9719);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "checked", __marshalledValue_9719);
         }
     }
 
@@ -167,7 +167,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9722;
             __marshalledValue_9722 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "colorSpace", __marshalledValue_9722);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "colorSpace", __marshalledValue_9722);
         }
     }
 
@@ -184,7 +184,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9725;
             __marshalledValue_9725 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dirName", __marshalledValue_9725);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dirName", __marshalledValue_9725);
         }
     }
 
@@ -201,7 +201,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9728;
             __marshalledValue_9728 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_9728);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_9728);
         }
     }
 
@@ -253,7 +253,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
                 global::Iskra.StdWeb.FileList __notNullable_9736 = (global::Iskra.StdWeb.FileList)value;
                 __marshalledValue_9735 = __notNullable_9736.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "files", __marshalledValue_9735);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "files", __marshalledValue_9735);
         }
     }
 
@@ -270,7 +270,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9739;
             __marshalledValue_9739 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formAction", __marshalledValue_9739);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formAction", __marshalledValue_9739);
         }
     }
 
@@ -287,7 +287,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9742;
             __marshalledValue_9742 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formEnctype", __marshalledValue_9742);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formEnctype", __marshalledValue_9742);
         }
     }
 
@@ -304,7 +304,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9745;
             __marshalledValue_9745 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formMethod", __marshalledValue_9745);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formMethod", __marshalledValue_9745);
         }
     }
 
@@ -321,7 +321,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9748;
             __marshalledValue_9748 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "formNoValidate", __marshalledValue_9748);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "formNoValidate", __marshalledValue_9748);
         }
     }
 
@@ -338,7 +338,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9751;
             __marshalledValue_9751 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formTarget", __marshalledValue_9751);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formTarget", __marshalledValue_9751);
         }
     }
 
@@ -355,7 +355,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9754;
             __marshalledValue_9754 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_9754);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_9754);
         }
     }
 
@@ -372,7 +372,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9757;
             __marshalledValue_9757 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "indeterminate", __marshalledValue_9757);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "indeterminate", __marshalledValue_9757);
         }
     }
 
@@ -408,7 +408,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9763;
             __marshalledValue_9763 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max", __marshalledValue_9763);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max", __marshalledValue_9763);
         }
     }
 
@@ -425,7 +425,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9766;
             __marshalledValue_9766 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxLength", __marshalledValue_9766);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxLength", __marshalledValue_9766);
         }
     }
 
@@ -442,7 +442,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9769;
             __marshalledValue_9769 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min", __marshalledValue_9769);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min", __marshalledValue_9769);
         }
     }
 
@@ -459,7 +459,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9772;
             __marshalledValue_9772 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minLength", __marshalledValue_9772);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minLength", __marshalledValue_9772);
         }
     }
 
@@ -476,7 +476,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9775;
             __marshalledValue_9775 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "multiple", __marshalledValue_9775);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "multiple", __marshalledValue_9775);
         }
     }
 
@@ -493,7 +493,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9778;
             __marshalledValue_9778 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9778);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9778);
         }
     }
 
@@ -510,7 +510,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9781;
             __marshalledValue_9781 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pattern", __marshalledValue_9781);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pattern", __marshalledValue_9781);
         }
     }
 
@@ -527,7 +527,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9784;
             __marshalledValue_9784 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "placeholder", __marshalledValue_9784);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "placeholder", __marshalledValue_9784);
         }
     }
 
@@ -544,7 +544,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9787;
             __marshalledValue_9787 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "readOnly", __marshalledValue_9787);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "readOnly", __marshalledValue_9787);
         }
     }
 
@@ -561,7 +561,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             bool __marshalledValue_9790;
             __marshalledValue_9790 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_9790);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_9790);
         }
     }
 
@@ -578,7 +578,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9793;
             __marshalledValue_9793 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_9793);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "size", __marshalledValue_9793);
         }
     }
 
@@ -595,7 +595,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9796;
             __marshalledValue_9796 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9796);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9796);
         }
     }
 
@@ -612,7 +612,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9799;
             __marshalledValue_9799 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "step", __marshalledValue_9799);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "step", __marshalledValue_9799);
         }
     }
 
@@ -629,7 +629,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9802;
             __marshalledValue_9802 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9802);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9802);
         }
     }
 
@@ -646,7 +646,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9805;
             __marshalledValue_9805 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "defaultValue", __marshalledValue_9805);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "defaultValue", __marshalledValue_9805);
         }
     }
 
@@ -663,7 +663,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9808;
             __marshalledValue_9808 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_9808);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_9808);
         }
     }
 
@@ -696,7 +696,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9813 = (global::System.Runtime.InteropServices.JavaScript.JSObject)value;
                 __marshalledValue_9812 = __notNullable_9813;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "valueAsDate", __marshalledValue_9812);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "valueAsDate", __marshalledValue_9812);
         }
     }
 
@@ -713,7 +713,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9816;
             __marshalledValue_9816 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueAsNumber", __marshalledValue_9816);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueAsNumber", __marshalledValue_9816);
         }
     }
 
@@ -730,7 +730,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             double __marshalledValue_9819;
             __marshalledValue_9819 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_9819);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_9819);
         }
     }
 
@@ -815,7 +815,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
                 uint __notNullable_9833 = (uint)value;
                 __marshalledValue_9832 = Convert.ToDouble(__notNullable_9833);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "selectionStart", __marshalledValue_9832);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "selectionStart", __marshalledValue_9832);
         }
     }
 
@@ -848,7 +848,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
                 uint __notNullable_9838 = (uint)value;
                 __marshalledValue_9837 = Convert.ToDouble(__notNullable_9838);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "selectionEnd", __marshalledValue_9837);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "selectionEnd", __marshalledValue_9837);
         }
     }
 
@@ -881,7 +881,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
                 string __notNullable_9843 = (string)value;
                 __marshalledValue_9842 = __notNullable_9843;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "selectionDirection", __marshalledValue_9842);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "selectionDirection", __marshalledValue_9842);
         }
     }
 
@@ -898,7 +898,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9846;
             __marshalledValue_9846 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9846);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9846);
         }
     }
 
@@ -915,7 +915,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9849;
             __marshalledValue_9849 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "useMap", __marshalledValue_9849);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "useMap", __marshalledValue_9849);
         }
     }
 
@@ -948,7 +948,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
                 global::Iskra.StdWeb.Element __notNullable_9854 = (global::Iskra.StdWeb.Element)value;
                 __marshalledValue_9853 = __notNullable_9854.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "popoverTargetElement", __marshalledValue_9853);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "popoverTargetElement", __marshalledValue_9853);
         }
     }
 
@@ -965,7 +965,7 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
         {
             string __marshalledValue_9857;
             __marshalledValue_9857 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "popoverTargetAction", __marshalledValue_9857);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "popoverTargetAction", __marshalledValue_9857);
         }
     }
 }

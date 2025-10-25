@@ -23,7 +23,7 @@ public partial class DataCue(global::System.Runtime.InteropServices.JavaScript.J
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "value", value.JSObject);
         }
     }
 

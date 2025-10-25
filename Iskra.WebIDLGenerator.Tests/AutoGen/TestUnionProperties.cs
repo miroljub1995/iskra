@@ -18,7 +18,7 @@ public partial class TestUnionProperties(global::System.Runtime.InteropServices.
         }
         set
         {
-            throw new global::System.Exception();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "value", value.JSObject);
         }
     }
 }

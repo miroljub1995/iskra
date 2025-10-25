@@ -19,7 +19,7 @@ public partial class CSSSkew(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_102;
             __marshalledValue_102 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_102);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_102);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class CSSSkew(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_105;
             __marshalledValue_105 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_105);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_105);
         }
     }
 }

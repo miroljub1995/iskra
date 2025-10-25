@@ -79,7 +79,7 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
         {
             string __marshalledValue_5712;
             __marshalledValue_5712 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5712);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5712);
         }
     }
 

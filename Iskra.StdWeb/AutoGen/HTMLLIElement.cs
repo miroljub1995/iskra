@@ -19,7 +19,7 @@ public partial class HTMLLIElement(global::System.Runtime.InteropServices.JavaSc
         {
             double __marshalledValue_8796;
             __marshalledValue_8796 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_8796);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_8796);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLLIElement(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_8799;
             __marshalledValue_8799 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8799);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8799);
         }
     }
 }

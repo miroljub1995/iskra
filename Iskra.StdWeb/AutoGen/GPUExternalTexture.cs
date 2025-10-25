@@ -19,7 +19,7 @@ public partial class GPUExternalTexture(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_1532;
             __marshalledValue_1532 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1532);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1532);
         }
     }
 }

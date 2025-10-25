@@ -19,7 +19,7 @@ public partial class TestFrozenArrayProperties(global::System.Runtime.InteropSer
         set
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_320 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolArray", __propObject_320);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "boolArray", __propObject_320);
         }
     }
 }

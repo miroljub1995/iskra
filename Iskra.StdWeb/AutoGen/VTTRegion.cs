@@ -19,7 +19,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             string __marshalledValue_12544;
             __marshalledValue_12544 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_12544);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "id", __marshalledValue_12544);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_12547;
             __marshalledValue_12547 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_12547);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_12547);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_12550;
             __marshalledValue_12550 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lines", __marshalledValue_12550);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lines", __marshalledValue_12550);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_12553;
             __marshalledValue_12553 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorX", __marshalledValue_12553);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorX", __marshalledValue_12553);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_12556;
             __marshalledValue_12556 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorY", __marshalledValue_12556);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "regionAnchorY", __marshalledValue_12556);
         }
     }
 
@@ -104,7 +104,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_12559;
             __marshalledValue_12559 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorX", __marshalledValue_12559);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorX", __marshalledValue_12559);
         }
     }
 
@@ -121,7 +121,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_12562;
             __marshalledValue_12562 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorY", __marshalledValue_12562);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "viewportAnchorY", __marshalledValue_12562);
         }
     }
 
@@ -138,7 +138,7 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
         {
             string __marshalledValue_12565;
             __marshalledValue_12565 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scroll", __marshalledValue_12565);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scroll", __marshalledValue_12565);
         }
     }
 }

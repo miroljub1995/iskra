@@ -19,7 +19,7 @@ public partial class HTMLTimeElement(global::System.Runtime.InteropServices.Java
         {
             string __marshalledValue_8890;
             __marshalledValue_8890 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_8890);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_8890);
         }
     }
 }

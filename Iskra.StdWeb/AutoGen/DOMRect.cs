@@ -19,7 +19,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         {
             double __marshalledValue_5894;
             __marshalledValue_5894 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_5894);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_5894);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         {
             double __marshalledValue_5897;
             __marshalledValue_5897 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_5897);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_5897);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         {
             double __marshalledValue_5900;
             __marshalledValue_5900 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_5900);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_5900);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
         {
             double __marshalledValue_5903;
             __marshalledValue_5903 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_5903);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_5903);
         }
     }
 }

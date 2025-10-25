@@ -19,7 +19,7 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
         {
             string __marshalledValue_35;
             __marshalledValue_35 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_35);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_35);
         }
     }
 

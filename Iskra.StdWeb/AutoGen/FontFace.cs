@@ -19,7 +19,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3265;
             __marshalledValue_3265 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "family", __marshalledValue_3265);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "family", __marshalledValue_3265);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3268;
             __marshalledValue_3268 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "style", __marshalledValue_3268);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "style", __marshalledValue_3268);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3271;
             __marshalledValue_3271 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "weight", __marshalledValue_3271);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "weight", __marshalledValue_3271);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3274;
             __marshalledValue_3274 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "stretch", __marshalledValue_3274);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "stretch", __marshalledValue_3274);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3277;
             __marshalledValue_3277 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicodeRange", __marshalledValue_3277);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicodeRange", __marshalledValue_3277);
         }
     }
 
@@ -104,7 +104,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3280;
             __marshalledValue_3280 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "featureSettings", __marshalledValue_3280);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "featureSettings", __marshalledValue_3280);
         }
     }
 
@@ -121,7 +121,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3283;
             __marshalledValue_3283 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variationSettings", __marshalledValue_3283);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variationSettings", __marshalledValue_3283);
         }
     }
 
@@ -138,7 +138,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3286;
             __marshalledValue_3286 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "display", __marshalledValue_3286);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "display", __marshalledValue_3286);
         }
     }
 
@@ -155,7 +155,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3289;
             __marshalledValue_3289 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascentOverride", __marshalledValue_3289);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascentOverride", __marshalledValue_3289);
         }
     }
 
@@ -172,7 +172,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3292;
             __marshalledValue_3292 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descentOverride", __marshalledValue_3292);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descentOverride", __marshalledValue_3292);
         }
     }
 
@@ -189,7 +189,7 @@ public partial class FontFace(global::System.Runtime.InteropServices.JavaScript.
         {
             string __marshalledValue_3295;
             __marshalledValue_3295 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineGapOverride", __marshalledValue_3295);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineGapOverride", __marshalledValue_3295);
         }
     }
 

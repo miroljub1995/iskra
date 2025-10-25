@@ -19,7 +19,7 @@ public partial class HTMLTableCaptionElement(global::System.Runtime.InteropServi
         {
             string __marshalledValue_9551;
             __marshalledValue_9551 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9551);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9551);
         }
     }
 }

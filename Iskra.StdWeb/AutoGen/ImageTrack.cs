@@ -52,7 +52,7 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
         {
             bool __marshalledValue_3894;
             __marshalledValue_3894 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_3894);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_3894);
         }
     }
 }

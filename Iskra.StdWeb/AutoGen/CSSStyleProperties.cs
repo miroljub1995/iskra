@@ -19,7 +19,7 @@ public partial class CSSStyleProperties(global::System.Runtime.InteropServices.J
         {
             string __marshalledValue_12713;
             __marshalledValue_12713 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_12713);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_12713);
         }
     }
 }

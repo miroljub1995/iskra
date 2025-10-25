@@ -35,7 +35,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
                 global::Iskra.StdWeb.FencedFrameConfig __notNullable_12458 = (global::Iskra.StdWeb.FencedFrameConfig)value;
                 __marshalledValue_12457 = __notNullable_12458.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "config", __marshalledValue_12457);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "config", __marshalledValue_12457);
         }
     }
 
@@ -52,7 +52,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         {
             string __marshalledValue_12461;
             __marshalledValue_12461 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_12461);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_12461);
         }
     }
 
@@ -69,7 +69,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         {
             string __marshalledValue_12464;
             __marshalledValue_12464 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_12464);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_12464);
         }
     }
 
@@ -97,7 +97,7 @@ public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServic
         {
             string __marshalledValue_12469;
             __marshalledValue_12469 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "allow", __marshalledValue_12469);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "allow", __marshalledValue_12469);
         }
     }
 }

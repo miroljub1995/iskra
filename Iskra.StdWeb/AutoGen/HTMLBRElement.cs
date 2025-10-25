@@ -19,7 +19,7 @@ public partial class HTMLBRElement(global::System.Runtime.InteropServices.JavaSc
         {
             string __marshalledValue_8893;
             __marshalledValue_8893 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "clear", __marshalledValue_8893);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "clear", __marshalledValue_8893);
         }
     }
 }

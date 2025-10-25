@@ -19,7 +19,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             double __marshalledValue_8808;
             __marshalledValue_8808 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "attributionSourceId", __marshalledValue_8808);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "attributionSourceId", __marshalledValue_8808);
         }
     }
 
@@ -36,7 +36,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8811;
             __marshalledValue_8811 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_8811);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_8811);
         }
     }
 
@@ -53,7 +53,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8814;
             __marshalledValue_8814 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_8814);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_8814);
         }
     }
 
@@ -70,7 +70,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8817;
             __marshalledValue_8817 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_8817);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_8817);
         }
     }
 
@@ -87,7 +87,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8820;
             __marshalledValue_8820 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_8820);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_8820);
         }
     }
 
@@ -115,7 +115,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8825;
             __marshalledValue_8825 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hreflang", __marshalledValue_8825);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hreflang", __marshalledValue_8825);
         }
     }
 
@@ -132,7 +132,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8828;
             __marshalledValue_8828 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8828);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8828);
         }
     }
 
@@ -149,7 +149,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8831;
             __marshalledValue_8831 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_8831);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_8831);
         }
     }
 
@@ -166,7 +166,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8834;
             __marshalledValue_8834 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_8834);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_8834);
         }
     }
 
@@ -183,7 +183,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8837;
             __marshalledValue_8837 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "coords", __marshalledValue_8837);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "coords", __marshalledValue_8837);
         }
     }
 
@@ -200,7 +200,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8840;
             __marshalledValue_8840 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "charset", __marshalledValue_8840);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "charset", __marshalledValue_8840);
         }
     }
 
@@ -217,7 +217,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8843;
             __marshalledValue_8843 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_8843);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_8843);
         }
     }
 
@@ -234,7 +234,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8846;
             __marshalledValue_8846 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rev", __marshalledValue_8846);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rev", __marshalledValue_8846);
         }
     }
 
@@ -251,7 +251,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8849;
             __marshalledValue_8849 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shape", __marshalledValue_8849);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shape", __marshalledValue_8849);
         }
     }
 
@@ -268,7 +268,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8852;
             __marshalledValue_8852 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "attributionSrc", __marshalledValue_8852);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "attributionSrc", __marshalledValue_8852);
         }
     }
 
@@ -285,7 +285,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8855;
             __marshalledValue_8855 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_8855);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_8855);
         }
     }
 
@@ -313,7 +313,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8860;
             __marshalledValue_8860 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_8860);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_8860);
         }
     }
 
@@ -330,7 +330,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8863;
             __marshalledValue_8863 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_8863);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_8863);
         }
     }
 
@@ -347,7 +347,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8866;
             __marshalledValue_8866 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_8866);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_8866);
         }
     }
 
@@ -364,7 +364,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8869;
             __marshalledValue_8869 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_8869);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_8869);
         }
     }
 
@@ -381,7 +381,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8872;
             __marshalledValue_8872 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_8872);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_8872);
         }
     }
 
@@ -398,7 +398,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8875;
             __marshalledValue_8875 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_8875);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_8875);
         }
     }
 
@@ -415,7 +415,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8878;
             __marshalledValue_8878 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_8878);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_8878);
         }
     }
 
@@ -432,7 +432,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8881;
             __marshalledValue_8881 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_8881);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_8881);
         }
     }
 
@@ -449,7 +449,7 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         {
             string __marshalledValue_8884;
             __marshalledValue_8884 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_8884);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_8884);
         }
     }
 }

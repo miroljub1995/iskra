@@ -60,7 +60,7 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_5771;
             __marshalledValue_5771 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_5771);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_5771);
         }
     }
 }

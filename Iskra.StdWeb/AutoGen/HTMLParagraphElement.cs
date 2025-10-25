@@ -19,7 +19,7 @@ public partial class HTMLParagraphElement(global::System.Runtime.InteropServices
         {
             string __marshalledValue_8751;
             __marshalledValue_8751 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_8751);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_8751);
         }
     }
 }

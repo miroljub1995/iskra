@@ -19,7 +19,7 @@ public partial class CSSMatrixComponent(global::System.Runtime.InteropServices.J
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_116;
             __marshalledValue_116 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_116);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_116);
         }
     }
 }

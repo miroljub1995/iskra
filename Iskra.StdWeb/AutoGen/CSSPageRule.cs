@@ -19,7 +19,7 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
         {
             string __marshalledValue_12692;
             __marshalledValue_12692 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_12692);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_12692);
         }
     }
 

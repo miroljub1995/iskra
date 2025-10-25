@@ -63,7 +63,7 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
         {
             bool __marshalledValue_9322;
             __marshalledValue_9322 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_9322);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_9322);
         }
     }
 
