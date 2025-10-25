@@ -10,10 +10,10 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_10767;
-            string __res_10768 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_10767 = __res_10768;
-            return __res_10767;
+            string __res_10760;
+            string __res_10761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_10760 = __res_10761;
+            return __res_10760;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_10769;
-            string __res_10770 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_10769 = __res_10770;
-            return __res_10769;
+            string __res_10762;
+            string __res_10763 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_10762 = __res_10763;
+            return __res_10762;
         }
     }
 }

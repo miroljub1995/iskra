@@ -10,10 +10,10 @@ public partial class SpeechRecognitionResultList(global::System.Runtime.InteropS
     {
         get
         {
-            uint __res_6479;
-            double __res_6480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6479 = Convert.ToUInt32(__res_6480);
-            return __res_6479;
+            uint __res_6478;
+            double __res_6479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6478 = Convert.ToUInt32(__res_6479);
+            return __res_6478;
         }
     }
 }

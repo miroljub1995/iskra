@@ -1,5 +1,4 @@
 using System.Diagnostics.CodeAnalysis;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace Iskra.WebIDLGenerator.Models;
 
@@ -40,6 +39,14 @@ public class GenTypeDescriptors
         foreach (var genTypeDescriptor in _genTypeDescriptors)
         {
             ResolveTypedefInIDLRootType(genTypeDescriptor.RootType);
+        }
+    }
+
+    public void ResolveAnyTypes()
+    {
+        foreach (var genTypeDescriptor in _genTypeDescriptors)
+        {
+            ResolveAnyInIDLRootType(genTypeDescriptor.RootType);
         }
     }
 
@@ -322,6 +329,243 @@ public class GenTypeDescriptors
             Nullable = nullable,
             IdlType = flattenedIdlType,
             ExtAttrs = input.ExtAttrs,
+        };
+    }
+
+    private void ResolveAnyInIDLRootType(IDLRootType input)
+    {
+        if (input is CallbackType callbackType)
+        {
+            ResolveAnyInCallbackType(callbackType);
+        }
+        else if (input is CallbackInterfaceType callbackInterfaceType)
+        {
+            ResolveAnyInCallbackInterfaceType(callbackInterfaceType);
+        }
+        else if (input is DictionaryType dictionaryType)
+        {
+            ResolveAnyInDictionaryType(dictionaryType);
+        }
+        else if (input is InterfaceMixinType interfaceMixinType)
+        {
+            ResolveAnyInInterfaceMixinType(interfaceMixinType);
+        }
+        else if (input is InterfaceType interfaceType)
+        {
+            ResolveAnyInInterfaceType(interfaceType);
+        }
+        else if (input is NamespaceType namespaceType)
+        {
+            ResolveAnyInNamespaceType(namespaceType);
+        }
+    }
+
+    private void ResolveAnyInCallbackType(CallbackType input)
+    {
+        input.IdlType = ResolveAnyInIDLTypeDescription(input.IdlType);
+        foreach (var arg in input.Arguments)
+        {
+            arg.IdlType = ResolveAnyInIDLTypeDescription(arg.IdlType);
+        }
+    }
+
+    private void ResolveAnyInCallbackInterfaceType(CallbackInterfaceType input)
+    {
+        foreach (var member in input.Members)
+        {
+            ResolveAnyInMemberType(member);
+        }
+    }
+
+    private void ResolveAnyInDictionaryType(DictionaryType input)
+    {
+        foreach (var member in input.Members)
+        {
+            member.IdlType = ResolveAnyInIDLTypeDescription(member.IdlType);
+        }
+    }
+
+    private void ResolveAnyInInterfaceMixinType(InterfaceMixinType input)
+    {
+        foreach (var member in input.Members)
+        {
+            ResolveAnyInMemberType(member);
+        }
+    }
+
+    private void ResolveAnyInInterfaceType(InterfaceType input)
+    {
+        foreach (var member in input.Members)
+        {
+            ResolveAnyInMemberType(member);
+        }
+    }
+
+    private void ResolveAnyInNamespaceType(NamespaceType input)
+    {
+        foreach (var member in input.Members)
+        {
+            ResolveAnyInMemberType(member);
+        }
+    }
+
+    private void ResolveAnyInMemberType(IDLCallbackInterfaceMemberType input)
+    {
+        if (input is AttributeMemberType attribute)
+        {
+            attribute.IdlType = ResolveAnyInIDLTypeDescription(attribute.IdlType);
+        }
+        else if (input is ConstantMemberType constant)
+        {
+            constant.IdlType = ResolveAnyInIDLTypeDescription(constant.IdlType);
+        }
+        else if (input is ConstructorMemberType constructor)
+        {
+            foreach (var arg in constructor.Arguments)
+            {
+                arg.IdlType = ResolveAnyInIDLTypeDescription(arg.IdlType);
+            }
+        }
+        else if (input is IterableDeclarationMemberType iterable)
+        {
+            for (var i = 0; i < iterable.IdlType.Count; i++)
+            {
+                iterable.IdlType[i] = ResolveAnyInIDLTypeDescription(iterable.IdlType[i]);
+            }
+
+            foreach (var arg in iterable.Arguments)
+            {
+                arg.IdlType = ResolveAnyInIDLTypeDescription(arg.IdlType);
+            }
+        }
+        else if (input is AsyncIterableMemberType asyncIterable)
+        {
+            for (var i = 0; i < asyncIterable.IdlType.Count; i++)
+            {
+                asyncIterable.IdlType[i] = ResolveAnyInIDLTypeDescription(asyncIterable.IdlType[i]);
+            }
+
+            foreach (var arg in asyncIterable.Arguments)
+            {
+                arg.IdlType = ResolveAnyInIDLTypeDescription(arg.IdlType);
+            }
+        }
+        else if (input is MaplikeDeclarationMemberType maplikeDeclaration)
+        {
+            for (var i = 0; i < maplikeDeclaration.IdlType.Count; i++)
+            {
+                maplikeDeclaration.IdlType[i] = ResolveAnyInIDLTypeDescription(maplikeDeclaration.IdlType[i]);
+            }
+        }
+        else if (input is SetlikeDeclarationMemberType setlikeDeclaration)
+        {
+            for (var i = 0; i < setlikeDeclaration.IdlType.Count; i++)
+            {
+                setlikeDeclaration.IdlType[i] = ResolveAnyInIDLTypeDescription(setlikeDeclaration.IdlType[i]);
+            }
+        }
+        else if (input is OperationMemberType operation)
+        {
+            if (operation.IdlType is not null)
+            {
+                operation.IdlType = ResolveAnyInIDLTypeDescription(operation.IdlType);
+            }
+
+            foreach (var arg in operation.Arguments)
+            {
+                arg.IdlType = ResolveAnyInIDLTypeDescription(arg.IdlType);
+            }
+        }
+        else
+        {
+            throw new Exception($"Unknown IDL type: {input.GetType()}");
+        }
+    }
+
+    private IDLTypeDescription ResolveAnyInIDLTypeDescription(IDLTypeDescription input)
+    {
+        if (input is SingleTypeDescription singleTypeDescription)
+        {
+            if (singleTypeDescription.IdlType == BuiltinTypes.Any)
+            {
+                return CreateUnionTypeDescriptionForAny();
+            }
+
+            return input;
+        }
+        else if (input is FrozenArrayTypeDescription frozenArrayTypeDescription)
+        {
+            return frozenArrayTypeDescription with
+            {
+                IdlType = frozenArrayTypeDescription.IdlType
+                    .Select(ResolveAnyInIDLTypeDescription)
+                    .ToList()
+            };
+        }
+        else if (input is ObservableArrayTypeDescription observableArrayTypeDescription)
+        {
+            return observableArrayTypeDescription with
+            {
+                IdlType = observableArrayTypeDescription.IdlType
+                    .Select(ResolveAnyInIDLTypeDescription)
+                    .ToList()
+            };
+        }
+        else if (input is PromiseTypeDescription promiseTypeDescription)
+        {
+            return promiseTypeDescription with
+            {
+                IdlType = promiseTypeDescription.IdlType
+                    .Select(ResolveAnyInIDLTypeDescription)
+                    .ToList()
+            };
+        }
+        else if (input is RecordTypeDescription recordTypeDescription)
+        {
+            return recordTypeDescription with
+            {
+                IdlType = recordTypeDescription.IdlType
+                    .Select(ResolveAnyInIDLTypeDescription)
+                    .ToList()
+            };
+        }
+        else if (input is SequenceTypeDescription sequenceTypeDescription)
+        {
+            return sequenceTypeDescription with
+            {
+                IdlType = sequenceTypeDescription.IdlType
+                    .Select(ResolveAnyInIDLTypeDescription)
+                    .ToList()
+            };
+        }
+        else if (input is UnionTypeDescription unionTypeDescription)
+        {
+            return FlattenUnionTypeDescription(unionTypeDescription with
+            {
+                IdlType = unionTypeDescription.IdlType
+                    .Select(ResolveAnyInIDLTypeDescription)
+                    .ToList()
+            });
+        }
+
+        throw new Exception($"Unknown IDL type: {input.GetType()}");
+    }
+
+    private static UnionTypeDescription CreateUnionTypeDescriptionForAny()
+    {
+        return new UnionTypeDescription()
+        {
+            Nullable = true,
+            IdlType =
+            [
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.Double, ExtAttrs = [], },
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.BigInt, ExtAttrs = [], },
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.String, ExtAttrs = [], },
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.Boolean, ExtAttrs = [], },
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.Object, ExtAttrs = [], },
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.ManagedObject, ExtAttrs = [], },
+            ],
+            ExtAttrs = [],
         };
     }
 }

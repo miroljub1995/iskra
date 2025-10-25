@@ -10,32 +10,32 @@ public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7271;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
-            if (__res_7272 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7270;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
+            if (__res_7271 is null)
             {
-                __res_7271 = null;
+                __res_7270 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7273 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7272;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7272 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7271;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7271;
+            return __res_7270;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7274;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7273;
             if (value is null)
             {
-                __marshalledValue_7274 = null;
+                __marshalledValue_7273 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7275 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7274 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_7274);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_7273);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7276;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror");
-            if (__res_7277 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7275;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7276 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror");
+            if (__res_7276 is null)
             {
-                __res_7276 = null;
+                __res_7275 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7278 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7277;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7277 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7276;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_7276;
+            return __res_7275;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7279;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7278;
             if (value is null)
             {
-                __marshalledValue_7279 = null;
+                __marshalledValue_7278 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7280 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7279 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror", __marshalledValue_7279);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror", __marshalledValue_7278);
         }
     }
 }

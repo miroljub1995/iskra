@@ -10,10 +10,10 @@ public partial class CSSSupportsConditionRule(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_12460;
-            string __res_12461 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12460 = __res_12461;
-            return __res_12460;
+            string __res_12452;
+            string __res_12453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12452 = __res_12453;
+            return __res_12452;
         }
     }
 }

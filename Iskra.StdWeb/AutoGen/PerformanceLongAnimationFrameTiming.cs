@@ -10,10 +10,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12376;
-            double __res_12377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_12376 = __res_12377;
-            return __res_12376;
+            double __res_12368;
+            double __res_12369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_12368 = __res_12369;
+            return __res_12368;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12378;
-            double __res_12379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_12378 = __res_12379;
-            return __res_12378;
+            double __res_12370;
+            double __res_12371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_12370 = __res_12371;
+            return __res_12370;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            string __res_12380;
-            string __res_12381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12380 = __res_12381;
-            return __res_12380;
+            string __res_12372;
+            string __res_12373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12372 = __res_12373;
+            return __res_12372;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            string __res_12382;
-            string __res_12383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_12382 = __res_12383;
-            return __res_12382;
+            string __res_12374;
+            string __res_12375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_12374 = __res_12375;
+            return __res_12374;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12384;
-            double __res_12385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderStart");
-            __res_12384 = __res_12385;
-            return __res_12384;
+            double __res_12376;
+            double __res_12377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderStart");
+            __res_12376 = __res_12377;
+            return __res_12376;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12386;
-            double __res_12387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "styleAndLayoutStart");
-            __res_12386 = __res_12387;
-            return __res_12386;
+            double __res_12378;
+            double __res_12379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "styleAndLayoutStart");
+            __res_12378 = __res_12379;
+            return __res_12378;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12388;
-            double __res_12389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockingDuration");
-            __res_12388 = __res_12389;
-            return __res_12388;
+            double __res_12380;
+            double __res_12381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockingDuration");
+            __res_12380 = __res_12381;
+            return __res_12380;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12390;
-            double __res_12391 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstUIEventTimestamp");
-            __res_12390 = __res_12391;
-            return __res_12390;
+            double __res_12382;
+            double __res_12383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstUIEventTimestamp");
+            __res_12382 = __res_12383;
+            return __res_12382;
         }
     }
 
@@ -98,11 +98,11 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12392;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12393;
-            __propObject_12393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scripts");
-            __res_12392 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12393);
-            return __res_12392;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12384;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12385;
+            __propObject_12385 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scripts");
+            __res_12384 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceScriptTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12385);
+            return __res_12384;
         }
     }
 
@@ -110,10 +110,10 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double __res_12394;
-            double __res_12395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
-            __res_12394 = __res_12395;
-            return __res_12394;
+            double __res_12386;
+            double __res_12387 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
+            __res_12386 = __res_12387;
+            return __res_12386;
         }
     }
 
@@ -121,18 +121,18 @@ public partial class PerformanceLongAnimationFrameTiming(global::System.Runtime.
     {
         get
         {
-            double? __res_12396;
-            double? __res_12397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
-            if (__res_12397 is null)
+            double? __res_12388;
+            double? __res_12389 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
+            if (__res_12389 is null)
             {
-                __res_12396 = null;
+                __res_12388 = null;
             }
             else
             {
-                double __notNullable_12398 = (double)__res_12397;
-                __res_12396 = __notNullable_12398;
+                double __notNullable_12390 = (double)__res_12389;
+                __res_12388 = __notNullable_12390;
             }
-            return __res_12396;
+            return __res_12388;
         }
     }
 }

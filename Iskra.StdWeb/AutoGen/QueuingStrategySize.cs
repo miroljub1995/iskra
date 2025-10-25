@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate double QueuingStrategySize(object? chunk);
+public delegate double QueuingStrategySize(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk);
 
 #nullable disable

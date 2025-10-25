@@ -10,11 +10,11 @@ public partial class XRBoundedReferenceSpace(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6732;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6733;
-            __propObject_6733 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundsGeometry");
-            __res_6732 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6733);
-            return __res_6732;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6731;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6732;
+            __propObject_6732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundsGeometry");
+            __res_6731 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6732);
+            return __res_6731;
         }
     }
 }

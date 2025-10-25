@@ -10,11 +10,11 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_12578;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12579;
-            __propObject_12579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "updateCallbackDone");
-            __res_12578 = new global::Iskra.JSCore.Promise(__propObject_12579);
-            return __res_12578;
+            global::Iskra.JSCore.Promise __res_12570;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12571;
+            __propObject_12571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "updateCallbackDone");
+            __res_12570 = new global::Iskra.JSCore.Promise(__propObject_12571);
+            return __res_12570;
         }
     }
 
@@ -22,11 +22,11 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_12580;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12581;
-            __propObject_12581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_12580 = new global::Iskra.JSCore.Promise(__propObject_12581);
-            return __res_12580;
+            global::Iskra.JSCore.Promise __res_12572;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12573;
+            __propObject_12573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_12572 = new global::Iskra.JSCore.Promise(__propObject_12573);
+            return __res_12572;
         }
     }
 
@@ -34,11 +34,11 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_12582;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12583;
-            __propObject_12583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "finished");
-            __res_12582 = new global::Iskra.JSCore.Promise(__propObject_12583);
-            return __res_12582;
+            global::Iskra.JSCore.Promise __res_12574;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12575;
+            __propObject_12575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "finished");
+            __res_12574 = new global::Iskra.JSCore.Promise(__propObject_12575);
+            return __res_12574;
         }
     }
 
@@ -46,16 +46,16 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.ViewTransitionTypeSet __res_12584;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_12584 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransitionTypeSet>(__res_12585);
-            return __res_12584;
+            global::Iskra.StdWeb.ViewTransitionTypeSet __res_12576;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_12576 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransitionTypeSet>(__res_12577);
+            return __res_12576;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_12586;
-            __marshalledValue_12586 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_12586);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_12578;
+            __marshalledValue_12578 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_12578);
         }
     }
 
@@ -63,10 +63,10 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Element __res_12587;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transitionRoot");
-            __res_12587 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_12588);
-            return __res_12587;
+            global::Iskra.StdWeb.Element __res_12579;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transitionRoot");
+            __res_12579 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_12580);
+            return __res_12579;
         }
     }
 }

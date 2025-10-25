@@ -10,16 +10,16 @@ public partial class HTMLTitleElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8528;
-            string __res_8529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_8528 = __res_8529;
-            return __res_8528;
+            string __res_8521;
+            string __res_8522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_8521 = __res_8522;
+            return __res_8521;
         }
         set
         {
-            string __marshalledValue_8530;
-            __marshalledValue_8530 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_8530);
+            string __marshalledValue_8523;
+            __marshalledValue_8523 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_8523);
         }
     }
 }

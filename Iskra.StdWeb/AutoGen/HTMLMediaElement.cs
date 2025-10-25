@@ -10,10 +10,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9206;
-            string __res_9207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sinkId");
-            __res_9206 = __res_9207;
-            return __res_9206;
+            string __res_9199;
+            string __res_9200 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sinkId");
+            __res_9199 = __res_9200;
+            return __res_9199;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.RemotePlayback __res_9208;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
-            __res_9208 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RemotePlayback>(__res_9209);
-            return __res_9208;
+            global::Iskra.StdWeb.RemotePlayback __res_9201;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
+            __res_9201 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RemotePlayback>(__res_9202);
+            return __res_9201;
         }
     }
 
@@ -32,16 +32,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9210;
-            bool __res_9211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disableRemotePlayback");
-            __res_9210 = __res_9211;
-            return __res_9210;
+            bool __res_9203;
+            bool __res_9204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disableRemotePlayback");
+            __res_9203 = __res_9204;
+            return __res_9203;
         }
         set
         {
-            bool __marshalledValue_9212;
-            __marshalledValue_9212 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disableRemotePlayback", __marshalledValue_9212);
+            bool __marshalledValue_9205;
+            __marshalledValue_9205 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disableRemotePlayback", __marshalledValue_9205);
         }
     }
 
@@ -49,18 +49,18 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.MediaKeys? __res_9213;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "mediaKeys");
-            if (__res_9214 is null)
+            global::Iskra.StdWeb.MediaKeys? __res_9206;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "mediaKeys");
+            if (__res_9207 is null)
             {
-                __res_9213 = null;
+                __res_9206 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9215 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9214;
-                __res_9213 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaKeys>(__notNullable_9215);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9208 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9207;
+                __res_9206 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaKeys>(__notNullable_9208);
             }
-            return __res_9213;
+            return __res_9206;
         }
     }
 
@@ -68,32 +68,32 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9216;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onencrypted");
-            if (__res_9217 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_9209;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onencrypted");
+            if (__res_9210 is null)
             {
-                __res_9216 = null;
+                __res_9209 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9218 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9217;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9211 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9210;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_9216;
+            return __res_9209;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9219;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9212;
             if (value is null)
             {
-                __marshalledValue_9219 = null;
+                __marshalledValue_9212 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9220 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9213 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onencrypted", __marshalledValue_9219);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onencrypted", __marshalledValue_9212);
         }
     }
 
@@ -101,32 +101,32 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9221;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onwaitingforkey");
-            if (__res_9222 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_9214;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onwaitingforkey");
+            if (__res_9215 is null)
             {
-                __res_9221 = null;
+                __res_9214 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9223 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9222;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9216 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9215;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_9221;
+            return __res_9214;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9224;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9217;
             if (value is null)
             {
-                __marshalledValue_9224 = null;
+                __marshalledValue_9217 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9225 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9218 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onwaitingforkey", __marshalledValue_9224);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onwaitingforkey", __marshalledValue_9217);
         }
     }
 
@@ -134,18 +134,18 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.MediaError? __res_9226;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "error");
-            if (__res_9227 is null)
+            global::Iskra.StdWeb.MediaError? __res_9219;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "error");
+            if (__res_9220 is null)
             {
-                __res_9226 = null;
+                __res_9219 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9228 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9227;
-                __res_9226 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaError>(__notNullable_9228);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9221 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9220;
+                __res_9219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaError>(__notNullable_9221);
             }
-            return __res_9226;
+            return __res_9219;
         }
     }
 
@@ -153,16 +153,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9229;
-            string __res_9230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_9229 = __res_9230;
-            return __res_9229;
+            string __res_9222;
+            string __res_9223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_9222 = __res_9223;
+            return __res_9222;
         }
         set
         {
-            string __marshalledValue_9231;
-            __marshalledValue_9231 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9231);
+            string __marshalledValue_9224;
+            __marshalledValue_9224 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9224);
         }
     }
 
@@ -170,16 +170,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_9232;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_9233;
-            __propObject_9233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "srcObject");
-            if (__propObject_9233 is null)
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_9225;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_9226;
+            __propObject_9226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "srcObject");
+            if (__propObject_9226 is null)
             {
                 return null;
             }
 
-            __res_9232 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_9233);
-            return __res_9232;
+            __res_9225 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_9226);
+            return __res_9225;
         }
         set
         {
@@ -191,10 +191,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9234;
-            string __res_9235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
-            __res_9234 = __res_9235;
-            return __res_9234;
+            string __res_9227;
+            string __res_9228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "currentSrc");
+            __res_9227 = __res_9228;
+            return __res_9227;
         }
     }
 
@@ -202,32 +202,32 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_9236;
-            string? __res_9237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_9237 is null)
+            string? __res_9229;
+            string? __res_9230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_9230 is null)
             {
-                __res_9236 = null;
+                __res_9229 = null;
             }
             else
             {
-                string __notNullable_9238 = (string)__res_9237;
-                __res_9236 = __notNullable_9238;
+                string __notNullable_9231 = (string)__res_9230;
+                __res_9229 = __notNullable_9231;
             }
-            return __res_9236;
+            return __res_9229;
         }
         set
         {
-            string? __marshalledValue_9239;
+            string? __marshalledValue_9232;
             if (value is null)
             {
-                __marshalledValue_9239 = null;
+                __marshalledValue_9232 = null;
             }
             else
             {
-                string __notNullable_9240 = (string)value;
-                __marshalledValue_9239 = __notNullable_9240;
+                string __notNullable_9233 = (string)value;
+                __marshalledValue_9232 = __notNullable_9233;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_9239);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_9232);
         }
     }
 
@@ -235,10 +235,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            ushort __res_9241;
-            double __res_9242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "networkState");
-            __res_9241 = Convert.ToUInt16(__res_9242);
-            return __res_9241;
+            ushort __res_9234;
+            double __res_9235 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "networkState");
+            __res_9234 = Convert.ToUInt16(__res_9235);
+            return __res_9234;
         }
     }
 
@@ -246,16 +246,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9243;
-            string __res_9244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "preload");
-            __res_9243 = __res_9244;
-            return __res_9243;
+            string __res_9236;
+            string __res_9237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "preload");
+            __res_9236 = __res_9237;
+            return __res_9236;
         }
         set
         {
-            string __marshalledValue_9245;
-            __marshalledValue_9245 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "preload", __marshalledValue_9245);
+            string __marshalledValue_9238;
+            __marshalledValue_9238 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "preload", __marshalledValue_9238);
         }
     }
 
@@ -263,10 +263,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.TimeRanges __res_9246;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
-            __res_9246 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_9247);
-            return __res_9246;
+            global::Iskra.StdWeb.TimeRanges __res_9239;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffered");
+            __res_9239 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_9240);
+            return __res_9239;
         }
     }
 
@@ -274,10 +274,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            ushort __res_9248;
-            double __res_9249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            __res_9248 = Convert.ToUInt16(__res_9249);
-            return __res_9248;
+            ushort __res_9241;
+            double __res_9242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            __res_9241 = Convert.ToUInt16(__res_9242);
+            return __res_9241;
         }
     }
 
@@ -285,10 +285,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9250;
-            bool __res_9251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "seeking");
-            __res_9250 = __res_9251;
-            return __res_9250;
+            bool __res_9243;
+            bool __res_9244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "seeking");
+            __res_9243 = __res_9244;
+            return __res_9243;
         }
     }
 
@@ -296,16 +296,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_9252;
-            double __res_9253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
-            __res_9252 = __res_9253;
-            return __res_9252;
+            double __res_9245;
+            double __res_9246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
+            __res_9245 = __res_9246;
+            return __res_9245;
         }
         set
         {
-            double __marshalledValue_9254;
-            __marshalledValue_9254 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "currentTime", __marshalledValue_9254);
+            double __marshalledValue_9247;
+            __marshalledValue_9247 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "currentTime", __marshalledValue_9247);
         }
     }
 
@@ -313,10 +313,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_9255;
-            double __res_9256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_9255 = __res_9256;
-            return __res_9255;
+            double __res_9248;
+            double __res_9249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_9248 = __res_9249;
+            return __res_9248;
         }
     }
 
@@ -324,10 +324,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9257;
-            bool __res_9258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
-            __res_9257 = __res_9258;
-            return __res_9257;
+            bool __res_9250;
+            bool __res_9251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
+            __res_9250 = __res_9251;
+            return __res_9250;
         }
     }
 
@@ -335,16 +335,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_9259;
-            double __res_9260 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate");
-            __res_9259 = __res_9260;
-            return __res_9259;
+            double __res_9252;
+            double __res_9253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate");
+            __res_9252 = __res_9253;
+            return __res_9252;
         }
         set
         {
-            double __marshalledValue_9261;
-            __marshalledValue_9261 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate", __marshalledValue_9261);
+            double __marshalledValue_9254;
+            __marshalledValue_9254 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "defaultPlaybackRate", __marshalledValue_9254);
         }
     }
 
@@ -352,16 +352,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_9262;
-            double __res_9263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
-            __res_9262 = __res_9263;
-            return __res_9262;
+            double __res_9255;
+            double __res_9256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackRate");
+            __res_9255 = __res_9256;
+            return __res_9255;
         }
         set
         {
-            double __marshalledValue_9264;
-            __marshalledValue_9264 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "playbackRate", __marshalledValue_9264);
+            double __marshalledValue_9257;
+            __marshalledValue_9257 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "playbackRate", __marshalledValue_9257);
         }
     }
 
@@ -369,16 +369,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9265;
-            bool __res_9266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "preservesPitch");
-            __res_9265 = __res_9266;
-            return __res_9265;
+            bool __res_9258;
+            bool __res_9259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "preservesPitch");
+            __res_9258 = __res_9259;
+            return __res_9258;
         }
         set
         {
-            bool __marshalledValue_9267;
-            __marshalledValue_9267 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "preservesPitch", __marshalledValue_9267);
+            bool __marshalledValue_9260;
+            __marshalledValue_9260 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "preservesPitch", __marshalledValue_9260);
         }
     }
 
@@ -386,10 +386,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.TimeRanges __res_9268;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "played");
-            __res_9268 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_9269);
-            return __res_9268;
+            global::Iskra.StdWeb.TimeRanges __res_9261;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9262 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "played");
+            __res_9261 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_9262);
+            return __res_9261;
         }
     }
 
@@ -397,10 +397,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.TimeRanges __res_9270;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seekable");
-            __res_9270 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_9271);
-            return __res_9270;
+            global::Iskra.StdWeb.TimeRanges __res_9263;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9264 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "seekable");
+            __res_9263 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_9264);
+            return __res_9263;
         }
     }
 
@@ -408,10 +408,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9272;
-            bool __res_9273 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ended");
-            __res_9272 = __res_9273;
-            return __res_9272;
+            bool __res_9265;
+            bool __res_9266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ended");
+            __res_9265 = __res_9266;
+            return __res_9265;
         }
     }
 
@@ -419,16 +419,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9274;
-            bool __res_9275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoplay");
-            __res_9274 = __res_9275;
-            return __res_9274;
+            bool __res_9267;
+            bool __res_9268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoplay");
+            __res_9267 = __res_9268;
+            return __res_9267;
         }
         set
         {
-            bool __marshalledValue_9276;
-            __marshalledValue_9276 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "autoplay", __marshalledValue_9276);
+            bool __marshalledValue_9269;
+            __marshalledValue_9269 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "autoplay", __marshalledValue_9269);
         }
     }
 
@@ -436,16 +436,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9277;
-            bool __res_9278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
-            __res_9277 = __res_9278;
-            return __res_9277;
+            bool __res_9270;
+            bool __res_9271 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
+            __res_9270 = __res_9271;
+            return __res_9270;
         }
         set
         {
-            bool __marshalledValue_9279;
-            __marshalledValue_9279 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_9279);
+            bool __marshalledValue_9272;
+            __marshalledValue_9272 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_9272);
         }
     }
 
@@ -453,16 +453,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9280;
-            bool __res_9281 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "controls");
-            __res_9280 = __res_9281;
-            return __res_9280;
+            bool __res_9273;
+            bool __res_9274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "controls");
+            __res_9273 = __res_9274;
+            return __res_9273;
         }
         set
         {
-            bool __marshalledValue_9282;
-            __marshalledValue_9282 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "controls", __marshalledValue_9282);
+            bool __marshalledValue_9275;
+            __marshalledValue_9275 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "controls", __marshalledValue_9275);
         }
     }
 
@@ -470,16 +470,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_9283;
-            double __res_9284 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "volume");
-            __res_9283 = __res_9284;
-            return __res_9283;
+            double __res_9276;
+            double __res_9277 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "volume");
+            __res_9276 = __res_9277;
+            return __res_9276;
         }
         set
         {
-            double __marshalledValue_9285;
-            __marshalledValue_9285 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "volume", __marshalledValue_9285);
+            double __marshalledValue_9278;
+            __marshalledValue_9278 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "volume", __marshalledValue_9278);
         }
     }
 
@@ -487,16 +487,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9286;
-            bool __res_9287 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_9286 = __res_9287;
-            return __res_9286;
+            bool __res_9279;
+            bool __res_9280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_9279 = __res_9280;
+            return __res_9279;
         }
         set
         {
-            bool __marshalledValue_9288;
-            __marshalledValue_9288 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_9288);
+            bool __marshalledValue_9281;
+            __marshalledValue_9281 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_9281);
         }
     }
 
@@ -504,16 +504,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9289;
-            bool __res_9290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultMuted");
-            __res_9289 = __res_9290;
-            return __res_9289;
+            bool __res_9282;
+            bool __res_9283 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "defaultMuted");
+            __res_9282 = __res_9283;
+            return __res_9282;
         }
         set
         {
-            bool __marshalledValue_9291;
-            __marshalledValue_9291 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "defaultMuted", __marshalledValue_9291);
+            bool __marshalledValue_9284;
+            __marshalledValue_9284 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "defaultMuted", __marshalledValue_9284);
         }
     }
 
@@ -521,10 +521,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioTrackList __res_9292;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9293 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
-            __res_9292 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrackList>(__res_9293);
-            return __res_9292;
+            global::Iskra.StdWeb.AudioTrackList __res_9285;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9286 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioTracks");
+            __res_9285 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrackList>(__res_9286);
+            return __res_9285;
         }
     }
 
@@ -532,10 +532,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.VideoTrackList __res_9294;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
-            __res_9294 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrackList>(__res_9295);
-            return __res_9294;
+            global::Iskra.StdWeb.VideoTrackList __res_9287;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "videoTracks");
+            __res_9287 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrackList>(__res_9288);
+            return __res_9287;
         }
     }
 
@@ -543,10 +543,10 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.TextTrackList __res_9296;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
-            __res_9296 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackList>(__res_9297);
-            return __res_9296;
+            global::Iskra.StdWeb.TextTrackList __res_9289;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textTracks");
+            __res_9289 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackList>(__res_9290);
+            return __res_9289;
         }
     }
 }

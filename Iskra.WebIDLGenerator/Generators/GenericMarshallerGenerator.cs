@@ -190,8 +190,12 @@ public class GenericMarshallerGenerator(
 
         List<string> interfaceParts = [];
         List<string> bodyParts = [];
-        foreach (var marshaller in _marshallers)
+
+        // Do not convert to foreach, new item could be added during iteration.
+        for (var i = 0; i < _marshallers.Count; i++)
         {
+            var marshaller = _marshallers[i];
+
             IDLTypeDescription elementType;
             if (marshaller.Key is FrozenArrayTypeDescription frozenArray)
             {
@@ -284,8 +288,12 @@ public class GenericMarshallerGenerator(
 
         List<string> interfaceParts = [];
         List<string> bodyParts = [];
-        foreach (var marshaller in _marshallers)
+
+        // Do not convert to foreach, new item could be added during iteration.
+        for (var i = 0; i < _marshallers.Count; i++)
         {
+            var marshaller = _marshallers[i];
+
             if (marshaller.Key is not PromiseTypeDescription promiseTypeDescription)
             {
                 continue;

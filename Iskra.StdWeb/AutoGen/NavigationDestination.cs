@@ -10,10 +10,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_11699;
-            string __res_11700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_11699 = __res_11700;
-            return __res_11699;
+            string __res_11691;
+            string __res_11692 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_11691 = __res_11692;
+            return __res_11691;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_11701;
-            string __res_11702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_11701 = __res_11702;
-            return __res_11701;
+            string __res_11693;
+            string __res_11694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
+            __res_11693 = __res_11694;
+            return __res_11693;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_11703;
-            string __res_11704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_11703 = __res_11704;
-            return __res_11703;
+            string __res_11695;
+            string __res_11696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_11695 = __res_11696;
+            return __res_11695;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            long __res_11705;
-            double __res_11706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_11705 = Convert.ToInt64(__res_11706);
-            return __res_11705;
+            long __res_11697;
+            double __res_11698 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_11697 = Convert.ToInt64(__res_11698);
+            return __res_11697;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            bool __res_11707;
-            bool __res_11708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
-            __res_11707 = __res_11708;
-            return __res_11707;
+            bool __res_11699;
+            bool __res_11700 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            __res_11699 = __res_11700;
+            return __res_11699;
         }
     }
 }

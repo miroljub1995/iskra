@@ -10,10 +10,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            int __res_14332;
-            double __res_14333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pointerId");
-            __res_14332 = Convert.ToInt32(__res_14333);
-            return __res_14332;
+            int __res_14324;
+            double __res_14325 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pointerId");
+            __res_14324 = Convert.ToInt32(__res_14325);
+            return __res_14324;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_14334;
-            double __res_14335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_14334 = __res_14335;
-            return __res_14334;
+            double __res_14326;
+            double __res_14327 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_14326 = __res_14327;
+            return __res_14326;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_14336;
-            double __res_14337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_14336 = __res_14337;
-            return __res_14336;
+            double __res_14328;
+            double __res_14329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_14328 = __res_14329;
+            return __res_14328;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            float __res_14338;
-            double __res_14339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pressure");
-            __res_14338 = Convert.ToSingle(__res_14339);
-            return __res_14338;
+            float __res_14330;
+            double __res_14331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pressure");
+            __res_14330 = Convert.ToSingle(__res_14331);
+            return __res_14330;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            float __res_14340;
-            double __res_14341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tangentialPressure");
-            __res_14340 = Convert.ToSingle(__res_14341);
-            return __res_14340;
+            float __res_14332;
+            double __res_14333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tangentialPressure");
+            __res_14332 = Convert.ToSingle(__res_14333);
+            return __res_14332;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            int __res_14342;
-            double __res_14343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltX");
-            __res_14342 = Convert.ToInt32(__res_14343);
-            return __res_14342;
+            int __res_14334;
+            double __res_14335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltX");
+            __res_14334 = Convert.ToInt32(__res_14335);
+            return __res_14334;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            int __res_14344;
-            double __res_14345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltY");
-            __res_14344 = Convert.ToInt32(__res_14345);
-            return __res_14344;
+            int __res_14336;
+            double __res_14337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltY");
+            __res_14336 = Convert.ToInt32(__res_14337);
+            return __res_14336;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            int __res_14346;
-            double __res_14347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "twist");
-            __res_14346 = Convert.ToInt32(__res_14347);
-            return __res_14346;
+            int __res_14338;
+            double __res_14339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "twist");
+            __res_14338 = Convert.ToInt32(__res_14339);
+            return __res_14338;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_14348;
-            double __res_14349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
-            __res_14348 = __res_14349;
-            return __res_14348;
+            double __res_14340;
+            double __res_14341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
+            __res_14340 = __res_14341;
+            return __res_14340;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_14350;
-            double __res_14351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
-            __res_14350 = __res_14351;
-            return __res_14350;
+            double __res_14342;
+            double __res_14343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
+            __res_14342 = __res_14343;
+            return __res_14342;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_14352;
-            string __res_14353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pointerType");
-            __res_14352 = __res_14353;
-            return __res_14352;
+            string __res_14344;
+            string __res_14345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pointerType");
+            __res_14344 = __res_14345;
+            return __res_14344;
         }
     }
 
@@ -131,10 +131,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_14354;
-            bool __res_14355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            __res_14354 = __res_14355;
-            return __res_14354;
+            bool __res_14346;
+            bool __res_14347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
+            __res_14346 = __res_14347;
+            return __res_14346;
         }
     }
 
@@ -142,10 +142,10 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            int __res_14356;
-            double __res_14357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "persistentDeviceId");
-            __res_14356 = Convert.ToInt32(__res_14357);
-            return __res_14356;
+            int __res_14348;
+            double __res_14349 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "persistentDeviceId");
+            __res_14348 = Convert.ToInt32(__res_14349);
+            return __res_14348;
         }
     }
 }

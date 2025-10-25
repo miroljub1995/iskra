@@ -156,7 +156,6 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
     private string MapToDotnetType(string input)
         => input switch
         {
-            BuiltinTypes.Any => "object",
             BuiltinTypes.Undefined => "void",
             BuiltinTypes.Boolean => "bool",
             BuiltinTypes.Byte => "byte",
@@ -174,6 +173,7 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             BuiltinTypes.UnrestrictedDouble => "double",
             BuiltinTypes.String => "string",
             BuiltinTypes.Object => "global::System.Runtime.InteropServices.JavaScript.JSObject",
+            BuiltinTypes.ManagedObject => "object",
             _ => MapReferenceToDotnetType(input),
         };
 

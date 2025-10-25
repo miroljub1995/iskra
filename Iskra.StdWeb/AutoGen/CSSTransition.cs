@@ -10,10 +10,10 @@ public partial class CSSTransition(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_6593;
-            string __res_6594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transitionProperty");
-            __res_6593 = __res_6594;
-            return __res_6593;
+            string __res_6592;
+            string __res_6593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transitionProperty");
+            __res_6592 = __res_6593;
+            return __res_6592;
         }
     }
 }

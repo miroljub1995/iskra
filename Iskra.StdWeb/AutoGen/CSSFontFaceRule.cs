@@ -10,10 +10,10 @@ public partial class CSSFontFaceRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFaceDescriptors __res_7587;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_7587 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFaceDescriptors>(__res_7588);
-            return __res_7587;
+            global::Iskra.StdWeb.CSSFontFaceDescriptors __res_7585;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_7585 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFaceDescriptors>(__res_7586);
+            return __res_7585;
         }
     }
 }

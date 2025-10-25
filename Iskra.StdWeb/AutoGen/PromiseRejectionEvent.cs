@@ -10,21 +10,27 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11764;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11765 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
-            __res_11764 = __res_11765;
-            return __res_11764;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11756;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11757 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
+            __res_11756 = __res_11757;
+            return __res_11756;
         }
     }
 
-    public object? Reason
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Reason
     {
         get
         {
-            object? __res_11766;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_11766;
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_11758;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11759;
+            __propObject_11759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
+            if (__propObject_11759 is null)
+            {
+                return null;
+            }
+
+            __res_11758 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11759);
+            return __res_11758;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationNodeList __res_7853;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            __res_7853 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationNodeList>(__res_7854);
-            return __res_7853;
+            global::Iskra.StdWeb.AnimationNodeList __res_7850;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            __res_7850 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationNodeList>(__res_7851);
+            return __res_7850;
         }
     }
 
@@ -21,8 +21,27 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
+            global::Iskra.StdWeb.AnimationEffect? __res_7852;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_7853 is null)
+            {
+                __res_7852 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7854 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7853;
+                __res_7852 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_7854);
+            }
+            return __res_7852;
+        }
+    }
+
+    public global::Iskra.StdWeb.AnimationEffect? LastChild
+    {
+        get
+        {
             global::Iskra.StdWeb.AnimationEffect? __res_7855;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
             if (__res_7856 is null)
             {
                 __res_7855 = null;
@@ -33,25 +52,6 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
                 __res_7855 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_7857);
             }
             return __res_7855;
-        }
-    }
-
-    public global::Iskra.StdWeb.AnimationEffect? LastChild
-    {
-        get
-        {
-            global::Iskra.StdWeb.AnimationEffect? __res_7858;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
-            if (__res_7859 is null)
-            {
-                __res_7858 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7860 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7859;
-                __res_7858 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_7860);
-            }
-            return __res_7858;
         }
     }
 }

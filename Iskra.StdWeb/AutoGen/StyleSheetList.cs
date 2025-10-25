@@ -10,10 +10,10 @@ public partial class StyleSheetList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            uint __res_12619;
-            double __res_12620 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12619 = Convert.ToUInt32(__res_12620);
-            return __res_12619;
+            uint __res_12611;
+            double __res_12612 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12611 = Convert.ToUInt32(__res_12612);
+            return __res_12611;
         }
     }
 }

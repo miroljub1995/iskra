@@ -10,10 +10,10 @@ public partial class XRRay(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_7847;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "origin");
-            __res_7847 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_7848);
-            return __res_7847;
+            global::Iskra.StdWeb.DOMPointReadOnly __res_7844;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "origin");
+            __res_7844 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_7845);
+            return __res_7844;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRRay(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_7849;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7850 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            __res_7849 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_7850);
-            return __res_7849;
+            global::Iskra.StdWeb.DOMPointReadOnly __res_7846;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
+            __res_7846 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_7847);
+            return __res_7846;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRRay(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.JSCore.Float32Array __res_7851;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7852 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_7851 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_7852);
-            return __res_7851;
+            global::Iskra.JSCore.Float32Array __res_7848;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            __res_7848 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_7849);
+            return __res_7848;
         }
     }
 }

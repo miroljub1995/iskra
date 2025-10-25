@@ -10,16 +10,16 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_10094;
-            double __res_10095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_10094 = __res_10095;
-            return __res_10094;
+            double __res_10087;
+            double __res_10088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_10087 = __res_10088;
+            return __res_10087;
         }
         set
         {
-            double __marshalledValue_10096;
-            __marshalledValue_10096 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_10096);
+            double __marshalledValue_10089;
+            __marshalledValue_10089 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_10089);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_10097;
-            double __res_10098 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "min");
-            __res_10097 = __res_10098;
-            return __res_10097;
+            double __res_10090;
+            double __res_10091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "min");
+            __res_10090 = __res_10091;
+            return __res_10090;
         }
         set
         {
-            double __marshalledValue_10099;
-            __marshalledValue_10099 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "min", __marshalledValue_10099);
+            double __marshalledValue_10092;
+            __marshalledValue_10092 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "min", __marshalledValue_10092);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_10100;
-            double __res_10101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "max");
-            __res_10100 = __res_10101;
-            return __res_10100;
+            double __res_10093;
+            double __res_10094 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "max");
+            __res_10093 = __res_10094;
+            return __res_10093;
         }
         set
         {
-            double __marshalledValue_10102;
-            __marshalledValue_10102 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_10102);
+            double __marshalledValue_10095;
+            __marshalledValue_10095 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_10095);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_10103;
-            double __res_10104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "low");
-            __res_10103 = __res_10104;
-            return __res_10103;
+            double __res_10096;
+            double __res_10097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "low");
+            __res_10096 = __res_10097;
+            return __res_10096;
         }
         set
         {
-            double __marshalledValue_10105;
-            __marshalledValue_10105 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "low", __marshalledValue_10105);
+            double __marshalledValue_10098;
+            __marshalledValue_10098 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "low", __marshalledValue_10098);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_10106;
-            double __res_10107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "high");
-            __res_10106 = __res_10107;
-            return __res_10106;
+            double __res_10099;
+            double __res_10100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "high");
+            __res_10099 = __res_10100;
+            return __res_10099;
         }
         set
         {
-            double __marshalledValue_10108;
-            __marshalledValue_10108 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "high", __marshalledValue_10108);
+            double __marshalledValue_10101;
+            __marshalledValue_10101 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "high", __marshalledValue_10101);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_10109;
-            double __res_10110 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "optimum");
-            __res_10109 = __res_10110;
-            return __res_10109;
+            double __res_10102;
+            double __res_10103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "optimum");
+            __res_10102 = __res_10103;
+            return __res_10102;
         }
         set
         {
-            double __marshalledValue_10111;
-            __marshalledValue_10111 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "optimum", __marshalledValue_10111);
+            double __marshalledValue_10104;
+            __marshalledValue_10104 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "optimum", __marshalledValue_10104);
         }
     }
 
@@ -112,10 +112,10 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_10112;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            __res_10112 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10113);
-            return __res_10112;
+            global::Iskra.StdWeb.NodeList __res_10105;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            __res_10105 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10106);
+            return __res_10105;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class CSSRuleList(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_12621;
-            double __res_12622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12621 = Convert.ToUInt32(__res_12622);
-            return __res_12621;
+            uint __res_12613;
+            double __res_12614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12613 = Convert.ToUInt32(__res_12614);
+            return __res_12613;
         }
     }
 }

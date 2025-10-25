@@ -10,10 +10,10 @@ public partial class URLSearchParams(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_6375;
-            double __res_6376 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_6375 = Convert.ToUInt32(__res_6376);
-            return __res_6375;
+            uint __res_6374;
+            double __res_6375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_6374 = Convert.ToUInt32(__res_6375);
+            return __res_6374;
         }
     }
 }

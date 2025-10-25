@@ -10,10 +10,10 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            byte __res_7722;
-            double __res_7723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
-            __res_7722 = Convert.ToByte(__res_7723);
-            return __res_7722;
+            byte __res_7720;
+            double __res_7721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
+            __res_7720 = Convert.ToByte(__res_7721);
+            return __res_7720;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.USBDirection __res_7724;
-            string __res_7725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_7724 = global::Iskra.StdWeb.USBDirection.Create(__res_7725);
-            return __res_7724;
+            global::Iskra.StdWeb.USBDirection __res_7722;
+            string __res_7723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_7722 = global::Iskra.StdWeb.USBDirection.Create(__res_7723);
+            return __res_7722;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.USBEndpointType __res_7726;
-            string __res_7727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7726 = global::Iskra.StdWeb.USBEndpointType.Create(__res_7727);
-            return __res_7726;
+            global::Iskra.StdWeb.USBEndpointType __res_7724;
+            string __res_7725 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_7724 = global::Iskra.StdWeb.USBEndpointType.Create(__res_7725);
+            return __res_7724;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_7728;
-            double __res_7729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
-            __res_7728 = Convert.ToUInt32(__res_7729);
-            return __res_7728;
+            uint __res_7726;
+            double __res_7727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
+            __res_7726 = Convert.ToUInt32(__res_7727);
+            return __res_7726;
         }
     }
 }

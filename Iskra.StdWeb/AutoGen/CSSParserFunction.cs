@@ -10,10 +10,10 @@ public partial class CSSParserFunction(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_12887;
-            string __res_12888 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12887 = __res_12888;
-            return __res_12887;
+            string __res_12879;
+            string __res_12880 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12879 = __res_12880;
+            return __res_12879;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class CSSParserFunction(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12889;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12890;
-            __propObject_12890 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "args");
-            __res_12889 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12890);
-            return __res_12889;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12881;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12882;
+            __propObject_12882 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "args");
+            __res_12881 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12882);
+            return __res_12881;
         }
     }
 }

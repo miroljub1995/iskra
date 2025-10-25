@@ -10,16 +10,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7464;
-            string __res_7465 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_7464 = __res_7465;
-            return __res_7464;
+            string __res_7462;
+            string __res_7463 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_7462 = __res_7463;
+            return __res_7462;
         }
         set
         {
-            string __marshalledValue_7466;
-            __marshalledValue_7466 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_7466);
+            string __marshalledValue_7464;
+            __marshalledValue_7464 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_7464);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7467;
-            string __res_7468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_7467 = __res_7468;
-            return __res_7467;
+            string __res_7465;
+            string __res_7466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_7465 = __res_7466;
+            return __res_7465;
         }
         set
         {
-            string __marshalledValue_7469;
-            __marshalledValue_7469 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_7469);
+            string __marshalledValue_7467;
+            __marshalledValue_7467 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_7467);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7470;
-            string __res_7471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-family");
-            __res_7470 = __res_7471;
-            return __res_7470;
+            string __res_7468;
+            string __res_7469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-family");
+            __res_7468 = __res_7469;
+            return __res_7468;
         }
         set
         {
-            string __marshalledValue_7472;
-            __marshalledValue_7472 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-family", __marshalledValue_7472);
+            string __marshalledValue_7470;
+            __marshalledValue_7470 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-family", __marshalledValue_7470);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7473;
-            string __res_7474 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStyle");
-            __res_7473 = __res_7474;
-            return __res_7473;
+            string __res_7471;
+            string __res_7472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStyle");
+            __res_7471 = __res_7472;
+            return __res_7471;
         }
         set
         {
-            string __marshalledValue_7475;
-            __marshalledValue_7475 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStyle", __marshalledValue_7475);
+            string __marshalledValue_7473;
+            __marshalledValue_7473 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStyle", __marshalledValue_7473);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7476;
-            string __res_7477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-style");
-            __res_7476 = __res_7477;
-            return __res_7476;
+            string __res_7474;
+            string __res_7475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-style");
+            __res_7474 = __res_7475;
+            return __res_7474;
         }
         set
         {
-            string __marshalledValue_7478;
-            __marshalledValue_7478 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-style", __marshalledValue_7478);
+            string __marshalledValue_7476;
+            __marshalledValue_7476 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-style", __marshalledValue_7476);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7479;
-            string __res_7480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontWeight");
-            __res_7479 = __res_7480;
-            return __res_7479;
+            string __res_7477;
+            string __res_7478 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontWeight");
+            __res_7477 = __res_7478;
+            return __res_7477;
         }
         set
         {
-            string __marshalledValue_7481;
-            __marshalledValue_7481 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontWeight", __marshalledValue_7481);
+            string __marshalledValue_7479;
+            __marshalledValue_7479 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontWeight", __marshalledValue_7479);
         }
     }
 
@@ -112,16 +112,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7482;
-            string __res_7483 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-weight");
-            __res_7482 = __res_7483;
-            return __res_7482;
+            string __res_7480;
+            string __res_7481 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-weight");
+            __res_7480 = __res_7481;
+            return __res_7480;
         }
         set
         {
-            string __marshalledValue_7484;
-            __marshalledValue_7484 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-weight", __marshalledValue_7484);
+            string __marshalledValue_7482;
+            __marshalledValue_7482 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-weight", __marshalledValue_7482);
         }
     }
 
@@ -129,16 +129,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7485;
-            string __res_7486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStretch");
-            __res_7485 = __res_7486;
-            return __res_7485;
+            string __res_7483;
+            string __res_7484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStretch");
+            __res_7483 = __res_7484;
+            return __res_7483;
         }
         set
         {
-            string __marshalledValue_7487;
-            __marshalledValue_7487 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStretch", __marshalledValue_7487);
+            string __marshalledValue_7485;
+            __marshalledValue_7485 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStretch", __marshalledValue_7485);
         }
     }
 
@@ -146,16 +146,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7488;
-            string __res_7489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-stretch");
-            __res_7488 = __res_7489;
-            return __res_7488;
+            string __res_7486;
+            string __res_7487 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-stretch");
+            __res_7486 = __res_7487;
+            return __res_7486;
         }
         set
         {
-            string __marshalledValue_7490;
-            __marshalledValue_7490 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-stretch", __marshalledValue_7490);
+            string __marshalledValue_7488;
+            __marshalledValue_7488 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-stretch", __marshalledValue_7488);
         }
     }
 
@@ -163,16 +163,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7491;
-            string __res_7492 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontWidth");
-            __res_7491 = __res_7492;
-            return __res_7491;
+            string __res_7489;
+            string __res_7490 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontWidth");
+            __res_7489 = __res_7490;
+            return __res_7489;
         }
         set
         {
-            string __marshalledValue_7493;
-            __marshalledValue_7493 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontWidth", __marshalledValue_7493);
+            string __marshalledValue_7491;
+            __marshalledValue_7491 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontWidth", __marshalledValue_7491);
         }
     }
 
@@ -180,16 +180,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7494;
-            string __res_7495 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-width");
-            __res_7494 = __res_7495;
-            return __res_7494;
+            string __res_7492;
+            string __res_7493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-width");
+            __res_7492 = __res_7493;
+            return __res_7492;
         }
         set
         {
-            string __marshalledValue_7496;
-            __marshalledValue_7496 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-width", __marshalledValue_7496);
+            string __marshalledValue_7494;
+            __marshalledValue_7494 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-width", __marshalledValue_7494);
         }
     }
 
@@ -197,16 +197,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7497;
-            string __res_7498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontSize");
-            __res_7497 = __res_7498;
-            return __res_7497;
+            string __res_7495;
+            string __res_7496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontSize");
+            __res_7495 = __res_7496;
+            return __res_7495;
         }
         set
         {
-            string __marshalledValue_7499;
-            __marshalledValue_7499 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontSize", __marshalledValue_7499);
+            string __marshalledValue_7497;
+            __marshalledValue_7497 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontSize", __marshalledValue_7497);
         }
     }
 
@@ -214,16 +214,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7500;
-            string __res_7501 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-size");
-            __res_7500 = __res_7501;
-            return __res_7500;
+            string __res_7498;
+            string __res_7499 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-size");
+            __res_7498 = __res_7499;
+            return __res_7498;
         }
         set
         {
-            string __marshalledValue_7502;
-            __marshalledValue_7502 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-size", __marshalledValue_7502);
+            string __marshalledValue_7500;
+            __marshalledValue_7500 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-size", __marshalledValue_7500);
         }
     }
 
@@ -231,16 +231,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7503;
-            string __res_7504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizeAdjust");
-            __res_7503 = __res_7504;
-            return __res_7503;
+            string __res_7501;
+            string __res_7502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizeAdjust");
+            __res_7501 = __res_7502;
+            return __res_7501;
         }
         set
         {
-            string __marshalledValue_7505;
-            __marshalledValue_7505 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "sizeAdjust", __marshalledValue_7505);
+            string __marshalledValue_7503;
+            __marshalledValue_7503 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "sizeAdjust", __marshalledValue_7503);
         }
     }
 
@@ -248,16 +248,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7506;
-            string __res_7507 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size-adjust");
-            __res_7506 = __res_7507;
-            return __res_7506;
+            string __res_7504;
+            string __res_7505 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size-adjust");
+            __res_7504 = __res_7505;
+            return __res_7504;
         }
         set
         {
-            string __marshalledValue_7508;
-            __marshalledValue_7508 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size-adjust", __marshalledValue_7508);
+            string __marshalledValue_7506;
+            __marshalledValue_7506 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size-adjust", __marshalledValue_7506);
         }
     }
 
@@ -265,16 +265,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7509;
-            string __res_7510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicodeRange");
-            __res_7509 = __res_7510;
-            return __res_7509;
+            string __res_7507;
+            string __res_7508 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicodeRange");
+            __res_7507 = __res_7508;
+            return __res_7507;
         }
         set
         {
-            string __marshalledValue_7511;
-            __marshalledValue_7511 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicodeRange", __marshalledValue_7511);
+            string __marshalledValue_7509;
+            __marshalledValue_7509 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicodeRange", __marshalledValue_7509);
         }
     }
 
@@ -282,16 +282,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7512;
-            string __res_7513 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicode-range");
-            __res_7512 = __res_7513;
-            return __res_7512;
+            string __res_7510;
+            string __res_7511 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicode-range");
+            __res_7510 = __res_7511;
+            return __res_7510;
         }
         set
         {
-            string __marshalledValue_7514;
-            __marshalledValue_7514 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicode-range", __marshalledValue_7514);
+            string __marshalledValue_7512;
+            __marshalledValue_7512 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicode-range", __marshalledValue_7512);
         }
     }
 
@@ -299,16 +299,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7515;
-            string __res_7516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFeatureSettings");
-            __res_7515 = __res_7516;
-            return __res_7515;
+            string __res_7513;
+            string __res_7514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFeatureSettings");
+            __res_7513 = __res_7514;
+            return __res_7513;
         }
         set
         {
-            string __marshalledValue_7517;
-            __marshalledValue_7517 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFeatureSettings", __marshalledValue_7517);
+            string __marshalledValue_7515;
+            __marshalledValue_7515 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFeatureSettings", __marshalledValue_7515);
         }
     }
 
@@ -316,16 +316,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7518;
-            string __res_7519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-feature-settings");
-            __res_7518 = __res_7519;
-            return __res_7518;
+            string __res_7516;
+            string __res_7517 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-feature-settings");
+            __res_7516 = __res_7517;
+            return __res_7516;
         }
         set
         {
-            string __marshalledValue_7520;
-            __marshalledValue_7520 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-feature-settings", __marshalledValue_7520);
+            string __marshalledValue_7518;
+            __marshalledValue_7518 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-feature-settings", __marshalledValue_7518);
         }
     }
 
@@ -333,16 +333,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7521;
-            string __res_7522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontVariationSettings");
-            __res_7521 = __res_7522;
-            return __res_7521;
+            string __res_7519;
+            string __res_7520 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontVariationSettings");
+            __res_7519 = __res_7520;
+            return __res_7519;
         }
         set
         {
-            string __marshalledValue_7523;
-            __marshalledValue_7523 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontVariationSettings", __marshalledValue_7523);
+            string __marshalledValue_7521;
+            __marshalledValue_7521 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontVariationSettings", __marshalledValue_7521);
         }
     }
 
@@ -350,16 +350,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7524;
-            string __res_7525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-variation-settings");
-            __res_7524 = __res_7525;
-            return __res_7524;
+            string __res_7522;
+            string __res_7523 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-variation-settings");
+            __res_7522 = __res_7523;
+            return __res_7522;
         }
         set
         {
-            string __marshalledValue_7526;
-            __marshalledValue_7526 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-variation-settings", __marshalledValue_7526);
+            string __marshalledValue_7524;
+            __marshalledValue_7524 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-variation-settings", __marshalledValue_7524);
         }
     }
 
@@ -367,16 +367,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7527;
-            string __res_7528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontNamedInstance");
-            __res_7527 = __res_7528;
-            return __res_7527;
+            string __res_7525;
+            string __res_7526 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontNamedInstance");
+            __res_7525 = __res_7526;
+            return __res_7525;
         }
         set
         {
-            string __marshalledValue_7529;
-            __marshalledValue_7529 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontNamedInstance", __marshalledValue_7529);
+            string __marshalledValue_7527;
+            __marshalledValue_7527 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontNamedInstance", __marshalledValue_7527);
         }
     }
 
@@ -384,16 +384,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7530;
-            string __res_7531 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-named-instance");
-            __res_7530 = __res_7531;
-            return __res_7530;
+            string __res_7528;
+            string __res_7529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-named-instance");
+            __res_7528 = __res_7529;
+            return __res_7528;
         }
         set
         {
-            string __marshalledValue_7532;
-            __marshalledValue_7532 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-named-instance", __marshalledValue_7532);
+            string __marshalledValue_7530;
+            __marshalledValue_7530 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-named-instance", __marshalledValue_7530);
         }
     }
 
@@ -401,16 +401,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7533;
-            string __res_7534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontDisplay");
-            __res_7533 = __res_7534;
-            return __res_7533;
+            string __res_7531;
+            string __res_7532 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontDisplay");
+            __res_7531 = __res_7532;
+            return __res_7531;
         }
         set
         {
-            string __marshalledValue_7535;
-            __marshalledValue_7535 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontDisplay", __marshalledValue_7535);
+            string __marshalledValue_7533;
+            __marshalledValue_7533 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontDisplay", __marshalledValue_7533);
         }
     }
 
@@ -418,16 +418,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7536;
-            string __res_7537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-display");
-            __res_7536 = __res_7537;
-            return __res_7536;
+            string __res_7534;
+            string __res_7535 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-display");
+            __res_7534 = __res_7535;
+            return __res_7534;
         }
         set
         {
-            string __marshalledValue_7538;
-            __marshalledValue_7538 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-display", __marshalledValue_7538);
+            string __marshalledValue_7536;
+            __marshalledValue_7536 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-display", __marshalledValue_7536);
         }
     }
 
@@ -435,16 +435,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7539;
-            string __res_7540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontLanguageOverride");
-            __res_7539 = __res_7540;
-            return __res_7539;
+            string __res_7537;
+            string __res_7538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontLanguageOverride");
+            __res_7537 = __res_7538;
+            return __res_7537;
         }
         set
         {
-            string __marshalledValue_7541;
-            __marshalledValue_7541 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontLanguageOverride", __marshalledValue_7541);
+            string __marshalledValue_7539;
+            __marshalledValue_7539 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontLanguageOverride", __marshalledValue_7539);
         }
     }
 
@@ -452,16 +452,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7542;
-            string __res_7543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-language-override");
-            __res_7542 = __res_7543;
-            return __res_7542;
+            string __res_7540;
+            string __res_7541 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-language-override");
+            __res_7540 = __res_7541;
+            return __res_7540;
         }
         set
         {
-            string __marshalledValue_7544;
-            __marshalledValue_7544 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-language-override", __marshalledValue_7544);
+            string __marshalledValue_7542;
+            __marshalledValue_7542 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-language-override", __marshalledValue_7542);
         }
     }
 
@@ -469,16 +469,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7545;
-            string __res_7546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascentOverride");
-            __res_7545 = __res_7546;
-            return __res_7545;
+            string __res_7543;
+            string __res_7544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascentOverride");
+            __res_7543 = __res_7544;
+            return __res_7543;
         }
         set
         {
-            string __marshalledValue_7547;
-            __marshalledValue_7547 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascentOverride", __marshalledValue_7547);
+            string __marshalledValue_7545;
+            __marshalledValue_7545 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascentOverride", __marshalledValue_7545);
         }
     }
 
@@ -486,16 +486,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7548;
-            string __res_7549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascent-override");
-            __res_7548 = __res_7549;
-            return __res_7548;
+            string __res_7546;
+            string __res_7547 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascent-override");
+            __res_7546 = __res_7547;
+            return __res_7546;
         }
         set
         {
-            string __marshalledValue_7550;
-            __marshalledValue_7550 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascent-override", __marshalledValue_7550);
+            string __marshalledValue_7548;
+            __marshalledValue_7548 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascent-override", __marshalledValue_7548);
         }
     }
 
@@ -503,16 +503,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7551;
-            string __res_7552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descentOverride");
-            __res_7551 = __res_7552;
-            return __res_7551;
+            string __res_7549;
+            string __res_7550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descentOverride");
+            __res_7549 = __res_7550;
+            return __res_7549;
         }
         set
         {
-            string __marshalledValue_7553;
-            __marshalledValue_7553 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descentOverride", __marshalledValue_7553);
+            string __marshalledValue_7551;
+            __marshalledValue_7551 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descentOverride", __marshalledValue_7551);
         }
     }
 
@@ -520,16 +520,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7554;
-            string __res_7555 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descent-override");
-            __res_7554 = __res_7555;
-            return __res_7554;
+            string __res_7552;
+            string __res_7553 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descent-override");
+            __res_7552 = __res_7553;
+            return __res_7552;
         }
         set
         {
-            string __marshalledValue_7556;
-            __marshalledValue_7556 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descent-override", __marshalledValue_7556);
+            string __marshalledValue_7554;
+            __marshalledValue_7554 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descent-override", __marshalledValue_7554);
         }
     }
 
@@ -537,16 +537,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7557;
-            string __res_7558 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineGapOverride");
-            __res_7557 = __res_7558;
-            return __res_7557;
+            string __res_7555;
+            string __res_7556 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineGapOverride");
+            __res_7555 = __res_7556;
+            return __res_7555;
         }
         set
         {
-            string __marshalledValue_7559;
-            __marshalledValue_7559 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineGapOverride", __marshalledValue_7559);
+            string __marshalledValue_7557;
+            __marshalledValue_7557 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineGapOverride", __marshalledValue_7557);
         }
     }
 
@@ -554,16 +554,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7560;
-            string __res_7561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "line-gap-override");
-            __res_7560 = __res_7561;
-            return __res_7560;
+            string __res_7558;
+            string __res_7559 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "line-gap-override");
+            __res_7558 = __res_7559;
+            return __res_7558;
         }
         set
         {
-            string __marshalledValue_7562;
-            __marshalledValue_7562 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "line-gap-override", __marshalledValue_7562);
+            string __marshalledValue_7560;
+            __marshalledValue_7560 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "line-gap-override", __marshalledValue_7560);
         }
     }
 
@@ -571,16 +571,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7563;
-            string __res_7564 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscriptPositionOverride");
-            __res_7563 = __res_7564;
-            return __res_7563;
+            string __res_7561;
+            string __res_7562 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscriptPositionOverride");
+            __res_7561 = __res_7562;
+            return __res_7561;
         }
         set
         {
-            string __marshalledValue_7565;
-            __marshalledValue_7565 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscriptPositionOverride", __marshalledValue_7565);
+            string __marshalledValue_7563;
+            __marshalledValue_7563 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscriptPositionOverride", __marshalledValue_7563);
         }
     }
 
@@ -588,16 +588,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7566;
-            string __res_7567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscript-position-override");
-            __res_7566 = __res_7567;
-            return __res_7566;
+            string __res_7564;
+            string __res_7565 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscript-position-override");
+            __res_7564 = __res_7565;
+            return __res_7564;
         }
         set
         {
-            string __marshalledValue_7568;
-            __marshalledValue_7568 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscript-position-override", __marshalledValue_7568);
+            string __marshalledValue_7566;
+            __marshalledValue_7566 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscript-position-override", __marshalledValue_7566);
         }
     }
 
@@ -605,16 +605,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7569;
-            string __res_7570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscriptPositionOverride");
-            __res_7569 = __res_7570;
-            return __res_7569;
+            string __res_7567;
+            string __res_7568 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscriptPositionOverride");
+            __res_7567 = __res_7568;
+            return __res_7567;
         }
         set
         {
-            string __marshalledValue_7571;
-            __marshalledValue_7571 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscriptPositionOverride", __marshalledValue_7571);
+            string __marshalledValue_7569;
+            __marshalledValue_7569 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscriptPositionOverride", __marshalledValue_7569);
         }
     }
 
@@ -622,16 +622,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7572;
-            string __res_7573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscript-position-override");
-            __res_7572 = __res_7573;
-            return __res_7572;
+            string __res_7570;
+            string __res_7571 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscript-position-override");
+            __res_7570 = __res_7571;
+            return __res_7570;
         }
         set
         {
-            string __marshalledValue_7574;
-            __marshalledValue_7574 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscript-position-override", __marshalledValue_7574);
+            string __marshalledValue_7572;
+            __marshalledValue_7572 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscript-position-override", __marshalledValue_7572);
         }
     }
 
@@ -639,16 +639,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7575;
-            string __res_7576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscriptSizeOverride");
-            __res_7575 = __res_7576;
-            return __res_7575;
+            string __res_7573;
+            string __res_7574 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscriptSizeOverride");
+            __res_7573 = __res_7574;
+            return __res_7573;
         }
         set
         {
-            string __marshalledValue_7577;
-            __marshalledValue_7577 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscriptSizeOverride", __marshalledValue_7577);
+            string __marshalledValue_7575;
+            __marshalledValue_7575 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscriptSizeOverride", __marshalledValue_7575);
         }
     }
 
@@ -656,16 +656,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7578;
-            string __res_7579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscript-size-override");
-            __res_7578 = __res_7579;
-            return __res_7578;
+            string __res_7576;
+            string __res_7577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscript-size-override");
+            __res_7576 = __res_7577;
+            return __res_7576;
         }
         set
         {
-            string __marshalledValue_7580;
-            __marshalledValue_7580 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscript-size-override", __marshalledValue_7580);
+            string __marshalledValue_7578;
+            __marshalledValue_7578 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscript-size-override", __marshalledValue_7578);
         }
     }
 
@@ -673,16 +673,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7581;
-            string __res_7582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscriptSizeOverride");
-            __res_7581 = __res_7582;
-            return __res_7581;
+            string __res_7579;
+            string __res_7580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscriptSizeOverride");
+            __res_7579 = __res_7580;
+            return __res_7579;
         }
         set
         {
-            string __marshalledValue_7583;
-            __marshalledValue_7583 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscriptSizeOverride", __marshalledValue_7583);
+            string __marshalledValue_7581;
+            __marshalledValue_7581 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscriptSizeOverride", __marshalledValue_7581);
         }
     }
 
@@ -690,16 +690,16 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7584;
-            string __res_7585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscript-size-override");
-            __res_7584 = __res_7585;
-            return __res_7584;
+            string __res_7582;
+            string __res_7583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscript-size-override");
+            __res_7582 = __res_7583;
+            return __res_7582;
         }
         set
         {
-            string __marshalledValue_7586;
-            __marshalledValue_7586 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscript-size-override", __marshalledValue_7586);
+            string __marshalledValue_7584;
+            __marshalledValue_7584 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscript-size-override", __marshalledValue_7584);
         }
     }
 }

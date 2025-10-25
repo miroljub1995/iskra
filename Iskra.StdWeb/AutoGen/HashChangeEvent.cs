@@ -10,10 +10,10 @@ public partial class HashChangeEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_11718;
-            string __res_11719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oldURL");
-            __res_11718 = __res_11719;
-            return __res_11718;
+            string __res_11710;
+            string __res_11711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oldURL");
+            __res_11710 = __res_11711;
+            return __res_11710;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class HashChangeEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_11720;
-            string __res_11721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "newURL");
-            __res_11720 = __res_11721;
-            return __res_11720;
+            string __res_11712;
+            string __res_11713 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "newURL");
+            __res_11712 = __res_11713;
+            return __res_11712;
         }
     }
 }

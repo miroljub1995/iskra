@@ -10,16 +10,16 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_10247;
-            double __res_10248 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_10247 = Convert.ToUInt32(__res_10248);
-            return __res_10247;
+            uint __res_10240;
+            double __res_10241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_10240 = Convert.ToUInt32(__res_10241);
+            return __res_10240;
         }
         set
         {
-            double __marshalledValue_10249;
-            __marshalledValue_10249 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_10249);
+            double __marshalledValue_10242;
+            __marshalledValue_10242 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_10242);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_10250;
-            double __res_10251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_10250 = Convert.ToUInt32(__res_10251);
-            return __res_10250;
+            uint __res_10243;
+            double __res_10244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_10243 = Convert.ToUInt32(__res_10244);
+            return __res_10243;
         }
         set
         {
-            double __marshalledValue_10252;
-            __marshalledValue_10252 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_10252);
+            double __marshalledValue_10245;
+            __marshalledValue_10245 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_10245);
         }
     }
 }

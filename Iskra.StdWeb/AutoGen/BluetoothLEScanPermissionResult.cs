@@ -10,16 +10,16 @@ public partial class BluetoothLEScanPermissionResult(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScan, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7419;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7420;
-            __propObject_7420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scans");
-            __res_7419 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScan, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7420);
-            return __res_7419;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScan, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7417;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7418;
+            __propObject_7418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scans");
+            __res_7417 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScan, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7418);
+            return __res_7417;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7421 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scans", __propObject_7421);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7419 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "scans", __propObject_7419);
         }
     }
 }

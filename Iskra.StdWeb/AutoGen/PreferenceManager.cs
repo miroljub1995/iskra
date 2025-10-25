@@ -10,10 +10,10 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.PreferenceObject __res_6933;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorScheme");
-            __res_6933 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6934);
-            return __res_6933;
+            global::Iskra.StdWeb.PreferenceObject __res_6932;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorScheme");
+            __res_6932 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6933);
+            return __res_6932;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.PreferenceObject __res_6935;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contrast");
-            __res_6935 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6936);
-            return __res_6935;
+            global::Iskra.StdWeb.PreferenceObject __res_6934;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contrast");
+            __res_6934 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6935);
+            return __res_6934;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.PreferenceObject __res_6937;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedMotion");
-            __res_6937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6938);
-            return __res_6937;
+            global::Iskra.StdWeb.PreferenceObject __res_6936;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedMotion");
+            __res_6936 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6937);
+            return __res_6936;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.PreferenceObject __res_6939;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedTransparency");
-            __res_6939 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6940);
-            return __res_6939;
+            global::Iskra.StdWeb.PreferenceObject __res_6938;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedTransparency");
+            __res_6938 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6939);
+            return __res_6938;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class PreferenceManager(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.PreferenceObject __res_6941;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6942 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedData");
-            __res_6941 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6942);
-            return __res_6941;
+            global::Iskra.StdWeb.PreferenceObject __res_6940;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reducedData");
+            __res_6940 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceObject>(__res_6941);
+            return __res_6940;
         }
     }
 }

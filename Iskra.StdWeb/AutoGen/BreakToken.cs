@@ -10,22 +10,28 @@ public partial class BreakToken(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13218;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13219;
-            __propObject_13219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
-            __res_13218 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13219);
-            return __res_13218;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13210;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13211;
+            __propObject_13211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
+            __res_13210 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13211);
+            return __res_13210;
         }
     }
 
-    public object? Data
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Data
     {
         get
         {
-            object? __res_13220;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_13220;
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13212;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13213;
+            __propObject_13213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
+            if (__propObject_13213 is null)
+            {
+                return null;
+            }
+
+            __res_13212 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13213);
+            return __res_13212;
         }
     }
 }

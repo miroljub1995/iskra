@@ -10,10 +10,10 @@ public partial class DelayNode(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13588;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "delayTime");
-            __res_13588 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13589);
-            return __res_13588;
+            global::Iskra.StdWeb.AudioParam __res_13580;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "delayTime");
+            __res_13580 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13581);
+            return __res_13580;
         }
     }
 }

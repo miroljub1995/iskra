@@ -10,11 +10,11 @@ public partial class XRViewerPose(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6776;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6777;
-            __propObject_6777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "views");
-            __res_6776 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6777);
-            return __res_6776;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6775;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6776;
+            __propObject_6776 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "views");
+            __res_6775 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6776);
+            return __res_6775;
         }
     }
 }

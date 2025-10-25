@@ -88,6 +88,7 @@ public class GenerateCommand : Command
             );
 
             genTypeDescriptors.ResolveTypedefs();
+            genTypeDescriptors.ResolveAnyTypes();
 
             var moduleGenerator = provider.GetRequiredService<ModuleGenerator>();
             foreach (var inputFile in inputFiles)

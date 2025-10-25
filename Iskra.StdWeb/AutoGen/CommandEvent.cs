@@ -10,18 +10,18 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_10738;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_10739 is null)
+            global::Iskra.StdWeb.Element? __res_10731;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_10732 is null)
             {
-                __res_10738 = null;
+                __res_10731 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10740 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10739;
-                __res_10738 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10740);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10733 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10732;
+                __res_10731 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10733);
             }
-            return __res_10738;
+            return __res_10731;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_10741;
-            string __res_10742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_10741 = __res_10742;
-            return __res_10741;
+            string __res_10734;
+            string __res_10735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_10734 = __res_10735;
+            return __res_10734;
         }
     }
 }

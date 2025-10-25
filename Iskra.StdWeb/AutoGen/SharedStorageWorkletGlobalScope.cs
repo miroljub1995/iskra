@@ -10,10 +10,10 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.StdWeb.SharedStorage __res_6595;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
-            __res_6595 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorage>(__res_6596);
-            return __res_6595;
+            global::Iskra.StdWeb.SharedStorage __res_6594;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
+            __res_6594 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorage>(__res_6595);
+            return __res_6594;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.StdWeb.PrivateAggregation __res_6597;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6598 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
-            __res_6597 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__res_6598);
-            return __res_6597;
+            global::Iskra.StdWeb.PrivateAggregation __res_6596;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
+            __res_6596 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__res_6597);
+            return __res_6596;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.StdWeb.SharedStorageWorkletNavigator __res_6599;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6600 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
-            __res_6599 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorkletNavigator>(__res_6600);
-            return __res_6599;
+            global::Iskra.StdWeb.SharedStorageWorkletNavigator __res_6598;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            __res_6598 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorkletNavigator>(__res_6599);
+            return __res_6598;
         }
     }
 }

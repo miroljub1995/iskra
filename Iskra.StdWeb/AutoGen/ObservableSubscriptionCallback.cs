@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ObservableSubscriptionCallback(object? value);
+public delegate void ObservableSubscriptionCallback(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value);
 
 #nullable disable

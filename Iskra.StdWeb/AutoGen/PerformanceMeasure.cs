@@ -6,13 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceMeasure(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public object? Detail
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Detail
     {
         get
         {
-            object? __res_5794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5794;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5795;
+            __propObject_5795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "detail");
+            if (__propObject_5795 is null)
+            {
+                return null;
+            }
+
+            __res_5794 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5795);
             return __res_5794;
         }
     }

@@ -20,4 +20,5 @@ public static class BuiltinTypes
     public const string UnrestrictedDouble = "unrestricted double";
     public const string String = "string";
     public const string Object = "object";
+    public const string ManagedObject = "managed object";
 }

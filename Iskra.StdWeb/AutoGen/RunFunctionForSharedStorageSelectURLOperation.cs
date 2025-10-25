@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Promise<uint, global::Iskra.StdWeb.GenericMarshaller.Promise> RunFunctionForSharedStorageSelectURLOperation(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> urls, object? data);
+public delegate global::Iskra.JSCore.Generics.Promise<uint, global::Iskra.StdWeb.GenericMarshaller.Promise> RunFunctionForSharedStorageSelectURLOperation(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> urls, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? data);
 
 #nullable disable

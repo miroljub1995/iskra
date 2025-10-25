@@ -10,18 +10,18 @@ public partial class USBInTransferResult(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.DataView? __res_7631;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7632 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_7632 is null)
+            global::Iskra.JSCore.DataView? __res_7629;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_7630 is null)
             {
-                __res_7631 = null;
+                __res_7629 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7633 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7632;
-                __res_7631 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_7633);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7631 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7630;
+                __res_7629 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_7631);
             }
-            return __res_7631;
+            return __res_7629;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class USBInTransferResult(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.USBTransferStatus __res_7634;
-            string __res_7635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
-            __res_7634 = global::Iskra.StdWeb.USBTransferStatus.Create(__res_7635);
-            return __res_7634;
+            global::Iskra.StdWeb.USBTransferStatus __res_7632;
+            string __res_7633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_7632 = global::Iskra.StdWeb.USBTransferStatus.Create(__res_7633);
+            return __res_7632;
         }
     }
 }

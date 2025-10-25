@@ -10,16 +10,16 @@ public partial class XRPermissionStatus(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6842;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6843;
-            __propObject_6843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "granted");
-            __res_6842 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6843);
-            return __res_6842;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6841;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6842;
+            __propObject_6842 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "granted");
+            __res_6841 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6842);
+            return __res_6841;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6844 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "granted", __propObject_6844);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6843 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "granted", __propObject_6843);
         }
     }
 }

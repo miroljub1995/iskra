@@ -10,16 +10,16 @@ public partial class HTMLDirectoryElement(global::System.Runtime.InteropServices
     {
         get
         {
-            bool __res_12352;
-            bool __res_12353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_12352 = __res_12353;
-            return __res_12352;
+            bool __res_12344;
+            bool __res_12345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_12344 = __res_12345;
+            return __res_12344;
         }
         set
         {
-            bool __marshalledValue_12354;
-            __marshalledValue_12354 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_12354);
+            bool __marshalledValue_12346;
+            __marshalledValue_12346 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_12346);
         }
     }
 }

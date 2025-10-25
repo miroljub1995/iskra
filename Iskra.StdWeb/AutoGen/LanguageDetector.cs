@@ -10,16 +10,16 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_6181;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6182;
-            __propObject_6182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_6182 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_6180;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6181;
+            __propObject_6181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_6181 is null)
             {
                 return null;
             }
 
-            __res_6181 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6182);
-            return __res_6181;
+            __res_6180 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6181);
+            return __res_6180;
         }
     }
 
@@ -27,10 +27,10 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_6183;
-            double __res_6184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_6183 = __res_6184;
-            return __res_6183;
+            double __res_6182;
+            double __res_6183 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_6182 = __res_6183;
+            return __res_6182;
         }
     }
 }

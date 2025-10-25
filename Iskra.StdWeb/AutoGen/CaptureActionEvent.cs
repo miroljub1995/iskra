@@ -10,10 +10,10 @@ public partial class CaptureActionEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.CaptureAction __res_12428;
-            string __res_12429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
-            __res_12428 = global::Iskra.StdWeb.CaptureAction.Create(__res_12429);
-            return __res_12428;
+            global::Iskra.StdWeb.CaptureAction __res_12420;
+            string __res_12421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
+            __res_12420 = global::Iskra.StdWeb.CaptureAction.Create(__res_12421);
+            return __res_12420;
         }
     }
 }

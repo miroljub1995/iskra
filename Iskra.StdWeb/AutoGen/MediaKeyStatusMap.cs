@@ -10,10 +10,10 @@ public partial class MediaKeyStatusMap(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_7832;
-            double __res_7833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_7832 = Convert.ToUInt32(__res_7833);
-            return __res_7832;
+            uint __res_7829;
+            double __res_7830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_7829 = Convert.ToUInt32(__res_7830);
+            return __res_7829;
         }
     }
 }

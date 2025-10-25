@@ -10,10 +10,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_11892;
-            string __res_11893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_11892 = __res_11893;
-            return __res_11892;
+            string __res_11884;
+            string __res_11885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_11884 = __res_11885;
+            return __res_11884;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_11894;
-            string __res_11895 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_11894 = __res_11895;
-            return __res_11894;
+            string __res_11886;
+            string __res_11887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_11886 = __res_11887;
+            return __res_11886;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_11896;
-            string __res_11897 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
-            __res_11896 = __res_11897;
-            return __res_11896;
+            string __res_11888;
+            string __res_11889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
+            __res_11888 = __res_11889;
+            return __res_11888;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_11898;
-            double __res_11899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_11898 = Convert.ToUInt32(__res_11899);
-            return __res_11898;
+            uint __res_11890;
+            double __res_11891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_11890 = Convert.ToUInt32(__res_11891);
+            return __res_11890;
         }
     }
 }

@@ -10,11 +10,11 @@ public partial class PressureObserver(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6120;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6121;
-            __propObject_6121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureObserver"), "knownSources");
-            __res_6120 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6121);
-            return __res_6120;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6119;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6120;
+            __propObject_6120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureObserver"), "knownSources");
+            __res_6119 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6120);
+            return __res_6119;
         }
     }
 }

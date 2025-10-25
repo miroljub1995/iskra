@@ -6,13 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
-    public object? Token
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Token
     {
         get
         {
-            object? __res_3513;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_3513;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3514;
+            __propObject_3514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "token");
+            if (__propObject_3514 is null)
+            {
+                return null;
+            }
+
+            __res_3513 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3514);
             return __res_3513;
         }
     }

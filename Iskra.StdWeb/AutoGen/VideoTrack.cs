@@ -10,10 +10,10 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_9352;
-            string __res_9353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_9352 = __res_9353;
-            return __res_9352;
+            string __res_9345;
+            string __res_9346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_9345 = __res_9346;
+            return __res_9345;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_9354;
-            string __res_9355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_9354 = __res_9355;
-            return __res_9354;
+            string __res_9347;
+            string __res_9348 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_9347 = __res_9348;
+            return __res_9347;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_9356;
-            string __res_9357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_9356 = __res_9357;
-            return __res_9356;
+            string __res_9349;
+            string __res_9350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_9349 = __res_9350;
+            return __res_9349;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_9358;
-            string __res_9359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_9358 = __res_9359;
-            return __res_9358;
+            string __res_9351;
+            string __res_9352 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_9351 = __res_9352;
+            return __res_9351;
         }
     }
 
@@ -54,16 +54,16 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_9360;
-            bool __res_9361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            __res_9360 = __res_9361;
-            return __res_9360;
+            bool __res_9353;
+            bool __res_9354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            __res_9353 = __res_9354;
+            return __res_9353;
         }
         set
         {
-            bool __marshalledValue_9362;
-            __marshalledValue_9362 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_9362);
+            bool __marshalledValue_9355;
+            __marshalledValue_9355 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_9355);
         }
     }
 
@@ -71,18 +71,18 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SourceBuffer? __res_9363;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
-            if (__res_9364 is null)
+            global::Iskra.StdWeb.SourceBuffer? __res_9356;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
+            if (__res_9357 is null)
             {
-                __res_9363 = null;
+                __res_9356 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9365 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9364;
-                __res_9363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_9365);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9358 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9357;
+                __res_9356 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_9358);
             }
-            return __res_9363;
+            return __res_9356;
         }
     }
 }

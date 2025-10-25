@@ -10,16 +10,16 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_10166;
-            string __res_10167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_10166 = __res_10167;
-            return __res_10166;
+            string __res_10159;
+            string __res_10160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_10159 = __res_10160;
+            return __res_10159;
         }
         set
         {
-            string __marshalledValue_10168;
-            __marshalledValue_10168 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10168);
+            string __marshalledValue_10161;
+            __marshalledValue_10161 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10161);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            bool __res_10169;
-            bool __res_10170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_10169 = __res_10170;
-            return __res_10169;
+            bool __res_10162;
+            bool __res_10163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_10162 = __res_10163;
+            return __res_10162;
         }
         set
         {
-            bool __marshalledValue_10171;
-            __marshalledValue_10171 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_10171);
+            bool __marshalledValue_10164;
+            __marshalledValue_10164 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_10164);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_11908;
-            double __res_11909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_11908 = Convert.ToUInt32(__res_11909);
-            return __res_11908;
+            uint __res_11900;
+            double __res_11901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_11900 = Convert.ToUInt32(__res_11901);
+            return __res_11900;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_11910;
-            double __res_11911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_11910 = Convert.ToUInt32(__res_11911);
-            return __res_11910;
+            uint __res_11902;
+            double __res_11903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_11902 = Convert.ToUInt32(__res_11903);
+            return __res_11902;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> __res_11912;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11913;
-            __propObject_11913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "data");
-            __res_11912 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11913);
-            return __res_11912;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> __res_11904;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11905;
+            __propObject_11905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "data");
+            __res_11904 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11905);
+            return __res_11904;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.ImageDataPixelFormat __res_11914;
-            string __res_11915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pixelFormat");
-            __res_11914 = global::Iskra.StdWeb.ImageDataPixelFormat.Create(__res_11915);
-            return __res_11914;
+            global::Iskra.StdWeb.ImageDataPixelFormat __res_11906;
+            string __res_11907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pixelFormat");
+            __res_11906 = global::Iskra.StdWeb.ImageDataPixelFormat.Create(__res_11907);
+            return __res_11906;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_11916;
-            string __res_11917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "colorSpace");
-            __res_11916 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_11917);
-            return __res_11916;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_11908;
+            string __res_11909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "colorSpace");
+            __res_11908 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_11909);
+            return __res_11908;
         }
     }
 }

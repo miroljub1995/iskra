@@ -10,10 +10,10 @@ public partial class Storage(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            uint __res_12162;
-            double __res_12163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12162 = Convert.ToUInt32(__res_12163);
-            return __res_12162;
+            uint __res_12154;
+            double __res_12155 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12154 = Convert.ToUInt32(__res_12155);
+            return __res_12154;
         }
     }
 }

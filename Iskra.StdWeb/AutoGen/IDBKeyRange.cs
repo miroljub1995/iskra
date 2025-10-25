@@ -6,25 +6,37 @@ namespace Iskra.StdWeb;
 
 public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public object? Lower
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Lower
     {
         get
         {
-            object? __res_13084;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13085 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_13084;
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13076;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13077;
+            __propObject_13077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "lower");
+            if (__propObject_13077 is null)
+            {
+                return null;
+            }
+
+            __res_13076 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13077);
+            return __res_13076;
         }
     }
 
-    public object? Upper
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Upper
     {
         get
         {
-            object? __res_13086;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_13086;
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13078;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13079;
+            __propObject_13079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "upper");
+            if (__propObject_13079 is null)
+            {
+                return null;
+            }
+
+            __res_13078 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13079);
+            return __res_13078;
         }
     }
 
@@ -32,10 +44,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_13088;
-            bool __res_13089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_13088 = __res_13089;
-            return __res_13088;
+            bool __res_13080;
+            bool __res_13081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_13080 = __res_13081;
+            return __res_13080;
         }
     }
 
@@ -43,10 +55,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_13090;
-            bool __res_13091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_13090 = __res_13091;
-            return __res_13090;
+            bool __res_13082;
+            bool __res_13083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_13082 = __res_13083;
+            return __res_13082;
         }
     }
 }

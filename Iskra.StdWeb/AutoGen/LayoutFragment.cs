@@ -10,10 +10,10 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_13174;
-            double __res_13175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_13174 = __res_13175;
-            return __res_13174;
+            double __res_13166;
+            double __res_13167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
+            __res_13166 = __res_13167;
+            return __res_13166;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_13176;
-            double __res_13177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_13176 = __res_13177;
-            return __res_13176;
+            double __res_13168;
+            double __res_13169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
+            __res_13168 = __res_13169;
+            return __res_13168;
         }
     }
 
@@ -32,16 +32,16 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_13178;
-            double __res_13179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineOffset");
-            __res_13178 = __res_13179;
-            return __res_13178;
+            double __res_13170;
+            double __res_13171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineOffset");
+            __res_13170 = __res_13171;
+            return __res_13170;
         }
         set
         {
-            double __marshalledValue_13180;
-            __marshalledValue_13180 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "inlineOffset", __marshalledValue_13180);
+            double __marshalledValue_13172;
+            __marshalledValue_13172 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "inlineOffset", __marshalledValue_13172);
         }
     }
 
@@ -49,27 +49,33 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_13181;
-            double __res_13182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockOffset");
-            __res_13181 = __res_13182;
-            return __res_13181;
+            double __res_13173;
+            double __res_13174 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockOffset");
+            __res_13173 = __res_13174;
+            return __res_13173;
         }
         set
         {
-            double __marshalledValue_13183;
-            __marshalledValue_13183 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "blockOffset", __marshalledValue_13183);
+            double __marshalledValue_13175;
+            __marshalledValue_13175 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "blockOffset", __marshalledValue_13175);
         }
     }
 
-    public object? Data
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Data
     {
         get
         {
-            object? __res_13184;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13185 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_13184;
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13176;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13177;
+            __propObject_13177 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
+            if (__propObject_13177 is null)
+            {
+                return null;
+            }
+
+            __res_13176 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13177);
+            return __res_13176;
         }
     }
 
@@ -77,18 +83,18 @@ public partial class LayoutFragment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.ChildBreakToken? __res_13186;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "breakToken");
-            if (__res_13187 is null)
+            global::Iskra.StdWeb.ChildBreakToken? __res_13178;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "breakToken");
+            if (__res_13179 is null)
             {
-                __res_13186 = null;
+                __res_13178 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13188 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13187;
-                __res_13186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ChildBreakToken>(__notNullable_13188);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13180 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13179;
+                __res_13178 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ChildBreakToken>(__notNullable_13180);
             }
-            return __res_13186;
+            return __res_13178;
         }
     }
 }

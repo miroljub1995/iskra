@@ -10,16 +10,16 @@ public partial class TrackEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_9439;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_9440;
-            __propObject_9440 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "track");
-            if (__propObject_9440 is null)
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_9432;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_9433;
+            __propObject_9433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "track");
+            if (__propObject_9433 is null)
             {
                 return null;
             }
 
-            __res_9439 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_9440);
-            return __res_9439;
+            __res_9432 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_9433);
+            return __res_9432;
         }
     }
 }
