@@ -10,10 +10,10 @@ public partial class ImageBitmap(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_6920;
-            double __res_6921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6920 = Convert.ToUInt32(__res_6921);
-            return __res_6920;
+            uint __res_7978;
+            double __res_7979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_7978 = Convert.ToUInt32(__res_7979);
+            return __res_7978;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ImageBitmap(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_6922;
-            double __res_6923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_6922 = Convert.ToUInt32(__res_6923);
-            return __res_6922;
+            uint __res_7980;
+            double __res_7981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_7980 = Convert.ToUInt32(__res_7981);
+            return __res_7980;
         }
     }
 }

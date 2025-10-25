@@ -10,10 +10,10 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_3373;
-            string __res_3374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
-            __res_3373 = __res_3374;
-            return __res_3373;
+            string __res_3715;
+            string __res_3716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
+            __res_3715 = __res_3716;
+            return __res_3715;
         }
     }
 }

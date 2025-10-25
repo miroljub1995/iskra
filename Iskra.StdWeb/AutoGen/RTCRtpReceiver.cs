@@ -6,14 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class RTCRtpReceiver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.SFrameTransform, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? Transform
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.SFrameTransform, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2036;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2037;
+            __propObject_2037 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "transform");
+            if (__propObject_2037 is null)
+            {
+                return null;
+            }
+
+            __res_2036 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.SFrameTransform, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2037);
+            return __res_2036;
+        }
+        set
+        {
+            throw new global::System.Exception();
+        }
+    }
+
     public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrack __res_1922;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_1922 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_1923);
-            return __res_1922;
+            global::Iskra.StdWeb.MediaStreamTrack __res_2038;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2039 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_2038 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_2039);
+            return __res_2038;
         }
     }
 
@@ -21,18 +42,18 @@ public partial class RTCRtpReceiver(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.RTCDtlsTransport? __res_1924;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
-            if (__res_1925 is null)
+            global::Iskra.StdWeb.RTCDtlsTransport? __res_2040;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transport");
+            if (__res_2041 is null)
             {
-                __res_1924 = null;
+                __res_2040 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1926 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1925;
-                __res_1924 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDtlsTransport>(__notNullable_1926);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2042 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2041;
+                __res_2040 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDtlsTransport>(__notNullable_2042);
             }
-            return __res_1924;
+            return __res_2040;
         }
     }
 
@@ -40,32 +61,32 @@ public partial class RTCRtpReceiver(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double? __res_1927;
-            double? __res_1928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
-            if (__res_1928 is null)
+            double? __res_2043;
+            double? __res_2044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget");
+            if (__res_2044 is null)
             {
-                __res_1927 = null;
+                __res_2043 = null;
             }
             else
             {
-                double __notNullable_1929 = (double)__res_1928;
-                __res_1927 = __notNullable_1929;
+                double __notNullable_2045 = (double)__res_2044;
+                __res_2043 = __notNullable_2045;
             }
-            return __res_1927;
+            return __res_2043;
         }
         set
         {
-            double? __marshalledValue_1930;
+            double? __marshalledValue_2046;
             if (value is null)
             {
-                __marshalledValue_1930 = null;
+                __marshalledValue_2046 = null;
             }
             else
             {
-                double __notNullable_1931 = (double)value;
-                __marshalledValue_1930 = __notNullable_1931;
+                double __notNullable_2047 = (double)value;
+                __marshalledValue_2046 = __notNullable_2047;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_1930);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "jitterBufferTarget", __marshalledValue_2046);
         }
     }
 }

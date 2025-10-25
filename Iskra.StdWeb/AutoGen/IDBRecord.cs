@@ -10,10 +10,10 @@ public partial class IDBRecord(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            object? __res_7843;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7844 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
+            object? __res_8922;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "key");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7843;
+            return __res_8922;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class IDBRecord(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            object? __res_7845;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
+            object? __res_8924;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryKey");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7845;
+            return __res_8924;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class IDBRecord(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            object? __res_7847;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            object? __res_8926;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7847;
+            return __res_8926;
         }
     }
 }

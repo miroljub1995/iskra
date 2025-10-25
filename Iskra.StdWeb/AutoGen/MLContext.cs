@@ -10,11 +10,11 @@ public partial class MLContext(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_4810;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4811;
-            __propObject_4811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
-            __res_4810 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_4811);
-            return __res_4810;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_5316;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5317;
+            __propObject_5317 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
+            __res_5316 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_5317);
+            return __res_5316;
         }
     }
 }

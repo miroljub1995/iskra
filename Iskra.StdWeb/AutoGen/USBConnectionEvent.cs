@@ -10,10 +10,10 @@ public partial class USBConnectionEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.USBDevice __res_5053;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_5053 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBDevice>(__res_5054);
-            return __res_5053;
+            global::Iskra.StdWeb.USBDevice __res_5566;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            __res_5566 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBDevice>(__res_5567);
+            return __res_5566;
         }
     }
 }

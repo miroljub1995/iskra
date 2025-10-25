@@ -10,16 +10,16 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_7449;
-            string __res_7450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_7449 = __res_7450;
-            return __res_7449;
+            string __res_8528;
+            string __res_8529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_8528 = __res_8529;
+            return __res_8528;
         }
         set
         {
-            string __marshalledValue_7451;
-            __marshalledValue_7451 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_7451);
+            string __marshalledValue_8530;
+            __marshalledValue_8530 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_8530);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.CSSPageDescriptors __res_7452;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7453 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_7452 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_7453);
-            return __res_7452;
+            global::Iskra.StdWeb.CSSPageDescriptors __res_8531;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8532 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_8531 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_8532);
+            return __res_8531;
         }
     }
 }

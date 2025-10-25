@@ -10,10 +10,10 @@ public partial class DOMException(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3488;
-            string __res_3489 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3488 = __res_3489;
-            return __res_3488;
+            string __res_3830;
+            string __res_3831 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3830 = __res_3831;
+            return __res_3830;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DOMException(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3490;
-            string __res_3491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_3490 = __res_3491;
-            return __res_3490;
+            string __res_3832;
+            string __res_3833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_3832 = __res_3833;
+            return __res_3832;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class DOMException(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            ushort __res_3492;
-            double __res_3493 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_3492 = Convert.ToUInt16(__res_3493);
-            return __res_3492;
+            ushort __res_3834;
+            double __res_3835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            __res_3834 = Convert.ToUInt16(__res_3835);
+            return __res_3834;
         }
     }
 }

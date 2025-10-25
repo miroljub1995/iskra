@@ -10,10 +10,10 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_3210;
-            string __res_3211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3210 = __res_3211;
-            return __res_3210;
+            string __res_3362;
+            string __res_3363 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3362 = __res_3363;
+            return __res_3362;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3212;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            __res_3212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3213);
-            return __res_3212;
+            global::Iskra.StdWeb.Node __res_3364;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3365 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            __res_3364 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3365);
+            return __res_3364;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_3214;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedNodes");
-            __res_3214 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_3215);
-            return __res_3214;
+            global::Iskra.StdWeb.NodeList __res_3366;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedNodes");
+            __res_3366 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_3367);
+            return __res_3366;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_3216;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedNodes");
-            __res_3216 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_3217);
-            return __res_3216;
+            global::Iskra.StdWeb.NodeList __res_3368;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedNodes");
+            __res_3368 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_3369);
+            return __res_3368;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_3218;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
-            if (__res_3219 is null)
+            global::Iskra.StdWeb.Node? __res_3370;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
+            if (__res_3371 is null)
             {
-                __res_3218 = null;
+                __res_3370 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3220 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3219;
-                __res_3218 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3220);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3372 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3371;
+                __res_3370 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3372);
             }
-            return __res_3218;
+            return __res_3370;
         }
     }
 
@@ -73,18 +73,18 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_3221;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3222 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
-            if (__res_3222 is null)
+            global::Iskra.StdWeb.Node? __res_3373;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3374 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
+            if (__res_3374 is null)
             {
-                __res_3221 = null;
+                __res_3373 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3223 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3222;
-                __res_3221 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3223);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3375 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3374;
+                __res_3373 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3375);
             }
-            return __res_3221;
+            return __res_3373;
         }
     }
 
@@ -92,18 +92,18 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string? __res_3224;
-            string? __res_3225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeName");
-            if (__res_3225 is null)
+            string? __res_3376;
+            string? __res_3377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeName");
+            if (__res_3377 is null)
             {
-                __res_3224 = null;
+                __res_3376 = null;
             }
             else
             {
-                string __notNullable_3226 = (string)__res_3225;
-                __res_3224 = __notNullable_3226;
+                string __notNullable_3378 = (string)__res_3377;
+                __res_3376 = __notNullable_3378;
             }
-            return __res_3224;
+            return __res_3376;
         }
     }
 
@@ -111,18 +111,18 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string? __res_3227;
-            string? __res_3228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeNamespace");
-            if (__res_3228 is null)
+            string? __res_3379;
+            string? __res_3380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "attributeNamespace");
+            if (__res_3380 is null)
             {
-                __res_3227 = null;
+                __res_3379 = null;
             }
             else
             {
-                string __notNullable_3229 = (string)__res_3228;
-                __res_3227 = __notNullable_3229;
+                string __notNullable_3381 = (string)__res_3380;
+                __res_3379 = __notNullable_3381;
             }
-            return __res_3227;
+            return __res_3379;
         }
     }
 
@@ -130,18 +130,18 @@ public partial class MutationRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string? __res_3230;
-            string? __res_3231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
-            if (__res_3231 is null)
+            string? __res_3382;
+            string? __res_3383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
+            if (__res_3383 is null)
             {
-                __res_3230 = null;
+                __res_3382 = null;
             }
             else
             {
-                string __notNullable_3232 = (string)__res_3231;
-                __res_3230 = __notNullable_3232;
+                string __notNullable_3384 = (string)__res_3383;
+                __res_3382 = __notNullable_3384;
             }
-            return __res_3230;
+            return __res_3382;
         }
     }
 }

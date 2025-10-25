@@ -10,10 +10,10 @@ public partial class GainNode(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_8323;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8324 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
-            __res_8323 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_8324);
-            return __res_8323;
+            global::Iskra.StdWeb.AudioParam __res_9432;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gain");
+            __res_9432 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_9433);
+            return __res_9432;
         }
     }
 }

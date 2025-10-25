@@ -10,16 +10,16 @@ public partial class CSSStyleProperties(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_7470;
-            string __res_7471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssFloat");
-            __res_7470 = __res_7471;
-            return __res_7470;
+            string __res_8549;
+            string __res_8550 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssFloat");
+            __res_8549 = __res_8550;
+            return __res_8549;
         }
         set
         {
-            string __marshalledValue_7472;
-            __marshalledValue_7472 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_7472);
+            string __marshalledValue_8551;
+            __marshalledValue_8551 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_8551);
         }
     }
 }

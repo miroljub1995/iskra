@@ -10,10 +10,10 @@ public partial class XRLightEstimate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Float32Array __res_967;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_968 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
-            __res_967 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_968);
-            return __res_967;
+            global::Iskra.JSCore.Float32Array __res_1003;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
+            __res_1003 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_1004);
+            return __res_1003;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRLightEstimate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_969;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
-            __res_969 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_970);
-            return __res_969;
+            global::Iskra.StdWeb.DOMPointReadOnly __res_1005;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1006 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
+            __res_1005 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_1006);
+            return __res_1005;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRLightEstimate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_971;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
-            __res_971 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_972);
-            return __res_971;
+            global::Iskra.StdWeb.DOMPointReadOnly __res_1007;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
+            __res_1007 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_1008);
+            return __res_1007;
         }
     }
 }

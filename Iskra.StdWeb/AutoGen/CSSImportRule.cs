@@ -10,10 +10,10 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_7392;
-            string __res_7393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_7392 = __res_7393;
-            return __res_7392;
+            string __res_8471;
+            string __res_8472 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_8471 = __res_8472;
+            return __res_8471;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.MediaList __res_7394;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7395 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            __res_7394 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_7395);
-            return __res_7394;
+            global::Iskra.StdWeb.MediaList __res_8473;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8474 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
+            __res_8473 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_8474);
+            return __res_8473;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_7396;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7397 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
-            if (__res_7397 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_8475;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8476 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
+            if (__res_8476 is null)
             {
-                __res_7396 = null;
+                __res_8475 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7398 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7397;
-                __res_7396 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_7398);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8477 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8476;
+                __res_8475 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_8477);
             }
-            return __res_7396;
+            return __res_8475;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string? __res_7399;
-            string? __res_7400 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
-            if (__res_7400 is null)
+            string? __res_8478;
+            string? __res_8479 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
+            if (__res_8479 is null)
             {
-                __res_7399 = null;
+                __res_8478 = null;
             }
             else
             {
-                string __notNullable_7401 = (string)__res_7400;
-                __res_7399 = __notNullable_7401;
+                string __notNullable_8480 = (string)__res_8479;
+                __res_8478 = __notNullable_8480;
             }
-            return __res_7399;
+            return __res_8478;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string? __res_7402;
-            string? __res_7403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
-            if (__res_7403 is null)
+            string? __res_8481;
+            string? __res_8482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
+            if (__res_8482 is null)
             {
-                __res_7402 = null;
+                __res_8481 = null;
             }
             else
             {
-                string __notNullable_7404 = (string)__res_7403;
-                __res_7402 = __notNullable_7404;
+                string __notNullable_8483 = (string)__res_8482;
+                __res_8481 = __notNullable_8483;
             }
-            return __res_7402;
+            return __res_8481;
         }
     }
 }

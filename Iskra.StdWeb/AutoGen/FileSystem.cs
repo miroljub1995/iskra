@@ -10,10 +10,10 @@ public partial class FileSystem(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_1409;
-            string __res_1410 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1409 = __res_1410;
-            return __res_1409;
+            string __res_1447;
+            string __res_1448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_1447 = __res_1448;
+            return __res_1447;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class FileSystem(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.FileSystemDirectoryEntry __res_1411;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1412 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            __res_1411 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemDirectoryEntry>(__res_1412);
-            return __res_1411;
+            global::Iskra.StdWeb.FileSystemDirectoryEntry __res_1449;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1450 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            __res_1449 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemDirectoryEntry>(__res_1450);
+            return __res_1449;
         }
     }
 }

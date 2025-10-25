@@ -10,10 +10,10 @@ public partial class RTCEncodedVideoFrame(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.RTCEncodedVideoFrameType __res_1044;
-            string __res_1045 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1044 = global::Iskra.StdWeb.RTCEncodedVideoFrameType.Create(__res_1045);
-            return __res_1044;
+            global::Iskra.StdWeb.RTCEncodedVideoFrameType __res_1080;
+            string __res_1081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1080 = global::Iskra.StdWeb.RTCEncodedVideoFrameType.Create(__res_1081);
+            return __res_1080;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class RTCEncodedVideoFrame(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_1046;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_1046 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_1047);
-            return __res_1046;
+            global::Iskra.JSCore.ArrayBuffer __res_1082;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_1082 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_1083);
+            return __res_1082;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1048;
-            __marshalledValue_1048 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1048);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1084;
+            __marshalledValue_1084 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_1084);
         }
     }
 }

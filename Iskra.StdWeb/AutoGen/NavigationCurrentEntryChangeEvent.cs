@@ -10,18 +10,18 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.NavigationType? __res_6831;
-            string? __res_6832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "navigationType");
-            if (__res_6832 is null)
+            global::Iskra.StdWeb.NavigationType? __res_7825;
+            string? __res_7826 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "navigationType");
+            if (__res_7826 is null)
             {
-                __res_6831 = null;
+                __res_7825 = null;
             }
             else
             {
-                string __notNullable_6833 = (string)__res_6832;
-                __res_6831 = global::Iskra.StdWeb.NavigationType.Create(__notNullable_6833);
+                string __notNullable_7827 = (string)__res_7826;
+                __res_7825 = global::Iskra.StdWeb.NavigationType.Create(__notNullable_7827);
             }
-            return __res_6831;
+            return __res_7825;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.NavigationHistoryEntry __res_6834;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            __res_6834 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_6835);
-            return __res_6834;
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_7828;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            __res_7828 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_7829);
+            return __res_7828;
         }
     }
 }

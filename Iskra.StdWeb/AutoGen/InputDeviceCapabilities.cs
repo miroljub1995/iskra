@@ -10,10 +10,10 @@ public partial class InputDeviceCapabilities(global::System.Runtime.InteropServi
     {
         get
         {
-            bool __res_3980;
-            bool __res_3981 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "firesTouchEvents");
-            __res_3980 = __res_3981;
-            return __res_3980;
+            bool __res_4344;
+            bool __res_4345 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "firesTouchEvents");
+            __res_4344 = __res_4345;
+            return __res_4344;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class InputDeviceCapabilities(global::System.Runtime.InteropServi
     {
         get
         {
-            bool __res_3982;
-            bool __res_3983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerMovementScrolls");
-            __res_3982 = __res_3983;
-            return __res_3982;
+            bool __res_4346;
+            bool __res_4347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerMovementScrolls");
+            __res_4346 = __res_4347;
+            return __res_4346;
         }
     }
 }

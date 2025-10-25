@@ -4,16 +4,104 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
+public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public double PageX
+    {
+        get
+        {
+            double __res_9084;
+            double __res_9085 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageX");
+            __res_9084 = __res_9085;
+            return __res_9084;
+        }
+    }
+
+    public double PageY
+    {
+        get
+        {
+            double __res_9086;
+            double __res_9087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageY");
+            __res_9086 = __res_9087;
+            return __res_9086;
+        }
+    }
+
+    public double X
+    {
+        get
+        {
+            double __res_9088;
+            double __res_9089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_9088 = __res_9089;
+            return __res_9088;
+        }
+    }
+
+    public double Y
+    {
+        get
+        {
+            double __res_9090;
+            double __res_9091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_9090 = __res_9091;
+            return __res_9090;
+        }
+    }
+
+    public double OffsetX
+    {
+        get
+        {
+            double __res_9092;
+            double __res_9093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetX");
+            __res_9092 = __res_9093;
+            return __res_9092;
+        }
+    }
+
+    public double OffsetY
+    {
+        get
+        {
+            double __res_9094;
+            double __res_9095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offsetY");
+            __res_9094 = __res_9095;
+            return __res_9094;
+        }
+    }
+
+    public double MovementX
+    {
+        get
+        {
+            double __res_9096;
+            double __res_9097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "movementX");
+            __res_9096 = __res_9097;
+            return __res_9096;
+        }
+    }
+
+    public double MovementY
+    {
+        get
+        {
+            double __res_9098;
+            double __res_9099 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "movementY");
+            __res_9098 = __res_9099;
+            return __res_9098;
+        }
+    }
+
     public int ScreenX
     {
         get
         {
-            int __res_8000;
-            double __res_8001 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenX");
-            __res_8000 = Convert.ToInt32(__res_8001);
-            return __res_8000;
+            int __res_9100;
+            double __res_9101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenX");
+            __res_9100 = Convert.ToInt32(__res_9101);
+            return __res_9100;
         }
     }
 
@@ -21,10 +109,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_8002;
-            double __res_8003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenY");
-            __res_8002 = Convert.ToInt32(__res_8003);
-            return __res_8002;
+            int __res_9102;
+            double __res_9103 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenY");
+            __res_9102 = Convert.ToInt32(__res_9103);
+            return __res_9102;
         }
     }
 
@@ -32,10 +120,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_8004;
-            double __res_8005 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientX");
-            __res_8004 = Convert.ToInt32(__res_8005);
-            return __res_8004;
+            int __res_9104;
+            double __res_9105 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientX");
+            __res_9104 = Convert.ToInt32(__res_9105);
+            return __res_9104;
         }
     }
 
@@ -43,10 +131,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_8006;
-            double __res_8007 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientY");
-            __res_8006 = Convert.ToInt32(__res_8007);
-            return __res_8006;
+            int __res_9106;
+            double __res_9107 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientY");
+            __res_9106 = Convert.ToInt32(__res_9107);
+            return __res_9106;
         }
     }
 
@@ -54,10 +142,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_8008;
-            double __res_8009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "layerX");
-            __res_8008 = Convert.ToInt32(__res_8009);
-            return __res_8008;
+            int __res_9108;
+            double __res_9109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "layerX");
+            __res_9108 = Convert.ToInt32(__res_9109);
+            return __res_9108;
         }
     }
 
@@ -65,10 +153,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_8010;
-            double __res_8011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "layerY");
-            __res_8010 = Convert.ToInt32(__res_8011);
-            return __res_8010;
+            int __res_9110;
+            double __res_9111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "layerY");
+            __res_9110 = Convert.ToInt32(__res_9111);
+            return __res_9110;
         }
     }
 
@@ -76,10 +164,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_8012;
-            bool __res_8013 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
-            __res_8012 = __res_8013;
-            return __res_8012;
+            bool __res_9112;
+            bool __res_9113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            __res_9112 = __res_9113;
+            return __res_9112;
         }
     }
 
@@ -87,10 +175,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_8014;
-            bool __res_8015 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
-            __res_8014 = __res_8015;
-            return __res_8014;
+            bool __res_9114;
+            bool __res_9115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            __res_9114 = __res_9115;
+            return __res_9114;
         }
     }
 
@@ -98,10 +186,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_8016;
-            bool __res_8017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
-            __res_8016 = __res_8017;
-            return __res_8016;
+            bool __res_9116;
+            bool __res_9117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            __res_9116 = __res_9117;
+            return __res_9116;
         }
     }
 
@@ -109,10 +197,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_8018;
-            bool __res_8019 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
-            __res_8018 = __res_8019;
-            return __res_8018;
+            bool __res_9118;
+            bool __res_9119 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            __res_9118 = __res_9119;
+            return __res_9118;
         }
     }
 
@@ -120,10 +208,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            short __res_8020;
-            double __res_8021 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "button");
-            __res_8020 = Convert.ToInt16(__res_8021);
-            return __res_8020;
+            short __res_9120;
+            double __res_9121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "button");
+            __res_9120 = Convert.ToInt16(__res_9121);
+            return __res_9120;
         }
     }
 
@@ -131,10 +219,10 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            ushort __res_8022;
-            double __res_8023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "buttons");
-            __res_8022 = Convert.ToUInt16(__res_8023);
-            return __res_8022;
+            ushort __res_9122;
+            double __res_9123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "buttons");
+            __res_9122 = Convert.ToUInt16(__res_9123);
+            return __res_9122;
         }
     }
 
@@ -142,18 +230,18 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventTarget? __res_8024;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_8025 is null)
+            global::Iskra.StdWeb.EventTarget? __res_9124;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_9125 is null)
             {
-                __res_8024 = null;
+                __res_9124 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8026 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8025;
-                __res_8024 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_8026);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9126 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9125;
+                __res_9124 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_9126);
             }
-            return __res_8024;
+            return __res_9124;
         }
     }
 }

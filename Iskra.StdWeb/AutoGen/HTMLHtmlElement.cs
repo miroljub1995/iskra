@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLHtmlElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-
+    public string Version
+    {
+        get
+        {
+            string __res_5908;
+            string __res_5909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "version");
+            __res_5908 = __res_5909;
+            return __res_5908;
+        }
+        set
+        {
+            string __marshalledValue_5910;
+            __marshalledValue_5910 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "version", __marshalledValue_5910);
+        }
+    }
 }
 
 #nullable disable

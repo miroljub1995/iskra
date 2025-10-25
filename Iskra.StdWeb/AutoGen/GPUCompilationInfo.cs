@@ -10,11 +10,11 @@ public partial class GPUCompilationInfo(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_792;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_793;
-            __propObject_793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messages");
-            __res_792 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_793);
-            return __res_792;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_828;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_829;
+            __propObject_829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "messages");
+            __res_828 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_829);
+            return __res_828;
         }
     }
 }

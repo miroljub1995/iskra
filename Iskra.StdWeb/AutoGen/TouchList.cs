@@ -10,10 +10,10 @@ public partial class TouchList(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_3033;
-            double __res_3034 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3033 = Convert.ToUInt32(__res_3034);
-            return __res_3033;
+            uint __res_3183;
+            double __res_3184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3183 = Convert.ToUInt32(__res_3184);
+            return __res_3183;
         }
     }
 }

@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLBRElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-
+    public string Clear
+    {
+        get
+        {
+            string __res_6135;
+            string __res_6136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clear");
+            __res_6135 = __res_6136;
+            return __res_6135;
+        }
+        set
+        {
+            string __marshalledValue_6137;
+            __marshalledValue_6137 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "clear", __marshalledValue_6137);
+        }
+    }
 }
 
 #nullable disable

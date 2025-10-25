@@ -10,16 +10,16 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_609;
-            string __res_610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_609 = __res_610;
-            return __res_609;
+            string __res_638;
+            string __res_639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_638 = __res_639;
+            return __res_638;
         }
         set
         {
-            string __marshalledValue_611;
-            __marshalledValue_611 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_611);
+            string __marshalledValue_640;
+            __marshalledValue_640 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_640);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_612;
-            string __res_613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "artist");
-            __res_612 = __res_613;
-            return __res_612;
+            string __res_641;
+            string __res_642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "artist");
+            __res_641 = __res_642;
+            return __res_641;
         }
         set
         {
-            string __marshalledValue_614;
-            __marshalledValue_614 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "artist", __marshalledValue_614);
+            string __marshalledValue_643;
+            __marshalledValue_643 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "artist", __marshalledValue_643);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_615;
-            string __res_616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "album");
-            __res_615 = __res_616;
-            return __res_615;
+            string __res_644;
+            string __res_645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "album");
+            __res_644 = __res_645;
+            return __res_644;
         }
         set
         {
-            string __marshalledValue_617;
-            __marshalledValue_617 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "album", __marshalledValue_617);
+            string __marshalledValue_646;
+            __marshalledValue_646 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "album", __marshalledValue_646);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_618;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_619;
-            __propObject_619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
-            __res_618 = new global::Iskra.JSCore.Generics.FrozenArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_619);
-            return __res_618;
+            global::Iskra.JSCore.Generics.FrozenArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_647;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_648;
+            __propObject_648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
+            __res_647 = new global::Iskra.JSCore.Generics.FrozenArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_648);
+            return __res_647;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_620 = value.JSObject;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "artwork", __propObject_620);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_649 = value.JSObject;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "artwork", __propObject_649);
         }
     }
 
@@ -78,11 +78,11 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_621;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_622;
-            __propObject_622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "chapterInfo");
-            __res_621 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_622);
-            return __res_621;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_650;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_651;
+            __propObject_651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "chapterInfo");
+            __res_650 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChapterInformation, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_651);
+            return __res_650;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_2776;
-            string __res_2777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_2776 = __res_2777;
-            return __res_2776;
+            string __res_2921;
+            string __res_2922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_2921 = __res_2922;
+            return __res_2921;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_2778;
-            string? __res_2779 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_2779 is null)
+            string? __res_2923;
+            string? __res_2924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_2924 is null)
             {
-                __res_2778 = null;
+                __res_2923 = null;
             }
             else
             {
-                string __notNullable_2780 = (string)__res_2779;
-                __res_2778 = __notNullable_2780;
+                string __notNullable_2925 = (string)__res_2924;
+                __res_2923 = __notNullable_2925;
             }
-            return __res_2778;
+            return __res_2923;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothRemoteGATTServer? __res_2781;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gatt");
-            if (__res_2782 is null)
+            global::Iskra.StdWeb.BluetoothRemoteGATTServer? __res_2926;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gatt");
+            if (__res_2927 is null)
             {
-                __res_2781 = null;
+                __res_2926 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2783 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2782;
-                __res_2781 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTServer>(__notNullable_2783);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2928 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2927;
+                __res_2926 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTServer>(__notNullable_2928);
             }
-            return __res_2781;
+            return __res_2926;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class BluetoothDevice(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_2784;
-            bool __res_2785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "watchingAdvertisements");
-            __res_2784 = __res_2785;
-            return __res_2784;
+            bool __res_2929;
+            bool __res_2930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "watchingAdvertisements");
+            __res_2929 = __res_2930;
+            return __res_2929;
         }
     }
 }

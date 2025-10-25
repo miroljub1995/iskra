@@ -6,7 +6,39 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLUListElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
+    public bool Compact
+    {
+        get
+        {
+            bool __res_6064;
+            bool __res_6065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_6064 = __res_6065;
+            return __res_6064;
+        }
+        set
+        {
+            bool __marshalledValue_6066;
+            __marshalledValue_6066 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_6066);
+        }
+    }
 
+    public string Type
+    {
+        get
+        {
+            string __res_6067;
+            string __res_6068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6067 = __res_6068;
+            return __res_6067;
+        }
+        set
+        {
+            string __marshalledValue_6069;
+            __marshalledValue_6069 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_6069);
+        }
+    }
 }
 
 #nullable disable

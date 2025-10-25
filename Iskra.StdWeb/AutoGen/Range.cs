@@ -4,16 +4,16 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbstractRange(obj)
+public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
     public global::Iskra.StdWeb.Node CommonAncestorContainer
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3387;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
-            __res_3387 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3388);
-            return __res_3387;
+            global::Iskra.StdWeb.Node __res_3729;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
+            __res_3729 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3730);
+            return __res_3729;
         }
     }
 }

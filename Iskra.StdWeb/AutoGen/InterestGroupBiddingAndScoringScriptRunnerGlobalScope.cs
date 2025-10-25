@@ -10,10 +10,10 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(globa
     {
         get
         {
-            global::Iskra.StdWeb.ForDebuggingOnly __res_3734;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
-            __res_3734 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ForDebuggingOnly>(__res_3735);
-            return __res_3734;
+            global::Iskra.StdWeb.ForDebuggingOnly __res_4078;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forDebuggingOnly");
+            __res_4078 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ForDebuggingOnly>(__res_4079);
+            return __res_4078;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(globa
     {
         get
         {
-            global::Iskra.StdWeb.RealTimeReporting __res_3736;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
-            __res_3736 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RealTimeReporting>(__res_3737);
-            return __res_3736;
+            global::Iskra.StdWeb.RealTimeReporting __res_4080;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "realTimeReporting");
+            __res_4080 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RealTimeReporting>(__res_4081);
+            return __res_4080;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_5024;
-            string __res_5025 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "endpoint");
-            __res_5024 = __res_5025;
-            return __res_5024;
+            string __res_5537;
+            string __res_5538 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "endpoint");
+            __res_5537 = __res_5538;
+            return __res_5537;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            ulong? __res_5026;
-            double? __res_5027 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "expirationTime");
-            if (__res_5027 is null)
+            ulong? __res_5539;
+            double? __res_5540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "expirationTime");
+            if (__res_5540 is null)
             {
-                __res_5026 = null;
+                __res_5539 = null;
             }
             else
             {
-                double __notNullable_5028 = (double)__res_5027;
-                __res_5026 = Convert.ToUInt64(__notNullable_5028);
+                double __notNullable_5541 = (double)__res_5540;
+                __res_5539 = Convert.ToUInt64(__notNullable_5541);
             }
-            return __res_5026;
+            return __res_5539;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.PushSubscriptionOptions __res_5029;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5030 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            __res_5029 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscriptionOptions>(__res_5030);
-            return __res_5029;
+            global::Iskra.StdWeb.PushSubscriptionOptions __res_5542;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            __res_5542 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscriptionOptions>(__res_5543);
+            return __res_5542;
         }
     }
 }

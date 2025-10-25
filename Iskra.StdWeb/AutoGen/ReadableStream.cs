@@ -10,10 +10,10 @@ public partial class ReadableStream(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_973;
-            bool __res_974 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            __res_973 = __res_974;
-            return __res_973;
+            bool __res_1009;
+            bool __res_1010 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
+            __res_1009 = __res_1010;
+            return __res_1009;
         }
     }
 }

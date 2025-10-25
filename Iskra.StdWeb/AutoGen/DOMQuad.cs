@@ -10,10 +10,10 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_3544;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3545 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
-            __res_3544 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3545);
-            return __res_3544;
+            global::Iskra.StdWeb.DOMPoint __res_3886;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
+            __res_3886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3887);
+            return __res_3886;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_3546;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3547 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
-            __res_3546 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3547);
-            return __res_3546;
+            global::Iskra.StdWeb.DOMPoint __res_3888;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
+            __res_3888 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3889);
+            return __res_3888;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_3548;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
-            __res_3548 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3549);
-            return __res_3548;
+            global::Iskra.StdWeb.DOMPoint __res_3890;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
+            __res_3890 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3891);
+            return __res_3890;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_3550;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3551 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
-            __res_3550 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3551);
-            return __res_3550;
+            global::Iskra.StdWeb.DOMPoint __res_3892;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
+            __res_3892 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_3893);
+            return __res_3892;
         }
     }
 }

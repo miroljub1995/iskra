@@ -10,16 +10,16 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_6447;
-            string __res_6448 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6447 = __res_6448;
-            return __res_6447;
+            string __res_7343;
+            string __res_7344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7343 = __res_7344;
+            return __res_7343;
         }
         set
         {
-            string __marshalledValue_6449;
-            __marshalledValue_6449 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6449);
+            string __marshalledValue_7345;
+            __marshalledValue_7345 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_7345);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            bool __res_6450;
-            bool __res_6451 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_6450 = __res_6451;
-            return __res_6450;
+            bool __res_7346;
+            bool __res_7347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_7346 = __res_7347;
+            return __res_7346;
         }
         set
         {
-            bool __marshalledValue_6452;
-            __marshalledValue_6452 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_6452);
+            bool __marshalledValue_7348;
+            __marshalledValue_7348 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_7348);
         }
     }
 }

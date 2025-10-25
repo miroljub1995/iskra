@@ -6,7 +6,357 @@ namespace Iskra.StdWeb;
 
 public partial class Navigator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.MediaCapabilities MediaCapabilities
+    {
+        get
+        {
+            global::Iskra.StdWeb.MediaCapabilities __res_7884;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaCapabilities");
+            __res_7884 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaCapabilities>(__res_7885);
+            return __res_7884;
+        }
+    }
 
+    public global::Iskra.StdWeb.Permissions Permissions
+    {
+        get
+        {
+            global::Iskra.StdWeb.Permissions __res_7886;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "permissions");
+            __res_7886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Permissions>(__res_7887);
+            return __res_7886;
+        }
+    }
+
+    public global::Iskra.StdWeb.MediaSession MediaSession
+    {
+        get
+        {
+            global::Iskra.StdWeb.MediaSession __res_7888;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaSession");
+            __res_7888 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSession>(__res_7889);
+            return __res_7888;
+        }
+    }
+
+    public global::Iskra.StdWeb.Scheduling Scheduling
+    {
+        get
+        {
+            global::Iskra.StdWeb.Scheduling __res_7890;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scheduling");
+            __res_7890 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Scheduling>(__res_7891);
+            return __res_7890;
+        }
+    }
+
+    public global::Iskra.StdWeb.VirtualKeyboard VirtualKeyboard
+    {
+        get
+        {
+            global::Iskra.StdWeb.VirtualKeyboard __res_7892;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "virtualKeyboard");
+            __res_7892 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VirtualKeyboard>(__res_7893);
+            return __res_7892;
+        }
+    }
+
+    public global::Iskra.StdWeb.Geolocation Geolocation
+    {
+        get
+        {
+            global::Iskra.StdWeb.Geolocation __res_7894;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7895 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "geolocation");
+            __res_7894 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Geolocation>(__res_7895);
+            return __res_7894;
+        }
+    }
+
+    public global::Iskra.StdWeb.WakeLock WakeLock
+    {
+        get
+        {
+            global::Iskra.StdWeb.WakeLock __res_7896;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7897 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wakeLock");
+            __res_7896 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WakeLock>(__res_7897);
+            return __res_7896;
+        }
+    }
+
+    public global::Iskra.StdWeb.HID Hid
+    {
+        get
+        {
+            global::Iskra.StdWeb.HID __res_7898;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "hid");
+            __res_7898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HID>(__res_7899);
+            return __res_7898;
+        }
+    }
+
+    public global::Iskra.StdWeb.Attribution Attribution
+    {
+        get
+        {
+            global::Iskra.StdWeb.Attribution __res_7900;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
+            __res_7900 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Attribution>(__res_7901);
+            return __res_7900;
+        }
+    }
+
+    public global::Iskra.StdWeb.Ink Ink
+    {
+        get
+        {
+            global::Iskra.StdWeb.Ink __res_7902;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ink");
+            __res_7902 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Ink>(__res_7903);
+            return __res_7902;
+        }
+    }
+
+    public global::Iskra.StdWeb.Clipboard Clipboard
+    {
+        get
+        {
+            global::Iskra.StdWeb.Clipboard __res_7904;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipboard");
+            __res_7904 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Clipboard>(__res_7905);
+            return __res_7904;
+        }
+    }
+
+    public global::Iskra.StdWeb.Presentation Presentation
+    {
+        get
+        {
+            global::Iskra.StdWeb.Presentation __res_7906;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "presentation");
+            __res_7906 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Presentation>(__res_7907);
+            return __res_7906;
+        }
+    }
+
+    public global::Iskra.StdWeb.CredentialsContainer Credentials
+    {
+        get
+        {
+            global::Iskra.StdWeb.CredentialsContainer __res_7908;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "credentials");
+            __res_7908 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CredentialsContainer>(__res_7909);
+            return __res_7908;
+        }
+    }
+
+    public global::Iskra.StdWeb.Bluetooth Bluetooth
+    {
+        get
+        {
+            global::Iskra.StdWeb.Bluetooth __res_7910;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "bluetooth");
+            __res_7910 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Bluetooth>(__res_7911);
+            return __res_7910;
+        }
+    }
+
+    public global::Iskra.StdWeb.Keyboard Keyboard
+    {
+        get
+        {
+            global::Iskra.StdWeb.Keyboard __res_7912;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyboard");
+            __res_7912 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Keyboard>(__res_7913);
+            return __res_7912;
+        }
+    }
+
+    public global::Iskra.StdWeb.WindowControlsOverlay WindowControlsOverlay
+    {
+        get
+        {
+            global::Iskra.StdWeb.WindowControlsOverlay __res_7914;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "windowControlsOverlay");
+            __res_7914 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WindowControlsOverlay>(__res_7915);
+            return __res_7914;
+        }
+    }
+
+    public global::Iskra.StdWeb.NavigatorLogin Login
+    {
+        get
+        {
+            global::Iskra.StdWeb.NavigatorLogin __res_7916;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "login");
+            __res_7916 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorLogin>(__res_7917);
+            return __res_7916;
+        }
+    }
+
+    public global::Iskra.StdWeb.NavigatorManagedData Managed
+    {
+        get
+        {
+            global::Iskra.StdWeb.NavigatorManagedData __res_7918;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7919 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "managed");
+            __res_7918 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorManagedData>(__res_7919);
+            return __res_7918;
+        }
+    }
+
+    public bool DeprecatedRunAdAuctionEnforcesKAnonymity
+    {
+        get
+        {
+            bool __res_7920;
+            bool __res_7921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "deprecatedRunAdAuctionEnforcesKAnonymity");
+            __res_7920 = __res_7921;
+            return __res_7920;
+        }
+    }
+
+    public global::Iskra.StdWeb.ProtectedAudience ProtectedAudience
+    {
+        get
+        {
+            global::Iskra.StdWeb.ProtectedAudience __res_7922;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7923 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            __res_7922 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProtectedAudience>(__res_7923);
+            return __res_7922;
+        }
+    }
+
+    public global::Iskra.StdWeb.MediaDevices MediaDevices
+    {
+        get
+        {
+            global::Iskra.StdWeb.MediaDevices __res_7924;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7925 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaDevices");
+            __res_7924 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaDevices>(__res_7925);
+            return __res_7924;
+        }
+    }
+
+    public global::Iskra.StdWeb.XRSystem Xr
+    {
+        get
+        {
+            global::Iskra.StdWeb.XRSystem __res_7926;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "xr");
+            __res_7926 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSystem>(__res_7927);
+            return __res_7926;
+        }
+    }
+
+    public global::Iskra.StdWeb.PreferenceManager Preferences
+    {
+        get
+        {
+            global::Iskra.StdWeb.PreferenceManager __res_7928;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preferences");
+            __res_7928 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceManager>(__res_7929);
+            return __res_7928;
+        }
+    }
+
+    public global::Iskra.StdWeb.Serial Serial
+    {
+        get
+        {
+            global::Iskra.StdWeb.Serial __res_7930;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serial");
+            __res_7930 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Serial>(__res_7931);
+            return __res_7930;
+        }
+    }
+
+    public global::Iskra.StdWeb.ServiceWorkerContainer ServiceWorker
+    {
+        get
+        {
+            global::Iskra.StdWeb.ServiceWorkerContainer __res_7932;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
+            __res_7932 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerContainer>(__res_7933);
+            return __res_7932;
+        }
+    }
+
+    public global::Iskra.StdWeb.DevicePosture DevicePosture
+    {
+        get
+        {
+            global::Iskra.StdWeb.DevicePosture __res_7934;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7935 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devicePosture");
+            __res_7934 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DevicePosture>(__res_7935);
+            return __res_7934;
+        }
+    }
+
+    public global::Iskra.StdWeb.USB Usb
+    {
+        get
+        {
+            global::Iskra.StdWeb.USB __res_7936;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7937 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usb");
+            __res_7936 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USB>(__res_7937);
+            return __res_7936;
+        }
+    }
+
+    public global::Iskra.StdWeb.EpubReadingSystem EpubReadingSystem
+    {
+        get
+        {
+            global::Iskra.StdWeb.EpubReadingSystem __res_7938;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7939 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "epubReadingSystem");
+            __res_7938 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EpubReadingSystem>(__res_7939);
+            return __res_7938;
+        }
+    }
+
+    public global::Iskra.StdWeb.UserActivation UserActivation
+    {
+        get
+        {
+            global::Iskra.StdWeb.UserActivation __res_7940;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userActivation");
+            __res_7940 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.UserActivation>(__res_7941);
+            return __res_7940;
+        }
+    }
+
+    public global::Iskra.StdWeb.ContactsManager Contacts
+    {
+        get
+        {
+            global::Iskra.StdWeb.ContactsManager __res_7942;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7943 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contacts");
+            __res_7942 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactsManager>(__res_7943);
+            return __res_7942;
+        }
+    }
+
+    public global::Iskra.StdWeb.AudioSession AudioSession
+    {
+        get
+        {
+            global::Iskra.StdWeb.AudioSession __res_7944;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7945 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioSession");
+            __res_7944 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioSession>(__res_7945);
+            return __res_7944;
+        }
+    }
+
+    public int MaxTouchPoints
+    {
+        get
+        {
+            int __res_7946;
+            double __res_7947 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTouchPoints");
+            __res_7946 = Convert.ToInt32(__res_7947);
+            return __res_7946;
+        }
+    }
 }
 
 #nullable disable

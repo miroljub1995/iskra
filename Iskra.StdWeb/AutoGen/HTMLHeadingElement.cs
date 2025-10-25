@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLHeadingElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-
+    public string Align
+    {
+        get
+        {
+            string __res_6025;
+            string __res_6026 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_6025 = __res_6026;
+            return __res_6025;
+        }
+        set
+        {
+            string __marshalledValue_6027;
+            __marshalledValue_6027 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_6027);
+        }
+    }
 }
 
 #nullable disable

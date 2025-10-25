@@ -10,10 +10,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.ShadowRootMode __res_3302;
-            string __res_3303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
-            __res_3302 = global::Iskra.StdWeb.ShadowRootMode.Create(__res_3303);
-            return __res_3302;
+            global::Iskra.StdWeb.ShadowRootMode __res_3600;
+            string __res_3601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_3600 = global::Iskra.StdWeb.ShadowRootMode.Create(__res_3601);
+            return __res_3600;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_3304;
-            bool __res_3305 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
-            __res_3304 = __res_3305;
-            return __res_3304;
+            bool __res_3602;
+            bool __res_3603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
+            __res_3602 = __res_3603;
+            return __res_3602;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SlotAssignmentMode __res_3306;
-            string __res_3307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "slotAssignment");
-            __res_3306 = global::Iskra.StdWeb.SlotAssignmentMode.Create(__res_3307);
-            return __res_3306;
+            global::Iskra.StdWeb.SlotAssignmentMode __res_3604;
+            string __res_3605 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "slotAssignment");
+            __res_3604 = global::Iskra.StdWeb.SlotAssignmentMode.Create(__res_3605);
+            return __res_3604;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_3308;
-            bool __res_3309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
-            __res_3308 = __res_3309;
-            return __res_3308;
+            bool __res_3606;
+            bool __res_3607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
+            __res_3606 = __res_3607;
+            return __res_3606;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_3310;
-            bool __res_3311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
-            __res_3310 = __res_3311;
-            return __res_3310;
+            bool __res_3608;
+            bool __res_3609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
+            __res_3608 = __res_3609;
+            return __res_3608;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Element __res_3312;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
-            __res_3312 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_3313);
-            return __res_3312;
+            global::Iskra.StdWeb.Element __res_3610;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3611 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
+            __res_3610 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_3611);
+            return __res_3610;
         }
     }
 
@@ -76,32 +76,48 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3314;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
-            if (__res_3315 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3612;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
+            if (__res_3613 is null)
             {
-                __res_3314 = null;
+                __res_3612 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3316 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3315;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3614 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3613;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3314;
+            return __res_3612;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3317;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3615;
             if (value is null)
             {
-                __marshalledValue_3317 = null;
+                __marshalledValue_3615 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3318 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3616 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_3317);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_3615);
+        }
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> InnerHTML
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> __res_3617;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3618;
+            __propObject_3618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "innerHTML");
+            __res_3617 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3618);
+            return __res_3617;
+        }
+        set
+        {
+            throw new global::System.Exception();
         }
     }
 }

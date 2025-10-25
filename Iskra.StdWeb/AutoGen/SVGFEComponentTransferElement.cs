@@ -10,10 +10,10 @@ public partial class SVGFEComponentTransferElement(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1164;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            __res_1164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1165);
-            return __res_1164;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1200;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            __res_1200 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1201);
+            return __res_1200;
         }
     }
 }

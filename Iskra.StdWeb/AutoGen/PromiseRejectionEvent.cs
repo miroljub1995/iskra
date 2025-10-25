@@ -10,10 +10,10 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6886;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
-            __res_6886 = __res_6887;
-            return __res_6886;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7880;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
+            __res_7880 = __res_7881;
+            return __res_7880;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            object? __res_6888;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
+            object? __res_7882;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "reason");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_6888;
+            return __res_7882;
         }
     }
 }

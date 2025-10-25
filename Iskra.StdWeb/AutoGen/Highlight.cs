@@ -10,16 +10,16 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            int __res_1096;
-            double __res_1097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
-            __res_1096 = Convert.ToInt32(__res_1097);
-            return __res_1096;
+            int __res_1132;
+            double __res_1133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
+            __res_1132 = Convert.ToInt32(__res_1133);
+            return __res_1132;
         }
         set
         {
-            double __marshalledValue_1098;
-            __marshalledValue_1098 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1098);
+            double __marshalledValue_1134;
+            __marshalledValue_1134 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_1134);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.HighlightType __res_1099;
-            string __res_1100 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1099 = global::Iskra.StdWeb.HighlightType.Create(__res_1100);
-            return __res_1099;
+            global::Iskra.StdWeb.HighlightType __res_1135;
+            string __res_1136 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1135 = global::Iskra.StdWeb.HighlightType.Create(__res_1136);
+            return __res_1135;
         }
         set
         {
-            string __marshalledValue_1101;
-            __marshalledValue_1101 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1101);
+            string __marshalledValue_1137;
+            __marshalledValue_1137 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1137);
         }
     }
 }

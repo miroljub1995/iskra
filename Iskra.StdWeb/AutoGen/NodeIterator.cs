@@ -10,10 +10,10 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3389;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3390 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            __res_3389 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3390);
-            return __res_3389;
+            global::Iskra.StdWeb.Node __res_3731;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
+            __res_3731 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3732);
+            return __res_3731;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3391;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3392 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
-            __res_3391 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3392);
-            return __res_3391;
+            global::Iskra.StdWeb.Node __res_3733;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
+            __res_3733 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3734);
+            return __res_3733;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_3393;
-            bool __res_3394 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
-            __res_3393 = __res_3394;
-            return __res_3393;
+            bool __res_3735;
+            bool __res_3736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
+            __res_3735 = __res_3736;
+            return __res_3735;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_3395;
-            double __res_3396 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_3395 = Convert.ToUInt32(__res_3396);
-            return __res_3395;
+            uint __res_3737;
+            double __res_3738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
+            __res_3737 = Convert.ToUInt32(__res_3738);
+            return __res_3737;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.NodeFilter? __res_3397;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3398 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_3398 is null)
+            global::Iskra.StdWeb.NodeFilter? __res_3739;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3740 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
+            if (__res_3740 is null)
             {
-                __res_3397 = null;
+                __res_3739 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3399 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3398;
-                __res_3397 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(__notNullable_3399);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3741 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3740;
+                __res_3739 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(__notNullable_3741);
             }
-            return __res_3397;
+            return __res_3739;
         }
     }
 }

@@ -10,18 +10,35 @@ public partial class HTMLLegendElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_6417;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6418 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_7310;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_7311 is null)
             {
-                __res_6417 = null;
+                __res_7310 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6419 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6418;
-                __res_6417 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6419);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7312 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7311;
+                __res_7310 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_7312);
             }
-            return __res_6417;
+            return __res_7310;
+        }
+    }
+
+    public string Align
+    {
+        get
+        {
+            string __res_7313;
+            string __res_7314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_7313 = __res_7314;
+            return __res_7313;
+        }
+        set
+        {
+            string __marshalledValue_7315;
+            __marshalledValue_7315 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_7315);
         }
     }
 }

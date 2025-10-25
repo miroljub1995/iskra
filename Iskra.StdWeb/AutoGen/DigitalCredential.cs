@@ -10,10 +10,10 @@ public partial class DigitalCredential(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_3465;
-            string __res_3466 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_3465 = __res_3466;
-            return __res_3465;
+            string __res_3807;
+            string __res_3808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_3807 = __res_3808;
+            return __res_3807;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DigitalCredential(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3467;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3468 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_3467 = __res_3468;
-            return __res_3467;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3809;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3810 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_3809 = __res_3810;
+            return __res_3809;
         }
     }
 }

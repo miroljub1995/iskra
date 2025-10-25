@@ -10,10 +10,10 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMRect __res_878;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
-            __res_878 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_879);
-            return __res_878;
+            global::Iskra.StdWeb.DOMRect __res_914;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
+            __res_914 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_915);
+            return __res_914;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_880;
-            bool __res_881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
-            __res_880 = __res_881;
-            return __res_880;
+            bool __res_916;
+            bool __res_917 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
+            __res_916 = __res_917;
+            return __res_916;
         }
         set
         {
-            bool __marshalledValue_882;
-            __marshalledValue_882 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "overlaysContent", __marshalledValue_882);
+            bool __marshalledValue_918;
+            __marshalledValue_918 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "overlaysContent", __marshalledValue_918);
         }
     }
 
@@ -38,32 +38,32 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_883;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_884 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_884 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_919;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_920 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_920 is null)
             {
-                __res_883 = null;
+                __res_919 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_885 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_884;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_921 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_920;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_883;
+            return __res_919;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_886;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_922;
             if (value is null)
             {
-                __marshalledValue_886 = null;
+                __marshalledValue_922 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_887 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_923 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_886);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_922);
         }
     }
 }

@@ -10,32 +10,32 @@ public partial class WorkletAnimationEffect(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_4484;
-            double? __res_4485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "localTime");
-            if (__res_4485 is null)
+            double? __res_4904;
+            double? __res_4905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "localTime");
+            if (__res_4905 is null)
             {
-                __res_4484 = null;
+                __res_4904 = null;
             }
             else
             {
-                double __notNullable_4486 = (double)__res_4485;
-                __res_4484 = __notNullable_4486;
+                double __notNullable_4906 = (double)__res_4905;
+                __res_4904 = __notNullable_4906;
             }
-            return __res_4484;
+            return __res_4904;
         }
         set
         {
-            double? __marshalledValue_4487;
+            double? __marshalledValue_4907;
             if (value is null)
             {
-                __marshalledValue_4487 = null;
+                __marshalledValue_4907 = null;
             }
             else
             {
-                double __notNullable_4488 = (double)value;
-                __marshalledValue_4487 = __notNullable_4488;
+                double __notNullable_4908 = (double)value;
+                __marshalledValue_4907 = __notNullable_4908;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "localTime", __marshalledValue_4487);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "localTime", __marshalledValue_4907);
         }
     }
 }

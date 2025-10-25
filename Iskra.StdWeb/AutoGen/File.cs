@@ -4,16 +4,27 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class File(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Blob(obj)
+public partial class File(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public string WebkitRelativePath
+    {
+        get
+        {
+            string __res_9177;
+            string __res_9178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "webkitRelativePath");
+            __res_9177 = __res_9178;
+            return __res_9177;
+        }
+    }
+
     public string Name
     {
         get
         {
-            string __res_8070;
-            string __res_8071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8070 = __res_8071;
-            return __res_8070;
+            string __res_9179;
+            string __res_9180 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_9179 = __res_9180;
+            return __res_9179;
         }
     }
 
@@ -21,10 +32,10 @@ public partial class File(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            long __res_8072;
-            double __res_8073 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
-            __res_8072 = Convert.ToInt64(__res_8073);
-            return __res_8072;
+            long __res_9181;
+            double __res_9182 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
+            __res_9181 = Convert.ToInt64(__res_9182);
+            return __res_9181;
         }
     }
 }

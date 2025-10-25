@@ -10,10 +10,10 @@ public partial class TextUpdateEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_8466;
-            double __res_8467 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "updateRangeStart");
-            __res_8466 = Convert.ToUInt32(__res_8467);
-            return __res_8466;
+            uint __res_9575;
+            double __res_9576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "updateRangeStart");
+            __res_9575 = Convert.ToUInt32(__res_9576);
+            return __res_9575;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextUpdateEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_8468;
-            double __res_8469 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "updateRangeEnd");
-            __res_8468 = Convert.ToUInt32(__res_8469);
-            return __res_8468;
+            uint __res_9577;
+            double __res_9578 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "updateRangeEnd");
+            __res_9577 = Convert.ToUInt32(__res_9578);
+            return __res_9577;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextUpdateEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_8470;
-            string __res_8471 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_8470 = __res_8471;
-            return __res_8470;
+            string __res_9579;
+            string __res_9580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_9579 = __res_9580;
+            return __res_9579;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class TextUpdateEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_8472;
-            double __res_8473 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionStart");
-            __res_8472 = Convert.ToUInt32(__res_8473);
-            return __res_8472;
+            uint __res_9581;
+            double __res_9582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionStart");
+            __res_9581 = Convert.ToUInt32(__res_9582);
+            return __res_9581;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class TextUpdateEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_8474;
-            double __res_8475 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionEnd");
-            __res_8474 = Convert.ToUInt32(__res_8475);
-            return __res_8474;
+            uint __res_9583;
+            double __res_9584 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionEnd");
+            __res_9583 = Convert.ToUInt32(__res_9584);
+            return __res_9583;
         }
     }
 }

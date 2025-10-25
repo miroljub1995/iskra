@@ -10,10 +10,10 @@ public partial class XRInputSourceArray(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_4339;
-            double __res_4340 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4339 = Convert.ToUInt32(__res_4340);
-            return __res_4339;
+            uint __res_4746;
+            double __res_4747 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4746 = Convert.ToUInt32(__res_4747);
+            return __res_4746;
         }
     }
 }

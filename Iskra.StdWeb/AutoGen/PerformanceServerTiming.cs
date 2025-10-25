@@ -10,10 +10,10 @@ public partial class PerformanceServerTiming(global::System.Runtime.InteropServi
     {
         get
         {
-            string __res_656;
-            string __res_657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_656 = __res_657;
-            return __res_656;
+            string __res_685;
+            string __res_686 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_685 = __res_686;
+            return __res_685;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceServerTiming(global::System.Runtime.InteropServi
     {
         get
         {
-            double __res_658;
-            double __res_659 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_658 = __res_659;
-            return __res_658;
+            double __res_687;
+            double __res_688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_687 = __res_688;
+            return __res_687;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceServerTiming(global::System.Runtime.InteropServi
     {
         get
         {
-            string __res_660;
-            string __res_661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_660 = __res_661;
-            return __res_660;
+            string __res_689;
+            string __res_690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_689 = __res_690;
+            return __res_689;
         }
     }
 }

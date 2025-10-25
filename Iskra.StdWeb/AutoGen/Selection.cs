@@ -10,18 +10,18 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_1122;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "anchorNode");
-            if (__res_1123 is null)
+            global::Iskra.StdWeb.Node? __res_1158;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "anchorNode");
+            if (__res_1159 is null)
             {
-                __res_1122 = null;
+                __res_1158 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1124 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1123;
-                __res_1122 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_1124);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1160 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1159;
+                __res_1158 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_1160);
             }
-            return __res_1122;
+            return __res_1158;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_1125;
-            double __res_1126 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "anchorOffset");
-            __res_1125 = Convert.ToUInt32(__res_1126);
-            return __res_1125;
+            uint __res_1161;
+            double __res_1162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "anchorOffset");
+            __res_1161 = Convert.ToUInt32(__res_1162);
+            return __res_1161;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_1127;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "focusNode");
-            if (__res_1128 is null)
+            global::Iskra.StdWeb.Node? __res_1163;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1164 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "focusNode");
+            if (__res_1164 is null)
             {
-                __res_1127 = null;
+                __res_1163 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1129 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1128;
-                __res_1127 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_1129);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1165 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1164;
+                __res_1163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_1165);
             }
-            return __res_1127;
+            return __res_1163;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_1130;
-            double __res_1131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "focusOffset");
-            __res_1130 = Convert.ToUInt32(__res_1131);
-            return __res_1130;
+            uint __res_1166;
+            double __res_1167 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "focusOffset");
+            __res_1166 = Convert.ToUInt32(__res_1167);
+            return __res_1166;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_1132;
-            bool __res_1133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isCollapsed");
-            __res_1132 = __res_1133;
-            return __res_1132;
+            bool __res_1168;
+            bool __res_1169 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isCollapsed");
+            __res_1168 = __res_1169;
+            return __res_1168;
         }
     }
 
@@ -81,10 +81,10 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_1134;
-            double __res_1135 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeCount");
-            __res_1134 = Convert.ToUInt32(__res_1135);
-            return __res_1134;
+            uint __res_1170;
+            double __res_1171 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeCount");
+            __res_1170 = Convert.ToUInt32(__res_1171);
+            return __res_1170;
         }
     }
 
@@ -92,10 +92,10 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_1136;
-            string __res_1137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1136 = __res_1137;
-            return __res_1136;
+            string __res_1172;
+            string __res_1173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1172 = __res_1173;
+            return __res_1172;
         }
     }
 
@@ -103,10 +103,10 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_1138;
-            string __res_1139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_1138 = __res_1139;
-            return __res_1138;
+            string __res_1174;
+            string __res_1175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_1174 = __res_1175;
+            return __res_1174;
         }
     }
 }

@@ -6,7 +6,39 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? CurrentTime
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_1461;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1462;
+            __propObject_1462 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "currentTime");
+            if (__propObject_1462 is null)
+            {
+                return null;
+            }
 
+            __res_1461 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1462);
+            return __res_1461;
+        }
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? Duration
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_1463;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1464;
+            __propObject_1464 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "duration");
+            if (__propObject_1464 is null)
+            {
+                return null;
+            }
+
+            __res_1463 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1464);
+            return __res_1463;
+        }
+    }
 }
 
 #nullable disable

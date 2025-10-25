@@ -10,11 +10,11 @@ public partial class NDEFMessage(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4688;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4689;
-            __propObject_4689 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "records");
-            __res_4688 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4689);
-            return __res_4688;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5194;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5195;
+            __propObject_5195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "records");
+            __res_5194 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5195);
+            return __res_5194;
         }
     }
 }

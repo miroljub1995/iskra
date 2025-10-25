@@ -10,16 +10,16 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5379;
-            string __res_5380 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_5379 = __res_5380;
-            return __res_5379;
+            string __res_5914;
+            string __res_5915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_5914 = __res_5915;
+            return __res_5914;
         }
         set
         {
-            string __marshalledValue_5381;
-            __marshalledValue_5381 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_5381);
+            string __marshalledValue_5916;
+            __marshalledValue_5916 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_5916);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5382;
-            string __res_5383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_5382 = __res_5383;
-            return __res_5382;
+            string __res_5917;
+            string __res_5918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_5917 = __res_5918;
+            return __res_5917;
         }
         set
         {
-            string __marshalledValue_5384;
-            __marshalledValue_5384 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5384);
+            string __marshalledValue_5919;
+            __marshalledValue_5919 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_5919);
         }
     }
 }

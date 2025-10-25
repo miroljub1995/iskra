@@ -10,11 +10,11 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_2708;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2709;
-            __propObject_2709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_2708 = new global::Iskra.JSCore.Promise(__propObject_2709);
-            return __res_2708;
+            global::Iskra.JSCore.Promise __res_2853;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2854;
+            __propObject_2854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_2853 = new global::Iskra.JSCore.Promise(__propObject_2854);
+            return __res_2853;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            uint __res_2710;
-            double __res_2711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_2710 = Convert.ToUInt32(__res_2711);
-            return __res_2710;
+            uint __res_2855;
+            double __res_2856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_2855 = Convert.ToUInt32(__res_2856);
+            return __res_2855;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            int __res_2712;
-            double __res_2713 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_2712 = Convert.ToInt32(__res_2713);
-            return __res_2712;
+            int __res_2857;
+            double __res_2858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_2857 = Convert.ToInt32(__res_2858);
+            return __res_2857;
         }
     }
 
@@ -44,18 +44,18 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.ImageTrack? __res_2714;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2715 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
-            if (__res_2715 is null)
+            global::Iskra.StdWeb.ImageTrack? __res_2859;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
+            if (__res_2860 is null)
             {
-                __res_2714 = null;
+                __res_2859 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2716 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2715;
-                __res_2714 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrack>(__notNullable_2716);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2861 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2860;
+                __res_2859 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrack>(__notNullable_2861);
             }
-            return __res_2714;
+            return __res_2859;
         }
     }
 }

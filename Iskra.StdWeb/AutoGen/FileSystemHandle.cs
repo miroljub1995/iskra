@@ -10,10 +10,10 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.FileSystemHandleKind __res_3976;
-            string __res_3977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_3976 = global::Iskra.StdWeb.FileSystemHandleKind.Create(__res_3977);
-            return __res_3976;
+            global::Iskra.StdWeb.FileSystemHandleKind __res_4340;
+            string __res_4341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_4340 = global::Iskra.StdWeb.FileSystemHandleKind.Create(__res_4341);
+            return __res_4340;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_3978;
-            string __res_3979 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3978 = __res_3979;
-            return __res_3978;
+            string __res_4342;
+            string __res_4343 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4342 = __res_4343;
+            return __res_4342;
         }
     }
 }

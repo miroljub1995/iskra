@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLPreElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-
+    public int Width
+    {
+        get
+        {
+            int __res_6046;
+            double __res_6047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_6046 = Convert.ToInt32(__res_6047);
+            return __res_6046;
+        }
+        set
+        {
+            double __marshalledValue_6048;
+            __marshalledValue_6048 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_6048);
+        }
+    }
 }
 
 #nullable disable

@@ -6,7 +6,71 @@ namespace Iskra.StdWeb;
 
 public partial class WorkerNavigator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.MediaCapabilities MediaCapabilities
+    {
+        get
+        {
+            global::Iskra.StdWeb.MediaCapabilities __res_8086;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8087 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaCapabilities");
+            __res_8086 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaCapabilities>(__res_8087);
+            return __res_8086;
+        }
+    }
 
+    public global::Iskra.StdWeb.Permissions Permissions
+    {
+        get
+        {
+            global::Iskra.StdWeb.Permissions __res_8088;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8089 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "permissions");
+            __res_8088 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Permissions>(__res_8089);
+            return __res_8088;
+        }
+    }
+
+    public global::Iskra.StdWeb.HID Hid
+    {
+        get
+        {
+            global::Iskra.StdWeb.HID __res_8090;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8091 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "hid");
+            __res_8090 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HID>(__res_8091);
+            return __res_8090;
+        }
+    }
+
+    public global::Iskra.StdWeb.Serial Serial
+    {
+        get
+        {
+            global::Iskra.StdWeb.Serial __res_8092;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8093 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serial");
+            __res_8092 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Serial>(__res_8093);
+            return __res_8092;
+        }
+    }
+
+    public global::Iskra.StdWeb.ServiceWorkerContainer ServiceWorker
+    {
+        get
+        {
+            global::Iskra.StdWeb.ServiceWorkerContainer __res_8094;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
+            __res_8094 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerContainer>(__res_8095);
+            return __res_8094;
+        }
+    }
+
+    public global::Iskra.StdWeb.USB Usb
+    {
+        get
+        {
+            global::Iskra.StdWeb.USB __res_8096;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8097 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usb");
+            __res_8096 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USB>(__res_8097);
+            return __res_8096;
+        }
+    }
 }
 
 #nullable disable

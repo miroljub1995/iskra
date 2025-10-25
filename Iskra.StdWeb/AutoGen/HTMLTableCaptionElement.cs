@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableCaptionElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-
+    public string Align
+    {
+        get
+        {
+            string __res_6749;
+            string __res_6750 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_6749 = __res_6750;
+            return __res_6749;
+        }
+        set
+        {
+            string __marshalledValue_6751;
+            __marshalledValue_6751 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_6751);
+        }
+    }
 }
 
 #nullable disable

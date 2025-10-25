@@ -4,9 +4,142 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class HTMLBodyElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
+public partial class HTMLBodyElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onorientationchange
+    {
+        get
+        {
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6002;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6003 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onorientationchange");
+            if (__res_6003 is null)
+            {
+                __res_6002 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6004 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6003;
+                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+            }
+            return __res_6002;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6005;
+            if (value is null)
+            {
+                __marshalledValue_6005 = null;
+            }
+            else
+            {
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6006 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onorientationchange", __marshalledValue_6005);
+        }
+    }
 
+    public string Text
+    {
+        get
+        {
+            string __res_6007;
+            string __res_6008 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_6007 = __res_6008;
+            return __res_6007;
+        }
+        set
+        {
+            string __marshalledValue_6009;
+            __marshalledValue_6009 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_6009);
+        }
+    }
+
+    public string Link
+    {
+        get
+        {
+            string __res_6010;
+            string __res_6011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "link");
+            __res_6010 = __res_6011;
+            return __res_6010;
+        }
+        set
+        {
+            string __marshalledValue_6012;
+            __marshalledValue_6012 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "link", __marshalledValue_6012);
+        }
+    }
+
+    public string VLink
+    {
+        get
+        {
+            string __res_6013;
+            string __res_6014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vLink");
+            __res_6013 = __res_6014;
+            return __res_6013;
+        }
+        set
+        {
+            string __marshalledValue_6015;
+            __marshalledValue_6015 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vLink", __marshalledValue_6015);
+        }
+    }
+
+    public string ALink
+    {
+        get
+        {
+            string __res_6016;
+            string __res_6017 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "aLink");
+            __res_6016 = __res_6017;
+            return __res_6016;
+        }
+        set
+        {
+            string __marshalledValue_6018;
+            __marshalledValue_6018 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "aLink", __marshalledValue_6018);
+        }
+    }
+
+    public string BgColor
+    {
+        get
+        {
+            string __res_6019;
+            string __res_6020 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bgColor");
+            __res_6019 = __res_6020;
+            return __res_6019;
+        }
+        set
+        {
+            string __marshalledValue_6021;
+            __marshalledValue_6021 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bgColor", __marshalledValue_6021);
+        }
+    }
+
+    public string Background
+    {
+        get
+        {
+            string __res_6022;
+            string __res_6023 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "background");
+            __res_6022 = __res_6023;
+            return __res_6022;
+        }
+        set
+        {
+            string __marshalledValue_6024;
+            __marshalledValue_6024 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "background", __marshalledValue_6024);
+        }
+    }
 }
 
 #nullable disable

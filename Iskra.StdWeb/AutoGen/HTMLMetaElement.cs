@@ -10,16 +10,16 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5432;
-            string __res_5433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5432 = __res_5433;
-            return __res_5432;
+            string __res_5976;
+            string __res_5977 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5976 = __res_5977;
+            return __res_5976;
         }
         set
         {
-            string __marshalledValue_5434;
-            __marshalledValue_5434 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5434);
+            string __marshalledValue_5978;
+            __marshalledValue_5978 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5978);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5435;
-            string __res_5436 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "httpEquiv");
-            __res_5435 = __res_5436;
-            return __res_5435;
+            string __res_5979;
+            string __res_5980 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "httpEquiv");
+            __res_5979 = __res_5980;
+            return __res_5979;
         }
         set
         {
-            string __marshalledValue_5437;
-            __marshalledValue_5437 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "httpEquiv", __marshalledValue_5437);
+            string __marshalledValue_5981;
+            __marshalledValue_5981 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "httpEquiv", __marshalledValue_5981);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5438;
-            string __res_5439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "content");
-            __res_5438 = __res_5439;
-            return __res_5438;
+            string __res_5982;
+            string __res_5983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "content");
+            __res_5982 = __res_5983;
+            return __res_5982;
         }
         set
         {
-            string __marshalledValue_5440;
-            __marshalledValue_5440 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "content", __marshalledValue_5440);
+            string __marshalledValue_5984;
+            __marshalledValue_5984 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "content", __marshalledValue_5984);
         }
     }
 
@@ -61,16 +61,33 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_5441;
-            string __res_5442 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_5441 = __res_5442;
-            return __res_5441;
+            string __res_5985;
+            string __res_5986 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_5985 = __res_5986;
+            return __res_5985;
         }
         set
         {
-            string __marshalledValue_5443;
-            __marshalledValue_5443 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_5443);
+            string __marshalledValue_5987;
+            __marshalledValue_5987 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_5987);
+        }
+    }
+
+    public string Scheme
+    {
+        get
+        {
+            string __res_5988;
+            string __res_5989 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scheme");
+            __res_5988 = __res_5989;
+            return __res_5988;
+        }
+        set
+        {
+            string __marshalledValue_5990;
+            __marshalledValue_5990 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scheme", __marshalledValue_5990);
         }
     }
 }

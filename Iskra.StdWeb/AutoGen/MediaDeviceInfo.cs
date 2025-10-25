@@ -10,10 +10,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3876;
-            string __res_3877 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
-            __res_3876 = __res_3877;
-            return __res_3876;
+            string __res_4240;
+            string __res_4241 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
+            __res_4240 = __res_4241;
+            return __res_4240;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.MediaDeviceKind __res_3878;
-            string __res_3879 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_3878 = global::Iskra.StdWeb.MediaDeviceKind.Create(__res_3879);
-            return __res_3878;
+            global::Iskra.StdWeb.MediaDeviceKind __res_4242;
+            string __res_4243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_4242 = global::Iskra.StdWeb.MediaDeviceKind.Create(__res_4243);
+            return __res_4242;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3880;
-            string __res_3881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_3880 = __res_3881;
-            return __res_3880;
+            string __res_4244;
+            string __res_4245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_4244 = __res_4245;
+            return __res_4244;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3882;
-            string __res_3883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
-            __res_3882 = __res_3883;
-            return __res_3882;
+            string __res_4246;
+            string __res_4247 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
+            __res_4246 = __res_4247;
+            return __res_4246;
         }
     }
 }

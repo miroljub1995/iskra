@@ -10,10 +10,10 @@ public partial class SensorErrorEvent(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.DOMException __res_4686;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            __res_4686 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_4687);
-            return __res_4686;
+            global::Iskra.StdWeb.DOMException __res_5192;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            __res_5192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_5193);
+            return __res_5192;
         }
     }
 }

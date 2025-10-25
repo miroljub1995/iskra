@@ -6,7 +6,62 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.GroupEffect? Parent
+    {
+        get
+        {
+            global::Iskra.StdWeb.GroupEffect? __res_1518;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1519 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parent");
+            if (__res_1519 is null)
+            {
+                __res_1518 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1520 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1519;
+                __res_1518 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GroupEffect>(__notNullable_1520);
+            }
+            return __res_1518;
+        }
+    }
 
+    public global::Iskra.StdWeb.AnimationEffect? PreviousSibling
+    {
+        get
+        {
+            global::Iskra.StdWeb.AnimationEffect? __res_1521;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1522 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
+            if (__res_1522 is null)
+            {
+                __res_1521 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1523 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1522;
+                __res_1521 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_1523);
+            }
+            return __res_1521;
+        }
+    }
+
+    public global::Iskra.StdWeb.AnimationEffect? NextSibling
+    {
+        get
+        {
+            global::Iskra.StdWeb.AnimationEffect? __res_1524;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1525 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
+            if (__res_1525 is null)
+            {
+                __res_1524 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1526 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1525;
+                __res_1524 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_1526);
+            }
+            return __res_1524;
+        }
+    }
 }
 
 #nullable disable

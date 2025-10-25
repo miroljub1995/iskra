@@ -10,18 +10,18 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.ShadowRoot? __res_6568;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6569 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
-            if (__res_6569 is null)
+            global::Iskra.StdWeb.ShadowRoot? __res_7473;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7474 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
+            if (__res_7474 is null)
             {
-                __res_6568 = null;
+                __res_7473 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6570 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6569;
-                __res_6568 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ShadowRoot>(__notNullable_6570);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7475 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7474;
+                __res_7473 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ShadowRoot>(__notNullable_7475);
             }
-            return __res_6568;
+            return __res_7473;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_6571;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_6572 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_7476;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7477 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_7477 is null)
             {
-                __res_6571 = null;
+                __res_7476 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6573 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6572;
-                __res_6571 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_6573);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7478 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7477;
+                __res_7476 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_7478);
             }
-            return __res_6571;
+            return __res_7476;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_6574;
-            bool __res_6575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_6574 = __res_6575;
-            return __res_6574;
+            bool __res_7479;
+            bool __res_7480 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_7479 = __res_7480;
+            return __res_7479;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.ValidityState __res_6576;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6577 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            __res_6576 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_6577);
-            return __res_6576;
+            global::Iskra.StdWeb.ValidityState __res_7481;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7482 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            __res_7481 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_7482);
+            return __res_7481;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6578;
-            string __res_6579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_6578 = __res_6579;
-            return __res_6578;
+            string __res_7483;
+            string __res_7484 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_7483 = __res_7484;
+            return __res_7483;
         }
     }
 
@@ -81,10 +81,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_6580;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6581 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            __res_6580 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_6581);
-            return __res_6580;
+            global::Iskra.StdWeb.NodeList __res_7485;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7486 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            __res_7485 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_7486);
+            return __res_7485;
         }
     }
 
@@ -92,10 +92,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.CustomStateSet __res_6582;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6583 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
-            __res_6582 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CustomStateSet>(__res_6583);
-            return __res_6582;
+            global::Iskra.StdWeb.CustomStateSet __res_7487;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7488 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
+            __res_7487 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CustomStateSet>(__res_7488);
+            return __res_7487;
         }
     }
 }

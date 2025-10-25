@@ -10,11 +10,11 @@ public partial class BreakToken(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_7969;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7970;
-            __propObject_7970 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
-            __res_7969 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7970);
-            return __res_7969;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_9048;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9049;
+            __propObject_9049 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
+            __res_9048 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_9049);
+            return __res_9048;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class BreakToken(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            object? __res_7971;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7972 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            object? __res_9050;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9051 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_7971;
+            return __res_9050;
         }
     }
 }

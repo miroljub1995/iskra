@@ -10,18 +10,18 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_3075;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3076 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
-            if (__res_3076 is null)
+            global::Iskra.StdWeb.Node? __res_3225;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
+            if (__res_3226 is null)
             {
-                __res_3075 = null;
+                __res_3225 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3077 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3076;
-                __res_3075 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3077);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3227 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3226;
+                __res_3225 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_3227);
             }
-            return __res_3075;
+            return __res_3225;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_3078;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
-            __res_3078 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_3079);
-            return __res_3078;
+            global::Iskra.StdWeb.DOMRectReadOnly __res_3228;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
+            __res_3228 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_3229);
+            return __res_3228;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_3080;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
-            __res_3080 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_3081);
-            return __res_3080;
+            global::Iskra.StdWeb.DOMRectReadOnly __res_3230;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
+            __res_3230 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_3231);
+            return __res_3230;
         }
     }
 }

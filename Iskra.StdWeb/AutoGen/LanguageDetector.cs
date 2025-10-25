@@ -10,16 +10,16 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_3794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3795;
-            __propObject_3795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_3795 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_4138;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4139;
+            __propObject_4139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_4139 is null)
             {
                 return null;
             }
 
-            __res_3794 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_3795);
-            return __res_3794;
+            __res_4138 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4139);
+            return __res_4138;
         }
     }
 
@@ -27,10 +27,10 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_3796;
-            double __res_3797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_3796 = __res_3797;
-            return __res_3796;
+            double __res_4140;
+            double __res_4141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_4140 = __res_4141;
+            return __res_4140;
         }
     }
 }

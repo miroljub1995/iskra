@@ -10,18 +10,18 @@ public partial class LaunchParams(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string? __res_4733;
-            string? __res_4734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "targetURL");
-            if (__res_4734 is null)
+            string? __res_5239;
+            string? __res_5240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "targetURL");
+            if (__res_5240 is null)
             {
-                __res_4733 = null;
+                __res_5239 = null;
             }
             else
             {
-                string __notNullable_4735 = (string)__res_4734;
-                __res_4733 = __notNullable_4735;
+                string __notNullable_5241 = (string)__res_5240;
+                __res_5239 = __notNullable_5241;
             }
-            return __res_4733;
+            return __res_5239;
         }
     }
 
@@ -29,11 +29,11 @@ public partial class LaunchParams(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4736;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4737;
-            __propObject_4737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
-            __res_4736 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4737);
-            return __res_4736;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5242;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5243;
+            __propObject_5243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
+            __res_5242 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FileSystemHandle, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5243);
+            return __res_5242;
         }
     }
 }

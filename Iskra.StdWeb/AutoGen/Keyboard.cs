@@ -6,7 +6,38 @@ namespace Iskra.StdWeb;
 
 public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onlayoutchange
+    {
+        get
+        {
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3010;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3011 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange");
+            if (__res_3011 is null)
+            {
+                __res_3010 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3012 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3011;
+                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+            }
+            return __res_3010;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3013;
+            if (value is null)
+            {
+                __marshalledValue_3013 = null;
+            }
+            else
+            {
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3014 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange", __marshalledValue_3013);
+        }
+    }
 }
 
 #nullable disable

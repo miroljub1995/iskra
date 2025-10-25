@@ -10,18 +10,18 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_2905;
-            double? __res_2906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_2906 is null)
+            double? __res_3055;
+            double? __res_3056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_3056 is null)
             {
-                __res_2905 = null;
+                __res_3055 = null;
             }
             else
             {
-                double __notNullable_2907 = (double)__res_2906;
-                __res_2905 = __notNullable_2907;
+                double __notNullable_3057 = (double)__res_3056;
+                __res_3055 = __notNullable_3057;
             }
-            return __res_2905;
+            return __res_3055;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_2908;
-            double? __res_2909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_2909 is null)
+            double? __res_3058;
+            double? __res_3059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_3059 is null)
             {
-                __res_2908 = null;
+                __res_3058 = null;
             }
             else
             {
-                double __notNullable_2910 = (double)__res_2909;
-                __res_2908 = __notNullable_2910;
+                double __notNullable_3060 = (double)__res_3059;
+                __res_3058 = __notNullable_3060;
             }
-            return __res_2908;
+            return __res_3058;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_2911;
-            double? __res_2912 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_2912 is null)
+            double? __res_3061;
+            double? __res_3062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_3062 is null)
             {
-                __res_2911 = null;
+                __res_3061 = null;
             }
             else
             {
-                double __notNullable_2913 = (double)__res_2912;
-                __res_2911 = __notNullable_2913;
+                double __notNullable_3063 = (double)__res_3062;
+                __res_3061 = __notNullable_3063;
             }
-            return __res_2911;
+            return __res_3061;
         }
     }
 }

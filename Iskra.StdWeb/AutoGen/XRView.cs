@@ -6,14 +6,44 @@ namespace Iskra.StdWeb;
 
 public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public bool IsFirstPersonObserver
+    {
+        get
+        {
+            bool __res_4687;
+            bool __res_4688 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFirstPersonObserver");
+            __res_4687 = __res_4688;
+            return __res_4687;
+        }
+    }
+
+    public global::Iskra.StdWeb.XRCamera? Camera
+    {
+        get
+        {
+            global::Iskra.StdWeb.XRCamera? __res_4689;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "camera");
+            if (__res_4690 is null)
+            {
+                __res_4689 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4691 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4690;
+                __res_4689 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRCamera>(__notNullable_4691);
+            }
+            return __res_4689;
+        }
+    }
+
     public global::Iskra.StdWeb.XREye Eye
     {
         get
         {
-            global::Iskra.StdWeb.XREye __res_4291;
-            string __res_4292 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
-            __res_4291 = global::Iskra.StdWeb.XREye.Create(__res_4292);
-            return __res_4291;
+            global::Iskra.StdWeb.XREye __res_4692;
+            string __res_4693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
+            __res_4692 = global::Iskra.StdWeb.XREye.Create(__res_4693);
+            return __res_4692;
         }
     }
 
@@ -21,10 +51,10 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_4293;
-            double __res_4294 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_4293 = Convert.ToUInt32(__res_4294);
-            return __res_4293;
+            uint __res_4694;
+            double __res_4695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_4694 = Convert.ToUInt32(__res_4695);
+            return __res_4694;
         }
     }
 
@@ -32,18 +62,18 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            double? __res_4295;
-            double? __res_4296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
-            if (__res_4296 is null)
+            double? __res_4696;
+            double? __res_4697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
+            if (__res_4697 is null)
             {
-                __res_4295 = null;
+                __res_4696 = null;
             }
             else
             {
-                double __notNullable_4297 = (double)__res_4296;
-                __res_4295 = __notNullable_4297;
+                double __notNullable_4698 = (double)__res_4697;
+                __res_4696 = __notNullable_4698;
             }
-            return __res_4295;
+            return __res_4696;
         }
     }
 }

@@ -6,14 +6,56 @@ namespace Iskra.StdWeb;
 
 public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.GamepadHand Hand
+    {
+        get
+        {
+            global::Iskra.StdWeb.GamepadHand __res_5359;
+            string __res_5360 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hand");
+            __res_5359 = global::Iskra.StdWeb.GamepadHand.Create(__res_5360);
+            return __res_5359;
+        }
+    }
+
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticActuator, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> HapticActuators
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticActuator, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5361;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5362;
+            __propObject_5362 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "hapticActuators");
+            __res_5361 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticActuator, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5362);
+            return __res_5361;
+        }
+    }
+
+    public global::Iskra.StdWeb.GamepadPose? Pose
+    {
+        get
+        {
+            global::Iskra.StdWeb.GamepadPose? __res_5363;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5364 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pose");
+            if (__res_5364 is null)
+            {
+                __res_5363 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5365 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5364;
+                __res_5363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GamepadPose>(__notNullable_5365);
+            }
+            return __res_5363;
+        }
+    }
+
     public string Id
     {
         get
         {
-            string __res_4853;
-            string __res_4854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4853 = __res_4854;
-            return __res_4853;
+            string __res_5366;
+            string __res_5367 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_5366 = __res_5367;
+            return __res_5366;
         }
     }
 
@@ -21,10 +63,10 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            int __res_4855;
-            double __res_4856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_4855 = Convert.ToInt32(__res_4856);
-            return __res_4855;
+            int __res_5368;
+            double __res_5369 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_5368 = Convert.ToInt32(__res_5369);
+            return __res_5368;
         }
     }
 
@@ -32,10 +74,10 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            bool __res_4857;
-            bool __res_4858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
-            __res_4857 = __res_4858;
-            return __res_4857;
+            bool __res_5370;
+            bool __res_5371 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            __res_5370 = __res_5371;
+            return __res_5370;
         }
     }
 
@@ -43,10 +85,10 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            double __res_4859;
-            double __res_4860 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_4859 = __res_4860;
-            return __res_4859;
+            double __res_5372;
+            double __res_5373 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_5372 = __res_5373;
+            return __res_5372;
         }
     }
 
@@ -54,10 +96,10 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.GamepadMappingType __res_4861;
-            string __res_4862 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapping");
-            __res_4861 = global::Iskra.StdWeb.GamepadMappingType.Create(__res_4862);
-            return __res_4861;
+            global::Iskra.StdWeb.GamepadMappingType __res_5374;
+            string __res_5375 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapping");
+            __res_5374 = global::Iskra.StdWeb.GamepadMappingType.Create(__res_5375);
+            return __res_5374;
         }
     }
 
@@ -65,11 +107,11 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4863;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4864;
-            __propObject_4864 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axes");
-            __res_4863 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4864);
-            return __res_4863;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5376;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5377;
+            __propObject_5377 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "axes");
+            __res_5376 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5377);
+            return __res_5376;
         }
     }
 
@@ -77,11 +119,11 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4865;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4866;
-            __propObject_4866 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buttons");
-            __res_4865 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4866);
-            return __res_4865;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5378;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5379;
+            __propObject_5379 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buttons");
+            __res_5378 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadButton, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5379);
+            return __res_5378;
         }
     }
 
@@ -89,11 +131,11 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_4867;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4868;
-            __propObject_4868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
-            __res_4867 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_4868);
-            return __res_4867;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_5380;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5381;
+            __propObject_5381 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
+            __res_5380 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadTouch, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_5381);
+            return __res_5380;
         }
     }
 
@@ -101,10 +143,10 @@ public partial class Gamepad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.GamepadHapticActuator __res_4869;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
-            __res_4869 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GamepadHapticActuator>(__res_4870);
-            return __res_4869;
+            global::Iskra.StdWeb.GamepadHapticActuator __res_5382;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5383 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vibrationActuator");
+            __res_5382 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GamepadHapticActuator>(__res_5383);
+            return __res_5382;
         }
     }
 }

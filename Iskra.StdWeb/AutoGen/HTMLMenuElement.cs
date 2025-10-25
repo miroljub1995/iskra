@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMenuElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
-
+    public bool Compact
+    {
+        get
+        {
+            bool __res_6070;
+            bool __res_6071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_6070 = __res_6071;
+            return __res_6070;
+        }
+        set
+        {
+            bool __marshalledValue_6072;
+            __marshalledValue_6072 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_6072);
+        }
+    }
 }
 
 #nullable disable

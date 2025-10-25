@@ -6,7 +6,90 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLElement(obj)
 {
+    public string Align
+    {
+        get
+        {
+            string __res_6031;
+            string __res_6032 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_6031 = __res_6032;
+            return __res_6031;
+        }
+        set
+        {
+            string __marshalledValue_6033;
+            __marshalledValue_6033 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_6033);
+        }
+    }
 
+    public string Color
+    {
+        get
+        {
+            string __res_6034;
+            string __res_6035 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
+            __res_6034 = __res_6035;
+            return __res_6034;
+        }
+        set
+        {
+            string __marshalledValue_6036;
+            __marshalledValue_6036 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_6036);
+        }
+    }
+
+    public bool NoShade
+    {
+        get
+        {
+            bool __res_6037;
+            bool __res_6038 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noShade");
+            __res_6037 = __res_6038;
+            return __res_6037;
+        }
+        set
+        {
+            bool __marshalledValue_6039;
+            __marshalledValue_6039 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noShade", __marshalledValue_6039);
+        }
+    }
+
+    public string Size
+    {
+        get
+        {
+            string __res_6040;
+            string __res_6041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
+            __res_6040 = __res_6041;
+            return __res_6040;
+        }
+        set
+        {
+            string __marshalledValue_6042;
+            __marshalledValue_6042 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_6042);
+        }
+    }
+
+    public string Width
+    {
+        get
+        {
+            string __res_6043;
+            string __res_6044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_6043 = __res_6044;
+            return __res_6043;
+        }
+        set
+        {
+            string __marshalledValue_6045;
+            __marshalledValue_6045 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_6045);
+        }
+    }
 }
 
 #nullable disable

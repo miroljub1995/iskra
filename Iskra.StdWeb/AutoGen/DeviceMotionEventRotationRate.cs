@@ -10,18 +10,18 @@ public partial class DeviceMotionEventRotationRate(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_2914;
-            double? __res_2915 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
-            if (__res_2915 is null)
+            double? __res_3064;
+            double? __res_3065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            if (__res_3065 is null)
             {
-                __res_2914 = null;
+                __res_3064 = null;
             }
             else
             {
-                double __notNullable_2916 = (double)__res_2915;
-                __res_2914 = __notNullable_2916;
+                double __notNullable_3066 = (double)__res_3065;
+                __res_3064 = __notNullable_3066;
             }
-            return __res_2914;
+            return __res_3064;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class DeviceMotionEventRotationRate(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_2917;
-            double? __res_2918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_2918 is null)
+            double? __res_3067;
+            double? __res_3068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
+            if (__res_3068 is null)
             {
-                __res_2917 = null;
+                __res_3067 = null;
             }
             else
             {
-                double __notNullable_2919 = (double)__res_2918;
-                __res_2917 = __notNullable_2919;
+                double __notNullable_3069 = (double)__res_3068;
+                __res_3067 = __notNullable_3069;
             }
-            return __res_2917;
+            return __res_3067;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class DeviceMotionEventRotationRate(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_2920;
-            double? __res_2921 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_2921 is null)
+            double? __res_3070;
+            double? __res_3071 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
+            if (__res_3071 is null)
             {
-                __res_2920 = null;
+                __res_3070 = null;
             }
             else
             {
-                double __notNullable_2922 = (double)__res_2921;
-                __res_2920 = __notNullable_2922;
+                double __notNullable_3072 = (double)__res_3071;
+                __res_3070 = __notNullable_3072;
             }
-            return __res_2920;
+            return __res_3070;
         }
     }
 }

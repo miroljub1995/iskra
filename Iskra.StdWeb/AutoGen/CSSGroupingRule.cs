@@ -10,10 +10,10 @@ public partial class CSSGroupingRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_7405;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7406 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_7405 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_7406);
-            return __res_7405;
+            global::Iskra.StdWeb.CSSRuleList __res_8484;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8485 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            __res_8484 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_8485);
+            return __res_8484;
         }
     }
 }

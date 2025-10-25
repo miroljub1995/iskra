@@ -129,6 +129,170 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
             Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_600);
         }
     }
+
+    public string Origin
+    {
+        get
+        {
+            string __res_601;
+            string __res_602 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_601 = __res_602;
+            return __res_601;
+        }
+    }
+
+    public string Protocol
+    {
+        get
+        {
+            string __res_603;
+            string __res_604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_603 = __res_604;
+            return __res_603;
+        }
+        set
+        {
+            string __marshalledValue_605;
+            __marshalledValue_605 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_605);
+        }
+    }
+
+    public string Username
+    {
+        get
+        {
+            string __res_606;
+            string __res_607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_606 = __res_607;
+            return __res_606;
+        }
+        set
+        {
+            string __marshalledValue_608;
+            __marshalledValue_608 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_608);
+        }
+    }
+
+    public string Password
+    {
+        get
+        {
+            string __res_609;
+            string __res_610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_609 = __res_610;
+            return __res_609;
+        }
+        set
+        {
+            string __marshalledValue_611;
+            __marshalledValue_611 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_611);
+        }
+    }
+
+    public string Host
+    {
+        get
+        {
+            string __res_612;
+            string __res_613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_612 = __res_613;
+            return __res_612;
+        }
+        set
+        {
+            string __marshalledValue_614;
+            __marshalledValue_614 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_614);
+        }
+    }
+
+    public string Hostname
+    {
+        get
+        {
+            string __res_615;
+            string __res_616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_615 = __res_616;
+            return __res_615;
+        }
+        set
+        {
+            string __marshalledValue_617;
+            __marshalledValue_617 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_617);
+        }
+    }
+
+    public string Port
+    {
+        get
+        {
+            string __res_618;
+            string __res_619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_618 = __res_619;
+            return __res_618;
+        }
+        set
+        {
+            string __marshalledValue_620;
+            __marshalledValue_620 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_620);
+        }
+    }
+
+    public string Pathname
+    {
+        get
+        {
+            string __res_621;
+            string __res_622 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_621 = __res_622;
+            return __res_621;
+        }
+        set
+        {
+            string __marshalledValue_623;
+            __marshalledValue_623 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_623);
+        }
+    }
+
+    public string Search
+    {
+        get
+        {
+            string __res_624;
+            string __res_625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_624 = __res_625;
+            return __res_624;
+        }
+        set
+        {
+            string __marshalledValue_626;
+            __marshalledValue_626 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_626);
+        }
+    }
+
+    public string Hash
+    {
+        get
+        {
+            string __res_627;
+            string __res_628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_627 = __res_628;
+            return __res_627;
+        }
+        set
+        {
+            string __marshalledValue_629;
+            __marshalledValue_629 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_629);
+        }
+    }
 }
 
 #nullable disable

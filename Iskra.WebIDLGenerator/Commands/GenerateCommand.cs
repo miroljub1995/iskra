@@ -105,6 +105,126 @@ public class GenerateCommand : Command
         });
     }
 
+    private static void AddOrMergeInterface(
+        GenTypeDescriptors descriptors,
+        InterfaceType interfaceType,
+        string typeNamespace,
+        bool isMain
+    )
+    {
+        if (descriptors.TryGet(interfaceType.Name, out var descriptor))
+        {
+            if (descriptor.RootType is InterfaceType existing)
+            {
+                existing.Members.AddRange(interfaceType.Members);
+            }
+            else
+            {
+                throw new Exception("Something went wrong.");
+            }
+        }
+        else
+        {
+            descriptors.Add(new GenTypeDescriptor
+            {
+                Namespace = typeNamespace,
+                Name = interfaceType.Name,
+                RootType = interfaceType,
+                IsMain = isMain,
+            });
+        }
+    }
+
+    private static void AddOrMergeInterfaceMixin(
+        GenTypeDescriptors descriptors,
+        InterfaceMixinType interfaceMixinType,
+        string typeNamespace,
+        bool isMain
+    )
+    {
+        if (descriptors.TryGet(interfaceMixinType.Name, out var descriptor))
+        {
+            if (descriptor.RootType is InterfaceMixinType existing)
+            {
+                existing.Members.AddRange(interfaceMixinType.Members);
+            }
+            else
+            {
+                throw new Exception("Something went wrong.");
+            }
+        }
+        else
+        {
+            descriptors.Add(new GenTypeDescriptor
+            {
+                Namespace = typeNamespace,
+                Name = interfaceMixinType.Name,
+                RootType = interfaceMixinType,
+                IsMain = isMain,
+            });
+        }
+    }
+
+    private static void AddOrMergeNamespace(
+        GenTypeDescriptors descriptors,
+        NamespaceType namespaceType,
+        string typeNamespace,
+        bool isMain
+    )
+    {
+        if (descriptors.TryGet(namespaceType.Name, out var descriptor))
+        {
+            if (descriptor.RootType is NamespaceType existing)
+            {
+                existing.Members.AddRange(namespaceType.Members);
+            }
+            else
+            {
+                throw new Exception("Something went wrong.");
+            }
+        }
+        else
+        {
+            descriptors.Add(new GenTypeDescriptor
+            {
+                Namespace = typeNamespace,
+                Name = namespaceType.Name,
+                RootType = namespaceType,
+                IsMain = isMain,
+            });
+        }
+    }
+
+    private static void AddOrMergeDictionary(
+        GenTypeDescriptors descriptors,
+        DictionaryType dictionaryType,
+        string typeNamespace,
+        bool isMain
+    )
+    {
+        if (descriptors.TryGet(dictionaryType.Name, out var descriptor))
+        {
+            if (descriptor.RootType is DictionaryType existing)
+            {
+                existing.Members.AddRange(dictionaryType.Members);
+            }
+            else
+            {
+                throw new Exception("Something went wrong.");
+            }
+        }
+        else
+        {
+            descriptors.Add(new GenTypeDescriptor
+            {
+                Namespace = typeNamespace,
+                Name = dictionaryType.Name,
+                RootType = dictionaryType,
+                IsMain = isMain,
+            });
+        }
+    }
+
     private static async Task AddGenSettingsToDescriptorsAsync(
         GenTypeDescriptors descriptors,
         string gensettingsPath,
@@ -154,13 +274,7 @@ public class GenerateCommand : Command
                 }
                 else if (idlRootType is DictionaryType dictionaryType)
                 {
-                    descriptors.Add(new GenTypeDescriptor
-                    {
-                        Namespace = settings.Namespace,
-                        Name = dictionaryType.Name,
-                        RootType = idlRootType,
-                        IsMain = isMain,
-                    });
+                    AddOrMergeDictionary(descriptors, dictionaryType, settings.Namespace, isMain);
                 }
                 else if (idlRootType is EnumType enumType)
                 {
@@ -174,33 +288,15 @@ public class GenerateCommand : Command
                 }
                 else if (idlRootType is InterfaceMixinType interfaceMixinType)
                 {
-                    descriptors.Add(new GenTypeDescriptor
-                    {
-                        Namespace = settings.Namespace,
-                        Name = interfaceMixinType.Name,
-                        RootType = idlRootType,
-                        IsMain = isMain,
-                    });
+                    AddOrMergeInterfaceMixin(descriptors, interfaceMixinType, settings.Namespace, isMain);
                 }
                 else if (idlRootType is InterfaceType interfaceType)
                 {
-                    descriptors.Add(new GenTypeDescriptor
-                    {
-                        Namespace = settings.Namespace,
-                        Name = interfaceType.Name,
-                        RootType = idlRootType,
-                        IsMain = isMain,
-                    });
+                    AddOrMergeInterface(descriptors, interfaceType, settings.Namespace, isMain);
                 }
                 else if (idlRootType is NamespaceType namespaceType)
                 {
-                    descriptors.Add(new GenTypeDescriptor
-                    {
-                        Namespace = settings.Namespace,
-                        Name = namespaceType.Name,
-                        RootType = idlRootType,
-                        IsMain = isMain,
-                    });
+                    AddOrMergeNamespace(descriptors, namespaceType, settings.Namespace, isMain);
                 }
                 else if (idlRootType is TypedefType typedefType)
                 {
@@ -211,6 +307,45 @@ public class GenerateCommand : Command
                         RootType = idlRootType,
                         IsMain = isMain,
                     });
+                }
+                else if (idlRootType is IncludesType)
+                {
+                    // Includes are handled in a second pass after all types are registered
+                }
+                else
+                {
+                    throw new Exception("Something went wrong.");
+                }
+            }
+
+            foreach (var extendedIdlRootTypes in module.IDLParsed.IDLExtendedNames.Values)
+            {
+                foreach (var extendedIdlRootType in extendedIdlRootTypes)
+                {
+                    if (extendedIdlRootType is InterfaceType interfaceType)
+                    {
+                        AddOrMergeInterface(descriptors, interfaceType, settings.Namespace, isMain);
+                    }
+                    else if (extendedIdlRootType is InterfaceMixinType interfaceMixinType)
+                    {
+                        AddOrMergeInterfaceMixin(descriptors, interfaceMixinType, settings.Namespace, isMain);
+                    }
+                    else if (extendedIdlRootType is NamespaceType namespaceType)
+                    {
+                        AddOrMergeNamespace(descriptors, namespaceType, settings.Namespace, isMain);
+                    }
+                    else if (extendedIdlRootType is DictionaryType dictionaryType)
+                    {
+                        AddOrMergeDictionary(descriptors, dictionaryType, settings.Namespace, isMain);
+                    }
+                    else if (extendedIdlRootType is IncludesType)
+                    {
+                        // Includes are handled in a second pass after all types are registered
+                    }
+                    else
+                    {
+                        throw new Exception("Something went wrong.");
+                    }
                 }
             }
         }

@@ -10,10 +10,10 @@ public partial class PeriodicSyncEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_664;
-            string __res_665 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
-            __res_664 = __res_665;
-            return __res_664;
+            string __res_693;
+            string __res_694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
+            __res_693 = __res_694;
+            return __res_693;
         }
     }
 }

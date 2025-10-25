@@ -10,10 +10,10 @@ public partial class Subscriber(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_5013;
-            bool __res_5014 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_5013 = __res_5014;
-            return __res_5013;
+            bool __res_5526;
+            bool __res_5527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_5526 = __res_5527;
+            return __res_5526;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Subscriber(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AbortSignal __res_5015;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5016 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_5015 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_5016);
-            return __res_5015;
+            global::Iskra.StdWeb.AbortSignal __res_5528;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            __res_5528 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_5529);
+            return __res_5528;
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class MIDIConnectionEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.MIDIPort? __res_7617;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "port");
-            if (__res_7618 is null)
+            global::Iskra.StdWeb.MIDIPort? __res_8696;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8697 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "port");
+            if (__res_8697 is null)
             {
-                __res_7617 = null;
+                __res_8696 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7619 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7618;
-                __res_7617 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIPort>(__notNullable_7619);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8698 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8697;
+                __res_8696 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIPort>(__notNullable_8698);
             }
-            return __res_7617;
+            return __res_8696;
         }
     }
 }

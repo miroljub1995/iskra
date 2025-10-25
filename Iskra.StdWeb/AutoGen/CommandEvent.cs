@@ -10,18 +10,18 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_6603;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_6604 is null)
+            global::Iskra.StdWeb.Element? __res_7508;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7509 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_7509 is null)
             {
-                __res_6603 = null;
+                __res_7508 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6605 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6604;
-                __res_6603 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6605);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7510 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7509;
+                __res_7508 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_7510);
             }
-            return __res_6603;
+            return __res_7508;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_6606;
-            string __res_6607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_6606 = __res_6607;
-            return __res_6606;
+            string __res_7511;
+            string __res_7512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_7511 = __res_7512;
+            return __res_7511;
         }
     }
 }

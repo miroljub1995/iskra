@@ -10,10 +10,10 @@ public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_8062;
-            string __res_8063 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_8062 = __res_8063;
-            return __res_8062;
+            string __res_9169;
+            string __res_9170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_9169 = __res_9170;
+            return __res_9169;
         }
     }
 }

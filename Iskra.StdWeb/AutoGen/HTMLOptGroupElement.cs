@@ -10,16 +10,16 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_6249;
-            bool __res_6250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_6249 = __res_6250;
-            return __res_6249;
+            bool __res_7142;
+            bool __res_7143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_7142 = __res_7143;
+            return __res_7142;
         }
         set
         {
-            bool __marshalledValue_6251;
-            __marshalledValue_6251 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_6251);
+            bool __marshalledValue_7144;
+            __marshalledValue_7144 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_7144);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_6252;
-            string __res_6253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_6252 = __res_6253;
-            return __res_6252;
+            string __res_7145;
+            string __res_7146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_7145 = __res_7146;
+            return __res_7145;
         }
         set
         {
-            string __marshalledValue_6254;
-            __marshalledValue_6254 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_6254);
+            string __marshalledValue_7147;
+            __marshalledValue_7147 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_7147);
         }
     }
 }

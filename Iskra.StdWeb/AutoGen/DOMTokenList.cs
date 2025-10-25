@@ -10,10 +10,10 @@ public partial class DOMTokenList(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_3410;
-            double __res_3411 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3410 = Convert.ToUInt32(__res_3411);
-            return __res_3410;
+            uint __res_3752;
+            double __res_3753 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_3752 = Convert.ToUInt32(__res_3753);
+            return __res_3752;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class DOMTokenList(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3412;
-            string __res_3413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_3412 = __res_3413;
-            return __res_3412;
+            string __res_3754;
+            string __res_3755 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_3754 = __res_3755;
+            return __res_3754;
         }
         set
         {
-            string __marshalledValue_3414;
-            __marshalledValue_3414 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_3414);
+            string __marshalledValue_3756;
+            __marshalledValue_3756 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_3756);
         }
     }
 }

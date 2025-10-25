@@ -10,10 +10,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_1723;
-            double __res_1724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availWidth");
-            __res_1723 = Convert.ToInt32(__res_1724);
-            return __res_1723;
+            int __res_1802;
+            double __res_1803 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availWidth");
+            __res_1802 = Convert.ToInt32(__res_1803);
+            return __res_1802;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_1725;
-            double __res_1726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availHeight");
-            __res_1725 = Convert.ToInt32(__res_1726);
-            return __res_1725;
+            int __res_1804;
+            double __res_1805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availHeight");
+            __res_1804 = Convert.ToInt32(__res_1805);
+            return __res_1804;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_1727;
-            double __res_1728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1727 = Convert.ToInt32(__res_1728);
-            return __res_1727;
+            int __res_1806;
+            double __res_1807 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1806 = Convert.ToInt32(__res_1807);
+            return __res_1806;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_1729;
-            double __res_1730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1729 = Convert.ToInt32(__res_1730);
-            return __res_1729;
+            int __res_1808;
+            double __res_1809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1808 = Convert.ToInt32(__res_1809);
+            return __res_1808;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_1731;
-            double __res_1732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorDepth");
-            __res_1731 = Convert.ToUInt32(__res_1732);
-            return __res_1731;
+            uint __res_1810;
+            double __res_1811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorDepth");
+            __res_1810 = Convert.ToUInt32(__res_1811);
+            return __res_1810;
         }
     }
 
@@ -65,10 +65,65 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_1733;
-            double __res_1734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pixelDepth");
-            __res_1733 = Convert.ToUInt32(__res_1734);
-            return __res_1733;
+            uint __res_1812;
+            double __res_1813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pixelDepth");
+            __res_1812 = Convert.ToUInt32(__res_1813);
+            return __res_1812;
+        }
+    }
+
+    public bool IsExtended
+    {
+        get
+        {
+            bool __res_1814;
+            bool __res_1815 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isExtended");
+            __res_1814 = __res_1815;
+            return __res_1814;
+        }
+    }
+
+    public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
+    {
+        get
+        {
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_1816;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1817 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_1817 is null)
+            {
+                __res_1816 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1818 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1817;
+                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+            }
+            return __res_1816;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1819;
+            if (value is null)
+            {
+                __marshalledValue_1819 = null;
+            }
+            else
+            {
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1820 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            }
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_1819);
+        }
+    }
+
+    public global::Iskra.StdWeb.ScreenOrientation Orientation
+    {
+        get
+        {
+            global::Iskra.StdWeb.ScreenOrientation __res_1821;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1822 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
+            __res_1821 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ScreenOrientation>(__res_1822);
+            return __res_1821;
         }
     }
 }

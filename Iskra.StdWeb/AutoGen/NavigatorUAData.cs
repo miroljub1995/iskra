@@ -10,11 +10,11 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2757;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2758;
-            __propObject_2758 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
-            __res_2757 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2758);
-            return __res_2757;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray> __res_2902;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2903;
+            __propObject_2903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
+            __res_2902 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_2903);
+            return __res_2902;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_2759;
-            bool __res_2760 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
-            __res_2759 = __res_2760;
-            return __res_2759;
+            bool __res_2904;
+            bool __res_2905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
+            __res_2904 = __res_2905;
+            return __res_2904;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_2761;
-            string __res_2762 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_2761 = __res_2762;
-            return __res_2761;
+            string __res_2906;
+            string __res_2907 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
+            __res_2906 = __res_2907;
+            return __res_2906;
         }
     }
 }
