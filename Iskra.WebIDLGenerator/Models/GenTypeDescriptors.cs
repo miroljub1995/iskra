@@ -43,7 +43,7 @@ public class GenTypeDescriptors
         }
     }
 
-    public void ResolveTypedefInIDLRootType(IDLRootType input)
+    private void ResolveTypedefInIDLRootType(IDLRootType input)
     {
         if (input is CallbackType callbackType)
         {

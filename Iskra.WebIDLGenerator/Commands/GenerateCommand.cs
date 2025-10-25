@@ -239,6 +239,8 @@ public class GenerateCommand : Command
             await AddGenSettingsToDescriptorsAsync(descriptors, reference, false, cancellationToken);
         }
 
+        List<IncludesType> includes = [];
+
         var moduleFiles = GetModuleFiles(settings.Inputs);
         foreach (var moduleFile in moduleFiles)
         {
@@ -308,9 +310,9 @@ public class GenerateCommand : Command
                         IsMain = isMain,
                     });
                 }
-                else if (idlRootType is IncludesType)
+                else if (idlRootType is IncludesType includesType)
                 {
-                    // Includes are handled in a second pass after all types are registered
+                    includes.Add(includesType);
                 }
                 else
                 {
@@ -338,15 +340,56 @@ public class GenerateCommand : Command
                     {
                         AddOrMergeDictionary(descriptors, dictionaryType, settings.Namespace, isMain);
                     }
-                    else if (extendedIdlRootType is IncludesType)
+                    else if (extendedIdlRootType is IncludesType extendedIncludesType)
                     {
-                        // Includes are handled in a second pass after all types are registered
+                        includes.Add(extendedIncludesType);
                     }
                     else
                     {
                         throw new Exception("Something went wrong.");
                     }
                 }
+            }
+        }
+
+        foreach (var include in includes)
+        {
+            if (
+                descriptors.TryGet(include.Target, out var targetDesc) &&
+                descriptors.TryGet(include.Includes, out var includesDesc) &&
+                includesDesc.RootType is InterfaceMixinType mixinType
+            )
+            {
+                if (targetDesc.RootType is InterfaceType targetInterfaceType)
+                {
+                    foreach (var member in mixinType.Members)
+                    {
+                        if (member is AttributeMemberType attributeMemberType)
+                        {
+                            targetInterfaceType.Members.Add(attributeMemberType);
+                        }
+                        else if (member is ConstantMemberType constantMemberType)
+                        {
+                            targetInterfaceType.Members.Add(constantMemberType);
+                        }
+                        else if (member is OperationMemberType operationMemberType)
+                        {
+                            targetInterfaceType.Members.Add(operationMemberType);
+                        }
+                        else
+                        {
+                            throw new Exception("Something went wrong.");
+                        }
+                    }
+                }
+                else
+                {
+                    throw new Exception("Something went wrong.");
+                }
+            }
+            else
+            {
+                throw new Exception("Something went wrong.");
             }
         }
     }
